@@ -6,10 +6,6 @@ const bodyParser = require('body-parser');
 const app = express();
 const PORT = process.env.PORT || 6969; // Używaj portu z Heroku lub 3000 w lokalnym środowisku
 
-app.listen(PORT, () => {
-   console.log(`Serwer działa na http://localhost:${PORT}`);
-});
-
 // Umożliwienie przetwarzania JSON w ciele żądań
 app.use(bodyParser.json());
 
