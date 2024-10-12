@@ -4,7 +4,11 @@ const path = require('path');
 const bodyParser = require('body-parser');
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3000; // Używaj portu z Heroku lub 3000 w lokalnym środowisku
+
+app.listen(PORT, () => {
+   console.log(`Serwer działa na http://localhost:${PORT}`);
+});
 
 // Umożliwienie przetwarzania JSON w ciele żądań
 app.use(bodyParser.json());
@@ -16,9 +20,7 @@ app.get('/', (req, res) => {
    res.sendFile(__dirname + '/public/index.html');
 });
 
-app.listen(PORT, () => {
-   console.log(`Serwer działa na http://localhost:${PORT}`);
-});
+
 
 // Funkcja do przetwarzania folderów i plików
 async function processDirectories(basePath) {
