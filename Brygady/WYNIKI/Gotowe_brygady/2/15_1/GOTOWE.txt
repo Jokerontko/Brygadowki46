@@ -1,0 +1,431 @@
+route_id	service_id	trip_id	arrival_time	departure_time	stop_headsign	stop_name
+-------------------------------------------------------------------------------
+1455	2	193279	04:38:00	04:38:00		Piłsudskiego U. Wojewódzki 03
+1455	2	193279	04:39:00	04:39:00		Pl. Wolności 01
+1455	2	193279	04:42:00	04:42:00		Lwowska Jedn. Wojskowa 02
+1455	2	193279	04:43:00	04:43:00		Lwowska cmentarz 04
+1455	2	193279	04:45:00	04:45:00		Lwowska szpital 06
+1455	2	193279	04:47:00	04:47:00		Lwowska / Olbrachta 08 nż
+1455	2	193279	04:48:00	04:48:00		Bałtycka 02 nż
+1455	2	193279	04:49:00	04:49:00		Morgowa / Bałtycka 03 nż
+1455	2	193279	04:50:00	04:50:00		Morgowa / Cienista 01 nż
+1455	2	193279	04:51:00	04:51:00		Cienista cmentarz 04
+1455	2	193279	04:54:00	04:54:00		Olbrachta / Lwowska 02 nż
+1455	2	193279	04:55:00	04:55:00		Olbrachta / Zygmunta I Starego 04 nż
+1455	2	193279	04:56:00	04:56:00		Olbrachta domki 06 nż
+1455	2	193279	04:57:00	04:57:00		Olbrachta / Św. Kingi 08 nż
+1455	2	193279	04:58:00	04:58:00		Olbrachta pętla 09
+
+1458	2	192556	05:09:00	05:09:00		Olbrachta pętla 09
+1458	2	192556	05:10:00	05:10:00		Olbrachta / Św. Kingi 07 nż
+1458	2	192556	05:11:00	05:11:00		Olbrachta domki 05 nż
+1458	2	192556	05:12:00	05:12:00		Olbrachta / Kr. Marysieńki 03 nż
+1458	2	192556	05:13:00	05:13:00		Olbrachta / Lwowska 01 nż
+1458	2	192556	05:14:00	05:14:00		Cienista / Lwowska 02 nż
+1458	2	192556	05:15:00	05:15:00		Cienista cmentarz 01
+1458	2	192556	05:16:00	05:16:00		Morgowa / Kaszubska 02 nż
+1458	2	192556	05:17:00	05:17:00		Bałtycka 01 nż
+1458	2	192556	05:18:00	05:18:00		Lwowska / Bałtycka 09 nż
+1458	2	192556	05:19:00	05:19:00		Lwowska / Cienista 07 nż
+1458	2	192556	05:21:00	05:21:00		Lwowska szpital 05
+1458	2	192556	05:22:00	05:22:00		Lwowska cmentarz 03
+1458	2	192556	05:23:00	05:23:00		Lwowska Jedn. Wojskowa 01
+1458	2	192556	05:25:00	05:25:00		Piłsudskiego ZDZ 02
+1458	2	192556	05:26:00	05:26:00		Pl. Wolności 04
+1458	2	192556	05:29:00	05:29:00		Cieplińskiego 02
+1458	2	192556	05:30:00	05:30:00		Lisa-Kuli 01
+1458	2	192556	05:32:00	05:32:00		Dąbrowskiego park 02 nż
+1458	2	192556	05:33:00	05:33:00		Dąbrowskiego KW Policji 04
+1458	2	192556	05:34:00	05:34:00		Dąbrowskiego / Bat. Chłopskich 10
+1458	2	192556	05:36:00	05:36:00		Podkarpacka Politechnika 02
+1458	2	192556	05:37:00	05:37:00		Podkarpacka / Matuszczaka 04
+1458	2	192556	05:38:00	05:38:00		Podkarpacka / Wetlińska 06 nż
+1458	2	192556	05:40:00	05:40:00		Podkarpacka kościół 08 nż
+1458	2	192556	05:41:00	05:41:00		Podkarpacka / Nalepy 10 nż
+1458	2	192556	05:43:00	05:43:00		Zwięczycka / Podkarpacka 02 nż
+1458	2	192556	05:44:00	05:44:00		Zwięczycka staw 04 nż
+1458	2	192556	05:45:00	05:45:00		Zwięczycka MPWiK 05
+
+1454	2	193432	06:14:00	06:14:00		Zwięczycka MPWiK 05
+1454	2	193432	06:15:00	06:15:00		Zwięczycka staw 03 nż
+1454	2	193432	06:17:00	06:17:00		Podkarpacka / Zwięczycka 11 nż
+1454	2	193432	06:18:00	06:18:00		Podkarpacka / Nalepy 09 nż
+1454	2	193432	06:20:00	06:20:00		Jarowa kościół 02 nż
+1454	2	193432	06:22:00	06:22:00		Jarowa / Starowiejska 04 nż
+1454	2	193432	06:23:00	06:23:00		Jarowa / Brzegowa 06 nż
+1454	2	193432	06:24:00	06:24:00		Jarowa pętla 07 nż
+1454	2	193432	06:25:00	06:25:00		Jarowa / Brzegowa 05 nż
+1454	2	193432	06:26:00	06:26:00		Jarowa / Starowiejska 03 nż
+1454	2	193432	06:27:00	06:27:00		Jarowa kościół 01 nż
+1454	2	193432	06:29:00	06:29:00		Podkarpacka kościół 07 nż
+1454	2	193432	06:30:00	06:30:00		Podkarpacka / Wetlińska 05 nż
+1454	2	193432	06:31:00	06:31:00		Podkarpacka / Matuszczaka 03
+1454	2	193432	06:33:00	06:33:00		Podkarpacka Politechnika 01
+1454	2	193432	06:36:00	06:36:00		Dąbrowskiego Instytut Muzyki 07
+1454	2	193432	06:37:00	06:37:00		Dąbrowskiego KW Policji 03
+1454	2	193432	06:38:00	06:38:00		Dąbrowskiego park 01 nż
+1454	2	193432	06:42:00	06:42:00		Lisa-Kuli 02
+1454	2	193432	06:43:00	06:43:00		Cieplińskiego 01
+1454	2	193432	06:44:00	06:44:00		Piłsudskiego U. Wojewódzki 03
+1454	2	193432	06:45:00	06:45:00		Pl. Wolności 01
+1454	2	193432	06:48:00	06:48:00		Lwowska Jedn. Wojskowa 02
+1454	2	193432	06:50:00	06:50:00		Lwowska cmentarz 04
+1454	2	193432	06:52:00	06:52:00		Lwowska szpital 06
+1454	2	193432	06:54:00	06:54:00		Lwowska / Olbrachta 08 nż
+1454	2	193432	06:56:00	06:56:00		Bałtycka 02 nż
+1454	2	193432	06:57:00	06:57:00		Morgowa / Bałtycka 03 nż
+1454	2	193432	06:58:00	06:58:00		Morgowa / Cienista 01 nż
+1454	2	193432	06:59:00	06:59:00		Cienista cmentarz 04
+1454	2	193432	07:02:00	07:02:00		Olbrachta / Lwowska 02 nż
+1454	2	193432	07:03:00	07:03:00		Olbrachta / Zygmunta I Starego 04 nż
+1454	2	193432	07:04:00	07:04:00		Olbrachta domki 06 nż
+1454	2	193432	07:05:00	07:05:00		Olbrachta / Św. Kingi 08 nż
+1454	2	193432	07:06:00	07:06:00		Olbrachta pętla 09
+
+1458	2	193091	07:32:00	07:32:00		Olbrachta pętla 09
+1458	2	193091	07:33:00	07:33:00		Olbrachta / Św. Kingi 07 nż
+1458	2	193091	07:34:00	07:34:00		Olbrachta domki 05 nż
+1458	2	193091	07:35:00	07:35:00		Olbrachta / Kr. Marysieńki 03 nż
+1458	2	193091	07:36:00	07:36:00		Olbrachta / Lwowska 01 nż
+1458	2	193091	07:37:00	07:37:00		Cienista / Lwowska 02 nż
+1458	2	193091	07:38:00	07:38:00		Cienista cmentarz 01
+1458	2	193091	07:39:00	07:39:00		Morgowa / Kaszubska 02 nż
+1458	2	193091	07:40:00	07:40:00		Bałtycka 01 nż
+1458	2	193091	07:41:00	07:41:00		Lwowska / Bałtycka 09 nż
+1458	2	193091	07:43:00	07:43:00		Lwowska / Cienista 07 nż
+1458	2	193091	07:47:00	07:47:00		Lwowska szpital 05
+1458	2	193091	07:52:00	07:52:00		Lwowska cmentarz 03
+1458	2	193091	07:53:00	07:53:00		Lwowska Jedn. Wojskowa 01
+1458	2	193091	07:55:00	07:55:00		Piłsudskiego ZDZ 02
+1458	2	193091	07:57:00	07:57:00		Pl. Wolności 04
+1458	2	193091	08:00:00	08:00:00		Cieplińskiego 02
+1458	2	193091	08:01:00	08:01:00		Lisa-Kuli 01
+1458	2	193091	08:04:00	08:04:00		Dąbrowskiego park 02 nż
+1458	2	193091	08:05:00	08:05:00		Dąbrowskiego KW Policji 04
+1458	2	193091	08:06:00	08:06:00		Dąbrowskiego / Bat. Chłopskich 10
+1458	2	193091	08:09:00	08:09:00		Podkarpacka Politechnika 02
+1458	2	193091	08:10:00	08:10:00		Podkarpacka / Matuszczaka 04
+1458	2	193091	08:11:00	08:11:00		Podkarpacka / Wetlińska 06 nż
+1458	2	193091	08:13:00	08:13:00		Podkarpacka kościół 08 nż
+1458	2	193091	08:14:00	08:14:00		Podkarpacka / Nalepy 10 nż
+1458	2	193091	08:16:00	08:16:00		Zwięczycka / Podkarpacka 02 nż
+1458	2	193091	08:17:00	08:17:00		Zwięczycka staw 04 nż
+1458	2	193091	08:18:00	08:18:00		Zwięczycka MPWiK 05
+
+1454	2	192672	08:44:00	08:44:00		Zwięczycka MPWiK 05
+1454	2	192672	08:45:00	08:45:00		Zwięczycka staw 03 nż
+1454	2	192672	08:47:00	08:47:00		Podkarpacka / Zwięczycka 11 nż
+1454	2	192672	08:48:00	08:48:00		Podkarpacka / Nalepy 09 nż
+1454	2	192672	08:49:00	08:49:00		Jarowa kościół 02 nż
+1454	2	192672	08:51:00	08:51:00		Jarowa / Starowiejska 04 nż
+1454	2	192672	08:52:00	08:52:00		Jarowa / Brzegowa 06 nż
+1454	2	192672	08:53:00	08:53:00		Jarowa pętla 07 nż
+1454	2	192672	08:54:00	08:54:00		Jarowa / Brzegowa 05 nż
+1454	2	192672	08:55:00	08:55:00		Jarowa / Starowiejska 03 nż
+1454	2	192672	08:56:00	08:56:00		Jarowa kościół 01 nż
+1454	2	192672	08:58:00	08:58:00		Podkarpacka kościół 07 nż
+1454	2	192672	08:59:00	08:59:00		Podkarpacka / Wetlińska 05 nż
+1454	2	192672	09:00:00	09:00:00		Podkarpacka / Matuszczaka 03
+1454	2	192672	09:02:00	09:02:00		Podkarpacka Politechnika 01
+1454	2	192672	09:05:00	09:05:00		Dąbrowskiego Instytut Muzyki 07
+1454	2	192672	09:06:00	09:06:00		Dąbrowskiego KW Policji 03
+1454	2	192672	09:07:00	09:07:00		Dąbrowskiego park 01 nż
+1454	2	192672	09:11:00	09:11:00		Lisa-Kuli 02
+1454	2	192672	09:12:00	09:12:00		Cieplińskiego 01
+1454	2	192672	09:14:00	09:14:00		Piłsudskiego U. Wojewódzki 03
+1454	2	192672	09:15:00	09:15:00		Pl. Wolności 01
+1454	2	192672	09:18:00	09:18:00		Lwowska Jedn. Wojskowa 02
+1454	2	192672	09:20:00	09:20:00		Lwowska cmentarz 04
+1454	2	192672	09:22:00	09:22:00		Lwowska szpital 06
+1454	2	192672	09:24:00	09:24:00		Lwowska / Olbrachta 08 nż
+1454	2	192672	09:25:00	09:25:00		Bałtycka 02 nż
+1454	2	192672	09:26:00	09:26:00		Morgowa / Bałtycka 03 nż
+1454	2	192672	09:27:00	09:27:00		Morgowa / Cienista 01 nż
+1454	2	192672	09:28:00	09:28:00		Cienista cmentarz 04
+1454	2	192672	09:31:00	09:31:00		Olbrachta / Lwowska 02 nż
+1454	2	192672	09:32:00	09:32:00		Olbrachta / Zygmunta I Starego 04 nż
+1454	2	192672	09:33:00	09:33:00		Olbrachta domki 06 nż
+1454	2	192672	09:34:00	09:34:00		Olbrachta / Św. Kingi 08 nż
+1454	2	192672	09:35:00	09:35:00		Olbrachta pętla 09
+
+1458	2	193434	10:06:00	10:06:00		Olbrachta pętla 09
+1458	2	193434	10:07:00	10:07:00		Olbrachta / Św. Kingi 07 nż
+1458	2	193434	10:08:00	10:08:00		Olbrachta domki 05 nż
+1458	2	193434	10:09:00	10:09:00		Olbrachta / Kr. Marysieńki 03 nż
+1458	2	193434	10:10:00	10:10:00		Olbrachta / Lwowska 01 nż
+1458	2	193434	10:11:00	10:11:00		Cienista / Lwowska 02 nż
+1458	2	193434	10:12:00	10:12:00		Cienista cmentarz 01
+1458	2	193434	10:13:00	10:13:00		Morgowa / Kaszubska 02 nż
+1458	2	193434	10:14:00	10:14:00		Bałtycka 01 nż
+1458	2	193434	10:15:00	10:15:00		Lwowska / Bałtycka 09 nż
+1458	2	193434	10:17:00	10:17:00		Lwowska / Cienista 07 nż
+1458	2	193434	10:19:00	10:19:00		Lwowska szpital 05
+1458	2	193434	10:22:00	10:22:00		Lwowska cmentarz 03
+1458	2	193434	10:23:00	10:23:00		Lwowska Jedn. Wojskowa 01
+1458	2	193434	10:25:00	10:25:00		Piłsudskiego ZDZ 02
+1458	2	193434	10:27:00	10:27:00		Pl. Wolności 04
+1458	2	193434	10:30:00	10:30:00		Cieplińskiego 02
+1458	2	193434	10:31:00	10:31:00		Lisa-Kuli 01
+1458	2	193434	10:34:00	10:34:00		Dąbrowskiego park 02 nż
+1458	2	193434	10:35:00	10:35:00		Dąbrowskiego KW Policji 04
+1458	2	193434	10:36:00	10:36:00		Dąbrowskiego / Bat. Chłopskich 10
+1458	2	193434	10:39:00	10:39:00		Podkarpacka Politechnika 02
+1458	2	193434	10:40:00	10:40:00		Podkarpacka / Matuszczaka 04
+1458	2	193434	10:41:00	10:41:00		Podkarpacka / Wetlińska 06 nż
+1458	2	193434	10:43:00	10:43:00		Podkarpacka kościół 08 nż
+1458	2	193434	10:44:00	10:44:00		Podkarpacka / Nalepy 10 nż
+1458	2	193434	10:46:00	10:46:00		Zwięczycka / Podkarpacka 02 nż
+1458	2	193434	10:47:00	10:47:00		Zwięczycka staw 04 nż
+1458	2	193434	10:48:00	10:48:00		Zwięczycka MPWiK 05
+
+1454	2	192803	11:14:00	11:14:00		Zwięczycka MPWiK 05
+1454	2	192803	11:15:00	11:15:00		Zwięczycka staw 03 nż
+1454	2	192803	11:17:00	11:17:00		Podkarpacka / Zwięczycka 11 nż
+1454	2	192803	11:18:00	11:18:00		Podkarpacka / Nalepy 09 nż
+1454	2	192803	11:19:00	11:19:00		Jarowa kościół 02 nż
+1454	2	192803	11:21:00	11:21:00		Jarowa / Starowiejska 04 nż
+1454	2	192803	11:22:00	11:22:00		Jarowa / Brzegowa 06 nż
+1454	2	192803	11:23:00	11:23:00		Jarowa pętla 07 nż
+1454	2	192803	11:24:00	11:24:00		Jarowa / Brzegowa 05 nż
+1454	2	192803	11:25:00	11:25:00		Jarowa / Starowiejska 03 nż
+1454	2	192803	11:26:00	11:26:00		Jarowa kościół 01 nż
+1454	2	192803	11:28:00	11:28:00		Podkarpacka kościół 07 nż
+1454	2	192803	11:29:00	11:29:00		Podkarpacka / Wetlińska 05 nż
+1454	2	192803	11:30:00	11:30:00		Podkarpacka / Matuszczaka 03
+1454	2	192803	11:32:00	11:32:00		Podkarpacka Politechnika 01
+1454	2	192803	11:35:00	11:35:00		Dąbrowskiego Instytut Muzyki 07
+1454	2	192803	11:36:00	11:36:00		Dąbrowskiego KW Policji 03
+1454	2	192803	11:37:00	11:37:00		Dąbrowskiego park 01 nż
+1454	2	192803	11:41:00	11:41:00		Lisa-Kuli 02
+1454	2	192803	11:42:00	11:42:00		Cieplińskiego 01
+1454	2	192803	11:44:00	11:44:00		Piłsudskiego U. Wojewódzki 03
+1454	2	192803	11:45:00	11:45:00		Pl. Wolności 01
+1454	2	192803	11:49:00	11:49:00		Lwowska Jedn. Wojskowa 02
+1454	2	192803	11:52:00	11:52:00		Lwowska cmentarz 04
+1454	2	192803	11:54:00	11:54:00		Lwowska szpital 06
+1454	2	192803	11:56:00	11:56:00		Lwowska / Olbrachta 08 nż
+1454	2	192803	11:58:00	11:58:00		Bałtycka 02 nż
+1454	2	192803	11:59:00	11:59:00		Morgowa / Bałtycka 03 nż
+1454	2	192803	12:00:00	12:00:00		Morgowa / Cienista 01 nż
+1454	2	192803	12:01:00	12:01:00		Cienista cmentarz 04
+1454	2	192803	12:04:00	12:04:00		Olbrachta / Lwowska 02 nż
+1454	2	192803	12:05:00	12:05:00		Olbrachta / Zygmunta I Starego 04 nż
+1454	2	192803	12:06:00	12:06:00		Olbrachta domki 06 nż
+1454	2	192803	12:07:00	12:07:00		Olbrachta / Św. Kingi 08 nż
+1454	2	192803	12:08:00	12:08:00		Olbrachta pętla 09
+
+1309	2	193087	12:36:00	12:36:00		Olbrachta pętla 09
+1309	2	193087	12:37:00	12:37:00		Olbrachta / Św. Kingi 07 nż
+1309	2	193087	12:38:00	12:38:00		Olbrachta domki 05 nż
+1309	2	193087	12:39:00	12:39:00		Olbrachta / Kr. Marysieńki 03 nż
+1309	2	193087	12:40:00	12:40:00		Olbrachta / Lwowska 01 nż
+1309	2	193087	12:41:00	12:41:00		Cienista / Lwowska 02 nż
+1309	2	193087	12:42:00	12:42:00		Cienista cmentarz 01
+1309	2	193087	12:43:00	12:43:00		Morgowa / Kaszubska 02 nż
+1309	2	193087	12:44:00	12:44:00		Bałtycka 01 nż
+1309	2	193087	12:45:00	12:45:00		Lwowska / Bałtycka 09 nż
+1309	2	193087	12:47:00	12:47:00		Lwowska / Cienista 07 nż
+1309	2	193087	12:49:00	12:49:00		Lwowska szpital 05
+1309	2	193087	12:52:00	12:52:00		Lwowska cmentarz 03
+1309	2	193087	12:53:00	12:53:00		Lwowska Jedn. Wojskowa 01
+1309	2	193087	12:55:00	12:55:00		Piłsudskiego ZDZ 02
+1309	2	193087	12:57:00	12:57:00		Pl. Wolności 04
+1309	2	193087	13:01:00	13:01:00		Cieplińskiego 02
+1309	2	193087	13:02:00	13:02:00		Lisa-Kuli 01
+1309	2	193087	13:05:00	13:05:00		Dąbrowskiego park 02 nż
+1309	2	193087	13:06:00	13:06:00		Dąbrowskiego KW Policji 04
+1309	2	193087	13:07:00	13:07:00		Dąbrowskiego / Bat. Chłopskich 10
+1309	2	193087	13:10:00	13:10:00		Podkarpacka Politechnika 02
+1309	2	193087	13:11:00	13:11:00		Podkarpacka / Matuszczaka 04
+1309	2	193087	13:12:00	13:12:00		Podkarpacka / Wetlińska 06 nż
+1309	2	193087	13:14:00	13:14:00		Podkarpacka kościół 08 nż
+1309	2	193087	13:15:00	13:15:00		Jarowa kościół 02 nż
+1309	2	193087	13:17:00	13:17:00		Jarowa / Starowiejska 04 nż
+1309	2	193087	13:18:00	13:18:00		Jarowa / Brzegowa 06 nż
+1309	2	193087	13:19:00	13:19:00		Jarowa pętla 07 nż
+1309	2	193087	13:20:00	13:20:00		Jarowa / Brzegowa 05 nż
+1309	2	193087	13:21:00	13:21:00		Jarowa / Starowiejska 03 nż
+1309	2	193087	13:22:00	13:22:00		Jarowa kościół 01 nż
+1309	2	193087	13:24:00	13:24:00		Podkarpacka / Nalepy 10 nż
+1309	2	193087	13:26:00	13:26:00		Zwięczycka / Podkarpacka 02 nż
+1309	2	193087	13:27:00	13:27:00		Zwięczycka staw 04 nż
+1309	2	193087	13:28:00	13:28:00		Zwięczycka MPWiK 05
+
+1459	2	193448	13:52:00	13:52:00		Zwięczycka MPWiK 05
+1459	2	193448	13:53:00	13:53:00		Zwięczycka staw 03 nż
+1459	2	193448	13:55:00	13:55:00		Podkarpacka / Zwięczycka 11 nż
+1459	2	193448	13:56:00	13:56:00		Podkarpacka / Nalepy 09 nż
+1459	2	193448	13:58:00	13:58:00		Podkarpacka kościół 07 nż
+1459	2	193448	13:59:00	13:59:00		Podkarpacka / Wetlińska 05 nż
+1459	2	193448	14:00:00	14:00:00		Podkarpacka / Matuszczaka 03
+1459	2	193448	14:02:00	14:02:00		Podkarpacka Politechnika 01
+1459	2	193448	14:05:00	14:05:00		Dąbrowskiego Instytut Muzyki 07
+1459	2	193448	14:06:00	14:06:00		Dąbrowskiego KW Policji 03
+1459	2	193448	14:07:00	14:07:00		Dąbrowskiego park 01 nż
+1459	2	193448	14:11:00	14:11:00		Lisa-Kuli 02
+1459	2	193448	14:12:00	14:12:00		Cieplińskiego 01
+1459	2	193448	14:14:00	14:14:00		Piłsudskiego U. Wojewódzki 03
+1459	2	193448	14:15:00	14:15:00		Pl. Wolności 01
+1459	2	193448	14:19:00	14:19:00		Lwowska Jedn. Wojskowa 02
+1459	2	193448	14:22:00	14:22:00		Lwowska cmentarz 04
+1459	2	193448	14:24:00	14:24:00		Lwowska szpital 06
+1459	2	193448	14:26:00	14:26:00		Lwowska / Olbrachta 08 nż
+1459	2	193448	14:28:00	14:28:00		Bałtycka 02 nż
+1459	2	193448	14:29:00	14:29:00		Morgowa / Bałtycka 03 nż
+1459	2	193448	14:30:00	14:30:00		Morgowa / Cienista 01 nż
+1459	2	193448	14:31:00	14:31:00		Cienista cmentarz 04
+1459	2	193448	14:34:00	14:34:00		Olbrachta / Lwowska 02 nż
+1459	2	193448	14:35:00	14:35:00		Olbrachta / Zygmunta I Starego 04 nż
+1459	2	193448	14:36:00	14:36:00		Olbrachta domki 06 nż
+1459	2	193448	14:37:00	14:37:00		Olbrachta / Św. Kingi 08 nż
+1459	2	193448	14:38:00	14:38:00		Olbrachta pętla 09
+
+1309	2	192461	15:06:00	15:06:00		Olbrachta pętla 09
+1309	2	192461	15:07:00	15:07:00		Olbrachta / Św. Kingi 07 nż
+1309	2	192461	15:08:00	15:08:00		Olbrachta domki 05 nż
+1309	2	192461	15:09:00	15:09:00		Olbrachta / Kr. Marysieńki 03 nż
+1309	2	192461	15:10:00	15:10:00		Olbrachta / Lwowska 01 nż
+1309	2	192461	15:11:00	15:11:00		Cienista / Lwowska 02 nż
+1309	2	192461	15:12:00	15:12:00		Cienista cmentarz 01
+1309	2	192461	15:13:00	15:13:00		Morgowa / Kaszubska 02 nż
+1309	2	192461	15:14:00	15:14:00		Bałtycka 01 nż
+1309	2	192461	15:15:00	15:15:00		Lwowska / Bałtycka 09 nż
+1309	2	192461	15:17:00	15:17:00		Lwowska / Cienista 07 nż
+1309	2	192461	15:19:00	15:19:00		Lwowska szpital 05
+1309	2	192461	15:22:00	15:22:00		Lwowska cmentarz 03
+1309	2	192461	15:23:00	15:23:00		Lwowska Jedn. Wojskowa 01
+1309	2	192461	15:26:00	15:26:00		Piłsudskiego ZDZ 02
+1309	2	192461	15:29:00	15:29:00		Pl. Wolności 04
+1309	2	192461	15:35:00	15:35:00		Cieplińskiego 02
+1309	2	192461	15:36:00	15:36:00		Lisa-Kuli 01
+1309	2	192461	15:40:00	15:40:00		Dąbrowskiego park 02 nż
+1309	2	192461	15:41:00	15:41:00		Dąbrowskiego KW Policji 04
+1309	2	192461	15:42:00	15:42:00		Dąbrowskiego / Bat. Chłopskich 10
+1309	2	192461	15:47:00	15:47:00		Podkarpacka Politechnika 02
+1309	2	192461	15:48:00	15:48:00		Podkarpacka / Matuszczaka 04
+1309	2	192461	15:49:00	15:49:00		Podkarpacka / Wetlińska 06 nż
+1309	2	192461	15:51:00	15:51:00		Podkarpacka kościół 08 nż
+1309	2	192461	15:52:00	15:52:00		Jarowa kościół 02 nż
+1309	2	192461	15:54:00	15:54:00		Jarowa / Starowiejska 04 nż
+1309	2	192461	15:55:00	15:55:00		Jarowa / Brzegowa 06 nż
+1309	2	192461	15:56:00	15:56:00		Jarowa pętla 07 nż
+1309	2	192461	15:57:00	15:57:00		Jarowa / Brzegowa 05 nż
+1309	2	192461	15:58:00	15:58:00		Jarowa / Starowiejska 03 nż
+1309	2	192461	15:59:00	15:59:00		Jarowa kościół 01 nż
+1309	2	192461	16:01:00	16:01:00		Podkarpacka / Nalepy 10 nż
+1309	2	192461	16:05:00	16:05:00		Zwięczycka / Podkarpacka 02 nż
+1309	2	192461	16:06:00	16:06:00		Zwięczycka staw 04 nż
+1309	2	192461	16:07:00	16:07:00		Zwięczycka MPWiK 05
+
+1459	2	192959	16:19:00	16:19:00		Zwięczycka MPWiK 05
+1459	2	192959	16:20:00	16:20:00		Zwięczycka staw 03 nż
+1459	2	192959	16:22:00	16:22:00		Podkarpacka / Zwięczycka 11 nż
+1459	2	192959	16:23:00	16:23:00		Podkarpacka / Nalepy 09 nż
+1459	2	192959	16:25:00	16:25:00		Podkarpacka kościół 07 nż
+1459	2	192959	16:26:00	16:26:00		Podkarpacka / Wetlińska 05 nż
+1459	2	192959	16:27:00	16:27:00		Podkarpacka / Matuszczaka 03
+1459	2	192959	16:31:00	16:31:00		Podkarpacka Politechnika 01
+1459	2	192959	16:34:00	16:34:00		Dąbrowskiego Instytut Muzyki 07
+1459	2	192959	16:35:00	16:35:00		Dąbrowskiego KW Policji 03
+1459	2	192959	16:36:00	16:36:00		Dąbrowskiego park 01 nż
+1459	2	192959	16:41:00	16:41:00		Lisa-Kuli 02
+1459	2	192959	16:42:00	16:42:00		Cieplińskiego 01
+1459	2	192959	16:44:00	16:44:00		Piłsudskiego U. Wojewódzki 03
+1459	2	192959	16:45:00	16:45:00		Pl. Wolności 01
+1459	2	192959	16:49:00	16:49:00		Lwowska Jedn. Wojskowa 02
+1459	2	192959	16:52:00	16:52:00		Lwowska cmentarz 04
+1459	2	192959	16:54:00	16:54:00		Lwowska szpital 06
+1459	2	192959	16:56:00	16:56:00		Lwowska / Olbrachta 08 nż
+1459	2	192959	16:58:00	16:58:00		Bałtycka 02 nż
+1459	2	192959	16:59:00	16:59:00		Morgowa / Bałtycka 03 nż
+1459	2	192959	17:00:00	17:00:00		Morgowa / Cienista 01 nż
+1459	2	192959	17:01:00	17:01:00		Cienista cmentarz 04
+1459	2	192959	17:04:00	17:04:00		Olbrachta / Lwowska 02 nż
+1459	2	192959	17:05:00	17:05:00		Olbrachta / Zygmunta I Starego 04 nż
+1459	2	192959	17:06:00	17:06:00		Olbrachta domki 06 nż
+1459	2	192959	17:07:00	17:07:00		Olbrachta / Św. Kingi 08 nż
+1459	2	192959	17:08:00	17:08:00		Olbrachta pętla 09
+
+1309	2	192924	17:36:00	17:36:00		Olbrachta pętla 09
+1309	2	192924	17:37:00	17:37:00		Olbrachta / Św. Kingi 07 nż
+1309	2	192924	17:38:00	17:38:00		Olbrachta domki 05 nż
+1309	2	192924	17:39:00	17:39:00		Olbrachta / Kr. Marysieńki 03 nż
+1309	2	192924	17:40:00	17:40:00		Olbrachta / Lwowska 01 nż
+1309	2	192924	17:41:00	17:41:00		Cienista / Lwowska 02 nż
+1309	2	192924	17:42:00	17:42:00		Cienista cmentarz 01
+1309	2	192924	17:43:00	17:43:00		Morgowa / Kaszubska 02 nż
+1309	2	192924	17:44:00	17:44:00		Bałtycka 01 nż
+1309	2	192924	17:45:00	17:45:00		Lwowska / Bałtycka 09 nż
+1309	2	192924	17:47:00	17:47:00		Lwowska / Cienista 07 nż
+1309	2	192924	17:49:00	17:49:00		Lwowska szpital 05
+1309	2	192924	17:52:00	17:52:00		Lwowska cmentarz 03
+1309	2	192924	17:53:00	17:53:00		Lwowska Jedn. Wojskowa 01
+1309	2	192924	17:55:00	17:55:00		Piłsudskiego ZDZ 02
+1309	2	192924	17:57:00	17:57:00		Pl. Wolności 04
+1309	2	192924	18:01:00	18:01:00		Cieplińskiego 02
+1309	2	192924	18:02:00	18:02:00		Lisa-Kuli 01
+1309	2	192924	18:05:00	18:05:00		Dąbrowskiego park 02 nż
+1309	2	192924	18:06:00	18:06:00		Dąbrowskiego KW Policji 04
+1309	2	192924	18:07:00	18:07:00		Dąbrowskiego / Bat. Chłopskich 10
+1309	2	192924	18:11:00	18:11:00		Podkarpacka Politechnika 02
+1309	2	192924	18:12:00	18:12:00		Podkarpacka / Matuszczaka 04
+1309	2	192924	18:13:00	18:13:00		Podkarpacka / Wetlińska 06 nż
+1309	2	192924	18:15:00	18:15:00		Podkarpacka kościół 08 nż
+1309	2	192924	18:16:00	18:16:00		Jarowa kościół 02 nż
+1309	2	192924	18:18:00	18:18:00		Jarowa / Starowiejska 04 nż
+1309	2	192924	18:19:00	18:19:00		Jarowa / Brzegowa 06 nż
+1309	2	192924	18:20:00	18:20:00		Jarowa pętla 07 nż
+1309	2	192924	18:21:00	18:21:00		Jarowa / Brzegowa 05 nż
+1309	2	192924	18:22:00	18:22:00		Jarowa / Starowiejska 03 nż
+1309	2	192924	18:23:00	18:23:00		Jarowa kościół 01 nż
+1309	2	192924	18:25:00	18:25:00		Podkarpacka / Nalepy 10 nż
+1309	2	192924	18:28:00	18:28:00		Zwięczycka / Podkarpacka 02 nż
+1309	2	192924	18:29:00	18:29:00		Zwięczycka staw 04 nż
+1309	2	192924	18:30:00	18:30:00		Zwięczycka MPWiK 05
+
+1459	2	192701	19:02:00	19:02:00		Zwięczycka MPWiK 05
+1459	2	192701	19:03:00	19:03:00		Zwięczycka staw 03 nż
+1459	2	192701	19:04:00	19:04:00		Podkarpacka / Zwięczycka 11 nż
+1459	2	192701	19:05:00	19:05:00		Podkarpacka / Nalepy 09 nż
+1459	2	192701	19:07:00	19:07:00		Podkarpacka kościół 07 nż
+1459	2	192701	19:08:00	19:08:00		Podkarpacka / Wetlińska 05 nż
+1459	2	192701	19:09:00	19:09:00		Podkarpacka / Matuszczaka 03
+1459	2	192701	19:11:00	19:11:00		Podkarpacka Politechnika 01
+1459	2	192701	19:13:00	19:13:00		Dąbrowskiego Instytut Muzyki 07
+1459	2	192701	19:14:00	19:14:00		Dąbrowskiego KW Policji 03
+1459	2	192701	19:15:00	19:15:00		Dąbrowskiego park 01 nż
+1459	2	192701	19:18:00	19:18:00		Lisa-Kuli 02
+1459	2	192701	19:19:00	19:19:00		Cieplińskiego 01
+1459	2	192701	19:20:00	19:20:00		Piłsudskiego U. Wojewódzki 03
+1459	2	192701	19:21:00	19:21:00		Pl. Wolności 01
+1459	2	192701	19:24:00	19:24:00		Lwowska Jedn. Wojskowa 02
+1459	2	192701	19:26:00	19:26:00		Lwowska cmentarz 04
+1459	2	192701	19:27:00	19:27:00		Lwowska szpital 06
+1459	2	192701	19:29:00	19:29:00		Lwowska / Olbrachta 08 nż
+1459	2	192701	19:30:00	19:30:00		Bałtycka 02 nż
+1459	2	192701	19:31:00	19:31:00		Morgowa / Bałtycka 03 nż
+1459	2	192701	19:32:00	19:32:00		Morgowa / Cienista 01 nż
+1459	2	192701	19:33:00	19:33:00		Cienista cmentarz 04
+1459	2	192701	19:36:00	19:36:00		Olbrachta / Lwowska 02 nż
+1459	2	192701	19:37:00	19:37:00		Olbrachta / Zygmunta I Starego 04 nż
+1459	2	192701	19:38:00	19:38:00		Olbrachta domki 06 nż
+1459	2	192701	19:39:00	19:39:00		Olbrachta / Św. Kingi 08 nż
+1459	2	192701	19:40:00	19:40:00		Olbrachta pętla 09
+
+1294	2	193441	20:09:00	20:09:00		Olbrachta pętla 09
+1294	2	193441	20:10:00	20:10:00		Olbrachta / Św. Kingi 07 nż
+1294	2	193441	20:11:00	20:11:00		Olbrachta domki 05 nż
+1294	2	193441	20:12:00	20:12:00		Olbrachta / Kr. Marysieńki 03 nż
+1294	2	193441	20:13:00	20:13:00		Olbrachta / Lwowska 01 nż
+1294	2	193441	20:14:00	20:14:00		Cienista / Lwowska 02 nż
+1294	2	193441	20:15:00	20:15:00		Cienista cmentarz 01
+1294	2	193441	20:16:00	20:16:00		Morgowa / Kaszubska 02 nż
+1294	2	193441	20:17:00	20:17:00		Bałtycka 01 nż
+1294	2	193441	20:18:00	20:18:00		Lwowska / Bałtycka 09 nż
+1294	2	193441	20:19:00	20:19:00		Lwowska / Cienista 07 nż
+1294	2	193441	20:21:00	20:21:00		Lwowska szpital 05
+1294	2	193441	20:22:00	20:22:00		Lwowska cmentarz 03
+1294	2	193441	20:23:00	20:23:00		Lwowska Jedn. Wojskowa 01
+1294	2	193441	20:25:00	20:25:00		Piłsudskiego ZDZ 02
+1294	2	193441	20:26:00	20:26:00		Pl. Wolności 04
+1294	2	193441	20:27:00	20:27:00		Piłsudskiego U. Wojewódzki 06

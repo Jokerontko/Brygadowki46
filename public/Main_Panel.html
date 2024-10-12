@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Strona Główna</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <header>
+      <div>
+         <center>
+            <a href="Main_Panel.html" class="menu">Panel Główny</a>
+            <a href="Brygady/ChooseDay.html" class="menu">Spis Brygad</a>
+            <a href="#" class="menu exit" id="logout">Opuść Panel</a>
+            <hr>
+         </center>
+      </div>
+   </header>
+
+   <div class="container">
+      <h1 id="welcome-message">Witaj, </h1>
+      <!-- Pozostała treść panelu głównego -->
+   </div>
+
+   <script>
+      // Funkcja do sprawdzenia, czy użytkownik jest zalogowany
+      function checkLogin() {
+         const user = JSON.parse(sessionStorage.getItem('user'));
+
+         // Jeśli nie ma użytkownika w sessionStorage, przekieruj na stronę logowania
+         if (!user) {
+            window.location.href = 'zoltakartka.html';
+         }
+      }
+
+      // Sprawdź, czy użytkownik jest zalogowany po załadowaniu strony
+      window.onload = checkLogin;
+
+      // Dodaj funkcję wylogowania
+      document.getElementById('logout').addEventListener('click', function() {
+         // Wyczyść sessionStorage
+         sessionStorage.clear();
+
+         // Przekieruj na stronę logowania
+         window.location.href = 'index.html';
+      });
+
+      // Pobierz dane użytkownika z sessionStorage
+      const user = JSON.parse(sessionStorage.getItem('user'));
+
+      if (user) {
+         // Pobierz bieżącą godzinę
+         const now = new Date();
+         const currentHour = now.getHours();
+
+         let greeting = 'Witaj';
+
+         // Sprawdź godzinę i ustaw odpowiednie powitanie
+         if (currentHour >= 6 && currentHour < 20) {
+            greeting = 'Dzień dobry';
+         } else {
+            greeting = 'Dobry wieczór';
+         }
+
+         // Wstaw powitanie z imieniem użytkownika do nagłówka H1
+         document.getElementById('welcome-message').textContent = `${greeting}, ${user.name}!`;
+      }
+
+   </script>
+
+   <div class="News">
+      <h2>Nagłówek WOW</h2>
+      <p class="AddDate">Dodano: 23/10/2024</p>
+      <hr>
+   </div>
+
+   <style>
+      .AddDate {
+         color: grey;
+         font-size: 10px;
+         padding: 0vw 0.0w 0.0;
+      }
+
+      body {
+         background: rgb(50, 50, 50);
+         font-family: Arial;
+         justify-content: center;
+         color: white;
+      }
+
+      h1 {
+         font-size: 30px;
+      }
+
+      .menu {
+         display: inline-block;
+         text-decoration: none;
+         color: white;
+         border: 1.5px solid;
+         border-radius: 5px;
+         padding: 10px 20px;
+         margin: 0 10px;
+         transition: background-color 0.3s ease;
+      }
+
+      .menu:hover {
+         border-color: orange;
+         background-color: rgba(255, 165, 0, 0.2);
+         color: white;
+      }
+
+      .exit {
+         border-color: red;
+         transition: background-color 0.3s ease;
+      }
+
+      .exit:hover {
+         border-color: red;
+         background-color: red;
+         color: white;
+      }
+
+      .button-container {
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+         gap: 20px;
+         max-width: 400px;
+         margin-bottom: 20px;
+      }
+
+   </style>
+
+</body>
+
+</html>

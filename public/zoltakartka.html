@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Du hast ein Problem</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="shortcut icon" href="Photos/uno_block.jpg">
+</head>
+
+<body>
+   <center>
+      <hr>
+      <br>
+      <h1 class="error">ERROR 46</h1>
+
+      <br>
+      <h1>Zdajesz sobie sprawę, że nie powinno Cię tu być?</h1>
+      <br><br>
+      <a href="index.html" class="back">Powrót do logowania</a>
+      <br>
+      <hr>
+   </center>
+   <footer>
+      <p class="footer">Jeżeli uważasz to za błąd systemu, zgłoś to administratorowi strony.</p>
+      <p class="id_error">Kod błędu: #access not granted</p>
+   </footer>
+   <style>
+      body {
+         background: rgb(50, 50, 50);
+         font-family: Arial;
+         justify-content: center;
+         align-items: center;
+         color: white;
+         margin: 14%;
+      }
+
+      .error {
+         color: red;
+         font-size: 40px;
+         margin: 0px 0px 10px;
+         /* Dodałem odstęp między ERROR 46 a #access not granted */
+      }
+
+      .id_error {
+         color: grey;
+         font-size: 12px;
+         margin: 0px 0px 20px;
+         /* Dodałem większy odstęp poniżej #access not granted */
+      }
+
+      h1 {
+         font-size: 24px;
+         margin: 0px 0px 0px;
+      }
+
+      .footer {
+         font-size: 12px;
+         color: grey;
+         margin: 0px 0px 0px;
+
+      }
+
+      .back {
+         text-decoration: none;
+         color: white;
+         border: 1.5px solid;
+         border-radius: 5px;
+         padding: 0.5vw 0.5vw 0.5vw;
+         transition: color 0.1s;
+      }
+
+      .back:hover {
+         border-color: orange;
+         color: white;
+      }
+
+   </style>
+</body>
+
+</html>

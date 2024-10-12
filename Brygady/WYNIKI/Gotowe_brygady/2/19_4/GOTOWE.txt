@@ -1,0 +1,451 @@
+route_id	service_id	trip_id	arrival_time	departure_time	stop_headsign	stop_name
+-------------------------------------------------------------------------------
+1580	2	190752	05:13:00	05:13:00		Obr. Poczty Gdańskiej pętla 08
+1580	2	190752	05:14:00	05:14:00		Obr. Poczty Gdańskiej / Raginisa 01
+1580	2	190752	05:16:00	05:16:00		Wyzwolenia / Ofiar Katynia 07
+1580	2	190752	05:17:00	05:17:00		Wyzwolenia kościół 05
+1580	2	190752	05:18:00	05:18:00		Okulickiego / Wyzwolenia 05 nż
+1580	2	190752	05:19:00	05:19:00		Okulickiego / Zwierzyniecka 03 nż
+1580	2	190752	05:20:00	05:20:00		Okulickiego C. Handlowe 01
+1580	2	190752	05:22:00	05:22:00		Krakowska Jedn. Wojskowa 01
+1580	2	190752	05:25:00	05:25:00		Piłsudskiego U. Wojewódzki 03
+1580	2	190752	05:26:00	05:26:00		Pl. Wolności 01
+1580	2	190752	05:28:00	05:28:00		Rejtana / Lwowska 01
+1580	2	190752	05:29:00	05:29:00		Rejtana / Kustronia 03 nż
+1580	2	190752	05:30:00	05:30:00		Rejtana Uniwersytet 05
+1580	2	190752	05:31:00	05:31:00		Rejtana / Kopisto 07
+1580	2	190752	05:32:00	05:32:00		Rejtana / Popiełuszki 09
+1580	2	190752	05:34:00	05:34:00		Sikorskiego / Powst. Warszawy 02 nż
+1580	2	190752	05:35:00	05:35:00		Sikorskiego Katedra 04 nż
+1580	2	190752	05:36:00	05:36:00		Łukasiewicza / Sikorskiego 02 nż
+1580	2	190752	05:37:00	05:37:00		Łukasiewicza / Zimowit 04 nż
+1580	2	190752	05:38:00	05:38:00		Łukasiewicza / Gumińskich 06 nż
+1580	2	190752	05:39:00	05:39:00		Łukasiewicza pętla 10
+
+1584	2	189892	05:43:00	05:43:00		Łukasiewicza pętla 10
+1584	2	189892	05:44:00	05:44:00		Łukasiewicza / Sasanki 03 nż
+1584	2	189892	05:45:00	05:45:00		Łukasiewicza / Krokusowa 01 nż
+1584	2	189892	05:46:00	05:46:00		Sikorskiego Katedra 01 nż
+1584	2	189892	05:48:00	05:48:00		Rejtana / Armii Krajowej 12
+1584	2	189892	05:49:00	05:49:00		Rejtana / Paderewskiego 10
+1584	2	189892	05:50:00	05:50:00		Rejtana / Krzyżanowskiego 08
+1584	2	189892	05:51:00	05:51:00		Rejtana Uniwersytet 06
+1584	2	189892	05:52:00	05:52:00		Rejtana cmentarz 04 nż
+1584	2	189892	05:53:00	05:53:00		Rejtana / Kustronia 02
+1584	2	189892	05:55:00	05:55:00		Piłsudskiego ZDZ 02
+1584	2	189892	05:56:00	05:56:00		Pl. Wolności 04
+1584	2	189892	05:58:00	05:58:00		Piłsudskiego U. Marszałkowski 08
+1584	2	189892	06:00:00	06:00:00		Krakowska Jedn. Wojskowa 02
+1584	2	189892	06:02:00	06:02:00		Okulickiego C. Handlowe 02
+1584	2	189892	06:03:00	06:03:00		Okulickiego / Zwierzyniecka 04 nż
+1584	2	189892	06:04:00	06:04:00		Wyzwolenia / Iranka-Osmeckiego 06
+1584	2	189892	06:05:00	06:05:00		Wyzwolenia / Brydaka 08
+1584	2	189892	06:06:00	06:06:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
+1584	2	189892	06:07:00	06:07:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
+1584	2	189892	06:08:00	06:08:00		Obr. Poczty Gdańskiej pętla 06
+1584	2	189892	06:10:00	06:10:00		Miłocińska pętla 01
+
+1578	2	191660	06:25:00	06:25:00		Miłocińska pętla 01
+1578	2	191660	06:26:00	06:26:00		Miłocińska szkoła 02 nż
+1578	2	191660	06:28:00	06:28:00		Obr. Poczty Gdańskiej / Miłocińska 03
+1578	2	191660	06:29:00	06:29:00		Obr. Poczty Gdańskiej / Raginisa 01
+1578	2	191660	06:31:00	06:31:00		Wyzwolenia / Ofiar Katynia 07
+1578	2	191660	06:32:00	06:32:00		Wyzwolenia kościół 05
+1578	2	191660	06:33:00	06:33:00		Okulickiego / Wyzwolenia 05 nż
+1578	2	191660	06:34:00	06:34:00		Okulickiego / Zwierzyniecka 03 nż
+1578	2	191660	06:35:00	06:35:00		Okulickiego C. Handlowe 01
+1578	2	191660	06:39:00	06:39:00		Krakowska Jedn. Wojskowa 01
+1578	2	191660	06:42:00	06:42:00		Piłsudskiego U. Wojewódzki 03
+1578	2	191660	06:43:00	06:43:00		Pl. Wolności 01
+1578	2	191660	06:46:00	06:46:00		Rejtana / Lwowska 01
+1578	2	191660	06:47:00	06:47:00		Rejtana / Kustronia 03 nż
+1578	2	191660	06:48:00	06:48:00		Rejtana Uniwersytet 05
+1578	2	191660	06:50:00	06:50:00		Rejtana / Kopisto 07
+1578	2	191660	06:51:00	06:51:00		Rejtana / Popiełuszki 09
+1578	2	191660	06:54:00	06:54:00		Sikorskiego / Powst. Warszawy 02 nż
+1578	2	191660	06:55:00	06:55:00		Sikorskiego Katedra 04 nż
+1578	2	191660	06:56:00	06:56:00		Łukasiewicza / Sikorskiego 02 nż
+1578	2	191660	06:57:00	06:57:00		Łukasiewicza / Zimowit 04 nż
+1578	2	191660	06:58:00	06:58:00		Łukasiewicza / Gumińskich 06 nż
+1578	2	191660	06:59:00	06:59:00		Łukasiewicza pętla 10
+
+1584	2	189856	07:13:00	07:13:00		Łukasiewicza pętla 10
+1584	2	189856	07:14:00	07:14:00		Łukasiewicza / Sasanki 03 nż
+1584	2	189856	07:15:00	07:15:00		Łukasiewicza / Krokusowa 01 nż
+1584	2	189856	07:16:00	07:16:00		Sikorskiego Katedra 01 nż
+1584	2	189856	07:19:00	07:19:00		Rejtana / Armii Krajowej 12
+1584	2	189856	07:20:00	07:20:00		Rejtana / Paderewskiego 10
+1584	2	189856	07:21:00	07:21:00		Rejtana / Krzyżanowskiego 08
+1584	2	189856	07:23:00	07:23:00		Rejtana Uniwersytet 06
+1584	2	189856	07:24:00	07:24:00		Rejtana cmentarz 04 nż
+1584	2	189856	07:25:00	07:25:00		Rejtana / Kustronia 02
+1584	2	189856	07:28:00	07:28:00		Piłsudskiego ZDZ 02
+1584	2	189856	07:30:00	07:30:00		Pl. Wolności 04
+1584	2	189856	07:32:00	07:32:00		Piłsudskiego U. Marszałkowski 08
+1584	2	189856	07:34:00	07:34:00		Krakowska Jedn. Wojskowa 02
+1584	2	189856	07:36:00	07:36:00		Okulickiego C. Handlowe 02
+1584	2	189856	07:37:00	07:37:00		Okulickiego / Zwierzyniecka 04 nż
+1584	2	189856	07:39:00	07:39:00		Wyzwolenia / Iranka-Osmeckiego 06
+1584	2	189856	07:40:00	07:40:00		Wyzwolenia / Brydaka 08
+1584	2	189856	07:41:00	07:41:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
+1584	2	189856	07:42:00	07:42:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
+1584	2	189856	07:43:00	07:43:00		Obr. Poczty Gdańskiej pętla 06
+1584	2	189856	07:45:00	07:45:00		Miłocińska pętla 01
+
+1578	2	190966	07:55:00	07:55:00		Miłocińska pętla 01
+1578	2	190966	07:56:00	07:56:00		Miłocińska szkoła 02 nż
+1578	2	190966	07:58:00	07:58:00		Obr. Poczty Gdańskiej / Miłocińska 03
+1578	2	190966	07:59:00	07:59:00		Obr. Poczty Gdańskiej / Raginisa 01
+1578	2	190966	08:01:00	08:01:00		Wyzwolenia / Ofiar Katynia 07
+1578	2	190966	08:02:00	08:02:00		Wyzwolenia kościół 05
+1578	2	190966	08:03:00	08:03:00		Okulickiego / Wyzwolenia 05 nż
+1578	2	190966	08:04:00	08:04:00		Okulickiego / Zwierzyniecka 03 nż
+1578	2	190966	08:05:00	08:05:00		Okulickiego C. Handlowe 01
+1578	2	190966	08:09:00	08:09:00		Krakowska Jedn. Wojskowa 01
+1578	2	190966	08:12:00	08:12:00		Piłsudskiego U. Wojewódzki 03
+1578	2	190966	08:13:00	08:13:00		Pl. Wolności 01
+1578	2	190966	08:16:00	08:16:00		Rejtana / Lwowska 01
+1578	2	190966	08:17:00	08:17:00		Rejtana / Kustronia 03 nż
+1578	2	190966	08:18:00	08:18:00		Rejtana Uniwersytet 05
+1578	2	190966	08:20:00	08:20:00		Rejtana / Kopisto 07
+1578	2	190966	08:21:00	08:21:00		Rejtana / Popiełuszki 09
+1578	2	190966	08:24:00	08:24:00		Sikorskiego / Powst. Warszawy 02 nż
+1578	2	190966	08:25:00	08:25:00		Sikorskiego Katedra 04 nż
+1578	2	190966	08:26:00	08:26:00		Łukasiewicza / Sikorskiego 02 nż
+1578	2	190966	08:27:00	08:27:00		Łukasiewicza / Zimowit 04 nż
+1578	2	190966	08:28:00	08:28:00		Łukasiewicza / Gumińskich 06 nż
+1578	2	190966	08:29:00	08:29:00		Łukasiewicza pętla 10
+
+1577	2	190563	08:43:00	08:43:00		Łukasiewicza pętla 10
+1577	2	190563	08:44:00	08:44:00		Łukasiewicza / Sasanki 03 nż
+1577	2	190563	08:45:00	08:45:00		Łukasiewicza / Krokusowa 01 nż
+1577	2	190563	08:46:00	08:46:00		Sikorskiego Katedra 01 nż
+1577	2	190563	08:49:00	08:49:00		Rejtana / Armii Krajowej 12
+1577	2	190563	08:50:00	08:50:00		Rejtana / Paderewskiego 10
+1577	2	190563	08:51:00	08:51:00		Rejtana / Krzyżanowskiego 08
+1577	2	190563	08:53:00	08:53:00		Rejtana Uniwersytet 06
+1577	2	190563	08:54:00	08:54:00		Rejtana cmentarz 04 nż
+1577	2	190563	08:55:00	08:55:00		Rejtana / Kustronia 02
+1577	2	190563	08:57:00	08:57:00		Piłsudskiego ZDZ 02
+1577	2	190563	08:59:00	08:59:00		Pl. Wolności 04
+1577	2	190563	09:02:00	09:02:00		Piłsudskiego U. Marszałkowski 08
+1577	2	190563	09:04:00	09:04:00		Krakowska Jedn. Wojskowa 02
+1577	2	190563	09:06:00	09:06:00		Okulickiego C. Handlowe 02
+1577	2	190563	09:07:00	09:07:00		Okulickiego / Zwierzyniecka 04 nż
+1577	2	190563	09:09:00	09:09:00		Wyzwolenia / Iranka-Osmeckiego 06
+1577	2	190563	09:10:00	09:10:00		Wyzwolenia / Brydaka 08
+1577	2	190563	09:11:00	09:11:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
+1577	2	190563	09:12:00	09:12:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
+1577	2	190563	09:13:00	09:13:00		Obr. Poczty Gdańskiej pętla 08
+
+1580	2	189299	09:43:00	09:43:00		Obr. Poczty Gdańskiej pętla 08
+1580	2	189299	09:44:00	09:44:00		Obr. Poczty Gdańskiej / Raginisa 01
+1580	2	189299	09:46:00	09:46:00		Wyzwolenia / Ofiar Katynia 07
+1580	2	189299	09:47:00	09:47:00		Wyzwolenia kościół 05
+1580	2	189299	09:48:00	09:48:00		Okulickiego / Wyzwolenia 05 nż
+1580	2	189299	09:49:00	09:49:00		Okulickiego / Zwierzyniecka 03 nż
+1580	2	189299	09:50:00	09:50:00		Okulickiego C. Handlowe 01
+1580	2	189299	09:54:00	09:54:00		Krakowska Jedn. Wojskowa 01
+1580	2	189299	09:57:00	09:57:00		Piłsudskiego U. Wojewódzki 03
+1580	2	189299	09:58:00	09:58:00		Pl. Wolności 01
+1580	2	189299	10:01:00	10:01:00		Rejtana / Lwowska 01
+1580	2	189299	10:02:00	10:02:00		Rejtana / Kustronia 03 nż
+1580	2	189299	10:03:00	10:03:00		Rejtana Uniwersytet 05
+1580	2	189299	10:05:00	10:05:00		Rejtana / Kopisto 07
+1580	2	189299	10:06:00	10:06:00		Rejtana / Popiełuszki 09
+1580	2	189299	10:09:00	10:09:00		Sikorskiego / Powst. Warszawy 02 nż
+1580	2	189299	10:10:00	10:10:00		Sikorskiego Katedra 04 nż
+1580	2	189299	10:11:00	10:11:00		Łukasiewicza / Sikorskiego 02 nż
+1580	2	189299	10:12:00	10:12:00		Łukasiewicza / Zimowit 04 nż
+1580	2	189299	10:13:00	10:13:00		Łukasiewicza / Gumińskich 06 nż
+1580	2	189299	10:14:00	10:14:00		Łukasiewicza pętla 10
+
+1584	2	189211	10:28:00	10:28:00		Łukasiewicza pętla 10
+1584	2	189211	10:29:00	10:29:00		Łukasiewicza / Sasanki 03 nż
+1584	2	189211	10:30:00	10:30:00		Łukasiewicza / Krokusowa 01 nż
+1584	2	189211	10:31:00	10:31:00		Sikorskiego Katedra 01 nż
+1584	2	189211	10:34:00	10:34:00		Rejtana / Armii Krajowej 12
+1584	2	189211	10:35:00	10:35:00		Rejtana / Paderewskiego 10
+1584	2	189211	10:36:00	10:36:00		Rejtana / Krzyżanowskiego 08
+1584	2	189211	10:38:00	10:38:00		Rejtana Uniwersytet 06
+1584	2	189211	10:39:00	10:39:00		Rejtana cmentarz 04 nż
+1584	2	189211	10:40:00	10:40:00		Rejtana / Kustronia 02
+1584	2	189211	10:42:00	10:42:00		Piłsudskiego ZDZ 02
+1584	2	189211	10:44:00	10:44:00		Pl. Wolności 04
+1584	2	189211	10:47:00	10:47:00		Piłsudskiego U. Marszałkowski 08
+1584	2	189211	10:49:00	10:49:00		Krakowska Jedn. Wojskowa 02
+1584	2	189211	10:51:00	10:51:00		Okulickiego C. Handlowe 02
+1584	2	189211	10:52:00	10:52:00		Okulickiego / Zwierzyniecka 04 nż
+1584	2	189211	10:54:00	10:54:00		Wyzwolenia / Iranka-Osmeckiego 06
+1584	2	189211	10:55:00	10:55:00		Wyzwolenia / Brydaka 08
+1584	2	189211	10:56:00	10:56:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
+1584	2	189211	10:57:00	10:57:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
+1584	2	189211	10:58:00	10:58:00		Obr. Poczty Gdańskiej pętla 06
+1584	2	189211	11:00:00	11:00:00		Miłocińska pętla 01
+
+1578	2	191761	11:25:00	11:25:00		Miłocińska pętla 01
+1578	2	191761	11:26:00	11:26:00		Miłocińska szkoła 02 nż
+1578	2	191761	11:28:00	11:28:00		Obr. Poczty Gdańskiej / Miłocińska 03
+1578	2	191761	11:29:00	11:29:00		Obr. Poczty Gdańskiej / Raginisa 01
+1578	2	191761	11:31:00	11:31:00		Wyzwolenia / Ofiar Katynia 07
+1578	2	191761	11:32:00	11:32:00		Wyzwolenia kościół 05
+1578	2	191761	11:33:00	11:33:00		Okulickiego / Wyzwolenia 05 nż
+1578	2	191761	11:34:00	11:34:00		Okulickiego / Zwierzyniecka 03 nż
+1578	2	191761	11:35:00	11:35:00		Okulickiego C. Handlowe 01
+1578	2	191761	11:39:00	11:39:00		Krakowska Jedn. Wojskowa 01
+1578	2	191761	11:42:00	11:42:00		Piłsudskiego U. Wojewódzki 03
+1578	2	191761	11:43:00	11:43:00		Pl. Wolności 01
+1578	2	191761	11:46:00	11:46:00		Rejtana / Lwowska 01
+1578	2	191761	11:47:00	11:47:00		Rejtana / Kustronia 03 nż
+1578	2	191761	11:48:00	11:48:00		Rejtana Uniwersytet 05
+1578	2	191761	11:50:00	11:50:00		Rejtana / Kopisto 07
+1578	2	191761	11:51:00	11:51:00		Rejtana / Popiełuszki 09
+1578	2	191761	11:54:00	11:54:00		Sikorskiego / Powst. Warszawy 02 nż
+1578	2	191761	11:55:00	11:55:00		Sikorskiego Katedra 04 nż
+1578	2	191761	11:56:00	11:56:00		Łukasiewicza / Sikorskiego 02 nż
+1578	2	191761	11:57:00	11:57:00		Łukasiewicza / Zimowit 04 nż
+1578	2	191761	11:58:00	11:58:00		Łukasiewicza / Gumińskich 06 nż
+1578	2	191761	11:59:00	11:59:00		Łukasiewicza pętla 10
+
+1577	2	190318	12:13:00	12:13:00		Łukasiewicza pętla 10
+1577	2	190318	12:14:00	12:14:00		Łukasiewicza / Sasanki 03 nż
+1577	2	190318	12:15:00	12:15:00		Łukasiewicza / Krokusowa 01 nż
+1577	2	190318	12:16:00	12:16:00		Sikorskiego Katedra 01 nż
+1577	2	190318	12:19:00	12:19:00		Rejtana / Armii Krajowej 12
+1577	2	190318	12:20:00	12:20:00		Rejtana / Paderewskiego 10
+1577	2	190318	12:21:00	12:21:00		Rejtana / Krzyżanowskiego 08
+1577	2	190318	12:23:00	12:23:00		Rejtana Uniwersytet 06
+1577	2	190318	12:24:00	12:24:00		Rejtana cmentarz 04 nż
+1577	2	190318	12:25:00	12:25:00		Rejtana / Kustronia 02
+1577	2	190318	12:27:00	12:27:00		Piłsudskiego ZDZ 02
+1577	2	190318	12:29:00	12:29:00		Pl. Wolności 04
+1577	2	190318	12:33:00	12:33:00		Piłsudskiego U. Marszałkowski 08
+1577	2	190318	12:35:00	12:35:00		Krakowska Jedn. Wojskowa 02
+1577	2	190318	12:37:00	12:37:00		Okulickiego C. Handlowe 02
+1577	2	190318	12:38:00	12:38:00		Okulickiego / Zwierzyniecka 04 nż
+1577	2	190318	12:40:00	12:40:00		Wyzwolenia / Iranka-Osmeckiego 06
+1577	2	190318	12:41:00	12:41:00		Wyzwolenia / Brydaka 08
+1577	2	190318	12:42:00	12:42:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
+1577	2	190318	12:43:00	12:43:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
+1577	2	190318	12:44:00	12:44:00		Obr. Poczty Gdańskiej pętla 08
+
+1580	2	190375	13:13:00	13:13:00		Obr. Poczty Gdańskiej pętla 08
+1580	2	190375	13:14:00	13:14:00		Obr. Poczty Gdańskiej / Raginisa 01
+1580	2	190375	13:16:00	13:16:00		Wyzwolenia / Ofiar Katynia 07
+1580	2	190375	13:17:00	13:17:00		Wyzwolenia kościół 05
+1580	2	190375	13:18:00	13:18:00		Okulickiego / Wyzwolenia 05 nż
+1580	2	190375	13:19:00	13:19:00		Okulickiego / Zwierzyniecka 03 nż
+1580	2	190375	13:20:00	13:20:00		Okulickiego C. Handlowe 01
+1580	2	190375	13:24:00	13:24:00		Krakowska Jedn. Wojskowa 01
+1580	2	190375	13:27:00	13:27:00		Piłsudskiego U. Wojewódzki 03
+1580	2	190375	13:28:00	13:28:00		Pl. Wolności 01
+1580	2	190375	13:31:00	13:31:00		Rejtana / Lwowska 01
+1580	2	190375	13:32:00	13:32:00		Rejtana / Kustronia 03 nż
+1580	2	190375	13:33:00	13:33:00		Rejtana Uniwersytet 05
+1580	2	190375	13:35:00	13:35:00		Rejtana / Kopisto 07
+1580	2	190375	13:36:00	13:36:00		Rejtana / Popiełuszki 09
+1580	2	190375	13:39:00	13:39:00		Sikorskiego / Powst. Warszawy 02 nż
+1580	2	190375	13:40:00	13:40:00		Sikorskiego Katedra 04 nż
+1580	2	190375	13:41:00	13:41:00		Łukasiewicza / Sikorskiego 02 nż
+1580	2	190375	13:42:00	13:42:00		Łukasiewicza / Zimowit 04 nż
+1580	2	190375	13:43:00	13:43:00		Łukasiewicza / Gumińskich 06 nż
+1580	2	190375	13:44:00	13:44:00		Łukasiewicza pętla 10
+
+1584	2	190044	13:58:00	13:58:00		Łukasiewicza pętla 10
+1584	2	190044	13:59:00	13:59:00		Łukasiewicza / Sasanki 03 nż
+1584	2	190044	14:00:00	14:00:00		Łukasiewicza / Krokusowa 01 nż
+1584	2	190044	14:01:00	14:01:00		Sikorskiego Katedra 01 nż
+1584	2	190044	14:04:00	14:04:00		Rejtana / Armii Krajowej 12
+1584	2	190044	14:05:00	14:05:00		Rejtana / Paderewskiego 10
+1584	2	190044	14:06:00	14:06:00		Rejtana / Krzyżanowskiego 08
+1584	2	190044	14:08:00	14:08:00		Rejtana Uniwersytet 06
+1584	2	190044	14:09:00	14:09:00		Rejtana cmentarz 04 nż
+1584	2	190044	14:10:00	14:10:00		Rejtana / Kustronia 02
+1584	2	190044	14:12:00	14:12:00		Piłsudskiego ZDZ 02
+1584	2	190044	14:14:00	14:14:00		Pl. Wolności 04
+1584	2	190044	14:18:00	14:18:00		Piłsudskiego U. Marszałkowski 08
+1584	2	190044	14:20:00	14:20:00		Krakowska Jedn. Wojskowa 02
+1584	2	190044	14:22:00	14:22:00		Okulickiego C. Handlowe 02
+1584	2	190044	14:23:00	14:23:00		Okulickiego / Zwierzyniecka 04 nż
+1584	2	190044	14:25:00	14:25:00		Wyzwolenia / Iranka-Osmeckiego 06
+1584	2	190044	14:26:00	14:26:00		Wyzwolenia / Brydaka 08
+1584	2	190044	14:27:00	14:27:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
+1584	2	190044	14:28:00	14:28:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
+1584	2	190044	14:29:00	14:29:00		Obr. Poczty Gdańskiej pętla 06
+1584	2	190044	14:31:00	14:31:00		Miłocińska pętla 01
+
+1578	2	189519	14:55:00	14:55:00		Miłocińska pętla 01
+1578	2	189519	14:56:00	14:56:00		Miłocińska szkoła 02 nż
+1578	2	189519	14:58:00	14:58:00		Obr. Poczty Gdańskiej / Miłocińska 03
+1578	2	189519	14:59:00	14:59:00		Obr. Poczty Gdańskiej / Raginisa 01
+1578	2	189519	15:01:00	15:01:00		Wyzwolenia / Ofiar Katynia 07
+1578	2	189519	15:02:00	15:02:00		Wyzwolenia kościół 05
+1578	2	189519	15:03:00	15:03:00		Okulickiego / Wyzwolenia 05 nż
+1578	2	189519	15:04:00	15:04:00		Okulickiego / Zwierzyniecka 03 nż
+1578	2	189519	15:06:00	15:06:00		Okulickiego C. Handlowe 01
+1578	2	189519	15:10:00	15:10:00		Krakowska Jedn. Wojskowa 01
+1578	2	189519	15:13:00	15:13:00		Piłsudskiego U. Wojewódzki 03
+1578	2	189519	15:15:00	15:15:00		Pl. Wolności 01
+1578	2	189519	15:18:00	15:18:00		Rejtana / Lwowska 01
+1578	2	189519	15:19:00	15:19:00		Rejtana / Kustronia 03 nż
+1578	2	189519	15:21:00	15:21:00		Rejtana Uniwersytet 05
+1578	2	189519	15:24:00	15:24:00		Rejtana / Kopisto 07
+1578	2	189519	15:27:00	15:27:00		Rejtana / Popiełuszki 09
+1578	2	189519	15:30:00	15:30:00		Sikorskiego / Powst. Warszawy 02 nż
+1578	2	189519	15:31:00	15:31:00		Sikorskiego Katedra 04 nż
+1578	2	189519	15:32:00	15:32:00		Łukasiewicza / Sikorskiego 02 nż
+1578	2	189519	15:33:00	15:33:00		Łukasiewicza / Zimowit 04 nż
+1578	2	189519	15:34:00	15:34:00		Łukasiewicza / Gumińskich 06 nż
+1578	2	189519	15:35:00	15:35:00		Łukasiewicza pętla 10
+
+1584	2	189267	15:43:00	15:43:00		Łukasiewicza pętla 10
+1584	2	189267	15:44:00	15:44:00		Łukasiewicza / Sasanki 03 nż
+1584	2	189267	15:45:00	15:45:00		Łukasiewicza / Krokusowa 01 nż
+1584	2	189267	15:46:00	15:46:00		Sikorskiego Katedra 01 nż
+1584	2	189267	15:49:00	15:49:00		Rejtana / Armii Krajowej 12
+1584	2	189267	15:50:00	15:50:00		Rejtana / Paderewskiego 10
+1584	2	189267	15:51:00	15:51:00		Rejtana / Krzyżanowskiego 08
+1584	2	189267	15:53:00	15:53:00		Rejtana Uniwersytet 06
+1584	2	189267	15:54:00	15:54:00		Rejtana cmentarz 04 nż
+1584	2	189267	15:55:00	15:55:00		Rejtana / Kustronia 02
+1584	2	189267	15:58:00	15:58:00		Piłsudskiego ZDZ 02
+1584	2	189267	16:01:00	16:01:00		Pl. Wolności 04
+1584	2	189267	16:07:00	16:07:00		Piłsudskiego U. Marszałkowski 08
+1584	2	189267	16:09:00	16:09:00		Krakowska Jedn. Wojskowa 02
+1584	2	189267	16:12:00	16:12:00		Okulickiego C. Handlowe 02
+1584	2	189267	16:14:00	16:14:00		Okulickiego / Zwierzyniecka 04 nż
+1584	2	189267	16:16:00	16:16:00		Wyzwolenia / Iranka-Osmeckiego 06
+1584	2	189267	16:17:00	16:17:00		Wyzwolenia / Brydaka 08
+1584	2	189267	16:19:00	16:19:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
+1584	2	189267	16:20:00	16:20:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
+1584	2	189267	16:21:00	16:21:00		Obr. Poczty Gdańskiej pętla 06
+1584	2	189267	16:23:00	16:23:00		Miłocińska pętla 01
+
+1578	2	189122	16:52:00	16:52:00		Miłocińska pętla 01
+1578	2	189122	16:53:00	16:53:00		Miłocińska szkoła 02 nż
+1578	2	189122	16:55:00	16:55:00		Obr. Poczty Gdańskiej / Miłocińska 03
+1578	2	189122	16:56:00	16:56:00		Obr. Poczty Gdańskiej / Raginisa 01
+1578	2	189122	16:58:00	16:58:00		Wyzwolenia / Ofiar Katynia 07
+1578	2	189122	16:59:00	16:59:00		Wyzwolenia kościół 05
+1578	2	189122	17:00:00	17:00:00		Okulickiego / Wyzwolenia 05 nż
+1578	2	189122	17:01:00	17:01:00		Okulickiego / Zwierzyniecka 03 nż
+1578	2	189122	17:02:00	17:02:00		Okulickiego C. Handlowe 01
+1578	2	189122	17:06:00	17:06:00		Krakowska Jedn. Wojskowa 01
+1578	2	189122	17:09:00	17:09:00		Piłsudskiego U. Wojewódzki 03
+1578	2	189122	17:10:00	17:10:00		Pl. Wolności 01
+1578	2	189122	17:13:00	17:13:00		Rejtana / Lwowska 01
+1578	2	189122	17:14:00	17:14:00		Rejtana / Kustronia 03 nż
+1578	2	189122	17:15:00	17:15:00		Rejtana Uniwersytet 05
+1578	2	189122	17:17:00	17:17:00		Rejtana / Kopisto 07
+1578	2	189122	17:18:00	17:18:00		Rejtana / Popiełuszki 09
+1578	2	189122	17:21:00	17:21:00		Sikorskiego / Powst. Warszawy 02 nż
+1578	2	189122	17:22:00	17:22:00		Sikorskiego Katedra 04 nż
+1578	2	189122	17:23:00	17:23:00		Łukasiewicza / Sikorskiego 02 nż
+1578	2	189122	17:24:00	17:24:00		Łukasiewicza / Zimowit 04 nż
+1578	2	189122	17:25:00	17:25:00		Łukasiewicza / Gumińskich 06 nż
+1578	2	189122	17:26:00	17:26:00		Łukasiewicza pętla 10
+
+1577	2	190775	17:35:00	17:35:00		Łukasiewicza pętla 10
+1577	2	190775	17:36:00	17:36:00		Łukasiewicza / Sasanki 03 nż
+1577	2	190775	17:37:00	17:37:00		Łukasiewicza / Krokusowa 01 nż
+1577	2	190775	17:38:00	17:38:00		Sikorskiego Katedra 01 nż
+1577	2	190775	17:40:00	17:40:00		Rejtana / Armii Krajowej 12
+1577	2	190775	17:41:00	17:41:00		Rejtana / Paderewskiego 10
+1577	2	190775	17:42:00	17:42:00		Rejtana / Krzyżanowskiego 08
+1577	2	190775	17:44:00	17:44:00		Rejtana Uniwersytet 06
+1577	2	190775	17:45:00	17:45:00		Rejtana cmentarz 04 nż
+1577	2	190775	17:46:00	17:46:00		Rejtana / Kustronia 02
+1577	2	190775	17:48:00	17:48:00		Piłsudskiego ZDZ 02
+1577	2	190775	17:50:00	17:50:00		Pl. Wolności 04
+1577	2	190775	17:53:00	17:53:00		Piłsudskiego U. Marszałkowski 08
+1577	2	190775	17:55:00	17:55:00		Krakowska Jedn. Wojskowa 02
+1577	2	190775	17:57:00	17:57:00		Okulickiego C. Handlowe 02
+1577	2	190775	17:58:00	17:58:00		Okulickiego / Zwierzyniecka 04 nż
+1577	2	190775	18:00:00	18:00:00		Wyzwolenia / Iranka-Osmeckiego 06
+1577	2	190775	18:01:00	18:01:00		Wyzwolenia / Brydaka 08
+1577	2	190775	18:02:00	18:02:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
+1577	2	190775	18:03:00	18:03:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
+1577	2	190775	18:04:00	18:04:00		Obr. Poczty Gdańskiej pętla 08
+
+1580	2	190167	18:35:00	18:35:00		Obr. Poczty Gdańskiej pętla 08
+1580	2	190167	18:36:00	18:36:00		Obr. Poczty Gdańskiej / Raginisa 01
+1580	2	190167	18:38:00	18:38:00		Wyzwolenia / Ofiar Katynia 07
+1580	2	190167	18:39:00	18:39:00		Wyzwolenia kościół 05
+1580	2	190167	18:40:00	18:40:00		Okulickiego / Wyzwolenia 05 nż
+1580	2	190167	18:41:00	18:41:00		Okulickiego / Zwierzyniecka 03 nż
+1580	2	190167	18:42:00	18:42:00		Okulickiego C. Handlowe 01
+1580	2	190167	18:46:00	18:46:00		Krakowska Jedn. Wojskowa 01
+1580	2	190167	18:49:00	18:49:00		Piłsudskiego U. Wojewódzki 03
+1580	2	190167	18:50:00	18:50:00		Pl. Wolności 01
+1580	2	190167	18:53:00	18:53:00		Rejtana / Lwowska 01
+1580	2	190167	18:54:00	18:54:00		Rejtana / Kustronia 03 nż
+1580	2	190167	18:55:00	18:55:00		Rejtana Uniwersytet 05
+1580	2	190167	18:57:00	18:57:00		Rejtana / Kopisto 07
+1580	2	190167	18:58:00	18:58:00		Rejtana / Popiełuszki 09
+1580	2	190167	19:01:00	19:01:00		Sikorskiego / Powst. Warszawy 02 nż
+1580	2	190167	19:02:00	19:02:00		Sikorskiego Katedra 04 nż
+1580	2	190167	19:03:00	19:03:00		Łukasiewicza / Sikorskiego 02 nż
+1580	2	190167	19:04:00	19:04:00		Łukasiewicza / Zimowit 04 nż
+1580	2	190167	19:05:00	19:05:00		Łukasiewicza / Gumińskich 06 nż
+1580	2	190167	19:06:00	19:06:00		Łukasiewicza pętla 10
+
+1584	2	190637	19:20:00	19:20:00		Łukasiewicza pętla 10
+1584	2	190637	19:21:00	19:21:00		Łukasiewicza / Sasanki 03 nż
+1584	2	190637	19:22:00	19:22:00		Łukasiewicza / Krokusowa 01 nż
+1584	2	190637	19:23:00	19:23:00		Sikorskiego Katedra 01 nż
+1584	2	190637	19:25:00	19:25:00		Rejtana / Armii Krajowej 12
+1584	2	190637	19:26:00	19:26:00		Rejtana / Paderewskiego 10
+1584	2	190637	19:27:00	19:27:00		Rejtana / Krzyżanowskiego 08
+1584	2	190637	19:29:00	19:29:00		Rejtana Uniwersytet 06
+1584	2	190637	19:30:00	19:30:00		Rejtana cmentarz 04 nż
+1584	2	190637	19:31:00	19:31:00		Rejtana / Kustronia 02
+1584	2	190637	19:33:00	19:33:00		Piłsudskiego ZDZ 02
+1584	2	190637	19:34:00	19:34:00		Pl. Wolności 04
+1584	2	190637	19:36:00	19:36:00		Piłsudskiego U. Marszałkowski 08
+1584	2	190637	19:38:00	19:38:00		Krakowska Jedn. Wojskowa 02
+1584	2	190637	19:40:00	19:40:00		Okulickiego C. Handlowe 02
+1584	2	190637	19:41:00	19:41:00		Okulickiego / Zwierzyniecka 04 nż
+1584	2	190637	19:42:00	19:42:00		Wyzwolenia / Iranka-Osmeckiego 06
+1584	2	190637	19:43:00	19:43:00		Wyzwolenia / Brydaka 08
+1584	2	190637	19:44:00	19:44:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
+1584	2	190637	19:45:00	19:45:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
+1584	2	190637	19:46:00	19:46:00		Obr. Poczty Gdańskiej pętla 06
+1584	2	190637	19:48:00	19:48:00		Miłocińska pętla 01
+
+1635	2	189244	21:50:00	21:50:00		Bardowskiego 03
+1635	2	189244	21:51:00	21:51:00		Pl. Wolności 04
+1635	2	189244	21:52:00	21:52:00		Piłsudskiego U. Wojewódzki 06
+1635	2	189244	21:54:00	21:54:00		Marszałkowska 02
+1635	2	189244	21:55:00	21:55:00		Warszawska / Wyzwolenia 02 nż
+1635	2	189244	21:56:00	21:56:00		Warszawska ZS. Samoch. 04 nż
+1635	2	189244	21:57:00	21:57:00		Warszawska / Staromiejska 06 nż
+1635	2	189244	21:59:00	21:59:00		Warszawska / Borowa 08 nż
+1635	2	189244	22:00:00	22:00:00		Warszawska / Bażantowa 10 nż
+1635	2	189244	22:01:00	22:01:00		Warszawska / Łowiecka 12 nż
+1635	2	189244	22:02:00	22:02:00		"Zaczernie
+1635	2	189244	22:03:00	22:03:00		Warszawska granica 14 nż
+1635	2	189244	22:05:00	22:05:00		Rudna Mała 03 nż
+1635	2	189244	22:06:00	22:06:00		Rudna Mała szpital 01 nż
+1635	2	189244	22:08:00	22:08:00		Głogów Młp. wiadukt 09A nż
+1635	2	189244	22:11:00	22:11:00		Głogów Młp. Zelmer II 02 nż
+1635	2	189244	22:12:00	22:12:00		Głogów Młp. MetaZel II 02 nż
+1635	2	189244	22:13:00	22:13:00		Głogów Młp. Yanko I 01 nż
+1635	2	189244	22:14:00	22:14:00		Głogów Młp. Leniar I 01 nż
+
+1629	2	189561	22:40:00	22:40:00		Głogów Młp. Zelmer II 02 nż
+1629	2	189561	22:41:00	22:41:00		Głogów Młp. MetaZel II 02 nż
+1629	2	189561	22:42:00	22:42:00		Głogów Młp. Yanko I 01 nż
+1629	2	189561	22:43:00	22:43:00		Głogów Młp. Leniar I 01 nż
+1629	2	189561	22:46:00	22:46:00		Głogów Młp. wiadukt 71A nż
+1629	2	189561	22:49:00	22:49:00		Rudna Mała szpital 02 nż
+1629	2	189561	22:50:00	22:50:00		Zaczernie 04 nż
+1629	2	189561	22:52:00	22:52:00		Warszawska granica 11 nż
+1629	2	189561	22:53:00	22:53:00		"Zaczernie
+1629	2	189561	22:54:00	22:54:00		Warszawska / Myśliwska 09 nż
+1629	2	189561	22:55:00	22:55:00		Warszawska / Borowa 07 nż
+1629	2	189561	22:57:00	22:57:00		Warszawska / Staromiejska 05 nż
+1629	2	189561	22:58:00	22:58:00		Warszawska ZS. Samoch. 03 nż
+1629	2	189561	22:59:00	22:59:00		Warszawska / Wyzwolenia 01 nż
+1629	2	189561	23:00:00	23:00:00		Marszałkowska 01
+1629	2	189561	23:02:00	23:02:00		Piłsudskiego U. Wojewódzki 03
+1629	2	189561	23:05:00	23:05:00		Bardowskiego 04

@@ -1,0 +1,331 @@
+route_id	service_id	trip_id	arrival_time	departure_time	stop_headsign	stop_name
+-------------------------------------------------------------------------------
+1604	4	191080	04:36:00	04:36:00		Warszawska / Borowa 08 nż
+1604	4	191080	04:37:00	04:37:00		Warszawska / Bażantowa 10 nż
+1604	4	191080	04:38:00	04:38:00		Myśliwska / Św. Huberta 02 nż
+1604	4	191080	04:39:00	04:39:00		Myśliwska / Pogwizdowska 04 nż
+1604	4	191080	04:40:00	04:40:00		Myśliwska / Kameliowa 06 nż
+1604	4	191080	04:41:00	04:41:00		Myśliwska / Oliwkowa 08 nż
+1604	4	191080	04:42:00	04:42:00		Rudna Wielka Pehamet 23 nż
+1604	4	191080	04:43:00	04:43:00		Rudna Wielka kościół 21 nż
+1604	4	191080	04:45:00	04:45:00		Rudna Wielka I 01 nż
+1604	4	191080	04:46:00	04:46:00		Rudna Wielka zakręt 03 nż
+1604	4	191080	04:49:00	04:49:00		Mrowla II 15 nż
+1604	4	191080	04:51:00	04:51:00		Mrowla I 13 nż
+1604	4	191080	04:53:00	04:53:00		Bratkowice Otoka 11 nż
+1604	4	191080	04:55:00	04:55:00		Bratkowice Piaski 01 nż
+1604	4	191080	04:57:00	04:57:00		Bratkowice Piaski I 03 nż
+1604	4	191080	04:58:00	04:58:00		Bratkowice Sitkówka 05 nż
+1604	4	191080	04:59:00	04:59:00		Bratkowice Sitkówka II 07 nż
+1604	4	191080	05:00:00	05:00:00		Bratkowice szkoła 09 nż
+1604	4	191080	05:02:00	05:02:00		Bratkowice Klepak 07 nż
+1604	4	191080	05:04:00	05:04:00		Bratkowice Cieniaki 05 nż
+1604	4	191080	05:06:00	05:06:00		Bratkowice Czekaj 03 nż
+1604	4	191080	05:08:00	05:08:00		Bratkowice Las 01
+
+1609	4	190981	05:22:00	05:22:00		Bratkowice Las 02
+1609	4	190981	05:24:00	05:24:00		Bratkowice Czekaj 04 nż
+1609	4	190981	05:26:00	05:26:00		Bratkowice Cieniaki 06 nż
+1609	4	190981	05:28:00	05:28:00		Bratkowice Klepak 08 nż
+1609	4	190981	05:30:00	05:30:00		Bratkowice szkoła 10 nż
+1609	4	190981	05:31:00	05:31:00		Bratkowice Sitkówka II 08 nż
+1609	4	190981	05:32:00	05:32:00		Bratkowice Sitkówka 06 nż
+1609	4	190981	05:34:00	05:34:00		Bratkowice Piaski I 04 nż
+1609	4	190981	05:36:00	05:36:00		Bratkowice Piaski 02 nż
+1609	4	190981	05:38:00	05:38:00		Bratkowice Otoka 12 nż
+1609	4	190981	05:40:00	05:40:00		Mrowla I 14 nż
+1609	4	190981	05:42:00	05:42:00		Mrowla II 16 nż
+1609	4	190981	05:45:00	05:45:00		Rudna Wielka Dom Strażaka 18 nż
+1609	4	190981	05:46:00	05:46:00		Rudna Wielka Dom Ludowy 20 nż
+1609	4	190981	05:47:00	05:47:00		Rudna Wielka kościół 22 nż
+1609	4	190981	05:48:00	05:48:00		Rudna Wielka Pehamet 24 nż
+1609	4	190981	05:49:00	05:49:00		Myśliwska / Oliwkowa 07 nż
+1609	4	190981	05:50:00	05:50:00		Myśliwska / Kameliowa 05 nż
+1609	4	190981	05:51:00	05:51:00		Myśliwska / Pogwizdowska 03 nż
+1609	4	190981	05:52:00	05:52:00		Myśliwska / Św. Huberta 01 nż
+1609	4	190981	05:53:00	05:53:00		Warszawska / Myśliwska 09 nż
+1609	4	190981	05:55:00	05:55:00		Warszawska / Borowa 07 nż
+1609	4	190981	05:57:00	05:57:00		Warszawska / Staromiejska 05 nż
+1609	4	190981	05:58:00	05:58:00		Warszawska ZS. Samoch. 03 nż
+1609	4	190981	05:59:00	05:59:00		Warszawska / Wyzwolenia 01 nż
+1609	4	190981	06:00:00	06:00:00		Marszałkowska 01
+1609	4	190981	06:02:00	06:02:00		Piłsudskiego U. Wojewódzki 03
+1609	4	190981	06:05:00	06:05:00		Bardowskiego 04
+
+1635	4	190293	06:20:00	06:20:00		Bardowskiego 03
+1635	4	190293	06:22:00	06:22:00		Pl. Wolności 04
+1635	4	190293	06:23:00	06:23:00		Piłsudskiego U. Wojewódzki 06
+1635	4	190293	06:25:00	06:25:00		Marszałkowska 02
+1635	4	190293	06:26:00	06:26:00		Warszawska / Wyzwolenia 02 nż
+1635	4	190293	06:27:00	06:27:00		Warszawska ZS. Samoch. 04 nż
+1635	4	190293	06:28:00	06:28:00		Warszawska / Staromiejska 06 nż
+1635	4	190293	06:30:00	06:30:00		Warszawska / Borowa 08 nż
+1635	4	190293	06:31:00	06:31:00		Warszawska / Bażantowa 10 nż
+1635	4	190293	06:32:00	06:32:00		Warszawska / Łowiecka 12 nż
+1635	4	190293	06:33:00	06:33:00		"Zaczernie
+1635	4	190293	06:34:00	06:34:00		Warszawska granica 14 nż
+1635	4	190293	06:36:00	06:36:00		Rudna Mała 03 nż
+1635	4	190293	06:37:00	06:37:00		Rudna Mała szpital 01 nż
+1635	4	190293	06:39:00	06:39:00		Głogów Młp. wiadukt 09A nż
+1635	4	190293	06:42:00	06:42:00		Głogów Młp. Zelmer II 02 nż
+1635	4	190293	06:43:00	06:43:00		Głogów Młp. MetaZel II 02 nż
+1635	4	190293	06:44:00	06:44:00		Głogów Młp. Yanko I 01 nż
+1635	4	190293	06:45:00	06:45:00		Głogów Młp. Leniar I 01 nż
+
+1629	4	189570	07:10:00	07:10:00		Głogów Młp. Zelmer II 02 nż
+1629	4	189570	07:11:00	07:11:00		Głogów Młp. MetaZel II 02 nż
+1629	4	189570	07:12:00	07:12:00		Głogów Młp. Yanko I 01 nż
+1629	4	189570	07:13:00	07:13:00		Głogów Młp. Leniar I 01 nż
+1629	4	189570	07:16:00	07:16:00		Głogów Młp. wiadukt 71A nż
+1629	4	189570	07:19:00	07:19:00		Rudna Mała szpital 02 nż
+1629	4	189570	07:20:00	07:20:00		Zaczernie 04 nż
+1629	4	189570	07:22:00	07:22:00		Warszawska granica 11 nż
+1629	4	189570	07:23:00	07:23:00		"Zaczernie
+1629	4	189570	07:24:00	07:24:00		Warszawska / Myśliwska 09 nż
+1629	4	189570	07:26:00	07:26:00		Warszawska / Borowa 07 nż
+1629	4	189570	07:28:00	07:28:00		Warszawska / Staromiejska 05 nż
+1629	4	189570	07:29:00	07:29:00		Warszawska ZS. Samoch. 03 nż
+1629	4	189570	07:30:00	07:30:00		Warszawska / Wyzwolenia 01 nż
+1629	4	189570	07:32:00	07:32:00		Marszałkowska 01
+1629	4	189570	07:35:00	07:35:00		Piłsudskiego U. Wojewódzki 03
+1629	4	189570	07:38:00	07:38:00		Bardowskiego 04
+
+1497	4	190257	08:44:00	08:44:00		Niepodległości / Rejtana 02
+1497	4	190257	08:46:00	08:46:00		Rejtana / Kopisto 07
+1497	4	190257	08:47:00	08:47:00		Rejtana / Popiełuszki 09
+1497	4	190257	08:50:00	08:50:00		Powst. Warszawy / Rejtana 13
+1497	4	190257	08:51:00	08:51:00		Powst. Warszawy szkoła 11
+1497	4	190257	08:52:00	08:52:00		Powst. Warszawy Dom Studenta 09
+1497	4	190257	08:54:00	08:54:00		Powst. Warszawy / Hetmańska 03
+1497	4	190257	08:55:00	08:55:00		Powst. Warszawy Politechnika 01
+1497	4	190257	08:57:00	08:57:00		Podkarpacka Politechnika 02
+1497	4	190257	08:58:00	08:58:00		Podkarpacka / Matuszczaka 04
+1497	4	190257	08:59:00	08:59:00		Podkarpacka / Wetlińska 06 nż
+1497	4	190257	09:02:00	09:02:00		Zawiszy Czarnego 03 nż
+1497	4	190257	09:03:00	09:03:00		Zawiszy Czarnego / Podgórska 01 nż
+1497	4	190257	09:04:00	09:04:00		Architektów 01
+1497	4	190257	09:06:00	09:06:00		Przemysłowa U. Celny 06 nż
+1497	4	190257	09:07:00	09:07:00		Przemysłowa / Żołnierzy 9 Dyw. Piechoty 08 nż
+1497	4	190257	09:08:00	09:08:00		Żołnierzy 9 Dyw. Piechoty / Świętokrzyska 04 nż
+1497	4	190257	09:09:00	09:09:00		Żołnierzy 9 Dyw. Piechoty bloki 06 nż
+
+1496	4	189530	09:23:00	09:23:00		Żołnierzy 9 Dyw. Piechoty bloki 06 nż
+1496	4	189530	09:24:00	09:24:00		Świętokrzyska cmentarz 01 nż
+1496	4	189530	09:25:00	09:25:00		Przemysłowa / Żołnierzy 9 Dyw. Piechoty 07 nż
+1496	4	189530	09:26:00	09:26:00		Przemysłowa U. Celny 05 nż
+1496	4	189530	09:28:00	09:28:00		Architektów 02
+1496	4	189530	09:30:00	09:30:00		Zawiszy Czarnego / Podgórska 02 nż
+1496	4	189530	09:31:00	09:31:00		Zawiszy Czarnego 04 nż
+1496	4	189530	09:32:00	09:32:00		Żołnierzy 9 Dyw. Piechoty 01 nż
+1496	4	189530	09:34:00	09:34:00		Podkarpacka / Wetlińska 05 nż
+1496	4	189530	09:35:00	09:35:00		Podkarpacka / Matuszczaka 03
+1496	4	189530	09:37:00	09:37:00		Podkarpacka Politechnika 01
+1496	4	189530	09:38:00	09:38:00		Powst. Warszawy / Dąbrowskiego 02
+1496	4	189530	09:39:00	09:39:00		Powst. Warszawy Politechnika 04
+1496	4	189530	09:40:00	09:40:00		Powst. Warszawy stadion 06
+1496	4	189530	09:42:00	09:42:00		Powst. Warszawy Dom Studenta 08
+1496	4	189530	09:43:00	09:43:00		Powst. Warszawy / Graniczna 10
+1496	4	189530	09:46:00	09:46:00		Rejtana / Armii Krajowej 12
+1496	4	189530	09:47:00	09:47:00		Rejtana / Paderewskiego 10
+1496	4	189530	09:48:00	09:48:00		Rejtana / Krzyżanowskiego 08
+1496	4	189530	09:49:00	09:49:00		Niepodległości / Rejtana 02
+
+1497	4	189574	10:14:00	10:14:00		Niepodległości / Rejtana 02
+1497	4	189574	10:16:00	10:16:00		Rejtana / Kopisto 07
+1497	4	189574	10:17:00	10:17:00		Rejtana / Popiełuszki 09
+1497	4	189574	10:20:00	10:20:00		Powst. Warszawy / Rejtana 13
+1497	4	189574	10:21:00	10:21:00		Powst. Warszawy szkoła 11
+1497	4	189574	10:22:00	10:22:00		Powst. Warszawy Dom Studenta 09
+1497	4	189574	10:24:00	10:24:00		Powst. Warszawy / Hetmańska 03
+1497	4	189574	10:25:00	10:25:00		Powst. Warszawy Politechnika 01
+1497	4	189574	10:27:00	10:27:00		Podkarpacka Politechnika 02
+1497	4	189574	10:28:00	10:28:00		Podkarpacka / Matuszczaka 04
+1497	4	189574	10:29:00	10:29:00		Podkarpacka / Wetlińska 06 nż
+1497	4	189574	10:32:00	10:32:00		Zawiszy Czarnego 03 nż
+1497	4	189574	10:33:00	10:33:00		Zawiszy Czarnego / Podgórska 01 nż
+1497	4	189574	10:34:00	10:34:00		Architektów 01
+1497	4	189574	10:36:00	10:36:00		Przemysłowa U. Celny 06 nż
+1497	4	189574	10:37:00	10:37:00		Przemysłowa / Żołnierzy 9 Dyw. Piechoty 08 nż
+1497	4	189574	10:38:00	10:38:00		Żołnierzy 9 Dyw. Piechoty / Świętokrzyska 04 nż
+1497	4	189574	10:39:00	10:39:00		Żołnierzy 9 Dyw. Piechoty bloki 06 nż
+
+1496	4	189889	10:53:00	10:53:00		Żołnierzy 9 Dyw. Piechoty bloki 06 nż
+1496	4	189889	10:54:00	10:54:00		Świętokrzyska cmentarz 01 nż
+1496	4	189889	10:55:00	10:55:00		Przemysłowa / Żołnierzy 9 Dyw. Piechoty 07 nż
+1496	4	189889	10:56:00	10:56:00		Przemysłowa U. Celny 05 nż
+1496	4	189889	10:58:00	10:58:00		Architektów 02
+1496	4	189889	11:00:00	11:00:00		Zawiszy Czarnego / Podgórska 02 nż
+1496	4	189889	11:01:00	11:01:00		Zawiszy Czarnego 04 nż
+1496	4	189889	11:02:00	11:02:00		Żołnierzy 9 Dyw. Piechoty 01 nż
+1496	4	189889	11:04:00	11:04:00		Podkarpacka / Wetlińska 05 nż
+1496	4	189889	11:05:00	11:05:00		Podkarpacka / Matuszczaka 03
+1496	4	189889	11:07:00	11:07:00		Podkarpacka Politechnika 01
+1496	4	189889	11:08:00	11:08:00		Powst. Warszawy / Dąbrowskiego 02
+1496	4	189889	11:09:00	11:09:00		Powst. Warszawy Politechnika 04
+1496	4	189889	11:10:00	11:10:00		Powst. Warszawy stadion 06
+1496	4	189889	11:13:00	11:13:00		Powst. Warszawy Dom Studenta 08
+1496	4	189889	11:14:00	11:14:00		Powst. Warszawy / Graniczna 10
+1496	4	189889	11:17:00	11:17:00		Rejtana / Armii Krajowej 12
+1496	4	189889	11:18:00	11:18:00		Rejtana / Paderewskiego 10
+1496	4	189889	11:19:00	11:19:00		Rejtana / Krzyżanowskiego 08
+1496	4	189889	11:20:00	11:20:00		Niepodległości / Rejtana 02
+
+1497	4	191758	11:44:00	11:44:00		Niepodległości / Rejtana 02
+1497	4	191758	11:46:00	11:46:00		Rejtana / Kopisto 07
+1497	4	191758	11:47:00	11:47:00		Rejtana / Popiełuszki 09
+1497	4	191758	11:50:00	11:50:00		Powst. Warszawy / Rejtana 13
+1497	4	191758	11:51:00	11:51:00		Powst. Warszawy szkoła 11
+1497	4	191758	11:52:00	11:52:00		Powst. Warszawy Dom Studenta 09
+1497	4	191758	11:55:00	11:55:00		Powst. Warszawy / Hetmańska 03
+1497	4	191758	11:56:00	11:56:00		Powst. Warszawy Politechnika 01
+1497	4	191758	11:59:00	11:59:00		Podkarpacka Politechnika 02
+1497	4	191758	12:00:00	12:00:00		Podkarpacka / Matuszczaka 04
+1497	4	191758	12:01:00	12:01:00		Podkarpacka / Wetlińska 06 nż
+1497	4	191758	12:04:00	12:04:00		Zawiszy Czarnego 03 nż
+1497	4	191758	12:05:00	12:05:00		Zawiszy Czarnego / Podgórska 01 nż
+1497	4	191758	12:06:00	12:06:00		Architektów 01
+1497	4	191758	12:08:00	12:08:00		Przemysłowa U. Celny 06 nż
+1497	4	191758	12:09:00	12:09:00		Przemysłowa / Żołnierzy 9 Dyw. Piechoty 08 nż
+1497	4	191758	12:10:00	12:10:00		Żołnierzy 9 Dyw. Piechoty / Świętokrzyska 04 nż
+1497	4	191758	12:11:00	12:11:00		Żołnierzy 9 Dyw. Piechoty bloki 06 nż
+
+1496	4	189130	12:23:00	12:23:00		Żołnierzy 9 Dyw. Piechoty bloki 06 nż
+1496	4	189130	12:24:00	12:24:00		Świętokrzyska cmentarz 01 nż
+1496	4	189130	12:25:00	12:25:00		Przemysłowa / Żołnierzy 9 Dyw. Piechoty 07 nż
+1496	4	189130	12:26:00	12:26:00		Przemysłowa U. Celny 05 nż
+1496	4	189130	12:28:00	12:28:00		Architektów 02
+1496	4	189130	12:30:00	12:30:00		Zawiszy Czarnego / Podgórska 02 nż
+1496	4	189130	12:31:00	12:31:00		Zawiszy Czarnego 04 nż
+1496	4	189130	12:32:00	12:32:00		Żołnierzy 9 Dyw. Piechoty 01 nż
+1496	4	189130	12:34:00	12:34:00		Podkarpacka / Wetlińska 05 nż
+1496	4	189130	12:35:00	12:35:00		Podkarpacka / Matuszczaka 03
+1496	4	189130	12:37:00	12:37:00		Podkarpacka Politechnika 01
+1496	4	189130	12:38:00	12:38:00		Powst. Warszawy / Dąbrowskiego 02
+1496	4	189130	12:39:00	12:39:00		Powst. Warszawy Politechnika 04
+1496	4	189130	12:40:00	12:40:00		Powst. Warszawy stadion 06
+1496	4	189130	12:43:00	12:43:00		Powst. Warszawy Dom Studenta 08
+1496	4	189130	12:44:00	12:44:00		Powst. Warszawy / Graniczna 10
+1496	4	189130	12:47:00	12:47:00		Rejtana / Armii Krajowej 12
+1496	4	189130	12:48:00	12:48:00		Rejtana / Paderewskiego 10
+1496	4	189130	12:49:00	12:49:00		Rejtana / Krzyżanowskiego 08
+1496	4	189130	12:50:00	12:50:00		Niepodległości / Rejtana 02
+
+1497	4	190333	13:14:00	13:14:00		Niepodległości / Rejtana 02
+1497	4	190333	13:16:00	13:16:00		Rejtana / Kopisto 07
+1497	4	190333	13:17:00	13:17:00		Rejtana / Popiełuszki 09
+1497	4	190333	13:20:00	13:20:00		Powst. Warszawy / Rejtana 13
+1497	4	190333	13:21:00	13:21:00		Powst. Warszawy szkoła 11
+1497	4	190333	13:22:00	13:22:00		Powst. Warszawy Dom Studenta 09
+1497	4	190333	13:25:00	13:25:00		Powst. Warszawy / Hetmańska 03
+1497	4	190333	13:26:00	13:26:00		Powst. Warszawy Politechnika 01
+1497	4	190333	13:29:00	13:29:00		Podkarpacka Politechnika 02
+1497	4	190333	13:30:00	13:30:00		Podkarpacka / Matuszczaka 04
+1497	4	190333	13:31:00	13:31:00		Podkarpacka / Wetlińska 06 nż
+1497	4	190333	13:34:00	13:34:00		Zawiszy Czarnego 03 nż
+1497	4	190333	13:35:00	13:35:00		Zawiszy Czarnego / Podgórska 01 nż
+1497	4	190333	13:36:00	13:36:00		Architektów 01
+1497	4	190333	13:38:00	13:38:00		Przemysłowa U. Celny 06 nż
+1497	4	190333	13:39:00	13:39:00		Przemysłowa / Żołnierzy 9 Dyw. Piechoty 08 nż
+1497	4	190333	13:40:00	13:40:00		Żołnierzy 9 Dyw. Piechoty / Świętokrzyska 04 nż
+1497	4	190333	13:41:00	13:41:00		Żołnierzy 9 Dyw. Piechoty bloki 06 nż
+
+1496	4	191753	13:54:00	13:54:00		Żołnierzy 9 Dyw. Piechoty bloki 06 nż
+1496	4	191753	13:55:00	13:55:00		Świętokrzyska cmentarz 01 nż
+1496	4	191753	13:56:00	13:56:00		Przemysłowa / Żołnierzy 9 Dyw. Piechoty 07 nż
+1496	4	191753	13:57:00	13:57:00		Przemysłowa U. Celny 05 nż
+1496	4	191753	13:59:00	13:59:00		Architektów 02
+1496	4	191753	14:01:00	14:01:00		Zawiszy Czarnego / Podgórska 02 nż
+1496	4	191753	14:02:00	14:02:00		Zawiszy Czarnego 04 nż
+1496	4	191753	14:03:00	14:03:00		Żołnierzy 9 Dyw. Piechoty 01 nż
+1496	4	191753	14:05:00	14:05:00		Podkarpacka / Wetlińska 05 nż
+1496	4	191753	14:06:00	14:06:00		Podkarpacka / Matuszczaka 03
+1496	4	191753	14:08:00	14:08:00		Podkarpacka Politechnika 01
+1496	4	191753	14:09:00	14:09:00		Powst. Warszawy / Dąbrowskiego 02
+1496	4	191753	14:10:00	14:10:00		Powst. Warszawy Politechnika 04
+1496	4	191753	14:11:00	14:11:00		Powst. Warszawy stadion 06
+1496	4	191753	14:14:00	14:14:00		Powst. Warszawy Dom Studenta 08
+1496	4	191753	14:15:00	14:15:00		Powst. Warszawy / Graniczna 10
+1496	4	191753	14:18:00	14:18:00		Rejtana / Armii Krajowej 12
+1496	4	191753	14:19:00	14:19:00		Rejtana / Paderewskiego 10
+1496	4	191753	14:20:00	14:20:00		Rejtana / Krzyżanowskiego 08
+1496	4	191753	14:21:00	14:21:00		Niepodległości / Rejtana 02
+
+1497	4	191161	14:44:00	14:44:00		Niepodległości / Rejtana 02
+1497	4	191161	14:46:00	14:46:00		Rejtana / Kopisto 07
+1497	4	191161	14:47:00	14:47:00		Rejtana / Popiełuszki 09
+1497	4	191161	14:50:00	14:50:00		Powst. Warszawy / Rejtana 13
+1497	4	191161	14:51:00	14:51:00		Powst. Warszawy szkoła 11
+1497	4	191161	14:52:00	14:52:00		Powst. Warszawy Dom Studenta 09
+1497	4	191161	14:55:00	14:55:00		Powst. Warszawy / Hetmańska 03
+1497	4	191161	14:56:00	14:56:00		Powst. Warszawy Politechnika 01
+1497	4	191161	14:58:00	14:58:00		Podkarpacka Politechnika 02
+1497	4	191161	14:59:00	14:59:00		Podkarpacka / Matuszczaka 04
+1497	4	191161	15:00:00	15:00:00		Podkarpacka / Wetlińska 06 nż
+1497	4	191161	15:03:00	15:03:00		Zawiszy Czarnego 03 nż
+1497	4	191161	15:04:00	15:04:00		Zawiszy Czarnego / Podgórska 01 nż
+1497	4	191161	15:05:00	15:05:00		Architektów 01
+1497	4	191161	15:07:00	15:07:00		Przemysłowa U. Celny 06 nż
+1497	4	191161	15:08:00	15:08:00		Przemysłowa / Żołnierzy 9 Dyw. Piechoty 08 nż
+1497	4	191161	15:09:00	15:09:00		Żołnierzy 9 Dyw. Piechoty / Świętokrzyska 04 nż
+1497	4	191161	15:10:00	15:10:00		Żołnierzy 9 Dyw. Piechoty bloki 06 nż
+
+1496	4	190522	15:24:00	15:24:00		Żołnierzy 9 Dyw. Piechoty bloki 06 nż
+1496	4	190522	15:25:00	15:25:00		Świętokrzyska cmentarz 01 nż
+1496	4	190522	15:26:00	15:26:00		Przemysłowa / Żołnierzy 9 Dyw. Piechoty 07 nż
+1496	4	190522	15:27:00	15:27:00		Przemysłowa U. Celny 05 nż
+1496	4	190522	15:29:00	15:29:00		Architektów 02
+1496	4	190522	15:31:00	15:31:00		Zawiszy Czarnego / Podgórska 02 nż
+1496	4	190522	15:32:00	15:32:00		Zawiszy Czarnego 04 nż
+1496	4	190522	15:33:00	15:33:00		Żołnierzy 9 Dyw. Piechoty 01 nż
+1496	4	190522	15:35:00	15:35:00		Podkarpacka / Wetlińska 05 nż
+1496	4	190522	15:36:00	15:36:00		Podkarpacka / Matuszczaka 03
+1496	4	190522	15:38:00	15:38:00		Podkarpacka Politechnika 01
+1496	4	190522	15:39:00	15:39:00		Powst. Warszawy / Dąbrowskiego 02
+1496	4	190522	15:40:00	15:40:00		Powst. Warszawy Politechnika 04
+1496	4	190522	15:41:00	15:41:00		Powst. Warszawy stadion 06
+1496	4	190522	15:44:00	15:44:00		Powst. Warszawy Dom Studenta 08
+1496	4	190522	15:45:00	15:45:00		Powst. Warszawy / Graniczna 10
+1496	4	190522	15:48:00	15:48:00		Rejtana / Armii Krajowej 12
+1496	4	190522	15:49:00	15:49:00		Rejtana / Paderewskiego 10
+1496	4	190522	15:50:00	15:50:00		Rejtana / Krzyżanowskiego 08
+1496	4	190522	15:51:00	15:51:00		Niepodległości / Rejtana 02
+
+1497	4	191048	16:14:00	16:14:00		Niepodległości / Rejtana 02
+1497	4	191048	16:16:00	16:16:00		Rejtana / Kopisto 07
+1497	4	191048	16:17:00	16:17:00		Rejtana / Popiełuszki 09
+1497	4	191048	16:20:00	16:20:00		Powst. Warszawy / Rejtana 13
+1497	4	191048	16:21:00	16:21:00		Powst. Warszawy szkoła 11
+1497	4	191048	16:22:00	16:22:00		Powst. Warszawy Dom Studenta 09
+1497	4	191048	16:25:00	16:25:00		Powst. Warszawy / Hetmańska 03
+1497	4	191048	16:26:00	16:26:00		Powst. Warszawy Politechnika 01
+1497	4	191048	16:28:00	16:28:00		Podkarpacka Politechnika 02
+1497	4	191048	16:29:00	16:29:00		Podkarpacka / Matuszczaka 04
+1497	4	191048	16:30:00	16:30:00		Podkarpacka / Wetlińska 06 nż
+1497	4	191048	16:33:00	16:33:00		Zawiszy Czarnego 03 nż
+1497	4	191048	16:34:00	16:34:00		Zawiszy Czarnego / Podgórska 01 nż
+1497	4	191048	16:35:00	16:35:00		Architektów 01
+1497	4	191048	16:37:00	16:37:00		Przemysłowa U. Celny 06 nż
+1497	4	191048	16:38:00	16:38:00		Przemysłowa / Żołnierzy 9 Dyw. Piechoty 08 nż
+1497	4	191048	16:39:00	16:39:00		Żołnierzy 9 Dyw. Piechoty / Świętokrzyska 04 nż
+1497	4	191048	16:40:00	16:40:00		Żołnierzy 9 Dyw. Piechoty bloki 06 nż
+
+1496	4	189125	16:54:00	16:54:00		Żołnierzy 9 Dyw. Piechoty bloki 06 nż
+1496	4	189125	16:55:00	16:55:00		Świętokrzyska cmentarz 01 nż
+1496	4	189125	16:56:00	16:56:00		Przemysłowa / Żołnierzy 9 Dyw. Piechoty 07 nż
+1496	4	189125	16:57:00	16:57:00		Przemysłowa U. Celny 05 nż
+1496	4	189125	16:59:00	16:59:00		Architektów 02
+1496	4	189125	17:01:00	17:01:00		Zawiszy Czarnego / Podgórska 02 nż
+1496	4	189125	17:02:00	17:02:00		Zawiszy Czarnego 04 nż
+1496	4	189125	17:03:00	17:03:00		Żołnierzy 9 Dyw. Piechoty 01 nż
+1496	4	189125	17:05:00	17:05:00		Podkarpacka / Wetlińska 05 nż
+1496	4	189125	17:06:00	17:06:00		Podkarpacka / Matuszczaka 03
+1496	4	189125	17:08:00	17:08:00		Podkarpacka Politechnika 01
+1496	4	189125	17:09:00	17:09:00		Powst. Warszawy / Dąbrowskiego 02
+1496	4	189125	17:10:00	17:10:00		Powst. Warszawy Politechnika 04
+1496	4	189125	17:11:00	17:11:00		Powst. Warszawy stadion 06
+1496	4	189125	17:14:00	17:14:00		Powst. Warszawy Dom Studenta 08
+1496	4	189125	17:15:00	17:15:00		Powst. Warszawy / Graniczna 10
+1496	4	189125	17:18:00	17:18:00		Rejtana / Armii Krajowej 12
+1496	4	189125	17:19:00	17:19:00		Rejtana / Paderewskiego 10
+1496	4	189125	17:20:00	17:20:00		Rejtana / Krzyżanowskiego 08
+1496	4	189125	17:21:00	17:21:00		Niepodległości / Rejtana 02
