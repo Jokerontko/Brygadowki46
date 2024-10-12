@@ -4,7 +4,7 @@ const path = require('path');
 const bodyParser = require('body-parser');
 
 const app = express();
-const PORT = process.env.PORT || 6969; // Używaj portu z Heroku lub 3000 w lokalnym środowisku
+const PORT = process.env.PORT || 3000; // Używaj portu z Heroku lub 3000 w lokalnym środowisku
 
 // Umożliwienie przetwarzania JSON w ciele żądań
 app.use(bodyParser.json());
