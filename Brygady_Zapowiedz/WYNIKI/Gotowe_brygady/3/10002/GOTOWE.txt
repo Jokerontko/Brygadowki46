@@ -1,0 +1,481 @@
+route_id	service_id	trip_id	arrival_time	departure_time	stop_headsign	stop_name
+-------------------------------------------------------------------------------
+1613	3	194164	03:50:00	03:50:00		Lubelska kościół 05 nż
+1613	3	194164	03:51:00	03:51:00		Lubelska szpital 01
+1613	3	194164	03:52:00	03:52:00		Marszałkowska 01
+1613	3	194164	03:54:00	03:54:00		Cieplińskiego 02
+1613	3	194164	03:55:00	03:55:00		Lisa-Kuli 01
+1613	3	194164	03:57:00	03:57:00		Hetmańska podzamcze 02 nż
+1613	3	194164	03:58:00	03:58:00		Hetmańska przychodnia 04
+1613	3	194164	03:59:00	03:59:00		Hetmańska ZS. Mech. 06
+1613	3	194164	04:01:00	04:01:00		Powst. Warszawy stadion 06
+1613	3	194164	04:03:00	04:03:00		Powst. Warszawy Dom Studenta 08
+1613	3	194164	04:04:00	04:04:00		Powst. Warszawy / Graniczna 10
+1613	3	194164	04:05:00	04:05:00		Powst. Warszawy / Sikorskiego 12 nż
+1613	3	194164	04:06:00	04:06:00		Sikorskiego Katedra 04 nż
+1613	3	194164	04:07:00	04:07:00		Sikorskiego / Łukasiewicza 06 nż
+1613	3	194164	04:08:00	04:08:00		Sikorskiego domki 08 nż
+1613	3	194164	04:09:00	04:09:00		Strażacka / Sikorskiego 07 nż
+1613	3	194164	04:10:00	04:10:00		Strażacka / Sympatyczna 05 nż
+1613	3	194164	04:11:00	04:11:00		Miła / Strażacka 02 nż
+1613	3	194164	04:12:00	04:12:00		Miła bloki 04 nż
+1613	3	194164	04:13:00	04:13:00		Miła szkoła 06 nż
+1613	3	194164	04:14:00	04:14:00		Kard. K. Wojtyły kościół 05 nż
+1613	3	194164	04:16:00	04:16:00		Kard. K. Wojtyły pętla 03 nż
+1613	3	194164	04:17:00	04:17:00		Kard. K .Wojtyły / Sikorskiego 01 nż
+1613	3	194164	04:18:00	04:18:00		Sikorskiego / Kard. K. Wojtyły 16 nż
+1613	3	194164	04:19:00	04:19:00		Sikorskiego granica 18 nż
+1613	3	194164	04:21:00	04:21:00		Sikorskiego MPGK 20
+
+1601	3	194489	04:30:00	04:30:00		Sikorskiego MPGK 20
+1601	3	194489	04:31:00	04:31:00		Sikorskiego granica 15 nż
+1601	3	194489	04:32:00	04:32:00		Sikorskiego / Ruczajowa 13 nż
+1601	3	194489	04:33:00	04:33:00		Kard. K. Wojtyły / Sikorskiego 02 nż
+1601	3	194489	04:34:00	04:34:00		Kard. K. Wojtyły pętla 04 nż
+1601	3	194489	04:35:00	04:35:00		Kard. K. Wojtyły kościół 06 nż
+1601	3	194489	04:36:00	04:36:00		Miła Dom Kultury 05 nż
+1601	3	194489	04:37:00	04:37:00		Miła bloki 03 nż
+1601	3	194489	04:38:00	04:38:00		Miła / Strażacka 01 nż
+1601	3	194489	04:39:00	04:39:00		Strażacka / Sympatyczna 06 nż
+1601	3	194489	04:40:00	04:40:00		Strażacka / Sikorskiego 08 nż
+1601	3	194489	04:42:00	04:42:00		Sikorskiego / Robotnicza 05 nż
+1601	3	194489	04:43:00	04:43:00		Sikorskiego domki 03 nż
+1601	3	194489	04:45:00	04:45:00		Sikorskiego Katedra 01 nż
+1601	3	194489	04:47:00	04:47:00		Powst. Warszawy / Rejtana 13
+1601	3	194489	04:48:00	04:48:00		Powst. Warszawy szkoła 11
+1601	3	194489	04:49:00	04:49:00		Powst. Warszawy Dom Studenta 09
+1601	3	194489	04:51:00	04:51:00		Hetmańska stadion 07
+1601	3	194489	04:52:00	04:52:00		Hetmańska ZS. Mech. 05
+1601	3	194489	04:53:00	04:53:00		Hetmańska przychodnia 03
+1601	3	194489	04:54:00	04:54:00		Hetmańska podzamcze 01 nż
+1601	3	194489	04:56:00	04:56:00		Lisa-Kuli 02
+1601	3	194489	04:57:00	04:57:00		Cieplińskiego 01
+1601	3	194489	04:59:00	04:59:00		Marszałkowska 02
+1601	3	194489	05:00:00	05:00:00		Lubelska szpital 02
+1601	3	194489	05:01:00	05:01:00		Lubelska kościół 06 nż
+1601	3	194489	05:02:00	05:02:00		Staromiejska / Lubelska 02 nż
+1601	3	194489	05:03:00	05:03:00		Staromiejska Dom Kultury 04 nż
+1601	3	194489	05:04:00	05:04:00		Staromiejska szkoła 06 nż
+1601	3	194489	05:06:00	05:06:00		Warszawska / Borowa 08 nż
+1601	3	194489	05:07:00	05:07:00		Warszawska / Bażantowa 10 nż
+1601	3	194489	05:08:00	05:08:00		Myśliwska / Św. Huberta 02 nż
+1601	3	194489	05:09:00	05:09:00		Myśliwska / Pogwizdowska 04 nż
+1601	3	194489	05:10:00	05:10:00		Pogwizdowska OSP 02 nż
+1601	3	194489	05:11:00	05:11:00		Pogwizdowska szkoła 04 nż
+1601	3	194489	05:12:00	05:12:00		Pogwizdowska 06 nż
+1601	3	194489	05:13:00	05:13:00		Rudna Wielka Pehamet 23 nż
+1601	3	194489	05:14:00	05:14:00		Rudna Wielka kościół 21 nż
+1601	3	194489	05:15:00	05:15:00		Rudna Wielka Dom Ludowy 19 nż
+1601	3	194489	05:16:00	05:16:00		Rudna Wielka Dom Strażaka 17 nż
+1601	3	194489	05:17:00	05:17:00		Rudna Wielka zakręt 04 nż
+
+1606	3	194584	05:32:00	05:32:00		Rudna Wielka zakręt 04 nż
+1606	3	194584	05:34:00	05:34:00		Rudna Wielka I 02 nż
+1606	3	194584	05:36:00	05:36:00		Rudna Wielka kościół 22 nż
+1606	3	194584	05:37:00	05:37:00		Rudna Wielka Pehamet 24 nż
+1606	3	194584	05:38:00	05:38:00		Pogwizdowska 05 nż
+1606	3	194584	05:39:00	05:39:00		Pogwizdowska szkoła 03 nż
+1606	3	194584	05:40:00	05:40:00		Pogwizdowska OSP 01 nż
+1606	3	194584	05:42:00	05:42:00		Myśliwska / Pogwizdowska 03 nż
+1606	3	194584	05:43:00	05:43:00		Myśliwska / Św. Huberta 01 nż
+1606	3	194584	05:44:00	05:44:00		Warszawska / Myśliwska 09 nż
+1606	3	194584	05:45:00	05:45:00		Warszawska / Borowa 07 nż
+1606	3	194584	05:47:00	05:47:00		Staromiejska szkoła 05 nż
+1606	3	194584	05:48:00	05:48:00		Staromiejska Dom Kultury 03 nż
+1606	3	194584	05:49:00	05:49:00		Staromiejska / Lubelska 01 nż
+1606	3	194584	05:50:00	05:50:00		Lubelska kościół 05 nż
+1606	3	194584	05:51:00	05:51:00		Lubelska szpital 01
+1606	3	194584	05:52:00	05:52:00		Marszałkowska 01
+1606	3	194584	05:54:00	05:54:00		Cieplińskiego 02
+1606	3	194584	05:55:00	05:55:00		Lisa-Kuli 01
+1606	3	194584	05:57:00	05:57:00		Hetmańska podzamcze 02 nż
+1606	3	194584	05:58:00	05:58:00		Hetmańska przychodnia 04
+1606	3	194584	05:59:00	05:59:00		Hetmańska ZS. Mech. 06
+1606	3	194584	06:01:00	06:01:00		Powst. Warszawy stadion 06
+1606	3	194584	06:03:00	06:03:00		Powst. Warszawy Dom Studenta 08
+1606	3	194584	06:04:00	06:04:00		Powst. Warszawy / Graniczna 10
+1606	3	194584	06:05:00	06:05:00		Powst. Warszawy / Sikorskiego 12 nż
+1606	3	194584	06:06:00	06:06:00		Sikorskiego Katedra 04 nż
+1606	3	194584	06:07:00	06:07:00		Sikorskiego / Łukasiewicza 06 nż
+1606	3	194584	06:08:00	06:08:00		Sikorskiego domki 08 nż
+1606	3	194584	06:09:00	06:09:00		Strażacka / Sikorskiego 07 nż
+1606	3	194584	06:10:00	06:10:00		Strażacka / Sympatyczna 05 nż
+1606	3	194584	06:11:00	06:11:00		Miła / Strażacka 02 nż
+1606	3	194584	06:12:00	06:12:00		Miła bloki 04 nż
+1606	3	194584	06:13:00	06:13:00		Miła szkoła 06 nż
+1606	3	194584	06:14:00	06:14:00		Kard. K. Wojtyły kościół 05 nż
+1606	3	194584	06:16:00	06:16:00		Kard. K. Wojtyły pętla 03 nż
+1606	3	194584	06:17:00	06:17:00		Kard. K .Wojtyły / Sikorskiego 01 nż
+1606	3	194584	06:18:00	06:18:00		Sikorskiego / Kard. K. Wojtyły 16 nż
+1606	3	194584	06:19:00	06:19:00		Sikorskiego granica 18 nż
+1606	3	194584	06:21:00	06:21:00		Sikorskiego MPGK 20
+
+1601	3	194344	06:36:00	06:36:00		Sikorskiego MPGK 20
+1601	3	194344	06:37:00	06:37:00		Sikorskiego granica 15 nż
+1601	3	194344	06:38:00	06:38:00		Sikorskiego / Ruczajowa 13 nż
+1601	3	194344	06:39:00	06:39:00		Kard. K. Wojtyły / Sikorskiego 02 nż
+1601	3	194344	06:41:00	06:41:00		Kard. K. Wojtyły pętla 04 nż
+1601	3	194344	06:42:00	06:42:00		Kard. K. Wojtyły kościół 06 nż
+1601	3	194344	06:44:00	06:44:00		Miła Dom Kultury 05 nż
+1601	3	194344	06:45:00	06:45:00		Miła bloki 03 nż
+1601	3	194344	06:46:00	06:46:00		Miła / Strażacka 01 nż
+1601	3	194344	06:47:00	06:47:00		Strażacka / Sympatyczna 06 nż
+1601	3	194344	06:48:00	06:48:00		Strażacka / Sikorskiego 08 nż
+1601	3	194344	06:50:00	06:50:00		Sikorskiego / Robotnicza 05 nż
+1601	3	194344	06:51:00	06:51:00		Sikorskiego domki 03 nż
+1601	3	194344	06:53:00	06:53:00		Sikorskiego Katedra 01 nż
+1601	3	194344	06:56:00	06:56:00		Powst. Warszawy / Rejtana 13
+1601	3	194344	06:57:00	06:57:00		Powst. Warszawy szkoła 11
+1601	3	194344	06:58:00	06:58:00		Powst. Warszawy Dom Studenta 09
+1601	3	194344	07:01:00	07:01:00		Hetmańska stadion 07
+1601	3	194344	07:02:00	07:02:00		Hetmańska ZS. Mech. 05
+1601	3	194344	07:03:00	07:03:00		Hetmańska przychodnia 03
+1601	3	194344	07:04:00	07:04:00		Hetmańska podzamcze 01 nż
+1601	3	194344	07:08:00	07:08:00		Lisa-Kuli 02
+1601	3	194344	07:09:00	07:09:00		Cieplińskiego 01
+1601	3	194344	07:12:00	07:12:00		Marszałkowska 02
+1601	3	194344	07:13:00	07:13:00		Lubelska szpital 02
+1601	3	194344	07:15:00	07:15:00		Lubelska kościół 06 nż
+1601	3	194344	07:16:00	07:16:00		Staromiejska / Lubelska 02 nż
+1601	3	194344	07:17:00	07:17:00		Staromiejska Dom Kultury 04 nż
+1601	3	194344	07:18:00	07:18:00		Staromiejska szkoła 06 nż
+1601	3	194344	07:20:00	07:20:00		Warszawska / Borowa 08 nż
+1601	3	194344	07:21:00	07:21:00		Warszawska / Bażantowa 10 nż
+1601	3	194344	07:23:00	07:23:00		Myśliwska / Św. Huberta 02 nż
+1601	3	194344	07:24:00	07:24:00		Myśliwska / Pogwizdowska 04 nż
+1601	3	194344	07:25:00	07:25:00		Pogwizdowska OSP 02 nż
+1601	3	194344	07:26:00	07:26:00		Pogwizdowska szkoła 04 nż
+1601	3	194344	07:27:00	07:27:00		Pogwizdowska 06 nż
+1601	3	194344	07:28:00	07:28:00		Rudna Wielka Pehamet 23 nż
+1601	3	194344	07:29:00	07:29:00		Rudna Wielka kościół 21 nż
+1601	3	194344	07:30:00	07:30:00		Rudna Wielka Dom Ludowy 19 nż
+1601	3	194344	07:31:00	07:31:00		Rudna Wielka Dom Strażaka 17 nż
+1601	3	194344	07:32:00	07:32:00		Rudna Wielka zakręt 04 nż
+
+1606	3	194234	08:02:00	08:02:00		Rudna Wielka zakręt 04 nż
+1606	3	194234	08:04:00	08:04:00		Rudna Wielka I 02 nż
+1606	3	194234	08:06:00	08:06:00		Rudna Wielka kościół 22 nż
+1606	3	194234	08:07:00	08:07:00		Rudna Wielka Pehamet 24 nż
+1606	3	194234	08:08:00	08:08:00		Pogwizdowska 05 nż
+1606	3	194234	08:09:00	08:09:00		Pogwizdowska szkoła 03 nż
+1606	3	194234	08:10:00	08:10:00		Pogwizdowska OSP 01 nż
+1606	3	194234	08:12:00	08:12:00		Myśliwska / Pogwizdowska 03 nż
+1606	3	194234	08:13:00	08:13:00		Myśliwska / Św. Huberta 01 nż
+1606	3	194234	08:15:00	08:15:00		Warszawska / Myśliwska 09 nż
+1606	3	194234	08:17:00	08:17:00		Warszawska / Borowa 07 nż
+1606	3	194234	08:20:00	08:20:00		Staromiejska szkoła 05 nż
+1606	3	194234	08:21:00	08:21:00		Staromiejska Dom Kultury 03 nż
+1606	3	194234	08:22:00	08:22:00		Staromiejska / Lubelska 01 nż
+1606	3	194234	08:23:00	08:23:00		Lubelska kościół 05 nż
+1606	3	194234	08:24:00	08:24:00		Lubelska szpital 01
+1606	3	194234	08:26:00	08:26:00		Marszałkowska 01
+1606	3	194234	08:30:00	08:30:00		Cieplińskiego 02
+1606	3	194234	08:31:00	08:31:00		Lisa-Kuli 01
+1606	3	194234	08:34:00	08:34:00		Hetmańska podzamcze 02 nż
+1606	3	194234	08:35:00	08:35:00		Hetmańska przychodnia 04
+1606	3	194234	08:36:00	08:36:00		Hetmańska ZS. Mech. 06
+1606	3	194234	08:39:00	08:39:00		Powst. Warszawy stadion 06
+1606	3	194234	08:41:00	08:41:00		Powst. Warszawy Dom Studenta 08
+1606	3	194234	08:42:00	08:42:00		Powst. Warszawy / Graniczna 10
+1606	3	194234	08:43:00	08:43:00		Powst. Warszawy / Sikorskiego 12 nż
+1606	3	194234	08:44:00	08:44:00		Sikorskiego Katedra 04 nż
+1606	3	194234	08:45:00	08:45:00		Sikorskiego / Łukasiewicza 06 nż
+1606	3	194234	08:46:00	08:46:00		Sikorskiego domki 08 nż
+1606	3	194234	08:48:00	08:48:00		Strażacka / Sikorskiego 07 nż
+1606	3	194234	08:49:00	08:49:00		Strażacka / Sympatyczna 05 nż
+1606	3	194234	08:50:00	08:50:00		Miła / Strażacka 02 nż
+1606	3	194234	08:51:00	08:51:00		Miła bloki 04 nż
+1606	3	194234	08:52:00	08:52:00		Miła szkoła 06 nż
+1606	3	194234	08:53:00	08:53:00		Kard. K. Wojtyły kościół 05 nż
+1606	3	194234	08:55:00	08:55:00		Kard. K. Wojtyły pętla 03 nż
+1606	3	194234	08:56:00	08:56:00		Kard. K .Wojtyły / Sikorskiego 01 nż
+1606	3	194234	08:57:00	08:57:00		Sikorskiego / Kard. K. Wojtyły 16 nż
+1606	3	194234	08:58:00	08:58:00		Sikorskiego granica 18 nż
+1606	3	194234	09:00:00	09:00:00		Sikorskiego MPGK 20
+
+1607	3	194456	09:13:00	09:13:00		Sikorskiego MPGK 20
+1607	3	194456	09:14:00	09:14:00		Sikorskiego granica 15 nż
+1607	3	194456	09:15:00	09:15:00		Sikorskiego / Ruczajowa 13 nż
+1607	3	194456	09:16:00	09:16:00		Kard. K. Wojtyły / Sikorskiego 02 nż
+1607	3	194456	09:18:00	09:18:00		Kard. K. Wojtyły pętla 04 nż
+1607	3	194456	09:19:00	09:19:00		Kard. K. Wojtyły kościół 06 nż
+1607	3	194456	09:21:00	09:21:00		Miła Dom Kultury 05 nż
+1607	3	194456	09:22:00	09:22:00		Miła bloki 03 nż
+1607	3	194456	09:23:00	09:23:00		Miła / Strażacka 01 nż
+1607	3	194456	09:24:00	09:24:00		Strażacka / Sympatyczna 06 nż
+1607	3	194456	09:25:00	09:25:00		Strażacka / Sikorskiego 08 nż
+1607	3	194456	09:27:00	09:27:00		Sikorskiego / Robotnicza 05 nż
+1607	3	194456	09:28:00	09:28:00		Sikorskiego domki 03 nż
+1607	3	194456	09:30:00	09:30:00		Sikorskiego Katedra 01 nż
+1607	3	194456	09:33:00	09:33:00		Powst. Warszawy / Rejtana 13
+1607	3	194456	09:34:00	09:34:00		Powst. Warszawy szkoła 11
+1607	3	194456	09:35:00	09:35:00		Powst. Warszawy Dom Studenta 09
+1607	3	194456	09:38:00	09:38:00		Hetmańska stadion 07
+1607	3	194456	09:39:00	09:39:00		Hetmańska ZS. Mech. 05
+1607	3	194456	09:40:00	09:40:00		Hetmańska przychodnia 03
+1607	3	194456	09:41:00	09:41:00		Hetmańska podzamcze 01 nż
+1607	3	194456	09:44:00	09:44:00		Lisa-Kuli 02
+1607	3	194456	09:45:00	09:45:00		Cieplińskiego 01
+1607	3	194456	09:48:00	09:48:00		Marszałkowska 02
+1607	3	194456	09:49:00	09:49:00		Lubelska szpital 02
+1607	3	194456	09:51:00	09:51:00		Lubelska kościół 06 nż
+1607	3	194456	09:52:00	09:52:00		Staromiejska / Lubelska 02 nż
+1607	3	194456	09:53:00	09:53:00		Staromiejska Dom Kultury 04 nż
+1607	3	194456	09:54:00	09:54:00		Staromiejska szkoła 06 nż
+1607	3	194456	09:56:00	09:56:00		Warszawska / Borowa 08 nż
+
+1599	3	194212	10:32:00	10:32:00		Warszawska / Borowa 08 nż
+1599	3	194212	10:33:00	10:33:00		Warszawska / Bażantowa 10 nż
+1599	3	194212	10:35:00	10:35:00		Myśliwska / Św. Huberta 02 nż
+1599	3	194212	10:36:00	10:36:00		Myśliwska / Pogwizdowska 04 nż
+1599	3	194212	10:37:00	10:37:00		Myśliwska / Kameliowa 06 nż
+1599	3	194212	10:38:00	10:38:00		Myśliwska / Oliwkowa 08 nż
+1599	3	194212	10:39:00	10:39:00		Pogwizdowska 05 nż
+1599	3	194212	10:40:00	10:40:00		Pogwizdowska szkoła 03 nż
+1599	3	194212	10:41:00	10:41:00		Pogwizdowska OSP 01 nż
+1599	3	194212	10:43:00	10:43:00		Myśliwska / Pogwizdowska 03 nż
+1599	3	194212	10:44:00	10:44:00		Myśliwska / Św. Huberta 01 nż
+1599	3	194212	10:45:00	10:45:00		Warszawska / Myśliwska 09 nż
+1599	3	194212	10:47:00	10:47:00		Warszawska / Borowa 07 nż
+1599	3	194212	10:50:00	10:50:00		Staromiejska szkoła 05 nż
+1599	3	194212	10:51:00	10:51:00		Staromiejska Dom Kultury 03 nż
+1599	3	194212	10:52:00	10:52:00		Staromiejska / Lubelska 01 nż
+1599	3	194212	10:53:00	10:53:00		Lubelska kościół 05 nż
+1599	3	194212	10:54:00	10:54:00		Lubelska szpital 01
+1599	3	194212	10:56:00	10:56:00		Marszałkowska 01
+1599	3	194212	11:00:00	11:00:00		Cieplińskiego 02
+1599	3	194212	11:01:00	11:01:00		Lisa-Kuli 01
+1599	3	194212	11:04:00	11:04:00		Hetmańska podzamcze 02 nż
+1599	3	194212	11:05:00	11:05:00		Hetmańska przychodnia 04
+1599	3	194212	11:06:00	11:06:00		Hetmańska ZS. Mech. 06
+1599	3	194212	11:09:00	11:09:00		Powst. Warszawy stadion 06
+1599	3	194212	11:11:00	11:11:00		Powst. Warszawy Dom Studenta 08
+1599	3	194212	11:12:00	11:12:00		Powst. Warszawy / Graniczna 10
+1599	3	194212	11:13:00	11:13:00		Powst. Warszawy / Sikorskiego 12 nż
+1599	3	194212	11:14:00	11:14:00		Sikorskiego Katedra 04 nż
+1599	3	194212	11:15:00	11:15:00		Sikorskiego / Łukasiewicza 06 nż
+1599	3	194212	11:16:00	11:16:00		Sikorskiego domki 08 nż
+1599	3	194212	11:18:00	11:18:00		Strażacka / Sikorskiego 07 nż
+1599	3	194212	11:19:00	11:19:00		Strażacka / Sympatyczna 05 nż
+1599	3	194212	11:20:00	11:20:00		Miła / Strażacka 02 nż
+1599	3	194212	11:21:00	11:21:00		Miła bloki 04 nż
+1599	3	194212	11:22:00	11:22:00		Miła szkoła 06 nż
+1599	3	194212	11:23:00	11:23:00		Kard. K. Wojtyły kościół 05 nż
+1599	3	194212	11:25:00	11:25:00		Kard. K. Wojtyły pętla 03 nż
+1599	3	194212	11:26:00	11:26:00		Kard. K .Wojtyły / Sikorskiego 01 nż
+1599	3	194212	11:27:00	11:27:00		Sikorskiego / Kard. K. Wojtyły 16 nż
+1599	3	194212	11:28:00	11:28:00		Sikorskiego granica 18 nż
+1599	3	194212	11:30:00	11:30:00		Sikorskiego MPGK 20
+
+1600	3	194533	11:43:00	11:43:00		Sikorskiego MPGK 20
+1600	3	194533	11:44:00	11:44:00		Sikorskiego granica 15 nż
+1600	3	194533	11:45:00	11:45:00		Sikorskiego / Ruczajowa 13 nż
+1600	3	194533	11:46:00	11:46:00		Kard. K. Wojtyły / Sikorskiego 02 nż
+1600	3	194533	11:48:00	11:48:00		Kard. K. Wojtyły pętla 04 nż
+1600	3	194533	11:49:00	11:49:00		Kard. K. Wojtyły kościół 06 nż
+1600	3	194533	11:51:00	11:51:00		Miła Dom Kultury 05 nż
+1600	3	194533	11:52:00	11:52:00		Miła bloki 03 nż
+1600	3	194533	11:53:00	11:53:00		Miła / Strażacka 01 nż
+1600	3	194533	11:54:00	11:54:00		Strażacka / Sympatyczna 06 nż
+1600	3	194533	11:55:00	11:55:00		Strażacka / Sikorskiego 08 nż
+1600	3	194533	11:57:00	11:57:00		Sikorskiego / Robotnicza 05 nż
+1600	3	194533	11:58:00	11:58:00		Sikorskiego domki 03 nż
+1600	3	194533	12:00:00	12:00:00		Sikorskiego Katedra 01 nż
+1600	3	194533	12:03:00	12:03:00		Powst. Warszawy / Rejtana 13
+1600	3	194533	12:04:00	12:04:00		Powst. Warszawy szkoła 11
+1600	3	194533	12:05:00	12:05:00		Powst. Warszawy Dom Studenta 09
+1600	3	194533	12:08:00	12:08:00		Hetmańska stadion 07
+1600	3	194533	12:09:00	12:09:00		Hetmańska ZS. Mech. 05
+1600	3	194533	12:10:00	12:10:00		Hetmańska przychodnia 03
+1600	3	194533	12:11:00	12:11:00		Hetmańska podzamcze 01 nż
+1600	3	194533	12:14:00	12:14:00		Lisa-Kuli 02
+1600	3	194533	12:15:00	12:15:00		Cieplińskiego 01
+1600	3	194533	12:18:00	12:18:00		Marszałkowska 02
+1600	3	194533	12:19:00	12:19:00		Lubelska szpital 02
+1600	3	194533	12:21:00	12:21:00		Lubelska kościół 06 nż
+1600	3	194533	12:22:00	12:22:00		Staromiejska / Lubelska 02 nż
+1600	3	194533	12:23:00	12:23:00		Staromiejska Dom Kultury 04 nż
+1600	3	194533	12:24:00	12:24:00		Staromiejska szkoła 06 nż
+1600	3	194533	12:26:00	12:26:00		Warszawska / Borowa 08 nż
+1600	3	194533	12:27:00	12:27:00		Warszawska / Bażantowa 10 nż
+1600	3	194533	12:30:00	12:30:00		Myśliwska / Św. Huberta 02 nż
+1600	3	194533	12:31:00	12:31:00		Myśliwska / Pogwizdowska 04 nż
+1600	3	194533	12:32:00	12:32:00		Myśliwska / Kameliowa 06 nż
+1600	3	194533	12:33:00	12:33:00		Myśliwska / Oliwkowa 08 nż
+1600	3	194533	12:34:00	12:34:00		Pogwizdowska 05 nż
+1600	3	194533	12:35:00	12:35:00		Pogwizdowska szkoła 03 nż
+1600	3	194533	12:36:00	12:36:00		Pogwizdowska OSP 01 nż
+1600	3	194533	12:38:00	12:38:00		Myśliwska / Pogwizdowska 03 nż
+1600	3	194533	12:39:00	12:39:00		Myśliwska / Św. Huberta 01 nż
+1600	3	194533	12:40:00	12:40:00		Warszawska / Myśliwska 09 nż
+1600	3	194533	12:42:00	12:42:00		Warszawska / Borowa 07 nż
+
+1612	3	194407	13:16:00	13:16:00		Warszawska / Borowa 07 nż
+1612	3	194407	13:19:00	13:19:00		Staromiejska szkoła 05 nż
+1612	3	194407	13:20:00	13:20:00		Staromiejska Dom Kultury 03 nż
+1612	3	194407	13:21:00	13:21:00		Staromiejska / Lubelska 01 nż
+1612	3	194407	13:22:00	13:22:00		Lubelska kościół 05 nż
+1612	3	194407	13:23:00	13:23:00		Lubelska szpital 01
+1612	3	194407	13:25:00	13:25:00		Marszałkowska 01
+1612	3	194407	13:29:00	13:29:00		Cieplińskiego 02
+1612	3	194407	13:30:00	13:30:00		Lisa-Kuli 01
+1612	3	194407	13:34:00	13:34:00		Hetmańska podzamcze 02 nż
+1612	3	194407	13:35:00	13:35:00		Hetmańska przychodnia 04
+1612	3	194407	13:36:00	13:36:00		Hetmańska ZS. Mech. 06
+1612	3	194407	13:39:00	13:39:00		Powst. Warszawy stadion 06
+1612	3	194407	13:42:00	13:42:00		Powst. Warszawy Dom Studenta 08
+1612	3	194407	13:43:00	13:43:00		Powst. Warszawy / Graniczna 10
+1612	3	194407	13:44:00	13:44:00		Powst. Warszawy / Sikorskiego 12 nż
+1612	3	194407	13:45:00	13:45:00		Sikorskiego Katedra 04 nż
+1612	3	194407	13:46:00	13:46:00		Sikorskiego / Łukasiewicza 06 nż
+1612	3	194407	13:47:00	13:47:00		Sikorskiego domki 08 nż
+1612	3	194407	13:49:00	13:49:00		Strażacka / Sikorskiego 07 nż
+1612	3	194407	13:50:00	13:50:00		Strażacka / Sympatyczna 05 nż
+1612	3	194407	13:51:00	13:51:00		Miła / Strażacka 02 nż
+1612	3	194407	13:52:00	13:52:00		Miła bloki 04 nż
+1612	3	194407	13:53:00	13:53:00		Miła szkoła 06 nż
+1612	3	194407	13:54:00	13:54:00		Kard. K. Wojtyły kościół 05 nż
+1612	3	194407	13:56:00	13:56:00		Kard. K. Wojtyły pętla 03 nż
+1612	3	194407	13:57:00	13:57:00		Kard. K .Wojtyły / Sikorskiego 01 nż
+1612	3	194407	13:58:00	13:58:00		Sikorskiego / Kard. K. Wojtyły 16 nż
+1612	3	194407	13:59:00	13:59:00		Sikorskiego granica 18 nż
+1612	3	194407	14:01:00	14:01:00		Sikorskiego MPGK 20
+
+1600	3	194487	14:13:00	14:13:00		Sikorskiego MPGK 20
+1600	3	194487	14:14:00	14:14:00		Sikorskiego granica 15 nż
+1600	3	194487	14:15:00	14:15:00		Sikorskiego / Ruczajowa 13 nż
+1600	3	194487	14:16:00	14:16:00		Kard. K. Wojtyły / Sikorskiego 02 nż
+1600	3	194487	14:18:00	14:18:00		Kard. K. Wojtyły pętla 04 nż
+1600	3	194487	14:19:00	14:19:00		Kard. K. Wojtyły kościół 06 nż
+1600	3	194487	14:21:00	14:21:00		Miła Dom Kultury 05 nż
+1600	3	194487	14:22:00	14:22:00		Miła bloki 03 nż
+1600	3	194487	14:23:00	14:23:00		Miła / Strażacka 01 nż
+1600	3	194487	14:24:00	14:24:00		Strażacka / Sympatyczna 06 nż
+1600	3	194487	14:25:00	14:25:00		Strażacka / Sikorskiego 08 nż
+1600	3	194487	14:27:00	14:27:00		Sikorskiego / Robotnicza 05 nż
+1600	3	194487	14:28:00	14:28:00		Sikorskiego domki 03 nż
+1600	3	194487	14:30:00	14:30:00		Sikorskiego Katedra 01 nż
+1600	3	194487	14:33:00	14:33:00		Powst. Warszawy / Rejtana 13
+1600	3	194487	14:34:00	14:34:00		Powst. Warszawy szkoła 11
+1600	3	194487	14:35:00	14:35:00		Powst. Warszawy Dom Studenta 09
+1600	3	194487	14:38:00	14:38:00		Hetmańska stadion 07
+1600	3	194487	14:39:00	14:39:00		Hetmańska ZS. Mech. 05
+1600	3	194487	14:40:00	14:40:00		Hetmańska przychodnia 03
+1600	3	194487	14:41:00	14:41:00		Hetmańska podzamcze 01 nż
+1600	3	194487	14:45:00	14:45:00		Lisa-Kuli 02
+1600	3	194487	14:46:00	14:46:00		Cieplińskiego 01
+1600	3	194487	14:50:00	14:50:00		Marszałkowska 02
+1600	3	194487	14:51:00	14:51:00		Lubelska szpital 02
+1600	3	194487	14:53:00	14:53:00		Lubelska kościół 06 nż
+1600	3	194487	14:54:00	14:54:00		Staromiejska / Lubelska 02 nż
+1600	3	194487	14:55:00	14:55:00		Staromiejska Dom Kultury 04 nż
+1600	3	194487	14:56:00	14:56:00		Staromiejska szkoła 06 nż
+1600	3	194487	14:58:00	14:58:00		Warszawska / Borowa 08 nż
+1600	3	194487	14:59:00	14:59:00		Warszawska / Bażantowa 10 nż
+1600	3	194487	15:03:00	15:03:00		Myśliwska / Św. Huberta 02 nż
+1600	3	194487	15:04:00	15:04:00		Myśliwska / Pogwizdowska 04 nż
+1600	3	194487	15:05:00	15:05:00		Myśliwska / Kameliowa 06 nż
+1600	3	194487	15:06:00	15:06:00		Myśliwska / Oliwkowa 08 nż
+1600	3	194487	15:07:00	15:07:00		Pogwizdowska 05 nż
+1600	3	194487	15:08:00	15:08:00		Pogwizdowska szkoła 03 nż
+1600	3	194487	15:09:00	15:09:00		Pogwizdowska OSP 01 nż
+1600	3	194487	15:11:00	15:11:00		Myśliwska / Pogwizdowska 03 nż
+1600	3	194487	15:12:00	15:12:00		Myśliwska / Św. Huberta 01 nż
+1600	3	194487	15:13:00	15:13:00		Warszawska / Myśliwska 09 nż
+1600	3	194487	15:15:00	15:15:00		Warszawska / Borowa 07 nż
+
+1612	3	194506	15:46:00	15:46:00		Warszawska / Borowa 07 nż
+1612	3	194506	15:49:00	15:49:00		Staromiejska szkoła 05 nż
+1612	3	194506	15:50:00	15:50:00		Staromiejska Dom Kultury 03 nż
+1612	3	194506	15:51:00	15:51:00		Staromiejska / Lubelska 01 nż
+1612	3	194506	15:52:00	15:52:00		Lubelska kościół 05 nż
+1612	3	194506	15:53:00	15:53:00		Lubelska szpital 01
+1612	3	194506	15:55:00	15:55:00		Marszałkowska 01
+1612	3	194506	15:59:00	15:59:00		Cieplińskiego 02
+1612	3	194506	16:00:00	16:00:00		Lisa-Kuli 01
+1612	3	194506	16:05:00	16:05:00		Hetmańska podzamcze 02 nż
+1612	3	194506	16:06:00	16:06:00		Hetmańska przychodnia 04
+1612	3	194506	16:07:00	16:07:00		Hetmańska ZS. Mech. 06
+1612	3	194506	16:12:00	16:12:00		Powst. Warszawy stadion 06
+1612	3	194506	16:15:00	16:15:00		Powst. Warszawy Dom Studenta 08
+1612	3	194506	16:16:00	16:16:00		Powst. Warszawy / Graniczna 10
+1612	3	194506	16:17:00	16:17:00		Powst. Warszawy / Sikorskiego 12 nż
+1612	3	194506	16:19:00	16:19:00		Sikorskiego Katedra 04 nż
+1612	3	194506	16:20:00	16:20:00		Sikorskiego / Łukasiewicza 06 nż
+1612	3	194506	16:21:00	16:21:00		Sikorskiego domki 08 nż
+1612	3	194506	16:23:00	16:23:00		Strażacka / Sikorskiego 07 nż
+1612	3	194506	16:24:00	16:24:00		Strażacka / Sympatyczna 05 nż
+1612	3	194506	16:25:00	16:25:00		Miła / Strażacka 02 nż
+1612	3	194506	16:26:00	16:26:00		Miła bloki 04 nż
+1612	3	194506	16:27:00	16:27:00		Miła szkoła 06 nż
+1612	3	194506	16:28:00	16:28:00		Kard. K. Wojtyły kościół 05 nż
+1612	3	194506	16:30:00	16:30:00		Kard. K. Wojtyły pętla 03 nż
+1612	3	194506	16:31:00	16:31:00		Kard. K .Wojtyły / Sikorskiego 01 nż
+1612	3	194506	16:32:00	16:32:00		Sikorskiego / Kard. K. Wojtyły 16 nż
+1612	3	194506	16:33:00	16:33:00		Sikorskiego granica 18 nż
+1612	3	194506	16:35:00	16:35:00		Sikorskiego MPGK 20
+
+1784	3	194259	16:58:00	16:58:00		Sikorskiego MPGK 20
+1784	3	194259	16:59:00	16:59:00		Sikorskiego granica 15 nż
+1784	3	194259	17:00:00	17:00:00		Sikorskiego / Ruczajowa 13 nż
+1784	3	194259	17:01:00	17:01:00		Kard. K. Wojtyły / Sikorskiego 02 nż
+1784	3	194259	17:03:00	17:03:00		Kard. K. Wojtyły pętla 04 nż
+1784	3	194259	17:04:00	17:04:00		Kard. K. Wojtyły kościół 06 nż
+1784	3	194259	17:06:00	17:06:00		Miła Dom Kultury 05 nż
+1784	3	194259	17:07:00	17:07:00		Miła bloki 03 nż
+1784	3	194259	17:08:00	17:08:00		Miła / Strażacka 01 nż
+1784	3	194259	17:09:00	17:09:00		Strażacka / Sympatyczna 06 nż
+1784	3	194259	17:10:00	17:10:00		Strażacka / Sikorskiego 08 nż
+1784	3	194259	17:12:00	17:12:00		Sikorskiego / Robotnicza 05 nż
+1784	3	194259	17:13:00	17:13:00		Sikorskiego domki 03 nż
+1784	3	194259	17:15:00	17:15:00		Sikorskiego Katedra 01 nż
+1784	3	194259	17:18:00	17:18:00		Powst. Warszawy / Rejtana 13
+1784	3	194259	17:19:00	17:19:00		Powst. Warszawy szkoła 11
+1784	3	194259	17:20:00	17:20:00		Powst. Warszawy Dom Studenta 09
+1784	3	194259	17:23:00	17:23:00		Hetmańska stadion 07
+1784	3	194259	17:24:00	17:24:00		Hetmańska ZS. Mech. 05
+1784	3	194259	17:25:00	17:25:00		Hetmańska przychodnia 03
+1784	3	194259	17:26:00	17:26:00		Hetmańska podzamcze 01 nż
+1784	3	194259	17:30:00	17:30:00		Lisa-Kuli 02
+1784	3	194259	17:31:00	17:31:00		Cieplińskiego 01
+1784	3	194259	17:34:00	17:34:00		Marszałkowska 02
+1784	3	194259	17:35:00	17:35:00		Lubelska szpital 02
+1784	3	194259	17:37:00	17:37:00		Lubelska kościół 06 nż
+
+1635	3	194165	17:50:00	17:50:00		Bardowskiego 03
+1635	3	194165	17:52:00	17:52:00		Pl. Wolności 04
+1635	3	194165	17:53:00	17:53:00		Piłsudskiego U. Wojewódzki 06
+1635	3	194165	17:56:00	17:56:00		Marszałkowska 02
+1635	3	194165	17:57:00	17:57:00		Warszawska / Wyzwolenia 02 nż
+1635	3	194165	17:58:00	17:58:00		Warszawska ZS. Samoch. 04 nż
+1635	3	194165	17:59:00	17:59:00		Warszawska / Staromiejska 06 nż
+1635	3	194165	18:01:00	18:01:00		Warszawska / Borowa 08 nż
+1635	3	194165	18:02:00	18:02:00		Warszawska / Bażantowa 10 nż
+1635	3	194165	18:03:00	18:03:00		Warszawska / Łowiecka 12 nż
+1635	3	194165	18:04:00	18:04:00		"Zaczernie
+1635	3	194165	18:05:00	18:05:00		Warszawska granica 14 nż
+1635	3	194165	18:07:00	18:07:00		Rudna Mała 03 nż
+1635	3	194165	18:08:00	18:08:00		Rudna Mała szpital 01 nż
+1635	3	194165	18:10:00	18:10:00		Głogów Młp. wiadukt 09A nż
+1635	3	194165	18:13:00	18:13:00		Głogów Młp. Zelmer II 02 nż
+1635	3	194165	18:14:00	18:14:00		Głogów Młp. MetaZel II 02 nż
+1635	3	194165	18:15:00	18:15:00		Głogów Młp. Yanko I 01 nż
+1635	3	194165	18:16:00	18:16:00		Głogów Młp. Leniar I 01 nż
+
+1629	3	194253	18:40:00	18:40:00		Głogów Młp. Zelmer II 02 nż
+1629	3	194253	18:41:00	18:41:00		Głogów Młp. MetaZel II 02 nż
+1629	3	194253	18:42:00	18:42:00		Głogów Młp. Yanko I 01 nż
+1629	3	194253	18:43:00	18:43:00		Głogów Młp. Leniar I 01 nż
+1629	3	194253	18:46:00	18:46:00		Głogów Młp. wiadukt 71A nż
+1629	3	194253	18:49:00	18:49:00		Rudna Mała szpital 02 nż
+1629	3	194253	18:50:00	18:50:00		Zaczernie 04 nż
+1629	3	194253	18:52:00	18:52:00		Warszawska granica 11 nż
+1629	3	194253	18:53:00	18:53:00		"Zaczernie
+1629	3	194253	18:54:00	18:54:00		Warszawska / Myśliwska 09 nż
+1629	3	194253	18:56:00	18:56:00		Warszawska / Borowa 07 nż
+1629	3	194253	18:58:00	18:58:00		Warszawska / Staromiejska 05 nż
+1629	3	194253	18:59:00	18:59:00		Warszawska ZS. Samoch. 03 nż
+1629	3	194253	19:00:00	19:00:00		Warszawska / Wyzwolenia 01 nż
+1629	3	194253	19:01:00	19:01:00		Marszałkowska 01
+1629	3	194253	19:04:00	19:04:00		Piłsudskiego U. Wojewódzki 03
+1629	3	194253	19:07:00	19:07:00		Bardowskiego 04

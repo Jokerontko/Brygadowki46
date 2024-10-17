@@ -1,0 +1,523 @@
+route_id	service_id	trip_id	arrival_time	departure_time	stop_headsign	stop_name
+-------------------------------------------------------------------------------
+1523	1	183079	04:31:00	04:31:00		Lubelska Zajezdnia MPK
+1523	1	183079	04:32:00	04:32:00		Lubelska MPK 13 nż
+1523	1	183079	04:33:00	04:33:00		Lubelska Ogrody Hiszpańskie 11 nż
+1523	1	183079	04:34:00	04:34:00		Lubelska Os. Ogrody 09 nż
+1523	1	183079	04:35:00	04:35:00		Lubelska / Borowa 07 nż
+1523	1	183079	04:36:00	04:36:00		Lubelska kościół 05 nż
+1523	1	183079	04:37:00	04:37:00		Lubelska szpital 01
+1523	1	183079	04:38:00	04:38:00		Marszałkowska 01
+1523	1	183079	04:40:00	04:40:00		Piłsudskiego U. Wojewódzki 03
+1523	1	183079	04:41:00	04:41:00		Pl. Wolności 01
+1523	1	183079	04:42:00	04:42:00		Targowa 01
+1523	1	183079	04:43:00	04:43:00		Szopena Filharmonia 02 nż
+1523	1	183079	04:45:00	04:45:00		Podwisłocze U. Skarbowy 03
+1523	1	183079	04:46:00	04:46:00		Podwisłocze domki 01
+1523	1	183079	04:48:00	04:48:00		Kwiatkowskiego / Powst. Warszawy 02
+1523	1	183079	04:49:00	04:49:00		Kwiatkowskiego Dom Studenta 04 nż
+1523	1	183079	04:50:00	04:50:00		Kwiatkowskiego / Strażacka 06 nż
+1523	1	183079	04:51:00	04:51:00		Strażacka / Graniczna 02 nż
+1523	1	183079	04:52:00	04:52:00		Strażacka / Urocza 04 nż
+1523	1	183079	04:53:00	04:53:00		Miła / Strażacka 02 nż
+1523	1	183079	04:54:00	04:54:00		Miła bloki 04 nż
+1523	1	183079	04:55:00	04:55:00		Miła szkoła 06 nż
+1523	1	183079	04:56:00	04:56:00		Kard. K. Wojtyły kościół 05 nż
+1523	1	183079	04:58:00	04:58:00		Kard. K. Wojtyły pętla 03 nż
+1523	1	183079	04:59:00	04:59:00		Kard. K .Wojtyły / Sikorskiego 01 nż
+1523	1	183079	05:00:00	05:00:00		Sikorskiego / Kard. K. Wojtyły 16 nż
+1523	1	183079	05:01:00	05:01:00		Sikorskiego granica 18 nż
+1523	1	183079	05:02:00	05:02:00		Sikorskiego MPGK 20
+
+1510	1	181026	05:31:00	05:31:00		Sikorskiego MPGK 20
+1510	1	181026	05:32:00	05:32:00		Sikorskiego granica 15 nż
+1510	1	181026	05:33:00	05:33:00		Sikorskiego / Ruczajowa 13 nż
+1510	1	181026	05:34:00	05:34:00		Kard. K. Wojtyły / Sikorskiego 02 nż
+1510	1	181026	05:35:00	05:35:00		Kard. K. Wojtyły pętla 04 nż
+1510	1	181026	05:36:00	05:36:00		Kard. K. Wojtyły kościół 06 nż
+1510	1	181026	05:37:00	05:37:00		Miła Dom Kultury 05 nż
+1510	1	181026	05:38:00	05:38:00		Miła bloki 03 nż
+1510	1	181026	05:39:00	05:39:00		Miła / Strażacka 01 nż
+1510	1	181026	05:40:00	05:40:00		Strażacka / Urocza 03 nż
+1510	1	181026	05:41:00	05:41:00		Strażacka / Graniczna 01 nż
+1510	1	181026	05:42:00	05:42:00		Kwiatkowskiego / Strażacka 03 nż
+1510	1	181026	05:43:00	05:43:00		Kwiatkowskiego Dom Studenta 01 nż
+1510	1	181026	05:45:00	05:45:00		Podwisłocze / Powst. Warszawy 02
+1510	1	181026	05:46:00	05:46:00		Podwisłocze klinika 04
+1510	1	181026	05:47:00	05:47:00		Kopisto Most Zamkowy 04
+1510	1	181026	05:48:00	05:48:00		Szopena Filharmonia 01 nż
+1510	1	181026	05:49:00	05:49:00		Targowa 02
+1510	1	181026	05:51:00	05:51:00		Pl. Wolności 04
+1510	1	181026	05:52:00	05:52:00		Piłsudskiego U. Wojewódzki 06
+1510	1	181026	05:54:00	05:54:00		Marszałkowska 02
+1510	1	181026	05:55:00	05:55:00		Lubelska szpital 02
+1510	1	181026	05:56:00	05:56:00		Lubelska kościół 06 nż
+1510	1	181026	05:57:00	05:57:00		Lubelska / Borowa 08 nż
+1510	1	181026	05:58:00	05:58:00		Lubelska Os. Ogrody 10 nż
+1510	1	181026	05:59:00	05:59:00		Lubelska Ogrody Hiszpańskie 12 nż
+1510	1	181026	06:00:00	06:00:00		Lubelska MPK 14 nż
+1510	1	181026	06:01:00	06:01:00		Lubelska Zajezdnia MPK
+
+1523	1	182396	06:31:00	06:31:00		Lubelska Zajezdnia MPK
+1523	1	182396	06:32:00	06:32:00		Lubelska MPK 13 nż
+1523	1	182396	06:33:00	06:33:00		Lubelska Ogrody Hiszpańskie 11 nż
+1523	1	182396	06:34:00	06:34:00		Lubelska Os. Ogrody 09 nż
+1523	1	182396	06:35:00	06:35:00		Lubelska / Borowa 07 nż
+1523	1	182396	06:36:00	06:36:00		Lubelska kościół 05 nż
+1523	1	182396	06:37:00	06:37:00		Lubelska szpital 01
+1523	1	182396	06:38:00	06:38:00		Marszałkowska 01
+1523	1	182396	06:40:00	06:40:00		Piłsudskiego U. Wojewódzki 03
+1523	1	182396	06:41:00	06:41:00		Pl. Wolności 01
+1523	1	182396	06:42:00	06:42:00		Targowa 01
+1523	1	182396	06:43:00	06:43:00		Szopena Filharmonia 02 nż
+1523	1	182396	06:45:00	06:45:00		Podwisłocze U. Skarbowy 03
+1523	1	182396	06:46:00	06:46:00		Podwisłocze domki 01
+1523	1	182396	06:48:00	06:48:00		Kwiatkowskiego / Powst. Warszawy 02
+1523	1	182396	06:49:00	06:49:00		Kwiatkowskiego Dom Studenta 04 nż
+1523	1	182396	06:50:00	06:50:00		Kwiatkowskiego / Strażacka 06 nż
+1523	1	182396	06:51:00	06:51:00		Strażacka / Graniczna 02 nż
+1523	1	182396	06:52:00	06:52:00		Strażacka / Urocza 04 nż
+1523	1	182396	06:53:00	06:53:00		Miła / Strażacka 02 nż
+1523	1	182396	06:54:00	06:54:00		Miła bloki 04 nż
+1523	1	182396	06:55:00	06:55:00		Miła szkoła 06 nż
+1523	1	182396	06:56:00	06:56:00		Kard. K. Wojtyły kościół 05 nż
+1523	1	182396	06:58:00	06:58:00		Kard. K. Wojtyły pętla 03 nż
+1523	1	182396	06:59:00	06:59:00		Kard. K .Wojtyły / Sikorskiego 01 nż
+1523	1	182396	07:00:00	07:00:00		Sikorskiego / Kard. K. Wojtyły 16 nż
+1523	1	182396	07:01:00	07:01:00		Sikorskiego granica 18 nż
+1523	1	182396	07:03:00	07:03:00		Sikorskiego MPGK 20
+
+1510	1	180670	07:30:00	07:30:00		Sikorskiego MPGK 20
+1510	1	180670	07:31:00	07:31:00		Sikorskiego granica 15 nż
+1510	1	180670	07:32:00	07:32:00		Sikorskiego / Ruczajowa 13 nż
+1510	1	180670	07:33:00	07:33:00		Kard. K. Wojtyły / Sikorskiego 02 nż
+1510	1	180670	07:34:00	07:34:00		Kard. K. Wojtyły pętla 04 nż
+1510	1	180670	07:35:00	07:35:00		Kard. K. Wojtyły kościół 06 nż
+1510	1	180670	07:37:00	07:37:00		Miła Dom Kultury 05 nż
+1510	1	180670	07:38:00	07:38:00		Miła bloki 03 nż
+1510	1	180670	07:39:00	07:39:00		Miła / Strażacka 01 nż
+1510	1	180670	07:40:00	07:40:00		Strażacka / Urocza 03 nż
+1510	1	180670	07:41:00	07:41:00		Strażacka / Graniczna 01 nż
+1510	1	180670	07:42:00	07:42:00		Kwiatkowskiego / Strażacka 03 nż
+1510	1	180670	07:43:00	07:43:00		Kwiatkowskiego Dom Studenta 01 nż
+1510	1	180670	07:45:00	07:45:00		Podwisłocze / Powst. Warszawy 02
+1510	1	180670	07:46:00	07:46:00		Podwisłocze klinika 04
+1510	1	180670	07:48:00	07:48:00		Kopisto Most Zamkowy 04
+1510	1	180670	07:49:00	07:49:00		Szopena Filharmonia 01 nż
+1510	1	180670	07:51:00	07:51:00		Targowa 02
+1510	1	180670	07:53:00	07:53:00		Pl. Wolności 04
+1510	1	180670	07:54:00	07:54:00		Piłsudskiego U. Wojewódzki 06
+1510	1	180670	07:57:00	07:57:00		Marszałkowska 02
+1510	1	180670	07:58:00	07:58:00		Lubelska szpital 02
+1510	1	180670	07:59:00	07:59:00		Lubelska kościół 06 nż
+1510	1	180670	08:01:00	08:01:00		Lubelska / Borowa 08 nż
+1510	1	180670	08:03:00	08:03:00		Lubelska Os. Ogrody 10 nż
+1510	1	180670	08:04:00	08:04:00		Lubelska Ogrody Hiszpańskie 12 nż
+1510	1	180670	08:05:00	08:05:00		Lubelska MPK 14 nż
+1510	1	180670	08:06:00	08:06:00		Lubelska Zajezdnia MPK
+
+1523	1	181913	08:29:00	08:29:00		Lubelska Zajezdnia MPK
+1523	1	181913	08:30:00	08:30:00		Lubelska MPK 13 nż
+1523	1	181913	08:31:00	08:31:00		Lubelska Ogrody Hiszpańskie 11 nż
+1523	1	181913	08:32:00	08:32:00		Lubelska Os. Ogrody 09 nż
+1523	1	181913	08:33:00	08:33:00		Lubelska / Borowa 07 nż
+1523	1	181913	08:35:00	08:35:00		Lubelska kościół 05 nż
+1523	1	181913	08:36:00	08:36:00		Lubelska szpital 01
+1523	1	181913	08:37:00	08:37:00		Marszałkowska 01
+1523	1	181913	08:40:00	08:40:00		Piłsudskiego U. Wojewódzki 03
+1523	1	181913	08:41:00	08:41:00		Pl. Wolności 01
+1523	1	181913	08:42:00	08:42:00		Targowa 01
+1523	1	181913	08:44:00	08:44:00		Szopena Filharmonia 02 nż
+1523	1	181913	08:46:00	08:46:00		Podwisłocze U. Skarbowy 03
+1523	1	181913	08:47:00	08:47:00		Podwisłocze domki 01
+1523	1	181913	08:49:00	08:49:00		Kwiatkowskiego / Powst. Warszawy 02
+1523	1	181913	08:50:00	08:50:00		Kwiatkowskiego Dom Studenta 04 nż
+1523	1	181913	08:51:00	08:51:00		Kwiatkowskiego / Strażacka 06 nż
+1523	1	181913	08:52:00	08:52:00		Strażacka / Graniczna 02 nż
+1523	1	181913	08:53:00	08:53:00		Strażacka / Urocza 04 nż
+1523	1	181913	08:54:00	08:54:00		Miła / Strażacka 02 nż
+1523	1	181913	08:55:00	08:55:00		Miła bloki 04 nż
+1523	1	181913	08:56:00	08:56:00		Miła szkoła 06 nż
+1523	1	181913	08:57:00	08:57:00		Kard. K. Wojtyły kościół 05 nż
+1523	1	181913	08:59:00	08:59:00		Kard. K. Wojtyły pętla 03 nż
+1523	1	181913	09:00:00	09:00:00		Kard. K .Wojtyły / Sikorskiego 01 nż
+1523	1	181913	09:01:00	09:01:00		Sikorskiego / Kard. K. Wojtyły 16 nż
+1523	1	181913	09:02:00	09:02:00		Sikorskiego granica 18 nż
+1523	1	181913	09:04:00	09:04:00		Sikorskiego MPGK 20
+
+1510	1	182987	09:30:00	09:30:00		Sikorskiego MPGK 20
+1510	1	182987	09:31:00	09:31:00		Sikorskiego granica 15 nż
+1510	1	182987	09:32:00	09:32:00		Sikorskiego / Ruczajowa 13 nż
+1510	1	182987	09:33:00	09:33:00		Kard. K. Wojtyły / Sikorskiego 02 nż
+1510	1	182987	09:34:00	09:34:00		Kard. K. Wojtyły pętla 04 nż
+1510	1	182987	09:35:00	09:35:00		Kard. K. Wojtyły kościół 06 nż
+1510	1	182987	09:37:00	09:37:00		Miła Dom Kultury 05 nż
+1510	1	182987	09:38:00	09:38:00		Miła bloki 03 nż
+1510	1	182987	09:39:00	09:39:00		Miła / Strażacka 01 nż
+1510	1	182987	09:40:00	09:40:00		Strażacka / Urocza 03 nż
+1510	1	182987	09:41:00	09:41:00		Strażacka / Graniczna 01 nż
+1510	1	182987	09:42:00	09:42:00		Kwiatkowskiego / Strażacka 03 nż
+1510	1	182987	09:43:00	09:43:00		Kwiatkowskiego Dom Studenta 01 nż
+1510	1	182987	09:45:00	09:45:00		Podwisłocze / Powst. Warszawy 02
+1510	1	182987	09:46:00	09:46:00		Podwisłocze klinika 04
+1510	1	182987	09:48:00	09:48:00		Kopisto Most Zamkowy 04
+1510	1	182987	09:49:00	09:49:00		Szopena Filharmonia 01 nż
+1510	1	182987	09:51:00	09:51:00		Targowa 02
+1510	1	182987	09:53:00	09:53:00		Pl. Wolności 04
+1510	1	182987	09:54:00	09:54:00		Piłsudskiego U. Wojewódzki 06
+1510	1	182987	09:57:00	09:57:00		Marszałkowska 02
+1510	1	182987	09:58:00	09:58:00		Lubelska szpital 02
+1510	1	182987	09:59:00	09:59:00		Lubelska kościół 06 nż
+1510	1	182987	10:01:00	10:01:00		Lubelska / Borowa 08 nż
+1510	1	182987	10:03:00	10:03:00		Lubelska Os. Ogrody 10 nż
+1510	1	182987	10:04:00	10:04:00		Lubelska Ogrody Hiszpańskie 12 nż
+1510	1	182987	10:05:00	10:05:00		Lubelska MPK 14 nż
+1510	1	182987	10:06:00	10:06:00		Lubelska Zajezdnia MPK
+
+1523	1	181830	10:29:00	10:29:00		Lubelska Zajezdnia MPK
+1523	1	181830	10:30:00	10:30:00		Lubelska MPK 13 nż
+1523	1	181830	10:31:00	10:31:00		Lubelska Ogrody Hiszpańskie 11 nż
+1523	1	181830	10:32:00	10:32:00		Lubelska Os. Ogrody 09 nż
+1523	1	181830	10:33:00	10:33:00		Lubelska / Borowa 07 nż
+1523	1	181830	10:35:00	10:35:00		Lubelska kościół 05 nż
+1523	1	181830	10:36:00	10:36:00		Lubelska szpital 01
+1523	1	181830	10:37:00	10:37:00		Marszałkowska 01
+1523	1	181830	10:40:00	10:40:00		Piłsudskiego U. Wojewódzki 03
+1523	1	181830	10:41:00	10:41:00		Pl. Wolności 01
+1523	1	181830	10:42:00	10:42:00		Targowa 01
+1523	1	181830	10:44:00	10:44:00		Szopena Filharmonia 02 nż
+1523	1	181830	10:46:00	10:46:00		Podwisłocze U. Skarbowy 03
+1523	1	181830	10:47:00	10:47:00		Podwisłocze domki 01
+1523	1	181830	10:49:00	10:49:00		Kwiatkowskiego / Powst. Warszawy 02
+1523	1	181830	10:50:00	10:50:00		Kwiatkowskiego Dom Studenta 04 nż
+1523	1	181830	10:51:00	10:51:00		Kwiatkowskiego / Strażacka 06 nż
+1523	1	181830	10:52:00	10:52:00		Strażacka / Graniczna 02 nż
+1523	1	181830	10:53:00	10:53:00		Strażacka / Urocza 04 nż
+1523	1	181830	10:54:00	10:54:00		Miła / Strażacka 02 nż
+1523	1	181830	10:55:00	10:55:00		Miła bloki 04 nż
+1523	1	181830	10:56:00	10:56:00		Miła szkoła 06 nż
+1523	1	181830	10:57:00	10:57:00		Kard. K. Wojtyły kościół 05 nż
+1523	1	181830	10:59:00	10:59:00		Kard. K. Wojtyły pętla 03 nż
+1523	1	181830	11:00:00	11:00:00		Kard. K .Wojtyły / Sikorskiego 01 nż
+1523	1	181830	11:01:00	11:01:00		Sikorskiego / Kard. K. Wojtyły 16 nż
+1523	1	181830	11:02:00	11:02:00		Sikorskiego granica 18 nż
+1523	1	181830	11:04:00	11:04:00		Sikorskiego MPGK 20
+
+1510	1	182650	11:30:00	11:30:00		Sikorskiego MPGK 20
+1510	1	182650	11:31:00	11:31:00		Sikorskiego granica 15 nż
+1510	1	182650	11:32:00	11:32:00		Sikorskiego / Ruczajowa 13 nż
+1510	1	182650	11:33:00	11:33:00		Kard. K. Wojtyły / Sikorskiego 02 nż
+1510	1	182650	11:34:00	11:34:00		Kard. K. Wojtyły pętla 04 nż
+1510	1	182650	11:35:00	11:35:00		Kard. K. Wojtyły kościół 06 nż
+1510	1	182650	11:37:00	11:37:00		Miła Dom Kultury 05 nż
+1510	1	182650	11:38:00	11:38:00		Miła bloki 03 nż
+1510	1	182650	11:39:00	11:39:00		Miła / Strażacka 01 nż
+1510	1	182650	11:40:00	11:40:00		Strażacka / Urocza 03 nż
+1510	1	182650	11:41:00	11:41:00		Strażacka / Graniczna 01 nż
+1510	1	182650	11:42:00	11:42:00		Kwiatkowskiego / Strażacka 03 nż
+1510	1	182650	11:43:00	11:43:00		Kwiatkowskiego Dom Studenta 01 nż
+1510	1	182650	11:45:00	11:45:00		Podwisłocze / Powst. Warszawy 02
+1510	1	182650	11:46:00	11:46:00		Podwisłocze klinika 04
+1510	1	182650	11:48:00	11:48:00		Kopisto Most Zamkowy 04
+1510	1	182650	11:49:00	11:49:00		Szopena Filharmonia 01 nż
+1510	1	182650	11:51:00	11:51:00		Targowa 02
+1510	1	182650	11:53:00	11:53:00		Pl. Wolności 04
+1510	1	182650	11:54:00	11:54:00		Piłsudskiego U. Wojewódzki 06
+1510	1	182650	11:57:00	11:57:00		Marszałkowska 02
+1510	1	182650	11:58:00	11:58:00		Lubelska szpital 02
+1510	1	182650	11:59:00	11:59:00		Lubelska kościół 06 nż
+1510	1	182650	12:01:00	12:01:00		Lubelska / Borowa 08 nż
+1510	1	182650	12:03:00	12:03:00		Lubelska Os. Ogrody 10 nż
+1510	1	182650	12:04:00	12:04:00		Lubelska Ogrody Hiszpańskie 12 nż
+1510	1	182650	12:05:00	12:05:00		Lubelska MPK 14 nż
+1510	1	182650	12:06:00	12:06:00		Lubelska Zajezdnia MPK
+
+1523	1	182461	12:29:00	12:29:00		Lubelska Zajezdnia MPK
+1523	1	182461	12:30:00	12:30:00		Lubelska MPK 13 nż
+1523	1	182461	12:31:00	12:31:00		Lubelska Ogrody Hiszpańskie 11 nż
+1523	1	182461	12:32:00	12:32:00		Lubelska Os. Ogrody 09 nż
+1523	1	182461	12:33:00	12:33:00		Lubelska / Borowa 07 nż
+1523	1	182461	12:35:00	12:35:00		Lubelska kościół 05 nż
+1523	1	182461	12:36:00	12:36:00		Lubelska szpital 01
+1523	1	182461	12:37:00	12:37:00		Marszałkowska 01
+1523	1	182461	12:40:00	12:40:00		Piłsudskiego U. Wojewódzki 03
+1523	1	182461	12:41:00	12:41:00		Pl. Wolności 01
+1523	1	182461	12:42:00	12:42:00		Targowa 01
+1523	1	182461	12:44:00	12:44:00		Szopena Filharmonia 02 nż
+1523	1	182461	12:46:00	12:46:00		Podwisłocze U. Skarbowy 03
+1523	1	182461	12:47:00	12:47:00		Podwisłocze domki 01
+1523	1	182461	12:49:00	12:49:00		Kwiatkowskiego / Powst. Warszawy 02
+1523	1	182461	12:50:00	12:50:00		Kwiatkowskiego Dom Studenta 04 nż
+1523	1	182461	12:51:00	12:51:00		Kwiatkowskiego / Strażacka 06 nż
+1523	1	182461	12:52:00	12:52:00		Strażacka / Graniczna 02 nż
+1523	1	182461	12:53:00	12:53:00		Strażacka / Urocza 04 nż
+1523	1	182461	12:54:00	12:54:00		Miła / Strażacka 02 nż
+1523	1	182461	12:55:00	12:55:00		Miła bloki 04 nż
+1523	1	182461	12:56:00	12:56:00		Miła szkoła 06 nż
+1523	1	182461	12:57:00	12:57:00		Kard. K. Wojtyły kościół 05 nż
+1523	1	182461	12:59:00	12:59:00		Kard. K. Wojtyły pętla 03 nż
+1523	1	182461	13:00:00	13:00:00		Kard. K .Wojtyły / Sikorskiego 01 nż
+1523	1	182461	13:01:00	13:01:00		Sikorskiego / Kard. K. Wojtyły 16 nż
+1523	1	182461	13:02:00	13:02:00		Sikorskiego granica 18 nż
+1523	1	182461	13:04:00	13:04:00		Sikorskiego MPGK 20
+
+1510	1	180929	13:30:00	13:30:00		Sikorskiego MPGK 20
+1510	1	180929	13:31:00	13:31:00		Sikorskiego granica 15 nż
+1510	1	180929	13:32:00	13:32:00		Sikorskiego / Ruczajowa 13 nż
+1510	1	180929	13:33:00	13:33:00		Kard. K. Wojtyły / Sikorskiego 02 nż
+1510	1	180929	13:34:00	13:34:00		Kard. K. Wojtyły pętla 04 nż
+1510	1	180929	13:35:00	13:35:00		Kard. K. Wojtyły kościół 06 nż
+1510	1	180929	13:37:00	13:37:00		Miła Dom Kultury 05 nż
+1510	1	180929	13:38:00	13:38:00		Miła bloki 03 nż
+1510	1	180929	13:39:00	13:39:00		Miła / Strażacka 01 nż
+1510	1	180929	13:40:00	13:40:00		Strażacka / Urocza 03 nż
+1510	1	180929	13:41:00	13:41:00		Strażacka / Graniczna 01 nż
+1510	1	180929	13:42:00	13:42:00		Kwiatkowskiego / Strażacka 03 nż
+1510	1	180929	13:43:00	13:43:00		Kwiatkowskiego Dom Studenta 01 nż
+1510	1	180929	13:45:00	13:45:00		Podwisłocze / Powst. Warszawy 02
+1510	1	180929	13:46:00	13:46:00		Podwisłocze klinika 04
+1510	1	180929	13:48:00	13:48:00		Kopisto Most Zamkowy 04
+1510	1	180929	13:49:00	13:49:00		Szopena Filharmonia 01 nż
+1510	1	180929	13:51:00	13:51:00		Targowa 02
+1510	1	180929	13:53:00	13:53:00		Pl. Wolności 04
+1510	1	180929	13:54:00	13:54:00		Piłsudskiego U. Wojewódzki 06
+1510	1	180929	13:57:00	13:57:00		Marszałkowska 02
+1510	1	180929	13:58:00	13:58:00		Lubelska szpital 02
+1510	1	180929	13:59:00	13:59:00		Lubelska kościół 06 nż
+1510	1	180929	14:01:00	14:01:00		Lubelska / Borowa 08 nż
+1510	1	180929	14:03:00	14:03:00		Lubelska Os. Ogrody 10 nż
+1510	1	180929	14:04:00	14:04:00		Lubelska Ogrody Hiszpańskie 12 nż
+1510	1	180929	14:05:00	14:05:00		Lubelska MPK 14 nż
+1510	1	180929	14:06:00	14:06:00		Lubelska Zajezdnia MPK
+
+1523	1	181016	14:28:00	14:28:00		Lubelska Zajezdnia MPK
+1523	1	181016	14:29:00	14:29:00		Lubelska MPK 13 nż
+1523	1	181016	14:30:00	14:30:00		Lubelska Ogrody Hiszpańskie 11 nż
+1523	1	181016	14:31:00	14:31:00		Lubelska Os. Ogrody 09 nż
+1523	1	181016	14:32:00	14:32:00		Lubelska / Borowa 07 nż
+1523	1	181016	14:34:00	14:34:00		Lubelska kościół 05 nż
+1523	1	181016	14:35:00	14:35:00		Lubelska szpital 01
+1523	1	181016	14:36:00	14:36:00		Marszałkowska 01
+1523	1	181016	14:40:00	14:40:00		Piłsudskiego U. Wojewódzki 03
+1523	1	181016	14:41:00	14:41:00		Pl. Wolności 01
+1523	1	181016	14:42:00	14:42:00		Targowa 01
+1523	1	181016	14:44:00	14:44:00		Szopena Filharmonia 02 nż
+1523	1	181016	14:46:00	14:46:00		Podwisłocze U. Skarbowy 03
+1523	1	181016	14:47:00	14:47:00		Podwisłocze domki 01
+1523	1	181016	14:50:00	14:50:00		Kwiatkowskiego / Powst. Warszawy 02
+1523	1	181016	14:51:00	14:51:00		Kwiatkowskiego Dom Studenta 04 nż
+1523	1	181016	14:52:00	14:52:00		Kwiatkowskiego / Strażacka 06 nż
+1523	1	181016	14:53:00	14:53:00		Strażacka / Graniczna 02 nż
+1523	1	181016	14:54:00	14:54:00		Strażacka / Urocza 04 nż
+1523	1	181016	14:55:00	14:55:00		Miła / Strażacka 02 nż
+1523	1	181016	14:56:00	14:56:00		Miła bloki 04 nż
+1523	1	181016	14:57:00	14:57:00		Miła szkoła 06 nż
+1523	1	181016	14:58:00	14:58:00		Kard. K. Wojtyły kościół 05 nż
+1523	1	181016	15:00:00	15:00:00		Kard. K. Wojtyły pętla 03 nż
+1523	1	181016	15:01:00	15:01:00		Kard. K .Wojtyły / Sikorskiego 01 nż
+1523	1	181016	15:02:00	15:02:00		Sikorskiego / Kard. K. Wojtyły 16 nż
+1523	1	181016	15:03:00	15:03:00		Sikorskiego granica 18 nż
+1523	1	181016	15:05:00	15:05:00		Sikorskiego MPGK 20
+
+1510	1	182278	15:30:00	15:30:00		Sikorskiego MPGK 20
+1510	1	182278	15:31:00	15:31:00		Sikorskiego granica 15 nż
+1510	1	182278	15:32:00	15:32:00		Sikorskiego / Ruczajowa 13 nż
+1510	1	182278	15:33:00	15:33:00		Kard. K. Wojtyły / Sikorskiego 02 nż
+1510	1	182278	15:34:00	15:34:00		Kard. K. Wojtyły pętla 04 nż
+1510	1	182278	15:35:00	15:35:00		Kard. K. Wojtyły kościół 06 nż
+1510	1	182278	15:37:00	15:37:00		Miła Dom Kultury 05 nż
+1510	1	182278	15:38:00	15:38:00		Miła bloki 03 nż
+1510	1	182278	15:39:00	15:39:00		Miła / Strażacka 01 nż
+1510	1	182278	15:40:00	15:40:00		Strażacka / Urocza 03 nż
+1510	1	182278	15:41:00	15:41:00		Strażacka / Graniczna 01 nż
+1510	1	182278	15:42:00	15:42:00		Kwiatkowskiego / Strażacka 03 nż
+1510	1	182278	15:43:00	15:43:00		Kwiatkowskiego Dom Studenta 01 nż
+1510	1	182278	15:45:00	15:45:00		Podwisłocze / Powst. Warszawy 02
+1510	1	182278	15:46:00	15:46:00		Podwisłocze klinika 04
+1510	1	182278	15:48:00	15:48:00		Kopisto Most Zamkowy 04
+1510	1	182278	15:49:00	15:49:00		Szopena Filharmonia 01 nż
+1510	1	182278	15:51:00	15:51:00		Targowa 02
+1510	1	182278	15:53:00	15:53:00		Pl. Wolności 04
+1510	1	182278	15:54:00	15:54:00		Piłsudskiego U. Wojewódzki 06
+1510	1	182278	15:57:00	15:57:00		Marszałkowska 02
+1510	1	182278	15:58:00	15:58:00		Lubelska szpital 02
+1510	1	182278	15:59:00	15:59:00		Lubelska kościół 06 nż
+1510	1	182278	16:01:00	16:01:00		Lubelska / Borowa 08 nż
+1510	1	182278	16:03:00	16:03:00		Lubelska Os. Ogrody 10 nż
+1510	1	182278	16:04:00	16:04:00		Lubelska Ogrody Hiszpańskie 12 nż
+1510	1	182278	16:05:00	16:05:00		Lubelska MPK 14 nż
+1510	1	182278	16:06:00	16:06:00		Lubelska Zajezdnia MPK
+
+1523	1	182837	16:28:00	16:28:00		Lubelska Zajezdnia MPK
+1523	1	182837	16:29:00	16:29:00		Lubelska MPK 13 nż
+1523	1	182837	16:30:00	16:30:00		Lubelska Ogrody Hiszpańskie 11 nż
+1523	1	182837	16:31:00	16:31:00		Lubelska Os. Ogrody 09 nż
+1523	1	182837	16:32:00	16:32:00		Lubelska / Borowa 07 nż
+1523	1	182837	16:34:00	16:34:00		Lubelska kościół 05 nż
+1523	1	182837	16:35:00	16:35:00		Lubelska szpital 01
+1523	1	182837	16:36:00	16:36:00		Marszałkowska 01
+1523	1	182837	16:40:00	16:40:00		Piłsudskiego U. Wojewódzki 03
+1523	1	182837	16:41:00	16:41:00		Pl. Wolności 01
+1523	1	182837	16:42:00	16:42:00		Targowa 01
+1523	1	182837	16:44:00	16:44:00		Szopena Filharmonia 02 nż
+1523	1	182837	16:46:00	16:46:00		Podwisłocze U. Skarbowy 03
+1523	1	182837	16:47:00	16:47:00		Podwisłocze domki 01
+1523	1	182837	16:50:00	16:50:00		Kwiatkowskiego / Powst. Warszawy 02
+1523	1	182837	16:51:00	16:51:00		Kwiatkowskiego Dom Studenta 04 nż
+1523	1	182837	16:52:00	16:52:00		Kwiatkowskiego / Strażacka 06 nż
+1523	1	182837	16:53:00	16:53:00		Strażacka / Graniczna 02 nż
+1523	1	182837	16:54:00	16:54:00		Strażacka / Urocza 04 nż
+1523	1	182837	16:55:00	16:55:00		Miła / Strażacka 02 nż
+1523	1	182837	16:56:00	16:56:00		Miła bloki 04 nż
+1523	1	182837	16:57:00	16:57:00		Miła szkoła 06 nż
+1523	1	182837	16:58:00	16:58:00		Kard. K. Wojtyły kościół 05 nż
+1523	1	182837	17:00:00	17:00:00		Kard. K. Wojtyły pętla 03 nż
+1523	1	182837	17:01:00	17:01:00		Kard. K .Wojtyły / Sikorskiego 01 nż
+1523	1	182837	17:02:00	17:02:00		Sikorskiego / Kard. K. Wojtyły 16 nż
+1523	1	182837	17:03:00	17:03:00		Sikorskiego granica 18 nż
+1523	1	182837	17:05:00	17:05:00		Sikorskiego MPGK 20
+
+1510	1	181963	17:30:00	17:30:00		Sikorskiego MPGK 20
+1510	1	181963	17:31:00	17:31:00		Sikorskiego granica 15 nż
+1510	1	181963	17:32:00	17:32:00		Sikorskiego / Ruczajowa 13 nż
+1510	1	181963	17:33:00	17:33:00		Kard. K. Wojtyły / Sikorskiego 02 nż
+1510	1	181963	17:34:00	17:34:00		Kard. K. Wojtyły pętla 04 nż
+1510	1	181963	17:35:00	17:35:00		Kard. K. Wojtyły kościół 06 nż
+1510	1	181963	17:37:00	17:37:00		Miła Dom Kultury 05 nż
+1510	1	181963	17:38:00	17:38:00		Miła bloki 03 nż
+1510	1	181963	17:39:00	17:39:00		Miła / Strażacka 01 nż
+1510	1	181963	17:40:00	17:40:00		Strażacka / Urocza 03 nż
+1510	1	181963	17:41:00	17:41:00		Strażacka / Graniczna 01 nż
+1510	1	181963	17:42:00	17:42:00		Kwiatkowskiego / Strażacka 03 nż
+1510	1	181963	17:43:00	17:43:00		Kwiatkowskiego Dom Studenta 01 nż
+1510	1	181963	17:45:00	17:45:00		Podwisłocze / Powst. Warszawy 02
+1510	1	181963	17:46:00	17:46:00		Podwisłocze klinika 04
+1510	1	181963	17:48:00	17:48:00		Kopisto Most Zamkowy 04
+1510	1	181963	17:49:00	17:49:00		Szopena Filharmonia 01 nż
+1510	1	181963	17:51:00	17:51:00		Targowa 02
+1510	1	181963	17:53:00	17:53:00		Pl. Wolności 04
+1510	1	181963	17:54:00	17:54:00		Piłsudskiego U. Wojewódzki 06
+1510	1	181963	17:57:00	17:57:00		Marszałkowska 02
+1510	1	181963	17:58:00	17:58:00		Lubelska szpital 02
+1510	1	181963	17:59:00	17:59:00		Lubelska kościół 06 nż
+1510	1	181963	18:01:00	18:01:00		Lubelska / Borowa 08 nż
+1510	1	181963	18:03:00	18:03:00		Lubelska Os. Ogrody 10 nż
+1510	1	181963	18:04:00	18:04:00		Lubelska Ogrody Hiszpańskie 12 nż
+1510	1	181963	18:05:00	18:05:00		Lubelska MPK 14 nż
+1510	1	181963	18:06:00	18:06:00		Lubelska Zajezdnia MPK
+
+1523	1	181495	18:28:00	18:28:00		Lubelska Zajezdnia MPK
+1523	1	181495	18:29:00	18:29:00		Lubelska MPK 13 nż
+1523	1	181495	18:30:00	18:30:00		Lubelska Ogrody Hiszpańskie 11 nż
+1523	1	181495	18:31:00	18:31:00		Lubelska Os. Ogrody 09 nż
+1523	1	181495	18:32:00	18:32:00		Lubelska / Borowa 07 nż
+1523	1	181495	18:34:00	18:34:00		Lubelska kościół 05 nż
+1523	1	181495	18:35:00	18:35:00		Lubelska szpital 01
+1523	1	181495	18:36:00	18:36:00		Marszałkowska 01
+1523	1	181495	18:40:00	18:40:00		Piłsudskiego U. Wojewódzki 03
+1523	1	181495	18:41:00	18:41:00		Pl. Wolności 01
+1523	1	181495	18:42:00	18:42:00		Targowa 01
+1523	1	181495	18:44:00	18:44:00		Szopena Filharmonia 02 nż
+1523	1	181495	18:46:00	18:46:00		Podwisłocze U. Skarbowy 03
+1523	1	181495	18:47:00	18:47:00		Podwisłocze domki 01
+1523	1	181495	18:50:00	18:50:00		Kwiatkowskiego / Powst. Warszawy 02
+1523	1	181495	18:51:00	18:51:00		Kwiatkowskiego Dom Studenta 04 nż
+1523	1	181495	18:52:00	18:52:00		Kwiatkowskiego / Strażacka 06 nż
+1523	1	181495	18:53:00	18:53:00		Strażacka / Graniczna 02 nż
+1523	1	181495	18:54:00	18:54:00		Strażacka / Urocza 04 nż
+1523	1	181495	18:55:00	18:55:00		Miła / Strażacka 02 nż
+1523	1	181495	18:56:00	18:56:00		Miła bloki 04 nż
+1523	1	181495	18:57:00	18:57:00		Miła szkoła 06 nż
+1523	1	181495	18:58:00	18:58:00		Kard. K. Wojtyły kościół 05 nż
+1523	1	181495	19:00:00	19:00:00		Kard. K. Wojtyły pętla 03 nż
+1523	1	181495	19:01:00	19:01:00		Kard. K .Wojtyły / Sikorskiego 01 nż
+1523	1	181495	19:02:00	19:02:00		Sikorskiego / Kard. K. Wojtyły 16 nż
+1523	1	181495	19:03:00	19:03:00		Sikorskiego granica 18 nż
+1523	1	181495	19:04:00	19:04:00		Sikorskiego MPGK 20
+
+1510	1	180856	19:31:00	19:31:00		Sikorskiego MPGK 20
+1510	1	180856	19:32:00	19:32:00		Sikorskiego granica 15 nż
+1510	1	180856	19:33:00	19:33:00		Sikorskiego / Ruczajowa 13 nż
+1510	1	180856	19:34:00	19:34:00		Kard. K. Wojtyły / Sikorskiego 02 nż
+1510	1	180856	19:35:00	19:35:00		Kard. K. Wojtyły pętla 04 nż
+1510	1	180856	19:36:00	19:36:00		Kard. K. Wojtyły kościół 06 nż
+1510	1	180856	19:37:00	19:37:00		Miła Dom Kultury 05 nż
+1510	1	180856	19:38:00	19:38:00		Miła bloki 03 nż
+1510	1	180856	19:39:00	19:39:00		Miła / Strażacka 01 nż
+1510	1	180856	19:40:00	19:40:00		Strażacka / Urocza 03 nż
+1510	1	180856	19:41:00	19:41:00		Strażacka / Graniczna 01 nż
+1510	1	180856	19:42:00	19:42:00		Kwiatkowskiego / Strażacka 03 nż
+1510	1	180856	19:43:00	19:43:00		Kwiatkowskiego Dom Studenta 01 nż
+1510	1	180856	19:45:00	19:45:00		Podwisłocze / Powst. Warszawy 02
+1510	1	180856	19:46:00	19:46:00		Podwisłocze klinika 04
+1510	1	180856	19:47:00	19:47:00		Kopisto Most Zamkowy 04
+1510	1	180856	19:48:00	19:48:00		Szopena Filharmonia 01 nż
+1510	1	180856	19:49:00	19:49:00		Targowa 02
+1510	1	180856	19:51:00	19:51:00		Pl. Wolności 04
+1510	1	180856	19:52:00	19:52:00		Piłsudskiego U. Wojewódzki 06
+1510	1	180856	19:54:00	19:54:00		Marszałkowska 02
+1510	1	180856	19:55:00	19:55:00		Lubelska szpital 02
+1510	1	180856	19:56:00	19:56:00		Lubelska kościół 06 nż
+1510	1	180856	19:57:00	19:57:00		Lubelska / Borowa 08 nż
+1510	1	180856	19:58:00	19:58:00		Lubelska Os. Ogrody 10 nż
+1510	1	180856	19:59:00	19:59:00		Lubelska Ogrody Hiszpańskie 12 nż
+1510	1	180856	20:00:00	20:00:00		Lubelska MPK 14 nż
+1510	1	180856	20:01:00	20:01:00		Lubelska Zajezdnia MPK
+
+1523	1	182570	20:31:00	20:31:00		Lubelska Zajezdnia MPK
+1523	1	182570	20:32:00	20:32:00		Lubelska MPK 13 nż
+1523	1	182570	20:33:00	20:33:00		Lubelska Ogrody Hiszpańskie 11 nż
+1523	1	182570	20:34:00	20:34:00		Lubelska Os. Ogrody 09 nż
+1523	1	182570	20:35:00	20:35:00		Lubelska / Borowa 07 nż
+1523	1	182570	20:36:00	20:36:00		Lubelska kościół 05 nż
+1523	1	182570	20:37:00	20:37:00		Lubelska szpital 01
+1523	1	182570	20:38:00	20:38:00		Marszałkowska 01
+1523	1	182570	20:40:00	20:40:00		Piłsudskiego U. Wojewódzki 03
+1523	1	182570	20:41:00	20:41:00		Pl. Wolności 01
+1523	1	182570	20:42:00	20:42:00		Targowa 01
+1523	1	182570	20:44:00	20:44:00		Szopena Filharmonia 02 nż
+1523	1	182570	20:46:00	20:46:00		Podwisłocze U. Skarbowy 03
+1523	1	182570	20:47:00	20:47:00		Podwisłocze domki 01
+1523	1	182570	20:49:00	20:49:00		Kwiatkowskiego / Powst. Warszawy 02
+1523	1	182570	20:50:00	20:50:00		Kwiatkowskiego Dom Studenta 04 nż
+1523	1	182570	20:51:00	20:51:00		Kwiatkowskiego / Strażacka 06 nż
+1523	1	182570	20:52:00	20:52:00		Strażacka / Graniczna 02 nż
+1523	1	182570	20:53:00	20:53:00		Strażacka / Urocza 04 nż
+1523	1	182570	20:54:00	20:54:00		Miła / Strażacka 02 nż
+1523	1	182570	20:55:00	20:55:00		Miła bloki 04 nż
+1523	1	182570	20:56:00	20:56:00		Miła szkoła 06 nż
+1523	1	182570	20:57:00	20:57:00		Kard. K. Wojtyły kościół 05 nż
+1523	1	182570	20:59:00	20:59:00		Kard. K. Wojtyły pętla 03 nż
+1523	1	182570	21:00:00	21:00:00		Kard. K .Wojtyły / Sikorskiego 01 nż
+1523	1	182570	21:01:00	21:01:00		Sikorskiego / Kard. K. Wojtyły 16 nż
+1523	1	182570	21:02:00	21:02:00		Sikorskiego granica 18 nż
+1523	1	182570	21:03:00	21:03:00		Sikorskiego MPGK 20
+
+1510	1	182721	21:31:00	21:31:00		Sikorskiego MPGK 20
+1510	1	182721	21:32:00	21:32:00		Sikorskiego granica 15 nż
+1510	1	182721	21:33:00	21:33:00		Sikorskiego / Ruczajowa 13 nż
+1510	1	182721	21:34:00	21:34:00		Kard. K. Wojtyły / Sikorskiego 02 nż
+1510	1	182721	21:35:00	21:35:00		Kard. K. Wojtyły pętla 04 nż
+1510	1	182721	21:36:00	21:36:00		Kard. K. Wojtyły kościół 06 nż
+1510	1	182721	21:37:00	21:37:00		Miła Dom Kultury 05 nż
+1510	1	182721	21:38:00	21:38:00		Miła bloki 03 nż
+1510	1	182721	21:39:00	21:39:00		Miła / Strażacka 01 nż
+1510	1	182721	21:40:00	21:40:00		Strażacka / Urocza 03 nż
+1510	1	182721	21:41:00	21:41:00		Strażacka / Graniczna 01 nż
+1510	1	182721	21:42:00	21:42:00		Kwiatkowskiego / Strażacka 03 nż
+1510	1	182721	21:43:00	21:43:00		Kwiatkowskiego Dom Studenta 01 nż
+1510	1	182721	21:45:00	21:45:00		Podwisłocze / Powst. Warszawy 02
+1510	1	182721	21:46:00	21:46:00		Podwisłocze klinika 04
+1510	1	182721	21:47:00	21:47:00		Kopisto Most Zamkowy 04
+1510	1	182721	21:48:00	21:48:00		Szopena Filharmonia 01 nż
+1510	1	182721	21:49:00	21:49:00		Targowa 02
+1510	1	182721	21:51:00	21:51:00		Pl. Wolności 04
+1510	1	182721	21:52:00	21:52:00		Piłsudskiego U. Wojewódzki 06
+1510	1	182721	21:54:00	21:54:00		Marszałkowska 02
+1510	1	182721	21:55:00	21:55:00		Lubelska szpital 02
+1510	1	182721	21:56:00	21:56:00		Lubelska kościół 06 nż
+1510	1	182721	21:57:00	21:57:00		Lubelska / Borowa 08 nż
+1510	1	182721	21:58:00	21:58:00		Lubelska Os. Ogrody 10 nż
+1510	1	182721	21:59:00	21:59:00		Lubelska Ogrody Hiszpańskie 12 nż
+1510	1	182721	22:00:00	22:00:00		Lubelska MPK 14 nż
+1510	1	182721	22:01:00	22:01:00		Lubelska Zajezdnia MPK

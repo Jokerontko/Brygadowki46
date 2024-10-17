@@ -1,0 +1,510 @@
+route_id	service_id	trip_id	arrival_time	departure_time	stop_headsign	stop_name
+-------------------------------------------------------------------------------
+820	1	175003	05:44:00	05:44:00		Krakowska granica 15 nż
+820	1	175003	05:45:00	05:45:00		Krakowska Dworzysko 13 nż
+820	1	175003	05:47:00	05:47:00		Krakowska / Ustrzycka 11
+820	1	175003	05:48:00	05:48:00		Krakowska cmentarz 09 nż
+820	1	175003	05:50:00	05:50:00		Wyzwolenia / Mikołajczyka 09 nż
+820	1	175003	05:51:00	05:51:00		Wyzwolenia / Ofiar Katynia 07
+820	1	175003	05:52:00	05:52:00		Wyzwolenia kościół 05
+820	1	175003	05:53:00	05:53:00		Wyzwolenia / Okulickiego 03 nż
+820	1	175003	05:55:00	05:55:00		Wyzwolenia / Warszawska 01 nż
+820	1	175003	05:56:00	05:56:00		Lubelska szpital 01
+820	1	175003	05:57:00	05:57:00		Marszałkowska 01
+820	1	175003	05:59:00	05:59:00		Cieplińskiego 02
+820	1	175003	06:00:00	06:00:00		Lisa-Kuli 01
+820	1	175003	06:02:00	06:02:00		Hetmańska podzamcze 02 nż
+820	1	175003	06:03:00	06:03:00		Hetmańska przychodnia 04
+820	1	175003	06:04:00	06:04:00		Hetmańska ZS. Mech. 06
+820	1	175003	06:06:00	06:06:00		Powst. Warszawy stadion 06
+820	1	175003	06:08:00	06:08:00		Podwisłocze / Powst. Warszawy 02
+820	1	175003	06:09:00	06:09:00		Podwisłocze klinika 04
+820	1	175003	06:10:00	06:10:00		Kopisto U. Skarbowy 03
+820	1	175003	06:11:00	06:11:00		Kopisto Uniwersytet 01
+820	1	175003	06:12:00	06:12:00		Niepodległości / Rejtana 02
+820	1	175003	06:13:00	06:13:00		Niepodległości Dom Dziecka 04 nż
+820	1	175003	06:14:00	06:14:00		Niepodległości działki 06 nż
+820	1	175003	06:15:00	06:15:00		Armii Krajowej szpital 10 nż
+820	1	175003	06:16:00	06:16:00		Lwowska szpital 06
+820	1	175003	06:17:00	06:17:00		Cienista / Lwowska 02 nż
+820	1	175003	06:18:00	06:18:00		Cienista cmentarz 04
+
+818	1	177634	06:44:00	06:44:00		Cienista cmentarz 01
+818	1	177634	06:45:00	06:45:00		Lwowska / Cienista 07 nż
+818	1	177634	06:46:00	06:46:00		Lwowska szpital 05
+818	1	177634	06:48:00	06:48:00		Armii Krajowej kościół 09 nż
+818	1	177634	06:49:00	06:49:00		Niepodległości / Armii Krajowej 05
+818	1	177634	06:50:00	06:50:00		Niepodległości / Mieszka I 03 nż
+818	1	177634	06:51:00	06:51:00		Niepodległości Dom Dziecka 01 nż
+818	1	177634	06:52:00	06:52:00		Kopisto Uniwersytet 02
+818	1	177634	06:54:00	06:54:00		Podwisłocze U. Skarbowy 03
+818	1	177634	06:55:00	06:55:00		Podwisłocze domki 01
+818	1	177634	06:56:00	06:56:00		Powst. Warszawy / Podwisłocze 07 nż
+818	1	177634	06:57:00	06:57:00		Hetmańska stadion 07
+818	1	177634	06:58:00	06:58:00		Hetmańska ZS. Mech. 05
+818	1	177634	06:59:00	06:59:00		Hetmańska przychodnia 03
+818	1	177634	07:00:00	07:00:00		Hetmańska podzamcze 01 nż
+818	1	177634	07:03:00	07:03:00		Lisa-Kuli 02
+818	1	177634	07:04:00	07:04:00		Cieplińskiego 01
+818	1	177634	07:06:00	07:06:00		Marszałkowska 02
+818	1	177634	07:07:00	07:07:00		Lubelska szpital 02
+818	1	177634	07:09:00	07:09:00		Wyzwolenia / Lubelska 02 nż
+818	1	177634	07:10:00	07:10:00		Wyzwolenia WORD 04 nż
+818	1	177634	07:12:00	07:12:00		Wyzwolenia / Iranka-Osmeckiego 06
+818	1	177634	07:13:00	07:13:00		Wyzwolenia / Brydaka 08
+818	1	177634	07:14:00	07:14:00		Wyzwolenia / Obr. Poczty Gdańskiej 10
+818	1	177634	07:15:00	07:15:00		Wyzwolenia / Krakowska 12 nż
+818	1	177634	07:17:00	07:17:00		Krakowska cmentarz 10 nż
+818	1	177634	07:18:00	07:18:00		Krakowska / Ceramiczna 12
+818	1	177634	07:19:00	07:19:00		Krakowska Dworzysko 16 nż
+818	1	177634	07:21:00	07:21:00		Krakowska granica 18 nż
+818	1	177634	07:23:00	07:23:00		Krakowska granica 15 nż
+
+820	1	176478	07:44:00	07:44:00		Krakowska granica 15 nż
+820	1	176478	07:45:00	07:45:00		Krakowska Dworzysko 13 nż
+820	1	176478	07:47:00	07:47:00		Krakowska / Ustrzycka 11
+820	1	176478	07:48:00	07:48:00		Krakowska cmentarz 09 nż
+820	1	176478	07:50:00	07:50:00		Wyzwolenia / Mikołajczyka 09 nż
+820	1	176478	07:51:00	07:51:00		Wyzwolenia / Ofiar Katynia 07
+820	1	176478	07:52:00	07:52:00		Wyzwolenia kościół 05
+820	1	176478	07:53:00	07:53:00		Wyzwolenia / Okulickiego 03 nż
+820	1	176478	07:55:00	07:55:00		Wyzwolenia / Warszawska 01 nż
+820	1	176478	07:56:00	07:56:00		Lubelska szpital 01
+820	1	176478	07:57:00	07:57:00		Marszałkowska 01
+820	1	176478	08:00:00	08:00:00		Cieplińskiego 02
+820	1	176478	08:01:00	08:01:00		Lisa-Kuli 01
+820	1	176478	08:03:00	08:03:00		Hetmańska podzamcze 02 nż
+820	1	176478	08:04:00	08:04:00		Hetmańska przychodnia 04
+820	1	176478	08:05:00	08:05:00		Hetmańska ZS. Mech. 06
+820	1	176478	08:07:00	08:07:00		Powst. Warszawy stadion 06
+820	1	176478	08:09:00	08:09:00		Podwisłocze / Powst. Warszawy 02
+820	1	176478	08:10:00	08:10:00		Podwisłocze klinika 04
+820	1	176478	08:11:00	08:11:00		Kopisto U. Skarbowy 03
+820	1	176478	08:12:00	08:12:00		Kopisto Uniwersytet 01
+820	1	176478	08:13:00	08:13:00		Niepodległości / Rejtana 02
+820	1	176478	08:14:00	08:14:00		Niepodległości Dom Dziecka 04 nż
+820	1	176478	08:15:00	08:15:00		Niepodległości działki 06 nż
+820	1	176478	08:17:00	08:17:00		Armii Krajowej szpital 10 nż
+820	1	176478	08:18:00	08:18:00		Lwowska szpital 06
+820	1	176478	08:20:00	08:20:00		Cienista / Lwowska 02 nż
+820	1	176478	08:21:00	08:21:00		Cienista cmentarz 04
+
+818	1	176892	08:44:00	08:44:00		Cienista cmentarz 01
+818	1	176892	08:45:00	08:45:00		Lwowska / Cienista 07 nż
+818	1	176892	08:47:00	08:47:00		Lwowska szpital 05
+818	1	176892	08:49:00	08:49:00		Armii Krajowej kościół 09 nż
+818	1	176892	08:50:00	08:50:00		Niepodległości / Armii Krajowej 05
+818	1	176892	08:51:00	08:51:00		Niepodległości / Mieszka I 03 nż
+818	1	176892	08:52:00	08:52:00		Niepodległości Dom Dziecka 01 nż
+818	1	176892	08:54:00	08:54:00		Kopisto Uniwersytet 02
+818	1	176892	08:56:00	08:56:00		Podwisłocze U. Skarbowy 03
+818	1	176892	08:57:00	08:57:00		Podwisłocze domki 01
+818	1	176892	08:58:00	08:58:00		Powst. Warszawy / Podwisłocze 07 nż
+818	1	176892	08:59:00	08:59:00		Hetmańska stadion 07
+818	1	176892	09:00:00	09:00:00		Hetmańska ZS. Mech. 05
+818	1	176892	09:01:00	09:01:00		Hetmańska przychodnia 03
+818	1	176892	09:02:00	09:02:00		Hetmańska podzamcze 01 nż
+818	1	176892	09:05:00	09:05:00		Lisa-Kuli 02
+818	1	176892	09:06:00	09:06:00		Cieplińskiego 01
+818	1	176892	09:08:00	09:08:00		Marszałkowska 02
+818	1	176892	09:09:00	09:09:00		Lubelska szpital 02
+818	1	176892	09:11:00	09:11:00		Wyzwolenia / Lubelska 02 nż
+818	1	176892	09:12:00	09:12:00		Wyzwolenia WORD 04 nż
+818	1	176892	09:14:00	09:14:00		Wyzwolenia / Iranka-Osmeckiego 06
+818	1	176892	09:15:00	09:15:00		Wyzwolenia / Brydaka 08
+818	1	176892	09:16:00	09:16:00		Wyzwolenia / Obr. Poczty Gdańskiej 10
+818	1	176892	09:17:00	09:17:00		Wyzwolenia / Krakowska 12 nż
+818	1	176892	09:19:00	09:19:00		Krakowska cmentarz 10 nż
+818	1	176892	09:20:00	09:20:00		Krakowska / Ceramiczna 12
+818	1	176892	09:21:00	09:21:00		Krakowska Dworzysko 16 nż
+818	1	176892	09:23:00	09:23:00		Krakowska granica 18 nż
+818	1	176892	09:25:00	09:25:00		Krakowska granica 15 nż
+
+820	1	177617	09:44:00	09:44:00		Krakowska granica 15 nż
+820	1	177617	09:45:00	09:45:00		Krakowska Dworzysko 13 nż
+820	1	177617	09:47:00	09:47:00		Krakowska / Ustrzycka 11
+820	1	177617	09:48:00	09:48:00		Krakowska cmentarz 09 nż
+820	1	177617	09:50:00	09:50:00		Wyzwolenia / Mikołajczyka 09 nż
+820	1	177617	09:51:00	09:51:00		Wyzwolenia / Ofiar Katynia 07
+820	1	177617	09:52:00	09:52:00		Wyzwolenia kościół 05
+820	1	177617	09:53:00	09:53:00		Wyzwolenia / Okulickiego 03 nż
+820	1	177617	09:55:00	09:55:00		Wyzwolenia / Warszawska 01 nż
+820	1	177617	09:56:00	09:56:00		Lubelska szpital 01
+820	1	177617	09:57:00	09:57:00		Marszałkowska 01
+820	1	177617	10:00:00	10:00:00		Cieplińskiego 02
+820	1	177617	10:01:00	10:01:00		Lisa-Kuli 01
+820	1	177617	10:03:00	10:03:00		Hetmańska podzamcze 02 nż
+820	1	177617	10:04:00	10:04:00		Hetmańska przychodnia 04
+820	1	177617	10:05:00	10:05:00		Hetmańska ZS. Mech. 06
+820	1	177617	10:07:00	10:07:00		Powst. Warszawy stadion 06
+820	1	177617	10:09:00	10:09:00		Podwisłocze / Powst. Warszawy 02
+820	1	177617	10:10:00	10:10:00		Podwisłocze klinika 04
+820	1	177617	10:11:00	10:11:00		Kopisto U. Skarbowy 03
+820	1	177617	10:12:00	10:12:00		Kopisto Uniwersytet 01
+820	1	177617	10:13:00	10:13:00		Niepodległości / Rejtana 02
+820	1	177617	10:14:00	10:14:00		Niepodległości Dom Dziecka 04 nż
+820	1	177617	10:15:00	10:15:00		Niepodległości działki 06 nż
+820	1	177617	10:17:00	10:17:00		Armii Krajowej szpital 10 nż
+820	1	177617	10:18:00	10:18:00		Lwowska szpital 06
+820	1	177617	10:20:00	10:20:00		Cienista / Lwowska 02 nż
+820	1	177617	10:21:00	10:21:00		Cienista cmentarz 04
+
+818	1	173781	10:44:00	10:44:00		Cienista cmentarz 01
+818	1	173781	10:45:00	10:45:00		Lwowska / Cienista 07 nż
+818	1	173781	10:47:00	10:47:00		Lwowska szpital 05
+818	1	173781	10:49:00	10:49:00		Armii Krajowej kościół 09 nż
+818	1	173781	10:50:00	10:50:00		Niepodległości / Armii Krajowej 05
+818	1	173781	10:51:00	10:51:00		Niepodległości / Mieszka I 03 nż
+818	1	173781	10:52:00	10:52:00		Niepodległości Dom Dziecka 01 nż
+818	1	173781	10:54:00	10:54:00		Kopisto Uniwersytet 02
+818	1	173781	10:56:00	10:56:00		Podwisłocze U. Skarbowy 03
+818	1	173781	10:57:00	10:57:00		Podwisłocze domki 01
+818	1	173781	10:58:00	10:58:00		Powst. Warszawy / Podwisłocze 07 nż
+818	1	173781	10:59:00	10:59:00		Hetmańska stadion 07
+818	1	173781	11:00:00	11:00:00		Hetmańska ZS. Mech. 05
+818	1	173781	11:01:00	11:01:00		Hetmańska przychodnia 03
+818	1	173781	11:02:00	11:02:00		Hetmańska podzamcze 01 nż
+818	1	173781	11:05:00	11:05:00		Lisa-Kuli 02
+818	1	173781	11:06:00	11:06:00		Cieplińskiego 01
+818	1	173781	11:08:00	11:08:00		Marszałkowska 02
+818	1	173781	11:09:00	11:09:00		Lubelska szpital 02
+818	1	173781	11:11:00	11:11:00		Wyzwolenia / Lubelska 02 nż
+818	1	173781	11:12:00	11:12:00		Wyzwolenia WORD 04 nż
+818	1	173781	11:14:00	11:14:00		Wyzwolenia / Iranka-Osmeckiego 06
+818	1	173781	11:15:00	11:15:00		Wyzwolenia / Brydaka 08
+818	1	173781	11:16:00	11:16:00		Wyzwolenia / Obr. Poczty Gdańskiej 10
+818	1	173781	11:17:00	11:17:00		Wyzwolenia / Krakowska 12 nż
+818	1	173781	11:19:00	11:19:00		Krakowska cmentarz 10 nż
+818	1	173781	11:20:00	11:20:00		Krakowska / Ceramiczna 12
+818	1	173781	11:21:00	11:21:00		Krakowska Dworzysko 16 nż
+818	1	173781	11:23:00	11:23:00		Krakowska granica 18 nż
+818	1	173781	11:25:00	11:25:00		Krakowska granica 15 nż
+
+820	1	175585	11:44:00	11:44:00		Krakowska granica 15 nż
+820	1	175585	11:45:00	11:45:00		Krakowska Dworzysko 13 nż
+820	1	175585	11:47:00	11:47:00		Krakowska / Ustrzycka 11
+820	1	175585	11:48:00	11:48:00		Krakowska cmentarz 09 nż
+820	1	175585	11:50:00	11:50:00		Wyzwolenia / Mikołajczyka 09 nż
+820	1	175585	11:51:00	11:51:00		Wyzwolenia / Ofiar Katynia 07
+820	1	175585	11:52:00	11:52:00		Wyzwolenia kościół 05
+820	1	175585	11:53:00	11:53:00		Wyzwolenia / Okulickiego 03 nż
+820	1	175585	11:55:00	11:55:00		Wyzwolenia / Warszawska 01 nż
+820	1	175585	11:56:00	11:56:00		Lubelska szpital 01
+820	1	175585	11:57:00	11:57:00		Marszałkowska 01
+820	1	175585	12:00:00	12:00:00		Cieplińskiego 02
+820	1	175585	12:01:00	12:01:00		Lisa-Kuli 01
+820	1	175585	12:03:00	12:03:00		Hetmańska podzamcze 02 nż
+820	1	175585	12:04:00	12:04:00		Hetmańska przychodnia 04
+820	1	175585	12:05:00	12:05:00		Hetmańska ZS. Mech. 06
+820	1	175585	12:07:00	12:07:00		Powst. Warszawy stadion 06
+820	1	175585	12:09:00	12:09:00		Podwisłocze / Powst. Warszawy 02
+820	1	175585	12:10:00	12:10:00		Podwisłocze klinika 04
+820	1	175585	12:11:00	12:11:00		Kopisto U. Skarbowy 03
+820	1	175585	12:12:00	12:12:00		Kopisto Uniwersytet 01
+820	1	175585	12:13:00	12:13:00		Niepodległości / Rejtana 02
+820	1	175585	12:14:00	12:14:00		Niepodległości Dom Dziecka 04 nż
+820	1	175585	12:15:00	12:15:00		Niepodległości działki 06 nż
+820	1	175585	12:17:00	12:17:00		Armii Krajowej szpital 10 nż
+820	1	175585	12:18:00	12:18:00		Lwowska szpital 06
+820	1	175585	12:20:00	12:20:00		Cienista / Lwowska 02 nż
+820	1	175585	12:21:00	12:21:00		Cienista cmentarz 04
+
+818	1	177658	12:44:00	12:44:00		Cienista cmentarz 01
+818	1	177658	12:45:00	12:45:00		Lwowska / Cienista 07 nż
+818	1	177658	12:47:00	12:47:00		Lwowska szpital 05
+818	1	177658	12:49:00	12:49:00		Armii Krajowej kościół 09 nż
+818	1	177658	12:50:00	12:50:00		Niepodległości / Armii Krajowej 05
+818	1	177658	12:51:00	12:51:00		Niepodległości / Mieszka I 03 nż
+818	1	177658	12:52:00	12:52:00		Niepodległości Dom Dziecka 01 nż
+818	1	177658	12:54:00	12:54:00		Kopisto Uniwersytet 02
+818	1	177658	12:56:00	12:56:00		Podwisłocze U. Skarbowy 03
+818	1	177658	12:57:00	12:57:00		Podwisłocze domki 01
+818	1	177658	12:58:00	12:58:00		Powst. Warszawy / Podwisłocze 07 nż
+818	1	177658	12:59:00	12:59:00		Hetmańska stadion 07
+818	1	177658	13:00:00	13:00:00		Hetmańska ZS. Mech. 05
+818	1	177658	13:01:00	13:01:00		Hetmańska przychodnia 03
+818	1	177658	13:02:00	13:02:00		Hetmańska podzamcze 01 nż
+818	1	177658	13:05:00	13:05:00		Lisa-Kuli 02
+818	1	177658	13:06:00	13:06:00		Cieplińskiego 01
+818	1	177658	13:08:00	13:08:00		Marszałkowska 02
+818	1	177658	13:09:00	13:09:00		Lubelska szpital 02
+818	1	177658	13:11:00	13:11:00		Wyzwolenia / Lubelska 02 nż
+818	1	177658	13:12:00	13:12:00		Wyzwolenia WORD 04 nż
+818	1	177658	13:14:00	13:14:00		Wyzwolenia / Iranka-Osmeckiego 06
+818	1	177658	13:15:00	13:15:00		Wyzwolenia / Brydaka 08
+818	1	177658	13:16:00	13:16:00		Wyzwolenia / Obr. Poczty Gdańskiej 10
+818	1	177658	13:17:00	13:17:00		Wyzwolenia / Krakowska 12 nż
+818	1	177658	13:19:00	13:19:00		Krakowska cmentarz 10 nż
+818	1	177658	13:20:00	13:20:00		Krakowska / Ceramiczna 12
+818	1	177658	13:21:00	13:21:00		Krakowska Dworzysko 16 nż
+818	1	177658	13:23:00	13:23:00		Krakowska granica 18 nż
+818	1	177658	13:25:00	13:25:00		Krakowska granica 15 nż
+
+820	1	174549	13:44:00	13:44:00		Krakowska granica 15 nż
+820	1	174549	13:45:00	13:45:00		Krakowska Dworzysko 13 nż
+820	1	174549	13:47:00	13:47:00		Krakowska / Ustrzycka 11
+820	1	174549	13:48:00	13:48:00		Krakowska cmentarz 09 nż
+820	1	174549	13:50:00	13:50:00		Wyzwolenia / Mikołajczyka 09 nż
+820	1	174549	13:51:00	13:51:00		Wyzwolenia / Ofiar Katynia 07
+820	1	174549	13:52:00	13:52:00		Wyzwolenia kościół 05
+820	1	174549	13:53:00	13:53:00		Wyzwolenia / Okulickiego 03 nż
+820	1	174549	13:55:00	13:55:00		Wyzwolenia / Warszawska 01 nż
+820	1	174549	13:56:00	13:56:00		Lubelska szpital 01
+820	1	174549	13:57:00	13:57:00		Marszałkowska 01
+820	1	174549	14:00:00	14:00:00		Cieplińskiego 02
+820	1	174549	14:01:00	14:01:00		Lisa-Kuli 01
+820	1	174549	14:04:00	14:04:00		Hetmańska podzamcze 02 nż
+820	1	174549	14:05:00	14:05:00		Hetmańska przychodnia 04
+820	1	174549	14:06:00	14:06:00		Hetmańska ZS. Mech. 06
+820	1	174549	14:08:00	14:08:00		Powst. Warszawy stadion 06
+820	1	174549	14:10:00	14:10:00		Podwisłocze / Powst. Warszawy 02
+820	1	174549	14:11:00	14:11:00		Podwisłocze klinika 04
+820	1	174549	14:12:00	14:12:00		Kopisto U. Skarbowy 03
+820	1	174549	14:13:00	14:13:00		Kopisto Uniwersytet 01
+820	1	174549	14:14:00	14:14:00		Niepodległości / Rejtana 02
+820	1	174549	14:15:00	14:15:00		Niepodległości Dom Dziecka 04 nż
+820	1	174549	14:16:00	14:16:00		Niepodległości działki 06 nż
+820	1	174549	14:18:00	14:18:00		Armii Krajowej szpital 10 nż
+820	1	174549	14:20:00	14:20:00		Lwowska szpital 06
+820	1	174549	14:22:00	14:22:00		Cienista / Lwowska 02 nż
+820	1	174549	14:23:00	14:23:00		Cienista cmentarz 04
+
+818	1	174943	14:44:00	14:44:00		Cienista cmentarz 01
+818	1	174943	14:45:00	14:45:00		Lwowska / Cienista 07 nż
+818	1	174943	14:47:00	14:47:00		Lwowska szpital 05
+818	1	174943	14:49:00	14:49:00		Armii Krajowej kościół 09 nż
+818	1	174943	14:50:00	14:50:00		Niepodległości / Armii Krajowej 05
+818	1	174943	14:51:00	14:51:00		Niepodległości / Mieszka I 03 nż
+818	1	174943	14:52:00	14:52:00		Niepodległości Dom Dziecka 01 nż
+818	1	174943	14:54:00	14:54:00		Kopisto Uniwersytet 02
+818	1	174943	14:56:00	14:56:00		Podwisłocze U. Skarbowy 03
+818	1	174943	14:57:00	14:57:00		Podwisłocze domki 01
+818	1	174943	14:58:00	14:58:00		Powst. Warszawy / Podwisłocze 07 nż
+818	1	174943	14:59:00	14:59:00		Hetmańska stadion 07
+818	1	174943	15:00:00	15:00:00		Hetmańska ZS. Mech. 05
+818	1	174943	15:01:00	15:01:00		Hetmańska przychodnia 03
+818	1	174943	15:02:00	15:02:00		Hetmańska podzamcze 01 nż
+818	1	174943	15:05:00	15:05:00		Lisa-Kuli 02
+818	1	174943	15:06:00	15:06:00		Cieplińskiego 01
+818	1	174943	15:08:00	15:08:00		Marszałkowska 02
+818	1	174943	15:09:00	15:09:00		Lubelska szpital 02
+818	1	174943	15:11:00	15:11:00		Wyzwolenia / Lubelska 02 nż
+818	1	174943	15:12:00	15:12:00		Wyzwolenia WORD 04 nż
+818	1	174943	15:14:00	15:14:00		Wyzwolenia / Iranka-Osmeckiego 06
+818	1	174943	15:15:00	15:15:00		Wyzwolenia / Brydaka 08
+818	1	174943	15:16:00	15:16:00		Wyzwolenia / Obr. Poczty Gdańskiej 10
+818	1	174943	15:17:00	15:17:00		Wyzwolenia / Krakowska 12 nż
+818	1	174943	15:19:00	15:19:00		Krakowska cmentarz 10 nż
+818	1	174943	15:20:00	15:20:00		Krakowska / Ceramiczna 12
+818	1	174943	15:21:00	15:21:00		Krakowska Dworzysko 16 nż
+818	1	174943	15:23:00	15:23:00		Krakowska granica 18 nż
+818	1	174943	15:25:00	15:25:00		Krakowska granica 15 nż
+
+820	1	173795	15:44:00	15:44:00		Krakowska granica 15 nż
+820	1	173795	15:45:00	15:45:00		Krakowska Dworzysko 13 nż
+820	1	173795	15:47:00	15:47:00		Krakowska / Ustrzycka 11
+820	1	173795	15:48:00	15:48:00		Krakowska cmentarz 09 nż
+820	1	173795	15:50:00	15:50:00		Wyzwolenia / Mikołajczyka 09 nż
+820	1	173795	15:51:00	15:51:00		Wyzwolenia / Ofiar Katynia 07
+820	1	173795	15:52:00	15:52:00		Wyzwolenia kościół 05
+820	1	173795	15:53:00	15:53:00		Wyzwolenia / Okulickiego 03 nż
+820	1	173795	15:55:00	15:55:00		Wyzwolenia / Warszawska 01 nż
+820	1	173795	15:56:00	15:56:00		Lubelska szpital 01
+820	1	173795	15:57:00	15:57:00		Marszałkowska 01
+820	1	173795	16:00:00	16:00:00		Cieplińskiego 02
+820	1	173795	16:01:00	16:01:00		Lisa-Kuli 01
+820	1	173795	16:04:00	16:04:00		Hetmańska podzamcze 02 nż
+820	1	173795	16:05:00	16:05:00		Hetmańska przychodnia 04
+820	1	173795	16:06:00	16:06:00		Hetmańska ZS. Mech. 06
+820	1	173795	16:08:00	16:08:00		Powst. Warszawy stadion 06
+820	1	173795	16:10:00	16:10:00		Podwisłocze / Powst. Warszawy 02
+820	1	173795	16:11:00	16:11:00		Podwisłocze klinika 04
+820	1	173795	16:12:00	16:12:00		Kopisto U. Skarbowy 03
+820	1	173795	16:13:00	16:13:00		Kopisto Uniwersytet 01
+820	1	173795	16:14:00	16:14:00		Niepodległości / Rejtana 02
+820	1	173795	16:15:00	16:15:00		Niepodległości Dom Dziecka 04 nż
+820	1	173795	16:16:00	16:16:00		Niepodległości działki 06 nż
+820	1	173795	16:18:00	16:18:00		Armii Krajowej szpital 10 nż
+820	1	173795	16:20:00	16:20:00		Lwowska szpital 06
+820	1	173795	16:22:00	16:22:00		Cienista / Lwowska 02 nż
+820	1	173795	16:23:00	16:23:00		Cienista cmentarz 04
+
+818	1	174751	16:44:00	16:44:00		Cienista cmentarz 01
+818	1	174751	16:45:00	16:45:00		Lwowska / Cienista 07 nż
+818	1	174751	16:47:00	16:47:00		Lwowska szpital 05
+818	1	174751	16:49:00	16:49:00		Armii Krajowej kościół 09 nż
+818	1	174751	16:50:00	16:50:00		Niepodległości / Armii Krajowej 05
+818	1	174751	16:51:00	16:51:00		Niepodległości / Mieszka I 03 nż
+818	1	174751	16:52:00	16:52:00		Niepodległości Dom Dziecka 01 nż
+818	1	174751	16:54:00	16:54:00		Kopisto Uniwersytet 02
+818	1	174751	16:56:00	16:56:00		Podwisłocze U. Skarbowy 03
+818	1	174751	16:57:00	16:57:00		Podwisłocze domki 01
+818	1	174751	16:58:00	16:58:00		Powst. Warszawy / Podwisłocze 07 nż
+818	1	174751	16:59:00	16:59:00		Hetmańska stadion 07
+818	1	174751	17:00:00	17:00:00		Hetmańska ZS. Mech. 05
+818	1	174751	17:01:00	17:01:00		Hetmańska przychodnia 03
+818	1	174751	17:02:00	17:02:00		Hetmańska podzamcze 01 nż
+818	1	174751	17:05:00	17:05:00		Lisa-Kuli 02
+818	1	174751	17:06:00	17:06:00		Cieplińskiego 01
+818	1	174751	17:08:00	17:08:00		Marszałkowska 02
+818	1	174751	17:09:00	17:09:00		Lubelska szpital 02
+818	1	174751	17:11:00	17:11:00		Wyzwolenia / Lubelska 02 nż
+818	1	174751	17:12:00	17:12:00		Wyzwolenia WORD 04 nż
+818	1	174751	17:14:00	17:14:00		Wyzwolenia / Iranka-Osmeckiego 06
+818	1	174751	17:15:00	17:15:00		Wyzwolenia / Brydaka 08
+818	1	174751	17:16:00	17:16:00		Wyzwolenia / Obr. Poczty Gdańskiej 10
+818	1	174751	17:17:00	17:17:00		Wyzwolenia / Krakowska 12 nż
+818	1	174751	17:19:00	17:19:00		Krakowska cmentarz 10 nż
+818	1	174751	17:20:00	17:20:00		Krakowska / Ceramiczna 12
+818	1	174751	17:21:00	17:21:00		Krakowska Dworzysko 16 nż
+818	1	174751	17:23:00	17:23:00		Krakowska granica 18 nż
+818	1	174751	17:25:00	17:25:00		Krakowska granica 15 nż
+
+820	1	177414	17:44:00	17:44:00		Krakowska granica 15 nż
+820	1	177414	17:45:00	17:45:00		Krakowska Dworzysko 13 nż
+820	1	177414	17:47:00	17:47:00		Krakowska / Ustrzycka 11
+820	1	177414	17:48:00	17:48:00		Krakowska cmentarz 09 nż
+820	1	177414	17:50:00	17:50:00		Wyzwolenia / Mikołajczyka 09 nż
+820	1	177414	17:51:00	17:51:00		Wyzwolenia / Ofiar Katynia 07
+820	1	177414	17:52:00	17:52:00		Wyzwolenia kościół 05
+820	1	177414	17:53:00	17:53:00		Wyzwolenia / Okulickiego 03 nż
+820	1	177414	17:55:00	17:55:00		Wyzwolenia / Warszawska 01 nż
+820	1	177414	17:56:00	17:56:00		Lubelska szpital 01
+820	1	177414	17:57:00	17:57:00		Marszałkowska 01
+820	1	177414	18:00:00	18:00:00		Cieplińskiego 02
+820	1	177414	18:01:00	18:01:00		Lisa-Kuli 01
+820	1	177414	18:04:00	18:04:00		Hetmańska podzamcze 02 nż
+820	1	177414	18:05:00	18:05:00		Hetmańska przychodnia 04
+820	1	177414	18:06:00	18:06:00		Hetmańska ZS. Mech. 06
+820	1	177414	18:08:00	18:08:00		Powst. Warszawy stadion 06
+820	1	177414	18:10:00	18:10:00		Podwisłocze / Powst. Warszawy 02
+820	1	177414	18:11:00	18:11:00		Podwisłocze klinika 04
+820	1	177414	18:12:00	18:12:00		Kopisto U. Skarbowy 03
+820	1	177414	18:13:00	18:13:00		Kopisto Uniwersytet 01
+820	1	177414	18:14:00	18:14:00		Niepodległości / Rejtana 02
+820	1	177414	18:15:00	18:15:00		Niepodległości Dom Dziecka 04 nż
+820	1	177414	18:16:00	18:16:00		Niepodległości działki 06 nż
+820	1	177414	18:18:00	18:18:00		Armii Krajowej szpital 10 nż
+820	1	177414	18:20:00	18:20:00		Lwowska szpital 06
+820	1	177414	18:22:00	18:22:00		Cienista / Lwowska 02 nż
+820	1	177414	18:23:00	18:23:00		Cienista cmentarz 04
+
+818	1	175243	18:44:00	18:44:00		Cienista cmentarz 01
+818	1	175243	18:45:00	18:45:00		Lwowska / Cienista 07 nż
+818	1	175243	18:47:00	18:47:00		Lwowska szpital 05
+818	1	175243	18:49:00	18:49:00		Armii Krajowej kościół 09 nż
+818	1	175243	18:50:00	18:50:00		Niepodległości / Armii Krajowej 05
+818	1	175243	18:51:00	18:51:00		Niepodległości / Mieszka I 03 nż
+818	1	175243	18:52:00	18:52:00		Niepodległości Dom Dziecka 01 nż
+818	1	175243	18:54:00	18:54:00		Kopisto Uniwersytet 02
+818	1	175243	18:56:00	18:56:00		Podwisłocze U. Skarbowy 03
+818	1	175243	18:57:00	18:57:00		Podwisłocze domki 01
+818	1	175243	18:58:00	18:58:00		Powst. Warszawy / Podwisłocze 07 nż
+818	1	175243	18:59:00	18:59:00		Hetmańska stadion 07
+818	1	175243	19:00:00	19:00:00		Hetmańska ZS. Mech. 05
+818	1	175243	19:01:00	19:01:00		Hetmańska przychodnia 03
+818	1	175243	19:02:00	19:02:00		Hetmańska podzamcze 01 nż
+818	1	175243	19:04:00	19:04:00		Lisa-Kuli 02
+818	1	175243	19:05:00	19:05:00		Cieplińskiego 01
+818	1	175243	19:07:00	19:07:00		Marszałkowska 02
+818	1	175243	19:08:00	19:08:00		Lubelska szpital 02
+818	1	175243	19:10:00	19:10:00		Wyzwolenia / Lubelska 02 nż
+818	1	175243	19:11:00	19:11:00		Wyzwolenia WORD 04 nż
+818	1	175243	19:12:00	19:12:00		Wyzwolenia / Iranka-Osmeckiego 06
+818	1	175243	19:13:00	19:13:00		Wyzwolenia / Brydaka 08
+818	1	175243	19:14:00	19:14:00		Wyzwolenia / Obr. Poczty Gdańskiej 10
+818	1	175243	19:15:00	19:15:00		Wyzwolenia / Krakowska 12 nż
+818	1	175243	19:17:00	19:17:00		Krakowska cmentarz 10 nż
+818	1	175243	19:18:00	19:18:00		Krakowska / Ceramiczna 12
+818	1	175243	19:19:00	19:19:00		Krakowska Dworzysko 16 nż
+818	1	175243	19:21:00	19:21:00		Krakowska granica 18 nż
+818	1	175243	19:23:00	19:23:00		Krakowska granica 15 nż
+
+820	1	174579	19:44:00	19:44:00		Krakowska granica 15 nż
+820	1	174579	19:45:00	19:45:00		Krakowska Dworzysko 13 nż
+820	1	174579	19:47:00	19:47:00		Krakowska / Ustrzycka 11
+820	1	174579	19:48:00	19:48:00		Krakowska cmentarz 09 nż
+820	1	174579	19:50:00	19:50:00		Wyzwolenia / Mikołajczyka 09 nż
+820	1	174579	19:51:00	19:51:00		Wyzwolenia / Ofiar Katynia 07
+820	1	174579	19:52:00	19:52:00		Wyzwolenia kościół 05
+820	1	174579	19:53:00	19:53:00		Wyzwolenia / Okulickiego 03 nż
+820	1	174579	19:55:00	19:55:00		Wyzwolenia / Warszawska 01 nż
+820	1	174579	19:56:00	19:56:00		Lubelska szpital 01
+820	1	174579	19:57:00	19:57:00		Marszałkowska 01
+820	1	174579	20:00:00	20:00:00		Cieplińskiego 02
+820	1	174579	20:01:00	20:01:00		Lisa-Kuli 01
+820	1	174579	20:03:00	20:03:00		Hetmańska podzamcze 02 nż
+820	1	174579	20:04:00	20:04:00		Hetmańska przychodnia 04
+820	1	174579	20:05:00	20:05:00		Hetmańska ZS. Mech. 06
+820	1	174579	20:07:00	20:07:00		Powst. Warszawy stadion 06
+820	1	174579	20:09:00	20:09:00		Podwisłocze / Powst. Warszawy 02
+820	1	174579	20:10:00	20:10:00		Podwisłocze klinika 04
+820	1	174579	20:11:00	20:11:00		Kopisto U. Skarbowy 03
+820	1	174579	20:12:00	20:12:00		Kopisto Uniwersytet 01
+820	1	174579	20:13:00	20:13:00		Niepodległości / Rejtana 02
+820	1	174579	20:14:00	20:14:00		Niepodległości Dom Dziecka 04 nż
+820	1	174579	20:15:00	20:15:00		Niepodległości działki 06 nż
+820	1	174579	20:16:00	20:16:00		Armii Krajowej szpital 10 nż
+820	1	174579	20:17:00	20:17:00		Lwowska szpital 06
+820	1	174579	20:18:00	20:18:00		Cienista / Lwowska 02 nż
+820	1	174579	20:19:00	20:19:00		Cienista cmentarz 04
+
+818	1	176339	20:44:00	20:44:00		Cienista cmentarz 01
+818	1	176339	20:45:00	20:45:00		Lwowska / Cienista 07 nż
+818	1	176339	20:47:00	20:47:00		Lwowska szpital 05
+818	1	176339	20:49:00	20:49:00		Armii Krajowej kościół 09 nż
+818	1	176339	20:50:00	20:50:00		Niepodległości / Armii Krajowej 05
+818	1	176339	20:51:00	20:51:00		Niepodległości / Mieszka I 03 nż
+818	1	176339	20:52:00	20:52:00		Niepodległości Dom Dziecka 01 nż
+818	1	176339	20:53:00	20:53:00		Kopisto Uniwersytet 02
+818	1	176339	20:55:00	20:55:00		Podwisłocze U. Skarbowy 03
+818	1	176339	20:56:00	20:56:00		Podwisłocze domki 01
+818	1	176339	20:57:00	20:57:00		Powst. Warszawy / Podwisłocze 07 nż
+818	1	176339	20:58:00	20:58:00		Hetmańska stadion 07
+818	1	176339	20:59:00	20:59:00		Hetmańska ZS. Mech. 05
+818	1	176339	21:00:00	21:00:00		Hetmańska przychodnia 03
+818	1	176339	21:01:00	21:01:00		Hetmańska podzamcze 01 nż
+818	1	176339	21:03:00	21:03:00		Lisa-Kuli 02
+818	1	176339	21:04:00	21:04:00		Cieplińskiego 01
+818	1	176339	21:06:00	21:06:00		Marszałkowska 02
+818	1	176339	21:07:00	21:07:00		Lubelska szpital 02
+818	1	176339	21:09:00	21:09:00		Wyzwolenia / Lubelska 02 nż
+818	1	176339	21:10:00	21:10:00		Wyzwolenia WORD 04 nż
+818	1	176339	21:11:00	21:11:00		Wyzwolenia / Iranka-Osmeckiego 06
+818	1	176339	21:12:00	21:12:00		Wyzwolenia / Brydaka 08
+818	1	176339	21:13:00	21:13:00		Wyzwolenia / Obr. Poczty Gdańskiej 10
+818	1	176339	21:14:00	21:14:00		Wyzwolenia / Krakowska 12 nż
+818	1	176339	21:16:00	21:16:00		Krakowska cmentarz 10 nż
+818	1	176339	21:17:00	21:17:00		Krakowska / Ceramiczna 12
+818	1	176339	21:18:00	21:18:00		Krakowska Dworzysko 16 nż
+818	1	176339	21:20:00	21:20:00		Krakowska granica 18 nż
+818	1	176339	21:22:00	21:22:00		Krakowska granica 15 nż
+
+820	1	177150	21:44:00	21:44:00		Krakowska granica 15 nż
+820	1	177150	21:45:00	21:45:00		Krakowska Dworzysko 13 nż
+820	1	177150	21:47:00	21:47:00		Krakowska / Ustrzycka 11
+820	1	177150	21:48:00	21:48:00		Krakowska cmentarz 09 nż
+820	1	177150	21:50:00	21:50:00		Wyzwolenia / Mikołajczyka 09 nż
+820	1	177150	21:51:00	21:51:00		Wyzwolenia / Ofiar Katynia 07
+820	1	177150	21:52:00	21:52:00		Wyzwolenia kościół 05
+820	1	177150	21:53:00	21:53:00		Wyzwolenia / Okulickiego 03 nż
+820	1	177150	21:55:00	21:55:00		Wyzwolenia / Warszawska 01 nż
+820	1	177150	21:56:00	21:56:00		Lubelska szpital 01
+820	1	177150	21:57:00	21:57:00		Marszałkowska 01
+820	1	177150	22:00:00	22:00:00		Cieplińskiego 02
+820	1	177150	22:01:00	22:01:00		Lisa-Kuli 01
+820	1	177150	22:03:00	22:03:00		Hetmańska podzamcze 02 nż
+820	1	177150	22:04:00	22:04:00		Hetmańska przychodnia 04
+820	1	177150	22:05:00	22:05:00		Hetmańska ZS. Mech. 06
+820	1	177150	22:07:00	22:07:00		Powst. Warszawy stadion 06
+820	1	177150	22:09:00	22:09:00		Podwisłocze / Powst. Warszawy 02
+820	1	177150	22:10:00	22:10:00		Podwisłocze klinika 04
+820	1	177150	22:11:00	22:11:00		Kopisto U. Skarbowy 03
+820	1	177150	22:12:00	22:12:00		Kopisto Uniwersytet 01
+820	1	177150	22:13:00	22:13:00		Niepodległości / Rejtana 02
+820	1	177150	22:14:00	22:14:00		Niepodległości Dom Dziecka 04 nż
+820	1	177150	22:15:00	22:15:00		Niepodległości działki 06 nż
+820	1	177150	22:16:00	22:16:00		Armii Krajowej szpital 10 nż
+820	1	177150	22:17:00	22:17:00		Lwowska szpital 06
+820	1	177150	22:18:00	22:18:00		Cienista / Lwowska 02 nż
+820	1	177150	22:19:00	22:19:00		Cienista cmentarz 04

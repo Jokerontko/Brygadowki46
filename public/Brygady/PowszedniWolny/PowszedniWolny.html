@@ -6,7 +6,6 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Wybór dnia</title>
    <style>
-      /* Twój dotychczasowy CSS tutaj */
       body {
          background: rgb(50, 50, 50);
          font-family: Arial, sans-serif;
@@ -26,7 +25,9 @@
 
       h1 {
          font-size: 2rem;
-         margin: 40px 0 20px;
+         margin: 0px 0 0px;
+         text-align: center;
+         height: 100vh;
       }
 
       .menu {
@@ -57,60 +58,6 @@
          color: white;
       }
 
-      table {
-         width: 25%;
-         border-collapse: collapse;
-         border-radius: 5px;
-         overflow: hidden;
-      }
-
-      th,
-      td {
-         text-align: center;
-         padding: 10px;
-         border: 1px solid #ccc;
-      }
-
-      th {
-         background-color: rgba(255, 165, 0, 0.2);
-      }
-
-      td {
-         font-size-adjust: auto;
-      }
-
-      .bordered {
-         border: 1px solid white;
-         padding: 5px;
-         display: inline-block;
-         border-radius: 5px;
-         margin: 0 5px;
-      }
-
-      .movetobrygada {
-         text-decoration: none;
-         color: white;
-      }
-
-      /* Nowe style dla filtrów */
-      .filter-container {
-         margin-bottom: 20px;
-      }
-
-      .filter-input {
-         padding: 10px;
-         margin-right: 10px;
-         border-radius: 5px;
-         border: 1px solid #ccc;
-         background-color: #333;
-         color: white;
-      }
-
-      .filter-label {
-         font-weight: bold;
-         margin-right: 10px;
-      }
-
    </style>
 </head>
 
@@ -121,19 +68,6 @@
       <a href="#" class="menu exit" id="logout">Opuść Panel</a>
       <hr>
    </header>
-
-   <h1>Rozkład Powszedni</h1>
-
-   <!-- Nowe pola filtrowania -->
-   <div class="filter-container">
-      <label class="filter-label" for="filterLinie">Filtruj wg linii:</label>
-      <input type="text" id="filterLinie" class="filter-input" placeholder="Wpisz numer linii">
-
-      <label class="filter-label" for="filterBrygada">Filtruj wg brygady:</label>
-      <input type="text" id="filterBrygada" class="filter-input" placeholder="Wpisz numer brygady">
-   </div>
-
-
    <h1>Nie ma tu nic do wyświetlenia</h1>
    <p>Bo jeszcze nie ogarnięte</p>
 
