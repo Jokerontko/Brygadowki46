@@ -4,7 +4,7 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Wybór dnia</title>
+   <title>Wybór Brygady</title>
    <style>
       /* Twój dotychczasowy CSS tutaj */
       body {
@@ -26,7 +26,7 @@
 
       h1 {
          font-size: 2rem;
-         margin: 40px 0 20px;
+         margin-bottom: -13px;
       }
 
       .menu {
@@ -94,7 +94,7 @@
 
       /* Nowe style dla filtrów */
       .filter-container {
-         margin-bottom: 20px;
+         margin-bottom: 30px;
       }
 
       .filter-input {
@@ -104,11 +104,18 @@
          border: 1px solid #ccc;
          background-color: #333;
          color: white;
+         display: flex;
+         margin-bottom: -8px;
       }
 
       .filter-label {
          font-weight: bold;
-         margin-right: 10px;
+         margin-right: 5px;
+      }
+
+      .top {
+         margin: 10px;
+         margin-bottom: 30px;
       }
 
    </style>
@@ -122,16 +129,20 @@
       <hr>
    </header>
 
-   <h1>Rozkład Niedzielny</h1>
-
+   <center>
+      <h1>Rozkład Niedzielny</h1>
+      <p class="top">Ważny od 01/10/2024</p>
+   </center>
    <!-- Nowe pola filtrowania -->
+
    <div class="filter-container">
       <label class="filter-label" for="filterLinie">Filtruj wg linii:</label>
       <input type="text" id="filterLinie" class="filter-input" placeholder="Wpisz numer linii">
-
+      <br>
       <label class="filter-label" for="filterBrygada">Filtruj wg brygady:</label>
       <input type="text" id="filterBrygada" class="filter-input" placeholder="Wpisz numer brygady">
    </div>
+
 
    <table>
       <thead>
@@ -203,7 +214,7 @@
                const row = document.createElement('tr');
                row.innerHTML = `
                         <td><a href="brygada.html" class="movetobrygada" onclick="saveBrygada('${item.brygada}')">${item.brygada}</a></td>
-                        <td>${item.linie.split(' ').map(linia => `<span class="bordered">${linia}</span>`).join(' ')}</td>
+                        <td><center>${item.linie.split(' ').map(linia => `<span class="bordered">${linia}</span>`).join(' ')}</td>
                         <td>${normalizedStart}</td> <!-- Zaktualizowane -->
                         <td>${normalizedEnd}</td> <!-- Zaktualizowane -->
                         <td>${item.km || 'N/A'}</td>
@@ -261,4 +272,4 @@
 
 </body>
 
-</html
+</html>

@@ -69,6 +69,7 @@
          text-align: center;
          padding: 10px;
          border: 1px solid #ccc;
+         font-size: 17px;
       }
 
       th {
@@ -256,8 +257,8 @@
 
                   let row = document.createElement("tr");
                   row.innerHTML =
-                     `<td>${lp}.</td>
-                     <td>${currentRouteId}</td>
+                     `<td class="Lp">${lp}.</td>
+                     <td class="NrOfLine">${currentRouteId}</td>
                      <td>${firstStop}</td>
                      <td>${lastStop}</td>
                      <td>${startTime}</td>
