@@ -1,7 +1,18 @@
-const express = require('express');
-const fs = require('fs');
-const path = require('path');
-const bodyParser = require('body-parser');
+import express from 'express';
+import fs from 'fs';
+import path from 'path';
+import bodyParser from 'body-parser';
+import {
+   fileURLToPath
+} from 'url';
+import {
+   dirname
+} from 'path';
+
+// Get the __dirname equivalent in ES modules
+const __filename = fileURLToPath(
+   import.meta.url);
+const __dirname = dirname(__filename);
 
 const app = express();
 const PORT = process.env.PORT || 3000; // Use Heroku's port or 3000 locally
@@ -13,10 +24,8 @@ app.use(bodyParser.json());
 app.use(express.static('public'));
 
 app.get('/', (req, res) => {
-   res.sendFile(__dirname + '/public/index.html');
+   res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
-
-
 
 // Function to process folders and files
 async function processDirectories(basePath) {
@@ -64,7 +73,6 @@ async function processDirectories(basePath) {
 // Endpoint to fetch data
 app.get('/api/data', async (req, res) => {
    try {
-      // Get brygada number from query parameter
       const brygadaNumber = req.query.brygada || '1'; // Default to 1 if not provided
       const dataPath = path.join(__dirname, 'Brygady', 'WYNIKI', 'Gotowe_brygady', brygadaNumber);
       console.log(`Pobieram dane z: ${dataPath}`);
@@ -83,15 +91,13 @@ app.post('/login', (req, res) => {
       password
    } = req.body;
 
-   // Read user data from users.txt
-   fs.readFile('public/users.txt', 'utf8', (err, data) => {
+   fs.readFile(path.join(__dirname, 'public', 'users.txt'), 'utf8', (err, data) => {
       if (err) {
          return res.status(500).json({
             error: 'Błąd odczytu pliku'
          });
       }
 
-      // Split data into lines
       const lines = data.trim().split('\n');
       const users = lines.map(line => {
          const [userId, name, surname, login, pass] = line.split(':');
@@ -104,11 +110,10 @@ app.post('/login', (req, res) => {
          };
       });
 
-      // Search for user by login and password
       const user = users.find(u => u.login === username && u.password === password);
 
       if (user) {
-         res.json(user); // Return user data if login succeeded
+         res.json(user);
       } else {
          res.status(401).json({
             error: 'Niepoprawna nazwa użytkownika lub hasło.'
@@ -123,7 +128,7 @@ app.put('/updateKierunki', (req, res) => {
       routeId,
       newValue
    } = req.body;
-   const filePath = path.join(__dirname, 'Brygady', 'WYNIKI', 'Kierunki.txt'); // Ensure the path is correct
+   const filePath = path.join(__dirname, 'Brygady', 'WYNIKI', 'Kierunki.txt');
 
    fs.readFile(filePath, 'utf8', (err, data) => {
       if (err) {
@@ -132,7 +137,6 @@ app.put('/updateKierunki', (req, res) => {
          });
       }
 
-      // Update file content
       const updatedText = data.replace(new RegExp(`\\b${routeId}\\b`, 'g'), newValue);
 
       fs.writeFile(filePath, updatedText, 'utf8', (err) => {
