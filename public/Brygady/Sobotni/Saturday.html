@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Wybór dnia</title>
+   <style>
+      /* Twój dotychczasowy CSS tutaj */
+      body {
+         background: rgb(50, 50, 50);
+         font-family: Arial, sans-serif;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         height: 100vh;
+         color: white;
+         margin: 0;
+      }
+
+      header {
+         width: 100%;
+         padding: 10px 0;
+         text-align: center;
+      }
+
+      h1 {
+         font-size: 2rem;
+         margin: 40px 0 20px;
+      }
+
+      .menu {
+         display: inline-block;
+         text-decoration: none;
+         color: white;
+         border: 1.5px solid;
+         border-radius: 5px;
+         padding: 10px 20px;
+         margin: 0 10px;
+         transition: background-color 0.3s ease;
+      }
+
+      .menu:hover {
+         border-color: orange;
+         background-color: rgba(255, 165, 0, 0.2);
+         color: white;
+      }
+
+      .exit {
+         border-color: red;
+         transition: background-color 0.3s ease;
+      }
+
+      .exit:hover {
+         border-color: red;
+         background-color: red;
+         color: white;
+      }
+
+      table {
+         width: 25%;
+         border-collapse: collapse;
+         border-radius: 5px;
+         overflow: hidden;
+      }
+
+      th,
+      td {
+         text-align: center;
+         padding: 10px;
+         border: 1px solid #ccc;
+      }
+
+      th {
+         background-color: rgba(255, 165, 0, 0.2);
+      }
+
+      td {
+         font-size-adjust: auto;
+      }
+
+      .bordered {
+         border: 1px solid white;
+         padding: 5px;
+         display: inline-block;
+         border-radius: 5px;
+         margin: 0 5px;
+      }
+
+      .movetobrygada {
+         text-decoration: none;
+         color: white;
+      }
+
+      /* Nowe style dla filtrów */
+      .filter-container {
+         margin-bottom: 20px;
+      }
+
+      .filter-input {
+         padding: 10px;
+         margin-right: 10px;
+         border-radius: 5px;
+         border: 1px solid #ccc;
+         background-color: #333;
+         color: white;
+      }
+
+      .filter-label {
+         font-weight: bold;
+         margin-right: 10px;
+      }
+
+   </style>
+</head>
+
+<body>
+   <header>
+      <a href="../../Main_Panel.html" class="menu">Panel Główny</a>
+      <a href="../ChooseDay.html" class="menu">Spis Brygad</a>
+      <a href="#" class="menu exit" id="logout">Opuść Panel</a>
+      <hr>
+   </header>
+
+   <h1>Rozkład Sobotni</h1>
+
+   <!-- Nowe pola filtrowania -->
+   <div class="filter-container">
+      <label class="filter-label" for="filterLinie">Filtruj wg linii:</label>
+      <input type="text" id="filterLinie" class="filter-input" placeholder="Wpisz numer linii">
+
+      <label class="filter-label" for="filterBrygada">Filtruj wg brygady:</label>
+      <input type="text" id="filterBrygada" class="filter-input" placeholder="Wpisz numer brygady">
+   </div>
+
+   <table>
+      <thead>
+         <tr>
+            <th>Brygada</th>
+            <th>Linie</th>
+            <th>Godz. Rozp.</th>
+            <th>Godz. Zak.</th>
+            <th>Km</th>
+         </tr>
+      </thead>
+      <tbody id="dataTableBody">
+         <!-- Wiersze zostaną dodane dynamicznie -->
+      </tbody>
+   </table>
+
+   <script>
+      const brygadaNumber = '4'; // Tutaj wpisz numer brygady, którego chcesz użyć
+
+      function checkLogin() {
+         const user = JSON.parse(sessionStorage.getItem('user'));
+
+         if (!user) {
+            window.location.href = '../../zoltakartka.html';
+         }
+      }
+
+      window.onload = async function() {
+         checkLogin();
+         await loadData();
+         addFilters();
+      };
+
+
+
+      function normalizeTime(time) {
+         const parts = time.split(':'); // Rozdziel na godziny, minuty i sekundy
+         if (parts.length !== 2) return time; // Sprawdź, czy format jest poprawny
+         let hours = parseInt(parts[0], 10);
+         const minutes = parseInt(parts[1], 10);
+         const seconds = parseInt(parts[2], 10);
+
+         // Sprawdź, czy godziny są większe lub równe 24
+         while (hours >= 24) {
+            hours -= 24; // Odejmij 24 godziny
+         }
+
+         // Zwróć sformatowany czas
+         return `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}`;
+      }
+
+      async function loadData() {
+         try {
+            const response = await fetch(`/api/data?brygada=${brygadaNumber}`); // Wysyłamy numer brygady w zapytaniu
+            const data = await response.json();
+
+            data.sort((a, b) => {
+               const numA = parseInt(a.brygada, 10);
+               const numB = parseInt(b.brygada, 10);
+               return numA - numB;
+            });
+
+            const tableBody = document.getElementById('dataTableBody');
+
+            data.forEach(item => {
+               const normalizedStart = normalizeTime(item.godzRozp); // Normalizuj czas rozpoczęcia
+               const normalizedEnd = normalizeTime(item.godzZak); // Normalizuj czas zakończenia
+
+               const row = document.createElement('tr');
+               row.innerHTML = `
+                        <td><a href="brygada.html" class="movetobrygada" onclick="saveBrygada('${item.brygada}')">${item.brygada}</a></td>
+                        <td>${item.linie.split(' ').map(linia => `<span class="bordered">${linia}</span>`).join(' ')}</td>
+                        <td>${normalizedStart}</td> <!-- Zaktualizowane -->
+                        <td>${normalizedEnd}</td> <!-- Zaktualizowane -->
+                        <td>${item.km || 'N/A'}</td>
+                    `;
+               tableBody.appendChild(row);
+            });
+         } catch (error) {
+            console.error('Błąd podczas ładowania danych:', error);
+         }
+      }
+
+      function saveBrygada(brygada) {
+         sessionStorage.setItem('brygadaTitle', brygada.replace(/\//g, "_")); // Zamień "/" na "_" i zapisz w sessionStorage
+         sessionStorage.setItem('selectedBrygada', brygada); // Opcjonalne: możesz zachować również selectedBrygada
+      }
+
+      document.getElementById('logout').addEventListener('click', function() {
+         sessionStorage.clear();
+         window.location.href = '../../index.html';
+      });
+
+      // Funkcja do filtrowania tabeli
+      function addFilters() {
+         const filterLinie = document.getElementById('filterLinie');
+         const filterBrygada = document.getElementById('filterBrygada');
+
+         filterLinie.addEventListener('input', filterTable);
+         filterBrygada.addEventListener('input', filterTable);
+      }
+
+      function filterTable() {
+         const linieFilter = document.getElementById('filterLinie').value.toLowerCase();
+         const brygadaFilter = document.getElementById('filterBrygada').value.toLowerCase();
+         const rows = document.querySelectorAll('#dataTableBody tr');
+
+         rows.forEach(row => {
+            const linie = row.children[1].textContent.toLowerCase();
+            const brygada = row.children[0].textContent.toLowerCase();
+
+            const showRow = linie.includes(linieFilter) && brygada.includes(brygadaFilter);
+            row.style.display = showRow ? '' : 'none';
+         });
+      }
+
+   </script>
+
+
+   <p>
+      <center>
+         Rozkłady na dzień dzisiejszy posiadają godziny rozpoczęcia oraz zakończenia <strong>PIERWSZYCH KURSÓW LINIOWYCH zawartych w brygadzie.</strong> <br>
+         W przyszłości planuję to zmienić.<br>
+         Aha i rezerwy też nie pokazuje bo jeszcze tego nie ogarnąłem (*i nie wiem czy ogarnę*)
+      </center>
+   </p>
+
+</body>
+
+</html

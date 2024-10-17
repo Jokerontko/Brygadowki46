@@ -1,7 +1,12 @@
 import os
 
-# Ustalamy ścieżkę do głównego folderu
-main_folder = 'WYNIKI/Gotowe_brygady/1'
+# Ustalamy ścieżki do głównych folderów
+main_folders = [
+    'WYNIKI/Gotowe_brygady/1',
+    'WYNIKI/Gotowe_brygady/2',
+    'WYNIKI/Gotowe_brygady/3',
+    'WYNIKI/Gotowe_brygady/4'
+]
 
 # Funkcja do przetwarzania pliku GOTOWE.txt
 def process_file(file_path):
@@ -53,16 +58,18 @@ def process_file(file_path):
     except Exception as e:
         print(f"Błąd w przetwarzaniu pliku {file_path}: {e}")
 
-# Sprawdzamy, czy folder istnieje
-if not os.path.exists(main_folder):
-    print(f"Folder {main_folder} nie istnieje.")
-else:
-    print(f"Rozpoczynam przetwarzanie folderu: {main_folder}")
-    # Przechodzimy przez wszystkie podfoldery
-    for root, dirs, files in os.walk(main_folder):
-        for file in files:
-            if file == 'GOTOWE.txt':
-                process_file(os.path.join(root, file))
+# Iterujemy przez wszystkie foldery
+for main_folder in main_folders:
+    # Sprawdzamy, czy folder istnieje
+    if not os.path.exists(main_folder):
+        print(f"Folder {main_folder} nie istnieje.")
+    else:
+        print(f"Rozpoczynam przetwarzanie folderu: {main_folder}")
+        # Przechodzimy przez wszystkie podfoldery
+        for root, dirs, files in os.walk(main_folder):
+            for file in files:
+                if file == 'GOTOWE.txt':
+                    process_file(os.path.join(root, file))
 
-    print("Przetwarzanie zakończone.")
+print("Przetwarzanie zakończone.")
 input("Eoeo")

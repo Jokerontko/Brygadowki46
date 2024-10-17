@@ -4,12 +4,12 @@ const path = require('path');
 const bodyParser = require('body-parser');
 
 const app = express();
-const PORT = process.env.PORT || 3000; // Używaj portu z Heroku lub 3000 w lokalnym środowisku
+const PORT = process.env.PORT || 3000; // Use Heroku's port or 3000 locally
 
-// Umożliwienie przetwarzania JSON w ciele żądań
+// Enable JSON processing in request bodies
 app.use(bodyParser.json());
 
-// Umożliwienie korzystania z plików statycznych
+// Serve static files
 app.use(express.static('public'));
 
 app.get('/', (req, res) => {
@@ -18,7 +18,7 @@ app.get('/', (req, res) => {
 
 
 
-// Funkcja do przetwarzania folderów i plików
+// Function to process folders and files
 async function processDirectories(basePath) {
    const results = [];
    const folders = await fs.promises.readdir(basePath);
@@ -61,10 +61,13 @@ async function processDirectories(basePath) {
    return results;
 }
 
-// Endpoint do pobierania danych
+// Endpoint to fetch data
 app.get('/api/data', async (req, res) => {
    try {
-      const dataPath = path.join(__dirname, '/Brygady/WYNIKI/Gotowe_brygady/1');
+      // Get brygada number from query parameter
+      const brygadaNumber = req.query.brygada || '1'; // Default to 1 if not provided
+      const dataPath = path.join(__dirname, 'Brygady', 'WYNIKI', 'Gotowe_brygady', brygadaNumber);
+      console.log(`Pobieram dane z: ${dataPath}`);
       const data = await processDirectories(dataPath);
       res.json(data);
    } catch (error) {
@@ -73,14 +76,14 @@ app.get('/api/data', async (req, res) => {
    }
 });
 
-// Endpoint do logowania
+// Login endpoint
 app.post('/login', (req, res) => {
    const {
       username,
       password
    } = req.body;
 
-   // Odczytanie danych z pliku users.txt
+   // Read user data from users.txt
    fs.readFile('public/users.txt', 'utf8', (err, data) => {
       if (err) {
          return res.status(500).json({
@@ -88,7 +91,7 @@ app.post('/login', (req, res) => {
          });
       }
 
-      // Rozdzielanie danych na linie
+      // Split data into lines
       const lines = data.trim().split('\n');
       const users = lines.map(line => {
          const [userId, name, surname, login, pass] = line.split(':');
@@ -101,11 +104,11 @@ app.post('/login', (req, res) => {
          };
       });
 
-      // Szukaj użytkownika o podanym loginie i haśle
+      // Search for user by login and password
       const user = users.find(u => u.login === username && u.password === password);
 
       if (user) {
-         res.json(user); // Zwróć dane użytkownika, jeśli logowanie się powiodło
+         res.json(user); // Return user data if login succeeded
       } else {
          res.status(401).json({
             error: 'Niepoprawna nazwa użytkownika lub hasło.'
@@ -114,13 +117,13 @@ app.post('/login', (req, res) => {
    });
 });
 
-// Nowy endpoint do aktualizacji pliku Kierunki.txt
+// New endpoint to update Kierunki.txt
 app.put('/updateKierunki', (req, res) => {
    const {
       routeId,
       newValue
    } = req.body;
-   const filePath = path.join(__dirname, 'Brygady/WYNIKI/Kierunki.txt'); // Upewnij się, że ścieżka jest poprawna
+   const filePath = path.join(__dirname, 'Brygady', 'WYNIKI', 'Kierunki.txt'); // Ensure the path is correct
 
    fs.readFile(filePath, 'utf8', (err, data) => {
       if (err) {
@@ -129,7 +132,7 @@ app.put('/updateKierunki', (req, res) => {
          });
       }
 
-      // Zaktualizuj zawartość pliku
+      // Update file content
       const updatedText = data.replace(new RegExp(`\\b${routeId}\\b`, 'g'), newValue);
 
       fs.writeFile(filePath, updatedText, 'utf8', (err) => {
@@ -145,16 +148,16 @@ app.put('/updateKierunki', (req, res) => {
    });
 });
 
-// Umożliwienie serwowania plików statycznych
+// Serve static files
 app.use(express.static(path.join(__dirname, 'public')));
 
-// Obsługa zapytań GET dla ścieżki /brygady/*
+// Handle GET requests for the path /brygady/*
 app.get('/brygady/*', (req, res) => {
    const filePath = path.join(__dirname, 'Brygady', req.params[0]);
    res.sendFile(filePath);
 });
 
-// Uruchomienie serwera
+// Start the server
 app.listen(PORT, () => {
    console.log(`Serwer działa na http://localhost:${PORT}`);
 });
