@@ -26,7 +26,7 @@
 
       h1 {
          font-size: 2rem;
-         margin: 40px 0 20px;
+         margin-bottom: -13px;
       }
 
       .menu {
@@ -113,6 +113,11 @@
          margin-right: 5px;
       }
 
+      .top {
+         margin: 10px;
+         margin-bottom: 30px;
+      }
+
    </style>
 </head>
 
@@ -124,8 +129,10 @@
       <hr>
    </header>
 
-   <h1>Rozkład Powszedni</h1>
-
+   <center>
+      <h1>Rozkład Powszedni</h1>
+      <p class="top">Ważny od 01/10/2024</p>
+   </center>
    <!-- Nowe pola filtrowania -->
 
    <div class="filter-container">
@@ -154,21 +161,21 @@
 
    <script>
       const brygadaNumber = '2'; // Tutaj wpisz numer brygady, którego chcesz użyć
+      /*
+            function checkLogin() {
+               const user = JSON.parse(sessionStorage.getItem('user'));
 
-      function checkLogin() {
-         const user = JSON.parse(sessionStorage.getItem('user'));
+               if (!user) {
+                  window.location.href = '../../zoltakartka.html';
+               }
+            }
 
-         if (!user) {
-            window.location.href = '../../zoltakartka.html';
-         }
-      }
-
-      window.onload = async function() {
-         checkLogin();
-         await loadData();
-         addFilters();
-      };
-
+            window.onload = async function() {
+               checkLogin();
+               await loadData();
+               addFilters();
+            };
+      */
 
 
       function normalizeTime(time) {
