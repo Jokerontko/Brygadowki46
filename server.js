@@ -38,7 +38,7 @@ async function processDirectories(basePath) {
 
       if (stats.isDirectory()) {
          const folderName = folder.replace(/_/g, '/');
-         const linesPath = path.join(folderPath, 'linie.txt');
+         const linesPath = path.join(folderPath, 'Linie.txt');
          const godzRozpPath = path.join(folderPath, 'Godz_Rozp.txt');
          const godzZakPath = path.join(folderPath, 'Godz_Zak.txt');
 
