@@ -4,57 +4,30 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Logowanie</title>
+   <title>Rejestracja</title>
    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
    <div class="container">
-      <h1>Logowanie</h1>
+      <h1>Rejestracja</h1>
       <form id="login-form">
          <label for="login-username">Nazwa użytkownika:</label>
          <input type="text" id="login-username" name="username" required>
          <label for="login-password">Hasło:</label>
          <input type="password" id="login-password" name="password" required>
-         <button type="submit">Zaloguj się</button>
-         <a class="sign-up" href="Registration.html">Zarejestruj się</a>
+         <label for="login-password">Ponów hasło:</label>
+         <input type="password" id="login-password" name="password" required>
+         <button type="submit">Zarejestruj</button>
+         <a class="sign-up" href="index.html">Powrót do logowania</a>
       </form>
    </div>
 
    <script>
-      document.getElementById('login-form').addEventListener('submit', function(event) {
-         event.preventDefault();
-         const username = document.getElementById('login-username').value;
-         const password = document.getElementById('login-password').value;
 
-         fetch('/login', {
-               method: 'POST',
-               headers: {
-                  'Content-Type': 'application/json',
-               },
-               body: JSON.stringify({
-                  username,
-                  password
-               }),
-            })
-            .then(response => {
-               console.log('Odpowiedź serwera:', response); // Dodaj tę linię
-               if (!response.ok) {
-                  throw new Error('Niepoprawna nazwa użytkownika lub hasło.');
-               }
-               return response.json();
-            })
-            .then(user => {
-               console.log('Zalogowany użytkownik:', user);
-               sessionStorage.setItem('user', JSON.stringify(user));
-               window.location.href = 'Main_Panel.html'; // Upewnij się, że to jest poprawna ścieżka
-            })
-            .catch(error => {
-               alert(error.message);
-            });
 
-      });
+
 
    </script>
 
