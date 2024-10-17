@@ -161,6 +161,14 @@ app.get('/brygady/*', (req, res) => {
    res.sendFile(filePath);
 });
 
+
+
+
+
+
+
+
+
 // Start the server
 app.listen(PORT, () => {
    console.log(`Serwer działa na http://localhost:${PORT}`);
