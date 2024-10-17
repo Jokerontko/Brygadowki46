@@ -6,52 +6,109 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Logowanie</title>
    <link rel="stylesheet" href="style.css">
-
-   <style>
-      body {
-         background-color: rgba(50, 50, 50);
-         color: white;
-         font-family: arial;
-         display: flex;
-         flex-direction: column;
-         align-items: center;
-      }
-
-      .menu {
-         display: inline-block;
-         text-decoration: none;
-         color: white;
-         border: 1.5px solid;
-         border-radius: 5px;
-         padding: 10px 20px;
-         margin: 0 10px;
-         transition: background-color 0.3s ease;
-      }
-
-      .menu:hover {
-         border-color: orange;
-         background-color: rgba(255, 165, 0, 0.2);
-         color: white;
-      }
-
-      p {
-         color: grey;
-      }
-
-   </style>
 </head>
 
 <body>
-   <center>
-      <h1>No hej</h1>
-      <h3>Gorące brygadufki w twojej okolicy, sprawdź już teraz!<br> Jak coś, to na razie działają tylko brygadufki, more coming sun</h3>
+
+   <div class="container">
+      <h1>Logowanie</h1>
+      <form id="login-form">
+         <label for="login-username">Nazwa użytkownika:</label>
+         <input type="text" id="login-username" name="username" required>
+         <label for="login-password">Hasło:</label>
+         <input type="password" id="login-password" name="password" required>
+         <button type="submit">Zaloguj się</button>
+      </form>
+   </div>
+
+   <script>
+      document.getElementById('login-form').addEventListener('submit', function(event) {
+         event.preventDefault();
+         const username = document.getElementById('login-username').value;
+         const password = document.getElementById('login-password').value;
+
+         fetch('/login', {
+               method: 'POST',
+               headers: {
+                  'Content-Type': 'application/json',
+               },
+               body: JSON.stringify({
+                  username,
+                  password
+               }),
+            })
+            .then(response => {
+               console.log('Odpowiedź serwera:', response); // Dodaj tę linię
+               if (!response.ok) {
+                  throw new Error('Niepoprawna nazwa użytkownika lub hasło.');
+               }
+               return response.json();
+            })
+            .then(user => {
+               console.log('Zalogowany użytkownik:', user);
+               sessionStorage.setItem('user', JSON.stringify(user));
+               window.location.href = 'Main_Panel.html'; // Upewnij się, że to jest poprawna ścieżka
+            })
+            .catch(error => {
+               alert(error.message);
+            });
+
+      });
+
+   </script>
 
 
+   <style>
+      body {
+         background: rgb(50, 50, 50);
+         font-family: 'lato';
+         display: flex;
+         justify-content: center;
+         align-items: center;
+      }
 
-      <a href="Main_Panel.html" class="menu">WCHODZĘ NA WŁASNE RYZYKO</a>
-      <p> Aha no i jeszcze jedno, we nie rozsyłaj linku (przynajmniej póki nie pozwole) bo nie chce komuś innemu przeprowadzać ataku ddos na router. Dzięki!</p>
-      <p>Aha no i jeszcze jedno, jak podczas używania tej strony wypierdolisz telefon przez okno to nie licz na jakieś ubezpieczenie czy coś, bo mam 2.50 zł na końcie. Pzdr</p>
-   </center>
+      .container {
+         max-width: 400px;
+         margin: 14%;
+         background: white;
+         padding: 30px;
+         border-radius: 5px;
+         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      h1 {
+         font-size: 24px;
+         margin-bottom: 20px;
+      }
+
+      label {
+         display: block;
+         margin-bottom: 5px;
+      }
+
+      input {
+         width: 100%;
+         padding: 8px;
+         margin-bottom: 10px;
+         border: 1px solid #ddd;
+         border-radius: 4px;
+      }
+
+      button {
+         width: 100%;
+         padding: 10px;
+         background-color: #5cb85c;
+         color: white;
+         border: none;
+         border-radius: 4px;
+         cursor: pointer;
+      }
+
+      button:hover {
+         background-color: #4cae4c;
+      }
+
+   </style>
 </body>
 
 </html>
