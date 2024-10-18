@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Przerwa Techniczna</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <h1>Przerwa techniczna</h1>
+
+
+   <style>
+      body {
+         background: rgb(50, 50, 50);
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         color: white;
+         font-family: arial;
+         height: 90vh;
+      }
+
+   </style>
+
+   <script>
+      // Sprawdzenie, czy trwa przerwa techniczna
+      fetch('/check-maintenance')
+         .then(response => response.json())
+         .then(data => {
+            if (data.isMaintenance == "") {
+               window.location.href = 'index.html';
+            }
+         })
+         .catch(error => {
+            console.error('Błąd podczas sprawdzania przerwy technicznej:', error);
+         });
+
+   </script>
+</body>
+
+</html>

@@ -65,6 +65,23 @@ app.post('/login', (req, res) => {
    });
 });
 
+// Endpoint sprawdzający plik PrzerwaTechniczna.txt
+app.get('/check-maintenance', (req, res) => {
+   const maintenanceFilePath = path.join(__dirname, 'public', 'PrzerwaTechniczna.txt');
+
+   fs.readFile(maintenanceFilePath, 'utf8', (err, data) => {
+      if (err) {
+         return res.status(500).json({
+            error: 'Błąd odczytu pliku'
+         });
+      }
+
+      const isMaintenance = data.trim() === 'Tak';
+      res.json({
+         isMaintenance
+      });
+   });
+});
 
 // Function to process folders and files
 async function processDirectories(basePath) {

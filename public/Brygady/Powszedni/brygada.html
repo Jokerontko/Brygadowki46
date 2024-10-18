@@ -79,8 +79,6 @@
    </table>
 
    <script>
-      const brygadaNumber = '2'; // Tutaj wpisz numer brygady, którego chcesz użyć
-
       // Check if the user is logged in, otherwise redirect
       function checkLogin() {
          const user = JSON.parse(sessionStorage.getItem('user'));
@@ -379,6 +377,36 @@
             console.error("Nie udało się wczytać GOTOWE.txt.");
          }
       }
+
+      // Pobranie pełnej ścieżki do pliku
+      const fullPath = window.location.pathname;
+
+      // Podzielenie ścieżki na części na podstawie "/"
+      const pathParts = fullPath.split('/');
+
+      // Pobranie nazwy folderu (zakładamy, że folder jest bezpośrednio nad plikiem)
+      const folderName = pathParts[pathParts.length - 2]; // -2, bo ostatni element to nazwa pliku
+
+      // Inicjalizacja zmiennej brygadaNumber na podstawie folderu
+      let brygadaNumber;
+
+      switch (folderName) {
+         case 'Niedzielny':
+            brygadaNumber = '1';
+            break;
+         case 'Powszedni':
+            brygadaNumber = '2';
+            break;
+         case 'PowszedniWolny':
+            brygadaNumber = '3';
+            break;
+         case 'Sobotni':
+            brygadaNumber = '4';
+            break;
+         default:
+            brygadaNumber = '2'; // Domyślna wartość, jeśli folder nie pasuje do żadnego przypadku
+      }
+
 
       window.onload = init;
 
