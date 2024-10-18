@@ -305,34 +305,19 @@
             const cleanKierunek = kierunekValue ? removeNumbers(kierunekValue).trim() : null;
             const cleanPoczątek = początekValue ? removeNumbers(początekValue).trim() : null;
 
-            // Sprawdź, czy wiersz "Przejazd Techniczny" już istnieje
-            const przejazdRowExists = [...tableBody.rows].some(row => row.innerText.includes("Przejazd Techniczny"));
+            // Sprawdzanie warunków do dodania "Przejazd Techniczny"
+            if (cleanKierunek && cleanPoczątek && cleanKierunek !== cleanPoczątek) { // Upewnij się, że kierunek i początek są różne
 
-            if (cleanKierunek && cleanPoczątek &&
-               !currentRow.innerText.toLowerCase().includes("rezerwa") &&
-               !nextRow.innerText.toLowerCase().includes("rezerwa") &&
-               !exceptions.includes(cleanKierunek) && // Sprawdzenie wyjątków dla Kierunek
-               !exceptions.includes(cleanPoczątek)) { // Sprawdzenie wyjątków dla Początek
-               if (cleanKierunek !== cleanPoczątek) {
-                  // Jeśli istnieje wiersz "Przejazd Techniczny", usuń go
-                  if (przejazdRowExists) {
-                     [...tableBody.rows].forEach(row => {
-                        if (row.innerText.includes("Przejazd Techniczny")) {
-                           tableBody.removeChild(row);
-                        }
-                     });
-                  }
-
-                  let przejazdRow = document.createElement("tr");
-                  let przejazdCell = document.createElement("td");
-                  przejazdCell.colSpan = 8;
-                  przejazdCell.innerText = "Przejazd Techniczny";
-                  przejazdCell.style.textAlign = "center"; // Wyśrodkowanie tekstu
-                  przejazdRow.appendChild(przejazdCell);
-                  tableBody.insertBefore(przejazdRow, nextRow); // Dodaj przed następnym wierszem
-                  i++; // Przeskocz do następnego wiersza po dodaniu "Przejazd Techniczny"
-                  przejazdRow.style.backgroundColor = "rgba(255, 165, 0, 0.2)"; // Dodaj kolor tła
-               }
+               // Dodaj nowy wiersz tylko jeśli cleanKierunek i cleanPoczątek są różne
+               let przejazdRow = document.createElement("tr");
+               let przejazdCell = document.createElement("td");
+               przejazdCell.colSpan = 8;
+               przejazdCell.innerText = "Przejazd Techniczny";
+               przejazdCell.style.textAlign = "center"; // Wyśrodkowanie tekstu
+               przejazdRow.appendChild(przejazdCell);
+               tableBody.insertBefore(przejazdRow, nextRow); // Dodaj przed następnym wierszem
+               i++; // Przeskocz do następnego wiersza po dodaniu "Przejazd Techniczny"
+               przejazdRow.style.backgroundColor = "rgba(255, 165, 0, 0.2)"; // Dodaj kolor tła
             }
          }
 
