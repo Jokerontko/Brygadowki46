@@ -88,7 +88,8 @@
 <body>
    <header>
       <a href="../../Main_Panel.html" class="menu">Panel Główny</a>
-      <a href="../ChooseDay.html" class="menu">Spis Brygad</a>
+      <a href="../ChooseDay.html" class="menu">Brygady</a>
+      <a href="../../Brygady/Kursy/Kursy.html" class="menu">Kursy</a>
       <a href="#" class="menu exit" id="logout">Opuść Panel</a>
       <hr>
    </header>
@@ -99,11 +100,12 @@
    </center>
 
    <div class="filter-container">
-      <label class="filter-label" for="filterLinie">Filtruj wg linii:</label>
-      <input type="text" id="filterLinie" class="filter-input" placeholder="Wpisz numer linii">
-      <br>
       <label class="filter-label" for="filterBrygada">Filtruj wg brygady:</label>
       <input type="text" id="filterBrygada" class="filter-input" placeholder="Wpisz numer brygady">
+      <br>
+      <label class="filter-label" for="filterLinie">Filtruj wg linii:</label>
+      <input type="text" id="filterLinie" class="filter-input" placeholder="Wpisz numer linii">
+
    </div>
 
    <table>
@@ -122,8 +124,6 @@
    </table>
 
    <script>
-      const brygadaNumber = '4'; // Tutaj wpisz numer brygady, którego chcesz użyć
-
       async function fetchDate() {
          try {
             const response = await fetch('../wazny_od.txt');
@@ -243,9 +243,39 @@
             const linie = row.children[1].textContent.toLowerCase();
             const brygada = row.children[0].textContent.toLowerCase();
 
-            const showRow = linie.includes(linieFilter) && brygada.includes(brygadaFilter);
+            // Zmiana z includes na startsWith dla brygady
+            const showRow = linie.includes(linieFilter) && brygada.startsWith(brygadaFilter);
             row.style.display = showRow ? '' : 'none';
          });
+      }
+
+      // Pobranie pełnej ścieżki do pliku
+      const fullPath = window.location.pathname;
+
+      // Podzielenie ścieżki na części na podstawie "/"
+      const pathParts = fullPath.split('/');
+
+      // Pobranie nazwy folderu (zakładamy, że folder jest bezpośrednio nad plikiem)
+      const folderName = pathParts[pathParts.length - 2]; // -2, bo ostatni element to nazwa pliku
+
+      // Inicjalizacja zmiennej brygadaNumber na podstawie folderu
+      let brygadaNumber;
+
+      switch (folderName) {
+         case 'Niedzielny':
+            brygadaNumber = '1';
+            break;
+         case 'Powszedni':
+            brygadaNumber = '2';
+            break;
+         case 'PowszedniWolny':
+            brygadaNumber = '3';
+            break;
+         case 'Sobotni':
+            brygadaNumber = '4';
+            break;
+         default:
+            brygadaNumber = '2'; // Domyślna wartość, jeśli folder nie pasuje do żadnego przypadku
       }
 
    </script>

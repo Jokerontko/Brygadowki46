@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Wybór dnia</title>
+   <link rel="stylesheet" href="../../../style_css/headermenu.css">
+   <style>
+      body {
+         background: rgb(50, 50, 50);
+         font-family: Arial, sans-serif;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         height: 100vh;
+         color: white;
+      }
+
+
+      table {
+         width: 10%;
+         border-collapse: collapse;
+         border-radius: 5px;
+         overflow: hidden;
+         margin-top: 20px;
+      }
+
+      th,
+      td {
+         text-align: center;
+         padding: 10px;
+         border: 1px solid #ccc;
+         font-size: 17px;
+      }
+
+      th {
+         background-color: rgba(255, 165, 0, 0.2);
+      }
+
+      thead {
+         background-color: rgba(255, 165, 0, 0.2);
+      }
+
+
+      .filter-container {
+         margin-bottom: 30px;
+      }
+
+      .filter-input {
+         padding: 10px;
+         margin-right: 10px;
+         border-radius: 5px;
+         border: 1px solid #ccc;
+         background-color: #333;
+         color: white;
+         display: flex;
+         margin-bottom: -8px;
+      }
+
+      .filter-label {
+         font-weight: bold;
+         margin-right: 5px;
+      }
+
+   </style>
+</head>
+
+<body>
+
+   <header>
+      <a href="../../../Main_Panel.html" class="menu">Panel Główny</a>
+      <a href="../../ChooseDay.html" class="menu">Brygady</a>
+      <a href="Kursy.html" class="menu">Kursy</a>
+      <a href="#" class="menu exit" id="logout">Opuść Panel</a>
+      <hr>
+   </header>
+
+   <h1>Rozkład {Jaki?}</h1>
+
+   <div class="filter-container">
+      <label class="filter-label" for="filterBrygada">Filtruj wg brygady:</label>
+      <input type="text" id="filterBrygada" class="filter-input" placeholder="Wpisz numer brygady">
+      <br>
+      <label class="filter-label" for="filterLinie">Filtruj wg linii:</label>
+      <input type="text" id="filterLinie" class="filter-input" placeholder="Wpisz numer linii">
+
+   </div>
+
+   <table>
+      <thead>
+         <tr>
+            <th>Lp.</th>
+            <th>Brygada</th>
+            <th>Linia</th>
+            <th>Początek</th>
+            <th>Kierunek</th>
+            <th>Godz. Rozp.</th>
+            <th>Godz. Zak.</th>
+            <th>Czas trwania</th>
+            <th>Km</th>
+         </tr>
+      </thead>
+      <tbody id="dataTableBody">
+         <!-- Wiersze zostaną dodane dynamicznie -->
+      </tbody>
+   </table>
+   <script>
+      // Funkcja do sprawdzenia, czy użytkownik jest zalogowany
+      function checkLogin() {
+         const user = JSON.parse(sessionStorage.getItem('user'));
+
+         // Jeśli nie ma użytkownika w sessionStorage, przekieruj na stronę logowania
+         if (!user) {
+            window.location.href = '../../../zoltakartka.html';
+         }
+      }
+
+      // Sprawdź, czy użytkownik jest zalogowany po załadowaniu strony
+      window.onload = checkLogin;
+
+      // Dodaj funkcję wylogowania
+      document.getElementById('logout').addEventListener('click', function() {
+         // Wyczyść sessionStorage
+         sessionStorage.clear();
+
+         // Przekieruj na stronę logowania
+         window.location.href = '../../../index.html';
+      });
+
+      // Funkcja do filtrowania tabeli
+      function addFilters() {
+         const filterLinie = document.getElementById('filterLinie');
+         const filterBrygada = document.getElementById('filterBrygada');
+
+         filterLinie.addEventListener('input', filterTable);
+         filterBrygada.addEventListener('input', filterTable);
+      }
+
+      function filterTable() {
+         const linieFilter = document.getElementById('filterLinie').value.toLowerCase();
+         const brygadaFilter = document.getElementById('filterBrygada').value.toLowerCase();
+         const rows = document.querySelectorAll('#dataTableBody tr');
+
+         rows.forEach(row => {
+            const linie = row.children[1].textContent.toLowerCase();
+            const brygada = row.children[0].textContent.toLowerCase();
+
+            const showRow = linie.includes(linieFilter) && brygada.includes(brygadaFilter);
+            row.style.display = showRow ? '' : 'none';
+         });
+      }
+
+      document.addEventListener("DOMContentLoaded", function() {
+         // Funkcja do pobrania nazwy folderu
+         function getFolderName() {
+            // Użyj lokalizacji do uzyskania ścieżki
+            const path = window.location.pathname;
+            const folderName = path.substring(0, path.lastIndexOf('/')).split('/').pop();
+            return folderName;
+         }
+
+         // Uzupełnij tytuł o nazwę folderu
+         const folderName = getFolderName();
+         document.querySelector('h1').innerHTML = `Rozkład ${folderName}`;
+      });
+
+   </script>
+</body>
+
+</html>
