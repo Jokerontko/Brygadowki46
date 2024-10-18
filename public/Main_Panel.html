@@ -5,25 +5,124 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Strona Główna</title>
-   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="style_css/headermenu.css">
+
+   <style>
+      body {
+         background: rgb(50, 50, 50);
+         font-family: Arial, sans-serif;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         height: 100vh;
+         color: white;
+      }
+
+      h1 {
+         font-size: 2rem;
+         margin: 40px 0 20px;
+      }
+
+      .button-container {
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+         gap: 20px;
+         max-width: 400px;
+         margin-bottom: 20px;
+      }
+
+      .choose {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         text-decoration: none;
+         color: white;
+         border: 2px solid white;
+         border-radius: 10px;
+         padding: 20px;
+         transition: all 0.3s ease;
+         font-size: 1.2rem;
+         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+      }
+
+      .choose:hover {
+         background-color: orange;
+         color: white;
+         transform: scale(1.05);
+      }
+
+      .chooseextra-open {
+         max-width: 400px;
+         text-decoration: none;
+         color: white;
+         border: 2px solid white;
+         border-radius: 10px;
+         padding: 10px;
+         transition: all 0.3s ease;
+         font-size: 1rem;
+         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+      }
+
+      .chooseextra-open:hover {
+         background-color: orange;
+         color: white;
+         transform: scale(1.05);
+      }
+
+      .chooseextra-close {
+         max-width: 400px;
+         text-decoration: none;
+         color: grey;
+         border: 2px solid grey;
+         border-radius: 10px;
+         padding: 10px;
+         transition: all 0.3s ease;
+         font-size: 1rem;
+         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+      }
+
+      p {
+         margin: 0px 200px 10px;
+      }
+
+      .uwaga {
+         color: red;
+      }
+
+   </style>
 </head>
 
 <body>
+
    <header>
-      <div>
-         <center>
-            <a href="Main_Panel.html" class="menu">Panel Główny</a>
-            <a href="Brygady/ChooseDay.html" class="menu">Spis Brygad</a>
-            <a href="#" class="menu exit" id="logout">Opuść Panel</a>
-            <hr>
-         </center>
-      </div>
+      <a href="Main_Panel.html" class="menu">Panel Główny</a>
+      <a href="Brygady/ChooseDay.html" class="menu">Spis Brygad</a>
+      <a href="#" class="menu exit" id="logout">Opuść Panel</a>
+      <hr>
    </header>
 
    <div class="container">
       <h1 id="welcome-message">Witaj, </h1>
-      <!-- Pozostała treść panelu głównego -->
    </div>
+
+   <h2>Ogłoszenia parafialne</h2>
+   <p>Z powodu zawieszenia strony Rafała, postanowiłem w ciągu ostatnich dwóch tygodni opracować nową witrynę, która w łatwy i przejrzysty sposób umożliwi wyświetlanie szczegółów brygad w MPK Rzeszów (zarówno bieżących, jak i przyszłych). Na ten moment priorytetem jest rozpracowanie i skonfigurowanie pliku odpowiedzialnego za dostarczanie informacji na żywo o autobusach. Nie jest to proste zadanie – pracuję nad tym już od tygodnia i wciąż nie uzyskałem w pełni satysfakcjonujących rezultatów.
+      <br><br>
+      Mimo to, z uwagi na gotowy panel z brygadami (z wyjątkiem statusu roboczego wolnego od szkoły), postanowiłem udostępnić pierwsze testy strony wąskiemu gronu osób (w tym Tobie), aby pomóc w wychwytywaniu błędów. Waszym zadaniem jest zgłaszanie wszelkich problemów, aby jak najszybciej wydać pełną, stabilną wersję strony.
+      <br><br>
+      Mam jedną prośbę – proszę nie udostępniać linku, loginu ani hasła (które i tak jest tymczasowe) osobom niebiorącym udziału w testach.
+      <br>
+   <p class="uwaga"><strong>
+         UWAGA!
+      </strong></p>
+   <p> ze względu na częste aktualizacje, wiele przeglądarek może korzystać z nieaktualnej wersji strony. Zaleca się korzystanie z trybu incognito, aby mieć pewność, że jest używana najnowsza wersja strony.
+   </p>
+
+
+
+
+
+
 
    <script>
       // Funkcja do sprawdzenia, czy użytkownik jest zalogowany
@@ -59,7 +158,7 @@
          let greeting = 'Witaj';
 
          // Sprawdź godzinę i ustaw odpowiednie powitanie
-         if (currentHour >= 6 && currentHour < 20) {
+         if (currentHour >= 6 && currentHour < 18) {
             greeting = 'Dzień dobry';
          } else {
             greeting = 'Dobry wieczór';
@@ -70,69 +169,6 @@
       }
 
    </script>
-
-   <div class="News">
-      <h2>Nagłówek WOW</h2>
-      <p class="AddDate">Dodano: 23/10/2024</p>
-      <hr>
-   </div>
-
-   <style>
-      .AddDate {
-         color: grey;
-         font-size: 10px;
-         padding: 0vw 0.0w 0.0;
-      }
-
-      body {
-         background: rgb(50, 50, 50);
-         font-family: Arial;
-         justify-content: center;
-         color: white;
-      }
-
-      h1 {
-         font-size: 30px;
-      }
-
-      .menu {
-         display: inline-block;
-         text-decoration: none;
-         color: white;
-         border: 1.5px solid;
-         border-radius: 5px;
-         padding: 10px 20px;
-         margin: 0 10px;
-         transition: background-color 0.3s ease;
-      }
-
-      .menu:hover {
-         border-color: orange;
-         background-color: rgba(255, 165, 0, 0.2);
-         color: white;
-      }
-
-      .exit {
-         border-color: red;
-         transition: background-color 0.3s ease;
-      }
-
-      .exit:hover {
-         border-color: red;
-         background-color: red;
-         color: white;
-      }
-
-      .button-container {
-         display: grid;
-         grid-template-columns: 1fr 1fr;
-         gap: 20px;
-         max-width: 400px;
-         margin-bottom: 20px;
-      }
-
-   </style>
-
 </body>
 
 </html>
