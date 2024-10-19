@@ -128,8 +128,33 @@
       // Funkcja do ustawiania Wybranego Typu Dnia
       function setWybranyTypDnia(value) {
          sessionStorage.setItem('WybranyTypDnia', value);
+         setWybranyRodzajDnia(value); // Wywołanie funkcji ustawiającej WybranyRodzajDnia
          // Opcjonalnie możesz przekierować do innej strony po kliknięciu
          // window.location.href = "następna_strona.html";
+      }
+
+      // Funkcja do ustawiania Wybranego Rodzaju Dnia
+      function setWybranyRodzajDnia(value) {
+         let rodzajDnia;
+
+         switch (value) {
+            case 1:
+               rodzajDnia = 'Niedzielny';
+               break;
+            case 2:
+               rodzajDnia = 'Powszedni';
+               break;
+            case 3:
+               rodzajDnia = 'PowszedniWolny';
+               break;
+            case 4:
+               rodzajDnia = 'Sobotni';
+               break;
+            default:
+               rodzajDnia = 'Nieznany';
+         }
+
+         sessionStorage.setItem('WybranyRodzajDnia', rodzajDnia);
       }
 
       // Dodaj nasłuchiwacze zdarzeń do przycisków

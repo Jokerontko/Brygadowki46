@@ -104,14 +104,14 @@
 
          <input class="filter-input" type="text" id="filterLinia" placeholder="Linia" oninput="filterTable()">
 
-
+         <br>
          <input class="filter-input" type="text" id="filterPoczątek" placeholder="Przystanek Początkowy" oninput="filterTable()">
 
 
 
          <input class="filter-input" type="text" id="filterKierunek" placeholder="Przystanek Końcowy" oninput="filterTable()">
 
-
+         <br>
          <input class="filter-input" type="text" id="filterGodzRozp" placeholder="Godzina Rozpoczęcia" oninput="filterTable()">
 
 
@@ -142,6 +142,19 @@
    </table>
 
    <script>
+      // Funkcja do pobrania wartości Wybranego Typu Dnia i Rodzaju Dnia
+      function getWybranyDzien() {
+         const typDnia = sessionStorage.getItem('WybranyTypDnia');
+         const rodzajDnia = sessionStorage.getItem('WybranyRodzajDnia');
+
+         if (typDnia && rodzajDnia) {
+            console.log('Wybrany Typ Dnia:', typDnia);
+            console.log('Wybrany Rodzaj Dnia:', rodzajDnia);
+         } else {
+            console.log('Brak danych w sessionStorage.');
+         }
+      }
+
       // Check if the user is logged in, otherwise redirect
       function checkLogin() {
          const user = JSON.parse(sessionStorage.getItem('user'));
@@ -153,7 +166,7 @@
       // Set the title for the brigade
       function loadBrygadaTitle() {
          const wybranyTypDnia = sessionStorage.getItem('WybranyTypDnia');
-         document.getElementById('TypDnia').innerText = `Szczegóły brygady z dnia: ${wybranyTypDnia}`;
+         document.getElementById('TypDnia').innerText = `Kursy autobusów z dnia`
       }
 
       // Logout logic
@@ -162,13 +175,40 @@
          window.location.href = '../../index.html';
       });
 
+      // Helper function to create a table cell with optional click event
+      function createCell(content) {
+         const td = document.createElement('td');
+         td.textContent = content;
+         return td;
+      }
+
+      // Create a clickable cell specifically for the Brygada column
+      function createClickableCell(brygada) {
+         const td = document.createElement('td');
+         td.textContent = brygada;
+
+         td.addEventListener('click', function() {
+            // Zmieniamy '/' na '_' w brygadzie
+            const modifiedBrygada = brygada.replace(/\//g, '_');
+            sessionStorage.setItem('brygadaTitle', modifiedBrygada);
+            const rodzajDnia = sessionStorage.getItem('WybranyRodzajDnia');
+            window.location.href = `../${rodzajDnia}/brygada.html`;
+         });
+
+         td.style.cursor = 'pointer';
+         td.style.color = 'orange';
+
+         return td;
+      }
+
+
+
       // Fetch the 'Kursy_filtered_sorted.txt' file
       async function fetchKursyFile() {
          const wybranyTypDnia = sessionStorage.getItem('WybranyTypDnia');
          const response = await fetch(`../../../Brygady/WYNIKI/Gotowe_brygady/${wybranyTypDnia}/Kursy_filtered_sorted.txt`);
          const data = await response.text();
 
-         // Split the data into individual schedules based on empty lines
          const schedules = data.trim().split(/\n\s*\n/);
          const tableBody = document.getElementById('rozkładTable').querySelector('tbody');
          tableBody.innerHTML = ''; // Clear existing rows
@@ -176,42 +216,33 @@
          schedules.forEach((schedule, index) => {
             const lines = schedule.split('\n');
 
-            // Log the full content for debugging
-            console.log(`Processing schedule at index ${index}:`, lines);
-
-            // Extracting Brygada
             const brygadaMatch = lines[0].match(/Folder: (.+)/);
-            const brygada = brygadaMatch ? brygadaMatch[1].trim().replace(/_/g, '/') : 'Brak danych'; // Zamiana _ na /
+            const brygada = brygadaMatch ? brygadaMatch[1].trim().replace(/_/g, '/') : 'Brak danych';
 
-            // Extracting Linia
             const liniaMatch = lines[1] ? lines[1].match(/\[(.+)\]/) : null;
             const linia = liniaMatch ? liniaMatch[1].trim() : 'Brak danych';
 
-            // Extracting Początek
             const początekMatch = lines[1] ? lines[1].match(/\] (.+) -/) : null;
             const początek = początekMatch ? początekMatch[1].trim() : 'Brak danych';
 
-            // Extracting Kierunek
             const kierunekMatch = lines[1] ? lines[1].match(/- (.+)/) : null;
             const kierunek = kierunekMatch ? kierunekMatch[1].trim() : 'Brak danych';
 
-            // Extracting Godz. Rozp. and Godz. Zak.
             const godzRozp = (lines[2] && lines[2].match(/(\d{2}:\d{2})/)) ? lines[2].match(/(\d{2}:\d{2})/)[0] : 'Brak danych';
             const godzZak = (lines[3] && lines[3].match(/(\d{2}:\d{2})/)) ? lines[3].match(/(\d{2}:\d{2})/)[0] : 'Brak danych';
 
-            // Calculate duration (Czas trwania) without adjusting times first
             const czasTrwania = calculateDuration(godzRozp, godzZak);
 
-            // Adjust Godz. Rozp. and Godz. Zak. only if Czas trwania is valid
             const adjustedGodzRozp = czasTrwania !== 'Brak danych' ? adjustTimeIfGreaterThan24(godzRozp) : godzRozp;
             const adjustedGodzZak = czasTrwania !== 'Brak danych' ? adjustTimeIfGreaterThan24(godzZak) : godzZak;
 
-            // Add a new row to the table
             const tr = document.createElement('tr');
             const tdLp = document.createElement('td');
             tdLp.textContent = `${index + 1}.`; // Lp. with dot
             tr.appendChild(tdLp);
-            tr.appendChild(createCell(brygada));
+
+            // Use the clickable cell function for the Brygada column
+            tr.appendChild(createClickableCell(brygada));
             tr.appendChild(createCell(linia));
             tr.appendChild(createCell(początek)); // Początek
             tr.appendChild(createCell(kierunek));
@@ -224,43 +255,7 @@
          });
       }
 
-      // Helper function to create a table cell
-      function createCell(content) {
-         const td = document.createElement('td');
-         td.textContent = content;
-         return td;
-      }
-
-      // Adjust time if it's greater than 24:00
-      function adjustTimeIfGreaterThan24(time) {
-         if (!time.includes(':')) return time; // Not a valid time format
-         const [hours, minutes] = time.split(':').map(Number);
-         if (hours >= 24) {
-            return `${hours - 24}:${minutes < 10 ? '0' + minutes : minutes}`;
-         }
-         return time;
-      }
-
-      // Calculate the duration between two times
-      function calculateDuration(start, end) {
-         if (!start.includes(':') || !end.includes(':')) return 'Brak danych';
-         const [startHours, startMinutes] = start.split(':').map(Number);
-         const [endHours, endMinutes] = end.split(':').map(Number);
-
-         // Calculate total minutes
-         const totalStart = startHours * 60 + startMinutes;
-         const totalEnd = endHours * 60 + endMinutes;
-
-         // If end time is less than start time, assume it's the next day
-         const totalMinutes = totalEnd < totalStart ? totalEnd + 1440 - totalStart : totalEnd - totalStart;
-
-         const durationHours = Math.floor(totalMinutes / 60);
-         const durationMinutes = totalMinutes % 60;
-
-         return `${durationHours}:${durationMinutes < 10 ? '0' + durationMinutes : durationMinutes}`;
-      }
-
-      // Filter the table based on user input
+      // Function to filter table rows based on input values
       function filterTable() {
          const filterBrygada = document.getElementById('filterBrygada').value.toLowerCase();
          const filterLinia = document.getElementById('filterLinia').value.toLowerCase();
@@ -269,40 +264,63 @@
          const filterGodzRozp = document.getElementById('filterGodzRozp').value.toLowerCase();
          const filterGodzZak = document.getElementById('filterGodzZak').value.toLowerCase();
 
-         const tableRows = document.getElementById('rozkładTable').querySelectorAll('tbody tr');
+         const table = document.getElementById('rozkładTable');
+         const rows = table.getElementsByTagName('tr');
 
-         tableRows.forEach(row => {
-            const cells = row.querySelectorAll('td');
-            const brygadaText = cells[1].textContent.toLowerCase();
-            const liniaText = cells[2].textContent.toLowerCase();
-            const początekText = cells[3].textContent.toLowerCase();
-            const kierunekText = cells[4].textContent.toLowerCase();
-            const godzRozpText = cells[5].textContent.toLowerCase();
-            const godzZakText = cells[6].textContent.toLowerCase();
+         for (let i = 1; i < rows.length; i++) {
+            const cells = rows[i].getElementsByTagName('td');
+            const brygada = cells[1].textContent.toLowerCase();
+            const linia = cells[2].textContent.toLowerCase();
+            const początek = cells[3].textContent.toLowerCase();
+            const kierunek = cells[4].textContent.toLowerCase();
+            const godzRozp = cells[5].textContent.toLowerCase();
+            const godzZak = cells[6].textContent.toLowerCase();
 
-            // Check if row matches the filter criteria
-            const matches = (
-               (brygadaText.includes(filterBrygada) || !filterBrygada) &&
-               (liniaText.includes(filterLinia) || !filterLinia) &&
-               (początekText.includes(filterPoczątek) || !filterPoczątek) &&
-               (kierunekText.includes(filterKierunek) || !filterKierunek) &&
-               (godzRozpText.includes(filterGodzRozp) || !filterGodzRozp) &&
-               (godzZakText.includes(filterGodzZak) || !filterGodzZak)
-            );
-
-            // Show or hide the row based on whether it matches
-            row.style.display = matches ? '' : 'none';
-         });
+            rows[i].style.display = (brygada.includes(filterBrygada) &&
+               linia.includes(filterLinia) &&
+               początek.includes(filterPoczątek) &&
+               kierunek.includes(filterKierunek) &&
+               godzRozp.includes(filterGodzRozp) &&
+               godzZak.includes(filterGodzZak)) ? '' : 'none';
+         }
       }
 
-      // Run functions on load
-      window.onload = () => {
+      // Function to calculate duration between two times in hh:mm format
+      function calculateDuration(start, end) {
+         if (start === 'Brak danych' || end === 'Brak danych') {
+            return 'Brak danych';
+         }
+
+         const startTime = new Date(`1970-01-01T${start}:00`);
+         const endTime = new Date(`1970-01-01T${end}:00`);
+
+         let diffMs = endTime - startTime;
+         if (diffMs < 0) {
+            diffMs += 24 * 60 * 60 * 1000; // Handle cases where end time is past midnight
+         }
+
+         const diffHrs = Math.floor(diffMs / (1000 * 60 * 60));
+         const diffMins = Math.floor((diffMs % (1000 * 60 * 60)) / (1000 * 60));
+
+         return `${diffHrs.toString().padStart(2, '0')}:${diffMins.toString().padStart(2, '0')}`;
+      }
+
+      // Adjust time if it's greater than 24 hours (for overnight shifts)
+      function adjustTimeIfGreaterThan24(time) {
+         const [hours, minutes] = time.split(':').map(Number);
+         const adjustedHours = hours >= 24 ? hours - 24 : hours;
+         return `${adjustedHours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}`;
+      }
+
+      // Load data when page is ready
+      document.addEventListener('DOMContentLoaded', function() {
          checkLogin();
          loadBrygadaTitle();
          fetchKursyFile();
-      };
+      });
 
    </script>
+
 </body>
 
 </html>
