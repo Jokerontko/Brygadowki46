@@ -4,7 +4,7 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Wybór dnia</title>
+   <title>Spis kursów</title>
    <link rel="stylesheet" href="../../style_css/headermenu.css">
    <style>
       body {
@@ -93,7 +93,14 @@
       <hr>
    </header>
 
-   <h2> Coming sooon....</h2>
+   <h1>WYBIERZ TYP DNIA</h1>
+
+   <div class="button-container">
+      <a href="Powszedni/Powszedni.html" class="choose" id="roboczy">Roboczy</a>
+      <a href="#" class="choose" id="roboczy-wolny">Roboczy Wolny</a>
+      <a href="#" class="choose" id="sobota">Sobota</a>
+      <a href="#" class="choose" id="niedziela">Niedziela</a>
+   </div>
 
    <script>
       // Funkcja do sprawdzenia, czy użytkownik jest zalogowany
@@ -116,6 +123,30 @@
 
          // Przekieruj na stronę logowania
          window.location.href = '../../index.html';
+      });
+
+      // Funkcja do ustawiania Wybranego Typu Dnia
+      function setWybranyTypDnia(value) {
+         sessionStorage.setItem('WybranyTypDnia', value);
+         // Opcjonalnie możesz przekierować do innej strony po kliknięciu
+         // window.location.href = "następna_strona.html";
+      }
+
+      // Dodaj nasłuchiwacze zdarzeń do przycisków
+      document.getElementById('roboczy').addEventListener('click', function() {
+         setWybranyTypDnia(2);
+      });
+
+      document.getElementById('roboczy-wolny').addEventListener('click', function() {
+         setWybranyTypDnia(3);
+      });
+
+      document.getElementById('sobota').addEventListener('click', function() {
+         setWybranyTypDnia(4);
+      });
+
+      document.getElementById('niedziela').addEventListener('click', function() {
+         setWybranyTypDnia(1);
       });
 
    </script>
