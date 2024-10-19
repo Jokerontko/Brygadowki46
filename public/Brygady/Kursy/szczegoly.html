@@ -77,6 +77,10 @@
          margin-right: 5px;
       }
 
+      h3 {
+         margin-bottom: -20px;
+      }
+
    </style>
 </head>
 
@@ -91,6 +95,8 @@
 
    <h1 id="TypDnia">Kursy w dniu {Jaki?}</h1>
    <center>
+
+      <h3>Filtruj według:</h3>
       <div class="filter-container">
 
          <input class="filter-input" type="text" id="filterBrygada" placeholder="Brygada" oninput="filterTable()">
@@ -122,8 +128,8 @@
             <th>Lp.</th>
             <th>Brygada</th>
             <th>Linia</th>
-            <th>Początek</th>
-            <th>Kierunek</th>
+            <th>Przystanek Początkowy</th>
+            <th>Przystanek Końcowy</th>
             <th>Godz. Rozp.</th>
             <th>Godz. Zak.</th>
             <th>Czas trwania</th>
