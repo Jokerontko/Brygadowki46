@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=0.5">
+   <link rel="stylesheet" href="../../style_css/headermenu.css">
+   <title>Szczegóły</title>
+   <style>
+      body {
+         background: rgb(50, 50, 50);
+         font-family: Arial, sans-serif;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         height: auto;
+         color: white;
+      }
+
+      h1 {
+         font-size: 2rem;
+         margin: 40px 0 20px;
+      }
+
+      table {
+         width: 90%;
+         border-collapse: collapse;
+         border-radius: 5px;
+         overflow: hidden;
+         margin-top: 20px;
+      }
+
+      th,
+      td {
+         text-align: center;
+         padding: 10px;
+         border: 1px solid #ccc;
+         font-size: 17px;
+      }
+
+      th {
+         background-color: rgba(255, 165, 0, 0.2);
+      }
+
+      thead {
+         background-color: rgba(255, 165, 0, 0.2);
+      }
+
+      .filter-container {
+         margin: 20px 10px;
+      }
+
+      input[type="text"] {
+         padding: 5px;
+         margin-right: 10px;
+      }
+
+
+      .filter-container {
+         margin-bottom: 30px;
+      }
+
+      .filter-input {
+         padding: 10px;
+         margin-right: 10px;
+         border-radius: 5px;
+         border: 1px solid #ccc;
+         background-color: #333;
+         color: white;
+         text-align: center;
+         margin-bottom: -50px;
+         margin-top: 10px;
+      }
+
+      .filter-label {
+         font-weight: bold;
+         margin-right: 5px;
+      }
+
+   </style>
+</head>
+
+<body>
+   <header>
+      <a href="../../Main_Panel.html" class="menu">Panel Główny</a>
+      <a href="../ChooseDay.html" class="menu">Brygady</a>
+      <a href="../../Brygady/Kursy/Kursy.html" class="menu">Kursy</a>
+      <a href="#" class="menu exit" id="logout">Opuść Panel</a>
+      <hr>
+   </header>
+
+   <h1 id="TypDnia">Kursy w dniu {Jaki?}</h1>
+   <center>
+      <div class="filter-container">
+
+         <input class="filter-input" type="text" id="filterBrygada" placeholder="Brygada" oninput="filterTable()">
+
+
+         <input class="filter-input" type="text" id="filterLinia" placeholder="Linia" oninput="filterTable()">
+
+
+         <input class="filter-input" type="text" id="filterPoczątek" placeholder="Przystanek Początkowy" oninput="filterTable()">
+
+
+
+         <input class="filter-input" type="text" id="filterKierunek" placeholder="Przystanek Końcowy" oninput="filterTable()">
+
+
+         <input class="filter-input" type="text" id="filterGodzRozp" placeholder="Godzina Rozpoczęcia" oninput="filterTable()">
+
+
+         <input class="filter-input" type="text" id="filterGodzZak" placeholder="Godzina Zakończenia" oninput="filterTable()">
+      </div>
+   </center>
+
+
+
+
+   <table id="rozkładTable">
+      <thead>
+         <tr>
+            <th>Lp.</th>
+            <th>Brygada</th>
+            <th>Linia</th>
+            <th>Początek</th>
+            <th>Kierunek</th>
+            <th>Godz. Rozp.</th>
+            <th>Godz. Zak.</th>
+            <th>Czas trwania</th>
+            <th>Km</th>
+         </tr>
+      </thead>
+      <tbody>
+         <!-- Rows will be added dynamically -->
+      </tbody>
+   </table>
+
+   <script>
+      // Check if the user is logged in, otherwise redirect
+      function checkLogin() {
+         const user = JSON.parse(sessionStorage.getItem('user'));
+         if (!user) {
+            window.location.href = '../../zoltakartka.html';
+         }
+      }
+
+      // Set the title for the brigade
+      function loadBrygadaTitle() {
+         const wybranyTypDnia = sessionStorage.getItem('WybranyTypDnia');
+         document.getElementById('TypDnia').innerText = `Szczegóły brygady z dnia: ${wybranyTypDnia}`;
+      }
+
+      // Logout logic
+      document.getElementById('logout').addEventListener('click', function() {
+         sessionStorage.clear();
+         window.location.href = '../../index.html';
+      });
+
+      // Fetch the 'Kursy_filtered_sorted.txt' file
+      async function fetchKursyFile() {
+         const wybranyTypDnia = sessionStorage.getItem('WybranyTypDnia');
+         const response = await fetch(`../../../Brygady/WYNIKI/Gotowe_brygady/${wybranyTypDnia}/Kursy_filtered_sorted.txt`);
+         const data = await response.text();
+
+         // Split the data into individual schedules based on empty lines
+         const schedules = data.trim().split(/\n\s*\n/);
+         const tableBody = document.getElementById('rozkładTable').querySelector('tbody');
+         tableBody.innerHTML = ''; // Clear existing rows
+
+         schedules.forEach((schedule, index) => {
+            const lines = schedule.split('\n');
+
+            // Log the full content for debugging
+            console.log(`Processing schedule at index ${index}:`, lines);
+
+            // Extracting Brygada
+            const brygadaMatch = lines[0].match(/Folder: (.+)/);
+            const brygada = brygadaMatch ? brygadaMatch[1].trim().replace(/_/g, '/') : 'Brak danych'; // Zamiana _ na /
+
+            // Extracting Linia
+            const liniaMatch = lines[1] ? lines[1].match(/\[(.+)\]/) : null;
+            const linia = liniaMatch ? liniaMatch[1].trim() : 'Brak danych';
+
+            // Extracting Początek
+            const początekMatch = lines[1] ? lines[1].match(/\] (.+) -/) : null;
+            const początek = początekMatch ? początekMatch[1].trim() : 'Brak danych';
+
+            // Extracting Kierunek
+            const kierunekMatch = lines[1] ? lines[1].match(/- (.+)/) : null;
+            const kierunek = kierunekMatch ? kierunekMatch[1].trim() : 'Brak danych';
+
+            // Extracting Godz. Rozp. and Godz. Zak.
+            const godzRozp = (lines[2] && lines[2].match(/(\d{2}:\d{2})/)) ? lines[2].match(/(\d{2}:\d{2})/)[0] : 'Brak danych';
+            const godzZak = (lines[3] && lines[3].match(/(\d{2}:\d{2})/)) ? lines[3].match(/(\d{2}:\d{2})/)[0] : 'Brak danych';
+
+            // Calculate duration (Czas trwania) without adjusting times first
+            const czasTrwania = calculateDuration(godzRozp, godzZak);
+
+            // Adjust Godz. Rozp. and Godz. Zak. only if Czas trwania is valid
+            const adjustedGodzRozp = czasTrwania !== 'Brak danych' ? adjustTimeIfGreaterThan24(godzRozp) : godzRozp;
+            const adjustedGodzZak = czasTrwania !== 'Brak danych' ? adjustTimeIfGreaterThan24(godzZak) : godzZak;
+
+            // Add a new row to the table
+            const tr = document.createElement('tr');
+            const tdLp = document.createElement('td');
+            tdLp.textContent = `${index + 1}.`; // Lp. with dot
+            tr.appendChild(tdLp);
+            tr.appendChild(createCell(brygada));
+            tr.appendChild(createCell(linia));
+            tr.appendChild(createCell(początek)); // Początek
+            tr.appendChild(createCell(kierunek));
+            tr.appendChild(createCell(adjustedGodzRozp)); // Godz. Rozp.
+            tr.appendChild(createCell(adjustedGodzZak)); // Godz. Zak.
+            tr.appendChild(createCell(czasTrwania)); // Czas trwania
+            tr.appendChild(createCell('N/A')); // Km (ustawione na N/A)
+
+            tableBody.appendChild(tr);
+         });
+      }
+
+      // Helper function to create a table cell
+      function createCell(content) {
+         const td = document.createElement('td');
+         td.textContent = content;
+         return td;
+      }
+
+      // Adjust time if it's greater than 24:00
+      function adjustTimeIfGreaterThan24(time) {
+         if (!time.includes(':')) return time; // Not a valid time format
+         const [hours, minutes] = time.split(':').map(Number);
+         if (hours >= 24) {
+            return `${hours - 24}:${minutes < 10 ? '0' + minutes : minutes}`;
+         }
+         return time;
+      }
+
+      // Calculate the duration between two times
+      function calculateDuration(start, end) {
+         if (!start.includes(':') || !end.includes(':')) return 'Brak danych';
+         const [startHours, startMinutes] = start.split(':').map(Number);
+         const [endHours, endMinutes] = end.split(':').map(Number);
+
+         // Calculate total minutes
+         const totalStart = startHours * 60 + startMinutes;
+         const totalEnd = endHours * 60 + endMinutes;
+
+         // If end time is less than start time, assume it's the next day
+         const totalMinutes = totalEnd < totalStart ? totalEnd + 1440 - totalStart : totalEnd - totalStart;
+
+         const durationHours = Math.floor(totalMinutes / 60);
+         const durationMinutes = totalMinutes % 60;
+
+         return `${durationHours}:${durationMinutes < 10 ? '0' + durationMinutes : durationMinutes}`;
+      }
+
+      // Filter the table based on user input
+      function filterTable() {
+         const filterBrygada = document.getElementById('filterBrygada').value.toLowerCase();
+         const filterLinia = document.getElementById('filterLinia').value.toLowerCase();
+         const filterPoczątek = document.getElementById('filterPoczątek').value.toLowerCase();
+         const filterKierunek = document.getElementById('filterKierunek').value.toLowerCase();
+         const filterGodzRozp = document.getElementById('filterGodzRozp').value.toLowerCase();
+         const filterGodzZak = document.getElementById('filterGodzZak').value.toLowerCase();
+
+         const tableRows = document.getElementById('rozkładTable').querySelectorAll('tbody tr');
+
+         tableRows.forEach(row => {
+            const cells = row.querySelectorAll('td');
+            const brygadaText = cells[1].textContent.toLowerCase();
+            const liniaText = cells[2].textContent.toLowerCase();
+            const początekText = cells[3].textContent.toLowerCase();
+            const kierunekText = cells[4].textContent.toLowerCase();
+            const godzRozpText = cells[5].textContent.toLowerCase();
+            const godzZakText = cells[6].textContent.toLowerCase();
+
+            // Check if row matches the filter criteria
+            const matches = (
+               (brygadaText.includes(filterBrygada) || !filterBrygada) &&
+               (liniaText.includes(filterLinia) || !filterLinia) &&
+               (początekText.includes(filterPoczątek) || !filterPoczątek) &&
+               (kierunekText.includes(filterKierunek) || !filterKierunek) &&
+               (godzRozpText.includes(filterGodzRozp) || !filterGodzRozp) &&
+               (godzZakText.includes(filterGodzZak) || !filterGodzZak)
+            );
+
+            // Show or hide the row based on whether it matches
+            row.style.display = matches ? '' : 'none';
+         });
+      }
+
+      // Run functions on load
+      window.onload = () => {
+         checkLogin();
+         loadBrygadaTitle();
+         fetchKursyFile();
+      };
+
+   </script>
+</body>
+
+</html>
