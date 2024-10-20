@@ -5,7 +5,7 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Wybór dnia</title>
-   <link rel="stylesheet" href="../style_css/headermenu.css">
+   <link rel="stylesheet" href="../../style_css/headermenu.css">
    <style>
       body {
          background: rgb(50, 50, 50);
@@ -86,9 +86,9 @@
 <body>
 
    <header>
-      <a href="../Main_Panel.html" class="menu">Panel Główny</a>
-      <a href="ChooseDay.html" class="menu">Brygady</a>
-      <a href="../Brygady/Kursy/Kursy.html" class="menu">Kursy</a>
+      <a href="../../Main_Panel.html" class="menu">Panel Główny</a>
+      <a href="../ChooseDay.html" class="menu">Brygady</a>
+      <a href="../../Brygady/Kursy/Kursy.html" class="menu">Kursy</a>
       <a href="#" class="menu exit" id="logout">Opuść Panel</a>
       <hr>
    </header>
@@ -96,25 +96,22 @@
    <h1>WYBIERZ TYP DNIA</h1>
 
    <div class="button-container">
-      <a href="Powszedni/Powszedni.html" class="choose">Roboczy</a>
+      <a href="brygada.html" class="choose">Roboczy</a>
       <a href="PowszedniWolny/PowszedniWolny.html" class="choose">Roboczy Wolny</a>
       <a href="Sobotni/Saturday.html" class="choose">Sobota</a>
       <a href="Niedzielny/Sunday.html" class="choose">Niedziela</a>
    </div>
-   <a href="#" class="chooseextra-close">Zaplanowane zmiany rozkładów</a>
-   <!-- Zapowiedz_Rozkladu/ChooseDay.html -->
-   <br>
-   <a href="#" class="chooseextra-close">Archiwum</a>
-   <!-- Archiwum/Archiwum.html -->
 
    <script>
+      sessionStorage.getItem('selectedBrygada')
+
       // Funkcja do sprawdzenia, czy użytkownik jest zalogowany
       function checkLogin() {
          const user = JSON.parse(sessionStorage.getItem('user'));
 
          // Jeśli nie ma użytkownika w sessionStorage, przekieruj na stronę logowania
          if (!user) {
-            window.location.href = '../zoltakartka.html';
+            window.location.href = '../../zoltakartka.html';
          }
       }
 
@@ -127,7 +124,7 @@
          sessionStorage.clear();
 
          // Przekieruj na stronę logowania
-         window.location.href = '../index.html';
+         window.location.href = '../../index.html';
       });
 
    </script>

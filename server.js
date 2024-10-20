@@ -83,6 +83,24 @@ app.get('/check-maintenance', (req, res) => {
    });
 });
 
+// Endpoint sprawdzający plik ChooseDay.txt
+app.get('/check-chooseday', (req, res) => {
+   const mainChooseDay = path.join(__dirname, 'Brygady_Archiwum', brygadaTitle, 'ChooseDay.txt');
+
+   fs.readFile(mainChooseDay, 'utf8', (err, data) => {
+      if (err) {
+         return res.status(500).json({
+            error: 'Błąd odczytu pliku'
+         });
+      }
+
+      const isChooseDay = data.trim() === 'Tak';
+      res.json({
+         isChooseDay
+      });
+   });
+});
+
 // Function to process folders and files
 async function processDirectories(basePath) {
    const results = [];
@@ -170,6 +188,7 @@ async function processDirectoriesZapowiedz(basePath1) {
    return results;
 }
 
+
 // Endpoint to fetch data DLA NOWEGO ROZKŁADU ZAPOWIEDZI
 app.get('/api/dataZapowiedz', async (req, res) => {
    try {
@@ -183,6 +202,27 @@ app.get('/api/dataZapowiedz', async (req, res) => {
       res.status(500).send('Błąd serwera: ' + error.message);
    }
 });
+
+// Endpoint to fetch data DLA NOWEGO ROZKŁADU ARCHIWUM
+app.get('/api/archiwum', async (req, res) => {
+   try {
+      const dataPath = path.join(__dirname, 'Brygady_Archiwum');
+      console.log(`Pobieram dane z: ${dataPath}`);
+      const data = await processDirectories(dataPath);
+      res.json(data);
+   } catch (error) {
+      console.error('Błąd serwera:', error);
+      res.status(500).send('Błąd serwera: ' + error.message);
+   }
+});
+
+
+// Handle GET requests for the path /brygady/* ARCHIWUM
+app.get('/Brygady_Archiwum/*', (req, res) => {
+   const filePath = path.join(__dirname, 'Brygady_Archiwum', req.params[0]);
+   res.sendFile(filePath);
+});
+
 
 // Handle GET requests for the path /brygady/* ZAPOWIEDZ
 app.get('/brygady_zapowiedz/*', (req, res) => {
@@ -235,6 +275,65 @@ app.put('/updateKierunki', (req, res) => {
       });
    });
 });
+
+
+
+
+
+
+
+
+
+// Endpoint to fetch data
+app.get('/api/data', async (req, res) => {
+   try {
+      const dataPath = path.join(__dirname, 'Brygady_Archiwum', brygadaNumber);
+      console.log(`Pobieram dane z: ${dataPath}`);
+      const data = await processDirectories(dataPath);
+      res.json(data);
+   } catch (error) {
+      console.error('Błąd serwera:', error);
+      res.status(500).send('Błąd serwera: ' + error.message);
+   }
+});
+
+// New endpoint to update Kierunki.txt
+app.put('/updateKierunki', (req, res) => {
+   const {
+      routeId,
+      newValue
+   } = req.body;
+   const filePath = path.join(__dirname, 'Brygady_Archiwum', 'Kierunki.txt');
+
+   fs.readFile(filePath, 'utf8', (err, data) => {
+      if (err) {
+         return res.status(500).json({
+            error: 'Błąd odczytu pliku'
+         });
+      }
+
+      const updatedText = data.replace(new RegExp(`\\b${routeId}\\b`, 'g'), newValue);
+
+      fs.writeFile(filePath, updatedText, 'utf8', (err) => {
+         if (err) {
+            return res.status(500).json({
+               error: 'Błąd zapisu pliku'
+            });
+         }
+         res.json({
+            message: 'Zaktualizowano plik Kierunki.txt'
+         });
+      });
+   });
+});
+
+
+
+
+
+
+
+
 
 // Serve static files
 app.use(express.static(path.join(__dirname, 'public')));
