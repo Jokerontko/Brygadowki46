@@ -1,0 +1,330 @@
+route_id	service_id	trip_id	arrival_time	departure_time	stop_headsign	stop_name
+-------------------------------------------------------------------------------
+1635	4	195820	05:20:00	05:20:00		Bardowskiego 03
+1635	4	195820	05:22:00	05:22:00		Pl. Wolności 04
+1635	4	195820	05:23:00	05:23:00		Piłsudskiego U. Wojewódzki 06
+1635	4	195820	05:25:00	05:25:00		Marszałkowska 02
+1635	4	195820	05:26:00	05:26:00		Warszawska / Wyzwolenia 02 nż
+1635	4	195820	05:27:00	05:27:00		Warszawska ZS. Samoch. 04 nż
+1635	4	195820	05:28:00	05:28:00		Warszawska / Staromiejska 06 nż
+1635	4	195820	05:30:00	05:30:00		Warszawska / Borowa 08 nż
+1635	4	195820	05:31:00	05:31:00		Warszawska / Bażantowa 10 nż
+1635	4	195820	05:32:00	05:32:00		Warszawska / Łowiecka 12 nż
+1635	4	195820	05:33:00	05:33:00		"Zaczernie
+1635	4	195820	05:34:00	05:34:00		Warszawska granica 14 nż
+1635	4	195820	05:36:00	05:36:00		Rudna Mała 03 nż
+1635	4	195820	05:37:00	05:37:00		Rudna Mała szpital 01 nż
+1635	4	195820	05:39:00	05:39:00		Głogów Młp. wiadukt 09A nż
+1635	4	195820	05:42:00	05:42:00		Głogów Młp. Zelmer II 02 nż
+1635	4	195820	05:43:00	05:43:00		Głogów Młp. MetaZel II 02 nż
+1635	4	195820	05:44:00	05:44:00		Głogów Młp. Yanko I 01 nż
+1635	4	195820	05:45:00	05:45:00		Głogów Młp. Leniar I 01 nż
+
+1629	4	195310	06:10:00	06:10:00		Głogów Młp. Zelmer II 02 nż
+1629	4	195310	06:11:00	06:11:00		Głogów Młp. MetaZel II 02 nż
+1629	4	195310	06:12:00	06:12:00		Głogów Młp. Yanko I 01 nż
+1629	4	195310	06:13:00	06:13:00		Głogów Młp. Leniar I 01 nż
+1629	4	195310	06:16:00	06:16:00		Głogów Młp. wiadukt 71A nż
+1629	4	195310	06:19:00	06:19:00		Rudna Mała szpital 02 nż
+1629	4	195310	06:20:00	06:20:00		Zaczernie 04 nż
+1629	4	195310	06:22:00	06:22:00		Warszawska granica 11 nż
+1629	4	195310	06:23:00	06:23:00		"Zaczernie
+1629	4	195310	06:24:00	06:24:00		Warszawska / Myśliwska 09 nż
+1629	4	195310	06:26:00	06:26:00		Warszawska / Borowa 07 nż
+1629	4	195310	06:28:00	06:28:00		Warszawska / Staromiejska 05 nż
+1629	4	195310	06:29:00	06:29:00		Warszawska ZS. Samoch. 03 nż
+1629	4	195310	06:30:00	06:30:00		Warszawska / Wyzwolenia 01 nż
+1629	4	195310	06:32:00	06:32:00		Marszałkowska 01
+1629	4	195310	06:35:00	06:35:00		Piłsudskiego U. Wojewódzki 03
+1629	4	195310	06:38:00	06:38:00		Bardowskiego 04
+
+1792	4	195674	07:16:00	07:16:00		Krakowska granica 15 nż
+1792	4	195674	07:17:00	07:17:00		Krakowska Dworzysko 13 nż
+1792	4	195674	07:19:00	07:19:00		Krakowska / Ustrzycka 11
+1792	4	195674	07:20:00	07:20:00		Krakowska cmentarz 09 nż
+1792	4	195674	07:22:00	07:22:00		Krakowska / Mielecka 07 nż
+1792	4	195674	07:23:00	07:23:00		Krakowska galeria 05
+1792	4	195674	07:24:00	07:24:00		Krakowska szpital 03
+1792	4	195674	07:26:00	07:26:00		Krakowska Jedn. Wojskowa 01
+1792	4	195674	07:29:00	07:29:00		Piłsudskiego U. Wojewódzki 03
+1792	4	195674	07:30:00	07:30:00		Pl. Wolności 01
+1792	4	195674	07:33:00	07:33:00		Lwowska Jedn. Wojskowa 02
+1792	4	195674	07:35:00	07:35:00		Lwowska cmentarz 04
+1792	4	195674	07:36:00	07:36:00		Żołnierzy I Armii Wojska Polskiego 02
+1792	4	195674	07:38:00	07:38:00		Żołnierzy I AWP / Morgowa 04 nż
+1792	4	195674	07:41:00	07:41:00		Rzecha / Załęska 02 nż
+1792	4	195674	07:42:00	07:42:00		Załęska / Rzecha 04 nż
+1792	4	195674	07:43:00	07:43:00		Załęska Zakład Karny 08 nż
+
+1634	4	195753	08:08:00	08:08:00		Załęska Zakład Karny 08 nż
+1634	4	195753	08:09:00	08:09:00		Załęska / Rzecha 05 nż
+1634	4	195753	08:11:00	08:11:00		Rzecha / Załęska 01 nż
+1634	4	195753	08:13:00	08:13:00		Sieciecha / Załęska 02 nż
+1634	4	195753	08:14:00	08:14:00		Załęska / Konf. Barskich 01 nż
+1634	4	195753	08:15:00	08:15:00		Konf. Barskich / Traugutta 01 nż
+1634	4	195753	08:18:00	08:18:00		Lwowska cmentarz 03
+1634	4	195753	08:19:00	08:19:00		Lwowska Jedn. Wojskowa 01
+1634	4	195753	08:21:00	08:21:00		Piłsudskiego ZDZ 02
+1634	4	195753	08:22:00	08:22:00		Pl. Wolności 04
+1634	4	195753	08:25:00	08:25:00		Piłsudskiego U. Marszałkowski 08
+1634	4	195753	08:27:00	08:27:00		Krakowska Jedn. Wojskowa 02
+1634	4	195753	08:28:00	08:28:00		Krakowska szpital 04
+1634	4	195753	08:29:00	08:29:00		Krakowska galeria 06
+1634	4	195753	08:30:00	08:30:00		Krakowska / Wyzwolenia 08 nż
+1634	4	195753	08:32:00	08:32:00		Krakowska cmentarz 10 nż
+1634	4	195753	08:33:00	08:33:00		Krakowska / Ceramiczna 12
+1634	4	195753	08:34:00	08:34:00		Krakowska Dworzysko 16 nż
+1634	4	195753	08:36:00	08:36:00		Krakowska granica 18 nż
+1634	4	195753	08:38:00	08:38:00		Krakowska granica 15 nż
+
+1792	4	195124	09:16:00	09:16:00		Krakowska granica 15 nż
+1792	4	195124	09:17:00	09:17:00		Krakowska Dworzysko 13 nż
+1792	4	195124	09:19:00	09:19:00		Krakowska / Ustrzycka 11
+1792	4	195124	09:20:00	09:20:00		Krakowska cmentarz 09 nż
+1792	4	195124	09:22:00	09:22:00		Krakowska / Mielecka 07 nż
+1792	4	195124	09:23:00	09:23:00		Krakowska galeria 05
+1792	4	195124	09:24:00	09:24:00		Krakowska szpital 03
+1792	4	195124	09:26:00	09:26:00		Krakowska Jedn. Wojskowa 01
+1792	4	195124	09:29:00	09:29:00		Piłsudskiego U. Wojewódzki 03
+1792	4	195124	09:30:00	09:30:00		Pl. Wolności 01
+1792	4	195124	09:33:00	09:33:00		Lwowska Jedn. Wojskowa 02
+1792	4	195124	09:35:00	09:35:00		Lwowska cmentarz 04
+1792	4	195124	09:36:00	09:36:00		Żołnierzy I Armii Wojska Polskiego 02
+1792	4	195124	09:38:00	09:38:00		Żołnierzy I AWP / Morgowa 04 nż
+1792	4	195124	09:41:00	09:41:00		Rzecha / Załęska 02 nż
+1792	4	195124	09:42:00	09:42:00		Załęska / Rzecha 04 nż
+1792	4	195124	09:43:00	09:43:00		Załęska Zakład Karny 08 nż
+
+1634	4	195113	10:08:00	10:08:00		Załęska Zakład Karny 08 nż
+1634	4	195113	10:09:00	10:09:00		Załęska / Rzecha 05 nż
+1634	4	195113	10:11:00	10:11:00		Rzecha / Załęska 01 nż
+1634	4	195113	10:13:00	10:13:00		Sieciecha / Załęska 02 nż
+1634	4	195113	10:14:00	10:14:00		Załęska / Konf. Barskich 01 nż
+1634	4	195113	10:15:00	10:15:00		Konf. Barskich / Traugutta 01 nż
+1634	4	195113	10:18:00	10:18:00		Lwowska cmentarz 03
+1634	4	195113	10:19:00	10:19:00		Lwowska Jedn. Wojskowa 01
+1634	4	195113	10:21:00	10:21:00		Piłsudskiego ZDZ 02
+1634	4	195113	10:22:00	10:22:00		Pl. Wolności 04
+1634	4	195113	10:25:00	10:25:00		Piłsudskiego U. Marszałkowski 08
+1634	4	195113	10:27:00	10:27:00		Krakowska Jedn. Wojskowa 02
+1634	4	195113	10:28:00	10:28:00		Krakowska szpital 04
+1634	4	195113	10:29:00	10:29:00		Krakowska galeria 06
+1634	4	195113	10:30:00	10:30:00		Krakowska / Wyzwolenia 08 nż
+1634	4	195113	10:32:00	10:32:00		Krakowska cmentarz 10 nż
+1634	4	195113	10:33:00	10:33:00		Krakowska / Ceramiczna 12
+1634	4	195113	10:34:00	10:34:00		Krakowska Dworzysko 16 nż
+1634	4	195113	10:36:00	10:36:00		Krakowska granica 18 nż
+1634	4	195113	10:38:00	10:38:00		Krakowska granica 15 nż
+
+1792	4	195263	11:16:00	11:16:00		Krakowska granica 15 nż
+1792	4	195263	11:17:00	11:17:00		Krakowska Dworzysko 13 nż
+1792	4	195263	11:19:00	11:19:00		Krakowska / Ustrzycka 11
+1792	4	195263	11:20:00	11:20:00		Krakowska cmentarz 09 nż
+1792	4	195263	11:22:00	11:22:00		Krakowska / Mielecka 07 nż
+1792	4	195263	11:23:00	11:23:00		Krakowska galeria 05
+1792	4	195263	11:24:00	11:24:00		Krakowska szpital 03
+1792	4	195263	11:26:00	11:26:00		Krakowska Jedn. Wojskowa 01
+1792	4	195263	11:29:00	11:29:00		Piłsudskiego U. Wojewódzki 03
+1792	4	195263	11:30:00	11:30:00		Pl. Wolności 01
+1792	4	195263	11:33:00	11:33:00		Lwowska Jedn. Wojskowa 02
+1792	4	195263	11:35:00	11:35:00		Lwowska cmentarz 04
+1792	4	195263	11:36:00	11:36:00		Żołnierzy I Armii Wojska Polskiego 02
+1792	4	195263	11:38:00	11:38:00		Żołnierzy I AWP / Morgowa 04 nż
+1792	4	195263	11:41:00	11:41:00		Rzecha / Załęska 02 nż
+1792	4	195263	11:42:00	11:42:00		Załęska / Rzecha 04 nż
+1792	4	195263	11:43:00	11:43:00		Załęska Zakład Karny 08 nż
+
+1634	4	195291	12:08:00	12:08:00		Załęska Zakład Karny 08 nż
+1634	4	195291	12:09:00	12:09:00		Załęska / Rzecha 05 nż
+1634	4	195291	12:11:00	12:11:00		Rzecha / Załęska 01 nż
+1634	4	195291	12:13:00	12:13:00		Sieciecha / Załęska 02 nż
+1634	4	195291	12:14:00	12:14:00		Załęska / Konf. Barskich 01 nż
+1634	4	195291	12:15:00	12:15:00		Konf. Barskich / Traugutta 01 nż
+1634	4	195291	12:18:00	12:18:00		Lwowska cmentarz 03
+1634	4	195291	12:19:00	12:19:00		Lwowska Jedn. Wojskowa 01
+1634	4	195291	12:21:00	12:21:00		Piłsudskiego ZDZ 02
+1634	4	195291	12:22:00	12:22:00		Pl. Wolności 04
+1634	4	195291	12:25:00	12:25:00		Piłsudskiego U. Marszałkowski 08
+1634	4	195291	12:27:00	12:27:00		Krakowska Jedn. Wojskowa 02
+1634	4	195291	12:28:00	12:28:00		Krakowska szpital 04
+1634	4	195291	12:29:00	12:29:00		Krakowska galeria 06
+1634	4	195291	12:30:00	12:30:00		Krakowska / Wyzwolenia 08 nż
+1634	4	195291	12:32:00	12:32:00		Krakowska cmentarz 10 nż
+1634	4	195291	12:33:00	12:33:00		Krakowska / Ceramiczna 12
+1634	4	195291	12:34:00	12:34:00		Krakowska Dworzysko 16 nż
+1634	4	195291	12:36:00	12:36:00		Krakowska granica 18 nż
+1634	4	195291	12:38:00	12:38:00		Krakowska granica 15 nż
+
+1792	4	195855	13:16:00	13:16:00		Krakowska granica 15 nż
+1792	4	195855	13:17:00	13:17:00		Krakowska Dworzysko 13 nż
+1792	4	195855	13:19:00	13:19:00		Krakowska / Ustrzycka 11
+1792	4	195855	13:20:00	13:20:00		Krakowska cmentarz 09 nż
+1792	4	195855	13:22:00	13:22:00		Krakowska / Mielecka 07 nż
+1792	4	195855	13:23:00	13:23:00		Krakowska galeria 05
+1792	4	195855	13:24:00	13:24:00		Krakowska szpital 03
+1792	4	195855	13:26:00	13:26:00		Krakowska Jedn. Wojskowa 01
+1792	4	195855	13:29:00	13:29:00		Piłsudskiego U. Wojewódzki 03
+1792	4	195855	13:30:00	13:30:00		Pl. Wolności 01
+1792	4	195855	13:33:00	13:33:00		Lwowska Jedn. Wojskowa 02
+1792	4	195855	13:35:00	13:35:00		Lwowska cmentarz 04
+1792	4	195855	13:36:00	13:36:00		Żołnierzy I Armii Wojska Polskiego 02
+1792	4	195855	13:38:00	13:38:00		Żołnierzy I AWP / Morgowa 04 nż
+1792	4	195855	13:41:00	13:41:00		Rzecha / Załęska 02 nż
+1792	4	195855	13:42:00	13:42:00		Załęska / Rzecha 04 nż
+1792	4	195855	13:43:00	13:43:00		Załęska Zakład Karny 08 nż
+
+1634	4	194980	14:08:00	14:08:00		Załęska Zakład Karny 08 nż
+1634	4	194980	14:09:00	14:09:00		Załęska / Rzecha 05 nż
+1634	4	194980	14:11:00	14:11:00		Rzecha / Załęska 01 nż
+1634	4	194980	14:13:00	14:13:00		Sieciecha / Załęska 02 nż
+1634	4	194980	14:14:00	14:14:00		Załęska / Konf. Barskich 01 nż
+1634	4	194980	14:15:00	14:15:00		Konf. Barskich / Traugutta 01 nż
+1634	4	194980	14:18:00	14:18:00		Lwowska cmentarz 03
+1634	4	194980	14:19:00	14:19:00		Lwowska Jedn. Wojskowa 01
+1634	4	194980	14:21:00	14:21:00		Piłsudskiego ZDZ 02
+1634	4	194980	14:22:00	14:22:00		Pl. Wolności 04
+1634	4	194980	14:25:00	14:25:00		Piłsudskiego U. Marszałkowski 08
+1634	4	194980	14:27:00	14:27:00		Krakowska Jedn. Wojskowa 02
+1634	4	194980	14:28:00	14:28:00		Krakowska szpital 04
+1634	4	194980	14:29:00	14:29:00		Krakowska galeria 06
+1634	4	194980	14:30:00	14:30:00		Krakowska / Wyzwolenia 08 nż
+1634	4	194980	14:32:00	14:32:00		Krakowska cmentarz 10 nż
+1634	4	194980	14:33:00	14:33:00		Krakowska / Ceramiczna 12
+1634	4	194980	14:34:00	14:34:00		Krakowska Dworzysko 16 nż
+1634	4	194980	14:36:00	14:36:00		Krakowska granica 18 nż
+1634	4	194980	14:38:00	14:38:00		Krakowska granica 15 nż
+
+1792	4	194763	15:16:00	15:16:00		Krakowska granica 15 nż
+1792	4	194763	15:17:00	15:17:00		Krakowska Dworzysko 13 nż
+1792	4	194763	15:19:00	15:19:00		Krakowska / Ustrzycka 11
+1792	4	194763	15:20:00	15:20:00		Krakowska cmentarz 09 nż
+1792	4	194763	15:22:00	15:22:00		Krakowska / Mielecka 07 nż
+1792	4	194763	15:23:00	15:23:00		Krakowska galeria 05
+1792	4	194763	15:24:00	15:24:00		Krakowska szpital 03
+1792	4	194763	15:26:00	15:26:00		Krakowska Jedn. Wojskowa 01
+1792	4	194763	15:29:00	15:29:00		Piłsudskiego U. Wojewódzki 03
+1792	4	194763	15:30:00	15:30:00		Pl. Wolności 01
+1792	4	194763	15:33:00	15:33:00		Lwowska Jedn. Wojskowa 02
+1792	4	194763	15:35:00	15:35:00		Lwowska cmentarz 04
+1792	4	194763	15:36:00	15:36:00		Żołnierzy I Armii Wojska Polskiego 02
+1792	4	194763	15:38:00	15:38:00		Żołnierzy I AWP / Morgowa 04 nż
+1792	4	194763	15:41:00	15:41:00		Rzecha / Załęska 02 nż
+1792	4	194763	15:42:00	15:42:00		Załęska / Rzecha 04 nż
+1792	4	194763	15:43:00	15:43:00		Załęska Zakład Karny 08 nż
+
+1634	4	195831	16:07:00	16:07:00		Załęska Zakład Karny 08 nż
+1634	4	195831	16:08:00	16:08:00		Załęska / Rzecha 05 nż
+1634	4	195831	16:11:00	16:11:00		Rzecha / Załęska 01 nż
+1634	4	195831	16:13:00	16:13:00		Sieciecha / Załęska 02 nż
+1634	4	195831	16:14:00	16:14:00		Załęska / Konf. Barskich 01 nż
+1634	4	195831	16:15:00	16:15:00		Konf. Barskich / Traugutta 01 nż
+1634	4	195831	16:18:00	16:18:00		Lwowska cmentarz 03
+1634	4	195831	16:19:00	16:19:00		Lwowska Jedn. Wojskowa 01
+1634	4	195831	16:21:00	16:21:00		Piłsudskiego ZDZ 02
+1634	4	195831	16:22:00	16:22:00		Pl. Wolności 04
+1634	4	195831	16:25:00	16:25:00		Piłsudskiego U. Marszałkowski 08
+1634	4	195831	16:27:00	16:27:00		Krakowska Jedn. Wojskowa 02
+1634	4	195831	16:28:00	16:28:00		Krakowska szpital 04
+1634	4	195831	16:29:00	16:29:00		Krakowska galeria 06
+1634	4	195831	16:30:00	16:30:00		Krakowska / Wyzwolenia 08 nż
+1634	4	195831	16:32:00	16:32:00		Krakowska cmentarz 10 nż
+1634	4	195831	16:33:00	16:33:00		Krakowska / Ceramiczna 12
+1634	4	195831	16:34:00	16:34:00		Krakowska Dworzysko 16 nż
+1634	4	195831	16:36:00	16:36:00		Krakowska granica 18 nż
+1634	4	195831	16:38:00	16:38:00		Krakowska granica 15 nż
+
+1792	4	195103	17:16:00	17:16:00		Krakowska granica 15 nż
+1792	4	195103	17:17:00	17:17:00		Krakowska Dworzysko 13 nż
+1792	4	195103	17:19:00	17:19:00		Krakowska / Ustrzycka 11
+1792	4	195103	17:20:00	17:20:00		Krakowska cmentarz 09 nż
+1792	4	195103	17:22:00	17:22:00		Krakowska / Mielecka 07 nż
+1792	4	195103	17:23:00	17:23:00		Krakowska galeria 05
+1792	4	195103	17:24:00	17:24:00		Krakowska szpital 03
+1792	4	195103	17:26:00	17:26:00		Krakowska Jedn. Wojskowa 01
+1792	4	195103	17:29:00	17:29:00		Piłsudskiego U. Wojewódzki 03
+1792	4	195103	17:30:00	17:30:00		Pl. Wolności 01
+1792	4	195103	17:32:00	17:32:00		Lwowska Jedn. Wojskowa 02
+1792	4	195103	17:34:00	17:34:00		Lwowska cmentarz 04
+1792	4	195103	17:35:00	17:35:00		Żołnierzy I Armii Wojska Polskiego 02
+1792	4	195103	17:36:00	17:36:00		Żołnierzy I AWP / Morgowa 04 nż
+1792	4	195103	17:39:00	17:39:00		Rzecha / Załęska 02 nż
+1792	4	195103	17:40:00	17:40:00		Załęska / Rzecha 04 nż
+1792	4	195103	17:41:00	17:41:00		Załęska Zakład Karny 08 nż
+
+1634	4	194987	18:08:00	18:08:00		Załęska Zakład Karny 08 nż
+1634	4	194987	18:09:00	18:09:00		Załęska / Rzecha 05 nż
+1634	4	194987	18:11:00	18:11:00		Rzecha / Załęska 01 nż
+1634	4	194987	18:13:00	18:13:00		Sieciecha / Załęska 02 nż
+1634	4	194987	18:14:00	18:14:00		Załęska / Konf. Barskich 01 nż
+1634	4	194987	18:15:00	18:15:00		Konf. Barskich / Traugutta 01 nż
+1634	4	194987	18:18:00	18:18:00		Lwowska cmentarz 03
+1634	4	194987	18:19:00	18:19:00		Lwowska Jedn. Wojskowa 01
+1634	4	194987	18:20:00	18:20:00		Piłsudskiego ZDZ 02
+1634	4	194987	18:21:00	18:21:00		Pl. Wolności 04
+1634	4	194987	18:24:00	18:24:00		Piłsudskiego U. Marszałkowski 08
+1634	4	194987	18:26:00	18:26:00		Krakowska Jedn. Wojskowa 02
+1634	4	194987	18:27:00	18:27:00		Krakowska szpital 04
+1634	4	194987	18:28:00	18:28:00		Krakowska galeria 06
+1634	4	194987	18:29:00	18:29:00		Krakowska / Wyzwolenia 08 nż
+1634	4	194987	18:31:00	18:31:00		Krakowska cmentarz 10 nż
+1634	4	194987	18:32:00	18:32:00		Krakowska / Ceramiczna 12
+1634	4	194987	18:33:00	18:33:00		Krakowska Dworzysko 16 nż
+1634	4	194987	18:35:00	18:35:00		Krakowska granica 18 nż
+1634	4	194987	18:37:00	18:37:00		Krakowska granica 15 nż
+
+1792	4	195683	19:17:00	19:17:00		Krakowska granica 15 nż
+1792	4	195683	19:18:00	19:18:00		Krakowska Dworzysko 13 nż
+1792	4	195683	19:20:00	19:20:00		Krakowska / Ustrzycka 11
+1792	4	195683	19:21:00	19:21:00		Krakowska cmentarz 09 nż
+1792	4	195683	19:23:00	19:23:00		Krakowska / Mielecka 07 nż
+1792	4	195683	19:24:00	19:24:00		Krakowska galeria 05
+1792	4	195683	19:25:00	19:25:00		Krakowska szpital 03
+1792	4	195683	19:27:00	19:27:00		Krakowska Jedn. Wojskowa 01
+1792	4	195683	19:29:00	19:29:00		Piłsudskiego U. Wojewódzki 03
+1792	4	195683	19:30:00	19:30:00		Pl. Wolności 01
+1792	4	195683	19:32:00	19:32:00		Lwowska Jedn. Wojskowa 02
+1792	4	195683	19:34:00	19:34:00		Lwowska cmentarz 04
+1792	4	195683	19:35:00	19:35:00		Żołnierzy I Armii Wojska Polskiego 02
+1792	4	195683	19:36:00	19:36:00		Żołnierzy I AWP / Morgowa 04 nż
+1792	4	195683	19:39:00	19:39:00		Rzecha / Załęska 02 nż
+1792	4	195683	19:40:00	19:40:00		Załęska / Rzecha 04 nż
+1792	4	195683	19:41:00	19:41:00		Załęska Zakład Karny 08 nż
+
+1634	4	195698	20:08:00	20:08:00		Załęska Zakład Karny 08 nż
+1634	4	195698	20:09:00	20:09:00		Załęska / Rzecha 05 nż
+1634	4	195698	20:11:00	20:11:00		Rzecha / Załęska 01 nż
+1634	4	195698	20:13:00	20:13:00		Sieciecha / Załęska 02 nż
+1634	4	195698	20:14:00	20:14:00		Załęska / Konf. Barskich 01 nż
+1634	4	195698	20:15:00	20:15:00		Konf. Barskich / Traugutta 01 nż
+1634	4	195698	20:18:00	20:18:00		Lwowska cmentarz 03
+1634	4	195698	20:19:00	20:19:00		Lwowska Jedn. Wojskowa 01
+1634	4	195698	20:20:00	20:20:00		Piłsudskiego ZDZ 02
+1634	4	195698	20:21:00	20:21:00		Pl. Wolności 04
+1634	4	195698	20:24:00	20:24:00		Piłsudskiego U. Marszałkowski 08
+1634	4	195698	20:26:00	20:26:00		Krakowska Jedn. Wojskowa 02
+1634	4	195698	20:27:00	20:27:00		Krakowska szpital 04
+1634	4	195698	20:28:00	20:28:00		Krakowska galeria 06
+1634	4	195698	20:29:00	20:29:00		Krakowska / Wyzwolenia 08 nż
+1634	4	195698	20:31:00	20:31:00		Krakowska cmentarz 10 nż
+1634	4	195698	20:32:00	20:32:00		Krakowska / Ceramiczna 12
+1634	4	195698	20:33:00	20:33:00		Krakowska Dworzysko 16 nż
+1634	4	195698	20:35:00	20:35:00		Krakowska granica 18 nż
+1634	4	195698	20:37:00	20:37:00		Krakowska granica 15 nż
+
+1792	4	195252	21:18:00	21:18:00		Krakowska granica 15 nż
+1792	4	195252	21:19:00	21:19:00		Krakowska Dworzysko 13 nż
+1792	4	195252	21:21:00	21:21:00		Krakowska / Ustrzycka 11
+1792	4	195252	21:22:00	21:22:00		Krakowska cmentarz 09 nż
+1792	4	195252	21:24:00	21:24:00		Krakowska / Mielecka 07 nż
+1792	4	195252	21:25:00	21:25:00		Krakowska galeria 05
+1792	4	195252	21:26:00	21:26:00		Krakowska szpital 03
+1792	4	195252	21:27:00	21:27:00		Krakowska Jedn. Wojskowa 01
+1792	4	195252	21:29:00	21:29:00		Piłsudskiego U. Wojewódzki 03
+1792	4	195252	21:30:00	21:30:00		Pl. Wolności 01
+1792	4	195252	21:32:00	21:32:00		Lwowska Jedn. Wojskowa 02
+1792	4	195252	21:34:00	21:34:00		Lwowska cmentarz 04
+1792	4	195252	21:35:00	21:35:00		Żołnierzy I Armii Wojska Polskiego 02
+1792	4	195252	21:36:00	21:36:00		Żołnierzy I AWP / Morgowa 04 nż
+1792	4	195252	21:38:00	21:38:00		Rzecha / Załęska 02 nż
+1792	4	195252	21:39:00	21:39:00		Załęska / Rzecha 04 nż
+1792	4	195252	21:40:00	21:40:00		Załęska Zakład Karny 08 nż

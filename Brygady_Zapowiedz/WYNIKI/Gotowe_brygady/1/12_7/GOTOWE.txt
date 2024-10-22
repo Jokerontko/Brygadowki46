@@ -1,0 +1,572 @@
+route_id	service_id	trip_id	arrival_time	departure_time	stop_headsign	stop_name
+-------------------------------------------------------------------------------
+1457	1	191689	06:35:00	06:35:00		Bardowskiego 01
+1457	1	191689	06:37:00	06:37:00		Pl. Wolności 04
+1457	1	191689	06:38:00	06:38:00		Piłsudskiego U. Wojewódzki 06
+1457	1	191689	06:41:00	06:41:00		Marszałkowska 02
+1457	1	191689	06:42:00	06:42:00		Lubelska szpital 02
+1457	1	191689	06:44:00	06:44:00		Lubelska kościół 06 nż
+1457	1	191689	06:46:00	06:46:00		Lubelska / Borowa 08 nż
+1457	1	191689	06:47:00	06:47:00		Lubelska Os. Ogrody 10 nż
+1457	1	191689	06:48:00	06:48:00		Lubelska Ogrody Hiszpańskie 12 nż
+1457	1	191689	06:49:00	06:49:00		Lubelska MPK 14 nż
+1457	1	191689	06:50:00	06:50:00		Lubelska granica 16 nż
+1457	1	191689	06:51:00	06:51:00		Trzebownisko 29 nż
+1457	1	191689	06:52:00	06:52:00		Trzebownisko mleczarnia 31 nż
+1457	1	191689	06:54:00	06:54:00		Trzebownisko pływalnia 33 nż
+1457	1	191689	06:55:00	06:55:00		Nowa Wieś 35 nż
+1457	1	191689	06:56:00	06:56:00		Nowa Wieś Port Lotniczy 37 nż
+1457	1	191689	06:59:00	06:59:00		Jasionka Aeroklub 02 nż
+1457	1	191689	07:00:00	07:00:00		Jasionka przedszkole ochronka 04 nż
+1457	1	191689	07:02:00	07:02:00		Jasionka Borg 06 nż
+1457	1	191689	07:04:00	07:04:00		Jasionka PCN Łukasiewicz 14 nż
+1457	1	191689	07:05:00	07:05:00		Jasionka - Port Lotniczy
+1457	1	191689	07:08:00	07:08:00		Tajęcina MTU Aero Engines 04 nż
+1457	1	191689	07:09:00	07:09:00		Tajęcina Goodrich / OPTeam 02 nż
+1457	1	191689	07:10:00	07:10:00		Jasionka Aero 01 nż
+1457	1	191689	07:12:00	07:12:00		Jasionka EME Aero 02
+
+1438	1	190842	07:44:00	07:44:00		Jasionka EME Aero 01
+1438	1	190842	07:45:00	07:45:00		Jasionka Aero 02 nż
+1438	1	190842	07:46:00	07:46:00		Tajęcina Goodrich / OPTeam 01 nż
+1438	1	190842	07:47:00	07:47:00		Tajęcina MTU Aero Engines 05 nż
+1438	1	190842	07:49:00	07:49:00		Jasionka PCN Łukasiewicz 14 nż
+1438	1	190842	07:50:00	07:50:00		Jasionka - Port Lotniczy
+1438	1	190842	07:51:00	07:51:00		Jasionka Port Lotniczy CWK 05 nż
+1438	1	190842	07:53:00	07:53:00		Jasionka Borg 07 nż
+1438	1	190842	07:55:00	07:55:00		Jasionka przedszkole ochronka 09 nż
+1438	1	190842	07:56:00	07:56:00		Jasionka Aeroklub 11 nż
+1438	1	190842	07:58:00	07:58:00		Nowa Wieś Port Lotniczy 48 nż
+1438	1	190842	07:59:00	07:59:00		Nowa Wieś 50 nż
+1438	1	190842	08:00:00	08:00:00		Trzebownisko pływalnia 52 nż
+1438	1	190842	08:02:00	08:02:00		Trzebownisko mleczarnia 54 nż
+1438	1	190842	08:04:00	08:04:00		Trzebownisko 56 nż
+1438	1	190842	08:05:00	08:05:00		Lubelska granica 15 nż
+1438	1	190842	08:06:00	08:06:00		Lubelska MPK 13 nż
+1438	1	190842	08:07:00	08:07:00		Lubelska Ogrody Hiszpańskie 11 nż
+1438	1	190842	08:08:00	08:08:00		Lubelska Os. Ogrody 09 nż
+1438	1	190842	08:09:00	08:09:00		Lubelska / Borowa 07 nż
+1438	1	190842	08:11:00	08:11:00		Lubelska kościół 05 nż
+1438	1	190842	08:12:00	08:12:00		Lubelska szpital 01
+1438	1	190842	08:15:00	08:15:00		Marszałkowska 01
+1438	1	190842	08:19:00	08:19:00		Piłsudskiego U. Wojewódzki 03
+1438	1	190842	08:22:00	08:22:00		Bardowskiego 04
+
+1615	1	190599	09:41:00	09:41:00		Trembeckiego ZTM pętla 01
+1615	1	190599	09:44:00	09:44:00		Lubelska kościół 05 nż
+1615	1	190599	09:45:00	09:45:00		Lubelska szpital 01
+1615	1	190599	09:47:00	09:47:00		Marszałkowska 01
+1615	1	190599	09:51:00	09:51:00		Piłsudskiego U. Wojewódzki 03
+1615	1	190599	09:52:00	09:52:00		Pl. Wolności 01
+1615	1	190599	09:55:00	09:55:00		Targowa 01
+1615	1	190599	09:58:00	09:58:00		Szopena Filharmonia 02 nż
+1615	1	190599	09:59:00	09:59:00		Kilara 01 nż
+1615	1	190599	10:01:00	10:01:00		Hetmańska podzamcze 02 nż
+1615	1	190599	10:02:00	10:02:00		Hetmańska przychodnia 04
+1615	1	190599	10:03:00	10:03:00		Hetmańska ZS. Mech. 06
+1615	1	190599	10:06:00	10:06:00		Powst. Warszawy stadion 06
+1615	1	190599	10:08:00	10:08:00		Powst. Warszawy Dom Studenta 08
+1615	1	190599	10:09:00	10:09:00		Powst. Warszawy / Graniczna 10
+1615	1	190599	10:10:00	10:10:00		Powst. Warszawy / Sikorskiego 12 nż
+1615	1	190599	10:11:00	10:11:00		Sikorskiego Katedra 04 nż
+1615	1	190599	10:12:00	10:12:00		Sikorskiego / Łukasiewicza 06 nż
+1615	1	190599	10:13:00	10:13:00		Sikorskiego domki 08 nż
+1615	1	190599	10:14:00	10:14:00		Sikorskiego / Strażacka 10 nż
+1615	1	190599	10:16:00	10:16:00		Sikorskiego / Białogórska 12 nż
+1615	1	190599	10:17:00	10:17:00		Sikorskiego / Rodzinna 14 nż
+1615	1	190599	10:19:00	10:19:00		Sikorskiego / Kard. K. Wojtyły 16 nż
+1615	1	190599	10:20:00	10:20:00		Sikorskiego granica 18 nż
+1615	1	190599	10:21:00	10:21:00		Tyczyn Grunwaldzka POM 02 nż
+1615	1	190599	10:22:00	10:22:00		Tyczyn Orkana skrzyżowanie 13 nż
+1615	1	190599	10:23:00	10:23:00		Budziwojska / Herbowa 02 nż
+1615	1	190599	10:24:00	10:24:00		Budziwojska / Legionistów 04 nż
+1615	1	190599	10:25:00	10:25:00		Budziwojska / Tarnopolska 06 nż
+1615	1	190599	10:26:00	10:26:00		Budziwojska / Karmelicka 08 nż
+1615	1	190599	10:27:00	10:27:00		Budziwojska / Jana Pawła II 10 nż
+1615	1	190599	10:28:00	10:28:00		Budziwojska szkoła 12
+1615	1	190599	10:29:00	10:29:00		Budziwojska / Podleśna 14 nż
+1615	1	190599	10:31:00	10:31:00		Budziwojska / Kwiatowa 16 nż
+1615	1	190599	10:32:00	10:32:00		Poselska / Budziwojska 03 nż
+1615	1	190599	10:33:00	10:33:00		Poselska / Podleśna 01 nż
+1615	1	190599	10:35:00	10:35:00		Podleśna / Podlesie 02 nż
+1615	1	190599	10:36:00	10:36:00		Podleśna / Liliowa 04 nż
+1615	1	190599	10:37:00	10:37:00		Podleśna / Nadziei 06 nż
+1615	1	190599	10:39:00	10:39:00		Podleśna / Jarzębinowa 08 nż
+1615	1	190599	10:40:00	10:40:00		Hermanowa Przylasek 01 nż
+1615	1	190599	10:41:00	10:41:00		Hermanowa Przylasek źródełko 03 nż
+1615	1	190599	10:42:00	10:42:00		Hermanowa Przylasek pętla 06
+
+1616	1	191251	10:52:00	10:52:00		Hermanowa Przylasek pętla 06
+1616	1	191251	10:53:00	10:53:00		Hermanowa Przylasek źródełko 04 nż
+1616	1	191251	10:54:00	10:54:00		Hermanowa Przylasek 02 nż
+1616	1	191251	10:55:00	10:55:00		Podleśna / Jarzębinowa 07 nż
+1616	1	191251	10:57:00	10:57:00		Podleśna / Nadziei 05 nż
+1616	1	191251	10:58:00	10:58:00		Podleśna / Laskowa 03 nż
+1616	1	191251	10:59:00	10:59:00		Podleśna / Podlesie 01 nż
+1616	1	191251	11:01:00	11:01:00		Poselska / Podleśna 02 nż
+1616	1	191251	11:02:00	11:02:00		Poselska / Budziwojska 04 nż
+1616	1	191251	11:03:00	11:03:00		Budziwojska / Kwiatowa 15 nż
+1616	1	191251	11:05:00	11:05:00		Budziwojska / Podleśna 13 nż
+1616	1	191251	11:06:00	11:06:00		Budziwojska cmentarz 11
+1616	1	191251	11:07:00	11:07:00		Budziwojska / Jana Pawła II 09 nż
+1616	1	191251	11:08:00	11:08:00		Budziwojska / Karmelicka 07 nż
+1616	1	191251	11:09:00	11:09:00		Budziwojska / Tarnopolska 05 nż
+1616	1	191251	11:10:00	11:10:00		Budziwojska / Legionistów 03 nż
+1616	1	191251	11:11:00	11:11:00		Budziwojska / Herbowa 01 nż
+1616	1	191251	11:12:00	11:12:00		Tyczyn Orkana skrzyżowanie 16
+1616	1	191251	11:14:00	11:14:00		Tyczyn Grunwaldzka POM 27 nż
+1616	1	191251	11:15:00	11:15:00		Sikorskiego granica 15 nż
+1616	1	191251	11:16:00	11:16:00		Sikorskiego / Ruczajowa 13 nż
+1616	1	191251	11:17:00	11:17:00		Sikorskiego / Kard. K. Wojtyły 11 nż
+1616	1	191251	11:18:00	11:18:00		Sikorskiego / Rodzinna 09 nż
+1616	1	191251	11:19:00	11:19:00		Sikorskiego / Białogórska 07 nż
+1616	1	191251	11:21:00	11:21:00		Sikorskiego / Robotnicza 05 nż
+1616	1	191251	11:22:00	11:22:00		Sikorskiego domki 03 nż
+1616	1	191251	11:24:00	11:24:00		Sikorskiego Katedra 01 nż
+1616	1	191251	11:27:00	11:27:00		Powst. Warszawy / Rejtana 13
+1616	1	191251	11:28:00	11:28:00		Powst. Warszawy szkoła 11
+1616	1	191251	11:29:00	11:29:00		Powst. Warszawy Dom Studenta 09
+1616	1	191251	11:33:00	11:33:00		Hetmańska stadion 07
+1616	1	191251	11:34:00	11:34:00		Hetmańska ZS. Mech. 05
+1616	1	191251	11:35:00	11:35:00		Hetmańska przychodnia 03
+1616	1	191251	11:36:00	11:36:00		Hetmańska podzamcze 01 nż
+1616	1	191251	11:37:00	11:37:00		Kilara 02 nż
+1616	1	191251	11:39:00	11:39:00		Szopena Filharmonia 01 nż
+1616	1	191251	11:42:00	11:42:00		Targowa 02
+1616	1	191251	11:45:00	11:45:00		Pl. Wolności 04
+1616	1	191251	11:46:00	11:46:00		Piłsudskiego U. Wojewódzki 06
+1616	1	191251	11:50:00	11:50:00		Marszałkowska 02
+1616	1	191251	11:51:00	11:51:00		Lubelska szpital 02
+1616	1	191251	11:53:00	11:53:00		Lubelska kościół 06 nż
+1616	1	191251	11:55:00	11:55:00		Trembeckiego ZTM pętla 01
+
+1615	1	190651	12:38:00	12:38:00		Trembeckiego ZTM pętla 01
+1615	1	190651	12:41:00	12:41:00		Lubelska kościół 05 nż
+1615	1	190651	12:43:00	12:43:00		Lubelska szpital 01
+1615	1	190651	12:46:00	12:46:00		Marszałkowska 01
+1615	1	190651	12:50:00	12:50:00		Piłsudskiego U. Wojewódzki 03
+1615	1	190651	12:51:00	12:51:00		Pl. Wolności 01
+1615	1	190651	12:54:00	12:54:00		Targowa 01
+1615	1	190651	12:57:00	12:57:00		Szopena Filharmonia 02 nż
+1615	1	190651	12:58:00	12:58:00		Kilara 01 nż
+1615	1	190651	13:00:00	13:00:00		Hetmańska podzamcze 02 nż
+1615	1	190651	13:01:00	13:01:00		Hetmańska przychodnia 04
+1615	1	190651	13:02:00	13:02:00		Hetmańska ZS. Mech. 06
+1615	1	190651	13:06:00	13:06:00		Powst. Warszawy stadion 06
+1615	1	190651	13:09:00	13:09:00		Powst. Warszawy Dom Studenta 08
+1615	1	190651	13:10:00	13:10:00		Powst. Warszawy / Graniczna 10
+1615	1	190651	13:11:00	13:11:00		Powst. Warszawy / Sikorskiego 12 nż
+1615	1	190651	13:13:00	13:13:00		Sikorskiego Katedra 04 nż
+1615	1	190651	13:14:00	13:14:00		Sikorskiego / Łukasiewicza 06 nż
+1615	1	190651	13:15:00	13:15:00		Sikorskiego domki 08 nż
+1615	1	190651	13:16:00	13:16:00		Sikorskiego / Strażacka 10 nż
+1615	1	190651	13:18:00	13:18:00		Sikorskiego / Białogórska 12 nż
+1615	1	190651	13:19:00	13:19:00		Sikorskiego / Rodzinna 14 nż
+1615	1	190651	13:21:00	13:21:00		Sikorskiego / Kard. K. Wojtyły 16 nż
+1615	1	190651	13:22:00	13:22:00		Sikorskiego granica 18 nż
+1615	1	190651	13:23:00	13:23:00		Tyczyn Grunwaldzka POM 02 nż
+1615	1	190651	13:24:00	13:24:00		Tyczyn Orkana skrzyżowanie 13 nż
+1615	1	190651	13:25:00	13:25:00		Budziwojska / Herbowa 02 nż
+1615	1	190651	13:26:00	13:26:00		Budziwojska / Legionistów 04 nż
+1615	1	190651	13:27:00	13:27:00		Budziwojska / Tarnopolska 06 nż
+1615	1	190651	13:28:00	13:28:00		Budziwojska / Karmelicka 08 nż
+1615	1	190651	13:29:00	13:29:00		Budziwojska / Jana Pawła II 10 nż
+1615	1	190651	13:30:00	13:30:00		Budziwojska szkoła 12
+1615	1	190651	13:31:00	13:31:00		Budziwojska / Podleśna 14 nż
+1615	1	190651	13:33:00	13:33:00		Budziwojska / Kwiatowa 16 nż
+1615	1	190651	13:34:00	13:34:00		Poselska / Budziwojska 03 nż
+1615	1	190651	13:35:00	13:35:00		Poselska / Podleśna 01 nż
+1615	1	190651	13:37:00	13:37:00		Podleśna / Podlesie 02 nż
+1615	1	190651	13:38:00	13:38:00		Podleśna / Liliowa 04 nż
+1615	1	190651	13:39:00	13:39:00		Podleśna / Nadziei 06 nż
+1615	1	190651	13:41:00	13:41:00		Podleśna / Jarzębinowa 08 nż
+1615	1	190651	13:42:00	13:42:00		Hermanowa Przylasek 01 nż
+1615	1	190651	13:43:00	13:43:00		Hermanowa Przylasek źródełko 03 nż
+1615	1	190651	13:44:00	13:44:00		Hermanowa Przylasek pętla 06
+
+1616	1	189240	13:52:00	13:52:00		Hermanowa Przylasek pętla 06
+1616	1	189240	13:53:00	13:53:00		Hermanowa Przylasek źródełko 04 nż
+1616	1	189240	13:54:00	13:54:00		Hermanowa Przylasek 02 nż
+1616	1	189240	13:55:00	13:55:00		Podleśna / Jarzębinowa 07 nż
+1616	1	189240	13:57:00	13:57:00		Podleśna / Nadziei 05 nż
+1616	1	189240	13:58:00	13:58:00		Podleśna / Laskowa 03 nż
+1616	1	189240	13:59:00	13:59:00		Podleśna / Podlesie 01 nż
+1616	1	189240	14:01:00	14:01:00		Poselska / Podleśna 02 nż
+1616	1	189240	14:02:00	14:02:00		Poselska / Budziwojska 04 nż
+1616	1	189240	14:03:00	14:03:00		Budziwojska / Kwiatowa 15 nż
+1616	1	189240	14:05:00	14:05:00		Budziwojska / Podleśna 13 nż
+1616	1	189240	14:06:00	14:06:00		Budziwojska cmentarz 11
+1616	1	189240	14:07:00	14:07:00		Budziwojska / Jana Pawła II 09 nż
+1616	1	189240	14:08:00	14:08:00		Budziwojska / Karmelicka 07 nż
+1616	1	189240	14:09:00	14:09:00		Budziwojska / Tarnopolska 05 nż
+1616	1	189240	14:10:00	14:10:00		Budziwojska / Legionistów 03 nż
+1616	1	189240	14:11:00	14:11:00		Budziwojska / Herbowa 01 nż
+1616	1	189240	14:12:00	14:12:00		Tyczyn Orkana skrzyżowanie 16
+1616	1	189240	14:14:00	14:14:00		Tyczyn Grunwaldzka POM 27 nż
+1616	1	189240	14:15:00	14:15:00		Sikorskiego granica 15 nż
+1616	1	189240	14:16:00	14:16:00		Sikorskiego / Ruczajowa 13 nż
+1616	1	189240	14:17:00	14:17:00		Sikorskiego / Kard. K. Wojtyły 11 nż
+1616	1	189240	14:18:00	14:18:00		Sikorskiego / Rodzinna 09 nż
+1616	1	189240	14:19:00	14:19:00		Sikorskiego / Białogórska 07 nż
+1616	1	189240	14:21:00	14:21:00		Sikorskiego / Robotnicza 05 nż
+1616	1	189240	14:22:00	14:22:00		Sikorskiego domki 03 nż
+1616	1	189240	14:24:00	14:24:00		Sikorskiego Katedra 01 nż
+1616	1	189240	14:27:00	14:27:00		Powst. Warszawy / Rejtana 13
+1616	1	189240	14:28:00	14:28:00		Powst. Warszawy szkoła 11
+1616	1	189240	14:29:00	14:29:00		Powst. Warszawy Dom Studenta 09
+1616	1	189240	14:33:00	14:33:00		Hetmańska stadion 07
+1616	1	189240	14:34:00	14:34:00		Hetmańska ZS. Mech. 05
+1616	1	189240	14:35:00	14:35:00		Hetmańska przychodnia 03
+1616	1	189240	14:36:00	14:36:00		Hetmańska podzamcze 01 nż
+1616	1	189240	14:39:00	14:39:00		Kilara 02 nż
+1616	1	189240	14:41:00	14:41:00		Szopena Filharmonia 01 nż
+1616	1	189240	14:44:00	14:44:00		Targowa 02
+1616	1	189240	14:48:00	14:48:00		Pl. Wolności 04
+1616	1	189240	14:51:00	14:51:00		Piłsudskiego U. Wojewódzki 06
+1616	1	189240	14:55:00	14:55:00		Marszałkowska 02
+1616	1	189240	14:56:00	14:56:00		Lubelska szpital 02
+1616	1	189240	14:58:00	14:58:00		Lubelska kościół 06 nż
+1616	1	189240	15:00:00	15:00:00		Trembeckiego ZTM pętla 01
+
+1538	1	191154	15:35:00	15:35:00		Trembeckiego ZTM pętla 01
+1538	1	191154	15:36:00	15:36:00		Trembeckiego / Siemieńskiego 04 nż
+1538	1	191154	15:37:00	15:37:00		Siemieńskiego U. Skarbowy 03 nż
+1538	1	191154	15:38:00	15:38:00		Siemieńskiego Dom Studenta 01 nż
+1538	1	191154	15:39:00	15:39:00		Żółkiewskiego / Kochanowskiego 01 nż
+1538	1	191154	15:41:00	15:41:00		Bardowskiego 02
+1538	1	191154	15:45:00	15:45:00		Targowa 01
+1538	1	191154	15:49:00	15:49:00		Szopena Filharmonia 02 nż
+1538	1	191154	15:50:00	15:50:00		Kilara 01 nż
+1538	1	191154	15:53:00	15:53:00		Hetmańska podzamcze 02 nż
+1538	1	191154	15:54:00	15:54:00		Hetmańska przychodnia 04
+1538	1	191154	15:55:00	15:55:00		Hetmańska ZS. Mech. 06
+1538	1	191154	16:04:00	16:04:00		Powst. Warszawy stadion 06
+1538	1	191154	16:08:00	16:08:00		Kwiatkowskiego / Powst. Warszawy 02
+1538	1	191154	16:09:00	16:09:00		Kwiatkowskiego Dom Studenta 04 nż
+1538	1	191154	16:11:00	16:11:00		Kwiatkowskiego / Strażacka 06 nż
+1538	1	191154	16:12:00	16:12:00		Kwiatkowskiego żwirownia 08 nż
+1538	1	191154	16:13:00	16:13:00		Kwiatkowskiego / Podmiejska 10 nż
+1538	1	191154	16:15:00	16:15:00		Kwiatkowskiego / Jachowicza 12 nż
+1538	1	191154	16:16:00	16:16:00		Kwiatkowskiego hotel 14 nż
+1538	1	191154	16:17:00	16:17:00		Jana Pawła II OSP 02 nż
+1538	1	191154	16:18:00	16:18:00		Jana Pawła II / Gościnna 04 nż
+1538	1	191154	16:19:00	16:19:00		Jana Pawła II / Św. Antoniego 06 nż
+1538	1	191154	16:20:00	16:20:00		Jana Pawła II / Zakątkowa 08 nż
+1538	1	191154	16:21:00	16:21:00		Jana Pawła II / Herbowa 10 nż
+1538	1	191154	16:22:00	16:22:00		Jana Pawła II / Strzelców 14 nż
+1538	1	191154	16:24:00	16:24:00		Budziwojska / Jana Pawła II 10 nż
+1538	1	191154	16:25:00	16:25:00		Budziwojska szkoła 12
+1538	1	191154	16:26:00	16:26:00		Budziwojska / Podleśna 14 nż
+1538	1	191154	16:27:00	16:27:00		Budziwojska / Kwiatowa 16 nż
+1538	1	191154	16:28:00	16:28:00		Budziwojska / Poselska 18 nż
+1538	1	191154	16:29:00	16:29:00		Budziwojska sklep 20 nż
+1538	1	191154	16:31:00	16:31:00		Budziwojska pętla 22 nż
+
+1534	1	189349	16:45:00	16:45:00		Budziwojska pętla 22 nż
+1534	1	189349	16:46:00	16:46:00		Budziwojska sklep 19 nż
+1534	1	189349	16:47:00	16:47:00		Budziwojska / Poselska 17 nż
+1534	1	189349	16:48:00	16:48:00		Budziwojska / Kwiatowa 15 nż
+1534	1	189349	16:50:00	16:50:00		Budziwojska / Podleśna 13 nż
+1534	1	189349	16:51:00	16:51:00		Budziwojska cmentarz 11
+1534	1	189349	16:52:00	16:52:00		Jana Pawła II / Budziwojska 15 nż
+1534	1	189349	16:53:00	16:53:00		Jana Pawła II / Strzelców 13 nż
+1534	1	189349	16:55:00	16:55:00		Jana Pawła II / Herbowa 09 nż
+1534	1	189349	16:56:00	16:56:00		Jana Pawła II / Zakątkowa 07 nż
+1534	1	189349	16:57:00	16:57:00		Jana Pawła II / Św. Antoniego 05 nż
+1534	1	189349	16:58:00	16:58:00		Jana Pawła II / Gościnna 03 nż
+1534	1	189349	16:59:00	16:59:00		Jana Pawła II OSP 01 nż
+1534	1	189349	17:00:00	17:00:00		Kwiatkowskiego hotel 11 nż
+1534	1	189349	17:01:00	17:01:00		Kwiatkowskiego / Jachowicza 09 nż
+1534	1	189349	17:02:00	17:02:00		Kwiatkowskiego / Koło 07 nż
+1534	1	189349	17:03:00	17:03:00		Kwiatkowskiego żwirownia 05 nż
+1534	1	189349	17:04:00	17:04:00		Kwiatkowskiego / Strażacka 03 nż
+1534	1	189349	17:06:00	17:06:00		Kwiatkowskiego Dom Studenta 01 nż
+1534	1	189349	17:09:00	17:09:00		Powst. Warszawy / Podwisłocze 07 nż
+1534	1	189349	17:11:00	17:11:00		Hetmańska stadion 07
+1534	1	189349	17:12:00	17:12:00		Hetmańska ZS. Mech. 05
+1534	1	189349	17:13:00	17:13:00		Hetmańska przychodnia 03
+1534	1	189349	17:14:00	17:14:00		Hetmańska podzamcze 01 nż
+1534	1	189349	17:15:00	17:15:00		Kilara 02 nż
+1534	1	189349	17:17:00	17:17:00		Szopena Filharmonia 01 nż
+1534	1	189349	17:19:00	17:19:00		Targowa 02
+1534	1	189349	17:21:00	17:21:00		Głowackiego ZUS 01
+1534	1	189349	17:23:00	17:23:00		Siemieńskiego / Kochanowskiego 02 nż
+1534	1	189349	17:24:00	17:24:00		Siemieńskiego U. Skarbowy 04 nż
+1534	1	189349	17:25:00	17:25:00		Trembeckiego / Siemieńskiego 07 nż
+1534	1	189349	17:26:00	17:26:00		Trembeckiego ZTM pętla 01
+
+1538	1	191205	17:50:00	17:50:00		Trembeckiego ZTM pętla 01
+1538	1	191205	17:51:00	17:51:00		Trembeckiego / Siemieńskiego 04 nż
+1538	1	191205	17:52:00	17:52:00		Siemieńskiego U. Skarbowy 03 nż
+1538	1	191205	17:53:00	17:53:00		Siemieńskiego Dom Studenta 01 nż
+1538	1	191205	17:54:00	17:54:00		Żółkiewskiego / Kochanowskiego 01 nż
+1538	1	191205	17:56:00	17:56:00		Bardowskiego 02
+1538	1	191205	17:59:00	17:59:00		Targowa 01
+1538	1	191205	18:01:00	18:01:00		Szopena Filharmonia 02 nż
+1538	1	191205	18:02:00	18:02:00		Kilara 01 nż
+1538	1	191205	18:04:00	18:04:00		Hetmańska podzamcze 02 nż
+1538	1	191205	18:05:00	18:05:00		Hetmańska przychodnia 04
+1538	1	191205	18:06:00	18:06:00		Hetmańska ZS. Mech. 06
+1538	1	191205	18:10:00	18:10:00		Powst. Warszawy stadion 06
+1538	1	191205	18:12:00	18:12:00		Kwiatkowskiego / Powst. Warszawy 02
+1538	1	191205	18:13:00	18:13:00		Kwiatkowskiego Dom Studenta 04 nż
+1538	1	191205	18:14:00	18:14:00		Kwiatkowskiego / Strażacka 06 nż
+1538	1	191205	18:15:00	18:15:00		Kwiatkowskiego żwirownia 08 nż
+1538	1	191205	18:16:00	18:16:00		Kwiatkowskiego / Podmiejska 10 nż
+1538	1	191205	18:18:00	18:18:00		Kwiatkowskiego / Jachowicza 12 nż
+1538	1	191205	18:19:00	18:19:00		Kwiatkowskiego hotel 14 nż
+1538	1	191205	18:20:00	18:20:00		Jana Pawła II OSP 02 nż
+1538	1	191205	18:21:00	18:21:00		Jana Pawła II / Gościnna 04 nż
+1538	1	191205	18:22:00	18:22:00		Jana Pawła II / Św. Antoniego 06 nż
+1538	1	191205	18:23:00	18:23:00		Jana Pawła II / Zakątkowa 08 nż
+1538	1	191205	18:24:00	18:24:00		Jana Pawła II / Herbowa 10 nż
+1538	1	191205	18:25:00	18:25:00		Jana Pawła II / Strzelców 14 nż
+1538	1	191205	18:27:00	18:27:00		Budziwojska / Jana Pawła II 10 nż
+1538	1	191205	18:28:00	18:28:00		Budziwojska szkoła 12
+1538	1	191205	18:29:00	18:29:00		Budziwojska / Podleśna 14 nż
+1538	1	191205	18:30:00	18:30:00		Budziwojska / Kwiatowa 16 nż
+1538	1	191205	18:31:00	18:31:00		Budziwojska / Poselska 18 nż
+1538	1	191205	18:32:00	18:32:00		Budziwojska sklep 20 nż
+1538	1	191205	18:34:00	18:34:00		Budziwojska pętla 22 nż
+
+1534	1	189118	18:45:00	18:45:00		Budziwojska pętla 22 nż
+1534	1	189118	18:46:00	18:46:00		Budziwojska sklep 19 nż
+1534	1	189118	18:47:00	18:47:00		Budziwojska / Poselska 17 nż
+1534	1	189118	18:48:00	18:48:00		Budziwojska / Kwiatowa 15 nż
+1534	1	189118	18:50:00	18:50:00		Budziwojska / Podleśna 13 nż
+1534	1	189118	18:51:00	18:51:00		Budziwojska cmentarz 11
+1534	1	189118	18:52:00	18:52:00		Jana Pawła II / Budziwojska 15 nż
+1534	1	189118	18:53:00	18:53:00		Jana Pawła II / Strzelców 13 nż
+1534	1	189118	18:55:00	18:55:00		Jana Pawła II / Herbowa 09 nż
+1534	1	189118	18:56:00	18:56:00		Jana Pawła II / Zakątkowa 07 nż
+1534	1	189118	18:57:00	18:57:00		Jana Pawła II / Św. Antoniego 05 nż
+1534	1	189118	18:58:00	18:58:00		Jana Pawła II / Gościnna 03 nż
+1534	1	189118	18:59:00	18:59:00		Jana Pawła II OSP 01 nż
+1534	1	189118	19:00:00	19:00:00		Kwiatkowskiego hotel 11 nż
+1534	1	189118	19:01:00	19:01:00		Kwiatkowskiego / Jachowicza 09 nż
+1534	1	189118	19:02:00	19:02:00		Kwiatkowskiego / Koło 07 nż
+1534	1	189118	19:03:00	19:03:00		Kwiatkowskiego żwirownia 05 nż
+1534	1	189118	19:04:00	19:04:00		Kwiatkowskiego / Strażacka 03 nż
+1534	1	189118	19:06:00	19:06:00		Kwiatkowskiego Dom Studenta 01 nż
+1534	1	189118	19:08:00	19:08:00		Powst. Warszawy / Podwisłocze 07 nż
+1534	1	189118	19:10:00	19:10:00		Hetmańska stadion 07
+1534	1	189118	19:11:00	19:11:00		Hetmańska ZS. Mech. 05
+1534	1	189118	19:12:00	19:12:00		Hetmańska przychodnia 03
+1534	1	189118	19:13:00	19:13:00		Hetmańska podzamcze 01 nż
+1534	1	189118	19:14:00	19:14:00		Kilara 02 nż
+1534	1	189118	19:15:00	19:15:00		Szopena Filharmonia 01 nż
+1534	1	189118	19:17:00	19:17:00		Targowa 02
+1534	1	189118	19:18:00	19:18:00		Głowackiego ZUS 01
+1534	1	189118	19:20:00	19:20:00		Siemieńskiego / Kochanowskiego 02 nż
+1534	1	189118	19:21:00	19:21:00		Siemieńskiego U. Skarbowy 04 nż
+1534	1	189118	19:22:00	19:22:00		Trembeckiego / Siemieńskiego 07 nż
+1534	1	189118	19:23:00	19:23:00		Trembeckiego ZTM pętla 01
+
+1538	1	191807	19:50:00	19:50:00		Trembeckiego ZTM pętla 01
+1538	1	191807	19:51:00	19:51:00		Trembeckiego / Siemieńskiego 04 nż
+1538	1	191807	19:52:00	19:52:00		Siemieńskiego U. Skarbowy 03 nż
+1538	1	191807	19:53:00	19:53:00		Siemieńskiego Dom Studenta 01 nż
+1538	1	191807	19:54:00	19:54:00		Żółkiewskiego / Kochanowskiego 01 nż
+1538	1	191807	19:56:00	19:56:00		Bardowskiego 02
+1538	1	191807	19:58:00	19:58:00		Targowa 01
+1538	1	191807	20:00:00	20:00:00		Szopena Filharmonia 02 nż
+1538	1	191807	20:01:00	20:01:00		Kilara 01 nż
+1538	1	191807	20:03:00	20:03:00		Hetmańska podzamcze 02 nż
+1538	1	191807	20:04:00	20:04:00		Hetmańska przychodnia 04
+1538	1	191807	20:05:00	20:05:00		Hetmańska ZS. Mech. 06
+1538	1	191807	20:07:00	20:07:00		Powst. Warszawy stadion 06
+1538	1	191807	20:08:00	20:08:00		Kwiatkowskiego / Powst. Warszawy 02
+1538	1	191807	20:09:00	20:09:00		Kwiatkowskiego Dom Studenta 04 nż
+1538	1	191807	20:10:00	20:10:00		Kwiatkowskiego / Strażacka 06 nż
+1538	1	191807	20:11:00	20:11:00		Kwiatkowskiego żwirownia 08 nż
+1538	1	191807	20:12:00	20:12:00		Kwiatkowskiego / Podmiejska 10 nż
+1538	1	191807	20:14:00	20:14:00		Kwiatkowskiego / Jachowicza 12 nż
+1538	1	191807	20:15:00	20:15:00		Kwiatkowskiego hotel 14 nż
+1538	1	191807	20:16:00	20:16:00		Jana Pawła II OSP 02 nż
+1538	1	191807	20:17:00	20:17:00		Jana Pawła II / Gościnna 04 nż
+1538	1	191807	20:18:00	20:18:00		Jana Pawła II / Św. Antoniego 06 nż
+1538	1	191807	20:19:00	20:19:00		Jana Pawła II / Zakątkowa 08 nż
+1538	1	191807	20:20:00	20:20:00		Jana Pawła II / Herbowa 10 nż
+1538	1	191807	20:21:00	20:21:00		Jana Pawła II / Strzelców 14 nż
+1538	1	191807	20:22:00	20:22:00		Budziwojska / Jana Pawła II 10 nż
+1538	1	191807	20:23:00	20:23:00		Budziwojska szkoła 12
+1538	1	191807	20:24:00	20:24:00		Budziwojska / Podleśna 14 nż
+1538	1	191807	20:25:00	20:25:00		Budziwojska / Kwiatowa 16 nż
+1538	1	191807	20:26:00	20:26:00		Budziwojska / Poselska 18 nż
+1538	1	191807	20:27:00	20:27:00		Budziwojska sklep 20 nż
+1538	1	191807	20:29:00	20:29:00		Budziwojska pętla 22 nż
+
+1534	1	190864	20:45:00	20:45:00		Budziwojska pętla 22 nż
+1534	1	190864	20:46:00	20:46:00		Budziwojska sklep 19 nż
+1534	1	190864	20:47:00	20:47:00		Budziwojska / Poselska 17 nż
+1534	1	190864	20:48:00	20:48:00		Budziwojska / Kwiatowa 15 nż
+1534	1	190864	20:50:00	20:50:00		Budziwojska / Podleśna 13 nż
+1534	1	190864	20:51:00	20:51:00		Budziwojska cmentarz 11
+1534	1	190864	20:52:00	20:52:00		Jana Pawła II / Budziwojska 15 nż
+1534	1	190864	20:53:00	20:53:00		Jana Pawła II / Strzelców 13 nż
+1534	1	190864	20:55:00	20:55:00		Jana Pawła II / Herbowa 09 nż
+1534	1	190864	20:56:00	20:56:00		Jana Pawła II / Zakątkowa 07 nż
+1534	1	190864	20:57:00	20:57:00		Jana Pawła II / Św. Antoniego 05 nż
+1534	1	190864	20:58:00	20:58:00		Jana Pawła II / Gościnna 03 nż
+1534	1	190864	20:59:00	20:59:00		Jana Pawła II OSP 01 nż
+1534	1	190864	21:00:00	21:00:00		Kwiatkowskiego hotel 11 nż
+1534	1	190864	21:01:00	21:01:00		Kwiatkowskiego / Jachowicza 09 nż
+1534	1	190864	21:02:00	21:02:00		Kwiatkowskiego / Koło 07 nż
+1534	1	190864	21:03:00	21:03:00		Kwiatkowskiego żwirownia 05 nż
+1534	1	190864	21:04:00	21:04:00		Kwiatkowskiego / Strażacka 03 nż
+1534	1	190864	21:05:00	21:05:00		Kwiatkowskiego Dom Studenta 01 nż
+1534	1	190864	21:07:00	21:07:00		Powst. Warszawy / Podwisłocze 07 nż
+1534	1	190864	21:08:00	21:08:00		Hetmańska stadion 07
+1534	1	190864	21:09:00	21:09:00		Hetmańska ZS. Mech. 05
+1534	1	190864	21:10:00	21:10:00		Hetmańska przychodnia 03
+1534	1	190864	21:11:00	21:11:00		Hetmańska podzamcze 01 nż
+1534	1	190864	21:12:00	21:12:00		Kilara 02 nż
+1534	1	190864	21:13:00	21:13:00		Szopena Filharmonia 01 nż
+1534	1	190864	21:14:00	21:14:00		Targowa 02
+1534	1	190864	21:15:00	21:15:00		Głowackiego ZUS 01
+1534	1	190864	21:17:00	21:17:00		Siemieńskiego / Kochanowskiego 02 nż
+1534	1	190864	21:18:00	21:18:00		Siemieńskiego U. Skarbowy 04 nż
+1534	1	190864	21:19:00	21:19:00		Trembeckiego / Siemieńskiego 07 nż
+1534	1	190864	21:20:00	21:20:00		Trembeckiego ZTM pętla 01
+
+1538	1	191707	21:50:00	21:50:00		Trembeckiego ZTM pętla 01
+1538	1	191707	21:51:00	21:51:00		Trembeckiego / Siemieńskiego 04 nż
+1538	1	191707	21:52:00	21:52:00		Siemieńskiego U. Skarbowy 03 nż
+1538	1	191707	21:53:00	21:53:00		Siemieńskiego Dom Studenta 01 nż
+1538	1	191707	21:54:00	21:54:00		Żółkiewskiego / Kochanowskiego 01 nż
+1538	1	191707	21:56:00	21:56:00		Bardowskiego 02
+1538	1	191707	21:58:00	21:58:00		Targowa 01
+1538	1	191707	21:59:00	21:59:00		Szopena Filharmonia 02 nż
+1538	1	191707	22:00:00	22:00:00		Kilara 01 nż
+1538	1	191707	22:02:00	22:02:00		Hetmańska podzamcze 02 nż
+1538	1	191707	22:03:00	22:03:00		Hetmańska przychodnia 04
+1538	1	191707	22:04:00	22:04:00		Hetmańska ZS. Mech. 06
+1538	1	191707	22:06:00	22:06:00		Powst. Warszawy stadion 06
+1538	1	191707	22:07:00	22:07:00		Kwiatkowskiego / Powst. Warszawy 02
+1538	1	191707	22:08:00	22:08:00		Kwiatkowskiego Dom Studenta 04 nż
+1538	1	191707	22:09:00	22:09:00		Kwiatkowskiego / Strażacka 06 nż
+1538	1	191707	22:10:00	22:10:00		Kwiatkowskiego żwirownia 08 nż
+1538	1	191707	22:11:00	22:11:00		Kwiatkowskiego / Podmiejska 10 nż
+1538	1	191707	22:13:00	22:13:00		Kwiatkowskiego / Jachowicza 12 nż
+1538	1	191707	22:14:00	22:14:00		Kwiatkowskiego hotel 14 nż
+1538	1	191707	22:15:00	22:15:00		Jana Pawła II OSP 02 nż
+1538	1	191707	22:16:00	22:16:00		Jana Pawła II / Gościnna 04 nż
+1538	1	191707	22:17:00	22:17:00		Jana Pawła II / Św. Antoniego 06 nż
+1538	1	191707	22:18:00	22:18:00		Jana Pawła II / Zakątkowa 08 nż
+1538	1	191707	22:19:00	22:19:00		Jana Pawła II / Herbowa 10 nż
+1538	1	191707	22:20:00	22:20:00		Jana Pawła II / Strzelców 14 nż
+1538	1	191707	22:21:00	22:21:00		Budziwojska / Jana Pawła II 10 nż
+1538	1	191707	22:22:00	22:22:00		Budziwojska szkoła 12
+1538	1	191707	22:23:00	22:23:00		Budziwojska / Podleśna 14 nż
+1538	1	191707	22:24:00	22:24:00		Budziwojska / Kwiatowa 16 nż
+1538	1	191707	22:25:00	22:25:00		Budziwojska / Poselska 18 nż
+1538	1	191707	22:26:00	22:26:00		Budziwojska sklep 20 nż
+1538	1	191707	22:28:00	22:28:00		Budziwojska pętla 22 nż
+
+1534	1	190434	22:45:00	22:45:00		Budziwojska pętla 22 nż
+1534	1	190434	22:46:00	22:46:00		Budziwojska sklep 19 nż
+1534	1	190434	22:47:00	22:47:00		Budziwojska / Poselska 17 nż
+1534	1	190434	22:48:00	22:48:00		Budziwojska / Kwiatowa 15 nż
+1534	1	190434	22:49:00	22:49:00		Budziwojska / Podleśna 13 nż
+1534	1	190434	22:50:00	22:50:00		Budziwojska cmentarz 11
+1534	1	190434	22:51:00	22:51:00		Jana Pawła II / Budziwojska 15 nż
+1534	1	190434	22:52:00	22:52:00		Jana Pawła II / Strzelców 13 nż
+1534	1	190434	22:54:00	22:54:00		Jana Pawła II / Herbowa 09 nż
+1534	1	190434	22:55:00	22:55:00		Jana Pawła II / Zakątkowa 07 nż
+1534	1	190434	22:56:00	22:56:00		Jana Pawła II / Św. Antoniego 05 nż
+1534	1	190434	22:57:00	22:57:00		Jana Pawła II / Gościnna 03 nż
+1534	1	190434	22:58:00	22:58:00		Jana Pawła II OSP 01 nż
+1534	1	190434	22:59:00	22:59:00		Kwiatkowskiego hotel 11 nż
+1534	1	190434	23:00:00	23:00:00		Kwiatkowskiego / Jachowicza 09 nż
+1534	1	190434	23:01:00	23:01:00		Kwiatkowskiego / Koło 07 nż
+1534	1	190434	23:02:00	23:02:00		Kwiatkowskiego żwirownia 05 nż
+1534	1	190434	23:03:00	23:03:00		Kwiatkowskiego / Strażacka 03 nż
+1534	1	190434	23:04:00	23:04:00		Kwiatkowskiego Dom Studenta 01 nż
+1534	1	190434	23:06:00	23:06:00		Powst. Warszawy / Podwisłocze 07 nż
+1534	1	190434	23:07:00	23:07:00		Hetmańska stadion 07
+1534	1	190434	23:08:00	23:08:00		Hetmańska ZS. Mech. 05
+1534	1	190434	23:09:00	23:09:00		Hetmańska przychodnia 03
+1534	1	190434	23:10:00	23:10:00		Hetmańska podzamcze 01 nż
+1534	1	190434	23:11:00	23:11:00		Kilara 02 nż
+1534	1	190434	23:12:00	23:12:00		Szopena Filharmonia 01 nż
+1534	1	190434	23:13:00	23:13:00		Targowa 02
+1534	1	190434	23:14:00	23:14:00		Głowackiego ZUS 01
+1534	1	190434	23:16:00	23:16:00		Siemieńskiego / Kochanowskiego 02 nż
+1534	1	190434	23:17:00	23:17:00		Siemieńskiego U. Skarbowy 04 nż
+1534	1	190434	23:18:00	23:18:00		Trembeckiego / Siemieńskiego 07 nż
+1534	1	190434	23:19:00	23:19:00		Trembeckiego ZTM pętla 01
+
+1545	1	190149	23:20:00	23:20:00		Trembeckiego ZTM pętla 01
+1545	1	190149	23:21:00	23:21:00		Trembeckiego / Siemieńskiego 04 nż
+1545	1	190149	23:22:00	23:22:00		Siemieńskiego U. Skarbowy 03 nż
+1545	1	190149	23:23:00	23:23:00		Siemieńskiego Dom Studenta 01 nż
+1545	1	190149	23:24:00	23:24:00		Żółkiewskiego / Kochanowskiego 01 nż
+1545	1	190149	23:26:00	23:26:00		Bardowskiego 02
+1545	1	190149	23:28:00	23:28:00		Targowa 01
+1545	1	190149	23:29:00	23:29:00		Szopena Filharmonia 02 nż
+1545	1	190149	23:30:00	23:30:00		Kilara 01 nż
+1545	1	190149	23:32:00	23:32:00		Hetmańska podzamcze 02 nż
+1545	1	190149	23:33:00	23:33:00		Hetmańska przychodnia 04
+1545	1	190149	23:34:00	23:34:00		Hetmańska ZS. Mech. 06
+1545	1	190149	23:36:00	23:36:00		Powst. Warszawy stadion 06
+1545	1	190149	23:37:00	23:37:00		Kwiatkowskiego / Powst. Warszawy 02
+1545	1	190149	23:38:00	23:38:00		Kwiatkowskiego Dom Studenta 04 nż
+1545	1	190149	23:39:00	23:39:00		Kwiatkowskiego / Strażacka 06 nż
+1545	1	190149	23:40:00	23:40:00		Kwiatkowskiego żwirownia 08 nż
+1545	1	190149	23:41:00	23:41:00		Kwiatkowskiego / Podmiejska 10 nż
+1545	1	190149	23:43:00	23:43:00		Kwiatkowskiego / Jachowicza 12 nż
+1545	1	190149	23:44:00	23:44:00		Kwiatkowskiego hotel 14 nż
+1545	1	190149	23:45:00	23:45:00		Jana Pawła II OSP 02 nż
+1545	1	190149	23:46:00	23:46:00		Jana Pawła II / Gościnna 04 nż
+1545	1	190149	23:47:00	23:47:00		Jana Pawła II / Św. Antoniego 06 nż
+1545	1	190149	23:48:00	23:48:00		Jana Pawła II / Zakątkowa 08 nż
+1545	1	190149	23:49:00	23:49:00		Jana Pawła II / Herbowa 10 nż
+1545	1	190149	23:50:00	23:50:00		Jana Pawła II / Strzelców 14 nż
+1545	1	190149	23:51:00	23:51:00		Budziwojska / Jana Pawła II 10 nż
+1545	1	190149	23:52:00	23:52:00		Budziwojska szkoła 12
+1545	1	190149	23:53:00	23:53:00		Budziwojska / Podleśna 14 nż
+1545	1	190149	23:54:00	23:54:00		Budziwojska / Kwiatowa 16 nż
+1545	1	190149	23:55:00	23:55:00		Budziwojska / Poselska 18 nż
+1545	1	190149	23:56:00	23:56:00		Budziwojska sklep 20 nż
+1545	1	190149	23:58:00	23:58:00		Budziwojska pętla 22 nż
+1545	1	190149	23:59:00	23:59:00		Siedliska 11 nż
+1545	1	190149	24:00:00	24:00:00		Siedliska Kościół 09 nż
+1545	1	190149	24:01:00	24:01:00		Siedliska Ośrodek Zdrowia 07 nż
+1545	1	190149	24:02:00	24:02:00		Siedliska Skrzyżowanie II 05
+
+1540	1	189991	24:10:00	24:10:00		Siedliska Skrzyżowanie II 05
+1540	1	189991	24:11:00	24:11:00		Siedliska Ośrodek Zdrowia 08 nż
+1540	1	189991	24:12:00	24:12:00		Siedliska Kościół 10 nż
+1540	1	189991	24:13:00	24:13:00		Siedliska 12 nż
+1540	1	189991	24:15:00	24:15:00		Budziwojska pętla 22 nż
+1540	1	189991	24:16:00	24:16:00		Budziwojska sklep 19 nż
+1540	1	189991	24:17:00	24:17:00		Budziwojska / Poselska 17 nż
+1540	1	189991	24:18:00	24:18:00		Budziwojska / Kwiatowa 15 nż
+1540	1	189991	24:19:00	24:19:00		Budziwojska / Podleśna 13 nż
+1540	1	189991	24:20:00	24:20:00		Budziwojska cmentarz 11
+1540	1	189991	24:21:00	24:21:00		Jana Pawła II / Budziwojska 15 nż
+1540	1	189991	24:22:00	24:22:00		Jana Pawła II / Strzelców 13 nż
+1540	1	189991	24:23:00	24:23:00		Jana Pawła II / Herbowa 09 nż
+1540	1	189991	24:24:00	24:24:00		Jana Pawła II / Zakątkowa 07 nż
+1540	1	189991	24:25:00	24:25:00		Jana Pawła II / Św. Antoniego 05 nż
+1540	1	189991	24:26:00	24:26:00		Jana Pawła II / Gościnna 03 nż
+1540	1	189991	24:27:00	24:27:00		Jana Pawła II OSP 01 nż
+1540	1	189991	24:28:00	24:28:00		Kwiatkowskiego hotel 11 nż
+1540	1	189991	24:29:00	24:29:00		Kwiatkowskiego / Jachowicza 09 nż
+1540	1	189991	24:30:00	24:30:00		Kwiatkowskiego / Koło 07 nż
+1540	1	189991	24:31:00	24:31:00		Kwiatkowskiego żwirownia 05 nż
+1540	1	189991	24:32:00	24:32:00		Kwiatkowskiego / Strażacka 03 nż
+1540	1	189991	24:33:00	24:33:00		Kwiatkowskiego Dom Studenta 01 nż
+1540	1	189991	24:34:00	24:34:00		Powst. Warszawy / Podwisłocze 07 nż
+1540	1	189991	24:35:00	24:35:00		Hetmańska stadion 07
+1540	1	189991	24:36:00	24:36:00		Hetmańska ZS. Mech. 05
+1540	1	189991	24:37:00	24:37:00		Hetmańska przychodnia 03
+1540	1	189991	24:38:00	24:38:00		Hetmańska podzamcze 01 nż
+1540	1	189991	24:39:00	24:39:00		Kilara 02 nż
+1540	1	189991	24:40:00	24:40:00		Szopena Filharmonia 01 nż
+1540	1	189991	24:41:00	24:41:00		Targowa 02
+1540	1	189991	24:42:00	24:42:00		Głowackiego ZUS 01
+1540	1	189991	24:44:00	24:44:00		Siemieńskiego / Kochanowskiego 02 nż
+1540	1	189991	24:45:00	24:45:00		Siemieńskiego U. Skarbowy 04 nż
+1540	1	189991	24:46:00	24:46:00		Trembeckiego / Siemieńskiego 07 nż
+1540	1	189991	24:47:00	24:47:00		Trembeckiego ZTM pętla 01

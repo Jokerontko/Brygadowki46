@@ -83,12 +83,69 @@ app.get('/check-maintenance', (req, res) => {
    });
 });
 
+
+// Endpoint sprawdzający plik ChooseYear.txt
+app.get('/check-maintenance', (req, res) => {
+   const maintenanceFilePath = path.join(__dirname, 'public', 'ChooseYear.txt');
+
+   fs.readFile(maintenanceFilePath, 'utf8', (err, data) => {
+      if (err) {
+         return res.status(500).json({
+            error: 'Błąd odczytu pliku'
+         });
+      }
+
+      const isMaintenance = data.trim() === 'Tak';
+      res.json({
+         isMaintenance
+      });
+   });
+});
+
+
+// Endpoint sprawdzający plik ChooseYear.txt
+app.get('/check-chooseyear', (req, res) => {
+   const brygadaTitle = req.query.brygadaTitle; // Pobieranie brygadaTitle z parametru URL
+
+   if (!brygadaTitle) {
+      return res.status(400).json({
+         error: 'Brak parametru brygadaTitle'
+      });
+   }
+
+   const mainChooseYear = path.join(__dirname, 'Brygady_Archiwum', brygadaTitle, 'ChooseYear.txt');
+
+   fs.readFile(mainChooseYear, 'utf8', (err, data) => {
+      if (err) {
+         console.error('Błąd odczytu pliku:', err);
+         return res.status(500).json({
+            error: 'Błąd odczytu pliku'
+         });
+      }
+
+      const isChooseYear = data.trim() === 'Tak';
+      res.json({
+         isChooseYear
+      });
+   });
+});
+
+
 // Endpoint sprawdzający plik ChooseDay.txt
 app.get('/check-chooseday', (req, res) => {
+   const brygadaTitle = req.query.brygadaTitle; // Pobieranie brygadaTitle z parametru URL
+
+   if (!brygadaTitle) {
+      return res.status(400).json({
+         error: 'Brak parametru brygadaTitle'
+      });
+   }
+
    const mainChooseDay = path.join(__dirname, 'Brygady_Archiwum', brygadaTitle, 'ChooseDay.txt');
 
    fs.readFile(mainChooseDay, 'utf8', (err, data) => {
       if (err) {
+         console.error('Błąd odczytu pliku:', err);
          return res.status(500).json({
             error: 'Błąd odczytu pliku'
          });
@@ -100,6 +157,9 @@ app.get('/check-chooseday', (req, res) => {
       });
    });
 });
+
+
+
 
 // Function to process folders and files
 async function processDirectories(basePath) {
@@ -203,7 +263,7 @@ app.get('/api/dataZapowiedz', async (req, res) => {
    }
 });
 
-// Endpoint to fetch data DLA NOWEGO ROZKŁADU ARCHIWUM
+// Endpoint to fetch data DLA ARCHIWUM
 app.get('/api/archiwum', async (req, res) => {
    try {
       const dataPath = path.join(__dirname, 'Brygady_Archiwum');

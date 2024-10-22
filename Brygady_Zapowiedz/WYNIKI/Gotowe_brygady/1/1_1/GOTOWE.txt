@@ -1,495 +1,227 @@
 route_id	service_id	trip_id	arrival_time	departure_time	stop_headsign	stop_name
 -------------------------------------------------------------------------------
-1648	1	193273	05:58:00	05:58:00		Krakowska granica 15 nż
-1648	1	193273	05:59:00	05:59:00		Krakowska Dworzysko 13 nż
-1648	1	193273	06:01:00	06:01:00		Krakowska / Ustrzycka 11
-1648	1	193273	06:02:00	06:02:00		Krakowska cmentarz 09 nż
-1648	1	193273	06:04:00	06:04:00		Krakowska / Mielecka 07 nż
-1648	1	193273	06:05:00	06:05:00		Krakowska galeria 05
-1648	1	193273	06:06:00	06:06:00		Krakowska szpital 03
-1648	1	193273	06:07:00	06:07:00		Krakowska Jedn. Wojskowa 01
-1648	1	193273	06:09:00	06:09:00		Piłsudskiego U. Wojewódzki 03
-1648	1	193273	06:10:00	06:10:00		Pl. Wolności 01
-1648	1	193273	06:12:00	06:12:00		Lwowska Jedn. Wojskowa 02
-1648	1	193273	06:14:00	06:14:00		Lwowska cmentarz 04
-1648	1	193273	06:15:00	06:15:00		Żołnierzy I Armii Wojska Polskiego 02
-1648	1	193273	06:16:00	06:16:00		Konf. Barskich / Traugutta 02 nż
-1648	1	193273	06:17:00	06:17:00		Załęska / Konf. Barskich 02 nż
-1648	1	193273	06:18:00	06:18:00		Sieciecha / Załęska 01 nż
-1648	1	193273	06:21:00	06:21:00		Rzecha / Załęska 02 nż
-1648	1	193273	06:22:00	06:22:00		Rzecha / Spółdzielcza 04 nż
-1648	1	193273	06:23:00	06:23:00		Ciepłownicza / Rzecha 02 nż
-1648	1	193273	06:24:00	06:24:00		Ciepłownicza MPGK 04 nż
-1648	1	193273	06:25:00	06:25:00		Ciepłownicza Elektrociepłownia 06 nż
-1648	1	193273	06:26:00	06:26:00		Ciepłownicza MPGK 01 nż
-1648	1	193273	06:27:00	06:27:00		Rzecha / Ciepłownicza 03 nż
-1648	1	193273	06:29:00	06:29:00		Załęska / Rzecha 04 nż
-1648	1	193273	06:30:00	06:30:00		Załęska Zakład Karny 06 nż
-1648	1	193273	06:31:00	06:31:00		Załęska / Spichlerzowa 10 nż
-1648	1	193273	06:32:00	06:32:00		Spichlerzowa / Załęska 02 nż
-1648	1	193273	06:34:00	06:34:00		Spichlerzowa pętla 04 nż
+1640	1	192695	10:45:00	10:45:00		Piłsudskiego U. Marszałkowski 08
+1640	1	192695	10:47:00	10:47:00		Krakowska Jedn. Wojskowa 02
+1640	1	192695	10:48:00	10:48:00		Krakowska szpital 04
+1640	1	192695	10:49:00	10:49:00		Krakowska galeria 06
+1640	1	192695	10:50:00	10:50:00		Krakowska / Wyzwolenia 08 nż
+1640	1	192695	10:52:00	10:52:00		Krakowska cmentarz 10 nż
+1640	1	192695	10:54:00	10:54:00		Krakowska / Ceramiczna 12
+1640	1	192695	10:55:00	10:55:00		Krakowska Dworzysko 16 nż
+1640	1	192695	10:57:00	10:57:00		Krakowska granica 18 nż
+1640	1	192695	10:59:00	10:59:00		Krakowska granica 15 nż
 
-1652	1	192747	06:55:00	06:55:00		Spichlerzowa pętla 04 nż
-1652	1	192747	06:56:00	06:56:00		Spichlerzowa / Załęska 01 nż
-1652	1	192747	06:57:00	06:57:00		Załęska / Spichlerzowa 09 nż
-1652	1	192747	06:58:00	06:58:00		Załęska Zakład Karny 07 nż
-1652	1	192747	06:59:00	06:59:00		Załęska / Rzecha 05 nż
-1652	1	192747	07:00:00	07:00:00		Rzecha / Spółdzielcza 04 nż
-1652	1	192747	07:01:00	07:01:00		Ciepłownicza / Rzecha 02 nż
-1652	1	192747	07:02:00	07:02:00		Ciepłownicza MPGK 04 nż
-1652	1	192747	07:03:00	07:03:00		Ciepłownicza Elektrociepłownia 06 nż
-1652	1	192747	07:04:00	07:04:00		Ciepłownicza MPGK 01 nż
-1652	1	192747	07:05:00	07:05:00		Rzecha / Ciepłownicza 03 nż
-1652	1	192747	07:07:00	07:07:00		Rzecha / Załęska 01 nż
-1652	1	192747	07:09:00	07:09:00		Sieciecha / Załęska 02 nż
-1652	1	192747	07:10:00	07:10:00		Załęska / Konf. Barskich 01 nż
-1652	1	192747	07:11:00	07:11:00		Konf. Barskich / Traugutta 01 nż
-1652	1	192747	07:14:00	07:14:00		Lwowska cmentarz 03
-1652	1	192747	07:15:00	07:15:00		Lwowska Jedn. Wojskowa 01
-1652	1	192747	07:16:00	07:16:00		Piłsudskiego ZDZ 02
-1652	1	192747	07:17:00	07:17:00		Pl. Wolności 04
-1652	1	192747	07:20:00	07:20:00		Piłsudskiego U. Marszałkowski 08
-1652	1	192747	07:22:00	07:22:00		Krakowska Jedn. Wojskowa 02
-1652	1	192747	07:23:00	07:23:00		Krakowska szpital 04
-1652	1	192747	07:24:00	07:24:00		Krakowska galeria 06
-1652	1	192747	07:25:00	07:25:00		Krakowska / Wyzwolenia 08 nż
-1652	1	192747	07:27:00	07:27:00		Krakowska cmentarz 10 nż
-1652	1	192747	07:28:00	07:28:00		Krakowska / Ceramiczna 12
-1652	1	192747	07:29:00	07:29:00		Krakowska Dworzysko 16 nż
-1652	1	192747	07:31:00	07:31:00		Krakowska granica 18 nż
-1652	1	192747	07:33:00	07:33:00		Krakowska granica 15 nż
+1650	1	192837	11:01:00	11:01:00		Krakowska granica 15 nż
+1650	1	192837	11:02:00	11:02:00		Krakowska Dworzysko 13 nż
+1650	1	192837	11:04:00	11:04:00		Krakowska / Ustrzycka 11
+1650	1	192837	11:05:00	11:05:00		Krakowska cmentarz 09 nż
+1650	1	192837	11:07:00	11:07:00		Krakowska / Mielecka 07 nż
+1650	1	192837	11:08:00	11:08:00		Krakowska galeria 05
+1650	1	192837	11:09:00	11:09:00		Krakowska szpital 03
+1650	1	192837	11:11:00	11:11:00		Krakowska Jedn. Wojskowa 01
+1650	1	192837	11:14:00	11:14:00		Piłsudskiego U. Wojewódzki 03
+1650	1	192837	11:15:00	11:15:00		Pl. Wolności 01
+1650	1	192837	11:19:00	11:19:00		Lwowska Jedn. Wojskowa 02
+1650	1	192837	11:22:00	11:22:00		Lwowska cmentarz 04
+1650	1	192837	11:24:00	11:24:00		Żołnierzy I Armii Wojska Polskiego 02
+1650	1	192837	11:26:00	11:26:00		Konf. Barskich / Traugutta 02 nż
+1650	1	192837	11:27:00	11:27:00		Załęska / Konf. Barskich 02 nż
+1650	1	192837	11:28:00	11:28:00		Sieciecha / Załęska 01 nż
+1650	1	192837	11:32:00	11:32:00		Rzecha / Załęska 02 nż
+1650	1	192837	11:33:00	11:33:00		Rzecha / Spółdzielcza 04 nż
+1650	1	192837	11:34:00	11:34:00		Ciepłownicza / Rzecha 02 nż
+1650	1	192837	11:35:00	11:35:00		Ciepłownicza MPGK 04 nż
+1650	1	192837	11:36:00	11:36:00		Ciepłownicza Elektrociepłownia 06 nż
 
-1627	1	192559	07:38:00	07:38:00		Krakowska granica 15 nż
-1627	1	192559	07:39:00	07:39:00		Krakowska Dworzysko 13 nż
-1627	1	192559	07:41:00	07:41:00		Krakowska / Ustrzycka 11
-1627	1	192559	07:42:00	07:42:00		Krakowska cmentarz 09 nż
-1627	1	192559	07:44:00	07:44:00		Krakowska / Mielecka 07 nż
-1627	1	192559	07:45:00	07:45:00		Krakowska galeria 05
-1627	1	192559	07:46:00	07:46:00		Krakowska szpital 03
-1627	1	192559	07:47:00	07:47:00		Krakowska Jedn. Wojskowa 01
-1627	1	192559	07:49:00	07:49:00		Piłsudskiego U. Wojewódzki 03
-1627	1	192559	07:50:00	07:50:00		Pl. Wolności 01
-1627	1	192559	07:53:00	07:53:00		Lwowska Jedn. Wojskowa 02
-1627	1	192559	07:55:00	07:55:00		Lwowska cmentarz 04
-1627	1	192559	07:56:00	07:56:00		Żołnierzy I Armii Wojska Polskiego 02
-1627	1	192559	07:58:00	07:58:00		Konf. Barskich / Traugutta 02 nż
-1627	1	192559	07:59:00	07:59:00		Załęska / Konf. Barskich 02 nż
-1627	1	192559	08:00:00	08:00:00		Sieciecha / Załęska 01 nż
-1627	1	192559	08:03:00	08:03:00		Rzecha / Załęska 02 nż
-1627	1	192559	08:04:00	08:04:00		Załęska / Rzecha 04 nż
-1627	1	192559	08:05:00	08:05:00		Załęska Zakład Karny 06 nż
-1627	1	192559	08:06:00	08:06:00		Załęska / Spichlerzowa 10 nż
-1627	1	192559	08:07:00	08:07:00		Spichlerzowa / Załęska 02 nż
-1627	1	192559	08:09:00	08:09:00		Spichlerzowa pętla 04 nż
+1636	1	192597	12:02:00	12:02:00		Ciepłownicza Elektrociepłownia 06 nż
+1636	1	192597	12:03:00	12:03:00		Ciepłownicza MPGK 01 nż
+1636	1	192597	12:05:00	12:05:00		Rzecha / Ciepłownicza 03 nż
+1636	1	192597	12:07:00	12:07:00		Rzecha / Załęska 01 nż
+1636	1	192597	12:10:00	12:10:00		Sieciecha / Załęska 02 nż
+1636	1	192597	12:11:00	12:11:00		Załęska / Konf. Barskich 01 nż
+1636	1	192597	12:12:00	12:12:00		Konf. Barskich / Traugutta 01 nż
+1636	1	192597	12:16:00	12:16:00		Lwowska cmentarz 03
+1636	1	192597	12:17:00	12:17:00		Lwowska Jedn. Wojskowa 01
+1636	1	192597	12:19:00	12:19:00		Piłsudskiego ZDZ 02
+1636	1	192597	12:21:00	12:21:00		Pl. Wolności 04
+1636	1	192597	12:25:00	12:25:00		Piłsudskiego U. Marszałkowski 08
+1636	1	192597	12:27:00	12:27:00		Krakowska Jedn. Wojskowa 02
+1636	1	192597	12:29:00	12:29:00		Krakowska szpital 04
+1636	1	192597	12:30:00	12:30:00		Krakowska galeria 06
+1636	1	192597	12:31:00	12:31:00		Krakowska / Wyzwolenia 08 nż
+1636	1	192597	12:33:00	12:33:00		Krakowska cmentarz 10 nż
+1636	1	192597	12:35:00	12:35:00		Krakowska / Ceramiczna 12
+1636	1	192597	12:36:00	12:36:00		Krakowska Dworzysko 16 nż
+1636	1	192597	12:38:00	12:38:00		Krakowska granica 18 nż
+1636	1	192597	12:40:00	12:40:00		Krakowska granica 15 nż
 
-1630	1	193018	08:31:00	08:31:00		Spichlerzowa pętla 04 nż
-1630	1	193018	08:32:00	08:32:00		Spichlerzowa / Załęska 01 nż
-1630	1	193018	08:33:00	08:33:00		Załęska / Spichlerzowa 09 nż
-1630	1	193018	08:34:00	08:34:00		Załęska Zakład Karny 07 nż
-1630	1	193018	08:35:00	08:35:00		Załęska / Rzecha 05 nż
-1630	1	193018	08:37:00	08:37:00		Rzecha / Załęska 01 nż
-1630	1	193018	08:39:00	08:39:00		Sieciecha / Załęska 02 nż
-1630	1	193018	08:40:00	08:40:00		Załęska / Konf. Barskich 01 nż
-1630	1	193018	08:41:00	08:41:00		Konf. Barskich / Traugutta 01 nż
-1630	1	193018	08:44:00	08:44:00		Lwowska cmentarz 03
-1630	1	193018	08:45:00	08:45:00		Lwowska Jedn. Wojskowa 01
-1630	1	193018	08:46:00	08:46:00		Piłsudskiego ZDZ 02
-1630	1	193018	08:47:00	08:47:00		Pl. Wolności 04
-1630	1	193018	08:50:00	08:50:00		Piłsudskiego U. Marszałkowski 08
-1630	1	193018	08:52:00	08:52:00		Krakowska Jedn. Wojskowa 02
-1630	1	193018	08:53:00	08:53:00		Krakowska szpital 04
-1630	1	193018	08:54:00	08:54:00		Krakowska galeria 06
-1630	1	193018	08:55:00	08:55:00		Krakowska / Wyzwolenia 08 nż
-1630	1	193018	08:57:00	08:57:00		Krakowska cmentarz 10 nż
-1630	1	193018	08:58:00	08:58:00		Krakowska / Ceramiczna 12
-1630	1	193018	08:59:00	08:59:00		Krakowska Dworzysko 16 nż
-1630	1	193018	09:01:00	09:01:00		Krakowska granica 18 nż
-1630	1	193018	09:03:00	09:03:00		Krakowska granica 15 nż
+1648	1	192869	13:01:00	13:01:00		Krakowska granica 15 nż
+1648	1	192869	13:02:00	13:02:00		Krakowska Dworzysko 13 nż
+1648	1	192869	13:04:00	13:04:00		Krakowska / Ustrzycka 11
+1648	1	192869	13:05:00	13:05:00		Krakowska cmentarz 09 nż
+1648	1	192869	13:07:00	13:07:00		Krakowska / Mielecka 07 nż
+1648	1	192869	13:08:00	13:08:00		Krakowska galeria 05
+1648	1	192869	13:09:00	13:09:00		Krakowska szpital 03
+1648	1	192869	13:11:00	13:11:00		Krakowska Jedn. Wojskowa 01
+1648	1	192869	13:14:00	13:14:00		Piłsudskiego U. Wojewódzki 03
+1648	1	192869	13:15:00	13:15:00		Pl. Wolności 01
+1648	1	192869	13:19:00	13:19:00		Lwowska Jedn. Wojskowa 02
+1648	1	192869	13:22:00	13:22:00		Lwowska cmentarz 04
+1648	1	192869	13:24:00	13:24:00		Żołnierzy I Armii Wojska Polskiego 02
+1648	1	192869	13:26:00	13:26:00		Konf. Barskich / Traugutta 02 nż
+1648	1	192869	13:27:00	13:27:00		Załęska / Konf. Barskich 02 nż
+1648	1	192869	13:28:00	13:28:00		Sieciecha / Załęska 01 nż
+1648	1	192869	13:32:00	13:32:00		Rzecha / Załęska 02 nż
+1648	1	192869	13:33:00	13:33:00		Rzecha / Spółdzielcza 04 nż
+1648	1	192869	13:34:00	13:34:00		Ciepłownicza / Rzecha 02 nż
+1648	1	192869	13:35:00	13:35:00		Ciepłownicza MPGK 04 nż
+1648	1	192869	13:36:00	13:36:00		Ciepłownicza Elektrociepłownia 06 nż
+1648	1	192869	13:37:00	13:37:00		Ciepłownicza MPGK 01 nż
+1648	1	192869	13:39:00	13:39:00		Rzecha / Ciepłownicza 03 nż
+1648	1	192869	13:41:00	13:41:00		Załęska / Rzecha 04 nż
+1648	1	192869	13:42:00	13:42:00		Załęska Zakład Karny 06 nż
+1648	1	192869	13:43:00	13:43:00		Załęska / Spichlerzowa 10 nż
+1648	1	192869	13:44:00	13:44:00		Spichlerzowa / Załęska 02 nż
+1648	1	192869	13:46:00	13:46:00		Spichlerzowa pętla 04 nż
 
-1627	1	192742	09:28:00	09:28:00		Krakowska granica 15 nż
-1627	1	192742	09:29:00	09:29:00		Krakowska Dworzysko 13 nż
-1627	1	192742	09:31:00	09:31:00		Krakowska / Ustrzycka 11
-1627	1	192742	09:32:00	09:32:00		Krakowska cmentarz 09 nż
-1627	1	192742	09:34:00	09:34:00		Krakowska / Mielecka 07 nż
-1627	1	192742	09:35:00	09:35:00		Krakowska galeria 05
-1627	1	192742	09:36:00	09:36:00		Krakowska szpital 03
-1627	1	192742	09:37:00	09:37:00		Krakowska Jedn. Wojskowa 01
-1627	1	192742	09:39:00	09:39:00		Piłsudskiego U. Wojewódzki 03
-1627	1	192742	09:40:00	09:40:00		Pl. Wolności 01
-1627	1	192742	09:43:00	09:43:00		Lwowska Jedn. Wojskowa 02
-1627	1	192742	09:45:00	09:45:00		Lwowska cmentarz 04
-1627	1	192742	09:46:00	09:46:00		Żołnierzy I Armii Wojska Polskiego 02
-1627	1	192742	09:48:00	09:48:00		Konf. Barskich / Traugutta 02 nż
-1627	1	192742	09:49:00	09:49:00		Załęska / Konf. Barskich 02 nż
-1627	1	192742	09:50:00	09:50:00		Sieciecha / Załęska 01 nż
-1627	1	192742	09:53:00	09:53:00		Rzecha / Załęska 02 nż
-1627	1	192742	09:54:00	09:54:00		Załęska / Rzecha 04 nż
-1627	1	192742	09:55:00	09:55:00		Załęska Zakład Karny 06 nż
-1627	1	192742	09:56:00	09:56:00		Załęska / Spichlerzowa 10 nż
-1627	1	192742	09:57:00	09:57:00		Spichlerzowa / Załęska 02 nż
-1627	1	192742	09:59:00	09:59:00		Spichlerzowa pętla 04 nż
+1652	1	192469	14:03:00	14:03:00		Spichlerzowa pętla 04 nż
+1652	1	192469	14:04:00	14:04:00		Spichlerzowa / Załęska 01 nż
+1652	1	192469	14:05:00	14:05:00		Załęska / Spichlerzowa 09 nż
+1652	1	192469	14:06:00	14:06:00		Załęska Zakład Karny 07 nż
+1652	1	192469	14:07:00	14:07:00		Załęska / Rzecha 05 nż
+1652	1	192469	14:08:00	14:08:00		Rzecha / Spółdzielcza 04 nż
+1652	1	192469	14:09:00	14:09:00		Ciepłownicza / Rzecha 02 nż
+1652	1	192469	14:10:00	14:10:00		Ciepłownicza MPGK 04 nż
+1652	1	192469	14:11:00	14:11:00		Ciepłownicza Elektrociepłownia 06 nż
+1652	1	192469	14:12:00	14:12:00		Ciepłownicza MPGK 01 nż
+1652	1	192469	14:14:00	14:14:00		Rzecha / Ciepłownicza 03 nż
+1652	1	192469	14:16:00	14:16:00		Rzecha / Załęska 01 nż
+1652	1	192469	14:19:00	14:19:00		Sieciecha / Załęska 02 nż
+1652	1	192469	14:20:00	14:20:00		Załęska / Konf. Barskich 01 nż
+1652	1	192469	14:21:00	14:21:00		Konf. Barskich / Traugutta 01 nż
+1652	1	192469	14:25:00	14:25:00		Lwowska cmentarz 03
+1652	1	192469	14:26:00	14:26:00		Lwowska Jedn. Wojskowa 01
+1652	1	192469	14:28:00	14:28:00		Piłsudskiego ZDZ 02
+1652	1	192469	14:30:00	14:30:00		Pl. Wolności 04
+1652	1	192469	14:36:00	14:36:00		Piłsudskiego U. Marszałkowski 08
+1652	1	192469	14:38:00	14:38:00		Krakowska Jedn. Wojskowa 02
+1652	1	192469	14:40:00	14:40:00		Krakowska szpital 04
+1652	1	192469	14:41:00	14:41:00		Krakowska galeria 06
+1652	1	192469	14:42:00	14:42:00		Krakowska / Wyzwolenia 08 nż
+1652	1	192469	14:44:00	14:44:00		Krakowska cmentarz 10 nż
+1652	1	192469	14:46:00	14:46:00		Krakowska / Ceramiczna 12
+1652	1	192469	14:47:00	14:47:00		Krakowska Dworzysko 16 nż
+1652	1	192469	14:49:00	14:49:00		Krakowska granica 18 nż
+1652	1	192469	14:51:00	14:51:00		Krakowska granica 15 nż
 
-1630	1	192872	10:11:00	10:11:00		Spichlerzowa pętla 04 nż
-1630	1	192872	10:12:00	10:12:00		Spichlerzowa / Załęska 01 nż
-1630	1	192872	10:13:00	10:13:00		Załęska / Spichlerzowa 09 nż
-1630	1	192872	10:14:00	10:14:00		Załęska Zakład Karny 07 nż
-1630	1	192872	10:15:00	10:15:00		Załęska / Rzecha 05 nż
-1630	1	192872	10:17:00	10:17:00		Rzecha / Załęska 01 nż
-1630	1	192872	10:19:00	10:19:00		Sieciecha / Załęska 02 nż
-1630	1	192872	10:20:00	10:20:00		Załęska / Konf. Barskich 01 nż
-1630	1	192872	10:21:00	10:21:00		Konf. Barskich / Traugutta 01 nż
-1630	1	192872	10:24:00	10:24:00		Lwowska cmentarz 03
-1630	1	192872	10:25:00	10:25:00		Lwowska Jedn. Wojskowa 01
-1630	1	192872	10:26:00	10:26:00		Piłsudskiego ZDZ 02
-1630	1	192872	10:27:00	10:27:00		Pl. Wolności 04
-1630	1	192872	10:30:00	10:30:00		Piłsudskiego U. Marszałkowski 08
-1630	1	192872	10:32:00	10:32:00		Krakowska Jedn. Wojskowa 02
-1630	1	192872	10:33:00	10:33:00		Krakowska szpital 04
-1630	1	192872	10:34:00	10:34:00		Krakowska galeria 06
-1630	1	192872	10:35:00	10:35:00		Krakowska / Wyzwolenia 08 nż
-1630	1	192872	10:37:00	10:37:00		Krakowska cmentarz 10 nż
-1630	1	192872	10:38:00	10:38:00		Krakowska / Ceramiczna 12
-1630	1	192872	10:39:00	10:39:00		Krakowska Dworzysko 16 nż
-1630	1	192872	10:41:00	10:41:00		Krakowska granica 18 nż
-1630	1	192872	10:43:00	10:43:00		Krakowska granica 15 nż
+1648	1	193236	14:59:00	14:59:00		Krakowska granica 15 nż
+1648	1	193236	15:00:00	15:00:00		Krakowska Dworzysko 13 nż
+1648	1	193236	15:02:00	15:02:00		Krakowska / Ustrzycka 11
+1648	1	193236	15:03:00	15:03:00		Krakowska cmentarz 09 nż
+1648	1	193236	15:05:00	15:05:00		Krakowska / Mielecka 07 nż
+1648	1	193236	15:06:00	15:06:00		Krakowska galeria 05
+1648	1	193236	15:07:00	15:07:00		Krakowska szpital 03
+1648	1	193236	15:10:00	15:10:00		Krakowska Jedn. Wojskowa 01
+1648	1	193236	15:13:00	15:13:00		Piłsudskiego U. Wojewódzki 03
+1648	1	193236	15:15:00	15:15:00		Pl. Wolności 01
+1648	1	193236	15:19:00	15:19:00		Lwowska Jedn. Wojskowa 02
+1648	1	193236	15:27:00	15:27:00		Lwowska cmentarz 04
+1648	1	193236	15:31:00	15:31:00		Żołnierzy I Armii Wojska Polskiego 02
+1648	1	193236	15:34:00	15:34:00		Konf. Barskich / Traugutta 02 nż
+1648	1	193236	15:35:00	15:35:00		Załęska / Konf. Barskich 02 nż
+1648	1	193236	15:36:00	15:36:00		Sieciecha / Załęska 01 nż
+1648	1	193236	15:40:00	15:40:00		Rzecha / Załęska 02 nż
+1648	1	193236	15:41:00	15:41:00		Rzecha / Spółdzielcza 04 nż
+1648	1	193236	15:42:00	15:42:00		Ciepłownicza / Rzecha 02 nż
+1648	1	193236	15:43:00	15:43:00		Ciepłownicza MPGK 04 nż
+1648	1	193236	15:44:00	15:44:00		Ciepłownicza Elektrociepłownia 06 nż
+1648	1	193236	15:45:00	15:45:00		Ciepłownicza MPGK 01 nż
+1648	1	193236	15:47:00	15:47:00		Rzecha / Ciepłownicza 03 nż
+1648	1	193236	15:49:00	15:49:00		Załęska / Rzecha 04 nż
+1648	1	193236	15:50:00	15:50:00		Załęska Zakład Karny 06 nż
+1648	1	193236	15:51:00	15:51:00		Załęska / Spichlerzowa 10 nż
+1648	1	193236	15:52:00	15:52:00		Spichlerzowa / Załęska 02 nż
+1648	1	193236	15:54:00	15:54:00		Spichlerzowa pętla 04 nż
 
-1627	1	193443	10:58:00	10:58:00		Krakowska granica 15 nż
-1627	1	193443	10:59:00	10:59:00		Krakowska Dworzysko 13 nż
-1627	1	193443	11:01:00	11:01:00		Krakowska / Ustrzycka 11
-1627	1	193443	11:02:00	11:02:00		Krakowska cmentarz 09 nż
-1627	1	193443	11:04:00	11:04:00		Krakowska / Mielecka 07 nż
-1627	1	193443	11:05:00	11:05:00		Krakowska galeria 05
-1627	1	193443	11:06:00	11:06:00		Krakowska szpital 03
-1627	1	193443	11:07:00	11:07:00		Krakowska Jedn. Wojskowa 01
-1627	1	193443	11:09:00	11:09:00		Piłsudskiego U. Wojewódzki 03
-1627	1	193443	11:10:00	11:10:00		Pl. Wolności 01
-1627	1	193443	11:13:00	11:13:00		Lwowska Jedn. Wojskowa 02
-1627	1	193443	11:15:00	11:15:00		Lwowska cmentarz 04
-1627	1	193443	11:16:00	11:16:00		Żołnierzy I Armii Wojska Polskiego 02
-1627	1	193443	11:18:00	11:18:00		Konf. Barskich / Traugutta 02 nż
-1627	1	193443	11:19:00	11:19:00		Załęska / Konf. Barskich 02 nż
-1627	1	193443	11:20:00	11:20:00		Sieciecha / Załęska 01 nż
-1627	1	193443	11:23:00	11:23:00		Rzecha / Załęska 02 nż
-1627	1	193443	11:24:00	11:24:00		Załęska / Rzecha 04 nż
-1627	1	193443	11:25:00	11:25:00		Załęska Zakład Karny 06 nż
-1627	1	193443	11:26:00	11:26:00		Załęska / Spichlerzowa 10 nż
-1627	1	193443	11:27:00	11:27:00		Spichlerzowa / Załęska 02 nż
-1627	1	193443	11:29:00	11:29:00		Spichlerzowa pętla 04 nż
+1652	1	192586	16:23:00	16:23:00		Spichlerzowa pętla 04 nż
+1652	1	192586	16:24:00	16:24:00		Spichlerzowa / Załęska 01 nż
+1652	1	192586	16:25:00	16:25:00		Załęska / Spichlerzowa 09 nż
+1652	1	192586	16:26:00	16:26:00		Załęska Zakład Karny 07 nż
+1652	1	192586	16:27:00	16:27:00		Załęska / Rzecha 05 nż
+1652	1	192586	16:28:00	16:28:00		Rzecha / Spółdzielcza 04 nż
+1652	1	192586	16:29:00	16:29:00		Ciepłownicza / Rzecha 02 nż
+1652	1	192586	16:30:00	16:30:00		Ciepłownicza MPGK 04 nż
+1652	1	192586	16:31:00	16:31:00		Ciepłownicza Elektrociepłownia 06 nż
+1652	1	192586	16:32:00	16:32:00		Ciepłownicza MPGK 01 nż
+1652	1	192586	16:34:00	16:34:00		Rzecha / Ciepłownicza 03 nż
+1652	1	192586	16:37:00	16:37:00		Rzecha / Załęska 01 nż
+1652	1	192586	16:40:00	16:40:00		Sieciecha / Załęska 02 nż
+1652	1	192586	16:41:00	16:41:00		Załęska / Konf. Barskich 01 nż
+1652	1	192586	16:42:00	16:42:00		Konf. Barskich / Traugutta 01 nż
+1652	1	192586	16:46:00	16:46:00		Lwowska cmentarz 03
+1652	1	192586	16:47:00	16:47:00		Lwowska Jedn. Wojskowa 01
+1652	1	192586	16:49:00	16:49:00		Piłsudskiego ZDZ 02
+1652	1	192586	16:51:00	16:51:00		Pl. Wolności 04
+1652	1	192586	16:54:00	16:54:00		Piłsudskiego U. Marszałkowski 08
+1652	1	192586	16:56:00	16:56:00		Krakowska Jedn. Wojskowa 02
+1652	1	192586	16:58:00	16:58:00		Krakowska szpital 04
+1652	1	192586	16:59:00	16:59:00		Krakowska galeria 06
+1652	1	192586	17:00:00	17:00:00		Krakowska / Wyzwolenia 08 nż
+1652	1	192586	17:02:00	17:02:00		Krakowska cmentarz 10 nż
+1652	1	192586	17:04:00	17:04:00		Krakowska / Ceramiczna 12
+1652	1	192586	17:05:00	17:05:00		Krakowska Dworzysko 16 nż
+1652	1	192586	17:07:00	17:07:00		Krakowska granica 18 nż
+1652	1	192586	17:09:00	17:09:00		Krakowska granica 15 nż
 
-1630	1	193394	11:41:00	11:41:00		Spichlerzowa pętla 04 nż
-1630	1	193394	11:42:00	11:42:00		Spichlerzowa / Załęska 01 nż
-1630	1	193394	11:43:00	11:43:00		Załęska / Spichlerzowa 09 nż
-1630	1	193394	11:44:00	11:44:00		Załęska Zakład Karny 07 nż
-1630	1	193394	11:45:00	11:45:00		Załęska / Rzecha 05 nż
-1630	1	193394	11:47:00	11:47:00		Rzecha / Załęska 01 nż
-1630	1	193394	11:49:00	11:49:00		Sieciecha / Załęska 02 nż
-1630	1	193394	11:50:00	11:50:00		Załęska / Konf. Barskich 01 nż
-1630	1	193394	11:51:00	11:51:00		Konf. Barskich / Traugutta 01 nż
-1630	1	193394	11:54:00	11:54:00		Lwowska cmentarz 03
-1630	1	193394	11:55:00	11:55:00		Lwowska Jedn. Wojskowa 01
-1630	1	193394	11:56:00	11:56:00		Piłsudskiego ZDZ 02
-1630	1	193394	11:57:00	11:57:00		Pl. Wolności 04
-1630	1	193394	12:00:00	12:00:00		Piłsudskiego U. Marszałkowski 08
-1630	1	193394	12:02:00	12:02:00		Krakowska Jedn. Wojskowa 02
-1630	1	193394	12:03:00	12:03:00		Krakowska szpital 04
-1630	1	193394	12:04:00	12:04:00		Krakowska galeria 06
-1630	1	193394	12:05:00	12:05:00		Krakowska / Wyzwolenia 08 nż
-1630	1	193394	12:07:00	12:07:00		Krakowska cmentarz 10 nż
-1630	1	193394	12:08:00	12:08:00		Krakowska / Ceramiczna 12
-1630	1	193394	12:09:00	12:09:00		Krakowska Dworzysko 16 nż
-1630	1	193394	12:11:00	12:11:00		Krakowska granica 18 nż
-1630	1	193394	12:13:00	12:13:00		Krakowska granica 15 nż
+1627	1	193458	17:31:00	17:31:00		Krakowska granica 15 nż
+1627	1	193458	17:32:00	17:32:00		Krakowska Dworzysko 13 nż
+1627	1	193458	17:34:00	17:34:00		Krakowska / Ustrzycka 11
+1627	1	193458	17:35:00	17:35:00		Krakowska cmentarz 09 nż
+1627	1	193458	17:37:00	17:37:00		Krakowska / Mielecka 07 nż
+1627	1	193458	17:38:00	17:38:00		Krakowska galeria 05
+1627	1	193458	17:39:00	17:39:00		Krakowska szpital 03
+1627	1	193458	17:41:00	17:41:00		Krakowska Jedn. Wojskowa 01
+1627	1	193458	17:44:00	17:44:00		Piłsudskiego U. Wojewódzki 03
+1627	1	193458	17:45:00	17:45:00		Pl. Wolności 01
+1627	1	193458	17:49:00	17:49:00		Lwowska Jedn. Wojskowa 02
+1627	1	193458	17:52:00	17:52:00		Lwowska cmentarz 04
+1627	1	193458	17:54:00	17:54:00		Żołnierzy I Armii Wojska Polskiego 02
+1627	1	193458	17:56:00	17:56:00		Konf. Barskich / Traugutta 02 nż
+1627	1	193458	17:57:00	17:57:00		Załęska / Konf. Barskich 02 nż
+1627	1	193458	17:58:00	17:58:00		Sieciecha / Załęska 01 nż
+1627	1	193458	18:02:00	18:02:00		Rzecha / Załęska 02 nż
+1627	1	193458	18:03:00	18:03:00		Załęska / Rzecha 04 nż
+1627	1	193458	18:04:00	18:04:00		Załęska Zakład Karny 06 nż
+1627	1	193458	18:05:00	18:05:00		Załęska / Spichlerzowa 10 nż
+1627	1	193458	18:06:00	18:06:00		Spichlerzowa / Załęska 02 nż
+1627	1	193458	18:08:00	18:08:00		Spichlerzowa pętla 04 nż
 
-1627	1	192991	12:57:00	12:57:00		Krakowska granica 15 nż
-1627	1	192991	12:58:00	12:58:00		Krakowska Dworzysko 13 nż
-1627	1	192991	13:00:00	13:00:00		Krakowska / Ustrzycka 11
-1627	1	192991	13:01:00	13:01:00		Krakowska cmentarz 09 nż
-1627	1	192991	13:03:00	13:03:00		Krakowska / Mielecka 07 nż
-1627	1	192991	13:04:00	13:04:00		Krakowska galeria 05
-1627	1	192991	13:05:00	13:05:00		Krakowska szpital 03
-1627	1	192991	13:07:00	13:07:00		Krakowska Jedn. Wojskowa 01
-1627	1	192991	13:09:00	13:09:00		Piłsudskiego U. Wojewódzki 03
-1627	1	192991	13:10:00	13:10:00		Pl. Wolności 01
-1627	1	192991	13:13:00	13:13:00		Lwowska Jedn. Wojskowa 02
-1627	1	192991	13:15:00	13:15:00		Lwowska cmentarz 04
-1627	1	192991	13:16:00	13:16:00		Żołnierzy I Armii Wojska Polskiego 02
-1627	1	192991	13:18:00	13:18:00		Konf. Barskich / Traugutta 02 nż
-1627	1	192991	13:19:00	13:19:00		Załęska / Konf. Barskich 02 nż
-1627	1	192991	13:20:00	13:20:00		Sieciecha / Załęska 01 nż
-1627	1	192991	13:23:00	13:23:00		Rzecha / Załęska 02 nż
-1627	1	192991	13:24:00	13:24:00		Załęska / Rzecha 04 nż
-1627	1	192991	13:25:00	13:25:00		Załęska Zakład Karny 06 nż
-1627	1	192991	13:26:00	13:26:00		Załęska / Spichlerzowa 10 nż
-1627	1	192991	13:27:00	13:27:00		Spichlerzowa / Załęska 02 nż
-1627	1	192991	13:29:00	13:29:00		Spichlerzowa pętla 04 nż
-
-1630	1	193113	13:52:00	13:52:00		Spichlerzowa pętla 04 nż
-1630	1	193113	13:53:00	13:53:00		Spichlerzowa / Załęska 01 nż
-1630	1	193113	13:54:00	13:54:00		Załęska / Spichlerzowa 09 nż
-1630	1	193113	13:55:00	13:55:00		Załęska Zakład Karny 07 nż
-1630	1	193113	13:56:00	13:56:00		Załęska / Rzecha 05 nż
-1630	1	193113	13:58:00	13:58:00		Rzecha / Załęska 01 nż
-1630	1	193113	14:00:00	14:00:00		Sieciecha / Załęska 02 nż
-1630	1	193113	14:01:00	14:01:00		Załęska / Konf. Barskich 01 nż
-1630	1	193113	14:02:00	14:02:00		Konf. Barskich / Traugutta 01 nż
-1630	1	193113	14:04:00	14:04:00		Lwowska cmentarz 03
-1630	1	193113	14:05:00	14:05:00		Lwowska Jedn. Wojskowa 01
-1630	1	193113	14:06:00	14:06:00		Piłsudskiego ZDZ 02
-1630	1	193113	14:07:00	14:07:00		Pl. Wolności 04
-1630	1	193113	14:10:00	14:10:00		Piłsudskiego U. Marszałkowski 08
-1630	1	193113	14:12:00	14:12:00		Krakowska Jedn. Wojskowa 02
-1630	1	193113	14:13:00	14:13:00		Krakowska szpital 04
-1630	1	193113	14:14:00	14:14:00		Krakowska galeria 06
-1630	1	193113	14:15:00	14:15:00		Krakowska / Wyzwolenia 08 nż
-1630	1	193113	14:17:00	14:17:00		Krakowska cmentarz 10 nż
-1630	1	193113	14:18:00	14:18:00		Krakowska / Ceramiczna 12
-1630	1	193113	14:19:00	14:19:00		Krakowska Dworzysko 16 nż
-1630	1	193113	14:21:00	14:21:00		Krakowska granica 18 nż
-1630	1	193113	14:23:00	14:23:00		Krakowska granica 15 nż
-
-1627	1	193205	14:57:00	14:57:00		Krakowska granica 15 nż
-1627	1	193205	14:58:00	14:58:00		Krakowska Dworzysko 13 nż
-1627	1	193205	15:00:00	15:00:00		Krakowska / Ustrzycka 11
-1627	1	193205	15:01:00	15:01:00		Krakowska cmentarz 09 nż
-1627	1	193205	15:03:00	15:03:00		Krakowska / Mielecka 07 nż
-1627	1	193205	15:04:00	15:04:00		Krakowska galeria 05
-1627	1	193205	15:05:00	15:05:00		Krakowska szpital 03
-1627	1	193205	15:07:00	15:07:00		Krakowska Jedn. Wojskowa 01
-1627	1	193205	15:09:00	15:09:00		Piłsudskiego U. Wojewódzki 03
-1627	1	193205	15:10:00	15:10:00		Pl. Wolności 01
-1627	1	193205	15:13:00	15:13:00		Lwowska Jedn. Wojskowa 02
-1627	1	193205	15:15:00	15:15:00		Lwowska cmentarz 04
-1627	1	193205	15:16:00	15:16:00		Żołnierzy I Armii Wojska Polskiego 02
-1627	1	193205	15:18:00	15:18:00		Konf. Barskich / Traugutta 02 nż
-1627	1	193205	15:19:00	15:19:00		Załęska / Konf. Barskich 02 nż
-1627	1	193205	15:20:00	15:20:00		Sieciecha / Załęska 01 nż
-1627	1	193205	15:23:00	15:23:00		Rzecha / Załęska 02 nż
-1627	1	193205	15:24:00	15:24:00		Załęska / Rzecha 04 nż
-1627	1	193205	15:25:00	15:25:00		Załęska Zakład Karny 06 nż
-1627	1	193205	15:26:00	15:26:00		Załęska / Spichlerzowa 10 nż
-1627	1	193205	15:27:00	15:27:00		Spichlerzowa / Załęska 02 nż
-1627	1	193205	15:29:00	15:29:00		Spichlerzowa pętla 04 nż
-
-1630	1	193079	15:52:00	15:52:00		Spichlerzowa pętla 04 nż
-1630	1	193079	15:53:00	15:53:00		Spichlerzowa / Załęska 01 nż
-1630	1	193079	15:54:00	15:54:00		Załęska / Spichlerzowa 09 nż
-1630	1	193079	15:55:00	15:55:00		Załęska Zakład Karny 07 nż
-1630	1	193079	15:56:00	15:56:00		Załęska / Rzecha 05 nż
-1630	1	193079	15:58:00	15:58:00		Rzecha / Załęska 01 nż
-1630	1	193079	16:00:00	16:00:00		Sieciecha / Załęska 02 nż
-1630	1	193079	16:01:00	16:01:00		Załęska / Konf. Barskich 01 nż
-1630	1	193079	16:02:00	16:02:00		Konf. Barskich / Traugutta 01 nż
-1630	1	193079	16:04:00	16:04:00		Lwowska cmentarz 03
-1630	1	193079	16:05:00	16:05:00		Lwowska Jedn. Wojskowa 01
-1630	1	193079	16:06:00	16:06:00		Piłsudskiego ZDZ 02
-1630	1	193079	16:07:00	16:07:00		Pl. Wolności 04
-1630	1	193079	16:10:00	16:10:00		Piłsudskiego U. Marszałkowski 08
-1630	1	193079	16:12:00	16:12:00		Krakowska Jedn. Wojskowa 02
-1630	1	193079	16:13:00	16:13:00		Krakowska szpital 04
-1630	1	193079	16:14:00	16:14:00		Krakowska galeria 06
-1630	1	193079	16:15:00	16:15:00		Krakowska / Wyzwolenia 08 nż
-1630	1	193079	16:17:00	16:17:00		Krakowska cmentarz 10 nż
-1630	1	193079	16:18:00	16:18:00		Krakowska / Ceramiczna 12
-1630	1	193079	16:19:00	16:19:00		Krakowska Dworzysko 16 nż
-1630	1	193079	16:21:00	16:21:00		Krakowska granica 18 nż
-1630	1	193079	16:23:00	16:23:00		Krakowska granica 15 nż
-
-1627	1	192526	16:47:00	16:47:00		Krakowska granica 15 nż
-1627	1	192526	16:48:00	16:48:00		Krakowska Dworzysko 13 nż
-1627	1	192526	16:50:00	16:50:00		Krakowska / Ustrzycka 11
-1627	1	192526	16:51:00	16:51:00		Krakowska cmentarz 09 nż
-1627	1	192526	16:53:00	16:53:00		Krakowska / Mielecka 07 nż
-1627	1	192526	16:54:00	16:54:00		Krakowska galeria 05
-1627	1	192526	16:55:00	16:55:00		Krakowska szpital 03
-1627	1	192526	16:57:00	16:57:00		Krakowska Jedn. Wojskowa 01
-1627	1	192526	16:59:00	16:59:00		Piłsudskiego U. Wojewódzki 03
-1627	1	192526	17:00:00	17:00:00		Pl. Wolności 01
-1627	1	192526	17:03:00	17:03:00		Lwowska Jedn. Wojskowa 02
-1627	1	192526	17:05:00	17:05:00		Lwowska cmentarz 04
-1627	1	192526	17:06:00	17:06:00		Żołnierzy I Armii Wojska Polskiego 02
-1627	1	192526	17:08:00	17:08:00		Konf. Barskich / Traugutta 02 nż
-1627	1	192526	17:09:00	17:09:00		Załęska / Konf. Barskich 02 nż
-1627	1	192526	17:10:00	17:10:00		Sieciecha / Załęska 01 nż
-1627	1	192526	17:13:00	17:13:00		Rzecha / Załęska 02 nż
-1627	1	192526	17:14:00	17:14:00		Załęska / Rzecha 04 nż
-1627	1	192526	17:15:00	17:15:00		Załęska Zakład Karny 06 nż
-1627	1	192526	17:16:00	17:16:00		Załęska / Spichlerzowa 10 nż
-1627	1	192526	17:17:00	17:17:00		Spichlerzowa / Załęska 02 nż
-1627	1	192526	17:19:00	17:19:00		Spichlerzowa pętla 04 nż
-
-1630	1	193344	17:42:00	17:42:00		Spichlerzowa pętla 04 nż
-1630	1	193344	17:43:00	17:43:00		Spichlerzowa / Załęska 01 nż
-1630	1	193344	17:44:00	17:44:00		Załęska / Spichlerzowa 09 nż
-1630	1	193344	17:45:00	17:45:00		Załęska Zakład Karny 07 nż
-1630	1	193344	17:46:00	17:46:00		Załęska / Rzecha 05 nż
-1630	1	193344	17:48:00	17:48:00		Rzecha / Załęska 01 nż
-1630	1	193344	17:50:00	17:50:00		Sieciecha / Załęska 02 nż
-1630	1	193344	17:51:00	17:51:00		Załęska / Konf. Barskich 01 nż
-1630	1	193344	17:52:00	17:52:00		Konf. Barskich / Traugutta 01 nż
-1630	1	193344	17:54:00	17:54:00		Lwowska cmentarz 03
-1630	1	193344	17:55:00	17:55:00		Lwowska Jedn. Wojskowa 01
-1630	1	193344	17:56:00	17:56:00		Piłsudskiego ZDZ 02
-1630	1	193344	17:57:00	17:57:00		Pl. Wolności 04
-1630	1	193344	18:00:00	18:00:00		Piłsudskiego U. Marszałkowski 08
-1630	1	193344	18:02:00	18:02:00		Krakowska Jedn. Wojskowa 02
-1630	1	193344	18:03:00	18:03:00		Krakowska szpital 04
-1630	1	193344	18:04:00	18:04:00		Krakowska galeria 06
-1630	1	193344	18:05:00	18:05:00		Krakowska / Wyzwolenia 08 nż
-1630	1	193344	18:07:00	18:07:00		Krakowska cmentarz 10 nż
-1630	1	193344	18:08:00	18:08:00		Krakowska / Ceramiczna 12
-1630	1	193344	18:09:00	18:09:00		Krakowska Dworzysko 16 nż
-1630	1	193344	18:11:00	18:11:00		Krakowska granica 18 nż
-1630	1	193344	18:13:00	18:13:00		Krakowska granica 15 nż
-
-1648	1	193036	18:17:00	18:17:00		Krakowska granica 15 nż
-1648	1	193036	18:18:00	18:18:00		Krakowska Dworzysko 13 nż
-1648	1	193036	18:20:00	18:20:00		Krakowska / Ustrzycka 11
-1648	1	193036	18:21:00	18:21:00		Krakowska cmentarz 09 nż
-1648	1	193036	18:23:00	18:23:00		Krakowska / Mielecka 07 nż
-1648	1	193036	18:24:00	18:24:00		Krakowska galeria 05
-1648	1	193036	18:25:00	18:25:00		Krakowska szpital 03
-1648	1	193036	18:27:00	18:27:00		Krakowska Jedn. Wojskowa 01
-1648	1	193036	18:29:00	18:29:00		Piłsudskiego U. Wojewódzki 03
-1648	1	193036	18:30:00	18:30:00		Pl. Wolności 01
-1648	1	193036	18:33:00	18:33:00		Lwowska Jedn. Wojskowa 02
-1648	1	193036	18:35:00	18:35:00		Lwowska cmentarz 04
-1648	1	193036	18:36:00	18:36:00		Żołnierzy I Armii Wojska Polskiego 02
-1648	1	193036	18:38:00	18:38:00		Konf. Barskich / Traugutta 02 nż
-1648	1	193036	18:39:00	18:39:00		Załęska / Konf. Barskich 02 nż
-1648	1	193036	18:40:00	18:40:00		Sieciecha / Załęska 01 nż
-1648	1	193036	18:43:00	18:43:00		Rzecha / Załęska 02 nż
-1648	1	193036	18:44:00	18:44:00		Rzecha / Spółdzielcza 04 nż
-1648	1	193036	18:45:00	18:45:00		Ciepłownicza / Rzecha 02 nż
-1648	1	193036	18:46:00	18:46:00		Ciepłownicza MPGK 04 nż
-1648	1	193036	18:47:00	18:47:00		Ciepłownicza Elektrociepłownia 06 nż
-1648	1	193036	18:48:00	18:48:00		Ciepłownicza MPGK 01 nż
-1648	1	193036	18:49:00	18:49:00		Rzecha / Ciepłownicza 03 nż
-1648	1	193036	18:51:00	18:51:00		Załęska / Rzecha 04 nż
-1648	1	193036	18:52:00	18:52:00		Załęska Zakład Karny 06 nż
-1648	1	193036	18:53:00	18:53:00		Załęska / Spichlerzowa 10 nż
-1648	1	193036	18:54:00	18:54:00		Spichlerzowa / Załęska 02 nż
-1648	1	193036	18:56:00	18:56:00		Spichlerzowa pętla 04 nż
-
-1652	1	192646	19:07:00	19:07:00		Spichlerzowa pętla 04 nż
-1652	1	192646	19:08:00	19:08:00		Spichlerzowa / Załęska 01 nż
-1652	1	192646	19:09:00	19:09:00		Załęska / Spichlerzowa 09 nż
-1652	1	192646	19:10:00	19:10:00		Załęska Zakład Karny 07 nż
-1652	1	192646	19:11:00	19:11:00		Załęska / Rzecha 05 nż
-1652	1	192646	19:12:00	19:12:00		Rzecha / Spółdzielcza 04 nż
-1652	1	192646	19:13:00	19:13:00		Ciepłownicza / Rzecha 02 nż
-1652	1	192646	19:14:00	19:14:00		Ciepłownicza MPGK 04 nż
-1652	1	192646	19:15:00	19:15:00		Ciepłownicza Elektrociepłownia 06 nż
-1652	1	192646	19:16:00	19:16:00		Ciepłownicza MPGK 01 nż
-1652	1	192646	19:17:00	19:17:00		Rzecha / Ciepłownicza 03 nż
-1652	1	192646	19:18:00	19:18:00		Rzecha / Załęska 01 nż
-1652	1	192646	19:20:00	19:20:00		Sieciecha / Załęska 02 nż
-1652	1	192646	19:21:00	19:21:00		Załęska / Konf. Barskich 01 nż
-1652	1	192646	19:22:00	19:22:00		Konf. Barskich / Traugutta 01 nż
-1652	1	192646	19:24:00	19:24:00		Lwowska cmentarz 03
-1652	1	192646	19:25:00	19:25:00		Lwowska Jedn. Wojskowa 01
-1652	1	192646	19:26:00	19:26:00		Piłsudskiego ZDZ 02
-1652	1	192646	19:27:00	19:27:00		Pl. Wolności 04
-1652	1	192646	19:29:00	19:29:00		Piłsudskiego U. Marszałkowski 08
-1652	1	192646	19:31:00	19:31:00		Krakowska Jedn. Wojskowa 02
-1652	1	192646	19:32:00	19:32:00		Krakowska szpital 04
-1652	1	192646	19:33:00	19:33:00		Krakowska galeria 06
-1652	1	192646	19:34:00	19:34:00		Krakowska / Wyzwolenia 08 nż
-1652	1	192646	19:36:00	19:36:00		Krakowska cmentarz 10 nż
-1652	1	192646	19:37:00	19:37:00		Krakowska / Ceramiczna 12
-1652	1	192646	19:38:00	19:38:00		Krakowska Dworzysko 16 nż
-1652	1	192646	19:40:00	19:40:00		Krakowska granica 18 nż
-1652	1	192646	19:42:00	19:42:00		Krakowska granica 15 nż
-
-1627	1	193202	19:58:00	19:58:00		Krakowska granica 15 nż
-1627	1	193202	19:59:00	19:59:00		Krakowska Dworzysko 13 nż
-1627	1	193202	20:01:00	20:01:00		Krakowska / Ustrzycka 11
-1627	1	193202	20:02:00	20:02:00		Krakowska cmentarz 09 nż
-1627	1	193202	20:04:00	20:04:00		Krakowska / Mielecka 07 nż
-1627	1	193202	20:05:00	20:05:00		Krakowska galeria 05
-1627	1	193202	20:06:00	20:06:00		Krakowska szpital 03
-1627	1	193202	20:07:00	20:07:00		Krakowska Jedn. Wojskowa 01
-1627	1	193202	20:09:00	20:09:00		Piłsudskiego U. Wojewódzki 03
-1627	1	193202	20:10:00	20:10:00		Pl. Wolności 01
-1627	1	193202	20:12:00	20:12:00		Lwowska Jedn. Wojskowa 02
-1627	1	193202	20:14:00	20:14:00		Lwowska cmentarz 04
-1627	1	193202	20:15:00	20:15:00		Żołnierzy I Armii Wojska Polskiego 02
-1627	1	193202	20:17:00	20:17:00		Konf. Barskich / Traugutta 02 nż
-1627	1	193202	20:18:00	20:18:00		Załęska / Konf. Barskich 02 nż
-1627	1	193202	20:19:00	20:19:00		Sieciecha / Załęska 01 nż
-1627	1	193202	20:21:00	20:21:00		Rzecha / Załęska 02 nż
-1627	1	193202	20:22:00	20:22:00		Załęska / Rzecha 04 nż
-1627	1	193202	20:23:00	20:23:00		Załęska Zakład Karny 06 nż
-1627	1	193202	20:24:00	20:24:00		Załęska / Spichlerzowa 10 nż
-1627	1	193202	20:25:00	20:25:00		Spichlerzowa / Załęska 02 nż
-1627	1	193202	20:27:00	20:27:00		Spichlerzowa pętla 04 nż
-
-1630	1	193149	20:53:00	20:53:00		Spichlerzowa pętla 04 nż
-1630	1	193149	20:54:00	20:54:00		Spichlerzowa / Załęska 01 nż
-1630	1	193149	20:55:00	20:55:00		Załęska / Spichlerzowa 09 nż
-1630	1	193149	20:56:00	20:56:00		Załęska Zakład Karny 07 nż
-1630	1	193149	20:57:00	20:57:00		Załęska / Rzecha 05 nż
-1630	1	193149	20:58:00	20:58:00		Rzecha / Załęska 01 nż
-1630	1	193149	21:00:00	21:00:00		Sieciecha / Załęska 02 nż
-1630	1	193149	21:01:00	21:01:00		Załęska / Konf. Barskich 01 nż
-1630	1	193149	21:02:00	21:02:00		Konf. Barskich / Traugutta 01 nż
-1630	1	193149	21:04:00	21:04:00		Lwowska cmentarz 03
-1630	1	193149	21:05:00	21:05:00		Lwowska Jedn. Wojskowa 01
-1630	1	193149	21:06:00	21:06:00		Piłsudskiego ZDZ 02
-1630	1	193149	21:07:00	21:07:00		Pl. Wolności 04
-1630	1	193149	21:09:00	21:09:00		Piłsudskiego U. Marszałkowski 08
-1630	1	193149	21:11:00	21:11:00		Krakowska Jedn. Wojskowa 02
-1630	1	193149	21:12:00	21:12:00		Krakowska szpital 04
-1630	1	193149	21:13:00	21:13:00		Krakowska galeria 06
-1630	1	193149	21:14:00	21:14:00		Krakowska / Wyzwolenia 08 nż
-1630	1	193149	21:16:00	21:16:00		Krakowska cmentarz 10 nż
-1630	1	193149	21:17:00	21:17:00		Krakowska / Ceramiczna 12
-1630	1	193149	21:18:00	21:18:00		Krakowska Dworzysko 16 nż
-1630	1	193149	21:20:00	21:20:00		Krakowska granica 18 nż
-1630	1	193149	21:22:00	21:22:00		Krakowska granica 15 nż
-
-1627	1	193324	21:58:00	21:58:00		Krakowska granica 15 nż
-1627	1	193324	21:59:00	21:59:00		Krakowska Dworzysko 13 nż
-1627	1	193324	22:01:00	22:01:00		Krakowska / Ustrzycka 11
-1627	1	193324	22:02:00	22:02:00		Krakowska cmentarz 09 nż
-1627	1	193324	22:04:00	22:04:00		Krakowska / Mielecka 07 nż
-1627	1	193324	22:05:00	22:05:00		Krakowska galeria 05
-1627	1	193324	22:06:00	22:06:00		Krakowska szpital 03
-1627	1	193324	22:07:00	22:07:00		Krakowska Jedn. Wojskowa 01
-1627	1	193324	22:09:00	22:09:00		Piłsudskiego U. Wojewódzki 03
-1627	1	193324	22:10:00	22:10:00		Pl. Wolności 01
-1627	1	193324	22:12:00	22:12:00		Lwowska Jedn. Wojskowa 02
-1627	1	193324	22:14:00	22:14:00		Lwowska cmentarz 04
-1627	1	193324	22:15:00	22:15:00		Żołnierzy I Armii Wojska Polskiego 02
-1627	1	193324	22:17:00	22:17:00		Konf. Barskich / Traugutta 02 nż
-1627	1	193324	22:18:00	22:18:00		Załęska / Konf. Barskich 02 nż
-1627	1	193324	22:19:00	22:19:00		Sieciecha / Załęska 01 nż
-1627	1	193324	22:21:00	22:21:00		Rzecha / Załęska 02 nż
-1627	1	193324	22:22:00	22:22:00		Załęska / Rzecha 04 nż
-1627	1	193324	22:23:00	22:23:00		Załęska Zakład Karny 06 nż
-1627	1	193324	22:24:00	22:24:00		Załęska / Spichlerzowa 10 nż
-1627	1	193324	22:25:00	22:25:00		Spichlerzowa / Załęska 02 nż
-1627	1	193324	22:27:00	22:27:00		Spichlerzowa pętla 04 nż
-
-1630	1	192840	22:43:00	22:43:00		Spichlerzowa pętla 04 nż
-1630	1	192840	22:44:00	22:44:00		Spichlerzowa / Załęska 01 nż
-1630	1	192840	22:45:00	22:45:00		Załęska / Spichlerzowa 09 nż
-1630	1	192840	22:46:00	22:46:00		Załęska Zakład Karny 07 nż
-1630	1	192840	22:47:00	22:47:00		Załęska / Rzecha 05 nż
-1630	1	192840	22:48:00	22:48:00		Rzecha / Załęska 01 nż
-1630	1	192840	22:50:00	22:50:00		Sieciecha / Załęska 02 nż
-1630	1	192840	22:51:00	22:51:00		Załęska / Konf. Barskich 01 nż
-1630	1	192840	22:52:00	22:52:00		Konf. Barskich / Traugutta 01 nż
-1630	1	192840	22:54:00	22:54:00		Lwowska cmentarz 03
-1630	1	192840	22:55:00	22:55:00		Lwowska Jedn. Wojskowa 01
-1630	1	192840	22:56:00	22:56:00		Piłsudskiego ZDZ 02
-1630	1	192840	22:57:00	22:57:00		Pl. Wolności 04
-1630	1	192840	22:59:00	22:59:00		Piłsudskiego U. Marszałkowski 08
-1630	1	192840	23:01:00	23:01:00		Krakowska Jedn. Wojskowa 02
-1630	1	192840	23:02:00	23:02:00		Krakowska szpital 04
-1630	1	192840	23:03:00	23:03:00		Krakowska galeria 06
-1630	1	192840	23:04:00	23:04:00		Krakowska / Wyzwolenia 08 nż
-1630	1	192840	23:06:00	23:06:00		Krakowska cmentarz 10 nż
-1630	1	192840	23:07:00	23:07:00		Krakowska / Ceramiczna 12
-1630	1	192840	23:08:00	23:08:00		Krakowska Dworzysko 16 nż
-1630	1	192840	23:10:00	23:10:00		Krakowska granica 18 nż
-1630	1	192840	23:12:00	23:12:00		Krakowska granica 15 nż
+1652	1	193037	18:22:00	18:22:00		Spichlerzowa pętla 04 nż
+1652	1	193037	18:23:00	18:23:00		Spichlerzowa / Załęska 01 nż
+1652	1	193037	18:24:00	18:24:00		Załęska / Spichlerzowa 09 nż
+1652	1	193037	18:25:00	18:25:00		Załęska Zakład Karny 07 nż
+1652	1	193037	18:26:00	18:26:00		Załęska / Rzecha 05 nż
+1652	1	193037	18:27:00	18:27:00		Rzecha / Spółdzielcza 04 nż
+1652	1	193037	18:28:00	18:28:00		Ciepłownicza / Rzecha 02 nż
+1652	1	193037	18:29:00	18:29:00		Ciepłownicza MPGK 04 nż
+1652	1	193037	18:30:00	18:30:00		Ciepłownicza Elektrociepłownia 06 nż
+1652	1	193037	18:31:00	18:31:00		Ciepłownicza MPGK 01 nż
+1652	1	193037	18:33:00	18:33:00		Rzecha / Ciepłownicza 03 nż
+1652	1	193037	18:36:00	18:36:00		Rzecha / Załęska 01 nż
+1652	1	193037	18:39:00	18:39:00		Sieciecha / Załęska 02 nż
+1652	1	193037	18:40:00	18:40:00		Załęska / Konf. Barskich 01 nż
+1652	1	193037	18:41:00	18:41:00		Konf. Barskich / Traugutta 01 nż
+1652	1	193037	18:45:00	18:45:00		Lwowska cmentarz 03
+1652	1	193037	18:46:00	18:46:00		Lwowska Jedn. Wojskowa 01
+1652	1	193037	18:48:00	18:48:00		Piłsudskiego ZDZ 02
+1652	1	193037	18:50:00	18:50:00		Pl. Wolności 04
+1652	1	193037	18:53:00	18:53:00		Piłsudskiego U. Marszałkowski 08
+1652	1	193037	18:55:00	18:55:00		Krakowska Jedn. Wojskowa 02
+1652	1	193037	18:57:00	18:57:00		Krakowska szpital 04
+1652	1	193037	18:58:00	18:58:00		Krakowska galeria 06
+1652	1	193037	18:59:00	18:59:00		Krakowska / Wyzwolenia 08 nż
+1652	1	193037	19:01:00	19:01:00		Krakowska cmentarz 10 nż
+1652	1	193037	19:03:00	19:03:00		Krakowska / Ceramiczna 12
+1652	1	193037	19:04:00	19:04:00		Krakowska Dworzysko 16 nż
+1652	1	193037	19:06:00	19:06:00		Krakowska granica 18 nż
+1652	1	193037	19:08:00	19:08:00		Krakowska granica 15 nż

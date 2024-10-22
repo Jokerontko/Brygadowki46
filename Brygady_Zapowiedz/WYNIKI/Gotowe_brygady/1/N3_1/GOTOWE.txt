@@ -1,161 +1,223 @@
 route_id	service_id	trip_id	arrival_time	departure_time	stop_headsign	stop_name
 -------------------------------------------------------------------------------
-1641	1	193995	23:19:00	23:19:00		Lubelska Zajezdnia MPK
-1641	1	193995	23:20:00	23:20:00		Lubelska MPK 13 nż
-1641	1	193995	23:21:00	23:21:00		Lubelska Ogrody Hiszpańskie 11 nż
-1641	1	193995	23:22:00	23:22:00		Lubelska Os. Ogrody 09 nż
-1641	1	193995	23:23:00	23:23:00		Lubelska / Borowa 07 nż
-1641	1	193995	23:24:00	23:24:00		Lubelska kościół 05 nż
-1641	1	193995	23:25:00	23:25:00		Lubelska szpital 01
-1641	1	193995	23:26:00	23:26:00		Marszałkowska 01
-1641	1	193995	23:28:00	23:28:00		Piłsudskiego U. Wojewódzki 03
-1641	1	193995	23:31:00	23:31:00		Dworzec Główny PKP 03
-1641	1	193995	23:35:00	23:35:00		Pl. Wolności 01
-1641	1	193995	23:37:00	23:37:00		Lwowska Jedn. Wojskowa 02
-1641	1	193995	23:38:00	23:38:00		Mieszka I / Kustronia 02 nż
-1641	1	193995	23:39:00	23:39:00		Niepodległości / Mieszka I 03 nż
-1641	1	193995	23:40:00	23:40:00		Niepodległości Dom Dziecka 01 nż
-1641	1	193995	23:41:00	23:41:00		Krzyżanowskiego szkoła 02 nż
-1641	1	193995	23:43:00	23:43:00		Paderewskiego / Ossolińskich 01 nż
-1641	1	193995	23:44:00	23:44:00		Rejtana / Popiełuszki 09
-1641	1	193995	23:46:00	23:46:00		Powst. Warszawy / Rejtana 13
-1641	1	193995	23:47:00	23:47:00		Powst. Warszawy szkoła 11
-1641	1	193995	23:48:00	23:48:00		Powst. Warszawy Dom Studenta 09
-1641	1	193995	23:50:00	23:50:00		Hetmańska stadion 07
-1641	1	193995	23:51:00	23:51:00		Hetmańska ZS. Mech. 05
-1641	1	193995	23:52:00	23:52:00		Hetmańska przychodnia 03
-1641	1	193995	23:53:00	23:53:00		Hetmańska podzamcze 01 nż
-1641	1	193995	23:54:00	23:54:00		Kilara 02 nż
-1641	1	193995	23:55:00	23:55:00		Szopena Filharmonia 01 nż
-1641	1	193995	23:56:00	23:56:00		Targowa 02
-1641	1	193995	23:58:00	23:58:00		Pl. Wolności 04
-1641	1	193995	24:00:00	24:00:00		Dworzec Główny PKP 01
-1641	1	193995	24:02:00	24:02:00		Piłsudskiego U. Wojewódzki 06
-1641	1	193995	24:04:00	24:04:00		Marszałkowska 02
-1641	1	193995	24:05:00	24:05:00		Lubelska szpital 02
-1641	1	193995	24:06:00	24:06:00		Lubelska kościół 06 nż
-1641	1	193995	24:07:00	24:07:00		Lubelska / Borowa 08 nż
-1641	1	193995	24:08:00	24:08:00		Lubelska Os. Ogrody 10 nż
-1641	1	193995	24:09:00	24:09:00		Lubelska Ogrody Hiszpańskie 12 nż
-1641	1	193995	24:10:00	24:10:00		Lubelska MPK 14 nż
-1641	1	193995	24:11:00	24:11:00		Lubelska Zajezdnia MPK
+1586	1	193857	21:05:00	21:05:00		Obr. Poczty Gdańskiej pętla 08
+1586	1	193857	21:06:00	21:06:00		Obr. Poczty Gdańskiej / Raginisa 01
+1586	1	193857	21:07:00	21:07:00		Wyzwolenia / Ofiar Katynia 07
+1586	1	193857	21:08:00	21:08:00		Wyzwolenia kościół 05
+1586	1	193857	21:09:00	21:09:00		Wyzwolenia / Okulickiego 03 nż
+1586	1	193857	21:11:00	21:11:00		Wyzwolenia / Warszawska 01 nż
+1586	1	193857	21:12:00	21:12:00		Lubelska szpital 01
+1586	1	193857	21:13:00	21:13:00		Marszałkowska 01
+1586	1	193857	21:16:00	21:16:00		Cieplińskiego 02
+1586	1	193857	21:17:00	21:17:00		Lisa-Kuli 01
+1586	1	193857	21:19:00	21:19:00		Dąbrowskiego park 02 nż
+1586	1	193857	21:20:00	21:20:00		Dąbrowskiego KW Policji 04
+1586	1	193857	21:21:00	21:21:00		Dąbrowskiego / Boh. Westerplatte 08
+1586	1	193857	21:23:00	21:23:00		Powst. Warszawy / Dąbrowskiego 02
+1586	1	193857	21:24:00	21:24:00		Powst. Warszawy Politechnika 04
+1586	1	193857	21:25:00	21:25:00		Powst. Warszawy stadion 06
+1586	1	193857	21:27:00	21:27:00		Powst. Warszawy Dom Studenta 08
+1586	1	193857	21:28:00	21:28:00		Powst. Warszawy / Graniczna 10
+1586	1	193857	21:29:00	21:29:00		Powst. Warszawy / Sikorskiego 12 nż
+1586	1	193857	21:30:00	21:30:00		Sikorskiego Katedra 04 nż
+1586	1	193857	21:31:00	21:31:00		Łukasiewicza / Sikorskiego 02 nż
+1586	1	193857	21:32:00	21:32:00		Łukasiewicza / Zimowit 04 nż
+1586	1	193857	21:33:00	21:33:00		Łukasiewicza / Gumińskich 06 nż
+1586	1	193857	21:34:00	21:34:00		Łukasiewicza pętla 08
+1586	1	193857	21:36:00	21:36:00		Kiepury / Herberta 02 nż
+1586	1	193857	21:37:00	21:37:00		Matysowska / Skalista 02 nż
+1586	1	193857	21:39:00	21:39:00		Matysowska szkoła 04 nż
+1586	1	193857	21:40:00	21:40:00		Matysowska górka 06 nż
+1586	1	193857	21:41:00	21:41:00		Matysowska / Pienińska 08 nż
+1586	1	193857	21:42:00	21:42:00		Pienińska pętla 03
 
-1641	1	193859	24:21:00	24:21:00		Lubelska Zajezdnia MPK
-1641	1	193859	24:22:00	24:22:00		Lubelska MPK 13 nż
-1641	1	193859	24:23:00	24:23:00		Lubelska Ogrody Hiszpańskie 11 nż
-1641	1	193859	24:24:00	24:24:00		Lubelska Os. Ogrody 09 nż
-1641	1	193859	24:25:00	24:25:00		Lubelska / Borowa 07 nż
-1641	1	193859	24:26:00	24:26:00		Lubelska kościół 05 nż
-1641	1	193859	24:27:00	24:27:00		Lubelska szpital 01
-1641	1	193859	24:28:00	24:28:00		Marszałkowska 01
-1641	1	193859	24:30:00	24:30:00		Piłsudskiego U. Wojewódzki 03
-1641	1	193859	24:33:00	24:33:00		Dworzec Główny PKP 03
-1641	1	193859	24:37:00	24:37:00		Pl. Wolności 01
-1641	1	193859	24:39:00	24:39:00		Lwowska Jedn. Wojskowa 02
-1641	1	193859	24:40:00	24:40:00		Mieszka I / Kustronia 02 nż
-1641	1	193859	24:41:00	24:41:00		Niepodległości / Mieszka I 03 nż
-1641	1	193859	24:42:00	24:42:00		Niepodległości Dom Dziecka 01 nż
-1641	1	193859	24:43:00	24:43:00		Krzyżanowskiego szkoła 02 nż
-1641	1	193859	24:44:00	24:44:00		Paderewskiego / Ossolińskich 01 nż
-1641	1	193859	24:45:00	24:45:00		Rejtana / Popiełuszki 09
-1641	1	193859	24:46:00	24:46:00		Powst. Warszawy / Rejtana 13
-1641	1	193859	24:47:00	24:47:00		Powst. Warszawy szkoła 11
-1641	1	193859	24:48:00	24:48:00		Powst. Warszawy Dom Studenta 09
-1641	1	193859	24:50:00	24:50:00		Hetmańska stadion 07
-1641	1	193859	24:51:00	24:51:00		Hetmańska ZS. Mech. 05
-1641	1	193859	24:52:00	24:52:00		Hetmańska przychodnia 03
-1641	1	193859	24:53:00	24:53:00		Hetmańska podzamcze 01 nż
-1641	1	193859	24:54:00	24:54:00		Kilara 02 nż
-1641	1	193859	24:55:00	24:55:00		Szopena Filharmonia 01 nż
-1641	1	193859	24:56:00	24:56:00		Targowa 02
-1641	1	193859	24:58:00	24:58:00		Pl. Wolności 04
-1641	1	193859	25:00:00	25:00:00		Dworzec Główny PKP 01
-1641	1	193859	25:02:00	25:02:00		Piłsudskiego U. Wojewódzki 06
-1641	1	193859	25:04:00	25:04:00		Marszałkowska 02
-1641	1	193859	25:05:00	25:05:00		Lubelska szpital 02
-1641	1	193859	25:06:00	25:06:00		Lubelska kościół 06 nż
-1641	1	193859	25:07:00	25:07:00		Lubelska / Borowa 08 nż
-1641	1	193859	25:08:00	25:08:00		Lubelska Os. Ogrody 10 nż
-1641	1	193859	25:09:00	25:09:00		Lubelska Ogrody Hiszpańskie 12 nż
-1641	1	193859	25:10:00	25:10:00		Lubelska MPK 14 nż
-1641	1	193859	25:11:00	25:11:00		Lubelska Zajezdnia MPK
+1581	1	193949	21:55:00	21:55:00		Pienińska pętla 03
+1581	1	193949	21:56:00	21:56:00		Pienińska / Matysowska 01 nż
+1581	1	193949	21:57:00	21:57:00		Matysowska / Św. Walentego 05 nż
+1581	1	193949	21:58:00	21:58:00		Matysowska górka 03 nż
+1581	1	193949	22:00:00	22:00:00		Matysowska szkoła 01 nż
+1581	1	193949	22:02:00	22:02:00		Kiepury / Wichrowa 03 nż
+1581	1	193949	22:03:00	22:03:00		Kiepury / Herberta 01 nż
+1581	1	193949	22:05:00	22:05:00		Łukasiewicza pętla 10
+1581	1	193949	22:06:00	22:06:00		Łukasiewicza / Sasanki 03 nż
+1581	1	193949	22:07:00	22:07:00		Łukasiewicza / Krokusowa 01 nż
+1581	1	193949	22:08:00	22:08:00		Sikorskiego Katedra 01 nż
+1581	1	193949	22:10:00	22:10:00		Powst. Warszawy / Rejtana 13
+1581	1	193949	22:11:00	22:11:00		Powst. Warszawy szkoła 11
+1581	1	193949	22:12:00	22:12:00		Powst. Warszawy Dom Studenta 09
+1581	1	193949	22:14:00	22:14:00		Powst. Warszawy / Hetmańska 03
+1581	1	193949	22:15:00	22:15:00		Powst. Warszawy Politechnika 01
+1581	1	193949	22:17:00	22:17:00		Dąbrowskiego Instytut Muzyki 07
+1581	1	193949	22:18:00	22:18:00		Dąbrowskiego KW Policji 03
+1581	1	193949	22:19:00	22:19:00		Dąbrowskiego park 01 nż
+1581	1	193949	22:22:00	22:22:00		Lisa-Kuli 02
+1581	1	193949	22:23:00	22:23:00		Cieplińskiego 01
+1581	1	193949	22:25:00	22:25:00		Marszałkowska 02
+1581	1	193949	22:26:00	22:26:00		Lubelska szpital 02
+1581	1	193949	22:28:00	22:28:00		Wyzwolenia / Lubelska 02 nż
+1581	1	193949	22:29:00	22:29:00		Wyzwolenia WORD 04 nż
+1581	1	193949	22:30:00	22:30:00		Wyzwolenia / Iranka-Osmeckiego 06
+1581	1	193949	22:31:00	22:31:00		Wyzwolenia / Brydaka 08
+1581	1	193949	22:32:00	22:32:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
+1581	1	193949	22:33:00	22:33:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
+1581	1	193949	22:34:00	22:34:00		Obr. Poczty Gdańskiej pętla 08
 
-1641	1	193895	25:21:00	25:21:00		Lubelska Zajezdnia MPK
-1641	1	193895	25:22:00	25:22:00		Lubelska MPK 13 nż
-1641	1	193895	25:23:00	25:23:00		Lubelska Ogrody Hiszpańskie 11 nż
-1641	1	193895	25:24:00	25:24:00		Lubelska Os. Ogrody 09 nż
-1641	1	193895	25:25:00	25:25:00		Lubelska / Borowa 07 nż
-1641	1	193895	25:26:00	25:26:00		Lubelska kościół 05 nż
-1641	1	193895	25:27:00	25:27:00		Lubelska szpital 01
-1641	1	193895	25:28:00	25:28:00		Marszałkowska 01
-1641	1	193895	25:30:00	25:30:00		Piłsudskiego U. Wojewódzki 03
-1641	1	193895	25:33:00	25:33:00		Dworzec Główny PKP 03
-1641	1	193895	25:37:00	25:37:00		Pl. Wolności 01
-1641	1	193895	25:39:00	25:39:00		Lwowska Jedn. Wojskowa 02
-1641	1	193895	25:40:00	25:40:00		Mieszka I / Kustronia 02 nż
-1641	1	193895	25:41:00	25:41:00		Niepodległości / Mieszka I 03 nż
-1641	1	193895	25:42:00	25:42:00		Niepodległości Dom Dziecka 01 nż
-1641	1	193895	25:43:00	25:43:00		Krzyżanowskiego szkoła 02 nż
-1641	1	193895	25:44:00	25:44:00		Paderewskiego / Ossolińskich 01 nż
-1641	1	193895	25:45:00	25:45:00		Rejtana / Popiełuszki 09
-1641	1	193895	25:46:00	25:46:00		Powst. Warszawy / Rejtana 13
-1641	1	193895	25:47:00	25:47:00		Powst. Warszawy szkoła 11
-1641	1	193895	25:48:00	25:48:00		Powst. Warszawy Dom Studenta 09
-1641	1	193895	25:50:00	25:50:00		Hetmańska stadion 07
-1641	1	193895	25:51:00	25:51:00		Hetmańska ZS. Mech. 05
-1641	1	193895	25:52:00	25:52:00		Hetmańska przychodnia 03
-1641	1	193895	25:53:00	25:53:00		Hetmańska podzamcze 01 nż
-1641	1	193895	25:54:00	25:54:00		Kilara 02 nż
-1641	1	193895	25:55:00	25:55:00		Szopena Filharmonia 01 nż
-1641	1	193895	25:56:00	25:56:00		Targowa 02
-1641	1	193895	25:58:00	25:58:00		Pl. Wolności 04
-1641	1	193895	26:00:00	26:00:00		Dworzec Główny PKP 01
-1641	1	193895	26:02:00	26:02:00		Piłsudskiego U. Wojewódzki 06
-1641	1	193895	26:04:00	26:04:00		Marszałkowska 02
-1641	1	193895	26:05:00	26:05:00		Lubelska szpital 02
-1641	1	193895	26:06:00	26:06:00		Lubelska kościół 06 nż
-1641	1	193895	26:07:00	26:07:00		Lubelska / Borowa 08 nż
-1641	1	193895	26:08:00	26:08:00		Lubelska Os. Ogrody 10 nż
-1641	1	193895	26:09:00	26:09:00		Lubelska Ogrody Hiszpańskie 12 nż
-1641	1	193895	26:10:00	26:10:00		Lubelska MPK 14 nż
-1641	1	193895	26:11:00	26:11:00		Lubelska Zajezdnia MPK
+1641	1	193991	23:19:00	23:19:00		Lubelska Zajezdnia MPK
+1641	1	193991	23:20:00	23:20:00		Lubelska MPK 13 nż
+1641	1	193991	23:21:00	23:21:00		Lubelska Ogrody Hiszpańskie 11 nż
+1641	1	193991	23:22:00	23:22:00		Lubelska Os. Ogrody 09 nż
+1641	1	193991	23:23:00	23:23:00		Lubelska / Borowa 07 nż
+1641	1	193991	23:24:00	23:24:00		Lubelska kościół 05 nż
+1641	1	193991	23:25:00	23:25:00		Lubelska szpital 01
+1641	1	193991	23:26:00	23:26:00		Marszałkowska 01
+1641	1	193991	23:28:00	23:28:00		Piłsudskiego U. Wojewódzki 03
+1641	1	193991	23:31:00	23:31:00		Dworzec Główny PKP 03
+1641	1	193991	23:35:00	23:35:00		Pl. Wolności 01
+1641	1	193991	23:37:00	23:37:00		Lwowska Jedn. Wojskowa 02
+1641	1	193991	23:38:00	23:38:00		Mieszka I / Kustronia 02 nż
+1641	1	193991	23:39:00	23:39:00		Niepodległości / Mieszka I 03 nż
+1641	1	193991	23:40:00	23:40:00		Niepodległości Dom Dziecka 01 nż
+1641	1	193991	23:41:00	23:41:00		Krzyżanowskiego szkoła 02 nż
+1641	1	193991	23:43:00	23:43:00		Paderewskiego / Ossolińskich 01 nż
+1641	1	193991	23:44:00	23:44:00		Rejtana / Popiełuszki 09
+1641	1	193991	23:46:00	23:46:00		Powst. Warszawy / Rejtana 13
+1641	1	193991	23:47:00	23:47:00		Powst. Warszawy szkoła 11
+1641	1	193991	23:48:00	23:48:00		Powst. Warszawy Dom Studenta 09
+1641	1	193991	23:50:00	23:50:00		Hetmańska stadion 07
+1641	1	193991	23:51:00	23:51:00		Hetmańska ZS. Mech. 05
+1641	1	193991	23:52:00	23:52:00		Hetmańska przychodnia 03
+1641	1	193991	23:53:00	23:53:00		Hetmańska podzamcze 01 nż
+1641	1	193991	23:54:00	23:54:00		Kilara 02 nż
+1641	1	193991	23:55:00	23:55:00		Szopena Filharmonia 01 nż
+1641	1	193991	23:56:00	23:56:00		Targowa 02
+1641	1	193991	23:58:00	23:58:00		Pl. Wolności 04
+1641	1	193991	24:00:00	24:00:00		Dworzec Główny PKP 01
+1641	1	193991	24:02:00	24:02:00		Piłsudskiego U. Wojewódzki 06
+1641	1	193991	24:04:00	24:04:00		Marszałkowska 02
+1641	1	193991	24:05:00	24:05:00		Lubelska szpital 02
+1641	1	193991	24:06:00	24:06:00		Lubelska kościół 06 nż
+1641	1	193991	24:07:00	24:07:00		Lubelska / Borowa 08 nż
+1641	1	193991	24:08:00	24:08:00		Lubelska Os. Ogrody 10 nż
+1641	1	193991	24:09:00	24:09:00		Lubelska Ogrody Hiszpańskie 12 nż
+1641	1	193991	24:10:00	24:10:00		Lubelska MPK 14 nż
+1641	1	193991	24:11:00	24:11:00		Lubelska Zajezdnia MPK
 
-1641	1	193903	27:21:00	27:21:00		Lubelska Zajezdnia MPK
-1641	1	193903	27:22:00	27:22:00		Lubelska MPK 13 nż
-1641	1	193903	27:23:00	27:23:00		Lubelska Ogrody Hiszpańskie 11 nż
-1641	1	193903	27:24:00	27:24:00		Lubelska Os. Ogrody 09 nż
-1641	1	193903	27:25:00	27:25:00		Lubelska / Borowa 07 nż
-1641	1	193903	27:26:00	27:26:00		Lubelska kościół 05 nż
-1641	1	193903	27:27:00	27:27:00		Lubelska szpital 01
-1641	1	193903	27:28:00	27:28:00		Marszałkowska 01
-1641	1	193903	27:30:00	27:30:00		Piłsudskiego U. Wojewódzki 03
-1641	1	193903	27:33:00	27:33:00		Dworzec Główny PKP 03
-1641	1	193903	27:37:00	27:37:00		Pl. Wolności 01
-1641	1	193903	27:39:00	27:39:00		Lwowska Jedn. Wojskowa 02
-1641	1	193903	27:40:00	27:40:00		Mieszka I / Kustronia 02 nż
-1641	1	193903	27:41:00	27:41:00		Niepodległości / Mieszka I 03 nż
-1641	1	193903	27:42:00	27:42:00		Niepodległości Dom Dziecka 01 nż
-1641	1	193903	27:43:00	27:43:00		Krzyżanowskiego szkoła 02 nż
-1641	1	193903	27:44:00	27:44:00		Paderewskiego / Ossolińskich 01 nż
-1641	1	193903	27:45:00	27:45:00		Rejtana / Popiełuszki 09
-1641	1	193903	27:46:00	27:46:00		Powst. Warszawy / Rejtana 13
-1641	1	193903	27:47:00	27:47:00		Powst. Warszawy szkoła 11
-1641	1	193903	27:48:00	27:48:00		Powst. Warszawy Dom Studenta 09
-1641	1	193903	27:50:00	27:50:00		Hetmańska stadion 07
-1641	1	193903	27:51:00	27:51:00		Hetmańska ZS. Mech. 05
-1641	1	193903	27:52:00	27:52:00		Hetmańska przychodnia 03
-1641	1	193903	27:53:00	27:53:00		Hetmańska podzamcze 01 nż
-1641	1	193903	27:54:00	27:54:00		Kilara 02 nż
-1641	1	193903	27:55:00	27:55:00		Szopena Filharmonia 01 nż
-1641	1	193903	27:56:00	27:56:00		Targowa 02
-1641	1	193903	27:58:00	27:58:00		Pl. Wolności 04
-1641	1	193903	28:00:00	28:00:00		Dworzec Główny PKP 01
-1641	1	193903	28:02:00	28:02:00		Piłsudskiego U. Wojewódzki 06
-1641	1	193903	28:04:00	28:04:00		Marszałkowska 02
-1641	1	193903	28:05:00	28:05:00		Lubelska szpital 02
-1641	1	193903	28:06:00	28:06:00		Lubelska kościół 06 nż
-1641	1	193903	28:07:00	28:07:00		Lubelska / Borowa 08 nż
-1641	1	193903	28:08:00	28:08:00		Lubelska Os. Ogrody 10 nż
-1641	1	193903	28:09:00	28:09:00		Lubelska Ogrody Hiszpańskie 12 nż
-1641	1	193903	28:10:00	28:10:00		Lubelska MPK 14 nż
-1641	1	193903	28:11:00	28:11:00		Lubelska Zajezdnia MPK
+1641	1	193974	24:21:00	24:21:00		Lubelska Zajezdnia MPK
+1641	1	193974	24:22:00	24:22:00		Lubelska MPK 13 nż
+1641	1	193974	24:23:00	24:23:00		Lubelska Ogrody Hiszpańskie 11 nż
+1641	1	193974	24:24:00	24:24:00		Lubelska Os. Ogrody 09 nż
+1641	1	193974	24:25:00	24:25:00		Lubelska / Borowa 07 nż
+1641	1	193974	24:26:00	24:26:00		Lubelska kościół 05 nż
+1641	1	193974	24:27:00	24:27:00		Lubelska szpital 01
+1641	1	193974	24:28:00	24:28:00		Marszałkowska 01
+1641	1	193974	24:30:00	24:30:00		Piłsudskiego U. Wojewódzki 03
+1641	1	193974	24:33:00	24:33:00		Dworzec Główny PKP 03
+1641	1	193974	24:37:00	24:37:00		Pl. Wolności 01
+1641	1	193974	24:39:00	24:39:00		Lwowska Jedn. Wojskowa 02
+1641	1	193974	24:40:00	24:40:00		Mieszka I / Kustronia 02 nż
+1641	1	193974	24:41:00	24:41:00		Niepodległości / Mieszka I 03 nż
+1641	1	193974	24:42:00	24:42:00		Niepodległości Dom Dziecka 01 nż
+1641	1	193974	24:43:00	24:43:00		Krzyżanowskiego szkoła 02 nż
+1641	1	193974	24:44:00	24:44:00		Paderewskiego / Ossolińskich 01 nż
+1641	1	193974	24:45:00	24:45:00		Rejtana / Popiełuszki 09
+1641	1	193974	24:46:00	24:46:00		Powst. Warszawy / Rejtana 13
+1641	1	193974	24:47:00	24:47:00		Powst. Warszawy szkoła 11
+1641	1	193974	24:48:00	24:48:00		Powst. Warszawy Dom Studenta 09
+1641	1	193974	24:50:00	24:50:00		Hetmańska stadion 07
+1641	1	193974	24:51:00	24:51:00		Hetmańska ZS. Mech. 05
+1641	1	193974	24:52:00	24:52:00		Hetmańska przychodnia 03
+1641	1	193974	24:53:00	24:53:00		Hetmańska podzamcze 01 nż
+1641	1	193974	24:54:00	24:54:00		Kilara 02 nż
+1641	1	193974	24:55:00	24:55:00		Szopena Filharmonia 01 nż
+1641	1	193974	24:56:00	24:56:00		Targowa 02
+1641	1	193974	24:58:00	24:58:00		Pl. Wolności 04
+1641	1	193974	25:00:00	25:00:00		Dworzec Główny PKP 01
+1641	1	193974	25:02:00	25:02:00		Piłsudskiego U. Wojewódzki 06
+1641	1	193974	25:04:00	25:04:00		Marszałkowska 02
+1641	1	193974	25:05:00	25:05:00		Lubelska szpital 02
+1641	1	193974	25:06:00	25:06:00		Lubelska kościół 06 nż
+1641	1	193974	25:07:00	25:07:00		Lubelska / Borowa 08 nż
+1641	1	193974	25:08:00	25:08:00		Lubelska Os. Ogrody 10 nż
+1641	1	193974	25:09:00	25:09:00		Lubelska Ogrody Hiszpańskie 12 nż
+1641	1	193974	25:10:00	25:10:00		Lubelska MPK 14 nż
+1641	1	193974	25:11:00	25:11:00		Lubelska Zajezdnia MPK
+
+1641	1	193950	25:21:00	25:21:00		Lubelska Zajezdnia MPK
+1641	1	193950	25:22:00	25:22:00		Lubelska MPK 13 nż
+1641	1	193950	25:23:00	25:23:00		Lubelska Ogrody Hiszpańskie 11 nż
+1641	1	193950	25:24:00	25:24:00		Lubelska Os. Ogrody 09 nż
+1641	1	193950	25:25:00	25:25:00		Lubelska / Borowa 07 nż
+1641	1	193950	25:26:00	25:26:00		Lubelska kościół 05 nż
+1641	1	193950	25:27:00	25:27:00		Lubelska szpital 01
+1641	1	193950	25:28:00	25:28:00		Marszałkowska 01
+1641	1	193950	25:30:00	25:30:00		Piłsudskiego U. Wojewódzki 03
+1641	1	193950	25:33:00	25:33:00		Dworzec Główny PKP 03
+1641	1	193950	25:37:00	25:37:00		Pl. Wolności 01
+1641	1	193950	25:39:00	25:39:00		Lwowska Jedn. Wojskowa 02
+1641	1	193950	25:40:00	25:40:00		Mieszka I / Kustronia 02 nż
+1641	1	193950	25:41:00	25:41:00		Niepodległości / Mieszka I 03 nż
+1641	1	193950	25:42:00	25:42:00		Niepodległości Dom Dziecka 01 nż
+1641	1	193950	25:43:00	25:43:00		Krzyżanowskiego szkoła 02 nż
+1641	1	193950	25:44:00	25:44:00		Paderewskiego / Ossolińskich 01 nż
+1641	1	193950	25:45:00	25:45:00		Rejtana / Popiełuszki 09
+1641	1	193950	25:46:00	25:46:00		Powst. Warszawy / Rejtana 13
+1641	1	193950	25:47:00	25:47:00		Powst. Warszawy szkoła 11
+1641	1	193950	25:48:00	25:48:00		Powst. Warszawy Dom Studenta 09
+1641	1	193950	25:50:00	25:50:00		Hetmańska stadion 07
+1641	1	193950	25:51:00	25:51:00		Hetmańska ZS. Mech. 05
+1641	1	193950	25:52:00	25:52:00		Hetmańska przychodnia 03
+1641	1	193950	25:53:00	25:53:00		Hetmańska podzamcze 01 nż
+1641	1	193950	25:54:00	25:54:00		Kilara 02 nż
+1641	1	193950	25:55:00	25:55:00		Szopena Filharmonia 01 nż
+1641	1	193950	25:56:00	25:56:00		Targowa 02
+1641	1	193950	25:58:00	25:58:00		Pl. Wolności 04
+1641	1	193950	26:00:00	26:00:00		Dworzec Główny PKP 01
+1641	1	193950	26:02:00	26:02:00		Piłsudskiego U. Wojewódzki 06
+1641	1	193950	26:04:00	26:04:00		Marszałkowska 02
+1641	1	193950	26:05:00	26:05:00		Lubelska szpital 02
+1641	1	193950	26:06:00	26:06:00		Lubelska kościół 06 nż
+1641	1	193950	26:07:00	26:07:00		Lubelska / Borowa 08 nż
+1641	1	193950	26:08:00	26:08:00		Lubelska Os. Ogrody 10 nż
+1641	1	193950	26:09:00	26:09:00		Lubelska Ogrody Hiszpańskie 12 nż
+1641	1	193950	26:10:00	26:10:00		Lubelska MPK 14 nż
+1641	1	193950	26:11:00	26:11:00		Lubelska Zajezdnia MPK
+
+1641	1	193966	27:21:00	27:21:00		Lubelska Zajezdnia MPK
+1641	1	193966	27:22:00	27:22:00		Lubelska MPK 13 nż
+1641	1	193966	27:23:00	27:23:00		Lubelska Ogrody Hiszpańskie 11 nż
+1641	1	193966	27:24:00	27:24:00		Lubelska Os. Ogrody 09 nż
+1641	1	193966	27:25:00	27:25:00		Lubelska / Borowa 07 nż
+1641	1	193966	27:26:00	27:26:00		Lubelska kościół 05 nż
+1641	1	193966	27:27:00	27:27:00		Lubelska szpital 01
+1641	1	193966	27:28:00	27:28:00		Marszałkowska 01
+1641	1	193966	27:30:00	27:30:00		Piłsudskiego U. Wojewódzki 03
+1641	1	193966	27:33:00	27:33:00		Dworzec Główny PKP 03
+1641	1	193966	27:37:00	27:37:00		Pl. Wolności 01
+1641	1	193966	27:39:00	27:39:00		Lwowska Jedn. Wojskowa 02
+1641	1	193966	27:40:00	27:40:00		Mieszka I / Kustronia 02 nż
+1641	1	193966	27:41:00	27:41:00		Niepodległości / Mieszka I 03 nż
+1641	1	193966	27:42:00	27:42:00		Niepodległości Dom Dziecka 01 nż
+1641	1	193966	27:43:00	27:43:00		Krzyżanowskiego szkoła 02 nż
+1641	1	193966	27:44:00	27:44:00		Paderewskiego / Ossolińskich 01 nż
+1641	1	193966	27:45:00	27:45:00		Rejtana / Popiełuszki 09
+1641	1	193966	27:46:00	27:46:00		Powst. Warszawy / Rejtana 13
+1641	1	193966	27:47:00	27:47:00		Powst. Warszawy szkoła 11
+1641	1	193966	27:48:00	27:48:00		Powst. Warszawy Dom Studenta 09
+1641	1	193966	27:50:00	27:50:00		Hetmańska stadion 07
+1641	1	193966	27:51:00	27:51:00		Hetmańska ZS. Mech. 05
+1641	1	193966	27:52:00	27:52:00		Hetmańska przychodnia 03
+1641	1	193966	27:53:00	27:53:00		Hetmańska podzamcze 01 nż
+1641	1	193966	27:54:00	27:54:00		Kilara 02 nż
+1641	1	193966	27:55:00	27:55:00		Szopena Filharmonia 01 nż
+1641	1	193966	27:56:00	27:56:00		Targowa 02
+1641	1	193966	27:58:00	27:58:00		Pl. Wolności 04
+1641	1	193966	28:00:00	28:00:00		Dworzec Główny PKP 01
+1641	1	193966	28:02:00	28:02:00		Piłsudskiego U. Wojewódzki 06
+1641	1	193966	28:04:00	28:04:00		Marszałkowska 02
+1641	1	193966	28:05:00	28:05:00		Lubelska szpital 02
+1641	1	193966	28:06:00	28:06:00		Lubelska kościół 06 nż
+1641	1	193966	28:07:00	28:07:00		Lubelska / Borowa 08 nż
+1641	1	193966	28:08:00	28:08:00		Lubelska Os. Ogrody 10 nż
+1641	1	193966	28:09:00	28:09:00		Lubelska Ogrody Hiszpańskie 12 nż
+1641	1	193966	28:10:00	28:10:00		Lubelska MPK 14 nż
+1641	1	193966	28:11:00	28:11:00		Lubelska Zajezdnia MPK

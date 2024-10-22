@@ -1,0 +1,265 @@
+route_id	service_id	trip_id	arrival_time	departure_time	stop_headsign	stop_name
+-------------------------------------------------------------------------------
+929	4	195934	09:29:00	09:29:00		Kopisto Uniwersytet 02
+929	4	195934	09:31:00	09:31:00		Podwisłocze U. Skarbowy 03
+929	4	195934	09:32:00	09:32:00		Podwisłocze domki 01
+929	4	195934	09:33:00	09:33:00		Powst. Warszawy Dom Studenta 08
+929	4	195934	09:34:00	09:34:00		Powst. Warszawy / Graniczna 10
+929	4	195934	09:37:00	09:37:00		Rejtana / Armii Krajowej 12
+929	4	195934	09:38:00	09:38:00		Rejtana / Paderewskiego 10
+929	4	195934	09:40:00	09:40:00		Paderewskiego / Ossolińskich 02 nż
+929	4	195934	09:41:00	09:41:00		Krzyżanowskiego szkoła 01 nż
+929	4	195934	09:43:00	09:43:00		Niepodległości Dom Dziecka 04 nż
+929	4	195934	09:44:00	09:44:00		Mieszka I / Kustronia 01 nż
+929	4	195934	09:46:00	09:46:00		Lwowska cmentarz 04
+929	4	195934	09:47:00	09:47:00		Lwowska szpital 06
+929	4	195934	09:50:00	09:50:00		Cienista cmentarz 04
+
+934	4	195918	09:54:00	09:54:00		Cienista cmentarz 01
+934	4	195918	09:55:00	09:55:00		Lwowska / Cienista 07 nż
+934	4	195918	09:57:00	09:57:00		Lwowska szpital 05
+934	4	195918	09:59:00	09:59:00		Lwowska cmentarz 03
+934	4	195918	10:01:00	10:01:00		Mieszka I / Kustronia 02 nż
+934	4	195918	10:02:00	10:02:00		Niepodległości / Mieszka I 03 nż
+934	4	195918	10:03:00	10:03:00		Niepodległości Dom Dziecka 01 nż
+934	4	195918	10:04:00	10:04:00		Krzyżanowskiego szkoła 02 nż
+934	4	195918	10:06:00	10:06:00		Paderewskiego / Ossolińskich 01 nż
+934	4	195918	10:07:00	10:07:00		Rejtana / Popiełuszki 09
+934	4	195918	10:10:00	10:10:00		Powst. Warszawy / Rejtana 13
+934	4	195918	10:11:00	10:11:00		Powst. Warszawy szkoła 11
+934	4	195918	10:12:00	10:12:00		Powst. Warszawy Dom Studenta 09
+934	4	195918	10:13:00	10:13:00		Podwisłocze / Powst. Warszawy 02
+934	4	195918	10:14:00	10:14:00		Podwisłocze klinika 04
+934	4	195918	10:16:00	10:16:00		Kopisto U. Skarbowy 03
+934	4	195918	10:17:00	10:17:00		Kopisto Uniwersytet 01
+
+929	4	195616	10:29:00	10:29:00		Kopisto Uniwersytet 02
+929	4	195616	10:31:00	10:31:00		Podwisłocze U. Skarbowy 03
+929	4	195616	10:32:00	10:32:00		Podwisłocze domki 01
+929	4	195616	10:33:00	10:33:00		Powst. Warszawy Dom Studenta 08
+929	4	195616	10:34:00	10:34:00		Powst. Warszawy / Graniczna 10
+929	4	195616	10:37:00	10:37:00		Rejtana / Armii Krajowej 12
+929	4	195616	10:38:00	10:38:00		Rejtana / Paderewskiego 10
+929	4	195616	10:40:00	10:40:00		Paderewskiego / Ossolińskich 02 nż
+929	4	195616	10:41:00	10:41:00		Krzyżanowskiego szkoła 01 nż
+929	4	195616	10:43:00	10:43:00		Niepodległości Dom Dziecka 04 nż
+929	4	195616	10:45:00	10:45:00		Mieszka I / Kustronia 01 nż
+929	4	195616	10:47:00	10:47:00		Lwowska cmentarz 04
+929	4	195616	10:48:00	10:48:00		Lwowska szpital 06
+929	4	195616	10:51:00	10:51:00		Cienista cmentarz 04
+
+934	4	196093	10:54:00	10:54:00		Cienista cmentarz 01
+934	4	196093	10:55:00	10:55:00		Lwowska / Cienista 07 nż
+934	4	196093	10:57:00	10:57:00		Lwowska szpital 05
+934	4	196093	10:59:00	10:59:00		Lwowska cmentarz 03
+934	4	196093	11:01:00	11:01:00		Mieszka I / Kustronia 02 nż
+934	4	196093	11:02:00	11:02:00		Niepodległości / Mieszka I 03 nż
+934	4	196093	11:03:00	11:03:00		Niepodległości Dom Dziecka 01 nż
+934	4	196093	11:04:00	11:04:00		Krzyżanowskiego szkoła 02 nż
+934	4	196093	11:06:00	11:06:00		Paderewskiego / Ossolińskich 01 nż
+934	4	196093	11:07:00	11:07:00		Rejtana / Popiełuszki 09
+934	4	196093	11:10:00	11:10:00		Powst. Warszawy / Rejtana 13
+934	4	196093	11:11:00	11:11:00		Powst. Warszawy szkoła 11
+934	4	196093	11:12:00	11:12:00		Powst. Warszawy Dom Studenta 09
+934	4	196093	11:13:00	11:13:00		Podwisłocze / Powst. Warszawy 02
+934	4	196093	11:14:00	11:14:00		Podwisłocze klinika 04
+934	4	196093	11:16:00	11:16:00		Kopisto U. Skarbowy 03
+934	4	196093	11:17:00	11:17:00		Kopisto Uniwersytet 01
+
+929	4	195262	11:29:00	11:29:00		Kopisto Uniwersytet 02
+929	4	195262	11:32:00	11:32:00		Podwisłocze U. Skarbowy 03
+929	4	195262	11:33:00	11:33:00		Podwisłocze domki 01
+929	4	195262	11:34:00	11:34:00		Powst. Warszawy Dom Studenta 08
+929	4	195262	11:35:00	11:35:00		Powst. Warszawy / Graniczna 10
+929	4	195262	11:38:00	11:38:00		Rejtana / Armii Krajowej 12
+929	4	195262	11:39:00	11:39:00		Rejtana / Paderewskiego 10
+929	4	195262	11:41:00	11:41:00		Paderewskiego / Ossolińskich 02 nż
+929	4	195262	11:42:00	11:42:00		Krzyżanowskiego szkoła 01 nż
+929	4	195262	11:44:00	11:44:00		Niepodległości Dom Dziecka 04 nż
+929	4	195262	11:46:00	11:46:00		Mieszka I / Kustronia 01 nż
+929	4	195262	11:48:00	11:48:00		Lwowska cmentarz 04
+929	4	195262	11:49:00	11:49:00		Lwowska szpital 06
+929	4	195262	11:52:00	11:52:00		Cienista cmentarz 04
+
+934	4	195758	11:54:00	11:54:00		Cienista cmentarz 01
+934	4	195758	11:55:00	11:55:00		Lwowska / Cienista 07 nż
+934	4	195758	11:57:00	11:57:00		Lwowska szpital 05
+934	4	195758	11:59:00	11:59:00		Lwowska cmentarz 03
+934	4	195758	12:01:00	12:01:00		Mieszka I / Kustronia 02 nż
+934	4	195758	12:02:00	12:02:00		Niepodległości / Mieszka I 03 nż
+934	4	195758	12:03:00	12:03:00		Niepodległości Dom Dziecka 01 nż
+934	4	195758	12:04:00	12:04:00		Krzyżanowskiego szkoła 02 nż
+934	4	195758	12:06:00	12:06:00		Paderewskiego / Ossolińskich 01 nż
+934	4	195758	12:07:00	12:07:00		Rejtana / Popiełuszki 09
+934	4	195758	12:10:00	12:10:00		Powst. Warszawy / Rejtana 13
+934	4	195758	12:11:00	12:11:00		Powst. Warszawy szkoła 11
+934	4	195758	12:12:00	12:12:00		Powst. Warszawy Dom Studenta 09
+934	4	195758	12:13:00	12:13:00		Podwisłocze / Powst. Warszawy 02
+934	4	195758	12:14:00	12:14:00		Podwisłocze klinika 04
+934	4	195758	12:16:00	12:16:00		Kopisto U. Skarbowy 03
+934	4	195758	12:17:00	12:17:00		Kopisto Uniwersytet 01
+
+929	4	195510	12:39:00	12:39:00		Kopisto Uniwersytet 02
+929	4	195510	12:42:00	12:42:00		Podwisłocze U. Skarbowy 03
+929	4	195510	12:43:00	12:43:00		Podwisłocze domki 01
+929	4	195510	12:44:00	12:44:00		Powst. Warszawy Dom Studenta 08
+929	4	195510	12:45:00	12:45:00		Powst. Warszawy / Graniczna 10
+929	4	195510	12:48:00	12:48:00		Rejtana / Armii Krajowej 12
+929	4	195510	12:49:00	12:49:00		Rejtana / Paderewskiego 10
+929	4	195510	12:51:00	12:51:00		Paderewskiego / Ossolińskich 02 nż
+929	4	195510	12:52:00	12:52:00		Krzyżanowskiego szkoła 01 nż
+929	4	195510	12:54:00	12:54:00		Niepodległości Dom Dziecka 04 nż
+929	4	195510	12:56:00	12:56:00		Mieszka I / Kustronia 01 nż
+929	4	195510	12:58:00	12:58:00		Lwowska cmentarz 04
+929	4	195510	12:59:00	12:59:00		Lwowska szpital 06
+929	4	195510	13:02:00	13:02:00		Cienista cmentarz 04
+
+934	4	195302	13:04:00	13:04:00		Cienista cmentarz 01
+934	4	195302	13:05:00	13:05:00		Lwowska / Cienista 07 nż
+934	4	195302	13:07:00	13:07:00		Lwowska szpital 05
+934	4	195302	13:09:00	13:09:00		Lwowska cmentarz 03
+934	4	195302	13:11:00	13:11:00		Mieszka I / Kustronia 02 nż
+934	4	195302	13:12:00	13:12:00		Niepodległości / Mieszka I 03 nż
+934	4	195302	13:13:00	13:13:00		Niepodległości Dom Dziecka 01 nż
+934	4	195302	13:14:00	13:14:00		Krzyżanowskiego szkoła 02 nż
+934	4	195302	13:16:00	13:16:00		Paderewskiego / Ossolińskich 01 nż
+934	4	195302	13:17:00	13:17:00		Rejtana / Popiełuszki 09
+934	4	195302	13:20:00	13:20:00		Powst. Warszawy / Rejtana 13
+934	4	195302	13:21:00	13:21:00		Powst. Warszawy szkoła 11
+934	4	195302	13:22:00	13:22:00		Powst. Warszawy Dom Studenta 09
+934	4	195302	13:23:00	13:23:00		Podwisłocze / Powst. Warszawy 02
+934	4	195302	13:24:00	13:24:00		Podwisłocze klinika 04
+934	4	195302	13:26:00	13:26:00		Kopisto U. Skarbowy 03
+934	4	195302	13:27:00	13:27:00		Kopisto Uniwersytet 01
+
+929	4	195733	13:39:00	13:39:00		Kopisto Uniwersytet 02
+929	4	195733	13:42:00	13:42:00		Podwisłocze U. Skarbowy 03
+929	4	195733	13:43:00	13:43:00		Podwisłocze domki 01
+929	4	195733	13:44:00	13:44:00		Powst. Warszawy Dom Studenta 08
+929	4	195733	13:45:00	13:45:00		Powst. Warszawy / Graniczna 10
+929	4	195733	13:48:00	13:48:00		Rejtana / Armii Krajowej 12
+929	4	195733	13:49:00	13:49:00		Rejtana / Paderewskiego 10
+929	4	195733	13:51:00	13:51:00		Paderewskiego / Ossolińskich 02 nż
+929	4	195733	13:52:00	13:52:00		Krzyżanowskiego szkoła 01 nż
+929	4	195733	13:54:00	13:54:00		Niepodległości Dom Dziecka 04 nż
+929	4	195733	13:56:00	13:56:00		Mieszka I / Kustronia 01 nż
+929	4	195733	13:58:00	13:58:00		Lwowska cmentarz 04
+929	4	195733	13:59:00	13:59:00		Lwowska szpital 06
+929	4	195733	14:02:00	14:02:00		Cienista cmentarz 04
+
+934	4	194906	14:04:00	14:04:00		Cienista cmentarz 01
+934	4	194906	14:05:00	14:05:00		Lwowska / Cienista 07 nż
+934	4	194906	14:07:00	14:07:00		Lwowska szpital 05
+934	4	194906	14:09:00	14:09:00		Lwowska cmentarz 03
+934	4	194906	14:11:00	14:11:00		Mieszka I / Kustronia 02 nż
+934	4	194906	14:12:00	14:12:00		Niepodległości / Mieszka I 03 nż
+934	4	194906	14:13:00	14:13:00		Niepodległości Dom Dziecka 01 nż
+934	4	194906	14:14:00	14:14:00		Krzyżanowskiego szkoła 02 nż
+934	4	194906	14:16:00	14:16:00		Paderewskiego / Ossolińskich 01 nż
+934	4	194906	14:17:00	14:17:00		Rejtana / Popiełuszki 09
+934	4	194906	14:20:00	14:20:00		Powst. Warszawy / Rejtana 13
+934	4	194906	14:21:00	14:21:00		Powst. Warszawy szkoła 11
+934	4	194906	14:22:00	14:22:00		Powst. Warszawy Dom Studenta 09
+934	4	194906	14:23:00	14:23:00		Podwisłocze / Powst. Warszawy 02
+934	4	194906	14:24:00	14:24:00		Podwisłocze klinika 04
+934	4	194906	14:26:00	14:26:00		Kopisto U. Skarbowy 03
+934	4	194906	14:27:00	14:27:00		Kopisto Uniwersytet 01
+
+929	4	194880	14:39:00	14:39:00		Kopisto Uniwersytet 02
+929	4	194880	14:42:00	14:42:00		Podwisłocze U. Skarbowy 03
+929	4	194880	14:43:00	14:43:00		Podwisłocze domki 01
+929	4	194880	14:44:00	14:44:00		Powst. Warszawy Dom Studenta 08
+929	4	194880	14:45:00	14:45:00		Powst. Warszawy / Graniczna 10
+929	4	194880	14:48:00	14:48:00		Rejtana / Armii Krajowej 12
+929	4	194880	14:49:00	14:49:00		Rejtana / Paderewskiego 10
+929	4	194880	14:51:00	14:51:00		Paderewskiego / Ossolińskich 02 nż
+929	4	194880	14:52:00	14:52:00		Krzyżanowskiego szkoła 01 nż
+929	4	194880	14:54:00	14:54:00		Niepodległości Dom Dziecka 04 nż
+929	4	194880	14:55:00	14:55:00		Mieszka I / Kustronia 01 nż
+929	4	194880	14:57:00	14:57:00		Lwowska cmentarz 04
+929	4	194880	14:58:00	14:58:00		Lwowska szpital 06
+929	4	194880	15:01:00	15:01:00		Cienista cmentarz 04
+
+934	4	195528	15:04:00	15:04:00		Cienista cmentarz 01
+934	4	195528	15:05:00	15:05:00		Lwowska / Cienista 07 nż
+934	4	195528	15:07:00	15:07:00		Lwowska szpital 05
+934	4	195528	15:09:00	15:09:00		Lwowska cmentarz 03
+934	4	195528	15:11:00	15:11:00		Mieszka I / Kustronia 02 nż
+934	4	195528	15:12:00	15:12:00		Niepodległości / Mieszka I 03 nż
+934	4	195528	15:13:00	15:13:00		Niepodległości Dom Dziecka 01 nż
+934	4	195528	15:14:00	15:14:00		Krzyżanowskiego szkoła 02 nż
+934	4	195528	15:16:00	15:16:00		Paderewskiego / Ossolińskich 01 nż
+934	4	195528	15:17:00	15:17:00		Rejtana / Popiełuszki 09
+934	4	195528	15:20:00	15:20:00		Powst. Warszawy / Rejtana 13
+934	4	195528	15:21:00	15:21:00		Powst. Warszawy szkoła 11
+934	4	195528	15:22:00	15:22:00		Powst. Warszawy Dom Studenta 09
+934	4	195528	15:23:00	15:23:00		Podwisłocze / Powst. Warszawy 02
+934	4	195528	15:24:00	15:24:00		Podwisłocze klinika 04
+934	4	195528	15:26:00	15:26:00		Kopisto U. Skarbowy 03
+934	4	195528	15:27:00	15:27:00		Kopisto Uniwersytet 01
+
+929	4	194932	15:39:00	15:39:00		Kopisto Uniwersytet 02
+929	4	194932	15:42:00	15:42:00		Podwisłocze U. Skarbowy 03
+929	4	194932	15:43:00	15:43:00		Podwisłocze domki 01
+929	4	194932	15:44:00	15:44:00		Powst. Warszawy Dom Studenta 08
+929	4	194932	15:45:00	15:45:00		Powst. Warszawy / Graniczna 10
+929	4	194932	15:48:00	15:48:00		Rejtana / Armii Krajowej 12
+929	4	194932	15:49:00	15:49:00		Rejtana / Paderewskiego 10
+929	4	194932	15:51:00	15:51:00		Paderewskiego / Ossolińskich 02 nż
+929	4	194932	15:52:00	15:52:00		Krzyżanowskiego szkoła 01 nż
+929	4	194932	15:54:00	15:54:00		Niepodległości Dom Dziecka 04 nż
+929	4	194932	15:55:00	15:55:00		Mieszka I / Kustronia 01 nż
+929	4	194932	15:57:00	15:57:00		Lwowska cmentarz 04
+929	4	194932	15:58:00	15:58:00		Lwowska szpital 06
+929	4	194932	16:01:00	16:01:00		Cienista cmentarz 04
+
+934	4	195050	16:04:00	16:04:00		Cienista cmentarz 01
+934	4	195050	16:05:00	16:05:00		Lwowska / Cienista 07 nż
+934	4	195050	16:07:00	16:07:00		Lwowska szpital 05
+934	4	195050	16:09:00	16:09:00		Lwowska cmentarz 03
+934	4	195050	16:11:00	16:11:00		Mieszka I / Kustronia 02 nż
+934	4	195050	16:12:00	16:12:00		Niepodległości / Mieszka I 03 nż
+934	4	195050	16:13:00	16:13:00		Niepodległości Dom Dziecka 01 nż
+934	4	195050	16:14:00	16:14:00		Krzyżanowskiego szkoła 02 nż
+934	4	195050	16:16:00	16:16:00		Paderewskiego / Ossolińskich 01 nż
+934	4	195050	16:17:00	16:17:00		Rejtana / Popiełuszki 09
+934	4	195050	16:20:00	16:20:00		Powst. Warszawy / Rejtana 13
+934	4	195050	16:21:00	16:21:00		Powst. Warszawy szkoła 11
+934	4	195050	16:22:00	16:22:00		Powst. Warszawy Dom Studenta 09
+934	4	195050	16:23:00	16:23:00		Podwisłocze / Powst. Warszawy 02
+934	4	195050	16:24:00	16:24:00		Podwisłocze klinika 04
+934	4	195050	16:26:00	16:26:00		Kopisto U. Skarbowy 03
+934	4	195050	16:27:00	16:27:00		Kopisto Uniwersytet 01
+
+929	4	195844	16:39:00	16:39:00		Kopisto Uniwersytet 02
+929	4	195844	16:42:00	16:42:00		Podwisłocze U. Skarbowy 03
+929	4	195844	16:43:00	16:43:00		Podwisłocze domki 01
+929	4	195844	16:44:00	16:44:00		Powst. Warszawy Dom Studenta 08
+929	4	195844	16:45:00	16:45:00		Powst. Warszawy / Graniczna 10
+929	4	195844	16:48:00	16:48:00		Rejtana / Armii Krajowej 12
+929	4	195844	16:49:00	16:49:00		Rejtana / Paderewskiego 10
+929	4	195844	16:51:00	16:51:00		Paderewskiego / Ossolińskich 02 nż
+929	4	195844	16:52:00	16:52:00		Krzyżanowskiego szkoła 01 nż
+929	4	195844	16:54:00	16:54:00		Niepodległości Dom Dziecka 04 nż
+929	4	195844	16:55:00	16:55:00		Mieszka I / Kustronia 01 nż
+929	4	195844	16:57:00	16:57:00		Lwowska cmentarz 04
+929	4	195844	16:58:00	16:58:00		Lwowska szpital 06
+929	4	195844	17:01:00	17:01:00		Cienista cmentarz 04
+
+934	4	194896	17:04:00	17:04:00		Cienista cmentarz 01
+934	4	194896	17:05:00	17:05:00		Lwowska / Cienista 07 nż
+934	4	194896	17:07:00	17:07:00		Lwowska szpital 05
+934	4	194896	17:09:00	17:09:00		Lwowska cmentarz 03
+934	4	194896	17:11:00	17:11:00		Mieszka I / Kustronia 02 nż
+934	4	194896	17:12:00	17:12:00		Niepodległości / Mieszka I 03 nż
+934	4	194896	17:13:00	17:13:00		Niepodległości Dom Dziecka 01 nż
+934	4	194896	17:14:00	17:14:00		Krzyżanowskiego szkoła 02 nż
+934	4	194896	17:16:00	17:16:00		Paderewskiego / Ossolińskich 01 nż
+934	4	194896	17:17:00	17:17:00		Rejtana / Popiełuszki 09
+934	4	194896	17:20:00	17:20:00		Powst. Warszawy / Rejtana 13
+934	4	194896	17:21:00	17:21:00		Powst. Warszawy szkoła 11
+934	4	194896	17:22:00	17:22:00		Powst. Warszawy Dom Studenta 09
+934	4	194896	17:23:00	17:23:00		Podwisłocze / Powst. Warszawy 02
+934	4	194896	17:24:00	17:24:00		Podwisłocze klinika 04
+934	4	194896	17:26:00	17:26:00		Kopisto U. Skarbowy 03
+934	4	194896	17:27:00	17:27:00		Kopisto Uniwersytet 01

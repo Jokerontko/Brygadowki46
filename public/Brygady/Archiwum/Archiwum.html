@@ -176,7 +176,7 @@
 
                const row = document.createElement('tr');
                row.innerHTML = `
-                        <td><a href="brygada.html" class="movetobrygada" onclick="saveBrygada('${item.brygada}')">${item.brygada}</a></td>
+                        <td><a href="Gate.html" class="movetobrygada" onclick="saveBrygada('${item.brygada}')">${item.brygada}</a></td>
                         <td><center>${item.linie.split(' ').map(linia => `<span class="bordered">${linia}</span>`).join(' ')}</td>
                         <td>${normalizedStart}</td> <!-- Zaktualizowane -->
                         <td>${normalizedEnd}</td> <!-- Zaktualizowane -->
@@ -192,19 +192,6 @@
       function saveBrygada(brygada) {
          sessionStorage.setItem('brygadaTitle', brygada.replace(/\//g, "_")); // Zamień "/" na "_" i zapisz w sessionStorage
          sessionStorage.setItem('selectedBrygada', brygada); // Opcjonalne: możesz zachować również selectedBrygada
-
-
-         // Sprawdzenie, czy chooseday = tak
-         fetch('/check-chooseday')
-            .then(response => response.json())
-            .then(data => {
-               if (data.isChooseDay) {
-                  window.location.href = 'ChooseDay.html';
-               }
-            })
-            .catch(error => {
-               console.error('Błąd podczas sprawdzania wartości ChooseDay:', error);
-            });
       }
 
       document.getElementById('logout').addEventListener('click', function() {
