@@ -1,0 +1,265 @@
+route_id	service_id	trip_id	arrival_time	departure_time	stop_headsign	stop_name
+-------------------------------------------------------------------------------
+944	4	195307	09:41:00	09:41:00		Obr. Poczty Gdańskiej pętla 08
+944	4	195307	09:42:00	09:42:00		Obr. Poczty Gdańskiej / Raginisa 01
+944	4	195307	09:44:00	09:44:00		Wyzwolenia / Ofiar Katynia 07
+944	4	195307	09:45:00	09:45:00		Wyzwolenia kościół 05
+944	4	195307	09:46:00	09:46:00		Wyzwolenia / Okulickiego 03 nż
+944	4	195307	09:48:00	09:48:00		Wyzwolenia / Warszawska 01 nż
+944	4	195307	09:49:00	09:49:00		Lubelska szpital 01
+944	4	195307	09:50:00	09:50:00		Marszałkowska 01
+944	4	195307	09:53:00	09:53:00		Piłsudskiego U. Wojewódzki 03
+944	4	195307	09:54:00	09:54:00		Pl. Wolności 01
+944	4	195307	09:57:00	09:57:00		Lwowska Jedn. Wojskowa 02
+944	4	195307	09:59:00	09:59:00		Lwowska cmentarz 04
+944	4	195307	10:00:00	10:00:00		Lwowska szpital 06
+944	4	195307	10:03:00	10:03:00		Cienista cmentarz 04
+
+920	4	195882	10:06:00	10:06:00		Cienista cmentarz 01
+920	4	195882	10:07:00	10:07:00		Lwowska / Cienista 07 nż
+920	4	195882	10:09:00	10:09:00		Lwowska szpital 05
+920	4	195882	10:11:00	10:11:00		Lwowska cmentarz 03
+920	4	195882	10:12:00	10:12:00		Lwowska Jedn. Wojskowa 01
+920	4	195882	10:14:00	10:14:00		Piłsudskiego ZDZ 02
+920	4	195882	10:15:00	10:15:00		Pl. Wolności 04
+920	4	195882	10:16:00	10:16:00		Piłsudskiego U. Wojewódzki 06
+920	4	195882	10:19:00	10:19:00		Marszałkowska 02
+920	4	195882	10:20:00	10:20:00		Lubelska szpital 02
+920	4	195882	10:22:00	10:22:00		Wyzwolenia / Lubelska 02 nż
+920	4	195882	10:23:00	10:23:00		Wyzwolenia WORD 04 nż
+920	4	195882	10:25:00	10:25:00		Wyzwolenia / Iranka-Osmeckiego 06
+920	4	195882	10:26:00	10:26:00		Wyzwolenia / Brydaka 08
+920	4	195882	10:27:00	10:27:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
+920	4	195882	10:28:00	10:28:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
+920	4	195882	10:29:00	10:29:00		Obr. Poczty Gdańskiej pętla 08
+
+944	4	195286	10:41:00	10:41:00		Obr. Poczty Gdańskiej pętla 08
+944	4	195286	10:42:00	10:42:00		Obr. Poczty Gdańskiej / Raginisa 01
+944	4	195286	10:44:00	10:44:00		Wyzwolenia / Ofiar Katynia 07
+944	4	195286	10:45:00	10:45:00		Wyzwolenia kościół 05
+944	4	195286	10:46:00	10:46:00		Wyzwolenia / Okulickiego 03 nż
+944	4	195286	10:48:00	10:48:00		Wyzwolenia / Warszawska 01 nż
+944	4	195286	10:49:00	10:49:00		Lubelska szpital 01
+944	4	195286	10:50:00	10:50:00		Marszałkowska 01
+944	4	195286	10:54:00	10:54:00		Piłsudskiego U. Wojewódzki 03
+944	4	195286	10:55:00	10:55:00		Pl. Wolności 01
+944	4	195286	10:58:00	10:58:00		Lwowska Jedn. Wojskowa 02
+944	4	195286	11:00:00	11:00:00		Lwowska cmentarz 04
+944	4	195286	11:01:00	11:01:00		Lwowska szpital 06
+944	4	195286	11:04:00	11:04:00		Cienista cmentarz 04
+
+920	4	195750	11:06:00	11:06:00		Cienista cmentarz 01
+920	4	195750	11:07:00	11:07:00		Lwowska / Cienista 07 nż
+920	4	195750	11:09:00	11:09:00		Lwowska szpital 05
+920	4	195750	11:11:00	11:11:00		Lwowska cmentarz 03
+920	4	195750	11:12:00	11:12:00		Lwowska Jedn. Wojskowa 01
+920	4	195750	11:14:00	11:14:00		Piłsudskiego ZDZ 02
+920	4	195750	11:15:00	11:15:00		Pl. Wolności 04
+920	4	195750	11:16:00	11:16:00		Piłsudskiego U. Wojewódzki 06
+920	4	195750	11:19:00	11:19:00		Marszałkowska 02
+920	4	195750	11:20:00	11:20:00		Lubelska szpital 02
+920	4	195750	11:22:00	11:22:00		Wyzwolenia / Lubelska 02 nż
+920	4	195750	11:23:00	11:23:00		Wyzwolenia WORD 04 nż
+920	4	195750	11:25:00	11:25:00		Wyzwolenia / Iranka-Osmeckiego 06
+920	4	195750	11:26:00	11:26:00		Wyzwolenia / Brydaka 08
+920	4	195750	11:27:00	11:27:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
+920	4	195750	11:28:00	11:28:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
+920	4	195750	11:29:00	11:29:00		Obr. Poczty Gdańskiej pętla 08
+
+944	4	194958	11:41:00	11:41:00		Obr. Poczty Gdańskiej pętla 08
+944	4	194958	11:42:00	11:42:00		Obr. Poczty Gdańskiej / Raginisa 01
+944	4	194958	11:44:00	11:44:00		Wyzwolenia / Ofiar Katynia 07
+944	4	194958	11:45:00	11:45:00		Wyzwolenia kościół 05
+944	4	194958	11:46:00	11:46:00		Wyzwolenia / Okulickiego 03 nż
+944	4	194958	11:48:00	11:48:00		Wyzwolenia / Warszawska 01 nż
+944	4	194958	11:49:00	11:49:00		Lubelska szpital 01
+944	4	194958	11:50:00	11:50:00		Marszałkowska 01
+944	4	194958	11:54:00	11:54:00		Piłsudskiego U. Wojewódzki 03
+944	4	194958	11:55:00	11:55:00		Pl. Wolności 01
+944	4	194958	11:58:00	11:58:00		Lwowska Jedn. Wojskowa 02
+944	4	194958	12:00:00	12:00:00		Lwowska cmentarz 04
+944	4	194958	12:01:00	12:01:00		Lwowska szpital 06
+944	4	194958	12:04:00	12:04:00		Cienista cmentarz 04
+
+920	4	195446	12:06:00	12:06:00		Cienista cmentarz 01
+920	4	195446	12:07:00	12:07:00		Lwowska / Cienista 07 nż
+920	4	195446	12:09:00	12:09:00		Lwowska szpital 05
+920	4	195446	12:11:00	12:11:00		Lwowska cmentarz 03
+920	4	195446	12:12:00	12:12:00		Lwowska Jedn. Wojskowa 01
+920	4	195446	12:14:00	12:14:00		Piłsudskiego ZDZ 02
+920	4	195446	12:15:00	12:15:00		Pl. Wolności 04
+920	4	195446	12:16:00	12:16:00		Piłsudskiego U. Wojewódzki 06
+920	4	195446	12:19:00	12:19:00		Marszałkowska 02
+920	4	195446	12:20:00	12:20:00		Lubelska szpital 02
+920	4	195446	12:22:00	12:22:00		Wyzwolenia / Lubelska 02 nż
+920	4	195446	12:23:00	12:23:00		Wyzwolenia WORD 04 nż
+920	4	195446	12:25:00	12:25:00		Wyzwolenia / Iranka-Osmeckiego 06
+920	4	195446	12:26:00	12:26:00		Wyzwolenia / Brydaka 08
+920	4	195446	12:27:00	12:27:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
+920	4	195446	12:28:00	12:28:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
+920	4	195446	12:29:00	12:29:00		Obr. Poczty Gdańskiej pętla 08
+
+944	4	194776	12:41:00	12:41:00		Obr. Poczty Gdańskiej pętla 08
+944	4	194776	12:42:00	12:42:00		Obr. Poczty Gdańskiej / Raginisa 01
+944	4	194776	12:44:00	12:44:00		Wyzwolenia / Ofiar Katynia 07
+944	4	194776	12:45:00	12:45:00		Wyzwolenia kościół 05
+944	4	194776	12:46:00	12:46:00		Wyzwolenia / Okulickiego 03 nż
+944	4	194776	12:48:00	12:48:00		Wyzwolenia / Warszawska 01 nż
+944	4	194776	12:49:00	12:49:00		Lubelska szpital 01
+944	4	194776	12:50:00	12:50:00		Marszałkowska 01
+944	4	194776	12:54:00	12:54:00		Piłsudskiego U. Wojewódzki 03
+944	4	194776	12:55:00	12:55:00		Pl. Wolności 01
+944	4	194776	12:58:00	12:58:00		Lwowska Jedn. Wojskowa 02
+944	4	194776	13:00:00	13:00:00		Lwowska cmentarz 04
+944	4	194776	13:01:00	13:01:00		Lwowska szpital 06
+944	4	194776	13:04:00	13:04:00		Cienista cmentarz 04
+
+920	4	195546	13:06:00	13:06:00		Cienista cmentarz 01
+920	4	195546	13:07:00	13:07:00		Lwowska / Cienista 07 nż
+920	4	195546	13:09:00	13:09:00		Lwowska szpital 05
+920	4	195546	13:11:00	13:11:00		Lwowska cmentarz 03
+920	4	195546	13:12:00	13:12:00		Lwowska Jedn. Wojskowa 01
+920	4	195546	13:14:00	13:14:00		Piłsudskiego ZDZ 02
+920	4	195546	13:15:00	13:15:00		Pl. Wolności 04
+920	4	195546	13:16:00	13:16:00		Piłsudskiego U. Wojewódzki 06
+920	4	195546	13:19:00	13:19:00		Marszałkowska 02
+920	4	195546	13:20:00	13:20:00		Lubelska szpital 02
+920	4	195546	13:22:00	13:22:00		Wyzwolenia / Lubelska 02 nż
+920	4	195546	13:23:00	13:23:00		Wyzwolenia WORD 04 nż
+920	4	195546	13:25:00	13:25:00		Wyzwolenia / Iranka-Osmeckiego 06
+920	4	195546	13:26:00	13:26:00		Wyzwolenia / Brydaka 08
+920	4	195546	13:27:00	13:27:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
+920	4	195546	13:28:00	13:28:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
+920	4	195546	13:29:00	13:29:00		Obr. Poczty Gdańskiej pętla 08
+
+944	4	195947	13:50:00	13:50:00		Obr. Poczty Gdańskiej pętla 08
+944	4	195947	13:51:00	13:51:00		Obr. Poczty Gdańskiej / Raginisa 01
+944	4	195947	13:53:00	13:53:00		Wyzwolenia / Ofiar Katynia 07
+944	4	195947	13:54:00	13:54:00		Wyzwolenia kościół 05
+944	4	195947	13:55:00	13:55:00		Wyzwolenia / Okulickiego 03 nż
+944	4	195947	13:57:00	13:57:00		Wyzwolenia / Warszawska 01 nż
+944	4	195947	13:58:00	13:58:00		Lubelska szpital 01
+944	4	195947	13:59:00	13:59:00		Marszałkowska 01
+944	4	195947	14:03:00	14:03:00		Piłsudskiego U. Wojewódzki 03
+944	4	195947	14:04:00	14:04:00		Pl. Wolności 01
+944	4	195947	14:07:00	14:07:00		Lwowska Jedn. Wojskowa 02
+944	4	195947	14:09:00	14:09:00		Lwowska cmentarz 04
+944	4	195947	14:10:00	14:10:00		Lwowska szpital 06
+944	4	195947	14:13:00	14:13:00		Cienista cmentarz 04
+
+920	4	195054	14:16:00	14:16:00		Cienista cmentarz 01
+920	4	195054	14:17:00	14:17:00		Lwowska / Cienista 07 nż
+920	4	195054	14:19:00	14:19:00		Lwowska szpital 05
+920	4	195054	14:21:00	14:21:00		Lwowska cmentarz 03
+920	4	195054	14:22:00	14:22:00		Lwowska Jedn. Wojskowa 01
+920	4	195054	14:24:00	14:24:00		Piłsudskiego ZDZ 02
+920	4	195054	14:25:00	14:25:00		Pl. Wolności 04
+920	4	195054	14:26:00	14:26:00		Piłsudskiego U. Wojewódzki 06
+920	4	195054	14:29:00	14:29:00		Marszałkowska 02
+920	4	195054	14:30:00	14:30:00		Lubelska szpital 02
+920	4	195054	14:32:00	14:32:00		Wyzwolenia / Lubelska 02 nż
+920	4	195054	14:33:00	14:33:00		Wyzwolenia WORD 04 nż
+920	4	195054	14:35:00	14:35:00		Wyzwolenia / Iranka-Osmeckiego 06
+920	4	195054	14:36:00	14:36:00		Wyzwolenia / Brydaka 08
+920	4	195054	14:37:00	14:37:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
+920	4	195054	14:38:00	14:38:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
+920	4	195054	14:39:00	14:39:00		Obr. Poczty Gdańskiej pętla 08
+
+944	4	195752	14:50:00	14:50:00		Obr. Poczty Gdańskiej pętla 08
+944	4	195752	14:51:00	14:51:00		Obr. Poczty Gdańskiej / Raginisa 01
+944	4	195752	14:53:00	14:53:00		Wyzwolenia / Ofiar Katynia 07
+944	4	195752	14:54:00	14:54:00		Wyzwolenia kościół 05
+944	4	195752	14:55:00	14:55:00		Wyzwolenia / Okulickiego 03 nż
+944	4	195752	14:57:00	14:57:00		Wyzwolenia / Warszawska 01 nż
+944	4	195752	14:58:00	14:58:00		Lubelska szpital 01
+944	4	195752	14:59:00	14:59:00		Marszałkowska 01
+944	4	195752	15:03:00	15:03:00		Piłsudskiego U. Wojewódzki 03
+944	4	195752	15:04:00	15:04:00		Pl. Wolności 01
+944	4	195752	15:07:00	15:07:00		Lwowska Jedn. Wojskowa 02
+944	4	195752	15:09:00	15:09:00		Lwowska cmentarz 04
+944	4	195752	15:10:00	15:10:00		Lwowska szpital 06
+944	4	195752	15:13:00	15:13:00		Cienista cmentarz 04
+
+920	4	195841	15:16:00	15:16:00		Cienista cmentarz 01
+920	4	195841	15:17:00	15:17:00		Lwowska / Cienista 07 nż
+920	4	195841	15:19:00	15:19:00		Lwowska szpital 05
+920	4	195841	15:21:00	15:21:00		Lwowska cmentarz 03
+920	4	195841	15:22:00	15:22:00		Lwowska Jedn. Wojskowa 01
+920	4	195841	15:24:00	15:24:00		Piłsudskiego ZDZ 02
+920	4	195841	15:25:00	15:25:00		Pl. Wolności 04
+920	4	195841	15:26:00	15:26:00		Piłsudskiego U. Wojewódzki 06
+920	4	195841	15:29:00	15:29:00		Marszałkowska 02
+920	4	195841	15:30:00	15:30:00		Lubelska szpital 02
+920	4	195841	15:32:00	15:32:00		Wyzwolenia / Lubelska 02 nż
+920	4	195841	15:33:00	15:33:00		Wyzwolenia WORD 04 nż
+920	4	195841	15:35:00	15:35:00		Wyzwolenia / Iranka-Osmeckiego 06
+920	4	195841	15:36:00	15:36:00		Wyzwolenia / Brydaka 08
+920	4	195841	15:37:00	15:37:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
+920	4	195841	15:38:00	15:38:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
+920	4	195841	15:39:00	15:39:00		Obr. Poczty Gdańskiej pętla 08
+
+944	4	195338	15:50:00	15:50:00		Obr. Poczty Gdańskiej pętla 08
+944	4	195338	15:51:00	15:51:00		Obr. Poczty Gdańskiej / Raginisa 01
+944	4	195338	15:53:00	15:53:00		Wyzwolenia / Ofiar Katynia 07
+944	4	195338	15:54:00	15:54:00		Wyzwolenia kościół 05
+944	4	195338	15:55:00	15:55:00		Wyzwolenia / Okulickiego 03 nż
+944	4	195338	15:57:00	15:57:00		Wyzwolenia / Warszawska 01 nż
+944	4	195338	15:58:00	15:58:00		Lubelska szpital 01
+944	4	195338	15:59:00	15:59:00		Marszałkowska 01
+944	4	195338	16:03:00	16:03:00		Piłsudskiego U. Wojewódzki 03
+944	4	195338	16:04:00	16:04:00		Pl. Wolności 01
+944	4	195338	16:07:00	16:07:00		Lwowska Jedn. Wojskowa 02
+944	4	195338	16:09:00	16:09:00		Lwowska cmentarz 04
+944	4	195338	16:10:00	16:10:00		Lwowska szpital 06
+944	4	195338	16:13:00	16:13:00		Cienista cmentarz 04
+
+920	4	195322	16:16:00	16:16:00		Cienista cmentarz 01
+920	4	195322	16:17:00	16:17:00		Lwowska / Cienista 07 nż
+920	4	195322	16:19:00	16:19:00		Lwowska szpital 05
+920	4	195322	16:21:00	16:21:00		Lwowska cmentarz 03
+920	4	195322	16:22:00	16:22:00		Lwowska Jedn. Wojskowa 01
+920	4	195322	16:24:00	16:24:00		Piłsudskiego ZDZ 02
+920	4	195322	16:25:00	16:25:00		Pl. Wolności 04
+920	4	195322	16:26:00	16:26:00		Piłsudskiego U. Wojewódzki 06
+920	4	195322	16:29:00	16:29:00		Marszałkowska 02
+920	4	195322	16:30:00	16:30:00		Lubelska szpital 02
+920	4	195322	16:32:00	16:32:00		Wyzwolenia / Lubelska 02 nż
+920	4	195322	16:33:00	16:33:00		Wyzwolenia WORD 04 nż
+920	4	195322	16:35:00	16:35:00		Wyzwolenia / Iranka-Osmeckiego 06
+920	4	195322	16:36:00	16:36:00		Wyzwolenia / Brydaka 08
+920	4	195322	16:37:00	16:37:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
+920	4	195322	16:38:00	16:38:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
+920	4	195322	16:39:00	16:39:00		Obr. Poczty Gdańskiej pętla 08
+
+944	4	196111	16:50:00	16:50:00		Obr. Poczty Gdańskiej pętla 08
+944	4	196111	16:51:00	16:51:00		Obr. Poczty Gdańskiej / Raginisa 01
+944	4	196111	16:53:00	16:53:00		Wyzwolenia / Ofiar Katynia 07
+944	4	196111	16:54:00	16:54:00		Wyzwolenia kościół 05
+944	4	196111	16:55:00	16:55:00		Wyzwolenia / Okulickiego 03 nż
+944	4	196111	16:57:00	16:57:00		Wyzwolenia / Warszawska 01 nż
+944	4	196111	16:58:00	16:58:00		Lubelska szpital 01
+944	4	196111	16:59:00	16:59:00		Marszałkowska 01
+944	4	196111	17:03:00	17:03:00		Piłsudskiego U. Wojewódzki 03
+944	4	196111	17:04:00	17:04:00		Pl. Wolności 01
+944	4	196111	17:07:00	17:07:00		Lwowska Jedn. Wojskowa 02
+944	4	196111	17:09:00	17:09:00		Lwowska cmentarz 04
+944	4	196111	17:10:00	17:10:00		Lwowska szpital 06
+944	4	196111	17:13:00	17:13:00		Cienista cmentarz 04
+
+920	4	195462	17:16:00	17:16:00		Cienista cmentarz 01
+920	4	195462	17:17:00	17:17:00		Lwowska / Cienista 07 nż
+920	4	195462	17:19:00	17:19:00		Lwowska szpital 05
+920	4	195462	17:21:00	17:21:00		Lwowska cmentarz 03
+920	4	195462	17:22:00	17:22:00		Lwowska Jedn. Wojskowa 01
+920	4	195462	17:24:00	17:24:00		Piłsudskiego ZDZ 02
+920	4	195462	17:25:00	17:25:00		Pl. Wolności 04
+920	4	195462	17:26:00	17:26:00		Piłsudskiego U. Wojewódzki 06
+920	4	195462	17:29:00	17:29:00		Marszałkowska 02
+920	4	195462	17:30:00	17:30:00		Lubelska szpital 02
+920	4	195462	17:32:00	17:32:00		Wyzwolenia / Lubelska 02 nż
+920	4	195462	17:33:00	17:33:00		Wyzwolenia WORD 04 nż
+920	4	195462	17:35:00	17:35:00		Wyzwolenia / Iranka-Osmeckiego 06
+920	4	195462	17:36:00	17:36:00		Wyzwolenia / Brydaka 08
+920	4	195462	17:37:00	17:37:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
+920	4	195462	17:38:00	17:38:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
+920	4	195462	17:39:00	17:39:00		Obr. Poczty Gdańskiej pętla 08

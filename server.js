@@ -263,6 +263,21 @@ app.get('/api/dataZapowiedz', async (req, res) => {
    }
 });
 
+// Endpoint to fetch data dla rozkładu Cmentarne
+app.get('/api/dataCMENTARNE', async (req, res) => {
+   try {
+      const brygadaNumber = req.query.brygada || '1'; // Default to 1 if not provided
+      const dataPath = path.join(__dirname, 'Brygady_Zapowiedz', 'WYNIKI', 'Gotowe_brygady', 'CMENTARNE');
+      console.log(`Pobieram dane z: ${dataPath}`);
+      const data = await processDirectories(dataPath);
+      res.json(data);
+   } catch (error) {
+      console.error('Błąd serwera:', error);
+      res.status(500).send('Błąd serwera: ' + error.message);
+   }
+});
+
+
 // Endpoint to fetch data DLA ARCHIWUM
 app.get('/api/archiwum', async (req, res) => {
    try {
