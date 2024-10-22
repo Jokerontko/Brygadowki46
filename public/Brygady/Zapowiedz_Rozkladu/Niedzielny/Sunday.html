@@ -96,7 +96,7 @@
    </header>
 
    <center>
-      <h1>Rozkład Niedzielny</h1>
+      <h1>Rozkład Roboczy</h1>
       <p class="top">Ważny od dnia <span id="waznyOd">ładowanie...</span></p>
    </center>
 
@@ -127,7 +127,7 @@
    <script>
       async function fetchDate() {
          try {
-            const response = await fetch('../wazny_od.txt');
+            const response = await fetch('../waznyod.txt');
             if (!response.ok) {
                throw new Error('Błąd podczas ładowania daty');
             }
