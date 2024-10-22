@@ -1,573 +1,665 @@
 route_id	service_id	trip_id	arrival_time	departure_time	stop_headsign	stop_name
 -------------------------------------------------------------------------------
-1531	1	182599	05:25:00	05:25:00		Bł. Karoliny 09
-1531	1	182599	05:26:00	05:26:00		Bł. Karoliny przedszkole 07
-1531	1	182599	05:27:00	05:27:00		Bł. Karoliny / Nowosądecka 05 nż
-1531	1	182599	05:28:00	05:28:00		Bł. Karoliny / Sanocka 03 nż
-1531	1	182599	05:29:00	05:29:00		Bł. Karoliny / Strzyżowska 01 nż
-1531	1	182599	05:30:00	05:30:00		Wyspiańskiego / German 04 nż
-1531	1	182599	05:31:00	05:31:00		Strzelnicza 01 nż
-1531	1	182599	05:32:00	05:32:00		Wywrockiego / Strzelnicza 02 nż
-1531	1	182599	05:33:00	05:33:00		Wywrockiego / Jagodowa 04 nż
-1531	1	182599	05:34:00	05:34:00		Wywrockiego / Potokowa 06 nż
-1531	1	182599	05:35:00	05:35:00		Wywrockiego rondo 08 nż
-1531	1	182599	05:36:00	05:36:00		Wywrockiego / Potokowa 03 nż
-1531	1	182599	05:37:00	05:37:00		Wywrockiego / Jagodowa 01 nż
-1531	1	182599	05:38:00	05:38:00		Plenerowa przedszkole 01 nż
-1531	1	182599	05:39:00	05:39:00		Panoramiczna 01 nż
-1531	1	182599	05:41:00	05:41:00		Witosa park 04 nż
-1531	1	182599	05:43:00	05:43:00		Wyspiańskiego stadion 01 nż
-1531	1	182599	05:44:00	05:44:00		Wita Stwosza / Wyspiańskiego 05 nż
-1531	1	182599	05:45:00	05:45:00		Wita Stwosza kościół 03
-1531	1	182599	05:46:00	05:46:00		Wita Stwosza pętla 01
-1531	1	182599	05:48:00	05:48:00		Boya Żeleńskiego 02 nż
-1531	1	182599	05:49:00	05:49:00		Chmaja bloki 03 nż
-1531	1	182599	05:50:00	05:50:00		Chmaja / Langiewicza 01 nż
-1531	1	182599	05:51:00	05:51:00		Langiewicza park 03 nż
-1531	1	182599	05:52:00	05:52:00		Langiewicza / Hoffmanowej 01 nż
-1531	1	182599	05:53:00	05:53:00		Mochnackiego 01 nż
-1531	1	182599	05:54:00	05:54:00		Cieplińskiego 01
-1531	1	182599	05:55:00	05:55:00		Piłsudskiego U. Wojewódzki 03
-1531	1	182599	05:56:00	05:56:00		Pl. Wolności 01
-1531	1	182599	05:57:00	05:57:00		Targowa 01
-1531	1	182599	05:59:00	05:59:00		Szopena Filharmonia 02 nż
-1531	1	182599	06:02:00	06:02:00		Podwisłocze U. Skarbowy 03
-1531	1	182599	06:03:00	06:03:00		Podwisłocze domki 01
-1531	1	182599	06:05:00	06:05:00		Kwiatkowskiego / Powst. Warszawy 02
-1531	1	182599	06:06:00	06:06:00		Kwiatkowskiego Dom Studenta 04 nż
-1531	1	182599	06:07:00	06:07:00		Kwiatkowskiego / Strażacka 06 nż
-1531	1	182599	06:08:00	06:08:00		Strażacka / Graniczna 02 nż
-1531	1	182599	06:09:00	06:09:00		Strażacka / Urocza 04 nż
-1531	1	182599	06:10:00	06:10:00		Strażacka / Sympatyczna 06 nż
-1531	1	182599	06:11:00	06:11:00		Strażacka / Sikorskiego 08 nż
-1531	1	182599	06:12:00	06:12:00		Robotnicza / Sikorskiego 02 nż
-1531	1	182599	06:13:00	06:13:00		Robotnicza cmentarz 04 nż
-1531	1	182599	06:14:00	06:14:00		Łukasiewicza pętla 08
+1531	1	181311	05:16:00	05:16:00		Bł. Karoliny 09
+1531	1	181311	05:17:00	05:17:00		Bł. Karoliny przedszkole 07
+1531	1	181311	05:18:00	05:18:00		Bł. Karoliny / Nowosądecka 05 nż
+1531	1	181311	05:19:00	05:19:00		Bł. Karoliny / Sanocka 03 nż
+1531	1	181311	05:20:00	05:20:00		Bł. Karoliny / Strzyżowska 01 nż
+1531	1	181311	05:21:00	05:21:00		Wyspiańskiego / German 04 nż
+1531	1	181311	05:22:00	05:22:00		Strzelnicza 01 nż
+1531	1	181311	05:23:00	05:23:00		Wywrockiego / Strzelnicza 02 nż
+1531	1	181311	05:24:00	05:24:00		Wywrockiego / Jagodowa 04 nż
+1531	1	181311	05:25:00	05:25:00		Wywrockiego / Potokowa 06 nż
+1531	1	181311	05:26:00	05:26:00		Wywrockiego rondo 08 nż
+1531	1	181311	05:27:00	05:27:00		Wywrockiego / Potokowa 03 nż
+1531	1	181311	05:28:00	05:28:00		Wywrockiego / Jagodowa 01 nż
+1531	1	181311	05:29:00	05:29:00		Plenerowa przedszkole 01 nż
+1531	1	181311	05:30:00	05:30:00		Panoramiczna 01 nż
+1531	1	181311	05:32:00	05:32:00		Witosa park 04 nż
+1531	1	181311	05:33:00	05:33:00		Wyspiańskiego stadion 01 nż
+1531	1	181311	05:34:00	05:34:00		Wita Stwosza / Wyspiańskiego 05 nż
+1531	1	181311	05:35:00	05:35:00		Wita Stwosza kościół 03
+1531	1	181311	05:36:00	05:36:00		Wita Stwosza pętla 01
+1531	1	181311	05:38:00	05:38:00		Boya Żeleńskiego 02 nż
+1531	1	181311	05:39:00	05:39:00		Chmaja bloki 03 nż
+1531	1	181311	05:40:00	05:40:00		Chmaja / Langiewicza 01 nż
+1531	1	181311	05:41:00	05:41:00		Langiewicza park 03 nż
+1531	1	181311	05:42:00	05:42:00		Langiewicza / Hoffmanowej 01 nż
+1531	1	181311	05:43:00	05:43:00		Mochnackiego 01 nż
+1531	1	181311	05:44:00	05:44:00		Cieplińskiego 01
+1531	1	181311	05:45:00	05:45:00		Piłsudskiego U. Wojewódzki 03
+1531	1	181311	05:46:00	05:46:00		Pl. Wolności 01
+1531	1	181311	05:47:00	05:47:00		Targowa 01
+1531	1	181311	05:48:00	05:48:00		Szopena Filharmonia 02 nż
+1531	1	181311	05:50:00	05:50:00		Podwisłocze U. Skarbowy 03
+1531	1	181311	05:51:00	05:51:00		Podwisłocze domki 01
+1531	1	181311	05:53:00	05:53:00		Kwiatkowskiego / Powst. Warszawy 02
+1531	1	181311	05:54:00	05:54:00		Kwiatkowskiego Dom Studenta 04 nż
+1531	1	181311	05:55:00	05:55:00		Kwiatkowskiego / Strażacka 06 nż
+1531	1	181311	05:56:00	05:56:00		Strażacka / Graniczna 02 nż
+1531	1	181311	05:57:00	05:57:00		Strażacka / Urocza 04 nż
+1531	1	181311	05:58:00	05:58:00		Strażacka / Sympatyczna 06 nż
+1531	1	181311	05:59:00	05:59:00		Strażacka / Sikorskiego 08 nż
+1531	1	181311	06:00:00	06:00:00		Robotnicza / Sikorskiego 02 nż
+1531	1	181311	06:01:00	06:01:00		Robotnicza cmentarz 04 nż
+1531	1	181311	06:02:00	06:02:00		Łukasiewicza pętla 08
 
-1504	1	182416	06:22:00	06:22:00		Łukasiewicza pętla 08
-1504	1	182416	06:23:00	06:23:00		Robotnicza / Goździkowa 01 nż
-1504	1	182416	06:25:00	06:25:00		Strażacka / Sikorskiego 07 nż
-1504	1	182416	06:26:00	06:26:00		Strażacka / Sympatyczna 05 nż
-1504	1	182416	06:27:00	06:27:00		Strażacka / Urocza 03 nż
-1504	1	182416	06:28:00	06:28:00		Strażacka / Graniczna 01 nż
-1504	1	182416	06:29:00	06:29:00		Kwiatkowskiego / Strażacka 03 nż
-1504	1	182416	06:34:00	06:34:00		Kwiatkowskiego Dom Studenta 01 nż
-1504	1	182416	06:37:00	06:37:00		Powst. Warszawy / Podwisłocze 07 nż
-1504	1	182416	06:39:00	06:39:00		Powst. Warszawy / Hetmańska 03
-1504	1	182416	06:40:00	06:40:00		Powst. Warszawy Politechnika 01
-1504	1	182416	06:43:00	06:43:00		Dąbrowskiego Instytut Muzyki 07
-1504	1	182416	06:44:00	06:44:00		Dąbrowskiego kościół 05 nż
-1504	1	182416	06:45:00	06:45:00		Wincentego Pola Politechnika 01 nż
-1504	1	182416	06:46:00	06:46:00		Boya Żeleńskiego 01 nż
-1504	1	182416	06:48:00	06:48:00		Wita Stwosza / Langiewicza 02
-1504	1	182416	06:49:00	06:49:00		Wita Stwosza kościół 04
-1504	1	182416	06:50:00	06:50:00		Wita Stwosza / Wyspiańskiego 06 nż
-1504	1	182416	06:51:00	06:51:00		Wyspiańskiego stadion 02 nż
-1504	1	182416	06:53:00	06:53:00		Wiktora / Witosa 02 nż
-1504	1	182416	06:54:00	06:54:00		Wiktora / Stojałowskiego 04 nż
-1504	1	182416	06:55:00	06:55:00		Bł. Karoliny / Strzyżowska 02 nż
-1504	1	182416	06:56:00	06:56:00		Bł. Karoliny / Sanocka 04 nż
-1504	1	182416	06:57:00	06:57:00		Bł. Karoliny przedszkole 06
-1504	1	182416	06:58:00	06:58:00		Bł. Karoliny 09
+1532	1	181119	06:21:00	06:21:00		Łukasiewicza pętla 08
+1532	1	181119	06:22:00	06:22:00		Robotnicza / Goździkowa 01 nż
+1532	1	181119	06:23:00	06:23:00		Strażacka / Sikorskiego 07 nż
+1532	1	181119	06:24:00	06:24:00		Strażacka / Sympatyczna 05 nż
+1532	1	181119	06:25:00	06:25:00		Strażacka / Urocza 03 nż
+1532	1	181119	06:26:00	06:26:00		Strażacka / Graniczna 01 nż
+1532	1	181119	06:27:00	06:27:00		Kwiatkowskiego / Strażacka 03 nż
+1532	1	181119	06:28:00	06:28:00		Kwiatkowskiego Dom Studenta 01 nż
+1532	1	181119	06:30:00	06:30:00		Podwisłocze / Powst. Warszawy 02
+1532	1	181119	06:31:00	06:31:00		Podwisłocze klinika 04
+1532	1	181119	06:32:00	06:32:00		Kopisto Most Zamkowy 04
+1532	1	181119	06:33:00	06:33:00		Szopena Filharmonia 01 nż
+1532	1	181119	06:34:00	06:34:00		Targowa 02
+1532	1	181119	06:36:00	06:36:00		Pl. Wolności 04
+1532	1	181119	06:39:00	06:39:00		Cieplińskiego 02
+1532	1	181119	06:40:00	06:40:00		Mochnackiego 02 nż
+1532	1	181119	06:41:00	06:41:00		Langiewicza park 02 nż
+1532	1	181119	06:42:00	06:42:00		Chmaja / Langiewicza 02 nż
+1532	1	181119	06:44:00	06:44:00		Boya Żeleńskiego 01 nż
+1532	1	181119	06:45:00	06:45:00		Wita Stwosza / Langiewicza 02
+1532	1	181119	06:46:00	06:46:00		Wita Stwosza kościół 04
+1532	1	181119	06:47:00	06:47:00		Wita Stwosza / Wyspiańskiego 06 nż
+1532	1	181119	06:48:00	06:48:00		Wyspiańskiego stadion 02 nż
+1532	1	181119	06:50:00	06:50:00		Witosa park 03 nż
+1532	1	181119	06:52:00	06:52:00		Panoramiczna 02 nż
+1532	1	181119	06:53:00	06:53:00		Plenerowa przedszkole 02 nż
+1532	1	181119	06:54:00	06:54:00		Wywrockiego / Strzelnicza 02 nż
+1532	1	181119	06:55:00	06:55:00		Wywrockiego / Jagodowa 04 nż
+1532	1	181119	06:56:00	06:56:00		Wywrockiego / Potokowa 06 nż
+1532	1	181119	06:57:00	06:57:00		Wywrockiego rondo 08 nż
+1532	1	181119	06:58:00	06:58:00		Wywrockiego / Potokowa 03 nż
+1532	1	181119	06:59:00	06:59:00		Wywrockiego / Jagodowa 01 nż
+1532	1	181119	07:00:00	07:00:00		Strzelnicza 02 nż
+1532	1	181119	07:01:00	07:01:00		Wyspiańskiego / Strzelnicza 03 nż
+1532	1	181119	07:02:00	07:02:00		Bł. Karoliny / Strzyżowska 02 nż
+1532	1	181119	07:03:00	07:03:00		Bł. Karoliny / Sanocka 04 nż
+1532	1	181119	07:04:00	07:04:00		Bł. Karoliny przedszkole 06
+1532	1	181119	07:05:00	07:05:00		Bł. Karoliny 09
 
-1529	1	183057	07:12:00	07:12:00		Bł. Karoliny 09
-1529	1	183057	07:13:00	07:13:00		Bł. Karoliny przedszkole 07
-1529	1	183057	07:14:00	07:14:00		Bł. Karoliny / Nowosądecka 05 nż
-1529	1	183057	07:15:00	07:15:00		Bł. Karoliny / Sanocka 03 nż
-1529	1	183057	07:16:00	07:16:00		Bł. Karoliny / Strzyżowska 01 nż
-1529	1	183057	07:17:00	07:17:00		Wyspiańskiego / German 04 nż
-1529	1	183057	07:18:00	07:18:00		Strzelnicza 01 nż
-1529	1	183057	07:19:00	07:19:00		Plenerowa przedszkole 01 nż
-1529	1	183057	07:20:00	07:20:00		Panoramiczna 01 nż
-1529	1	183057	07:22:00	07:22:00		Witosa park 04 nż
-1529	1	183057	07:24:00	07:24:00		Witosa / Wyspiańskiego 06 nż
-1529	1	183057	07:25:00	07:25:00		Witosa Jedn. Wojskowa 08 nż
-1529	1	183057	07:27:00	07:27:00		Krakowska Jedn. Wojskowa 01
-1529	1	183057	07:30:00	07:30:00		Piłsudskiego U. Wojewódzki 03
-1529	1	183057	07:31:00	07:31:00		Pl. Wolności 01
-1529	1	183057	07:33:00	07:33:00		Targowa 01
-1529	1	183057	07:35:00	07:35:00		Szopena Filharmonia 02 nż
-1529	1	183057	07:36:00	07:36:00		Kilara 01 nż
-1529	1	183057	07:39:00	07:39:00		Lisa-Kuli 02
-1529	1	183057	07:40:00	07:40:00		Cieplińskiego 01
-1529	1	183057	07:42:00	07:42:00		Piłsudskiego U. Marszałkowski 08
-1529	1	183057	07:44:00	07:44:00		Krakowska Jedn. Wojskowa 02
-1529	1	183057	07:47:00	07:47:00		Witosa / Solarza 07 nż
-1529	1	183057	07:48:00	07:48:00		Witosa / Wiktora 05 nż
-1529	1	183057	07:50:00	07:50:00		Witosa park 03 nż
-1529	1	183057	07:52:00	07:52:00		Panoramiczna 02 nż
-1529	1	183057	07:53:00	07:53:00		Plenerowa przedszkole 02 nż
-1529	1	183057	07:54:00	07:54:00		Strzelnicza 02 nż
-1529	1	183057	07:55:00	07:55:00		Wyspiańskiego / Strzelnicza 03 nż
-1529	1	183057	07:57:00	07:57:00		Bł. Karoliny / Strzyżowska 02 nż
-1529	1	183057	07:58:00	07:58:00		Bł. Karoliny / Sanocka 04 nż
-1529	1	183057	07:59:00	07:59:00		Bł. Karoliny przedszkole 06
-1529	1	183057	08:00:00	08:00:00		Bł. Karoliny 09
+1531	1	180438	07:16:00	07:16:00		Bł. Karoliny 09
+1531	1	180438	07:17:00	07:17:00		Bł. Karoliny przedszkole 07
+1531	1	180438	07:18:00	07:18:00		Bł. Karoliny / Nowosądecka 05 nż
+1531	1	180438	07:19:00	07:19:00		Bł. Karoliny / Sanocka 03 nż
+1531	1	180438	07:20:00	07:20:00		Bł. Karoliny / Strzyżowska 01 nż
+1531	1	180438	07:21:00	07:21:00		Wyspiańskiego / German 04 nż
+1531	1	180438	07:22:00	07:22:00		Strzelnicza 01 nż
+1531	1	180438	07:23:00	07:23:00		Wywrockiego / Strzelnicza 02 nż
+1531	1	180438	07:24:00	07:24:00		Wywrockiego / Jagodowa 04 nż
+1531	1	180438	07:25:00	07:25:00		Wywrockiego / Potokowa 06 nż
+1531	1	180438	07:26:00	07:26:00		Wywrockiego rondo 08 nż
+1531	1	180438	07:27:00	07:27:00		Wywrockiego / Potokowa 03 nż
+1531	1	180438	07:28:00	07:28:00		Wywrockiego / Jagodowa 01 nż
+1531	1	180438	07:29:00	07:29:00		Plenerowa przedszkole 01 nż
+1531	1	180438	07:30:00	07:30:00		Panoramiczna 01 nż
+1531	1	180438	07:32:00	07:32:00		Witosa park 04 nż
+1531	1	180438	07:33:00	07:33:00		Wyspiańskiego stadion 01 nż
+1531	1	180438	07:34:00	07:34:00		Wita Stwosza / Wyspiańskiego 05 nż
+1531	1	180438	07:35:00	07:35:00		Wita Stwosza kościół 03
+1531	1	180438	07:36:00	07:36:00		Wita Stwosza pętla 01
+1531	1	180438	07:38:00	07:38:00		Boya Żeleńskiego 02 nż
+1531	1	180438	07:39:00	07:39:00		Chmaja bloki 03 nż
+1531	1	180438	07:40:00	07:40:00		Chmaja / Langiewicza 01 nż
+1531	1	180438	07:41:00	07:41:00		Langiewicza park 03 nż
+1531	1	180438	07:42:00	07:42:00		Langiewicza / Hoffmanowej 01 nż
+1531	1	180438	07:43:00	07:43:00		Mochnackiego 01 nż
+1531	1	180438	07:44:00	07:44:00		Cieplińskiego 01
+1531	1	180438	07:45:00	07:45:00		Piłsudskiego U. Wojewódzki 03
+1531	1	180438	07:46:00	07:46:00		Pl. Wolności 01
+1531	1	180438	07:47:00	07:47:00		Targowa 01
+1531	1	180438	07:49:00	07:49:00		Szopena Filharmonia 02 nż
+1531	1	180438	07:51:00	07:51:00		Podwisłocze U. Skarbowy 03
+1531	1	180438	07:52:00	07:52:00		Podwisłocze domki 01
+1531	1	180438	07:54:00	07:54:00		Kwiatkowskiego / Powst. Warszawy 02
+1531	1	180438	07:55:00	07:55:00		Kwiatkowskiego Dom Studenta 04 nż
+1531	1	180438	07:56:00	07:56:00		Kwiatkowskiego / Strażacka 06 nż
+1531	1	180438	07:57:00	07:57:00		Strażacka / Graniczna 02 nż
+1531	1	180438	07:58:00	07:58:00		Strażacka / Urocza 04 nż
+1531	1	180438	07:59:00	07:59:00		Strażacka / Sympatyczna 06 nż
+1531	1	180438	08:00:00	08:00:00		Strażacka / Sikorskiego 08 nż
+1531	1	180438	08:01:00	08:01:00		Robotnicza / Sikorskiego 02 nż
+1531	1	180438	08:02:00	08:02:00		Robotnicza cmentarz 04 nż
+1531	1	180438	08:03:00	08:03:00		Łukasiewicza pętla 08
 
-1531	1	183091	08:27:00	08:27:00		Bł. Karoliny 09
-1531	1	183091	08:28:00	08:28:00		Bł. Karoliny przedszkole 07
-1531	1	183091	08:29:00	08:29:00		Bł. Karoliny / Nowosądecka 05 nż
-1531	1	183091	08:30:00	08:30:00		Bł. Karoliny / Sanocka 03 nż
-1531	1	183091	08:31:00	08:31:00		Bł. Karoliny / Strzyżowska 01 nż
-1531	1	183091	08:32:00	08:32:00		Wyspiańskiego / German 04 nż
-1531	1	183091	08:33:00	08:33:00		Strzelnicza 01 nż
-1531	1	183091	08:34:00	08:34:00		Wywrockiego / Strzelnicza 02 nż
-1531	1	183091	08:35:00	08:35:00		Wywrockiego / Jagodowa 04 nż
-1531	1	183091	08:36:00	08:36:00		Wywrockiego / Potokowa 06 nż
-1531	1	183091	08:37:00	08:37:00		Wywrockiego rondo 08 nż
-1531	1	183091	08:38:00	08:38:00		Wywrockiego / Potokowa 03 nż
-1531	1	183091	08:39:00	08:39:00		Wywrockiego / Jagodowa 01 nż
-1531	1	183091	08:40:00	08:40:00		Plenerowa przedszkole 01 nż
-1531	1	183091	08:41:00	08:41:00		Panoramiczna 01 nż
-1531	1	183091	08:43:00	08:43:00		Witosa park 04 nż
-1531	1	183091	08:45:00	08:45:00		Wyspiańskiego stadion 01 nż
-1531	1	183091	08:46:00	08:46:00		Wita Stwosza / Wyspiańskiego 05 nż
-1531	1	183091	08:47:00	08:47:00		Wita Stwosza kościół 03
-1531	1	183091	08:48:00	08:48:00		Wita Stwosza pętla 01
-1531	1	183091	08:50:00	08:50:00		Boya Żeleńskiego 02 nż
-1531	1	183091	08:52:00	08:52:00		Chmaja bloki 03 nż
-1531	1	183091	08:53:00	08:53:00		Chmaja / Langiewicza 01 nż
-1531	1	183091	08:54:00	08:54:00		Langiewicza park 03 nż
-1531	1	183091	08:55:00	08:55:00		Langiewicza / Hoffmanowej 01 nż
-1531	1	183091	08:56:00	08:56:00		Mochnackiego 01 nż
-1531	1	183091	08:58:00	08:58:00		Cieplińskiego 01
-1531	1	183091	09:00:00	09:00:00		Piłsudskiego U. Wojewódzki 03
-1531	1	183091	09:01:00	09:01:00		Pl. Wolności 01
-1531	1	183091	09:04:00	09:04:00		Targowa 01
-1531	1	183091	09:07:00	09:07:00		Szopena Filharmonia 02 nż
-1531	1	183091	09:10:00	09:10:00		Podwisłocze U. Skarbowy 03
-1531	1	183091	09:11:00	09:11:00		Podwisłocze domki 01
-1531	1	183091	09:14:00	09:14:00		Kwiatkowskiego / Powst. Warszawy 02
-1531	1	183091	09:15:00	09:15:00		Kwiatkowskiego Dom Studenta 04 nż
-1531	1	183091	09:16:00	09:16:00		Kwiatkowskiego / Strażacka 06 nż
-1531	1	183091	09:18:00	09:18:00		Strażacka / Graniczna 02 nż
-1531	1	183091	09:19:00	09:19:00		Strażacka / Urocza 04 nż
-1531	1	183091	09:20:00	09:20:00		Strażacka / Sympatyczna 06 nż
-1531	1	183091	09:21:00	09:21:00		Strażacka / Sikorskiego 08 nż
-1531	1	183091	09:22:00	09:22:00		Robotnicza / Sikorskiego 02 nż
-1531	1	183091	09:23:00	09:23:00		Robotnicza cmentarz 04 nż
-1531	1	183091	09:24:00	09:24:00		Łukasiewicza pętla 08
+1532	1	180712	08:20:00	08:20:00		Łukasiewicza pętla 08
+1532	1	180712	08:21:00	08:21:00		Robotnicza / Goździkowa 01 nż
+1532	1	180712	08:23:00	08:23:00		Strażacka / Sikorskiego 07 nż
+1532	1	180712	08:24:00	08:24:00		Strażacka / Sympatyczna 05 nż
+1532	1	180712	08:25:00	08:25:00		Strażacka / Urocza 03 nż
+1532	1	180712	08:26:00	08:26:00		Strażacka / Graniczna 01 nż
+1532	1	180712	08:27:00	08:27:00		Kwiatkowskiego / Strażacka 03 nż
+1532	1	180712	08:28:00	08:28:00		Kwiatkowskiego Dom Studenta 01 nż
+1532	1	180712	08:30:00	08:30:00		Podwisłocze / Powst. Warszawy 02
+1532	1	180712	08:31:00	08:31:00		Podwisłocze klinika 04
+1532	1	180712	08:33:00	08:33:00		Kopisto Most Zamkowy 04
+1532	1	180712	08:34:00	08:34:00		Szopena Filharmonia 01 nż
+1532	1	180712	08:36:00	08:36:00		Targowa 02
+1532	1	180712	08:38:00	08:38:00		Pl. Wolności 04
+1532	1	180712	08:41:00	08:41:00		Cieplińskiego 02
+1532	1	180712	08:42:00	08:42:00		Mochnackiego 02 nż
+1532	1	180712	08:43:00	08:43:00		Langiewicza park 02 nż
+1532	1	180712	08:44:00	08:44:00		Chmaja / Langiewicza 02 nż
+1532	1	180712	08:46:00	08:46:00		Boya Żeleńskiego 01 nż
+1532	1	180712	08:47:00	08:47:00		Wita Stwosza / Langiewicza 02
+1532	1	180712	08:48:00	08:48:00		Wita Stwosza kościół 04
+1532	1	180712	08:49:00	08:49:00		Wita Stwosza / Wyspiańskiego 06 nż
+1532	1	180712	08:50:00	08:50:00		Wyspiańskiego stadion 02 nż
+1532	1	180712	08:52:00	08:52:00		Witosa park 03 nż
+1532	1	180712	08:54:00	08:54:00		Panoramiczna 02 nż
+1532	1	180712	08:55:00	08:55:00		Plenerowa przedszkole 02 nż
+1532	1	180712	08:56:00	08:56:00		Wywrockiego / Strzelnicza 02 nż
+1532	1	180712	08:57:00	08:57:00		Wywrockiego / Jagodowa 04 nż
+1532	1	180712	08:58:00	08:58:00		Wywrockiego / Potokowa 06 nż
+1532	1	180712	08:59:00	08:59:00		Wywrockiego rondo 08 nż
+1532	1	180712	09:00:00	09:00:00		Wywrockiego / Potokowa 03 nż
+1532	1	180712	09:01:00	09:01:00		Wywrockiego / Jagodowa 01 nż
+1532	1	180712	09:02:00	09:02:00		Strzelnicza 02 nż
+1532	1	180712	09:03:00	09:03:00		Wyspiańskiego / Strzelnicza 03 nż
+1532	1	180712	09:04:00	09:04:00		Bł. Karoliny / Strzyżowska 02 nż
+1532	1	180712	09:05:00	09:05:00		Bł. Karoliny / Sanocka 04 nż
+1532	1	180712	09:06:00	09:06:00		Bł. Karoliny przedszkole 06
+1532	1	180712	09:07:00	09:07:00		Bł. Karoliny 09
 
-1532	1	181835	09:49:00	09:49:00		Łukasiewicza pętla 08
-1532	1	181835	09:50:00	09:50:00		Robotnicza / Goździkowa 01 nż
-1532	1	181835	09:52:00	09:52:00		Strażacka / Sikorskiego 07 nż
-1532	1	181835	09:53:00	09:53:00		Strażacka / Sympatyczna 05 nż
-1532	1	181835	09:54:00	09:54:00		Strażacka / Urocza 03 nż
-1532	1	181835	09:55:00	09:55:00		Strażacka / Graniczna 01 nż
-1532	1	181835	09:56:00	09:56:00		Kwiatkowskiego / Strażacka 03 nż
-1532	1	181835	09:58:00	09:58:00		Kwiatkowskiego Dom Studenta 01 nż
-1532	1	181835	10:00:00	10:00:00		Podwisłocze / Powst. Warszawy 02
-1532	1	181835	10:01:00	10:01:00		Podwisłocze klinika 04
-1532	1	181835	10:04:00	10:04:00		Kopisto Most Zamkowy 04
-1532	1	181835	10:05:00	10:05:00		Szopena Filharmonia 01 nż
-1532	1	181835	10:08:00	10:08:00		Targowa 02
-1532	1	181835	10:11:00	10:11:00		Pl. Wolności 04
-1532	1	181835	10:14:00	10:14:00		Cieplińskiego 02
-1532	1	181835	10:15:00	10:15:00		Mochnackiego 02 nż
-1532	1	181835	10:17:00	10:17:00		Langiewicza park 02 nż
-1532	1	181835	10:18:00	10:18:00		Chmaja / Langiewicza 02 nż
-1532	1	181835	10:20:00	10:20:00		Boya Żeleńskiego 01 nż
-1532	1	181835	10:22:00	10:22:00		Wita Stwosza / Langiewicza 02
-1532	1	181835	10:23:00	10:23:00		Wita Stwosza kościół 04
-1532	1	181835	10:24:00	10:24:00		Wita Stwosza / Wyspiańskiego 06 nż
-1532	1	181835	10:25:00	10:25:00		Wyspiańskiego stadion 02 nż
-1532	1	181835	10:28:00	10:28:00		Witosa park 03 nż
-1532	1	181835	10:30:00	10:30:00		Panoramiczna 02 nż
-1532	1	181835	10:31:00	10:31:00		Plenerowa przedszkole 02 nż
-1532	1	181835	10:32:00	10:32:00		Wywrockiego / Strzelnicza 02 nż
-1532	1	181835	10:33:00	10:33:00		Wywrockiego / Jagodowa 04 nż
-1532	1	181835	10:34:00	10:34:00		Wywrockiego / Potokowa 06 nż
-1532	1	181835	10:35:00	10:35:00		Wywrockiego rondo 08 nż
-1532	1	181835	10:36:00	10:36:00		Wywrockiego / Potokowa 03 nż
-1532	1	181835	10:37:00	10:37:00		Wywrockiego / Jagodowa 01 nż
-1532	1	181835	10:38:00	10:38:00		Strzelnicza 02 nż
-1532	1	181835	10:39:00	10:39:00		Wyspiańskiego / Strzelnicza 03 nż
-1532	1	181835	10:41:00	10:41:00		Bł. Karoliny / Strzyżowska 02 nż
-1532	1	181835	10:42:00	10:42:00		Bł. Karoliny / Sanocka 04 nż
-1532	1	181835	10:43:00	10:43:00		Bł. Karoliny przedszkole 06
-1532	1	181835	10:44:00	10:44:00		Bł. Karoliny 09
+1531	1	183207	09:16:00	09:16:00		Bł. Karoliny 09
+1531	1	183207	09:17:00	09:17:00		Bł. Karoliny przedszkole 07
+1531	1	183207	09:18:00	09:18:00		Bł. Karoliny / Nowosądecka 05 nż
+1531	1	183207	09:19:00	09:19:00		Bł. Karoliny / Sanocka 03 nż
+1531	1	183207	09:20:00	09:20:00		Bł. Karoliny / Strzyżowska 01 nż
+1531	1	183207	09:21:00	09:21:00		Wyspiańskiego / German 04 nż
+1531	1	183207	09:22:00	09:22:00		Strzelnicza 01 nż
+1531	1	183207	09:23:00	09:23:00		Wywrockiego / Strzelnicza 02 nż
+1531	1	183207	09:24:00	09:24:00		Wywrockiego / Jagodowa 04 nż
+1531	1	183207	09:25:00	09:25:00		Wywrockiego / Potokowa 06 nż
+1531	1	183207	09:26:00	09:26:00		Wywrockiego rondo 08 nż
+1531	1	183207	09:27:00	09:27:00		Wywrockiego / Potokowa 03 nż
+1531	1	183207	09:28:00	09:28:00		Wywrockiego / Jagodowa 01 nż
+1531	1	183207	09:29:00	09:29:00		Plenerowa przedszkole 01 nż
+1531	1	183207	09:30:00	09:30:00		Panoramiczna 01 nż
+1531	1	183207	09:32:00	09:32:00		Witosa park 04 nż
+1531	1	183207	09:33:00	09:33:00		Wyspiańskiego stadion 01 nż
+1531	1	183207	09:34:00	09:34:00		Wita Stwosza / Wyspiańskiego 05 nż
+1531	1	183207	09:35:00	09:35:00		Wita Stwosza kościół 03
+1531	1	183207	09:36:00	09:36:00		Wita Stwosza pętla 01
+1531	1	183207	09:38:00	09:38:00		Boya Żeleńskiego 02 nż
+1531	1	183207	09:39:00	09:39:00		Chmaja bloki 03 nż
+1531	1	183207	09:40:00	09:40:00		Chmaja / Langiewicza 01 nż
+1531	1	183207	09:41:00	09:41:00		Langiewicza park 03 nż
+1531	1	183207	09:42:00	09:42:00		Langiewicza / Hoffmanowej 01 nż
+1531	1	183207	09:43:00	09:43:00		Mochnackiego 01 nż
+1531	1	183207	09:44:00	09:44:00		Cieplińskiego 01
+1531	1	183207	09:45:00	09:45:00		Piłsudskiego U. Wojewódzki 03
+1531	1	183207	09:46:00	09:46:00		Pl. Wolności 01
+1531	1	183207	09:47:00	09:47:00		Targowa 01
+1531	1	183207	09:49:00	09:49:00		Szopena Filharmonia 02 nż
+1531	1	183207	09:51:00	09:51:00		Podwisłocze U. Skarbowy 03
+1531	1	183207	09:52:00	09:52:00		Podwisłocze domki 01
+1531	1	183207	09:54:00	09:54:00		Kwiatkowskiego / Powst. Warszawy 02
+1531	1	183207	09:55:00	09:55:00		Kwiatkowskiego Dom Studenta 04 nż
+1531	1	183207	09:56:00	09:56:00		Kwiatkowskiego / Strażacka 06 nż
+1531	1	183207	09:57:00	09:57:00		Strażacka / Graniczna 02 nż
+1531	1	183207	09:58:00	09:58:00		Strażacka / Urocza 04 nż
+1531	1	183207	09:59:00	09:59:00		Strażacka / Sympatyczna 06 nż
+1531	1	183207	10:00:00	10:00:00		Strażacka / Sikorskiego 08 nż
+1531	1	183207	10:01:00	10:01:00		Robotnicza / Sikorskiego 02 nż
+1531	1	183207	10:02:00	10:02:00		Robotnicza cmentarz 04 nż
+1531	1	183207	10:03:00	10:03:00		Łukasiewicza pętla 08
 
-1529	1	184141	10:57:00	10:57:00		Bł. Karoliny 09
-1529	1	184141	10:58:00	10:58:00		Bł. Karoliny przedszkole 07
-1529	1	184141	10:59:00	10:59:00		Bł. Karoliny / Nowosądecka 05 nż
-1529	1	184141	11:00:00	11:00:00		Bł. Karoliny / Sanocka 03 nż
-1529	1	184141	11:01:00	11:01:00		Bł. Karoliny / Strzyżowska 01 nż
-1529	1	184141	11:02:00	11:02:00		Wyspiańskiego / German 04 nż
-1529	1	184141	11:03:00	11:03:00		Strzelnicza 01 nż
-1529	1	184141	11:04:00	11:04:00		Plenerowa przedszkole 01 nż
-1529	1	184141	11:05:00	11:05:00		Panoramiczna 01 nż
-1529	1	184141	11:07:00	11:07:00		Witosa park 04 nż
-1529	1	184141	11:09:00	11:09:00		Witosa / Wyspiańskiego 06 nż
-1529	1	184141	11:10:00	11:10:00		Witosa Jedn. Wojskowa 08 nż
-1529	1	184141	11:12:00	11:12:00		Krakowska Jedn. Wojskowa 01
-1529	1	184141	11:15:00	11:15:00		Piłsudskiego U. Wojewódzki 03
-1529	1	184141	11:16:00	11:16:00		Pl. Wolności 01
-1529	1	184141	11:19:00	11:19:00		Targowa 01
-1529	1	184141	11:22:00	11:22:00		Szopena Filharmonia 02 nż
-1529	1	184141	11:23:00	11:23:00		Kilara 01 nż
-1529	1	184141	11:26:00	11:26:00		Lisa-Kuli 02
-1529	1	184141	11:27:00	11:27:00		Cieplińskiego 01
-1529	1	184141	11:29:00	11:29:00		Piłsudskiego U. Marszałkowski 08
-1529	1	184141	11:31:00	11:31:00		Krakowska Jedn. Wojskowa 02
-1529	1	184141	11:33:00	11:33:00		Witosa / Solarza 07 nż
-1529	1	184141	11:34:00	11:34:00		Witosa / Wiktora 05 nż
-1529	1	184141	11:36:00	11:36:00		Witosa park 03 nż
-1529	1	184141	11:38:00	11:38:00		Panoramiczna 02 nż
-1529	1	184141	11:39:00	11:39:00		Plenerowa przedszkole 02 nż
-1529	1	184141	11:40:00	11:40:00		Strzelnicza 02 nż
-1529	1	184141	11:41:00	11:41:00		Wyspiańskiego / Strzelnicza 03 nż
-1529	1	184141	11:43:00	11:43:00		Bł. Karoliny / Strzyżowska 02 nż
-1529	1	184141	11:44:00	11:44:00		Bł. Karoliny / Sanocka 04 nż
-1529	1	184141	11:45:00	11:45:00		Bł. Karoliny przedszkole 06
-1529	1	184141	11:46:00	11:46:00		Bł. Karoliny 09
+1532	1	181383	10:20:00	10:20:00		Łukasiewicza pętla 08
+1532	1	181383	10:21:00	10:21:00		Robotnicza / Goździkowa 01 nż
+1532	1	181383	10:23:00	10:23:00		Strażacka / Sikorskiego 07 nż
+1532	1	181383	10:24:00	10:24:00		Strażacka / Sympatyczna 05 nż
+1532	1	181383	10:25:00	10:25:00		Strażacka / Urocza 03 nż
+1532	1	181383	10:26:00	10:26:00		Strażacka / Graniczna 01 nż
+1532	1	181383	10:27:00	10:27:00		Kwiatkowskiego / Strażacka 03 nż
+1532	1	181383	10:28:00	10:28:00		Kwiatkowskiego Dom Studenta 01 nż
+1532	1	181383	10:30:00	10:30:00		Podwisłocze / Powst. Warszawy 02
+1532	1	181383	10:31:00	10:31:00		Podwisłocze klinika 04
+1532	1	181383	10:33:00	10:33:00		Kopisto Most Zamkowy 04
+1532	1	181383	10:34:00	10:34:00		Szopena Filharmonia 01 nż
+1532	1	181383	10:36:00	10:36:00		Targowa 02
+1532	1	181383	10:38:00	10:38:00		Pl. Wolności 04
+1532	1	181383	10:41:00	10:41:00		Cieplińskiego 02
+1532	1	181383	10:42:00	10:42:00		Mochnackiego 02 nż
+1532	1	181383	10:43:00	10:43:00		Langiewicza park 02 nż
+1532	1	181383	10:44:00	10:44:00		Chmaja / Langiewicza 02 nż
+1532	1	181383	10:46:00	10:46:00		Boya Żeleńskiego 01 nż
+1532	1	181383	10:47:00	10:47:00		Wita Stwosza / Langiewicza 02
+1532	1	181383	10:48:00	10:48:00		Wita Stwosza kościół 04
+1532	1	181383	10:49:00	10:49:00		Wita Stwosza / Wyspiańskiego 06 nż
+1532	1	181383	10:50:00	10:50:00		Wyspiańskiego stadion 02 nż
+1532	1	181383	10:52:00	10:52:00		Witosa park 03 nż
+1532	1	181383	10:54:00	10:54:00		Panoramiczna 02 nż
+1532	1	181383	10:55:00	10:55:00		Plenerowa przedszkole 02 nż
+1532	1	181383	10:56:00	10:56:00		Wywrockiego / Strzelnicza 02 nż
+1532	1	181383	10:57:00	10:57:00		Wywrockiego / Jagodowa 04 nż
+1532	1	181383	10:58:00	10:58:00		Wywrockiego / Potokowa 06 nż
+1532	1	181383	10:59:00	10:59:00		Wywrockiego rondo 08 nż
+1532	1	181383	11:00:00	11:00:00		Wywrockiego / Potokowa 03 nż
+1532	1	181383	11:01:00	11:01:00		Wywrockiego / Jagodowa 01 nż
+1532	1	181383	11:02:00	11:02:00		Strzelnicza 02 nż
+1532	1	181383	11:03:00	11:03:00		Wyspiańskiego / Strzelnicza 03 nż
+1532	1	181383	11:04:00	11:04:00		Bł. Karoliny / Strzyżowska 02 nż
+1532	1	181383	11:05:00	11:05:00		Bł. Karoliny / Sanocka 04 nż
+1532	1	181383	11:06:00	11:06:00		Bł. Karoliny przedszkole 06
+1532	1	181383	11:07:00	11:07:00		Bł. Karoliny 09
 
-1531	1	181747	12:27:00	12:27:00		Bł. Karoliny 09
-1531	1	181747	12:28:00	12:28:00		Bł. Karoliny przedszkole 07
-1531	1	181747	12:29:00	12:29:00		Bł. Karoliny / Nowosądecka 05 nż
-1531	1	181747	12:30:00	12:30:00		Bł. Karoliny / Sanocka 03 nż
-1531	1	181747	12:31:00	12:31:00		Bł. Karoliny / Strzyżowska 01 nż
-1531	1	181747	12:32:00	12:32:00		Wyspiańskiego / German 04 nż
-1531	1	181747	12:33:00	12:33:00		Strzelnicza 01 nż
-1531	1	181747	12:34:00	12:34:00		Wywrockiego / Strzelnicza 02 nż
-1531	1	181747	12:35:00	12:35:00		Wywrockiego / Jagodowa 04 nż
-1531	1	181747	12:36:00	12:36:00		Wywrockiego / Potokowa 06 nż
-1531	1	181747	12:37:00	12:37:00		Wywrockiego rondo 08 nż
-1531	1	181747	12:38:00	12:38:00		Wywrockiego / Potokowa 03 nż
-1531	1	181747	12:39:00	12:39:00		Wywrockiego / Jagodowa 01 nż
-1531	1	181747	12:40:00	12:40:00		Plenerowa przedszkole 01 nż
-1531	1	181747	12:41:00	12:41:00		Panoramiczna 01 nż
-1531	1	181747	12:43:00	12:43:00		Witosa park 04 nż
-1531	1	181747	12:45:00	12:45:00		Wyspiańskiego stadion 01 nż
-1531	1	181747	12:46:00	12:46:00		Wita Stwosza / Wyspiańskiego 05 nż
-1531	1	181747	12:47:00	12:47:00		Wita Stwosza kościół 03
-1531	1	181747	12:48:00	12:48:00		Wita Stwosza pętla 01
-1531	1	181747	12:50:00	12:50:00		Boya Żeleńskiego 02 nż
-1531	1	181747	12:52:00	12:52:00		Chmaja bloki 03 nż
-1531	1	181747	12:53:00	12:53:00		Chmaja / Langiewicza 01 nż
-1531	1	181747	12:54:00	12:54:00		Langiewicza park 03 nż
-1531	1	181747	12:55:00	12:55:00		Langiewicza / Hoffmanowej 01 nż
-1531	1	181747	12:56:00	12:56:00		Mochnackiego 01 nż
-1531	1	181747	12:58:00	12:58:00		Cieplińskiego 01
-1531	1	181747	13:00:00	13:00:00		Piłsudskiego U. Wojewódzki 03
-1531	1	181747	13:01:00	13:01:00		Pl. Wolności 01
-1531	1	181747	13:04:00	13:04:00		Targowa 01
-1531	1	181747	13:07:00	13:07:00		Szopena Filharmonia 02 nż
-1531	1	181747	13:10:00	13:10:00		Podwisłocze U. Skarbowy 03
-1531	1	181747	13:11:00	13:11:00		Podwisłocze domki 01
-1531	1	181747	13:14:00	13:14:00		Kwiatkowskiego / Powst. Warszawy 02
-1531	1	181747	13:15:00	13:15:00		Kwiatkowskiego Dom Studenta 04 nż
-1531	1	181747	13:17:00	13:17:00		Kwiatkowskiego / Strażacka 06 nż
-1531	1	181747	13:19:00	13:19:00		Strażacka / Graniczna 02 nż
-1531	1	181747	13:20:00	13:20:00		Strażacka / Urocza 04 nż
-1531	1	181747	13:21:00	13:21:00		Strażacka / Sympatyczna 06 nż
-1531	1	181747	13:22:00	13:22:00		Strażacka / Sikorskiego 08 nż
-1531	1	181747	13:23:00	13:23:00		Robotnicza / Sikorskiego 02 nż
-1531	1	181747	13:24:00	13:24:00		Robotnicza cmentarz 04 nż
-1531	1	181747	13:25:00	13:25:00		Łukasiewicza pętla 08
+1531	1	181295	11:16:00	11:16:00		Bł. Karoliny 09
+1531	1	181295	11:17:00	11:17:00		Bł. Karoliny przedszkole 07
+1531	1	181295	11:18:00	11:18:00		Bł. Karoliny / Nowosądecka 05 nż
+1531	1	181295	11:19:00	11:19:00		Bł. Karoliny / Sanocka 03 nż
+1531	1	181295	11:20:00	11:20:00		Bł. Karoliny / Strzyżowska 01 nż
+1531	1	181295	11:21:00	11:21:00		Wyspiańskiego / German 04 nż
+1531	1	181295	11:22:00	11:22:00		Strzelnicza 01 nż
+1531	1	181295	11:23:00	11:23:00		Wywrockiego / Strzelnicza 02 nż
+1531	1	181295	11:24:00	11:24:00		Wywrockiego / Jagodowa 04 nż
+1531	1	181295	11:25:00	11:25:00		Wywrockiego / Potokowa 06 nż
+1531	1	181295	11:26:00	11:26:00		Wywrockiego rondo 08 nż
+1531	1	181295	11:27:00	11:27:00		Wywrockiego / Potokowa 03 nż
+1531	1	181295	11:28:00	11:28:00		Wywrockiego / Jagodowa 01 nż
+1531	1	181295	11:29:00	11:29:00		Plenerowa przedszkole 01 nż
+1531	1	181295	11:30:00	11:30:00		Panoramiczna 01 nż
+1531	1	181295	11:32:00	11:32:00		Witosa park 04 nż
+1531	1	181295	11:33:00	11:33:00		Wyspiańskiego stadion 01 nż
+1531	1	181295	11:34:00	11:34:00		Wita Stwosza / Wyspiańskiego 05 nż
+1531	1	181295	11:35:00	11:35:00		Wita Stwosza kościół 03
+1531	1	181295	11:36:00	11:36:00		Wita Stwosza pętla 01
+1531	1	181295	11:38:00	11:38:00		Boya Żeleńskiego 02 nż
+1531	1	181295	11:39:00	11:39:00		Chmaja bloki 03 nż
+1531	1	181295	11:40:00	11:40:00		Chmaja / Langiewicza 01 nż
+1531	1	181295	11:41:00	11:41:00		Langiewicza park 03 nż
+1531	1	181295	11:42:00	11:42:00		Langiewicza / Hoffmanowej 01 nż
+1531	1	181295	11:43:00	11:43:00		Mochnackiego 01 nż
+1531	1	181295	11:44:00	11:44:00		Cieplińskiego 01
+1531	1	181295	11:45:00	11:45:00		Piłsudskiego U. Wojewódzki 03
+1531	1	181295	11:46:00	11:46:00		Pl. Wolności 01
+1531	1	181295	11:47:00	11:47:00		Targowa 01
+1531	1	181295	11:49:00	11:49:00		Szopena Filharmonia 02 nż
+1531	1	181295	11:51:00	11:51:00		Podwisłocze U. Skarbowy 03
+1531	1	181295	11:52:00	11:52:00		Podwisłocze domki 01
+1531	1	181295	11:54:00	11:54:00		Kwiatkowskiego / Powst. Warszawy 02
+1531	1	181295	11:55:00	11:55:00		Kwiatkowskiego Dom Studenta 04 nż
+1531	1	181295	11:56:00	11:56:00		Kwiatkowskiego / Strażacka 06 nż
+1531	1	181295	11:57:00	11:57:00		Strażacka / Graniczna 02 nż
+1531	1	181295	11:58:00	11:58:00		Strażacka / Urocza 04 nż
+1531	1	181295	11:59:00	11:59:00		Strażacka / Sympatyczna 06 nż
+1531	1	181295	12:00:00	12:00:00		Strażacka / Sikorskiego 08 nż
+1531	1	181295	12:01:00	12:01:00		Robotnicza / Sikorskiego 02 nż
+1531	1	181295	12:02:00	12:02:00		Robotnicza cmentarz 04 nż
+1531	1	181295	12:03:00	12:03:00		Łukasiewicza pętla 08
 
-1532	1	184876	13:49:00	13:49:00		Łukasiewicza pętla 08
-1532	1	184876	13:50:00	13:50:00		Robotnicza / Goździkowa 01 nż
-1532	1	184876	13:52:00	13:52:00		Strażacka / Sikorskiego 07 nż
-1532	1	184876	13:53:00	13:53:00		Strażacka / Sympatyczna 05 nż
-1532	1	184876	13:54:00	13:54:00		Strażacka / Urocza 03 nż
-1532	1	184876	13:55:00	13:55:00		Strażacka / Graniczna 01 nż
-1532	1	184876	13:56:00	13:56:00		Kwiatkowskiego / Strażacka 03 nż
-1532	1	184876	13:58:00	13:58:00		Kwiatkowskiego Dom Studenta 01 nż
-1532	1	184876	14:00:00	14:00:00		Podwisłocze / Powst. Warszawy 02
-1532	1	184876	14:01:00	14:01:00		Podwisłocze klinika 04
-1532	1	184876	14:04:00	14:04:00		Kopisto Most Zamkowy 04
-1532	1	184876	14:05:00	14:05:00		Szopena Filharmonia 01 nż
-1532	1	184876	14:08:00	14:08:00		Targowa 02
-1532	1	184876	14:11:00	14:11:00		Pl. Wolności 04
-1532	1	184876	14:15:00	14:15:00		Cieplińskiego 02
-1532	1	184876	14:16:00	14:16:00		Mochnackiego 02 nż
-1532	1	184876	14:18:00	14:18:00		Langiewicza park 02 nż
-1532	1	184876	14:19:00	14:19:00		Chmaja / Langiewicza 02 nż
-1532	1	184876	14:21:00	14:21:00		Boya Żeleńskiego 01 nż
-1532	1	184876	14:23:00	14:23:00		Wita Stwosza / Langiewicza 02
-1532	1	184876	14:24:00	14:24:00		Wita Stwosza kościół 04
-1532	1	184876	14:25:00	14:25:00		Wita Stwosza / Wyspiańskiego 06 nż
-1532	1	184876	14:26:00	14:26:00		Wyspiańskiego stadion 02 nż
-1532	1	184876	14:29:00	14:29:00		Witosa park 03 nż
-1532	1	184876	14:31:00	14:31:00		Panoramiczna 02 nż
-1532	1	184876	14:32:00	14:32:00		Plenerowa przedszkole 02 nż
-1532	1	184876	14:33:00	14:33:00		Wywrockiego / Strzelnicza 02 nż
-1532	1	184876	14:34:00	14:34:00		Wywrockiego / Jagodowa 04 nż
-1532	1	184876	14:35:00	14:35:00		Wywrockiego / Potokowa 06 nż
-1532	1	184876	14:36:00	14:36:00		Wywrockiego rondo 08 nż
-1532	1	184876	14:37:00	14:37:00		Wywrockiego / Potokowa 03 nż
-1532	1	184876	14:38:00	14:38:00		Wywrockiego / Jagodowa 01 nż
-1532	1	184876	14:39:00	14:39:00		Strzelnicza 02 nż
-1532	1	184876	14:40:00	14:40:00		Wyspiańskiego / Strzelnicza 03 nż
-1532	1	184876	14:42:00	14:42:00		Bł. Karoliny / Strzyżowska 02 nż
-1532	1	184876	14:43:00	14:43:00		Bł. Karoliny / Sanocka 04 nż
-1532	1	184876	14:45:00	14:45:00		Bł. Karoliny przedszkole 06
-1532	1	184876	14:46:00	14:46:00		Bł. Karoliny 09
+1532	1	180550	12:20:00	12:20:00		Łukasiewicza pętla 08
+1532	1	180550	12:21:00	12:21:00		Robotnicza / Goździkowa 01 nż
+1532	1	180550	12:23:00	12:23:00		Strażacka / Sikorskiego 07 nż
+1532	1	180550	12:24:00	12:24:00		Strażacka / Sympatyczna 05 nż
+1532	1	180550	12:25:00	12:25:00		Strażacka / Urocza 03 nż
+1532	1	180550	12:26:00	12:26:00		Strażacka / Graniczna 01 nż
+1532	1	180550	12:27:00	12:27:00		Kwiatkowskiego / Strażacka 03 nż
+1532	1	180550	12:28:00	12:28:00		Kwiatkowskiego Dom Studenta 01 nż
+1532	1	180550	12:30:00	12:30:00		Podwisłocze / Powst. Warszawy 02
+1532	1	180550	12:31:00	12:31:00		Podwisłocze klinika 04
+1532	1	180550	12:33:00	12:33:00		Kopisto Most Zamkowy 04
+1532	1	180550	12:34:00	12:34:00		Szopena Filharmonia 01 nż
+1532	1	180550	12:36:00	12:36:00		Targowa 02
+1532	1	180550	12:38:00	12:38:00		Pl. Wolności 04
+1532	1	180550	12:41:00	12:41:00		Cieplińskiego 02
+1532	1	180550	12:42:00	12:42:00		Mochnackiego 02 nż
+1532	1	180550	12:43:00	12:43:00		Langiewicza park 02 nż
+1532	1	180550	12:44:00	12:44:00		Chmaja / Langiewicza 02 nż
+1532	1	180550	12:46:00	12:46:00		Boya Żeleńskiego 01 nż
+1532	1	180550	12:47:00	12:47:00		Wita Stwosza / Langiewicza 02
+1532	1	180550	12:48:00	12:48:00		Wita Stwosza kościół 04
+1532	1	180550	12:49:00	12:49:00		Wita Stwosza / Wyspiańskiego 06 nż
+1532	1	180550	12:50:00	12:50:00		Wyspiańskiego stadion 02 nż
+1532	1	180550	12:52:00	12:52:00		Witosa park 03 nż
+1532	1	180550	12:54:00	12:54:00		Panoramiczna 02 nż
+1532	1	180550	12:55:00	12:55:00		Plenerowa przedszkole 02 nż
+1532	1	180550	12:56:00	12:56:00		Wywrockiego / Strzelnicza 02 nż
+1532	1	180550	12:57:00	12:57:00		Wywrockiego / Jagodowa 04 nż
+1532	1	180550	12:58:00	12:58:00		Wywrockiego / Potokowa 06 nż
+1532	1	180550	12:59:00	12:59:00		Wywrockiego rondo 08 nż
+1532	1	180550	13:00:00	13:00:00		Wywrockiego / Potokowa 03 nż
+1532	1	180550	13:01:00	13:01:00		Wywrockiego / Jagodowa 01 nż
+1532	1	180550	13:02:00	13:02:00		Strzelnicza 02 nż
+1532	1	180550	13:03:00	13:03:00		Wyspiańskiego / Strzelnicza 03 nż
+1532	1	180550	13:04:00	13:04:00		Bł. Karoliny / Strzyżowska 02 nż
+1532	1	180550	13:05:00	13:05:00		Bł. Karoliny / Sanocka 04 nż
+1532	1	180550	13:06:00	13:06:00		Bł. Karoliny przedszkole 06
+1532	1	180550	13:07:00	13:07:00		Bł. Karoliny 09
 
-1529	1	180664	15:08:00	15:08:00		Bł. Karoliny 09
-1529	1	180664	15:09:00	15:09:00		Bł. Karoliny przedszkole 07
-1529	1	180664	15:10:00	15:10:00		Bł. Karoliny / Nowosądecka 05 nż
-1529	1	180664	15:11:00	15:11:00		Bł. Karoliny / Sanocka 03 nż
-1529	1	180664	15:12:00	15:12:00		Bł. Karoliny / Strzyżowska 01 nż
-1529	1	180664	15:13:00	15:13:00		Wyspiańskiego / German 04 nż
-1529	1	180664	15:14:00	15:14:00		Strzelnicza 01 nż
-1529	1	180664	15:15:00	15:15:00		Plenerowa przedszkole 01 nż
-1529	1	180664	15:16:00	15:16:00		Panoramiczna 01 nż
-1529	1	180664	15:19:00	15:19:00		Witosa park 04 nż
-1529	1	180664	15:21:00	15:21:00		Witosa / Wyspiańskiego 06 nż
-1529	1	180664	15:22:00	15:22:00		Witosa Jedn. Wojskowa 08 nż
-1529	1	180664	15:24:00	15:24:00		Krakowska Jedn. Wojskowa 01
-1529	1	180664	15:27:00	15:27:00		Piłsudskiego U. Wojewódzki 03
-1529	1	180664	15:29:00	15:29:00		Pl. Wolności 01
-1529	1	180664	15:32:00	15:32:00		Targowa 01
-1529	1	180664	15:36:00	15:36:00		Szopena Filharmonia 02 nż
-1529	1	180664	15:37:00	15:37:00		Kilara 01 nż
-1529	1	180664	15:40:00	15:40:00		Lisa-Kuli 02
-1529	1	180664	15:41:00	15:41:00		Cieplińskiego 01
-1529	1	180664	15:44:00	15:44:00		Piłsudskiego U. Marszałkowski 08
-1529	1	180664	15:46:00	15:46:00		Krakowska Jedn. Wojskowa 02
-1529	1	180664	15:49:00	15:49:00		Witosa / Solarza 07 nż
-1529	1	180664	15:50:00	15:50:00		Witosa / Wiktora 05 nż
-1529	1	180664	15:52:00	15:52:00		Witosa park 03 nż
-1529	1	180664	15:54:00	15:54:00		Panoramiczna 02 nż
-1529	1	180664	15:55:00	15:55:00		Plenerowa przedszkole 02 nż
-1529	1	180664	15:56:00	15:56:00		Strzelnicza 02 nż
-1529	1	180664	15:57:00	15:57:00		Wyspiańskiego / Strzelnicza 03 nż
-1529	1	180664	15:59:00	15:59:00		Bł. Karoliny / Strzyżowska 02 nż
-1529	1	180664	16:00:00	16:00:00		Bł. Karoliny / Sanocka 04 nż
-1529	1	180664	16:02:00	16:02:00		Bł. Karoliny przedszkole 06
-1529	1	180664	16:03:00	16:03:00		Bł. Karoliny 09
+1531	1	181685	13:16:00	13:16:00		Bł. Karoliny 09
+1531	1	181685	13:17:00	13:17:00		Bł. Karoliny przedszkole 07
+1531	1	181685	13:18:00	13:18:00		Bł. Karoliny / Nowosądecka 05 nż
+1531	1	181685	13:19:00	13:19:00		Bł. Karoliny / Sanocka 03 nż
+1531	1	181685	13:20:00	13:20:00		Bł. Karoliny / Strzyżowska 01 nż
+1531	1	181685	13:21:00	13:21:00		Wyspiańskiego / German 04 nż
+1531	1	181685	13:22:00	13:22:00		Strzelnicza 01 nż
+1531	1	181685	13:23:00	13:23:00		Wywrockiego / Strzelnicza 02 nż
+1531	1	181685	13:24:00	13:24:00		Wywrockiego / Jagodowa 04 nż
+1531	1	181685	13:25:00	13:25:00		Wywrockiego / Potokowa 06 nż
+1531	1	181685	13:26:00	13:26:00		Wywrockiego rondo 08 nż
+1531	1	181685	13:27:00	13:27:00		Wywrockiego / Potokowa 03 nż
+1531	1	181685	13:28:00	13:28:00		Wywrockiego / Jagodowa 01 nż
+1531	1	181685	13:29:00	13:29:00		Plenerowa przedszkole 01 nż
+1531	1	181685	13:30:00	13:30:00		Panoramiczna 01 nż
+1531	1	181685	13:32:00	13:32:00		Witosa park 04 nż
+1531	1	181685	13:33:00	13:33:00		Wyspiańskiego stadion 01 nż
+1531	1	181685	13:34:00	13:34:00		Wita Stwosza / Wyspiańskiego 05 nż
+1531	1	181685	13:35:00	13:35:00		Wita Stwosza kościół 03
+1531	1	181685	13:36:00	13:36:00		Wita Stwosza pętla 01
+1531	1	181685	13:38:00	13:38:00		Boya Żeleńskiego 02 nż
+1531	1	181685	13:39:00	13:39:00		Chmaja bloki 03 nż
+1531	1	181685	13:40:00	13:40:00		Chmaja / Langiewicza 01 nż
+1531	1	181685	13:41:00	13:41:00		Langiewicza park 03 nż
+1531	1	181685	13:42:00	13:42:00		Langiewicza / Hoffmanowej 01 nż
+1531	1	181685	13:43:00	13:43:00		Mochnackiego 01 nż
+1531	1	181685	13:44:00	13:44:00		Cieplińskiego 01
+1531	1	181685	13:45:00	13:45:00		Piłsudskiego U. Wojewódzki 03
+1531	1	181685	13:46:00	13:46:00		Pl. Wolności 01
+1531	1	181685	13:47:00	13:47:00		Targowa 01
+1531	1	181685	13:49:00	13:49:00		Szopena Filharmonia 02 nż
+1531	1	181685	13:51:00	13:51:00		Podwisłocze U. Skarbowy 03
+1531	1	181685	13:52:00	13:52:00		Podwisłocze domki 01
+1531	1	181685	13:55:00	13:55:00		Kwiatkowskiego / Powst. Warszawy 02
+1531	1	181685	13:56:00	13:56:00		Kwiatkowskiego Dom Studenta 04 nż
+1531	1	181685	13:57:00	13:57:00		Kwiatkowskiego / Strażacka 06 nż
+1531	1	181685	13:58:00	13:58:00		Strażacka / Graniczna 02 nż
+1531	1	181685	13:59:00	13:59:00		Strażacka / Urocza 04 nż
+1531	1	181685	14:00:00	14:00:00		Strażacka / Sympatyczna 06 nż
+1531	1	181685	14:01:00	14:01:00		Strażacka / Sikorskiego 08 nż
+1531	1	181685	14:02:00	14:02:00		Robotnicza / Sikorskiego 02 nż
+1531	1	181685	14:03:00	14:03:00		Robotnicza cmentarz 04 nż
+1531	1	181685	14:04:00	14:04:00		Łukasiewicza pętla 08
 
-1517	1	183192	16:13:00	16:13:00		Bł. Karoliny 09
-1517	1	183192	16:14:00	16:14:00		Bł. Karoliny przedszkole 07
-1517	1	183192	16:15:00	16:15:00		Bł. Karoliny / Nowosądecka 05 nż
-1517	1	183192	16:16:00	16:16:00		Bł. Karoliny / Sanocka 03 nż
-1517	1	183192	16:17:00	16:17:00		Bł. Karoliny / Strzyżowska 01 nż
-1517	1	183192	16:18:00	16:18:00		Wiktora park 01 nż
-1517	1	183192	16:20:00	16:20:00		Wyspiańskiego stadion 01 nż
-1517	1	183192	16:21:00	16:21:00		Wita Stwosza / Wyspiańskiego 05 nż
-1517	1	183192	16:22:00	16:22:00		Wita Stwosza kościół 03
-1517	1	183192	16:23:00	16:23:00		Wita Stwosza pętla 01
-1517	1	183192	16:26:00	16:26:00		Boya Żeleńskiego 02 nż
-1517	1	183192	16:27:00	16:27:00		Wincentego Pola Politechnika 02 nż
-1517	1	183192	16:34:00	16:34:00		Dąbrowskiego kościół 06 nż
-1517	1	183192	16:35:00	16:35:00		Dąbrowskiego / Boh. Westerplatte 08
-1517	1	183192	16:38:00	16:38:00		Powst. Warszawy / Dąbrowskiego 02
-1517	1	183192	16:40:00	16:40:00		Powst. Warszawy Politechnika 04
-1517	1	183192	16:43:00	16:43:00		Powst. Warszawy stadion 06
-1517	1	183192	16:45:00	16:45:00		Kwiatkowskiego / Powst. Warszawy 02
-1517	1	183192	16:46:00	16:46:00		Kwiatkowskiego Dom Studenta 04 nż
-1517	1	183192	16:47:00	16:47:00		Kwiatkowskiego / Strażacka 06 nż
-1517	1	183192	16:49:00	16:49:00		Strażacka / Graniczna 02 nż
-1517	1	183192	16:50:00	16:50:00		Strażacka / Urocza 04 nż
-1517	1	183192	16:51:00	16:51:00		Strażacka / Sympatyczna 06 nż
-1517	1	183192	16:52:00	16:52:00		Strażacka / Sikorskiego 08 nż
-1517	1	183192	16:53:00	16:53:00		Robotnicza / Sikorskiego 02 nż
-1517	1	183192	16:54:00	16:54:00		Robotnicza cmentarz 04 nż
-1517	1	183192	16:55:00	16:55:00		Łukasiewicza pętla 08
+1532	1	181195	14:20:00	14:20:00		Łukasiewicza pętla 08
+1532	1	181195	14:21:00	14:21:00		Robotnicza / Goździkowa 01 nż
+1532	1	181195	14:23:00	14:23:00		Strażacka / Sikorskiego 07 nż
+1532	1	181195	14:24:00	14:24:00		Strażacka / Sympatyczna 05 nż
+1532	1	181195	14:25:00	14:25:00		Strażacka / Urocza 03 nż
+1532	1	181195	14:26:00	14:26:00		Strażacka / Graniczna 01 nż
+1532	1	181195	14:27:00	14:27:00		Kwiatkowskiego / Strażacka 03 nż
+1532	1	181195	14:28:00	14:28:00		Kwiatkowskiego Dom Studenta 01 nż
+1532	1	181195	14:30:00	14:30:00		Podwisłocze / Powst. Warszawy 02
+1532	1	181195	14:31:00	14:31:00		Podwisłocze klinika 04
+1532	1	181195	14:33:00	14:33:00		Kopisto Most Zamkowy 04
+1532	1	181195	14:34:00	14:34:00		Szopena Filharmonia 01 nż
+1532	1	181195	14:36:00	14:36:00		Targowa 02
+1532	1	181195	14:38:00	14:38:00		Pl. Wolności 04
+1532	1	181195	14:41:00	14:41:00		Cieplińskiego 02
+1532	1	181195	14:42:00	14:42:00		Mochnackiego 02 nż
+1532	1	181195	14:43:00	14:43:00		Langiewicza park 02 nż
+1532	1	181195	14:44:00	14:44:00		Chmaja / Langiewicza 02 nż
+1532	1	181195	14:46:00	14:46:00		Boya Żeleńskiego 01 nż
+1532	1	181195	14:47:00	14:47:00		Wita Stwosza / Langiewicza 02
+1532	1	181195	14:48:00	14:48:00		Wita Stwosza kościół 04
+1532	1	181195	14:49:00	14:49:00		Wita Stwosza / Wyspiańskiego 06 nż
+1532	1	181195	14:50:00	14:50:00		Wyspiańskiego stadion 02 nż
+1532	1	181195	14:52:00	14:52:00		Witosa park 03 nż
+1532	1	181195	14:54:00	14:54:00		Panoramiczna 02 nż
+1532	1	181195	14:55:00	14:55:00		Plenerowa przedszkole 02 nż
+1532	1	181195	14:56:00	14:56:00		Wywrockiego / Strzelnicza 02 nż
+1532	1	181195	14:57:00	14:57:00		Wywrockiego / Jagodowa 04 nż
+1532	1	181195	14:58:00	14:58:00		Wywrockiego / Potokowa 06 nż
+1532	1	181195	14:59:00	14:59:00		Wywrockiego rondo 08 nż
+1532	1	181195	15:00:00	15:00:00		Wywrockiego / Potokowa 03 nż
+1532	1	181195	15:01:00	15:01:00		Wywrockiego / Jagodowa 01 nż
+1532	1	181195	15:02:00	15:02:00		Strzelnicza 02 nż
+1532	1	181195	15:03:00	15:03:00		Wyspiańskiego / Strzelnicza 03 nż
+1532	1	181195	15:04:00	15:04:00		Bł. Karoliny / Strzyżowska 02 nż
+1532	1	181195	15:05:00	15:05:00		Bł. Karoliny / Sanocka 04 nż
+1532	1	181195	15:06:00	15:06:00		Bł. Karoliny przedszkole 06
+1532	1	181195	15:07:00	15:07:00		Bł. Karoliny 09
 
-1504	1	183502	17:14:00	17:14:00		Łukasiewicza pętla 08
-1504	1	183502	17:15:00	17:15:00		Robotnicza / Goździkowa 01 nż
-1504	1	183502	17:17:00	17:17:00		Strażacka / Sikorskiego 07 nż
-1504	1	183502	17:18:00	17:18:00		Strażacka / Sympatyczna 05 nż
-1504	1	183502	17:19:00	17:19:00		Strażacka / Urocza 03 nż
-1504	1	183502	17:20:00	17:20:00		Strażacka / Graniczna 01 nż
-1504	1	183502	17:21:00	17:21:00		Kwiatkowskiego / Strażacka 03 nż
-1504	1	183502	17:23:00	17:23:00		Kwiatkowskiego Dom Studenta 01 nż
-1504	1	183502	17:26:00	17:26:00		Powst. Warszawy / Podwisłocze 07 nż
-1504	1	183502	17:28:00	17:28:00		Powst. Warszawy / Hetmańska 03
-1504	1	183502	17:29:00	17:29:00		Powst. Warszawy Politechnika 01
-1504	1	183502	17:32:00	17:32:00		Dąbrowskiego Instytut Muzyki 07
-1504	1	183502	17:33:00	17:33:00		Dąbrowskiego kościół 05 nż
-1504	1	183502	17:34:00	17:34:00		Wincentego Pola Politechnika 01 nż
-1504	1	183502	17:35:00	17:35:00		Boya Żeleńskiego 01 nż
-1504	1	183502	17:37:00	17:37:00		Wita Stwosza / Langiewicza 02
-1504	1	183502	17:38:00	17:38:00		Wita Stwosza kościół 04
-1504	1	183502	17:39:00	17:39:00		Wita Stwosza / Wyspiańskiego 06 nż
-1504	1	183502	17:40:00	17:40:00		Wyspiańskiego stadion 02 nż
-1504	1	183502	17:43:00	17:43:00		Wiktora / Witosa 02 nż
-1504	1	183502	17:44:00	17:44:00		Wiktora / Stojałowskiego 04 nż
-1504	1	183502	17:45:00	17:45:00		Bł. Karoliny / Strzyżowska 02 nż
-1504	1	183502	17:46:00	17:46:00		Bł. Karoliny / Sanocka 04 nż
-1504	1	183502	17:48:00	17:48:00		Bł. Karoliny przedszkole 06
-1504	1	183502	17:49:00	17:49:00		Bł. Karoliny 09
+1531	1	182889	15:16:00	15:16:00		Bł. Karoliny 09
+1531	1	182889	15:17:00	15:17:00		Bł. Karoliny przedszkole 07
+1531	1	182889	15:18:00	15:18:00		Bł. Karoliny / Nowosądecka 05 nż
+1531	1	182889	15:19:00	15:19:00		Bł. Karoliny / Sanocka 03 nż
+1531	1	182889	15:20:00	15:20:00		Bł. Karoliny / Strzyżowska 01 nż
+1531	1	182889	15:21:00	15:21:00		Wyspiańskiego / German 04 nż
+1531	1	182889	15:22:00	15:22:00		Strzelnicza 01 nż
+1531	1	182889	15:23:00	15:23:00		Wywrockiego / Strzelnicza 02 nż
+1531	1	182889	15:24:00	15:24:00		Wywrockiego / Jagodowa 04 nż
+1531	1	182889	15:25:00	15:25:00		Wywrockiego / Potokowa 06 nż
+1531	1	182889	15:26:00	15:26:00		Wywrockiego rondo 08 nż
+1531	1	182889	15:27:00	15:27:00		Wywrockiego / Potokowa 03 nż
+1531	1	182889	15:28:00	15:28:00		Wywrockiego / Jagodowa 01 nż
+1531	1	182889	15:29:00	15:29:00		Plenerowa przedszkole 01 nż
+1531	1	182889	15:30:00	15:30:00		Panoramiczna 01 nż
+1531	1	182889	15:32:00	15:32:00		Witosa park 04 nż
+1531	1	182889	15:33:00	15:33:00		Wyspiańskiego stadion 01 nż
+1531	1	182889	15:34:00	15:34:00		Wita Stwosza / Wyspiańskiego 05 nż
+1531	1	182889	15:35:00	15:35:00		Wita Stwosza kościół 03
+1531	1	182889	15:36:00	15:36:00		Wita Stwosza pętla 01
+1531	1	182889	15:38:00	15:38:00		Boya Żeleńskiego 02 nż
+1531	1	182889	15:39:00	15:39:00		Chmaja bloki 03 nż
+1531	1	182889	15:40:00	15:40:00		Chmaja / Langiewicza 01 nż
+1531	1	182889	15:41:00	15:41:00		Langiewicza park 03 nż
+1531	1	182889	15:42:00	15:42:00		Langiewicza / Hoffmanowej 01 nż
+1531	1	182889	15:43:00	15:43:00		Mochnackiego 01 nż
+1531	1	182889	15:44:00	15:44:00		Cieplińskiego 01
+1531	1	182889	15:45:00	15:45:00		Piłsudskiego U. Wojewódzki 03
+1531	1	182889	15:46:00	15:46:00		Pl. Wolności 01
+1531	1	182889	15:47:00	15:47:00		Targowa 01
+1531	1	182889	15:49:00	15:49:00		Szopena Filharmonia 02 nż
+1531	1	182889	15:51:00	15:51:00		Podwisłocze U. Skarbowy 03
+1531	1	182889	15:52:00	15:52:00		Podwisłocze domki 01
+1531	1	182889	15:55:00	15:55:00		Kwiatkowskiego / Powst. Warszawy 02
+1531	1	182889	15:56:00	15:56:00		Kwiatkowskiego Dom Studenta 04 nż
+1531	1	182889	15:57:00	15:57:00		Kwiatkowskiego / Strażacka 06 nż
+1531	1	182889	15:58:00	15:58:00		Strażacka / Graniczna 02 nż
+1531	1	182889	15:59:00	15:59:00		Strażacka / Urocza 04 nż
+1531	1	182889	16:00:00	16:00:00		Strażacka / Sympatyczna 06 nż
+1531	1	182889	16:01:00	16:01:00		Strażacka / Sikorskiego 08 nż
+1531	1	182889	16:02:00	16:02:00		Robotnicza / Sikorskiego 02 nż
+1531	1	182889	16:03:00	16:03:00		Robotnicza cmentarz 04 nż
+1531	1	182889	16:04:00	16:04:00		Łukasiewicza pętla 08
 
-1529	1	181231	18:02:00	18:02:00		Bł. Karoliny 09
-1529	1	181231	18:03:00	18:03:00		Bł. Karoliny przedszkole 07
-1529	1	181231	18:04:00	18:04:00		Bł. Karoliny / Nowosądecka 05 nż
-1529	1	181231	18:05:00	18:05:00		Bł. Karoliny / Sanocka 03 nż
-1529	1	181231	18:06:00	18:06:00		Bł. Karoliny / Strzyżowska 01 nż
-1529	1	181231	18:07:00	18:07:00		Wyspiańskiego / German 04 nż
-1529	1	181231	18:08:00	18:08:00		Strzelnicza 01 nż
-1529	1	181231	18:09:00	18:09:00		Plenerowa przedszkole 01 nż
-1529	1	181231	18:10:00	18:10:00		Panoramiczna 01 nż
-1529	1	181231	18:12:00	18:12:00		Witosa park 04 nż
-1529	1	181231	18:14:00	18:14:00		Witosa / Wyspiańskiego 06 nż
-1529	1	181231	18:15:00	18:15:00		Witosa Jedn. Wojskowa 08 nż
-1529	1	181231	18:17:00	18:17:00		Krakowska Jedn. Wojskowa 01
-1529	1	181231	18:20:00	18:20:00		Piłsudskiego U. Wojewódzki 03
-1529	1	181231	18:21:00	18:21:00		Pl. Wolności 01
-1529	1	181231	18:24:00	18:24:00		Targowa 01
-1529	1	181231	18:26:00	18:26:00		Szopena Filharmonia 02 nż
-1529	1	181231	18:27:00	18:27:00		Kilara 01 nż
-1529	1	181231	18:30:00	18:30:00		Lisa-Kuli 02
-1529	1	181231	18:31:00	18:31:00		Cieplińskiego 01
-1529	1	181231	18:33:00	18:33:00		Piłsudskiego U. Marszałkowski 08
-1529	1	181231	18:35:00	18:35:00		Krakowska Jedn. Wojskowa 02
-1529	1	181231	18:37:00	18:37:00		Witosa / Solarza 07 nż
-1529	1	181231	18:38:00	18:38:00		Witosa / Wiktora 05 nż
-1529	1	181231	18:40:00	18:40:00		Witosa park 03 nż
-1529	1	181231	18:42:00	18:42:00		Panoramiczna 02 nż
-1529	1	181231	18:43:00	18:43:00		Plenerowa przedszkole 02 nż
-1529	1	181231	18:44:00	18:44:00		Strzelnicza 02 nż
-1529	1	181231	18:45:00	18:45:00		Wyspiańskiego / Strzelnicza 03 nż
-1529	1	181231	18:47:00	18:47:00		Bł. Karoliny / Strzyżowska 02 nż
-1529	1	181231	18:48:00	18:48:00		Bł. Karoliny / Sanocka 04 nż
-1529	1	181231	18:50:00	18:50:00		Bł. Karoliny przedszkole 06
-1529	1	181231	18:51:00	18:51:00		Bł. Karoliny 09
+1532	1	182933	16:20:00	16:20:00		Łukasiewicza pętla 08
+1532	1	182933	16:21:00	16:21:00		Robotnicza / Goździkowa 01 nż
+1532	1	182933	16:23:00	16:23:00		Strażacka / Sikorskiego 07 nż
+1532	1	182933	16:24:00	16:24:00		Strażacka / Sympatyczna 05 nż
+1532	1	182933	16:25:00	16:25:00		Strażacka / Urocza 03 nż
+1532	1	182933	16:26:00	16:26:00		Strażacka / Graniczna 01 nż
+1532	1	182933	16:27:00	16:27:00		Kwiatkowskiego / Strażacka 03 nż
+1532	1	182933	16:28:00	16:28:00		Kwiatkowskiego Dom Studenta 01 nż
+1532	1	182933	16:30:00	16:30:00		Podwisłocze / Powst. Warszawy 02
+1532	1	182933	16:31:00	16:31:00		Podwisłocze klinika 04
+1532	1	182933	16:33:00	16:33:00		Kopisto Most Zamkowy 04
+1532	1	182933	16:34:00	16:34:00		Szopena Filharmonia 01 nż
+1532	1	182933	16:36:00	16:36:00		Targowa 02
+1532	1	182933	16:38:00	16:38:00		Pl. Wolności 04
+1532	1	182933	16:41:00	16:41:00		Cieplińskiego 02
+1532	1	182933	16:42:00	16:42:00		Mochnackiego 02 nż
+1532	1	182933	16:43:00	16:43:00		Langiewicza park 02 nż
+1532	1	182933	16:44:00	16:44:00		Chmaja / Langiewicza 02 nż
+1532	1	182933	16:46:00	16:46:00		Boya Żeleńskiego 01 nż
+1532	1	182933	16:47:00	16:47:00		Wita Stwosza / Langiewicza 02
+1532	1	182933	16:48:00	16:48:00		Wita Stwosza kościół 04
+1532	1	182933	16:49:00	16:49:00		Wita Stwosza / Wyspiańskiego 06 nż
+1532	1	182933	16:50:00	16:50:00		Wyspiańskiego stadion 02 nż
+1532	1	182933	16:52:00	16:52:00		Witosa park 03 nż
+1532	1	182933	16:54:00	16:54:00		Panoramiczna 02 nż
+1532	1	182933	16:55:00	16:55:00		Plenerowa przedszkole 02 nż
+1532	1	182933	16:56:00	16:56:00		Wywrockiego / Strzelnicza 02 nż
+1532	1	182933	16:57:00	16:57:00		Wywrockiego / Jagodowa 04 nż
+1532	1	182933	16:58:00	16:58:00		Wywrockiego / Potokowa 06 nż
+1532	1	182933	16:59:00	16:59:00		Wywrockiego rondo 08 nż
+1532	1	182933	17:00:00	17:00:00		Wywrockiego / Potokowa 03 nż
+1532	1	182933	17:01:00	17:01:00		Wywrockiego / Jagodowa 01 nż
+1532	1	182933	17:02:00	17:02:00		Strzelnicza 02 nż
+1532	1	182933	17:03:00	17:03:00		Wyspiańskiego / Strzelnicza 03 nż
+1532	1	182933	17:04:00	17:04:00		Bł. Karoliny / Strzyżowska 02 nż
+1532	1	182933	17:05:00	17:05:00		Bł. Karoliny / Sanocka 04 nż
+1532	1	182933	17:06:00	17:06:00		Bł. Karoliny przedszkole 06
+1532	1	182933	17:07:00	17:07:00		Bł. Karoliny 09
 
-1517	1	181041	19:08:00	19:08:00		Bł. Karoliny 09
-1517	1	181041	19:09:00	19:09:00		Bł. Karoliny przedszkole 07
-1517	1	181041	19:10:00	19:10:00		Bł. Karoliny / Nowosądecka 05 nż
-1517	1	181041	19:11:00	19:11:00		Bł. Karoliny / Sanocka 03 nż
-1517	1	181041	19:12:00	19:12:00		Bł. Karoliny / Strzyżowska 01 nż
-1517	1	181041	19:13:00	19:13:00		Wiktora park 01 nż
-1517	1	181041	19:15:00	19:15:00		Wyspiańskiego stadion 01 nż
-1517	1	181041	19:16:00	19:16:00		Wita Stwosza / Wyspiańskiego 05 nż
-1517	1	181041	19:17:00	19:17:00		Wita Stwosza kościół 03
-1517	1	181041	19:18:00	19:18:00		Wita Stwosza pętla 01
-1517	1	181041	19:20:00	19:20:00		Boya Żeleńskiego 02 nż
-1517	1	181041	19:21:00	19:21:00		Wincentego Pola Politechnika 02 nż
-1517	1	181041	19:22:00	19:22:00		Dąbrowskiego kościół 06 nż
-1517	1	181041	19:23:00	19:23:00		Dąbrowskiego / Boh. Westerplatte 08
-1517	1	181041	19:25:00	19:25:00		Powst. Warszawy / Dąbrowskiego 02
-1517	1	181041	19:26:00	19:26:00		Powst. Warszawy Politechnika 04
-1517	1	181041	19:28:00	19:28:00		Powst. Warszawy stadion 06
-1517	1	181041	19:29:00	19:29:00		Kwiatkowskiego / Powst. Warszawy 02
-1517	1	181041	19:30:00	19:30:00		Kwiatkowskiego Dom Studenta 04 nż
-1517	1	181041	19:31:00	19:31:00		Kwiatkowskiego / Strażacka 06 nż
-1517	1	181041	19:32:00	19:32:00		Strażacka / Graniczna 02 nż
-1517	1	181041	19:33:00	19:33:00		Strażacka / Urocza 04 nż
-1517	1	181041	19:34:00	19:34:00		Strażacka / Sympatyczna 06 nż
-1517	1	181041	19:35:00	19:35:00		Strażacka / Sikorskiego 08 nż
-1517	1	181041	19:36:00	19:36:00		Robotnicza / Sikorskiego 02 nż
-1517	1	181041	19:37:00	19:37:00		Robotnicza cmentarz 04 nż
-1517	1	181041	19:38:00	19:38:00		Łukasiewicza pętla 08
+1531	1	180448	17:16:00	17:16:00		Bł. Karoliny 09
+1531	1	180448	17:17:00	17:17:00		Bł. Karoliny przedszkole 07
+1531	1	180448	17:18:00	17:18:00		Bł. Karoliny / Nowosądecka 05 nż
+1531	1	180448	17:19:00	17:19:00		Bł. Karoliny / Sanocka 03 nż
+1531	1	180448	17:20:00	17:20:00		Bł. Karoliny / Strzyżowska 01 nż
+1531	1	180448	17:21:00	17:21:00		Wyspiańskiego / German 04 nż
+1531	1	180448	17:22:00	17:22:00		Strzelnicza 01 nż
+1531	1	180448	17:23:00	17:23:00		Wywrockiego / Strzelnicza 02 nż
+1531	1	180448	17:24:00	17:24:00		Wywrockiego / Jagodowa 04 nż
+1531	1	180448	17:25:00	17:25:00		Wywrockiego / Potokowa 06 nż
+1531	1	180448	17:26:00	17:26:00		Wywrockiego rondo 08 nż
+1531	1	180448	17:27:00	17:27:00		Wywrockiego / Potokowa 03 nż
+1531	1	180448	17:28:00	17:28:00		Wywrockiego / Jagodowa 01 nż
+1531	1	180448	17:29:00	17:29:00		Plenerowa przedszkole 01 nż
+1531	1	180448	17:30:00	17:30:00		Panoramiczna 01 nż
+1531	1	180448	17:32:00	17:32:00		Witosa park 04 nż
+1531	1	180448	17:33:00	17:33:00		Wyspiańskiego stadion 01 nż
+1531	1	180448	17:34:00	17:34:00		Wita Stwosza / Wyspiańskiego 05 nż
+1531	1	180448	17:35:00	17:35:00		Wita Stwosza kościół 03
+1531	1	180448	17:36:00	17:36:00		Wita Stwosza pętla 01
+1531	1	180448	17:38:00	17:38:00		Boya Żeleńskiego 02 nż
+1531	1	180448	17:39:00	17:39:00		Chmaja bloki 03 nż
+1531	1	180448	17:40:00	17:40:00		Chmaja / Langiewicza 01 nż
+1531	1	180448	17:41:00	17:41:00		Langiewicza park 03 nż
+1531	1	180448	17:42:00	17:42:00		Langiewicza / Hoffmanowej 01 nż
+1531	1	180448	17:43:00	17:43:00		Mochnackiego 01 nż
+1531	1	180448	17:44:00	17:44:00		Cieplińskiego 01
+1531	1	180448	17:45:00	17:45:00		Piłsudskiego U. Wojewódzki 03
+1531	1	180448	17:46:00	17:46:00		Pl. Wolności 01
+1531	1	180448	17:47:00	17:47:00		Targowa 01
+1531	1	180448	17:49:00	17:49:00		Szopena Filharmonia 02 nż
+1531	1	180448	17:51:00	17:51:00		Podwisłocze U. Skarbowy 03
+1531	1	180448	17:52:00	17:52:00		Podwisłocze domki 01
+1531	1	180448	17:55:00	17:55:00		Kwiatkowskiego / Powst. Warszawy 02
+1531	1	180448	17:56:00	17:56:00		Kwiatkowskiego Dom Studenta 04 nż
+1531	1	180448	17:57:00	17:57:00		Kwiatkowskiego / Strażacka 06 nż
+1531	1	180448	17:58:00	17:58:00		Strażacka / Graniczna 02 nż
+1531	1	180448	17:59:00	17:59:00		Strażacka / Urocza 04 nż
+1531	1	180448	18:00:00	18:00:00		Strażacka / Sympatyczna 06 nż
+1531	1	180448	18:01:00	18:01:00		Strażacka / Sikorskiego 08 nż
+1531	1	180448	18:02:00	18:02:00		Robotnicza / Sikorskiego 02 nż
+1531	1	180448	18:03:00	18:03:00		Robotnicza cmentarz 04 nż
+1531	1	180448	18:04:00	18:04:00		Łukasiewicza pętla 08
 
-1504	1	182606	19:48:00	19:48:00		Łukasiewicza pętla 08
-1504	1	182606	19:49:00	19:49:00		Robotnicza / Goździkowa 01 nż
-1504	1	182606	19:51:00	19:51:00		Strażacka / Sikorskiego 07 nż
-1504	1	182606	19:52:00	19:52:00		Strażacka / Sympatyczna 05 nż
-1504	1	182606	19:53:00	19:53:00		Strażacka / Urocza 03 nż
-1504	1	182606	19:54:00	19:54:00		Strażacka / Graniczna 01 nż
-1504	1	182606	19:55:00	19:55:00		Kwiatkowskiego / Strażacka 03 nż
-1504	1	182606	19:57:00	19:57:00		Kwiatkowskiego Dom Studenta 01 nż
-1504	1	182606	19:59:00	19:59:00		Powst. Warszawy / Podwisłocze 07 nż
-1504	1	182606	20:01:00	20:01:00		Powst. Warszawy / Hetmańska 03
-1504	1	182606	20:02:00	20:02:00		Powst. Warszawy Politechnika 01
-1504	1	182606	20:04:00	20:04:00		Dąbrowskiego Instytut Muzyki 07
-1504	1	182606	20:05:00	20:05:00		Dąbrowskiego kościół 05 nż
-1504	1	182606	20:06:00	20:06:00		Wincentego Pola Politechnika 01 nż
-1504	1	182606	20:07:00	20:07:00		Boya Żeleńskiego 01 nż
-1504	1	182606	20:08:00	20:08:00		Wita Stwosza / Langiewicza 02
-1504	1	182606	20:09:00	20:09:00		Wita Stwosza kościół 04
-1504	1	182606	20:10:00	20:10:00		Wita Stwosza / Wyspiańskiego 06 nż
-1504	1	182606	20:11:00	20:11:00		Wyspiańskiego stadion 02 nż
-1504	1	182606	20:13:00	20:13:00		Wiktora / Witosa 02 nż
-1504	1	182606	20:14:00	20:14:00		Wiktora / Stojałowskiego 04 nż
-1504	1	182606	20:15:00	20:15:00		Bł. Karoliny / Strzyżowska 02 nż
-1504	1	182606	20:16:00	20:16:00		Bł. Karoliny / Sanocka 04 nż
-1504	1	182606	20:17:00	20:17:00		Bł. Karoliny przedszkole 06
-1504	1	182606	20:18:00	20:18:00		Bł. Karoliny 09
+1532	1	180424	18:20:00	18:20:00		Łukasiewicza pętla 08
+1532	1	180424	18:21:00	18:21:00		Robotnicza / Goździkowa 01 nż
+1532	1	180424	18:23:00	18:23:00		Strażacka / Sikorskiego 07 nż
+1532	1	180424	18:24:00	18:24:00		Strażacka / Sympatyczna 05 nż
+1532	1	180424	18:25:00	18:25:00		Strażacka / Urocza 03 nż
+1532	1	180424	18:26:00	18:26:00		Strażacka / Graniczna 01 nż
+1532	1	180424	18:27:00	18:27:00		Kwiatkowskiego / Strażacka 03 nż
+1532	1	180424	18:28:00	18:28:00		Kwiatkowskiego Dom Studenta 01 nż
+1532	1	180424	18:30:00	18:30:00		Podwisłocze / Powst. Warszawy 02
+1532	1	180424	18:31:00	18:31:00		Podwisłocze klinika 04
+1532	1	180424	18:33:00	18:33:00		Kopisto Most Zamkowy 04
+1532	1	180424	18:34:00	18:34:00		Szopena Filharmonia 01 nż
+1532	1	180424	18:36:00	18:36:00		Targowa 02
+1532	1	180424	18:38:00	18:38:00		Pl. Wolności 04
+1532	1	180424	18:41:00	18:41:00		Cieplińskiego 02
+1532	1	180424	18:42:00	18:42:00		Mochnackiego 02 nż
+1532	1	180424	18:43:00	18:43:00		Langiewicza park 02 nż
+1532	1	180424	18:44:00	18:44:00		Chmaja / Langiewicza 02 nż
+1532	1	180424	18:46:00	18:46:00		Boya Żeleńskiego 01 nż
+1532	1	180424	18:47:00	18:47:00		Wita Stwosza / Langiewicza 02
+1532	1	180424	18:48:00	18:48:00		Wita Stwosza kościół 04
+1532	1	180424	18:49:00	18:49:00		Wita Stwosza / Wyspiańskiego 06 nż
+1532	1	180424	18:50:00	18:50:00		Wyspiańskiego stadion 02 nż
+1532	1	180424	18:52:00	18:52:00		Witosa park 03 nż
+1532	1	180424	18:54:00	18:54:00		Panoramiczna 02 nż
+1532	1	180424	18:55:00	18:55:00		Plenerowa przedszkole 02 nż
+1532	1	180424	18:56:00	18:56:00		Wywrockiego / Strzelnicza 02 nż
+1532	1	180424	18:57:00	18:57:00		Wywrockiego / Jagodowa 04 nż
+1532	1	180424	18:58:00	18:58:00		Wywrockiego / Potokowa 06 nż
+1532	1	180424	18:59:00	18:59:00		Wywrockiego rondo 08 nż
+1532	1	180424	19:00:00	19:00:00		Wywrockiego / Potokowa 03 nż
+1532	1	180424	19:01:00	19:01:00		Wywrockiego / Jagodowa 01 nż
+1532	1	180424	19:02:00	19:02:00		Strzelnicza 02 nż
+1532	1	180424	19:03:00	19:03:00		Wyspiańskiego / Strzelnicza 03 nż
+1532	1	180424	19:04:00	19:04:00		Bł. Karoliny / Strzyżowska 02 nż
+1532	1	180424	19:05:00	19:05:00		Bł. Karoliny / Sanocka 04 nż
+1532	1	180424	19:06:00	19:06:00		Bł. Karoliny przedszkole 06
+1532	1	180424	19:07:00	19:07:00		Bł. Karoliny 09
 
-1514	1	181594	20:30:00	20:30:00		Bł. Karoliny 09
-1514	1	181594	20:31:00	20:31:00		Bł. Karoliny przedszkole 07
-1514	1	181594	20:32:00	20:32:00		Bł. Karoliny / Nowosądecka 05 nż
-1514	1	181594	20:33:00	20:33:00		Bł. Karoliny / Sanocka 03 nż
-1514	1	181594	20:34:00	20:34:00		Bł. Karoliny / Strzyżowska 01 nż
-1514	1	181594	20:35:00	20:35:00		Wyspiańskiego / German 04 nż
-1514	1	181594	20:36:00	20:36:00		Strzelnicza 01 nż
-1514	1	181594	20:37:00	20:37:00		Plenerowa przedszkole 01 nż
-1514	1	181594	20:38:00	20:38:00		Panoramiczna 01 nż
-1514	1	181594	20:40:00	20:40:00		Witosa park 04 nż
-1514	1	181594	20:41:00	20:41:00		Wyspiańskiego stadion 01 nż
-1514	1	181594	20:42:00	20:42:00		Wita Stwosza / Wyspiańskiego 05 nż
-1514	1	181594	20:43:00	20:43:00		Wita Stwosza kościół 03
-1514	1	181594	20:44:00	20:44:00		Wita Stwosza pętla 01
-1514	1	181594	20:46:00	20:46:00		Boya Żeleńskiego 02 nż
-1514	1	181594	20:48:00	20:48:00		Chmaja bloki 03 nż
-1514	1	181594	20:49:00	20:49:00		Chmaja / Langiewicza 01 nż
-1514	1	181594	20:50:00	20:50:00		Langiewicza park 03 nż
-1514	1	181594	20:51:00	20:51:00		Langiewicza / Hoffmanowej 01 nż
-1514	1	181594	20:52:00	20:52:00		Mochnackiego 01 nż
-1514	1	181594	20:54:00	20:54:00		Cieplińskiego 01
-1514	1	181594	20:55:00	20:55:00		Piłsudskiego U. Wojewódzki 03
-1514	1	181594	20:56:00	20:56:00		Pl. Wolności 01
-1514	1	181594	20:57:00	20:57:00		Targowa 01
-1514	1	181594	20:59:00	20:59:00		Szopena Filharmonia 02 nż
-1514	1	181594	21:02:00	21:02:00		Podwisłocze U. Skarbowy 03
-1514	1	181594	21:03:00	21:03:00		Podwisłocze domki 01
-1514	1	181594	21:05:00	21:05:00		Kwiatkowskiego / Powst. Warszawy 02
-1514	1	181594	21:06:00	21:06:00		Kwiatkowskiego Dom Studenta 04 nż
-1514	1	181594	21:07:00	21:07:00		Kwiatkowskiego / Strażacka 06 nż
-1514	1	181594	21:08:00	21:08:00		Strażacka / Graniczna 02 nż
-1514	1	181594	21:09:00	21:09:00		Strażacka / Urocza 04 nż
-1514	1	181594	21:10:00	21:10:00		Strażacka / Sympatyczna 06 nż
-1514	1	181594	21:11:00	21:11:00		Strażacka / Sikorskiego 08 nż
-1514	1	181594	21:12:00	21:12:00		Robotnicza / Sikorskiego 02 nż
-1514	1	181594	21:13:00	21:13:00		Robotnicza cmentarz 04 nż
-1514	1	181594	21:14:00	21:14:00		Łukasiewicza pętla 08
+1531	1	181017	19:16:00	19:16:00		Bł. Karoliny 09
+1531	1	181017	19:17:00	19:17:00		Bł. Karoliny przedszkole 07
+1531	1	181017	19:18:00	19:18:00		Bł. Karoliny / Nowosądecka 05 nż
+1531	1	181017	19:19:00	19:19:00		Bł. Karoliny / Sanocka 03 nż
+1531	1	181017	19:20:00	19:20:00		Bł. Karoliny / Strzyżowska 01 nż
+1531	1	181017	19:21:00	19:21:00		Wyspiańskiego / German 04 nż
+1531	1	181017	19:22:00	19:22:00		Strzelnicza 01 nż
+1531	1	181017	19:23:00	19:23:00		Wywrockiego / Strzelnicza 02 nż
+1531	1	181017	19:24:00	19:24:00		Wywrockiego / Jagodowa 04 nż
+1531	1	181017	19:25:00	19:25:00		Wywrockiego / Potokowa 06 nż
+1531	1	181017	19:26:00	19:26:00		Wywrockiego rondo 08 nż
+1531	1	181017	19:27:00	19:27:00		Wywrockiego / Potokowa 03 nż
+1531	1	181017	19:28:00	19:28:00		Wywrockiego / Jagodowa 01 nż
+1531	1	181017	19:29:00	19:29:00		Plenerowa przedszkole 01 nż
+1531	1	181017	19:30:00	19:30:00		Panoramiczna 01 nż
+1531	1	181017	19:32:00	19:32:00		Witosa park 04 nż
+1531	1	181017	19:33:00	19:33:00		Wyspiańskiego stadion 01 nż
+1531	1	181017	19:34:00	19:34:00		Wita Stwosza / Wyspiańskiego 05 nż
+1531	1	181017	19:35:00	19:35:00		Wita Stwosza kościół 03
+1531	1	181017	19:36:00	19:36:00		Wita Stwosza pętla 01
+1531	1	181017	19:38:00	19:38:00		Boya Żeleńskiego 02 nż
+1531	1	181017	19:39:00	19:39:00		Chmaja bloki 03 nż
+1531	1	181017	19:40:00	19:40:00		Chmaja / Langiewicza 01 nż
+1531	1	181017	19:41:00	19:41:00		Langiewicza park 03 nż
+1531	1	181017	19:42:00	19:42:00		Langiewicza / Hoffmanowej 01 nż
+1531	1	181017	19:43:00	19:43:00		Mochnackiego 01 nż
+1531	1	181017	19:44:00	19:44:00		Cieplińskiego 01
+1531	1	181017	19:45:00	19:45:00		Piłsudskiego U. Wojewódzki 03
+1531	1	181017	19:46:00	19:46:00		Pl. Wolności 01
+1531	1	181017	19:47:00	19:47:00		Targowa 01
+1531	1	181017	19:49:00	19:49:00		Szopena Filharmonia 02 nż
+1531	1	181017	19:51:00	19:51:00		Podwisłocze U. Skarbowy 03
+1531	1	181017	19:52:00	19:52:00		Podwisłocze domki 01
+1531	1	181017	19:54:00	19:54:00		Kwiatkowskiego / Powst. Warszawy 02
+1531	1	181017	19:55:00	19:55:00		Kwiatkowskiego Dom Studenta 04 nż
+1531	1	181017	19:56:00	19:56:00		Kwiatkowskiego / Strażacka 06 nż
+1531	1	181017	19:57:00	19:57:00		Strażacka / Graniczna 02 nż
+1531	1	181017	19:58:00	19:58:00		Strażacka / Urocza 04 nż
+1531	1	181017	19:59:00	19:59:00		Strażacka / Sympatyczna 06 nż
+1531	1	181017	20:00:00	20:00:00		Strażacka / Sikorskiego 08 nż
+1531	1	181017	20:01:00	20:01:00		Robotnicza / Sikorskiego 02 nż
+1531	1	181017	20:02:00	20:02:00		Robotnicza cmentarz 04 nż
+1531	1	181017	20:03:00	20:03:00		Łukasiewicza pętla 08
 
-1532	1	183188	21:51:00	21:51:00		Łukasiewicza pętla 08
-1532	1	183188	21:52:00	21:52:00		Robotnicza / Goździkowa 01 nż
-1532	1	183188	21:53:00	21:53:00		Strażacka / Sikorskiego 07 nż
-1532	1	183188	21:54:00	21:54:00		Strażacka / Sympatyczna 05 nż
-1532	1	183188	21:55:00	21:55:00		Strażacka / Urocza 03 nż
-1532	1	183188	21:56:00	21:56:00		Strażacka / Graniczna 01 nż
-1532	1	183188	21:57:00	21:57:00		Kwiatkowskiego / Strażacka 03 nż
-1532	1	183188	21:58:00	21:58:00		Kwiatkowskiego Dom Studenta 01 nż
-1532	1	183188	22:00:00	22:00:00		Podwisłocze / Powst. Warszawy 02
-1532	1	183188	22:01:00	22:01:00		Podwisłocze klinika 04
-1532	1	183188	22:03:00	22:03:00		Kopisto Most Zamkowy 04
-1532	1	183188	22:04:00	22:04:00		Szopena Filharmonia 01 nż
-1532	1	183188	22:05:00	22:05:00		Targowa 02
-1532	1	183188	22:07:00	22:07:00		Pl. Wolności 04
-1532	1	183188	22:10:00	22:10:00		Cieplińskiego 02
-1532	1	183188	22:11:00	22:11:00		Mochnackiego 02 nż
-1532	1	183188	22:13:00	22:13:00		Langiewicza park 02 nż
-1532	1	183188	22:14:00	22:14:00		Chmaja / Langiewicza 02 nż
-1532	1	183188	22:16:00	22:16:00		Boya Żeleńskiego 01 nż
-1532	1	183188	22:17:00	22:17:00		Wita Stwosza / Langiewicza 02
-1532	1	183188	22:18:00	22:18:00		Wita Stwosza kościół 04
-1532	1	183188	22:19:00	22:19:00		Wita Stwosza / Wyspiańskiego 06 nż
-1532	1	183188	22:20:00	22:20:00		Wyspiańskiego stadion 02 nż
-1532	1	183188	22:22:00	22:22:00		Witosa park 03 nż
-1532	1	183188	22:24:00	22:24:00		Panoramiczna 02 nż
-1532	1	183188	22:25:00	22:25:00		Plenerowa przedszkole 02 nż
-1532	1	183188	22:26:00	22:26:00		Wywrockiego / Strzelnicza 02 nż
-1532	1	183188	22:27:00	22:27:00		Wywrockiego / Jagodowa 04 nż
-1532	1	183188	22:28:00	22:28:00		Wywrockiego / Potokowa 06 nż
-1532	1	183188	22:29:00	22:29:00		Wywrockiego rondo 08 nż
-1532	1	183188	22:30:00	22:30:00		Wywrockiego / Potokowa 03 nż
-1532	1	183188	22:31:00	22:31:00		Wywrockiego / Jagodowa 01 nż
-1532	1	183188	22:32:00	22:32:00		Strzelnicza 02 nż
-1532	1	183188	22:33:00	22:33:00		Wyspiańskiego / Strzelnicza 03 nż
-1532	1	183188	22:34:00	22:34:00		Bł. Karoliny / Strzyżowska 02 nż
-1532	1	183188	22:35:00	22:35:00		Bł. Karoliny / Sanocka 04 nż
-1532	1	183188	22:36:00	22:36:00		Bł. Karoliny przedszkole 06
-1532	1	183188	22:37:00	22:37:00		Bł. Karoliny 09
-
-1544	1	183715	22:45:00	22:45:00		Bł. Karoliny 09
-1544	1	183715	22:46:00	22:46:00		Bł. Karoliny przedszkole 07
-1544	1	183715	22:47:00	22:47:00		Bł. Karoliny / Nowosądecka 05 nż
-1544	1	183715	22:48:00	22:48:00		Bł. Karoliny / Sanocka 03 nż
-1544	1	183715	22:49:00	22:49:00		Bł. Karoliny / Strzyżowska 01 nż
-1544	1	183715	22:50:00	22:50:00		Wyspiańskiego / German 04 nż
-1544	1	183715	22:51:00	22:51:00		Strzelnicza 01 nż
-1544	1	183715	22:52:00	22:52:00		Plenerowa przedszkole 01 nż
-1544	1	183715	22:53:00	22:53:00		Panoramiczna 01 nż
-1544	1	183715	22:55:00	22:55:00		Witosa park 04 nż
-1544	1	183715	22:56:00	22:56:00		Witosa / Wyspiańskiego 06 nż
-1544	1	183715	22:57:00	22:57:00		Witosa Jedn. Wojskowa 08 nż
-1544	1	183715	22:58:00	22:58:00		Krakowska Jedn. Wojskowa 01
-1544	1	183715	22:59:00	22:59:00		Piłsudskiego U. Marszałkowski 05
+1532	1	183509	20:21:00	20:21:00		Łukasiewicza pętla 08
+1532	1	183509	20:22:00	20:22:00		Robotnicza / Goździkowa 01 nż
+1532	1	183509	20:23:00	20:23:00		Strażacka / Sikorskiego 07 nż
+1532	1	183509	20:24:00	20:24:00		Strażacka / Sympatyczna 05 nż
+1532	1	183509	20:25:00	20:25:00		Strażacka / Urocza 03 nż
+1532	1	183509	20:26:00	20:26:00		Strażacka / Graniczna 01 nż
+1532	1	183509	20:27:00	20:27:00		Kwiatkowskiego / Strażacka 03 nż
+1532	1	183509	20:28:00	20:28:00		Kwiatkowskiego Dom Studenta 01 nż
+1532	1	183509	20:30:00	20:30:00		Podwisłocze / Powst. Warszawy 02
+1532	1	183509	20:31:00	20:31:00		Podwisłocze klinika 04
+1532	1	183509	20:32:00	20:32:00		Kopisto Most Zamkowy 04
+1532	1	183509	20:33:00	20:33:00		Szopena Filharmonia 01 nż
+1532	1	183509	20:34:00	20:34:00		Targowa 02
+1532	1	183509	20:36:00	20:36:00		Pl. Wolności 04
+1532	1	183509	20:39:00	20:39:00		Cieplińskiego 02
+1532	1	183509	20:40:00	20:40:00		Mochnackiego 02 nż
+1532	1	183509	20:41:00	20:41:00		Langiewicza park 02 nż
+1532	1	183509	20:42:00	20:42:00		Chmaja / Langiewicza 02 nż
+1532	1	183509	20:44:00	20:44:00		Boya Żeleńskiego 01 nż
+1532	1	183509	20:45:00	20:45:00		Wita Stwosza / Langiewicza 02
+1532	1	183509	20:46:00	20:46:00		Wita Stwosza kościół 04
+1532	1	183509	20:47:00	20:47:00		Wita Stwosza / Wyspiańskiego 06 nż
+1532	1	183509	20:48:00	20:48:00		Wyspiańskiego stadion 02 nż
+1532	1	183509	20:50:00	20:50:00		Witosa park 03 nż
+1532	1	183509	20:52:00	20:52:00		Panoramiczna 02 nż
+1532	1	183509	20:53:00	20:53:00		Plenerowa przedszkole 02 nż
+1532	1	183509	20:54:00	20:54:00		Wywrockiego / Strzelnicza 02 nż
+1532	1	183509	20:55:00	20:55:00		Wywrockiego / Jagodowa 04 nż
+1532	1	183509	20:56:00	20:56:00		Wywrockiego / Potokowa 06 nż
+1532	1	183509	20:57:00	20:57:00		Wywrockiego rondo 08 nż
+1532	1	183509	20:58:00	20:58:00		Wywrockiego / Potokowa 03 nż
+1532	1	183509	20:59:00	20:59:00		Wywrockiego / Jagodowa 01 nż
+1532	1	183509	21:00:00	21:00:00		Strzelnicza 02 nż
+1532	1	183509	21:01:00	21:01:00		Wyspiańskiego / Strzelnicza 03 nż
+1532	1	183509	21:02:00	21:02:00		Bł. Karoliny / Strzyżowska 02 nż
+1532	1	183509	21:03:00	21:03:00		Bł. Karoliny / Sanocka 04 nż
+1532	1	183509	21:04:00	21:04:00		Bł. Karoliny przedszkole 06
+1532	1	183509	21:05:00	21:05:00		Bł. Karoliny 09

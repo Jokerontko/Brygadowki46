@@ -1,560 +1,524 @@
 route_id	service_id	trip_id	arrival_time	departure_time	stop_headsign	stop_name
 -------------------------------------------------------------------------------
-1450	1	188564	04:40:00	04:40:00		Piłsudskiego U. Marszałkowski 08
-1450	1	188564	04:42:00	04:42:00		Krakowska Jedn. Wojskowa 02
-1450	1	188564	04:43:00	04:43:00		Krakowska szpital 04
-1450	1	188564	04:44:00	04:44:00		Krakowska galeria 06
-1450	1	188564	04:46:00	04:46:00		Ofiar Katynia galeria 06
-1450	1	188564	04:47:00	04:47:00		Kotuli / Ustrzycka 02 nż
-1450	1	188564	04:48:00	04:48:00		Kotuli domki 04 nż
-1450	1	188564	04:49:00	04:49:00		Bł. Karoliny / Strzyżowska 02 nż
-1450	1	188564	04:50:00	04:50:00		Bł. Karoliny / Sanocka 04 nż
-1450	1	188564	04:51:00	04:51:00		Bł. Karoliny przedszkole 06
-1450	1	188564	04:52:00	04:52:00		Odrzykońska / Bł. Karoliny 02 nż
-1450	1	188564	04:53:00	04:53:00		Odrzykońska / Baligrodzka 04 nż
-1450	1	188564	04:54:00	04:54:00		Iwonicka / Korczyńska 02 nż
-1450	1	188564	04:55:00	04:55:00		Baligrodzka 01
+1449	1	193780	06:10:00	06:10:00		Baligrodzka 01
+1449	1	193780	06:11:00	06:11:00		Iwonicka / Korczyńska 01 nż
+1449	1	193780	06:12:00	06:12:00		Odrzykońska / Iwonicka 01 nż
+1449	1	193780	06:14:00	06:14:00		Bł. Karoliny 09
+1449	1	193780	06:15:00	06:15:00		Bł. Karoliny przedszkole 07
+1449	1	193780	06:16:00	06:16:00		Bł. Karoliny / Nowosądecka 05 nż
+1449	1	193780	06:17:00	06:17:00		Bł. Karoliny / Sanocka 03 nż
+1449	1	193780	06:18:00	06:18:00		Bł. Karoliny / Strzyżowska 01 nż
+1449	1	193780	06:19:00	06:19:00		Kotuli / Solarza 03 nż
+1449	1	193780	06:20:00	06:20:00		Kotuli / Zbyszewskiego 01 nż
+1449	1	193780	06:23:00	06:23:00		Krakowska galeria 05
+1449	1	193780	06:24:00	06:24:00		Krakowska szpital 03
+1449	1	193780	06:25:00	06:25:00		Krakowska Jedn. Wojskowa 01
+1449	1	193780	06:27:00	06:27:00		Piłsudskiego U. Wojewódzki 03
+1449	1	193780	06:28:00	06:28:00		Pl. Wolności 01
+1449	1	193780	06:30:00	06:30:00		Rejtana / Lwowska 01
+1449	1	193780	06:31:00	06:31:00		Rejtana / Kustronia 03 nż
+1449	1	193780	06:32:00	06:32:00		Rejtana Uniwersytet 05
+1449	1	193780	06:34:00	06:34:00		Niepodległości / Rejtana 02
+1449	1	193780	06:35:00	06:35:00		Niepodległości Dom Dziecka 04 nż
+1449	1	193780	06:36:00	06:36:00		Niepodległości działki 06 nż
+1449	1	193780	06:37:00	06:37:00		Armii Krajowej szpital 10 nż
+1449	1	193780	06:38:00	06:38:00		Lwowska szpital 06
+1449	1	193780	06:39:00	06:39:00		Cienista / Lwowska 02 nż
+1449	1	193780	06:40:00	06:40:00		Cienista cmentarz 04
 
-1631	1	188236	05:00:00	05:00:00		Baligrodzka 01
-1631	1	188236	05:01:00	05:01:00		Iwonicka / Korczyńska 01 nż
-1631	1	188236	05:02:00	05:02:00		Odrzykońska / Iwonicka 01 nż
-1631	1	188236	05:04:00	05:04:00		Bł. Karoliny 09
-1631	1	188236	05:05:00	05:05:00		Bł. Karoliny przedszkole 07
-1631	1	188236	05:06:00	05:06:00		Bł. Karoliny / Nowosądecka 05 nż
-1631	1	188236	05:07:00	05:07:00		Bł. Karoliny / Sanocka 03 nż
-1631	1	188236	05:08:00	05:08:00		Bł. Karoliny / Strzyżowska 01 nż
-1631	1	188236	05:09:00	05:09:00		Kotuli / Solarza 03 nż
-1631	1	188236	05:10:00	05:10:00		Kotuli / Zbyszewskiego 01 nż
-1631	1	188236	05:13:00	05:13:00		Krakowska galeria 05
-1631	1	188236	05:14:00	05:14:00		Krakowska szpital 03
-1631	1	188236	05:15:00	05:15:00		Krakowska Jedn. Wojskowa 01
-1631	1	188236	05:17:00	05:17:00		Piłsudskiego U. Marszałkowski 05
-1631	1	188236	05:18:00	05:18:00		Cieplińskiego 02
-1631	1	188236	05:19:00	05:19:00		Lisa-Kuli 01
-1631	1	188236	05:21:00	05:21:00		Kilara 02 nż
-1631	1	188236	05:23:00	05:23:00		Kopisto U. Skarbowy 03
-1631	1	188236	05:24:00	05:24:00		Kopisto Uniwersytet 01
-1631	1	188236	05:25:00	05:25:00		Rejtana / Kopisto 07
-1631	1	188236	05:26:00	05:26:00		Rejtana / Popiełuszki 09
-1631	1	188236	05:28:00	05:28:00		Sikorskiego / Powst. Warszawy 02 nż
-1631	1	188236	05:29:00	05:29:00		Sikorskiego Katedra 04 nż
-1631	1	188236	05:30:00	05:30:00		Sikorskiego / Łukasiewicza 06 nż
-1631	1	188236	05:31:00	05:31:00		Sikorskiego domki 08 nż
-1631	1	188236	05:32:00	05:32:00		Strażacka / Sikorskiego 07 nż
-1631	1	188236	05:33:00	05:33:00		Strażacka / Sympatyczna 05 nż
-1631	1	188236	05:34:00	05:34:00		Miła / Strażacka 02 nż
-1631	1	188236	05:35:00	05:35:00		Miła bloki 04 nż
-1631	1	188236	05:36:00	05:36:00		Miła szkoła 06 nż
-1631	1	188236	05:37:00	05:37:00		Kard. K. Wojtyły kościół 05 nż
-1631	1	188236	05:39:00	05:39:00		Kard. K. Wojtyły pętla 03 nż
+1447	1	193640	07:03:00	07:03:00		Cienista cmentarz 01
+1447	1	193640	07:04:00	07:04:00		Lwowska / Cienista 07 nż
+1447	1	193640	07:06:00	07:06:00		Lwowska szpital 05
+1447	1	193640	07:08:00	07:08:00		Armii Krajowej kościół 09 nż
+1447	1	193640	07:09:00	07:09:00		Niepodległości / Armii Krajowej 05
+1447	1	193640	07:10:00	07:10:00		Niepodległości / Mieszka I 03 nż
+1447	1	193640	07:11:00	07:11:00		Niepodległości Dom Dziecka 01 nż
+1447	1	193640	07:12:00	07:12:00		Rejtana Uniwersytet 06
+1447	1	193640	07:13:00	07:13:00		Rejtana cmentarz 04 nż
+1447	1	193640	07:14:00	07:14:00		Rejtana / Kustronia 02
+1447	1	193640	07:16:00	07:16:00		Piłsudskiego ZDZ 02
+1447	1	193640	07:17:00	07:17:00		Pl. Wolności 04
+1447	1	193640	07:20:00	07:20:00		Piłsudskiego U. Marszałkowski 08
+1447	1	193640	07:22:00	07:22:00		Krakowska Jedn. Wojskowa 02
+1447	1	193640	07:23:00	07:23:00		Krakowska szpital 04
+1447	1	193640	07:24:00	07:24:00		Krakowska galeria 06
+1447	1	193640	07:26:00	07:26:00		Ofiar Katynia galeria 06
+1447	1	193640	07:27:00	07:27:00		Kotuli / Ustrzycka 02 nż
+1447	1	193640	07:28:00	07:28:00		Kotuli domki 04 nż
+1447	1	193640	07:29:00	07:29:00		Bł. Karoliny / Strzyżowska 02 nż
+1447	1	193640	07:30:00	07:30:00		Bł. Karoliny / Sanocka 04 nż
+1447	1	193640	07:31:00	07:31:00		Bł. Karoliny przedszkole 06
+1447	1	193640	07:32:00	07:32:00		Odrzykońska / Bł. Karoliny 02 nż
+1447	1	193640	07:33:00	07:33:00		Odrzykońska / Baligrodzka 04 nż
+1447	1	193640	07:34:00	07:34:00		Iwonicka / Korczyńska 02 nż
+1447	1	193640	07:35:00	07:35:00		Baligrodzka 01
 
-1633	1	188316	05:54:00	05:54:00		Kard. K. Wojtyły pętla 03 nż
-1633	1	188316	05:55:00	05:55:00		Kard. K. Wojtyły kościół 06 nż
-1633	1	188316	05:56:00	05:56:00		Miła Dom Kultury 05 nż
-1633	1	188316	05:57:00	05:57:00		Miła bloki 03 nż
-1633	1	188316	05:58:00	05:58:00		Miła / Strażacka 01 nż
-1633	1	188316	05:59:00	05:59:00		Strażacka / Sympatyczna 06 nż
-1633	1	188316	06:00:00	06:00:00		Strażacka / Sikorskiego 08 nż
-1633	1	188316	06:02:00	06:02:00		Sikorskiego / Robotnicza 05 nż
-1633	1	188316	06:03:00	06:03:00		Sikorskiego domki 03 nż
-1633	1	188316	06:05:00	06:05:00		Sikorskiego Katedra 01 nż
-1633	1	188316	06:07:00	06:07:00		Rejtana / Armii Krajowej 12
-1633	1	188316	06:08:00	06:08:00		Rejtana / Paderewskiego 10
-1633	1	188316	06:09:00	06:09:00		Rejtana / Krzyżanowskiego 08
-1633	1	188316	06:11:00	06:11:00		Kopisto Uniwersytet 02
-1633	1	188316	06:13:00	06:13:00		Kopisto Most Zamkowy 04
-1633	1	188316	06:14:00	06:14:00		Kilara 01 nż
-1633	1	188316	06:17:00	06:17:00		Lisa-Kuli 02
-1633	1	188316	06:18:00	06:18:00		Cieplińskiego 01
-1633	1	188316	06:20:00	06:20:00		Piłsudskiego U. Marszałkowski 08
-1633	1	188316	06:22:00	06:22:00		Krakowska Jedn. Wojskowa 02
-1633	1	188316	06:23:00	06:23:00		Krakowska szpital 04
-1633	1	188316	06:24:00	06:24:00		Krakowska galeria 06
-1633	1	188316	06:26:00	06:26:00		Ofiar Katynia galeria 06
-1633	1	188316	06:27:00	06:27:00		Kotuli / Ustrzycka 02 nż
-1633	1	188316	06:28:00	06:28:00		Kotuli domki 04 nż
-1633	1	188316	06:29:00	06:29:00		Bł. Karoliny / Strzyżowska 02 nż
-1633	1	188316	06:30:00	06:30:00		Bł. Karoliny / Sanocka 04 nż
-1633	1	188316	06:31:00	06:31:00		Bł. Karoliny przedszkole 06
-1633	1	188316	06:32:00	06:32:00		Odrzykońska / Bł. Karoliny 02 nż
-1633	1	188316	06:33:00	06:33:00		Odrzykońska / Baligrodzka 04 nż
-1633	1	188316	06:34:00	06:34:00		Iwonicka / Korczyńska 02 nż
-1633	1	188316	06:35:00	06:35:00		Baligrodzka 01
+885	1	193622	07:55:00	07:55:00		Baligrodzka 01
+885	1	193622	07:56:00	07:56:00		Iwonicka / Korczyńska 01 nż
+885	1	193622	07:57:00	07:57:00		Odrzykońska / Iwonicka 01 nż
+885	1	193622	07:59:00	07:59:00		Bł. Karoliny 09
+885	1	193622	08:00:00	08:00:00		Bł. Karoliny przedszkole 07
+885	1	193622	08:01:00	08:01:00		Bł. Karoliny / Nowosądecka 05 nż
+885	1	193622	08:02:00	08:02:00		Sanocka / Krośnieńska 01 nż
+885	1	193622	08:04:00	08:04:00		Ustrzycka pętla 01 nż
+885	1	193622	08:07:00	08:07:00		Ofiar Katynia park 03
+885	1	193622	08:08:00	08:08:00		Ofiar Katynia kładka 01
+885	1	193622	08:09:00	08:09:00		Wyzwolenia / Ofiar Katynia 07
+885	1	193622	08:10:00	08:10:00		Wyzwolenia kościół 05
+885	1	193622	08:11:00	08:11:00		Okulickiego / Wyzwolenia 05 nż
+885	1	193622	08:12:00	08:12:00		Okulickiego / Zwierzyniecka 03 nż
+885	1	193622	08:13:00	08:13:00		Okulickiego C. Handlowe 01
+885	1	193622	08:15:00	08:15:00		Krakowska Jedn. Wojskowa 01
+885	1	193622	08:17:00	08:17:00		Piłsudskiego U. Wojewódzki 03
+885	1	193622	08:18:00	08:18:00		Pl. Wolności 01
+885	1	193622	08:22:00	08:22:00		Dworaka targ 01
 
-1449	1	188661	06:40:00	06:40:00		Baligrodzka 01
-1449	1	188661	06:41:00	06:41:00		Iwonicka / Korczyńska 01 nż
-1449	1	188661	06:42:00	06:42:00		Odrzykońska / Iwonicka 01 nż
-1449	1	188661	06:44:00	06:44:00		Bł. Karoliny 09
-1449	1	188661	06:45:00	06:45:00		Bł. Karoliny przedszkole 07
-1449	1	188661	06:46:00	06:46:00		Bł. Karoliny / Nowosądecka 05 nż
-1449	1	188661	06:47:00	06:47:00		Bł. Karoliny / Sanocka 03 nż
-1449	1	188661	06:48:00	06:48:00		Bł. Karoliny / Strzyżowska 01 nż
-1449	1	188661	06:49:00	06:49:00		Kotuli / Solarza 03 nż
-1449	1	188661	06:50:00	06:50:00		Kotuli / Zbyszewskiego 01 nż
-1449	1	188661	06:53:00	06:53:00		Krakowska galeria 05
-1449	1	188661	06:54:00	06:54:00		Krakowska szpital 03
-1449	1	188661	06:56:00	06:56:00		Krakowska Jedn. Wojskowa 01
-1449	1	188661	06:59:00	06:59:00		Piłsudskiego U. Wojewódzki 03
-1449	1	188661	07:00:00	07:00:00		Pl. Wolności 01
-1449	1	188661	07:03:00	07:03:00		Rejtana / Lwowska 01
-1449	1	188661	07:04:00	07:04:00		Rejtana / Kustronia 03 nż
-1449	1	188661	07:05:00	07:05:00		Rejtana Uniwersytet 05
-1449	1	188661	07:08:00	07:08:00		Niepodległości / Rejtana 02
-1449	1	188661	07:09:00	07:09:00		Niepodległości Dom Dziecka 04 nż
-1449	1	188661	07:10:00	07:10:00		Niepodległości działki 06 nż
-1449	1	188661	07:13:00	07:13:00		Armii Krajowej szpital 10 nż
-1449	1	188661	07:16:00	07:16:00		Lwowska szpital 06
-1449	1	188661	07:18:00	07:18:00		Cienista / Lwowska 02 nż
-1449	1	188661	07:19:00	07:19:00		Cienista cmentarz 04
+880	1	193673	08:27:00	08:27:00		Dworaka targ 01
+880	1	193673	08:31:00	08:31:00		Piłsudskiego ZDZ 02
+880	1	193673	08:32:00	08:32:00		Pl. Wolności 04
+880	1	193673	08:35:00	08:35:00		Piłsudskiego U. Marszałkowski 08
+880	1	193673	08:37:00	08:37:00		Krakowska Jedn. Wojskowa 02
+880	1	193673	08:39:00	08:39:00		Okulickiego C. Handlowe 02
+880	1	193673	08:40:00	08:40:00		Okulickiego / Zwierzyniecka 04 nż
+880	1	193673	08:41:00	08:41:00		Wyzwolenia / Iranka-Osmeckiego 06
+880	1	193673	08:42:00	08:42:00		Wyzwolenia / Brydaka 08
+880	1	193673	08:43:00	08:43:00		Ofiar Katynia / Wyzwolenia 02
+880	1	193673	08:44:00	08:44:00		Ofiar Katynia kładka 04
+880	1	193673	08:45:00	08:45:00		Ofiar Katynia galeria 06
+880	1	193673	08:47:00	08:47:00		Ustrzycka pętla 02 nż
+880	1	193673	08:48:00	08:48:00		Sanocka / Krośnieńska 02 nż
+880	1	193673	08:49:00	08:49:00		Bł. Karoliny / Sanocka 04 nż
+880	1	193673	08:50:00	08:50:00		Bł. Karoliny przedszkole 06
+880	1	193673	08:51:00	08:51:00		Odrzykońska / Bł. Karoliny 02 nż
+880	1	193673	08:52:00	08:52:00		Odrzykońska / Baligrodzka 04 nż
+880	1	193673	08:53:00	08:53:00		Iwonicka / Korczyńska 02 nż
+880	1	193673	08:54:00	08:54:00		Baligrodzka 01
 
-1447	1	188980	07:36:00	07:36:00		Cienista cmentarz 01
-1447	1	188980	07:37:00	07:37:00		Lwowska / Cienista 07 nż
-1447	1	188980	07:41:00	07:41:00		Lwowska szpital 05
-1447	1	188980	07:46:00	07:46:00		Armii Krajowej kościół 09 nż
-1447	1	188980	07:47:00	07:47:00		Niepodległości / Armii Krajowej 05
-1447	1	188980	07:48:00	07:48:00		Niepodległości / Mieszka I 03 nż
-1447	1	188980	07:49:00	07:49:00		Niepodległości Dom Dziecka 01 nż
-1447	1	188980	07:51:00	07:51:00		Rejtana Uniwersytet 06
-1447	1	188980	07:52:00	07:52:00		Rejtana cmentarz 04 nż
-1447	1	188980	07:53:00	07:53:00		Rejtana / Kustronia 02
-1447	1	188980	07:56:00	07:56:00		Piłsudskiego ZDZ 02
-1447	1	188980	07:58:00	07:58:00		Pl. Wolności 04
-1447	1	188980	08:00:00	08:00:00		Piłsudskiego U. Marszałkowski 08
-1447	1	188980	08:02:00	08:02:00		Krakowska Jedn. Wojskowa 02
-1447	1	188980	08:03:00	08:03:00		Krakowska szpital 04
-1447	1	188980	08:04:00	08:04:00		Krakowska galeria 06
-1447	1	188980	08:06:00	08:06:00		Ofiar Katynia galeria 06
-1447	1	188980	08:07:00	08:07:00		Kotuli / Ustrzycka 02 nż
-1447	1	188980	08:08:00	08:08:00		Kotuli domki 04 nż
-1447	1	188980	08:09:00	08:09:00		Bł. Karoliny / Strzyżowska 02 nż
-1447	1	188980	08:10:00	08:10:00		Bł. Karoliny / Sanocka 04 nż
-1447	1	188980	08:11:00	08:11:00		Bł. Karoliny przedszkole 06
-1447	1	188980	08:12:00	08:12:00		Odrzykońska / Bł. Karoliny 02 nż
-1447	1	188980	08:13:00	08:13:00		Odrzykońska / Baligrodzka 04 nż
-1447	1	188980	08:14:00	08:14:00		Iwonicka / Korczyńska 02 nż
-1447	1	188980	08:15:00	08:15:00		Baligrodzka 01
+1449	1	193629	09:10:00	09:10:00		Baligrodzka 01
+1449	1	193629	09:11:00	09:11:00		Iwonicka / Korczyńska 01 nż
+1449	1	193629	09:12:00	09:12:00		Odrzykońska / Iwonicka 01 nż
+1449	1	193629	09:14:00	09:14:00		Bł. Karoliny 09
+1449	1	193629	09:15:00	09:15:00		Bł. Karoliny przedszkole 07
+1449	1	193629	09:16:00	09:16:00		Bł. Karoliny / Nowosądecka 05 nż
+1449	1	193629	09:17:00	09:17:00		Bł. Karoliny / Sanocka 03 nż
+1449	1	193629	09:18:00	09:18:00		Bł. Karoliny / Strzyżowska 01 nż
+1449	1	193629	09:19:00	09:19:00		Kotuli / Solarza 03 nż
+1449	1	193629	09:20:00	09:20:00		Kotuli / Zbyszewskiego 01 nż
+1449	1	193629	09:23:00	09:23:00		Krakowska galeria 05
+1449	1	193629	09:24:00	09:24:00		Krakowska szpital 03
+1449	1	193629	09:25:00	09:25:00		Krakowska Jedn. Wojskowa 01
+1449	1	193629	09:27:00	09:27:00		Piłsudskiego U. Wojewódzki 03
+1449	1	193629	09:28:00	09:28:00		Pl. Wolności 01
+1449	1	193629	09:30:00	09:30:00		Rejtana / Lwowska 01
+1449	1	193629	09:31:00	09:31:00		Rejtana / Kustronia 03 nż
+1449	1	193629	09:32:00	09:32:00		Rejtana Uniwersytet 05
+1449	1	193629	09:34:00	09:34:00		Niepodległości / Rejtana 02
+1449	1	193629	09:35:00	09:35:00		Niepodległości Dom Dziecka 04 nż
+1449	1	193629	09:36:00	09:36:00		Niepodległości działki 06 nż
+1449	1	193629	09:38:00	09:38:00		Armii Krajowej szpital 10 nż
+1449	1	193629	09:39:00	09:39:00		Lwowska szpital 06
+1449	1	193629	09:41:00	09:41:00		Cienista / Lwowska 02 nż
+1449	1	193629	09:42:00	09:42:00		Cienista cmentarz 04
 
-1449	1	188435	08:40:00	08:40:00		Baligrodzka 01
-1449	1	188435	08:41:00	08:41:00		Iwonicka / Korczyńska 01 nż
-1449	1	188435	08:42:00	08:42:00		Odrzykońska / Iwonicka 01 nż
-1449	1	188435	08:44:00	08:44:00		Bł. Karoliny 09
-1449	1	188435	08:45:00	08:45:00		Bł. Karoliny przedszkole 07
-1449	1	188435	08:46:00	08:46:00		Bł. Karoliny / Nowosądecka 05 nż
-1449	1	188435	08:47:00	08:47:00		Bł. Karoliny / Sanocka 03 nż
-1449	1	188435	08:48:00	08:48:00		Bł. Karoliny / Strzyżowska 01 nż
-1449	1	188435	08:49:00	08:49:00		Kotuli / Solarza 03 nż
-1449	1	188435	08:50:00	08:50:00		Kotuli / Zbyszewskiego 01 nż
-1449	1	188435	08:53:00	08:53:00		Krakowska galeria 05
-1449	1	188435	08:54:00	08:54:00		Krakowska szpital 03
-1449	1	188435	08:56:00	08:56:00		Krakowska Jedn. Wojskowa 01
-1449	1	188435	08:59:00	08:59:00		Piłsudskiego U. Wojewódzki 03
-1449	1	188435	09:00:00	09:00:00		Pl. Wolności 01
-1449	1	188435	09:03:00	09:03:00		Rejtana / Lwowska 01
-1449	1	188435	09:04:00	09:04:00		Rejtana / Kustronia 03 nż
-1449	1	188435	09:05:00	09:05:00		Rejtana Uniwersytet 05
-1449	1	188435	09:08:00	09:08:00		Niepodległości / Rejtana 02
-1449	1	188435	09:09:00	09:09:00		Niepodległości Dom Dziecka 04 nż
-1449	1	188435	09:10:00	09:10:00		Niepodległości działki 06 nż
-1449	1	188435	09:13:00	09:13:00		Armii Krajowej szpital 10 nż
-1449	1	188435	09:15:00	09:15:00		Lwowska szpital 06
-1449	1	188435	09:17:00	09:17:00		Cienista / Lwowska 02 nż
-1449	1	188435	09:18:00	09:18:00		Cienista cmentarz 04
+1447	1	193633	10:03:00	10:03:00		Cienista cmentarz 01
+1447	1	193633	10:04:00	10:04:00		Lwowska / Cienista 07 nż
+1447	1	193633	10:06:00	10:06:00		Lwowska szpital 05
+1447	1	193633	10:08:00	10:08:00		Armii Krajowej kościół 09 nż
+1447	1	193633	10:09:00	10:09:00		Niepodległości / Armii Krajowej 05
+1447	1	193633	10:10:00	10:10:00		Niepodległości / Mieszka I 03 nż
+1447	1	193633	10:11:00	10:11:00		Niepodległości Dom Dziecka 01 nż
+1447	1	193633	10:12:00	10:12:00		Rejtana Uniwersytet 06
+1447	1	193633	10:13:00	10:13:00		Rejtana cmentarz 04 nż
+1447	1	193633	10:14:00	10:14:00		Rejtana / Kustronia 02
+1447	1	193633	10:16:00	10:16:00		Piłsudskiego ZDZ 02
+1447	1	193633	10:17:00	10:17:00		Pl. Wolności 04
+1447	1	193633	10:20:00	10:20:00		Piłsudskiego U. Marszałkowski 08
+1447	1	193633	10:22:00	10:22:00		Krakowska Jedn. Wojskowa 02
+1447	1	193633	10:23:00	10:23:00		Krakowska szpital 04
+1447	1	193633	10:24:00	10:24:00		Krakowska galeria 06
+1447	1	193633	10:26:00	10:26:00		Ofiar Katynia galeria 06
+1447	1	193633	10:27:00	10:27:00		Kotuli / Ustrzycka 02 nż
+1447	1	193633	10:28:00	10:28:00		Kotuli domki 04 nż
+1447	1	193633	10:29:00	10:29:00		Bł. Karoliny / Strzyżowska 02 nż
+1447	1	193633	10:30:00	10:30:00		Bł. Karoliny / Sanocka 04 nż
+1447	1	193633	10:31:00	10:31:00		Bł. Karoliny przedszkole 06
+1447	1	193633	10:32:00	10:32:00		Odrzykońska / Bł. Karoliny 02 nż
+1447	1	193633	10:33:00	10:33:00		Odrzykońska / Baligrodzka 04 nż
+1447	1	193633	10:34:00	10:34:00		Iwonicka / Korczyńska 02 nż
+1447	1	193633	10:35:00	10:35:00		Baligrodzka 01
 
-1447	1	188528	09:40:00	09:40:00		Cienista cmentarz 01
-1447	1	188528	09:41:00	09:41:00		Lwowska / Cienista 07 nż
-1447	1	188528	09:43:00	09:43:00		Lwowska szpital 05
-1447	1	188528	09:46:00	09:46:00		Armii Krajowej kościół 09 nż
-1447	1	188528	09:47:00	09:47:00		Niepodległości / Armii Krajowej 05
-1447	1	188528	09:48:00	09:48:00		Niepodległości / Mieszka I 03 nż
-1447	1	188528	09:49:00	09:49:00		Niepodległości Dom Dziecka 01 nż
-1447	1	188528	09:51:00	09:51:00		Rejtana Uniwersytet 06
-1447	1	188528	09:52:00	09:52:00		Rejtana cmentarz 04 nż
-1447	1	188528	09:53:00	09:53:00		Rejtana / Kustronia 02
-1447	1	188528	09:55:00	09:55:00		Piłsudskiego ZDZ 02
-1447	1	188528	09:57:00	09:57:00		Pl. Wolności 04
-1447	1	188528	10:00:00	10:00:00		Piłsudskiego U. Marszałkowski 08
-1447	1	188528	10:02:00	10:02:00		Krakowska Jedn. Wojskowa 02
-1447	1	188528	10:03:00	10:03:00		Krakowska szpital 04
-1447	1	188528	10:04:00	10:04:00		Krakowska galeria 06
-1447	1	188528	10:06:00	10:06:00		Ofiar Katynia galeria 06
-1447	1	188528	10:07:00	10:07:00		Kotuli / Ustrzycka 02 nż
-1447	1	188528	10:08:00	10:08:00		Kotuli domki 04 nż
-1447	1	188528	10:09:00	10:09:00		Bł. Karoliny / Strzyżowska 02 nż
-1447	1	188528	10:10:00	10:10:00		Bł. Karoliny / Sanocka 04 nż
-1447	1	188528	10:11:00	10:11:00		Bł. Karoliny przedszkole 06
-1447	1	188528	10:12:00	10:12:00		Odrzykońska / Bł. Karoliny 02 nż
-1447	1	188528	10:13:00	10:13:00		Odrzykońska / Baligrodzka 04 nż
-1447	1	188528	10:14:00	10:14:00		Iwonicka / Korczyńska 02 nż
-1447	1	188528	10:15:00	10:15:00		Baligrodzka 01
+885	1	193708	10:55:00	10:55:00		Baligrodzka 01
+885	1	193708	10:56:00	10:56:00		Iwonicka / Korczyńska 01 nż
+885	1	193708	10:57:00	10:57:00		Odrzykońska / Iwonicka 01 nż
+885	1	193708	10:59:00	10:59:00		Bł. Karoliny 09
+885	1	193708	11:00:00	11:00:00		Bł. Karoliny przedszkole 07
+885	1	193708	11:01:00	11:01:00		Bł. Karoliny / Nowosądecka 05 nż
+885	1	193708	11:02:00	11:02:00		Sanocka / Krośnieńska 01 nż
+885	1	193708	11:04:00	11:04:00		Ustrzycka pętla 01 nż
+885	1	193708	11:07:00	11:07:00		Ofiar Katynia park 03
+885	1	193708	11:08:00	11:08:00		Ofiar Katynia kładka 01
+885	1	193708	11:09:00	11:09:00		Wyzwolenia / Ofiar Katynia 07
+885	1	193708	11:10:00	11:10:00		Wyzwolenia kościół 05
+885	1	193708	11:11:00	11:11:00		Okulickiego / Wyzwolenia 05 nż
+885	1	193708	11:12:00	11:12:00		Okulickiego / Zwierzyniecka 03 nż
+885	1	193708	11:13:00	11:13:00		Okulickiego C. Handlowe 01
+885	1	193708	11:15:00	11:15:00		Krakowska Jedn. Wojskowa 01
+885	1	193708	11:17:00	11:17:00		Piłsudskiego U. Wojewódzki 03
+885	1	193708	11:18:00	11:18:00		Pl. Wolności 01
+885	1	193708	11:22:00	11:22:00		Dworaka targ 01
 
-1449	1	188858	10:30:00	10:30:00		Baligrodzka 01
-1449	1	188858	10:31:00	10:31:00		Iwonicka / Korczyńska 01 nż
-1449	1	188858	10:32:00	10:32:00		Odrzykońska / Iwonicka 01 nż
-1449	1	188858	10:34:00	10:34:00		Bł. Karoliny 09
-1449	1	188858	10:35:00	10:35:00		Bł. Karoliny przedszkole 07
-1449	1	188858	10:36:00	10:36:00		Bł. Karoliny / Nowosądecka 05 nż
-1449	1	188858	10:37:00	10:37:00		Bł. Karoliny / Sanocka 03 nż
-1449	1	188858	10:38:00	10:38:00		Bł. Karoliny / Strzyżowska 01 nż
-1449	1	188858	10:39:00	10:39:00		Kotuli / Solarza 03 nż
-1449	1	188858	10:40:00	10:40:00		Kotuli / Zbyszewskiego 01 nż
-1449	1	188858	10:43:00	10:43:00		Krakowska galeria 05
-1449	1	188858	10:44:00	10:44:00		Krakowska szpital 03
-1449	1	188858	10:46:00	10:46:00		Krakowska Jedn. Wojskowa 01
-1449	1	188858	10:49:00	10:49:00		Piłsudskiego U. Wojewódzki 03
-1449	1	188858	10:50:00	10:50:00		Pl. Wolności 01
-1449	1	188858	10:53:00	10:53:00		Rejtana / Lwowska 01
-1449	1	188858	10:54:00	10:54:00		Rejtana / Kustronia 03 nż
-1449	1	188858	10:55:00	10:55:00		Rejtana Uniwersytet 05
-1449	1	188858	10:58:00	10:58:00		Niepodległości / Rejtana 02
-1449	1	188858	10:59:00	10:59:00		Niepodległości Dom Dziecka 04 nż
-1449	1	188858	11:00:00	11:00:00		Niepodległości działki 06 nż
-1449	1	188858	11:03:00	11:03:00		Armii Krajowej szpital 10 nż
-1449	1	188858	11:05:00	11:05:00		Lwowska szpital 06
-1449	1	188858	11:07:00	11:07:00		Cienista / Lwowska 02 nż
-1449	1	188858	11:08:00	11:08:00		Cienista cmentarz 04
+880	1	193815	11:27:00	11:27:00		Dworaka targ 01
+880	1	193815	11:31:00	11:31:00		Piłsudskiego ZDZ 02
+880	1	193815	11:32:00	11:32:00		Pl. Wolności 04
+880	1	193815	11:35:00	11:35:00		Piłsudskiego U. Marszałkowski 08
+880	1	193815	11:37:00	11:37:00		Krakowska Jedn. Wojskowa 02
+880	1	193815	11:39:00	11:39:00		Okulickiego C. Handlowe 02
+880	1	193815	11:40:00	11:40:00		Okulickiego / Zwierzyniecka 04 nż
+880	1	193815	11:41:00	11:41:00		Wyzwolenia / Iranka-Osmeckiego 06
+880	1	193815	11:42:00	11:42:00		Wyzwolenia / Brydaka 08
+880	1	193815	11:43:00	11:43:00		Ofiar Katynia / Wyzwolenia 02
+880	1	193815	11:44:00	11:44:00		Ofiar Katynia kładka 04
+880	1	193815	11:45:00	11:45:00		Ofiar Katynia galeria 06
+880	1	193815	11:47:00	11:47:00		Ustrzycka pętla 02 nż
+880	1	193815	11:48:00	11:48:00		Sanocka / Krośnieńska 02 nż
+880	1	193815	11:49:00	11:49:00		Bł. Karoliny / Sanocka 04 nż
+880	1	193815	11:50:00	11:50:00		Bł. Karoliny przedszkole 06
+880	1	193815	11:51:00	11:51:00		Odrzykońska / Bł. Karoliny 02 nż
+880	1	193815	11:52:00	11:52:00		Odrzykońska / Baligrodzka 04 nż
+880	1	193815	11:53:00	11:53:00		Iwonicka / Korczyńska 02 nż
+880	1	193815	11:54:00	11:54:00		Baligrodzka 01
 
-1447	1	188751	11:29:00	11:29:00		Cienista cmentarz 01
-1447	1	188751	11:30:00	11:30:00		Lwowska / Cienista 07 nż
-1447	1	188751	11:32:00	11:32:00		Lwowska szpital 05
-1447	1	188751	11:35:00	11:35:00		Armii Krajowej kościół 09 nż
-1447	1	188751	11:36:00	11:36:00		Niepodległości / Armii Krajowej 05
-1447	1	188751	11:37:00	11:37:00		Niepodległości / Mieszka I 03 nż
-1447	1	188751	11:38:00	11:38:00		Niepodległości Dom Dziecka 01 nż
-1447	1	188751	11:40:00	11:40:00		Rejtana Uniwersytet 06
-1447	1	188751	11:41:00	11:41:00		Rejtana cmentarz 04 nż
-1447	1	188751	11:42:00	11:42:00		Rejtana / Kustronia 02
-1447	1	188751	11:44:00	11:44:00		Piłsudskiego ZDZ 02
-1447	1	188751	11:46:00	11:46:00		Pl. Wolności 04
-1447	1	188751	11:50:00	11:50:00		Piłsudskiego U. Marszałkowski 08
-1447	1	188751	11:52:00	11:52:00		Krakowska Jedn. Wojskowa 02
-1447	1	188751	11:54:00	11:54:00		Krakowska szpital 04
-1447	1	188751	11:55:00	11:55:00		Krakowska galeria 06
-1447	1	188751	11:57:00	11:57:00		Ofiar Katynia galeria 06
-1447	1	188751	11:58:00	11:58:00		Kotuli / Ustrzycka 02 nż
-1447	1	188751	11:59:00	11:59:00		Kotuli domki 04 nż
-1447	1	188751	12:00:00	12:00:00		Bł. Karoliny / Strzyżowska 02 nż
-1447	1	188751	12:01:00	12:01:00		Bł. Karoliny / Sanocka 04 nż
-1447	1	188751	12:02:00	12:02:00		Bł. Karoliny przedszkole 06
-1447	1	188751	12:03:00	12:03:00		Odrzykońska / Bł. Karoliny 02 nż
-1447	1	188751	12:04:00	12:04:00		Odrzykońska / Baligrodzka 04 nż
-1447	1	188751	12:05:00	12:05:00		Iwonicka / Korczyńska 02 nż
-1447	1	188751	12:06:00	12:06:00		Baligrodzka 01
+1449	1	193701	12:10:00	12:10:00		Baligrodzka 01
+1449	1	193701	12:11:00	12:11:00		Iwonicka / Korczyńska 01 nż
+1449	1	193701	12:12:00	12:12:00		Odrzykońska / Iwonicka 01 nż
+1449	1	193701	12:14:00	12:14:00		Bł. Karoliny 09
+1449	1	193701	12:15:00	12:15:00		Bł. Karoliny przedszkole 07
+1449	1	193701	12:16:00	12:16:00		Bł. Karoliny / Nowosądecka 05 nż
+1449	1	193701	12:17:00	12:17:00		Bł. Karoliny / Sanocka 03 nż
+1449	1	193701	12:18:00	12:18:00		Bł. Karoliny / Strzyżowska 01 nż
+1449	1	193701	12:19:00	12:19:00		Kotuli / Solarza 03 nż
+1449	1	193701	12:20:00	12:20:00		Kotuli / Zbyszewskiego 01 nż
+1449	1	193701	12:23:00	12:23:00		Krakowska galeria 05
+1449	1	193701	12:24:00	12:24:00		Krakowska szpital 03
+1449	1	193701	12:25:00	12:25:00		Krakowska Jedn. Wojskowa 01
+1449	1	193701	12:27:00	12:27:00		Piłsudskiego U. Wojewódzki 03
+1449	1	193701	12:28:00	12:28:00		Pl. Wolności 01
+1449	1	193701	12:30:00	12:30:00		Rejtana / Lwowska 01
+1449	1	193701	12:31:00	12:31:00		Rejtana / Kustronia 03 nż
+1449	1	193701	12:32:00	12:32:00		Rejtana Uniwersytet 05
+1449	1	193701	12:34:00	12:34:00		Niepodległości / Rejtana 02
+1449	1	193701	12:35:00	12:35:00		Niepodległości Dom Dziecka 04 nż
+1449	1	193701	12:36:00	12:36:00		Niepodległości działki 06 nż
+1449	1	193701	12:38:00	12:38:00		Armii Krajowej szpital 10 nż
+1449	1	193701	12:39:00	12:39:00		Lwowska szpital 06
+1449	1	193701	12:41:00	12:41:00		Cienista / Lwowska 02 nż
+1449	1	193701	12:42:00	12:42:00		Cienista cmentarz 04
 
-1449	1	188403	12:30:00	12:30:00		Baligrodzka 01
-1449	1	188403	12:31:00	12:31:00		Iwonicka / Korczyńska 01 nż
-1449	1	188403	12:32:00	12:32:00		Odrzykońska / Iwonicka 01 nż
-1449	1	188403	12:34:00	12:34:00		Bł. Karoliny 09
-1449	1	188403	12:35:00	12:35:00		Bł. Karoliny przedszkole 07
-1449	1	188403	12:36:00	12:36:00		Bł. Karoliny / Nowosądecka 05 nż
-1449	1	188403	12:37:00	12:37:00		Bł. Karoliny / Sanocka 03 nż
-1449	1	188403	12:38:00	12:38:00		Bł. Karoliny / Strzyżowska 01 nż
-1449	1	188403	12:39:00	12:39:00		Kotuli / Solarza 03 nż
-1449	1	188403	12:40:00	12:40:00		Kotuli / Zbyszewskiego 01 nż
-1449	1	188403	12:43:00	12:43:00		Krakowska galeria 05
-1449	1	188403	12:44:00	12:44:00		Krakowska szpital 03
-1449	1	188403	12:46:00	12:46:00		Krakowska Jedn. Wojskowa 01
-1449	1	188403	12:49:00	12:49:00		Piłsudskiego U. Wojewódzki 03
-1449	1	188403	12:50:00	12:50:00		Pl. Wolności 01
-1449	1	188403	12:53:00	12:53:00		Rejtana / Lwowska 01
-1449	1	188403	12:54:00	12:54:00		Rejtana / Kustronia 03 nż
-1449	1	188403	12:55:00	12:55:00		Rejtana Uniwersytet 05
-1449	1	188403	12:58:00	12:58:00		Niepodległości / Rejtana 02
-1449	1	188403	12:59:00	12:59:00		Niepodległości Dom Dziecka 04 nż
-1449	1	188403	13:00:00	13:00:00		Niepodległości działki 06 nż
-1449	1	188403	13:03:00	13:03:00		Armii Krajowej szpital 10 nż
-1449	1	188403	13:06:00	13:06:00		Lwowska szpital 06
-1449	1	188403	13:08:00	13:08:00		Cienista / Lwowska 02 nż
-1449	1	188403	13:09:00	13:09:00		Cienista cmentarz 04
+1447	1	193564	13:03:00	13:03:00		Cienista cmentarz 01
+1447	1	193564	13:04:00	13:04:00		Lwowska / Cienista 07 nż
+1447	1	193564	13:06:00	13:06:00		Lwowska szpital 05
+1447	1	193564	13:08:00	13:08:00		Armii Krajowej kościół 09 nż
+1447	1	193564	13:09:00	13:09:00		Niepodległości / Armii Krajowej 05
+1447	1	193564	13:10:00	13:10:00		Niepodległości / Mieszka I 03 nż
+1447	1	193564	13:11:00	13:11:00		Niepodległości Dom Dziecka 01 nż
+1447	1	193564	13:12:00	13:12:00		Rejtana Uniwersytet 06
+1447	1	193564	13:13:00	13:13:00		Rejtana cmentarz 04 nż
+1447	1	193564	13:14:00	13:14:00		Rejtana / Kustronia 02
+1447	1	193564	13:16:00	13:16:00		Piłsudskiego ZDZ 02
+1447	1	193564	13:17:00	13:17:00		Pl. Wolności 04
+1447	1	193564	13:20:00	13:20:00		Piłsudskiego U. Marszałkowski 08
+1447	1	193564	13:22:00	13:22:00		Krakowska Jedn. Wojskowa 02
+1447	1	193564	13:23:00	13:23:00		Krakowska szpital 04
+1447	1	193564	13:24:00	13:24:00		Krakowska galeria 06
+1447	1	193564	13:26:00	13:26:00		Ofiar Katynia galeria 06
+1447	1	193564	13:27:00	13:27:00		Kotuli / Ustrzycka 02 nż
+1447	1	193564	13:28:00	13:28:00		Kotuli domki 04 nż
+1447	1	193564	13:29:00	13:29:00		Bł. Karoliny / Strzyżowska 02 nż
+1447	1	193564	13:30:00	13:30:00		Bł. Karoliny / Sanocka 04 nż
+1447	1	193564	13:31:00	13:31:00		Bł. Karoliny przedszkole 06
+1447	1	193564	13:32:00	13:32:00		Odrzykońska / Bł. Karoliny 02 nż
+1447	1	193564	13:33:00	13:33:00		Odrzykońska / Baligrodzka 04 nż
+1447	1	193564	13:34:00	13:34:00		Iwonicka / Korczyńska 02 nż
+1447	1	193564	13:35:00	13:35:00		Baligrodzka 01
 
-1447	1	188897	13:29:00	13:29:00		Cienista cmentarz 01
-1447	1	188897	13:30:00	13:30:00		Lwowska / Cienista 07 nż
-1447	1	188897	13:32:00	13:32:00		Lwowska szpital 05
-1447	1	188897	13:35:00	13:35:00		Armii Krajowej kościół 09 nż
-1447	1	188897	13:36:00	13:36:00		Niepodległości / Armii Krajowej 05
-1447	1	188897	13:37:00	13:37:00		Niepodległości / Mieszka I 03 nż
-1447	1	188897	13:38:00	13:38:00		Niepodległości Dom Dziecka 01 nż
-1447	1	188897	13:40:00	13:40:00		Rejtana Uniwersytet 06
-1447	1	188897	13:41:00	13:41:00		Rejtana cmentarz 04 nż
-1447	1	188897	13:42:00	13:42:00		Rejtana / Kustronia 02
-1447	1	188897	13:44:00	13:44:00		Piłsudskiego ZDZ 02
-1447	1	188897	13:46:00	13:46:00		Pl. Wolności 04
-1447	1	188897	13:50:00	13:50:00		Piłsudskiego U. Marszałkowski 08
-1447	1	188897	13:52:00	13:52:00		Krakowska Jedn. Wojskowa 02
-1447	1	188897	13:54:00	13:54:00		Krakowska szpital 04
-1447	1	188897	13:55:00	13:55:00		Krakowska galeria 06
-1447	1	188897	13:57:00	13:57:00		Ofiar Katynia galeria 06
-1447	1	188897	13:58:00	13:58:00		Kotuli / Ustrzycka 02 nż
-1447	1	188897	13:59:00	13:59:00		Kotuli domki 04 nż
-1447	1	188897	14:00:00	14:00:00		Bł. Karoliny / Strzyżowska 02 nż
-1447	1	188897	14:01:00	14:01:00		Bł. Karoliny / Sanocka 04 nż
-1447	1	188897	14:02:00	14:02:00		Bł. Karoliny przedszkole 06
-1447	1	188897	14:03:00	14:03:00		Odrzykońska / Bł. Karoliny 02 nż
-1447	1	188897	14:04:00	14:04:00		Odrzykońska / Baligrodzka 04 nż
-1447	1	188897	14:05:00	14:05:00		Iwonicka / Korczyńska 02 nż
-1447	1	188897	14:06:00	14:06:00		Baligrodzka 01
+885	1	193720	13:55:00	13:55:00		Baligrodzka 01
+885	1	193720	13:56:00	13:56:00		Iwonicka / Korczyńska 01 nż
+885	1	193720	13:57:00	13:57:00		Odrzykońska / Iwonicka 01 nż
+885	1	193720	13:59:00	13:59:00		Bł. Karoliny 09
+885	1	193720	14:00:00	14:00:00		Bł. Karoliny przedszkole 07
+885	1	193720	14:01:00	14:01:00		Bł. Karoliny / Nowosądecka 05 nż
+885	1	193720	14:02:00	14:02:00		Sanocka / Krośnieńska 01 nż
+885	1	193720	14:04:00	14:04:00		Ustrzycka pętla 01 nż
+885	1	193720	14:07:00	14:07:00		Ofiar Katynia park 03
+885	1	193720	14:08:00	14:08:00		Ofiar Katynia kładka 01
+885	1	193720	14:09:00	14:09:00		Wyzwolenia / Ofiar Katynia 07
+885	1	193720	14:10:00	14:10:00		Wyzwolenia kościół 05
+885	1	193720	14:11:00	14:11:00		Okulickiego / Wyzwolenia 05 nż
+885	1	193720	14:12:00	14:12:00		Okulickiego / Zwierzyniecka 03 nż
+885	1	193720	14:13:00	14:13:00		Okulickiego C. Handlowe 01
+885	1	193720	14:16:00	14:16:00		Krakowska Jedn. Wojskowa 01
+885	1	193720	14:18:00	14:18:00		Piłsudskiego U. Wojewódzki 03
+885	1	193720	14:19:00	14:19:00		Pl. Wolności 01
+885	1	193720	14:23:00	14:23:00		Dworaka targ 01
 
-1449	1	188644	14:20:00	14:20:00		Baligrodzka 01
-1449	1	188644	14:21:00	14:21:00		Iwonicka / Korczyńska 01 nż
-1449	1	188644	14:22:00	14:22:00		Odrzykońska / Iwonicka 01 nż
-1449	1	188644	14:24:00	14:24:00		Bł. Karoliny 09
-1449	1	188644	14:25:00	14:25:00		Bł. Karoliny przedszkole 07
-1449	1	188644	14:26:00	14:26:00		Bł. Karoliny / Nowosądecka 05 nż
-1449	1	188644	14:27:00	14:27:00		Bł. Karoliny / Sanocka 03 nż
-1449	1	188644	14:28:00	14:28:00		Bł. Karoliny / Strzyżowska 01 nż
-1449	1	188644	14:29:00	14:29:00		Kotuli / Solarza 03 nż
-1449	1	188644	14:30:00	14:30:00		Kotuli / Zbyszewskiego 01 nż
-1449	1	188644	14:33:00	14:33:00		Krakowska galeria 05
-1449	1	188644	14:34:00	14:34:00		Krakowska szpital 03
-1449	1	188644	14:37:00	14:37:00		Krakowska Jedn. Wojskowa 01
-1449	1	188644	14:40:00	14:40:00		Piłsudskiego U. Wojewódzki 03
-1449	1	188644	14:42:00	14:42:00		Pl. Wolności 01
-1449	1	188644	14:45:00	14:45:00		Rejtana / Lwowska 01
-1449	1	188644	14:46:00	14:46:00		Rejtana / Kustronia 03 nż
-1449	1	188644	14:48:00	14:48:00		Rejtana Uniwersytet 05
-1449	1	188644	14:51:00	14:51:00		Niepodległości / Rejtana 02
-1449	1	188644	14:52:00	14:52:00		Niepodległości Dom Dziecka 04 nż
-1449	1	188644	14:54:00	14:54:00		Niepodległości działki 06 nż
-1449	1	188644	14:58:00	14:58:00		Armii Krajowej szpital 10 nż
-1449	1	188644	15:01:00	15:01:00		Lwowska szpital 06
-1449	1	188644	15:03:00	15:03:00		Cienista / Lwowska 02 nż
-1449	1	188644	15:04:00	15:04:00		Cienista cmentarz 04
+880	1	193643	14:27:00	14:27:00		Dworaka targ 01
+880	1	193643	14:31:00	14:31:00		Piłsudskiego ZDZ 02
+880	1	193643	14:32:00	14:32:00		Pl. Wolności 04
+880	1	193643	14:35:00	14:35:00		Piłsudskiego U. Marszałkowski 08
+880	1	193643	14:37:00	14:37:00		Krakowska Jedn. Wojskowa 02
+880	1	193643	14:39:00	14:39:00		Okulickiego C. Handlowe 02
+880	1	193643	14:40:00	14:40:00		Okulickiego / Zwierzyniecka 04 nż
+880	1	193643	14:41:00	14:41:00		Wyzwolenia / Iranka-Osmeckiego 06
+880	1	193643	14:42:00	14:42:00		Wyzwolenia / Brydaka 08
+880	1	193643	14:43:00	14:43:00		Ofiar Katynia / Wyzwolenia 02
+880	1	193643	14:44:00	14:44:00		Ofiar Katynia kładka 04
+880	1	193643	14:45:00	14:45:00		Ofiar Katynia galeria 06
+880	1	193643	14:47:00	14:47:00		Ustrzycka pętla 02 nż
+880	1	193643	14:48:00	14:48:00		Sanocka / Krośnieńska 02 nż
+880	1	193643	14:49:00	14:49:00		Bł. Karoliny / Sanocka 04 nż
+880	1	193643	14:50:00	14:50:00		Bł. Karoliny przedszkole 06
+880	1	193643	14:51:00	14:51:00		Odrzykońska / Bł. Karoliny 02 nż
+880	1	193643	14:52:00	14:52:00		Odrzykońska / Baligrodzka 04 nż
+880	1	193643	14:53:00	14:53:00		Iwonicka / Korczyńska 02 nż
+880	1	193643	14:54:00	14:54:00		Baligrodzka 01
 
-1447	1	188320	15:34:00	15:34:00		Cienista cmentarz 01
-1447	1	188320	15:35:00	15:35:00		Lwowska / Cienista 07 nż
-1447	1	188320	15:37:00	15:37:00		Lwowska szpital 05
-1447	1	188320	15:40:00	15:40:00		Armii Krajowej kościół 09 nż
-1447	1	188320	15:42:00	15:42:00		Niepodległości / Armii Krajowej 05
-1447	1	188320	15:43:00	15:43:00		Niepodległości / Mieszka I 03 nż
-1447	1	188320	15:44:00	15:44:00		Niepodległości Dom Dziecka 01 nż
-1447	1	188320	15:46:00	15:46:00		Rejtana Uniwersytet 06
-1447	1	188320	15:47:00	15:47:00		Rejtana cmentarz 04 nż
-1447	1	188320	15:48:00	15:48:00		Rejtana / Kustronia 02
-1447	1	188320	15:51:00	15:51:00		Piłsudskiego ZDZ 02
-1447	1	188320	15:54:00	15:54:00		Pl. Wolności 04
-1447	1	188320	16:00:00	16:00:00		Piłsudskiego U. Marszałkowski 08
-1447	1	188320	16:02:00	16:02:00		Krakowska Jedn. Wojskowa 02
-1447	1	188320	16:04:00	16:04:00		Krakowska szpital 04
-1447	1	188320	16:05:00	16:05:00		Krakowska galeria 06
-1447	1	188320	16:07:00	16:07:00		Ofiar Katynia galeria 06
-1447	1	188320	16:08:00	16:08:00		Kotuli / Ustrzycka 02 nż
-1447	1	188320	16:09:00	16:09:00		Kotuli domki 04 nż
-1447	1	188320	16:11:00	16:11:00		Bł. Karoliny / Strzyżowska 02 nż
-1447	1	188320	16:12:00	16:12:00		Bł. Karoliny / Sanocka 04 nż
-1447	1	188320	16:14:00	16:14:00		Bł. Karoliny przedszkole 06
-1447	1	188320	16:15:00	16:15:00		Odrzykońska / Bł. Karoliny 02 nż
-1447	1	188320	16:16:00	16:16:00		Odrzykońska / Baligrodzka 04 nż
-1447	1	188320	16:17:00	16:17:00		Iwonicka / Korczyńska 02 nż
-1447	1	188320	16:18:00	16:18:00		Baligrodzka 01
+1449	1	193591	15:10:00	15:10:00		Baligrodzka 01
+1449	1	193591	15:11:00	15:11:00		Iwonicka / Korczyńska 01 nż
+1449	1	193591	15:12:00	15:12:00		Odrzykońska / Iwonicka 01 nż
+1449	1	193591	15:14:00	15:14:00		Bł. Karoliny 09
+1449	1	193591	15:15:00	15:15:00		Bł. Karoliny przedszkole 07
+1449	1	193591	15:16:00	15:16:00		Bł. Karoliny / Nowosądecka 05 nż
+1449	1	193591	15:17:00	15:17:00		Bł. Karoliny / Sanocka 03 nż
+1449	1	193591	15:18:00	15:18:00		Bł. Karoliny / Strzyżowska 01 nż
+1449	1	193591	15:19:00	15:19:00		Kotuli / Solarza 03 nż
+1449	1	193591	15:20:00	15:20:00		Kotuli / Zbyszewskiego 01 nż
+1449	1	193591	15:23:00	15:23:00		Krakowska galeria 05
+1449	1	193591	15:24:00	15:24:00		Krakowska szpital 03
+1449	1	193591	15:26:00	15:26:00		Krakowska Jedn. Wojskowa 01
+1449	1	193591	15:28:00	15:28:00		Piłsudskiego U. Wojewódzki 03
+1449	1	193591	15:29:00	15:29:00		Pl. Wolności 01
+1449	1	193591	15:31:00	15:31:00		Rejtana / Lwowska 01
+1449	1	193591	15:32:00	15:32:00		Rejtana / Kustronia 03 nż
+1449	1	193591	15:33:00	15:33:00		Rejtana Uniwersytet 05
+1449	1	193591	15:35:00	15:35:00		Niepodległości / Rejtana 02
+1449	1	193591	15:36:00	15:36:00		Niepodległości Dom Dziecka 04 nż
+1449	1	193591	15:37:00	15:37:00		Niepodległości działki 06 nż
+1449	1	193591	15:39:00	15:39:00		Armii Krajowej szpital 10 nż
+1449	1	193591	15:41:00	15:41:00		Lwowska szpital 06
+1449	1	193591	15:43:00	15:43:00		Cienista / Lwowska 02 nż
+1449	1	193591	15:44:00	15:44:00		Cienista cmentarz 04
 
-1631	1	188355	16:40:00	16:40:00		Baligrodzka 01
-1631	1	188355	16:41:00	16:41:00		Iwonicka / Korczyńska 01 nż
-1631	1	188355	16:42:00	16:42:00		Odrzykońska / Iwonicka 01 nż
-1631	1	188355	16:44:00	16:44:00		Bł. Karoliny 09
-1631	1	188355	16:45:00	16:45:00		Bł. Karoliny przedszkole 07
-1631	1	188355	16:46:00	16:46:00		Bł. Karoliny / Nowosądecka 05 nż
-1631	1	188355	16:47:00	16:47:00		Bł. Karoliny / Sanocka 03 nż
-1631	1	188355	16:48:00	16:48:00		Bł. Karoliny / Strzyżowska 01 nż
-1631	1	188355	16:49:00	16:49:00		Kotuli / Solarza 03 nż
-1631	1	188355	16:50:00	16:50:00		Kotuli / Zbyszewskiego 01 nż
-1631	1	188355	16:53:00	16:53:00		Krakowska galeria 05
-1631	1	188355	16:54:00	16:54:00		Krakowska szpital 03
-1631	1	188355	16:56:00	16:56:00		Krakowska Jedn. Wojskowa 01
-1631	1	188355	16:58:00	16:58:00		Piłsudskiego U. Marszałkowski 05
-1631	1	188355	16:59:00	16:59:00		Cieplińskiego 02
-1631	1	188355	17:00:00	17:00:00		Lisa-Kuli 01
-1631	1	188355	17:04:00	17:04:00		Kilara 02 nż
-1631	1	188355	17:06:00	17:06:00		Kopisto U. Skarbowy 03
-1631	1	188355	17:07:00	17:07:00		Kopisto Uniwersytet 01
-1631	1	188355	17:09:00	17:09:00		Rejtana / Kopisto 07
-1631	1	188355	17:10:00	17:10:00		Rejtana / Popiełuszki 09
-1631	1	188355	17:13:00	17:13:00		Sikorskiego / Powst. Warszawy 02 nż
-1631	1	188355	17:14:00	17:14:00		Sikorskiego Katedra 04 nż
-1631	1	188355	17:15:00	17:15:00		Sikorskiego / Łukasiewicza 06 nż
-1631	1	188355	17:16:00	17:16:00		Sikorskiego domki 08 nż
-1631	1	188355	17:18:00	17:18:00		Strażacka / Sikorskiego 07 nż
-1631	1	188355	17:19:00	17:19:00		Strażacka / Sympatyczna 05 nż
-1631	1	188355	17:20:00	17:20:00		Miła / Strażacka 02 nż
-1631	1	188355	17:21:00	17:21:00		Miła bloki 04 nż
-1631	1	188355	17:22:00	17:22:00		Miła szkoła 06 nż
-1631	1	188355	17:23:00	17:23:00		Kard. K. Wojtyły kościół 05 nż
-1631	1	188355	17:25:00	17:25:00		Kard. K. Wojtyły pętla 03 nż
+1447	1	193648	16:03:00	16:03:00		Cienista cmentarz 01
+1447	1	193648	16:04:00	16:04:00		Lwowska / Cienista 07 nż
+1447	1	193648	16:06:00	16:06:00		Lwowska szpital 05
+1447	1	193648	16:08:00	16:08:00		Armii Krajowej kościół 09 nż
+1447	1	193648	16:09:00	16:09:00		Niepodległości / Armii Krajowej 05
+1447	1	193648	16:10:00	16:10:00		Niepodległości / Mieszka I 03 nż
+1447	1	193648	16:11:00	16:11:00		Niepodległości Dom Dziecka 01 nż
+1447	1	193648	16:12:00	16:12:00		Rejtana Uniwersytet 06
+1447	1	193648	16:13:00	16:13:00		Rejtana cmentarz 04 nż
+1447	1	193648	16:14:00	16:14:00		Rejtana / Kustronia 02
+1447	1	193648	16:16:00	16:16:00		Piłsudskiego ZDZ 02
+1447	1	193648	16:17:00	16:17:00		Pl. Wolności 04
+1447	1	193648	16:20:00	16:20:00		Piłsudskiego U. Marszałkowski 08
+1447	1	193648	16:22:00	16:22:00		Krakowska Jedn. Wojskowa 02
+1447	1	193648	16:23:00	16:23:00		Krakowska szpital 04
+1447	1	193648	16:24:00	16:24:00		Krakowska galeria 06
+1447	1	193648	16:26:00	16:26:00		Ofiar Katynia galeria 06
+1447	1	193648	16:27:00	16:27:00		Kotuli / Ustrzycka 02 nż
+1447	1	193648	16:28:00	16:28:00		Kotuli domki 04 nż
+1447	1	193648	16:29:00	16:29:00		Bł. Karoliny / Strzyżowska 02 nż
+1447	1	193648	16:30:00	16:30:00		Bł. Karoliny / Sanocka 04 nż
+1447	1	193648	16:31:00	16:31:00		Bł. Karoliny przedszkole 06
+1447	1	193648	16:32:00	16:32:00		Odrzykońska / Bł. Karoliny 02 nż
+1447	1	193648	16:33:00	16:33:00		Odrzykońska / Baligrodzka 04 nż
+1447	1	193648	16:34:00	16:34:00		Iwonicka / Korczyńska 02 nż
+1447	1	193648	16:35:00	16:35:00		Baligrodzka 01
 
-1633	1	188896	17:53:00	17:53:00		Kard. K. Wojtyły pętla 03 nż
-1633	1	188896	17:54:00	17:54:00		Kard. K. Wojtyły kościół 06 nż
-1633	1	188896	17:56:00	17:56:00		Miła Dom Kultury 05 nż
-1633	1	188896	17:57:00	17:57:00		Miła bloki 03 nż
-1633	1	188896	17:58:00	17:58:00		Miła / Strażacka 01 nż
-1633	1	188896	17:59:00	17:59:00		Strażacka / Sympatyczna 06 nż
-1633	1	188896	18:00:00	18:00:00		Strażacka / Sikorskiego 08 nż
-1633	1	188896	18:02:00	18:02:00		Sikorskiego / Robotnicza 05 nż
-1633	1	188896	18:03:00	18:03:00		Sikorskiego domki 03 nż
-1633	1	188896	18:05:00	18:05:00		Sikorskiego Katedra 01 nż
-1633	1	188896	18:07:00	18:07:00		Rejtana / Armii Krajowej 12
-1633	1	188896	18:08:00	18:08:00		Rejtana / Paderewskiego 10
-1633	1	188896	18:09:00	18:09:00		Rejtana / Krzyżanowskiego 08
-1633	1	188896	18:11:00	18:11:00		Kopisto Uniwersytet 02
-1633	1	188896	18:13:00	18:13:00		Kopisto Most Zamkowy 04
-1633	1	188896	18:14:00	18:14:00		Kilara 01 nż
-1633	1	188896	18:17:00	18:17:00		Lisa-Kuli 02
-1633	1	188896	18:18:00	18:18:00		Cieplińskiego 01
-1633	1	188896	18:20:00	18:20:00		Piłsudskiego U. Marszałkowski 08
-1633	1	188896	18:22:00	18:22:00		Krakowska Jedn. Wojskowa 02
-1633	1	188896	18:24:00	18:24:00		Krakowska szpital 04
-1633	1	188896	18:25:00	18:25:00		Krakowska galeria 06
-1633	1	188896	18:27:00	18:27:00		Ofiar Katynia galeria 06
-1633	1	188896	18:28:00	18:28:00		Kotuli / Ustrzycka 02 nż
-1633	1	188896	18:29:00	18:29:00		Kotuli domki 04 nż
-1633	1	188896	18:31:00	18:31:00		Bł. Karoliny / Strzyżowska 02 nż
-1633	1	188896	18:32:00	18:32:00		Bł. Karoliny / Sanocka 04 nż
-1633	1	188896	18:34:00	18:34:00		Bł. Karoliny przedszkole 06
-1633	1	188896	18:35:00	18:35:00		Odrzykońska / Bł. Karoliny 02 nż
-1633	1	188896	18:36:00	18:36:00		Odrzykońska / Baligrodzka 04 nż
-1633	1	188896	18:37:00	18:37:00		Iwonicka / Korczyńska 02 nż
-1633	1	188896	18:38:00	18:38:00		Baligrodzka 01
+885	1	193814	16:55:00	16:55:00		Baligrodzka 01
+885	1	193814	16:56:00	16:56:00		Iwonicka / Korczyńska 01 nż
+885	1	193814	16:57:00	16:57:00		Odrzykońska / Iwonicka 01 nż
+885	1	193814	16:59:00	16:59:00		Bł. Karoliny 09
+885	1	193814	17:00:00	17:00:00		Bł. Karoliny przedszkole 07
+885	1	193814	17:01:00	17:01:00		Bł. Karoliny / Nowosądecka 05 nż
+885	1	193814	17:02:00	17:02:00		Sanocka / Krośnieńska 01 nż
+885	1	193814	17:04:00	17:04:00		Ustrzycka pętla 01 nż
+885	1	193814	17:07:00	17:07:00		Ofiar Katynia park 03
+885	1	193814	17:08:00	17:08:00		Ofiar Katynia kładka 01
+885	1	193814	17:09:00	17:09:00		Wyzwolenia / Ofiar Katynia 07
+885	1	193814	17:10:00	17:10:00		Wyzwolenia kościół 05
+885	1	193814	17:11:00	17:11:00		Okulickiego / Wyzwolenia 05 nż
+885	1	193814	17:12:00	17:12:00		Okulickiego / Zwierzyniecka 03 nż
+885	1	193814	17:13:00	17:13:00		Okulickiego C. Handlowe 01
+885	1	193814	17:16:00	17:16:00		Krakowska Jedn. Wojskowa 01
+885	1	193814	17:18:00	17:18:00		Piłsudskiego U. Wojewódzki 03
+885	1	193814	17:19:00	17:19:00		Pl. Wolności 01
+885	1	193814	17:23:00	17:23:00		Dworaka targ 01
 
-1631	1	188380	19:00:00	19:00:00		Baligrodzka 01
-1631	1	188380	19:01:00	19:01:00		Iwonicka / Korczyńska 01 nż
-1631	1	188380	19:02:00	19:02:00		Odrzykońska / Iwonicka 01 nż
-1631	1	188380	19:04:00	19:04:00		Bł. Karoliny 09
-1631	1	188380	19:05:00	19:05:00		Bł. Karoliny przedszkole 07
-1631	1	188380	19:06:00	19:06:00		Bł. Karoliny / Nowosądecka 05 nż
-1631	1	188380	19:07:00	19:07:00		Bł. Karoliny / Sanocka 03 nż
-1631	1	188380	19:08:00	19:08:00		Bł. Karoliny / Strzyżowska 01 nż
-1631	1	188380	19:09:00	19:09:00		Kotuli / Solarza 03 nż
-1631	1	188380	19:10:00	19:10:00		Kotuli / Zbyszewskiego 01 nż
-1631	1	188380	19:13:00	19:13:00		Krakowska galeria 05
-1631	1	188380	19:14:00	19:14:00		Krakowska szpital 03
-1631	1	188380	19:16:00	19:16:00		Krakowska Jedn. Wojskowa 01
-1631	1	188380	19:18:00	19:18:00		Piłsudskiego U. Marszałkowski 05
-1631	1	188380	19:19:00	19:19:00		Cieplińskiego 02
-1631	1	188380	19:20:00	19:20:00		Lisa-Kuli 01
-1631	1	188380	19:22:00	19:22:00		Kilara 02 nż
-1631	1	188380	19:24:00	19:24:00		Kopisto U. Skarbowy 03
-1631	1	188380	19:25:00	19:25:00		Kopisto Uniwersytet 01
-1631	1	188380	19:26:00	19:26:00		Rejtana / Kopisto 07
-1631	1	188380	19:27:00	19:27:00		Rejtana / Popiełuszki 09
-1631	1	188380	19:29:00	19:29:00		Sikorskiego / Powst. Warszawy 02 nż
-1631	1	188380	19:30:00	19:30:00		Sikorskiego Katedra 04 nż
-1631	1	188380	19:31:00	19:31:00		Sikorskiego / Łukasiewicza 06 nż
-1631	1	188380	19:32:00	19:32:00		Sikorskiego domki 08 nż
-1631	1	188380	19:34:00	19:34:00		Strażacka / Sikorskiego 07 nż
-1631	1	188380	19:35:00	19:35:00		Strażacka / Sympatyczna 05 nż
-1631	1	188380	19:36:00	19:36:00		Miła / Strażacka 02 nż
-1631	1	188380	19:37:00	19:37:00		Miła bloki 04 nż
-1631	1	188380	19:38:00	19:38:00		Miła szkoła 06 nż
-1631	1	188380	19:39:00	19:39:00		Kard. K. Wojtyły kościół 05 nż
-1631	1	188380	19:41:00	19:41:00		Kard. K. Wojtyły pętla 03 nż
+880	1	193638	17:27:00	17:27:00		Dworaka targ 01
+880	1	193638	17:31:00	17:31:00		Piłsudskiego ZDZ 02
+880	1	193638	17:32:00	17:32:00		Pl. Wolności 04
+880	1	193638	17:35:00	17:35:00		Piłsudskiego U. Marszałkowski 08
+880	1	193638	17:37:00	17:37:00		Krakowska Jedn. Wojskowa 02
+880	1	193638	17:39:00	17:39:00		Okulickiego C. Handlowe 02
+880	1	193638	17:40:00	17:40:00		Okulickiego / Zwierzyniecka 04 nż
+880	1	193638	17:41:00	17:41:00		Wyzwolenia / Iranka-Osmeckiego 06
+880	1	193638	17:42:00	17:42:00		Wyzwolenia / Brydaka 08
+880	1	193638	17:43:00	17:43:00		Ofiar Katynia / Wyzwolenia 02
+880	1	193638	17:44:00	17:44:00		Ofiar Katynia kładka 04
+880	1	193638	17:45:00	17:45:00		Ofiar Katynia galeria 06
+880	1	193638	17:47:00	17:47:00		Ustrzycka pętla 02 nż
+880	1	193638	17:48:00	17:48:00		Sanocka / Krośnieńska 02 nż
+880	1	193638	17:49:00	17:49:00		Bł. Karoliny / Sanocka 04 nż
+880	1	193638	17:50:00	17:50:00		Bł. Karoliny przedszkole 06
+880	1	193638	17:51:00	17:51:00		Odrzykońska / Bł. Karoliny 02 nż
+880	1	193638	17:52:00	17:52:00		Odrzykońska / Baligrodzka 04 nż
+880	1	193638	17:53:00	17:53:00		Iwonicka / Korczyńska 02 nż
+880	1	193638	17:54:00	17:54:00		Baligrodzka 01
 
-1633	1	188351	19:55:00	19:55:00		Kard. K. Wojtyły pętla 03 nż
-1633	1	188351	19:56:00	19:56:00		Kard. K. Wojtyły kościół 06 nż
-1633	1	188351	19:57:00	19:57:00		Miła Dom Kultury 05 nż
-1633	1	188351	19:58:00	19:58:00		Miła bloki 03 nż
-1633	1	188351	19:59:00	19:59:00		Miła / Strażacka 01 nż
-1633	1	188351	20:00:00	20:00:00		Strażacka / Sympatyczna 06 nż
-1633	1	188351	20:01:00	20:01:00		Strażacka / Sikorskiego 08 nż
-1633	1	188351	20:03:00	20:03:00		Sikorskiego / Robotnicza 05 nż
-1633	1	188351	20:04:00	20:04:00		Sikorskiego domki 03 nż
-1633	1	188351	20:06:00	20:06:00		Sikorskiego Katedra 01 nż
-1633	1	188351	20:08:00	20:08:00		Rejtana / Armii Krajowej 12
-1633	1	188351	20:09:00	20:09:00		Rejtana / Paderewskiego 10
-1633	1	188351	20:10:00	20:10:00		Rejtana / Krzyżanowskiego 08
-1633	1	188351	20:12:00	20:12:00		Kopisto Uniwersytet 02
-1633	1	188351	20:14:00	20:14:00		Kopisto Most Zamkowy 04
-1633	1	188351	20:15:00	20:15:00		Kilara 01 nż
-1633	1	188351	20:17:00	20:17:00		Lisa-Kuli 02
-1633	1	188351	20:18:00	20:18:00		Cieplińskiego 01
-1633	1	188351	20:20:00	20:20:00		Piłsudskiego U. Marszałkowski 08
-1633	1	188351	20:22:00	20:22:00		Krakowska Jedn. Wojskowa 02
-1633	1	188351	20:23:00	20:23:00		Krakowska szpital 04
-1633	1	188351	20:24:00	20:24:00		Krakowska galeria 06
-1633	1	188351	20:26:00	20:26:00		Ofiar Katynia galeria 06
-1633	1	188351	20:27:00	20:27:00		Kotuli / Ustrzycka 02 nż
-1633	1	188351	20:28:00	20:28:00		Kotuli domki 04 nż
-1633	1	188351	20:29:00	20:29:00		Bł. Karoliny / Strzyżowska 02 nż
-1633	1	188351	20:30:00	20:30:00		Bł. Karoliny / Sanocka 04 nż
-1633	1	188351	20:31:00	20:31:00		Bł. Karoliny przedszkole 06
-1633	1	188351	20:32:00	20:32:00		Odrzykońska / Bł. Karoliny 02 nż
-1633	1	188351	20:33:00	20:33:00		Odrzykońska / Baligrodzka 04 nż
-1633	1	188351	20:34:00	20:34:00		Iwonicka / Korczyńska 02 nż
-1633	1	188351	20:35:00	20:35:00		Baligrodzka 01
+1449	1	193786	18:10:00	18:10:00		Baligrodzka 01
+1449	1	193786	18:11:00	18:11:00		Iwonicka / Korczyńska 01 nż
+1449	1	193786	18:12:00	18:12:00		Odrzykońska / Iwonicka 01 nż
+1449	1	193786	18:14:00	18:14:00		Bł. Karoliny 09
+1449	1	193786	18:15:00	18:15:00		Bł. Karoliny przedszkole 07
+1449	1	193786	18:16:00	18:16:00		Bł. Karoliny / Nowosądecka 05 nż
+1449	1	193786	18:17:00	18:17:00		Bł. Karoliny / Sanocka 03 nż
+1449	1	193786	18:18:00	18:18:00		Bł. Karoliny / Strzyżowska 01 nż
+1449	1	193786	18:19:00	18:19:00		Kotuli / Solarza 03 nż
+1449	1	193786	18:20:00	18:20:00		Kotuli / Zbyszewskiego 01 nż
+1449	1	193786	18:23:00	18:23:00		Krakowska galeria 05
+1449	1	193786	18:24:00	18:24:00		Krakowska szpital 03
+1449	1	193786	18:26:00	18:26:00		Krakowska Jedn. Wojskowa 01
+1449	1	193786	18:28:00	18:28:00		Piłsudskiego U. Wojewódzki 03
+1449	1	193786	18:29:00	18:29:00		Pl. Wolności 01
+1449	1	193786	18:31:00	18:31:00		Rejtana / Lwowska 01
+1449	1	193786	18:32:00	18:32:00		Rejtana / Kustronia 03 nż
+1449	1	193786	18:33:00	18:33:00		Rejtana Uniwersytet 05
+1449	1	193786	18:35:00	18:35:00		Niepodległości / Rejtana 02
+1449	1	193786	18:36:00	18:36:00		Niepodległości Dom Dziecka 04 nż
+1449	1	193786	18:37:00	18:37:00		Niepodległości działki 06 nż
+1449	1	193786	18:39:00	18:39:00		Armii Krajowej szpital 10 nż
+1449	1	193786	18:41:00	18:41:00		Lwowska szpital 06
+1449	1	193786	18:43:00	18:43:00		Cienista / Lwowska 02 nż
+1449	1	193786	18:44:00	18:44:00		Cienista cmentarz 04
 
-1631	1	188353	21:00:00	21:00:00		Baligrodzka 01
-1631	1	188353	21:01:00	21:01:00		Iwonicka / Korczyńska 01 nż
-1631	1	188353	21:02:00	21:02:00		Odrzykońska / Iwonicka 01 nż
-1631	1	188353	21:04:00	21:04:00		Bł. Karoliny 09
-1631	1	188353	21:05:00	21:05:00		Bł. Karoliny przedszkole 07
-1631	1	188353	21:06:00	21:06:00		Bł. Karoliny / Nowosądecka 05 nż
-1631	1	188353	21:07:00	21:07:00		Bł. Karoliny / Sanocka 03 nż
-1631	1	188353	21:08:00	21:08:00		Bł. Karoliny / Strzyżowska 01 nż
-1631	1	188353	21:09:00	21:09:00		Kotuli / Solarza 03 nż
-1631	1	188353	21:10:00	21:10:00		Kotuli / Zbyszewskiego 01 nż
-1631	1	188353	21:13:00	21:13:00		Krakowska galeria 05
-1631	1	188353	21:14:00	21:14:00		Krakowska szpital 03
-1631	1	188353	21:15:00	21:15:00		Krakowska Jedn. Wojskowa 01
-1631	1	188353	21:16:00	21:16:00		Piłsudskiego U. Marszałkowski 05
-1631	1	188353	21:17:00	21:17:00		Cieplińskiego 02
-1631	1	188353	21:18:00	21:18:00		Lisa-Kuli 01
-1631	1	188353	21:20:00	21:20:00		Kilara 02 nż
-1631	1	188353	21:22:00	21:22:00		Kopisto U. Skarbowy 03
-1631	1	188353	21:23:00	21:23:00		Kopisto Uniwersytet 01
-1631	1	188353	21:24:00	21:24:00		Rejtana / Kopisto 07
-1631	1	188353	21:25:00	21:25:00		Rejtana / Popiełuszki 09
-1631	1	188353	21:27:00	21:27:00		Sikorskiego / Powst. Warszawy 02 nż
-1631	1	188353	21:28:00	21:28:00		Sikorskiego Katedra 04 nż
-1631	1	188353	21:29:00	21:29:00		Sikorskiego / Łukasiewicza 06 nż
-1631	1	188353	21:30:00	21:30:00		Sikorskiego domki 08 nż
-1631	1	188353	21:31:00	21:31:00		Strażacka / Sikorskiego 07 nż
-1631	1	188353	21:32:00	21:32:00		Strażacka / Sympatyczna 05 nż
-1631	1	188353	21:33:00	21:33:00		Miła / Strażacka 02 nż
-1631	1	188353	21:34:00	21:34:00		Miła bloki 04 nż
-1631	1	188353	21:35:00	21:35:00		Miła szkoła 06 nż
-1631	1	188353	21:36:00	21:36:00		Kard. K. Wojtyły kościół 05 nż
-1631	1	188353	21:38:00	21:38:00		Kard. K. Wojtyły pętla 03 nż
+1447	1	193616	19:04:00	19:04:00		Cienista cmentarz 01
+1447	1	193616	19:05:00	19:05:00		Lwowska / Cienista 07 nż
+1447	1	193616	19:07:00	19:07:00		Lwowska szpital 05
+1447	1	193616	19:09:00	19:09:00		Armii Krajowej kościół 09 nż
+1447	1	193616	19:10:00	19:10:00		Niepodległości / Armii Krajowej 05
+1447	1	193616	19:11:00	19:11:00		Niepodległości / Mieszka I 03 nż
+1447	1	193616	19:12:00	19:12:00		Niepodległości Dom Dziecka 01 nż
+1447	1	193616	19:13:00	19:13:00		Rejtana Uniwersytet 06
+1447	1	193616	19:14:00	19:14:00		Rejtana cmentarz 04 nż
+1447	1	193616	19:15:00	19:15:00		Rejtana / Kustronia 02
+1447	1	193616	19:17:00	19:17:00		Piłsudskiego ZDZ 02
+1447	1	193616	19:18:00	19:18:00		Pl. Wolności 04
+1447	1	193616	19:20:00	19:20:00		Piłsudskiego U. Marszałkowski 08
+1447	1	193616	19:22:00	19:22:00		Krakowska Jedn. Wojskowa 02
+1447	1	193616	19:23:00	19:23:00		Krakowska szpital 04
+1447	1	193616	19:24:00	19:24:00		Krakowska galeria 06
+1447	1	193616	19:26:00	19:26:00		Ofiar Katynia galeria 06
+1447	1	193616	19:27:00	19:27:00		Kotuli / Ustrzycka 02 nż
+1447	1	193616	19:28:00	19:28:00		Kotuli domki 04 nż
+1447	1	193616	19:29:00	19:29:00		Bł. Karoliny / Strzyżowska 02 nż
+1447	1	193616	19:30:00	19:30:00		Bł. Karoliny / Sanocka 04 nż
+1447	1	193616	19:31:00	19:31:00		Bł. Karoliny przedszkole 06
+1447	1	193616	19:32:00	19:32:00		Odrzykońska / Bł. Karoliny 02 nż
+1447	1	193616	19:33:00	19:33:00		Odrzykońska / Baligrodzka 04 nż
+1447	1	193616	19:34:00	19:34:00		Iwonicka / Korczyńska 02 nż
+1447	1	193616	19:35:00	19:35:00		Baligrodzka 01
 
-1633	1	188323	21:56:00	21:56:00		Kard. K. Wojtyły pętla 03 nż
-1633	1	188323	21:57:00	21:57:00		Kard. K. Wojtyły kościół 06 nż
-1633	1	188323	21:58:00	21:58:00		Miła Dom Kultury 05 nż
-1633	1	188323	21:59:00	21:59:00		Miła bloki 03 nż
-1633	1	188323	22:00:00	22:00:00		Miła / Strażacka 01 nż
-1633	1	188323	22:01:00	22:01:00		Strażacka / Sympatyczna 06 nż
-1633	1	188323	22:02:00	22:02:00		Strażacka / Sikorskiego 08 nż
-1633	1	188323	22:03:00	22:03:00		Sikorskiego / Robotnicza 05 nż
-1633	1	188323	22:04:00	22:04:00		Sikorskiego domki 03 nż
-1633	1	188323	22:06:00	22:06:00		Sikorskiego Katedra 01 nż
-1633	1	188323	22:08:00	22:08:00		Rejtana / Armii Krajowej 12
-1633	1	188323	22:09:00	22:09:00		Rejtana / Paderewskiego 10
-1633	1	188323	22:10:00	22:10:00		Rejtana / Krzyżanowskiego 08
-1633	1	188323	22:12:00	22:12:00		Kopisto Uniwersytet 02
-1633	1	188323	22:14:00	22:14:00		Kopisto Most Zamkowy 04
-1633	1	188323	22:15:00	22:15:00		Kilara 01 nż
-1633	1	188323	22:17:00	22:17:00		Lisa-Kuli 02
-1633	1	188323	22:18:00	22:18:00		Cieplińskiego 01
-1633	1	188323	22:20:00	22:20:00		Piłsudskiego U. Marszałkowski 08
-1633	1	188323	22:22:00	22:22:00		Krakowska Jedn. Wojskowa 02
-1633	1	188323	22:23:00	22:23:00		Krakowska szpital 04
-1633	1	188323	22:24:00	22:24:00		Krakowska galeria 06
-1633	1	188323	22:26:00	22:26:00		Ofiar Katynia galeria 06
-1633	1	188323	22:27:00	22:27:00		Kotuli / Ustrzycka 02 nż
-1633	1	188323	22:28:00	22:28:00		Kotuli domki 04 nż
-1633	1	188323	22:29:00	22:29:00		Bł. Karoliny / Strzyżowska 02 nż
-1633	1	188323	22:30:00	22:30:00		Bł. Karoliny / Sanocka 04 nż
-1633	1	188323	22:31:00	22:31:00		Bł. Karoliny przedszkole 06
-1633	1	188323	22:32:00	22:32:00		Odrzykońska / Bł. Karoliny 02 nż
-1633	1	188323	22:33:00	22:33:00		Odrzykońska / Baligrodzka 04 nż
-1633	1	188323	22:34:00	22:34:00		Iwonicka / Korczyńska 02 nż
-1633	1	188323	22:35:00	22:35:00		Baligrodzka 01
+885	1	193579	19:55:00	19:55:00		Baligrodzka 01
+885	1	193579	19:56:00	19:56:00		Iwonicka / Korczyńska 01 nż
+885	1	193579	19:57:00	19:57:00		Odrzykońska / Iwonicka 01 nż
+885	1	193579	19:59:00	19:59:00		Bł. Karoliny 09
+885	1	193579	20:00:00	20:00:00		Bł. Karoliny przedszkole 07
+885	1	193579	20:01:00	20:01:00		Bł. Karoliny / Nowosądecka 05 nż
+885	1	193579	20:02:00	20:02:00		Sanocka / Krośnieńska 01 nż
+885	1	193579	20:04:00	20:04:00		Ustrzycka pętla 01 nż
+885	1	193579	20:06:00	20:06:00		Ofiar Katynia park 03
+885	1	193579	20:07:00	20:07:00		Ofiar Katynia kładka 01
+885	1	193579	20:08:00	20:08:00		Wyzwolenia / Ofiar Katynia 07
+885	1	193579	20:09:00	20:09:00		Wyzwolenia kościół 05
+885	1	193579	20:10:00	20:10:00		Okulickiego / Wyzwolenia 05 nż
+885	1	193579	20:11:00	20:11:00		Okulickiego / Zwierzyniecka 03 nż
+885	1	193579	20:12:00	20:12:00		Okulickiego C. Handlowe 01
+885	1	193579	20:14:00	20:14:00		Krakowska Jedn. Wojskowa 01
+885	1	193579	20:16:00	20:16:00		Piłsudskiego U. Wojewódzki 03
+885	1	193579	20:17:00	20:17:00		Pl. Wolności 01
+885	1	193579	20:20:00	20:20:00		Dworaka targ 01
 
-1647	1	188813	23:00:00	23:00:00		Baligrodzka 01
-1647	1	188813	23:01:00	23:01:00		Iwonicka / Korczyńska 01 nż
-1647	1	188813	23:02:00	23:02:00		Odrzykońska / Iwonicka 01 nż
-1647	1	188813	23:04:00	23:04:00		Bł. Karoliny 09
-1647	1	188813	23:05:00	23:05:00		Bł. Karoliny przedszkole 07
-1647	1	188813	23:06:00	23:06:00		Bł. Karoliny / Nowosądecka 05 nż
-1647	1	188813	23:07:00	23:07:00		Bł. Karoliny / Sanocka 03 nż
-1647	1	188813	23:08:00	23:08:00		Bł. Karoliny / Strzyżowska 01 nż
-1647	1	188813	23:09:00	23:09:00		Kotuli / Solarza 03 nż
-1647	1	188813	23:10:00	23:10:00		Kotuli / Zbyszewskiego 01 nż
-1647	1	188813	23:13:00	23:13:00		Krakowska galeria 05
-1647	1	188813	23:14:00	23:14:00		Krakowska szpital 03
-1647	1	188813	23:15:00	23:15:00		Krakowska Jedn. Wojskowa 01
-1647	1	188813	23:16:00	23:16:00		Piłsudskiego U. Marszałkowski 05
+880	1	193813	20:29:00	20:29:00		Dworaka targ 01
+880	1	193813	20:32:00	20:32:00		Piłsudskiego ZDZ 02
+880	1	193813	20:33:00	20:33:00		Pl. Wolności 04
+880	1	193813	20:35:00	20:35:00		Piłsudskiego U. Marszałkowski 08
+880	1	193813	20:37:00	20:37:00		Krakowska Jedn. Wojskowa 02
+880	1	193813	20:38:00	20:38:00		Okulickiego C. Handlowe 02
+880	1	193813	20:39:00	20:39:00		Okulickiego / Zwierzyniecka 04 nż
+880	1	193813	20:40:00	20:40:00		Wyzwolenia / Iranka-Osmeckiego 06
+880	1	193813	20:41:00	20:41:00		Wyzwolenia / Brydaka 08
+880	1	193813	20:42:00	20:42:00		Ofiar Katynia / Wyzwolenia 02
+880	1	193813	20:43:00	20:43:00		Ofiar Katynia kładka 04
+880	1	193813	20:44:00	20:44:00		Ofiar Katynia galeria 06
+880	1	193813	20:46:00	20:46:00		Ustrzycka pętla 02 nż
+880	1	193813	20:47:00	20:47:00		Sanocka / Krośnieńska 02 nż
+880	1	193813	20:48:00	20:48:00		Bł. Karoliny / Sanocka 04 nż
+880	1	193813	20:49:00	20:49:00		Bł. Karoliny przedszkole 06
+880	1	193813	20:50:00	20:50:00		Odrzykońska / Bł. Karoliny 02 nż
+880	1	193813	20:51:00	20:51:00		Odrzykońska / Baligrodzka 04 nż
+880	1	193813	20:52:00	20:52:00		Iwonicka / Korczyńska 02 nż
+880	1	193813	20:53:00	20:53:00		Baligrodzka 01
+
+1449	1	193772	21:10:00	21:10:00		Baligrodzka 01
+1449	1	193772	21:11:00	21:11:00		Iwonicka / Korczyńska 01 nż
+1449	1	193772	21:12:00	21:12:00		Odrzykońska / Iwonicka 01 nż
+1449	1	193772	21:14:00	21:14:00		Bł. Karoliny 09
+1449	1	193772	21:15:00	21:15:00		Bł. Karoliny przedszkole 07
+1449	1	193772	21:16:00	21:16:00		Bł. Karoliny / Nowosądecka 05 nż
+1449	1	193772	21:17:00	21:17:00		Bł. Karoliny / Sanocka 03 nż
+1449	1	193772	21:18:00	21:18:00		Bł. Karoliny / Strzyżowska 01 nż
+1449	1	193772	21:19:00	21:19:00		Kotuli / Solarza 03 nż
+1449	1	193772	21:20:00	21:20:00		Kotuli / Zbyszewskiego 01 nż
+1449	1	193772	21:23:00	21:23:00		Krakowska galeria 05
+1449	1	193772	21:24:00	21:24:00		Krakowska szpital 03
+1449	1	193772	21:25:00	21:25:00		Krakowska Jedn. Wojskowa 01
+1449	1	193772	21:27:00	21:27:00		Piłsudskiego U. Wojewódzki 03
+1449	1	193772	21:28:00	21:28:00		Pl. Wolności 01
+1449	1	193772	21:30:00	21:30:00		Rejtana / Lwowska 01
+1449	1	193772	21:31:00	21:31:00		Rejtana / Kustronia 03 nż
+1449	1	193772	21:32:00	21:32:00		Rejtana Uniwersytet 05
+1449	1	193772	21:34:00	21:34:00		Niepodległości / Rejtana 02
+1449	1	193772	21:35:00	21:35:00		Niepodległości Dom Dziecka 04 nż
+1449	1	193772	21:36:00	21:36:00		Niepodległości działki 06 nż
+1449	1	193772	21:37:00	21:37:00		Armii Krajowej szpital 10 nż
+1449	1	193772	21:38:00	21:38:00		Lwowska szpital 06
+1449	1	193772	21:39:00	21:39:00		Cienista / Lwowska 02 nż
+1449	1	193772	21:40:00	21:40:00		Cienista cmentarz 04
+
+1447	1	193577	22:04:00	22:04:00		Cienista cmentarz 01
+1447	1	193577	22:05:00	22:05:00		Lwowska / Cienista 07 nż
+1447	1	193577	22:07:00	22:07:00		Lwowska szpital 05
+1447	1	193577	22:09:00	22:09:00		Armii Krajowej kościół 09 nż
+1447	1	193577	22:10:00	22:10:00		Niepodległości / Armii Krajowej 05
+1447	1	193577	22:11:00	22:11:00		Niepodległości / Mieszka I 03 nż
+1447	1	193577	22:12:00	22:12:00		Niepodległości Dom Dziecka 01 nż
+1447	1	193577	22:13:00	22:13:00		Rejtana Uniwersytet 06
+1447	1	193577	22:14:00	22:14:00		Rejtana cmentarz 04 nż
+1447	1	193577	22:15:00	22:15:00		Rejtana / Kustronia 02
+1447	1	193577	22:17:00	22:17:00		Piłsudskiego ZDZ 02
+1447	1	193577	22:18:00	22:18:00		Pl. Wolności 04
+1447	1	193577	22:20:00	22:20:00		Piłsudskiego U. Marszałkowski 08
+1447	1	193577	22:22:00	22:22:00		Krakowska Jedn. Wojskowa 02
+1447	1	193577	22:23:00	22:23:00		Krakowska szpital 04
+1447	1	193577	22:24:00	22:24:00		Krakowska galeria 06
+1447	1	193577	22:26:00	22:26:00		Ofiar Katynia galeria 06
+1447	1	193577	22:27:00	22:27:00		Kotuli / Ustrzycka 02 nż
+1447	1	193577	22:28:00	22:28:00		Kotuli domki 04 nż
+1447	1	193577	22:29:00	22:29:00		Bł. Karoliny / Strzyżowska 02 nż
+1447	1	193577	22:30:00	22:30:00		Bł. Karoliny / Sanocka 04 nż
+1447	1	193577	22:31:00	22:31:00		Bł. Karoliny przedszkole 06
+1447	1	193577	22:32:00	22:32:00		Odrzykońska / Bł. Karoliny 02 nż
+1447	1	193577	22:33:00	22:33:00		Odrzykońska / Baligrodzka 04 nż
+1447	1	193577	22:34:00	22:34:00		Iwonicka / Korczyńska 02 nż
+1447	1	193577	22:35:00	22:35:00		Baligrodzka 01

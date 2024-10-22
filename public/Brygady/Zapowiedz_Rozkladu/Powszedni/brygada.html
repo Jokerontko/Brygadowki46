@@ -4,8 +4,8 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=0.6">
-   <title>Szczegóły brygady</title>
    <link rel="stylesheet" href="../../../style_css/headermenu.css">
+   <title>Szczegóły brygady</title>
    <style>
       body {
          background: rgb(50, 50, 50);
@@ -15,13 +15,6 @@
          align-items: center;
          height: 100vh;
          color: white;
-         margin: 0;
-      }
-
-      header {
-         width: 100%;
-         padding: 10px 0;
-         text-align: center;
       }
 
       h1 {
@@ -58,9 +51,9 @@
 
 <body>
    <header>
-      <a href="../../Main_Panel.html" class="menu">Panel Główny</a>
+      <a href="../../../Main_Panel.html" class="menu">Panel Główny</a>
       <a href="../../ChooseDay.html" class="menu">Brygady</a>
-      <a href="../../Brygady/Kursy/Kursy.html" class="menu">Kursy</a>
+      <a href="../../../Brygady/Kursy/Kursy.html" class="menu">Kursy</a>
       <a href="#" class="menu exit" id="logout">Opuść Panel</a>
       <hr>
    </header>
@@ -70,7 +63,7 @@
    <table id="rozkładTable">
       <thead>
          <tr>
-            <th>Lp.</th>
+            <th>Lp</th>
             <th>Linia</th>
             <th>Początek</th>
             <th>Kierunek</th>
@@ -86,8 +79,6 @@
    </table>
 
    <script>
-      const brygadaNumber = '2'; // Tutaj wpisz numer brygady, którego chcesz użyć
-
       // Check if the user is logged in, otherwise redirect
       function checkLogin() {
          const user = JSON.parse(sessionStorage.getItem('user'));
@@ -121,7 +112,7 @@
             return null;
          }
 
-         let filePath = `../../../../Brygady_Zapowiedz/WYNIKI/Gotowe_brygady/${brygadaNumber}/${brygadaTitle}/GOTOWE.txt`;
+         let filePath = `../../../Brygady_Zapowiedz/WYNIKI/Gotowe_brygady/${brygadaNumber}/${brygadaTitle}/GOTOWE.txt`;
          try {
             const response = await fetch(filePath);
             if (!response.ok) {
@@ -230,15 +221,18 @@
                   const duration = calculateDuration(startTime, endTime);
 
                   let row = document.createElement("tr");
-                  row.innerHTML =
-                     `<td class="Lp">${lp}.</td>
-                     <td class="NrOfLine">${currentRouteId}</td>
-                     <td>${firstStop}</td>
-                     <td>${lastStop}</td>
-                     <td>${startTime}</td>
-                     <td>${endTime}</td>
-                     <td>${duration}</td>
-                     <td>N/A</td>`;
+                  // Create a clickable cell for Lp
+                  let lpCell = createClickableCell(lp);
+                  row.appendChild(lpCell); // Append the clickable cell
+                  row.innerHTML += `
+                    <td class="NrOfLine">${currentRouteId}</td>
+                    <td>${firstStop}</td>
+                    <td>${lastStop}</td>
+                    <td>${startTime}</td>
+                    <td>${endTime}</td>
+                    <td>${duration}</td>
+                    <td>N/A</td>`;
+
                   tableBody.appendChild(row);
                   lp++; // Increment Lp after adding the row
                   currentRouteId = null;
@@ -269,18 +263,21 @@
             const duration = calculateDuration(startTime, endTime);
 
             let row = document.createElement("tr");
-            row.innerHTML =
-               `<td>${lp}.</td>
-             <td>${currentRouteId}</td>
-             <td>${firstStop}</td>
-             <td>${lastStop}</td>
-             <td>${startTime}</td>
-             <td>${endTime}</td>
-             <td>${duration}</td>
-             <td>N/A</td>`;
+            // Create a clickable cell for the last row
+            let lpCell = createClickableCell(lp);
+            row.appendChild(lpCell); // Append the clickable cell
+            row.innerHTML += `
+            <td>${currentRouteId}</td>
+            <td>${firstStop}</td>
+            <td>${lastStop}</td>
+            <td>${startTime}</td>
+            <td>${endTime}</td>
+            <td>${duration}</td>
+            <td>N/A</td>`;
             tableBody.appendChild(row);
             lp++;
          }
+
 
          // Dodaj wiersz "Wyjazd Na Linie" jeśli pierwszy "Początek" nie jest "Lubelska Zajezdnia MPK"
          let wyjazdAdded = false; // Flaga, aby sprawdzić, czy dodano "Wyjazd Na Linie"
@@ -314,34 +311,19 @@
             const cleanKierunek = kierunekValue ? removeNumbers(kierunekValue).trim() : null;
             const cleanPoczątek = początekValue ? removeNumbers(początekValue).trim() : null;
 
-            // Sprawdź, czy wiersz "Przejazd Techniczny" już istnieje
-            const przejazdRowExists = [...tableBody.rows].some(row => row.innerText.includes("Przejazd Techniczny"));
+            // Sprawdzanie warunków do dodania "Przejazd Techniczny"
+            if (cleanKierunek && cleanPoczątek && cleanKierunek !== cleanPoczątek) { // Upewnij się, że kierunek i początek są różne
 
-            if (cleanKierunek && cleanPoczątek &&
-               !currentRow.innerText.toLowerCase().includes("rezerwa") &&
-               !nextRow.innerText.toLowerCase().includes("rezerwa") &&
-               !exceptions.includes(cleanKierunek) && // Sprawdzenie wyjątków dla Kierunek
-               !exceptions.includes(cleanPoczątek)) { // Sprawdzenie wyjątków dla Początek
-               if (cleanKierunek !== cleanPoczątek) {
-                  // Jeśli istnieje wiersz "Przejazd Techniczny", usuń go
-                  if (przejazdRowExists) {
-                     [...tableBody.rows].forEach(row => {
-                        if (row.innerText.includes("Przejazd Techniczny")) {
-                           tableBody.removeChild(row);
-                        }
-                     });
-                  }
-
-                  let przejazdRow = document.createElement("tr");
-                  let przejazdCell = document.createElement("td");
-                  przejazdCell.colSpan = 8;
-                  przejazdCell.innerText = "Przejazd Techniczny";
-                  przejazdCell.style.textAlign = "center"; // Wyśrodkowanie tekstu
-                  przejazdRow.appendChild(przejazdCell);
-                  tableBody.insertBefore(przejazdRow, nextRow); // Dodaj przed następnym wierszem
-                  i++; // Przeskocz do następnego wiersza po dodaniu "Przejazd Techniczny"
-                  przejazdRow.style.backgroundColor = "rgba(255, 165, 0, 0.2)"; // Dodaj kolor tła
-               }
+               // Dodaj nowy wiersz tylko jeśli cleanKierunek i cleanPoczątek są różne
+               let przejazdRow = document.createElement("tr");
+               let przejazdCell = document.createElement("td");
+               przejazdCell.colSpan = 8;
+               przejazdCell.innerText = "Przejazd Techniczny";
+               przejazdCell.style.textAlign = "center"; // Wyśrodkowanie tekstu
+               przejazdRow.appendChild(przejazdCell);
+               tableBody.insertBefore(przejazdRow, nextRow); // Dodaj przed następnym wierszem
+               i++; // Przeskocz do następnego wiersza po dodaniu "Przejazd Techniczny"
+               przejazdRow.style.backgroundColor = "rgba(255, 165, 0, 0.2)"; // Dodaj kolor tła
             }
          }
 
@@ -359,6 +341,35 @@
                zjazdRow.style.backgroundColor = "rgba(255, 165, 0, 0.2)"; // Dodaj kolor tła
             }
          }
+
+         // Helper function to create a table cell with optional click event
+         function createCell(content) {
+            const td = document.createElement('td');
+            td.textContent = content;
+            return td;
+         }
+
+         // Create a clickable cell specifically for the Lp column
+         function createClickableCell(lpNumber) {
+            const td = document.createElement('td');
+            td.textContent = lpNumber + '.'; // Add dot after the number
+
+            // Set up the click event
+            td.addEventListener('click', function() {
+               alert(`Clicked on Lp: ${lpNumber}`);
+               // Możesz tutaj umieścić kod, aby przekierować na inną stronę lub wykonać inną akcję
+               // sessionStorage.setItem('brygadaTitle', modifiedBrygada);
+               // const rodzajDnia = sessionStorage.getItem('WybranyRodzajDnia');
+               // window.location.href = `../${rodzajDnia}/brygada.html`;
+            });
+
+            td.style.cursor = 'pointer'; // Change cursor to pointer
+            td.style.color = 'orange'; // Optional: change text color
+
+            return td;
+         }
+
+
 
          // Fetch kierunki and update the lines
          const kierunkiLines = await fetchKierunkiFile();
@@ -386,6 +397,36 @@
             console.error("Nie udało się wczytać GOTOWE.txt.");
          }
       }
+
+      // Pobranie pełnej ścieżki do pliku
+      const fullPath = window.location.pathname;
+
+      // Podzielenie ścieżki na części na podstawie "/"
+      const pathParts = fullPath.split('/');
+
+      // Pobranie nazwy folderu (zakładamy, że folder jest bezpośrednio nad plikiem)
+      const folderName = pathParts[pathParts.length - 2]; // -2, bo ostatni element to nazwa pliku
+
+      // Inicjalizacja zmiennej brygadaNumber na podstawie folderu
+      let brygadaNumber;
+
+      switch (folderName) {
+         case 'Niedzielny':
+            brygadaNumber = '1';
+            break;
+         case 'Powszedni':
+            brygadaNumber = '2';
+            break;
+         case 'PowszedniWolny':
+            brygadaNumber = '3';
+            break;
+         case 'Sobotni':
+            brygadaNumber = '4';
+            break;
+         default:
+            brygadaNumber = '2'; // Domyślna wartość, jeśli folder nie pasuje do żadnego przypadku
+      }
+
 
       window.onload = init;
 
