@@ -54,6 +54,12 @@
          color: orange;
       }
 
+      .hide {
+         font-size: 0px;
+         padding: 0px;
+         border: 0px;
+      }
+
    </style>
 </head>
 
@@ -80,7 +86,7 @@
             <th>Godz. Zak.</th>
             <th>Czas trwania</th>
             <th>Km</th>
-            <th>Kod Trasy</th>
+            <th class="hide">Kod Trasy</th>
          </tr>
       </thead>
       <tbody id="dane-tabeli">
@@ -243,7 +249,7 @@
                     <td>${endTime}</td>
                     <td>${duration}</td>
                     <td>N/A</td>
-                     <td>${tripId}</td> 
+                     <td class="hide">${tripId}</td> 
 `;
 
 
@@ -290,7 +296,7 @@
             <td>${endTime}</td>
             <td>${duration}</td>
             <td>N/A</td>
-            <td>${tripId}</td>
+            <td class="hide">${tripId}</td>
 `;
 
             tableBody.appendChild(row);
