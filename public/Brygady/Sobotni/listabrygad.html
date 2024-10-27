@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="../../style_css/headermenu.css">
+   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+   <meta http-equiv="Pragma" content="no-cache">
+   <meta http-equiv="Expires" content="0">
+   <title>Wybór dnia</title>
+   <style>
+      body {
+         background: rgb(50, 50, 50);
+         font-family: Arial, sans-serif;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         height: 100vh;
+         color: white;
+      }
+
+      h1 {
+         font-size: 2rem;
+         margin-bottom: -13px;
+      }
+
+      table {
+         width: 25%;
+         border-collapse: collapse;
+         border-radius: 5px;
+         overflow: hidden;
+      }
+
+      th,
+      td {
+         text-align: center;
+         padding: 10px;
+         border: 1px solid #ccc;
+      }
+
+      th {
+         background-color: rgba(255, 165, 0, 0.2);
+      }
+
+      td {
+         font-size-adjust: auto;
+      }
+
+      .bordered {
+         border: 1px solid white;
+         padding: 5px;
+         display: inline-block;
+         border-radius: 5px;
+         margin: 0 5px;
+      }
+
+      .movetobrygada {
+         text-decoration: none;
+         color: white;
+      }
+
+      .filter-container {
+         margin-bottom: 30px;
+      }
+
+      .filter-input {
+         padding: 10px;
+         margin-right: 10px;
+         border-radius: 5px;
+         border: 1px solid #ccc;
+         background-color: #333;
+         color: white;
+         display: flex;
+         margin-bottom: -8px;
+      }
+
+      .filter-label {
+         font-weight: bold;
+         margin-right: 5px;
+      }
+
+      .top {
+         margin: 10px;
+         margin-bottom: 30px;
+      }
+
+   </style>
+</head>
+
+<body>
+   <header>
+      <a href="../../Main_Panel.html" class="menu">Panel Główny</a>
+      <a href="../ChooseDay.html" class="menu">Brygady</a>
+      <a href="../../Brygady/Kursy/Kursy.html" class="menu">Kursy</a>
+      <a href="#" class="menu exit" id="logout">Opuść Panel</a>
+      <hr>
+   </header>
+
+   <center>
+      <h1>Rozkład {Jaki?}</h1>
+      <p class="top">Ważny od dnia <span id="waznyOd">ładowanie...</span></p>
+   </center>
+
+   <div class="filter-container">
+      <label class="filter-label" for="filterBrygada">Filtruj wg brygady:</label>
+      <input type="text" id="filterBrygada" class="filter-input" placeholder="Wpisz numer brygady">
+      <br>
+      <label class="filter-label" for="filterLinie">Filtruj wg linii:</label>
+      <input type="text" id="filterLinie" class="filter-input" placeholder="Wpisz numer linii">
+
+   </div>
+
+   <table>
+      <thead>
+         <tr>
+            <th>Brygada</th>
+            <th>Linie</th>
+            <th>Godz. Rozp.</th>
+            <th>Godz. Zak.</th>
+            <th>Km</th>
+         </tr>
+      </thead>
+      <tbody id="dataTableBody">
+         <!-- Wiersze zostaną dodane dynamicznie -->
+      </tbody>
+   </table>
+
+   <script>
+      async function fetchDate() {
+         try {
+            const response = await fetch('../wazny_od.txt');
+            if (!response.ok) {
+               throw new Error('Błąd podczas ładowania daty');
+            }
+            const dateText = await response.text();
+            document.getElementById('waznyOd').textContent = dateText.trim();
+         } catch (error) {
+            console.error('Błąd:', error);
+            document.getElementById('waznyOd').textContent = 'Błąd ładowania daty';
+         }
+      }
+
+      window.onload = async function() {
+         await fetchDate(); // Pobierz datę z pliku i wstaw ją do strony
+         checkLogin();
+         await loadData();
+         addFilters();
+      };
+
+      document.addEventListener("DOMContentLoaded", function() {
+         // Funkcja do pobrania nazwy folderu
+         function getFolderName() {
+            // Użyj lokalizacji do uzyskania ścieżki
+            const path = window.location.pathname;
+            const folderName = path.substring(0, path.lastIndexOf('/')).split('/').pop();
+            return folderName;
+         }
+
+         // Uzupełnij tytuł o nazwę folderu
+         const folderName = getFolderName();
+         document.querySelector('h1').innerHTML = `Rozkład ${folderName}`;
+      });
+
+      function checkLogin() {
+         const user = JSON.parse(sessionStorage.getItem('user'));
+
+         if (!user) {
+            window.location.href = '../../zoltakartka.html';
+         }
+      }
+
+      function normalizeTime(time) {
+         const parts = time.split(':'); // Rozdziel na godziny, minuty i sekundy
+         if (parts.length !== 2) return time; // Sprawdź, czy format jest poprawny
+         let hours = parseInt(parts[0], 10);
+         const minutes = parseInt(parts[1], 10);
+         const seconds = parseInt(parts[2], 10);
+
+         // Sprawdź, czy godziny są większe lub równe 24
+         while (hours >= 24) {
+            hours -= 24; // Odejmij 24 godziny
+         }
+
+         // Zwróć sformatowany czas
+         return `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}`;
+      }
+
+      async function loadData() {
+         try {
+            const response = await fetch(`/api/data?brygada=${brygadaNumber}`); // Wysyłamy numer brygady w zapytaniu
+            const data = await response.json();
+
+            data.sort((a, b) => {
+               const numA = parseInt(a.brygada, 10);
+               const numB = parseInt(b.brygada, 10);
+               return numA - numB;
+            });
+
+            const tableBody = document.getElementById('dataTableBody');
+
+            data.forEach(item => {
+               const normalizedStart = normalizeTime(item.godzRozp); // Normalizuj czas rozpoczęcia
+               const normalizedEnd = normalizeTime(item.godzZak); // Normalizuj czas zakończenia
+
+               const row = document.createElement('tr');
+               row.innerHTML = `
+                        <td><a href="brygada.html" class="movetobrygada" onclick="saveBrygada('${item.brygada}')">${item.brygada}</a></td>
+                        <td><center>${item.linie.split(' ').map(linia => `<span class="bordered">${linia}</span>`).join(' ')}</td>
+                        <td>${normalizedStart}</td> <!-- Zaktualizowane -->
+                        <td>${normalizedEnd}</td> <!-- Zaktualizowane -->
+                        <td>${item.km || 'N/A'}</td>
+                    `;
+               tableBody.appendChild(row);
+            });
+         } catch (error) {
+            console.error('Błąd podczas ładowania danych:', error);
+         }
+      }
+
+      function saveBrygada(brygada) {
+         sessionStorage.setItem('brygadaTitle', brygada.replace(/\//g, "_")); // Zamień "/" na "_" i zapisz w sessionStorage
+         sessionStorage.setItem('selectedBrygada', brygada); // Opcjonalne: możesz zachować również selectedBrygada
+      }
+
+      document.getElementById('logout').addEventListener('click', function() {
+         sessionStorage.clear();
+         window.location.href = '../../index.html';
+      });
+
+      // Funkcja do filtrowania tabeli
+      function addFilters() {
+         const filterLinie = document.getElementById('filterLinie');
+         const filterBrygada = document.getElementById('filterBrygada');
+
+         filterLinie.addEventListener('input', filterTable);
+         filterBrygada.addEventListener('input', filterTable);
+      }
+
+      function filterTable() {
+         const linieFilter = document.getElementById('filterLinie').value.toLowerCase();
+         const brygadaFilter = document.getElementById('filterBrygada').value.toLowerCase();
+         const rows = document.querySelectorAll('#dataTableBody tr');
+
+         rows.forEach(row => {
+            const linie = row.children[1].textContent.toLowerCase();
+            const brygada = row.children[0].textContent.toLowerCase();
+
+            // Zmiana z includes na startsWith dla brygady
+            const showRow = linie.includes(linieFilter) && brygada.startsWith(brygadaFilter);
+            row.style.display = showRow ? '' : 'none';
+         });
+      }
+
+      // Pobranie pełnej ścieżki do pliku
+      const fullPath = window.location.pathname;
+
+      // Podzielenie ścieżki na części na podstawie "/"
+      const pathParts = fullPath.split('/');
+
+      // Pobranie nazwy folderu (zakładamy, że folder jest bezpośrednio nad plikiem)
+      const folderName = pathParts[pathParts.length - 2]; // -2, bo ostatni element to nazwa pliku
+
+      // Inicjalizacja zmiennej brygadaNumber na podstawie folderu
+      let brygadaNumber;
+
+      switch (folderName) {
+         case 'Niedzielny':
+            brygadaNumber = '1';
+            break;
+         case 'Powszedni':
+            brygadaNumber = '2';
+            break;
+         case 'PowszedniWolny':
+            brygadaNumber = '3';
+            break;
+         case 'Sobotni':
+            brygadaNumber = '4';
+            break;
+         default:
+            brygadaNumber = '2'; // Domyślna wartość, jeśli folder nie pasuje do żadnego przypadku
+      }
+
+   </script>
+
+   <p>
+      <center>
+         Rozkłady na dzień dzisiejszy posiadają godziny rozpoczęcia oraz zakończenia <strong>PIERWSZYCH KURSÓW LINIOWYCH zawartych w brygadzie.</strong> <br>
+         W przyszłości planuję to zmienić.<br>
+         Aha i rezerwy też nie pokazuje bo jeszcze tego nie ogarnąłem (*i nie wiem czy ogarnę*)
+      </center>
+   </p>
+
+</body>
+
+</html>
