@@ -8,7 +8,7 @@
    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
    <meta http-equiv="Pragma" content="no-cache">
    <meta http-equiv="Expires" content="0">
-   <title>Szczegóły brygady</title>
+   <title>Szczegóły kursu</title>
    <style>
       body {
          background: rgb(50, 50, 50);
@@ -49,6 +49,11 @@
          background-color: rgba(255, 165, 0, 0.2);
       }
 
+      .NrOflp {
+         text-decoration: none;
+         color: orange;
+      }
+
    </style>
 </head>
 
@@ -75,9 +80,10 @@
             <th>Godz. Zak.</th>
             <th>Czas trwania</th>
             <th>Km</th>
+            <th>Kod Trasy</th>
          </tr>
       </thead>
-      <tbody>
+      <tbody id="dane-tabeli">
          <!-- Rows will be added dynamically -->
       </tbody>
    </table>
@@ -196,6 +202,7 @@
       }
 
       // Process the GOTOWE.txt data and populate the table
+      // Process the GOTOWE.txt data and populate the table
       async function processGOTOWEData(lines) {
          let tableBody = document.querySelector("#rozkładTable tbody");
          let lp = 1;
@@ -204,15 +211,15 @@
          let lastStop = null;
          let startTime = null;
          let endTime = null;
+         let tripId = null;
 
-         // Pomijamy dwie pierwsze linie
          lines.slice(2).forEach((line) => {
             line = line.trim();
 
             if (line.toLowerCase().includes("rezerwa")) {
                let row = document.createElement("tr");
                let cell = document.createElement("td");
-               cell.colSpan = 8;
+               cell.colSpan = 9;
                cell.innerText = line;
                row.appendChild(cell);
                row.style.backgroundColor = "cornflowerblue";
@@ -225,38 +232,42 @@
                   const duration = calculateDuration(startTime, endTime);
 
                   let row = document.createElement("tr");
-                  // Create a clickable cell for Lp
-                  let lpCell = createClickableCell(lp);
-                  row.appendChild(lpCell); // Append the clickable cell
+
+                  // Use `currentRouteId` or whatever identifier you want
                   row.innerHTML += `
+                    <td><a class="NrOflp" href="Szczegoly.html" onclick="savetripid('${tripId}')" >${lp}.</a></td>
                     <td class="NrOfLine">${currentRouteId}</td>
                     <td>${firstStop}</td>
                     <td>${lastStop}</td>
                     <td>${startTime}</td>
                     <td>${endTime}</td>
                     <td>${duration}</td>
-                    <td>N/A</td>`;
+                    <td>N/A</td>
+                     <td>${tripId}</td> 
+`;
+
 
                   tableBody.appendChild(row);
-                  lp++; // Increment Lp after adding the row
+                  lp++;
                   currentRouteId = null;
                   firstStop = null;
                   lastStop = null;
                   startTime = null;
                   endTime = null;
+                  tripId = null;
                }
             } else {
                let parts = line.split(/\s+/);
-               let routeId = parts[0];
+               let routeId = parts[0]; // Assuming this is the identifier you want
                let arrivalTime = parts[3];
                let stopName = parts.slice(5).join(" ");
+               tripId = parts[2]; // Przypisz trip_id
 
                if (!currentRouteId) {
                   currentRouteId = routeId;
                   firstStop = stopName;
                   startTime = normalizeTime(arrivalTime);
                }
-
                lastStop = stopName;
                endTime = normalizeTime(arrivalTime);
             }
@@ -265,19 +276,23 @@
          // Dodaj ostatni wiersz, jeśli istnieje
          if (currentRouteId && firstStop && lastStop && startTime && endTime) {
             const duration = calculateDuration(startTime, endTime);
-
+            const tableBody = document.getElementById('dataTableBody');
             let row = document.createElement("tr");
             // Create a clickable cell for the last row
-            let lpCell = createClickableCell(lp);
-            row.appendChild(lpCell); // Append the clickable cell
+
+
             row.innerHTML += `
+            <td><a class="NrOflp" href="Szczegoly.html">${lp}.</a></td>
             <td>${currentRouteId}</td>
             <td>${firstStop}</td>
             <td>${lastStop}</td>
             <td>${startTime}</td>
             <td>${endTime}</td>
             <td>${duration}</td>
-            <td>N/A</td>`;
+            <td>N/A</td>
+            <td>${tripId}</td>
+`;
+
             tableBody.appendChild(row);
             lp++;
          }
@@ -290,7 +305,7 @@
             if (firstPoczątekValue !== "Lubelska Zajezdnia MPK") {
                let wyjazdRow = document.createElement("tr");
                let wyjazdCell = document.createElement("td");
-               wyjazdCell.colSpan = 8;
+               wyjazdCell.colSpan = 9;
                wyjazdCell.innerText = "Wyjazd Na Linie";
                wyjazdCell.style.textAlign = "center"; // Wyśrodkowanie tekstu
                wyjazdRow.appendChild(wyjazdCell);
@@ -301,7 +316,7 @@
          }
 
          // Tablica wyjątków dla "Przejazd Techniczny"
-         const exceptions = ["Głogów Młp. Zelmer II 02 nż", "Głogów Młp. Leniar I 01 nż", "Langiewicza / Wita Stwosza", "Wita Stwosza pętla"]; // Możesz dodać więcej wyjątków
+         const exceptions = ["Głogów Młp. Zelmer II 02 nż", "Głogów Młp. Leniar I 01 nż", "Langiewicza / Wita Stwosza", "Wita Stwosza pętla", "Ustrzycka  nż"]; // Możesz dodać więcej wyjątków
          // Sprawdzenie wierszy i dodanie "Przejazd Techniczny"
          for (let i = 0; i < tableBody.rows.length - 1; i++) {
             const currentRow = tableBody.rows[i];
@@ -330,7 +345,7 @@
                   // Dodaj nowy wiersz tylko jeśli cleanKierunek i cleanPoczątek są różne
                   let przejazdRow = document.createElement("tr");
                   let przejazdCell = document.createElement("td");
-                  przejazdCell.colSpan = 8;
+                  przejazdCell.colSpan = 9;
                   przejazdCell.innerText = "Przejazd Techniczny";
                   przejazdCell.style.textAlign = "center"; // Wyśrodkowanie tekstu
                   przejazdRow.appendChild(przejazdCell);
@@ -341,19 +356,13 @@
             }
          }
 
-
-
-
-
-
-
          // Dodaj wiersz "Zjazd Do Zajezdni" jeśli ostatni "Kierunek" nie jest "Lubelska Zajezdnia MPK"
          if (tableBody.rows.length > 0) {
             const lastKierunekValue = tableBody.rows[tableBody.rows.length - 1].cells[3].innerText.trim();
             if (lastKierunekValue !== "Lubelska Zajezdnia MPK") {
                let zjazdRow = document.createElement("tr");
                let zjazdCell = document.createElement("td");
-               zjazdCell.colSpan = 8;
+               zjazdCell.colSpan = 9;
                zjazdCell.innerText = "Zjazd Do Zajezdni";
                zjazdCell.style.textAlign = "center"; // Wyśrodkowanie tekstu
                zjazdRow.appendChild(zjazdCell);
@@ -361,35 +370,6 @@
                zjazdRow.style.backgroundColor = "rgba(255, 165, 0, 0.2)"; // Dodaj kolor tła
             }
          }
-
-         // Helper function to create a table cell with optional click event
-         function createCell(content) {
-            const td = document.createElement('td');
-            td.textContent = content;
-            return td;
-         }
-
-         // Create a clickable cell specifically for the Lp column
-         function createClickableCell(lpNumber) {
-            const td = document.createElement('td');
-            td.textContent = lpNumber + '.'; // Add dot after the number
-
-            // Set up the click event
-            td.addEventListener('click', function() {
-               alert(`Clicked on Lp: ${lpNumber}`);
-               // Możesz tutaj umieścić kod, aby przekierować na inną stronę lub wykonać inną akcję
-               // sessionStorage.setItem('brygadaTitle', modifiedBrygada);
-               // const rodzajDnia = sessionStorage.getItem('WybranyRodzajDnia');
-               // window.location.href = `../${rodzajDnia}/brygada.html`;
-            });
-
-            td.style.cursor = 'pointer'; // Change cursor to pointer
-            td.style.color = 'orange'; // Optional: change text color
-
-            return td;
-         }
-
-
 
          // Fetch kierunki and update the lines
          const kierunkiLines = await fetchKierunkiFile();
@@ -500,9 +480,12 @@
 
       // Dodanie nasłuchu kliknięcia na przycisk "Wyróżnij linie"
       document.getElementById("highlightButton").addEventListener("click", toggleHighlight);
-
-
       window.onload = init;
+
+
+      function savetripid(tripid) {
+         sessionStorage.setItem('savedtripid', tripid);
+      }
 
    </script>
 </body>

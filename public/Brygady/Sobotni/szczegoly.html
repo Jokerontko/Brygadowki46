@@ -22,11 +22,11 @@
 
       h1 {
          font-size: 2rem;
-         margin: 40px 0 20px;
+         margin: 40px 0 10px;
       }
 
       table {
-         width: 10%;
+         width: 30%;
          border-collapse: collapse;
          border-radius: 5px;
          overflow: hidden;
@@ -49,6 +49,10 @@
          background-color: rgba(255, 165, 0, 0.2);
       }
 
+      p {
+         font-size: 0px;
+      }
+
    </style>
 </head>
 
@@ -61,27 +65,25 @@
       <hr>
    </header>
 
-   <h1 id="brygadaTitle">Brygada</h1>
+   <h1 id="brygadaTitle">Szczegóły kursu</h1>
+   <p id="valuetripid">Tutaj_wartosc_tripid</p>
 
    <table id="rozkładTable">
       <thead>
          <tr>
-            <th>Lp.</th>
-            <th>Kod Trasy</th>
-            <th>Linia</th>
-            <th>Początek</th>
-            <th>Kierunek</th>
-            <th>Godz. Rozp.</th>
-            <th>Godz. Zak.</th>
-            <th>Czas trwania</th>
+            <th>Lp</th>
+            <th>Przystanek</th>
+            <th>Godzina</th>
             <th>Km</th>
          </tr>
       </thead>
-      <tbody>
+      <tbody id="dane-tabeli">
          <!-- Rows will be added dynamically -->
       </tbody>
    </table>
-
+   <br>
+   <a href="brygada.html" class="menu">Wróć do brygady</a>
+   <br>
    <script>
       // Check if the user is logged in, otherwise redirect
       function checkLogin() {
@@ -92,14 +94,14 @@
       }
 
       // Set the title for the brigade
-      function loadBrygadaTitle() {
-         const brygadaTitle = sessionStorage.getItem('brygadaTitle');
-         if (brygadaTitle) {
-            const formattedTitle = brygadaTitle.replace(/_/g, '/');
-            document.getElementById('brygadaTitle').innerText = `Szczegóły brygady: ${formattedTitle}`;
+      function loadTripIdValue() {
+         const TripIdValue = sessionStorage.getItem('savedtripid');
+         if (TripIdValue) {
+            document.getElementById('valuetripid').innerText = `${TripIdValue}`;
          } else {
             console.error("Nie znaleziono brygadaTitle w sessionStorage.");
          }
+         return TripIdValue; // Return TripIdValue for later use
       }
 
       // Logout logic
@@ -108,15 +110,11 @@
          window.location.href = '../../index.html';
       });
 
-      // Fetch the 'GOTOWE.txt' file
-      async function fetchGOTOWEFile() {
+      // Fetch the file based on the TripIdValue
+      async function fetchFile(tripId) {
          const brygadaTitle = sessionStorage.getItem('brygadaTitle');
-         if (!brygadaTitle) {
-            console.error("Nie znaleziono brygadaTitle w sessionStorage.");
-            return null;
-         }
-
-         let filePath = `../../../Brygady/WYNIKI/Gotowe_brygady/${brygadaNumber}/${brygadaTitle}/GOTOWE.txt`;
+         const typeofday = sessionStorage.getItem('ChoosedTypeOfDay');
+         const filePath = `../../../Brygady/WYNIKI/Gotowe_brygady/${typeofday}/${brygadaTitle}/${tripId}.txt`;
          try {
             const response = await fetch(filePath);
             if (!response.ok) {
@@ -125,284 +123,49 @@
             const text = await response.text();
             return text.split("\n");
          } catch (error) {
-            console.error('Błąd podczas odczytu pliku GOTOWE.txt:', error);
+            console.error('Błąd podczas odczytu pliku:', error);
             return null;
          }
       }
 
-      // Fetch the 'Kierunki.txt' file
-      async function fetchKierunkiFile() {
-         const filePath = "../../../Brygady/WYNIKI/Kierunki.txt";
-         try {
-            const response = await fetch(filePath);
-            if (!response.ok) {
-               throw new Error(`Sieć odpowiedziała błędem: ${response.status}`);
-            }
-            const text = await response.text();
-            return text.split("\n");
-         } catch (error) {
-            console.error('Błąd podczas odczytu pliku Kierunki.txt:', error);
-            return null;
-         }
-      }
-
-      // Build a map from the Kierunki file
-      function buildKierunkiMap(lines) {
-         const kierunkiMap = new Map();
-         lines.forEach((line) => {
-            const parts = line.split("\t");
-            if (parts.length >= 2) {
-               const linia = parts[0].trim();
-               const numerLiniiMatch = parts[1].match(/\[([^\]]+)\]/);
-               if (numerLiniiMatch) {
-                  const numerLinii = numerLiniiMatch[1];
-                  kierunkiMap.set(linia, numerLinii);
-               }
-            }
-         });
-         return kierunkiMap;
-      }
-
-      // Normalize time to a standard format (HH:MM)
-      function normalizeTime(time) {
-         const [hours, minutes] = time.split(':').map(Number);
-         const normalizedHours = hours >= 24 ? hours - 24 : hours;
-         return `${String(normalizedHours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}`;
-      }
-
-      // Function to calculate time duration between start and end times (HH:MM)
-      function calculateDuration(startTime, endTime) {
-         const [startHours, startMinutes] = startTime.split(":").map(Number);
-         const [endHours, endMinutes] = endTime.split(":").map(Number);
-
-         let durationHours = endHours - startHours;
-         let durationMinutes = endMinutes - startMinutes;
-
-         if (durationMinutes < 0) {
-            durationMinutes += 60;
-            durationHours -= 1;
-         }
-
-         if (durationHours < 0) {
-            durationHours += 24; // Handle crossing midnight
-         }
-
-         return `${String(durationHours).padStart(2, '0')}:${String(durationMinutes).padStart(2, '0')}`;
-      }
-
-      // Function to remove numbers from a string
-      function removeNumbers(str) {
-         return str.replace(/[0-9]/g, '').trim();
-      }
-
-      // Process the GOTOWE.txt data and populate the table
-      async function processGOTOWEData(lines) {
-         let tableBody = document.querySelector("#rozkładTable tbody");
+      // Process the file data and populate the table
+      async function processFileData(lines) {
+         let tableBody = document.querySelector("#dane-tabeli");
          let lp = 1;
-         let currentRouteId = null;
-         let firstStop = null;
-         let lastStop = null;
-         let startTime = null;
-         let endTime = null;
-         let tripId = null; // Nowa zmienna do przechowywania trip_id
 
-         // Pomijamy dwie pierwsze linie
-         lines.slice(2).forEach((line) => {
-            line = line.trim();
+         // Skip the first 3 lines
+         for (let i = 3; i < lines.length; i++) {
+            const line = lines[i].trim();
+            if (line) { // Only process non-empty lines
+               const parts = line.split("\t"); // Split by tab
 
-            if (line.toLowerCase().includes("rezerwa")) {
+               // Assuming the relevant data are in specific columns
+               const stopName = parts[6] || "N/A"; // Column for stop name
+               const departureTime = parts[3] || "N/A"; // Column for departure time
+               const km = "N/A"; // As specified, Km is "N/A"
+
                let row = document.createElement("tr");
-               let cell = document.createElement("td");
-               cell.colSpan = 8;
-               cell.innerText = line;
-               row.appendChild(cell);
-               row.style.backgroundColor = "cornflowerblue";
+               row.innerHTML = `
+                  <td>${lp++}</td>
+                  <td>${stopName}</td>
+                  <td>${departureTime}</td>
+                  <td>${km}</td>
+               `;
                tableBody.appendChild(row);
-               return;
             }
-
-            if (line === "") {
-               if (currentRouteId && firstStop && lastStop && startTime && endTime) {
-                  const duration = calculateDuration(startTime, endTime);
-
-                  let row = document.createElement("tr");
-                  row.innerHTML =
-                     `<td class="Lp">${lp}.</td>
-                     <td>${tripId}</td> 
-                     <td class="NrOfLine">${currentRouteId}</td>
-                     <td>${firstStop}</td>
-                     <td>${lastStop}</td>
-                     <td>${startTime}</td>
-                     <td>${endTime}</td>
-                     <td>${duration}</td>
-                     <td>N/A</td>`;
-
-                  tableBody.appendChild(row);
-                  lp++; // Increment Lp after adding the row
-                  currentRouteId = null;
-                  firstStop = null;
-                  lastStop = null;
-                  startTime = null;
-                  endTime = null;
-                  tripId = null; // Resetuj tripId
-               }
-            } else {
-               let parts = line.split(/\s+/);
-               let routeId = parts[0];
-               let arrivalTime = parts[3];
-               let stopName = parts.slice(5).join(" ");
-               tripId = parts[2]; // Przypisz trip_id
-
-               if (!currentRouteId) {
-                  currentRouteId = routeId;
-                  firstStop = stopName;
-                  startTime = normalizeTime(arrivalTime);
-               }
-
-               lastStop = stopName;
-               endTime = normalizeTime(arrivalTime);
-            }
-         });
-
-         // Dodaj ostatni wiersz, jeśli istnieje
-         if (currentRouteId && firstStop && lastStop && startTime && endTime) {
-            const duration = calculateDuration(startTime, endTime);
-
-            let row = document.createElement("tr");
-            row.innerHTML =
-               `<td>${lp}.</td>
-             <td>${tripId}</td>
-             <td>${currentRouteId}</td>
-             <td>${firstStop}</td>
-             <td>${lastStop}</td>
-             <td>${startTime}</td>
-             <td>${endTime}</td>
-             <td>${duration}</td>
-             <td>N/A</td>`;
-
-            tableBody.appendChild(row);
-            lp++;
-         }
-
-         // Dodaj wiersz "Wyjazd Na Linie" jeśli pierwszy "Początek" nie jest "Lubelska Zajezdnia MPK"
-         let wyjazdAdded = false; // Flaga, aby sprawdzić, czy dodano "Wyjazd Na Linie"
-         if (tableBody.rows.length > 0) {
-            const firstPoczątekValue = tableBody.rows[0].cells[2].innerText.trim();
-            if (firstPoczątekValue !== "Lubelska Zajezdnia MPK") {
-               let wyjazdRow = document.createElement("tr");
-               let wyjazdCell = document.createElement("td");
-               wyjazdCell.colSpan = 9;
-               wyjazdCell.innerText = "Wyjazd Na Linie";
-               wyjazdCell.style.textAlign = "center"; // Wyśrodkowanie tekstu
-               wyjazdRow.appendChild(wyjazdCell);
-               tableBody.insertBefore(wyjazdRow, tableBody.rows[0]); // Dodaj przed pierwszym wierszem
-               wyjazdRow.style.backgroundColor = "rgba(255, 165, 0, 0.2)"; // Dodaj kolor tła
-               wyjazdAdded = true; // Ustaw flagę, że dodano "Wyjazd Na Linie"
-            }
-         }
-
-         // Tablica wyjątków dla "Przejazd Techniczny"
-         const exceptions = ["Głogów Młp. Zelmer II 02 nż", "Głogów Młp. Leniar I 01 nż", "Langiewicza / Wita Stwosza 04", "Wita Stwosza pętla 01"]; // Możesz dodać więcej wyjątków
-
-         // Sprawdzenie wierszy i dodanie "Przejazd Techniczny"
-         for (let i = 0; i < tableBody.rows.length - 1; i++) {
-            const currentRow = tableBody.rows[i];
-            const nextRow = tableBody.rows[i + 1];
-
-            const kierunekValue = currentRow.cells[3] ? currentRow.cells[3].innerText : null;
-            const początekValue = nextRow.cells[2] ? nextRow.cells[2].innerText : null;
-
-            // Usunięcie cyfr przed porównaniem
-            const cleanKierunek = kierunekValue ? removeNumbers(kierunekValue).trim() : null;
-            const cleanPoczątek = początekValue ? removeNumbers(początekValue).trim() : null;
-
-            // Sprawdzanie warunków do dodania "Przejazd Techniczny"
-            if (cleanKierunek && cleanPoczątek && cleanKierunek !== cleanPoczątek) { // Upewnij się, że kierunek i początek są różne
-
-               // Dodaj nowy wiersz tylko jeśli cleanKierunek i cleanPoczątek są różne
-               let przejazdRow = document.createElement("tr");
-               let przejazdCell = document.createElement("td");
-               przejazdCell.colSpan = 9;
-               przejazdCell.innerText = "Przejazd Techniczny";
-               przejazdCell.style.textAlign = "center"; // Wyśrodkowanie tekstu
-               przejazdRow.appendChild(przejazdCell);
-               tableBody.insertBefore(przejazdRow, nextRow); // Dodaj przed następnym wierszem
-               i++; // Przeskocz do następnego wiersza po dodaniu "Przejazd Techniczny"
-               przejazdRow.style.backgroundColor = "rgba(255, 165, 0, 0.2)"; // Dodaj kolor tła
-            }
-         }
-
-         // Dodaj wiersz "Zjazd Do Zajezdni" jeśli ostatni "Kierunek" nie jest "Lubelska Zajezdnia MPK"
-         if (tableBody.rows.length > 0) {
-            const lastKierunekValue = tableBody.rows[tableBody.rows.length - 1].cells[3].innerText.trim();
-            if (lastKierunekValue !== "Lubelska Zajezdnia MPK") {
-               let zjazdRow = document.createElement("tr");
-               let zjazdCell = document.createElement("td");
-               zjazdCell.colSpan = 9;
-               zjazdCell.innerText = "Zjazd Do Zajezdni";
-               zjazdCell.style.textAlign = "center"; // Wyśrodkowanie tekstu
-               zjazdRow.appendChild(zjazdCell);
-               tableBody.appendChild(zjazdRow); // Dodaj na dole
-               zjazdRow.style.backgroundColor = "rgba(255, 165, 0, 0.2)"; // Dodaj kolor tła
-            }
-         }
-
-         // Fetch kierunki and update the lines
-         const kierunkiLines = await fetchKierunkiFile();
-         if (kierunkiLines) {
-            const kierunkiMap = buildKierunkiMap(kierunkiLines);
-            for (let row of tableBody.rows) {
-               const liniaCell = row.cells[1];
-               const liniaValue = liniaCell ? liniaCell.innerText : null;
-               if (liniaValue && kierunkiMap.has(liniaValue)) {
-                  liniaCell.innerText = kierunkiMap.get(liniaValue);
-               }
-            }
-         } else {
-            console.error("Nie udało się wczytać Kierunki.txt.");
          }
       }
 
       async function init() {
          checkLogin();
-         loadBrygadaTitle();
-         let lines = await fetchGOTOWEFile();
+         const TripIdValue = loadTripIdValue();
+         const lines = await fetchFile(TripIdValue);
          if (lines) {
-            await processGOTOWEData(lines);
+            await processFileData(lines);
          } else {
-            console.error("Nie udało się wczytać GOTOWE.txt.");
+            console.error("Nie udało się wczytać pliku.");
          }
       }
-
-      // Pobranie pełnej ścieżki do pliku
-      const fullPath = window.location.pathname;
-
-      // Podzielenie ścieżki na części na podstawie "/"
-      const pathParts = fullPath.split('/');
-
-      // Pobranie nazwy folderu (zakładamy, że folder jest bezpośrednio nad plikiem)
-      const folderName = pathParts[pathParts.length - 2]; // -2, bo ostatni element to nazwa pliku
-
-      // Inicjalizacja zmiennej brygadaNumber na podstawie folderu
-      let brygadaNumber;
-
-      switch (folderName) {
-         case 'Niedzielny':
-            brygadaNumber = '1';
-            break;
-         case 'Powszedni':
-            brygadaNumber = '2';
-            break;
-         case 'PowszedniWolny':
-            brygadaNumber = '3';
-            break;
-         case 'Sobotni':
-            brygadaNumber = '4';
-            break;
-         default:
-            brygadaNumber = '2'; // Domyślna wartość, jeśli folder nie pasuje do żadnego przypadku
-      }
-
 
       window.onload = init;
 
