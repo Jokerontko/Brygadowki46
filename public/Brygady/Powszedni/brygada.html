@@ -5,6 +5,9 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=0.6">
    <link rel="stylesheet" href="../../style_css/headermenu.css">
+   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+   <meta http-equiv="Pragma" content="no-cache">
+   <meta http-equiv="Expires" content="0">
    <title>Szczegóły brygady</title>
    <style>
       body {
@@ -19,7 +22,7 @@
 
       h1 {
          font-size: 2rem;
-         margin: 40px 0 20px;
+         margin: 40px 0 10px;
       }
 
       table {
@@ -59,6 +62,7 @@
    </header>
 
    <h1 id="brygadaTitle">Brygada</h1>
+   <a href="#" class="menu" id="highlightButton">Wyróżnij linie</a>
 
    <table id="rozkładTable">
       <thead>
@@ -297,8 +301,7 @@
          }
 
          // Tablica wyjątków dla "Przejazd Techniczny"
-         const exceptions = ["Głogów Młp. Zelmer II 02 nż", "Głogów Młp. Leniar I 01 nż", "Langiewicza / Wita Stwosza 04", "Wita Stwosza pętla 01"]; // Możesz dodać więcej wyjątków
-
+         const exceptions = ["Głogów Młp. Zelmer II 02 nż", "Głogów Młp. Leniar I 01 nż", "Langiewicza / Wita Stwosza", "Wita Stwosza pętla"]; // Możesz dodać więcej wyjątków
          // Sprawdzenie wierszy i dodanie "Przejazd Techniczny"
          for (let i = 0; i < tableBody.rows.length - 1; i++) {
             const currentRow = tableBody.rows[i];
@@ -312,20 +315,37 @@
             const cleanPoczątek = początekValue ? removeNumbers(początekValue).trim() : null;
 
             // Sprawdzanie warunków do dodania "Przejazd Techniczny"
+
             if (cleanKierunek && cleanPoczątek && cleanKierunek !== cleanPoczątek) { // Upewnij się, że kierunek i początek są różne
 
-               // Dodaj nowy wiersz tylko jeśli cleanKierunek i cleanPoczątek są różne
-               let przejazdRow = document.createElement("tr");
-               let przejazdCell = document.createElement("td");
-               przejazdCell.colSpan = 8;
-               przejazdCell.innerText = "Przejazd Techniczny";
-               przejazdCell.style.textAlign = "center"; // Wyśrodkowanie tekstu
-               przejazdRow.appendChild(przejazdCell);
-               tableBody.insertBefore(przejazdRow, nextRow); // Dodaj przed następnym wierszem
-               i++; // Przeskocz do następnego wiersza po dodaniu "Przejazd Techniczny"
-               przejazdRow.style.backgroundColor = "rgba(255, 165, 0, 0.2)"; // Dodaj kolor tła
+
+               let isNotException = true;
+               for (let exception of exceptions) {
+                  if (cleanKierunek === exception || cleanPoczątek === exception) {
+                     isNotException = false;
+                     break;
+                  }
+               }
+               if (isNotException) {
+                  // Dodaj nowy wiersz tylko jeśli cleanKierunek i cleanPoczątek są różne
+                  let przejazdRow = document.createElement("tr");
+                  let przejazdCell = document.createElement("td");
+                  przejazdCell.colSpan = 8;
+                  przejazdCell.innerText = "Przejazd Techniczny";
+                  przejazdCell.style.textAlign = "center"; // Wyśrodkowanie tekstu
+                  przejazdRow.appendChild(przejazdCell);
+                  tableBody.insertBefore(przejazdRow, nextRow); // Dodaj przed następnym wierszem
+                  i++; // Przeskocz do następnego wiersza po dodaniu "Przejazd Techniczny"
+                  przejazdRow.style.backgroundColor = "rgba(255, 165, 0, 0.2)"; // Dodaj kolor tła
+               }
             }
          }
+
+
+
+
+
+
 
          // Dodaj wiersz "Zjazd Do Zajezdni" jeśli ostatni "Kierunek" nie jest "Lubelska Zajezdnia MPK"
          if (tableBody.rows.length > 0) {
@@ -426,6 +446,60 @@
          default:
             brygadaNumber = '2'; // Domyślna wartość, jeśli folder nie pasuje do żadnego przypadku
       }
+
+      // Zmienna, która przechowuje stan wyróżnienia
+      let isHighlighted = false;
+
+      // Funkcja do wyróżniania unikalnych wartości w kolumnie "Linia"
+      function toggleHighlight() {
+         const tableRows = document.querySelectorAll("#rozkładTable tbody tr");
+         const uniqueLines = new Set();
+         const lineColors = {};
+         const colors = ["#CD853F", "#778899", "#4169E1", "#20B2AA", "#6A5ACD", "#228B22"];
+         let colorIndex = 0;
+
+         // Jeśli jest włączone wyróżnienie, resetujemy kolory i przerywamy funkcję
+         if (isHighlighted) {
+            tableRows.forEach(row => {
+               const lineCell = row.querySelector(".NrOfLine");
+               if (lineCell) {
+                  lineCell.style.backgroundColor = ""; // Resetuj tylko komórkę "Linia"
+               }
+            });
+            isHighlighted = false;
+            document.getElementById("highlightButton").innerText = "Wyróżnij linie"; // Zmień tekst przycisku
+            return;
+         }
+
+         // Iterujemy przez wiersze, aby zidentyfikować unikalne wartości w kolumnie "Linia"
+         tableRows.forEach(row => {
+            const lineCell = row.querySelector(".NrOfLine");
+            if (lineCell) {
+               const lineValue = lineCell.innerText;
+               uniqueLines.add(lineValue);
+            }
+         });
+
+         // Przypisujemy unikalny kolor do każdej unikalnej wartości w kolumnie "Linia"
+         uniqueLines.forEach(line => {
+            lineColors[line] = colors[colorIndex % colors.length];
+            colorIndex++;
+         });
+
+         // Ustawiamy kolor tylko dla komórki w kolumnie "Linia", na podstawie wartości
+         tableRows.forEach(row => {
+            const lineCell = row.querySelector(".NrOfLine");
+            if (lineCell && lineColors[lineCell.innerText]) {
+               lineCell.style.backgroundColor = lineColors[lineCell.innerText]; // Ustaw kolor tylko dla komórki
+            }
+         });
+
+         isHighlighted = true;
+         document.getElementById("highlightButton").innerText = "Przestań wyróżniać linie"; // Zmień tekst przycisku
+      }
+
+      // Dodanie nasłuchu kliknięcia na przycisk "Wyróżnij linie"
+      document.getElementById("highlightButton").addEventListener("click", toggleHighlight);
 
 
       window.onload = init;
