@@ -26,7 +26,8 @@
       }
 
       table {
-         width: 30%;
+         width: 50%;
+         max-width: 80%;
          border-collapse: collapse;
          border-radius: 5px;
          overflow: hidden;
@@ -141,16 +142,25 @@
 
                // Assuming the relevant data are in specific columns
                const stopName = parts[6] || "N/A"; // Column for stop name
-               const departureTime = parts[3] || "N/A"; // Column for departure time
+               let departureTime = parts[3] || "N/A"; // Column for departure time
                const km = "N/A"; // As specified, Km is "N/A"
+
+               // Check if departureTime is not "N/A" and format it to HH:MM
+               if (departureTime !== "N/A") {
+                  const timeParts = departureTime.split(":"); // Split by colon
+                  if (timeParts.length >= 2) {
+                     departureTime = `${timeParts[0]}:${timeParts[1]}`; // Get HH:MM
+                  }
+               }
 
                let row = document.createElement("tr");
                row.innerHTML = `
-                  <td>${lp++}</td>
-                  <td>${stopName}</td>
-                  <td>${departureTime}</td>
-                  <td>${km}</td>
-               `;
+   <td>${lp++}</td>
+   <td>${stopName}</td>
+   <td>${departureTime}</td>
+   <td>${km}</td>
+`;
+
                tableBody.appendChild(row);
             }
          }

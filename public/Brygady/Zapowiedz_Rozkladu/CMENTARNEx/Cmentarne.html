@@ -5,6 +5,9 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="../../../style_css/headermenu.css">
+   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+   <meta http-equiv="Pragma" content="no-cache">
+   <meta http-equiv="Expires" content="0">
    <title>Wybór dnia</title>
    <style>
       body {
@@ -96,7 +99,7 @@
    </header>
 
    <center>
-      <h1>Rozkład {Jaki?}</h1>
+      <h1>Rozkłady {Jaki?}</h1>
       <p class="top">Ważny od dnia <span id="waznyOd">ładowanie...</span></p>
    </center>
 
@@ -157,7 +160,7 @@
 
          // Uzupełnij tytuł o nazwę folderu
          const folderName = getFolderName();
-         document.querySelector('h1').innerHTML = `Rozkład ${folderName}`;
+         document.querySelector('h1').innerHTML = `Rozkłady ${folderName}`;
       });
 
       function checkLogin() {
@@ -186,7 +189,7 @@
 
       async function loadData() {
          try {
-            const response = await fetch(`/api/dataZapowiedz?brygada=${brygadaNumber}`); // Wysyłamy numer brygady w zapytaniu
+            const response = await fetch(`/api/dataCMENTARNE?brygada=${brygadaNumber}`); // Wysyłamy numer brygady w zapytaniu
             const data = await response.json();
 
             data.sort((a, b) => {

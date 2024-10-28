@@ -4,7 +4,7 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=0.6">
-   <link rel="stylesheet" href="../../style_css/headermenu.css">
+   <link rel="stylesheet" href="../../../style_css/headermenu.css">
    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
    <meta http-equiv="Pragma" content="no-cache">
    <meta http-equiv="Expires" content="0">
@@ -26,8 +26,7 @@
       }
 
       table {
-         width: 50%;
-         max-width: 80%;
+         width: 30%;
          border-collapse: collapse;
          border-radius: 5px;
          overflow: hidden;
@@ -59,9 +58,9 @@
 
 <body>
    <header>
-      <a href="../../Main_Panel.html" class="menu">Panel Główny</a>
-      <a href="../ChooseDay.html" class="menu">Brygady</a>
-      <a href="../../Brygady/Kursy/Kursy.html" class="menu">Kursy</a>
+      <a href="../../../Main_Panel.html" class="menu">Panel Główny</a>
+      <a href="../../ChooseDay.html" class="menu">Brygady</a>
+      <a href="../../../Brygady/Kursy/Kursy.html" class="menu">Kursy</a>
       <a href="#" class="menu exit" id="logout">Opuść Panel</a>
       <hr>
    </header>
@@ -90,7 +89,7 @@
       function checkLogin() {
          const user = JSON.parse(sessionStorage.getItem('user'));
          if (!user) {
-            window.location.href = '../../zoltakartka.html';
+            window.location.href = '../../../zoltakartka.html';
          }
       }
 
@@ -115,7 +114,7 @@
       async function fetchFile(tripId) {
          const brygadaTitle = sessionStorage.getItem('brygadaTitle');
          const typeofday = sessionStorage.getItem('ChoosedTypeOfDay');
-         const filePath = `../../../Brygady/WYNIKI/Gotowe_brygady/${typeofday}/${brygadaTitle}/${tripId}.txt`;
+         const filePath = `../../../Brygady_Zapowiedz/WYNIKI/Gotowe_brygady/CMENTARNE/${brygadaTitle}/${tripId}.txt`;
          try {
             const response = await fetch(filePath);
             if (!response.ok) {
@@ -142,25 +141,16 @@
 
                // Assuming the relevant data are in specific columns
                const stopName = parts[6] || "N/A"; // Column for stop name
-               let departureTime = parts[3] || "N/A"; // Column for departure time
+               const departureTime = parts[3] || "N/A"; // Column for departure time
                const km = "N/A"; // As specified, Km is "N/A"
-
-               // Check if departureTime is not "N/A" and format it to HH:MM
-               if (departureTime !== "N/A") {
-                  const timeParts = departureTime.split(":"); // Split by colon
-                  if (timeParts.length >= 2) {
-                     departureTime = `${timeParts[0]}:${timeParts[1]}`; // Get HH:MM
-                  }
-               }
 
                let row = document.createElement("tr");
                row.innerHTML = `
-   <td>${lp++}</td>
-   <td>${stopName}</td>
-   <td>${departureTime}</td>
-   <td>${km}</td>
-`;
-
+                  <td>${lp++}</td>
+                  <td>${stopName}</td>
+                  <td>${departureTime}</td>
+                  <td>${km}</td>
+               `;
                tableBody.appendChild(row);
             }
          }

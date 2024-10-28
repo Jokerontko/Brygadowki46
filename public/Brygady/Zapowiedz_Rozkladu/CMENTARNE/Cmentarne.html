@@ -99,7 +99,7 @@
    </header>
 
    <center>
-      <h1>Rozkłady {Jaki?}</h1>
+      <h1>Rozkład {Jaki?}</h1>
       <p class="top">Ważny od dnia <span id="waznyOd">ładowanie...</span></p>
    </center>
 
@@ -167,7 +167,7 @@
          const user = JSON.parse(sessionStorage.getItem('user'));
 
          if (!user) {
-            window.location.href = '../../../zoltakartka.html';
+            window.location.href = '../../zoltakartka.html';
          }
       }
 
@@ -226,7 +226,7 @@
 
       document.getElementById('logout').addEventListener('click', function() {
          sessionStorage.clear();
-         window.location.href = '../../../index.html';
+         window.location.href = '../../index.html';
       });
 
       // Funkcja do filtrowania tabeli
@@ -281,6 +281,8 @@
          default:
             brygadaNumber = '2'; // Domyślna wartość, jeśli folder nie pasuje do żadnego przypadku
       }
+
+      sessionStorage.setItem("ChoosedTypeOfDay", brygadaNumber)
 
    </script>
 
