@@ -411,7 +411,22 @@ app.get('/brygady/*', (req, res) => {
    res.sendFile(filePath);
 });
 
+// Ścieżka do folderu z plikami tekstowymi
+const newsFolder = path.join(__dirname, 'public', 'News');
 
+app.get('/api/files', (req, res) => {
+   fs.readdir(newsFolder, (err, files) => {
+      if (err) {
+         console.error('Błąd odczytu plików:', err);
+         return res.status(500).json({
+            error: 'Błąd serwera'
+         });
+      }
+      // Filtrowanie tylko plików .txt
+      const txtFiles = files.filter(file => file.endsWith('.txt'));
+      res.json(txtFiles);
+   });
+});
 
 // Start the server
 app.listen(PORT, () => {
