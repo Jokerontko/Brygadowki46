@@ -2,138 +2,151 @@
 <html lang="pl">
 
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-   <meta http-equiv="Pragma" content="no-cache">
-   <meta http-equiv="Expires" content="0">
-   <title>Logowanie</title>
-   <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>Logowanie</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-   <div class="container">
-      <h1>Logowanie</h1>
-      <form id="login-form">
-         <label for="login-username">Nazwa użytkownika:</label>
-         <input type="text" id="login-username" name="username" required>
-         <label for="login-password">Hasło:</label>
-         <input type="password" id="login-password" name="password" required>
-         <button type="submit">Zaloguj się</button>
-         <a class="sign-up" href="Registration.html">Zarejestruj się</a>
-      </form>
-   </div>
+    <div class="container">
+        <h1>Logowanie</h1>
+        <form id="login-form">
+            <label for="login-username">Nazwa użytkownika:</label>
+            <input type="text" id="login-username" name="username" required>
+            <label for="login-password">Hasło:</label>
+            <input type="password" id="login-password" name="password" required>
+            <button type="submit">Zaloguj się</button>
+            <a class="sign-up" href="Registration.html">Zarejestruj się</a>
+        </form>
+        <button id="refreshButton">Odśwież stronę</button>
+        <div id="message" style="display: none; color: green;">Strona została odświeżona!</div>
+    </div>
 
-   <script>
-      // Sprawdzenie, czy trwa przerwa techniczna
-      fetch('/check-maintenance')
-         .then(response => response.json())
-         .then(data => {
-            if (data.isMaintenance) {
-               window.location.href = 'PrzerwaTechniczna.html';
-            }
-         })
-         .catch(error => {
-            console.error('Błąd podczas sprawdzania przerwy technicznej:', error);
-         });
-
-      document.getElementById('login-form').addEventListener('submit', function(event) {
-         event.preventDefault();
-         const username = document.getElementById('login-username').value;
-         const password = document.getElementById('login-password').value;
-
-         fetch('/login', {
-               method: 'POST',
-               headers: {
-                  'Content-Type': 'application/json',
-               },
-               body: JSON.stringify({
-                  username,
-                  password
-               }),
-            })
-            .then(response => {
-               console.log('Odpowiedź serwera:', response); // Dodaj tę linię
-               if (!response.ok) {
-                  throw new Error('Niepoprawna nazwa użytkownika lub hasło.');
-               }
-               return response.json();
-            })
-            .then(user => {
-               console.log('Zalogowany użytkownik:', user);
-               sessionStorage.setItem('user', JSON.stringify(user));
-               window.location.href = 'Main_Panel.html'; // Upewnij się, że to jest poprawna ścieżka
+    <script>
+        // Sprawdzenie, czy trwa przerwa techniczna
+        fetch('/check-maintenance')
+            .then(response => response.json())
+            .then(data => {
+                if (data.isMaintenance) {
+                    window.location.href = 'PrzerwaTechniczna.html';
+                }
             })
             .catch(error => {
-               alert(error.message);
+                console.error('Błąd podczas sprawdzania przerwy technicznej:', error);
             });
 
-      });
+        document.getElementById('login-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const username = document.getElementById('login-username').value;
+            const password = document.getElementById('login-password').value;
 
-   </script>
+            fetch('/login', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        username,
+                        password
+                    }),
+                })
+                .then(response => {
+                    console.log('Odpowiedź serwera:', response);
+                    if (!response.ok) {
+                        throw new Error('Niepoprawna nazwa użytkownika lub hasło.');
+                    }
+                    return response.json();
+                })
+                .then(user => {
+                    console.log('Zalogowany użytkownik:', user);
+                    sessionStorage.setItem('user', JSON.stringify(user));
+                    window.location.href = 'Main_Panel.html'; // Upewnij się, że to jest poprawna ścieżka
+                })
+                .catch(error => {
+                    alert(error.message);
+                });
+        });
 
+        document.getElementById('refreshButton').addEventListener('click', function() {
+            // Przypisanie losowego parametru do URL, aby wymusić odświeżenie
+            window.location.href = window.location.href.split('?')[0] + '?v=' + new Date().getTime();
 
-   <style>
-      body {
-         background: rgb(50, 50, 50);
-         font-family: arial;
-         display: flex;
-         justify-content: center;
-         align-items: center;
-      }
+            // Wyświetlenie komunikatu
+            const message = document.getElementById('message');
+            message.style.display = 'block';
+        });
 
-      .container {
-         max-width: 400px;
-         margin: 14%;
-         background: white;
-         padding: 30px;
-         border-radius: 5px;
-         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      }
+    </script>
 
-      h1 {
-         font-size: 24px;
-         margin-bottom: 20px;
-      }
+    <style>
+        body {
+            background: rgb(50, 50, 50);
+            font-family: arial;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
 
-      label {
-         display: block;
-         margin-bottom: 5px;
-      }
+        .container {
+            max-width: 400px;
+            margin: 14%;
+            background: white;
+            padding: 30px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
 
-      input {
-         width: 93%;
-         padding: 8px;
-         margin-bottom: 10px;
-         border: 1px solid #ddd;
-         border-radius: 4px;
-      }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
 
-      button {
-         width: 100%;
-         padding: 10px;
-         background-color: #5cb85c;
-         color: white;
-         border: none;
-         border-radius: 4px;
-         cursor: pointer;
-      }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
 
-      button:hover {
-         background-color: #4cae4c;
-      }
+        input {
+            width: 93%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
 
-      .sign-up {
-         margin-top: 100px;
-         margin: 10px 0px 10px;
-         font-size: 15px;
-         text-decoration: none;
-         color: black;
-         display: block;
-      }
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #5cb85c;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
 
-   </style>
+        button:hover {
+            background-color: #4cae4c;
+        }
+
+        .sign-up {
+            margin-top: 10px;
+            margin: 10px 0px 10px;
+            font-size: 15px;
+            text-decoration: none;
+            color: black;
+            display: block;
+        }
+
+        #message {
+            margin-top: 10px;
+        }
+
+    </style>
 </body>
 
 </html>
