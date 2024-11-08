@@ -4,7 +4,11 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=0.6">
-   <title>Szczegóły brygady</title>
+   <link rel="stylesheet" href="../../style_css/headermenu.css">
+   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+   <meta http-equiv="Pragma" content="no-cache">
+   <meta http-equiv="Expires" content="0">
+   <title>Szczegóły kursu</title>
    <style>
       body {
          background: rgb(50, 50, 50);
@@ -14,46 +18,11 @@
          align-items: center;
          height: 100vh;
          color: white;
-         margin: 0;
-      }
-
-      header {
-         width: 100%;
-         padding: 10px 0;
-         text-align: center;
       }
 
       h1 {
          font-size: 2rem;
-         margin: 40px 0 20px;
-      }
-
-      .menu {
-         display: inline-block;
-         text-decoration: none;
-         color: white;
-         border: 1.5px solid;
-         border-radius: 5px;
-         padding: 10px 20px;
-         margin: 0 10px;
-         transition: background-color 0.3s ease;
-      }
-
-      .menu:hover {
-         border-color: orange;
-         background-color: rgba(255, 165, 0, 0.2);
-         color: white;
-      }
-
-      .exit {
-         border-color: red;
-         transition: background-color 0.3s ease;
-      }
-
-      .exit:hover {
-         border-color: red;
-         background-color: red;
-         color: white;
+         margin: 40px 0 10px;
       }
 
       table {
@@ -69,6 +38,7 @@
          text-align: center;
          padding: 10px;
          border: 1px solid #ccc;
+         font-size: 17px;
       }
 
       th {
@@ -79,23 +49,36 @@
          background-color: rgba(255, 165, 0, 0.2);
       }
 
+      .NrOflp {
+         text-decoration: none;
+         color: orange;
+      }
+
+      .hide {
+         font-size: 0px;
+         padding: 0px;
+         border: 0px;
+      }
+
    </style>
 </head>
 
 <body>
    <header>
       <a href="../../Main_Panel.html" class="menu">Panel Główny</a>
-      <a href="../ChooseDay.html" class="menu">Spis Brygad</a>
+      <a href="../ChooseDay.html" class="menu">Brygady</a>
+      <a href="../../Brygady/Kursy/Kursy.html" class="menu">Kursy</a>
       <a href="#" class="menu exit" id="logout">Opuść Panel</a>
       <hr>
    </header>
 
    <h1 id="brygadaTitle">Brygada</h1>
+   <a href="#" class="menu" id="highlightButton">Wyróżnij linie</a>
 
    <table id="rozkładTable">
       <thead>
          <tr>
-            <th>Lp.</th>
+            <th>Lp</th>
             <th>Linia</th>
             <th>Początek</th>
             <th>Kierunek</th>
@@ -103,16 +86,15 @@
             <th>Godz. Zak.</th>
             <th>Czas trwania</th>
             <th>Km</th>
+            <th class="hide">Kod Trasy</th>
          </tr>
       </thead>
-      <tbody>
+      <tbody id="dane-tabeli">
          <!-- Rows will be added dynamically -->
       </tbody>
    </table>
 
    <script>
-      const brygadaNumber = '3'; // Tutaj wpisz numer brygady, którego chcesz użyć
-
       // Check if the user is logged in, otherwise redirect
       function checkLogin() {
          const user = JSON.parse(sessionStorage.getItem('user'));
@@ -226,6 +208,7 @@
       }
 
       // Process the GOTOWE.txt data and populate the table
+      // Process the GOTOWE.txt data and populate the table
       async function processGOTOWEData(lines) {
          let tableBody = document.querySelector("#rozkładTable tbody");
          let lp = 1;
@@ -234,15 +217,15 @@
          let lastStop = null;
          let startTime = null;
          let endTime = null;
+         let tripId = null;
 
-         // Pomijamy dwie pierwsze linie
          lines.slice(2).forEach((line) => {
             line = line.trim();
 
             if (line.toLowerCase().includes("rezerwa")) {
                let row = document.createElement("tr");
                let cell = document.createElement("td");
-               cell.colSpan = 8;
+               cell.colSpan = 9;
                cell.innerText = line;
                row.appendChild(cell);
                row.style.backgroundColor = "cornflowerblue";
@@ -255,35 +238,42 @@
                   const duration = calculateDuration(startTime, endTime);
 
                   let row = document.createElement("tr");
-                  row.innerHTML =
-                     `<td>${lp}.</td>
-                     <td>${currentRouteId}</td>
-                     <td>${firstStop}</td>
-                     <td>${lastStop}</td>
-                     <td>${startTime}</td>
-                     <td>${endTime}</td>
-                     <td>${duration}</td>
-                     <td>N/A</td>`;
+
+                  // Use `currentRouteId` or whatever identifier you want
+                  row.innerHTML += `
+                    <td><a class="NrOflp" href="Szczegoly.html" onclick="savetripid('${tripId}')" >${lp}.</a></td>
+                    <td class="NrOfLine">${currentRouteId}</td>
+                    <td>${firstStop}</td>
+                    <td>${lastStop}</td>
+                    <td>${startTime}</td>
+                    <td>${endTime}</td>
+                    <td>${duration}</td>
+                    <td>N/A</td>
+                     <td class="hide">${tripId}</td> 
+`;
+
+
                   tableBody.appendChild(row);
-                  lp++; // Increment Lp after adding the row
+                  lp++;
                   currentRouteId = null;
                   firstStop = null;
                   lastStop = null;
                   startTime = null;
                   endTime = null;
+                  tripId = null;
                }
             } else {
                let parts = line.split(/\s+/);
-               let routeId = parts[0];
+               let routeId = parts[0]; // Assuming this is the identifier you want
                let arrivalTime = parts[3];
                let stopName = parts.slice(5).join(" ");
+               tripId = parts[2]; // Przypisz trip_id
 
                if (!currentRouteId) {
                   currentRouteId = routeId;
                   firstStop = stopName;
                   startTime = normalizeTime(arrivalTime);
                }
-
                lastStop = stopName;
                endTime = normalizeTime(arrivalTime);
             }
@@ -292,20 +282,27 @@
          // Dodaj ostatni wiersz, jeśli istnieje
          if (currentRouteId && firstStop && lastStop && startTime && endTime) {
             const duration = calculateDuration(startTime, endTime);
-
+            const tableBody = document.getElementById('dataTableBody');
             let row = document.createElement("tr");
-            row.innerHTML =
-               `<td>${lp}.</td>
-             <td>${currentRouteId}</td>
-             <td>${firstStop}</td>
-             <td>${lastStop}</td>
-             <td>${startTime}</td>
-             <td>${endTime}</td>
-             <td>${duration}</td>
-             <td>N/A</td>`;
+            // Create a clickable cell for the last row
+
+
+            row.innerHTML += `
+            <td><a class="NrOflp" href="Szczegoly.html">${lp}.</a></td>
+            <td>${currentRouteId}</td>
+            <td>${firstStop}</td>
+            <td>${lastStop}</td>
+            <td>${startTime}</td>
+            <td>${endTime}</td>
+            <td>${duration}</td>
+            <td>N/A</td>
+            <td class="hide">${tripId}</td>
+`;
+
             tableBody.appendChild(row);
             lp++;
          }
+
 
          // Dodaj wiersz "Wyjazd Na Linie" jeśli pierwszy "Początek" nie jest "Lubelska Zajezdnia MPK"
          let wyjazdAdded = false; // Flaga, aby sprawdzić, czy dodano "Wyjazd Na Linie"
@@ -314,7 +311,7 @@
             if (firstPoczątekValue !== "Lubelska Zajezdnia MPK") {
                let wyjazdRow = document.createElement("tr");
                let wyjazdCell = document.createElement("td");
-               wyjazdCell.colSpan = 8;
+               wyjazdCell.colSpan = 9;
                wyjazdCell.innerText = "Wyjazd Na Linie";
                wyjazdCell.style.textAlign = "center"; // Wyśrodkowanie tekstu
                wyjazdRow.appendChild(wyjazdCell);
@@ -325,8 +322,7 @@
          }
 
          // Tablica wyjątków dla "Przejazd Techniczny"
-         const exceptions = ["Głogów Młp. Zelmer II 02 nż", "Głogów Młp. Leniar I 01 nż", "Langiewicza / Wita Stwosza 04", "Wita Stwosza pętla 01"]; // Możesz dodać więcej wyjątków
-
+         const exceptions = ["Głogów Młp. Zelmer II 02 nż", "Głogów Młp. Leniar I 01 nż", "Langiewicza / Wita Stwosza", "Wita Stwosza pętla", "Ustrzycka  nż"]; // Możesz dodać więcej wyjątków
          // Sprawdzenie wierszy i dodanie "Przejazd Techniczny"
          for (let i = 0; i < tableBody.rows.length - 1; i++) {
             const currentRow = tableBody.rows[i];
@@ -339,27 +335,23 @@
             const cleanKierunek = kierunekValue ? removeNumbers(kierunekValue).trim() : null;
             const cleanPoczątek = początekValue ? removeNumbers(początekValue).trim() : null;
 
-            // Sprawdź, czy wiersz "Przejazd Techniczny" już istnieje
-            const przejazdRowExists = [...tableBody.rows].some(row => row.innerText.includes("Przejazd Techniczny"));
+            // Sprawdzanie warunków do dodania "Przejazd Techniczny"
 
-            if (cleanKierunek && cleanPoczątek &&
-               !currentRow.innerText.toLowerCase().includes("rezerwa") &&
-               !nextRow.innerText.toLowerCase().includes("rezerwa") &&
-               !exceptions.includes(cleanKierunek) && // Sprawdzenie wyjątków dla Kierunek
-               !exceptions.includes(cleanPoczątek)) { // Sprawdzenie wyjątków dla Początek
-               if (cleanKierunek !== cleanPoczątek) {
-                  // Jeśli istnieje wiersz "Przejazd Techniczny", usuń go
-                  if (przejazdRowExists) {
-                     [...tableBody.rows].forEach(row => {
-                        if (row.innerText.includes("Przejazd Techniczny")) {
-                           tableBody.removeChild(row);
-                        }
-                     });
+            if (cleanKierunek && cleanPoczątek && cleanKierunek !== cleanPoczątek) { // Upewnij się, że kierunek i początek są różne
+
+
+               let isNotException = true;
+               for (let exception of exceptions) {
+                  if (cleanKierunek === exception || cleanPoczątek === exception) {
+                     isNotException = false;
+                     break;
                   }
-
+               }
+               if (isNotException) {
+                  // Dodaj nowy wiersz tylko jeśli cleanKierunek i cleanPoczątek są różne
                   let przejazdRow = document.createElement("tr");
                   let przejazdCell = document.createElement("td");
-                  przejazdCell.colSpan = 8;
+                  przejazdCell.colSpan = 9;
                   przejazdCell.innerText = "Przejazd Techniczny";
                   przejazdCell.style.textAlign = "center"; // Wyśrodkowanie tekstu
                   przejazdRow.appendChild(przejazdCell);
@@ -376,7 +368,7 @@
             if (lastKierunekValue !== "Lubelska Zajezdnia MPK") {
                let zjazdRow = document.createElement("tr");
                let zjazdCell = document.createElement("td");
-               zjazdCell.colSpan = 8;
+               zjazdCell.colSpan = 9;
                zjazdCell.innerText = "Zjazd Do Zajezdni";
                zjazdCell.style.textAlign = "center"; // Wyśrodkowanie tekstu
                zjazdRow.appendChild(zjazdCell);
@@ -412,7 +404,94 @@
          }
       }
 
+      // Pobranie pełnej ścieżki do pliku
+      const fullPath = window.location.pathname;
+
+      // Podzielenie ścieżki na części na podstawie "/"
+      const pathParts = fullPath.split('/');
+
+      // Pobranie nazwy folderu (zakładamy, że folder jest bezpośrednio nad plikiem)
+      const folderName = pathParts[pathParts.length - 2]; // -2, bo ostatni element to nazwa pliku
+
+      // Inicjalizacja zmiennej brygadaNumber na podstawie folderu
+      let brygadaNumber;
+
+      switch (folderName) {
+         case 'Niedzielny':
+            brygadaNumber = '1';
+            break;
+         case 'Powszedni':
+            brygadaNumber = '2';
+            break;
+         case 'PowszedniWolny':
+            brygadaNumber = '3';
+            break;
+         case 'Sobotni':
+            brygadaNumber = '4';
+            break;
+         default:
+            brygadaNumber = '2'; // Domyślna wartość, jeśli folder nie pasuje do żadnego przypadku
+      }
+
+      // Zmienna, która przechowuje stan wyróżnienia
+      let isHighlighted = false;
+
+      // Funkcja do wyróżniania unikalnych wartości w kolumnie "Linia"
+      function toggleHighlight() {
+         const tableRows = document.querySelectorAll("#rozkładTable tbody tr");
+         const uniqueLines = new Set();
+         const lineColors = {};
+         const colors = ["#CD853F", "#778899", "#4169E1", "#20B2AA", "#6A5ACD", "#228B22"];
+         let colorIndex = 0;
+
+         // Jeśli jest włączone wyróżnienie, resetujemy kolory i przerywamy funkcję
+         if (isHighlighted) {
+            tableRows.forEach(row => {
+               const lineCell = row.querySelector(".NrOfLine");
+               if (lineCell) {
+                  lineCell.style.backgroundColor = ""; // Resetuj tylko komórkę "Linia"
+               }
+            });
+            isHighlighted = false;
+            document.getElementById("highlightButton").innerText = "Wyróżnij linie"; // Zmień tekst przycisku
+            return;
+         }
+
+         // Iterujemy przez wiersze, aby zidentyfikować unikalne wartości w kolumnie "Linia"
+         tableRows.forEach(row => {
+            const lineCell = row.querySelector(".NrOfLine");
+            if (lineCell) {
+               const lineValue = lineCell.innerText;
+               uniqueLines.add(lineValue);
+            }
+         });
+
+         // Przypisujemy unikalny kolor do każdej unikalnej wartości w kolumnie "Linia"
+         uniqueLines.forEach(line => {
+            lineColors[line] = colors[colorIndex % colors.length];
+            colorIndex++;
+         });
+
+         // Ustawiamy kolor tylko dla komórki w kolumnie "Linia", na podstawie wartości
+         tableRows.forEach(row => {
+            const lineCell = row.querySelector(".NrOfLine");
+            if (lineCell && lineColors[lineCell.innerText]) {
+               lineCell.style.backgroundColor = lineColors[lineCell.innerText]; // Ustaw kolor tylko dla komórki
+            }
+         });
+
+         isHighlighted = true;
+         document.getElementById("highlightButton").innerText = "Przestań wyróżniać linie"; // Zmień tekst przycisku
+      }
+
+      // Dodanie nasłuchu kliknięcia na przycisk "Wyróżnij linie"
+      document.getElementById("highlightButton").addEventListener("click", toggleHighlight);
       window.onload = init;
+
+
+      function savetripid(tripid) {
+         sessionStorage.setItem('savedtripid', tripid);
+      }
 
    </script>
 </body>

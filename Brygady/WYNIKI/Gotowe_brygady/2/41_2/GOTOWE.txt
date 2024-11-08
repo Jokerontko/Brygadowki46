@@ -1,218 +1,198 @@
 route_id	service_id	trip_id	arrival_time	departure_time	stop_headsign	stop_name
 -------------------------------------------------------------------------------
-1456	2	192120	04:23:00	04:23:00		Lubelska Zajezdnia MPK
-1456	2	192120	04:24:00	04:24:00		Lubelska MPK 13 nż
-1456	2	192120	04:25:00	04:25:00		Lubelska Ogrody Hiszpańskie 11 nż
-1456	2	192120	04:26:00	04:26:00		Lubelska Os. Ogrody 09 nż
-1456	2	192120	04:27:00	04:27:00		Krogulskiego / Gromskiego 02 nż
-1456	2	192120	04:28:00	04:28:00		Borowa 02 nż
-1456	2	192120	04:29:00	04:29:00		Borowa / Żywiczna 04 nż
-1456	2	192120	04:30:00	04:30:00		Warszawska / Borowa 07 nż
-1456	2	192120	04:32:00	04:32:00		Warszawska / Staromiejska 05 nż
-1456	2	192120	04:33:00	04:33:00		Warszawska ZS. Samoch. 03 nż
-1456	2	192120	04:34:00	04:34:00		Warszawska / Wyzwolenia 01 nż
-1456	2	192120	04:35:00	04:35:00		Marszałkowska 01
-1456	2	192120	04:38:00	04:38:00		Piłsudskiego U. Wojewódzki 03
-1456	2	192120	04:39:00	04:39:00		Pl. Wolności 01
-1456	2	192120	04:42:00	04:42:00		Lwowska Jedn. Wojskowa 02
-1456	2	192120	04:43:00	04:43:00		Lwowska cmentarz 04
-1456	2	192120	04:45:00	04:45:00		Lwowska szpital 06
-1456	2	192120	04:47:00	04:47:00		Lwowska / Olbrachta 08 nż
-1456	2	192120	04:48:00	04:48:00		Lwowska / Kr. Marysieńki 10 nż
-1456	2	192120	04:49:00	04:49:00		Lwowska granica 12 nż
-1456	2	192120	04:51:00	04:51:00		Krasne Auchan 01
+1456	2	196358	04:23:00	04:23:00		Lubelska Zajezdnia MPK
+1456	2	196358	04:24:00	04:24:00		Lubelska MPK 13 nż
+1456	2	196358	04:25:00	04:25:00		Lubelska Ogrody Hiszpańskie 11 nż
+1456	2	196358	04:26:00	04:26:00		Lubelska Os. Ogrody 09 nż
+1456	2	196358	04:27:00	04:27:00		Krogulskiego / Gromskiego 02 nż
+1456	2	196358	04:28:00	04:28:00		Borowa 02 nż
+1456	2	196358	04:29:00	04:29:00		Borowa / Żywiczna 04 nż
+1456	2	196358	04:30:00	04:30:00		Warszawska / Borowa 07 nż
+1456	2	196358	04:32:00	04:32:00		Warszawska / Staromiejska 05 nż
+1456	2	196358	04:33:00	04:33:00		Warszawska ZS. Samoch. 03 nż
+1456	2	196358	04:34:00	04:34:00		Warszawska / Wyzwolenia 01 nż
+1456	2	196358	04:35:00	04:35:00		Marszałkowska 01
+1456	2	196358	04:38:00	04:38:00		Piłsudskiego U. Wojewódzki 03
+1456	2	196358	04:39:00	04:39:00		Pl. Wolności 01
+1456	2	196358	04:42:00	04:42:00		Lwowska Jedn. Wojskowa 02
+1456	2	196358	04:43:00	04:43:00		Lwowska cmentarz 04
+1456	2	196358	04:45:00	04:45:00		Lwowska szpital 06
+1456	2	196358	04:47:00	04:47:00		Lwowska / Olbrachta 08 nż
+1456	2	196358	04:48:00	04:48:00		Lwowska / Kr. Marysieńki 10 nż
+1456	2	196358	04:49:00	04:49:00		Lwowska granica 12 nż
+1456	2	196358	04:51:00	04:51:00		Krasne Auchan 01
 
-1440	2	191994	05:01:00	05:01:00		Krasne Auchan 01
-1440	2	191994	05:05:00	05:05:00		Lwowska granica 11 nż
-1440	2	191994	05:06:00	05:06:00		Lwowska / Bałtycka 09 nż
-1440	2	191994	05:07:00	05:07:00		Lwowska / Cienista 07 nż
-1440	2	191994	05:09:00	05:09:00		Lwowska szpital 05
-1440	2	191994	05:10:00	05:10:00		Lwowska cmentarz 03
-1440	2	191994	05:11:00	05:11:00		Lwowska Jedn. Wojskowa 01
-1440	2	191994	05:13:00	05:13:00		Piłsudskiego ZDZ 02
-1440	2	191994	05:14:00	05:14:00		Pl. Wolności 04
-1440	2	191994	05:15:00	05:15:00		Piłsudskiego U. Wojewódzki 06
-1440	2	191994	05:17:00	05:17:00		Marszałkowska 02
-1440	2	191994	05:18:00	05:18:00		Warszawska / Wyzwolenia 02 nż
-1440	2	191994	05:19:00	05:19:00		Warszawska ZS. Samoch. 04 nż
-1440	2	191994	05:20:00	05:20:00		Warszawska / Staromiejska 06 nż
-1440	2	191994	05:22:00	05:22:00		Warszawska / Borowa 08 nż
-1440	2	191994	05:23:00	05:23:00		Borowa 01 nż
-1440	2	191994	05:25:00	05:25:00		Krogulskiego / Welca 03 nż
-1440	2	191994	05:26:00	05:26:00		Krogulskiego / Gromskiego 01 nż
-1440	2	191994	05:27:00	05:27:00		Lubelska Os. Ogrody 10 nż
-1440	2	191994	05:28:00	05:28:00		Lubelska Ogrody Hiszpańskie 12 nż
-1440	2	191994	05:29:00	05:29:00		Lubelska MPK 14 nż
-1440	2	191994	05:30:00	05:30:00		Lubelska Zajezdnia MPK
+1440	2	196241	05:01:00	05:01:00		Krasne Auchan 01
+1440	2	196241	05:05:00	05:05:00		Lwowska granica 11 nż
+1440	2	196241	05:06:00	05:06:00		Lwowska / Bałtycka 09 nż
+1440	2	196241	05:07:00	05:07:00		Lwowska / Cienista 07 nż
+1440	2	196241	05:09:00	05:09:00		Lwowska szpital 05
+1440	2	196241	05:10:00	05:10:00		Lwowska cmentarz 03
+1440	2	196241	05:11:00	05:11:00		Lwowska Jedn. Wojskowa 01
+1440	2	196241	05:13:00	05:13:00		Piłsudskiego ZDZ 02
+1440	2	196241	05:14:00	05:14:00		Pl. Wolności 04
+1440	2	196241	05:15:00	05:15:00		Piłsudskiego U. Wojewódzki 06
+1440	2	196241	05:17:00	05:17:00		Marszałkowska 02
+1440	2	196241	05:18:00	05:18:00		Warszawska / Wyzwolenia 02 nż
+1440	2	196241	05:19:00	05:19:00		Warszawska ZS. Samoch. 04 nż
+1440	2	196241	05:20:00	05:20:00		Warszawska / Staromiejska 06 nż
+1440	2	196241	05:22:00	05:22:00		Warszawska / Borowa 08 nż
+1440	2	196241	05:23:00	05:23:00		Borowa 01 nż
+1440	2	196241	05:25:00	05:25:00		Krogulskiego / Welca 03 nż
+1440	2	196241	05:26:00	05:26:00		Krogulskiego / Gromskiego 01 nż
+1440	2	196241	05:27:00	05:27:00		Lubelska Os. Ogrody 10 nż
+1440	2	196241	05:28:00	05:28:00		Lubelska Ogrody Hiszpańskie 12 nż
+1440	2	196241	05:29:00	05:29:00		Lubelska MPK 14 nż
+1440	2	196241	05:30:00	05:30:00		Lubelska Zajezdnia MPK
 
-1365	2	191999	05:50:00	05:50:00		Trembeckiego ZTM pętla 01
-1365	2	191999	05:51:00	05:51:00		Trembeckiego / Siemieńskiego 04 nż
-1365	2	191999	05:52:00	05:52:00		Siemieńskiego U. Skarbowy 03 nż
-1365	2	191999	05:53:00	05:53:00		Siemieńskiego Dom Studenta 01 nż
-1365	2	191999	05:54:00	05:54:00		Żółkiewskiego / Kochanowskiego 01 nż
-1365	2	191999	05:56:00	05:56:00		Bardowskiego 02
-1365	2	191999	05:59:00	05:59:00		Rejtana / Lwowska 01
-1365	2	191999	06:00:00	06:00:00		Rejtana / Kustronia 03 nż
-1365	2	191999	06:01:00	06:01:00		Rejtana Uniwersytet 05
-1365	2	191999	06:02:00	06:02:00		Rejtana / Kopisto 07
-1365	2	191999	06:03:00	06:03:00		Rejtana / Popiełuszki 09
-1365	2	191999	06:05:00	06:05:00		Powst. Warszawy / Rejtana 13
-1365	2	191999	06:06:00	06:06:00		Powst. Warszawy szkoła 11
-1365	2	191999	06:07:00	06:07:00		Powst. Warszawy Dom Studenta 09
-1365	2	191999	06:09:00	06:09:00		Powst. Warszawy / Hetmańska 03
-1365	2	191999	06:10:00	06:10:00		Powst. Warszawy Politechnika 01
-1365	2	191999	06:12:00	06:12:00		Bat. Chłopskich / Dąbrowskiego 02 nż
-1365	2	191999	06:15:00	06:15:00		Przemysłowa / Bat. Chłopskich 02 nż
-1365	2	191999	06:16:00	06:16:00		Przemysłowa / Magazynowa 04
-1365	2	191999	06:18:00	06:18:00		Przemysłowa U. Celny 05 nż
+1365	2	196283	05:50:00	05:50:00		Trembeckiego ZTM pętla 01
+1365	2	196283	05:51:00	05:51:00		Trembeckiego / Siemieńskiego 04 nż
+1365	2	196283	05:52:00	05:52:00		Siemieńskiego U. Skarbowy 03 nż
+1365	2	196283	05:53:00	05:53:00		Siemieńskiego Dom Studenta 01 nż
+1365	2	196283	05:54:00	05:54:00		Żółkiewskiego / Kochanowskiego 01 nż
+1365	2	196283	05:56:00	05:56:00		Bardowskiego 02
+1365	2	196283	05:59:00	05:59:00		Rejtana / Lwowska 01
+1365	2	196283	06:00:00	06:00:00		Rejtana / Kustronia 03 nż
+1365	2	196283	06:01:00	06:01:00		Rejtana Uniwersytet 05
+1365	2	196283	06:02:00	06:02:00		Rejtana / Kopisto 07
+1365	2	196283	06:03:00	06:03:00		Rejtana / Popiełuszki 09
+1365	2	196283	06:05:00	06:05:00		Powst. Warszawy / Rejtana 13
+1365	2	196283	06:06:00	06:06:00		Powst. Warszawy szkoła 11
+1365	2	196283	06:07:00	06:07:00		Powst. Warszawy Dom Studenta 09
+1365	2	196283	06:09:00	06:09:00		Powst. Warszawy / Hetmańska 03
+1365	2	196283	06:10:00	06:10:00		Powst. Warszawy Politechnika 01
+1365	2	196283	06:12:00	06:12:00		Bat. Chłopskich / Dąbrowskiego 02 nż
+1365	2	196283	06:15:00	06:15:00		Przemysłowa / Bat. Chłopskich 02 nż
+1365	2	196283	06:16:00	06:16:00		Przemysłowa / Magazynowa 04
+1365	2	196283	06:18:00	06:18:00		Przemysłowa U. Celny 05 nż
 
-1363	2	192084	06:40:00	06:40:00		Przemysłowa U. Celny 05 nż
-1363	2	192084	06:41:00	06:41:00		Przemysłowa / Architektów 03
-1363	2	192084	06:42:00	06:42:00		Przemysłowa / Bat. Chłopskich 01 nż
-1363	2	192084	06:43:00	06:43:00		Bat. Chłopskich / Przemysłowa 03 nż
-1363	2	192084	06:44:00	06:44:00		Bat. Chłopskich / Podkarpacka 01 nż
-1363	2	192084	06:46:00	06:46:00		Powst. Warszawy / Dąbrowskiego 02
-1363	2	192084	06:47:00	06:47:00		Powst. Warszawy Politechnika 04
-1363	2	192084	06:50:00	06:50:00		Powst. Warszawy stadion 06
-1363	2	192084	06:52:00	06:52:00		Powst. Warszawy Dom Studenta 08
-1363	2	192084	06:53:00	06:53:00		Powst. Warszawy / Graniczna 10
-1363	2	192084	06:56:00	06:56:00		Rejtana / Armii Krajowej 12
-1363	2	192084	06:57:00	06:57:00		Rejtana / Paderewskiego 10
-1363	2	192084	06:58:00	06:58:00		Rejtana / Krzyżanowskiego 08
-1363	2	192084	07:00:00	07:00:00		Rejtana Uniwersytet 06
-1363	2	192084	07:01:00	07:01:00		Rejtana cmentarz 04 nż
-1363	2	192084	07:02:00	07:02:00		Rejtana / Kustronia 02
-1363	2	192084	07:05:00	07:05:00		Piłsudskiego ZDZ 02
-1363	2	192084	07:07:00	07:07:00		Głowackiego ZUS 01
-1363	2	192084	07:09:00	07:09:00		Siemieńskiego / Kochanowskiego 02 nż
-1363	2	192084	07:10:00	07:10:00		Siemieńskiego U. Skarbowy 04 nż
-1363	2	192084	07:11:00	07:11:00		Trembeckiego / Siemieńskiego 07 nż
-1363	2	192084	07:12:00	07:12:00		Trembeckiego ZTM pętla 01
+1363	2	196333	06:40:00	06:40:00		Przemysłowa U. Celny 05 nż
+1363	2	196333	06:41:00	06:41:00		Przemysłowa / Architektów 03
+1363	2	196333	06:42:00	06:42:00		Przemysłowa / Bat. Chłopskich 01 nż
+1363	2	196333	06:43:00	06:43:00		Bat. Chłopskich / Przemysłowa 03 nż
+1363	2	196333	06:44:00	06:44:00		Bat. Chłopskich / Podkarpacka 01 nż
+1363	2	196333	06:46:00	06:46:00		Powst. Warszawy / Dąbrowskiego 02
+1363	2	196333	06:47:00	06:47:00		Powst. Warszawy Politechnika 04
+1363	2	196333	06:50:00	06:50:00		Powst. Warszawy stadion 06
+1363	2	196333	06:52:00	06:52:00		Powst. Warszawy Dom Studenta 08
+1363	2	196333	06:53:00	06:53:00		Powst. Warszawy / Graniczna 10
+1363	2	196333	06:56:00	06:56:00		Rejtana / Armii Krajowej 12
+1363	2	196333	06:57:00	06:57:00		Rejtana / Paderewskiego 10
+1363	2	196333	06:58:00	06:58:00		Rejtana / Krzyżanowskiego 08
+1363	2	196333	07:00:00	07:00:00		Rejtana Uniwersytet 06
+1363	2	196333	07:01:00	07:01:00		Rejtana cmentarz 04 nż
+1363	2	196333	07:02:00	07:02:00		Rejtana / Kustronia 02
+1363	2	196333	07:05:00	07:05:00		Piłsudskiego ZDZ 02
+1363	2	196333	07:07:00	07:07:00		Głowackiego ZUS 01
+1363	2	196333	07:09:00	07:09:00		Siemieńskiego / Kochanowskiego 02 nż
+1363	2	196333	07:10:00	07:10:00		Siemieńskiego U. Skarbowy 04 nż
+1363	2	196333	07:11:00	07:11:00		Trembeckiego / Siemieńskiego 07 nż
+1363	2	196333	07:12:00	07:12:00		Trembeckiego ZTM pętla 01
 
-1753	2	191992	07:30:00	07:30:00		Bardowskiego 01
-1753	2	191992	07:32:00	07:32:00		Pl. Wolności 04
-1753	2	191992	07:33:00	07:33:00		Piłsudskiego U. Wojewódzki 06
-1753	2	191992	07:36:00	07:36:00		Marszałkowska 02
-1753	2	191992	07:37:00	07:37:00		Lubelska szpital 02
-1753	2	191992	07:39:00	07:39:00		Lubelska kościół 06 nż
-1753	2	191992	07:41:00	07:41:00		Lubelska / Borowa 08 nż
-1753	2	191992	07:42:00	07:42:00		Rzecha / Lubelska 05 nż
-1753	2	191992	07:44:00	07:44:00		Ciepłownicza / Rzecha 99 nż
-1753	2	191992	07:45:00	07:45:00		Ciepłownicza działki II 97 nż
-1753	2	191992	07:46:00	07:46:00		Ciepłownicza działki I 96 nż
-1753	2	191992	07:47:00	07:47:00		Ciepłownicza działki II 98 nż
-1753	2	191992	07:48:00	07:48:00		Rzecha / Ciepłownicza 03 nż
-1753	2	191992	07:50:00	07:50:00		Załęska / Rzecha 03 nż
-1753	2	191992	07:51:00	07:51:00		Księżycowa / Załęska 02 nż
-1753	2	191992	07:52:00	07:52:00		Stączka kościół 02 nż
-1753	2	191992	07:53:00	07:53:00		Stączka / Jaspisowa 04 nż
-1753	2	191992	07:54:00	07:54:00		Potockiego / Stączka 02 nż
-1753	2	191992	07:55:00	07:55:00		Potockiego / Nefrytowa 04 nż
-1753	2	191992	07:56:00	07:56:00		Potockiego / Ametystowa 06 nż
-1753	2	191992	07:57:00	07:57:00		Potockiego Dom Seniora 08 nż
-1753	2	191992	07:59:00	07:59:00		Potockiego pętla 10
+912	2	196315	07:30:00	07:30:00		Bardowskiego 01
+912	2	196315	07:32:00	07:32:00		Pl. Wolności 04
+912	2	196315	07:33:00	07:33:00		Piłsudskiego U. Wojewódzki 06
+912	2	196315	07:36:00	07:36:00		Marszałkowska 02
+912	2	196315	07:37:00	07:37:00		Lubelska szpital 02
+912	2	196315	07:39:00	07:39:00		Lubelska kościół 06 nż
+912	2	196315	07:41:00	07:41:00		Lubelska / Borowa 08 nż
+912	2	196315	07:42:00	07:42:00		Rzecha / Lubelska 05 nż
+912	2	196315	07:44:00	07:44:00		Rzecha / Ciepłownicza 03 nż
+912	2	196315	07:46:00	07:46:00		Załęska / Rzecha 03 nż
+912	2	196315	07:47:00	07:47:00		Księżycowa / Załęska 02 nż
+912	2	196315	07:48:00	07:48:00		Stączka kościół 02 nż
+912	2	196315	07:49:00	07:49:00		Stączka / Jaspisowa 04 nż
+912	2	196315	07:50:00	07:50:00		Potockiego / Stączka 02 nż
+912	2	196315	07:51:00	07:51:00		Potockiego / Nefrytowa 04 nż
+912	2	196315	07:52:00	07:52:00		Potockiego / Ametystowa 06 nż
+912	2	196315	07:53:00	07:53:00		Potockiego Dom Seniora 08 nż
+912	2	196315	07:55:00	07:55:00		Potockiego pętla 10
 
-893	2	191976	08:01:00	08:01:00		Potockiego pętla 10
-893	2	191976	08:02:00	08:02:00		Potockiego Dom Seniora 05 nż
-893	2	191976	08:03:00	08:03:00		Potockiego / Ametystowa 03 nż
-893	2	191976	08:04:00	08:04:00		Potockiego / Nefrytowa 01 nż
-893	2	191976	08:05:00	08:05:00		Stączka / Potockiego 03 nż
-893	2	191976	08:06:00	08:06:00		Stączka kościół 01 nż
-893	2	191976	08:07:00	08:07:00		Księżycowa / Załęska 01 nż
-893	2	191976	08:10:00	08:10:00		Rzecha / Spółdzielcza 04 nż
-893	2	191976	08:11:00	08:11:00		Rzecha / Ciepłownicza 06 nż
-893	2	191976	08:12:00	08:12:00		Rzecha / Lubelska 08 nż
-893	2	191976	08:14:00	08:14:00		Lubelska / Borowa 07 nż
-893	2	191976	08:16:00	08:16:00		Lubelska kościół 05 nż
-893	2	191976	08:17:00	08:17:00		Lubelska szpital 01
-893	2	191976	08:19:00	08:19:00		Marszałkowska 01
-893	2	191976	08:23:00	08:23:00		Piłsudskiego U. Wojewódzki 03
-893	2	191976	08:26:00	08:26:00		Bardowskiego 04
+893	2	196165	08:01:00	08:01:00		Potockiego pętla 10
+893	2	196165	08:02:00	08:02:00		Potockiego Dom Seniora 05 nż
+893	2	196165	08:03:00	08:03:00		Potockiego / Ametystowa 03 nż
+893	2	196165	08:04:00	08:04:00		Potockiego / Nefrytowa 01 nż
+893	2	196165	08:05:00	08:05:00		Stączka / Potockiego 03 nż
+893	2	196165	08:06:00	08:06:00		Stączka kościół 01 nż
+893	2	196165	08:07:00	08:07:00		Księżycowa / Załęska 01 nż
+893	2	196165	08:10:00	08:10:00		Rzecha / Spółdzielcza 04 nż
+893	2	196165	08:11:00	08:11:00		Rzecha / Ciepłownicza 06 nż
+893	2	196165	08:12:00	08:12:00		Rzecha / Lubelska 08 nż
+893	2	196165	08:14:00	08:14:00		Lubelska / Borowa 07 nż
+893	2	196165	08:16:00	08:16:00		Lubelska kościół 05 nż
+893	2	196165	08:17:00	08:17:00		Lubelska szpital 01
+893	2	196165	08:19:00	08:19:00		Marszałkowska 01
+893	2	196165	08:23:00	08:23:00		Piłsudskiego U. Wojewódzki 03
+893	2	196165	08:26:00	08:26:00		Bardowskiego 04
 
-1753	2	192018	13:25:00	13:25:00		Bardowskiego 01
-1753	2	192018	13:28:00	13:28:00		Pl. Wolności 04
-1753	2	192018	13:29:00	13:29:00		Piłsudskiego U. Wojewódzki 06
-1753	2	192018	13:33:00	13:33:00		Marszałkowska 02
-1753	2	192018	13:34:00	13:34:00		Lubelska szpital 02
-1753	2	192018	13:36:00	13:36:00		Lubelska kościół 06 nż
-1753	2	192018	13:38:00	13:38:00		Lubelska / Borowa 08 nż
-1753	2	192018	13:39:00	13:39:00		Rzecha / Lubelska 05 nż
-1753	2	192018	13:41:00	13:41:00		Ciepłownicza / Rzecha 99 nż
-1753	2	192018	13:42:00	13:42:00		Ciepłownicza działki II 97 nż
-1753	2	192018	13:43:00	13:43:00		Ciepłownicza działki I 96 nż
-1753	2	192018	13:44:00	13:44:00		Ciepłownicza działki II 98 nż
-1753	2	192018	13:45:00	13:45:00		Rzecha / Ciepłownicza 03 nż
-1753	2	192018	13:47:00	13:47:00		Załęska / Rzecha 03 nż
-1753	2	192018	13:48:00	13:48:00		Księżycowa / Załęska 02 nż
-1753	2	192018	13:49:00	13:49:00		Stączka kościół 02 nż
-1753	2	192018	13:50:00	13:50:00		Stączka / Jaspisowa 04 nż
-1753	2	192018	13:51:00	13:51:00		Potockiego / Stączka 02 nż
-1753	2	192018	13:52:00	13:52:00		Potockiego / Nefrytowa 04 nż
-1753	2	192018	13:53:00	13:53:00		Potockiego / Ametystowa 06 nż
-1753	2	192018	13:54:00	13:54:00		Potockiego Dom Seniora 08 nż
-1753	2	192018	13:56:00	13:56:00		Potockiego pętla 10
+912	2	196247	13:25:00	13:25:00		Bardowskiego 01
+912	2	196247	13:28:00	13:28:00		Pl. Wolności 04
+912	2	196247	13:29:00	13:29:00		Piłsudskiego U. Wojewódzki 06
+912	2	196247	13:33:00	13:33:00		Marszałkowska 02
+912	2	196247	13:34:00	13:34:00		Lubelska szpital 02
+912	2	196247	13:36:00	13:36:00		Lubelska kościół 06 nż
+912	2	196247	13:38:00	13:38:00		Lubelska / Borowa 08 nż
+912	2	196247	13:39:00	13:39:00		Rzecha / Lubelska 05 nż
+912	2	196247	13:41:00	13:41:00		Rzecha / Ciepłownicza 03 nż
+912	2	196247	13:43:00	13:43:00		Załęska / Rzecha 03 nż
+912	2	196247	13:44:00	13:44:00		Księżycowa / Załęska 02 nż
+912	2	196247	13:45:00	13:45:00		Stączka kościół 02 nż
+912	2	196247	13:46:00	13:46:00		Stączka / Jaspisowa 04 nż
+912	2	196247	13:47:00	13:47:00		Potockiego / Stączka 02 nż
+912	2	196247	13:48:00	13:48:00		Potockiego / Nefrytowa 04 nż
+912	2	196247	13:49:00	13:49:00		Potockiego / Ametystowa 06 nż
+912	2	196247	13:50:00	13:50:00		Potockiego Dom Seniora 08 nż
+912	2	196247	13:52:00	13:52:00		Potockiego pętla 10
 
-1752	2	192051	14:00:00	14:00:00		Potockiego pętla 10
-1752	2	192051	14:01:00	14:01:00		Potockiego Dom Seniora 05 nż
-1752	2	192051	14:02:00	14:02:00		Potockiego / Ametystowa 03 nż
-1752	2	192051	14:03:00	14:03:00		Potockiego / Nefrytowa 01 nż
-1752	2	192051	14:04:00	14:04:00		Stączka / Potockiego 03 nż
-1752	2	192051	14:05:00	14:05:00		Stączka kościół 01 nż
-1752	2	192051	14:06:00	14:06:00		Księżycowa / Załęska 01 nż
-1752	2	192051	14:09:00	14:09:00		Rzecha / Spółdzielcza 04 nż
-1752	2	192051	14:11:00	14:11:00		Ciepłownicza / Rzecha 99 nż
-1752	2	192051	14:12:00	14:12:00		Ciepłownicza działki II 97 nż
-1752	2	192051	14:13:00	14:13:00		Ciepłownicza działki I 96 nż
-1752	2	192051	14:14:00	14:14:00		Ciepłownicza działki II 98 nż
-1752	2	192051	14:15:00	14:15:00		Rzecha / Ciepłownicza 06 nż
-1752	2	192051	14:16:00	14:16:00		Rzecha / Lubelska 08 nż
-1752	2	192051	14:18:00	14:18:00		Lubelska / Borowa 07 nż
-1752	2	192051	14:20:00	14:20:00		Lubelska kościół 05 nż
-1752	2	192051	14:22:00	14:22:00		Lubelska szpital 01
-1752	2	192051	14:25:00	14:25:00		Marszałkowska 01
-1752	2	192051	14:29:00	14:29:00		Piłsudskiego U. Wojewódzki 03
-1752	2	192051	14:32:00	14:32:00		Bardowskiego 04
+893	2	196249	14:00:00	14:00:00		Potockiego pętla 10
+893	2	196249	14:01:00	14:01:00		Potockiego Dom Seniora 05 nż
+893	2	196249	14:02:00	14:02:00		Potockiego / Ametystowa 03 nż
+893	2	196249	14:03:00	14:03:00		Potockiego / Nefrytowa 01 nż
+893	2	196249	14:04:00	14:04:00		Stączka / Potockiego 03 nż
+893	2	196249	14:05:00	14:05:00		Stączka kościół 01 nż
+893	2	196249	14:06:00	14:06:00		Księżycowa / Załęska 01 nż
+893	2	196249	14:09:00	14:09:00		Rzecha / Spółdzielcza 04 nż
+893	2	196249	14:10:00	14:10:00		Rzecha / Ciepłownicza 06 nż
+893	2	196249	14:11:00	14:11:00		Rzecha / Lubelska 08 nż
+893	2	196249	14:13:00	14:13:00		Lubelska / Borowa 07 nż
+893	2	196249	14:15:00	14:15:00		Lubelska kościół 05 nż
+893	2	196249	14:17:00	14:17:00		Lubelska szpital 01
+893	2	196249	14:20:00	14:20:00		Marszałkowska 01
+893	2	196249	14:24:00	14:24:00		Piłsudskiego U. Wojewódzki 03
+893	2	196249	14:27:00	14:27:00		Bardowskiego 04
 
-1753	2	192102	14:55:00	14:55:00		Bardowskiego 01
-1753	2	192102	14:58:00	14:58:00		Pl. Wolności 04
-1753	2	192102	15:01:00	15:01:00		Piłsudskiego U. Wojewódzki 06
-1753	2	192102	15:05:00	15:05:00		Marszałkowska 02
-1753	2	192102	15:06:00	15:06:00		Lubelska szpital 02
-1753	2	192102	15:08:00	15:08:00		Lubelska kościół 06 nż
-1753	2	192102	15:10:00	15:10:00		Lubelska / Borowa 08 nż
-1753	2	192102	15:12:00	15:12:00		Rzecha / Lubelska 05 nż
-1753	2	192102	15:14:00	15:14:00		Ciepłownicza / Rzecha 99 nż
-1753	2	192102	15:15:00	15:15:00		Ciepłownicza działki II 97 nż
-1753	2	192102	15:16:00	15:16:00		Ciepłownicza działki I 96 nż
-1753	2	192102	15:17:00	15:17:00		Ciepłownicza działki II 98 nż
-1753	2	192102	15:18:00	15:18:00		Rzecha / Ciepłownicza 03 nż
-1753	2	192102	15:22:00	15:22:00		Załęska / Rzecha 03 nż
-1753	2	192102	15:23:00	15:23:00		Księżycowa / Załęska 02 nż
-1753	2	192102	15:24:00	15:24:00		Stączka kościół 02 nż
-1753	2	192102	15:25:00	15:25:00		Stączka / Jaspisowa 04 nż
-1753	2	192102	15:26:00	15:26:00		Potockiego / Stączka 02 nż
-1753	2	192102	15:27:00	15:27:00		Potockiego / Nefrytowa 04 nż
-1753	2	192102	15:28:00	15:28:00		Potockiego / Ametystowa 06 nż
-1753	2	192102	15:29:00	15:29:00		Potockiego Dom Seniora 08 nż
-1753	2	192102	15:32:00	15:32:00		Potockiego pętla 10
+912	2	196158	14:55:00	14:55:00		Bardowskiego 01
+912	2	196158	14:58:00	14:58:00		Pl. Wolności 04
+912	2	196158	15:01:00	15:01:00		Piłsudskiego U. Wojewódzki 06
+912	2	196158	15:05:00	15:05:00		Marszałkowska 02
+912	2	196158	15:06:00	15:06:00		Lubelska szpital 02
+912	2	196158	15:08:00	15:08:00		Lubelska kościół 06 nż
+912	2	196158	15:10:00	15:10:00		Lubelska / Borowa 08 nż
+912	2	196158	15:12:00	15:12:00		Rzecha / Lubelska 05 nż
+912	2	196158	15:15:00	15:15:00		Rzecha / Ciepłownicza 03 nż
+912	2	196158	15:19:00	15:19:00		Załęska / Rzecha 03 nż
+912	2	196158	15:20:00	15:20:00		Księżycowa / Załęska 02 nż
+912	2	196158	15:21:00	15:21:00		Stączka kościół 02 nż
+912	2	196158	15:22:00	15:22:00		Stączka / Jaspisowa 04 nż
+912	2	196158	15:23:00	15:23:00		Potockiego / Stączka 02 nż
+912	2	196158	15:24:00	15:24:00		Potockiego / Nefrytowa 04 nż
+912	2	196158	15:25:00	15:25:00		Potockiego / Ametystowa 06 nż
+912	2	196158	15:26:00	15:26:00		Potockiego Dom Seniora 08 nż
+912	2	196158	15:29:00	15:29:00		Potockiego pętla 10
 
-1752	2	191970	15:59:00	15:59:00		Potockiego pętla 10
-1752	2	191970	16:00:00	16:00:00		Potockiego Dom Seniora 05 nż
-1752	2	191970	16:01:00	16:01:00		Potockiego / Ametystowa 03 nż
-1752	2	191970	16:02:00	16:02:00		Potockiego / Nefrytowa 01 nż
-1752	2	191970	16:03:00	16:03:00		Stączka / Potockiego 03 nż
-1752	2	191970	16:04:00	16:04:00		Stączka kościół 01 nż
-1752	2	191970	16:05:00	16:05:00		Księżycowa / Załęska 01 nż
-1752	2	191970	16:08:00	16:08:00		Rzecha / Spółdzielcza 04 nż
-1752	2	191970	16:10:00	16:10:00		Ciepłownicza / Rzecha 99 nż
-1752	2	191970	16:11:00	16:11:00		Ciepłownicza działki II 97 nż
-1752	2	191970	16:12:00	16:12:00		Ciepłownicza działki I 96 nż
-1752	2	191970	16:13:00	16:13:00		Ciepłownicza działki II 98 nż
-1752	2	191970	16:14:00	16:14:00		Rzecha / Ciepłownicza 06 nż
-1752	2	191970	16:15:00	16:15:00		Rzecha / Lubelska 08 nż
-1752	2	191970	16:17:00	16:17:00		Lubelska / Borowa 07 nż
-1752	2	191970	16:19:00	16:19:00		Lubelska kościół 05 nż
-1752	2	191970	16:21:00	16:21:00		Lubelska szpital 01
-1752	2	191970	16:24:00	16:24:00		Marszałkowska 01
-1752	2	191970	16:29:00	16:29:00		Piłsudskiego U. Wojewódzki 03
-1752	2	191970	16:34:00	16:34:00		Bardowskiego 04
+893	2	196248	15:59:00	15:59:00		Potockiego pętla 10
+893	2	196248	16:00:00	16:00:00		Potockiego Dom Seniora 05 nż
+893	2	196248	16:01:00	16:01:00		Potockiego / Ametystowa 03 nż
+893	2	196248	16:02:00	16:02:00		Potockiego / Nefrytowa 01 nż
+893	2	196248	16:03:00	16:03:00		Stączka / Potockiego 03 nż
+893	2	196248	16:04:00	16:04:00		Stączka kościół 01 nż
+893	2	196248	16:05:00	16:05:00		Księżycowa / Załęska 01 nż
+893	2	196248	16:08:00	16:08:00		Rzecha / Spółdzielcza 04 nż
+893	2	196248	16:09:00	16:09:00		Rzecha / Ciepłownicza 06 nż
+893	2	196248	16:10:00	16:10:00		Rzecha / Lubelska 08 nż
+893	2	196248	16:12:00	16:12:00		Lubelska / Borowa 07 nż
+893	2	196248	16:14:00	16:14:00		Lubelska kościół 05 nż
+893	2	196248	16:16:00	16:16:00		Lubelska szpital 01
+893	2	196248	16:19:00	16:19:00		Marszałkowska 01
+893	2	196248	16:24:00	16:24:00		Piłsudskiego U. Wojewódzki 03
+893	2	196248	16:29:00	16:29:00		Bardowskiego 04

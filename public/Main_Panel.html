@@ -23,6 +23,7 @@
         h1 {
             font-size: 2rem;
             margin: 40px 0 20px;
+
         }
 
         .button-container {
@@ -55,7 +56,6 @@
         article {
             border-radius: 10px;
             max-width: 60vw;
-            text-align: left;
             display: block;
 
         }
@@ -63,6 +63,7 @@
         .content p {
             font-size: 1rem;
             margin-top: 10px;
+            margin: 25px;
         }
 
         img {
@@ -109,17 +110,26 @@
             border: 3px solid orange;
             margin-top: -30px;
             border-radius: 10px;
-            text-align: center;
+
         }
 
         .smallletters {
             font-size: 10px;
             color: grey;
+            text-align: center;
+            margin-bottom: 10px;
+            display: block;
+
+
         }
 
         .image {
             max-width: 40vw;
             max-height: 40vw;
+            margin: auto;
+            display: block;
+            margin-bottom: -10px;
+            margin-top: -20px;
         }
 
     </style>
@@ -134,7 +144,6 @@
         <hr>
     </header>
     <h1 id="welcome-message"></h1>
-    <p>TEŚCIOR 08/11/2024</p>
 
     <section id="news-articles"></section>
     <p class="NothingToFind"></p>
@@ -211,7 +220,7 @@
                 <article>
                         <h2><span class="title">${title}</span></h2>
                     <div class="content">
-                        <p>${content}</p><br><br><sup class="smallletters">${type} ${date}</sup>
+                        <p>${content}</p><sup class="smallletters">${type} ${date}</sup>
                     </div>
                 </article>
                 `;

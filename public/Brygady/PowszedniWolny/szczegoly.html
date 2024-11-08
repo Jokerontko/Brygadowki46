@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=0.6">
+   <link rel="stylesheet" href="../../style_css/headermenu.css">
+   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+   <meta http-equiv="Pragma" content="no-cache">
+   <meta http-equiv="Expires" content="0">
+   <title>Szczegóły brygady</title>
+   <style>
+      body {
+         background: rgb(50, 50, 50);
+         font-family: Arial, sans-serif;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         height: 100vh;
+         color: white;
+      }
+
+      h1 {
+         font-size: 2rem;
+         margin: 40px 0 10px;
+      }
+
+      table {
+         width: 50%;
+         max-width: 80%;
+         border-collapse: collapse;
+         border-radius: 5px;
+         overflow: hidden;
+         margin-top: 20px;
+      }
+
+      th,
+      td {
+         text-align: center;
+         padding: 10px;
+         border: 1px solid #ccc;
+         font-size: 17px;
+      }
+
+      th {
+         background-color: rgba(255, 165, 0, 0.2);
+      }
+
+      thead {
+         background-color: rgba(255, 165, 0, 0.2);
+      }
+
+      p {
+         font-size: 0px;
+      }
+
+   </style>
+</head>
+
+<body>
+   <header>
+      <a href="../../Main_Panel.html" class="menu">Panel Główny</a>
+      <a href="../ChooseDay.html" class="menu">Brygady</a>
+      <a href="../../Brygady/Kursy/Kursy.html" class="menu">Kursy</a>
+      <a href="#" class="menu exit" id="logout">Opuść Panel</a>
+      <hr>
+   </header>
+
+   <h1 id="brygadaTitle">Szczegóły kursu</h1>
+   <p id="valuetripid">Tutaj_wartosc_tripid</p>
+
+   <table id="rozkładTable">
+      <thead>
+         <tr>
+            <th>Lp</th>
+            <th>Przystanek</th>
+            <th>Godzina</th>
+            <th>Km</th>
+         </tr>
+      </thead>
+      <tbody id="dane-tabeli">
+         <!-- Rows will be added dynamically -->
+      </tbody>
+   </table>
+   <br>
+   <a href="brygada.html" class="menu">Wróć do brygady</a>
+   <br>
+   <script>
+      // Check if the user is logged in, otherwise redirect
+      function checkLogin() {
+         const user = JSON.parse(sessionStorage.getItem('user'));
+         if (!user) {
+            window.location.href = '../../zoltakartka.html';
+         }
+      }
+
+      // Set the title for the brigade
+      function loadTripIdValue() {
+         const TripIdValue = sessionStorage.getItem('savedtripid');
+         if (TripIdValue) {
+            document.getElementById('valuetripid').innerText = `${TripIdValue}`;
+         } else {
+            console.error("Nie znaleziono brygadaTitle w sessionStorage.");
+         }
+         return TripIdValue; // Return TripIdValue for later use
+      }
+
+      // Logout logic
+      document.getElementById('logout').addEventListener('click', function() {
+         sessionStorage.clear();
+         window.location.href = '../../index.html';
+      });
+
+      // Fetch the file based on the TripIdValue
+      async function fetchFile(tripId) {
+         const brygadaTitle = sessionStorage.getItem('brygadaTitle');
+         const typeofday = sessionStorage.getItem('ChoosedTypeOfDay');
+         const filePath = `../../../Brygady/WYNIKI/Gotowe_brygady/${typeofday}/${brygadaTitle}/${tripId}.txt`;
+         try {
+            const response = await fetch(filePath);
+            if (!response.ok) {
+               throw new Error(`Sieć odpowiedziała błędem: ${response.status}`);
+            }
+            const text = await response.text();
+            return text.split("\n");
+         } catch (error) {
+            console.error('Błąd podczas odczytu pliku:', error);
+            return null;
+         }
+      }
+
+      // Process the file data and populate the table
+      async function processFileData(lines) {
+         let tableBody = document.querySelector("#dane-tabeli");
+         let lp = 1;
+
+         // Skip the first 3 lines
+         for (let i = 3; i < lines.length; i++) {
+            const line = lines[i].trim();
+            if (line) { // Only process non-empty lines
+               const parts = line.split("\t"); // Split by tab
+
+               // Assuming the relevant data are in specific columns
+               const stopName = parts[6] || "N/A"; // Column for stop name
+               let departureTime = parts[3] || "N/A"; // Column for departure time
+               const km = "N/A"; // As specified, Km is "N/A"
+
+               // Check if departureTime is not "N/A" and format it to HH:MM
+               if (departureTime !== "N/A") {
+                  const timeParts = departureTime.split(":"); // Split by colon
+                  if (timeParts.length >= 2) {
+                     departureTime = `${timeParts[0]}:${timeParts[1]}`; // Get HH:MM
+                  }
+               }
+
+               let row = document.createElement("tr");
+               row.innerHTML = `
+   <td>${lp++}</td>
+   <td>${stopName}</td>
+   <td>${departureTime}</td>
+   <td>${km}</td>
+`;
+
+               tableBody.appendChild(row);
+            }
+         }
+      }
+
+      async function init() {
+         checkLogin();
+         const TripIdValue = loadTripIdValue();
+         const lines = await fetchFile(TripIdValue);
+         if (lines) {
+            await processFileData(lines);
+         } else {
+            console.error("Nie udało się wczytać pliku.");
+         }
+      }
+
+      window.onload = init;
+
+   </script>
+</body>
+
+</html>
