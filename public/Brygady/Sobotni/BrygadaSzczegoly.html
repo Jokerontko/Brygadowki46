@@ -8,6 +8,7 @@
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="0">
+    <meta http-equiv="refresh" content="180">
     <title>Szczegóły brygady</title>
     <style>
         body {
@@ -42,16 +43,17 @@
             font-size: 17px;
         }
 
-        th {
-            background-color: rgba(255, 165, 0, 0.2);
+        thead {
+            background-color: rgba(163, 120, 0);
         }
 
-        thead {
-            background-color: rgba(255, 165, 0, 0.2);
+        #valuetripid {
+            font-size: 0px;
         }
 
         p {
-            font-size: 0px;
+            color: grey;
+            margin-top: 0px;
         }
 
     </style>
@@ -85,6 +87,8 @@
     <br>
     <a href="brygada.html" class="menu">Wróć do brygady</a>
     <br>
+    <p>Strona odświeża się automatycznie co 180 sekund.</p>
+
     <script>
         // Sprawdzanie, czy użytkownik jest zalogowany
         function checkLogin() {
@@ -179,7 +183,7 @@
         }
 
 
-        // Funkcja do sprawdzenia, czy aktualny czas jest równy godzinie w tabeli
+        // Sprawdza, czy aktualny czas jest równy docelowemu
         function isCurrentTimeEqualToTarget(targetTime) {
             const currentTime = new Date();
             const currentHours = currentTime.getHours();
@@ -189,20 +193,42 @@
             return currentFormattedTime === targetTime;
         }
 
-        // Funkcja, która iteruje przez tabelę i porównuje godziny
+        // Funkcja iteruje przez tabelę, wyróżnia aktualną godzinę lub najbliższą wcześniejszą
         function checkCurrentTimeAgainstTable() {
-            const tableRows = document.querySelectorAll("#dane-tabeli tr"); // Pobieramy wszystkie wiersze tabeli
+            const tableRows = document.querySelectorAll("#dane-tabeli tr");
+            let rowHighlighted = false;
+            let closestRow = null;
+            let closestTimeDiff = Number.MAX_SAFE_INTEGER;
 
             tableRows.forEach((row) => {
-                const timeCell = row.querySelector("td:nth-child(3)"); // Pobieramy komórkę z godziną (3. kolumna)
-                const targetTime = timeCell.textContent.trim(); // Pobieramy godzinę z komórki
+                const timeCell = row.querySelector("td:nth-child(3)");
+                const targetTime = timeCell.textContent.trim();
 
-                // Sprawdzamy, czy aktualny czas jest równy godzinie w tabeli
                 if (targetTime !== "N/A" && isCurrentTimeEqualToTarget(targetTime)) {
-                    row.style.backgroundColor = "rgba(255, 165, 0, 0.5)"; // Zmiana koloru wiersza
+                    row.style.backgroundColor = "rgba(96, 96, 96)"; // Kolor dla aktualnego czasu
+                    rowHighlighted = true;
+                } else if (targetTime !== "N/A") {
+                    const [targetHours, targetMinutes] = targetTime.split(":").map(Number);
+                    const targetDate = new Date();
+                    targetDate.setHours(targetHours, targetMinutes, 0, 0);
+
+                    const currentDate = new Date();
+                    const timeDiff = currentDate - targetDate; // Zmiana: wcześniejsze godziny będą miały dodatnią różnicę
+
+                    // Jeśli godzina wcześniejsza (czasDiff > 0) i jest najbliższa do aktualnego, ustawiamy ją jako closestRow
+                    if (timeDiff > 0 && timeDiff < closestTimeDiff) {
+                        closestTimeDiff = timeDiff;
+                        closestRow = row;
+                    }
                 }
             });
+
+            // Jeśli żaden wiersz nie został wyróżniony, wyróżnij najbliższą wcześniejszą godzinę
+            if (!rowHighlighted && closestRow) {
+                closestRow.style.backgroundColor = "rgba(66, 66, 66)"; // Kolor dla najbliższej wcześniejszej godziny
+            }
         }
+
 
         async function init() {
             checkLogin();

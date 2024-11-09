@@ -8,6 +8,7 @@
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="0">
+    <meta http-equiv="refresh" content="180">
     <title>Szczegóły kursu</title>
     <style>
         body {
@@ -41,12 +42,8 @@
             font-size: 17px;
         }
 
-        th {
-            background-color: rgba(255, 165, 0, 0.2);
-        }
-
         thead {
-            background-color: rgba(255, 165, 0, 0.2);
+            background-color: rgba(163, 120, 0);
         }
 
         .NrOflp {
@@ -58,6 +55,10 @@
             font-size: 0px;
             padding: 0px;
             border: 0px;
+        }
+
+        p {
+            color: grey;
         }
 
     </style>
@@ -93,6 +94,8 @@
             <!-- Rows will be added dynamically -->
         </tbody>
     </table>
+
+    <p>Strona odświeża się automatycznie co 180 sekund.</p>
 
     <script>
         // Check if the user is logged in, otherwise redirect
@@ -251,7 +254,7 @@
 
                     // If current time is between start and end time, highlight the row
                     if (isCurrentTimeBetween(startTime, endTime)) {
-                        row.style.backgroundColor = "orange";
+                        row.style.backgroundColor = "rgb(75, 75, 75)";
                     } else {
                         row.style.backgroundColor = ""; // Reset the background if not in range
                     }
@@ -351,7 +354,7 @@
                     wyjazdCell.style.textAlign = "center"; // Wyśrodkowanie tekstu
                     wyjazdRow.appendChild(wyjazdCell);
                     tableBody.insertBefore(wyjazdRow, tableBody.rows[0]); // Dodaj przed pierwszym wierszem
-                    wyjazdRow.style.backgroundColor = "rgba(255, 165, 0, 0.2)"; // Dodaj kolor tła
+                    wyjazdRow.style.backgroundColor = "rgba(163, 120, 0)"; // Dodaj kolor tła
                     wyjazdAdded = true; // Ustaw flagę, że dodano "Wyjazd Na Linie"
                 }
             }
@@ -392,7 +395,7 @@
                         przejazdRow.appendChild(przejazdCell);
                         tableBody.insertBefore(przejazdRow, nextRow); // Dodaj przed następnym wierszem
                         i++; // Przeskocz do następnego wiersza po dodaniu "Przejazd Techniczny"
-                        przejazdRow.style.backgroundColor = "rgba(255, 165, 0, 0.2)"; // Dodaj kolor tła
+                        przejazdRow.style.backgroundColor = "rgba(163, 120, 0)"; // Dodaj kolor tła
                     }
                 }
             }
@@ -408,7 +411,7 @@
                     zjazdCell.style.textAlign = "center"; // Wyśrodkowanie tekstu
                     zjazdRow.appendChild(zjazdCell);
                     tableBody.appendChild(zjazdRow); // Dodaj na dole
-                    zjazdRow.style.backgroundColor = "rgba(255, 165, 0, 0.2)"; // Dodaj kolor tła
+                    zjazdRow.style.backgroundColor = "rgba(163, 120, 0)"; // Dodaj kolor tła
                 }
             }
 
