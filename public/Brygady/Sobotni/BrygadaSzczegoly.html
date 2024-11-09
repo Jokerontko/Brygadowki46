@@ -204,18 +204,23 @@
                 const timeCell = row.querySelector("td:nth-child(3)");
                 const targetTime = timeCell.textContent.trim();
 
-                if (targetTime !== "N/A" && isCurrentTimeEqualToTarget(targetTime)) {
+                // Sprawdzamy, czy targetTime jest null lub pusty, jeśli tak, przerywamy działanie
+                if (!targetTime || targetTime === "N/A") {
+                    console.warn("Wartość targetTime jest null lub N/A, przerywanie działania funkcji.");
+                    return;
+                }
+
+                if (isCurrentTimeEqualToTarget(targetTime)) {
                     row.style.backgroundColor = "rgba(96, 96, 96)"; // Kolor dla aktualnego czasu
                     rowHighlighted = true;
-                } else if (targetTime !== "N/A") {
+                } else {
                     const [targetHours, targetMinutes] = targetTime.split(":").map(Number);
                     const targetDate = new Date();
                     targetDate.setHours(targetHours, targetMinutes, 0, 0);
 
                     const currentDate = new Date();
-                    const timeDiff = currentDate - targetDate; // Zmiana: wcześniejsze godziny będą miały dodatnią różnicę
+                    const timeDiff = currentDate - targetDate;
 
-                    // Jeśli godzina wcześniejsza (czasDiff > 0) i jest najbliższa do aktualnego, ustawiamy ją jako closestRow
                     if (timeDiff > 0 && timeDiff < closestTimeDiff) {
                         closestTimeDiff = timeDiff;
                         closestRow = row;
@@ -223,9 +228,11 @@
                 }
             });
 
-            // Jeśli żaden wiersz nie został wyróżniony, wyróżnij najbliższą wcześniejszą godzinę
             if (!rowHighlighted && closestRow) {
-                closestRow.style.backgroundColor = "rgba(66, 66, 66)"; // Kolor dla najbliższej wcześniejszej godziny
+                const rowlast = tableRows[tableRows.length];
+                if (rowlast == targetTime) {
+                    closestRow.style.backgroundColor = "rgba(66, 66, 66)"; // Kolor dla najbliższej wcześniejszej godziny
+                }
             }
         }
 
