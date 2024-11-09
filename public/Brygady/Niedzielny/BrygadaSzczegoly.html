@@ -229,12 +229,10 @@
             });
 
             if (!rowHighlighted && closestRow) {
-                const rowlast = tableRows[tableRows.length];
-                if (rowlast == targetTime) {
-                    closestRow.style.backgroundColor = "rgba(66, 66, 66)"; // Kolor dla najbliższej wcześniejszej godziny
-                }
+                closestRow.style.backgroundColor = "rgba(66, 66, 66)"; // Kolor dla najbliższej wcześniejszej godziny   
             }
         }
+
 
 
         async function init() {
