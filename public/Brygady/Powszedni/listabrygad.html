@@ -319,6 +319,9 @@
                         } else if (status === 'X') {
                             brygadaCell.style.backgroundColor = 'rgba(163, 120, 0)';
                             brygadaCell.style.color = 'white';
+                        } else if (status === 'N') {
+                            brygadaCell.style.backgroundColor = 'black';
+                            brygadaCell.style.color = 'white';
                         }
                         // Dodanie marginesów, aby zwiększyć obszar tła
                         brygadaCell.style.padding = '2px 5px';
@@ -332,6 +335,8 @@
                                 sessionStorage.setItem('BrygadaType', 'Brygada Szczytowa');
                             } else if (backgroundColor === 'grey') { // 1 ZMIANÓWKA
                                 sessionStorage.setItem('BrygadaType', 'Brygada Jednozmianowa');
+                            } else if (backgroundColor === 'black') { // NOCNY
+                                sessionStorage.setItem('BrygadaType', 'Brygada Nocna');
                             }
 
                         });
