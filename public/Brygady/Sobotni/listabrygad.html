@@ -26,7 +26,7 @@
         }
 
         table {
-            width: 25%;
+            width: 30%;
             border-collapse: collapse;
             border-radius: 5px;
             overflow: hidden;
@@ -141,12 +141,7 @@
             }
         }
 
-        window.onload = async function() {
-            await fetchDate(); // Pobierz datę z pliku i wstaw ją do strony
-            checkLogin();
-            await loadData();
-            addFilters();
-        };
+
 
         document.addEventListener("DOMContentLoaded", function() {
             // Funkcja do pobrania nazwy folderu
@@ -187,6 +182,7 @@
         }
 
         async function loadData() {
+
             try {
                 const response = await fetch(`/api/data?brygada=${brygadaNumber}`); // Wysyłamy numer brygady w zapytaniu
                 const data = await response.json();
@@ -282,6 +278,78 @@
         }
 
         sessionStorage.setItem("ChoosedTypeOfDay", brygadaNumber)
+
+
+
+
+        async function checkBrygadaStatus() {
+            const rows = document.querySelectorAll('#dataTableBody tr');
+
+            try {
+                const response = await fetch(`../../../Brygady/WYNIKI/Gotowe_brygady/${brygadaNumber}/Brygady_BIS.txt`);
+                if (!response.ok) {
+                    console.error("Błąd podczas ładowania pliku Brygady_BIS.txt");
+                    return;
+                }
+                const fileContent = await response.text();
+                const lines = fileContent.split('\n');
+
+                // Tworzenie mapy brygad i ich statusów (Bisówka lub JednoZmianówka)
+                const brygadaStatusMap = {};
+                lines.forEach(line => {
+                    const [brygada, status] = line.split('\t');
+                    if (brygada && status) {
+                        brygadaStatusMap[brygada.trim()] = status.trim();
+                    }
+                });
+
+                // Przejście przez wiersze tabeli i ustawienie koloru tła za tekstem w zależności od statusu
+                rows.forEach(row => {
+                    const brygadaCell = row.querySelector('td:first-child a');
+                    const brygada = brygadaCell.textContent.trim();
+                    sessionStorage.setItem('BrygadaType', 'Brak Tła');
+                    if (brygadaStatusMap[brygada]) {
+                        const status = brygadaStatusMap[brygada];
+                        if (status === 'B') {
+                            brygadaCell.style.backgroundColor = 'purple';
+                            brygadaCell.style.color = 'white';
+                        } else if (status === 'JZ') {
+                            brygadaCell.style.backgroundColor = 'grey';
+                            brygadaCell.style.color = 'white';
+                        } else if (status === 'X') {
+                            brygadaCell.style.backgroundColor = 'rgba(163, 120, 0)';
+                            brygadaCell.style.color = 'white';
+                        }
+                        // Dodanie marginesów, aby zwiększyć obszar tła
+                        brygadaCell.style.padding = '2px 5px';
+                        brygadaCell.style.borderRadius = '4px'; // Zaokrąglenie rogów dla estetyki
+
+                        // Dodanie nasłuchiwacza kliknięcia na komórkę
+                        brygadaCell.addEventListener('click', function() {
+                            sessionStorage.setItem('BrygadaType', 'Brygada Dwuzmianowa');
+                            const backgroundColor = brygadaCell.style.backgroundColor;
+                            if (backgroundColor === 'purple') { // BISÓWKA
+                                sessionStorage.setItem('BrygadaType', 'Brygada Szczytowa');
+                            } else if (backgroundColor === 'grey') { // 1 ZMIANÓWKA
+                                sessionStorage.setItem('BrygadaType', 'Brygada Jednozmianowa');
+                            }
+
+                        });
+                    }
+                });
+            } catch (error) {
+                console.error("Błąd:", error);
+            }
+        }
+
+        // Wywołaj funkcję po załadowaniu danych
+        window.onload = async function() {
+            await fetchDate();
+            checkLogin();
+            await loadData();
+            addFilters();
+            await checkBrygadaStatus(); // Sprawdź status brygad po załadowaniu danych
+        };
 
     </script>
 
