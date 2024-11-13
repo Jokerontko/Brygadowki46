@@ -132,6 +132,16 @@
             margin-top: -20px;
         }
 
+        .ShowPhoto {
+            text-decoration: none;
+            color: white;
+            border: 1.5px solid;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 5px 5px 5px;
+
+        }
+
     </style>
 </head>
 
@@ -211,7 +221,8 @@
                         <h2><span class="title">${title}</span></h2>
                     <div class="content">
                         <p class="contenttext">${content}</p><br>
-<img class="image" src="${folder}/Images/${photo}" alt="Błąd podczas ładowania zdjęcia"><br><br><sup class="smallletters">${type} ${date}</sup>
+<img class="image" src="${folder}/Images/${photo}" alt="Błąd podczas ładowania zdjęcia"><br><br><center><a class="ShowPhoto" href="${folder}/Images/${photo}"> Powiększ zdjęcie</center></a> <br> <sup class="smallletters">${type} ${date}</sup>
+
                     </div>
                 </article>
                 `;
