@@ -356,20 +356,19 @@
                 const currentTime = new Date();
                 const currentTimeFormatted = `${String(currentTime.getHours()).padStart(2, '0')}:${String(currentTime.getMinutes()).padStart(2, '0')}`;
                 const remainingTime = calculateTimeDifference(currentTimeFormatted, newStartTime);
-
-                // brakeleft jest różnicą między czasem "brake" a "pozostałym czasem"
-                const brakeleft = remainingTime;
-
-                const newRow = document.createElement("tr");
-                newRow.innerHTML = `
+                if (currentTimeFormatted > newEndTime && currentTimeFormatted < newStartTime) {
+                    // brakeleft jest różnicą między czasem "brake" a "pozostałym czasem"
+                    const brakeleft = remainingTime;
+                    const newRow = document.createElement("tr");
+                    newRow.innerHTML = `
             <td colspan="8" style="background-color: rgb(75, 75, 75); text-align: center; font-size: 15px;             padding: 3px;">
                 Trwa przerwa ${timeDifference} min., pozostało: <strong> ${brakeleft}  min.</strong>
             </td>
         `;
-                tableBody.insertBefore(newRow, tableBody.rows[insertIndex]);
+                    tableBody.insertBefore(newRow, tableBody.rows[insertIndex]);
+                }
             }
         }
-
 
         // Funkcja pomocnicza obliczająca różnicę czasu w minutach
         function calculateTimeDifference(startTime, endTime) {
@@ -609,7 +608,11 @@
                 tableRows.forEach(row => {
                     const lineCell = row.querySelector(".NrOfLine");
                     if (lineCell) {
-                        lineCell.style.backgroundColor = ""; // Resetuj tylko komórkę "Linia"
+                        // Przywracamy oryginalny tekst, który zapisaliśmy w atrybucie data-original-text
+                        const originalText = lineCell.getAttribute("data-original-text");
+                        if (originalText) {
+                            lineCell.innerText = originalText;
+                        }
                     }
                 });
                 isHighlighted = false;
@@ -632,11 +635,25 @@
                 colorIndex++;
             });
 
-            // Ustawiamy kolor tylko dla komórki w kolumnie "Linia", na podstawie wartości
+            // Ustawiamy kolor tylko dla tekstu w komórce w kolumnie "Linia", na podstawie wartości
             tableRows.forEach(row => {
                 const lineCell = row.querySelector(".NrOfLine");
                 if (lineCell && lineColors[lineCell.innerText]) {
-                    lineCell.style.backgroundColor = lineColors[lineCell.innerText]; // Ustaw kolor tylko dla komórki
+                    const lineValue = lineCell.innerText;
+
+                    // Zapisz oryginalny tekst komórki, aby można było go później przywrócić
+                    if (!lineCell.getAttribute("data-original-text")) {
+                        lineCell.setAttribute("data-original-text", lineValue);
+                    }
+
+                    // Dodaj `span` z odpowiednim stylem wokół tekstu
+                    lineCell.innerHTML = `<span class="highlighted-text" style="
+                background-color: ${lineColors[lineValue]};
+                color: white;
+                border-radius: 5px;
+                padding: 2px 5px;
+                display: inline-block;
+            ">${lineValue}</span>`;
                 }
             });
 
@@ -647,6 +664,9 @@
         // Dodanie nasłuchu kliknięcia na przycisk "Wyróżnij linie"
         document.getElementById("highlightButton").addEventListener("click", toggleHighlight);
         window.onload = init;
+
+
+
 
         function savetripid(tripid) {
             sessionStorage.setItem('savedtripid', tripid);

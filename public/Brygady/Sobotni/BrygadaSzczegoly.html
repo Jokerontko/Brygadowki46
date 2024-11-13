@@ -27,8 +27,9 @@
         }
 
         table {
-            width: 50%;
+            min-width: 50%;
             max-width: 80%;
+            max-width: 550px;
             border-collapse: collapse;
             border-radius: 5px;
             overflow: hidden;
@@ -200,7 +201,7 @@
             let closestRow = null;
             let closestTimeDiff = Number.MAX_SAFE_INTEGER;
 
-            tableRows.forEach((row) => {
+            tableRows.forEach((row, index) => {
                 const timeCell = row.querySelector("td:nth-child(3)");
                 const targetTime = timeCell.textContent.trim();
 
@@ -228,10 +229,15 @@
                 }
             });
 
-            if (!rowHighlighted && closestRow) {
+            // Sprawdzamy, czy ostatni wiersz jest dostępny i czy to nie jest ostatni wiersz w tabeli
+            const isLastRow = tableRows.length > 0 && tableRows[tableRows.length - 1] === closestRow;
+
+            // Jeśli nie wyróżniono aktualnego czasu, a znaleziono najbliższą wcześniejszą godzinę, oraz nie jest to ostatni wiersz
+            if (!rowHighlighted && closestRow && !isLastRow) {
                 closestRow.style.backgroundColor = "rgba(66, 66, 66)"; // Kolor dla najbliższej wcześniejszej godziny   
             }
         }
+
 
 
 

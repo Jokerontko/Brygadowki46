@@ -111,6 +111,18 @@
 
     </div>
 
+    <div id="colorFilters">
+        <center>
+            <a href="#" class="filtracja" id="greyFilter">Jednozmianowa</a>
+            <a href="#" class="filtracja" id="orangeFilter">Dwuzmianowa</a>
+
+            <a href="#" class="filtracja" id="purpleFilter">Szczytowa</a>
+            <a href="#" class="filtracja" id="blackFilter">Nocna</a>
+        </center>
+    </div>
+
+
+
     <table>
         <thead>
             <tr>
@@ -236,7 +248,7 @@
         function filterTable() {
             const linieFilter = document.getElementById('filterLinie').value.toLowerCase();
             const brygadaFilter = document.getElementById('filterBrygada').value.toLowerCase();
-            const rows = document.querySelectorAll('#dataTableBody tr');
+            const row = document.querySelectorAll('#dataTableBody tr');
 
             rows.forEach(row => {
                 const linie = row.children[1].textContent.toLowerCase();
@@ -319,7 +331,7 @@
                         } else if (status === 'X') {
                             brygadaCell.style.backgroundColor = 'rgba(163, 120, 0)';
                             brygadaCell.style.color = 'white';
-                        } else if (status === 'N') {
+                        } else if (status === 'JZN') {
                             brygadaCell.style.backgroundColor = 'black';
                             brygadaCell.style.color = 'white';
                         }
@@ -336,7 +348,9 @@
                             } else if (backgroundColor === 'grey') { // 1 ZMIANÓWKA
                                 sessionStorage.setItem('BrygadaType', 'Brygada Jednozmianowa');
                             } else if (backgroundColor === 'black') { // NOCNY
-                                sessionStorage.setItem('BrygadaType', 'Brygada Nocna');
+                                sessionStorage.setItem('BrygadaType', 'Brygada Nocna Jednozmianowa');
+                            } else if (backgroundColor === 'rgba(0, 0, 1)') { // NOCNY
+                                sessionStorage.setItem('BrygadaType', 'Brygada Nocna Dwuzmianowa');
                             }
 
                         });
@@ -346,6 +360,109 @@
                 console.error("Błąd:", error);
             }
         }
+
+
+
+
+
+
+        function filterTable() {
+            const linieFilter = document.getElementById('filterLinie').value.toLowerCase();
+            const brygadaFilter = document.getElementById('filterBrygada').value.toLowerCase();
+
+            // Get all rows in the table
+            const rows = document.querySelectorAll('#dataTableBody tr');
+
+            // Check which color filters are active
+            const purpleChecked = document.getElementById('purpleFilter').classList.contains('active');
+            const greyChecked = document.getElementById('greyFilter').classList.contains('active');
+            const orangeChecked = document.getElementById('orangeFilter').classList.contains('active');
+            const blackChecked = document.getElementById('blackFilter').classList.contains('active');
+
+            // Check if any color filter is active
+            const isAnyColorChecked = purpleChecked || greyChecked || orangeChecked || blackChecked;
+
+            rows.forEach(row => {
+                const linie = row.children[1].textContent.toLowerCase();
+                const brygada = row.children[0].textContent.toLowerCase();
+                const brygadaCell = row.querySelector("td:first-child a"); // The cell containing the "Brygada" link
+                const backgroundColor = window.getComputedStyle(brygadaCell).backgroundColor;
+
+                // Check if the row matches both the text filter and color filter (if any color is active)
+                const matchesLinie = linie.includes(linieFilter);
+                const matchesBrygada = brygada.startsWith(brygadaFilter);
+
+                let matchesColor = true; // Default to true if no color filter is active
+
+                if (isAnyColorChecked) {
+                    matchesColor = (
+                        (backgroundColor === 'rgb(128, 0, 128)' && purpleChecked) || // Purple
+                        (backgroundColor === 'rgb(128, 128, 128)' && greyChecked) || // Grey
+                        (backgroundColor === 'rgb(163, 120, 0)' && orangeChecked) || // Orange
+                        (backgroundColor === 'rgb(0, 0, 0)' && blackChecked) // Black
+                    );
+                }
+
+                // Show the row if it matches both filters (text and color, if applied), otherwise hide it
+                if (matchesLinie && matchesBrygada && matchesColor) {
+                    row.style.display = '';
+                } else {
+                    row.style.display = 'none';
+                }
+            });
+        }
+
+        // Attach the filtering function to the click event of the color filter links
+        function addFilters() {
+            const filterLinie = document.getElementById('filterLinie');
+            const filterBrygada = document.getElementById('filterBrygada');
+
+            // Add event listeners to text filters (linie and brygada)
+            filterLinie.addEventListener('input', filterTable);
+            filterBrygada.addEventListener('input', filterTable);
+
+            // Add event listeners to color filter links
+            document.getElementById('purpleFilter').addEventListener('click', toggleFilter);
+            document.getElementById('greyFilter').addEventListener('click', toggleFilter);
+            document.getElementById('orangeFilter').addEventListener('click', toggleFilter);
+            document.getElementById('blackFilter').addEventListener('click', toggleFilter);
+        }
+
+        // Function to toggle active class on the color filter links
+        function toggleFilter(event) {
+            // Toggle 'active' class on the clicked link
+            const filterLink = event.target;
+            filterLink.classList.toggle('active');
+
+            // Check if all color filters are now active
+            const allFiltersActive = document.getElementById('purpleFilter').classList.contains('active') &&
+                document.getElementById('greyFilter').classList.contains('active') &&
+                document.getElementById('orangeFilter').classList.contains('active') &&
+                document.getElementById('blackFilter').classList.contains('active');
+
+            // If all filters are active, remove 'active' class from all filters
+            if (allFiltersActive) {
+                document.getElementById('purpleFilter').classList.remove('active');
+                document.getElementById('greyFilter').classList.remove('active');
+                document.getElementById('orangeFilter').classList.remove('active');
+                document.getElementById('blackFilter').classList.remove('active');
+            }
+
+            // Call filterTable after the class change
+            filterTable();
+        }
+
+        document.addEventListener("DOMContentLoaded", function() {
+            addFilters();
+        });
+
+
+
+
+
+
+
+
 
         // Wywołaj funkcję po załadowaniu danych
         window.onload = async function() {

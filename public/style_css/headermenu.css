@@ -1,38 +1,67 @@
       .menu {
-       display: inline-block;
-       text-decoration: none;
-       color: white;
-       border: 1.5px solid;
-       border-radius: 5px;
-       padding: 10px 20px;
-       margin: 5px 5px 5px;
-       transition: background-color 0.3s ease;
+          display: inline-block;
+          text-decoration: none;
+          color: white;
+          border: 1.5px solid;
+          border-radius: 5px;
+          padding: 10px 20px;
+          margin: 5px 5px 5px;
+          transition: background-color 0.3s ease;
       }
 
       .menu:hover {
-       border-color: orange;
-       background-color: rgba(255, 165, 0, 0.2);
-       color: white;
+          border-color: orange;
+          background-color: rgba(255, 165, 0, 0.2);
+          color: white;
 
       }
 
       .exit {
-       border-color: red;
-       transition: background-color 0.3s ease;
+          border-color: red;
+          transition: background-color 0.3s ease;
 
       }
 
       .exit:hover {
-       border-color: red;
-       background-color: red;
-       color: white;
+          border-color: red;
+          background-color: red;
+          color: white;
 
       }
 
 
       header {
-       margin: 5px 5px 5px;
-       width: 100%;
-       text-align: center;
+          margin: 5px 5px 5px;
+          width: 100%;
+          text-align: center;
 
+      }
+
+      .filtracja {
+          width: 112px;
+          max-width: 440px;
+          margin-bottom: 10px;
+
+          display: inline-block;
+          justify-content: center;
+          align-items: center;
+          text-decoration: none;
+          color: white;
+          border: 2px solid white;
+          border-radius: 10px;
+          padding: 10px;
+          transition: all 0.3s ease;
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+      }
+
+      .filtracja:hover {
+          border-color: orange;
+          background-color: rgba(255, 165, 0, 0.2);
+      }
+
+      .filtracja.active {
+          background-color: orange;
+          /* Set background to orange when active */
+          border-color: orange;
+          /* Match the border color */
       }
