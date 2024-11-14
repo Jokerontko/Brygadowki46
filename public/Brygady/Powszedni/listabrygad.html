@@ -61,18 +61,25 @@
         }
 
         .filter-container {
-            margin-bottom: 30px;
+            margin-bottom: 10px;
         }
 
         .filter-input {
-            padding: 10px;
-            margin-right: 10px;
-            border-radius: 5px;
-            border: 1px solid #ccc;
-            background-color: #333;
+            display: inline-block;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            text-decoration: none;
             color: white;
-            display: flex;
-            margin-bottom: -8px;
+            background-color: rgba(50, 50, 50);
+            border: 2px solid;
+            border-radius: 10px;
+            padding: 10px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            width: 112px;
+            max-width: 440px;
+            margin-bottom: 10px;
         }
 
         .filter-label {
@@ -83,6 +90,10 @@
         .top {
             margin: 10px;
             margin-bottom: 30px;
+        }
+
+        h4 {
+            margin: 0px 0px 10px;
         }
 
     </style>
@@ -103,19 +114,16 @@
     </center>
 
     <div class="filter-container">
-        <label class="filter-label" for="filterBrygada">Filtruj wg brygady:</label>
-        <input type="text" id="filterBrygada" class="filter-input" placeholder="Wpisz numer brygady">
-        <br>
-        <label class="filter-label" for="filterLinie">Filtruj wg linii:</label>
-        <input type="text" id="filterLinie" class="filter-input" placeholder="Wpisz numer linii">
-
-    </div>
-
-    <div id="colorFilters">
         <center>
+            <h4>Filtruj według:</h4>
+
+            <input type="text" id="filterBrygada" class="filter-input" placeholder="Numer Brygady">
+
+            <input type="text" id="filterLinie" class="filter-input" placeholder="Numer linii">
+            <br>
             <a href="#" class="filtracja" id="greyFilter">Jednozmianowa</a>
             <a href="#" class="filtracja" id="orangeFilter">Dwuzmianowa</a>
-
+            <br>
             <a href="#" class="filtracja" id="purpleFilter">Szczytowa</a>
             <a href="#" class="filtracja" id="blackFilter">Nocna</a>
         </center>
