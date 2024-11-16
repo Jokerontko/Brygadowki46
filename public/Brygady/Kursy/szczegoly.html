@@ -101,23 +101,13 @@
 
         <h3>Filtruj według:</h3>
         <div class="filter-container">
-
             <input class="filter-input" type="text" id="filterBrygada" placeholder="Brygada" oninput="filterTable()">
-
-
             <input class="filter-input" type="text" id="filterLinia" placeholder="Linia" oninput="filterTable()">
-
             <br>
             <input class="filter-input" type="text" id="filterPoczątek" placeholder="Przystanek Początkowy" oninput="filterTable()">
-
-
-
             <input class="filter-input" type="text" id="filterKierunek" placeholder="Przystanek Końcowy" oninput="filterTable()">
-
             <br>
             <input class="filter-input" type="text" id="filterGodzRozp" placeholder="Godzina Rozpoczęcia" oninput="filterTable()">
-
-
             <input class="filter-input" type="text" id="filterGodzZak" placeholder="Godzina Zakończenia" oninput="filterTable()">
         </div>
     </center>
@@ -178,14 +168,6 @@
             window.location.href = '../../index.html';
         });
 
-
-
-
-
-
-
-
-
         // Helper function to create a table cell with optional click event
         function createCell(content) {
             const td = document.createElement('td');
@@ -211,8 +193,6 @@
 
             return td;
         }
-
-
 
         // Fetch the 'Kursy_filtered_sorted.txt' file
         async function fetchKursyFile() {

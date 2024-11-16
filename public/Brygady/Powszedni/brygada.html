@@ -250,13 +250,14 @@
             return str.replace(/[0-9]/g, '').trim();
         }
 
+        // Function to check if current time is between start and end times, handling midnight crossing
         function isCurrentTimeBetween(startTime, endTime) {
             const currentTime = new Date();
             const currentHours = currentTime.getHours();
             const currentMinutes = currentTime.getMinutes();
             const currentFormattedTime = `${String(currentHours).padStart(2, '0')}:${String(currentMinutes).padStart(2, '0')}`;
 
-            // Konwertujemy godziny na liczbę minut od północy dla łatwiejszego porównania
+            // Convert times to minutes from midnight for easier comparison
             const getMinutesFromMidnight = (time) => {
                 const [hours, minutes] = time.split(':').map(Number);
                 return hours * 60 + minutes;
@@ -266,21 +267,29 @@
             const endMinutes = getMinutesFromMidnight(endTime);
             const currentMinutesFromMidnight = getMinutesFromMidnight(currentFormattedTime);
 
-            // Przypadek, gdy godzina końcowa jest po północy (przekracza północ)
+            // Case when end time is after start time
             if (startMinutes < endMinutes) {
-                // Jeśli czas obecny mieści się między godziną początkową i końcową
                 return currentMinutesFromMidnight >= startMinutes && currentMinutesFromMidnight <= endMinutes;
             } else {
-                // Jeśli czas końcowy jest przed północą, sprawdzamy dwa przypadki
+                // Case when end time is before midnight (crossing midnight)
                 return (
                     currentMinutesFromMidnight >= startMinutes || currentMinutesFromMidnight <= endMinutes
                 );
             }
         }
 
+        // Function to check if currentTime is between startTime and endTime, handling midnight crossing
+        function isTimeBetween(currentTime, startTime, endTime) {
+            if (startTime < endTime) {
+                return currentTime > startTime && currentTime < endTime;
+            } else {
+                return currentTime > startTime || currentTime < endTime;
+            }
+        }
+
         function highlightCurrentTimeCells() {
             const tableRows = document.querySelectorAll("#rozkładTable tbody tr");
-            let anyHighlighted = false; // Zmienna pomocnicza do sprawdzenia, czy któryś wiersz jest podświetlony
+            let anyHighlighted = false; // Flag to check if any row is highlighted
 
             tableRows.forEach(row => {
                 const startCell = row.cells[4]; // Godz. Rozp.
@@ -289,33 +298,33 @@
                 if (startCell && endCell) {
                     const startTime = normalizeTime(startCell.innerText);
                     const endTime = normalizeTime(endCell.innerText);
-                    console.log(`Start time: ${startTime}, End time: ${endTime}`); // Logowanie
+                    console.log(`Start time: ${startTime}, End time: ${endTime}`); // Logging
 
                     // If current time is between start and end time, highlight the row
                     if (isCurrentTimeBetween(startTime, endTime)) {
                         row.style.backgroundColor = "rgb(75, 75, 75)";
-                        anyHighlighted = true; // Jeśli jakiś wiersz jest podświetlony, ustawiamy flagę
+                        anyHighlighted = true; // If any row is highlighted, set the flag
                     } else {
                         row.style.backgroundColor = ""; // Reset the background if not in range
                     }
                 }
             });
 
-            // Jeśli żaden wiersz nie jest podświetlony, dodaj nowy wiersz
+            // If no row is highlighted, add a new row
             if (!anyHighlighted) {
                 insertNewRowBetweenNearestTimes();
             }
         }
 
-        // Funkcja wstawiająca nowy wiersz pomiędzy najbliższe godziny "Godz. Zak." i "Godz. Rozp."
+        // Function to insert a new row between the nearest "Godz. Zak." and "Godz. Rozp."
         function insertNewRowBetweenNearestTimes() {
             const tableBody = document.querySelector("#rozkładTable tbody");
-            const tableRows = Array.from(tableBody.rows); // Przekształć NodeList w tablicę
+            const tableRows = Array.from(tableBody.rows); // Convert NodeList to array
 
             let closestStartTime = null;
             let closestEndTime = null;
             let insertIndex = -1;
-            let brake = 0; // Różnica czasu między godzinami
+            let brake = 0; // Time difference between times
 
             for (let i = 0; i < tableRows.length - 1; i++) {
                 const currentRow = tableRows[i];
@@ -331,57 +340,60 @@
                     if (closestStartTime === null || (isCloserToCurrentTime(startTime, closestStartTime) && isCloserToCurrentTime(endTime, closestEndTime))) {
                         closestStartTime = startTime;
                         closestEndTime = endTime;
-                        insertIndex = i + 1; // Wstawiamy po bieżącym wierszu
+                        insertIndex = i + 1; // Insert after the current row
 
-                        // Obliczenie różnicy w minutach (Brake) między start i end time
+                        // Calculate time difference (Brake) between start and end time
                         brake = calculateTimeDifference(startTime, endTime);
                     }
                 }
             }
 
-            // Wstawienie nowego wiersza
+            // Insert the new row
             if (insertIndex !== -1) {
-                const nextRow = tableRows[insertIndex]; // Wiersz, poniżej którego będzie wstawiany nowy wiersz
-                const nextStartCell = nextRow.cells[4]; // Godz. Rozp. w następnym wierszu
-                const nextStartTime = normalizeTime(nextStartCell.innerText); // Następna godzina rozpoczęcia
+                const nextRow = tableRows[insertIndex]; // Row below which the new row will be inserted
+                const nextStartCell = nextRow.cells[4]; // Godz. Rozp. in the next row
+                const nextStartTime = normalizeTime(nextStartCell.innerText); // Next start time
 
-                // Godzina rozpoczęcia w nowym wierszu to godzina rozpoczęcia z wiersza poniżej
+                // New row's start time is the next row's start time
                 const newStartTime = nextStartTime;
-                const newEndTime = closestEndTime; // Godzina zakończenia pozostaje taka sama jak w poprzednim wierszu
+                const newEndTime = closestEndTime; // End time remains the same as the previous row
 
-                // Obliczamy różnicę czasu (Brake) między godz. Rozp. w obecnym wierszu a godz. Rozp. w wierszu poniżej
-                const timeDifference = calculateTimeDifference(newStartTime, closestEndTime);
+                // Calculate time difference (Brake) between newStartTime and closestEndTime
+                const timeDifference = calculateTimeDifference(closestEndTime, newStartTime);
 
-                // Obliczenie pozostałego czasu (brakeleft)
+                // Calculate remaining time (brakeleft)
                 const currentTime = new Date();
-                const currentTimeFormatted = `${String(currentTime.getHours()).padStart(2, '0')}:${String(currentTime.getMinutes()).padStart(2, '0')}`;
+                const currentTimeFormatted = normalizeTime(`${String(currentTime.getHours()).padStart(2, '0')}:${String(currentTime.getMinutes()).padStart(2, '0')}`);
                 const remainingTime = calculateTimeDifference(currentTimeFormatted, newStartTime);
-                if (currentTimeFormatted > newEndTime && currentTimeFormatted < newStartTime) {
-                    // brakeleft jest różnicą między czasem "brake" a "pozostałym czasem"
+
+                if (isTimeBetween(currentTimeFormatted, newEndTime, newStartTime)) {
+                    // brakeleft is the difference between brake and remaining time
                     const brakeleft = remainingTime;
                     const newRow = document.createElement("tr");
                     newRow.innerHTML = `
-            <td colspan="8" style="background-color: rgb(75, 75, 75); text-align: center; font-size: 15px;             padding: 3px;">
-                Trwa przerwa ${timeDifference} min., pozostało: <strong> ${brakeleft}  min.</strong>
-            </td>
-        `;
+                <td colspan="8" style="background-color: rgb(75, 75, 75); text-align: center; font-size: 15px; padding: 3px;">
+                    Trwa przerwa ${timeDifference} min., pozostało: <strong> ${brakeleft}  min.</strong>
+                </td>
+            `;
                     tableBody.insertBefore(newRow, tableBody.rows[insertIndex]);
                 }
             }
         }
 
-        // Funkcja pomocnicza obliczająca różnicę czasu w minutach
+        // Helper function to calculate time difference in minutes, handling midnight crossing
         function calculateTimeDifference(startTime, endTime) {
-            const start = startTime.split(":").map(Number); // [hours, minutes]
-            const end = endTime.split(":").map(Number); // [hours, minutes]
-
-            const startMinutes = start[0] * 60 + start[1];
-            const endMinutes = end[0] * 60 + end[1];
-
-            return Math.abs(endMinutes - startMinutes); // Różnica w minutach
+            const [startHours, startMinutes] = startTime.split(":").map(Number);
+            const [endHours, endMinutes] = endTime.split(":").map(Number);
+            const startTotal = startHours * 60 + startMinutes;
+            const endTotal = endHours * 60 + endMinutes;
+            let diff = endTotal - startTotal;
+            if (diff < 0) {
+                diff += 24 * 60; // Add 24 hours if end time is before start time
+            }
+            return diff;
         }
 
-        // Funkcja pomocnicza sprawdzająca, która godzina jest bliższa do aktualnego czasu
+        // Helper function to check which time is closer to the current time
         function isCloserToCurrentTime(time1, time2) {
             const currentTime = new Date();
             const currentMinutes = currentTime.getHours() * 60 + currentTime.getMinutes();
@@ -389,7 +401,10 @@
             const time1Minutes = time1.split(":").map(Number).reduce((acc, time) => acc * 60 + time);
             const time2Minutes = time2.split(":").map(Number).reduce((acc, time) => acc * 60 + time);
 
-            return Math.abs(currentMinutes - time1Minutes) < Math.abs(currentMinutes - time2Minutes);
+            const diff1 = Math.min(Math.abs(currentMinutes - time1Minutes), 1440 - Math.abs(currentMinutes - time1Minutes));
+            const diff2 = Math.min(Math.abs(currentMinutes - time2Minutes), 1440 - Math.abs(currentMinutes - time2Minutes));
+
+            return diff1 < diff2;
         }
 
         // Call the highlight function after table rows are populated

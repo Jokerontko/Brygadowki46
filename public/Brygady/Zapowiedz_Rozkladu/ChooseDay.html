@@ -2,131 +2,132 @@
 <html lang="pl">
 
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="../../../style_css/headermenu.css">
-   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-   <meta http-equiv="Pragma" content="no-cache">
-   <meta http-equiv="Expires" content="0">
-   <title>Wybór dnia</title>
-   <style>
-      body {
-         background: rgb(50, 50, 50);
-         font-family: Arial, sans-serif;
-         display: flex;
-         flex-direction: column;
-         align-items: center;
-         height: 100vh;
-         color: white;
-      }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../style_css/headermenu.css">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>Wybór dnia</title>
+    <style>
+        body {
+            background: rgb(50, 50, 50);
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+            color: white;
+        }
 
-      h1 {
-         font-size: 2rem;
-         margin: 40px 0 20px;
-      }
+        h1 {
+            font-size: 2rem;
+            margin: 40px 0 20px;
+        }
 
-      .button-container {
-         display: grid;
+        .button-container {
+            display: grid;
 
-         gap: 20px;
-         max-width: 400px;
-         margin-bottom: 20px;
-      }
+            gap: 20px;
+            max-width: 400px;
+            margin-bottom: 20px;
+        }
 
-      .choose {
-         display: flex;
-         justify-content: center;
-         align-items: center;
-         text-decoration: none;
-         color: white;
-         border: 2px solid white;
-         border-radius: 10px;
-         padding: 20px;
-         transition: all 0.3s ease;
-         font-size: 1.2rem;
-         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-      }
+        .choose {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            color: white;
+            border: 2px solid white;
+            border-radius: 10px;
+            padding: 20px;
+            transition: all 0.3s ease;
+            font-size: 1.2rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
 
-      .choose:hover {
-         background-color: orange;
-         color: white;
-         transform: scale(1.05);
-      }
+        .choose:hover {
+            background-color: orange;
+            color: white;
+            transform: scale(1.05);
+        }
 
-      .chooseextra-open {
-         max-width: 400px;
-         text-decoration: none;
-         color: white;
-         border: 2px solid white;
-         border-radius: 10px;
-         padding: 10px;
-         transition: all 0.3s ease;
-         font-size: 1rem;
-         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-      }
+        .chooseextra-open {
+            max-width: 400px;
+            text-decoration: none;
+            color: white;
+            border: 2px solid white;
+            border-radius: 10px;
+            padding: 10px;
+            transition: all 0.3s ease;
+            font-size: 1rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
 
-      .chooseextra-open:hover {
-         background-color: orange;
-         color: white;
-         transform: scale(1.05);
-      }
+        .chooseextra-open:hover {
+            background-color: orange;
+            color: white;
+            transform: scale(1.05);
+        }
 
-      .chooseextra-close {
-         max-width: 400px;
-         text-decoration: none;
-         color: grey;
-         border: 2px solid grey;
-         border-radius: 10px;
-         padding: 10px;
-         transition: all 0.3s ease;
-         font-size: 1rem;
-         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-      }
+        .chooseextra-close {
+            max-width: 400px;
+            text-decoration: none;
+            color: grey;
+            border: 2px solid grey;
+            border-radius: 10px;
+            padding: 10px;
+            transition: all 0.3s ease;
+            font-size: 1rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
 
-   </style>
+    </style>
 </head>
 
 <body>
 
-   <header>
-      <a href="../../Main_Panel.html" class="menu">Panel Główny</a>
-      <a href="../ChooseDay.html" class="menu">Brygady</a>
-      <a href="../../Brygady/Kursy/Kursy.html" class="menu">Kursy</a>
-      <a href="#" class="menu exit" id="logout">Opuść Panel</a>
-      <hr>
-   </header>
+    <header>
+        <a href="../../Main_Panel.html" class="menu">Panel Główny</a>
+        <a href="../ChooseDay.html" class="menu">Brygady</a>
+        <a href="../../Brygady/Kursy/Kursy.html" class="menu">Kursy</a>
+        <a href="#" class="menu exit" id="logout">Opuść Panel</a>
+        <hr>
+    </header>
 
-   <h1>WYBIERZ TYP DNIA</h1>
-   <p>Na ten moment dostępne są jedynie brygady Cmentarne</p>
+    <h1>WYBIERZ TYP DNIA</h1>
 
-   <div class="button-container">
-      <a href="CMENTARNE/Cmentarne.html" class="choose">Linie cmentarne 2024</a>
-   </div>
+    <div class="button-container">
+        <center>
+            <a href="CMENTARNE/Cmentarne.html" class="choose">Rozkłady jazdy linii <br> 47/1, 51/3, 51/4, 54/1 <br>dnia 16.11.2024</a>
+        </center>
+    </div>
 
-   <script>
-      // Funkcja do sprawdzenia, czy użytkownik jest zalogowany
-      function checkLogin() {
-         const user = JSON.parse(sessionStorage.getItem('user'));
+    <script>
+        // Funkcja do sprawdzenia, czy użytkownik jest zalogowany
+        function checkLogin() {
+            const user = JSON.parse(sessionStorage.getItem('user'));
 
-         // Jeśli nie ma użytkownika w sessionStorage, przekieruj na stronę logowania
-         if (!user) {
-            window.location.href = '../../zoltakartka.html';
-         }
-      }
+            // Jeśli nie ma użytkownika w sessionStorage, przekieruj na stronę logowania
+            if (!user) {
+                window.location.href = '../../zoltakartka.html';
+            }
+        }
 
-      // Sprawdź, czy użytkownik jest zalogowany po załadowaniu strony
-      window.onload = checkLogin;
+        // Sprawdź, czy użytkownik jest zalogowany po załadowaniu strony
+        window.onload = checkLogin;
 
-      // Dodaj funkcję wylogowania
-      document.getElementById('logout').addEventListener('click', function() {
-         // Wyczyść sessionStorage
-         sessionStorage.clear();
+        // Dodaj funkcję wylogowania
+        document.getElementById('logout').addEventListener('click', function() {
+            // Wyczyść sessionStorage
+            sessionStorage.clear();
 
-         // Przekieruj na stronę logowania
-         window.location.href = '../../index.html';
-      });
+            // Przekieruj na stronę logowania
+            window.location.href = '../../index.html';
+        });
 
-   </script>
+    </script>
 </body>
 
 </html>
