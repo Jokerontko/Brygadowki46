@@ -65,42 +65,36 @@ app.post('/login', (req, res) => {
     });
 });
 
-// Endpoint sprawdzający plik PrzerwaTechniczna.txt
+// Przerwa Techniczna
 app.get('/check-maintenance', (req, res) => {
     const maintenanceFilePath = path.join(__dirname, 'public', 'PrzerwaTechniczna.txt');
 
+    // Odczytaj zawartość pliku za każdym razem, gdy endpoint jest wywoływany
     fs.readFile(maintenanceFilePath, 'utf8', (err, data) => {
         if (err) {
+            // Zwróć błąd, jeśli plik nie może zostać odczytany
             return res.status(500).json({
                 error: 'Błąd odczytu pliku'
             });
         }
 
-        const isMaintenance = data.trim() === 'Tak';
+        // Podziel zawartość na słowa (przez białe znaki)
+        const words = data.split(/\s+/);
+
+        // Sprawdź, czy "index.html" występuje wśród wyrazów
+        const LoginMaintenance = words.includes('index.html');
+        const ChooseDayMaintenance = words.includes('ChooseDay.html');
+        const KursyMaintenance = words.includes('Kursy.html');
+
+        // Wyślij aktualny wynik do klienta
         res.json({
-            isMaintenance
+            LoginMaintenance,
+            ChooseDayMaintenance,
+            KursyMaintenance
         });
     });
 });
 
-
-// Endpoint sprawdzający plik ChooseYear.txt
-app.get('/check-maintenance', (req, res) => {
-    const maintenanceFilePath = path.join(__dirname, 'public', 'ChooseYear.txt');
-
-    fs.readFile(maintenanceFilePath, 'utf8', (err, data) => {
-        if (err) {
-            return res.status(500).json({
-                error: 'Błąd odczytu pliku'
-            });
-        }
-
-        const isMaintenance = data.trim() === 'Tak';
-        res.json({
-            isMaintenance
-        });
-    });
-});
 
 
 // Endpoint sprawdzający plik ChooseYear.txt

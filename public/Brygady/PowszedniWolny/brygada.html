@@ -59,6 +59,25 @@
             border: 0px;
         }
 
+        .Rez {
+            padding: 0px;
+            text-align: right;
+            border-top: 1px solid;
+            border-bottom: 1px solid;
+            border-left: none;
+            border-right: none;
+
+        }
+
+        .RezLP {
+            padding: 0px;
+            text-align: right;
+            border-top: 1px solid;
+            border-bottom: 1px solid;
+            border-left: 1px solid;
+            border-right: none;
+        }
+
         p {
             color: grey;
         }
@@ -70,6 +89,12 @@
 
         #wykazbrygady {
             width: 30%;
+        }
+
+        header {
+            position: sticky;
+            top: 0px;
+            background-color: rgb(50, 50, 50);
         }
 
     </style>
@@ -367,15 +392,18 @@
                 const remainingTime = calculateTimeDifference(currentTimeFormatted, newStartTime);
 
                 if (isTimeBetween(currentTimeFormatted, newEndTime, newStartTime)) {
-                    // brakeleft is the difference between brake and remaining time
                     const brakeleft = remainingTime;
-                    const newRow = document.createElement("tr");
-                    newRow.innerHTML = `
+                    if (brakeleft < timeDifference) {
+                        // brakeleft is the difference between brake and remaining time
+
+                        const newRow = document.createElement("tr");
+                        newRow.innerHTML = `
                 <td colspan="8" style="background-color: rgb(75, 75, 75); text-align: center; font-size: 15px; padding: 3px;">
                     Trwa przerwa ${timeDifference} min., pozostało: <strong> ${brakeleft}  min.</strong>
                 </td>
             `;
-                    tableBody.insertBefore(newRow, tableBody.rows[insertIndex]);
+                        tableBody.insertBefore(newRow, tableBody.rows[insertIndex]);
+                    }
                 }
             }
         }
@@ -407,7 +435,6 @@
             return diff1 < diff2;
         }
 
-        // Call the highlight function after table rows are populated
         async function processGOTOWEData(lines) {
             let tableBody = document.querySelector("#rozkładTable tbody");
             let lp = 1;
@@ -426,21 +453,16 @@
                         const duration = calculateDuration(startTime, endTime);
 
                         let row = document.createElement("tr");
-
-                        // Use `currentRouteId` or whatever identifier you want
-                        row.innerHTML += ` 
-                    <td><a class="NrOflp" href="BrygadaSzczegoly.html" onclick="savetripid('${tripId}')" >${lp}.</a></td>
-                    <td class="NrOfLine">${currentRouteId}</td>
-                    <td>${firstStop}</td>
-                    <td>${lastStop}</td>
-                    <td>${startTime}</td>
-                    <td>${endTime}</td>
-                    <td>${duration}</td>
-                    <td>N/A</td>
-                     <td class="hide">${tripId}</td>
-`;
-
-
+                        row.innerHTML +=
+                            `<td><a class="NrOflp" href="BrygadaSzczegoly.html" onclick="savetripid('${tripId}')" >${lp}.</a></td>
+                     <td class="NrOfLine">${currentRouteId}</td>
+                     <td>${firstStop}</td>
+                     <td>${lastStop}</td>
+                     <td>${startTime}</td>
+                     <td>${endTime}</td>
+                     <td>${duration}</td>
+                     <td>N/A</td>
+                     <td class="hide">${tripId}</td>`;
                         tableBody.appendChild(row);
                         lp++;
                         currentRouteId = null;
@@ -449,6 +471,28 @@
                         startTime = null;
                         endTime = null;
                         tripId = null;
+                    }
+                } else if (line.includes("Rezerwa")) {
+                    // Jeżeli linia zawiera słowo "Rezerwa"
+                    let parts = line.split("\t");
+                    if (parts.length === 2) {
+                        // Zakładamy, że części będą miały postać: "Rezerwa" i godziny w formacie "Godz_Rozp-Godz_Zak"
+                        let godzRozpZak = parts[1].trim();
+                        let [godzRozp, godzZak] = godzRozpZak.split('-');
+                        const czasrezerwa = calculateDuration(godzRozp, godzZak);
+                        let row = document.createElement("tr");
+                        row.innerHTML +=
+                            `
+<td class="RezLP"></td>
+<td class="Rez"></td>
+<td class="Rez">Rezerwa</td>
+<td class="Rez"></td>
+                     <td>${godzRozp}</td>
+<td>${godzZak}</td>
+                     <td>${czasrezerwa}</td>
+<td>N/A</td>`;
+
+                        tableBody.appendChild(row);
                     }
                 } else {
                     let parts = line.split(/\s+/);
@@ -471,93 +515,162 @@
             if (currentRouteId && firstStop && lastStop && startTime && endTime) {
                 const duration = calculateDuration(startTime, endTime);
                 let row = document.createElement("tr");
-                row.innerHTML += ` 
-            <td><a class="NrOflp" href="Szczegoly.html">${lp}.</a></td>
-            <td>${currentRouteId}</td>
-            <td>${firstStop}</td>
-            <td>${lastStop}</td>
-            <td>${startTime}</td>
-            <td>${endTime}</td>
-            <td>${duration}</td>
-            <td>N/A</td>
-            <td class="hide">${tripId}</td>
-`;
+                row.innerHTML +=
+                    `<td><a class="NrOflp" href="Szczegoly.html">${lp}.</a></td>
+             <td>${currentRouteId}</td>
+             <td>${firstStop}</td>
+             <td>${lastStop}</td>
+             <td>${startTime}</td>
+             <td>${endTime}</td>
+             <td>${duration}</td>
+             <td>N/A</td>
+             <td class="hide">${tripId}</td>`;
                 tableBody.appendChild(row);
                 lp++;
             }
 
-            // Dodaj wiersz "Wyjazd Na Linie" jeśli pierwszy "Początek" nie jest "Lubelska Zajezdnia MPK"
-            let wyjazdAdded = false; // Flaga, aby sprawdzić, czy dodano "Wyjazd Na Linie"
+            // Add the "Wyjazd Na Linie" row if needed
+            let wyjazdAdded = false;
             if (tableBody.rows.length > 0) {
                 const firstPoczątekValue = tableBody.rows[0].cells[2].innerText.trim();
+                const wasRezerwa = firstPoczątekValue === "Rezerwa";
+                const nextRowPoczątekValue = tableBody.rows[1].cells[2].innerText.trim();
+
+                // Jeśli pierwsza komórka nie jest "Lubelska Zajezdnia MPK"
                 if (firstPoczątekValue !== "Lubelska Zajezdnia MPK") {
-                    let wyjazdRow = document.createElement("tr");
-                    let wyjazdCell = document.createElement("td");
-                    wyjazdCell.colSpan = 9;
-                    wyjazdCell.innerText = "Wyjazd Na Linie";
-                    wyjazdCell.style.textAlign = "center"; // Wyśrodkowanie tekstu
-                    wyjazdRow.appendChild(wyjazdCell);
-                    tableBody.insertBefore(wyjazdRow, tableBody.rows[0]); // Dodaj przed pierwszym wierszem
-                    wyjazdRow.style.backgroundColor = "rgba(163, 120, 0)"; // Dodaj kolor tła
-                    wyjazdAdded = true; // Ustaw flagę, że dodano "Wyjazd Na Linie"
+                    // Jeżeli wartość w pierwszej komórce nie jest "Rezerwa" i druga komórka nie zawiera "Lubelska Zajezdnia MPK"
+                    if (!wasRezerwa || nextRowPoczątekValue !== "Lubelska Zajezdnia MPK") {
+                        let wyjazdRow = document.createElement("tr");
+                        let wyjazdCell = document.createElement("td");
+                        wyjazdCell.colSpan = 9;
+                        wyjazdCell.innerText = "Wyjazd Na Linie";
+                        wyjazdCell.style.textAlign = "center"; // Wyśrodkowanie tekstu
+                        wyjazdRow.appendChild(wyjazdCell);
+                        tableBody.insertBefore(wyjazdRow, tableBody.rows[0]);
+                        wyjazdRow.style.backgroundColor = "rgba(163, 120, 0)";
+                        wyjazdAdded = true;
+                    }
                 }
             }
 
-            // Tablica wyjątków dla "Przejazd Techniczny"
-            const exceptions = ["Głogów Młp. Zelmer II  nż", "Głogów Młp. Leniar I  nż", "Langiewicza / Wita Stwosza", "Wita Stwosza pętla", "Ustrzycka  nż"]; // Możesz dodać więcej wyjątków
-            // Sprawdzenie wierszy i dodanie "Przejazd Techniczny"
-            for (let i = 0; i < tableBody.rows.length - 1; i++) {
+
+
+
+
+
+
+
+
+            // Przejazd Techniczny
+            const exceptions = ["Głogów Młp. Leniar I  nż", "Głogów Młp. Leniar I  nż", "Langiewicza / Wita Stwosza", "Wita Stwosza pętla", "Ustrzycka nż"];
+            let rowCount = tableBody.rows.length; // Zapisz początkową liczbę wierszy w tabeli
+
+            for (let i = 0; i < rowCount - 1; i++) {
+                // Sprawdź, czy to już ostatni wiersz
+                if (i === rowCount - 2) {
+                    break; // Przerywamy działanie pętli, jeśli osiągnęliśmy przedostatni wiersz
+                }
+
                 const currentRow = tableBody.rows[i];
                 const nextRow = tableBody.rows[i + 1];
-
                 const kierunekValue = currentRow.cells[3] ? currentRow.cells[3].innerText : null;
-                const początekValue = nextRow.cells[2] ? nextRow.cells[2].innerText : null;
+                let początekValue = nextRow.cells[2] ? nextRow.cells[2].innerText : null;
+                let cleanKierunek = kierunekValue ? removeNumbers(kierunekValue).trim() : null;
+                let cleanPoczątek = początekValue ? removeNumbers(początekValue).trim() : null;
 
-                // Usunięcie cyfr przed porównaniem
-                const cleanKierunek = kierunekValue ? removeNumbers(kierunekValue).trim() : null;
-                const cleanPoczątek = początekValue ? removeNumbers(początekValue).trim() : null;
+                // Sprawdzamy, czy cleanPoczątek to "Rezerwa"
+                const wasRezerwa = cleanPoczątek === "Rezerwa";
 
-                // Sprawdzanie warunków do dodania "Przejazd Techniczny"
+                // Jeśli cleanPoczątek to "Rezerwa", to zaktualizuj go o wartość z kolejnego wiersza (i + 2)
+                if (wasRezerwa && tableBody.rows[i + 2]) {
+                    const nextNextRow = tableBody.rows[i + 2];
+                    początekValue = nextNextRow.cells[2] ? nextNextRow.cells[2].innerText : null;
+                    cleanPoczątek = początekValue ? removeNumbers(początekValue).trim() : null;
+                }
 
-                if (cleanKierunek && cleanPoczątek && cleanKierunek !== cleanPoczątek) { // Upewnij się, że kierunek i początek są różne
-
-
+                // Sprawdzamy, czy cleanKierunek jest różne od cleanPoczątek po aktualizacji
+                if (cleanKierunek && cleanPoczątek && cleanKierunek !== cleanPoczątek) {
                     let isNotException = true;
+
+                    // Sprawdzenie wyjątków
                     for (let exception of exceptions) {
                         if (cleanKierunek === exception || cleanPoczątek === exception) {
                             isNotException = false;
                             break;
                         }
                     }
+
+                    // Jeśli nie ma wyjątków, dodaj wiersz "Przejazd Techniczny"
                     if (isNotException) {
-                        // Dodaj nowy wiersz tylko jeśli cleanKierunek i cleanPoczątek są różne
                         let przejazdRow = document.createElement("tr");
                         let przejazdCell = document.createElement("td");
                         przejazdCell.colSpan = 9;
                         przejazdCell.innerText = "Przejazd Techniczny";
-                        przejazdCell.style.textAlign = "center"; // Wyśrodkowanie tekstu
+                        przejazdCell.style.textAlign = "center";
                         przejazdRow.appendChild(przejazdCell);
-                        tableBody.insertBefore(przejazdRow, nextRow); // Dodaj przed następnym wierszem
-                        i++; // Przeskocz do następnego wiersza po dodaniu "Przejazd Techniczny"
-                        przejazdRow.style.backgroundColor = "rgba(163, 120, 0)"; // Dodaj kolor tła
+
+                        // Dodaj "Przejazd Techniczny" poniżej tylko w przypadku, gdy początkowy cleanPoczątek wynosił "Rezerwa"
+                        if (wasRezerwa) {
+                            tableBody.insertBefore(przejazdRow, nextRow.nextSibling); // Dodaj po currentRow
+                            rowCount++; // Zwiększamy rowCount, bo dodaliśmy wiersz
+                            i++; // Zwiększ i, aby pominąć dodany wiersz
+                        } else {
+                            tableBody.insertBefore(przejazdRow, nextRow);
+                            rowCount++; // Zwiększamy rowCount, bo dodaliśmy wiersz
+                            i++; // Zwiększ i, aby pominąć dodany wiersz
+                        }
+
+                        przejazdRow.style.backgroundColor = "rgba(163, 120, 0)";
                     }
                 }
             }
 
-            // Dodaj wiersz "Zjazd Do Zajezdni" jeśli ostatni "Kierunek" nie jest "Lubelska Zajezdnia MPK"
+
+
+
+
+
+
+
+
+            // Add the "Zjazd Do Zajezdni" row if needed
             if (tableBody.rows.length > 0) {
-                const lastKierunekValue = tableBody.rows[tableBody.rows.length - 1].cells[3].innerText.trim();
-                if (lastKierunekValue !== "Lubelska Zajezdnia MPK") {
-                    let zjazdRow = document.createElement("tr");
-                    let zjazdCell = document.createElement("td");
-                    zjazdCell.colSpan = 9;
-                    zjazdCell.innerText = "Zjazd Do Zajezdni";
-                    zjazdCell.style.textAlign = "center"; // Wyśrodkowanie tekstu
-                    zjazdRow.appendChild(zjazdCell);
-                    tableBody.appendChild(zjazdRow); // Dodaj na dole
-                    zjazdRow.style.backgroundColor = "rgba(163, 120, 0)"; // Dodaj kolor tła
+                const lastRow = tableBody.rows[tableBody.rows.length - 1];
+                const beflastRow = tableBody.rows[tableBody.rows.length - 2];
+                const KierunekValue = beflastRow.cells[3].innerText.trim();
+
+                // Check if the last row has enough cells (at least 4 cells)
+                if (lastRow.cells.length > 3) {
+                    const lastKierunekValue = lastRow.cells[3].innerText.trim();
+
+                    const lastPoczatekValue = lastRow.cells[2].innerText.trim();
+
+                    if (lastKierunekValue !== "Lubelska Zajezdnia MPK" && lastPoczatekValue !== "Rezerwa") {
+                        let zjazdRow = document.createElement("tr");
+                        let zjazdCell = document.createElement("td");
+                        zjazdCell.colSpan = 9;
+                        zjazdCell.innerText = "Zjazd Do Zajezdni";
+                        zjazdCell.style.textAlign = "center";
+                        zjazdRow.appendChild(zjazdCell);
+                        tableBody.appendChild(zjazdRow);
+                        zjazdRow.style.backgroundColor = "rgba(163, 120, 0)";
+                    } else if (lastPoczatekValue == "Rezerwa" && KierunekValue !== "Lubelska Zajezdnia MPK") {
+
+                        let zjazdRow = document.createElement("tr");
+                        let zjazdCell = document.createElement("td");
+                        zjazdCell.colSpan = 9;
+                        zjazdCell.innerText = "Zjazd Do Zajezdni";
+                        zjazdCell.style.textAlign = "center";
+                        zjazdRow.appendChild(zjazdCell);
+                        tableBody.appendChild(zjazdRow);
+                        zjazdRow.style.backgroundColor = "rgba(163, 120, 0)";
+
+                    }
                 }
             }
+
+
+
 
             // Fetch kierunki and update the lines
             const kierunkiLines = await fetchKierunkiFile();
@@ -574,6 +687,7 @@
                 console.error("Nie udało się wczytać Kierunki.txt.");
             }
         }
+
 
 
 

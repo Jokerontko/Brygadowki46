@@ -66,6 +66,8 @@ route_id	service_id	trip_id	arrival_time	departure_time	stop_headsign	stop_name
 1384	2	196259	08:08:00	08:08:00		Piłsudskiego U. Marszałkowski 08
 1384	2	196259	08:10:00	08:10:00		Dworzec Lokalny
 
+Rezerwa	08:10-09:15
+
 1388	2	196203	09:21:00	09:21:00		Dworaka targ 01
 1388	2	196203	09:25:00	09:25:00		Rejtana / Kustronia 03 nż
 1388	2	196203	09:26:00	09:26:00		Rejtana Uniwersytet 05
@@ -326,6 +328,8 @@ route_id	service_id	trip_id	arrival_time	departure_time	stop_headsign	stop_name
 1609	2	196229	19:58:00	19:58:00		Marszałkowska 01
 1609	2	196229	20:01:00	20:01:00		Piłsudskiego U. Wojewódzki 03
 1609	2	196229	20:04:00	20:04:00		Bardowskiego 04
+
+Rezerwa	20:04-21:15
 
 1628	2	196251	21:15:00	21:15:00		Bardowskiego 03
 1628	2	196251	21:16:00	21:16:00		Pl. Wolności 04

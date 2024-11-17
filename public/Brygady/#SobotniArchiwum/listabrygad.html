@@ -26,7 +26,7 @@
         }
 
         table {
-            width: 35%;
+            width: 30%;
             border-collapse: collapse;
             border-radius: 5px;
             overflow: hidden;
@@ -48,24 +48,16 @@
         }
 
         .bordered {
-            border: 1.5px solid white;
-            padding: 7px;
-            width: 20px;
+            border: 1px solid white;
+            padding: 5px;
             display: inline-block;
-            margin: 2px 2px;
-            font-weight: bolder;
-            align-items: center;
-        }
-
-        .borderedRez {
-            font-size: 0px;
+            border-radius: 5px;
+            margin: 0 5px;
         }
 
         .movetobrygada {
             text-decoration: none;
             color: white;
-            font-size: 17px;
-
         }
 
         .filter-container {
@@ -102,17 +94,6 @@
 
         h4 {
             margin: 0px 0px 10px;
-        }
-
-        .szary {
-            color: grey;
-            font-size: 10px;
-        }
-
-        header {
-            position: sticky;
-            top: 0px;
-            background-color: rgb(50, 50, 50);
         }
 
     </style>
@@ -221,21 +202,15 @@
         }
 
         async function loadData() {
+
             try {
                 const response = await fetch(`/api/data?brygada=${brygadaNumber}`); // Wysyłamy numer brygady w zapytaniu
                 const data = await response.json();
 
                 data.sort((a, b) => {
-                    // Zakładając, że wartości brygady to daty w formacie "mm/dd"
-                    const [monthA, dayA] = a.brygada.split('/').map(Number); // Rozdzielamy na miesiąc i dzień
-                    const [monthB, dayB] = b.brygada.split('/').map(Number); // Rozdzielamy na miesiąc i dzień
-
-                    // Porównujemy miesiące, jeśli miesiące są równe, porównujemy dni
-                    if (monthA === monthB) {
-                        return dayA - dayB;
-                    } else {
-                        return monthA - monthB;
-                    }
+                    const numA = parseInt(a.brygada, 10);
+                    const numB = parseInt(b.brygada, 10);
+                    return numA - numB;
                 });
 
                 const tableBody = document.getElementById('dataTableBody');
@@ -246,26 +221,13 @@
 
                     const row = document.createElement('tr');
                     row.innerHTML = `
-    <td><a href="brygada.html" class="movetobrygada" onclick="saveBrygada('${item.brygada}')">${item.brygada}</a></td>
-    <td><center>
-        ${item.linie
-            .split(/\s+/) // Rozdziela linie przy użyciu dowolnej liczby białych znaków (spacja, tabulator, itp.)
-            .map(linia => 
-                linia === "Rez" 
-                    ? `<span class="borderedRez" ">${linia}</span>` 
-                    : `<span class="bordered">${linia}</span>`
-            ).join(' ')}
-    </center></td>
-    <td>${normalizedStart}</td> <!-- Zaktualizowane -->
-    <td>${normalizedEnd}</td> <!-- Zaktualizowane -->
-    <td>${item.km || 'N/A'}</td>
-`;
+                        <td><a href="brygada.html" class="movetobrygada" onclick="saveBrygada('${item.brygada}')">${item.brygada}</a></td>
+                        <td><center>${item.linie.split(' ').map(linia => `<span class="bordered">${linia}</span>`).join(' ')}</td>
+                        <td>${normalizedStart}</td> <!-- Zaktualizowane -->
+                        <td>${normalizedEnd}</td> <!-- Zaktualizowane -->
+                        <td>${item.km || 'N/A'}</td>
+                    `;
                     tableBody.appendChild(row);
-
-
-
-
-
                 });
             } catch (error) {
                 console.error('Błąd podczas ładowania danych:', error);

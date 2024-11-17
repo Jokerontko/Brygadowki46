@@ -119,13 +119,25 @@
         <a href="Sobotni/listabrygad.html" class="choose-open">Sobota</a>
         <a href="Niedzielny/listabrygad.html" class="choose-open">Niedziela</a>
     </div>
-    <a href="Zapowiedz_Rozkladu/ChooseDay.html" class="chooseextra-open">Zaplanowane zmiany rozkładów</a>
+    <a href="#" class="chooseextra-close">Zaplanowane zmiany rozkładów</a>
     <!-- Zapowiedz_Rozkladu/ChooseDay.html -->
     <br>
     <a href="#" class="chooseextra-close">Archiwum</a>
     <!-- Archiwum/Archiwum.html -->
 
     <script>
+        // Sprawdzenie, czy trwa przerwa techniczna
+        fetch('/check-maintenance')
+            .then(response => response.json())
+            .then(data => {
+                if (data.ChooseDayMaintenance) {
+                    window.location.href = '../PrzerwaTechniczna.html';
+                }
+            })
+            .catch(error => {
+                console.error('Błąd podczas sprawdzania przerwy technicznej:', error);
+            });
+
         // Funkcja do sprawdzenia, czy użytkownik jest zalogowany
         function checkLogin() {
             const user = JSON.parse(sessionStorage.getItem('user'));
