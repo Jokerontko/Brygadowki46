@@ -191,8 +191,14 @@
                 const files = await response.json(); // Zwrócona lista plików .txt
                 const textFiles = files.filter(file => file.endsWith('.txt'));
 
-                // Sortowanie plików według daty (wyciągniętej z nazwy pliku)
-                textFiles.sort((a, b) => new Date(b.split('.txt')[0]) - new Date(a.split('.txt')[0]));
+                // Funkcja do parsowania daty z formatu DD.MM.YYYY
+                function parseDate(filename) {
+                    const [day, month, year] = filename.split('.txt')[0].split('.');
+                    return new Date(`${year}-${month}-${day}`); // Tworzymy datę w formacie YYYY-MM-DD
+                }
+
+                // Sortowanie plików według daty
+                textFiles.sort((a, b) => parseDate(b) - parseDate(a));
 
                 // Sprawdzenie, czy są pliki tekstowe
                 if (textFiles.length === 0) {
@@ -209,7 +215,7 @@
                     const lines = articleContent.split('\n');
                     const title = lines[0] || 'Brak tytułu';
                     const type = lines[1] || "Brak typu";
-                    const date = lines[2] || "Brak daty"
+                    const date = lines[2] || "Brak daty";
                     const content = lines[3] || 'Brak treści';
                     const photo = lines[4] || '';
 
@@ -217,24 +223,23 @@
 
                     if (photo !== "") { // Sprawdzamy, czy photo jest zdefiniowane i nie jest pustym stringiem 
                         articleHTML = `
-                <article>
-                        <h2><span class="title">${title}</span></h2>
-                    <div class="content">
-                        <p class="contenttext">${content}</p><br>
-<img class="image" src="${folder}/Images/${photo}" alt="Błąd podczas ładowania zdjęcia"><br><br><center><a class="ShowPhoto" href="${folder}/Images/${photo}"> Powiększ zdjęcie</center></a> <br> <sup class="smallletters">${type} ${date}</sup>
-
-                    </div>
-                </article>
-                `;
+            <article>
+                    <h2><span class="title">${title}</span></h2>
+                <div class="content">
+                    <p class="contenttext">${content}</p><br>
+                    <img class="image" src="${folder}/Images/${photo}" alt="Błąd podczas ładowania zdjęcia"><br><br><center><a class="ShowPhoto" href="${folder}/Images/${photo}"> Powiększ zdjęcie</center></a> <br> <sup class="smallletters">${type} ${date}</sup>
+                </div>
+            </article>
+            `;
                     } else {
                         articleHTML = `
-                <article>
-                        <h2><span class="title">${title}</span></h2>
-                    <div class="content">
-                        <p>${content}</p><sup class="smallletters">${type} ${date}</sup>
-                    </div>
-                </article>
-                `;
+            <article>
+                    <h2><span class="title">${title}</span></h2>
+                <div class="content">
+                    <p>${content}</p><sup class="smallletters">${type} ${date}</sup>
+                </div>
+            </article>
+            `;
                     }
 
                     // Wstawiamy HTML do dokumentu
@@ -244,6 +249,7 @@
                 console.error("Błąd podczas ładowania artykułów:", error);
             }
         }
+
 
         function checkLogin() {
             const user = JSON.parse(sessionStorage.getItem('user'));
