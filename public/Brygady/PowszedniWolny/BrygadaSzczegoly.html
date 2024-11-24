@@ -207,7 +207,7 @@
             let closestRow = null;
             let closestTimeDiff = Number.MAX_SAFE_INTEGER;
 
-            tableRows.forEach((row, index) => {
+            tableRows.forEach((row) => {
                 const timeCell = row.querySelector("td:nth-child(3)");
                 const targetTime = timeCell.textContent.trim();
 
@@ -235,17 +235,29 @@
                 }
             });
 
-            // Sprawdzamy, czy ostatni wiersz jest dostępny i czy to nie jest ostatni wiersz w tabeli
             const isLastRow = tableRows.length > 0 && tableRows[tableRows.length - 1] === closestRow;
 
-            // Jeśli nie wyróżniono aktualnego czasu, a znaleziono najbliższą wcześniejszą godzinę, oraz nie jest to ostatni wiersz
+            // Jeśli nie wyróżniono aktualnego czasu, a znaleziono najbliższą wcześniejszą godzinę
             if (!rowHighlighted && closestRow && !isLastRow) {
-                closestRow.style.backgroundColor = "rgba(66, 66, 66)"; // Kolor dla najbliższej wcześniejszej godziny   
+                // Pobieramy nazwę przystanku z komórki w wierszu poniżej
+                const nextRow = closestRow.nextElementSibling;
+                const nextstop = nextRow ? nextRow.querySelector("td:nth-child(2)").textContent.trim() : "brak informacji";
+
+                // Dodajemy nowy wiersz z informacją o następnym przystanku
+                const hejRow = document.createElement("tr");
+                hejRow.innerHTML = `
+        <td style="text-align: center; background-color: rgba(66, 66, 66); font-size: 12px; padding: 5px;"></td>
+        <td style="text-align: center; background-color: rgba(66, 66, 66); font-size: 12px; padding: 5px;">
+            Pojazd jest w drodze na przystanek <br> <strong> ${nextstop} </strong>
+        </td>
+        <td style="text-align: center; background-color: rgba(66, 66, 66); font-size: 12px; padding: 5px;"></td>
+        <td style="text-align: center; background-color: rgba(66, 66, 66); font-size: 12px; padding: 5px;"></td>
+    `;
+                closestRow.insertAdjacentElement('afterend', hejRow);
             }
         }
 
-
-
+        //---------------------------------------------------------------------------------------------------------------------------------
 
         async function init() {
             checkLogin();
