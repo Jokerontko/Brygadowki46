@@ -2,227 +2,249 @@
 <html lang="pl">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-    <meta http-equiv="Pragma" content="no-cache">
-    <meta http-equiv="Expires" content="0">
-    <title>Strona Główna</title>
-    <link rel="stylesheet" href="style_css/headermenu.css">
-    <style>
-        body {
-            background: rgb(50, 50, 50);
-            font-family: Arial, sans-serif;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            height: 100vh;
-            color: white;
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <title>Strona Główna</title>
+  <link rel="stylesheet" href="style_css/headermenu.css">
+  <style>
+    body {
+      background: rgb(50, 50, 50);
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 100vh;
+      color: white;
+    }
 
-        h1 {
-            font-size: 2rem;
-            margin: 40px 0 20px;
+    h1 {
+      font-size: 2rem;
+      margin: 40px 0 20px;
 
-        }
+    }
 
-        .button-container {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 20px;
-            max-width: 400px;
-            margin-bottom: 20px;
-        }
+    .button-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      max-width: 400px;
+      margin-bottom: 20px;
+    }
 
-        .choose,
-        .chooseextra-open,
-        .chooseextra-close {
-            text-decoration: none;
-            color: white;
-            border-radius: 10px;
-            padding: 10px;
-            transition: all 0.3s ease;
-            font-size: 1rem;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-        }
+    .choose,
+    .chooseextra-open,
+    .chooseextra-close {
+      text-decoration: none;
+      color: white;
+      border-radius: 10px;
+      padding: 10px;
+      transition: all 0.3s ease;
+      font-size: 1rem;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    }
 
-        .choose:hover,
-        .chooseextra-open:hover,
-        .chooseextra-close:hover {
-            background-color: orange;
-            transform: scale(1.05);
-        }
+    .choose:hover,
+    .chooseextra-open:hover,
+    .chooseextra-close:hover {
+      background-color: orange;
+      transform: scale(1.05);
+    }
 
-        article {
-            border-radius: 10px;
-            max-width: 60vw;
-            display: block;
+    article {
+      border-radius: 10px;
+      max-width: 60vw;
+      display: block;
 
-        }
+    }
 
-        .content p {
-            font-size: 1rem;
-            margin-top: 10px;
-            margin: 25px;
-        }
+    .content p {
+      font-size: 1rem;
+      margin-top: 10px;
+      margin: 25px;
+    }
 
-        img {
-            width: 70%;
-            max-width: 700px;
-            border-radius: 5px;
-        }
+    img {
+      width: 70%;
+      max-width: 700px;
+      border-radius: 5px;
+    }
 
-        hr.line {
-            border: none;
-            border-top: 2px dotted white;
-            width: 80vw;
-            /* Zmieniono z 100% na 100vw */
-            margin: 0;
-            /* Usunięto marginesy */
-            position: relative;
-            /* Może być przydatne, aby uniknąć problemów z pozycjonowaniem */
-            left: 50%;
-            /* Ustawienie na środek */
-            transform: translateX(-50%);
-            /* Przesunięcie w lewo o 50% szerokości, aby centrować */
-        }
-
-
-        .NothingToFind {
-            color: grey;
-            display: center;
-            display: flex;
-            display: grid;
-        }
-
-        .title {
-            font-family: arial;
-            margin-left: -15px;
-            border-radius: 10px;
-            background-color: rgba(50, 50, 50);
-            border: 3px solid orange;
-            font-size: auto;
-            padding: 5px;
-
-        }
-
-        .content {
-            border: 3px solid orange;
-            margin-top: -30px;
-            border-radius: 10px;
-
-        }
-
-        .smallletters {
-            font-size: 10px;
-            color: grey;
-            text-align: center;
-            margin-bottom: 10px;
-            display: block;
+    hr.line {
+      border: none;
+      border-top: 2px dotted white;
+      width: 80vw;
+      /* Zmieniono z 100% na 100vw */
+      margin: 0;
+      /* Usunięto marginesy */
+      position: relative;
+      /* Może być przydatne, aby uniknąć problemów z pozycjonowaniem */
+      left: 50%;
+      /* Ustawienie na środek */
+      transform: translateX(-50%);
+      /* Przesunięcie w lewo o 50% szerokości, aby centrować */
+    }
 
 
-        }
+    .NothingToFind {
+      color: grey;
+      display: center;
+      display: flex;
+      display: grid;
+    }
 
-        .image {
-            max-width: 40vw;
-            max-height: 40vw;
-            margin: auto;
-            display: block;
-            margin-bottom: -10px;
-            margin-top: -20px;
-        }
+    .title {
+      font-family: Arial, sans-serif;
+      /* Czytelna czcionka */
+      margin: 0 auto;
+      /* Wycentrowanie poziome */
+      margin-left: -20px;
+      margin-bottom: -10px;
+      display: inline-block;
+      /* Dopasowanie do zawartości */
+      border-radius: 10px;
+      /* Zaokrąglenia */
+      background-color: rgba(50, 50, 50, 0.9);
+      /* Ciemniejsze tło */
+      border: 3px solid orange;
+      /* Ramka */
+      font-size: 20px;
+      /* Stały rozmiar czcionki */
+      padding: 10px 15px;
+      /* Odpowiedni odstęp wewnętrzny */
+      color: white;
+      /* Kontrastujący kolor czcionki */
+      text-align: center;
+      /* Wycentrowanie tekstu */
+      word-wrap: break-word;
+      /* Łamanie długiego tekstu */
+      max-width: 400px;
+      /* Ograniczenie szerokości */
+      box-sizing: border-box;
+      /* Wliczanie ramki w wymiary */
+    }
 
-        .ShowPhoto {
-            text-decoration: none;
-            color: white;
-            border: 1.5px solid;
-            border-radius: 5px;
-            padding: 10px;
-            margin: 5px 5px 5px;
 
-        }
 
-    </style>
+    .content {
+      border: 3px solid orange;
+      margin-top: -30px;
+      border-radius: 10px;
+
+    }
+
+    .smallletters {
+      font-size: 10px;
+      color: grey;
+      text-align: center;
+      margin-bottom: 10px;
+      display: block;
+
+
+    }
+
+    .image {
+      max-width: 40vw;
+      max-height: 40vw;
+      margin: auto;
+      display: block;
+      margin-bottom: -10px;
+      margin-top: -20px;
+    }
+
+    .ShowPhoto {
+      text-decoration: none;
+      color: white;
+      border: 1.5px solid;
+      border-radius: 5px;
+      padding: 10px;
+      margin: 5px 5px 5px;
+
+    }
+
+  </style>
 </head>
 
 <body>
-    <header>
-        <a href="Main_Panel.html" class="menu">Panel Główny</a>
-        <a href="Brygady/ChooseDay.html" class="menu">Brygady</a>
-        <a href="Brygady/Kursy/Kursy.html" class="menu">Kursy</a>
-        <a href="#" class="menu exit" id="logout">Opuść Panel</a>
-        <hr>
-    </header>
-    <h1 id="welcome-message"></h1>
+  <header>
+    <a href="Main_Panel.html" class="menu">Panel Główny</a>
+    <a href="Brygady/ChooseDay.html" class="menu">Brygady</a>
+    <a href="Brygady/Kursy/Kursy.html" class="menu">Kursy</a>
+    <a href="#" class="menu exit" id="logout">Opuść Panel</a>
+    <hr>
+  </header>
+  <h1 id="welcome-message"></h1>
 
-    <section id="news-articles"></section>
-    <p class="NothingToFind"></p>
+  <section id="news-articles"></section>
+  <p class="NothingToFind"></p>
 
-    <script>
-        // Pobierz dane użytkownika z sessionStorage
-        const user = JSON.parse(sessionStorage.getItem('user'));
+  <script>
+    // Pobierz dane użytkownika z sessionStorage
+    const user = JSON.parse(sessionStorage.getItem('user'));
 
-        if (user) {
-            // Pobierz bieżącą godzinę
-            const now = new Date();
-            const currentHour = now.getHours();
+    if (user) {
+      // Pobierz bieżącą godzinę
+      const now = new Date();
+      const currentHour = now.getHours();
 
-            let greeting = 'Witaj';
+      let greeting = 'Witaj';
 
-            // Sprawdź godzinę i ustaw odpowiednie powitanie
-            if (currentHour >= 6 && currentHour < 17) {
-                greeting = 'Dzień dobry';
-            } else {
-                greeting = 'Dobry wieczór';
-            }
+      // Sprawdź godzinę i ustaw odpowiednie powitanie
+      if (currentHour >= 6 && currentHour < 17) {
+        greeting = 'Dzień dobry';
+      } else {
+        greeting = 'Dobry wieczór';
+      }
 
-            // Wstaw powitanie z imieniem użytkownika do nagłówka H1
-            document.getElementById('welcome-message').textContent = `${greeting}, ${user.name}!`;
+      // Wstaw powitanie z imieniem użytkownika do nagłówka H1
+      document.getElementById('welcome-message').textContent = `${greeting}, ${user.name}!`;
+    }
+
+
+    async function loadArticles() {
+      const folder = 'News';
+      try {
+        // Pobierz listę plików z backendu
+        const response = await fetch('/api/files');
+        if (!response.ok) throw new Error("Nie udało się pobrać listy plików.");
+
+        const files = await response.json(); // Zwrócona lista plików .txt
+        const textFiles = files.filter(file => file.endsWith('.txt'));
+
+        // Funkcja do parsowania daty z formatu DD.MM.YYYY
+        function parseDate(filename) {
+          const [day, month, year] = filename.split('.txt')[0].split('.');
+          return new Date(`${year}-${month}-${day}`); // Tworzymy datę w formacie YYYY-MM-DD
         }
 
+        // Sortowanie plików według daty
+        textFiles.sort((a, b) => parseDate(b) - parseDate(a));
 
-        async function loadArticles() {
-            const folder = 'News';
-            try {
-                // Pobierz listę plików z backendu
-                const response = await fetch('/api/files');
-                if (!response.ok) throw new Error("Nie udało się pobrać listy plików.");
+        // Sprawdzenie, czy są pliki tekstowe
+        if (textFiles.length === 0) {
+          // Jeśli nie ma plików, wyświetl komunikat
+          document.querySelector('.NothingToFind').textContent = "Nic tu nie znaleziono...";
+          return; // Kończymy funkcję
+        }
 
-                const files = await response.json(); // Zwrócona lista plików .txt
-                const textFiles = files.filter(file => file.endsWith('.txt'));
+        for (const file of textFiles) {
+          const filePath = `${folder}/${file}`;
+          const articleContent = await fetch(filePath).then(res => res.text());
 
-                // Funkcja do parsowania daty z formatu DD.MM.YYYY
-                function parseDate(filename) {
-                    const [day, month, year] = filename.split('.txt')[0].split('.');
-                    return new Date(`${year}-${month}-${day}`); // Tworzymy datę w formacie YYYY-MM-DD
-                }
+          // Zmiana w parsowaniu: teraz oczekujemy tytułu w 1. linii, treści w 2. i zdjęcia w 3.
+          const lines = articleContent.split('\n');
+          const title = lines[0] || 'Brak tytułu';
+          const type = lines[1] || "Brak typu";
+          const date = lines[2] || "Brak daty";
+          const content = lines[3] || 'Brak treści';
+          const photo = lines[4] || '';
 
-                // Sortowanie plików według daty
-                textFiles.sort((a, b) => parseDate(b) - parseDate(a));
+          let articleHTML; // Zmienna do przechowywania HTML
 
-                // Sprawdzenie, czy są pliki tekstowe
-                if (textFiles.length === 0) {
-                    // Jeśli nie ma plików, wyświetl komunikat
-                    document.querySelector('.NothingToFind').textContent = "Nic tu nie znaleziono...";
-                    return; // Kończymy funkcję
-                }
-
-                for (const file of textFiles) {
-                    const filePath = `${folder}/${file}`;
-                    const articleContent = await fetch(filePath).then(res => res.text());
-
-                    // Zmiana w parsowaniu: teraz oczekujemy tytułu w 1. linii, treści w 2. i zdjęcia w 3.
-                    const lines = articleContent.split('\n');
-                    const title = lines[0] || 'Brak tytułu';
-                    const type = lines[1] || "Brak typu";
-                    const date = lines[2] || "Brak daty";
-                    const content = lines[3] || 'Brak treści';
-                    const photo = lines[4] || '';
-
-                    let articleHTML; // Zmienna do przechowywania HTML
-
-                    if (photo !== "") { // Sprawdzamy, czy photo jest zdefiniowane i nie jest pustym stringiem 
-                        articleHTML = `
+          if (photo !== "") { // Sprawdzamy, czy photo jest zdefiniowane i nie jest pustym stringiem 
+            articleHTML = `
             <article>
                     <h2><span class="title">${title}</span></h2>
                 <div class="content">
@@ -231,8 +253,8 @@
                 </div>
             </article>
             `;
-                    } else {
-                        articleHTML = `
+          } else {
+            articleHTML = `
             <article>
                     <h2><span class="title">${title}</span></h2>
                 <div class="content">
@@ -240,36 +262,36 @@
                 </div>
             </article>
             `;
-                    }
+          }
 
-                    // Wstawiamy HTML do dokumentu
-                    document.getElementById('news-articles').insertAdjacentHTML('beforeend', articleHTML);
-                }
-            } catch (error) {
-                console.error("Błąd podczas ładowania artykułów:", error);
-            }
+          // Wstawiamy HTML do dokumentu
+          document.getElementById('news-articles').insertAdjacentHTML('beforeend', articleHTML);
         }
+      } catch (error) {
+        console.error("Błąd podczas ładowania artykułów:", error);
+      }
+    }
 
 
-        function checkLogin() {
-            const user = JSON.parse(sessionStorage.getItem('user'));
-            if (!user) {
-                window.location.href = 'zoltakartka.html';
-            }
-        }
+    function checkLogin() {
+      const user = JSON.parse(sessionStorage.getItem('user'));
+      if (!user) {
+        window.location.href = 'zoltakartka.html';
+      }
+    }
 
-        window.onload = async function() {
-            checkLogin();
-            await loadArticles();
-        };
+    window.onload = async function() {
+      checkLogin();
+      await loadArticles();
+    };
 
 
-        document.getElementById('logout').addEventListener('click', function() {
-            sessionStorage.clear();
-            window.location.href = 'index.html';
-        });
+    document.getElementById('logout').addEventListener('click', function() {
+      sessionStorage.clear();
+      window.location.href = 'index.html';
+    });
 
-    </script>
+  </script>
 
 </body>
 
