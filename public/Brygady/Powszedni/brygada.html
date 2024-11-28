@@ -511,22 +511,22 @@
           }
         } else if (line.includes("Rezerwa")) {
           // Jeżeli linia zawiera słowo "Rezerwa"
-          let parts = line.split("\t").filter(part => part.trim() !== ""); // Filtrujemy puste elementy
-          if (parts.length === 6 && parts[1] === "R" && parts[2] === "-") {
-            // Zakładamy, że nowy format ma postać: "REZ \t R \t - \t Godz_Rozp \t Godz_Zak \t Rezerwa"
-            let godzRozp = parts[3].trim();
-            let godzZak = parts[4].trim();
+          let parts = line.split("\t");
+          if (parts.length === 2) {
+            // Zakładamy, że części będą miały postać: "Rezerwa" i godziny w formacie "Godz_Rozp-Godz_Zak"
+            let godzRozpZak = parts[1].trim();
+            let [godzRozp, godzZak] = godzRozpZak.split('-');
             const czasrezerwa = calculateTimeDifference(godzRozp, godzZak);
-
             let row = document.createElement("tr");
-            row.innerHTML += `
+            row.innerHTML +=
+              `
 <td class="RezLP"></td>
 <td class="Rez"></td>
 <td class="Rez">Rezerwa</td>
 <td class="Rez"></td>
-<td>${godzRozp}</td>
+                     <td>${godzRozp}</td>
 <td>${godzZak}</td>
-<td>${czasrezerwa}</td>
+                     <td>${czasrezerwa}</td>
 <td>N/A</td>`;
 
             tableBody.appendChild(row);
@@ -897,11 +897,7 @@
         console.log("Ścieżka do pliku:", filePath);
 
         // Wczytanie danych z pliku
-        const response = await fetch(filePath, {
-          headers: {
-            'Content-Type': 'text/plain; charset=UTF-8'
-          }
-        });
+        const response = await fetch(filePath);
         if (!response.ok) {
           console.error("Nie udało się wczytać pliku podmiana.txt");
           return;
@@ -947,7 +943,7 @@
               sessionStorage.setItem('godzina', godzina);
               const newRow = document.createElement("tr");
               newRow.innerHTML =
-                `<td colspan="9" style="text-align: center; font-size: 15px; padding: 3px;">Podmiana: &nbsp;&nbsp; <strong>${przystanek}</strong> &nbsp;&nbsp; ${godzina}</td>`;
+                `<td colspan="9" style="text-align: center; font-size: 15px; padding: 3px;">Podmiana: &nbsp;&nbsp; <strong>${przystanek} </strong> &nbsp;&nbsp; ${godzina} </td>`;
 
               tableBody.insertBefore(newRow, nextRow);
               break;
@@ -971,7 +967,6 @@
 
       return valueMinutes > startMinutes && valueMinutes < endMinutes;
     }
-
 
     function brygadabisowa() {
       const tableBody = document.getElementById("dane-tabeli");
