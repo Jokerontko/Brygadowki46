@@ -110,7 +110,7 @@ route_id	service_id	trip_id	arrival_time	departure_time	stop_headsign	stop_name
 1363	2	194280	08:38:00	08:38:00		Trembeckiego / Siemieńskiego 07 nż
 1363	2	194280	08:39:00	08:39:00		Trembeckiego ZTM pętla 01
 
-Rezerwa	13:00-14:53
+REZ	R	-	13:00:00	14:53:00		Rezerwa
 
 1385	2	194320	15:06:00	15:06:00		Dworzec Lokalny
 1385	2	194320	15:07:00	15:07:00		Piłsudskiego U. Marszałkowski 05

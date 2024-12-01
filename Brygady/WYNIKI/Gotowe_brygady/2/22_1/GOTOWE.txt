@@ -1,382 +1,1449 @@
 route_id	service_id	trip_id	arrival_time	departure_time	stop_headsign	stop_name
 -------------------------------------------------------------------------------
+1476	2	192122	05:10:00	05:10:00		Bardowskiego 01
+
 1476	2	196184	05:10:00	05:10:00		Bardowskiego 01
+
+1476	2	192122	05:12:00	05:12:00		Pl. Wolności 04
+
 1476	2	196184	05:12:00	05:12:00		Pl. Wolności 04
+
+1476	2	192122	05:14:00	05:14:00		Piłsudskiego U. Marszałkowski 08
+
 1476	2	196184	05:14:00	05:14:00		Piłsudskiego U. Marszałkowski 08
+
+1476	2	192122	05:16:00	05:16:00		Krakowska Jedn. Wojskowa 02
+
 1476	2	196184	05:16:00	05:16:00		Krakowska Jedn. Wojskowa 02
+
+1476	2	192122	05:17:00	05:17:00		Krakowska szpital 04
+
 1476	2	196184	05:17:00	05:17:00		Krakowska szpital 04
+
+1476	2	192122	05:18:00	05:18:00		Krakowska galeria 06
+
 1476	2	196184	05:18:00	05:18:00		Krakowska galeria 06
+
+1476	2	192122	05:19:00	05:19:00		Krakowska / Wyzwolenia 08 nż
+
 1476	2	196184	05:19:00	05:19:00		Krakowska / Wyzwolenia 08 nż
+
+1476	2	192122	05:20:00	05:20:00		Krakowska cmentarz 10 nż
+
 1476	2	196184	05:20:00	05:20:00		Krakowska cmentarz 10 nż
+
+1476	2	192122	05:22:00	05:22:00		Krakowska / Ceramiczna 12
+
 1476	2	196184	05:22:00	05:22:00		Krakowska / Ceramiczna 12
+
+1476	2	192122	05:23:00	05:23:00		Krakowska Dworzysko 16 nż
+
 1476	2	196184	05:23:00	05:23:00		Krakowska Dworzysko 16 nż
+
+1476	2	192122	05:25:00	05:25:00		Krakowska granica 18 nż
+
 1476	2	196184	05:25:00	05:25:00		Krakowska granica 18 nż
+
+1476	2	192122	05:26:00	05:26:00		Świlcza Nowy Dwór 71 nż
+
 1476	2	196184	05:26:00	05:26:00		Świlcza Nowy Dwór 71 nż
+
+1476	2	192122	05:28:00	05:28:00		Świlcza osiedle 73 nż
+
 1476	2	196184	05:28:00	05:28:00		Świlcza osiedle 73 nż
+
+1476	2	192122	05:30:00	05:30:00		Świlcza 75 nż
+
 1476	2	196184	05:30:00	05:30:00		Świlcza 75 nż
+
+1476	2	192122	05:33:00	05:33:00		Trzciana Woliczka 77 nż
+
 1476	2	196184	05:33:00	05:33:00		Trzciana Woliczka 77 nż
+
+1476	2	192122	05:36:00	05:36:00		Trzciana Gminny Ośrodek Kultury 01 nż
+
 1476	2	196184	05:36:00	05:36:00		Trzciana Gminny Ośrodek Kultury 01 nż
+
+1476	2	192122	05:37:00	05:37:00		Trzciana sklep 03 nż
+
 1476	2	196184	05:37:00	05:37:00		Trzciana sklep 03 nż
+
+1476	2	192122	05:39:00	05:39:00		Trzciana pętla 05
+
 1476	2	196184	05:39:00	05:39:00		Trzciana pętla 05
 
+1480	2	192123	05:51:00	05:51:00		Trzciana pętla 05
+
 1480	2	196205	05:51:00	05:51:00		Trzciana pętla 05
+
+1480	2	192123	05:52:00	05:52:00		Trzciana sklep 02 nż
+
 1480	2	196205	05:52:00	05:52:00		Trzciana sklep 02 nż
+
+1480	2	192123	05:54:00	05:54:00		Trzciana Gminny Ośrodek Kultury 02 nż
+
 1480	2	196205	05:54:00	05:54:00		Trzciana Gminny Ośrodek Kultury 02 nż
+
+1480	2	192123	05:56:00	05:56:00		Trzciana Woliczka 56 nż
+
 1480	2	196205	05:56:00	05:56:00		Trzciana Woliczka 56 nż
+
+1480	2	192123	05:59:00	05:59:00		Świlcza 58
+
 1480	2	196205	05:59:00	05:59:00		Świlcza 58
+
+1480	2	192123	06:01:00	06:01:00		Świlcza osiedle 60 nż
+
 1480	2	196205	06:01:00	06:01:00		Świlcza osiedle 60 nż
+
+1480	2	192123	06:03:00	06:03:00		Świlcza Nowy Dwór 62 nż
+
 1480	2	196205	06:03:00	06:03:00		Świlcza Nowy Dwór 62 nż
+
+1480	2	192123	06:04:00	06:04:00		Krakowska granica 15 nż
+
 1480	2	196205	06:04:00	06:04:00		Krakowska granica 15 nż
+
+1480	2	192123	06:05:00	06:05:00		Krakowska Dworzysko 13 nż
+
 1480	2	196205	06:05:00	06:05:00		Krakowska Dworzysko 13 nż
+
+1480	2	192123	06:07:00	06:07:00		Krakowska / Ustrzycka 11
+
 1480	2	196205	06:07:00	06:07:00		Krakowska / Ustrzycka 11
+
+1480	2	192123	06:08:00	06:08:00		Krakowska cmentarz 09 nż
+
 1480	2	196205	06:08:00	06:08:00		Krakowska cmentarz 09 nż
+
+1480	2	192123	06:10:00	06:10:00		Krakowska / Mielecka 07 nż
+
 1480	2	196205	06:10:00	06:10:00		Krakowska / Mielecka 07 nż
+
+1480	2	192123	06:11:00	06:11:00		Krakowska galeria 05
+
 1480	2	196205	06:11:00	06:11:00		Krakowska galeria 05
+
+1480	2	192123	06:12:00	06:12:00		Krakowska szpital 03
+
 1480	2	196205	06:12:00	06:12:00		Krakowska szpital 03
+
+1480	2	192123	06:13:00	06:13:00		Krakowska Jedn. Wojskowa 01
+
 1480	2	196205	06:13:00	06:13:00		Krakowska Jedn. Wojskowa 01
+
+1480	2	192123	06:16:00	06:16:00		Piłsudskiego U. Wojewódzki 03
+
 1480	2	196205	06:16:00	06:16:00		Piłsudskiego U. Wojewódzki 03
+
+1480	2	192123	06:19:00	06:19:00		Bardowskiego 04
+
 1480	2	196205	06:19:00	06:19:00		Bardowskiego 04
 
+1492	2	192124	06:25:00	06:25:00		Bardowskiego 01
+
 1492	2	196282	06:25:00	06:25:00		Bardowskiego 01
+
+1492	2	192124	06:27:00	06:27:00		Pl. Wolności 04
+
 1492	2	196282	06:27:00	06:27:00		Pl. Wolności 04
+
+1492	2	192124	06:29:00	06:29:00		Piłsudskiego U. Marszałkowski 08
+
 1492	2	196282	06:29:00	06:29:00		Piłsudskiego U. Marszałkowski 08
+
+1492	2	192124	06:31:00	06:31:00		Krakowska Jedn. Wojskowa 02
+
 1492	2	196282	06:31:00	06:31:00		Krakowska Jedn. Wojskowa 02
+
+1492	2	192124	06:32:00	06:32:00		Krakowska szpital 04
+
 1492	2	196282	06:32:00	06:32:00		Krakowska szpital 04
+
+1492	2	192124	06:33:00	06:33:00		Krakowska galeria 06
+
 1492	2	196282	06:33:00	06:33:00		Krakowska galeria 06
+
+1492	2	192124	06:34:00	06:34:00		Krakowska / Wyzwolenia 08 nż
+
 1492	2	196282	06:34:00	06:34:00		Krakowska / Wyzwolenia 08 nż
+
+1492	2	192124	06:36:00	06:36:00		Krakowska cmentarz 10 nż
+
 1492	2	196282	06:36:00	06:36:00		Krakowska cmentarz 10 nż
+
+1492	2	192124	06:38:00	06:38:00		Krakowska / Ceramiczna 12
+
 1492	2	196282	06:38:00	06:38:00		Krakowska / Ceramiczna 12
+
+1492	2	192124	06:39:00	06:39:00		Krakowska Dworzysko 16 nż
+
 1492	2	196282	06:39:00	06:39:00		Krakowska Dworzysko 16 nż
+
+1492	2	192124	06:41:00	06:41:00		Krakowska granica 18 nż
+
 1492	2	196282	06:41:00	06:41:00		Krakowska granica 18 nż
+
+1492	2	192124	06:42:00	06:42:00		Świlcza Nowy Dwór 71 nż
+
 1492	2	196282	06:42:00	06:42:00		Świlcza Nowy Dwór 71 nż
+
+1492	2	192124	06:44:00	06:44:00		Świlcza osiedle 73 nż
+
 1492	2	196282	06:44:00	06:44:00		Świlcza osiedle 73 nż
+
+1492	2	192124	06:45:00	06:45:00		Świlcza 06 nż
+
 1492	2	196282	06:45:00	06:45:00		Świlcza 06 nż
+
+1492	2	192124	06:46:00	06:46:00		Świlcza sklep 04 nż
+
 1492	2	196282	06:46:00	06:46:00		Świlcza sklep 04 nż
+
+1492	2	192124	06:47:00	06:47:00		Świlcza PKP 02 nż
+
 1492	2	196282	06:47:00	06:47:00		Świlcza PKP 02 nż
+
+1492	2	192124	06:48:00	06:48:00		Kamyszyn I 01 nż
+
 1492	2	196282	06:48:00	06:48:00		Kamyszyn I 01 nż
+
+1492	2	192124	06:49:00	06:49:00		Kamyszyn pętla 03 nż
+
 1492	2	196282	06:49:00	06:49:00		Kamyszyn pętla 03 nż
+
+1492	2	192124	06:51:00	06:51:00		Mrowla Otoka pętla 01
+
 1492	2	196282	06:51:00	06:51:00		Mrowla Otoka pętla 01
 
+1482	2	192125	07:12:00	07:12:00		Mrowla Otoka pętla 01
+
 1482	2	196363	07:12:00	07:12:00		Mrowla Otoka pętla 01
+
+1482	2	192125	07:14:00	07:14:00		Kamyszyn pętla 04 nż
+
 1482	2	196363	07:14:00	07:14:00		Kamyszyn pętla 04 nż
+
+1482	2	192125	07:15:00	07:15:00		Kamyszyn II 02 nż
+
 1482	2	196363	07:15:00	07:15:00		Kamyszyn II 02 nż
+
+1482	2	192125	07:16:00	07:16:00		Świlcza PKP 01 nż
+
 1482	2	196363	07:16:00	07:16:00		Świlcza PKP 01 nż
+
+1482	2	192125	07:17:00	07:17:00		Świlcza sklep 03 nż
+
 1482	2	196363	07:17:00	07:17:00		Świlcza sklep 03 nż
+
+1482	2	192125	07:18:00	07:18:00		Świlcza 05
+
 1482	2	196363	07:18:00	07:18:00		Świlcza 05
+
+1482	2	192125	07:20:00	07:20:00		Świlcza osiedle 60 nż
+
 1482	2	196363	07:20:00	07:20:00		Świlcza osiedle 60 nż
+
+1482	2	192125	07:23:00	07:23:00		Świlcza Nowy Dwór 62 nż
+
 1482	2	196363	07:23:00	07:23:00		Świlcza Nowy Dwór 62 nż
+
+1482	2	192125	07:24:00	07:24:00		Krakowska granica 15 nż
+
 1482	2	196363	07:24:00	07:24:00		Krakowska granica 15 nż
+
+1482	2	192125	07:25:00	07:25:00		Krakowska Dworzysko 13 nż
+
 1482	2	196363	07:25:00	07:25:00		Krakowska Dworzysko 13 nż
+
+1482	2	192125	07:27:00	07:27:00		Krakowska / Ustrzycka 11
+
 1482	2	196363	07:27:00	07:27:00		Krakowska / Ustrzycka 11
+
+1482	2	192125	07:28:00	07:28:00		Krakowska cmentarz 09 nż
+
 1482	2	196363	07:28:00	07:28:00		Krakowska cmentarz 09 nż
+
+1482	2	192125	07:30:00	07:30:00		Krakowska / Mielecka 07 nż
+
 1482	2	196363	07:30:00	07:30:00		Krakowska / Mielecka 07 nż
+
+1482	2	192125	07:31:00	07:31:00		Krakowska galeria 05
+
 1482	2	196363	07:31:00	07:31:00		Krakowska galeria 05
+
+1482	2	192125	07:32:00	07:32:00		Krakowska szpital 03
+
 1482	2	196363	07:32:00	07:32:00		Krakowska szpital 03
+
+1482	2	192125	07:34:00	07:34:00		Krakowska Jedn. Wojskowa 01
+
 1482	2	196363	07:34:00	07:34:00		Krakowska Jedn. Wojskowa 01
+
+1482	2	192125	07:37:00	07:37:00		Piłsudskiego U. Wojewódzki 03
+
 1482	2	196363	07:37:00	07:37:00		Piłsudskiego U. Wojewódzki 03
+
+1482	2	192125	07:40:00	07:40:00		Bardowskiego 04
+
 1482	2	196363	07:40:00	07:40:00		Bardowskiego 04
 
+1478	2	192126	08:20:00	08:20:00		Bardowskiego 01
+
 1478	2	196335	08:20:00	08:20:00		Bardowskiego 01
+
+1478	2	192126	08:22:00	08:22:00		Pl. Wolności 04
+
 1478	2	196335	08:22:00	08:22:00		Pl. Wolności 04
+
+1478	2	192126	08:25:00	08:25:00		Piłsudskiego U. Marszałkowski 08
+
 1478	2	196335	08:25:00	08:25:00		Piłsudskiego U. Marszałkowski 08
+
+1478	2	192126	08:27:00	08:27:00		Krakowska Jedn. Wojskowa 02
+
 1478	2	196335	08:27:00	08:27:00		Krakowska Jedn. Wojskowa 02
+
+1478	2	192126	08:28:00	08:28:00		Krakowska szpital 04
+
 1478	2	196335	08:28:00	08:28:00		Krakowska szpital 04
+
+1478	2	192126	08:29:00	08:29:00		Krakowska galeria 06
+
 1478	2	196335	08:29:00	08:29:00		Krakowska galeria 06
+
+1478	2	192126	08:30:00	08:30:00		Krakowska / Wyzwolenia 08 nż
+
 1478	2	196335	08:30:00	08:30:00		Krakowska / Wyzwolenia 08 nż
+
+1478	2	192126	08:32:00	08:32:00		Krakowska cmentarz 10 nż
+
 1478	2	196335	08:32:00	08:32:00		Krakowska cmentarz 10 nż
+
+1478	2	192126	08:34:00	08:34:00		Krakowska / Ceramiczna 12
+
 1478	2	196335	08:34:00	08:34:00		Krakowska / Ceramiczna 12
+
+1478	2	192126	08:35:00	08:35:00		Krakowska Dworzysko 16 nż
+
 1478	2	196335	08:35:00	08:35:00		Krakowska Dworzysko 16 nż
+
+1478	2	192126	08:37:00	08:37:00		Krakowska granica 18 nż
+
 1478	2	196335	08:37:00	08:37:00		Krakowska granica 18 nż
+
+1478	2	192126	08:38:00	08:38:00		Świlcza Nowy Dwór 71 nż
+
 1478	2	196335	08:38:00	08:38:00		Świlcza Nowy Dwór 71 nż
+
+1478	2	192126	08:40:00	08:40:00		Świlcza osiedle 73 nż
+
 1478	2	196335	08:40:00	08:40:00		Świlcza osiedle 73 nż
+
+1478	2	192126	08:41:00	08:41:00		Świlcza 58
+
 1478	2	196335	08:41:00	08:41:00		Świlcza 58
 
+1471	2	192127	09:03:00	09:03:00		Świlcza 58
+
 1471	2	196362	09:03:00	09:03:00		Świlcza 58
+
+1471	2	192127	09:05:00	09:05:00		Świlcza osiedle 60 nż
+
 1471	2	196362	09:05:00	09:05:00		Świlcza osiedle 60 nż
+
+1471	2	192127	09:08:00	09:08:00		Świlcza Nowy Dwór 62 nż
+
 1471	2	196362	09:08:00	09:08:00		Świlcza Nowy Dwór 62 nż
+
+1471	2	192127	09:09:00	09:09:00		Krakowska granica 15 nż
+
 1471	2	196362	09:09:00	09:09:00		Krakowska granica 15 nż
+
+1471	2	192127	09:10:00	09:10:00		Krakowska Dworzysko 13 nż
+
 1471	2	196362	09:10:00	09:10:00		Krakowska Dworzysko 13 nż
+
+1471	2	192127	09:12:00	09:12:00		Krakowska / Ustrzycka 11
+
 1471	2	196362	09:12:00	09:12:00		Krakowska / Ustrzycka 11
+
+1471	2	192127	09:13:00	09:13:00		Krakowska cmentarz 09 nż
+
 1471	2	196362	09:13:00	09:13:00		Krakowska cmentarz 09 nż
+
+1471	2	192127	09:15:00	09:15:00		Krakowska / Mielecka 07 nż
+
 1471	2	196362	09:15:00	09:15:00		Krakowska / Mielecka 07 nż
+
+1471	2	192127	09:16:00	09:16:00		Krakowska galeria 05
+
 1471	2	196362	09:16:00	09:16:00		Krakowska galeria 05
+
+1471	2	192127	09:17:00	09:17:00		Krakowska szpital 03
+
 1471	2	196362	09:17:00	09:17:00		Krakowska szpital 03
+
+1471	2	192127	09:19:00	09:19:00		Krakowska Jedn. Wojskowa 01
+
 1471	2	196362	09:19:00	09:19:00		Krakowska Jedn. Wojskowa 01
+
+1471	2	192127	09:22:00	09:22:00		Piłsudskiego U. Wojewódzki 03
+
 1471	2	196362	09:22:00	09:22:00		Piłsudskiego U. Wojewódzki 03
+
+1471	2	192127	09:25:00	09:25:00		Bardowskiego 04
+
 1471	2	196362	09:25:00	09:25:00		Bardowskiego 04
 
+1492	2	192128	09:40:00	09:40:00		Bardowskiego 01
+
 1492	2	196285	09:40:00	09:40:00		Bardowskiego 01
+
+1492	2	192128	09:42:00	09:42:00		Pl. Wolności 04
+
 1492	2	196285	09:42:00	09:42:00		Pl. Wolności 04
+
+1492	2	192128	09:45:00	09:45:00		Piłsudskiego U. Marszałkowski 08
+
 1492	2	196285	09:45:00	09:45:00		Piłsudskiego U. Marszałkowski 08
+
+1492	2	192128	09:47:00	09:47:00		Krakowska Jedn. Wojskowa 02
+
 1492	2	196285	09:47:00	09:47:00		Krakowska Jedn. Wojskowa 02
+
+1492	2	192128	09:48:00	09:48:00		Krakowska szpital 04
+
 1492	2	196285	09:48:00	09:48:00		Krakowska szpital 04
+
+1492	2	192128	09:49:00	09:49:00		Krakowska galeria 06
+
 1492	2	196285	09:49:00	09:49:00		Krakowska galeria 06
+
+1492	2	192128	09:50:00	09:50:00		Krakowska / Wyzwolenia 08 nż
+
 1492	2	196285	09:50:00	09:50:00		Krakowska / Wyzwolenia 08 nż
+
+1492	2	192128	09:52:00	09:52:00		Krakowska cmentarz 10 nż
+
 1492	2	196285	09:52:00	09:52:00		Krakowska cmentarz 10 nż
+
+1492	2	192128	09:54:00	09:54:00		Krakowska / Ceramiczna 12
+
 1492	2	196285	09:54:00	09:54:00		Krakowska / Ceramiczna 12
+
+1492	2	192128	09:55:00	09:55:00		Krakowska Dworzysko 16 nż
+
 1492	2	196285	09:55:00	09:55:00		Krakowska Dworzysko 16 nż
+
+1492	2	192128	09:57:00	09:57:00		Krakowska granica 18 nż
+
 1492	2	196285	09:57:00	09:57:00		Krakowska granica 18 nż
+
+1492	2	192128	09:58:00	09:58:00		Świlcza Nowy Dwór 71 nż
+
 1492	2	196285	09:58:00	09:58:00		Świlcza Nowy Dwór 71 nż
+
+1492	2	192128	10:00:00	10:00:00		Świlcza osiedle 73 nż
+
 1492	2	196285	10:00:00	10:00:00		Świlcza osiedle 73 nż
+
+1492	2	192128	10:01:00	10:01:00		Świlcza 06 nż
+
 1492	2	196285	10:01:00	10:01:00		Świlcza 06 nż
+
+1492	2	192128	10:02:00	10:02:00		Świlcza sklep 04 nż
+
 1492	2	196285	10:02:00	10:02:00		Świlcza sklep 04 nż
+
+1492	2	192128	10:03:00	10:03:00		Świlcza PKP 02 nż
+
 1492	2	196285	10:03:00	10:03:00		Świlcza PKP 02 nż
+
+1492	2	192128	10:04:00	10:04:00		Kamyszyn I 01 nż
+
 1492	2	196285	10:04:00	10:04:00		Kamyszyn I 01 nż
+
+1492	2	192128	10:05:00	10:05:00		Kamyszyn pętla 03 nż
+
 1492	2	196285	10:05:00	10:05:00		Kamyszyn pętla 03 nż
+
+1492	2	192128	10:07:00	10:07:00		Mrowla Otoka pętla 01
+
 1492	2	196285	10:07:00	10:07:00		Mrowla Otoka pętla 01
 
+1482	2	192129	10:22:00	10:22:00		Mrowla Otoka pętla 01
+
 1482	2	196176	10:22:00	10:22:00		Mrowla Otoka pętla 01
+
+1482	2	192129	10:24:00	10:24:00		Kamyszyn pętla 04 nż
+
 1482	2	196176	10:24:00	10:24:00		Kamyszyn pętla 04 nż
+
+1482	2	192129	10:25:00	10:25:00		Kamyszyn II 02 nż
+
 1482	2	196176	10:25:00	10:25:00		Kamyszyn II 02 nż
+
+1482	2	192129	10:26:00	10:26:00		Świlcza PKP 01 nż
+
 1482	2	196176	10:26:00	10:26:00		Świlcza PKP 01 nż
+
+1482	2	192129	10:27:00	10:27:00		Świlcza sklep 03 nż
+
 1482	2	196176	10:27:00	10:27:00		Świlcza sklep 03 nż
+
+1482	2	192129	10:28:00	10:28:00		Świlcza 05
+
 1482	2	196176	10:28:00	10:28:00		Świlcza 05
+
+1482	2	192129	10:30:00	10:30:00		Świlcza osiedle 60 nż
+
 1482	2	196176	10:30:00	10:30:00		Świlcza osiedle 60 nż
+
+1482	2	192129	10:33:00	10:33:00		Świlcza Nowy Dwór 62 nż
+
 1482	2	196176	10:33:00	10:33:00		Świlcza Nowy Dwór 62 nż
+
+1482	2	192129	10:34:00	10:34:00		Krakowska granica 15 nż
+
 1482	2	196176	10:34:00	10:34:00		Krakowska granica 15 nż
+
+1482	2	192129	10:35:00	10:35:00		Krakowska Dworzysko 13 nż
+
 1482	2	196176	10:35:00	10:35:00		Krakowska Dworzysko 13 nż
+
+1482	2	192129	10:37:00	10:37:00		Krakowska / Ustrzycka 11
+
 1482	2	196176	10:37:00	10:37:00		Krakowska / Ustrzycka 11
+
+1482	2	192129	10:38:00	10:38:00		Krakowska cmentarz 09 nż
+
 1482	2	196176	10:38:00	10:38:00		Krakowska cmentarz 09 nż
+
+1482	2	192129	10:40:00	10:40:00		Krakowska / Mielecka 07 nż
+
 1482	2	196176	10:40:00	10:40:00		Krakowska / Mielecka 07 nż
+
+1482	2	192129	10:41:00	10:41:00		Krakowska galeria 05
+
 1482	2	196176	10:41:00	10:41:00		Krakowska galeria 05
+
+1482	2	192129	10:42:00	10:42:00		Krakowska szpital 03
+
 1482	2	196176	10:42:00	10:42:00		Krakowska szpital 03
+
+1482	2	192129	10:44:00	10:44:00		Krakowska Jedn. Wojskowa 01
+
 1482	2	196176	10:44:00	10:44:00		Krakowska Jedn. Wojskowa 01
+
+1482	2	192129	10:47:00	10:47:00		Piłsudskiego U. Wojewódzki 03
+
 1482	2	196176	10:47:00	10:47:00		Piłsudskiego U. Wojewódzki 03
+
+1482	2	192129	10:50:00	10:50:00		Bardowskiego 04
+
 1482	2	196176	10:50:00	10:50:00		Bardowskiego 04
 
+1753	2	192032	15:30:00	15:30:00		Bardowskiego 01
+
 912	2	196264	15:30:00	15:30:00		Bardowskiego 01
+
+1753	2	192032	15:33:00	15:33:00		Pl. Wolności 04
+
 912	2	196264	15:33:00	15:33:00		Pl. Wolności 04
+
+1753	2	192032	15:36:00	15:36:00		Piłsudskiego U. Wojewódzki 06
+
 912	2	196264	15:36:00	15:36:00		Piłsudskiego U. Wojewódzki 06
+
+1753	2	192032	15:40:00	15:40:00		Marszałkowska 02
+
 912	2	196264	15:40:00	15:40:00		Marszałkowska 02
+
+1753	2	192032	15:41:00	15:41:00		Lubelska szpital 02
+
 912	2	196264	15:41:00	15:41:00		Lubelska szpital 02
+
+1753	2	192032	15:43:00	15:43:00		Lubelska kościół 06 nż
+
 912	2	196264	15:43:00	15:43:00		Lubelska kościół 06 nż
+
+1753	2	192032	15:45:00	15:45:00		Lubelska / Borowa 08 nż
+
 912	2	196264	15:45:00	15:45:00		Lubelska / Borowa 08 nż
+
+1753	2	192032	15:47:00	15:47:00		Rzecha / Lubelska 05 nż
+
 912	2	196264	15:47:00	15:47:00		Rzecha / Lubelska 05 nż
+
+1753	2	192032	15:49:00	15:49:00		Ciepłownicza / Rzecha 99 nż
+1753	2	192032	15:50:00	15:50:00		Ciepłownicza działki II 97 nż
+
 912	2	196264	15:50:00	15:50:00		Rzecha / Ciepłownicza 03 nż
+
+1753	2	192032	15:51:00	15:51:00		Ciepłownicza działki I 96 nż
+1753	2	192032	15:52:00	15:52:00		Ciepłownicza działki II 98 nż
+1753	2	192032	15:53:00	15:53:00		Rzecha / Ciepłownicza 03 nż
+
 912	2	196264	15:54:00	15:54:00		Załęska / Rzecha 03 nż
 912	2	196264	15:55:00	15:55:00		Księżycowa / Załęska 02 nż
 912	2	196264	15:56:00	15:56:00		Stączka kościół 02 nż
+
+1753	2	192032	15:57:00	15:57:00		Załęska / Rzecha 03 nż
+
 912	2	196264	15:57:00	15:57:00		Stączka / Jaspisowa 04 nż
+
+1753	2	192032	15:58:00	15:58:00		Księżycowa / Załęska 02 nż
+
 912	2	196264	15:58:00	15:58:00		Potockiego / Stączka 02 nż
+
+1753	2	192032	15:59:00	15:59:00		Stączka kościół 02 nż
+
 912	2	196264	15:59:00	15:59:00		Potockiego / Nefrytowa 04 nż
+
+1753	2	192032	16:00:00	16:00:00		Stączka / Jaspisowa 04 nż
+
 912	2	196264	16:00:00	16:00:00		Potockiego / Ametystowa 06 nż
+
+1753	2	192032	16:01:00	16:01:00		Potockiego / Stączka 02 nż
+
 912	2	196264	16:01:00	16:01:00		Potockiego Dom Seniora 08 nż
+
+1753	2	192032	16:02:00	16:02:00		Potockiego / Nefrytowa 04 nż
+1753	2	192032	16:03:00	16:03:00		Potockiego / Ametystowa 06 nż
+1753	2	192032	16:04:00	16:04:00		Potockiego Dom Seniora 08 nż
+
 912	2	196264	16:04:00	16:04:00		Potockiego pętla 10
 
+1753	2	192032	16:07:00	16:07:00		Potockiego pętla 10
+
+1752	2	192016	16:31:00	16:31:00		Potockiego pętla 10
+
 893	2	196208	16:31:00	16:31:00		Potockiego pętla 10
+
+1752	2	192016	16:32:00	16:32:00		Potockiego Dom Seniora 05 nż
+
 893	2	196208	16:32:00	16:32:00		Potockiego Dom Seniora 05 nż
+
+1752	2	192016	16:33:00	16:33:00		Potockiego / Ametystowa 03 nż
+
 893	2	196208	16:33:00	16:33:00		Potockiego / Ametystowa 03 nż
+
+1752	2	192016	16:34:00	16:34:00		Potockiego / Nefrytowa 01 nż
+
 893	2	196208	16:34:00	16:34:00		Potockiego / Nefrytowa 01 nż
+
+1752	2	192016	16:35:00	16:35:00		Stączka / Potockiego 03 nż
+
 893	2	196208	16:35:00	16:35:00		Stączka / Potockiego 03 nż
+
+1752	2	192016	16:36:00	16:36:00		Stączka kościół 01 nż
+
 893	2	196208	16:36:00	16:36:00		Stączka kościół 01 nż
+
+1752	2	192016	16:37:00	16:37:00		Księżycowa / Załęska 01 nż
+
 893	2	196208	16:37:00	16:37:00		Księżycowa / Załęska 01 nż
+
+1752	2	192016	16:40:00	16:40:00		Rzecha / Spółdzielcza 04 nż
+
 893	2	196208	16:40:00	16:40:00		Rzecha / Spółdzielcza 04 nż
 893	2	196208	16:41:00	16:41:00		Rzecha / Ciepłownicza 06 nż
+
+1752	2	192016	16:42:00	16:42:00		Ciepłownicza / Rzecha 99 nż
+
 893	2	196208	16:42:00	16:42:00		Rzecha / Lubelska 08 nż
+
+1752	2	192016	16:43:00	16:43:00		Ciepłownicza działki II 97 nż
+1752	2	192016	16:44:00	16:44:00		Ciepłownicza działki I 96 nż
+
 893	2	196208	16:44:00	16:44:00		Lubelska / Borowa 07 nż
+
+1752	2	192016	16:45:00	16:45:00		Ciepłownicza działki II 98 nż
+1752	2	192016	16:46:00	16:46:00		Rzecha / Ciepłownicza 06 nż
+
 893	2	196208	16:46:00	16:46:00		Lubelska kościół 05 nż
+
+1752	2	192016	16:47:00	16:47:00		Rzecha / Lubelska 08 nż
+
 893	2	196208	16:47:00	16:47:00		Lubelska szpital 01
+
+1752	2	192016	16:49:00	16:49:00		Lubelska / Borowa 07 nż
+
 893	2	196208	16:49:00	16:49:00		Marszałkowska 01
+
+1752	2	192016	16:51:00	16:51:00		Lubelska kościół 05 nż
+1752	2	192016	16:52:00	16:52:00		Lubelska szpital 01
+
 893	2	196208	16:53:00	16:53:00		Piłsudskiego U. Wojewódzki 03
+
+1752	2	192016	16:54:00	16:54:00		Marszałkowska 01
+
 893	2	196208	16:56:00	16:56:00		Bardowskiego 04
 
+1752	2	192016	16:58:00	16:58:00		Piłsudskiego U. Wojewódzki 03
+1752	2	192016	17:01:00	17:01:00		Bardowskiego 04
+
+1476	2	192132	17:20:00	17:20:00		Bardowskiego 01
+
 1476	2	196371	17:20:00	17:20:00		Bardowskiego 01
+
+1476	2	192132	17:22:00	17:22:00		Pl. Wolności 04
+
 1476	2	196371	17:22:00	17:22:00		Pl. Wolności 04
+
+1476	2	192132	17:25:00	17:25:00		Piłsudskiego U. Marszałkowski 08
+
 1476	2	196371	17:25:00	17:25:00		Piłsudskiego U. Marszałkowski 08
+
+1476	2	192132	17:27:00	17:27:00		Krakowska Jedn. Wojskowa 02
+
 1476	2	196371	17:27:00	17:27:00		Krakowska Jedn. Wojskowa 02
+
+1476	2	192132	17:29:00	17:29:00		Krakowska szpital 04
+
 1476	2	196371	17:29:00	17:29:00		Krakowska szpital 04
+
+1476	2	192132	17:30:00	17:30:00		Krakowska galeria 06
+
 1476	2	196371	17:30:00	17:30:00		Krakowska galeria 06
+
+1476	2	192132	17:31:00	17:31:00		Krakowska / Wyzwolenia 08 nż
+
 1476	2	196371	17:31:00	17:31:00		Krakowska / Wyzwolenia 08 nż
+
+1476	2	192132	17:33:00	17:33:00		Krakowska cmentarz 10 nż
+
 1476	2	196371	17:33:00	17:33:00		Krakowska cmentarz 10 nż
+
+1476	2	192132	17:35:00	17:35:00		Krakowska / Ceramiczna 12
+
 1476	2	196371	17:35:00	17:35:00		Krakowska / Ceramiczna 12
+
+1476	2	192132	17:36:00	17:36:00		Krakowska Dworzysko 16 nż
+
 1476	2	196371	17:36:00	17:36:00		Krakowska Dworzysko 16 nż
+
+1476	2	192132	17:38:00	17:38:00		Krakowska granica 18 nż
+
 1476	2	196371	17:38:00	17:38:00		Krakowska granica 18 nż
+
+1476	2	192132	17:39:00	17:39:00		Świlcza Nowy Dwór 71 nż
+
 1476	2	196371	17:39:00	17:39:00		Świlcza Nowy Dwór 71 nż
+
+1476	2	192132	17:41:00	17:41:00		Świlcza osiedle 73 nż
+
 1476	2	196371	17:41:00	17:41:00		Świlcza osiedle 73 nż
+
+1476	2	192132	17:42:00	17:42:00		Świlcza 75 nż
+
 1476	2	196371	17:42:00	17:42:00		Świlcza 75 nż
+
+1476	2	192132	17:45:00	17:45:00		Trzciana Woliczka 77 nż
+
 1476	2	196371	17:45:00	17:45:00		Trzciana Woliczka 77 nż
+
+1476	2	192132	17:48:00	17:48:00		Trzciana Gminny Ośrodek Kultury 01 nż
+
 1476	2	196371	17:48:00	17:48:00		Trzciana Gminny Ośrodek Kultury 01 nż
+
+1476	2	192132	17:49:00	17:49:00		Trzciana sklep 03 nż
+
 1476	2	196371	17:49:00	17:49:00		Trzciana sklep 03 nż
+
+1476	2	192132	17:51:00	17:51:00		Trzciana pętla 05
+
 1476	2	196371	17:51:00	17:51:00		Trzciana pętla 05
 
+1480	2	192133	18:04:00	18:04:00		Trzciana pętla 05
+
 1480	2	196236	18:04:00	18:04:00		Trzciana pętla 05
+
+1480	2	192133	18:05:00	18:05:00		Trzciana sklep 02 nż
+
 1480	2	196236	18:05:00	18:05:00		Trzciana sklep 02 nż
+
+1480	2	192133	18:07:00	18:07:00		Trzciana Gminny Ośrodek Kultury 02 nż
+
 1480	2	196236	18:07:00	18:07:00		Trzciana Gminny Ośrodek Kultury 02 nż
+
+1480	2	192133	18:09:00	18:09:00		Trzciana Woliczka 56 nż
+
 1480	2	196236	18:09:00	18:09:00		Trzciana Woliczka 56 nż
+
+1480	2	192133	18:12:00	18:12:00		Świlcza 58
+
 1480	2	196236	18:12:00	18:12:00		Świlcza 58
+
+1480	2	192133	18:14:00	18:14:00		Świlcza osiedle 60 nż
+
 1480	2	196236	18:14:00	18:14:00		Świlcza osiedle 60 nż
+
+1480	2	192133	18:17:00	18:17:00		Świlcza Nowy Dwór 62 nż
+
 1480	2	196236	18:17:00	18:17:00		Świlcza Nowy Dwór 62 nż
+
+1480	2	192133	18:18:00	18:18:00		Krakowska granica 15 nż
+
 1480	2	196236	18:18:00	18:18:00		Krakowska granica 15 nż
+
+1480	2	192133	18:19:00	18:19:00		Krakowska Dworzysko 13 nż
+
 1480	2	196236	18:19:00	18:19:00		Krakowska Dworzysko 13 nż
+
+1480	2	192133	18:21:00	18:21:00		Krakowska / Ustrzycka 11
+
 1480	2	196236	18:21:00	18:21:00		Krakowska / Ustrzycka 11
+
+1480	2	192133	18:22:00	18:22:00		Krakowska cmentarz 09 nż
+
 1480	2	196236	18:22:00	18:22:00		Krakowska cmentarz 09 nż
+
+1480	2	192133	18:24:00	18:24:00		Krakowska / Mielecka 07 nż
+
 1480	2	196236	18:24:00	18:24:00		Krakowska / Mielecka 07 nż
+
+1480	2	192133	18:25:00	18:25:00		Krakowska galeria 05
+
 1480	2	196236	18:25:00	18:25:00		Krakowska galeria 05
+
+1480	2	192133	18:26:00	18:26:00		Krakowska szpital 03
+
 1480	2	196236	18:26:00	18:26:00		Krakowska szpital 03
+
+1480	2	192133	18:28:00	18:28:00		Krakowska Jedn. Wojskowa 01
+
 1480	2	196236	18:28:00	18:28:00		Krakowska Jedn. Wojskowa 01
+
+1480	2	192133	18:31:00	18:31:00		Piłsudskiego U. Wojewódzki 03
+
 1480	2	196236	18:31:00	18:31:00		Piłsudskiego U. Wojewódzki 03
+
+1480	2	192133	18:34:00	18:34:00		Bardowskiego 04
+
 1480	2	196236	18:34:00	18:34:00		Bardowskiego 04
 
+1492	2	192134	18:40:00	18:40:00		Bardowskiego 01
+
 1492	2	196230	18:40:00	18:40:00		Bardowskiego 01
+
+1492	2	192134	18:42:00	18:42:00		Pl. Wolności 04
+
 1492	2	196230	18:42:00	18:42:00		Pl. Wolności 04
+
+1492	2	192134	18:45:00	18:45:00		Piłsudskiego U. Marszałkowski 08
+
 1492	2	196230	18:45:00	18:45:00		Piłsudskiego U. Marszałkowski 08
+
+1492	2	192134	18:47:00	18:47:00		Krakowska Jedn. Wojskowa 02
+
 1492	2	196230	18:47:00	18:47:00		Krakowska Jedn. Wojskowa 02
+
+1492	2	192134	18:49:00	18:49:00		Krakowska szpital 04
+
 1492	2	196230	18:49:00	18:49:00		Krakowska szpital 04
+
+1492	2	192134	18:50:00	18:50:00		Krakowska galeria 06
+
 1492	2	196230	18:50:00	18:50:00		Krakowska galeria 06
+
+1492	2	192134	18:51:00	18:51:00		Krakowska / Wyzwolenia 08 nż
+
 1492	2	196230	18:51:00	18:51:00		Krakowska / Wyzwolenia 08 nż
+
+1492	2	192134	18:53:00	18:53:00		Krakowska cmentarz 10 nż
+
 1492	2	196230	18:53:00	18:53:00		Krakowska cmentarz 10 nż
+
+1492	2	192134	18:55:00	18:55:00		Krakowska / Ceramiczna 12
+
 1492	2	196230	18:55:00	18:55:00		Krakowska / Ceramiczna 12
+
+1492	2	192134	18:56:00	18:56:00		Krakowska Dworzysko 16 nż
+
 1492	2	196230	18:56:00	18:56:00		Krakowska Dworzysko 16 nż
+
+1492	2	192134	18:58:00	18:58:00		Krakowska granica 18 nż
+
 1492	2	196230	18:58:00	18:58:00		Krakowska granica 18 nż
+
+1492	2	192134	18:59:00	18:59:00		Świlcza Nowy Dwór 71 nż
+
 1492	2	196230	18:59:00	18:59:00		Świlcza Nowy Dwór 71 nż
+
+1492	2	192134	19:01:00	19:01:00		Świlcza osiedle 73 nż
+
 1492	2	196230	19:01:00	19:01:00		Świlcza osiedle 73 nż
+
+1492	2	192134	19:02:00	19:02:00		Świlcza 06 nż
+
 1492	2	196230	19:02:00	19:02:00		Świlcza 06 nż
+
+1492	2	192134	19:03:00	19:03:00		Świlcza sklep 04 nż
+
 1492	2	196230	19:03:00	19:03:00		Świlcza sklep 04 nż
+
+1492	2	192134	19:04:00	19:04:00		Świlcza PKP 02 nż
+
 1492	2	196230	19:04:00	19:04:00		Świlcza PKP 02 nż
+
+1492	2	192134	19:05:00	19:05:00		Kamyszyn I 01 nż
+
 1492	2	196230	19:05:00	19:05:00		Kamyszyn I 01 nż
+
+1492	2	192134	19:06:00	19:06:00		Kamyszyn pętla 03 nż
+
 1492	2	196230	19:06:00	19:06:00		Kamyszyn pętla 03 nż
+
+1492	2	192134	19:08:00	19:08:00		Mrowla Otoka pętla 01
+
 1492	2	196230	19:08:00	19:08:00		Mrowla Otoka pętla 01
 
+1482	2	192135	19:22:00	19:22:00		Mrowla Otoka pętla 01
+
 1482	2	196252	19:22:00	19:22:00		Mrowla Otoka pętla 01
+
+1482	2	192135	19:24:00	19:24:00		Kamyszyn pętla 04 nż
+
 1482	2	196252	19:24:00	19:24:00		Kamyszyn pętla 04 nż
+
+1482	2	192135	19:25:00	19:25:00		Kamyszyn II 02 nż
+
 1482	2	196252	19:25:00	19:25:00		Kamyszyn II 02 nż
+
+1482	2	192135	19:26:00	19:26:00		Świlcza PKP 01 nż
+
 1482	2	196252	19:26:00	19:26:00		Świlcza PKP 01 nż
+
+1482	2	192135	19:27:00	19:27:00		Świlcza sklep 03 nż
+
 1482	2	196252	19:27:00	19:27:00		Świlcza sklep 03 nż
+
+1482	2	192135	19:28:00	19:28:00		Świlcza 05
+
 1482	2	196252	19:28:00	19:28:00		Świlcza 05
+
+1482	2	192135	19:30:00	19:30:00		Świlcza osiedle 60 nż
+
 1482	2	196252	19:30:00	19:30:00		Świlcza osiedle 60 nż
+
+1482	2	192135	19:32:00	19:32:00		Świlcza Nowy Dwór 62 nż
+
 1482	2	196252	19:32:00	19:32:00		Świlcza Nowy Dwór 62 nż
+
+1482	2	192135	19:33:00	19:33:00		Krakowska granica 15 nż
+
 1482	2	196252	19:33:00	19:33:00		Krakowska granica 15 nż
+
+1482	2	192135	19:34:00	19:34:00		Krakowska Dworzysko 13 nż
+
 1482	2	196252	19:34:00	19:34:00		Krakowska Dworzysko 13 nż
+
+1482	2	192135	19:36:00	19:36:00		Krakowska / Ustrzycka 11
+
 1482	2	196252	19:36:00	19:36:00		Krakowska / Ustrzycka 11
+
+1482	2	192135	19:37:00	19:37:00		Krakowska cmentarz 09 nż
+
 1482	2	196252	19:37:00	19:37:00		Krakowska cmentarz 09 nż
+
+1482	2	192135	19:39:00	19:39:00		Krakowska / Mielecka 07 nż
+
 1482	2	196252	19:39:00	19:39:00		Krakowska / Mielecka 07 nż
+
+1482	2	192135	19:40:00	19:40:00		Krakowska galeria 05
+
 1482	2	196252	19:40:00	19:40:00		Krakowska galeria 05
+
+1482	2	192135	19:41:00	19:41:00		Krakowska szpital 03
+
 1482	2	196252	19:41:00	19:41:00		Krakowska szpital 03
+
+1482	2	192135	19:43:00	19:43:00		Krakowska Jedn. Wojskowa 01
+
 1482	2	196252	19:43:00	19:43:00		Krakowska Jedn. Wojskowa 01
+
+1482	2	192135	19:45:00	19:45:00		Piłsudskiego U. Wojewódzki 03
+
 1482	2	196252	19:45:00	19:45:00		Piłsudskiego U. Wojewódzki 03
+
+1482	2	192135	19:48:00	19:48:00		Bardowskiego 04
+
 1482	2	196252	19:48:00	19:48:00		Bardowskiego 04
 
+1476	2	192136	20:00:00	20:00:00		Bardowskiego 01
+
 1476	2	196382	20:00:00	20:00:00		Bardowskiego 01
+
+1476	2	192136	20:02:00	20:02:00		Pl. Wolności 04
+
 1476	2	196382	20:02:00	20:02:00		Pl. Wolności 04
+
+1476	2	192136	20:04:00	20:04:00		Piłsudskiego U. Marszałkowski 08
+
 1476	2	196382	20:04:00	20:04:00		Piłsudskiego U. Marszałkowski 08
+
+1476	2	192136	20:06:00	20:06:00		Krakowska Jedn. Wojskowa 02
+
 1476	2	196382	20:06:00	20:06:00		Krakowska Jedn. Wojskowa 02
+
+1476	2	192136	20:07:00	20:07:00		Krakowska szpital 04
+
 1476	2	196382	20:07:00	20:07:00		Krakowska szpital 04
+
+1476	2	192136	20:08:00	20:08:00		Krakowska galeria 06
+
 1476	2	196382	20:08:00	20:08:00		Krakowska galeria 06
+
+1476	2	192136	20:09:00	20:09:00		Krakowska / Wyzwolenia 08 nż
+
 1476	2	196382	20:09:00	20:09:00		Krakowska / Wyzwolenia 08 nż
+
+1476	2	192136	20:10:00	20:10:00		Krakowska cmentarz 10 nż
+
 1476	2	196382	20:10:00	20:10:00		Krakowska cmentarz 10 nż
+
+1476	2	192136	20:12:00	20:12:00		Krakowska / Ceramiczna 12
+
 1476	2	196382	20:12:00	20:12:00		Krakowska / Ceramiczna 12
+
+1476	2	192136	20:13:00	20:13:00		Krakowska Dworzysko 16 nż
+
 1476	2	196382	20:13:00	20:13:00		Krakowska Dworzysko 16 nż
+
+1476	2	192136	20:15:00	20:15:00		Krakowska granica 18 nż
+
 1476	2	196382	20:15:00	20:15:00		Krakowska granica 18 nż
+
+1476	2	192136	20:16:00	20:16:00		Świlcza Nowy Dwór 71 nż
+
 1476	2	196382	20:16:00	20:16:00		Świlcza Nowy Dwór 71 nż
+
+1476	2	192136	20:18:00	20:18:00		Świlcza osiedle 73 nż
+
 1476	2	196382	20:18:00	20:18:00		Świlcza osiedle 73 nż
+
+1476	2	192136	20:19:00	20:19:00		Świlcza 75 nż
+
 1476	2	196382	20:19:00	20:19:00		Świlcza 75 nż
+
+1476	2	192136	20:22:00	20:22:00		Trzciana Woliczka 77 nż
+
 1476	2	196382	20:22:00	20:22:00		Trzciana Woliczka 77 nż
+
+1476	2	192136	20:25:00	20:25:00		Trzciana Gminny Ośrodek Kultury 01 nż
+
 1476	2	196382	20:25:00	20:25:00		Trzciana Gminny Ośrodek Kultury 01 nż
+
+1476	2	192136	20:26:00	20:26:00		Trzciana sklep 03 nż
+
 1476	2	196382	20:26:00	20:26:00		Trzciana sklep 03 nż
+
+1476	2	192136	20:28:00	20:28:00		Trzciana pętla 05
+
 1476	2	196382	20:28:00	20:28:00		Trzciana pętla 05
 
+1480	2	192137	20:32:00	20:32:00		Trzciana pętla 05
+
 1480	2	196284	20:32:00	20:32:00		Trzciana pętla 05
+
+1480	2	192137	20:33:00	20:33:00		Trzciana sklep 02 nż
+
 1480	2	196284	20:33:00	20:33:00		Trzciana sklep 02 nż
+
+1480	2	192137	20:35:00	20:35:00		Trzciana Gminny Ośrodek Kultury 02 nż
+
 1480	2	196284	20:35:00	20:35:00		Trzciana Gminny Ośrodek Kultury 02 nż
+
+1480	2	192137	20:37:00	20:37:00		Trzciana Woliczka 56 nż
+
 1480	2	196284	20:37:00	20:37:00		Trzciana Woliczka 56 nż
+
+1480	2	192137	20:40:00	20:40:00		Świlcza 58
+
 1480	2	196284	20:40:00	20:40:00		Świlcza 58
+
+1480	2	192137	20:42:00	20:42:00		Świlcza osiedle 60 nż
+
 1480	2	196284	20:42:00	20:42:00		Świlcza osiedle 60 nż
+
+1480	2	192137	20:44:00	20:44:00		Świlcza Nowy Dwór 62 nż
+
 1480	2	196284	20:44:00	20:44:00		Świlcza Nowy Dwór 62 nż
+
+1480	2	192137	20:45:00	20:45:00		Krakowska granica 15 nż
+
 1480	2	196284	20:45:00	20:45:00		Krakowska granica 15 nż
+
+1480	2	192137	20:46:00	20:46:00		Krakowska Dworzysko 13 nż
+
 1480	2	196284	20:46:00	20:46:00		Krakowska Dworzysko 13 nż
+
+1480	2	192137	20:48:00	20:48:00		Krakowska / Ustrzycka 11
+
 1480	2	196284	20:48:00	20:48:00		Krakowska / Ustrzycka 11
+
+1480	2	192137	20:49:00	20:49:00		Krakowska cmentarz 09 nż
+
 1480	2	196284	20:49:00	20:49:00		Krakowska cmentarz 09 nż
+
+1480	2	192137	20:51:00	20:51:00		Krakowska / Mielecka 07 nż
+
 1480	2	196284	20:51:00	20:51:00		Krakowska / Mielecka 07 nż
+
+1480	2	192137	20:52:00	20:52:00		Krakowska galeria 05
+
 1480	2	196284	20:52:00	20:52:00		Krakowska galeria 05
+
+1480	2	192137	20:53:00	20:53:00		Krakowska szpital 03
+
 1480	2	196284	20:53:00	20:53:00		Krakowska szpital 03
+
+1480	2	192137	20:55:00	20:55:00		Krakowska Jedn. Wojskowa 01
+
 1480	2	196284	20:55:00	20:55:00		Krakowska Jedn. Wojskowa 01
+
+1480	2	192137	20:57:00	20:57:00		Piłsudskiego U. Wojewódzki 03
+
 1480	2	196284	20:57:00	20:57:00		Piłsudskiego U. Wojewódzki 03
+
+1480	2	192137	21:00:00	21:00:00		Bardowskiego 04
+
 1480	2	196284	21:00:00	21:00:00		Bardowskiego 04
 
+1478	2	192138	21:30:00	21:30:00		Bardowskiego 01
+
 1478	2	196304	21:30:00	21:30:00		Bardowskiego 01
+
+1478	2	192138	21:32:00	21:32:00		Pl. Wolności 04
+
 1478	2	196304	21:32:00	21:32:00		Pl. Wolności 04
+
+1478	2	192138	21:34:00	21:34:00		Piłsudskiego U. Marszałkowski 08
+
 1478	2	196304	21:34:00	21:34:00		Piłsudskiego U. Marszałkowski 08
+
+1478	2	192138	21:36:00	21:36:00		Krakowska Jedn. Wojskowa 02
+
 1478	2	196304	21:36:00	21:36:00		Krakowska Jedn. Wojskowa 02
+
+1478	2	192138	21:37:00	21:37:00		Krakowska szpital 04
+
 1478	2	196304	21:37:00	21:37:00		Krakowska szpital 04
+
+1478	2	192138	21:38:00	21:38:00		Krakowska galeria 06
+
 1478	2	196304	21:38:00	21:38:00		Krakowska galeria 06
+
+1478	2	192138	21:39:00	21:39:00		Krakowska / Wyzwolenia 08 nż
+
 1478	2	196304	21:39:00	21:39:00		Krakowska / Wyzwolenia 08 nż
+
+1478	2	192138	21:40:00	21:40:00		Krakowska cmentarz 10 nż
+
 1478	2	196304	21:40:00	21:40:00		Krakowska cmentarz 10 nż
+
+1478	2	192138	21:42:00	21:42:00		Krakowska / Ceramiczna 12
+
 1478	2	196304	21:42:00	21:42:00		Krakowska / Ceramiczna 12
+
+1478	2	192138	21:43:00	21:43:00		Krakowska Dworzysko 16 nż
+
 1478	2	196304	21:43:00	21:43:00		Krakowska Dworzysko 16 nż
+
+1478	2	192138	21:45:00	21:45:00		Krakowska granica 18 nż
+
 1478	2	196304	21:45:00	21:45:00		Krakowska granica 18 nż
+
+1478	2	192138	21:46:00	21:46:00		Świlcza Nowy Dwór 71 nż
+
 1478	2	196304	21:46:00	21:46:00		Świlcza Nowy Dwór 71 nż
+
+1478	2	192138	21:48:00	21:48:00		Świlcza osiedle 73 nż
+
 1478	2	196304	21:48:00	21:48:00		Świlcza osiedle 73 nż
+
+1478	2	192138	21:49:00	21:49:00		Świlcza 58
+
 1478	2	196304	21:49:00	21:49:00		Świlcza 58
 
+1471	2	192139	22:00:00	22:00:00		Świlcza 58
+
 1471	2	196218	22:00:00	22:00:00		Świlcza 58
+
+1471	2	192139	22:02:00	22:02:00		Świlcza osiedle 60 nż
+
 1471	2	196218	22:02:00	22:02:00		Świlcza osiedle 60 nż
+
+1471	2	192139	22:04:00	22:04:00		Świlcza Nowy Dwór 62 nż
+
 1471	2	196218	22:04:00	22:04:00		Świlcza Nowy Dwór 62 nż
+
+1471	2	192139	22:05:00	22:05:00		Krakowska granica 15 nż
+
 1471	2	196218	22:05:00	22:05:00		Krakowska granica 15 nż
+
+1471	2	192139	22:06:00	22:06:00		Krakowska Dworzysko 13 nż
+
 1471	2	196218	22:06:00	22:06:00		Krakowska Dworzysko 13 nż
+
+1471	2	192139	22:08:00	22:08:00		Krakowska / Ustrzycka 11
+
 1471	2	196218	22:08:00	22:08:00		Krakowska / Ustrzycka 11
+
+1471	2	192139	22:09:00	22:09:00		Krakowska cmentarz 09 nż
+
 1471	2	196218	22:09:00	22:09:00		Krakowska cmentarz 09 nż
+
+1471	2	192139	22:11:00	22:11:00		Krakowska / Mielecka 07 nż
+
 1471	2	196218	22:11:00	22:11:00		Krakowska / Mielecka 07 nż
+
+1471	2	192139	22:12:00	22:12:00		Krakowska galeria 05
+
 1471	2	196218	22:12:00	22:12:00		Krakowska galeria 05
+
+1471	2	192139	22:13:00	22:13:00		Krakowska szpital 03
+
 1471	2	196218	22:13:00	22:13:00		Krakowska szpital 03
+
+1471	2	192139	22:14:00	22:14:00		Krakowska Jedn. Wojskowa 01
+
 1471	2	196218	22:14:00	22:14:00		Krakowska Jedn. Wojskowa 01
+
+1471	2	192139	22:16:00	22:16:00		Piłsudskiego U. Wojewódzki 03
+
 1471	2	196218	22:16:00	22:16:00		Piłsudskiego U. Wojewódzki 03
+
+1471	2	192139	22:19:00	22:19:00		Bardowskiego 04
+
 1471	2	196218	22:19:00	22:19:00		Bardowskiego 04
 
+1610	2	192140	22:30:00	22:30:00		Bardowskiego 03
+
 1610	2	196330	22:30:00	22:30:00		Bardowskiego 03
+
+1610	2	192140	22:31:00	22:31:00		Pl. Wolności 04
+
 1610	2	196330	22:31:00	22:31:00		Pl. Wolności 04
+
+1610	2	192140	22:32:00	22:32:00		Piłsudskiego U. Wojewódzki 06
+
 1610	2	196330	22:32:00	22:32:00		Piłsudskiego U. Wojewódzki 06
+
+1610	2	192140	22:34:00	22:34:00		Marszałkowska 02
+
 1610	2	196330	22:34:00	22:34:00		Marszałkowska 02
+
+1610	2	192140	22:35:00	22:35:00		Warszawska / Wyzwolenia 02 nż
+
 1610	2	196330	22:35:00	22:35:00		Warszawska / Wyzwolenia 02 nż
+
+1610	2	192140	22:36:00	22:36:00		Warszawska ZS. Samoch. 04 nż
+
 1610	2	196330	22:36:00	22:36:00		Warszawska ZS. Samoch. 04 nż
+
+1610	2	192140	22:37:00	22:37:00		Warszawska / Staromiejska 06 nż
+
 1610	2	196330	22:37:00	22:37:00		Warszawska / Staromiejska 06 nż
+
+1610	2	192140	22:39:00	22:39:00		Warszawska / Borowa 08 nż
+
 1610	2	196330	22:39:00	22:39:00		Warszawska / Borowa 08 nż
+
+1610	2	192140	22:40:00	22:40:00		Warszawska / Bażantowa 10 nż
+
 1610	2	196330	22:40:00	22:40:00		Warszawska / Bażantowa 10 nż
+
+1610	2	192140	22:42:00	22:42:00		Myśliwska / Św. Huberta 02 nż
+
 1610	2	196330	22:42:00	22:42:00		Myśliwska / Św. Huberta 02 nż
+
+1610	2	192140	22:43:00	22:43:00		Myśliwska / Pogwizdowska 04 nż
+
 1610	2	196330	22:43:00	22:43:00		Myśliwska / Pogwizdowska 04 nż
+
+1610	2	192140	22:44:00	22:44:00		Myśliwska / Kameliowa 06 nż
+
 1610	2	196330	22:44:00	22:44:00		Myśliwska / Kameliowa 06 nż
+
+1610	2	192140	22:45:00	22:45:00		Myśliwska / Oliwkowa 08 nż
+
 1610	2	196330	22:45:00	22:45:00		Myśliwska / Oliwkowa 08 nż
+
+1610	2	192140	22:46:00	22:46:00		Rudna Wielka Pehamet 23 nż
+
 1610	2	196330	22:46:00	22:46:00		Rudna Wielka Pehamet 23 nż
+
+1610	2	192140	22:47:00	22:47:00		Rudna Wielka kościół 21 nż
+
 1610	2	196330	22:47:00	22:47:00		Rudna Wielka kościół 21 nż
+
+1610	2	192140	22:49:00	22:49:00		Rudna Wielka I 01 nż
+
 1610	2	196330	22:49:00	22:49:00		Rudna Wielka I 01 nż
+
+1610	2	192140	22:50:00	22:50:00		Rudna Wielka zakręt 03 nż
+
 1610	2	196330	22:50:00	22:50:00		Rudna Wielka zakręt 03 nż
+
+1610	2	192140	22:53:00	22:53:00		Mrowla II 15 nż
+
 1610	2	196330	22:53:00	22:53:00		Mrowla II 15 nż
+
+1610	2	192140	22:55:00	22:55:00		Mrowla I 13 nż
+
 1610	2	196330	22:55:00	22:55:00		Mrowla I 13 nż
+
+1610	2	192140	22:57:00	22:57:00		Bratkowice Otoka 11 nż
+
 1610	2	196330	22:57:00	22:57:00		Bratkowice Otoka 11 nż
+
+1610	2	192140	22:59:00	22:59:00		Bratkowice Piaski 01 nż
+
 1610	2	196330	22:59:00	22:59:00		Bratkowice Piaski 01 nż
+
+1610	2	192140	23:01:00	23:01:00		Bratkowice Piaski I 03 nż
+
 1610	2	196330	23:01:00	23:01:00		Bratkowice Piaski I 03 nż
+
+1610	2	192140	23:02:00	23:02:00		Bratkowice Sitkówka 05 nż
+
 1610	2	196330	23:02:00	23:02:00		Bratkowice Sitkówka 05 nż
+
+1610	2	192140	23:03:00	23:03:00		Bratkowice Sitkówka II 07 nż
+
 1610	2	196330	23:03:00	23:03:00		Bratkowice Sitkówka II 07 nż
+
+1610	2	192140	23:04:00	23:04:00		Bratkowice szkoła 09 nż
+
 1610	2	196330	23:04:00	23:04:00		Bratkowice szkoła 09 nż
+
+1610	2	192140	23:06:00	23:06:00		Bratkowice Klepak 07 nż
+
 1610	2	196330	23:06:00	23:06:00		Bratkowice Klepak 07 nż
+
+1610	2	192140	23:08:00	23:08:00		Bratkowice Cieniaki 05 nż
+
 1610	2	196330	23:08:00	23:08:00		Bratkowice Cieniaki 05 nż
+
+1610	2	192140	23:10:00	23:10:00		Bratkowice Czekaj 03 nż
+
 1610	2	196330	23:10:00	23:10:00		Bratkowice Czekaj 03 nż
+
+1610	2	192140	23:12:00	23:12:00		Bratkowice Las 01
+
 1610	2	196330	23:12:00	23:12:00		Bratkowice Las 01
 
+1609	2	192141	23:21:00	23:21:00		Bratkowice Las 02
+
 1609	2	196168	23:21:00	23:21:00		Bratkowice Las 02
+
+1609	2	192141	23:23:00	23:23:00		Bratkowice Czekaj 04 nż
+
 1609	2	196168	23:23:00	23:23:00		Bratkowice Czekaj 04 nż
+
+1609	2	192141	23:25:00	23:25:00		Bratkowice Cieniaki 06 nż
+
 1609	2	196168	23:25:00	23:25:00		Bratkowice Cieniaki 06 nż
+
+1609	2	192141	23:27:00	23:27:00		Bratkowice Klepak 08 nż
+
 1609	2	196168	23:27:00	23:27:00		Bratkowice Klepak 08 nż
+
+1609	2	192141	23:29:00	23:29:00		Bratkowice szkoła 10 nż
+
 1609	2	196168	23:29:00	23:29:00		Bratkowice szkoła 10 nż
+
+1609	2	192141	23:30:00	23:30:00		Bratkowice Sitkówka II 08 nż
+
 1609	2	196168	23:30:00	23:30:00		Bratkowice Sitkówka II 08 nż
+
+1609	2	192141	23:31:00	23:31:00		Bratkowice Sitkówka 06 nż
+
 1609	2	196168	23:31:00	23:31:00		Bratkowice Sitkówka 06 nż
+
+1609	2	192141	23:33:00	23:33:00		Bratkowice Piaski I 04 nż
+
 1609	2	196168	23:33:00	23:33:00		Bratkowice Piaski I 04 nż
+
+1609	2	192141	23:35:00	23:35:00		Bratkowice Piaski 02 nż
+
 1609	2	196168	23:35:00	23:35:00		Bratkowice Piaski 02 nż
+
+1609	2	192141	23:37:00	23:37:00		Bratkowice Otoka 12 nż
+
 1609	2	196168	23:37:00	23:37:00		Bratkowice Otoka 12 nż
+
+1609	2	192141	23:39:00	23:39:00		Mrowla I 14 nż
+
 1609	2	196168	23:39:00	23:39:00		Mrowla I 14 nż
+
+1609	2	192141	23:41:00	23:41:00		Mrowla II 16 nż
+
 1609	2	196168	23:41:00	23:41:00		Mrowla II 16 nż
+
+1609	2	192141	23:44:00	23:44:00		Rudna Wielka Dom Strażaka 18 nż
+
 1609	2	196168	23:44:00	23:44:00		Rudna Wielka Dom Strażaka 18 nż
+
+1609	2	192141	23:45:00	23:45:00		Rudna Wielka Dom Ludowy 20 nż
+
 1609	2	196168	23:45:00	23:45:00		Rudna Wielka Dom Ludowy 20 nż
+
+1609	2	192141	23:46:00	23:46:00		Rudna Wielka kościół 22 nż
+
 1609	2	196168	23:46:00	23:46:00		Rudna Wielka kościół 22 nż
+
+1609	2	192141	23:47:00	23:47:00		Rudna Wielka Pehamet 24 nż
+
 1609	2	196168	23:47:00	23:47:00		Rudna Wielka Pehamet 24 nż
+
+1609	2	192141	23:48:00	23:48:00		Myśliwska / Oliwkowa 07 nż
+
 1609	2	196168	23:48:00	23:48:00		Myśliwska / Oliwkowa 07 nż
+
+1609	2	192141	23:49:00	23:49:00		Myśliwska / Kameliowa 05 nż
+
 1609	2	196168	23:49:00	23:49:00		Myśliwska / Kameliowa 05 nż
+
+1609	2	192141	23:50:00	23:50:00		Myśliwska / Pogwizdowska 03 nż
+
 1609	2	196168	23:50:00	23:50:00		Myśliwska / Pogwizdowska 03 nż
+
+1609	2	192141	23:51:00	23:51:00		Myśliwska / Św. Huberta 01 nż
+
 1609	2	196168	23:51:00	23:51:00		Myśliwska / Św. Huberta 01 nż
+
+1609	2	192141	23:52:00	23:52:00		Warszawska / Myśliwska 09 nż
+
 1609	2	196168	23:52:00	23:52:00		Warszawska / Myśliwska 09 nż
+
+1609	2	192141	23:53:00	23:53:00		Warszawska / Borowa 07 nż
+
 1609	2	196168	23:53:00	23:53:00		Warszawska / Borowa 07 nż
+
+1609	2	192141	23:55:00	23:55:00		Warszawska / Staromiejska 05 nż
+
 1609	2	196168	23:55:00	23:55:00		Warszawska / Staromiejska 05 nż
+
+1609	2	192141	23:56:00	23:56:00		Warszawska ZS. Samoch. 03 nż
+
 1609	2	196168	23:56:00	23:56:00		Warszawska ZS. Samoch. 03 nż
+
+1609	2	192141	23:57:00	23:57:00		Warszawska / Wyzwolenia 01 nż
+
 1609	2	196168	23:57:00	23:57:00		Warszawska / Wyzwolenia 01 nż
+
+1609	2	192141	23:58:00	23:58:00		Marszałkowska 01
+
 1609	2	196168	23:58:00	23:58:00		Marszałkowska 01
+
+1609	2	192141	24:00:00	24:00:00		Piłsudskiego U. Wojewódzki 03
+
 1609	2	196168	24:00:00	24:00:00		Piłsudskiego U. Wojewódzki 03
+
+1609	2	192141	24:03:00	24:03:00		Bardowskiego 04
+
 1609	2	196168	24:03:00	24:03:00		Bardowskiego 04

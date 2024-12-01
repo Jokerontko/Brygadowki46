@@ -74,7 +74,7 @@ route_id	service_id	trip_id	arrival_time	departure_time	stop_headsign	stop_name
 1480	2	179423	08:27:00	08:27:00		Piłsudskiego U. Wojewódzki 03
 1480	2	179423	08:30:00	08:30:00		Bardowskiego 04
 
-Rezerwa	08:30-08:53
+REZ	R	-	08:30:00	08:53:00		Rezerwa
 
 1476	2	179045	14:20:00	14:20:00		Bardowskiego 01
 1476	2	179045	14:23:00	14:23:00		Pl. Wolności 04

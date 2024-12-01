@@ -97,6 +97,24 @@
       background-color: rgb(50, 50, 50);
     }
 
+    @keyframes blink {
+      0% {
+        background-color: red;
+      }
+
+      50% {
+        background-color: transparent;
+      }
+
+      100% {
+        background-color: red;
+      }
+    }
+
+    .blink {
+      animation: blink 1s infinite;
+    }
+
   </style>
 </head>
 
@@ -512,25 +530,31 @@
         } else if (line.includes("Rezerwa")) {
           // Jeżeli linia zawiera słowo "Rezerwa"
           let parts = line.split("\t");
-          if (parts.length === 2) {
-            // Zakładamy, że części będą miały postać: "Rezerwa" i godziny w formacie "Godz_Rozp-Godz_Zak"
-            let godzRozpZak = parts[1].trim();
-            let [godzRozp, godzZak] = godzRozpZak.split('-');
-            const czasrezerwa = calculateTimeDifference(godzRozp, godzZak);
-            let row = document.createElement("tr");
-            row.innerHTML +=
-              `
+
+          // Zakładamy, że części będą miały postać: "Rezerwa" i godziny w formacie "Godz_Rozp-Godz_Zak"
+          let godzRozp = parts[3];
+          let godzZak = parts[4];
+          let godzRozpConv = null;
+          let godzZakConv = null;
+          let rezerwatime = null;
+          godzRozpConv = normalizeTime(godzRozp);
+          godzZakConv = normalizeTime(godzZak);
+          const czasrezerwa = calculateTimeDifference(godzRozp, godzZak);
+          rezerwatime = convertTimeToMinutes(czasrezerwa);
+          let row = document.createElement("tr");
+          row.innerHTML +=
+            `
 <td class="RezLP"></td>
 <td class="Rez"></td>
 <td class="Rez">Rezerwa</td>
 <td class="Rez"></td>
-                     <td>${godzRozp}</td>
-<td>${godzZak}</td>
-                     <td>${czasrezerwa}</td>
+<td>${godzRozpConv}</td>
+<td>${godzZakConv}</td>
+<td>${rezerwatime}</td>
 <td>N/A</td>`;
 
-            tableBody.appendChild(row);
-          }
+          tableBody.appendChild(row);
+
         } else {
           let parts = line.split(/\s+/);
           let routeId = parts[0]; // Assuming this is the identifier you want
@@ -860,14 +884,11 @@
 
     async function addPodmianaRows() {
       try {
-        // Uzyskanie ścieżki folderu z URL
-        const pathParts = window.location.pathname.split("/"); // Rozdzielenie ścieżki URL na części
-        const folderName = pathParts[pathParts.length - 2]; // Nazwa folderu przed nazwą pliku
-        console.log("Nazwa folderu:", folderName); // Logowanie nazwy folderu
+        const pathParts = window.location.pathname.split("/");
+        const folderName = pathParts[pathParts.length - 2];
+        console.log("Nazwa folderu:", folderName);
 
-        // Inicjalizacja zmiennej brygadaNumber na podstawie folderu
         let brygadaNumber;
-
         switch (folderName) {
           case 'Niedzielny':
             brygadaNumber = '1';
@@ -882,80 +903,144 @@
             brygadaNumber = '4';
             break;
           default:
-            brygadaNumber = '2'; // Domyślna wartość, jeśli folder nie pasuje do żadnego przypadku
+            brygadaNumber = '2';
         }
 
-        // Pobranie wartości brygadaTitle z sessionStorage
         const brygadaTitle = sessionStorage.getItem("brygadaTitle");
         if (!brygadaTitle) {
           console.error("Nie znaleziono brygadaTitle w sessionStorage.");
           return;
         }
 
-        // Ścieżka do pliku podmiana.txt
-        const filePath = `../../../Brygady/WYNIKI/Gotowe_brygady/${brygadaNumber}/${brygadaTitle}/podmiana.txt`;
-        console.log("Ścieżka do pliku:", filePath);
+        const basePath = `../../../Brygady/WYNIKI/Gotowe_brygady/${brygadaNumber}/${brygadaTitle}`;
+        const podmianaPath = `${basePath}/podmiana.txt`;
+        console.log("Ścieżka do pliku:", podmianaPath);
 
-        // Wczytanie danych z pliku
-        const response = await fetch(filePath);
-        if (!response.ok) {
-          console.error("Nie udało się wczytać pliku podmiana.txt");
-          return;
-        }
+        // Sprawdzenie istnienia pliku podmiana.txt
+        const response = await fetch(podmianaPath);
+        if (response.ok) {
+          const text = await response.text();
+          processPodmianaFile(text);
+        } else {
+          console.warn("Plik podmiana.txt nie istnieje. Sprawdzanie alternatywnych plików...");
+          const zakonczenieAPath = `${basePath}/ZakonczenieA.txt`;
+          const rozpoczecieBPath = `${basePath}/RozpoczecieB.txt`;
 
-        const text = await response.text();
-        const podmianaLines = text.split("\n").map(line => line.trim()).filter(line => line);
+          const [zakonczenieAResponse, rozpoczecieBResponse] = await Promise.all([
+            fetch(zakonczenieAPath),
+            fetch(rozpoczecieBPath)
+          ]);
 
-        let tableBody = document.querySelector("#rozkładTable tbody");
-        if (!tableBody) {
-          console.error("Nie znaleziono tabeli z id 'rozkładTable'.");
-          return;
-        }
+          if (zakonczenieAResponse.ok && rozpoczecieBResponse.ok) {
+            const zakonczenieAContent = await zakonczenieAResponse.text();
+            const rozpoczecieBContent = await rozpoczecieBResponse.text();
 
-        let tableRows = Array.from(tableBody.querySelectorAll("tr"));
+            const [przystanekZakonczenieA, godzinaZakonczenieA] = parseFileContent(zakonczenieAContent);
+            const [przystanekRozpoczecieB, godzinaRozpoczeciaB] = parseFileContent(rozpoczecieBContent);
 
-        // Przetwarzanie każdej linii z pliku
-        podmianaLines.forEach((line) => {
-          const [przystanek, godzina] = line.split("\t").map(item => item.trim());
-          console.log("Przystanek:", przystanek, "Godzina:", godzina);
-
-          // Przechodzimy przez wiersze tabeli
-          for (let i = 0; i < tableRows.length - 1; i++) {
-            const currentRow = tableRows[i];
-            const nextRow = tableRows[i + 1];
-
-            // Pobieranie godziny rozpoczęcia w bieżącym i następnym wierszu
-            let currentTime = currentRow.cells[4]?.textContent; // Godzina rozpoczęcia bieżącego wiersza
-            let nextTime = nextRow.cells[4]?.textContent; // Godzina rozpoczęcia następnego wiersza
-
-            console.log("Current Time:", currentTime, "Next Time:", nextTime);
-
-            // Sprawdzamy, czy godzina w następnym wierszu jest null
-            if (!nextTime) {
-              // Jeśli godzina w następnym wierszu jest null, użyj godziny z wiersza trzeciego
-              const thirdRow = tableRows[i + 2];
-              nextTime = thirdRow ? thirdRow.cells[4]?.textContent : null;
-              console.warn(`Brak godz. rozp. w wierszu ${i + 1}, używam godziny z wiersza ${i + 2}: ${nextTime}`);
-            }
-
-            // Sprawdzamy, czy godzina z podmiany jest między godzinami w bieżącym i następnym wierszu
-            if (currentTime && nextTime && isBetween(godzina, currentTime, nextTime)) {
-              sessionStorage.setItem('godzina', godzina);
-              const newRow = document.createElement("tr");
-              newRow.innerHTML =
-                `<td colspan="9" style="text-align: center; font-size: 15px; padding: 3px;">Podmiana: &nbsp;&nbsp; <strong>${przystanek} </strong> &nbsp;&nbsp; ${godzina} </td>`;
-
-              tableBody.insertBefore(newRow, nextRow);
-              break;
-            }
+            insertRowAtCorrectPosition(
+              przystanekZakonczenieA,
+              godzinaZakonczenieA,
+              przystanekRozpoczecieB,
+              godzinaRozpoczeciaB
+            );
+          } else {
+            console.error("Nie znaleziono wymaganych plików ZakonczenieA.txt i RozpoczecieB.txt.");
           }
-        });
+        }
       } catch (error) {
         console.error("Wystąpił błąd:", error);
       }
     }
 
-    // Funkcja pomocnicza sprawdzająca, czy czas `value` jest między `start` a `end`
+    function processPodmianaFile(text) {
+      const podmianaLines = text.split("\n").map(line => line.trim()).filter(line => line);
+
+      let tableBody = document.querySelector("#rozkładTable tbody");
+      if (!tableBody) {
+        console.error("Nie znaleziono tabeli z id 'rozkładTable'.");
+        return;
+      }
+
+      let tableRows = Array.from(tableBody.querySelectorAll("tr"));
+      const now = new Date();
+      const currentTimeFormatted = `${now.getHours().toString().padStart(2, '0')}:${now.getMinutes().toString().padStart(2, '0')}`;
+
+      podmianaLines.forEach((line) => {
+        const [przystanek, godzina] = line.split("\t").map(item => item.trim());
+
+        for (let i = 0; i < tableRows.length - 1; i++) {
+          const currentRow = tableRows[i];
+          const nextRow = tableRows[i + 1];
+          let currentTime = currentRow.cells[4]?.textContent;
+          let nextTime = nextRow.cells[4]?.textContent;
+
+          if (!nextTime) {
+            const thirdRow = tableRows[i + 2];
+            nextTime = thirdRow ? thirdRow.cells[4]?.textContent : null;
+          }
+
+          if (currentTime && nextTime && isBetween(godzina, currentTime, nextTime)) {
+            sessionStorage.setItem('godzina', godzina);
+
+            const displayedTime = (godzina === currentTimeFormatted) ? "TERAZ" : godzina;
+            const newRow = document.createElement("tr");
+            newRow.innerHTML =
+              `<td colspan="9" style="text-align: center; font-size: 15px; padding: 3px;">
+                        Podmiana: <strong>${przystanek}</strong> &nbsp;&nbsp; ${displayedTime}
+                    </td>`;
+
+            if (godzina === currentTimeFormatted) {
+              newRow.classList.add("blink");
+            }
+
+            tableBody.insertBefore(newRow, nextRow);
+            break;
+          }
+        }
+      });
+    }
+
+    function insertRowAtCorrectPosition(przystanekZakonczenieA, godzinaZakonczenieA, przystanekRozpoczecieB, godzinaRozpoczeciaB) {
+      let tableBody = document.querySelector("#rozkładTable tbody");
+      if (!tableBody) {
+        console.error("Nie znaleziono tabeli z id 'rozkładTable'.");
+        return;
+      }
+
+      let tableRows = Array.from(tableBody.querySelectorAll("tr"));
+      for (let i = 0; i < tableRows.length - 1; i++) {
+        const currentRow = tableRows[i];
+        const nextRow = tableRows[i + 1];
+        let currentTime = currentRow.cells[4]?.textContent;
+        let nextTime = nextRow.cells[4]?.textContent;
+
+        if (!nextTime) {
+          const thirdRow = tableRows[i + 2];
+          nextTime = thirdRow ? thirdRow.cells[4]?.textContent : null;
+        }
+
+        if (currentTime && nextTime && isBetween(godzinaZakonczenieA, currentTime, nextTime)) {
+          const newRow = document.createElement("tr");
+          newRow.innerHTML =
+            `<td colspan="9" style="text-align: center; font-size: 15px; padding: 3px;">
+                    <strong> Podmiana: ${przystanekZakonczenieA} </strong><br>
+                    Zakończenie A: <strong> ${godzinaZakonczenieA} </strong> | Rozpoczęcie B: <strong> ${godzinaRozpoczeciaB} </strong>
+                </td>`;
+          tableBody.insertBefore(newRow, nextRow);
+          break;
+        }
+      }
+    }
+
+    function parseFileContent(content) {
+      const lines = content.split("\n").map(line => line.trim()).filter(line => line);
+      if (lines.length > 0) {
+        return lines[0].split("\t").map(item => item.trim());
+      }
+      return [null, null];
+    }
+
     function isBetween(value, start, end) {
       const [valueH, valueM] = value.split(":").map(Number);
       const [startH, startM] = start.split(":").map(Number);
@@ -967,6 +1052,12 @@
 
       return valueMinutes > startMinutes && valueMinutes < endMinutes;
     }
+
+
+
+
+
+
 
     function brygadabisowa() {
       const tableBody = document.getElementById("dane-tabeli");

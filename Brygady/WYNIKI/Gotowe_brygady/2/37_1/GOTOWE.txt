@@ -440,7 +440,7 @@ route_id	service_id	trip_id	arrival_time	departure_time	stop_headsign	stop_name
 1616	2	187563	20:09:00	20:09:00		Lubelska kościół 06 nż
 1616	2	187563	20:11:00	20:11:00		Trembeckiego ZTM pętla 01
 
-Rezerwa	20:11-21:30
+REZ	R	-	20:11:00	21:30:00		Rezerwa
 
 1509	2	187614	21:40:00	21:40:00		Obr. Poczty Gdańskiej pętla 08
 1509	2	187614	21:41:00	21:41:00		Obr. Poczty Gdańskiej / Raginisa 01

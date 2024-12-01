@@ -336,14 +336,14 @@ def StwórzGodzRozpGodzZak():
 
                 # Odczytujemy czasy przybycia (arrival_time)
                 arrival_times = []
+                last_line = None  # Zmienna na przechowanie ostatniego wiersza
                 for line in lines:
                     # Sprawdzamy, czy linia nie jest pusta
                     if line.strip():
                         columns = line.split('\t')
                         if len(columns) > 3:
-                            arrival_times.append(columns[3])
-                        else:
-                            print(f"Nieprawidłowy format linii: {line.strip()}")
+                            arrival_times.append(columns[3])  # Czas przybycia
+                        last_line = line  # Zapamiętujemy ostatnią linię
 
                 if arrival_times:
                     # Zamieniamy czasy na format HH:MM
@@ -351,6 +351,18 @@ def StwórzGodzRozpGodzZak():
                     arrival_times_sorted = sorted(arrival_times_hh_mm)
                     min_time = arrival_times_sorted[0]
                     max_time = arrival_times_sorted[-1]
+
+                    # Sprawdzamy, czy ostatnia linia to REZ
+                    if last_line and "REZ" in last_line:
+                        # Odczytujemy czasy z ostatniej linii
+                        columns = last_line.split('\t')
+                        max_time = columns[4]  # Przypisujemy ${Godz_Zak}
+                        # Skracamy czas do formatu HH:MM (jeśli jest w formacie HH:MM:SS)
+                        max_time = max_time[:5]
+
+                    # Skracamy min_time i max_time do formatu HH:MM (jeśli mają format HH:MM:SS)
+                    min_time = min_time[:5]
+                    max_time = max_time[:5]
 
                     print(f"Najmniejszy czas przybycia: {min_time}")
                     print(f"Największy czas przybycia: {max_time}")
@@ -388,6 +400,8 @@ def StwórzGodzRozpGodzZak():
                 for file in files:
                     if file == 'GOTOWE.txt':
                         process_file(os.path.join(root, file))
+
+
 
 
 
@@ -569,6 +583,8 @@ def UtwórzGOTOWEtxt():
   
   
   
+import os
+
 def DodajRezerwe():
     clear_screen()
     # Wczytywanie wartości z klawiatury
@@ -576,6 +592,16 @@ def DodajRezerwe():
     brygada = input("Wprowadź brygadę: ")
     rozpoczecie = input("Wprowadź godzinę rozpoczęcia (format HH:MM): ")
     zakonczenie = input("Wprowadź godzinę zakończenia (format HH:MM): ")
+
+    # Funkcja do dodania sekund, jeśli ich brak
+    def dodaj_sekundy(czas):
+        if len(czas.split(":")) == 2:  # Jeśli czas ma tylko godzinę i minutę
+            return f"{czas}:00"  # Dodajemy sekundy
+        return czas  # Jeśli już są sekundy, zwracamy czas bez zmian
+
+    # Używamy funkcji do dodania sekund do rozpoczecie i zakonczenie
+    rozpoczecie = dodaj_sekundy(rozpoczecie)
+    zakonczenie = dodaj_sekundy(zakonczenie)
 
     # Tworzenie ścieżki do folderu
     sciezka_folder = os.path.join("WYNIKI", "Gotowe_brygady", typ_dnia, brygada)
@@ -592,6 +618,16 @@ def DodajRezerwe():
     # Ścieżka do pliku rezerwa.txt
     plik_wyjsciowy = os.path.join(sciezka_folder, "rezerwa.txt")
 
+    # Jeśli plik istnieje, tworzymy nowy z numerem
+    if os.path.exists(plik_wyjsciowy):
+        i = 2
+        while True:
+            nowa_nazwa_pliku = os.path.join(sciezka_folder, f"rezerwa{i}.txt")
+            if not os.path.exists(nowa_nazwa_pliku):
+                plik_wyjsciowy = nowa_nazwa_pliku
+                break
+            i += 1
+
     # Zawartość pliku w odpowiednim formacie
     tresc_pliku = (
         "[Rez] Rezerwa\n"
@@ -607,6 +643,7 @@ def DodajRezerwe():
         print(f"Plik zapisano w {plik_wyjsciowy}")
     except Exception as e:
         print(f"Wystąpił błąd podczas zapisywania pliku: {e}")
+
 
 
   
@@ -828,11 +865,18 @@ def StwórzZbiorczyKursy():
 
       
           
-        
+def Podmiana():
+    typ_podmiany = input("Wprowadź typ podmiany (nic = w mieście, B = w bazie): ")
+    if typ_podmiany == "B":
+        SpecialDodajPodmiane()
+    else:
+        DodajPodmiane()
+
         
 def DodajPodmiane():
     clear_screen()
     # Wczytywanie wartości z klawiatury
+    
     typ_dnia = input("Wprowadź typ dnia: ")
     brygada = input("Wprowadź brygadę: ")
     Przystanek = input("Przystanek: ")
@@ -860,14 +904,60 @@ def DodajPodmiane():
 
     # Tworzenie pliku i zapisanie danych
     try:
-        with open(plik_wyjsciowy, "w") as plik:
+        with open(plik_wyjsciowy, "w", encoding='utf-8') as plik:
             plik.write(tresc_pliku)
         print(f"Plik zapisano w {plik_wyjsciowy}")
     except Exception as e:
         print(f"Wystąpił błąd podczas zapisywania pliku: {e}")      
       
       
-      
+
+
+def SpecialDodajPodmiane():
+    clear_screen()
+    # Wczytywanie wartości z klawiatury
+    typ_dnia = input("Wprowadź typ dnia: ")
+    brygada = input("Wprowadź brygadę: ")
+    PrzystanekZakA = input("Przystanek zakończenia zmiany A: ")
+    GodzinaZakA = input("Godzina zakończenia zmiany A (HH:MM): ")
+    PrzystanekRozpB = input("Przystanek rozpoczęcia zmiany B: ")
+    GodzinaRozpB = input("Godzina rozpoczęcia zmiany B (HH:MM): ")
+
+    # Tworzenie ścieżki do folderu
+    sciezka_folder = os.path.join("WYNIKI", "Gotowe_brygady", typ_dnia, brygada)
+
+    # Sprawdzanie, czy folder istnieje, jeśli nie - tworzymy go
+    if not os.path.exists(sciezka_folder):
+        try:
+            os.makedirs(sciezka_folder)
+            print(f"Utworzono folder: {sciezka_folder}")
+        except Exception as e:
+            print(f"Nie udało się utworzyć folderu: {e}")
+            return  # Kończymy funkcję, jeśli wystąpił błąd podczas tworzenia folderu
+
+    # Ścieżki do plików
+    plik_zakA = os.path.join(sciezka_folder, "ZakonczenieA.txt")
+    plik_rozpB = os.path.join(sciezka_folder, "RozpoczecieB.txt")
+
+    # Zawartości plików
+    tresc_zakA = f"{PrzystanekZakA}\t{GodzinaZakA}"
+    tresc_rozpB = f"{PrzystanekRozpB}\t{GodzinaRozpB}"
+
+    # Tworzenie i zapisywanie plików
+    try:
+        # Plik ZakonczenieA.txt
+        with open(plik_zakA, "w", encoding='utf-8') as plik:
+            plik.write(tresc_zakA)
+        print(f"Plik zapisano w {plik_zakA}")
+
+        # Plik RozpoczecieB.txt
+        with open(plik_rozpB, "w", encoding='utf-8') as plik:
+            plik.write(tresc_rozpB)
+        print(f"Plik zapisano w {plik_rozpB}")
+
+    except Exception as e:
+        print(f"Wystąpił błąd podczas zapisywania plików: {e}")
+ 
       
         
   
@@ -1054,7 +1144,7 @@ def menu():
         elif wybor == "9":
             UtwórzGOTOWEtxt()
         elif wybor == "10":
-            DodajPodmiane()
+            Podmiana()
         elif wybor == "help":
             help()
         else:
