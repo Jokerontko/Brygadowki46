@@ -2,358 +2,697 @@ route_id	service_id	trip_id	arrival_time	departure_time	stop_headsign	stop_name
 -------------------------------------------------------------------------------
 1635	1	190551	06:20:00	06:20:00		Bardowskiego 03
 1635	1	190551	06:22:00	06:22:00		Pl. Wolności 04
+1635	1	190551	06:22:00	06:22:00		Pl. Wolności 04
+1635	1	190551	06:23:00	06:23:00		Piłsudskiego U. Wojewódzki 06
 1635	1	190551	06:23:00	06:23:00		Piłsudskiego U. Wojewódzki 06
 1635	1	190551	06:25:00	06:25:00		Marszałkowska 02
+1635	1	190551	06:25:00	06:25:00		Marszałkowska 02
+1635	1	190551	06:26:00	06:26:00		Warszawska / Wyzwolenia 02 nż
 1635	1	190551	06:26:00	06:26:00		Warszawska / Wyzwolenia 02 nż
 1635	1	190551	06:27:00	06:27:00		Warszawska ZS. Samoch. 04 nż
+1635	1	190551	06:27:00	06:27:00		Warszawska ZS. Samoch. 04 nż
+1635	1	190551	06:28:00	06:28:00		Warszawska / Staromiejska 06 nż
 1635	1	190551	06:28:00	06:28:00		Warszawska / Staromiejska 06 nż
 1635	1	190551	06:30:00	06:30:00		Warszawska / Borowa 08 nż
+1635	1	190551	06:30:00	06:30:00		Warszawska / Borowa 08 nż
+1635	1	190551	06:31:00	06:31:00		Warszawska / Bażantowa 10 nż
 1635	1	190551	06:31:00	06:31:00		Warszawska / Bażantowa 10 nż
 1635	1	190551	06:32:00	06:32:00		Warszawska / Łowiecka 12 nż
+1635	1	190551	06:32:00	06:32:00		Warszawska / Łowiecka 12 nż
+1635	1	190551	06:33:00	06:33:00		"Zaczernie
 1635	1	190551	06:33:00	06:33:00		"Zaczernie
 1635	1	190551	06:34:00	06:34:00		Warszawska granica 14 nż
+1635	1	190551	06:34:00	06:34:00		Warszawska granica 14 nż
+1635	1	190551	06:36:00	06:36:00		Rudna Mała 03 nż
 1635	1	190551	06:36:00	06:36:00		Rudna Mała 03 nż
 1635	1	190551	06:37:00	06:37:00		Rudna Mała szpital 01 nż
+1635	1	190551	06:37:00	06:37:00		Rudna Mała szpital 01 nż
+1635	1	190551	06:39:00	06:39:00		Głogów Młp. wiadukt 09A nż
 1635	1	190551	06:39:00	06:39:00		Głogów Młp. wiadukt 09A nż
 1635	1	190551	06:42:00	06:42:00		Głogów Młp. Zelmer II 02 nż
+1635	1	190551	06:42:00	06:42:00		Głogów Młp. Zelmer II 02 nż
+1635	1	190551	06:43:00	06:43:00		Głogów Młp. MetaZel II 02 nż
 1635	1	190551	06:43:00	06:43:00		Głogów Młp. MetaZel II 02 nż
 1635	1	190551	06:44:00	06:44:00		Głogów Młp. Yanko I 01 nż
+1635	1	190551	06:44:00	06:44:00		Głogów Młp. Yanko I 01 nż
+1635	1	190551	06:45:00	06:45:00		Głogów Młp. Leniar I 01 nż
 1635	1	190551	06:45:00	06:45:00		Głogów Młp. Leniar I 01 nż
 
 1629	1	191837	07:10:00	07:10:00		Głogów Młp. Zelmer II 02 nż
+1629	1	191837	07:10:00	07:10:00		Głogów Młp. Zelmer II 02 nż
+1629	1	191837	07:11:00	07:11:00		Głogów Młp. MetaZel II 02 nż
 1629	1	191837	07:11:00	07:11:00		Głogów Młp. MetaZel II 02 nż
 1629	1	191837	07:12:00	07:12:00		Głogów Młp. Yanko I 01 nż
+1629	1	191837	07:12:00	07:12:00		Głogów Młp. Yanko I 01 nż
+1629	1	191837	07:13:00	07:13:00		Głogów Młp. Leniar I 01 nż
 1629	1	191837	07:13:00	07:13:00		Głogów Młp. Leniar I 01 nż
 1629	1	191837	07:16:00	07:16:00		Głogów Młp. wiadukt 71A nż
+1629	1	191837	07:16:00	07:16:00		Głogów Młp. wiadukt 71A nż
+1629	1	191837	07:19:00	07:19:00		Rudna Mała szpital 02 nż
 1629	1	191837	07:19:00	07:19:00		Rudna Mała szpital 02 nż
 1629	1	191837	07:20:00	07:20:00		Zaczernie 04 nż
+1629	1	191837	07:20:00	07:20:00		Zaczernie 04 nż
+1629	1	191837	07:22:00	07:22:00		Warszawska granica 11 nż
 1629	1	191837	07:22:00	07:22:00		Warszawska granica 11 nż
 1629	1	191837	07:23:00	07:23:00		"Zaczernie
+1629	1	191837	07:23:00	07:23:00		"Zaczernie
+1629	1	191837	07:24:00	07:24:00		Warszawska / Myśliwska 09 nż
 1629	1	191837	07:24:00	07:24:00		Warszawska / Myśliwska 09 nż
 1629	1	191837	07:26:00	07:26:00		Warszawska / Borowa 07 nż
+1629	1	191837	07:26:00	07:26:00		Warszawska / Borowa 07 nż
+1629	1	191837	07:28:00	07:28:00		Warszawska / Staromiejska 05 nż
 1629	1	191837	07:28:00	07:28:00		Warszawska / Staromiejska 05 nż
 1629	1	191837	07:29:00	07:29:00		Warszawska ZS. Samoch. 03 nż
+1629	1	191837	07:29:00	07:29:00		Warszawska ZS. Samoch. 03 nż
+1629	1	191837	07:30:00	07:30:00		Warszawska / Wyzwolenia 01 nż
 1629	1	191837	07:30:00	07:30:00		Warszawska / Wyzwolenia 01 nż
 1629	1	191837	07:31:00	07:31:00		Marszałkowska 01
+1629	1	191837	07:31:00	07:31:00		Marszałkowska 01
 1629	1	191837	07:34:00	07:34:00		Piłsudskiego U. Wojewódzki 03
+1629	1	191837	07:34:00	07:34:00		Piłsudskiego U. Wojewódzki 03
+1629	1	191837	07:37:00	07:37:00		Bardowskiego 04
 1629	1	191837	07:37:00	07:37:00		Bardowskiego 04
 
 994	1	189584	08:09:00	08:09:00		Mikołajczyka pętla 03
+994	1	189584	08:09:00	08:09:00		Mikołajczyka pętla 03
+994	1	189584	08:10:00	08:10:00		Ofiar Katynia kładka 01
 994	1	189584	08:10:00	08:10:00		Ofiar Katynia kładka 01
 994	1	189584	08:11:00	08:11:00		Wyzwolenia / Ofiar Katynia 07
+994	1	189584	08:11:00	08:11:00		Wyzwolenia / Ofiar Katynia 07
+994	1	189584	08:12:00	08:12:00		Wyzwolenia kościół 05
 994	1	189584	08:12:00	08:12:00		Wyzwolenia kościół 05
 994	1	189584	08:13:00	08:13:00		Okulickiego / Wyzwolenia 05 nż
+994	1	189584	08:13:00	08:13:00		Okulickiego / Wyzwolenia 05 nż
+994	1	189584	08:14:00	08:14:00		Okulickiego / Zwierzyniecka 03 nż
 994	1	189584	08:14:00	08:14:00		Okulickiego / Zwierzyniecka 03 nż
 994	1	189584	08:15:00	08:15:00		Okulickiego C. Handlowe 01
+994	1	189584	08:15:00	08:15:00		Okulickiego C. Handlowe 01
+994	1	189584	08:17:00	08:17:00		Krakowska Jedn. Wojskowa 01
 994	1	189584	08:17:00	08:17:00		Krakowska Jedn. Wojskowa 01
 994	1	189584	08:19:00	08:19:00		Piłsudskiego U. Marszałkowski 05
+994	1	189584	08:19:00	08:19:00		Piłsudskiego U. Marszałkowski 05
+994	1	189584	08:20:00	08:20:00		Cieplińskiego 02
 994	1	189584	08:20:00	08:20:00		Cieplińskiego 02
 994	1	189584	08:21:00	08:21:00		Lisa-Kuli 01
+994	1	189584	08:21:00	08:21:00		Lisa-Kuli 01
+994	1	189584	08:23:00	08:23:00		Dąbrowskiego park 02 nż
 994	1	189584	08:23:00	08:23:00		Dąbrowskiego park 02 nż
 994	1	189584	08:24:00	08:24:00		Dąbrowskiego KW Policji 04
+994	1	189584	08:24:00	08:24:00		Dąbrowskiego KW Policji 04
+994	1	189584	08:25:00	08:25:00		Dąbrowskiego / Bat. Chłopskich 10
 994	1	189584	08:25:00	08:25:00		Dąbrowskiego / Bat. Chłopskich 10
 994	1	189584	08:27:00	08:27:00		Podkarpacka Politechnika 02
+994	1	189584	08:27:00	08:27:00		Podkarpacka Politechnika 02
+994	1	189584	08:28:00	08:28:00		Podkarpacka / Matuszczaka 04
 994	1	189584	08:28:00	08:28:00		Podkarpacka / Matuszczaka 04
 994	1	189584	08:29:00	08:29:00		Bieszczadzka 02 nż
+994	1	189584	08:29:00	08:29:00		Bieszczadzka 02 nż
 994	1	189584	08:30:00	08:30:00		Rymanowska 01 nż
+994	1	189584	08:30:00	08:30:00		Rymanowska 01 nż
+994	1	189584	08:31:00	08:31:00		Matuszczaka pętla 04
 994	1	189584	08:31:00	08:31:00		Matuszczaka pętla 04
 
 982	1	189146	09:05:00	09:05:00		Matuszczaka pętla 04
+982	1	189146	09:05:00	09:05:00		Matuszczaka pętla 04
+982	1	189146	09:06:00	09:06:00		Rymanowska 02 nż
 982	1	189146	09:06:00	09:06:00		Rymanowska 02 nż
 982	1	189146	09:07:00	09:07:00		Bieszczadzka 01 nż
+982	1	189146	09:07:00	09:07:00		Bieszczadzka 01 nż
+982	1	189146	09:08:00	09:08:00		Podkarpacka / Matuszczaka 03
 982	1	189146	09:08:00	09:08:00		Podkarpacka / Matuszczaka 03
 982	1	189146	09:10:00	09:10:00		Podkarpacka Politechnika 01
+982	1	189146	09:10:00	09:10:00		Podkarpacka Politechnika 01
+982	1	189146	09:12:00	09:12:00		Dąbrowskiego Instytut Muzyki 07
 982	1	189146	09:12:00	09:12:00		Dąbrowskiego Instytut Muzyki 07
 982	1	189146	09:13:00	09:13:00		Dąbrowskiego KW Policji 03
+982	1	189146	09:13:00	09:13:00		Dąbrowskiego KW Policji 03
+982	1	189146	09:14:00	09:14:00		Dąbrowskiego park 01 nż
 982	1	189146	09:14:00	09:14:00		Dąbrowskiego park 01 nż
 982	1	189146	09:17:00	09:17:00		Lisa-Kuli 02
+982	1	189146	09:17:00	09:17:00		Lisa-Kuli 02
+982	1	189146	09:18:00	09:18:00		Cieplińskiego 01
 982	1	189146	09:18:00	09:18:00		Cieplińskiego 01
 982	1	189146	09:20:00	09:20:00		Piłsudskiego U. Marszałkowski 08
+982	1	189146	09:20:00	09:20:00		Piłsudskiego U. Marszałkowski 08
+982	1	189146	09:22:00	09:22:00		Krakowska Jedn. Wojskowa 02
 982	1	189146	09:22:00	09:22:00		Krakowska Jedn. Wojskowa 02
 982	1	189146	09:24:00	09:24:00		Okulickiego C. Handlowe 02
+982	1	189146	09:24:00	09:24:00		Okulickiego C. Handlowe 02
+982	1	189146	09:25:00	09:25:00		Okulickiego / Zwierzyniecka 04 nż
 982	1	189146	09:25:00	09:25:00		Okulickiego / Zwierzyniecka 04 nż
 982	1	189146	09:26:00	09:26:00		Wyzwolenia / Iranka-Osmeckiego 06
+982	1	189146	09:26:00	09:26:00		Wyzwolenia / Iranka-Osmeckiego 06
+982	1	189146	09:27:00	09:27:00		Wyzwolenia / Brydaka 08
 982	1	189146	09:27:00	09:27:00		Wyzwolenia / Brydaka 08
 982	1	189146	09:28:00	09:28:00		Ofiar Katynia / Wyzwolenia 02
+982	1	189146	09:28:00	09:28:00		Ofiar Katynia / Wyzwolenia 02
 982	1	189146	09:29:00	09:29:00		Ofiar Katynia kładka 04
+982	1	189146	09:29:00	09:29:00		Ofiar Katynia kładka 04
+982	1	189146	09:31:00	09:31:00		Mikołajczyka pętla 01
 982	1	189146	09:31:00	09:31:00		Mikołajczyka pętla 01
 
 994	1	190883	09:49:00	09:49:00		Mikołajczyka pętla 03
+994	1	190883	09:49:00	09:49:00		Mikołajczyka pętla 03
+994	1	190883	09:50:00	09:50:00		Ofiar Katynia kładka 01
 994	1	190883	09:50:00	09:50:00		Ofiar Katynia kładka 01
 994	1	190883	09:51:00	09:51:00		Wyzwolenia / Ofiar Katynia 07
+994	1	190883	09:51:00	09:51:00		Wyzwolenia / Ofiar Katynia 07
+994	1	190883	09:52:00	09:52:00		Wyzwolenia kościół 05
 994	1	190883	09:52:00	09:52:00		Wyzwolenia kościół 05
 994	1	190883	09:53:00	09:53:00		Okulickiego / Wyzwolenia 05 nż
+994	1	190883	09:53:00	09:53:00		Okulickiego / Wyzwolenia 05 nż
+994	1	190883	09:54:00	09:54:00		Okulickiego / Zwierzyniecka 03 nż
 994	1	190883	09:54:00	09:54:00		Okulickiego / Zwierzyniecka 03 nż
 994	1	190883	09:55:00	09:55:00		Okulickiego C. Handlowe 01
+994	1	190883	09:55:00	09:55:00		Okulickiego C. Handlowe 01
+994	1	190883	09:57:00	09:57:00		Krakowska Jedn. Wojskowa 01
 994	1	190883	09:57:00	09:57:00		Krakowska Jedn. Wojskowa 01
 994	1	190883	09:59:00	09:59:00		Piłsudskiego U. Marszałkowski 05
+994	1	190883	09:59:00	09:59:00		Piłsudskiego U. Marszałkowski 05
+994	1	190883	10:00:00	10:00:00		Cieplińskiego 02
 994	1	190883	10:00:00	10:00:00		Cieplińskiego 02
 994	1	190883	10:01:00	10:01:00		Lisa-Kuli 01
+994	1	190883	10:01:00	10:01:00		Lisa-Kuli 01
+994	1	190883	10:03:00	10:03:00		Dąbrowskiego park 02 nż
 994	1	190883	10:03:00	10:03:00		Dąbrowskiego park 02 nż
 994	1	190883	10:04:00	10:04:00		Dąbrowskiego KW Policji 04
+994	1	190883	10:04:00	10:04:00		Dąbrowskiego KW Policji 04
+994	1	190883	10:05:00	10:05:00		Dąbrowskiego / Bat. Chłopskich 10
 994	1	190883	10:05:00	10:05:00		Dąbrowskiego / Bat. Chłopskich 10
 994	1	190883	10:07:00	10:07:00		Podkarpacka Politechnika 02
+994	1	190883	10:07:00	10:07:00		Podkarpacka Politechnika 02
+994	1	190883	10:08:00	10:08:00		Podkarpacka / Matuszczaka 04
 994	1	190883	10:08:00	10:08:00		Podkarpacka / Matuszczaka 04
 994	1	190883	10:09:00	10:09:00		Bieszczadzka 02 nż
+994	1	190883	10:09:00	10:09:00		Bieszczadzka 02 nż
 994	1	190883	10:10:00	10:10:00		Rymanowska 01 nż
+994	1	190883	10:10:00	10:10:00		Rymanowska 01 nż
+994	1	190883	10:11:00	10:11:00		Matuszczaka pętla 04
 994	1	190883	10:11:00	10:11:00		Matuszczaka pętla 04
 
 982	1	191089	10:45:00	10:45:00		Matuszczaka pętla 04
+982	1	191089	10:45:00	10:45:00		Matuszczaka pętla 04
+982	1	191089	10:46:00	10:46:00		Rymanowska 02 nż
 982	1	191089	10:46:00	10:46:00		Rymanowska 02 nż
 982	1	191089	10:47:00	10:47:00		Bieszczadzka 01 nż
+982	1	191089	10:47:00	10:47:00		Bieszczadzka 01 nż
+982	1	191089	10:48:00	10:48:00		Podkarpacka / Matuszczaka 03
 982	1	191089	10:48:00	10:48:00		Podkarpacka / Matuszczaka 03
 982	1	191089	10:50:00	10:50:00		Podkarpacka Politechnika 01
+982	1	191089	10:50:00	10:50:00		Podkarpacka Politechnika 01
+982	1	191089	10:52:00	10:52:00		Dąbrowskiego Instytut Muzyki 07
 982	1	191089	10:52:00	10:52:00		Dąbrowskiego Instytut Muzyki 07
 982	1	191089	10:53:00	10:53:00		Dąbrowskiego KW Policji 03
+982	1	191089	10:53:00	10:53:00		Dąbrowskiego KW Policji 03
+982	1	191089	10:54:00	10:54:00		Dąbrowskiego park 01 nż
 982	1	191089	10:54:00	10:54:00		Dąbrowskiego park 01 nż
 982	1	191089	10:57:00	10:57:00		Lisa-Kuli 02
+982	1	191089	10:57:00	10:57:00		Lisa-Kuli 02
+982	1	191089	10:58:00	10:58:00		Cieplińskiego 01
 982	1	191089	10:58:00	10:58:00		Cieplińskiego 01
 982	1	191089	11:00:00	11:00:00		Piłsudskiego U. Marszałkowski 08
+982	1	191089	11:00:00	11:00:00		Piłsudskiego U. Marszałkowski 08
+982	1	191089	11:02:00	11:02:00		Krakowska Jedn. Wojskowa 02
 982	1	191089	11:02:00	11:02:00		Krakowska Jedn. Wojskowa 02
 982	1	191089	11:04:00	11:04:00		Okulickiego C. Handlowe 02
+982	1	191089	11:04:00	11:04:00		Okulickiego C. Handlowe 02
+982	1	191089	11:05:00	11:05:00		Okulickiego / Zwierzyniecka 04 nż
 982	1	191089	11:05:00	11:05:00		Okulickiego / Zwierzyniecka 04 nż
 982	1	191089	11:06:00	11:06:00		Wyzwolenia / Iranka-Osmeckiego 06
+982	1	191089	11:06:00	11:06:00		Wyzwolenia / Iranka-Osmeckiego 06
+982	1	191089	11:07:00	11:07:00		Wyzwolenia / Brydaka 08
 982	1	191089	11:07:00	11:07:00		Wyzwolenia / Brydaka 08
 982	1	191089	11:08:00	11:08:00		Ofiar Katynia / Wyzwolenia 02
+982	1	191089	11:08:00	11:08:00		Ofiar Katynia / Wyzwolenia 02
 982	1	191089	11:09:00	11:09:00		Ofiar Katynia kładka 04
+982	1	191089	11:09:00	11:09:00		Ofiar Katynia kładka 04
+982	1	191089	11:11:00	11:11:00		Mikołajczyka pętla 01
 982	1	191089	11:11:00	11:11:00		Mikołajczyka pętla 01
 
 994	1	190820	11:29:00	11:29:00		Mikołajczyka pętla 03
+994	1	190820	11:29:00	11:29:00		Mikołajczyka pętla 03
+994	1	190820	11:30:00	11:30:00		Ofiar Katynia kładka 01
 994	1	190820	11:30:00	11:30:00		Ofiar Katynia kładka 01
 994	1	190820	11:31:00	11:31:00		Wyzwolenia / Ofiar Katynia 07
+994	1	190820	11:31:00	11:31:00		Wyzwolenia / Ofiar Katynia 07
+994	1	190820	11:32:00	11:32:00		Wyzwolenia kościół 05
 994	1	190820	11:32:00	11:32:00		Wyzwolenia kościół 05
 994	1	190820	11:33:00	11:33:00		Okulickiego / Wyzwolenia 05 nż
+994	1	190820	11:33:00	11:33:00		Okulickiego / Wyzwolenia 05 nż
+994	1	190820	11:34:00	11:34:00		Okulickiego / Zwierzyniecka 03 nż
 994	1	190820	11:34:00	11:34:00		Okulickiego / Zwierzyniecka 03 nż
 994	1	190820	11:35:00	11:35:00		Okulickiego C. Handlowe 01
+994	1	190820	11:35:00	11:35:00		Okulickiego C. Handlowe 01
+994	1	190820	11:37:00	11:37:00		Krakowska Jedn. Wojskowa 01
 994	1	190820	11:37:00	11:37:00		Krakowska Jedn. Wojskowa 01
 994	1	190820	11:39:00	11:39:00		Piłsudskiego U. Marszałkowski 05
+994	1	190820	11:39:00	11:39:00		Piłsudskiego U. Marszałkowski 05
+994	1	190820	11:40:00	11:40:00		Cieplińskiego 02
 994	1	190820	11:40:00	11:40:00		Cieplińskiego 02
 994	1	190820	11:41:00	11:41:00		Lisa-Kuli 01
+994	1	190820	11:41:00	11:41:00		Lisa-Kuli 01
+994	1	190820	11:43:00	11:43:00		Dąbrowskiego park 02 nż
 994	1	190820	11:43:00	11:43:00		Dąbrowskiego park 02 nż
 994	1	190820	11:44:00	11:44:00		Dąbrowskiego KW Policji 04
+994	1	190820	11:44:00	11:44:00		Dąbrowskiego KW Policji 04
+994	1	190820	11:45:00	11:45:00		Dąbrowskiego / Bat. Chłopskich 10
 994	1	190820	11:45:00	11:45:00		Dąbrowskiego / Bat. Chłopskich 10
 994	1	190820	11:47:00	11:47:00		Podkarpacka Politechnika 02
+994	1	190820	11:47:00	11:47:00		Podkarpacka Politechnika 02
+994	1	190820	11:48:00	11:48:00		Podkarpacka / Matuszczaka 04
 994	1	190820	11:48:00	11:48:00		Podkarpacka / Matuszczaka 04
 994	1	190820	11:49:00	11:49:00		Bieszczadzka 02 nż
+994	1	190820	11:49:00	11:49:00		Bieszczadzka 02 nż
 994	1	190820	11:50:00	11:50:00		Rymanowska 01 nż
+994	1	190820	11:50:00	11:50:00		Rymanowska 01 nż
+994	1	190820	11:51:00	11:51:00		Matuszczaka pętla 04
 994	1	190820	11:51:00	11:51:00		Matuszczaka pętla 04
 
 982	1	191680	12:25:00	12:25:00		Matuszczaka pętla 04
+982	1	191680	12:25:00	12:25:00		Matuszczaka pętla 04
+982	1	191680	12:26:00	12:26:00		Rymanowska 02 nż
 982	1	191680	12:26:00	12:26:00		Rymanowska 02 nż
 982	1	191680	12:27:00	12:27:00		Bieszczadzka 01 nż
+982	1	191680	12:27:00	12:27:00		Bieszczadzka 01 nż
+982	1	191680	12:28:00	12:28:00		Podkarpacka / Matuszczaka 03
 982	1	191680	12:28:00	12:28:00		Podkarpacka / Matuszczaka 03
 982	1	191680	12:30:00	12:30:00		Podkarpacka Politechnika 01
+982	1	191680	12:30:00	12:30:00		Podkarpacka Politechnika 01
+982	1	191680	12:32:00	12:32:00		Dąbrowskiego Instytut Muzyki 07
 982	1	191680	12:32:00	12:32:00		Dąbrowskiego Instytut Muzyki 07
 982	1	191680	12:33:00	12:33:00		Dąbrowskiego KW Policji 03
+982	1	191680	12:33:00	12:33:00		Dąbrowskiego KW Policji 03
+982	1	191680	12:34:00	12:34:00		Dąbrowskiego park 01 nż
 982	1	191680	12:34:00	12:34:00		Dąbrowskiego park 01 nż
 982	1	191680	12:37:00	12:37:00		Lisa-Kuli 02
+982	1	191680	12:37:00	12:37:00		Lisa-Kuli 02
+982	1	191680	12:38:00	12:38:00		Cieplińskiego 01
 982	1	191680	12:38:00	12:38:00		Cieplińskiego 01
 982	1	191680	12:40:00	12:40:00		Piłsudskiego U. Marszałkowski 08
+982	1	191680	12:40:00	12:40:00		Piłsudskiego U. Marszałkowski 08
+982	1	191680	12:42:00	12:42:00		Krakowska Jedn. Wojskowa 02
 982	1	191680	12:42:00	12:42:00		Krakowska Jedn. Wojskowa 02
 982	1	191680	12:44:00	12:44:00		Okulickiego C. Handlowe 02
+982	1	191680	12:44:00	12:44:00		Okulickiego C. Handlowe 02
+982	1	191680	12:45:00	12:45:00		Okulickiego / Zwierzyniecka 04 nż
 982	1	191680	12:45:00	12:45:00		Okulickiego / Zwierzyniecka 04 nż
 982	1	191680	12:46:00	12:46:00		Wyzwolenia / Iranka-Osmeckiego 06
+982	1	191680	12:46:00	12:46:00		Wyzwolenia / Iranka-Osmeckiego 06
+982	1	191680	12:47:00	12:47:00		Wyzwolenia / Brydaka 08
 982	1	191680	12:47:00	12:47:00		Wyzwolenia / Brydaka 08
 982	1	191680	12:48:00	12:48:00		Ofiar Katynia / Wyzwolenia 02
+982	1	191680	12:48:00	12:48:00		Ofiar Katynia / Wyzwolenia 02
 982	1	191680	12:49:00	12:49:00		Ofiar Katynia kładka 04
+982	1	191680	12:49:00	12:49:00		Ofiar Katynia kładka 04
+982	1	191680	12:51:00	12:51:00		Mikołajczyka pętla 01
 982	1	191680	12:51:00	12:51:00		Mikołajczyka pętla 01
 
 994	1	191867	13:28:00	13:28:00		Mikołajczyka pętla 03
+994	1	191867	13:28:00	13:28:00		Mikołajczyka pętla 03
+994	1	191867	13:29:00	13:29:00		Ofiar Katynia kładka 01
 994	1	191867	13:29:00	13:29:00		Ofiar Katynia kładka 01
 994	1	191867	13:30:00	13:30:00		Wyzwolenia / Ofiar Katynia 07
+994	1	191867	13:30:00	13:30:00		Wyzwolenia / Ofiar Katynia 07
+994	1	191867	13:31:00	13:31:00		Wyzwolenia kościół 05
 994	1	191867	13:31:00	13:31:00		Wyzwolenia kościół 05
 994	1	191867	13:32:00	13:32:00		Okulickiego / Wyzwolenia 05 nż
+994	1	191867	13:32:00	13:32:00		Okulickiego / Wyzwolenia 05 nż
+994	1	191867	13:33:00	13:33:00		Okulickiego / Zwierzyniecka 03 nż
 994	1	191867	13:33:00	13:33:00		Okulickiego / Zwierzyniecka 03 nż
 994	1	191867	13:34:00	13:34:00		Okulickiego C. Handlowe 01
+994	1	191867	13:34:00	13:34:00		Okulickiego C. Handlowe 01
+994	1	191867	13:37:00	13:37:00		Krakowska Jedn. Wojskowa 01
 994	1	191867	13:37:00	13:37:00		Krakowska Jedn. Wojskowa 01
 994	1	191867	13:39:00	13:39:00		Piłsudskiego U. Marszałkowski 05
+994	1	191867	13:39:00	13:39:00		Piłsudskiego U. Marszałkowski 05
+994	1	191867	13:40:00	13:40:00		Cieplińskiego 02
 994	1	191867	13:40:00	13:40:00		Cieplińskiego 02
 994	1	191867	13:41:00	13:41:00		Lisa-Kuli 01
+994	1	191867	13:41:00	13:41:00		Lisa-Kuli 01
+994	1	191867	13:43:00	13:43:00		Dąbrowskiego park 02 nż
 994	1	191867	13:43:00	13:43:00		Dąbrowskiego park 02 nż
 994	1	191867	13:44:00	13:44:00		Dąbrowskiego KW Policji 04
+994	1	191867	13:44:00	13:44:00		Dąbrowskiego KW Policji 04
+994	1	191867	13:45:00	13:45:00		Dąbrowskiego / Bat. Chłopskich 10
 994	1	191867	13:45:00	13:45:00		Dąbrowskiego / Bat. Chłopskich 10
 994	1	191867	13:48:00	13:48:00		Podkarpacka Politechnika 02
+994	1	191867	13:48:00	13:48:00		Podkarpacka Politechnika 02
+994	1	191867	13:49:00	13:49:00		Podkarpacka / Matuszczaka 04
 994	1	191867	13:49:00	13:49:00		Podkarpacka / Matuszczaka 04
 994	1	191867	13:50:00	13:50:00		Bieszczadzka 02 nż
+994	1	191867	13:50:00	13:50:00		Bieszczadzka 02 nż
 994	1	191867	13:51:00	13:51:00		Rymanowska 01 nż
+994	1	191867	13:51:00	13:51:00		Rymanowska 01 nż
+994	1	191867	13:52:00	13:52:00		Matuszczaka pętla 04
 994	1	191867	13:52:00	13:52:00		Matuszczaka pętla 04
 
 982	1	191180	14:25:00	14:25:00		Matuszczaka pętla 04
+982	1	191180	14:25:00	14:25:00		Matuszczaka pętla 04
+982	1	191180	14:26:00	14:26:00		Rymanowska 02 nż
 982	1	191180	14:26:00	14:26:00		Rymanowska 02 nż
 982	1	191180	14:27:00	14:27:00		Bieszczadzka 01 nż
+982	1	191180	14:27:00	14:27:00		Bieszczadzka 01 nż
+982	1	191180	14:28:00	14:28:00		Podkarpacka / Matuszczaka 03
 982	1	191180	14:28:00	14:28:00		Podkarpacka / Matuszczaka 03
 982	1	191180	14:30:00	14:30:00		Podkarpacka Politechnika 01
+982	1	191180	14:30:00	14:30:00		Podkarpacka Politechnika 01
+982	1	191180	14:32:00	14:32:00		Dąbrowskiego Instytut Muzyki 07
 982	1	191180	14:32:00	14:32:00		Dąbrowskiego Instytut Muzyki 07
 982	1	191180	14:33:00	14:33:00		Dąbrowskiego KW Policji 03
+982	1	191180	14:33:00	14:33:00		Dąbrowskiego KW Policji 03
+982	1	191180	14:34:00	14:34:00		Dąbrowskiego park 01 nż
 982	1	191180	14:34:00	14:34:00		Dąbrowskiego park 01 nż
 982	1	191180	14:37:00	14:37:00		Lisa-Kuli 02
+982	1	191180	14:37:00	14:37:00		Lisa-Kuli 02
+982	1	191180	14:38:00	14:38:00		Cieplińskiego 01
 982	1	191180	14:38:00	14:38:00		Cieplińskiego 01
 982	1	191180	14:40:00	14:40:00		Piłsudskiego U. Marszałkowski 08
+982	1	191180	14:40:00	14:40:00		Piłsudskiego U. Marszałkowski 08
+982	1	191180	14:42:00	14:42:00		Krakowska Jedn. Wojskowa 02
 982	1	191180	14:42:00	14:42:00		Krakowska Jedn. Wojskowa 02
 982	1	191180	14:44:00	14:44:00		Okulickiego C. Handlowe 02
+982	1	191180	14:44:00	14:44:00		Okulickiego C. Handlowe 02
+982	1	191180	14:45:00	14:45:00		Okulickiego / Zwierzyniecka 04 nż
 982	1	191180	14:45:00	14:45:00		Okulickiego / Zwierzyniecka 04 nż
 982	1	191180	14:46:00	14:46:00		Wyzwolenia / Iranka-Osmeckiego 06
+982	1	191180	14:46:00	14:46:00		Wyzwolenia / Iranka-Osmeckiego 06
+982	1	191180	14:47:00	14:47:00		Wyzwolenia / Brydaka 08
 982	1	191180	14:47:00	14:47:00		Wyzwolenia / Brydaka 08
 982	1	191180	14:48:00	14:48:00		Ofiar Katynia / Wyzwolenia 02
+982	1	191180	14:48:00	14:48:00		Ofiar Katynia / Wyzwolenia 02
 982	1	191180	14:49:00	14:49:00		Ofiar Katynia kładka 04
+982	1	191180	14:49:00	14:49:00		Ofiar Katynia kładka 04
+982	1	191180	14:51:00	14:51:00		Mikołajczyka pętla 01
 982	1	191180	14:51:00	14:51:00		Mikołajczyka pętla 01
 
 994	1	189659	15:28:00	15:28:00		Mikołajczyka pętla 03
+994	1	189659	15:28:00	15:28:00		Mikołajczyka pętla 03
+994	1	189659	15:29:00	15:29:00		Ofiar Katynia kładka 01
 994	1	189659	15:29:00	15:29:00		Ofiar Katynia kładka 01
 994	1	189659	15:30:00	15:30:00		Wyzwolenia / Ofiar Katynia 07
+994	1	189659	15:30:00	15:30:00		Wyzwolenia / Ofiar Katynia 07
+994	1	189659	15:31:00	15:31:00		Wyzwolenia kościół 05
 994	1	189659	15:31:00	15:31:00		Wyzwolenia kościół 05
 994	1	189659	15:32:00	15:32:00		Okulickiego / Wyzwolenia 05 nż
+994	1	189659	15:32:00	15:32:00		Okulickiego / Wyzwolenia 05 nż
+994	1	189659	15:33:00	15:33:00		Okulickiego / Zwierzyniecka 03 nż
 994	1	189659	15:33:00	15:33:00		Okulickiego / Zwierzyniecka 03 nż
 994	1	189659	15:34:00	15:34:00		Okulickiego C. Handlowe 01
+994	1	189659	15:34:00	15:34:00		Okulickiego C. Handlowe 01
+994	1	189659	15:37:00	15:37:00		Krakowska Jedn. Wojskowa 01
 994	1	189659	15:37:00	15:37:00		Krakowska Jedn. Wojskowa 01
 994	1	189659	15:39:00	15:39:00		Piłsudskiego U. Marszałkowski 05
+994	1	189659	15:39:00	15:39:00		Piłsudskiego U. Marszałkowski 05
+994	1	189659	15:40:00	15:40:00		Cieplińskiego 02
 994	1	189659	15:40:00	15:40:00		Cieplińskiego 02
 994	1	189659	15:41:00	15:41:00		Lisa-Kuli 01
+994	1	189659	15:41:00	15:41:00		Lisa-Kuli 01
+994	1	189659	15:43:00	15:43:00		Dąbrowskiego park 02 nż
 994	1	189659	15:43:00	15:43:00		Dąbrowskiego park 02 nż
 994	1	189659	15:44:00	15:44:00		Dąbrowskiego KW Policji 04
+994	1	189659	15:44:00	15:44:00		Dąbrowskiego KW Policji 04
+994	1	189659	15:45:00	15:45:00		Dąbrowskiego / Bat. Chłopskich 10
 994	1	189659	15:45:00	15:45:00		Dąbrowskiego / Bat. Chłopskich 10
 994	1	189659	15:48:00	15:48:00		Podkarpacka Politechnika 02
+994	1	189659	15:48:00	15:48:00		Podkarpacka Politechnika 02
+994	1	189659	15:49:00	15:49:00		Podkarpacka / Matuszczaka 04
 994	1	189659	15:49:00	15:49:00		Podkarpacka / Matuszczaka 04
 994	1	189659	15:50:00	15:50:00		Bieszczadzka 02 nż
+994	1	189659	15:50:00	15:50:00		Bieszczadzka 02 nż
 994	1	189659	15:51:00	15:51:00		Rymanowska 01 nż
+994	1	189659	15:51:00	15:51:00		Rymanowska 01 nż
+994	1	189659	15:52:00	15:52:00		Matuszczaka pętla 04
 994	1	189659	15:52:00	15:52:00		Matuszczaka pętla 04
 
 982	1	190395	16:25:00	16:25:00		Matuszczaka pętla 04
+982	1	190395	16:25:00	16:25:00		Matuszczaka pętla 04
+982	1	190395	16:26:00	16:26:00		Rymanowska 02 nż
 982	1	190395	16:26:00	16:26:00		Rymanowska 02 nż
 982	1	190395	16:27:00	16:27:00		Bieszczadzka 01 nż
+982	1	190395	16:27:00	16:27:00		Bieszczadzka 01 nż
+982	1	190395	16:28:00	16:28:00		Podkarpacka / Matuszczaka 03
 982	1	190395	16:28:00	16:28:00		Podkarpacka / Matuszczaka 03
 982	1	190395	16:30:00	16:30:00		Podkarpacka Politechnika 01
+982	1	190395	16:30:00	16:30:00		Podkarpacka Politechnika 01
+982	1	190395	16:32:00	16:32:00		Dąbrowskiego Instytut Muzyki 07
 982	1	190395	16:32:00	16:32:00		Dąbrowskiego Instytut Muzyki 07
 982	1	190395	16:33:00	16:33:00		Dąbrowskiego KW Policji 03
+982	1	190395	16:33:00	16:33:00		Dąbrowskiego KW Policji 03
+982	1	190395	16:34:00	16:34:00		Dąbrowskiego park 01 nż
 982	1	190395	16:34:00	16:34:00		Dąbrowskiego park 01 nż
 982	1	190395	16:37:00	16:37:00		Lisa-Kuli 02
+982	1	190395	16:37:00	16:37:00		Lisa-Kuli 02
+982	1	190395	16:38:00	16:38:00		Cieplińskiego 01
 982	1	190395	16:38:00	16:38:00		Cieplińskiego 01
 982	1	190395	16:40:00	16:40:00		Piłsudskiego U. Marszałkowski 08
+982	1	190395	16:40:00	16:40:00		Piłsudskiego U. Marszałkowski 08
+982	1	190395	16:42:00	16:42:00		Krakowska Jedn. Wojskowa 02
 982	1	190395	16:42:00	16:42:00		Krakowska Jedn. Wojskowa 02
 982	1	190395	16:44:00	16:44:00		Okulickiego C. Handlowe 02
+982	1	190395	16:44:00	16:44:00		Okulickiego C. Handlowe 02
+982	1	190395	16:45:00	16:45:00		Okulickiego / Zwierzyniecka 04 nż
 982	1	190395	16:45:00	16:45:00		Okulickiego / Zwierzyniecka 04 nż
 982	1	190395	16:46:00	16:46:00		Wyzwolenia / Iranka-Osmeckiego 06
+982	1	190395	16:46:00	16:46:00		Wyzwolenia / Iranka-Osmeckiego 06
+982	1	190395	16:47:00	16:47:00		Wyzwolenia / Brydaka 08
 982	1	190395	16:47:00	16:47:00		Wyzwolenia / Brydaka 08
 982	1	190395	16:48:00	16:48:00		Ofiar Katynia / Wyzwolenia 02
+982	1	190395	16:48:00	16:48:00		Ofiar Katynia / Wyzwolenia 02
 982	1	190395	16:49:00	16:49:00		Ofiar Katynia kładka 04
+982	1	190395	16:49:00	16:49:00		Ofiar Katynia kładka 04
+982	1	190395	16:51:00	16:51:00		Mikołajczyka pętla 01
 982	1	190395	16:51:00	16:51:00		Mikołajczyka pętla 01
 
 994	1	189605	17:08:00	17:08:00		Mikołajczyka pętla 03
+994	1	189605	17:08:00	17:08:00		Mikołajczyka pętla 03
+994	1	189605	17:09:00	17:09:00		Ofiar Katynia kładka 01
 994	1	189605	17:09:00	17:09:00		Ofiar Katynia kładka 01
 994	1	189605	17:10:00	17:10:00		Wyzwolenia / Ofiar Katynia 07
+994	1	189605	17:10:00	17:10:00		Wyzwolenia / Ofiar Katynia 07
+994	1	189605	17:11:00	17:11:00		Wyzwolenia kościół 05
 994	1	189605	17:11:00	17:11:00		Wyzwolenia kościół 05
 994	1	189605	17:12:00	17:12:00		Okulickiego / Wyzwolenia 05 nż
+994	1	189605	17:12:00	17:12:00		Okulickiego / Wyzwolenia 05 nż
+994	1	189605	17:13:00	17:13:00		Okulickiego / Zwierzyniecka 03 nż
 994	1	189605	17:13:00	17:13:00		Okulickiego / Zwierzyniecka 03 nż
 994	1	189605	17:14:00	17:14:00		Okulickiego C. Handlowe 01
+994	1	189605	17:14:00	17:14:00		Okulickiego C. Handlowe 01
+994	1	189605	17:17:00	17:17:00		Krakowska Jedn. Wojskowa 01
 994	1	189605	17:17:00	17:17:00		Krakowska Jedn. Wojskowa 01
 994	1	189605	17:19:00	17:19:00		Piłsudskiego U. Marszałkowski 05
+994	1	189605	17:19:00	17:19:00		Piłsudskiego U. Marszałkowski 05
+994	1	189605	17:20:00	17:20:00		Cieplińskiego 02
 994	1	189605	17:20:00	17:20:00		Cieplińskiego 02
 994	1	189605	17:21:00	17:21:00		Lisa-Kuli 01
+994	1	189605	17:21:00	17:21:00		Lisa-Kuli 01
+994	1	189605	17:23:00	17:23:00		Dąbrowskiego park 02 nż
 994	1	189605	17:23:00	17:23:00		Dąbrowskiego park 02 nż
 994	1	189605	17:24:00	17:24:00		Dąbrowskiego KW Policji 04
+994	1	189605	17:24:00	17:24:00		Dąbrowskiego KW Policji 04
+994	1	189605	17:25:00	17:25:00		Dąbrowskiego / Bat. Chłopskich 10
 994	1	189605	17:25:00	17:25:00		Dąbrowskiego / Bat. Chłopskich 10
 994	1	189605	17:28:00	17:28:00		Podkarpacka Politechnika 02
+994	1	189605	17:28:00	17:28:00		Podkarpacka Politechnika 02
+994	1	189605	17:29:00	17:29:00		Podkarpacka / Matuszczaka 04
 994	1	189605	17:29:00	17:29:00		Podkarpacka / Matuszczaka 04
 994	1	189605	17:30:00	17:30:00		Bieszczadzka 02 nż
+994	1	189605	17:30:00	17:30:00		Bieszczadzka 02 nż
 994	1	189605	17:31:00	17:31:00		Rymanowska 01 nż
+994	1	189605	17:31:00	17:31:00		Rymanowska 01 nż
+994	1	189605	17:32:00	17:32:00		Matuszczaka pętla 04
 994	1	189605	17:32:00	17:32:00		Matuszczaka pętla 04
 
 982	1	191704	18:05:00	18:05:00		Matuszczaka pętla 04
+982	1	191704	18:05:00	18:05:00		Matuszczaka pętla 04
+982	1	191704	18:06:00	18:06:00		Rymanowska 02 nż
 982	1	191704	18:06:00	18:06:00		Rymanowska 02 nż
 982	1	191704	18:07:00	18:07:00		Bieszczadzka 01 nż
+982	1	191704	18:07:00	18:07:00		Bieszczadzka 01 nż
+982	1	191704	18:08:00	18:08:00		Podkarpacka / Matuszczaka 03
 982	1	191704	18:08:00	18:08:00		Podkarpacka / Matuszczaka 03
 982	1	191704	18:10:00	18:10:00		Podkarpacka Politechnika 01
+982	1	191704	18:10:00	18:10:00		Podkarpacka Politechnika 01
+982	1	191704	18:12:00	18:12:00		Dąbrowskiego Instytut Muzyki 07
 982	1	191704	18:12:00	18:12:00		Dąbrowskiego Instytut Muzyki 07
 982	1	191704	18:13:00	18:13:00		Dąbrowskiego KW Policji 03
+982	1	191704	18:13:00	18:13:00		Dąbrowskiego KW Policji 03
+982	1	191704	18:14:00	18:14:00		Dąbrowskiego park 01 nż
 982	1	191704	18:14:00	18:14:00		Dąbrowskiego park 01 nż
 982	1	191704	18:17:00	18:17:00		Lisa-Kuli 02
+982	1	191704	18:17:00	18:17:00		Lisa-Kuli 02
+982	1	191704	18:18:00	18:18:00		Cieplińskiego 01
 982	1	191704	18:18:00	18:18:00		Cieplińskiego 01
 982	1	191704	18:20:00	18:20:00		Piłsudskiego U. Marszałkowski 08
+982	1	191704	18:20:00	18:20:00		Piłsudskiego U. Marszałkowski 08
+982	1	191704	18:22:00	18:22:00		Krakowska Jedn. Wojskowa 02
 982	1	191704	18:22:00	18:22:00		Krakowska Jedn. Wojskowa 02
 982	1	191704	18:24:00	18:24:00		Okulickiego C. Handlowe 02
+982	1	191704	18:24:00	18:24:00		Okulickiego C. Handlowe 02
+982	1	191704	18:25:00	18:25:00		Okulickiego / Zwierzyniecka 04 nż
 982	1	191704	18:25:00	18:25:00		Okulickiego / Zwierzyniecka 04 nż
 982	1	191704	18:26:00	18:26:00		Wyzwolenia / Iranka-Osmeckiego 06
+982	1	191704	18:26:00	18:26:00		Wyzwolenia / Iranka-Osmeckiego 06
+982	1	191704	18:27:00	18:27:00		Wyzwolenia / Brydaka 08
 982	1	191704	18:27:00	18:27:00		Wyzwolenia / Brydaka 08
 982	1	191704	18:28:00	18:28:00		Ofiar Katynia / Wyzwolenia 02
+982	1	191704	18:28:00	18:28:00		Ofiar Katynia / Wyzwolenia 02
 982	1	191704	18:29:00	18:29:00		Ofiar Katynia kładka 04
+982	1	191704	18:29:00	18:29:00		Ofiar Katynia kładka 04
+982	1	191704	18:31:00	18:31:00		Mikołajczyka pętla 01
 982	1	191704	18:31:00	18:31:00		Mikołajczyka pętla 01
 
 994	1	191712	18:48:00	18:48:00		Mikołajczyka pętla 03
+994	1	191712	18:48:00	18:48:00		Mikołajczyka pętla 03
+994	1	191712	18:49:00	18:49:00		Ofiar Katynia kładka 01
 994	1	191712	18:49:00	18:49:00		Ofiar Katynia kładka 01
 994	1	191712	18:50:00	18:50:00		Wyzwolenia / Ofiar Katynia 07
+994	1	191712	18:50:00	18:50:00		Wyzwolenia / Ofiar Katynia 07
+994	1	191712	18:51:00	18:51:00		Wyzwolenia kościół 05
 994	1	191712	18:51:00	18:51:00		Wyzwolenia kościół 05
 994	1	191712	18:52:00	18:52:00		Okulickiego / Wyzwolenia 05 nż
+994	1	191712	18:52:00	18:52:00		Okulickiego / Wyzwolenia 05 nż
+994	1	191712	18:53:00	18:53:00		Okulickiego / Zwierzyniecka 03 nż
 994	1	191712	18:53:00	18:53:00		Okulickiego / Zwierzyniecka 03 nż
 994	1	191712	18:54:00	18:54:00		Okulickiego C. Handlowe 01
+994	1	191712	18:54:00	18:54:00		Okulickiego C. Handlowe 01
+994	1	191712	18:57:00	18:57:00		Krakowska Jedn. Wojskowa 01
 994	1	191712	18:57:00	18:57:00		Krakowska Jedn. Wojskowa 01
 994	1	191712	18:59:00	18:59:00		Piłsudskiego U. Marszałkowski 05
+994	1	191712	18:59:00	18:59:00		Piłsudskiego U. Marszałkowski 05
+994	1	191712	19:00:00	19:00:00		Cieplińskiego 02
 994	1	191712	19:00:00	19:00:00		Cieplińskiego 02
 994	1	191712	19:01:00	19:01:00		Lisa-Kuli 01
+994	1	191712	19:01:00	19:01:00		Lisa-Kuli 01
+994	1	191712	19:03:00	19:03:00		Dąbrowskiego park 02 nż
 994	1	191712	19:03:00	19:03:00		Dąbrowskiego park 02 nż
 994	1	191712	19:04:00	19:04:00		Dąbrowskiego KW Policji 04
+994	1	191712	19:04:00	19:04:00		Dąbrowskiego KW Policji 04
+994	1	191712	19:05:00	19:05:00		Dąbrowskiego / Bat. Chłopskich 10
 994	1	191712	19:05:00	19:05:00		Dąbrowskiego / Bat. Chłopskich 10
 994	1	191712	19:07:00	19:07:00		Podkarpacka Politechnika 02
+994	1	191712	19:07:00	19:07:00		Podkarpacka Politechnika 02
+994	1	191712	19:08:00	19:08:00		Podkarpacka / Matuszczaka 04
 994	1	191712	19:08:00	19:08:00		Podkarpacka / Matuszczaka 04
 994	1	191712	19:09:00	19:09:00		Bieszczadzka 02 nż
+994	1	191712	19:09:00	19:09:00		Bieszczadzka 02 nż
 994	1	191712	19:10:00	19:10:00		Rymanowska 01 nż
+994	1	191712	19:10:00	19:10:00		Rymanowska 01 nż
+994	1	191712	19:11:00	19:11:00		Matuszczaka pętla 04
 994	1	191712	19:11:00	19:11:00		Matuszczaka pętla 04
 
 982	1	190463	19:46:00	19:46:00		Matuszczaka pętla 04
+982	1	190463	19:46:00	19:46:00		Matuszczaka pętla 04
+982	1	190463	19:47:00	19:47:00		Rymanowska 02 nż
 982	1	190463	19:47:00	19:47:00		Rymanowska 02 nż
 982	1	190463	19:48:00	19:48:00		Bieszczadzka 01 nż
+982	1	190463	19:48:00	19:48:00		Bieszczadzka 01 nż
+982	1	190463	19:49:00	19:49:00		Podkarpacka / Matuszczaka 03
 982	1	190463	19:49:00	19:49:00		Podkarpacka / Matuszczaka 03
 982	1	190463	19:50:00	19:50:00		Podkarpacka Politechnika 01
+982	1	190463	19:50:00	19:50:00		Podkarpacka Politechnika 01
+982	1	190463	19:52:00	19:52:00		Dąbrowskiego Instytut Muzyki 07
 982	1	190463	19:52:00	19:52:00		Dąbrowskiego Instytut Muzyki 07
 982	1	190463	19:53:00	19:53:00		Dąbrowskiego KW Policji 03
+982	1	190463	19:53:00	19:53:00		Dąbrowskiego KW Policji 03
+982	1	190463	19:54:00	19:54:00		Dąbrowskiego park 01 nż
 982	1	190463	19:54:00	19:54:00		Dąbrowskiego park 01 nż
 982	1	190463	19:57:00	19:57:00		Lisa-Kuli 02
+982	1	190463	19:57:00	19:57:00		Lisa-Kuli 02
+982	1	190463	19:58:00	19:58:00		Cieplińskiego 01
 982	1	190463	19:58:00	19:58:00		Cieplińskiego 01
 982	1	190463	20:00:00	20:00:00		Piłsudskiego U. Marszałkowski 08
+982	1	190463	20:00:00	20:00:00		Piłsudskiego U. Marszałkowski 08
+982	1	190463	20:02:00	20:02:00		Krakowska Jedn. Wojskowa 02
 982	1	190463	20:02:00	20:02:00		Krakowska Jedn. Wojskowa 02
 982	1	190463	20:03:00	20:03:00		Okulickiego C. Handlowe 02
+982	1	190463	20:03:00	20:03:00		Okulickiego C. Handlowe 02
+982	1	190463	20:04:00	20:04:00		Okulickiego / Zwierzyniecka 04 nż
 982	1	190463	20:04:00	20:04:00		Okulickiego / Zwierzyniecka 04 nż
 982	1	190463	20:05:00	20:05:00		Wyzwolenia / Iranka-Osmeckiego 06
+982	1	190463	20:05:00	20:05:00		Wyzwolenia / Iranka-Osmeckiego 06
+982	1	190463	20:06:00	20:06:00		Wyzwolenia / Brydaka 08
 982	1	190463	20:06:00	20:06:00		Wyzwolenia / Brydaka 08
 982	1	190463	20:07:00	20:07:00		Ofiar Katynia / Wyzwolenia 02
+982	1	190463	20:07:00	20:07:00		Ofiar Katynia / Wyzwolenia 02
 982	1	190463	20:08:00	20:08:00		Ofiar Katynia kładka 04
+982	1	190463	20:08:00	20:08:00		Ofiar Katynia kładka 04
+982	1	190463	20:10:00	20:10:00		Mikołajczyka pętla 01
 982	1	190463	20:10:00	20:10:00		Mikołajczyka pętla 01
 
 994	1	189326	20:49:00	20:49:00		Mikołajczyka pętla 03
+994	1	189326	20:49:00	20:49:00		Mikołajczyka pętla 03
+994	1	189326	20:50:00	20:50:00		Ofiar Katynia kładka 01
 994	1	189326	20:50:00	20:50:00		Ofiar Katynia kładka 01
 994	1	189326	20:51:00	20:51:00		Wyzwolenia / Ofiar Katynia 07
+994	1	189326	20:51:00	20:51:00		Wyzwolenia / Ofiar Katynia 07
+994	1	189326	20:52:00	20:52:00		Wyzwolenia kościół 05
 994	1	189326	20:52:00	20:52:00		Wyzwolenia kościół 05
 994	1	189326	20:53:00	20:53:00		Okulickiego / Wyzwolenia 05 nż
+994	1	189326	20:53:00	20:53:00		Okulickiego / Wyzwolenia 05 nż
+994	1	189326	20:54:00	20:54:00		Okulickiego / Zwierzyniecka 03 nż
 994	1	189326	20:54:00	20:54:00		Okulickiego / Zwierzyniecka 03 nż
 994	1	189326	20:55:00	20:55:00		Okulickiego C. Handlowe 01
+994	1	189326	20:55:00	20:55:00		Okulickiego C. Handlowe 01
+994	1	189326	20:57:00	20:57:00		Krakowska Jedn. Wojskowa 01
 994	1	189326	20:57:00	20:57:00		Krakowska Jedn. Wojskowa 01
 994	1	189326	20:59:00	20:59:00		Piłsudskiego U. Marszałkowski 05
+994	1	189326	20:59:00	20:59:00		Piłsudskiego U. Marszałkowski 05
+994	1	189326	21:00:00	21:00:00		Cieplińskiego 02
 994	1	189326	21:00:00	21:00:00		Cieplińskiego 02
 994	1	189326	21:01:00	21:01:00		Lisa-Kuli 01
+994	1	189326	21:01:00	21:01:00		Lisa-Kuli 01
+994	1	189326	21:03:00	21:03:00		Dąbrowskiego park 02 nż
 994	1	189326	21:03:00	21:03:00		Dąbrowskiego park 02 nż
 994	1	189326	21:04:00	21:04:00		Dąbrowskiego KW Policji 04
+994	1	189326	21:04:00	21:04:00		Dąbrowskiego KW Policji 04
+994	1	189326	21:05:00	21:05:00		Dąbrowskiego / Bat. Chłopskich 10
 994	1	189326	21:05:00	21:05:00		Dąbrowskiego / Bat. Chłopskich 10
 994	1	189326	21:07:00	21:07:00		Podkarpacka Politechnika 02
+994	1	189326	21:07:00	21:07:00		Podkarpacka Politechnika 02
+994	1	189326	21:08:00	21:08:00		Podkarpacka / Matuszczaka 04
 994	1	189326	21:08:00	21:08:00		Podkarpacka / Matuszczaka 04
 994	1	189326	21:09:00	21:09:00		Bieszczadzka 02 nż
+994	1	189326	21:09:00	21:09:00		Bieszczadzka 02 nż
 994	1	189326	21:10:00	21:10:00		Rymanowska 01 nż
+994	1	189326	21:10:00	21:10:00		Rymanowska 01 nż
+994	1	189326	21:11:00	21:11:00		Matuszczaka pętla 04
 994	1	189326	21:11:00	21:11:00		Matuszczaka pętla 04
 
 982	1	191877	21:46:00	21:46:00		Matuszczaka pętla 04
+982	1	191877	21:46:00	21:46:00		Matuszczaka pętla 04
+982	1	191877	21:47:00	21:47:00		Rymanowska 02 nż
 982	1	191877	21:47:00	21:47:00		Rymanowska 02 nż
 982	1	191877	21:48:00	21:48:00		Bieszczadzka 01 nż
+982	1	191877	21:48:00	21:48:00		Bieszczadzka 01 nż
+982	1	191877	21:49:00	21:49:00		Podkarpacka / Matuszczaka 03
 982	1	191877	21:49:00	21:49:00		Podkarpacka / Matuszczaka 03
 982	1	191877	21:50:00	21:50:00		Podkarpacka Politechnika 01
+982	1	191877	21:50:00	21:50:00		Podkarpacka Politechnika 01
+982	1	191877	21:52:00	21:52:00		Dąbrowskiego Instytut Muzyki 07
 982	1	191877	21:52:00	21:52:00		Dąbrowskiego Instytut Muzyki 07
 982	1	191877	21:53:00	21:53:00		Dąbrowskiego KW Policji 03
+982	1	191877	21:53:00	21:53:00		Dąbrowskiego KW Policji 03
+982	1	191877	21:54:00	21:54:00		Dąbrowskiego park 01 nż
 982	1	191877	21:54:00	21:54:00		Dąbrowskiego park 01 nż
 982	1	191877	21:57:00	21:57:00		Lisa-Kuli 02
+982	1	191877	21:57:00	21:57:00		Lisa-Kuli 02
+982	1	191877	21:58:00	21:58:00		Cieplińskiego 01
 982	1	191877	21:58:00	21:58:00		Cieplińskiego 01
 982	1	191877	22:00:00	22:00:00		Piłsudskiego U. Marszałkowski 08
+982	1	191877	22:00:00	22:00:00		Piłsudskiego U. Marszałkowski 08
+982	1	191877	22:02:00	22:02:00		Krakowska Jedn. Wojskowa 02
 982	1	191877	22:02:00	22:02:00		Krakowska Jedn. Wojskowa 02
 982	1	191877	22:03:00	22:03:00		Okulickiego C. Handlowe 02
+982	1	191877	22:03:00	22:03:00		Okulickiego C. Handlowe 02
+982	1	191877	22:04:00	22:04:00		Okulickiego / Zwierzyniecka 04 nż
 982	1	191877	22:04:00	22:04:00		Okulickiego / Zwierzyniecka 04 nż
 982	1	191877	22:05:00	22:05:00		Wyzwolenia / Iranka-Osmeckiego 06
+982	1	191877	22:05:00	22:05:00		Wyzwolenia / Iranka-Osmeckiego 06
+982	1	191877	22:06:00	22:06:00		Wyzwolenia / Brydaka 08
 982	1	191877	22:06:00	22:06:00		Wyzwolenia / Brydaka 08
 982	1	191877	22:07:00	22:07:00		Ofiar Katynia / Wyzwolenia 02
+982	1	191877	22:07:00	22:07:00		Ofiar Katynia / Wyzwolenia 02
 982	1	191877	22:08:00	22:08:00		Ofiar Katynia kładka 04
+982	1	191877	22:08:00	22:08:00		Ofiar Katynia kładka 04
+982	1	191877	22:10:00	22:10:00		Mikołajczyka pętla 01
 982	1	191877	22:10:00	22:10:00		Mikołajczyka pętla 01

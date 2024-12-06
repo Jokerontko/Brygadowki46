@@ -28,7 +28,7 @@ Folder: 31_1
 1523	4	181746	04:31:00	04:31:00		Lubelska Zajezdnia MPK
 1523	4	181746	05:02:00	05:02:00		Sikorskiego MPGK 20
 
-Folder: 37_1
+Folder: 10024
 [37] Trembeckiego ZTM pętla 01 - Hermanowa Przylasek pętla 03
 1615	4	195681	04:32:00	04:32:00		Trembeckiego ZTM pętla 01
 1615	4	195681	05:20:00	05:20:00		Hermanowa Przylasek pętla 06
@@ -68,7 +68,7 @@ Folder: 0B_1
 1582	4	186501	04:48:00	04:48:00		Dworzec Główny PKP 03
 1582	4	186501	05:15:00	05:15:00		Dworzec Główny PKP 03
 
-Folder: 15_1
+Folder: 10129
 [15] Cieplińskiego 02 - Zwięczycka MPWiK 05 
 1442	4	196737	04:48:00	04:48:00		Cieplińskiego 02
 1442	4	196737	05:03:00	05:03:00		Zwięczycka MPWiK 05
@@ -83,7 +83,7 @@ Folder: 19_2
 1578	4	187045	04:52:00	04:52:00		Miłocińska pętla 01
 1578	4	187045	05:20:00	05:20:00		Łukasiewicza pętla 10
 
-Folder: 15_2
+Folder: 10128
 [15] Piłsudskiego U. Wojewódzki 03 - Olbrachta pętla 09 
 1455	4	196687	04:53:00	04:53:00		Piłsudskiego U. Wojewódzki 03
 1455	4	196687	05:11:00	05:11:00		Olbrachta pętla 09
@@ -213,7 +213,7 @@ Folder: 34_2
 1104	4	175303	05:19:00	05:19:00		Wita Stwosza / Langiewicza 02
 1104	4	175303	05:42:00	05:42:00		Lwowska szpital pętla 02
 
-Folder: 1_2
+Folder: 10141
 [54] Bardowskiego 03 - Głogów Młp. Leniar I 01 nż 
 1635	4	196624	05:20:00	05:20:00		Bardowskiego 03
 1635	4	196624	05:45:00	05:45:00		Głogów Młp. Leniar I 01 nż
@@ -222,6 +222,11 @@ Folder: 51_1
 [51] Jasionka - Port Lotniczy - Bardowskiego 04 
 1766	4	193379	05:20:00	05:20:00		Jasionka - Port Lotniczy
 1766	4	193379	05:47:00	05:47:00		Bardowskiego 04
+
+Folder: 10024
+[37] Hermanowa Przylasek pętla 06 - Trembeckiego ZTM pętla 01 
+1616	4	195660	05:22:00	05:22:00		Hermanowa Przylasek pętla 06
+1616	4	195660	06:13:00	06:13:00		Trembeckiego ZTM pętla 01
 
 Folder: 17_4
 [34] Błękitne Wzgórze / Leśne Wzgórze 03 - Lwowska szpital pętla 02 
@@ -232,11 +237,6 @@ Folder: 19_3
 [19] Miłocińska pętla 01 - Łukasiewicza pętla 10 
 1578	4	186248	05:22:00	05:22:00		Miłocińska pętla 01
 1578	4	186248	05:50:00	05:50:00		Łukasiewicza pętla 10
-
-Folder: 37_1
-[37] Hermanowa Przylasek pętla 06 - Trembeckiego ZTM pętla 01 
-1616	4	195660	05:22:00	05:22:00		Hermanowa Przylasek pętla 06
-1616	4	195660	06:13:00	06:13:00		Trembeckiego ZTM pętla 01
 
 Folder: 43_1
 [20] Bratkowice Las 02 - Bardowskiego 04
@@ -268,7 +268,7 @@ Folder: 12_2
 1615	4	187576	05:27:00	05:27:00		Trembeckiego ZTM pętla 01
 1615	4	187576	06:15:00	06:15:00		Hermanowa Przylasek pętla 06
 
-Folder: 15_2
+Folder: 10128
 [15] Olbrachta pętla 09 - Zwięczycka MPWiK 05 
 1458	4	196735	05:28:00	05:28:00		Olbrachta pętla 09
 1458	4	196735	06:03:00	06:03:00		Zwięczycka MPWiK 05
@@ -278,7 +278,7 @@ Folder: 30_1
 982	4	159781	05:28:00	05:28:00		Matuszczaka pętla 04
 982	4	159781	05:53:00	05:53:00		Mikołajczyka pętla 01
 
-Folder: 15_1
+Folder: 10129
 [15] Zwięczycka MPWiK 05 - Olbrachta pętla 09 p. Jarową
 1454	4	196393	05:29:00	05:29:00		Zwięczycka MPWiK 05
 1454	4	196393	06:11:00	06:11:00		Olbrachta pętla 09
@@ -388,7 +388,7 @@ Folder: 19_5
 1578	4	185824	05:52:00	05:52:00		Miłocińska pętla 01
 1578	4	185824	06:20:00	06:20:00		Łukasiewicza pętla 10
 
-Folder: 11_2
+Folder: 10135
 [11] Potockiego pętla 10 - Matuszczaka pętla 04 
 899	4	196635	05:54:00	05:54:00		Potockiego pętla 10
 899	4	196635	06:24:00	06:24:00		Matuszczaka pętla 04
@@ -438,15 +438,15 @@ Folder: 3_1
 756	4	160107	05:57:00	05:57:00		Boguchwała 97
 756	4	160107	06:33:00	06:33:00		Krakowska granica 15 nż
 
+Folder: 10139
+[3] Krakowska granica 15 - Boguchwała 97 
+760	4	196444	05:58:00	05:58:00		Krakowska granica 15 nż
+760	4	196444	06:30:00	06:30:00		Boguchwała 97
+
 Folder: 30_2
 [30] Matuszczaka pętla 04 - Mikołajczyka pętla 01 
 982	4	185512	05:58:00	05:58:00		Matuszczaka pętla 04
 982	4	185512	06:23:00	06:23:00		Mikołajczyka pętla 01
-
-Folder: 3_2
-[3] Krakowska granica 15 - Boguchwała 97 
-760	4	196444	05:58:00	05:58:00		Krakowska granica 15 nż
-760	4	196444	06:30:00	06:30:00		Boguchwała 97
 
 Folder: 9_1
 [9] Staroniwska pętla 12 - Olbrachta pętla 09 
@@ -503,7 +503,7 @@ Folder: 51_1
 1457	4	193039	06:05:00	06:05:00		Bardowskiego 01
 1457	4	193039	06:39:00	06:39:00		Jasionka EME Aero 02
 
-Folder: 11_1
+Folder: 10136
 [11] Piłsudskiego U. Wojewódzki 03 - Potockiego pętla 10 
 1302	4	196785	06:07:00	06:07:00		Piłsudskiego U. Wojewódzki 03
 1302	4	196785	06:28:00	06:28:00		Potockiego pętla 10
@@ -523,15 +523,15 @@ Folder: 34_2
 89	4	176973	06:09:00	06:09:00		Lwowska szpital pętla 02
 89	4	176973	06:55:00	06:55:00		Błękitne Wzgórze / Leśne Wzgórze 03 nż
 
+Folder: 10141
+[54] Głogów Młp. Zelmer II 02 - Bardowskiego 02
+1629	4	196636	06:10:00	06:10:00		Głogów Młp. Zelmer II 02 nż
+1629	4	196636	06:38:00	06:38:00		Bardowskiego 04
+
 Folder: 18_2
 [18] Obr. Poczty Gdańskiej pętla 08 - Pienińska pętla 03 
 1586	4	186614	06:10:00	06:10:00		Obr. Poczty Gdańskiej pętla 08
 1586	4	186614	06:45:00	06:45:00		Pienińska pętla 03
-
-Folder: 1_2
-[54] Głogów Młp. Zelmer II 02 - Bardowskiego 02
-1629	4	196636	06:10:00	06:10:00		Głogów Młp. Zelmer II 02 nż
-1629	4	196636	06:38:00	06:38:00		Bardowskiego 04
 
 Folder: 17_3
 [17] Przemysłowa U. Celny 05 - Lwowska szpital pętla 02 
@@ -583,15 +583,15 @@ Folder: 0B_1
 1582	4	185553	06:18:00	06:18:00		Dworzec Główny PKP 03
 1582	4	185553	06:47:00	06:47:00		Dworzec Główny PKP 03
 
+Folder: 10140
+[1] Krakowska granica 15 - Spichlerzowa pętla 04 p. Ciepłowniczą EC
+1648	4	196884	06:18:00	06:18:00		Krakowska granica 15 nż
+1648	4	196884	06:55:00	06:55:00		Spichlerzowa pętla 04 nż
+
 Folder: 16_2
 [16] Św. Rocha lasek pętla 11 - Kalinowa pętla 04 
 1287	4	154560	06:18:00	06:18:00		Św. Rocha lasek pętla 11
 1287	4	154560	07:02:00	07:02:00		Kalinowa pętla 04
-
-Folder: 1_1
-[1] Krakowska granica 15 - Spichlerzowa pętla 04 p. Ciepłowniczą EC
-1648	4	196884	06:18:00	06:18:00		Krakowska granica 15 nż
-1648	4	196884	06:55:00	06:55:00		Spichlerzowa pętla 04 nż
 
 Folder: 6_1
 [6] Słocińska pętla 11 - Ustrzycka 06 
@@ -618,6 +618,11 @@ Folder: 19_1
 1578	4	186695	06:22:00	06:22:00		Miłocińska pętla 01
 1578	4	186695	06:55:00	06:55:00		Łukasiewicza pętla 10
 
+Folder: 10024
+[37] Trembeckiego ZTM pętla 01 - Hermanowa Przylasek pętla 03
+1615	4	195695	06:24:00	06:24:00		Trembeckiego ZTM pętla 01
+1615	4	195695	07:17:00	07:17:00		Hermanowa Przylasek pętla 06
+
 Folder: 17_4
 [17] Lwowska szpital pętla 02 - Przemysłowa U. Celny 05 
 1108	4	176221	06:24:00	06:24:00		Lwowska szpital pętla 02
@@ -628,17 +633,12 @@ Folder: 30_3
 994	4	193461	06:24:00	06:24:00		Mikołajczyka pętla 03
 994	4	193461	06:48:00	06:48:00		Matuszczaka pętla 04
 
-Folder: 37_1
-[37] Trembeckiego ZTM pętla 01 - Hermanowa Przylasek pętla 03
-1615	4	195695	06:24:00	06:24:00		Trembeckiego ZTM pętla 01
-1615	4	195695	07:17:00	07:17:00		Hermanowa Przylasek pętla 06
-
 Folder: 35_1
 [35] Bardowskiego 02 - Kielanówka pętla 14 
 1469	4	179803	06:25:00	06:25:00		Bardowskiego 02
 1469	4	179803	06:51:00	06:51:00		Kielanówka pętla 14
 
-Folder: 15_2
+Folder: 10128
 [15] Zwięczycka MPWiK 05 - Olbrachta pętla 09 p. Jarową
 1454	4	196881	06:26:00	06:26:00		Zwięczycka MPWiK 05
 1454	4	196881	07:13:00	07:13:00		Olbrachta pętla 09
@@ -653,7 +653,7 @@ Folder: 30_1
 982	4	160296	06:26:00	06:26:00		Matuszczaka pętla 04
 982	4	160296	06:54:00	06:54:00		Mikołajczyka pętla 01
 
-Folder: 15_1
+Folder: 10129
 [15] Olbrachta pętla 09 - Zwięczycka MPWiK 05 
 1458	4	196779	06:27:00	06:27:00		Olbrachta pętla 09
 1458	4	196779	07:04:00	07:04:00		Zwięczycka MPWiK 05
@@ -723,7 +723,7 @@ Folder: 14_1
 1660	4	188472	06:38:00	06:38:00		Dworzec Lokalny
 1660	4	188472	07:13:00	07:13:00		Kard. K. Wojtyły pętla 03 nż
 
-Folder: 11_1
+Folder: 10136
 [11] Potockiego pętla 10 - Matuszczaka pętla 04 
 899	4	196583	06:39:00	06:39:00		Potockiego pętla 10
 899	4	196583	07:11:00	07:11:00		Matuszczaka pętla 04
@@ -788,7 +788,7 @@ Folder: 8_2
 1606	4	185400	06:51:00	06:51:00		Rudna Wielka zakręt 04 nż
 1606	4	185400	07:43:00	07:43:00		Sikorskiego MPGK 20
 
-Folder: 11_2
+Folder: 10135
 [11] Matuszczaka pętla 04 - Potockiego pętla 10 
 905	4	196602	06:52:00	06:52:00		Matuszczaka pętla 04
 905	4	196602	07:28:00	07:28:00		Potockiego pętla 10
@@ -828,7 +828,7 @@ Folder: 3_1
 760	4	160177	06:56:00	06:56:00		Krakowska granica 15 nż
 760	4	160177	07:30:00	07:30:00		Boguchwała 97
 
-Folder: 3_2
+Folder: 10139
 [3] Boguchwała 97 - Mrowla Otoka pętla 01 
 1084	4	196802	06:57:00	06:57:00		Boguchwała 97
 1084	4	196802	07:43:00	07:43:00		Mrowla Otoka pętla 01
@@ -848,7 +848,7 @@ Folder: 47_1
 880	4	181699	06:58:00	06:58:00		Dworaka targ 01
 880	4	181699	07:25:00	07:25:00		Baligrodzka 01
 
-Folder: 1_1
+Folder: 10140
 [1] Spichlerzowa pętla 04 - Krakowska granica 15 p. Ciepłowniczą EC
 1652	4	196531	06:59:00	06:59:00		Spichlerzowa pętla 04 nż
 1652	4	196531	07:38:00	07:38:00		Krakowska granica 15 nż
@@ -988,7 +988,7 @@ Folder: 54_2
 1628	4	189873	07:15:00	07:15:00		Bardowskiego 03
 1628	4	189873	07:38:00	07:38:00		Zaczernie ML System / Fibrain 03 nż
 
-Folder: 1_2
+Folder: 10141
 [1] Krakowska granica 15 - Załęska Zakład Karny 08 
 1642	4	196875	07:16:00	07:16:00		Krakowska granica 15 nż
 1642	4	196875	07:44:00	07:44:00		Załęska Zakład Karny 08 nż
@@ -1028,25 +1028,25 @@ Folder: 34_2
 118	4	176828	07:21:00	07:21:00		Błękitne Wzgórze / Leśne Wzgórze 03 nż
 118	4	176828	08:06:00	08:06:00		Lwowska szpital pętla 02
 
+Folder: 10024
+[37] Hermanowa Przylasek pętla 06 - Trembeckiego ZTM pętla 01 
+1616	4	195727	07:22:00	07:22:00		Hermanowa Przylasek pętla 06
+1616	4	195727	08:15:00	08:15:00		Trembeckiego ZTM pętla 01
+
 Folder: 19_4
 [19] Miłocińska pętla 01 - Łukasiewicza pętla 10 
 1578	4	187193	07:22:00	07:22:00		Miłocińska pętla 01
 1578	4	187193	07:55:00	07:55:00		Łukasiewicza pętla 10
 
-Folder: 37_1
-[37] Hermanowa Przylasek pętla 06 - Trembeckiego ZTM pętla 01 
-1616	4	195727	07:22:00	07:22:00		Hermanowa Przylasek pętla 06
-1616	4	195727	08:15:00	08:15:00		Trembeckiego ZTM pętla 01
+Folder: 10129
+[15] Zwięczycka MPWiK 05 - Olbrachta pętla 09 p. Jarową
+1454	4	196386	07:24:00	07:24:00		Zwięczycka MPWiK 05
+1454	4	196386	08:12:00	08:12:00		Olbrachta pętla 09
 
 Folder: 12_2
 [37] Trembeckiego ZTM pętla 01 - Hermanowa Przylasek pętla 03
 1615	4	187866	07:24:00	07:24:00		Trembeckiego ZTM pętla 01
 1615	4	187866	08:19:00	08:19:00		Hermanowa Przylasek pętla 06
-
-Folder: 15_1
-[15] Zwięczycka MPWiK 05 - Olbrachta pętla 09 p. Jarową
-1454	4	196386	07:24:00	07:24:00		Zwięczycka MPWiK 05
-1454	4	196386	08:12:00	08:12:00		Olbrachta pętla 09
 
 Folder: 30_1
 [30] Mikołajczyka pętla 03 - Matuszczaka pętla 04 
@@ -1068,7 +1068,7 @@ Folder: 30_2
 982	4	187223	07:26:00	07:26:00		Matuszczaka pętla 04
 982	4	187223	07:54:00	07:54:00		Mikołajczyka pętla 01
 
-Folder: 15_2
+Folder: 10128
 [15] Olbrachta pętla 09 - Zwięczycka MPWiK 05 
 1458	4	196426	07:27:00	07:27:00		Olbrachta pętla 09
 1458	4	196426	08:04:00	08:04:00		Zwięczycka MPWiK 05
@@ -1118,7 +1118,7 @@ Folder: 22_1
 1476	4	179753	07:35:00	07:35:00		Bardowskiego 01
 1476	4	179753	08:04:00	08:04:00		Trzciana pętla 05
 
-Folder: 11_2
+Folder: 10135
 [11] Potockiego pętla 10 - Matuszczaka pętla 04 
 899	4	196443	07:39:00	07:39:00		Potockiego pętla 10
 899	4	196443	08:11:00	08:11:00		Matuszczaka pętla 04
@@ -1137,6 +1137,11 @@ Folder: 26_2
 [26] Cienista cmentarz 01 - Krakowska granica 15 
 818	4	175002	07:44:00	07:44:00		Cienista cmentarz 01
 818	4	175002	08:25:00	08:25:00		Krakowska granica 15 nż
+
+Folder: 10139
+[3] Mrowla Otoka pętla 01 - Boguchwała 97 
+1077	4	196606	07:45:00	07:45:00		Mrowla Otoka pętla 01
+1077	4	196606	08:30:00	08:30:00		Boguchwała 97
 
 Folder: 10_1
 [10] Bł. Karoliny 09 - Łukasiewicza pętla 08 p. Wywrockiego
@@ -1158,11 +1163,6 @@ Folder: 35_1
 1469	4	179540	07:45:00	07:45:00		Bardowskiego 02
 1469	4	179540	08:11:00	08:11:00		Kielanówka pętla 14
 
-Folder: 3_2
-[3] Mrowla Otoka pętla 01 - Boguchwała 97 
-1077	4	196606	07:45:00	07:45:00		Mrowla Otoka pętla 01
-1077	4	196606	08:30:00	08:30:00		Boguchwała 97
-
 Folder: 47_1
 [47] Baligrodzka 01 - Dworaka targ 01 
 885	4	180631	07:45:00	07:45:00		Baligrodzka 01
@@ -1183,7 +1183,7 @@ Folder: 0B_1
 1582	4	186351	07:51:00	07:51:00		Dworzec Główny PKP 03
 1582	4	186351	08:23:00	08:23:00		Dworzec Główny PKP 03
 
-Folder: 11_1
+Folder: 10136
 [11] Matuszczaka pętla 04 - Potockiego pętla 10 
 905	4	196578	07:52:00	07:52:00		Matuszczaka pętla 04
 905	4	196578	08:28:00	08:28:00		Potockiego pętla 10
@@ -1323,7 +1323,7 @@ Folder: 4_1
 1440	4	174990	08:07:00	08:07:00		Krasne Auchan 01
 1440	4	174990	08:39:00	08:39:00		Lubelska Zajezdnia MPK
 
-Folder: 1_2
+Folder: 10141
 [1] Załęska Zakład Karny 08 - Krakowska granica 15 
 1634	4	196474	08:08:00	08:08:00		Załęska Zakład Karny 08 nż
 1634	4	196474	08:38:00	08:38:00		Krakowska granica 15 nż
@@ -1368,7 +1368,7 @@ Folder: 54_2
 1626	4	189488	08:15:00	08:15:00		Zaczernie ML System / Fibrain 03 nż
 1626	4	189488	08:40:00	08:40:00		Bardowskiego 04
 
-Folder: 1_1
+Folder: 10140
 [1] Krakowska granica 15 - Spichlerzowa pętla 04 
 1627	4	196673	08:16:00	08:16:00		Krakowska granica 15 nż
 1627	4	196673	08:48:00	08:48:00		Spichlerzowa pętla 04 nż
@@ -1423,7 +1423,12 @@ Folder: 22_1
 1480	4	179550	08:23:00	08:23:00		Trzciana pętla 05
 1480	4	179550	08:52:00	08:52:00		Bardowskiego 04
 
-Folder: 15_2
+Folder: 10024
+[37] Trembeckiego ZTM pętla 01 - Hermanowa Przylasek pętla 03
+1615	4	195506	08:24:00	08:24:00		Trembeckiego ZTM pętla 01
+1615	4	195506	09:19:00	09:19:00		Hermanowa Przylasek pętla 06
+
+Folder: 10128
 [15] Zwięczycka MPWiK 05 - Olbrachta pętla 09 p. Jarową
 1454	4	196870	08:24:00	08:24:00		Zwięczycka MPWiK 05
 1454	4	196870	09:12:00	09:12:00		Olbrachta pętla 09
@@ -1438,11 +1443,6 @@ Folder: 34_2
 1108	4	175436	08:24:00	08:24:00		Lwowska szpital pętla 02
 1108	4	175436	09:00:00	09:00:00		Przemysłowa U. Celny 05 nż
 
-Folder: 37_1
-[37] Trembeckiego ZTM pętla 01 - Hermanowa Przylasek pętla 03
-1615	4	195506	08:24:00	08:24:00		Trembeckiego ZTM pętla 01
-1615	4	195506	09:19:00	09:19:00		Hermanowa Przylasek pętla 06
-
 Folder: 13_1
 [13] Lwowska szpital pętla 02 - Wita Stwosza pętla 01 
 1100	4	176686	08:26:00	08:26:00		Lwowska szpital pętla 02
@@ -1453,7 +1453,7 @@ Folder: 30_3
 982	4	192575	08:26:00	08:26:00		Matuszczaka pętla 04
 982	4	192575	08:54:00	08:54:00		Mikołajczyka pętla 01
 
-Folder: 15_1
+Folder: 10129
 [15] Olbrachta pętla 09 - Zwięczycka MPWiK 05 
 1458	4	196872	08:27:00	08:27:00		Olbrachta pętla 09
 1458	4	196872	09:04:00	09:04:00		Zwięczycka MPWiK 05
@@ -1513,7 +1513,7 @@ Folder: 14_1
 1660	4	188831	08:38:00	08:38:00		Dworzec Lokalny
 1660	4	188831	09:13:00	09:13:00		Kard. K. Wojtyły pętla 03 nż
 
-Folder: 11_1
+Folder: 10136
 [11] Potockiego pętla 10 - Matuszczaka pętla 04 
 899	4	196780	08:39:00	08:39:00		Potockiego pętla 10
 899	4	196780	09:11:00	09:11:00		Matuszczaka pętla 04
@@ -1583,7 +1583,7 @@ Folder: 0A_1
 1582	4	185485	08:51:00	08:51:00		Dworzec Główny PKP 03
 1582	4	185485	09:23:00	09:23:00		Dworzec Główny PKP 03
 
-Folder: 11_2
+Folder: 10135
 [11] Matuszczaka pętla 04 - Potockiego pętla 10 
 905	4	196499	08:52:00	08:52:00		Matuszczaka pętla 04
 905	4	196499	09:28:00	09:28:00		Potockiego pętla 10
@@ -1628,7 +1628,7 @@ Folder: 8_2
 1606	4	185244	08:56:00	08:56:00		Rudna Wielka zakręt 04 nż
 1606	4	185244	09:48:00	09:48:00		Sikorskiego MPGK 20
 
-Folder: 3_2
+Folder: 10139
 [3] Boguchwała 97 - Krakowska granica 15 
 756	4	196417	08:57:00	08:57:00		Boguchwała 97
 756	4	196417	09:35:00	09:35:00		Krakowska granica 15 nż
@@ -1693,15 +1693,15 @@ Folder: 0B_2
 1583	4	185496	09:03:00	09:03:00		Dworzec Główny PKP 01
 1583	4	185496	09:34:00	09:34:00		Dworzec Główny PKP 01
 
+Folder: 10140
+[1] Spichlerzowa pętla 04 - Krakowska granica 15 
+1630	4	196505	09:05:00	09:05:00		Spichlerzowa pętla 04 nż
+1630	4	196505	09:38:00	09:38:00		Krakowska granica 15 nż
+
 Folder: 18_2
 [18] Pienińska pętla 03 - Obr. Poczty Gdańskiej pętla 08 
 1581	4	186685	09:05:00	09:05:00		Pienińska pętla 03
 1581	4	186685	09:46:00	09:46:00		Obr. Poczty Gdańskiej pętla 08
-
-Folder: 1_1
-[1] Spichlerzowa pętla 04 - Krakowska granica 15 
-1630	4	196505	09:05:00	09:05:00		Spichlerzowa pętla 04 nż
-1630	4	196505	09:38:00	09:38:00		Krakowska granica 15 nż
 
 Folder: 35_1
 [35] Bardowskiego 02 - Kielanówka pętla 14 
@@ -1753,7 +1753,7 @@ Folder: 47_1
 885	4	180756	09:15:00	09:15:00		Baligrodzka 01
 885	4	180756	09:44:00	09:44:00		Dworaka targ 01
 
-Folder: 1_2
+Folder: 10141
 [1] Krakowska granica 15 - Załęska Zakład Karny 08 
 1642	4	196532	09:16:00	09:16:00		Krakowska granica 15 nż
 1642	4	196532	09:44:00	09:44:00		Załęska Zakład Karny 08 nż
@@ -1793,30 +1793,30 @@ Folder: 17_4
 118	4	177043	09:21:00	09:21:00		Błękitne Wzgórze / Leśne Wzgórze 03 nż
 118	4	177043	10:06:00	10:06:00		Lwowska szpital pętla 02
 
+Folder: 10024
+[37] Hermanowa Przylasek pętla 06 - Trembeckiego ZTM pętla 01 
+1616	4	194905	09:22:00	09:22:00		Hermanowa Przylasek pętla 06
+1616	4	194905	10:15:00	10:15:00		Trembeckiego ZTM pętla 01
+
 Folder: 19_5
 [19] Miłocińska pętla 01 - Łukasiewicza pętla 10 
 1578	4	185688	09:22:00	09:22:00		Miłocińska pętla 01
 1578	4	185688	09:55:00	09:55:00		Łukasiewicza pętla 10
-
-Folder: 37_1
-[37] Hermanowa Przylasek pętla 06 - Trembeckiego ZTM pętla 01 
-1616	4	194905	09:22:00	09:22:00		Hermanowa Przylasek pętla 06
-1616	4	194905	10:15:00	10:15:00		Trembeckiego ZTM pętla 01
 
 Folder: 43_1
 [43] Żołnierzy 9 Dyw. Piechoty bloki 06 nż - Niepodległości / Rejtana 02 
 1496	4	189530	09:23:00	09:23:00		Żołnierzy 9 Dyw. Piechoty bloki 06 nż
 1496	4	189530	09:49:00	09:49:00		Niepodległości / Rejtana 02
 
+Folder: 10129
+[15] Zwięczycka MPWiK 05 - Olbrachta pętla 09 p. Jarową
+1454	4	196579	09:24:00	09:24:00		Zwięczycka MPWiK 05
+1454	4	196579	10:12:00	10:12:00		Olbrachta pętla 09
+
 Folder: 12_1
 [37] Trembeckiego ZTM pętla 01 - Hermanowa Przylasek pętla 03
 1615	4	187459	09:24:00	09:24:00		Trembeckiego ZTM pętla 01
 1615	4	187459	10:19:00	10:19:00		Hermanowa Przylasek pętla 06
-
-Folder: 15_1
-[15] Zwięczycka MPWiK 05 - Olbrachta pętla 09 p. Jarową
-1454	4	196579	09:24:00	09:24:00		Zwięczycka MPWiK 05
-1454	4	196579	10:12:00	10:12:00		Olbrachta pętla 09
 
 Folder: 17_3
 [17] Lwowska szpital pętla 02 - Przemysłowa U. Celny 05 
@@ -1843,7 +1843,7 @@ Folder: 30_1
 982	4	154226	09:26:00	09:26:00		Matuszczaka pętla 04
 982	4	154226	09:54:00	09:54:00		Mikołajczyka pętla 01
 
-Folder: 15_2
+Folder: 10128
 [15] Olbrachta pętla 09 - Zwięczycka MPWiK 05 
 1458	4	196399	09:27:00	09:27:00		Olbrachta pętla 09
 1458	4	196399	10:04:00	10:04:00		Zwięczycka MPWiK 05
@@ -1898,7 +1898,7 @@ Folder: 36_2
 1515	4	181332	09:34:00	09:34:00		Św. Rocha lasek pętla 11
 1515	4	181332	10:17:00	10:17:00		Bł. Karoliny 09
 
-Folder: 11_2
+Folder: 10135
 [11] Potockiego pętla 10 - Matuszczaka pętla 04 
 899	4	196560	09:39:00	09:39:00		Potockiego pętla 10
 899	4	196560	10:11:00	10:11:00		Matuszczaka pętla 04
@@ -1968,7 +1968,7 @@ Folder: 0B_2
 1582	4	186145	09:51:00	09:51:00		Dworzec Główny PKP 03
 1582	4	186145	10:23:00	10:23:00		Dworzec Główny PKP 03
 
-Folder: 11_1
+Folder: 10136
 [11] Matuszczaka pętla 04 - Potockiego pętla 10 
 905	4	196391	09:52:00	09:52:00		Matuszczaka pętla 04
 905	4	196391	10:28:00	10:28:00		Potockiego pętla 10
@@ -1998,6 +1998,11 @@ Folder: 8_1
 1606	4	185294	09:55:00	09:55:00		Rudna Wielka zakręt 04 nż
 1606	4	185294	10:47:00	10:47:00		Sikorskiego MPGK 20
 
+Folder: 10139
+[3] Krakowska granica 15 - Boguchwała 97 
+760	4	196754	09:56:00	09:56:00		Krakowska granica 15 nż
+760	4	196754	10:30:00	10:30:00		Boguchwała 97
+
 Folder: 13_3
 [13] Lwowska szpital pętla 02 - Wita Stwosza pętla 01 
 1100	4	175875	09:56:00	09:56:00		Lwowska szpital pętla 02
@@ -2007,11 +2012,6 @@ Folder: 30_3
 [30] Matuszczaka pętla 04 - Mikołajczyka pętla 01 
 982	4	193251	09:56:00	09:56:00		Matuszczaka pętla 04
 982	4	193251	10:24:00	10:24:00		Mikołajczyka pętla 01
-
-Folder: 3_2
-[3] Krakowska granica 15 - Boguchwała 97 
-760	4	196754	09:56:00	09:56:00		Krakowska granica 15 nż
-760	4	196754	10:30:00	10:30:00		Boguchwała 97
 
 Folder: 3_1
 [3] Boguchwała 97 - Krakowska granica 15 
@@ -2108,7 +2108,7 @@ Folder: 6_2
 1620	4	188090	10:07:00	10:07:00		Ustrzycka / Magórska 07
 1620	4	188090	10:58:00	10:58:00		Słocińska pętla 11 nż
 
-Folder: 1_2
+Folder: 10141
 [1] Załęska Zakład Karny 08 - Krakowska granica 15 
 1634	4	196789	10:08:00	10:08:00		Załęska Zakład Karny 08 nż
 1634	4	196789	10:38:00	10:38:00		Krakowska granica 15 nż
@@ -2158,7 +2158,7 @@ Folder: 47_2
 885	4	190801	10:15:00	10:15:00		Baligrodzka 01
 885	4	190801	10:43:00	10:43:00		Dworaka targ 01
 
-Folder: 1_1
+Folder: 10140
 [1] Krakowska granica 15 - Spichlerzowa pętla 04 
 1627	4	196389	10:16:00	10:16:00		Krakowska granica 15 nż
 1627	4	196389	10:49:00	10:49:00		Spichlerzowa pętla 04 nż
@@ -2208,7 +2208,7 @@ Folder: 37_2
 1615	4	187594	10:23:00	10:23:00		Trembeckiego ZTM pętla 01
 1615	4	187594	11:21:00	11:21:00		Hermanowa Przylasek pętla 06
 
-Folder: 15_2
+Folder: 10128
 [15] Zwięczycka MPWiK 05 - Olbrachta pętla 09 p. Jarową
 1454	4	196572	10:24:00	10:24:00		Zwięczycka MPWiK 05
 1454	4	196572	11:12:00	11:12:00		Olbrachta pętla 09
@@ -2238,7 +2238,7 @@ Folder: 30_2
 982	4	185780	10:26:00	10:26:00		Matuszczaka pętla 04
 982	4	185780	10:54:00	10:54:00		Mikołajczyka pętla 01
 
-Folder: 15_1
+Folder: 10129
 [15] Olbrachta pętla 09 - Zwięczycka MPWiK 05 
 1458	4	196637	10:27:00	10:27:00		Olbrachta pętla 09
 1458	4	196637	11:06:00	11:06:00		Zwięczycka MPWiK 05
@@ -2288,17 +2288,12 @@ Folder: 27_1
 1447	4	175920	10:33:00	10:33:00		Cienista cmentarz 01
 1447	4	175920	11:05:00	11:05:00		Baligrodzka 01
 
-Folder: 54_2
-[Rez]   -  
-1447	4	175920	10:36:00	10:36:00		
-1447	4	175920	11:51:00	11:51:00		
-
 Folder: 14_1
 [14] Dworzec Lokalny - Kard. K. Wojtyły pętla 03 nż 
 1660	4	188526	10:38:00	10:38:00		Dworzec Lokalny
 1660	4	188526	11:14:00	11:14:00		Kard. K. Wojtyły pętla 03 nż
 
-Folder: 11_1
+Folder: 10136
 [11] Potockiego pętla 10 - Matuszczaka pętla 04 
 899	4	196889	10:39:00	10:39:00		Potockiego pętla 10
 899	4	196889	11:13:00	11:13:00		Matuszczaka pętla 04
@@ -2353,7 +2348,7 @@ Folder: 10_1
 1532	4	182222	10:50:00	10:50:00		Łukasiewicza pętla 08
 1532	4	182222	11:39:00	11:39:00		Bł. Karoliny 09
 
-Folder: 11_2
+Folder: 10135
 [11] Matuszczaka pętla 04 - Potockiego pętla 10 
 905	4	196408	10:52:00	10:52:00		Matuszczaka pętla 04
 905	4	196408	11:29:00	11:29:00		Potockiego pętla 10
@@ -2408,15 +2403,15 @@ Folder: 3_1
 760	4	156090	10:56:00	10:56:00		Krakowska granica 15 nż
 760	4	156090	11:32:00	11:32:00		Boguchwała 97
 
+Folder: 10139
+[3] Boguchwała 97 - Krakowska granica 15 
+756	4	196698	10:57:00	10:57:00		Boguchwała 97
+756	4	196698	11:35:00	11:35:00		Krakowska granica 15 nż
+
 Folder: 22_1
 [22] Świlcza 58 - Bardowskiego 04 
 1471	4	179251	10:57:00	10:57:00		Świlcza 58
 1471	4	179251	11:18:00	11:18:00		Bardowskiego 04
-
-Folder: 3_2
-[3] Boguchwała 97 - Krakowska granica 15 
-756	4	196698	10:57:00	10:57:00		Boguchwała 97
-756	4	196698	11:35:00	11:35:00		Krakowska granica 15 nż
 
 Folder: 9_1
 [9] Olbrachta pętla 09 - Staroniwska pętla 12 
@@ -2448,6 +2443,11 @@ Folder: 4_1
 1446	4	175699	10:59:00	10:59:00		Lubelska Zajezdnia MPK
 1446	4	175699	11:32:00	11:32:00		Krasne Auchan 01
 
+Folder: 10024
+[12] Trembeckiego ZTM pętla 01 - Budziwojska pętla 22 
+1538	4	196058	11:00:00	11:00:00		Trembeckiego ZTM pętla 01
+1538	4	196058	11:43:00	11:43:00		Budziwojska pętla 22 nż
+
 Folder: 12_2
 [12] Budziwojska pętla 22 - Trembeckiego ZTM pętla 01 
 1534	4	187736	11:00:00	11:00:00		Budziwojska pętla 22 nż
@@ -2462,11 +2462,6 @@ Folder: 2_1
 [2] Baligrodzka 01 - Kard. K. Wojtyły pętla 03 nż 
 1631	4	188961	11:00:00	11:00:00		Baligrodzka 01
 1631	4	188961	11:44:00	11:44:00		Kard. K. Wojtyły pętla 03 nż
-
-Folder: 37_1
-[12] Trembeckiego ZTM pętla 01 - Budziwojska pętla 22 
-1538	4	196058	11:00:00	11:00:00		Trembeckiego ZTM pętla 01
-1538	4	196058	11:43:00	11:43:00		Budziwojska pętla 22 nż
 
 Folder: 59_1
 [59] Trembeckiego ZTM pętla 01 - Przemysłowa U. Celny 05 
@@ -2493,15 +2488,15 @@ Folder: 36_1
 1515	4	180534	11:03:00	11:03:00		Św. Rocha lasek pętla 11
 1515	4	180534	11:47:00	11:47:00		Bł. Karoliny 09
 
+Folder: 10140
+[1] Spichlerzowa pętla 04 - Krakowska granica 15 
+1630	4	196641	11:05:00	11:05:00		Spichlerzowa pętla 04 nż
+1630	4	196641	11:38:00	11:38:00		Krakowska granica 15 nż
+
 Folder: 18_2
 [18] Pienińska pętla 03 - Obr. Poczty Gdańskiej pętla 08 
 1581	4	186490	11:05:00	11:05:00		Pienińska pętla 03
 1581	4	186490	11:49:00	11:49:00		Obr. Poczty Gdańskiej pętla 08
-
-Folder: 1_1
-[1] Spichlerzowa pętla 04 - Krakowska granica 15 
-1630	4	196641	11:05:00	11:05:00		Spichlerzowa pętla 04 nż
-1630	4	196641	11:38:00	11:38:00		Krakowska granica 15 nż
 
 Folder: 51_2
 [51] Bardowskiego 01 - Jasionka - Port Lotniczy 
@@ -2558,7 +2553,7 @@ Folder: 7_1
 1010	4	174050	11:15:00	11:15:00		Dworzec Lokalny
 1010	4	174050	11:49:00	11:49:00		Krasne Auchan 01
 
-Folder: 1_2
+Folder: 10141
 [1] Krakowska granica 15 - Załęska Zakład Karny 08 
 1642	4	196574	11:16:00	11:16:00		Krakowska granica 15 nż
 1642	4	196574	11:45:00	11:45:00		Załęska Zakład Karny 08 nż
@@ -2613,7 +2608,7 @@ Folder: 17_2
 1100	4	177200	11:24:00	11:24:00		Lwowska szpital pętla 02
 1100	4	177200	12:17:00	12:17:00		Wita Stwosza pętla 01
 
-Folder: 15_1
+Folder: 10129
 [15] Zwięczycka MPWiK 05 - Olbrachta pętla 09 p. Jarową
 1454	4	196843	11:25:00	11:25:00		Zwięczycka MPWiK 05
 1454	4	196843	12:13:00	12:13:00		Olbrachta pętla 09
@@ -2628,7 +2623,7 @@ Folder: 30_3
 982	4	192719	11:26:00	11:26:00		Matuszczaka pętla 04
 982	4	192719	11:54:00	11:54:00		Mikołajczyka pętla 01
 
-Folder: 15_2
+Folder: 10128
 [15] Olbrachta pętla 09 - Zwięczycka MPWiK 05 
 1458	4	196647	11:27:00	11:27:00		Olbrachta pętla 09
 1458	4	196647	12:06:00	12:06:00		Zwięczycka MPWiK 05
@@ -2683,7 +2678,7 @@ Folder: 27_2
 1447	4	178054	11:33:00	11:33:00		Cienista cmentarz 01
 1447	4	178054	12:05:00	12:05:00		Baligrodzka 01
 
-Folder: 11_2
+Folder: 10135
 [11] Potockiego pętla 10 - Matuszczaka pętla 04 
 899	4	196805	11:39:00	11:39:00		Potockiego pętla 10
 899	4	196805	12:13:00	12:13:00		Matuszczaka pętla 04
@@ -2743,7 +2738,7 @@ Folder: 0A_1
 1582	4	187245	11:50:00	11:50:00		Dworzec Główny PKP 03
 1582	4	187245	12:23:00	12:23:00		Dworzec Główny PKP 03
 
-Folder: 11_1
+Folder: 10136
 [11] Matuszczaka pętla 04 - Potockiego pętla 10 
 905	4	196784	11:52:00	11:52:00		Matuszczaka pętla 04
 905	4	196784	12:29:00	12:29:00		Potockiego pętla 10
@@ -2783,15 +2778,15 @@ Folder: 8_1
 1599	4	185221	11:55:00	11:55:00		Warszawska / Borowa 08 nż
 1599	4	185221	12:51:00	12:51:00		Sikorskiego MPGK 20
 
+Folder: 10139
+[3] Krakowska granica 15 - Boguchwała 97 
+760	4	196657	11:56:00	11:56:00		Krakowska granica 15 nż
+760	4	196657	12:32:00	12:32:00		Boguchwała 97
+
 Folder: 30_2
 [30] Matuszczaka pętla 04 - Mikołajczyka pętla 01 
 982	4	186562	11:56:00	11:56:00		Matuszczaka pętla 04
 982	4	186562	12:24:00	12:24:00		Mikołajczyka pętla 01
-
-Folder: 3_2
-[3] Krakowska granica 15 - Boguchwała 97 
-760	4	196657	11:56:00	11:56:00		Krakowska granica 15 nż
-760	4	196657	12:32:00	12:32:00		Boguchwała 97
 
 Folder: 3_1
 [3] Boguchwała 97 - Mrowla Otoka pętla 01 
@@ -2828,6 +2823,11 @@ Folder: 4_2
 1446	4	176753	11:59:00	11:59:00		Lubelska Zajezdnia MPK
 1446	4	176753	12:32:00	12:32:00		Krasne Auchan 01
 
+Folder: 10024
+[12] Budziwojska pętla 22 - Trembeckiego ZTM pętla 01 
+1534	4	195404	12:00:00	12:00:00		Budziwojska pętla 22 nż
+1534	4	195404	12:37:00	12:37:00		Trembeckiego ZTM pętla 01
+
 Folder: 12_2
 [12] Trembeckiego ZTM pętla 01 - Budziwojska pętla 22 
 1538	4	187384	12:00:00	12:00:00		Trembeckiego ZTM pętla 01
@@ -2842,11 +2842,6 @@ Folder: 2_2
 [2] Baligrodzka 01 - Kard. K. Wojtyły pętla 03 nż 
 1631	4	188288	12:00:00	12:00:00		Baligrodzka 01
 1631	4	188288	12:44:00	12:44:00		Kard. K. Wojtyły pętla 03 nż
-
-Folder: 37_1
-[12] Budziwojska pętla 22 - Trembeckiego ZTM pętla 01 
-1534	4	195404	12:00:00	12:00:00		Budziwojska pętla 22 nż
-1534	4	195404	12:37:00	12:37:00		Trembeckiego ZTM pętla 01
 
 Folder: 8_2
 [8] Sikorskiego MPGK 20 - Rudna Wielka zakręt 04 nż 
@@ -2888,15 +2883,15 @@ Folder: 4_1
 1443	4	176566	12:06:00	12:06:00		Krasne Auchan 01
 1443	4	176566	12:39:00	12:39:00		Lubelska Zajezdnia MPK
 
+Folder: 10141
+[1] Załęska Zakład Karny 08 - Krakowska granica 15 
+1634	4	196815	12:08:00	12:08:00		Załęska Zakład Karny 08 nż
+1634	4	196815	12:38:00	12:38:00		Krakowska granica 15 nż
+
 Folder: 17_4
 [34] Lwowska szpital pętla 02 - Błękitne Wzgórze / Leśne Wzgórze 03 
 89	4	175235	12:08:00	12:08:00		Lwowska szpital pętla 02
 89	4	175235	12:58:00	12:58:00		Błękitne Wzgórze / Leśne Wzgórze 03 nż
-
-Folder: 1_2
-[1] Załęska Zakład Karny 08 - Krakowska granica 15 
-1634	4	196815	12:08:00	12:08:00		Załęska Zakład Karny 08 nż
-1634	4	196815	12:38:00	12:38:00		Krakowska granica 15 nż
 
 Folder: 18_2
 [18] Obr. Poczty Gdańskiej pętla 08 - Pienińska pętla 03 
@@ -2938,7 +2933,7 @@ Folder: 47_1
 885	4	182161	12:15:00	12:15:00		Baligrodzka 01
 885	4	182161	12:43:00	12:43:00		Dworaka targ 01
 
-Folder: 1_1
+Folder: 10140
 [1] Krakowska granica 15 - Spichlerzowa pętla 04 
 1627	4	196590	12:16:00	12:16:00		Krakowska granica 15 nż
 1627	4	196590	12:49:00	12:49:00		Spichlerzowa pętla 04 nż
@@ -3013,7 +3008,7 @@ Folder: 30_1
 982	4	154439	12:26:00	12:26:00		Matuszczaka pętla 04
 982	4	154439	12:54:00	12:54:00		Mikołajczyka pętla 01
 
-Folder: 15_1
+Folder: 10129
 [15] Olbrachta pętla 09 - Zwięczycka MPWiK 05  p. Jarową
 1309	4	196675	12:27:00	12:27:00		Olbrachta pętla 09
 1309	4	196675	13:15:00	13:15:00		Zwięczycka MPWiK 05
@@ -3063,7 +3058,7 @@ Folder: 0A_1
 1583	4	186386	12:33:00	12:33:00		Dworzec Główny PKP 01
 1583	4	186386	13:06:00	13:06:00		Dworzec Główny PKP 01
 
-Folder: 15_2
+Folder: 10128
 [15] Zwięczycka MPWiK 05 - Olbrachta pętla 09 
 1459	4	196565	12:33:00	12:33:00		Zwięczycka MPWiK 05
 1459	4	196565	13:13:00	13:13:00		Olbrachta pętla 09
@@ -3083,7 +3078,7 @@ Folder: 35_1
 1467	4	178945	12:38:00	12:38:00		Kielanówka pętla 14
 1467	4	178945	13:02:00	13:02:00		Bardowskiego 04
 
-Folder: 11_1
+Folder: 10136
 [11] Potockiego pętla 10 - Matuszczaka pętla 04 
 899	4	196567	12:39:00	12:39:00		Potockiego pętla 10
 899	4	196567	13:13:00	13:13:00		Matuszczaka pętla 04
@@ -3153,7 +3148,7 @@ Folder: 7_1
 1010	4	177267	12:50:00	12:50:00		Dworzec Lokalny
 1010	4	177267	13:24:00	13:24:00		Krasne Auchan 01
 
-Folder: 11_2
+Folder: 10135
 [11] Matuszczaka pętla 04 - Potockiego pętla 10 
 905	4	196823	12:52:00	12:52:00		Matuszczaka pętla 04
 905	4	196823	13:29:00	13:29:00		Potockiego pętla 10
@@ -3193,7 +3188,7 @@ Folder: 30_3
 982	4	192650	12:56:00	12:56:00		Matuszczaka pętla 04
 982	4	192650	13:24:00	13:24:00		Mikołajczyka pętla 01
 
-Folder: 3_2
+Folder: 10139
 [3] Boguchwała 97 - Krakowska granica 15 
 756	4	196517	12:57:00	12:57:00		Boguchwała 97
 756	4	196517	13:35:00	13:35:00		Krakowska granica 15 nż
@@ -3223,6 +3218,11 @@ Folder: 4_1
 1446	4	173755	12:59:00	12:59:00		Lubelska Zajezdnia MPK
 1446	4	173755	13:32:00	13:32:00		Krasne Auchan 01
 
+Folder: 10024
+[12] Trembeckiego ZTM pętla 01 - Budziwojska pętla 22 
+1538	4	195476	13:00:00	13:00:00		Trembeckiego ZTM pętla 01
+1538	4	195476	13:43:00	13:43:00		Budziwojska pętla 22 nż
+
 Folder: 12_2
 [12] Budziwojska pętla 22 - Trembeckiego ZTM pętla 01 
 1534	4	187409	13:00:00	13:00:00		Budziwojska pętla 22 nż
@@ -3238,11 +3238,6 @@ Folder: 2_1
 1631	4	188436	13:00:00	13:00:00		Baligrodzka 01
 1631	4	188436	13:44:00	13:44:00		Kard. K. Wojtyły pętla 03 nż
 
-Folder: 37_1
-[12] Trembeckiego ZTM pętla 01 - Budziwojska pętla 22 
-1538	4	195476	13:00:00	13:00:00		Trembeckiego ZTM pętla 01
-1538	4	195476	13:43:00	13:43:00		Budziwojska pętla 22 nż
-
 Folder: 8_1
 [8] Sikorskiego MPGK 20 - Warszawska / Borowa 07 nż p. Pogwizdowską
 1600	4	185130	13:00:00	13:00:00		Sikorskiego MPGK 20
@@ -3253,15 +3248,15 @@ Folder: 0B_1
 1583	4	187202	13:03:00	13:03:00		Dworzec Główny PKP 01
 1583	4	187202	13:36:00	13:36:00		Dworzec Główny PKP 01
 
+Folder: 10140
+[1] Spichlerzowa pętla 04 - Krakowska granica 15 
+1630	4	196736	13:05:00	13:05:00		Spichlerzowa pętla 04 nż
+1630	4	196736	13:38:00	13:38:00		Krakowska granica 15 nż
+
 Folder: 18_2
 [18] Pienińska pętla 03 - Obr. Poczty Gdańskiej pętla 08 
 1581	4	185620	13:05:00	13:05:00		Pienińska pętla 03
 1581	4	185620	13:49:00	13:49:00		Obr. Poczty Gdańskiej pętla 08
-
-Folder: 1_1
-[1] Spichlerzowa pętla 04 - Krakowska granica 15 
-1630	4	196736	13:05:00	13:05:00		Spichlerzowa pętla 04 nż
-1630	4	196736	13:38:00	13:38:00		Krakowska granica 15 nż
 
 Folder: 51_2
 [51] Bardowskiego 04 - Jasionka EME Aero 02 
@@ -3333,7 +3328,7 @@ Folder: 47_4
 885	4	174634	13:15:00	13:15:00		Baligrodzka 01
 885	4	174634	13:43:00	13:43:00		Dworaka targ 01
 
-Folder: 1_2
+Folder: 10141
 [1] Krakowska granica 15 - Załęska Zakład Karny 08 
 1642	4	196469	13:16:00	13:16:00		Krakowska granica 15 nż
 1642	4	196469	13:45:00	13:45:00		Załęska Zakład Karny 08 nż
@@ -3418,7 +3413,7 @@ Folder: 30_2
 982	4	185529	13:26:00	13:26:00		Matuszczaka pętla 04
 982	4	185529	13:54:00	13:54:00		Mikołajczyka pętla 01
 
-Folder: 15_2
+Folder: 10128
 [15] Olbrachta pętla 09 - Zwięczycka MPWiK 05  p. Jarową
 1309	4	196403	13:27:00	13:27:00		Olbrachta pętla 09
 1309	4	196403	14:15:00	14:15:00		Zwięczycka MPWiK 05
@@ -3458,7 +3453,7 @@ Folder: 0B_2
 1583	4	185613	13:33:00	13:33:00		Dworzec Główny PKP 01
 1583	4	185613	14:06:00	14:06:00		Dworzec Główny PKP 01
 
-Folder: 15_1
+Folder: 10129
 [15] Zwięczycka MPWiK 05 - Olbrachta pętla 09 
 1459	4	196814	13:33:00	13:33:00		Zwięczycka MPWiK 05
 1459	4	196814	14:13:00	14:13:00		Olbrachta pętla 09
@@ -3473,7 +3468,7 @@ Folder: 36_1
 1515	4	181928	13:33:00	13:33:00		Św. Rocha lasek pętla 11
 1515	4	181928	14:17:00	14:17:00		Bł. Karoliny 09
 
-Folder: 11_2
+Folder: 10135
 [11] Potockiego pętla 10 - Matuszczaka pętla 04 
 899	4	196575	13:39:00	13:39:00		Potockiego pętla 10
 899	4	196575	14:13:00	14:13:00		Matuszczaka pętla 04
@@ -3538,7 +3533,7 @@ Folder: 54_1
 1635	4	190689	13:50:00	13:50:00		Bardowskiego 03
 1635	4	190689	14:16:00	14:16:00		Głogów Młp. Leniar I 01 nż
 
-Folder: 11_1
+Folder: 10136
 [11] Matuszczaka pętla 04 - Potockiego pętla 10 
 905	4	196482	13:52:00	13:52:00		Matuszczaka pętla 04
 905	4	196482	14:29:00	14:29:00		Potockiego pętla 10
@@ -3573,15 +3568,15 @@ Folder: 30_3
 994	4	192606	13:55:00	13:55:00		Mikołajczyka pętla 03
 994	4	192606	14:20:00	14:20:00		Matuszczaka pętla 04
 
+Folder: 10139
+[3] Krakowska granica 15 - Boguchwała 97 
+760	4	196652	13:56:00	13:56:00		Krakowska granica 15 nż
+760	4	196652	14:32:00	14:32:00		Boguchwała 97
+
 Folder: 30_1
 [30] Matuszczaka pętla 04 - Mikołajczyka pętla 01 
 982	4	156151	13:56:00	13:56:00		Matuszczaka pętla 04
 982	4	156151	14:24:00	14:24:00		Mikołajczyka pętla 01
-
-Folder: 3_2
-[3] Krakowska granica 15 - Boguchwała 97 
-760	4	196652	13:56:00	13:56:00		Krakowska granica 15 nż
-760	4	196652	14:32:00	14:32:00		Boguchwała 97
 
 Folder: 3_1
 [3] Boguchwała 97 - Krakowska granica 15 
@@ -3623,6 +3618,11 @@ Folder: 4_2
 1446	4	177237	13:59:00	13:59:00		Lubelska Zajezdnia MPK
 1446	4	177237	14:32:00	14:32:00		Krasne Auchan 01
 
+Folder: 10024
+[12] Budziwojska pętla 22 - Trembeckiego ZTM pętla 01 
+1534	4	194767	14:00:00	14:00:00		Budziwojska pętla 22 nż
+1534	4	194767	14:37:00	14:37:00		Trembeckiego ZTM pętla 01
+
 Folder: 12_2
 [12] Trembeckiego ZTM pętla 01 - Budziwojska pętla 22 
 1538	4	187546	14:00:00	14:00:00		Trembeckiego ZTM pętla 01
@@ -3637,11 +3637,6 @@ Folder: 2_2
 [2] Baligrodzka 01 - Kard. K. Wojtyły pętla 03 nż 
 1631	4	188485	14:00:00	14:00:00		Baligrodzka 01
 1631	4	188485	14:44:00	14:44:00		Kard. K. Wojtyły pętla 03 nż
-
-Folder: 37_1
-[12] Budziwojska pętla 22 - Trembeckiego ZTM pętla 01 
-1534	4	194767	14:00:00	14:00:00		Budziwojska pętla 22 nż
-1534	4	194767	14:37:00	14:37:00		Trembeckiego ZTM pętla 01
 
 Folder: 8_2
 [8] Sikorskiego MPGK 20 - Rudna Wielka zakręt 04 nż 
@@ -3678,7 +3673,7 @@ Folder: 4_1
 1443	4	176271	14:06:00	14:06:00		Krasne Auchan 01
 1443	4	176271	14:39:00	14:39:00		Lubelska Zajezdnia MPK
 
-Folder: 1_2
+Folder: 10141
 [1] Załęska Zakład Karny 08 - Krakowska granica 15 
 1634	4	196481	14:08:00	14:08:00		Załęska Zakład Karny 08 nż
 1634	4	196481	14:38:00	14:38:00		Krakowska granica 15 nż
@@ -3738,7 +3733,7 @@ Folder: 47_3
 885	4	184047	14:15:00	14:15:00		Baligrodzka 01
 885	4	184047	14:43:00	14:43:00		Dworaka targ 01
 
-Folder: 1_1
+Folder: 10140
 [1] Krakowska granica 15 - Spichlerzowa pętla 04 
 1627	4	196700	14:16:00	14:16:00		Krakowska granica 15 nż
 1627	4	196700	14:49:00	14:49:00		Spichlerzowa pętla 04 nż
@@ -3808,7 +3803,7 @@ Folder: 30_3
 982	4	192773	14:26:00	14:26:00		Matuszczaka pętla 04
 982	4	192773	14:55:00	14:55:00		Mikołajczyka pętla 01
 
-Folder: 15_1
+Folder: 10129
 [15] Olbrachta pętla 09 - Zwięczycka MPWiK 05  p. Jarową
 1309	4	196717	14:27:00	14:27:00		Olbrachta pętla 09
 1309	4	196717	15:15:00	15:15:00		Zwięczycka MPWiK 05
@@ -3858,7 +3853,7 @@ Folder: 0B_1
 1583	4	185910	14:33:00	14:33:00		Dworzec Główny PKP 01
 1583	4	185910	15:06:00	15:06:00		Dworzec Główny PKP 01
 
-Folder: 15_2
+Folder: 10128
 [15] Zwięczycka MPWiK 05 - Olbrachta pętla 09 
 1459	4	196690	14:33:00	14:33:00		Zwięczycka MPWiK 05
 1459	4	196690	15:13:00	15:13:00		Olbrachta pętla 09
@@ -3878,7 +3873,7 @@ Folder: 14_1
 1660	4	188926	14:38:00	14:38:00		Dworzec Lokalny
 1660	4	188926	15:13:00	15:13:00		Kard. K. Wojtyły pętla 03 nż
 
-Folder: 11_1
+Folder: 10136
 [11] Potockiego pętla 10 - Matuszczaka pętla 04 
 899	4	196705	14:39:00	14:39:00		Potockiego pętla 10
 899	4	196705	15:13:00	15:13:00		Matuszczaka pętla 04
@@ -3953,7 +3948,7 @@ Folder: 10_1
 1532	4	181794	14:50:00	14:50:00		Łukasiewicza pętla 08
 1532	4	181794	15:37:00	15:37:00		Bł. Karoliny 09
 
-Folder: 11_2
+Folder: 10135
 [11] Matuszczaka pętla 04 - Potockiego pętla 10 
 905	4	196625	14:52:00	14:52:00		Matuszczaka pętla 04
 905	4	196625	15:29:00	15:29:00		Potockiego pętla 10
@@ -3998,7 +3993,7 @@ Folder: 3_1
 760	4	156198	14:56:00	14:56:00		Krakowska granica 15 nż
 760	4	156198	15:32:00	15:32:00		Boguchwała 97
 
-Folder: 3_2
+Folder: 10139
 [3] Boguchwała 97 - Krakowska granica 15 
 756	4	196757	14:57:00	14:57:00		Boguchwała 97
 756	4	196757	15:35:00	15:35:00		Krakowska granica 15 nż
@@ -4018,6 +4013,11 @@ Folder: 9_2
 1358	4	169415	14:58:00	14:58:00		Staroniwska pętla 12 nż
 1358	4	169415	15:36:00	15:36:00		Olbrachta pętla 09
 
+Folder: 10024
+[12] Trembeckiego ZTM pętla 01 - Siedliska Skrzyżowanie II 05 
+1545	4	195274	15:00:00	15:00:00		Trembeckiego ZTM pętla 01
+1545	4	195274	15:45:00	15:45:00		Siedliska Skrzyżowanie II 05
+
 Folder: 12_2
 [12] Budziwojska pętla 22 - Trembeckiego ZTM pętla 01 
 1534	4	187520	15:00:00	15:00:00		Budziwojska pętla 22 nż
@@ -4032,11 +4032,6 @@ Folder: 2_1
 [2] Baligrodzka 01 - Kard. K. Wojtyły pętla 03 nż 
 1631	4	188496	15:00:00	15:00:00		Baligrodzka 01
 1631	4	188496	15:43:00	15:43:00		Kard. K. Wojtyły pętla 03 nż
-
-Folder: 37_1
-[12] Trembeckiego ZTM pętla 01 - Siedliska Skrzyżowanie II 05 
-1545	4	195274	15:00:00	15:00:00		Trembeckiego ZTM pętla 01
-1545	4	195274	15:45:00	15:45:00		Siedliska Skrzyżowanie II 05
 
 Folder: 4_1
 [4] Lubelska Zajezdnia MPK - Krasne Auchan 01 
@@ -4058,7 +4053,7 @@ Folder: 0B_2
 1583	4	186423	15:03:00	15:03:00		Dworzec Główny PKP 01
 1583	4	186423	15:36:00	15:36:00		Dworzec Główny PKP 01
 
-Folder: 1_1
+Folder: 10140
 [1] Spichlerzowa pętla 04 - Krakowska granica 15 
 1630	4	196653	15:04:00	15:04:00		Spichlerzowa pętla 04 nż
 1630	4	196653	15:38:00	15:38:00		Krakowska granica 15 nż
@@ -4133,15 +4128,15 @@ Folder: 7_1
 1013	4	175482	15:15:00	15:15:00		Krasne Auchan 01
 1013	4	175482	15:53:00	15:53:00		Dworzec Lokalny
 
+Folder: 10141
+[1] Krakowska granica 15 - Załęska Zakład Karny 08 
+1642	4	196616	15:16:00	15:16:00		Krakowska granica 15 nż
+1642	4	196616	15:45:00	15:45:00		Załęska Zakład Karny 08 nż
+
 Folder: 16_2
 [16] Kalinowa pętla 04 - Św. Rocha lasek pętla 11 
 1291	4	158995	15:16:00	15:16:00		Kalinowa pętla 04
 1291	4	158995	16:01:00	16:01:00		Św. Rocha lasek pętla 11
-
-Folder: 1_2
-[1] Krakowska granica 15 - Załęska Zakład Karny 08 
-1642	4	196616	15:16:00	15:16:00		Krakowska granica 15 nż
-1642	4	196616	15:45:00	15:45:00		Załęska Zakład Karny 08 nż
 
 Folder: 16_1
 [16] Św. Rocha lasek pętla 11 - Kalinowa pętla 04 
@@ -4213,7 +4208,7 @@ Folder: 30_1
 982	4	156227	15:26:00	15:26:00		Matuszczaka pętla 04
 982	4	156227	15:55:00	15:55:00		Mikołajczyka pętla 01
 
-Folder: 15_2
+Folder: 10128
 [15] Olbrachta pętla 09 - Zwięczycka MPWiK 05  p. Jarową
 1309	4	196457	15:27:00	15:27:00		Olbrachta pętla 09
 1309	4	196457	16:15:00	16:15:00		Zwięczycka MPWiK 05
@@ -4258,7 +4253,7 @@ Folder: 0A_1
 1583	4	185860	15:33:00	15:33:00		Dworzec Główny PKP 01
 1583	4	185860	16:06:00	16:06:00		Dworzec Główny PKP 01
 
-Folder: 15_1
+Folder: 10129
 [15] Zwięczycka MPWiK 05 - Olbrachta pętla 09 
 1459	4	196394	15:33:00	15:33:00		Zwięczycka MPWiK 05
 1459	4	196394	16:13:00	16:13:00		Olbrachta pętla 09
@@ -4273,7 +4268,7 @@ Folder: 22_1
 1492	4	179090	15:35:00	15:35:00		Bardowskiego 01
 1492	4	179090	16:01:00	16:01:00		Mrowla Otoka pętla 01
 
-Folder: 11_2
+Folder: 10135
 [11] Potockiego pętla 10 - Matuszczaka pętla 04 
 899	4	196462	15:39:00	15:39:00		Potockiego pętla 10
 899	4	196462	16:13:00	16:13:00		Matuszczaka pętla 04
@@ -4328,7 +4323,7 @@ Folder: 0B_2
 1582	4	186106	15:50:00	15:50:00		Dworzec Główny PKP 03
 1582	4	186106	16:23:00	16:23:00		Dworzec Główny PKP 03
 
-Folder: 11_1
+Folder: 10136
 [11] Matuszczaka pętla 04 - Potockiego pętla 10 
 905	4	196453	15:52:00	15:52:00		Matuszczaka pętla 04
 905	4	196453	16:29:00	16:29:00		Potockiego pętla 10
@@ -4348,20 +4343,25 @@ Folder: 13_2
 1097	4	175629	15:54:00	15:54:00		Lwowska szpital pętla 02
 1097	4	175629	16:25:00	16:25:00		Wita Stwosza pętla 01
 
+Folder: 10024
+[12] Siedliska Skrzyżowanie II 05 - Trembeckiego ZTM pętla 01 
+1540	4	194944	15:55:00	15:55:00		Siedliska Skrzyżowanie II 05
+1540	4	194944	16:36:00	16:36:00		Trembeckiego ZTM pętla 01
+
 Folder: 30_2
 [30] Mikołajczyka pętla 03 - Matuszczaka pętla 04 
 994	4	186475	15:55:00	15:55:00		Mikołajczyka pętla 03
 994	4	186475	16:20:00	16:20:00		Matuszczaka pętla 04
 
-Folder: 37_1
-[12] Siedliska Skrzyżowanie II 05 - Trembeckiego ZTM pętla 01 
-1540	4	194944	15:55:00	15:55:00		Siedliska Skrzyżowanie II 05
-1540	4	194944	16:36:00	16:36:00		Trembeckiego ZTM pętla 01
-
 Folder: 44_1
 [44] Dworaka targ 01 - Tyczyn Kopernika 02 
 1386	4	171135	15:55:00	15:55:00		Dworaka targ 01
 1386	4	171135	16:19:00	16:19:00		Tyczyn Kopernika 02
+
+Folder: 10139
+[3] Krakowska granica 15 - Boguchwała 97 
+760	4	196582	15:56:00	15:56:00		Krakowska granica 15 nż
+760	4	196582	16:32:00	16:32:00		Boguchwała 97
 
 Folder: 13_3
 [13] Lwowska szpital pętla 02 - Wita Stwosza pętla 01 
@@ -4372,11 +4372,6 @@ Folder: 30_3
 [30] Matuszczaka pętla 04 - Mikołajczyka pętla 01 
 982	4	192706	15:56:00	15:56:00		Matuszczaka pętla 04
 982	4	192706	16:25:00	16:25:00		Mikołajczyka pętla 01
-
-Folder: 3_2
-[3] Krakowska granica 15 - Boguchwała 97 
-760	4	196582	15:56:00	15:56:00		Krakowska granica 15 nż
-760	4	196582	16:32:00	16:32:00		Boguchwała 97
 
 Folder: 3_1
 [3] Boguchwała 97 - Krakowska granica 15 
@@ -4458,7 +4453,7 @@ Folder: 4_1
 1443	4	175491	16:06:00	16:06:00		Krasne Auchan 01
 1443	4	175491	16:39:00	16:39:00		Lubelska Zajezdnia MPK
 
-Folder: 1_2
+Folder: 10141
 [1] Załęska Zakład Karny 08 - Krakowska granica 15 
 1634	4	196718	16:07:00	16:07:00		Załęska Zakład Karny 08 nż
 1634	4	196718	16:38:00	16:38:00		Krakowska granica 15 nż
@@ -4528,15 +4523,15 @@ Folder: 54_1
 1626	4	189978	16:15:00	16:15:00		Zaczernie ML System / Fibrain 03 nż
 1626	4	189978	16:40:00	16:40:00		Bardowskiego 04
 
+Folder: 10140
+[1] Krakowska granica 15 - Spichlerzowa pętla 04 
+1627	4	196819	16:16:00	16:16:00		Krakowska granica 15 nż
+1627	4	196819	16:49:00	16:49:00		Spichlerzowa pętla 04 nż
+
 Folder: 16_1
 [16] Kalinowa pętla 04 - Św. Rocha lasek pętla 11 
 1291	4	162141	16:16:00	16:16:00		Kalinowa pętla 04
 1291	4	162141	17:01:00	17:01:00		Św. Rocha lasek pętla 11
-
-Folder: 1_1
-[1] Krakowska granica 15 - Spichlerzowa pętla 04 
-1627	4	196819	16:16:00	16:16:00		Krakowska granica 15 nż
-1627	4	196819	16:49:00	16:49:00		Spichlerzowa pętla 04 nż
 
 Folder: 16_2
 [16] Św. Rocha lasek pętla 11 - Kalinowa pętla 04 
@@ -4598,7 +4593,7 @@ Folder: 30_2
 982	4	185738	16:26:00	16:26:00		Matuszczaka pętla 04
 982	4	185738	16:55:00	16:55:00		Mikołajczyka pętla 01
 
-Folder: 15_1
+Folder: 10129
 [15] Olbrachta pętla 09 - Zwięczycka MPWiK 05  p. Jarową
 1309	4	196684	16:27:00	16:27:00		Olbrachta pętla 09
 1309	4	196684	17:15:00	17:15:00		Zwięczycka MPWiK 05
@@ -4648,7 +4643,7 @@ Folder: 0B_2
 1583	4	187058	16:33:00	16:33:00		Dworzec Główny PKP 01
 1583	4	187058	17:06:00	17:06:00		Dworzec Główny PKP 01
 
-Folder: 15_2
+Folder: 10128
 [15] Zwięczycka MPWiK 05 - Olbrachta pętla 09 
 1459	4	196639	16:33:00	16:33:00		Zwięczycka MPWiK 05
 1459	4	196639	17:13:00	17:13:00		Olbrachta pętla 09
@@ -4663,7 +4658,7 @@ Folder: 14_1
 1660	4	188333	16:38:00	16:38:00		Dworzec Lokalny
 1660	4	188333	17:13:00	17:13:00		Kard. K. Wojtyły pętla 03 nż
 
-Folder: 11_1
+Folder: 10136
 [11] Potockiego pętla 10 - Matuszczaka pętla 04 
 899	4	196798	16:39:00	16:39:00		Potockiego pętla 10
 899	4	196798	17:13:00	17:13:00		Matuszczaka pętla 04
@@ -4672,11 +4667,6 @@ Folder: 19_6
 [18] Obr. Poczty Gdańskiej pętla 08 - Łukasiewicza pętla 10
 1587	4	186051	16:40:00	16:40:00		Obr. Poczty Gdańskiej pętla 08
 1587	4	186051	17:13:00	17:13:00		Łukasiewicza pętla 10
-
-Folder: 54_1
-[Rez]   -  
-1587	4	186051	16:40:00	16:40:00		
-1587	4	186051	17:50:00	17:50:00		
 
 Folder: 26_1
 [26] Cienista cmentarz 01 - Krakowska granica 15 
@@ -4733,7 +4723,7 @@ Folder: 7_1
 1013	4	176214	16:50:00	16:50:00		Krasne Auchan 01
 1013	4	176214	17:28:00	17:28:00		Dworzec Lokalny
 
-Folder: 11_2
+Folder: 10135
 [11] Matuszczaka pętla 04 - Potockiego pętla 10 
 905	4	196747	16:52:00	16:52:00		Matuszczaka pętla 04
 905	4	196747	17:29:00	17:29:00		Potockiego pętla 10
@@ -4793,20 +4783,25 @@ Folder: 9_2
 1358	4	170118	16:57:00	16:57:00		Staroniwska pętla 12 nż
 1358	4	170118	17:35:00	17:35:00		Olbrachta pętla 09
 
+Folder: 10139
+[3] Boguchwała 97 - Krakowska granica 15 
+756	4	196709	16:58:00	16:58:00		Boguchwała 97
+756	4	196709	17:36:00	17:36:00		Krakowska granica 15 nż
+
 Folder: 35_1
 [35] Kielanówka pętla 14 - Bardowskiego 04 
 1467	4	178998	16:58:00	16:58:00		Kielanówka pętla 14
 1467	4	178998	17:22:00	17:22:00		Bardowskiego 04
 
-Folder: 3_2
-[3] Boguchwała 97 - Krakowska granica 15 
-756	4	196709	16:58:00	16:58:00		Boguchwała 97
-756	4	196709	17:36:00	17:36:00		Krakowska granica 15 nż
-
 Folder: 47_4
 [47] Dworaka targ 01 - Baligrodzka 01 
 880	4	176641	16:58:00	16:58:00		Dworaka targ 01
 880	4	176641	17:26:00	17:26:00		Baligrodzka 01
+
+Folder: 10024
+[12] Trembeckiego ZTM pętla 01 - Budziwojska pętla 22 
+1538	4	195342	17:00:00	17:00:00		Trembeckiego ZTM pętla 01
+1538	4	195342	17:41:00	17:41:00		Budziwojska pętla 22 nż
 
 Folder: 19_1
 [19] Łukasiewicza pętla 10 - Miłocińska pętla 01 
@@ -4817,11 +4812,6 @@ Folder: 2_1
 [2] Baligrodzka 01 - Kard. K. Wojtyły pętla 03 nż 
 1631	4	188314	17:00:00	17:00:00		Baligrodzka 01
 1631	4	188314	17:43:00	17:43:00		Kard. K. Wojtyły pętla 03 nż
-
-Folder: 37_1
-[12] Trembeckiego ZTM pętla 01 - Budziwojska pętla 22 
-1538	4	195342	17:00:00	17:00:00		Trembeckiego ZTM pętla 01
-1538	4	195342	17:41:00	17:41:00		Budziwojska pętla 22 nż
 
 Folder: 4_1
 [4] Lubelska Zajezdnia MPK - Krasne Auchan 01 
@@ -4853,7 +4843,7 @@ Folder: 0A_1
 1583	4	185937	17:03:00	17:03:00		Dworzec Główny PKP 01
 1583	4	185937	17:36:00	17:36:00		Dworzec Główny PKP 01
 
-Folder: 1_1
+Folder: 10140
 [1] Spichlerzowa pętla 04 - Krakowska granica 15 
 1630	4	196696	17:04:00	17:04:00		Spichlerzowa pętla 04 nż
 1630	4	196696	17:38:00	17:38:00		Krakowska granica 15 nż
@@ -4918,7 +4908,7 @@ Folder: 47_3
 885	4	184132	17:15:00	17:15:00		Baligrodzka 01
 885	4	184132	17:42:00	17:42:00		Dworaka targ 01
 
-Folder: 1_2
+Folder: 10141
 [1] Krakowska granica 15 - Załęska Zakład Karny 08 
 1642	4	196680	17:16:00	17:16:00		Krakowska granica 15 nż
 1642	4	196680	17:43:00	17:43:00		Załęska Zakład Karny 08 nż
@@ -4993,7 +4983,7 @@ Folder: 30_3
 982	4	192698	17:27:00	17:27:00		Matuszczaka pętla 04
 982	4	192698	17:54:00	17:54:00		Mikołajczyka pętla 01
 
-Folder: 15_2
+Folder: 10128
 [15] Olbrachta pętla 09 - Zwięczycka MPWiK 05  p. Jarową
 1309	4	196611	17:28:00	17:28:00		Olbrachta pętla 09
 1309	4	196611	18:13:00	18:13:00		Zwięczycka MPWiK 05
@@ -5038,12 +5028,12 @@ Folder: 27_2
 1447	4	176957	17:33:00	17:33:00		Cienista cmentarz 01
 1447	4	176957	18:05:00	18:05:00		Baligrodzka 01
 
-Folder: 15_1
+Folder: 10129
 [15] Zwięczycka MPWiK 05 - Olbrachta pętla 09 
 1459	4	196600	17:34:00	17:34:00		Zwięczycka MPWiK 05
 1459	4	196600	18:12:00	18:12:00		Olbrachta pętla 09
 
-Folder: 11_2
+Folder: 10135
 [11] Potockiego pętla 10 - Matuszczaka pętla 04 
 899	4	196448	17:39:00	17:39:00		Potockiego pętla 10
 899	4	196448	18:11:00	18:11:00		Matuszczaka pętla 04
@@ -5108,7 +5098,7 @@ Folder: 19_1
 1578	4	186651	17:52:00	17:52:00		Miłocińska pętla 01
 1578	4	186651	18:23:00	18:23:00		Łukasiewicza pętla 10
 
-Folder: 11_1
+Folder: 10136
 [11] Matuszczaka pętla 04 - Potockiego pętla 10 
 905	4	196739	17:53:00	17:53:00		Matuszczaka pętla 04
 905	4	196739	18:27:00	18:27:00		Potockiego pętla 10
@@ -5128,15 +5118,15 @@ Folder: 30_1
 994	4	156823	17:54:00	17:54:00		Mikołajczyka pętla 03
 994	4	156823	18:18:00	18:18:00		Matuszczaka pętla 04
 
+Folder: 10139
+[3] Krakowska granica 15 - Boguchwała 97 
+760	4	196793	17:55:00	17:55:00		Krakowska granica 15 nż
+760	4	196793	18:30:00	18:30:00		Boguchwała 97
+
 Folder: 35_1
 [35] Bardowskiego 02 - Kielanówka pętla 14 
 1469	4	179890	17:55:00	17:55:00		Bardowskiego 02
 1469	4	179890	18:19:00	18:19:00		Kielanówka pętla 14
-
-Folder: 3_2
-[3] Krakowska granica 15 - Boguchwała 97 
-760	4	196793	17:55:00	17:55:00		Krakowska granica 15 nż
-760	4	196793	18:30:00	18:30:00		Boguchwała 97
 
 Folder: 13_3
 [13] Lwowska szpital pętla 02 - Wita Stwosza pętla 01 
@@ -5173,6 +5163,11 @@ Folder: 9_2
 1378	4	170005	17:58:00	17:58:00		Olbrachta pętla 09
 1378	4	170005	18:34:00	18:34:00		Staroniwska pętla 12 nż
 
+Folder: 10024
+[12] Budziwojska pętla 22 - Trembeckiego ZTM pętla 01 
+1534	4	195469	18:00:00	18:00:00		Budziwojska pętla 22 nż
+1534	4	195469	18:36:00	18:36:00		Trembeckiego ZTM pętla 01
+
 Folder: 19_4
 [19] Łukasiewicza pętla 10 - Miłocińska pętla 01 
 1584	4	185633	18:00:00	18:00:00		Łukasiewicza pętla 10
@@ -5187,11 +5182,6 @@ Folder: 36_1
 [36] Św. Rocha lasek pętla 11 - Bł. Karoliny 09 
 1515	4	180430	18:00:00	18:00:00		Św. Rocha lasek pętla 11
 1515	4	180430	18:42:00	18:42:00		Bł. Karoliny 09
-
-Folder: 37_1
-[12] Budziwojska pętla 22 - Trembeckiego ZTM pętla 01 
-1534	4	195469	18:00:00	18:00:00		Budziwojska pętla 22 nż
-1534	4	195469	18:36:00	18:36:00		Trembeckiego ZTM pętla 01
 
 Folder: 59_1
 [12] Trembeckiego ZTM pętla 01 - Budziwojska pętla 22 
@@ -5238,7 +5228,7 @@ Folder: 51_1
 1765	4	193129	18:05:00	18:05:00		Bardowskiego 01
 1765	4	193129	18:39:00	18:39:00		Jasionka - Port Lotniczy
 
-Folder: 1_2
+Folder: 10141
 [1] Załęska Zakład Karny 08 - Krakowska granica 15 
 1634	4	196500	18:08:00	18:08:00		Załęska Zakład Karny 08 nż
 1634	4	196500	18:37:00	18:37:00		Krakowska granica 15 nż
@@ -5288,15 +5278,15 @@ Folder: 51_2
 1438	4	192477	18:14:00	18:14:00		Jasionka EME Aero 01
 1438	4	192477	18:48:00	18:48:00		Bardowskiego 04
 
+Folder: 10140
+[1] Krakowska granica 15 - Spichlerzowa pętla 04 p. Ciepłowniczą EC
+1648	4	196695	18:17:00	18:17:00		Krakowska granica 15 nż
+1648	4	196695	18:54:00	18:54:00		Spichlerzowa pętla 04 nż
+
 Folder: 16_1
 [16] Kalinowa pętla 04 - Św. Rocha lasek pętla 11 
 1291	4	162272	18:17:00	18:17:00		Kalinowa pętla 04
 1291	4	162272	18:59:00	18:59:00		Św. Rocha lasek pętla 11
-
-Folder: 1_1
-[1] Krakowska granica 15 - Spichlerzowa pętla 04 p. Ciepłowniczą EC
-1648	4	196695	18:17:00	18:17:00		Krakowska granica 15 nż
-1648	4	196695	18:54:00	18:54:00		Spichlerzowa pętla 04 nż
 
 Folder: 16_2
 [16] Św. Rocha lasek pętla 11 - Kalinowa pętla 04 
@@ -5353,7 +5343,7 @@ Folder: 30_1
 982	4	159223	18:27:00	18:27:00		Matuszczaka pętla 04
 982	4	159223	18:54:00	18:54:00		Mikołajczyka pętla 01
 
-Folder: 15_1
+Folder: 10129
 [15] Olbrachta pętla 09 - Zwięczycka MPWiK 05  p. Jarową
 1309	4	196618	18:28:00	18:28:00		Olbrachta pętla 09
 1309	4	196618	19:13:00	19:13:00		Zwięczycka MPWiK 05
@@ -5403,7 +5393,7 @@ Folder: 27_1
 1447	4	176536	18:33:00	18:33:00		Cienista cmentarz 01
 1447	4	176536	19:05:00	19:05:00		Baligrodzka 01
 
-Folder: 15_2
+Folder: 10128
 [15] Zwięczycka MPWiK 05 - Olbrachta pętla 09 
 1459	4	196609	18:34:00	18:34:00		Zwięczycka MPWiK 05
 1459	4	196609	19:12:00	19:12:00		Olbrachta pętla 09
@@ -5428,7 +5418,7 @@ Folder: 35_1
 1467	4	178852	18:38:00	18:38:00		Kielanówka pętla 14
 1467	4	178852	19:02:00	19:02:00		Bardowskiego 04
 
-Folder: 11_1
+Folder: 10136
 [11] Potockiego pętla 10 - Matuszczaka pętla 04 
 899	4	196434	18:39:00	18:39:00		Potockiego pętla 10
 899	4	196434	19:11:00	19:11:00		Matuszczaka pętla 04
@@ -5498,7 +5488,7 @@ Folder: 19_4
 1578	4	185539	18:52:00	18:52:00		Miłocińska pętla 01
 1578	4	185539	19:23:00	19:23:00		Łukasiewicza pętla 10
 
-Folder: 11_2
+Folder: 10135
 [11] Matuszczaka pętla 04 - Potockiego pętla 10 
 905	4	196418	18:53:00	18:53:00		Matuszczaka pętla 04
 905	4	196418	19:27:00	19:27:00		Potockiego pętla 10
@@ -5538,7 +5528,7 @@ Folder: 30_3
 982	4	193538	18:57:00	18:57:00		Matuszczaka pętla 04
 982	4	193538	19:24:00	19:24:00		Mikołajczyka pętla 01
 
-Folder: 3_2
+Folder: 10139
 [3] Boguchwała 97 - Krakowska granica 15 
 756	4	196522	18:58:00	18:58:00		Boguchwała 97
 756	4	196522	19:35:00	19:35:00		Krakowska granica 15 nż
@@ -5553,7 +5543,7 @@ Folder: 9_2
 1358	4	168692	18:58:00	18:58:00		Staroniwska pętla 12 nż
 1358	4	168692	19:35:00	19:35:00		Olbrachta pętla 09
 
-Folder: 1_1
+Folder: 10140
 [1] Spichlerzowa pętla 04 - Krakowska granica 15 p. Ciepłowniczą EC
 1652	4	196842	18:59:00	18:59:00		Spichlerzowa pętla 04 nż
 1652	4	196842	19:37:00	19:37:00		Krakowska granica 15 nż
@@ -5663,15 +5653,15 @@ Folder: 35_1
 1469	4	179140	19:15:00	19:15:00		Bardowskiego 02
 1469	4	179140	19:39:00	19:39:00		Kielanówka pętla 14
 
+Folder: 10141
+[1] Krakowska granica 15 - Załęska Zakład Karny 08 
+1642	4	196608	19:17:00	19:17:00		Krakowska granica 15 nż
+1642	4	196608	19:43:00	19:43:00		Załęska Zakład Karny 08 nż
+
 Folder: 16_2
 [16] Kalinowa pętla 04 - Św. Rocha lasek pętla 11 
 1291	4	154202	19:17:00	19:17:00		Kalinowa pętla 04
 1291	4	154202	19:59:00	19:59:00		Św. Rocha lasek pętla 11
-
-Folder: 1_2
-[1] Krakowska granica 15 - Załęska Zakład Karny 08 
-1642	4	196608	19:17:00	19:17:00		Krakowska granica 15 nż
-1642	4	196608	19:43:00	19:43:00		Załęska Zakład Karny 08 nż
 
 Folder: 16_1
 [16] Św. Rocha lasek pętla 11 - Kalinowa pętla 04 
@@ -5698,15 +5688,15 @@ Folder: 51_1
 1766	4	193459	19:20:00	19:20:00		Jasionka - Port Lotniczy
 1766	4	193459	19:51:00	19:51:00		Bardowskiego 04
 
+Folder: 10024
+[37] Trembeckiego ZTM pętla 01 - Hermanowa Przylasek pętla 03
+1615	4	195511	19:22:00	19:22:00		Trembeckiego ZTM pętla 01
+1615	4	195511	20:17:00	20:17:00		Hermanowa Przylasek pętla 06
+
 Folder: 19_5
 [19] Miłocińska pętla 01 - Łukasiewicza pętla 10 
 1578	4	186240	19:22:00	19:22:00		Miłocińska pętla 01
 1578	4	186240	19:53:00	19:53:00		Łukasiewicza pętla 10
-
-Folder: 37_1
-[37] Trembeckiego ZTM pętla 01 - Hermanowa Przylasek pętla 03
-1615	4	195511	19:22:00	19:22:00		Trembeckiego ZTM pętla 01
-1615	4	195511	20:17:00	20:17:00		Hermanowa Przylasek pętla 06
 
 Folder: 37_2
 [37] Hermanowa Przylasek pętla 06 - Trembeckiego ZTM pętla 01 
@@ -5733,7 +5723,7 @@ Folder: 30_2
 982	4	186472	19:27:00	19:27:00		Matuszczaka pętla 04
 982	4	186472	19:54:00	19:54:00		Mikołajczyka pętla 01
 
-Folder: 15_2
+Folder: 10128
 [15] Olbrachta pętla 09 - Zwięczycka MPWiK 05  p. Jarową
 1309	4	196656	19:28:00	19:28:00		Olbrachta pętla 09
 1309	4	196656	20:13:00	20:13:00		Zwięczycka MPWiK 05
@@ -5773,7 +5763,7 @@ Folder: 27_2
 1447	4	174629	19:33:00	19:33:00		Cienista cmentarz 01
 1447	4	174629	20:05:00	20:05:00		Baligrodzka 01
 
-Folder: 15_1
+Folder: 10129
 [15] Zwięczycka MPWiK 05 - Olbrachta pętla 09 
 1459	4	196733	19:34:00	19:34:00		Zwięczycka MPWiK 05
 1459	4	196733	20:12:00	20:12:00		Olbrachta pętla 09
@@ -5783,7 +5773,7 @@ Folder: 58_1
 1384	4	170918	19:34:00	19:34:00		Hermanowa Czerwonki pętla 53
 1384	4	170918	20:22:00	20:22:00		Dworzec Lokalny
 
-Folder: 11_2
+Folder: 10135
 [11] Potockiego pętla 10 - Matuszczaka pętla 04 
 899	4	196623	19:39:00	19:39:00		Potockiego pętla 10
 899	4	196623	20:11:00	20:11:00		Matuszczaka pętla 04
@@ -5853,7 +5843,7 @@ Folder: 19_6
 1578	4	186267	19:52:00	19:52:00		Miłocińska pętla 01
 1578	4	186267	20:23:00	20:23:00		Łukasiewicza pętla 10
 
-Folder: 11_1
+Folder: 10136
 [11] Matuszczaka pętla 04 - Potockiego pętla 10 
 905	4	196491	19:53:00	19:53:00		Matuszczaka pętla 04
 905	4	196491	20:27:00	20:27:00		Potockiego pętla 10
@@ -5878,7 +5868,7 @@ Folder: 30_3
 994	4	192685	19:54:00	19:54:00		Mikołajczyka pętla 03
 994	4	192685	20:18:00	20:18:00		Matuszczaka pętla 04
 
-Folder: 1_1
+Folder: 10140
 [3] Krakowska granica 15 - Boguchwała 97 
 760	4	196458	19:55:00	19:55:00		Krakowska granica 15 nż
 760	4	196458	20:30:00	20:30:00		Boguchwała 97
@@ -5968,7 +5958,7 @@ Folder: 51_1
 1765	4	193523	20:05:00	20:05:00		Bardowskiego 01
 1765	4	193523	20:39:00	20:39:00		Jasionka - Port Lotniczy
 
-Folder: 1_2
+Folder: 10141
 [1] Załęska Zakład Karny 08 - Krakowska granica 15 
 1634	4	196442	20:08:00	20:08:00		Załęska Zakład Karny 08 nż
 1634	4	196442	20:37:00	20:37:00		Krakowska granica 15 nż
@@ -6013,7 +6003,7 @@ Folder: 6_2
 1620	4	188232	20:13:00	20:13:00		Ustrzycka / Magórska 07
 1620	4	188232	20:57:00	20:57:00		Słocińska pętla 11 nż
 
-Folder: 3_2
+Folder: 10139
 [1] Krakowska granica 15 - Spichlerzowa pętla 04 
 1627	4	196534	20:17:00	20:17:00		Krakowska granica 15 nż
 1627	4	196534	20:48:00	20:48:00		Spichlerzowa pętla 04 nż
@@ -6048,15 +6038,15 @@ Folder: 17_3
 118	4	177661	20:21:00	20:21:00		Błękitne Wzgórze / Leśne Wzgórze 03 nż
 118	4	177661	21:04:00	21:04:00		Lwowska szpital pętla 02
 
+Folder: 10024
+[37] Hermanowa Przylasek pętla 06 - Trembeckiego ZTM pętla 01 
+1616	4	194790	20:22:00	20:22:00		Hermanowa Przylasek pętla 06
+1616	4	194790	21:12:00	21:12:00		Trembeckiego ZTM pętla 01
+
 Folder: 19_3
 [19] Miłocińska pętla 01 - Łukasiewicza pętla 10 
 1578	4	185693	20:22:00	20:22:00		Miłocińska pętla 01
 1578	4	185693	20:52:00	20:52:00		Łukasiewicza pętla 10
-
-Folder: 37_1
-[37] Hermanowa Przylasek pętla 06 - Trembeckiego ZTM pętla 01 
-1616	4	194790	20:22:00	20:22:00		Hermanowa Przylasek pętla 06
-1616	4	194790	21:12:00	21:12:00		Trembeckiego ZTM pętla 01
 
 Folder: 12_2
 [37] Trembeckiego ZTM pętla 01 - Hermanowa Przylasek pętla 03
@@ -6093,7 +6083,7 @@ Folder: 13_1
 1100	4	176352	20:26:00	20:26:00		Lwowska szpital pętla 02
 1100	4	176352	21:11:00	21:11:00		Wita Stwosza pętla 01
 
-Folder: 15_1
+Folder: 10129
 [15] Olbrachta pętla 09 - Piłsudskiego U. Wojewódzki 06 
 1294	4	196557	20:28:00	20:28:00		Olbrachta pętla 09
 1294	4	196557	20:45:00	20:45:00		Piłsudskiego U. Wojewódzki 06
@@ -6148,7 +6138,7 @@ Folder: 27_1
 1447	4	173678	20:34:00	20:34:00		Cienista cmentarz 01
 1447	4	173678	21:04:00	21:04:00		Baligrodzka 01
 
-Folder: 15_2
+Folder: 10128
 [15] Zwięczycka MPWiK 05 - Cieplińskiego 01 
 1453	4	196760	20:36:00	20:36:00		Zwięczycka MPWiK 05
 1453	4	196760	20:53:00	20:53:00		Cieplińskiego 01
@@ -6158,7 +6148,7 @@ Folder: 14_1
 1660	4	188554	20:38:00	20:38:00		Dworzec Lokalny
 1660	4	188554	21:08:00	21:08:00		Kard. K. Wojtyły pętla 03 nż
 
-Folder: 11_1
+Folder: 10136
 [11] Potockiego pętla 10 - Matuszczaka pętla 04 
 899	4	196433	20:40:00	20:40:00		Potockiego pętla 10
 899	4	196433	21:11:00	21:11:00		Matuszczaka pętla 04
@@ -6218,7 +6208,7 @@ Folder: 19_5
 1578	4	186746	20:52:00	20:52:00		Miłocińska pętla 01
 1578	4	186746	21:21:00	21:21:00		Łukasiewicza pętla 10
 
-Folder: 11_2
+Folder: 10135
 [11] Matuszczaka pętla 04 - Potockiego pętla 10 
 905	4	196740	20:54:00	20:54:00		Matuszczaka pętla 04
 905	4	196740	21:29:00	21:29:00		Potockiego pętla 10
@@ -6268,7 +6258,7 @@ Folder: 9_2
 1358	4	168766	20:58:00	20:58:00		Staroniwska pętla 12 nż
 1358	4	168766	21:34:00	21:34:00		Olbrachta pętla 09
 
-Folder: 1_1
+Folder: 10140
 [3] Boguchwała 97 - Świlcza 58 
 786	4	196683	20:59:00	20:59:00		Boguchwała 97
 786	4	196683	21:38:00	21:38:00		Świlcza 58
@@ -6278,15 +6268,15 @@ Folder: 35_1
 1467	4	179373	20:59:00	20:59:00		Kielanówka pętla 14
 1467	4	179373	21:23:00	21:23:00		Bardowskiego 04
 
+Folder: 10129
+[12] Trembeckiego ZTM pętla 01 - Siedliska Skrzyżowanie II 05 
+1545	4	196580	21:00:00	21:00:00		Trembeckiego ZTM pętla 01
+1545	4	196580	21:43:00	21:43:00		Siedliska Skrzyżowanie II 05
+
 Folder: 12_1
 [12] Budziwojska pętla 22 - Trembeckiego ZTM pętla 01 
 1534	4	187699	21:00:00	21:00:00		Budziwojska pętla 22 nż
 1534	4	187699	21:34:00	21:34:00		Trembeckiego ZTM pętla 01
-
-Folder: 15_1
-[12] Trembeckiego ZTM pętla 01 - Siedliska Skrzyżowanie II 05 
-1545	4	196580	21:00:00	21:00:00		Trembeckiego ZTM pętla 01
-1545	4	196580	21:43:00	21:43:00		Siedliska Skrzyżowanie II 05
 
 Folder: 19_3
 [19] Łukasiewicza pętla 10 - Miłocińska pętla 01 
@@ -6333,7 +6323,7 @@ Folder: 51_2
 1457	4	192485	21:05:00	21:05:00		Bardowskiego 01
 1457	4	192485	21:39:00	21:39:00		Jasionka EME Aero 02
 
-Folder: 3_2
+Folder: 10139
 [1] Spichlerzowa pętla 04 - Krakowska granica 15 
 1630	4	196449	21:07:00	21:07:00		Spichlerzowa pętla 04 nż
 1630	4	196449	21:36:00	21:36:00		Krakowska granica 15 nż
@@ -6388,15 +6378,15 @@ Folder: 0B_1
 1582	4	185491	21:18:00	21:18:00		Dworzec Główny PKP 03
 1582	4	185491	21:48:00	21:48:00		Dworzec Główny PKP 03
 
+Folder: 10141
+[1] Krakowska granica 15 - Załęska Zakład Karny 08 
+1642	4	196846	21:18:00	21:18:00		Krakowska granica 15 nż
+1642	4	196846	21:44:00	21:44:00		Załęska Zakład Karny 08 nż
+
 Folder: 16_2
 [16] Kalinowa pętla 04 - Św. Rocha lasek pętla 11 
 1291	4	153765	21:18:00	21:18:00		Kalinowa pętla 04
 1291	4	153765	21:59:00	21:59:00		Św. Rocha lasek pętla 11
-
-Folder: 1_2
-[1] Krakowska granica 15 - Załęska Zakład Karny 08 
-1642	4	196846	21:18:00	21:18:00		Krakowska granica 15 nż
-1642	4	196846	21:44:00	21:44:00		Załęska Zakład Karny 08 nż
 
 Folder: 16_1
 [16] Św. Rocha lasek pętla 11 - Kalinowa pętla 04 
@@ -6433,7 +6423,7 @@ Folder: 30_2
 994	4	186767	21:24:00	21:24:00		Mikołajczyka pętla 03
 994	4	186767	21:48:00	21:48:00		Matuszczaka pętla 04
 
-Folder: 15_2
+Folder: 10128
 [37] Trembeckiego ZTM pętla 01 - Hermanowa Przylasek pętla 03
 1615	4	196520	21:25:00	21:25:00		Trembeckiego ZTM pętla 01
 1615	4	196520	22:17:00	22:17:00		Hermanowa Przylasek pętla 06
@@ -6493,7 +6483,7 @@ Folder: 36_1
 1515	4	180650	21:36:00	21:36:00		Św. Rocha lasek pętla 11
 1515	4	180650	22:16:00	22:16:00		Bł. Karoliny 09
 
-Folder: 11_2
+Folder: 10135
 [11] Potockiego pętla 10 - Matuszczaka pętla 04 
 899	4	196450	21:40:00	21:40:00		Potockiego pętla 10
 899	4	196450	22:11:00	22:11:00		Matuszczaka pętla 04
@@ -6548,7 +6538,7 @@ Folder: 54_1
 1635	4	189156	21:50:00	21:50:00		Bardowskiego 03
 1635	4	189156	22:15:00	22:15:00		Głogów Młp. Leniar I 01 nż
 
-Folder: 1_1
+Folder: 10140
 [3] Świlcza 58 - Boguchwała 97 
 776	4	196390	21:51:00	21:51:00		Świlcza 58
 776	4	196390	22:30:00	22:30:00		Boguchwała 97
@@ -6563,7 +6553,7 @@ Folder: 44_1
 1383	4	171125	21:53:00	21:53:00		Tyczyn Kopernika 02
 1383	4	171125	22:14:00	22:14:00		Dworaka targ 01
 
-Folder: 11_1
+Folder: 10136
 [11] Matuszczaka pętla 04 - Potockiego pętla 10 
 905	4	196480	21:54:00	21:54:00		Matuszczaka pętla 04
 905	4	196480	22:29:00	22:29:00		Potockiego pętla 10
@@ -6573,7 +6563,7 @@ Folder: N1_1
 994	4	188823	21:54:00	21:54:00		Mikołajczyka pętla 03
 994	4	188823	22:18:00	22:18:00		Matuszczaka pętla 04
 
-Folder: 15_1
+Folder: 10129
 [12] Siedliska Skrzyżowanie II 05 - Trembeckiego ZTM pętla 01 
 1540	4	196555	21:55:00	21:55:00		Siedliska Skrzyżowanie II 05
 1540	4	196555	22:34:00	22:34:00		Trembeckiego ZTM pętla 01
@@ -6698,7 +6688,7 @@ Folder: 0A_1
 1582	4	185505	22:18:00	22:18:00		Dworzec Główny PKP 03
 1582	4	185505	22:48:00	22:48:00		Dworzec Główny PKP 03
 
-Folder: 3_2
+Folder: 10139
 [1] Krakowska granica 15 - Spichlerzowa pętla 04 
 1627	4	196412	22:18:00	22:18:00		Krakowska granica 15 nż
 1627	4	196412	22:48:00	22:48:00		Spichlerzowa pętla 04 nż
@@ -6718,7 +6708,7 @@ Folder: 6_1
 1618	4	188150	22:19:00	22:19:00		Słocińska pętla 11 nż
 1618	4	188150	22:57:00	22:57:00		Ustrzycka pętla 02 nż
 
-Folder: 15_2
+Folder: 10128
 [37] Hermanowa Przylasek pętla 06 - Trembeckiego ZTM pętla 01 
 1616	4	196603	22:22:00	22:22:00		Hermanowa Przylasek pętla 06
 1616	4	196603	23:12:00	23:12:00		Trembeckiego ZTM pętla 01
@@ -6728,7 +6718,7 @@ Folder: 19_4
 1578	4	186922	22:22:00	22:22:00		Miłocińska pętla 01
 1578	4	186922	22:51:00	22:51:00		Łukasiewicza pętla 10
 
-Folder: 11_2
+Folder: 10135
 [11] Matuszczaka pętla 04 - Cieplińskiego 01 
 1303	4	196712	22:24:00	22:24:00		Matuszczaka pętla 04
 1303	4	196712	22:35:00	22:35:00		Cieplińskiego 01
@@ -6818,7 +6808,7 @@ Folder: 2_2
 1633	4	188656	22:56:00	22:56:00		Kard. K. Wojtyły pętla 03 nż
 1633	4	188656	23:34:00	23:34:00		Baligrodzka 01
 
-Folder: 1_1
+Folder: 10140
 [3] Boguchwała 97 - Krakowska granica 15 
 756	4	196769	22:59:00	22:59:00		Boguchwała 97
 756	4	196769	23:36:00	23:36:00		Krakowska granica 15 nż
@@ -6868,7 +6858,7 @@ Folder: 30_3
 1765	4	192676	23:05:00	23:05:00		Bardowskiego 01
 1765	4	192676	23:35:00	23:35:00		Jasionka - Port Lotniczy
 
-Folder: 3_2
+Folder: 10139
 [1] Spichlerzowa pętla 04 - Krakowska granica 15 
 1630	4	196786	23:07:00	23:07:00		Spichlerzowa pętla 04 nż
 1630	4	196786	23:36:00	23:36:00		Krakowska granica 15 nż
@@ -6918,7 +6908,7 @@ Folder: 19_5
 1579	4	185899	23:45:00	23:45:00		Łukasiewicza pętla 10
 1579	4	185899	24:13:00	24:13:00		Obr. Poczty Gdańskiej pętla 08
 
-Folder: 1_1
+Folder: 10140
 [3] Krakowska granica 15 - Boguchwała 97 
 760	4	196782	23:58:00	23:58:00		Krakowska granica 15 nż
 760	4	196782	24:30:00	24:30:00		Boguchwała 97
@@ -6943,7 +6933,7 @@ Folder: N3_1
 1641	4	194002	24:21:00	24:21:00		Lubelska Zajezdnia MPK
 1641	4	194002	25:11:00	25:11:00		Lubelska Zajezdnia MPK
 
-Folder: 1_1
+Folder: 10140
 [3] Boguchwała 97 - Cieplińskiego 01 
 1307	4	196770	24:32:00	24:32:00		Boguchwała 97
 1307	4	196770	24:47:00	24:47:00		Cieplińskiego 01
@@ -7008,7 +6998,3 @@ Folder: N2_1
 1643	4	188341	28:36:00	28:36:00		Bł. Karoliny 09
 1643	4	188341	28:59:00	28:59:00		Dworzec Główny PKP 03
 
-Folder: N3_1
-[Rez]   -  
-1643	4	188341	04:11:00	04:11:00		
-1643	4	188341	06:00:00	06:00:00		

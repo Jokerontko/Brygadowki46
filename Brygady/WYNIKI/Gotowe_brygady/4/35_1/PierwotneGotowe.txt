@@ -1,0 +1,553 @@
+route_id	service_id	trip_id	arrival_time	departure_time	stop_headsign	stop_name
+-------------------------------------------------------------------------------
+1469	4	178801	05:15:00	05:15:00		Bardowskiego 02
+1469	4	178801	05:17:00	05:17:00		Pl. Wolności 04
+1469	4	178801	05:20:00	05:20:00		Cieplińskiego 02
+1469	4	178801	05:21:00	05:21:00		Mochnackiego 02 nż
+1469	4	178801	05:22:00	05:22:00		Langiewicza park 02 nż
+1469	4	178801	05:23:00	05:23:00		Chmaja / Langiewicza 02 nż
+1469	4	178801	05:25:00	05:25:00		Boya Żeleńskiego 01 nż
+1469	4	178801	05:26:00	05:26:00		Langiewicza / Wita Stwosza 04
+1469	4	178801	05:27:00	05:27:00		Staroniwska / Rzemieślnicza 02 nż
+1469	4	178801	05:28:00	05:28:00		Staroniwska szkoła 04 nż
+1469	4	178801	05:29:00	05:29:00		Staroniwska kościół 06 nż
+1469	4	178801	05:30:00	05:30:00		Staroniwska pętla 08 nż
+1469	4	178801	05:31:00	05:31:00		Staroniwska / Zielarska 14 nż
+1469	4	178801	05:32:00	05:32:00		Staroniwska / Kresowa 16 nż
+1469	4	178801	05:33:00	05:33:00		Kielanówka cegielnia 02 nż
+1469	4	178801	05:34:00	05:34:00		Kielanówka 04 nż
+1469	4	178801	05:35:00	05:35:00		Kielanówka Ruch 06 nż
+1469	4	178801	05:36:00	05:36:00		Błękitne Wzgórze / Słoneczny Stok 02 nż
+1469	4	178801	05:37:00	05:37:00		Błękitne Wzgórze / Leśne Wzgórze 04 nż
+1469	4	178801	05:38:00	05:38:00		Kielanówka poczta 12 nż
+1469	4	178801	05:39:00	05:39:00		Kielanówka pętla 14
+
+1467	4	178776	05:49:00	05:49:00		Kielanówka pętla 14
+1467	4	178776	05:50:00	05:50:00		Kielanówka poczta 11 nż
+1467	4	178776	05:51:00	05:51:00		Błękitne Wzgórze / Leśne Wzgórze 03 nż
+1467	4	178776	05:52:00	05:52:00		Błękitne Wzgórze / Słoneczny Stok 01 nż
+1467	4	178776	05:53:00	05:53:00		Kielanówka Ruch 05 nż
+1467	4	178776	05:54:00	05:54:00		Kielanówka 03 nż
+1467	4	178776	05:55:00	05:55:00		Kielanówka cegielnia 01 nż
+1467	4	178776	05:56:00	05:56:00		Staroniwska / Kresowa 11 nż
+1467	4	178776	05:57:00	05:57:00		Staroniwska / Zielarska 09 nż
+1467	4	178776	05:58:00	05:58:00		Staroniwska pętla 12 nż
+1467	4	178776	05:59:00	05:59:00		Staroniwska kościół 05 nż
+1467	4	178776	06:00:00	06:00:00		Staroniwska szkoła 03 nż
+1467	4	178776	06:01:00	06:01:00		Staroniwska / Rzemieślnicza 01 nż
+1467	4	178776	06:02:00	06:02:00		Langiewicza / Wita Stwosza 05 nż
+1467	4	178776	06:03:00	06:03:00		Boya Żeleńskiego 02 nż
+1467	4	178776	06:04:00	06:04:00		Chmaja bloki 03 nż
+1467	4	178776	06:05:00	06:05:00		Chmaja / Langiewicza 01 nż
+1467	4	178776	06:06:00	06:06:00		Langiewicza park 03 nż
+1467	4	178776	06:07:00	06:07:00		Langiewicza / Hoffmanowej 01 nż
+1467	4	178776	06:08:00	06:08:00		Mochnackiego 01 nż
+1467	4	178776	06:09:00	06:09:00		Cieplińskiego 01
+1467	4	178776	06:10:00	06:10:00		Piłsudskiego U. Wojewódzki 03
+1467	4	178776	06:13:00	06:13:00		Bardowskiego 04
+
+1469	4	179803	06:25:00	06:25:00		Bardowskiego 02
+1469	4	179803	06:27:00	06:27:00		Pl. Wolności 04
+1469	4	179803	06:30:00	06:30:00		Cieplińskiego 02
+1469	4	179803	06:31:00	06:31:00		Mochnackiego 02 nż
+1469	4	179803	06:33:00	06:33:00		Langiewicza park 02 nż
+1469	4	179803	06:34:00	06:34:00		Chmaja / Langiewicza 02 nż
+1469	4	179803	06:36:00	06:36:00		Boya Żeleńskiego 01 nż
+1469	4	179803	06:37:00	06:37:00		Langiewicza / Wita Stwosza 04
+1469	4	179803	06:39:00	06:39:00		Staroniwska / Rzemieślnicza 02 nż
+1469	4	179803	06:40:00	06:40:00		Staroniwska szkoła 04 nż
+1469	4	179803	06:41:00	06:41:00		Staroniwska kościół 06 nż
+1469	4	179803	06:42:00	06:42:00		Staroniwska pętla 08 nż
+1469	4	179803	06:43:00	06:43:00		Staroniwska / Zielarska 14 nż
+1469	4	179803	06:44:00	06:44:00		Staroniwska / Kresowa 16 nż
+1469	4	179803	06:45:00	06:45:00		Kielanówka cegielnia 02 nż
+1469	4	179803	06:46:00	06:46:00		Kielanówka 04 nż
+1469	4	179803	06:47:00	06:47:00		Kielanówka Ruch 06 nż
+1469	4	179803	06:48:00	06:48:00		Błękitne Wzgórze / Słoneczny Stok 02 nż
+1469	4	179803	06:49:00	06:49:00		Błękitne Wzgórze / Leśne Wzgórze 04 nż
+1469	4	179803	06:50:00	06:50:00		Kielanówka poczta 12 nż
+1469	4	179803	06:51:00	06:51:00		Kielanówka pętla 14
+
+1467	4	179046	06:59:00	06:59:00		Kielanówka pętla 14
+1467	4	179046	07:00:00	07:00:00		Kielanówka poczta 11 nż
+1467	4	179046	07:01:00	07:01:00		Błękitne Wzgórze / Leśne Wzgórze 03 nż
+1467	4	179046	07:02:00	07:02:00		Błękitne Wzgórze / Słoneczny Stok 01 nż
+1467	4	179046	07:03:00	07:03:00		Kielanówka Ruch 05 nż
+1467	4	179046	07:04:00	07:04:00		Kielanówka 03 nż
+1467	4	179046	07:05:00	07:05:00		Kielanówka cegielnia 01 nż
+1467	4	179046	07:06:00	07:06:00		Staroniwska / Kresowa 11 nż
+1467	4	179046	07:07:00	07:07:00		Staroniwska / Zielarska 09 nż
+1467	4	179046	07:08:00	07:08:00		Staroniwska pętla 12 nż
+1467	4	179046	07:09:00	07:09:00		Staroniwska kościół 05 nż
+1467	4	179046	07:10:00	07:10:00		Staroniwska szkoła 03 nż
+1467	4	179046	07:11:00	07:11:00		Staroniwska / Rzemieślnicza 01 nż
+1467	4	179046	07:12:00	07:12:00		Langiewicza / Wita Stwosza 05 nż
+1467	4	179046	07:13:00	07:13:00		Boya Żeleńskiego 02 nż
+1467	4	179046	07:14:00	07:14:00		Chmaja bloki 03 nż
+1467	4	179046	07:15:00	07:15:00		Chmaja / Langiewicza 01 nż
+1467	4	179046	07:16:00	07:16:00		Langiewicza park 03 nż
+1467	4	179046	07:17:00	07:17:00		Langiewicza / Hoffmanowej 01 nż
+1467	4	179046	07:18:00	07:18:00		Mochnackiego 01 nż
+1467	4	179046	07:19:00	07:19:00		Cieplińskiego 01
+1467	4	179046	07:20:00	07:20:00		Piłsudskiego U. Wojewódzki 03
+1467	4	179046	07:23:00	07:23:00		Bardowskiego 04
+
+1469	4	179540	07:45:00	07:45:00		Bardowskiego 02
+1469	4	179540	07:47:00	07:47:00		Pl. Wolności 04
+1469	4	179540	07:50:00	07:50:00		Cieplińskiego 02
+1469	4	179540	07:51:00	07:51:00		Mochnackiego 02 nż
+1469	4	179540	07:53:00	07:53:00		Langiewicza park 02 nż
+1469	4	179540	07:54:00	07:54:00		Chmaja / Langiewicza 02 nż
+1469	4	179540	07:56:00	07:56:00		Boya Żeleńskiego 01 nż
+1469	4	179540	07:57:00	07:57:00		Langiewicza / Wita Stwosza 04
+1469	4	179540	07:59:00	07:59:00		Staroniwska / Rzemieślnicza 02 nż
+1469	4	179540	08:00:00	08:00:00		Staroniwska szkoła 04 nż
+1469	4	179540	08:01:00	08:01:00		Staroniwska kościół 06 nż
+1469	4	179540	08:02:00	08:02:00		Staroniwska pętla 08 nż
+1469	4	179540	08:03:00	08:03:00		Staroniwska / Zielarska 14 nż
+1469	4	179540	08:04:00	08:04:00		Staroniwska / Kresowa 16 nż
+1469	4	179540	08:05:00	08:05:00		Kielanówka cegielnia 02 nż
+1469	4	179540	08:06:00	08:06:00		Kielanówka 04 nż
+1469	4	179540	08:07:00	08:07:00		Kielanówka Ruch 06 nż
+1469	4	179540	08:08:00	08:08:00		Błękitne Wzgórze / Słoneczny Stok 02 nż
+1469	4	179540	08:09:00	08:09:00		Błękitne Wzgórze / Leśne Wzgórze 04 nż
+1469	4	179540	08:10:00	08:10:00		Kielanówka poczta 12 nż
+1469	4	179540	08:11:00	08:11:00		Kielanówka pętla 14
+
+1467	4	179307	08:29:00	08:29:00		Kielanówka pętla 14
+1467	4	179307	08:30:00	08:30:00		Kielanówka poczta 11 nż
+1467	4	179307	08:31:00	08:31:00		Błękitne Wzgórze / Leśne Wzgórze 03 nż
+1467	4	179307	08:32:00	08:32:00		Błękitne Wzgórze / Słoneczny Stok 01 nż
+1467	4	179307	08:33:00	08:33:00		Kielanówka Ruch 05 nż
+1467	4	179307	08:34:00	08:34:00		Kielanówka 03 nż
+1467	4	179307	08:35:00	08:35:00		Kielanówka cegielnia 01 nż
+1467	4	179307	08:36:00	08:36:00		Staroniwska / Kresowa 11 nż
+1467	4	179307	08:37:00	08:37:00		Staroniwska / Zielarska 09 nż
+1467	4	179307	08:38:00	08:38:00		Staroniwska pętla 12 nż
+1467	4	179307	08:39:00	08:39:00		Staroniwska kościół 05 nż
+1467	4	179307	08:40:00	08:40:00		Staroniwska szkoła 03 nż
+1467	4	179307	08:41:00	08:41:00		Staroniwska / Rzemieślnicza 01 nż
+1467	4	179307	08:42:00	08:42:00		Langiewicza / Wita Stwosza 05 nż
+1467	4	179307	08:43:00	08:43:00		Boya Żeleńskiego 02 nż
+1467	4	179307	08:44:00	08:44:00		Chmaja bloki 03 nż
+1467	4	179307	08:45:00	08:45:00		Chmaja / Langiewicza 01 nż
+1467	4	179307	08:46:00	08:46:00		Langiewicza park 03 nż
+1467	4	179307	08:47:00	08:47:00		Langiewicza / Hoffmanowej 01 nż
+1467	4	179307	08:48:00	08:48:00		Mochnackiego 01 nż
+1467	4	179307	08:49:00	08:49:00		Cieplińskiego 01
+1467	4	179307	08:50:00	08:50:00		Piłsudskiego U. Wojewódzki 03
+1467	4	179307	08:53:00	08:53:00		Bardowskiego 04
+
+1469	4	178831	09:05:00	09:05:00		Bardowskiego 02
+1469	4	178831	09:07:00	09:07:00		Pl. Wolności 04
+1469	4	178831	09:10:00	09:10:00		Cieplińskiego 02
+1469	4	178831	09:11:00	09:11:00		Mochnackiego 02 nż
+1469	4	178831	09:13:00	09:13:00		Langiewicza park 02 nż
+1469	4	178831	09:14:00	09:14:00		Chmaja / Langiewicza 02 nż
+1469	4	178831	09:16:00	09:16:00		Boya Żeleńskiego 01 nż
+1469	4	178831	09:17:00	09:17:00		Langiewicza / Wita Stwosza 04
+1469	4	178831	09:19:00	09:19:00		Staroniwska / Rzemieślnicza 02 nż
+1469	4	178831	09:20:00	09:20:00		Staroniwska szkoła 04 nż
+1469	4	178831	09:21:00	09:21:00		Staroniwska kościół 06 nż
+1469	4	178831	09:22:00	09:22:00		Staroniwska pętla 08 nż
+1469	4	178831	09:23:00	09:23:00		Staroniwska / Zielarska 14 nż
+1469	4	178831	09:24:00	09:24:00		Staroniwska / Kresowa 16 nż
+1469	4	178831	09:25:00	09:25:00		Kielanówka cegielnia 02 nż
+1469	4	178831	09:26:00	09:26:00		Kielanówka 04 nż
+1469	4	178831	09:27:00	09:27:00		Kielanówka Ruch 06 nż
+1469	4	178831	09:28:00	09:28:00		Błękitne Wzgórze / Słoneczny Stok 02 nż
+1469	4	178831	09:29:00	09:29:00		Błękitne Wzgórze / Leśne Wzgórze 04 nż
+1469	4	178831	09:30:00	09:30:00		Kielanówka poczta 12 nż
+1469	4	178831	09:31:00	09:31:00		Kielanówka pętla 14
+
+1467	4	179471	09:49:00	09:49:00		Kielanówka pętla 14
+1467	4	179471	09:50:00	09:50:00		Kielanówka poczta 11 nż
+1467	4	179471	09:51:00	09:51:00		Błękitne Wzgórze / Leśne Wzgórze 03 nż
+1467	4	179471	09:52:00	09:52:00		Błękitne Wzgórze / Słoneczny Stok 01 nż
+1467	4	179471	09:53:00	09:53:00		Kielanówka Ruch 05 nż
+1467	4	179471	09:54:00	09:54:00		Kielanówka 03 nż
+1467	4	179471	09:55:00	09:55:00		Kielanówka cegielnia 01 nż
+1467	4	179471	09:56:00	09:56:00		Staroniwska / Kresowa 11 nż
+1467	4	179471	09:57:00	09:57:00		Staroniwska / Zielarska 09 nż
+1467	4	179471	09:58:00	09:58:00		Staroniwska pętla 12 nż
+1467	4	179471	09:59:00	09:59:00		Staroniwska kościół 05 nż
+1467	4	179471	10:00:00	10:00:00		Staroniwska szkoła 03 nż
+1467	4	179471	10:01:00	10:01:00		Staroniwska / Rzemieślnicza 01 nż
+1467	4	179471	10:02:00	10:02:00		Langiewicza / Wita Stwosza 05 nż
+1467	4	179471	10:03:00	10:03:00		Boya Żeleńskiego 02 nż
+1467	4	179471	10:04:00	10:04:00		Chmaja bloki 03 nż
+1467	4	179471	10:05:00	10:05:00		Chmaja / Langiewicza 01 nż
+1467	4	179471	10:06:00	10:06:00		Langiewicza park 03 nż
+1467	4	179471	10:07:00	10:07:00		Langiewicza / Hoffmanowej 01 nż
+1467	4	179471	10:08:00	10:08:00		Mochnackiego 01 nż
+1467	4	179471	10:09:00	10:09:00		Cieplińskiego 01
+1467	4	179471	10:10:00	10:10:00		Piłsudskiego U. Wojewódzki 03
+1467	4	179471	10:13:00	10:13:00		Bardowskiego 04
+
+1469	4	179283	10:25:00	10:25:00		Bardowskiego 02
+1469	4	179283	10:27:00	10:27:00		Pl. Wolności 04
+1469	4	179283	10:30:00	10:30:00		Cieplińskiego 02
+1469	4	179283	10:31:00	10:31:00		Mochnackiego 02 nż
+1469	4	179283	10:33:00	10:33:00		Langiewicza park 02 nż
+1469	4	179283	10:34:00	10:34:00		Chmaja / Langiewicza 02 nż
+1469	4	179283	10:36:00	10:36:00		Boya Żeleńskiego 01 nż
+1469	4	179283	10:37:00	10:37:00		Langiewicza / Wita Stwosza 04
+1469	4	179283	10:39:00	10:39:00		Staroniwska / Rzemieślnicza 02 nż
+1469	4	179283	10:40:00	10:40:00		Staroniwska szkoła 04 nż
+1469	4	179283	10:41:00	10:41:00		Staroniwska kościół 06 nż
+1469	4	179283	10:42:00	10:42:00		Staroniwska pętla 08 nż
+1469	4	179283	10:43:00	10:43:00		Staroniwska / Zielarska 14 nż
+1469	4	179283	10:44:00	10:44:00		Staroniwska / Kresowa 16 nż
+1469	4	179283	10:45:00	10:45:00		Kielanówka cegielnia 02 nż
+1469	4	179283	10:46:00	10:46:00		Kielanówka 04 nż
+1469	4	179283	10:47:00	10:47:00		Kielanówka Ruch 06 nż
+1469	4	179283	10:48:00	10:48:00		Błękitne Wzgórze / Słoneczny Stok 02 nż
+1469	4	179283	10:49:00	10:49:00		Błękitne Wzgórze / Leśne Wzgórze 04 nż
+1469	4	179283	10:50:00	10:50:00		Kielanówka poczta 12 nż
+1469	4	179283	10:51:00	10:51:00		Kielanówka pętla 14
+
+1467	4	178995	10:58:00	10:58:00		Kielanówka pętla 14
+1467	4	178995	10:59:00	10:59:00		Kielanówka poczta 11 nż
+1467	4	178995	11:00:00	11:00:00		Błękitne Wzgórze / Leśne Wzgórze 03 nż
+1467	4	178995	11:01:00	11:01:00		Błękitne Wzgórze / Słoneczny Stok 01 nż
+1467	4	178995	11:02:00	11:02:00		Kielanówka Ruch 05 nż
+1467	4	178995	11:03:00	11:03:00		Kielanówka 03 nż
+1467	4	178995	11:04:00	11:04:00		Kielanówka cegielnia 01 nż
+1467	4	178995	11:05:00	11:05:00		Staroniwska / Kresowa 11 nż
+1467	4	178995	11:06:00	11:06:00		Staroniwska / Zielarska 09 nż
+1467	4	178995	11:07:00	11:07:00		Staroniwska pętla 12 nż
+1467	4	178995	11:08:00	11:08:00		Staroniwska kościół 05 nż
+1467	4	178995	11:09:00	11:09:00		Staroniwska szkoła 03 nż
+1467	4	178995	11:10:00	11:10:00		Staroniwska / Rzemieślnicza 01 nż
+1467	4	178995	11:11:00	11:11:00		Langiewicza / Wita Stwosza 05 nż
+1467	4	178995	11:12:00	11:12:00		Boya Żeleńskiego 02 nż
+1467	4	178995	11:13:00	11:13:00		Chmaja bloki 03 nż
+1467	4	178995	11:14:00	11:14:00		Chmaja / Langiewicza 01 nż
+1467	4	178995	11:15:00	11:15:00		Langiewicza park 03 nż
+1467	4	178995	11:16:00	11:16:00		Langiewicza / Hoffmanowej 01 nż
+1467	4	178995	11:17:00	11:17:00		Mochnackiego 01 nż
+1467	4	178995	11:18:00	11:18:00		Cieplińskiego 01
+1467	4	178995	11:19:00	11:19:00		Piłsudskiego U. Wojewódzki 03
+1467	4	178995	11:22:00	11:22:00		Bardowskiego 04
+
+1469	4	179634	11:55:00	11:55:00		Bardowskiego 02
+1469	4	179634	11:57:00	11:57:00		Pl. Wolności 04
+1469	4	179634	12:00:00	12:00:00		Cieplińskiego 02
+1469	4	179634	12:01:00	12:01:00		Mochnackiego 02 nż
+1469	4	179634	12:03:00	12:03:00		Langiewicza park 02 nż
+1469	4	179634	12:04:00	12:04:00		Chmaja / Langiewicza 02 nż
+1469	4	179634	12:06:00	12:06:00		Boya Żeleńskiego 01 nż
+1469	4	179634	12:07:00	12:07:00		Langiewicza / Wita Stwosza 04
+1469	4	179634	12:09:00	12:09:00		Staroniwska / Rzemieślnicza 02 nż
+1469	4	179634	12:10:00	12:10:00		Staroniwska szkoła 04 nż
+1469	4	179634	12:11:00	12:11:00		Staroniwska kościół 06 nż
+1469	4	179634	12:12:00	12:12:00		Staroniwska pętla 08 nż
+1469	4	179634	12:13:00	12:13:00		Staroniwska / Zielarska 14 nż
+1469	4	179634	12:14:00	12:14:00		Staroniwska / Kresowa 16 nż
+1469	4	179634	12:15:00	12:15:00		Kielanówka cegielnia 02 nż
+1469	4	179634	12:16:00	12:16:00		Kielanówka 04 nż
+1469	4	179634	12:17:00	12:17:00		Kielanówka Ruch 06 nż
+1469	4	179634	12:18:00	12:18:00		Błękitne Wzgórze / Słoneczny Stok 02 nż
+1469	4	179634	12:19:00	12:19:00		Błękitne Wzgórze / Leśne Wzgórze 04 nż
+1469	4	179634	12:20:00	12:20:00		Kielanówka poczta 12 nż
+1469	4	179634	12:21:00	12:21:00		Kielanówka pętla 14
+
+1467	4	178945	12:38:00	12:38:00		Kielanówka pętla 14
+1467	4	178945	12:39:00	12:39:00		Kielanówka poczta 11 nż
+1467	4	178945	12:40:00	12:40:00		Błękitne Wzgórze / Leśne Wzgórze 03 nż
+1467	4	178945	12:41:00	12:41:00		Błękitne Wzgórze / Słoneczny Stok 01 nż
+1467	4	178945	12:42:00	12:42:00		Kielanówka Ruch 05 nż
+1467	4	178945	12:43:00	12:43:00		Kielanówka 03 nż
+1467	4	178945	12:44:00	12:44:00		Kielanówka cegielnia 01 nż
+1467	4	178945	12:45:00	12:45:00		Staroniwska / Kresowa 11 nż
+1467	4	178945	12:46:00	12:46:00		Staroniwska / Zielarska 09 nż
+1467	4	178945	12:47:00	12:47:00		Staroniwska pętla 12 nż
+1467	4	178945	12:48:00	12:48:00		Staroniwska kościół 05 nż
+1467	4	178945	12:49:00	12:49:00		Staroniwska szkoła 03 nż
+1467	4	178945	12:50:00	12:50:00		Staroniwska / Rzemieślnicza 01 nż
+1467	4	178945	12:51:00	12:51:00		Langiewicza / Wita Stwosza 05 nż
+1467	4	178945	12:52:00	12:52:00		Boya Żeleńskiego 02 nż
+1467	4	178945	12:53:00	12:53:00		Chmaja bloki 03 nż
+1467	4	178945	12:54:00	12:54:00		Chmaja / Langiewicza 01 nż
+1467	4	178945	12:55:00	12:55:00		Langiewicza park 03 nż
+1467	4	178945	12:56:00	12:56:00		Langiewicza / Hoffmanowej 01 nż
+1467	4	178945	12:57:00	12:57:00		Mochnackiego 01 nż
+1467	4	178945	12:58:00	12:58:00		Cieplińskiego 01
+1467	4	178945	12:59:00	12:59:00		Piłsudskiego U. Wojewódzki 03
+1467	4	178945	13:02:00	13:02:00		Bardowskiego 04
+
+1469	4	179743	13:15:00	13:15:00		Bardowskiego 02
+1469	4	179743	13:17:00	13:17:00		Pl. Wolności 04
+1469	4	179743	13:20:00	13:20:00		Cieplińskiego 02
+1469	4	179743	13:21:00	13:21:00		Mochnackiego 02 nż
+1469	4	179743	13:23:00	13:23:00		Langiewicza park 02 nż
+1469	4	179743	13:24:00	13:24:00		Chmaja / Langiewicza 02 nż
+1469	4	179743	13:26:00	13:26:00		Boya Żeleńskiego 01 nż
+1469	4	179743	13:27:00	13:27:00		Langiewicza / Wita Stwosza 04
+1469	4	179743	13:29:00	13:29:00		Staroniwska / Rzemieślnicza 02 nż
+1469	4	179743	13:30:00	13:30:00		Staroniwska szkoła 04 nż
+1469	4	179743	13:31:00	13:31:00		Staroniwska kościół 06 nż
+1469	4	179743	13:32:00	13:32:00		Staroniwska pętla 08 nż
+1469	4	179743	13:33:00	13:33:00		Staroniwska / Zielarska 14 nż
+1469	4	179743	13:34:00	13:34:00		Staroniwska / Kresowa 16 nż
+1469	4	179743	13:35:00	13:35:00		Kielanówka cegielnia 02 nż
+1469	4	179743	13:36:00	13:36:00		Kielanówka 04 nż
+1469	4	179743	13:37:00	13:37:00		Kielanówka Ruch 06 nż
+1469	4	179743	13:38:00	13:38:00		Błękitne Wzgórze / Słoneczny Stok 02 nż
+1469	4	179743	13:39:00	13:39:00		Błękitne Wzgórze / Leśne Wzgórze 04 nż
+1469	4	179743	13:40:00	13:40:00		Kielanówka poczta 12 nż
+1469	4	179743	13:41:00	13:41:00		Kielanówka pętla 14
+
+1467	4	179491	13:58:00	13:58:00		Kielanówka pętla 14
+1467	4	179491	13:59:00	13:59:00		Kielanówka poczta 11 nż
+1467	4	179491	14:00:00	14:00:00		Błękitne Wzgórze / Leśne Wzgórze 03 nż
+1467	4	179491	14:01:00	14:01:00		Błękitne Wzgórze / Słoneczny Stok 01 nż
+1467	4	179491	14:02:00	14:02:00		Kielanówka Ruch 05 nż
+1467	4	179491	14:03:00	14:03:00		Kielanówka 03 nż
+1467	4	179491	14:04:00	14:04:00		Kielanówka cegielnia 01 nż
+1467	4	179491	14:05:00	14:05:00		Staroniwska / Kresowa 11 nż
+1467	4	179491	14:06:00	14:06:00		Staroniwska / Zielarska 09 nż
+1467	4	179491	14:07:00	14:07:00		Staroniwska pętla 12 nż
+1467	4	179491	14:08:00	14:08:00		Staroniwska kościół 05 nż
+1467	4	179491	14:09:00	14:09:00		Staroniwska szkoła 03 nż
+1467	4	179491	14:10:00	14:10:00		Staroniwska / Rzemieślnicza 01 nż
+1467	4	179491	14:11:00	14:11:00		Langiewicza / Wita Stwosza 05 nż
+1467	4	179491	14:12:00	14:12:00		Boya Żeleńskiego 02 nż
+1467	4	179491	14:13:00	14:13:00		Chmaja bloki 03 nż
+1467	4	179491	14:14:00	14:14:00		Chmaja / Langiewicza 01 nż
+1467	4	179491	14:15:00	14:15:00		Langiewicza park 03 nż
+1467	4	179491	14:16:00	14:16:00		Langiewicza / Hoffmanowej 01 nż
+1467	4	179491	14:17:00	14:17:00		Mochnackiego 01 nż
+1467	4	179491	14:18:00	14:18:00		Cieplińskiego 01
+1467	4	179491	14:19:00	14:19:00		Piłsudskiego U. Wojewódzki 03
+1467	4	179491	14:22:00	14:22:00		Bardowskiego 04
+
+1469	4	179404	14:45:00	14:45:00		Bardowskiego 02
+1469	4	179404	14:47:00	14:47:00		Pl. Wolności 04
+1469	4	179404	14:50:00	14:50:00		Cieplińskiego 02
+1469	4	179404	14:51:00	14:51:00		Mochnackiego 02 nż
+1469	4	179404	14:52:00	14:52:00		Langiewicza park 02 nż
+1469	4	179404	14:53:00	14:53:00		Chmaja / Langiewicza 02 nż
+1469	4	179404	14:55:00	14:55:00		Boya Żeleńskiego 01 nż
+1469	4	179404	14:56:00	14:56:00		Langiewicza / Wita Stwosza 04
+1469	4	179404	14:57:00	14:57:00		Staroniwska / Rzemieślnicza 02 nż
+1469	4	179404	14:58:00	14:58:00		Staroniwska szkoła 04 nż
+1469	4	179404	14:59:00	14:59:00		Staroniwska kościół 06 nż
+1469	4	179404	15:00:00	15:00:00		Staroniwska pętla 08 nż
+1469	4	179404	15:01:00	15:01:00		Staroniwska / Zielarska 14 nż
+1469	4	179404	15:02:00	15:02:00		Staroniwska / Kresowa 16 nż
+1469	4	179404	15:03:00	15:03:00		Kielanówka cegielnia 02 nż
+1469	4	179404	15:04:00	15:04:00		Kielanówka 04 nż
+1469	4	179404	15:05:00	15:05:00		Kielanówka Ruch 06 nż
+1469	4	179404	15:06:00	15:06:00		Błękitne Wzgórze / Słoneczny Stok 02 nż
+1469	4	179404	15:07:00	15:07:00		Błękitne Wzgórze / Leśne Wzgórze 04 nż
+1469	4	179404	15:08:00	15:08:00		Kielanówka poczta 12 nż
+1469	4	179404	15:09:00	15:09:00		Kielanówka pętla 14
+
+1467	4	179746	15:28:00	15:28:00		Kielanówka pętla 14
+1467	4	179746	15:29:00	15:29:00		Kielanówka poczta 11 nż
+1467	4	179746	15:30:00	15:30:00		Błękitne Wzgórze / Leśne Wzgórze 03 nż
+1467	4	179746	15:31:00	15:31:00		Błękitne Wzgórze / Słoneczny Stok 01 nż
+1467	4	179746	15:32:00	15:32:00		Kielanówka Ruch 05 nż
+1467	4	179746	15:33:00	15:33:00		Kielanówka 03 nż
+1467	4	179746	15:34:00	15:34:00		Kielanówka cegielnia 01 nż
+1467	4	179746	15:35:00	15:35:00		Staroniwska / Kresowa 11 nż
+1467	4	179746	15:36:00	15:36:00		Staroniwska / Zielarska 09 nż
+1467	4	179746	15:37:00	15:37:00		Staroniwska pętla 12 nż
+1467	4	179746	15:38:00	15:38:00		Staroniwska kościół 05 nż
+1467	4	179746	15:39:00	15:39:00		Staroniwska szkoła 03 nż
+1467	4	179746	15:40:00	15:40:00		Staroniwska / Rzemieślnicza 01 nż
+1467	4	179746	15:41:00	15:41:00		Langiewicza / Wita Stwosza 05 nż
+1467	4	179746	15:42:00	15:42:00		Boya Żeleńskiego 02 nż
+1467	4	179746	15:43:00	15:43:00		Chmaja bloki 03 nż
+1467	4	179746	15:44:00	15:44:00		Chmaja / Langiewicza 01 nż
+1467	4	179746	15:45:00	15:45:00		Langiewicza park 03 nż
+1467	4	179746	15:46:00	15:46:00		Langiewicza / Hoffmanowej 01 nż
+1467	4	179746	15:47:00	15:47:00		Mochnackiego 01 nż
+1467	4	179746	15:48:00	15:48:00		Cieplińskiego 01
+1467	4	179746	15:49:00	15:49:00		Piłsudskiego U. Wojewódzki 03
+1467	4	179746	15:52:00	15:52:00		Bardowskiego 04
+
+1469	4	179828	16:15:00	16:15:00		Bardowskiego 02
+1469	4	179828	16:17:00	16:17:00		Pl. Wolności 04
+1469	4	179828	16:20:00	16:20:00		Cieplińskiego 02
+1469	4	179828	16:21:00	16:21:00		Mochnackiego 02 nż
+1469	4	179828	16:22:00	16:22:00		Langiewicza park 02 nż
+1469	4	179828	16:23:00	16:23:00		Chmaja / Langiewicza 02 nż
+1469	4	179828	16:25:00	16:25:00		Boya Żeleńskiego 01 nż
+1469	4	179828	16:26:00	16:26:00		Langiewicza / Wita Stwosza 04
+1469	4	179828	16:27:00	16:27:00		Staroniwska / Rzemieślnicza 02 nż
+1469	4	179828	16:28:00	16:28:00		Staroniwska szkoła 04 nż
+1469	4	179828	16:29:00	16:29:00		Staroniwska kościół 06 nż
+1469	4	179828	16:30:00	16:30:00		Staroniwska pętla 08 nż
+1469	4	179828	16:31:00	16:31:00		Staroniwska / Zielarska 14 nż
+1469	4	179828	16:32:00	16:32:00		Staroniwska / Kresowa 16 nż
+1469	4	179828	16:33:00	16:33:00		Kielanówka cegielnia 02 nż
+1469	4	179828	16:34:00	16:34:00		Kielanówka 04 nż
+1469	4	179828	16:35:00	16:35:00		Kielanówka Ruch 06 nż
+1469	4	179828	16:36:00	16:36:00		Błękitne Wzgórze / Słoneczny Stok 02 nż
+1469	4	179828	16:37:00	16:37:00		Błękitne Wzgórze / Leśne Wzgórze 04 nż
+1469	4	179828	16:38:00	16:38:00		Kielanówka poczta 12 nż
+1469	4	179828	16:39:00	16:39:00		Kielanówka pętla 14
+
+1467	4	178998	16:58:00	16:58:00		Kielanówka pętla 14
+1467	4	178998	16:59:00	16:59:00		Kielanówka poczta 11 nż
+1467	4	178998	17:00:00	17:00:00		Błękitne Wzgórze / Leśne Wzgórze 03 nż
+1467	4	178998	17:01:00	17:01:00		Błękitne Wzgórze / Słoneczny Stok 01 nż
+1467	4	178998	17:02:00	17:02:00		Kielanówka Ruch 05 nż
+1467	4	178998	17:03:00	17:03:00		Kielanówka 03 nż
+1467	4	178998	17:04:00	17:04:00		Kielanówka cegielnia 01 nż
+1467	4	178998	17:05:00	17:05:00		Staroniwska / Kresowa 11 nż
+1467	4	178998	17:06:00	17:06:00		Staroniwska / Zielarska 09 nż
+1467	4	178998	17:07:00	17:07:00		Staroniwska pętla 12 nż
+1467	4	178998	17:08:00	17:08:00		Staroniwska kościół 05 nż
+1467	4	178998	17:09:00	17:09:00		Staroniwska szkoła 03 nż
+1467	4	178998	17:10:00	17:10:00		Staroniwska / Rzemieślnicza 01 nż
+1467	4	178998	17:11:00	17:11:00		Langiewicza / Wita Stwosza 05 nż
+1467	4	178998	17:12:00	17:12:00		Boya Żeleńskiego 02 nż
+1467	4	178998	17:13:00	17:13:00		Chmaja bloki 03 nż
+1467	4	178998	17:14:00	17:14:00		Chmaja / Langiewicza 01 nż
+1467	4	178998	17:15:00	17:15:00		Langiewicza park 03 nż
+1467	4	178998	17:16:00	17:16:00		Langiewicza / Hoffmanowej 01 nż
+1467	4	178998	17:17:00	17:17:00		Mochnackiego 01 nż
+1467	4	178998	17:18:00	17:18:00		Cieplińskiego 01
+1467	4	178998	17:19:00	17:19:00		Piłsudskiego U. Wojewódzki 03
+1467	4	178998	17:22:00	17:22:00		Bardowskiego 04
+
+1469	4	179890	17:55:00	17:55:00		Bardowskiego 02
+1469	4	179890	17:57:00	17:57:00		Pl. Wolności 04
+1469	4	179890	18:00:00	18:00:00		Cieplińskiego 02
+1469	4	179890	18:01:00	18:01:00		Mochnackiego 02 nż
+1469	4	179890	18:02:00	18:02:00		Langiewicza park 02 nż
+1469	4	179890	18:03:00	18:03:00		Chmaja / Langiewicza 02 nż
+1469	4	179890	18:05:00	18:05:00		Boya Żeleńskiego 01 nż
+1469	4	179890	18:06:00	18:06:00		Langiewicza / Wita Stwosza 04
+1469	4	179890	18:07:00	18:07:00		Staroniwska / Rzemieślnicza 02 nż
+1469	4	179890	18:08:00	18:08:00		Staroniwska szkoła 04 nż
+1469	4	179890	18:09:00	18:09:00		Staroniwska kościół 06 nż
+1469	4	179890	18:10:00	18:10:00		Staroniwska pętla 08 nż
+1469	4	179890	18:11:00	18:11:00		Staroniwska / Zielarska 14 nż
+1469	4	179890	18:12:00	18:12:00		Staroniwska / Kresowa 16 nż
+1469	4	179890	18:13:00	18:13:00		Kielanówka cegielnia 02 nż
+1469	4	179890	18:14:00	18:14:00		Kielanówka 04 nż
+1469	4	179890	18:15:00	18:15:00		Kielanówka Ruch 06 nż
+1469	4	179890	18:16:00	18:16:00		Błękitne Wzgórze / Słoneczny Stok 02 nż
+1469	4	179890	18:17:00	18:17:00		Błękitne Wzgórze / Leśne Wzgórze 04 nż
+1469	4	179890	18:18:00	18:18:00		Kielanówka poczta 12 nż
+1469	4	179890	18:19:00	18:19:00		Kielanówka pętla 14
+
+1467	4	178852	18:38:00	18:38:00		Kielanówka pętla 14
+1467	4	178852	18:39:00	18:39:00		Kielanówka poczta 11 nż
+1467	4	178852	18:40:00	18:40:00		Błękitne Wzgórze / Leśne Wzgórze 03 nż
+1467	4	178852	18:41:00	18:41:00		Błękitne Wzgórze / Słoneczny Stok 01 nż
+1467	4	178852	18:42:00	18:42:00		Kielanówka Ruch 05 nż
+1467	4	178852	18:43:00	18:43:00		Kielanówka 03 nż
+1467	4	178852	18:44:00	18:44:00		Kielanówka cegielnia 01 nż
+1467	4	178852	18:45:00	18:45:00		Staroniwska / Kresowa 11 nż
+1467	4	178852	18:46:00	18:46:00		Staroniwska / Zielarska 09 nż
+1467	4	178852	18:47:00	18:47:00		Staroniwska pętla 12 nż
+1467	4	178852	18:48:00	18:48:00		Staroniwska kościół 05 nż
+1467	4	178852	18:49:00	18:49:00		Staroniwska szkoła 03 nż
+1467	4	178852	18:50:00	18:50:00		Staroniwska / Rzemieślnicza 01 nż
+1467	4	178852	18:51:00	18:51:00		Langiewicza / Wita Stwosza 05 nż
+1467	4	178852	18:52:00	18:52:00		Boya Żeleńskiego 02 nż
+1467	4	178852	18:53:00	18:53:00		Chmaja bloki 03 nż
+1467	4	178852	18:54:00	18:54:00		Chmaja / Langiewicza 01 nż
+1467	4	178852	18:55:00	18:55:00		Langiewicza park 03 nż
+1467	4	178852	18:56:00	18:56:00		Langiewicza / Hoffmanowej 01 nż
+1467	4	178852	18:57:00	18:57:00		Mochnackiego 01 nż
+1467	4	178852	18:58:00	18:58:00		Cieplińskiego 01
+1467	4	178852	18:59:00	18:59:00		Piłsudskiego U. Wojewódzki 03
+1467	4	178852	19:02:00	19:02:00		Bardowskiego 04
+
+1469	4	179140	19:15:00	19:15:00		Bardowskiego 02
+1469	4	179140	19:17:00	19:17:00		Pl. Wolności 04
+1469	4	179140	19:20:00	19:20:00		Cieplińskiego 02
+1469	4	179140	19:21:00	19:21:00		Mochnackiego 02 nż
+1469	4	179140	19:22:00	19:22:00		Langiewicza park 02 nż
+1469	4	179140	19:23:00	19:23:00		Chmaja / Langiewicza 02 nż
+1469	4	179140	19:25:00	19:25:00		Boya Żeleńskiego 01 nż
+1469	4	179140	19:26:00	19:26:00		Langiewicza / Wita Stwosza 04
+1469	4	179140	19:27:00	19:27:00		Staroniwska / Rzemieślnicza 02 nż
+1469	4	179140	19:28:00	19:28:00		Staroniwska szkoła 04 nż
+1469	4	179140	19:29:00	19:29:00		Staroniwska kościół 06 nż
+1469	4	179140	19:30:00	19:30:00		Staroniwska pętla 08 nż
+1469	4	179140	19:31:00	19:31:00		Staroniwska / Zielarska 14 nż
+1469	4	179140	19:32:00	19:32:00		Staroniwska / Kresowa 16 nż
+1469	4	179140	19:33:00	19:33:00		Kielanówka cegielnia 02 nż
+1469	4	179140	19:34:00	19:34:00		Kielanówka 04 nż
+1469	4	179140	19:35:00	19:35:00		Kielanówka Ruch 06 nż
+1469	4	179140	19:36:00	19:36:00		Błękitne Wzgórze / Słoneczny Stok 02 nż
+1469	4	179140	19:37:00	19:37:00		Błękitne Wzgórze / Leśne Wzgórze 04 nż
+1469	4	179140	19:38:00	19:38:00		Kielanówka poczta 12 nż
+1469	4	179140	19:39:00	19:39:00		Kielanówka pętla 14
+
+1467	4	178947	19:49:00	19:49:00		Kielanówka pętla 14
+1467	4	178947	19:50:00	19:50:00		Kielanówka poczta 11 nż
+1467	4	178947	19:51:00	19:51:00		Błękitne Wzgórze / Leśne Wzgórze 03 nż
+1467	4	178947	19:52:00	19:52:00		Błękitne Wzgórze / Słoneczny Stok 01 nż
+1467	4	178947	19:53:00	19:53:00		Kielanówka Ruch 05 nż
+1467	4	178947	19:54:00	19:54:00		Kielanówka 03 nż
+1467	4	178947	19:55:00	19:55:00		Kielanówka cegielnia 01 nż
+1467	4	178947	19:56:00	19:56:00		Staroniwska / Kresowa 11 nż
+1467	4	178947	19:57:00	19:57:00		Staroniwska / Zielarska 09 nż
+1467	4	178947	19:58:00	19:58:00		Staroniwska pętla 12 nż
+1467	4	178947	19:59:00	19:59:00		Staroniwska kościół 05 nż
+1467	4	178947	20:00:00	20:00:00		Staroniwska szkoła 03 nż
+1467	4	178947	20:01:00	20:01:00		Staroniwska / Rzemieślnicza 01 nż
+1467	4	178947	20:02:00	20:02:00		Langiewicza / Wita Stwosza 05 nż
+1467	4	178947	20:03:00	20:03:00		Boya Żeleńskiego 02 nż
+1467	4	178947	20:04:00	20:04:00		Chmaja bloki 03 nż
+1467	4	178947	20:05:00	20:05:00		Chmaja / Langiewicza 01 nż
+1467	4	178947	20:06:00	20:06:00		Langiewicza park 03 nż
+1467	4	178947	20:07:00	20:07:00		Langiewicza / Hoffmanowej 01 nż
+1467	4	178947	20:08:00	20:08:00		Mochnackiego 01 nż
+1467	4	178947	20:09:00	20:09:00		Cieplińskiego 01
+1467	4	178947	20:10:00	20:10:00		Piłsudskiego U. Wojewódzki 03
+1467	4	178947	20:13:00	20:13:00		Bardowskiego 04
+
+1469	4	178792	20:25:00	20:25:00		Bardowskiego 02
+1469	4	178792	20:27:00	20:27:00		Pl. Wolności 04
+1469	4	178792	20:30:00	20:30:00		Cieplińskiego 02
+1469	4	178792	20:31:00	20:31:00		Mochnackiego 02 nż
+1469	4	178792	20:32:00	20:32:00		Langiewicza park 02 nż
+1469	4	178792	20:33:00	20:33:00		Chmaja / Langiewicza 02 nż
+1469	4	178792	20:35:00	20:35:00		Boya Żeleńskiego 01 nż
+1469	4	178792	20:36:00	20:36:00		Langiewicza / Wita Stwosza 04
+1469	4	178792	20:37:00	20:37:00		Staroniwska / Rzemieślnicza 02 nż
+1469	4	178792	20:38:00	20:38:00		Staroniwska szkoła 04 nż
+1469	4	178792	20:39:00	20:39:00		Staroniwska kościół 06 nż
+1469	4	178792	20:40:00	20:40:00		Staroniwska pętla 08 nż
+1469	4	178792	20:41:00	20:41:00		Staroniwska / Zielarska 14 nż
+1469	4	178792	20:42:00	20:42:00		Staroniwska / Kresowa 16 nż
+1469	4	178792	20:43:00	20:43:00		Kielanówka cegielnia 02 nż
+1469	4	178792	20:44:00	20:44:00		Kielanówka 04 nż
+1469	4	178792	20:45:00	20:45:00		Kielanówka Ruch 06 nż
+1469	4	178792	20:46:00	20:46:00		Błękitne Wzgórze / Słoneczny Stok 02 nż
+1469	4	178792	20:47:00	20:47:00		Błękitne Wzgórze / Leśne Wzgórze 04 nż
+1469	4	178792	20:48:00	20:48:00		Kielanówka poczta 12 nż
+1469	4	178792	20:49:00	20:49:00		Kielanówka pętla 14
+
+1467	4	179373	20:59:00	20:59:00		Kielanówka pętla 14
+1467	4	179373	21:00:00	21:00:00		Kielanówka poczta 11 nż
+1467	4	179373	21:01:00	21:01:00		Błękitne Wzgórze / Leśne Wzgórze 03 nż
+1467	4	179373	21:02:00	21:02:00		Błękitne Wzgórze / Słoneczny Stok 01 nż
+1467	4	179373	21:03:00	21:03:00		Kielanówka Ruch 05 nż
+1467	4	179373	21:04:00	21:04:00		Kielanówka 03 nż
+1467	4	179373	21:05:00	21:05:00		Kielanówka cegielnia 01 nż
+1467	4	179373	21:06:00	21:06:00		Staroniwska / Kresowa 11 nż
+1467	4	179373	21:07:00	21:07:00		Staroniwska / Zielarska 09 nż
+1467	4	179373	21:08:00	21:08:00		Staroniwska pętla 12 nż
+1467	4	179373	21:09:00	21:09:00		Staroniwska kościół 05 nż
+1467	4	179373	21:10:00	21:10:00		Staroniwska szkoła 03 nż
+1467	4	179373	21:11:00	21:11:00		Staroniwska / Rzemieślnicza 01 nż
+1467	4	179373	21:12:00	21:12:00		Langiewicza / Wita Stwosza 05 nż
+1467	4	179373	21:13:00	21:13:00		Boya Żeleńskiego 02 nż
+1467	4	179373	21:14:00	21:14:00		Chmaja bloki 03 nż
+1467	4	179373	21:15:00	21:15:00		Chmaja / Langiewicza 01 nż
+1467	4	179373	21:16:00	21:16:00		Langiewicza park 03 nż
+1467	4	179373	21:17:00	21:17:00		Langiewicza / Hoffmanowej 01 nż
+1467	4	179373	21:18:00	21:18:00		Mochnackiego 01 nż
+1467	4	179373	21:19:00	21:19:00		Cieplińskiego 01
+1467	4	179373	21:20:00	21:20:00		Piłsudskiego U. Wojewódzki 03
+1467	4	179373	21:23:00	21:23:00		Bardowskiego 04
