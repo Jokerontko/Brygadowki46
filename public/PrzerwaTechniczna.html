@@ -2,129 +2,146 @@
 <html lang="pl">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-    <meta http-equiv="Pragma" content="no-cache">
-    <meta http-equiv="Expires" content="0">
-    <title>Przerwa Techniczna</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <title>Przerwa Techniczna</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div>
-        <center>
-            <h1>Przerwa techniczna</h1>
-            <br>
-            <img class="pepe" src="Photos/pepe.gif" alt="Pepe :D">
-            <p>Pepe nie zapłacił za prund</p>
-            <a id="returnButton" href="#" class="choose">Powrót</a>
-        </center>
-    </div>
 
-    <style>
-        body {
-            background: rgb(50, 50, 50);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: white;
-            font-family: arial;
-            height: 90vh;
-        }
+  <div>
+    <center>
+      <h1>Przerwa techniczna</h1>
+      <br>
+      <img class="pepe" src="Photos/pepe.gif" alt="Pepe :D">
+      <p>Pepe nie zapłacił za prund</p>
+      <a id="returnButton" href="#" class="choose">Powrót</a> <br><br>
+      <a href="Panel.html" class="Panel">Panel Administratora</a>
+    </center>
+  </div>
 
-        .pepe {
-            width: 40%;
-            mix-blend-mode: multiply;
-        }
+  <style>
+    body {
+      background: rgb(50, 50, 50);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-family: arial;
+      height: 90vh;
+    }
 
-        p {
-            color: RGBA(40, 40, 40);
-            font-size: 10px;
-        }
+    .Panel {
+      justify-content: right;
+      text-align: right;
+      align-items: right;
+      text-decoration: none;
 
-        a {
-            text-decoration: none;
-            color: white;
-        }
+      color: white;
+      border: 2px solid gray;
+      border-radius: 4px;
+      padding: 5px;
+      font-size: 0.8rem;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    }
 
-        .choose {
-            display: inline-block;
-            justify-content: center;
-            text-align: center;
-            align-items: center;
-            text-decoration: none;
-            color: white;
-            border: 2px solid white;
-            border-radius: 10px;
-            padding: 15px;
-            transition: all 0.3s ease;
-            font-size: 1.2rem;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-        }
+    .pepe {
+      width: 40%;
+      mix-blend-mode: multiply;
+    }
 
-        .choose:hover {
-            background-color: orange;
-            color: white;
-            transform: scale(1.05);
-        }
+    p {
+      color: RGBA(40, 40, 40);
+      font-size: 10px;
+    }
 
-        .choose-close {
-            display: inline-block;
-            justify-content: center;
-            text-align: center;
-            align-items: center;
-            text-decoration: none;
-            color: gray;
-            border: 2px solid gray;
-            border-radius: 10px;
-            padding: 15px;
-            transition: all 0.3s ease;
-            font-size: 1.2rem;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-            pointer-events: none;
-        }
+    a {
+      text-decoration: none;
+      color: white;
+    }
 
-    </style>
+    .choose {
+      display: inline-block;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      text-decoration: none;
+      color: white;
+      border: 2px solid white;
+      border-radius: 10px;
+      padding: 15px;
+      transition: all 0.3s ease;
+      font-size: 1.2rem;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    }
 
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const button = document.getElementById('returnButton');
-            const user = sessionStorage.getItem('user');
+    .choose:hover {
+      background-color: orange;
+      color: white;
+      transform: scale(1.05);
+    }
 
-            console.log("Wartość 'user' w sessionStorage:", user);
+    .choose-close {
+      display: inline-block;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      text-decoration: none;
+      color: gray;
+      border: 2px solid gray;
+      border-radius: 10px;
+      padding: 15px;
+      transition: all 0.3s ease;
+      font-size: 1.2rem;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+      pointer-events: none;
 
-            // Sprawdzenie stanu przerwy technicznej od razu po załadowaniu strony
-            fetch('/check-maintenance')
-                .then(response => response.json())
-                .then(data => {
-                    if (data.LoginMaintenance) {
-                        // Jeśli trwa przerwa techniczna (LoginMaintenance == true)
-                        button.classList.remove('choose');
-                        button.classList.add('choose-close');
-                    } else {
-                        // Jeśli nie ma przerwy technicznej (LoginMaintenance == false)
-                        button.classList.remove('choose-close');
-                        button.classList.add('choose');
-                    }
-                })
-                .catch(error => {
-                    console.error('Błąd podczas sprawdzania przerwy technicznej:', error);
-                });
+    }
 
-            // Nasłuchiwanie na kliknięcie przycisku
-            button.addEventListener('click', (event) => {
-                // Sprawdzenie wartości 'user' w sessionStorage
-                const user = sessionStorage.getItem('user');
-                if (user === "") {
-                    window.location.href = "index.html";
-                } else if (user !== "") {
-                    window.location.href = "Main_Panel.html";
-                }
-            });
+  </style>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const button = document.getElementById('returnButton');
+      const user = sessionStorage.getItem('user');
+
+      console.log("Wartość 'user' w sessionStorage:", user);
+
+      // Sprawdzenie stanu przerwy technicznej od razu po załadowaniu strony
+      fetch('/check-maintenance')
+        .then(response => response.json())
+        .then(data => {
+          if (data.LoginMaintenance) {
+            // Jeśli trwa przerwa techniczna (LoginMaintenance == true)
+            button.classList.remove('choose');
+            button.classList.add('choose-close');
+          } else {
+            // Jeśli nie ma przerwy technicznej (LoginMaintenance == false)
+            button.classList.remove('choose-close');
+            button.classList.add('choose');
+          }
+        })
+        .catch(error => {
+          console.error('Błąd podczas sprawdzania przerwy technicznej:', error);
         });
 
-    </script>
+      // Nasłuchiwanie na kliknięcie przycisku
+      button.addEventListener('click', (event) => {
+        // Sprawdzenie wartości 'user' w sessionStorage
+        const user = sessionStorage.getItem('user');
+        if (user === "") {
+          window.location.href = "index.html";
+        } else if (user !== "") {
+          window.location.href = "index.html";
+        }
+      });
+    });
+
+  </script>
 </body>
 
 </html>
