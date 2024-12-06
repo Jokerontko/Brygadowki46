@@ -115,6 +115,24 @@
       animation: blink 1s infinite;
     }
 
+    @keyframes blinkbrake {
+      0% {
+        background-color: transparent 20%;
+      }
+
+      50% {
+        background-color: transparent;
+      }
+
+      100% {
+        background-color: transparent 20%;
+      }
+    }
+
+    .blinkbrake {
+      animation: blinkbrake 2s infinite;
+    }
+
   </style>
 </head>
 
@@ -421,7 +439,7 @@
             // brakeleft is the difference between brake and remaining time
             const newRow = document.createElement("tr");
             newRow.innerHTML = `
-                    <td colspan="8" style="background-color: rgb(75, 75, 75); text-align: center; font-size: 15px; padding: 3px;">
+                    <td colspan="8" style="background-color: rgb(75, 75, 75); text-align: center; font-size: 15px; padding: 3px;" class="blinkbrake">
                         Trwa przerwa ${timeDifference} min., pozostało: <strong> ${brakeleft} min.</strong>
                     </td>
                 `;
@@ -780,12 +798,12 @@
         function createRow(label, godzRozp, godzZak, roznicaA, roznicaB) {
           const row = document.createElement("tr");
           row.innerHTML = `
-            <td>${label}</td>
-            <td>${godzRozp}</td>
-            <td>${godzZak}</td>
-            <td>${roznicaA}</td>
-            <td>N/A</td>
-        `;
+<td>${label}</td>
+<td>${godzRozp}</td>
+<td>${godzZak}</td>
+<td>${roznicaA}</td>
+<td>N/A</td>
+`;
           return row;
         }
 
@@ -1109,6 +1127,7 @@
         // Dodanie nowego wiersza z informacją o najdłuższej przerwie
         if (maxGapIndex !== -1) {
           const newRow = document.createElement("tr");
+
           newRow.innerHTML =
             `<td colspan="9" style="text-align: center; background-color: purple;"> <strong> Przerwa bisowa </strong> (${Math.floor(maxGap / 60)}h ${maxGap % 60}min) </td>`;
           // Wstaw nowy wiersz po wierszu, który ma największą różnicę
@@ -1269,12 +1288,13 @@
       let lines = await fetchGOTOWEFile();
       if (lines) {
         await processGOTOWEData(lines);
+        addPodmianaRows();
         ZjazdDoZajezdni();
         WyjazdNaLinie();
         brygadabisowa();
         PrzejazdTechniczny();
         highlightCurrentTimeCells();
-        addPodmianaRows();
+
         checkAndAddRow();
 
 

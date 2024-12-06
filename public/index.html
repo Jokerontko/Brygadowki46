@@ -2,144 +2,153 @@
 <html lang="pl">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-    <meta http-equiv="Pragma" content="no-cache">
-    <meta http-equiv="Expires" content="0">
-    <title>Logowanie</title>
-    <link rel="stylesheet" href="style.css?v=<?php echo time(); ?>">
-    <script src="script.js?v=<?php echo time(); ?>"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <title>Logowanie</title>
+  <link rel="stylesheet" href="style.css?v=<?php echo time(); ?>">
+  <script src="script.js?v=<?php echo time(); ?>"></script>
 
 </head>
 
 <body>
 
-    <div class="container">
-        <h1>Logowanie</h1>
-        <form id="login-form">
-            <label for="login-username">Nazwa użytkownika:</label>
-            <input type="text" id="login-username" name="username" required>
-            <label for="login-password">Hasło:</label>
-            <input type="password" id="login-password" name="password" required>
-            <button type="submit">Zaloguj się</button>
-            <a class="sign-up" href="Registration.html">Zarejestruj się</a>
-        </form>
-    </div>
+  <div class="container">
+    <h1>Logowanie</h1>
+    <form id="login-form">
+      <label for="login-username">Nazwa użytkownika:</label>
+      <input type="text" id="login-username" name="username" required>
+      <label for="login-password">Hasło:</label>
+      <input type="password" id="login-password" name="password" required>
+      <button type="submit">Zaloguj się</button>
+      <a class="sign-up" href="Registration.html">Zarejestruj się</a>
+    </form>
+  </div>
 
-    <script>
-        // Sprawdzenie, czy trwa przerwa techniczna
-        fetch('/check-maintenance')
-            .then(response => response.json())
-            .then(data => {
-                if (data.LoginMaintenance) {
-                    window.location.href = 'PrzerwaTechniczna.html';
-                }
-            })
-            .catch(error => {
-                console.error('Błąd podczas sprawdzania przerwy technicznej:', error);
-            });
+  <script>
+    checkLogin();
+    // Sprawdzenie, czy trwa przerwa techniczna
+    fetch('/check-maintenance')
+      .then(response => response.json())
+      .then(data => {
+        if (data.LoginMaintenance) {
+          window.location.href = 'PrzerwaTechniczna.html';
+        }
+      })
+      .catch(error => {
+        console.error('Błąd podczas sprawdzania przerwy technicznej:', error);
+      });
 
-        document.getElementById('login-form').addEventListener('submit', function(event) {
-            event.preventDefault();
-            const username = document.getElementById('login-username').value;
-            const password = document.getElementById('login-password').value;
+    document.getElementById('login-form').addEventListener('submit', function(event) {
+      event.preventDefault();
+      const username = document.getElementById('login-username').value;
+      const password = document.getElementById('login-password').value;
 
-            fetch('/login', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                    },
-                    body: JSON.stringify({
-                        username,
-                        password
-                    }),
-                })
-                .then(response => {
-                    console.log('Odpowiedź serwera:', response); // Dodaj tę linię
-                    if (!response.ok) {
-                        throw new Error('Niepoprawna nazwa użytkownika lub hasło.');
-                    }
-                    return response.json();
-                })
-                .then(user => {
-                    console.log('Zalogowany użytkownik:', user);
-                    sessionStorage.setItem('user', JSON.stringify(user));
-                    window.location.href = 'Main_Panel.html'; // Upewnij się, że to jest poprawna ścieżka
-                })
-                .catch(error => {
-                    alert(error.message);
-                });
-
+      fetch('/login', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            username,
+            password
+          }),
+        })
+        .then(response => {
+          console.log('Odpowiedź serwera:', response); // Dodaj tę linię
+          if (!response.ok) {
+            throw new Error('Niepoprawna nazwa użytkownika lub hasło.');
+          }
+          return response.json();
+        })
+        .then(user => {
+          console.log('Zalogowany użytkownik:', user);
+          sessionStorage.setItem('user', JSON.stringify(user));
+          window.location.href = 'Main_Panel.html'; // Upewnij się, że to jest poprawna ścieżka
+        })
+        .catch(error => {
+          alert(error.message);
         });
 
-    </script>
+    });
+
+    // Check if the user is logged in, otherwise redirect
+    function checkLogin() {
+      const user = JSON.parse(sessionStorage.getItem('user'));
+      if (user) {
+        window.location.href = 'Main_Panel.html';
+      }
+    }
+
+  </script>
 
 
-    <style>
-        body {
-            background: rgb(50, 50, 50);
-            font-family: arial;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+  <style>
+    body {
+      background: rgb(50, 50, 50);
+      font-family: arial;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
 
-        .container {
-            max-width: 400px;
-            margin: 14%;
-            background: white;
-            padding: 30px;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
+    .container {
+      max-width: 400px;
+      margin: 14%;
+      background: white;
+      padding: 30px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
 
-        h1 {
-            font-size: 24px;
-            margin-bottom: 20px;
-        }
+    h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
 
-        label {
-            display: block;
-            margin-bottom: 5px;
-        }
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
 
-        input {
-            width: 93%;
-            padding: 8px;
-            margin-bottom: 10px;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-        }
+    input {
+      width: 93%;
+      padding: 8px;
+      margin-bottom: 10px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
 
-        button {
-            width: 100%;
-            padding: 10px;
-            background-color: #5cb85c;
-            color: white;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-        }
+    button {
+      width: 100%;
+      padding: 10px;
+      background-color: #5cb85c;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
 
-        button:hover {
-            background-color: #4cae4c;
-        }
+    button:hover {
+      background-color: #4cae4c;
+    }
 
-        .sign-up {
-            margin-top: 100px;
-            margin: 10px 0px 10px;
-            font-size: 15px;
-            text-decoration: none;
-            color: black;
-            display: block;
-        }
+    .sign-up {
+      margin-top: 100px;
+      margin: 10px 0px 10px;
+      font-size: 15px;
+      text-decoration: none;
+      color: black;
+      display: block;
+    }
 
-        b {
-            color: red;
-        }
+    b {
+      color: red;
+    }
 
-    </style>
+  </style>
 </body>
 
 </html>
