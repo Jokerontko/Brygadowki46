@@ -2,7 +2,8 @@
    "dependencies": {
       "body-parse": "^0.1.0",
       "body-parser": "^1.20.3",
-      "express": "^4.21.1"
+      "express": "^4.21.1",
+      "nodemailer": "^6.9.16"
    },
    "name": "strona_www",
    "version": "1.0.0",
