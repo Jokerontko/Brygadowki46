@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>Panel Administratora</title>
+    <link rel="stylesheet" href="style.css?v=<?php echo time(); ?>">
+    <script src="script.js?v=<?php echo time(); ?>"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>Zmiana tokenu administratora</h1>
+        <form>
+            <p>Wprowadź nowy token:</p>
+            <input type="password" id="newToken">
+            <p>Powtórz nowy token:</p>
+            <input type="password" id="repeatToken">
+
+            <br><br>
+            <button id="changeTokenButton">ZMIEŃ TOKEN</button>
+
+        </form>
+    </div>
+
+    <script>
+        // Check if the user is logged in, otherwise redirect
+        function checkLogin() {
+            const user = JSON.parse(sessionStorage.getItem('user'));
+            if (user) {
+                window.location.href = 'Main_Panel.html';
+            }
+        }
+
+        document.getElementById('changeTokenButton').addEventListener('click', async function() {
+            const newToken = document.getElementById('newToken').value;
+            const repeatToken = document.getElementById('repeatToken').value;
+
+            if (newToken === repeatToken) {
+                try {
+                    const response = await fetch('http://localhost:3000/update-token', { // Użyj właściwego endpointu
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify({
+                            token: newToken
+                        })
+                    });
+
+                    if (response.ok) {
+                        alert('Token został pomyślnie zmieniony.');
+                        window.location.href = 'PanelAdmin.html'; // Przekierowanie do panelu administratora
+                    } else {
+                        const errorData = await response.json();
+                        alert(`Wystąpił błąd: ${errorData.message}`);
+                    }
+                } catch (error) {
+                    alert(`Błąd połączenia z serwerem: ${error.message}`);
+                }
+            } else {
+                alert('Tokeny nie są takie same!');
+            }
+        });
+
+    </script>
+
+
+    <style>
+        body {
+            background: rgb(50, 50, 50);
+            font-family: arial;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            max-width: 400px;
+            margin: 14%;
+            background: white;
+            padding: 30px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        label {
+            margin-bottom: 5px;
+        }
+
+        .choose {
+            display: inline-block;
+            /* Dodano tę linię */
+            text-decoration: none;
+            color: black;
+            border-radius: 10px;
+            width: 93%;
+            transition: all 0.3s ease;
+            font-size: 1rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            align-content: center;
+            /* Opcjonalnie wyrównanie tekstu w środku */
+            padding: 10px;
+            /* Dodano dla lepszej estetyki */
+            margin-bottom: 15px;
+        }
+
+
+        .choose:hover {
+            background-color: orange;
+            transform: scale(1.05);
+        }
+
+        input {
+            width: 93%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #5cb85c;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #4cae4c;
+        }
+
+    </style>
+</body>
+
+</html>

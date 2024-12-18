@@ -463,6 +463,130 @@ app.get('/', (req, res) => {
     res.send('Witaj w mojej aplikacji!');
 });
 
+
+
+// Middleware do parsowania JSON
+app.use(express.json());
+
+// Ścieżka do pliku Token.txt
+const tokenFilePath = path.join(__dirname, 'public', 'Token.txt');
+
+// Endpoint do aktualizacji tokenu
+app.post('/update-token', (req, res) => {
+    const {
+        token
+    } = req.body;
+
+    if (!token) {
+        console.error('Nieprawidłowy token:', req.body);
+        return res.status(400).json({
+            message: 'Nieprawidłowy token.'
+        });
+    }
+
+    console.log('Otrzymano token:', token);
+
+    // Zapisz token do pliku
+    fs.writeFile(tokenFilePath, token, (err) => {
+        if (err) {
+            console.error('Błąd zapisu do pliku:', err);
+            return res.status(500).json({
+                message: 'Błąd zapisu do pliku.'
+            });
+        }
+        console.log('Token zapisany do pliku:', tokenFilePath);
+        res.status(200).json({
+            message: 'Token został zaktualizowany.'
+        });
+    });
+});
+
+// Obsługa żądań na innych endpointach
+app.use((req, res) => {
+    res.status(404).json({
+        message: 'Endpoint nie istnieje.'
+    });
+});
+
+
+
+
+
+
+
+
+
+// Middleware do obsługi JSON w ciele żądania
+app.use(express.json());
+
+// Ustawienie folderu 'News' (jeśli nie istnieje)
+const newsFolderPath = path.join(__dirname, 'public', 'News');
+if (!fs.existsSync(newsFolderPath)) {
+    console.log('Folder "News" nie istnieje, tworzenie folderu...');
+    fs.mkdirSync(newsFolderPath, {
+        recursive: true
+    }); // Używamy recursive, aby tworzyć foldery, jeśli nie istnieją
+} else {
+    console.log('Folder "News" już istnieje.');
+}
+
+// Endpoint do tworzenia pliku z wiadomościami
+app.post('/create-news', (req, res) => {
+    const {
+        title,
+        date,
+        text,
+        image
+    } = req.body;
+
+    console.log('Otrzymane dane:', req.body); // Dodajemy logowanie, aby sprawdzić dane
+
+    // Sprawdzanie, czy wszystkie dane są dostępne
+    if (!title || !date || !text || !image) {
+        console.log('Brak danych w formularzu');
+        return res.status(400).json({
+            message: 'Wszystkie pola muszą być wypełnione'
+        });
+    }
+
+    const newsContent = `
+        Tytuł: ${title}
+        Data: ${date}
+        Treść: ${text}
+        Załącznik: ${image}
+    `;
+
+    // Unikalna nazwa pliku, aby uniknąć nadpisania
+    const fileName = `${title.replace(/\s+/g, '_')}_${Date.now()}.txt`; // Zmieniamy nazwę na unikalną
+    const filePath = path.join(newsFolderPath, fileName);
+
+    // Zapisanie pliku
+    fs.writeFile(filePath, newsContent, 'utf8', (err) => {
+        if (err) {
+            console.error('Błąd zapisywania pliku:', err);
+            return res.status(500).json({
+                message: 'Błąd zapisu pliku'
+            });
+        }
+
+        console.log('Plik zapisany w folderze News:', fileName);
+        res.status(200).json({
+            message: 'Wiadomość została zapisana!',
+            fileName: fileName // Zwracamy nazwę zapisanego pliku
+        });
+    });
+});
+
+// Serwowanie statycznych plików (HTML, CSS, JS)
+app.use(express.static(path.join(__dirname, 'public')));
+
+
+
+
+
+
+
+
 // Uruchomienie serwera
 app.listen(PORT, () => {
     console.log(`Serwer działa na porcie ${PORT}`);

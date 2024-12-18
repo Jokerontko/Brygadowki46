@@ -16,6 +16,25 @@
 
       }
 
+      .menuadmin {
+          display: inline-block;
+          text-decoration: none;
+          color: white;
+          border: 1.5px solid;
+          border-color: rebeccapurple;
+          border-radius: 5px;
+          padding: 10px 20px;
+          margin: 5px 5px 5px;
+          transition: background-color 0.3s ease;
+      }
+
+      .menuadmin:hover {
+          border-color: rebeccapurple;
+          background-color: rebeccapurple;
+          color: white;
+
+      }
+
       .exit {
           border-color: red;
           transition: background-color 0.3s ease;

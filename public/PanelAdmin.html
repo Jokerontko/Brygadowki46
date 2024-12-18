@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>Panel Administratora</title>
+    <link rel="stylesheet" href="style.css?v=<?php echo time(); ?>">
+    <script src="script.js?v=<?php echo time(); ?>"></script>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Panel Administratora</h1>
+        <form>
+            <a class="choose" href="Dodaj_News.html">Dodaj News</a>
+            <a class="choose" href="ChangeToken.html">Zmień token administratora</a>
+            <a class="choose">Button</a>
+
+            <a class="choose" href="Main_Panel.html">Przejdź do strony</a>
+
+
+        </form>
+
+    </div>
+
+    <script>
+        // Check if the user is logged in, otherwise redirect
+        function checkLogin() {
+            const user = JSON.parse(sessionStorage.getItem('user'));
+            if (user) {
+                window.location.href = 'Main_Panel.html';
+            }
+        }
+
+    </script>
+
+
+    <style>
+        body {
+            background: rgb(50, 50, 50);
+            font-family: arial;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            max-width: 400px;
+            margin: 14vh;
+            text-align: center;
+            background: white;
+            padding: 30px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        label {
+            margin-bottom: 5px;
+        }
+
+        .choose {
+            display: inline-block;
+            /* Dodano tę linię */
+            text-decoration: none;
+            color: black;
+            border-radius: 10px;
+            width: 93%;
+            transition: all 0.3s ease;
+            font-size: 1rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            align-content: center;
+            /* Opcjonalnie wyrównanie tekstu w środku */
+            padding: 10px;
+            /* Dodano dla lepszej estetyki */
+            margin-bottom: 15px;
+        }
+
+
+        .choose:hover {
+            background-color: orange;
+            transform: scale(1.05);
+        }
+
+    </style>
+</body>
+
+</html>
