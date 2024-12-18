@@ -1,0 +1,491 @@
+route_id	service_id	trip_id	arrival_time	departure_time	stop_headsign	stop_name
+-------------------------------------------------------------------------------
+1099	4	201774	07:20:00	07:20:00		Langiewicza / Wita Stwosza 04
+1099	4	201774	07:21:00	07:21:00		Witosa / Langiewicza 02 nż
+1099	4	201774	07:24:00	07:24:00		Panoramiczna 02 nż
+1099	4	201774	07:25:00	07:25:00		Plenerowa przedszkole 02 nż
+1099	4	201774	07:26:00	07:26:00		Strzelnicza 02 nż
+1099	4	201774	07:27:00	07:27:00		Wyspiańskiego / Strzelnicza 03 nż
+1099	4	201774	07:28:00	07:28:00		Kotuli / Solarza 03 nż
+1099	4	201774	07:29:00	07:29:00		Kotuli / Zbyszewskiego 01 nż
+1099	4	201774	07:31:00	07:31:00		Ofiar Katynia park 03
+1099	4	201774	07:32:00	07:32:00		Ofiar Katynia kładka 01
+1099	4	201774	07:33:00	07:33:00		Wyzwolenia / Ofiar Katynia 07
+1099	4	201774	07:34:00	07:34:00		Wyzwolenia kościół 05
+1099	4	201774	07:36:00	07:36:00		Wyzwolenia / Okulickiego 03 nż
+1099	4	201774	07:38:00	07:38:00		Wyzwolenia / Warszawska 01 nż
+1099	4	201774	07:40:00	07:40:00		Lubelska szpital 01
+1099	4	201774	07:43:00	07:43:00		Marszałkowska 01
+1099	4	201774	07:47:00	07:47:00		Piłsudskiego U. Wojewódzki 03
+1099	4	201774	07:48:00	07:48:00		Pl. Wolności 01
+1099	4	201774	07:50:00	07:50:00		Targowa 01
+1099	4	201774	07:52:00	07:52:00		Szopena Filharmonia 02 nż
+1099	4	201774	07:53:00	07:53:00		Kilara 01 nż
+1099	4	201774	07:55:00	07:55:00		Hetmańska podzamcze 02 nż
+1099	4	201774	07:56:00	07:56:00		Hetmańska przychodnia 04
+1099	4	201774	07:57:00	07:57:00		Hetmańska ZS. Mech. 06
+1099	4	201774	08:00:00	08:00:00		Powst. Warszawy stadion 06
+1099	4	201774	08:02:00	08:02:00		Powst. Warszawy Dom Studenta 08
+1099	4	201774	08:03:00	08:03:00		Powst. Warszawy / Graniczna 10
+1099	4	201774	08:06:00	08:06:00		Rejtana / Armii Krajowej 12
+1099	4	201774	08:07:00	08:07:00		Rejtana / Paderewskiego 10
+1099	4	201774	08:08:00	08:08:00		Rejtana / Krzyżanowskiego 08
+1099	4	201774	08:09:00	08:09:00		Niepodległości / Rejtana 02
+1099	4	201774	08:10:00	08:10:00		Niepodległości Dom Dziecka 04 nż
+1099	4	201774	08:11:00	08:11:00		Niepodległości działki 06 nż
+1099	4	201774	08:14:00	08:14:00		Armii Krajowej szpital 10 nż
+1099	4	201774	08:17:00	08:17:00		Lwowska szpital pętla 02
+
+89	4	199506	08:30:00	08:30:00		Lwowska szpital pętla 02
+89	4	199506	08:33:00	08:33:00		Lwowska szpital 05
+89	4	199506	08:36:00	08:36:00		Lwowska cmentarz 03
+89	4	199506	08:38:00	08:38:00		Mieszka I / Kustronia 02 nż
+89	4	199506	08:40:00	08:40:00		Niepodległości / Mieszka I 03 nż
+89	4	199506	08:41:00	08:41:00		Niepodległości Dom Dziecka 01 nż
+89	4	199506	08:42:00	08:42:00		Krzyżanowskiego szkoła 02 nż
+89	4	199506	08:44:00	08:44:00		Paderewskiego / Ossolińskich 01 nż
+89	4	199506	08:45:00	08:45:00		Rejtana / Popiełuszki 09
+89	4	199506	08:48:00	08:48:00		Powst. Warszawy / Rejtana 13
+89	4	199506	08:49:00	08:49:00		Powst. Warszawy szkoła 11
+89	4	199506	08:50:00	08:50:00		Powst. Warszawy Dom Studenta 09
+89	4	199506	08:53:00	08:53:00		Hetmańska stadion 07
+89	4	199506	08:54:00	08:54:00		Hetmańska ZS. Mech. 05
+89	4	199506	08:55:00	08:55:00		Hetmańska przychodnia 03
+89	4	199506	08:56:00	08:56:00		Hetmańska podzamcze 01 nż
+89	4	199506	09:00:00	09:00:00		Lisa-Kuli 02
+89	4	199506	09:01:00	09:01:00		Cieplińskiego 01
+89	4	199506	09:03:00	09:03:00		Piłsudskiego U. Marszałkowski 08
+89	4	199506	09:05:00	09:05:00		Krakowska Jedn. Wojskowa 02
+89	4	199506	09:07:00	09:07:00		Witosa / Solarza 07 nż
+89	4	199506	09:08:00	09:08:00		Witosa / Wiktora 05 nż
+89	4	199506	09:11:00	09:11:00		Wyspiańskiego stadion 01 nż
+89	4	199506	09:12:00	09:12:00		Wita Stwosza / Wyspiańskiego 05 nż
+89	4	199506	09:13:00	09:13:00		Wita Stwosza kościół 03
+89	4	199506	09:14:00	09:14:00		Langiewicza / Wita Stwosza 04
+89	4	199506	09:16:00	09:16:00		Staroniwska / Rzemieślnicza 02 nż
+89	4	199506	09:17:00	09:17:00		Staroniwska szkoła 04 nż
+89	4	199506	09:18:00	09:18:00		Staroniwska kościół 06 nż
+89	4	199506	09:19:00	09:19:00		Staroniwska pętla 08 nż
+89	4	199506	09:20:00	09:20:00		Staroniwska / Zielarska 14 nż
+89	4	199506	09:21:00	09:21:00		Staroniwska / Kresowa 16 nż
+89	4	199506	09:22:00	09:22:00		Kielanówka cegielnia 02 nż
+89	4	199506	09:23:00	09:23:00		Kielanówka 04 nż
+89	4	199506	09:24:00	09:24:00		Kielanówka Ruch 06 nż
+89	4	199506	09:25:00	09:25:00		Błękitne Wzgórze / Słoneczny Stok 02 nż
+89	4	199506	09:26:00	09:26:00		Błękitne Wzgórze / Leśne Wzgórze 03 nż
+
+118	4	202960	09:42:00	09:42:00		Błękitne Wzgórze / Leśne Wzgórze 03 nż
+118	4	202960	09:43:00	09:43:00		Błękitne Wzgórze / Słoneczny Stok 01 nż
+118	4	202960	09:44:00	09:44:00		Kielanówka Ruch 05 nż
+118	4	202960	09:45:00	09:45:00		Kielanówka 03 nż
+118	4	202960	09:46:00	09:46:00		Kielanówka cegielnia 01 nż
+118	4	202960	09:47:00	09:47:00		Staroniwska / Kresowa 11 nż
+118	4	202960	09:48:00	09:48:00		Staroniwska / Zielarska 09 nż
+118	4	202960	09:49:00	09:49:00		Staroniwska pętla 12 nż
+118	4	202960	09:50:00	09:50:00		Staroniwska kościół 05 nż
+118	4	202960	09:51:00	09:51:00		Staroniwska szkoła 03 nż
+118	4	202960	09:52:00	09:52:00		Staroniwska / Rzemieślnicza 01 nż
+118	4	202960	09:54:00	09:54:00		Langiewicza / Wita Stwosza 05 nż
+118	4	202960	09:55:00	09:55:00		Wita Stwosza / Langiewicza 02
+118	4	202960	09:56:00	09:56:00		Wita Stwosza kościół 04
+118	4	202960	09:57:00	09:57:00		Wita Stwosza / Wyspiańskiego 06 nż
+118	4	202960	09:58:00	09:58:00		Wyspiańskiego stadion 02 nż
+118	4	202960	10:00:00	10:00:00		Witosa / Wyspiańskiego 06 nż
+118	4	202960	10:01:00	10:01:00		Witosa Jedn. Wojskowa 08 nż
+118	4	202960	10:03:00	10:03:00		Krakowska Jedn. Wojskowa 01
+118	4	202960	10:05:00	10:05:00		Piłsudskiego U. Marszałkowski 05
+118	4	202960	10:06:00	10:06:00		Cieplińskiego 02
+118	4	202960	10:07:00	10:07:00		Lisa-Kuli 01
+118	4	202960	10:10:00	10:10:00		Hetmańska podzamcze 02 nż
+118	4	202960	10:11:00	10:11:00		Hetmańska przychodnia 04
+118	4	202960	10:12:00	10:12:00		Hetmańska ZS. Mech. 06
+118	4	202960	10:15:00	10:15:00		Powst. Warszawy stadion 06
+118	4	202960	10:17:00	10:17:00		Powst. Warszawy Dom Studenta 08
+118	4	202960	10:18:00	10:18:00		Powst. Warszawy / Graniczna 10
+118	4	202960	10:21:00	10:21:00		Rejtana / Armii Krajowej 12
+118	4	202960	10:22:00	10:22:00		Rejtana / Paderewskiego 10
+118	4	202960	10:24:00	10:24:00		Paderewskiego / Ossolińskich 02 nż
+118	4	202960	10:25:00	10:25:00		Krzyżanowskiego szkoła 01 nż
+118	4	202960	10:27:00	10:27:00		Niepodległości Dom Dziecka 04 nż
+118	4	202960	10:29:00	10:29:00		Mieszka I / Kustronia 01 nż
+118	4	202960	10:31:00	10:31:00		Lwowska cmentarz 04
+118	4	202960	10:33:00	10:33:00		Lwowska szpital pętla 02
+
+1100	4	201524	10:47:00	10:47:00		Lwowska szpital pętla 02
+1100	4	201524	10:50:00	10:50:00		Lwowska szpital 05
+1100	4	201524	10:53:00	10:53:00		Armii Krajowej kościół 09 nż
+1100	4	201524	10:54:00	10:54:00		Niepodległości / Armii Krajowej 05
+1100	4	201524	10:55:00	10:55:00		Niepodległości / Mieszka I 03 nż
+1100	4	201524	10:56:00	10:56:00		Niepodległości Dom Dziecka 01 nż
+1100	4	201524	10:59:00	10:59:00		Rejtana / Kopisto 07
+1100	4	201524	11:00:00	11:00:00		Rejtana / Popiełuszki 09
+1100	4	201524	11:03:00	11:03:00		Powst. Warszawy / Rejtana 13
+1100	4	201524	11:04:00	11:04:00		Powst. Warszawy szkoła 11
+1100	4	201524	11:05:00	11:05:00		Powst. Warszawy Dom Studenta 09
+1100	4	201524	11:08:00	11:08:00		Hetmańska stadion 07
+1100	4	201524	11:09:00	11:09:00		Hetmańska ZS. Mech. 05
+1100	4	201524	11:10:00	11:10:00		Hetmańska przychodnia 03
+1100	4	201524	11:11:00	11:11:00		Hetmańska podzamcze 01 nż
+1100	4	201524	11:12:00	11:12:00		Kilara 02 nż
+1100	4	201524	11:14:00	11:14:00		Szopena Filharmonia 01 nż
+1100	4	201524	11:17:00	11:17:00		Targowa 02
+1100	4	201524	11:20:00	11:20:00		Pl. Wolności 04
+1100	4	201524	11:21:00	11:21:00		Piłsudskiego U. Wojewódzki 06
+1100	4	201524	11:25:00	11:25:00		Marszałkowska 02
+1100	4	201524	11:26:00	11:26:00		Lubelska szpital 02
+1100	4	201524	11:28:00	11:28:00		Wyzwolenia / Lubelska 02 nż
+1100	4	201524	11:29:00	11:29:00		Wyzwolenia WORD 04 nż
+1100	4	201524	11:31:00	11:31:00		Wyzwolenia / Iranka-Osmeckiego 06
+1100	4	201524	11:32:00	11:32:00		Wyzwolenia / Brydaka 08
+1100	4	201524	11:34:00	11:34:00		Ofiar Katynia / Wyzwolenia 02
+1100	4	201524	11:35:00	11:35:00		Ofiar Katynia kładka 04
+1100	4	201524	11:36:00	11:36:00		Ofiar Katynia galeria 06
+1100	4	201524	11:37:00	11:37:00		Kotuli / Ustrzycka 02 nż
+1100	4	201524	11:38:00	11:38:00		Kotuli domki 04 nż
+1100	4	201524	11:39:00	11:39:00		Wyspiańskiego / German 04 nż
+1100	4	201524	11:40:00	11:40:00		Strzelnicza 01 nż
+1100	4	201524	11:41:00	11:41:00		Plenerowa przedszkole 01 nż
+1100	4	201524	11:42:00	11:42:00		Panoramiczna 01 nż
+1100	4	201524	11:44:00	11:44:00		Witosa / Panoramiczna 01 nż
+1100	4	201524	11:47:00	11:47:00		Langiewicza / Wita Stwosza 05 nż
+1100	4	201524	11:48:00	11:48:00		Wita Stwosza pętla 01
+
+1099	4	200633	12:19:00	12:19:00		Langiewicza / Wita Stwosza 04
+1099	4	200633	12:20:00	12:20:00		Witosa / Langiewicza 02 nż
+1099	4	200633	12:23:00	12:23:00		Panoramiczna 02 nż
+1099	4	200633	12:24:00	12:24:00		Plenerowa przedszkole 02 nż
+1099	4	200633	12:25:00	12:25:00		Strzelnicza 02 nż
+1099	4	200633	12:26:00	12:26:00		Wyspiańskiego / Strzelnicza 03 nż
+1099	4	200633	12:27:00	12:27:00		Kotuli / Solarza 03 nż
+1099	4	200633	12:28:00	12:28:00		Kotuli / Zbyszewskiego 01 nż
+1099	4	200633	12:30:00	12:30:00		Ofiar Katynia park 03
+1099	4	200633	12:31:00	12:31:00		Ofiar Katynia kładka 01
+1099	4	200633	12:32:00	12:32:00		Wyzwolenia / Ofiar Katynia 07
+1099	4	200633	12:33:00	12:33:00		Wyzwolenia kościół 05
+1099	4	200633	12:34:00	12:34:00		Wyzwolenia / Okulickiego 03 nż
+1099	4	200633	12:36:00	12:36:00		Wyzwolenia / Warszawska 01 nż
+1099	4	200633	12:38:00	12:38:00		Lubelska szpital 01
+1099	4	200633	12:41:00	12:41:00		Marszałkowska 01
+1099	4	200633	12:45:00	12:45:00		Piłsudskiego U. Wojewódzki 03
+1099	4	200633	12:46:00	12:46:00		Pl. Wolności 01
+1099	4	200633	12:49:00	12:49:00		Targowa 01
+1099	4	200633	12:52:00	12:52:00		Szopena Filharmonia 02 nż
+1099	4	200633	12:53:00	12:53:00		Kilara 01 nż
+1099	4	200633	12:55:00	12:55:00		Hetmańska podzamcze 02 nż
+1099	4	200633	12:56:00	12:56:00		Hetmańska przychodnia 04
+1099	4	200633	12:57:00	12:57:00		Hetmańska ZS. Mech. 06
+1099	4	200633	13:01:00	13:01:00		Powst. Warszawy stadion 06
+1099	4	200633	13:04:00	13:04:00		Powst. Warszawy Dom Studenta 08
+1099	4	200633	13:05:00	13:05:00		Powst. Warszawy / Graniczna 10
+1099	4	200633	13:09:00	13:09:00		Rejtana / Armii Krajowej 12
+1099	4	200633	13:10:00	13:10:00		Rejtana / Paderewskiego 10
+1099	4	200633	13:11:00	13:11:00		Rejtana / Krzyżanowskiego 08
+1099	4	200633	13:12:00	13:12:00		Niepodległości / Rejtana 02
+1099	4	200633	13:13:00	13:13:00		Niepodległości Dom Dziecka 04 nż
+1099	4	200633	13:14:00	13:14:00		Niepodległości działki 06 nż
+1099	4	200633	13:17:00	13:17:00		Armii Krajowej szpital 10 nż
+1099	4	200633	13:20:00	13:20:00		Lwowska szpital pętla 02
+
+647	4	200620	13:30:00	13:30:00		Lwowska szpital pętla 02
+647	4	200620	13:33:00	13:33:00		Lwowska szpital 05
+647	4	200620	13:36:00	13:36:00		Lwowska cmentarz 03
+647	4	200620	13:38:00	13:38:00		Mieszka I / Kustronia 02 nż
+647	4	200620	13:40:00	13:40:00		Niepodległości / Mieszka I 03 nż
+647	4	200620	13:41:00	13:41:00		Niepodległości Dom Dziecka 01 nż
+647	4	200620	13:42:00	13:42:00		Krzyżanowskiego szkoła 02 nż
+647	4	200620	13:44:00	13:44:00		Paderewskiego / Ossolińskich 01 nż
+647	4	200620	13:45:00	13:45:00		Rejtana / Popiełuszki 09
+647	4	200620	13:48:00	13:48:00		Powst. Warszawy / Rejtana 13
+647	4	200620	13:49:00	13:49:00		Powst. Warszawy szkoła 11
+647	4	200620	13:50:00	13:50:00		Powst. Warszawy Dom Studenta 09
+647	4	200620	13:54:00	13:54:00		Hetmańska stadion 07
+647	4	200620	13:55:00	13:55:00		Hetmańska ZS. Mech. 05
+647	4	200620	13:56:00	13:56:00		Hetmańska przychodnia 03
+647	4	200620	13:57:00	13:57:00		Hetmańska podzamcze 01 nż
+647	4	200620	14:01:00	14:01:00		Lisa-Kuli 02
+647	4	200620	14:02:00	14:02:00		Cieplińskiego 01
+647	4	200620	14:04:00	14:04:00		Piłsudskiego U. Marszałkowski 08
+647	4	200620	14:06:00	14:06:00		Krakowska Jedn. Wojskowa 02
+647	4	200620	14:08:00	14:08:00		Witosa / Solarza 07 nż
+647	4	200620	14:09:00	14:09:00		Witosa / Wiktora 05 nż
+647	4	200620	14:12:00	14:12:00		Wyspiańskiego stadion 01 nż
+647	4	200620	14:13:00	14:13:00		Wita Stwosza / Wyspiańskiego 05 nż
+647	4	200620	14:14:00	14:14:00		Wita Stwosza kościół 03
+647	4	200620	14:16:00	14:16:00		Langiewicza / Wita Stwosza 04
+647	4	200620	14:18:00	14:18:00		Staroniwska / Rzemieślnicza 02 nż
+647	4	200620	14:19:00	14:19:00		Staroniwska szkoła 04 nż
+647	4	200620	14:20:00	14:20:00		Staroniwska kościół 06 nż
+647	4	200620	14:21:00	14:21:00		Staroniwska pętla 08 nż
+647	4	200620	14:22:00	14:22:00		Staroniwska / Zielarska 14 nż
+647	4	200620	14:23:00	14:23:00		Staroniwska / Kresowa 16 nż
+647	4	200620	14:24:00	14:24:00		Kielanówka cegielnia 02 nż
+647	4	200620	14:25:00	14:25:00		Kielanówka 04 nż
+647	4	200620	14:26:00	14:26:00		Kielanówka Ruch 06 nż
+647	4	200620	14:27:00	14:27:00		Błękitne Wzgórze / Słoneczny Stok 02 nż
+647	4	200620	14:28:00	14:28:00		Błękitne Wzgórze / Leśne Wzgórze 04 nż
+647	4	200620	14:29:00	14:29:00		Kielanówka poczta 12 nż
+647	4	200620	14:30:00	14:30:00		Kielanówka pętla 14
+
+649	4	202173	14:36:00	14:36:00		Kielanówka pętla 14
+649	4	202173	14:37:00	14:37:00		Kielanówka poczta 11 nż
+649	4	202173	14:38:00	14:38:00		Błękitne Wzgórze / Leśne Wzgórze 03 nż
+649	4	202173	14:39:00	14:39:00		Błękitne Wzgórze / Słoneczny Stok 01 nż
+649	4	202173	14:40:00	14:40:00		Kielanówka Ruch 05 nż
+649	4	202173	14:41:00	14:41:00		Kielanówka 03 nż
+649	4	202173	14:42:00	14:42:00		Kielanówka cegielnia 01 nż
+649	4	202173	14:43:00	14:43:00		Staroniwska / Kresowa 11 nż
+649	4	202173	14:44:00	14:44:00		Staroniwska / Zielarska 09 nż
+649	4	202173	14:45:00	14:45:00		Staroniwska pętla 12 nż
+649	4	202173	14:46:00	14:46:00		Staroniwska kościół 05 nż
+649	4	202173	14:47:00	14:47:00		Staroniwska szkoła 03 nż
+649	4	202173	14:48:00	14:48:00		Staroniwska / Rzemieślnicza 01 nż
+649	4	202173	14:50:00	14:50:00		Langiewicza / Wita Stwosza 05 nż
+649	4	202173	14:51:00	14:51:00		Wita Stwosza / Langiewicza 02
+649	4	202173	14:52:00	14:52:00		Wita Stwosza kościół 04
+649	4	202173	14:53:00	14:53:00		Wita Stwosza / Wyspiańskiego 06 nż
+649	4	202173	14:55:00	14:55:00		Wyspiańskiego stadion 02 nż
+649	4	202173	14:57:00	14:57:00		Witosa / Wyspiańskiego 06 nż
+649	4	202173	14:58:00	14:58:00		Witosa Jedn. Wojskowa 08 nż
+649	4	202173	15:00:00	15:00:00		Krakowska Jedn. Wojskowa 01
+649	4	202173	15:02:00	15:02:00		Piłsudskiego U. Marszałkowski 05
+649	4	202173	15:04:00	15:04:00		Cieplińskiego 02
+649	4	202173	15:05:00	15:05:00		Lisa-Kuli 01
+649	4	202173	15:10:00	15:10:00		Hetmańska podzamcze 02 nż
+649	4	202173	15:11:00	15:11:00		Hetmańska przychodnia 04
+649	4	202173	15:12:00	15:12:00		Hetmańska ZS. Mech. 06
+649	4	202173	15:21:00	15:21:00		Powst. Warszawy stadion 06
+649	4	202173	15:25:00	15:25:00		Powst. Warszawy Dom Studenta 08
+649	4	202173	15:26:00	15:26:00		Powst. Warszawy / Graniczna 10
+649	4	202173	15:30:00	15:30:00		Rejtana / Armii Krajowej 12
+649	4	202173	15:31:00	15:31:00		Rejtana / Paderewskiego 10
+649	4	202173	15:33:00	15:33:00		Paderewskiego / Ossolińskich 02 nż
+649	4	202173	15:34:00	15:34:00		Krzyżanowskiego szkoła 01 nż
+649	4	202173	15:36:00	15:36:00		Niepodległości Dom Dziecka 04 nż
+649	4	202173	15:38:00	15:38:00		Mieszka I / Kustronia 01 nż
+649	4	202173	15:47:00	15:47:00		Lwowska cmentarz 04
+649	4	202173	15:51:00	15:51:00		Lwowska szpital pętla 02
+
+1100	4	202655	16:14:00	16:14:00		Lwowska szpital pętla 02
+1100	4	202655	16:17:00	16:17:00		Lwowska szpital 05
+1100	4	202655	16:20:00	16:20:00		Armii Krajowej kościół 09 nż
+1100	4	202655	16:22:00	16:22:00		Niepodległości / Armii Krajowej 05
+1100	4	202655	16:23:00	16:23:00		Niepodległości / Mieszka I 03 nż
+1100	4	202655	16:24:00	16:24:00		Niepodległości Dom Dziecka 01 nż
+1100	4	202655	16:27:00	16:27:00		Rejtana / Kopisto 07
+1100	4	202655	16:30:00	16:30:00		Rejtana / Popiełuszki 09
+1100	4	202655	16:33:00	16:33:00		Powst. Warszawy / Rejtana 13
+1100	4	202655	16:34:00	16:34:00		Powst. Warszawy szkoła 11
+1100	4	202655	16:35:00	16:35:00		Powst. Warszawy Dom Studenta 09
+1100	4	202655	16:38:00	16:38:00		Hetmańska stadion 07
+1100	4	202655	16:39:00	16:39:00		Hetmańska ZS. Mech. 05
+1100	4	202655	16:40:00	16:40:00		Hetmańska przychodnia 03
+1100	4	202655	16:41:00	16:41:00		Hetmańska podzamcze 01 nż
+1100	4	202655	16:42:00	16:42:00		Kilara 02 nż
+1100	4	202655	16:44:00	16:44:00		Szopena Filharmonia 01 nż
+1100	4	202655	16:46:00	16:46:00		Targowa 02
+1100	4	202655	16:48:00	16:48:00		Pl. Wolności 04
+1100	4	202655	16:49:00	16:49:00		Piłsudskiego U. Wojewódzki 06
+1100	4	202655	16:52:00	16:52:00		Marszałkowska 02
+1100	4	202655	16:53:00	16:53:00		Lubelska szpital 02
+1100	4	202655	16:55:00	16:55:00		Wyzwolenia / Lubelska 02 nż
+1100	4	202655	16:56:00	16:56:00		Wyzwolenia WORD 04 nż
+1100	4	202655	16:58:00	16:58:00		Wyzwolenia / Iranka-Osmeckiego 06
+1100	4	202655	16:59:00	16:59:00		Wyzwolenia / Brydaka 08
+1100	4	202655	17:01:00	17:01:00		Ofiar Katynia / Wyzwolenia 02
+1100	4	202655	17:02:00	17:02:00		Ofiar Katynia kładka 04
+1100	4	202655	17:03:00	17:03:00		Ofiar Katynia galeria 06
+1100	4	202655	17:04:00	17:04:00		Kotuli / Ustrzycka 02 nż
+1100	4	202655	17:05:00	17:05:00		Kotuli domki 04 nż
+1100	4	202655	17:06:00	17:06:00		Wyspiańskiego / German 04 nż
+1100	4	202655	17:07:00	17:07:00		Strzelnicza 01 nż
+1100	4	202655	17:08:00	17:08:00		Plenerowa przedszkole 01 nż
+1100	4	202655	17:09:00	17:09:00		Panoramiczna 01 nż
+1100	4	202655	17:11:00	17:11:00		Witosa / Panoramiczna 01 nż
+1100	4	202655	17:14:00	17:14:00		Langiewicza / Wita Stwosza 05 nż
+1100	4	202655	17:15:00	17:15:00		Wita Stwosza pętla 01
+
+1099	4	199709	17:51:00	17:51:00		Langiewicza / Wita Stwosza 04
+1099	4	199709	17:52:00	17:52:00		Witosa / Langiewicza 02 nż
+1099	4	199709	17:55:00	17:55:00		Panoramiczna 02 nż
+1099	4	199709	17:56:00	17:56:00		Plenerowa przedszkole 02 nż
+1099	4	199709	17:57:00	17:57:00		Strzelnicza 02 nż
+1099	4	199709	17:58:00	17:58:00		Wyspiańskiego / Strzelnicza 03 nż
+1099	4	199709	17:59:00	17:59:00		Kotuli / Solarza 03 nż
+1099	4	199709	18:00:00	18:00:00		Kotuli / Zbyszewskiego 01 nż
+1099	4	199709	18:02:00	18:02:00		Ofiar Katynia park 03
+1099	4	199709	18:03:00	18:03:00		Ofiar Katynia kładka 01
+1099	4	199709	18:04:00	18:04:00		Wyzwolenia / Ofiar Katynia 07
+1099	4	199709	18:05:00	18:05:00		Wyzwolenia kościół 05
+1099	4	199709	18:06:00	18:06:00		Wyzwolenia / Okulickiego 03 nż
+1099	4	199709	18:08:00	18:08:00		Wyzwolenia / Warszawska 01 nż
+1099	4	199709	18:10:00	18:10:00		Lubelska szpital 01
+1099	4	199709	18:12:00	18:12:00		Marszałkowska 01
+1099	4	199709	18:16:00	18:16:00		Piłsudskiego U. Wojewódzki 03
+1099	4	199709	18:17:00	18:17:00		Pl. Wolności 01
+1099	4	199709	18:20:00	18:20:00		Targowa 01
+1099	4	199709	18:22:00	18:22:00		Szopena Filharmonia 02 nż
+1099	4	199709	18:23:00	18:23:00		Kilara 01 nż
+1099	4	199709	18:25:00	18:25:00		Hetmańska podzamcze 02 nż
+1099	4	199709	18:26:00	18:26:00		Hetmańska przychodnia 04
+1099	4	199709	18:27:00	18:27:00		Hetmańska ZS. Mech. 06
+1099	4	199709	18:31:00	18:31:00		Powst. Warszawy stadion 06
+1099	4	199709	18:33:00	18:33:00		Powst. Warszawy Dom Studenta 08
+1099	4	199709	18:34:00	18:34:00		Powst. Warszawy / Graniczna 10
+1099	4	199709	18:38:00	18:38:00		Rejtana / Armii Krajowej 12
+1099	4	199709	18:39:00	18:39:00		Rejtana / Paderewskiego 10
+1099	4	199709	18:40:00	18:40:00		Rejtana / Krzyżanowskiego 08
+1099	4	199709	18:41:00	18:41:00		Niepodległości / Rejtana 02
+1099	4	199709	18:42:00	18:42:00		Niepodległości Dom Dziecka 04 nż
+1099	4	199709	18:43:00	18:43:00		Niepodległości działki 06 nż
+1099	4	199709	18:46:00	18:46:00		Armii Krajowej szpital 10 nż
+1099	4	199709	18:49:00	18:49:00		Lwowska szpital pętla 02
+
+89	4	199229	19:04:00	19:04:00		Lwowska szpital pętla 02
+89	4	199229	19:06:00	19:06:00		Lwowska szpital 05
+89	4	199229	19:07:00	19:07:00		Lwowska cmentarz 03
+89	4	199229	19:09:00	19:09:00		Mieszka I / Kustronia 02 nż
+89	4	199229	19:10:00	19:10:00		Niepodległości / Mieszka I 03 nż
+89	4	199229	19:11:00	19:11:00		Niepodległości Dom Dziecka 01 nż
+89	4	199229	19:12:00	19:12:00		Krzyżanowskiego szkoła 02 nż
+89	4	199229	19:14:00	19:14:00		Paderewskiego / Ossolińskich 01 nż
+89	4	199229	19:15:00	19:15:00		Rejtana / Popiełuszki 09
+89	4	199229	19:18:00	19:18:00		Powst. Warszawy / Rejtana 13
+89	4	199229	19:19:00	19:19:00		Powst. Warszawy szkoła 11
+89	4	199229	19:20:00	19:20:00		Powst. Warszawy Dom Studenta 09
+89	4	199229	19:22:00	19:22:00		Hetmańska stadion 07
+89	4	199229	19:23:00	19:23:00		Hetmańska ZS. Mech. 05
+89	4	199229	19:24:00	19:24:00		Hetmańska przychodnia 03
+89	4	199229	19:25:00	19:25:00		Hetmańska podzamcze 01 nż
+89	4	199229	19:28:00	19:28:00		Lisa-Kuli 02
+89	4	199229	19:29:00	19:29:00		Cieplińskiego 01
+89	4	199229	19:31:00	19:31:00		Piłsudskiego U. Marszałkowski 08
+89	4	199229	19:33:00	19:33:00		Krakowska Jedn. Wojskowa 02
+89	4	199229	19:35:00	19:35:00		Witosa / Solarza 07 nż
+89	4	199229	19:36:00	19:36:00		Witosa / Wiktora 05 nż
+89	4	199229	19:38:00	19:38:00		Wyspiańskiego stadion 01 nż
+89	4	199229	19:39:00	19:39:00		Wita Stwosza / Wyspiańskiego 05 nż
+89	4	199229	19:40:00	19:40:00		Wita Stwosza kościół 03
+89	4	199229	19:41:00	19:41:00		Langiewicza / Wita Stwosza 04
+89	4	199229	19:42:00	19:42:00		Staroniwska / Rzemieślnicza 02 nż
+89	4	199229	19:43:00	19:43:00		Staroniwska szkoła 04 nż
+89	4	199229	19:44:00	19:44:00		Staroniwska kościół 06 nż
+89	4	199229	19:45:00	19:45:00		Staroniwska pętla 08 nż
+89	4	199229	19:46:00	19:46:00		Staroniwska / Zielarska 14 nż
+89	4	199229	19:47:00	19:47:00		Staroniwska / Kresowa 16 nż
+89	4	199229	19:48:00	19:48:00		Kielanówka cegielnia 02 nż
+89	4	199229	19:49:00	19:49:00		Kielanówka 04 nż
+89	4	199229	19:50:00	19:50:00		Kielanówka Ruch 06 nż
+89	4	199229	19:51:00	19:51:00		Błękitne Wzgórze / Słoneczny Stok 02 nż
+89	4	199229	19:52:00	19:52:00		Błękitne Wzgórze / Leśne Wzgórze 03 nż
+
+118	4	200938	20:14:00	20:14:00		Błękitne Wzgórze / Leśne Wzgórze 03 nż
+118	4	200938	20:15:00	20:15:00		Błękitne Wzgórze / Słoneczny Stok 01 nż
+118	4	200938	20:16:00	20:16:00		Kielanówka Ruch 05 nż
+118	4	200938	20:17:00	20:17:00		Kielanówka 03 nż
+118	4	200938	20:18:00	20:18:00		Kielanówka cegielnia 01 nż
+118	4	200938	20:19:00	20:19:00		Staroniwska / Kresowa 11 nż
+118	4	200938	20:20:00	20:20:00		Staroniwska / Zielarska 09 nż
+118	4	200938	20:21:00	20:21:00		Staroniwska pętla 12 nż
+118	4	200938	20:22:00	20:22:00		Staroniwska kościół 05 nż
+118	4	200938	20:23:00	20:23:00		Staroniwska szkoła 03 nż
+118	4	200938	20:24:00	20:24:00		Staroniwska / Rzemieślnicza 01 nż
+118	4	200938	20:25:00	20:25:00		Langiewicza / Wita Stwosza 05 nż
+118	4	200938	20:26:00	20:26:00		Wita Stwosza / Langiewicza 02
+118	4	200938	20:27:00	20:27:00		Wita Stwosza kościół 04
+118	4	200938	20:28:00	20:28:00		Wita Stwosza / Wyspiańskiego 06 nż
+118	4	200938	20:29:00	20:29:00		Wyspiańskiego stadion 02 nż
+118	4	200938	20:30:00	20:30:00		Witosa / Wyspiańskiego 06 nż
+118	4	200938	20:31:00	20:31:00		Witosa Jedn. Wojskowa 08 nż
+118	4	200938	20:33:00	20:33:00		Krakowska Jedn. Wojskowa 01
+118	4	200938	20:35:00	20:35:00		Piłsudskiego U. Marszałkowski 05
+118	4	200938	20:36:00	20:36:00		Cieplińskiego 02
+118	4	200938	20:37:00	20:37:00		Lisa-Kuli 01
+118	4	200938	20:40:00	20:40:00		Hetmańska podzamcze 02 nż
+118	4	200938	20:41:00	20:41:00		Hetmańska przychodnia 04
+118	4	200938	20:42:00	20:42:00		Hetmańska ZS. Mech. 06
+118	4	200938	20:44:00	20:44:00		Powst. Warszawy stadion 06
+118	4	200938	20:46:00	20:46:00		Powst. Warszawy Dom Studenta 08
+118	4	200938	20:47:00	20:47:00		Powst. Warszawy / Graniczna 10
+118	4	200938	20:50:00	20:50:00		Rejtana / Armii Krajowej 12
+118	4	200938	20:51:00	20:51:00		Rejtana / Paderewskiego 10
+118	4	200938	20:53:00	20:53:00		Paderewskiego / Ossolińskich 02 nż
+118	4	200938	20:54:00	20:54:00		Krzyżanowskiego szkoła 01 nż
+118	4	200938	20:55:00	20:55:00		Niepodległości Dom Dziecka 04 nż
+118	4	200938	20:57:00	20:57:00		Mieszka I / Kustronia 01 nż
+118	4	200938	20:59:00	20:59:00		Lwowska cmentarz 04
+118	4	200938	21:01:00	21:01:00		Lwowska szpital pętla 02
+
+1100	4	201988	21:20:00	21:20:00		Lwowska szpital pętla 02
+1100	4	201988	21:22:00	21:22:00		Lwowska szpital 05
+1100	4	201988	21:24:00	21:24:00		Armii Krajowej kościół 09 nż
+1100	4	201988	21:25:00	21:25:00		Niepodległości / Armii Krajowej 05
+1100	4	201988	21:26:00	21:26:00		Niepodległości / Mieszka I 03 nż
+1100	4	201988	21:27:00	21:27:00		Niepodległości Dom Dziecka 01 nż
+1100	4	201988	21:29:00	21:29:00		Rejtana / Kopisto 07
+1100	4	201988	21:30:00	21:30:00		Rejtana / Popiełuszki 09
+1100	4	201988	21:32:00	21:32:00		Powst. Warszawy / Rejtana 13
+1100	4	201988	21:33:00	21:33:00		Powst. Warszawy szkoła 11
+1100	4	201988	21:34:00	21:34:00		Powst. Warszawy Dom Studenta 09
+1100	4	201988	21:36:00	21:36:00		Hetmańska stadion 07
+1100	4	201988	21:37:00	21:37:00		Hetmańska ZS. Mech. 05
+1100	4	201988	21:38:00	21:38:00		Hetmańska przychodnia 03
+1100	4	201988	21:39:00	21:39:00		Hetmańska podzamcze 01 nż
+1100	4	201988	21:40:00	21:40:00		Kilara 02 nż
+1100	4	201988	21:41:00	21:41:00		Szopena Filharmonia 01 nż
+1100	4	201988	21:42:00	21:42:00		Targowa 02
+1100	4	201988	21:44:00	21:44:00		Pl. Wolności 04
+1100	4	201988	21:45:00	21:45:00		Piłsudskiego U. Wojewódzki 06
+1100	4	201988	21:47:00	21:47:00		Marszałkowska 02
+1100	4	201988	21:48:00	21:48:00		Lubelska szpital 02
+1100	4	201988	21:50:00	21:50:00		Wyzwolenia / Lubelska 02 nż
+1100	4	201988	21:51:00	21:51:00		Wyzwolenia WORD 04 nż
+1100	4	201988	21:52:00	21:52:00		Wyzwolenia / Iranka-Osmeckiego 06
+1100	4	201988	21:53:00	21:53:00		Wyzwolenia / Brydaka 08
+1100	4	201988	21:54:00	21:54:00		Ofiar Katynia / Wyzwolenia 02
+1100	4	201988	21:55:00	21:55:00		Ofiar Katynia kładka 04
+1100	4	201988	21:56:00	21:56:00		Ofiar Katynia galeria 06
+1100	4	201988	21:57:00	21:57:00		Kotuli / Ustrzycka 02 nż
+1100	4	201988	21:58:00	21:58:00		Kotuli domki 04 nż
+1100	4	201988	21:59:00	21:59:00		Wyspiańskiego / German 04 nż
+1100	4	201988	22:00:00	22:00:00		Strzelnicza 01 nż
+1100	4	201988	22:01:00	22:01:00		Plenerowa przedszkole 01 nż
+1100	4	201988	22:02:00	22:02:00		Panoramiczna 01 nż
+1100	4	201988	22:03:00	22:03:00		Witosa / Panoramiczna 01 nż
+1100	4	201988	22:05:00	22:05:00		Langiewicza / Wita Stwosza 05 nż
+1100	4	201988	22:06:00	22:06:00		Wita Stwosza pętla 01
+
+1099	4	199884	22:29:00	22:29:00		Langiewicza / Wita Stwosza 04
+1099	4	199884	22:30:00	22:30:00		Witosa / Langiewicza 02 nż
+1099	4	199884	22:32:00	22:32:00		Panoramiczna 02 nż
+1099	4	199884	22:33:00	22:33:00		Plenerowa przedszkole 02 nż
+1099	4	199884	22:34:00	22:34:00		Strzelnicza 02 nż
+1099	4	199884	22:35:00	22:35:00		Wyspiańskiego / Strzelnicza 03 nż
+1099	4	199884	22:36:00	22:36:00		Kotuli / Solarza 03 nż
+1099	4	199884	22:37:00	22:37:00		Kotuli / Zbyszewskiego 01 nż
+1099	4	199884	22:39:00	22:39:00		Ofiar Katynia park 03
+1099	4	199884	22:40:00	22:40:00		Ofiar Katynia kładka 01
+1099	4	199884	22:41:00	22:41:00		Wyzwolenia / Ofiar Katynia 07
+1099	4	199884	22:42:00	22:42:00		Wyzwolenia kościół 05
+1099	4	199884	22:43:00	22:43:00		Wyzwolenia / Okulickiego 03 nż
+1099	4	199884	22:45:00	22:45:00		Wyzwolenia / Warszawska 01 nż
+1099	4	199884	22:46:00	22:46:00		Lubelska szpital 01
+1099	4	199884	22:47:00	22:47:00		Marszałkowska 01
+1099	4	199884	22:49:00	22:49:00		Piłsudskiego U. Wojewódzki 03
+1099	4	199884	22:50:00	22:50:00		Pl. Wolności 01
+1099	4	199884	22:51:00	22:51:00		Targowa 01
+1099	4	199884	22:52:00	22:52:00		Szopena Filharmonia 02 nż
+1099	4	199884	22:53:00	22:53:00		Kilara 01 nż
+1099	4	199884	22:55:00	22:55:00		Hetmańska podzamcze 02 nż
+1099	4	199884	22:56:00	22:56:00		Hetmańska przychodnia 04
+1099	4	199884	22:57:00	22:57:00		Hetmańska ZS. Mech. 06
+1099	4	199884	22:59:00	22:59:00		Powst. Warszawy stadion 06
+1099	4	199884	23:01:00	23:01:00		Powst. Warszawy Dom Studenta 08
+1099	4	199884	23:02:00	23:02:00		Powst. Warszawy / Graniczna 10
+1099	4	199884	23:04:00	23:04:00		Rejtana / Armii Krajowej 12
+1099	4	199884	23:05:00	23:05:00		Rejtana / Paderewskiego 10
+1099	4	199884	23:06:00	23:06:00		Rejtana / Krzyżanowskiego 08
+1099	4	199884	23:07:00	23:07:00		Niepodległości / Rejtana 02
+1099	4	199884	23:08:00	23:08:00		Niepodległości Dom Dziecka 04 nż
+1099	4	199884	23:09:00	23:09:00		Niepodległości działki 06 nż
+1099	4	199884	23:11:00	23:11:00		Armii Krajowej szpital 10 nż
+1099	4	199884	23:13:00	23:13:00		Lwowska szpital pętla 02

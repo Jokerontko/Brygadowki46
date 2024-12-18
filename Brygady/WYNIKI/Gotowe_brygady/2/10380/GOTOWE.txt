@@ -1,0 +1,672 @@
+route_id	service_id	trip_id	arrival_time	departure_time	stop_headsign	stop_name
+-------------------------------------------------------------------------------
+1493	4	203162	04:15:00	04:15:00		Bardowskiego 02
+1493	4	203162	04:17:00	04:17:00		Pl. Wolności 04
+1493	4	203162	04:17:00	04:17:00		Pl. Wolności 04
+1493	4	203162	04:20:00	04:20:00		Cieplińskiego 02
+1493	4	203162	04:20:00	04:20:00		Cieplińskiego 02
+1493	4	203162	04:21:00	04:21:00		Lisa-Kuli 01
+1493	4	203162	04:21:00	04:21:00		Lisa-Kuli 01
+1493	4	203162	04:23:00	04:23:00		Dąbrowskiego park 02 nż
+1493	4	203162	04:23:00	04:23:00		Dąbrowskiego park 02 nż
+1493	4	203162	04:24:00	04:24:00		Dąbrowskiego KW Policji 04
+1493	4	203162	04:24:00	04:24:00		Dąbrowskiego KW Policji 04
+1493	4	203162	04:25:00	04:25:00		Dąbrowskiego / Bat. Chłopskich 10
+1493	4	203162	04:25:00	04:25:00		Dąbrowskiego / Bat. Chłopskich 10
+1493	4	203162	04:27:00	04:27:00		Podkarpacka Politechnika 02
+1493	4	203162	04:27:00	04:27:00		Podkarpacka Politechnika 02
+1493	4	203162	04:28:00	04:28:00		Podkarpacka / Matuszczaka 04
+1493	4	203162	04:28:00	04:28:00		Podkarpacka / Matuszczaka 04
+1493	4	203162	04:29:00	04:29:00		Podkarpacka / Wetlińska 06 nż
+1493	4	203162	04:29:00	04:29:00		Podkarpacka / Wetlińska 06 nż
+1493	4	203162	04:31:00	04:31:00		Podkarpacka kościół 08 nż
+1493	4	203162	04:31:00	04:31:00		Podkarpacka kościół 08 nż
+1493	4	203162	04:32:00	04:32:00		Podkarpacka / Nalepy 10 nż
+1493	4	203162	04:32:00	04:32:00		Podkarpacka / Nalepy 10 nż
+1493	4	203162	04:34:00	04:34:00		Podkarpacka granica 12 nż
+1493	4	203162	04:34:00	04:34:00		Podkarpacka granica 12 nż
+1493	4	203162	04:35:00	04:35:00		Boguchwała 64 nż
+1493	4	203162	04:35:00	04:35:00		Boguchwała 64 nż
+1493	4	203162	04:36:00	04:36:00		Boguchwała 66
+1493	4	203162	04:36:00	04:36:00		Boguchwała 66
+1493	4	203162	04:37:00	04:37:00		Boguchwała Urząd Gminy 70 nż
+1493	4	203162	04:37:00	04:37:00		Boguchwała Urząd Gminy 70 nż
+1493	4	203162	04:39:00	04:39:00		Boguchwała Polna 21 nż
+1493	4	203162	04:39:00	04:39:00		Boguchwała Polna 21 nż
+1493	4	203162	04:41:00	04:41:00		Mogielnica most 19 nż
+1493	4	203162	04:41:00	04:41:00		Mogielnica most 19 nż
+1493	4	203162	04:42:00	04:42:00		Mogielnica II 17 nż
+1493	4	203162	04:42:00	04:42:00		Mogielnica II 17 nż
+1493	4	203162	04:43:00	04:43:00		Mogielnica I 15 nż
+1493	4	203162	04:43:00	04:43:00		Mogielnica I 15 nż
+1493	4	203162	04:44:00	04:44:00		Mogielnica remiza 13 nż
+1493	4	203162	04:44:00	04:44:00		Mogielnica remiza 13 nż
+1493	4	203162	04:45:00	04:45:00		Mogielnica szkoła 11 nż
+1493	4	203162	04:45:00	04:45:00		Mogielnica szkoła 11 nż
+1493	4	203162	04:46:00	04:46:00		Mogielnica wieś 09 nż
+1493	4	203162	04:46:00	04:46:00		Mogielnica wieś 09 nż
+1493	4	203162	04:47:00	04:47:00		Mogielnica Kobakówka 07 nż
+1493	4	203162	04:47:00	04:47:00		Mogielnica Kobakówka 07 nż
+1493	4	203162	04:48:00	04:48:00		Mogielnica stara pętla 05 nż
+1493	4	203162	04:48:00	04:48:00		Mogielnica stara pętla 05 nż
+1493	4	203162	04:49:00	04:49:00		Mogielnica Góra 03 nż
+1493	4	203162	04:49:00	04:49:00		Mogielnica Góra 03 nż
+1493	4	203162	04:50:00	04:50:00		Mogielnica pętla 01
+1493	4	203162	04:50:00	04:50:00		Mogielnica pętla 01
+
+1488	4	199391	05:00:00	05:00:00		Mogielnica pętla 01
+1488	4	199391	05:00:00	05:00:00		Mogielnica pętla 01
+1488	4	199391	05:01:00	05:01:00		Mogielnica Góra 02 nż
+1488	4	199391	05:01:00	05:01:00		Mogielnica Góra 02 nż
+1488	4	199391	05:02:00	05:02:00		Mogielnica stara pętla 04 nż
+1488	4	199391	05:02:00	05:02:00		Mogielnica stara pętla 04 nż
+1488	4	199391	05:03:00	05:03:00		Mogielnica Kobakówka 06 nż
+1488	4	199391	05:03:00	05:03:00		Mogielnica Kobakówka 06 nż
+1488	4	199391	05:04:00	05:04:00		Mogielnica wieś 08 nż
+1488	4	199391	05:04:00	05:04:00		Mogielnica wieś 08 nż
+1488	4	199391	05:05:00	05:05:00		Mogielnica szkoła 10 nż
+1488	4	199391	05:05:00	05:05:00		Mogielnica szkoła 10 nż
+1488	4	199391	05:06:00	05:06:00		Mogielnica remiza 12 nż
+1488	4	199391	05:06:00	05:06:00		Mogielnica remiza 12 nż
+1488	4	199391	05:07:00	05:07:00		Mogielnica I 14 nż
+1488	4	199391	05:07:00	05:07:00		Mogielnica I 14 nż
+1488	4	199391	05:08:00	05:08:00		Mogielnica II 16 nż
+1488	4	199391	05:08:00	05:08:00		Mogielnica II 16 nż
+1488	4	199391	05:09:00	05:09:00		Mogielnica most 18 nż
+1488	4	199391	05:09:00	05:09:00		Mogielnica most 18 nż
+1488	4	199391	05:11:00	05:11:00		Boguchwała Polna 20 nż
+1488	4	199391	05:11:00	05:11:00		Boguchwała Polna 20 nż
+1488	4	199391	05:13:00	05:13:00		Boguchwała Urząd Gminy 95 nż
+1488	4	199391	05:13:00	05:13:00		Boguchwała Urząd Gminy 95 nż
+1488	4	199391	05:14:00	05:14:00		Boguchwała 97
+1488	4	199391	05:14:00	05:14:00		Boguchwała 97
+1488	4	199391	05:15:00	05:15:00		Boguchwała 99 nż
+1488	4	199391	05:15:00	05:15:00		Boguchwała 99 nż
+1488	4	199391	05:16:00	05:16:00		Podkarpacka granica 13 nż
+1488	4	199391	05:16:00	05:16:00		Podkarpacka granica 13 nż
+1488	4	199391	05:17:00	05:17:00		Podkarpacka / Zwięczycka 11 nż
+1488	4	199391	05:17:00	05:17:00		Podkarpacka / Zwięczycka 11 nż
+1488	4	199391	05:18:00	05:18:00		Podkarpacka / Nalepy 09 nż
+1488	4	199391	05:18:00	05:18:00		Podkarpacka / Nalepy 09 nż
+1488	4	199391	05:20:00	05:20:00		Podkarpacka kościół 07 nż
+1488	4	199391	05:20:00	05:20:00		Podkarpacka kościół 07 nż
+1488	4	199391	05:21:00	05:21:00		Podkarpacka / Wetlińska 05 nż
+1488	4	199391	05:21:00	05:21:00		Podkarpacka / Wetlińska 05 nż
+1488	4	199391	05:22:00	05:22:00		Podkarpacka / Matuszczaka 03
+1488	4	199391	05:22:00	05:22:00		Podkarpacka / Matuszczaka 03
+1488	4	199391	05:24:00	05:24:00		Podkarpacka Politechnika 01
+1488	4	199391	05:24:00	05:24:00		Podkarpacka Politechnika 01
+1488	4	199391	05:26:00	05:26:00		Dąbrowskiego Instytut Muzyki 07
+1488	4	199391	05:26:00	05:26:00		Dąbrowskiego Instytut Muzyki 07
+1488	4	199391	05:27:00	05:27:00		Dąbrowskiego KW Policji 03
+1488	4	199391	05:27:00	05:27:00		Dąbrowskiego KW Policji 03
+1488	4	199391	05:28:00	05:28:00		Dąbrowskiego park 01 nż
+1488	4	199391	05:28:00	05:28:00		Dąbrowskiego park 01 nż
+1488	4	199391	05:31:00	05:31:00		Lisa-Kuli 02
+1488	4	199391	05:31:00	05:31:00		Lisa-Kuli 02
+1488	4	199391	05:32:00	05:32:00		Cieplińskiego 01
+1488	4	199391	05:32:00	05:32:00		Cieplińskiego 01
+1488	4	199391	05:33:00	05:33:00		Piłsudskiego U. Wojewódzki 03
+1488	4	199391	05:33:00	05:33:00		Piłsudskiego U. Wojewódzki 03
+1488	4	199391	05:36:00	05:36:00		Bardowskiego 04
+1488	4	199391	05:36:00	05:36:00		Bardowskiego 04
+
+1493	4	199665	06:05:00	06:05:00		Bardowskiego 02
+1493	4	199665	06:05:00	06:05:00		Bardowskiego 02
+1493	4	199665	06:07:00	06:07:00		Pl. Wolności 04
+1493	4	199665	06:07:00	06:07:00		Pl. Wolności 04
+1493	4	199665	06:10:00	06:10:00		Cieplińskiego 02
+1493	4	199665	06:10:00	06:10:00		Cieplińskiego 02
+1493	4	199665	06:11:00	06:11:00		Lisa-Kuli 01
+1493	4	199665	06:11:00	06:11:00		Lisa-Kuli 01
+1493	4	199665	06:13:00	06:13:00		Dąbrowskiego park 02 nż
+1493	4	199665	06:13:00	06:13:00		Dąbrowskiego park 02 nż
+1493	4	199665	06:14:00	06:14:00		Dąbrowskiego KW Policji 04
+1493	4	199665	06:14:00	06:14:00		Dąbrowskiego KW Policji 04
+1493	4	199665	06:15:00	06:15:00		Dąbrowskiego / Bat. Chłopskich 10
+1493	4	199665	06:15:00	06:15:00		Dąbrowskiego / Bat. Chłopskich 10
+1493	4	199665	06:18:00	06:18:00		Podkarpacka Politechnika 02
+1493	4	199665	06:18:00	06:18:00		Podkarpacka Politechnika 02
+1493	4	199665	06:19:00	06:19:00		Podkarpacka / Matuszczaka 04
+1493	4	199665	06:19:00	06:19:00		Podkarpacka / Matuszczaka 04
+1493	4	199665	06:20:00	06:20:00		Podkarpacka / Wetlińska 06 nż
+1493	4	199665	06:20:00	06:20:00		Podkarpacka / Wetlińska 06 nż
+1493	4	199665	06:22:00	06:22:00		Podkarpacka kościół 08 nż
+1493	4	199665	06:22:00	06:22:00		Podkarpacka kościół 08 nż
+1493	4	199665	06:23:00	06:23:00		Podkarpacka / Nalepy 10 nż
+1493	4	199665	06:23:00	06:23:00		Podkarpacka / Nalepy 10 nż
+1493	4	199665	06:25:00	06:25:00		Podkarpacka granica 12 nż
+1493	4	199665	06:25:00	06:25:00		Podkarpacka granica 12 nż
+1493	4	199665	06:26:00	06:26:00		Boguchwała 64 nż
+1493	4	199665	06:26:00	06:26:00		Boguchwała 64 nż
+1493	4	199665	06:27:00	06:27:00		Boguchwała 66
+1493	4	199665	06:27:00	06:27:00		Boguchwała 66
+1493	4	199665	06:28:00	06:28:00		Boguchwała Urząd Gminy 70 nż
+1493	4	199665	06:28:00	06:28:00		Boguchwała Urząd Gminy 70 nż
+1493	4	199665	06:30:00	06:30:00		Boguchwała Polna 21 nż
+1493	4	199665	06:30:00	06:30:00		Boguchwała Polna 21 nż
+1493	4	199665	06:32:00	06:32:00		Mogielnica most 19 nż
+1493	4	199665	06:32:00	06:32:00		Mogielnica most 19 nż
+1493	4	199665	06:33:00	06:33:00		Mogielnica II 17 nż
+1493	4	199665	06:33:00	06:33:00		Mogielnica II 17 nż
+1493	4	199665	06:34:00	06:34:00		Mogielnica I 15 nż
+1493	4	199665	06:34:00	06:34:00		Mogielnica I 15 nż
+1493	4	199665	06:35:00	06:35:00		Mogielnica remiza 13 nż
+1493	4	199665	06:35:00	06:35:00		Mogielnica remiza 13 nż
+1493	4	199665	06:36:00	06:36:00		Mogielnica szkoła 11 nż
+1493	4	199665	06:36:00	06:36:00		Mogielnica szkoła 11 nż
+1493	4	199665	06:37:00	06:37:00		Mogielnica wieś 09 nż
+1493	4	199665	06:37:00	06:37:00		Mogielnica wieś 09 nż
+1493	4	199665	06:38:00	06:38:00		Mogielnica Kobakówka 07 nż
+1493	4	199665	06:38:00	06:38:00		Mogielnica Kobakówka 07 nż
+1493	4	199665	06:39:00	06:39:00		Mogielnica stara pętla 05 nż
+1493	4	199665	06:39:00	06:39:00		Mogielnica stara pętla 05 nż
+1493	4	199665	06:40:00	06:40:00		Mogielnica Góra 03 nż
+1493	4	199665	06:40:00	06:40:00		Mogielnica Góra 03 nż
+1493	4	199665	06:41:00	06:41:00		Mogielnica pętla 01
+1493	4	199665	06:41:00	06:41:00		Mogielnica pętla 01
+
+1488	4	200174	06:51:00	06:51:00		Mogielnica pętla 01
+1488	4	200174	06:51:00	06:51:00		Mogielnica pętla 01
+1488	4	200174	06:52:00	06:52:00		Mogielnica Góra 02 nż
+1488	4	200174	06:52:00	06:52:00		Mogielnica Góra 02 nż
+1488	4	200174	06:53:00	06:53:00		Mogielnica stara pętla 04 nż
+1488	4	200174	06:53:00	06:53:00		Mogielnica stara pętla 04 nż
+1488	4	200174	06:54:00	06:54:00		Mogielnica Kobakówka 06 nż
+1488	4	200174	06:54:00	06:54:00		Mogielnica Kobakówka 06 nż
+1488	4	200174	06:55:00	06:55:00		Mogielnica wieś 08 nż
+1488	4	200174	06:55:00	06:55:00		Mogielnica wieś 08 nż
+1488	4	200174	06:56:00	06:56:00		Mogielnica szkoła 10 nż
+1488	4	200174	06:56:00	06:56:00		Mogielnica szkoła 10 nż
+1488	4	200174	06:57:00	06:57:00		Mogielnica remiza 12 nż
+1488	4	200174	06:57:00	06:57:00		Mogielnica remiza 12 nż
+1488	4	200174	06:58:00	06:58:00		Mogielnica I 14 nż
+1488	4	200174	06:58:00	06:58:00		Mogielnica I 14 nż
+1488	4	200174	06:59:00	06:59:00		Mogielnica II 16 nż
+1488	4	200174	06:59:00	06:59:00		Mogielnica II 16 nż
+1488	4	200174	07:00:00	07:00:00		Mogielnica most 18 nż
+1488	4	200174	07:00:00	07:00:00		Mogielnica most 18 nż
+1488	4	200174	07:02:00	07:02:00		Boguchwała Polna 20 nż
+1488	4	200174	07:02:00	07:02:00		Boguchwała Polna 20 nż
+1488	4	200174	07:05:00	07:05:00		Boguchwała Urząd Gminy 95 nż
+1488	4	200174	07:05:00	07:05:00		Boguchwała Urząd Gminy 95 nż
+1488	4	200174	07:09:00	07:09:00		Boguchwała 97
+1488	4	200174	07:09:00	07:09:00		Boguchwała 97
+1488	4	200174	07:12:00	07:12:00		Boguchwała 99 nż
+1488	4	200174	07:12:00	07:12:00		Boguchwała 99 nż
+1488	4	200174	07:13:00	07:13:00		Podkarpacka granica 13 nż
+1488	4	200174	07:13:00	07:13:00		Podkarpacka granica 13 nż
+1488	4	200174	07:14:00	07:14:00		Podkarpacka / Zwięczycka 11 nż
+1488	4	200174	07:14:00	07:14:00		Podkarpacka / Zwięczycka 11 nż
+1488	4	200174	07:15:00	07:15:00		Podkarpacka / Nalepy 09 nż
+1488	4	200174	07:15:00	07:15:00		Podkarpacka / Nalepy 09 nż
+1488	4	200174	07:17:00	07:17:00		Podkarpacka kościół 07 nż
+1488	4	200174	07:17:00	07:17:00		Podkarpacka kościół 07 nż
+1488	4	200174	07:18:00	07:18:00		Podkarpacka / Wetlińska 05 nż
+1488	4	200174	07:18:00	07:18:00		Podkarpacka / Wetlińska 05 nż
+1488	4	200174	07:19:00	07:19:00		Podkarpacka / Matuszczaka 03
+1488	4	200174	07:19:00	07:19:00		Podkarpacka / Matuszczaka 03
+1488	4	200174	07:21:00	07:21:00		Podkarpacka Politechnika 01
+1488	4	200174	07:21:00	07:21:00		Podkarpacka Politechnika 01
+1488	4	200174	07:24:00	07:24:00		Dąbrowskiego Instytut Muzyki 07
+1488	4	200174	07:24:00	07:24:00		Dąbrowskiego Instytut Muzyki 07
+1488	4	200174	07:25:00	07:25:00		Dąbrowskiego KW Policji 03
+1488	4	200174	07:25:00	07:25:00		Dąbrowskiego KW Policji 03
+1488	4	200174	07:26:00	07:26:00		Dąbrowskiego park 01 nż
+1488	4	200174	07:26:00	07:26:00		Dąbrowskiego park 01 nż
+1488	4	200174	07:30:00	07:30:00		Lisa-Kuli 02
+1488	4	200174	07:30:00	07:30:00		Lisa-Kuli 02
+1488	4	200174	07:31:00	07:31:00		Cieplińskiego 01
+1488	4	200174	07:31:00	07:31:00		Cieplińskiego 01
+1488	4	200174	07:32:00	07:32:00		Piłsudskiego U. Wojewódzki 03
+1488	4	200174	07:32:00	07:32:00		Piłsudskiego U. Wojewódzki 03
+1488	4	200174	07:35:00	07:35:00		Bardowskiego 04
+1488	4	200174	07:35:00	07:35:00		Bardowskiego 04
+
+1493	4	198436	08:25:00	08:25:00		Bardowskiego 02
+1493	4	198436	08:25:00	08:25:00		Bardowskiego 02
+1493	4	198436	08:27:00	08:27:00		Pl. Wolności 04
+1493	4	198436	08:27:00	08:27:00		Pl. Wolności 04
+1493	4	198436	08:30:00	08:30:00		Cieplińskiego 02
+1493	4	198436	08:30:00	08:30:00		Cieplińskiego 02
+1493	4	198436	08:31:00	08:31:00		Lisa-Kuli 01
+1493	4	198436	08:31:00	08:31:00		Lisa-Kuli 01
+1493	4	198436	08:34:00	08:34:00		Dąbrowskiego park 02 nż
+1493	4	198436	08:34:00	08:34:00		Dąbrowskiego park 02 nż
+1493	4	198436	08:35:00	08:35:00		Dąbrowskiego KW Policji 04
+1493	4	198436	08:35:00	08:35:00		Dąbrowskiego KW Policji 04
+1493	4	198436	08:36:00	08:36:00		Dąbrowskiego / Bat. Chłopskich 10
+1493	4	198436	08:36:00	08:36:00		Dąbrowskiego / Bat. Chłopskich 10
+1493	4	198436	08:39:00	08:39:00		Podkarpacka Politechnika 02
+1493	4	198436	08:39:00	08:39:00		Podkarpacka Politechnika 02
+1493	4	198436	08:40:00	08:40:00		Podkarpacka / Matuszczaka 04
+1493	4	198436	08:40:00	08:40:00		Podkarpacka / Matuszczaka 04
+1493	4	198436	08:41:00	08:41:00		Podkarpacka / Wetlińska 06 nż
+1493	4	198436	08:41:00	08:41:00		Podkarpacka / Wetlińska 06 nż
+1493	4	198436	08:43:00	08:43:00		Podkarpacka kościół 08 nż
+1493	4	198436	08:43:00	08:43:00		Podkarpacka kościół 08 nż
+1493	4	198436	08:44:00	08:44:00		Podkarpacka / Nalepy 10 nż
+1493	4	198436	08:44:00	08:44:00		Podkarpacka / Nalepy 10 nż
+1493	4	198436	08:46:00	08:46:00		Podkarpacka granica 12 nż
+1493	4	198436	08:46:00	08:46:00		Podkarpacka granica 12 nż
+1493	4	198436	08:47:00	08:47:00		Boguchwała 64 nż
+1493	4	198436	08:47:00	08:47:00		Boguchwała 64 nż
+1493	4	198436	08:48:00	08:48:00		Boguchwała 66
+1493	4	198436	08:48:00	08:48:00		Boguchwała 66
+1493	4	198436	08:49:00	08:49:00		Boguchwała Urząd Gminy 70 nż
+1493	4	198436	08:49:00	08:49:00		Boguchwała Urząd Gminy 70 nż
+1493	4	198436	08:51:00	08:51:00		Boguchwała Polna 21 nż
+1493	4	198436	08:51:00	08:51:00		Boguchwała Polna 21 nż
+1493	4	198436	08:53:00	08:53:00		Mogielnica most 19 nż
+1493	4	198436	08:53:00	08:53:00		Mogielnica most 19 nż
+1493	4	198436	08:54:00	08:54:00		Mogielnica II 17 nż
+1493	4	198436	08:54:00	08:54:00		Mogielnica II 17 nż
+1493	4	198436	08:55:00	08:55:00		Mogielnica I 15 nż
+1493	4	198436	08:55:00	08:55:00		Mogielnica I 15 nż
+1493	4	198436	08:56:00	08:56:00		Mogielnica remiza 13 nż
+1493	4	198436	08:56:00	08:56:00		Mogielnica remiza 13 nż
+1493	4	198436	08:57:00	08:57:00		Mogielnica szkoła 11 nż
+1493	4	198436	08:57:00	08:57:00		Mogielnica szkoła 11 nż
+1493	4	198436	08:58:00	08:58:00		Mogielnica wieś 09 nż
+1493	4	198436	08:58:00	08:58:00		Mogielnica wieś 09 nż
+1493	4	198436	08:59:00	08:59:00		Mogielnica Kobakówka 07 nż
+1493	4	198436	08:59:00	08:59:00		Mogielnica Kobakówka 07 nż
+1493	4	198436	09:00:00	09:00:00		Mogielnica stara pętla 05 nż
+1493	4	198436	09:00:00	09:00:00		Mogielnica stara pętla 05 nż
+1493	4	198436	09:01:00	09:01:00		Mogielnica Góra 03 nż
+1493	4	198436	09:01:00	09:01:00		Mogielnica Góra 03 nż
+1493	4	198436	09:02:00	09:02:00		Mogielnica pętla 01
+1493	4	198436	09:02:00	09:02:00		Mogielnica pętla 01
+
+1488	4	200802	09:22:00	09:22:00		Mogielnica pętla 01
+1488	4	200802	09:22:00	09:22:00		Mogielnica pętla 01
+1488	4	200802	09:23:00	09:23:00		Mogielnica Góra 02 nż
+1488	4	200802	09:23:00	09:23:00		Mogielnica Góra 02 nż
+1488	4	200802	09:24:00	09:24:00		Mogielnica stara pętla 04 nż
+1488	4	200802	09:24:00	09:24:00		Mogielnica stara pętla 04 nż
+1488	4	200802	09:25:00	09:25:00		Mogielnica Kobakówka 06 nż
+1488	4	200802	09:25:00	09:25:00		Mogielnica Kobakówka 06 nż
+1488	4	200802	09:26:00	09:26:00		Mogielnica wieś 08 nż
+1488	4	200802	09:26:00	09:26:00		Mogielnica wieś 08 nż
+1488	4	200802	09:27:00	09:27:00		Mogielnica szkoła 10 nż
+1488	4	200802	09:27:00	09:27:00		Mogielnica szkoła 10 nż
+1488	4	200802	09:28:00	09:28:00		Mogielnica remiza 12 nż
+1488	4	200802	09:28:00	09:28:00		Mogielnica remiza 12 nż
+1488	4	200802	09:29:00	09:29:00		Mogielnica I 14 nż
+1488	4	200802	09:29:00	09:29:00		Mogielnica I 14 nż
+1488	4	200802	09:30:00	09:30:00		Mogielnica II 16 nż
+1488	4	200802	09:30:00	09:30:00		Mogielnica II 16 nż
+1488	4	200802	09:31:00	09:31:00		Mogielnica most 18 nż
+1488	4	200802	09:31:00	09:31:00		Mogielnica most 18 nż
+1488	4	200802	09:33:00	09:33:00		Boguchwała Polna 20 nż
+1488	4	200802	09:33:00	09:33:00		Boguchwała Polna 20 nż
+1488	4	200802	09:35:00	09:35:00		Boguchwała Urząd Gminy 95 nż
+1488	4	200802	09:35:00	09:35:00		Boguchwała Urząd Gminy 95 nż
+1488	4	200802	09:37:00	09:37:00		Boguchwała 97
+1488	4	200802	09:37:00	09:37:00		Boguchwała 97
+1488	4	200802	09:38:00	09:38:00		Boguchwała 99 nż
+1488	4	200802	09:38:00	09:38:00		Boguchwała 99 nż
+1488	4	200802	09:39:00	09:39:00		Podkarpacka granica 13 nż
+1488	4	200802	09:39:00	09:39:00		Podkarpacka granica 13 nż
+1488	4	200802	09:40:00	09:40:00		Podkarpacka / Zwięczycka 11 nż
+1488	4	200802	09:40:00	09:40:00		Podkarpacka / Zwięczycka 11 nż
+1488	4	200802	09:41:00	09:41:00		Podkarpacka / Nalepy 09 nż
+1488	4	200802	09:41:00	09:41:00		Podkarpacka / Nalepy 09 nż
+1488	4	200802	09:43:00	09:43:00		Podkarpacka kościół 07 nż
+1488	4	200802	09:43:00	09:43:00		Podkarpacka kościół 07 nż
+1488	4	200802	09:44:00	09:44:00		Podkarpacka / Wetlińska 05 nż
+1488	4	200802	09:44:00	09:44:00		Podkarpacka / Wetlińska 05 nż
+1488	4	200802	09:45:00	09:45:00		Podkarpacka / Matuszczaka 03
+1488	4	200802	09:45:00	09:45:00		Podkarpacka / Matuszczaka 03
+1488	4	200802	09:47:00	09:47:00		Podkarpacka Politechnika 01
+1488	4	200802	09:47:00	09:47:00		Podkarpacka Politechnika 01
+1488	4	200802	09:50:00	09:50:00		Dąbrowskiego Instytut Muzyki 07
+1488	4	200802	09:50:00	09:50:00		Dąbrowskiego Instytut Muzyki 07
+1488	4	200802	09:51:00	09:51:00		Dąbrowskiego KW Policji 03
+1488	4	200802	09:51:00	09:51:00		Dąbrowskiego KW Policji 03
+1488	4	200802	09:52:00	09:52:00		Dąbrowskiego park 01 nż
+1488	4	200802	09:52:00	09:52:00		Dąbrowskiego park 01 nż
+1488	4	200802	09:56:00	09:56:00		Lisa-Kuli 02
+1488	4	200802	09:56:00	09:56:00		Lisa-Kuli 02
+1488	4	200802	09:57:00	09:57:00		Cieplińskiego 01
+1488	4	200802	09:57:00	09:57:00		Cieplińskiego 01
+1488	4	200802	09:59:00	09:59:00		Piłsudskiego U. Wojewódzki 03
+1488	4	200802	09:59:00	09:59:00		Piłsudskiego U. Wojewódzki 03
+1488	4	200802	10:02:00	10:02:00		Bardowskiego 04
+1488	4	200802	10:02:00	10:02:00		Bardowskiego 04
+
+1493	4	198495	12:25:00	12:25:00		Bardowskiego 02
+1493	4	198495	12:25:00	12:25:00		Bardowskiego 02
+1493	4	198495	12:28:00	12:28:00		Pl. Wolności 04
+1493	4	198495	12:28:00	12:28:00		Pl. Wolności 04
+1493	4	198495	12:32:00	12:32:00		Cieplińskiego 02
+1493	4	198495	12:32:00	12:32:00		Cieplińskiego 02
+1493	4	198495	12:33:00	12:33:00		Lisa-Kuli 01
+1493	4	198495	12:33:00	12:33:00		Lisa-Kuli 01
+1493	4	198495	12:36:00	12:36:00		Dąbrowskiego park 02 nż
+1493	4	198495	12:36:00	12:36:00		Dąbrowskiego park 02 nż
+1493	4	198495	12:37:00	12:37:00		Dąbrowskiego KW Policji 04
+1493	4	198495	12:37:00	12:37:00		Dąbrowskiego KW Policji 04
+1493	4	198495	12:38:00	12:38:00		Dąbrowskiego / Bat. Chłopskich 10
+1493	4	198495	12:38:00	12:38:00		Dąbrowskiego / Bat. Chłopskich 10
+1493	4	198495	12:41:00	12:41:00		Podkarpacka Politechnika 02
+1493	4	198495	12:41:00	12:41:00		Podkarpacka Politechnika 02
+1493	4	198495	12:42:00	12:42:00		Podkarpacka / Matuszczaka 04
+1493	4	198495	12:42:00	12:42:00		Podkarpacka / Matuszczaka 04
+1493	4	198495	12:43:00	12:43:00		Podkarpacka / Wetlińska 06 nż
+1493	4	198495	12:43:00	12:43:00		Podkarpacka / Wetlińska 06 nż
+1493	4	198495	12:45:00	12:45:00		Podkarpacka kościół 08 nż
+1493	4	198495	12:45:00	12:45:00		Podkarpacka kościół 08 nż
+1493	4	198495	12:46:00	12:46:00		Podkarpacka / Nalepy 10 nż
+1493	4	198495	12:46:00	12:46:00		Podkarpacka / Nalepy 10 nż
+1493	4	198495	12:48:00	12:48:00		Podkarpacka granica 12 nż
+1493	4	198495	12:48:00	12:48:00		Podkarpacka granica 12 nż
+1493	4	198495	12:49:00	12:49:00		Boguchwała 64 nż
+1493	4	198495	12:49:00	12:49:00		Boguchwała 64 nż
+1493	4	198495	12:50:00	12:50:00		Boguchwała 66
+1493	4	198495	12:50:00	12:50:00		Boguchwała 66
+1493	4	198495	12:51:00	12:51:00		Boguchwała Urząd Gminy 70 nż
+1493	4	198495	12:51:00	12:51:00		Boguchwała Urząd Gminy 70 nż
+1493	4	198495	12:53:00	12:53:00		Boguchwała Polna 21 nż
+1493	4	198495	12:53:00	12:53:00		Boguchwała Polna 21 nż
+1493	4	198495	12:55:00	12:55:00		Mogielnica most 19 nż
+1493	4	198495	12:55:00	12:55:00		Mogielnica most 19 nż
+1493	4	198495	12:56:00	12:56:00		Mogielnica II 17 nż
+1493	4	198495	12:56:00	12:56:00		Mogielnica II 17 nż
+1493	4	198495	12:57:00	12:57:00		Mogielnica I 15 nż
+1493	4	198495	12:57:00	12:57:00		Mogielnica I 15 nż
+1493	4	198495	12:58:00	12:58:00		Mogielnica remiza 13 nż
+1493	4	198495	12:58:00	12:58:00		Mogielnica remiza 13 nż
+1493	4	198495	12:59:00	12:59:00		Mogielnica szkoła 11 nż
+1493	4	198495	12:59:00	12:59:00		Mogielnica szkoła 11 nż
+1493	4	198495	13:00:00	13:00:00		Mogielnica wieś 09 nż
+1493	4	198495	13:00:00	13:00:00		Mogielnica wieś 09 nż
+1493	4	198495	13:01:00	13:01:00		Mogielnica Kobakówka 07 nż
+1493	4	198495	13:01:00	13:01:00		Mogielnica Kobakówka 07 nż
+1493	4	198495	13:02:00	13:02:00		Mogielnica stara pętla 05 nż
+1493	4	198495	13:02:00	13:02:00		Mogielnica stara pętla 05 nż
+1493	4	198495	13:03:00	13:03:00		Mogielnica Góra 03 nż
+1493	4	198495	13:03:00	13:03:00		Mogielnica Góra 03 nż
+1493	4	198495	13:04:00	13:04:00		Mogielnica pętla 01
+1493	4	198495	13:04:00	13:04:00		Mogielnica pętla 01
+
+1488	4	200881	13:23:00	13:23:00		Mogielnica pętla 01
+1488	4	200881	13:23:00	13:23:00		Mogielnica pętla 01
+1488	4	200881	13:24:00	13:24:00		Mogielnica Góra 02 nż
+1488	4	200881	13:24:00	13:24:00		Mogielnica Góra 02 nż
+1488	4	200881	13:25:00	13:25:00		Mogielnica stara pętla 04 nż
+1488	4	200881	13:25:00	13:25:00		Mogielnica stara pętla 04 nż
+1488	4	200881	13:26:00	13:26:00		Mogielnica Kobakówka 06 nż
+1488	4	200881	13:26:00	13:26:00		Mogielnica Kobakówka 06 nż
+1488	4	200881	13:27:00	13:27:00		Mogielnica wieś 08 nż
+1488	4	200881	13:27:00	13:27:00		Mogielnica wieś 08 nż
+1488	4	200881	13:28:00	13:28:00		Mogielnica szkoła 10 nż
+1488	4	200881	13:28:00	13:28:00		Mogielnica szkoła 10 nż
+1488	4	200881	13:29:00	13:29:00		Mogielnica remiza 12 nż
+1488	4	200881	13:29:00	13:29:00		Mogielnica remiza 12 nż
+1488	4	200881	13:30:00	13:30:00		Mogielnica I 14 nż
+1488	4	200881	13:30:00	13:30:00		Mogielnica I 14 nż
+1488	4	200881	13:31:00	13:31:00		Mogielnica II 16 nż
+1488	4	200881	13:31:00	13:31:00		Mogielnica II 16 nż
+1488	4	200881	13:32:00	13:32:00		Mogielnica most 18 nż
+1488	4	200881	13:32:00	13:32:00		Mogielnica most 18 nż
+1488	4	200881	13:34:00	13:34:00		Boguchwała Polna 20 nż
+1488	4	200881	13:34:00	13:34:00		Boguchwała Polna 20 nż
+1488	4	200881	13:36:00	13:36:00		Boguchwała Urząd Gminy 95 nż
+1488	4	200881	13:36:00	13:36:00		Boguchwała Urząd Gminy 95 nż
+1488	4	200881	13:37:00	13:37:00		Boguchwała 97
+1488	4	200881	13:37:00	13:37:00		Boguchwała 97
+1488	4	200881	13:38:00	13:38:00		Boguchwała 99 nż
+1488	4	200881	13:38:00	13:38:00		Boguchwała 99 nż
+1488	4	200881	13:39:00	13:39:00		Podkarpacka granica 13 nż
+1488	4	200881	13:39:00	13:39:00		Podkarpacka granica 13 nż
+1488	4	200881	13:40:00	13:40:00		Podkarpacka / Zwięczycka 11 nż
+1488	4	200881	13:40:00	13:40:00		Podkarpacka / Zwięczycka 11 nż
+1488	4	200881	13:41:00	13:41:00		Podkarpacka / Nalepy 09 nż
+1488	4	200881	13:41:00	13:41:00		Podkarpacka / Nalepy 09 nż
+1488	4	200881	13:43:00	13:43:00		Podkarpacka kościół 07 nż
+1488	4	200881	13:43:00	13:43:00		Podkarpacka kościół 07 nż
+1488	4	200881	13:44:00	13:44:00		Podkarpacka / Wetlińska 05 nż
+1488	4	200881	13:44:00	13:44:00		Podkarpacka / Wetlińska 05 nż
+1488	4	200881	13:45:00	13:45:00		Podkarpacka / Matuszczaka 03
+1488	4	200881	13:45:00	13:45:00		Podkarpacka / Matuszczaka 03
+1488	4	200881	13:47:00	13:47:00		Podkarpacka Politechnika 01
+1488	4	200881	13:47:00	13:47:00		Podkarpacka Politechnika 01
+1488	4	200881	13:50:00	13:50:00		Dąbrowskiego Instytut Muzyki 07
+1488	4	200881	13:50:00	13:50:00		Dąbrowskiego Instytut Muzyki 07
+1488	4	200881	13:51:00	13:51:00		Dąbrowskiego KW Policji 03
+1488	4	200881	13:51:00	13:51:00		Dąbrowskiego KW Policji 03
+1488	4	200881	13:52:00	13:52:00		Dąbrowskiego park 01 nż
+1488	4	200881	13:52:00	13:52:00		Dąbrowskiego park 01 nż
+1488	4	200881	13:56:00	13:56:00		Lisa-Kuli 02
+1488	4	200881	13:56:00	13:56:00		Lisa-Kuli 02
+1488	4	200881	13:57:00	13:57:00		Cieplińskiego 01
+1488	4	200881	13:57:00	13:57:00		Cieplińskiego 01
+1488	4	200881	13:59:00	13:59:00		Piłsudskiego U. Wojewódzki 03
+1488	4	200881	13:59:00	13:59:00		Piłsudskiego U. Wojewódzki 03
+1488	4	200881	14:02:00	14:02:00		Bardowskiego 04
+1488	4	200881	14:02:00	14:02:00		Bardowskiego 04
+
+1493	4	201941	14:35:00	14:35:00		Bardowskiego 02
+1493	4	201941	14:35:00	14:35:00		Bardowskiego 02
+1493	4	201941	14:38:00	14:38:00		Pl. Wolności 04
+1493	4	201941	14:38:00	14:38:00		Pl. Wolności 04
+1493	4	201941	14:44:00	14:44:00		Cieplińskiego 02
+1493	4	201941	14:44:00	14:44:00		Cieplińskiego 02
+1493	4	201941	14:45:00	14:45:00		Lisa-Kuli 01
+1493	4	201941	14:45:00	14:45:00		Lisa-Kuli 01
+1493	4	201941	14:49:00	14:49:00		Dąbrowskiego park 02 nż
+1493	4	201941	14:49:00	14:49:00		Dąbrowskiego park 02 nż
+1493	4	201941	14:50:00	14:50:00		Dąbrowskiego KW Policji 04
+1493	4	201941	14:50:00	14:50:00		Dąbrowskiego KW Policji 04
+1493	4	201941	14:51:00	14:51:00		Dąbrowskiego / Bat. Chłopskich 10
+1493	4	201941	14:51:00	14:51:00		Dąbrowskiego / Bat. Chłopskich 10
+1493	4	201941	14:56:00	14:56:00		Podkarpacka Politechnika 02
+1493	4	201941	14:56:00	14:56:00		Podkarpacka Politechnika 02
+1493	4	201941	14:57:00	14:57:00		Podkarpacka / Matuszczaka 04
+1493	4	201941	14:57:00	14:57:00		Podkarpacka / Matuszczaka 04
+1493	4	201941	14:58:00	14:58:00		Podkarpacka / Wetlińska 06 nż
+1493	4	201941	14:58:00	14:58:00		Podkarpacka / Wetlińska 06 nż
+1493	4	201941	15:00:00	15:00:00		Podkarpacka kościół 08 nż
+1493	4	201941	15:00:00	15:00:00		Podkarpacka kościół 08 nż
+1493	4	201941	15:02:00	15:02:00		Podkarpacka / Nalepy 10 nż
+1493	4	201941	15:02:00	15:02:00		Podkarpacka / Nalepy 10 nż
+1493	4	201941	15:08:00	15:08:00		Podkarpacka granica 12 nż
+1493	4	201941	15:08:00	15:08:00		Podkarpacka granica 12 nż
+1493	4	201941	15:11:00	15:11:00		Boguchwała 64 nż
+1493	4	201941	15:11:00	15:11:00		Boguchwała 64 nż
+1493	4	201941	15:13:00	15:13:00		Boguchwała 66
+1493	4	201941	15:13:00	15:13:00		Boguchwała 66
+1493	4	201941	15:15:00	15:15:00		Boguchwała Urząd Gminy 70 nż
+1493	4	201941	15:15:00	15:15:00		Boguchwała Urząd Gminy 70 nż
+1493	4	201941	15:18:00	15:18:00		Boguchwała Polna 21 nż
+1493	4	201941	15:18:00	15:18:00		Boguchwała Polna 21 nż
+1493	4	201941	15:20:00	15:20:00		Mogielnica most 19 nż
+1493	4	201941	15:20:00	15:20:00		Mogielnica most 19 nż
+1493	4	201941	15:21:00	15:21:00		Mogielnica II 17 nż
+1493	4	201941	15:21:00	15:21:00		Mogielnica II 17 nż
+1493	4	201941	15:22:00	15:22:00		Mogielnica I 15 nż
+1493	4	201941	15:22:00	15:22:00		Mogielnica I 15 nż
+1493	4	201941	15:23:00	15:23:00		Mogielnica remiza 13 nż
+1493	4	201941	15:23:00	15:23:00		Mogielnica remiza 13 nż
+1493	4	201941	15:24:00	15:24:00		Mogielnica szkoła 11 nż
+1493	4	201941	15:24:00	15:24:00		Mogielnica szkoła 11 nż
+1493	4	201941	15:25:00	15:25:00		Mogielnica wieś 09 nż
+1493	4	201941	15:25:00	15:25:00		Mogielnica wieś 09 nż
+1493	4	201941	15:26:00	15:26:00		Mogielnica Kobakówka 07 nż
+1493	4	201941	15:26:00	15:26:00		Mogielnica Kobakówka 07 nż
+1493	4	201941	15:27:00	15:27:00		Mogielnica stara pętla 05 nż
+1493	4	201941	15:27:00	15:27:00		Mogielnica stara pętla 05 nż
+1493	4	201941	15:28:00	15:28:00		Mogielnica Góra 03 nż
+1493	4	201941	15:28:00	15:28:00		Mogielnica Góra 03 nż
+1493	4	201941	15:29:00	15:29:00		Mogielnica pętla 01
+1493	4	201941	15:29:00	15:29:00		Mogielnica pętla 01
+
+1488	4	199550	15:48:00	15:48:00		Mogielnica pętla 01
+1488	4	199550	15:48:00	15:48:00		Mogielnica pętla 01
+1488	4	199550	15:49:00	15:49:00		Mogielnica Góra 02 nż
+1488	4	199550	15:49:00	15:49:00		Mogielnica Góra 02 nż
+1488	4	199550	15:50:00	15:50:00		Mogielnica stara pętla 04 nż
+1488	4	199550	15:50:00	15:50:00		Mogielnica stara pętla 04 nż
+1488	4	199550	15:51:00	15:51:00		Mogielnica Kobakówka 06 nż
+1488	4	199550	15:51:00	15:51:00		Mogielnica Kobakówka 06 nż
+1488	4	199550	15:52:00	15:52:00		Mogielnica wieś 08 nż
+1488	4	199550	15:52:00	15:52:00		Mogielnica wieś 08 nż
+1488	4	199550	15:53:00	15:53:00		Mogielnica szkoła 10 nż
+1488	4	199550	15:53:00	15:53:00		Mogielnica szkoła 10 nż
+1488	4	199550	15:54:00	15:54:00		Mogielnica remiza 12 nż
+1488	4	199550	15:54:00	15:54:00		Mogielnica remiza 12 nż
+1488	4	199550	15:55:00	15:55:00		Mogielnica I 14 nż
+1488	4	199550	15:55:00	15:55:00		Mogielnica I 14 nż
+1488	4	199550	15:56:00	15:56:00		Mogielnica II 16 nż
+1488	4	199550	15:56:00	15:56:00		Mogielnica II 16 nż
+1488	4	199550	15:57:00	15:57:00		Mogielnica most 18 nż
+1488	4	199550	15:57:00	15:57:00		Mogielnica most 18 nż
+1488	4	199550	15:59:00	15:59:00		Boguchwała Polna 20 nż
+1488	4	199550	15:59:00	15:59:00		Boguchwała Polna 20 nż
+1488	4	199550	16:01:00	16:01:00		Boguchwała Urząd Gminy 95 nż
+1488	4	199550	16:01:00	16:01:00		Boguchwała Urząd Gminy 95 nż
+1488	4	199550	16:02:00	16:02:00		Boguchwała 97
+1488	4	199550	16:02:00	16:02:00		Boguchwała 97
+1488	4	199550	16:03:00	16:03:00		Boguchwała 99 nż
+1488	4	199550	16:03:00	16:03:00		Boguchwała 99 nż
+1488	4	199550	16:04:00	16:04:00		Podkarpacka granica 13 nż
+1488	4	199550	16:04:00	16:04:00		Podkarpacka granica 13 nż
+1488	4	199550	16:05:00	16:05:00		Podkarpacka / Zwięczycka 11 nż
+1488	4	199550	16:05:00	16:05:00		Podkarpacka / Zwięczycka 11 nż
+1488	4	199550	16:06:00	16:06:00		Podkarpacka / Nalepy 09 nż
+1488	4	199550	16:06:00	16:06:00		Podkarpacka / Nalepy 09 nż
+1488	4	199550	16:08:00	16:08:00		Podkarpacka kościół 07 nż
+1488	4	199550	16:08:00	16:08:00		Podkarpacka kościół 07 nż
+1488	4	199550	16:09:00	16:09:00		Podkarpacka / Wetlińska 05 nż
+1488	4	199550	16:09:00	16:09:00		Podkarpacka / Wetlińska 05 nż
+1488	4	199550	16:10:00	16:10:00		Podkarpacka / Matuszczaka 03
+1488	4	199550	16:10:00	16:10:00		Podkarpacka / Matuszczaka 03
+1488	4	199550	16:14:00	16:14:00		Podkarpacka Politechnika 01
+1488	4	199550	16:14:00	16:14:00		Podkarpacka Politechnika 01
+1488	4	199550	16:18:00	16:18:00		Dąbrowskiego Instytut Muzyki 07
+1488	4	199550	16:18:00	16:18:00		Dąbrowskiego Instytut Muzyki 07
+1488	4	199550	16:19:00	16:19:00		Dąbrowskiego KW Policji 03
+1488	4	199550	16:19:00	16:19:00		Dąbrowskiego KW Policji 03
+1488	4	199550	16:20:00	16:20:00		Dąbrowskiego park 01 nż
+1488	4	199550	16:20:00	16:20:00		Dąbrowskiego park 01 nż
+1488	4	199550	16:27:00	16:27:00		Lisa-Kuli 02
+1488	4	199550	16:27:00	16:27:00		Lisa-Kuli 02
+1488	4	199550	16:28:00	16:28:00		Cieplińskiego 01
+1488	4	199550	16:28:00	16:28:00		Cieplińskiego 01
+1488	4	199550	16:30:00	16:30:00		Piłsudskiego U. Wojewódzki 03
+1488	4	199550	16:30:00	16:30:00		Piłsudskiego U. Wojewódzki 03
+1488	4	199550	16:33:00	16:33:00		Bardowskiego 04
+1488	4	199550	16:33:00	16:33:00		Bardowskiego 04
+
+1493	4	200896	17:05:00	17:05:00		Bardowskiego 02
+1493	4	200896	17:05:00	17:05:00		Bardowskiego 02
+1493	4	200896	17:07:00	17:07:00		Pl. Wolności 04
+1493	4	200896	17:07:00	17:07:00		Pl. Wolności 04
+1493	4	200896	17:11:00	17:11:00		Cieplińskiego 02
+1493	4	200896	17:11:00	17:11:00		Cieplińskiego 02
+1493	4	200896	17:12:00	17:12:00		Lisa-Kuli 01
+1493	4	200896	17:12:00	17:12:00		Lisa-Kuli 01
+1493	4	200896	17:15:00	17:15:00		Dąbrowskiego park 02 nż
+1493	4	200896	17:15:00	17:15:00		Dąbrowskiego park 02 nż
+1493	4	200896	17:16:00	17:16:00		Dąbrowskiego KW Policji 04
+1493	4	200896	17:16:00	17:16:00		Dąbrowskiego KW Policji 04
+1493	4	200896	17:17:00	17:17:00		Dąbrowskiego / Bat. Chłopskich 10
+1493	4	200896	17:17:00	17:17:00		Dąbrowskiego / Bat. Chłopskich 10
+1493	4	200896	17:21:00	17:21:00		Podkarpacka Politechnika 02
+1493	4	200896	17:21:00	17:21:00		Podkarpacka Politechnika 02
+1493	4	200896	17:22:00	17:22:00		Podkarpacka / Matuszczaka 04
+1493	4	200896	17:22:00	17:22:00		Podkarpacka / Matuszczaka 04
+1493	4	200896	17:23:00	17:23:00		Podkarpacka / Wetlińska 06 nż
+1493	4	200896	17:23:00	17:23:00		Podkarpacka / Wetlińska 06 nż
+1493	4	200896	17:25:00	17:25:00		Podkarpacka kościół 08 nż
+1493	4	200896	17:25:00	17:25:00		Podkarpacka kościół 08 nż
+1493	4	200896	17:27:00	17:27:00		Podkarpacka / Nalepy 10 nż
+1493	4	200896	17:27:00	17:27:00		Podkarpacka / Nalepy 10 nż
+1493	4	200896	17:29:00	17:29:00		Podkarpacka granica 12 nż
+1493	4	200896	17:29:00	17:29:00		Podkarpacka granica 12 nż
+1493	4	200896	17:30:00	17:30:00		Boguchwała 64 nż
+1493	4	200896	17:30:00	17:30:00		Boguchwała 64 nż
+1493	4	200896	17:31:00	17:31:00		Boguchwała 66
+1493	4	200896	17:31:00	17:31:00		Boguchwała 66
+1493	4	200896	17:32:00	17:32:00		Boguchwała Urząd Gminy 70 nż
+1493	4	200896	17:32:00	17:32:00		Boguchwała Urząd Gminy 70 nż
+1493	4	200896	17:34:00	17:34:00		Boguchwała Polna 21 nż
+1493	4	200896	17:34:00	17:34:00		Boguchwała Polna 21 nż
+1493	4	200896	17:36:00	17:36:00		Mogielnica most 19 nż
+1493	4	200896	17:36:00	17:36:00		Mogielnica most 19 nż
+1493	4	200896	17:37:00	17:37:00		Mogielnica II 17 nż
+1493	4	200896	17:37:00	17:37:00		Mogielnica II 17 nż
+1493	4	200896	17:38:00	17:38:00		Mogielnica I 15 nż
+1493	4	200896	17:38:00	17:38:00		Mogielnica I 15 nż
+1493	4	200896	17:39:00	17:39:00		Mogielnica remiza 13 nż
+1493	4	200896	17:39:00	17:39:00		Mogielnica remiza 13 nż
+1493	4	200896	17:40:00	17:40:00		Mogielnica szkoła 11 nż
+1493	4	200896	17:40:00	17:40:00		Mogielnica szkoła 11 nż
+1493	4	200896	17:41:00	17:41:00		Mogielnica wieś 09 nż
+1493	4	200896	17:41:00	17:41:00		Mogielnica wieś 09 nż
+1493	4	200896	17:42:00	17:42:00		Mogielnica Kobakówka 07 nż
+1493	4	200896	17:42:00	17:42:00		Mogielnica Kobakówka 07 nż
+1493	4	200896	17:43:00	17:43:00		Mogielnica stara pętla 05 nż
+1493	4	200896	17:43:00	17:43:00		Mogielnica stara pętla 05 nż
+1493	4	200896	17:44:00	17:44:00		Mogielnica Góra 03 nż
+1493	4	200896	17:44:00	17:44:00		Mogielnica Góra 03 nż
+1493	4	200896	17:45:00	17:45:00		Mogielnica pętla 01
+1493	4	200896	17:45:00	17:45:00		Mogielnica pętla 01
+
+1488	4	201726	18:04:00	18:04:00		Mogielnica pętla 01
+1488	4	201726	18:04:00	18:04:00		Mogielnica pętla 01
+1488	4	201726	18:05:00	18:05:00		Mogielnica Góra 02 nż
+1488	4	201726	18:05:00	18:05:00		Mogielnica Góra 02 nż
+1488	4	201726	18:06:00	18:06:00		Mogielnica stara pętla 04 nż
+1488	4	201726	18:06:00	18:06:00		Mogielnica stara pętla 04 nż
+1488	4	201726	18:07:00	18:07:00		Mogielnica Kobakówka 06 nż
+1488	4	201726	18:07:00	18:07:00		Mogielnica Kobakówka 06 nż
+1488	4	201726	18:08:00	18:08:00		Mogielnica wieś 08 nż
+1488	4	201726	18:08:00	18:08:00		Mogielnica wieś 08 nż
+1488	4	201726	18:09:00	18:09:00		Mogielnica szkoła 10 nż
+1488	4	201726	18:09:00	18:09:00		Mogielnica szkoła 10 nż
+1488	4	201726	18:10:00	18:10:00		Mogielnica remiza 12 nż
+1488	4	201726	18:10:00	18:10:00		Mogielnica remiza 12 nż
+1488	4	201726	18:11:00	18:11:00		Mogielnica I 14 nż
+1488	4	201726	18:11:00	18:11:00		Mogielnica I 14 nż
+1488	4	201726	18:12:00	18:12:00		Mogielnica II 16 nż
+1488	4	201726	18:12:00	18:12:00		Mogielnica II 16 nż
+1488	4	201726	18:13:00	18:13:00		Mogielnica most 18 nż
+1488	4	201726	18:13:00	18:13:00		Mogielnica most 18 nż
+1488	4	201726	18:15:00	18:15:00		Boguchwała Polna 20 nż
+1488	4	201726	18:15:00	18:15:00		Boguchwała Polna 20 nż
+1488	4	201726	18:17:00	18:17:00		Boguchwała Urząd Gminy 95 nż
+1488	4	201726	18:17:00	18:17:00		Boguchwała Urząd Gminy 95 nż
+1488	4	201726	18:18:00	18:18:00		Boguchwała 97
+1488	4	201726	18:18:00	18:18:00		Boguchwała 97
+1488	4	201726	18:19:00	18:19:00		Boguchwała 99 nż
+1488	4	201726	18:19:00	18:19:00		Boguchwała 99 nż
+1488	4	201726	18:20:00	18:20:00		Podkarpacka granica 13 nż
+1488	4	201726	18:20:00	18:20:00		Podkarpacka granica 13 nż
+1488	4	201726	18:21:00	18:21:00		Podkarpacka / Zwięczycka 11 nż
+1488	4	201726	18:21:00	18:21:00		Podkarpacka / Zwięczycka 11 nż
+1488	4	201726	18:22:00	18:22:00		Podkarpacka / Nalepy 09 nż
+1488	4	201726	18:22:00	18:22:00		Podkarpacka / Nalepy 09 nż
+1488	4	201726	18:24:00	18:24:00		Podkarpacka kościół 07 nż
+1488	4	201726	18:24:00	18:24:00		Podkarpacka kościół 07 nż
+1488	4	201726	18:25:00	18:25:00		Podkarpacka / Wetlińska 05 nż
+1488	4	201726	18:25:00	18:25:00		Podkarpacka / Wetlińska 05 nż
+1488	4	201726	18:26:00	18:26:00		Podkarpacka / Matuszczaka 03
+1488	4	201726	18:26:00	18:26:00		Podkarpacka / Matuszczaka 03
+1488	4	201726	18:28:00	18:28:00		Podkarpacka Politechnika 01
+1488	4	201726	18:28:00	18:28:00		Podkarpacka Politechnika 01
+1488	4	201726	18:31:00	18:31:00		Dąbrowskiego Instytut Muzyki 07
+1488	4	201726	18:31:00	18:31:00		Dąbrowskiego Instytut Muzyki 07
+1488	4	201726	18:32:00	18:32:00		Dąbrowskiego KW Policji 03
+1488	4	201726	18:32:00	18:32:00		Dąbrowskiego KW Policji 03
+1488	4	201726	18:33:00	18:33:00		Dąbrowskiego park 01 nż
+1488	4	201726	18:33:00	18:33:00		Dąbrowskiego park 01 nż
+1488	4	201726	18:38:00	18:38:00		Lisa-Kuli 02
+1488	4	201726	18:38:00	18:38:00		Lisa-Kuli 02
+1488	4	201726	18:39:00	18:39:00		Cieplińskiego 01
+1488	4	201726	18:39:00	18:39:00		Cieplińskiego 01
+1488	4	201726	18:41:00	18:41:00		Piłsudskiego U. Wojewódzki 03
+1488	4	201726	18:41:00	18:41:00		Piłsudskiego U. Wojewódzki 03
+1488	4	201726	18:44:00	18:44:00		Bardowskiego 04
+1488	4	201726	18:44:00	18:44:00		Bardowskiego 04

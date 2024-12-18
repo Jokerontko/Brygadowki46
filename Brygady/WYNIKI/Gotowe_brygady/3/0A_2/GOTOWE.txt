@@ -1,0 +1,779 @@
+route_id	service_id	trip_id	arrival_time	departure_time	stop_headsign	stop_name
+-------------------------------------------------------------------------------
+1583	2	197486	05:20:00	05:20:00		Dworzec Główny PKP 01
+1583	2	197486	05:24:00	05:24:00		Cieplińskiego 02
+1583	2	197486	05:24:00	05:24:00		Cieplińskiego 02
+1583	2	197486	05:25:00	05:25:00		Lisa-Kuli 01
+1583	2	197486	05:25:00	05:25:00		Lisa-Kuli 01
+1583	2	197486	05:27:00	05:27:00		Dąbrowskiego park 02 nż
+1583	2	197486	05:27:00	05:27:00		Dąbrowskiego park 02 nż
+1583	2	197486	05:28:00	05:28:00		Dąbrowskiego KW Policji 04
+1583	2	197486	05:28:00	05:28:00		Dąbrowskiego KW Policji 04
+1583	2	197486	05:29:00	05:29:00		Dąbrowskiego / Boh. Westerplatte 08
+1583	2	197486	05:29:00	05:29:00		Dąbrowskiego / Boh. Westerplatte 08
+1583	2	197486	05:31:00	05:31:00		Powst. Warszawy / Dąbrowskiego 02
+1583	2	197486	05:31:00	05:31:00		Powst. Warszawy / Dąbrowskiego 02
+1583	2	197486	05:32:00	05:32:00		Powst. Warszawy Politechnika 04
+1583	2	197486	05:32:00	05:32:00		Powst. Warszawy Politechnika 04
+1583	2	197486	05:33:00	05:33:00		Powst. Warszawy stadion 06
+1583	2	197486	05:33:00	05:33:00		Powst. Warszawy stadion 06
+1583	2	197486	05:35:00	05:35:00		Powst. Warszawy Dom Studenta 08
+1583	2	197486	05:35:00	05:35:00		Powst. Warszawy Dom Studenta 08
+1583	2	197486	05:36:00	05:36:00		Powst. Warszawy / Graniczna 10
+1583	2	197486	05:36:00	05:36:00		Powst. Warszawy / Graniczna 10
+1583	2	197486	05:38:00	05:38:00		Rejtana / Armii Krajowej 12
+1583	2	197486	05:38:00	05:38:00		Rejtana / Armii Krajowej 12
+1583	2	197486	05:39:00	05:39:00		Rejtana / Paderewskiego 10
+1583	2	197486	05:39:00	05:39:00		Rejtana / Paderewskiego 10
+1583	2	197486	05:40:00	05:40:00		Rejtana / Krzyżanowskiego 08
+1583	2	197486	05:40:00	05:40:00		Rejtana / Krzyżanowskiego 08
+1583	2	197486	05:41:00	05:41:00		Rejtana Uniwersytet 06
+1583	2	197486	05:41:00	05:41:00		Rejtana Uniwersytet 06
+1583	2	197486	05:42:00	05:42:00		Rejtana cmentarz 04 nż
+1583	2	197486	05:42:00	05:42:00		Rejtana cmentarz 04 nż
+1583	2	197486	05:43:00	05:43:00		Rejtana / Kustronia 02
+1583	2	197486	05:43:00	05:43:00		Rejtana / Kustronia 02
+1583	2	197486	05:45:00	05:45:00		Piłsudskiego ZDZ 02
+1583	2	197486	05:45:00	05:45:00		Piłsudskiego ZDZ 02
+1583	2	197486	05:46:00	05:46:00		Pl. Wolności 04
+1583	2	197486	05:46:00	05:46:00		Pl. Wolności 04
+1583	2	197486	05:48:00	05:48:00		Dworzec Główny PKP 01
+1583	2	197486	05:48:00	05:48:00		Dworzec Główny PKP 01
+
+1583	2	197427	06:05:00	06:05:00		Dworzec Główny PKP 01
+1583	2	197427	06:05:00	06:05:00		Dworzec Główny PKP 01
+1583	2	197427	06:09:00	06:09:00		Cieplińskiego 02
+1583	2	197427	06:09:00	06:09:00		Cieplińskiego 02
+1583	2	197427	06:10:00	06:10:00		Lisa-Kuli 01
+1583	2	197427	06:10:00	06:10:00		Lisa-Kuli 01
+1583	2	197427	06:12:00	06:12:00		Dąbrowskiego park 02 nż
+1583	2	197427	06:12:00	06:12:00		Dąbrowskiego park 02 nż
+1583	2	197427	06:13:00	06:13:00		Dąbrowskiego KW Policji 04
+1583	2	197427	06:13:00	06:13:00		Dąbrowskiego KW Policji 04
+1583	2	197427	06:14:00	06:14:00		Dąbrowskiego / Boh. Westerplatte 08
+1583	2	197427	06:14:00	06:14:00		Dąbrowskiego / Boh. Westerplatte 08
+1583	2	197427	06:16:00	06:16:00		Powst. Warszawy / Dąbrowskiego 02
+1583	2	197427	06:16:00	06:16:00		Powst. Warszawy / Dąbrowskiego 02
+1583	2	197427	06:17:00	06:17:00		Powst. Warszawy Politechnika 04
+1583	2	197427	06:17:00	06:17:00		Powst. Warszawy Politechnika 04
+1583	2	197427	06:19:00	06:19:00		Powst. Warszawy stadion 06
+1583	2	197427	06:19:00	06:19:00		Powst. Warszawy stadion 06
+1583	2	197427	06:21:00	06:21:00		Powst. Warszawy Dom Studenta 08
+1583	2	197427	06:21:00	06:21:00		Powst. Warszawy Dom Studenta 08
+1583	2	197427	06:22:00	06:22:00		Powst. Warszawy / Graniczna 10
+1583	2	197427	06:22:00	06:22:00		Powst. Warszawy / Graniczna 10
+1583	2	197427	06:25:00	06:25:00		Rejtana / Armii Krajowej 12
+1583	2	197427	06:25:00	06:25:00		Rejtana / Armii Krajowej 12
+1583	2	197427	06:26:00	06:26:00		Rejtana / Paderewskiego 10
+1583	2	197427	06:26:00	06:26:00		Rejtana / Paderewskiego 10
+1583	2	197427	06:27:00	06:27:00		Rejtana / Krzyżanowskiego 08
+1583	2	197427	06:27:00	06:27:00		Rejtana / Krzyżanowskiego 08
+1583	2	197427	06:29:00	06:29:00		Rejtana Uniwersytet 06
+1583	2	197427	06:29:00	06:29:00		Rejtana Uniwersytet 06
+1583	2	197427	06:30:00	06:30:00		Rejtana cmentarz 04 nż
+1583	2	197427	06:30:00	06:30:00		Rejtana cmentarz 04 nż
+1583	2	197427	06:31:00	06:31:00		Rejtana / Kustronia 02
+1583	2	197427	06:31:00	06:31:00		Rejtana / Kustronia 02
+1583	2	197427	06:33:00	06:33:00		Piłsudskiego ZDZ 02
+1583	2	197427	06:33:00	06:33:00		Piłsudskiego ZDZ 02
+1583	2	197427	06:35:00	06:35:00		Pl. Wolności 04
+1583	2	197427	06:35:00	06:35:00		Pl. Wolności 04
+1583	2	197427	06:37:00	06:37:00		Dworzec Główny PKP 01
+1583	2	197427	06:37:00	06:37:00		Dworzec Główny PKP 01
+
+1583	2	197402	06:53:00	06:53:00		Dworzec Główny PKP 01
+1583	2	197402	06:53:00	06:53:00		Dworzec Główny PKP 01
+1583	2	197402	06:57:00	06:57:00		Cieplińskiego 02
+1583	2	197402	06:57:00	06:57:00		Cieplińskiego 02
+1583	2	197402	06:58:00	06:58:00		Lisa-Kuli 01
+1583	2	197402	06:58:00	06:58:00		Lisa-Kuli 01
+1583	2	197402	07:00:00	07:00:00		Dąbrowskiego park 02 nż
+1583	2	197402	07:00:00	07:00:00		Dąbrowskiego park 02 nż
+1583	2	197402	07:01:00	07:01:00		Dąbrowskiego KW Policji 04
+1583	2	197402	07:01:00	07:01:00		Dąbrowskiego KW Policji 04
+1583	2	197402	07:02:00	07:02:00		Dąbrowskiego / Boh. Westerplatte 08
+1583	2	197402	07:02:00	07:02:00		Dąbrowskiego / Boh. Westerplatte 08
+1583	2	197402	07:05:00	07:05:00		Powst. Warszawy / Dąbrowskiego 02
+1583	2	197402	07:05:00	07:05:00		Powst. Warszawy / Dąbrowskiego 02
+1583	2	197402	07:06:00	07:06:00		Powst. Warszawy Politechnika 04
+1583	2	197402	07:06:00	07:06:00		Powst. Warszawy Politechnika 04
+1583	2	197402	07:08:00	07:08:00		Powst. Warszawy stadion 06
+1583	2	197402	07:08:00	07:08:00		Powst. Warszawy stadion 06
+1583	2	197402	07:10:00	07:10:00		Powst. Warszawy Dom Studenta 08
+1583	2	197402	07:10:00	07:10:00		Powst. Warszawy Dom Studenta 08
+1583	2	197402	07:11:00	07:11:00		Powst. Warszawy / Graniczna 10
+1583	2	197402	07:11:00	07:11:00		Powst. Warszawy / Graniczna 10
+1583	2	197402	07:14:00	07:14:00		Rejtana / Armii Krajowej 12
+1583	2	197402	07:14:00	07:14:00		Rejtana / Armii Krajowej 12
+1583	2	197402	07:15:00	07:15:00		Rejtana / Paderewskiego 10
+1583	2	197402	07:15:00	07:15:00		Rejtana / Paderewskiego 10
+1583	2	197402	07:16:00	07:16:00		Rejtana / Krzyżanowskiego 08
+1583	2	197402	07:16:00	07:16:00		Rejtana / Krzyżanowskiego 08
+1583	2	197402	07:18:00	07:18:00		Rejtana Uniwersytet 06
+1583	2	197402	07:18:00	07:18:00		Rejtana Uniwersytet 06
+1583	2	197402	07:19:00	07:19:00		Rejtana cmentarz 04 nż
+1583	2	197402	07:19:00	07:19:00		Rejtana cmentarz 04 nż
+1583	2	197402	07:20:00	07:20:00		Rejtana / Kustronia 02
+1583	2	197402	07:20:00	07:20:00		Rejtana / Kustronia 02
+1583	2	197402	07:22:00	07:22:00		Piłsudskiego ZDZ 02
+1583	2	197402	07:22:00	07:22:00		Piłsudskiego ZDZ 02
+1583	2	197402	07:24:00	07:24:00		Pl. Wolności 04
+1583	2	197402	07:24:00	07:24:00		Pl. Wolności 04
+1583	2	197402	07:26:00	07:26:00		Dworzec Główny PKP 01
+1583	2	197402	07:26:00	07:26:00		Dworzec Główny PKP 01
+
+1583	2	197627	07:53:00	07:53:00		Dworzec Główny PKP 01
+1583	2	197627	07:53:00	07:53:00		Dworzec Główny PKP 01
+1583	2	197627	07:57:00	07:57:00		Cieplińskiego 02
+1583	2	197627	07:57:00	07:57:00		Cieplińskiego 02
+1583	2	197627	07:58:00	07:58:00		Lisa-Kuli 01
+1583	2	197627	07:58:00	07:58:00		Lisa-Kuli 01
+1583	2	197627	08:00:00	08:00:00		Dąbrowskiego park 02 nż
+1583	2	197627	08:00:00	08:00:00		Dąbrowskiego park 02 nż
+1583	2	197627	08:01:00	08:01:00		Dąbrowskiego KW Policji 04
+1583	2	197627	08:01:00	08:01:00		Dąbrowskiego KW Policji 04
+1583	2	197627	08:02:00	08:02:00		Dąbrowskiego / Boh. Westerplatte 08
+1583	2	197627	08:02:00	08:02:00		Dąbrowskiego / Boh. Westerplatte 08
+1583	2	197627	08:05:00	08:05:00		Powst. Warszawy / Dąbrowskiego 02
+1583	2	197627	08:05:00	08:05:00		Powst. Warszawy / Dąbrowskiego 02
+1583	2	197627	08:06:00	08:06:00		Powst. Warszawy Politechnika 04
+1583	2	197627	08:06:00	08:06:00		Powst. Warszawy Politechnika 04
+1583	2	197627	08:08:00	08:08:00		Powst. Warszawy stadion 06
+1583	2	197627	08:08:00	08:08:00		Powst. Warszawy stadion 06
+1583	2	197627	08:10:00	08:10:00		Powst. Warszawy Dom Studenta 08
+1583	2	197627	08:10:00	08:10:00		Powst. Warszawy Dom Studenta 08
+1583	2	197627	08:11:00	08:11:00		Powst. Warszawy / Graniczna 10
+1583	2	197627	08:11:00	08:11:00		Powst. Warszawy / Graniczna 10
+1583	2	197627	08:14:00	08:14:00		Rejtana / Armii Krajowej 12
+1583	2	197627	08:14:00	08:14:00		Rejtana / Armii Krajowej 12
+1583	2	197627	08:15:00	08:15:00		Rejtana / Paderewskiego 10
+1583	2	197627	08:15:00	08:15:00		Rejtana / Paderewskiego 10
+1583	2	197627	08:16:00	08:16:00		Rejtana / Krzyżanowskiego 08
+1583	2	197627	08:16:00	08:16:00		Rejtana / Krzyżanowskiego 08
+1583	2	197627	08:18:00	08:18:00		Rejtana Uniwersytet 06
+1583	2	197627	08:18:00	08:18:00		Rejtana Uniwersytet 06
+1583	2	197627	08:19:00	08:19:00		Rejtana cmentarz 04 nż
+1583	2	197627	08:19:00	08:19:00		Rejtana cmentarz 04 nż
+1583	2	197627	08:20:00	08:20:00		Rejtana / Kustronia 02
+1583	2	197627	08:20:00	08:20:00		Rejtana / Kustronia 02
+1583	2	197627	08:22:00	08:22:00		Piłsudskiego ZDZ 02
+1583	2	197627	08:22:00	08:22:00		Piłsudskiego ZDZ 02
+1583	2	197627	08:24:00	08:24:00		Pl. Wolności 04
+1583	2	197627	08:24:00	08:24:00		Pl. Wolności 04
+1583	2	197627	08:26:00	08:26:00		Dworzec Główny PKP 01
+1583	2	197627	08:26:00	08:26:00		Dworzec Główny PKP 01
+
+1583	2	197611	08:53:00	08:53:00		Dworzec Główny PKP 01
+1583	2	197611	08:53:00	08:53:00		Dworzec Główny PKP 01
+1583	2	197611	08:57:00	08:57:00		Cieplińskiego 02
+1583	2	197611	08:57:00	08:57:00		Cieplińskiego 02
+1583	2	197611	08:58:00	08:58:00		Lisa-Kuli 01
+1583	2	197611	08:58:00	08:58:00		Lisa-Kuli 01
+1583	2	197611	09:00:00	09:00:00		Dąbrowskiego park 02 nż
+1583	2	197611	09:00:00	09:00:00		Dąbrowskiego park 02 nż
+1583	2	197611	09:01:00	09:01:00		Dąbrowskiego KW Policji 04
+1583	2	197611	09:01:00	09:01:00		Dąbrowskiego KW Policji 04
+1583	2	197611	09:02:00	09:02:00		Dąbrowskiego / Boh. Westerplatte 08
+1583	2	197611	09:02:00	09:02:00		Dąbrowskiego / Boh. Westerplatte 08
+1583	2	197611	09:05:00	09:05:00		Powst. Warszawy / Dąbrowskiego 02
+1583	2	197611	09:05:00	09:05:00		Powst. Warszawy / Dąbrowskiego 02
+1583	2	197611	09:06:00	09:06:00		Powst. Warszawy Politechnika 04
+1583	2	197611	09:06:00	09:06:00		Powst. Warszawy Politechnika 04
+1583	2	197611	09:08:00	09:08:00		Powst. Warszawy stadion 06
+1583	2	197611	09:08:00	09:08:00		Powst. Warszawy stadion 06
+1583	2	197611	09:10:00	09:10:00		Powst. Warszawy Dom Studenta 08
+1583	2	197611	09:10:00	09:10:00		Powst. Warszawy Dom Studenta 08
+1583	2	197611	09:11:00	09:11:00		Powst. Warszawy / Graniczna 10
+1583	2	197611	09:11:00	09:11:00		Powst. Warszawy / Graniczna 10
+1583	2	197611	09:14:00	09:14:00		Rejtana / Armii Krajowej 12
+1583	2	197611	09:14:00	09:14:00		Rejtana / Armii Krajowej 12
+1583	2	197611	09:15:00	09:15:00		Rejtana / Paderewskiego 10
+1583	2	197611	09:15:00	09:15:00		Rejtana / Paderewskiego 10
+1583	2	197611	09:16:00	09:16:00		Rejtana / Krzyżanowskiego 08
+1583	2	197611	09:16:00	09:16:00		Rejtana / Krzyżanowskiego 08
+1583	2	197611	09:18:00	09:18:00		Rejtana Uniwersytet 06
+1583	2	197611	09:18:00	09:18:00		Rejtana Uniwersytet 06
+1583	2	197611	09:19:00	09:19:00		Rejtana cmentarz 04 nż
+1583	2	197611	09:19:00	09:19:00		Rejtana cmentarz 04 nż
+1583	2	197611	09:20:00	09:20:00		Rejtana / Kustronia 02
+1583	2	197611	09:20:00	09:20:00		Rejtana / Kustronia 02
+1583	2	197611	09:22:00	09:22:00		Piłsudskiego ZDZ 02
+1583	2	197611	09:22:00	09:22:00		Piłsudskiego ZDZ 02
+1583	2	197611	09:24:00	09:24:00		Pl. Wolności 04
+1583	2	197611	09:24:00	09:24:00		Pl. Wolności 04
+1583	2	197611	09:26:00	09:26:00		Dworzec Główny PKP 01
+1583	2	197611	09:26:00	09:26:00		Dworzec Główny PKP 01
+
+1583	2	197350	09:53:00	09:53:00		Dworzec Główny PKP 01
+1583	2	197350	09:53:00	09:53:00		Dworzec Główny PKP 01
+1583	2	197350	09:57:00	09:57:00		Cieplińskiego 02
+1583	2	197350	09:57:00	09:57:00		Cieplińskiego 02
+1583	2	197350	09:58:00	09:58:00		Lisa-Kuli 01
+1583	2	197350	09:58:00	09:58:00		Lisa-Kuli 01
+1583	2	197350	10:00:00	10:00:00		Dąbrowskiego park 02 nż
+1583	2	197350	10:00:00	10:00:00		Dąbrowskiego park 02 nż
+1583	2	197350	10:01:00	10:01:00		Dąbrowskiego KW Policji 04
+1583	2	197350	10:01:00	10:01:00		Dąbrowskiego KW Policji 04
+1583	2	197350	10:02:00	10:02:00		Dąbrowskiego / Boh. Westerplatte 08
+1583	2	197350	10:02:00	10:02:00		Dąbrowskiego / Boh. Westerplatte 08
+1583	2	197350	10:05:00	10:05:00		Powst. Warszawy / Dąbrowskiego 02
+1583	2	197350	10:05:00	10:05:00		Powst. Warszawy / Dąbrowskiego 02
+1583	2	197350	10:06:00	10:06:00		Powst. Warszawy Politechnika 04
+1583	2	197350	10:06:00	10:06:00		Powst. Warszawy Politechnika 04
+1583	2	197350	10:08:00	10:08:00		Powst. Warszawy stadion 06
+1583	2	197350	10:08:00	10:08:00		Powst. Warszawy stadion 06
+1583	2	197350	10:10:00	10:10:00		Powst. Warszawy Dom Studenta 08
+1583	2	197350	10:10:00	10:10:00		Powst. Warszawy Dom Studenta 08
+1583	2	197350	10:11:00	10:11:00		Powst. Warszawy / Graniczna 10
+1583	2	197350	10:11:00	10:11:00		Powst. Warszawy / Graniczna 10
+1583	2	197350	10:14:00	10:14:00		Rejtana / Armii Krajowej 12
+1583	2	197350	10:14:00	10:14:00		Rejtana / Armii Krajowej 12
+1583	2	197350	10:15:00	10:15:00		Rejtana / Paderewskiego 10
+1583	2	197350	10:15:00	10:15:00		Rejtana / Paderewskiego 10
+1583	2	197350	10:16:00	10:16:00		Rejtana / Krzyżanowskiego 08
+1583	2	197350	10:16:00	10:16:00		Rejtana / Krzyżanowskiego 08
+1583	2	197350	10:18:00	10:18:00		Rejtana Uniwersytet 06
+1583	2	197350	10:18:00	10:18:00		Rejtana Uniwersytet 06
+1583	2	197350	10:19:00	10:19:00		Rejtana cmentarz 04 nż
+1583	2	197350	10:19:00	10:19:00		Rejtana cmentarz 04 nż
+1583	2	197350	10:20:00	10:20:00		Rejtana / Kustronia 02
+1583	2	197350	10:20:00	10:20:00		Rejtana / Kustronia 02
+1583	2	197350	10:22:00	10:22:00		Piłsudskiego ZDZ 02
+1583	2	197350	10:22:00	10:22:00		Piłsudskiego ZDZ 02
+1583	2	197350	10:24:00	10:24:00		Pl. Wolności 04
+1583	2	197350	10:24:00	10:24:00		Pl. Wolności 04
+1583	2	197350	10:26:00	10:26:00		Dworzec Główny PKP 01
+1583	2	197350	10:26:00	10:26:00		Dworzec Główny PKP 01
+
+1583	2	197378	10:53:00	10:53:00		Dworzec Główny PKP 01
+1583	2	197378	10:53:00	10:53:00		Dworzec Główny PKP 01
+1583	2	197378	10:57:00	10:57:00		Cieplińskiego 02
+1583	2	197378	10:57:00	10:57:00		Cieplińskiego 02
+1583	2	197378	10:58:00	10:58:00		Lisa-Kuli 01
+1583	2	197378	10:58:00	10:58:00		Lisa-Kuli 01
+1583	2	197378	11:00:00	11:00:00		Dąbrowskiego park 02 nż
+1583	2	197378	11:00:00	11:00:00		Dąbrowskiego park 02 nż
+1583	2	197378	11:01:00	11:01:00		Dąbrowskiego KW Policji 04
+1583	2	197378	11:01:00	11:01:00		Dąbrowskiego KW Policji 04
+1583	2	197378	11:02:00	11:02:00		Dąbrowskiego / Boh. Westerplatte 08
+1583	2	197378	11:02:00	11:02:00		Dąbrowskiego / Boh. Westerplatte 08
+1583	2	197378	11:05:00	11:05:00		Powst. Warszawy / Dąbrowskiego 02
+1583	2	197378	11:05:00	11:05:00		Powst. Warszawy / Dąbrowskiego 02
+1583	2	197378	11:06:00	11:06:00		Powst. Warszawy Politechnika 04
+1583	2	197378	11:06:00	11:06:00		Powst. Warszawy Politechnika 04
+1583	2	197378	11:08:00	11:08:00		Powst. Warszawy stadion 06
+1583	2	197378	11:08:00	11:08:00		Powst. Warszawy stadion 06
+1583	2	197378	11:10:00	11:10:00		Powst. Warszawy Dom Studenta 08
+1583	2	197378	11:10:00	11:10:00		Powst. Warszawy Dom Studenta 08
+1583	2	197378	11:11:00	11:11:00		Powst. Warszawy / Graniczna 10
+1583	2	197378	11:11:00	11:11:00		Powst. Warszawy / Graniczna 10
+1583	2	197378	11:14:00	11:14:00		Rejtana / Armii Krajowej 12
+1583	2	197378	11:14:00	11:14:00		Rejtana / Armii Krajowej 12
+1583	2	197378	11:15:00	11:15:00		Rejtana / Paderewskiego 10
+1583	2	197378	11:15:00	11:15:00		Rejtana / Paderewskiego 10
+1583	2	197378	11:16:00	11:16:00		Rejtana / Krzyżanowskiego 08
+1583	2	197378	11:16:00	11:16:00		Rejtana / Krzyżanowskiego 08
+1583	2	197378	11:18:00	11:18:00		Rejtana Uniwersytet 06
+1583	2	197378	11:18:00	11:18:00		Rejtana Uniwersytet 06
+1583	2	197378	11:19:00	11:19:00		Rejtana cmentarz 04 nż
+1583	2	197378	11:19:00	11:19:00		Rejtana cmentarz 04 nż
+1583	2	197378	11:20:00	11:20:00		Rejtana / Kustronia 02
+1583	2	197378	11:20:00	11:20:00		Rejtana / Kustronia 02
+1583	2	197378	11:22:00	11:22:00		Piłsudskiego ZDZ 02
+1583	2	197378	11:22:00	11:22:00		Piłsudskiego ZDZ 02
+1583	2	197378	11:24:00	11:24:00		Pl. Wolności 04
+1583	2	197378	11:24:00	11:24:00		Pl. Wolności 04
+1583	2	197378	11:26:00	11:26:00		Dworzec Główny PKP 01
+1583	2	197378	11:26:00	11:26:00		Dworzec Główny PKP 01
+
+1583	2	197148	11:53:00	11:53:00		Dworzec Główny PKP 01
+1583	2	197148	11:53:00	11:53:00		Dworzec Główny PKP 01
+1583	2	197148	11:57:00	11:57:00		Cieplińskiego 02
+1583	2	197148	11:57:00	11:57:00		Cieplińskiego 02
+1583	2	197148	11:58:00	11:58:00		Lisa-Kuli 01
+1583	2	197148	11:58:00	11:58:00		Lisa-Kuli 01
+1583	2	197148	12:01:00	12:01:00		Dąbrowskiego park 02 nż
+1583	2	197148	12:01:00	12:01:00		Dąbrowskiego park 02 nż
+1583	2	197148	12:02:00	12:02:00		Dąbrowskiego KW Policji 04
+1583	2	197148	12:02:00	12:02:00		Dąbrowskiego KW Policji 04
+1583	2	197148	12:03:00	12:03:00		Dąbrowskiego / Boh. Westerplatte 08
+1583	2	197148	12:03:00	12:03:00		Dąbrowskiego / Boh. Westerplatte 08
+1583	2	197148	12:07:00	12:07:00		Powst. Warszawy / Dąbrowskiego 02
+1583	2	197148	12:07:00	12:07:00		Powst. Warszawy / Dąbrowskiego 02
+1583	2	197148	12:08:00	12:08:00		Powst. Warszawy Politechnika 04
+1583	2	197148	12:08:00	12:08:00		Powst. Warszawy Politechnika 04
+1583	2	197148	12:10:00	12:10:00		Powst. Warszawy stadion 06
+1583	2	197148	12:10:00	12:10:00		Powst. Warszawy stadion 06
+1583	2	197148	12:13:00	12:13:00		Powst. Warszawy Dom Studenta 08
+1583	2	197148	12:13:00	12:13:00		Powst. Warszawy Dom Studenta 08
+1583	2	197148	12:14:00	12:14:00		Powst. Warszawy / Graniczna 10
+1583	2	197148	12:14:00	12:14:00		Powst. Warszawy / Graniczna 10
+1583	2	197148	12:18:00	12:18:00		Rejtana / Armii Krajowej 12
+1583	2	197148	12:18:00	12:18:00		Rejtana / Armii Krajowej 12
+1583	2	197148	12:19:00	12:19:00		Rejtana / Paderewskiego 10
+1583	2	197148	12:19:00	12:19:00		Rejtana / Paderewskiego 10
+1583	2	197148	12:20:00	12:20:00		Rejtana / Krzyżanowskiego 08
+1583	2	197148	12:20:00	12:20:00		Rejtana / Krzyżanowskiego 08
+1583	2	197148	12:22:00	12:22:00		Rejtana Uniwersytet 06
+1583	2	197148	12:22:00	12:22:00		Rejtana Uniwersytet 06
+1583	2	197148	12:23:00	12:23:00		Rejtana cmentarz 04 nż
+1583	2	197148	12:23:00	12:23:00		Rejtana cmentarz 04 nż
+1583	2	197148	12:24:00	12:24:00		Rejtana / Kustronia 02
+1583	2	197148	12:24:00	12:24:00		Rejtana / Kustronia 02
+1583	2	197148	12:26:00	12:26:00		Piłsudskiego ZDZ 02
+1583	2	197148	12:26:00	12:26:00		Piłsudskiego ZDZ 02
+1583	2	197148	12:28:00	12:28:00		Pl. Wolności 04
+1583	2	197148	12:28:00	12:28:00		Pl. Wolności 04
+1583	2	197148	12:30:00	12:30:00		Dworzec Główny PKP 01
+1583	2	197148	12:30:00	12:30:00		Dworzec Główny PKP 01
+
+1583	2	197435	12:53:00	12:53:00		Dworzec Główny PKP 01
+1583	2	197435	12:53:00	12:53:00		Dworzec Główny PKP 01
+1583	2	197435	12:57:00	12:57:00		Cieplińskiego 02
+1583	2	197435	12:57:00	12:57:00		Cieplińskiego 02
+1583	2	197435	12:58:00	12:58:00		Lisa-Kuli 01
+1583	2	197435	12:58:00	12:58:00		Lisa-Kuli 01
+1583	2	197435	13:01:00	13:01:00		Dąbrowskiego park 02 nż
+1583	2	197435	13:01:00	13:01:00		Dąbrowskiego park 02 nż
+1583	2	197435	13:02:00	13:02:00		Dąbrowskiego KW Policji 04
+1583	2	197435	13:02:00	13:02:00		Dąbrowskiego KW Policji 04
+1583	2	197435	13:03:00	13:03:00		Dąbrowskiego / Boh. Westerplatte 08
+1583	2	197435	13:03:00	13:03:00		Dąbrowskiego / Boh. Westerplatte 08
+1583	2	197435	13:07:00	13:07:00		Powst. Warszawy / Dąbrowskiego 02
+1583	2	197435	13:07:00	13:07:00		Powst. Warszawy / Dąbrowskiego 02
+1583	2	197435	13:08:00	13:08:00		Powst. Warszawy Politechnika 04
+1583	2	197435	13:08:00	13:08:00		Powst. Warszawy Politechnika 04
+1583	2	197435	13:10:00	13:10:00		Powst. Warszawy stadion 06
+1583	2	197435	13:10:00	13:10:00		Powst. Warszawy stadion 06
+1583	2	197435	13:13:00	13:13:00		Powst. Warszawy Dom Studenta 08
+1583	2	197435	13:13:00	13:13:00		Powst. Warszawy Dom Studenta 08
+1583	2	197435	13:14:00	13:14:00		Powst. Warszawy / Graniczna 10
+1583	2	197435	13:14:00	13:14:00		Powst. Warszawy / Graniczna 10
+1583	2	197435	13:18:00	13:18:00		Rejtana / Armii Krajowej 12
+1583	2	197435	13:18:00	13:18:00		Rejtana / Armii Krajowej 12
+1583	2	197435	13:19:00	13:19:00		Rejtana / Paderewskiego 10
+1583	2	197435	13:19:00	13:19:00		Rejtana / Paderewskiego 10
+1583	2	197435	13:20:00	13:20:00		Rejtana / Krzyżanowskiego 08
+1583	2	197435	13:20:00	13:20:00		Rejtana / Krzyżanowskiego 08
+1583	2	197435	13:22:00	13:22:00		Rejtana Uniwersytet 06
+1583	2	197435	13:22:00	13:22:00		Rejtana Uniwersytet 06
+1583	2	197435	13:23:00	13:23:00		Rejtana cmentarz 04 nż
+1583	2	197435	13:23:00	13:23:00		Rejtana cmentarz 04 nż
+1583	2	197435	13:24:00	13:24:00		Rejtana / Kustronia 02
+1583	2	197435	13:24:00	13:24:00		Rejtana / Kustronia 02
+1583	2	197435	13:26:00	13:26:00		Piłsudskiego ZDZ 02
+1583	2	197435	13:26:00	13:26:00		Piłsudskiego ZDZ 02
+1583	2	197435	13:28:00	13:28:00		Pl. Wolności 04
+1583	2	197435	13:28:00	13:28:00		Pl. Wolności 04
+1583	2	197435	13:30:00	13:30:00		Dworzec Główny PKP 01
+1583	2	197435	13:30:00	13:30:00		Dworzec Główny PKP 01
+
+1583	2	197531	13:53:00	13:53:00		Dworzec Główny PKP 01
+1583	2	197531	13:53:00	13:53:00		Dworzec Główny PKP 01
+1583	2	197531	13:57:00	13:57:00		Cieplińskiego 02
+1583	2	197531	13:57:00	13:57:00		Cieplińskiego 02
+1583	2	197531	13:58:00	13:58:00		Lisa-Kuli 01
+1583	2	197531	13:58:00	13:58:00		Lisa-Kuli 01
+1583	2	197531	14:01:00	14:01:00		Dąbrowskiego park 02 nż
+1583	2	197531	14:01:00	14:01:00		Dąbrowskiego park 02 nż
+1583	2	197531	14:02:00	14:02:00		Dąbrowskiego KW Policji 04
+1583	2	197531	14:02:00	14:02:00		Dąbrowskiego KW Policji 04
+1583	2	197531	14:03:00	14:03:00		Dąbrowskiego / Boh. Westerplatte 08
+1583	2	197531	14:03:00	14:03:00		Dąbrowskiego / Boh. Westerplatte 08
+1583	2	197531	14:07:00	14:07:00		Powst. Warszawy / Dąbrowskiego 02
+1583	2	197531	14:07:00	14:07:00		Powst. Warszawy / Dąbrowskiego 02
+1583	2	197531	14:08:00	14:08:00		Powst. Warszawy Politechnika 04
+1583	2	197531	14:08:00	14:08:00		Powst. Warszawy Politechnika 04
+1583	2	197531	14:10:00	14:10:00		Powst. Warszawy stadion 06
+1583	2	197531	14:10:00	14:10:00		Powst. Warszawy stadion 06
+1583	2	197531	14:13:00	14:13:00		Powst. Warszawy Dom Studenta 08
+1583	2	197531	14:13:00	14:13:00		Powst. Warszawy Dom Studenta 08
+1583	2	197531	14:14:00	14:14:00		Powst. Warszawy / Graniczna 10
+1583	2	197531	14:14:00	14:14:00		Powst. Warszawy / Graniczna 10
+1583	2	197531	14:18:00	14:18:00		Rejtana / Armii Krajowej 12
+1583	2	197531	14:18:00	14:18:00		Rejtana / Armii Krajowej 12
+1583	2	197531	14:19:00	14:19:00		Rejtana / Paderewskiego 10
+1583	2	197531	14:19:00	14:19:00		Rejtana / Paderewskiego 10
+1583	2	197531	14:20:00	14:20:00		Rejtana / Krzyżanowskiego 08
+1583	2	197531	14:20:00	14:20:00		Rejtana / Krzyżanowskiego 08
+1583	2	197531	14:22:00	14:22:00		Rejtana Uniwersytet 06
+1583	2	197531	14:22:00	14:22:00		Rejtana Uniwersytet 06
+1583	2	197531	14:23:00	14:23:00		Rejtana cmentarz 04 nż
+1583	2	197531	14:23:00	14:23:00		Rejtana cmentarz 04 nż
+1583	2	197531	14:24:00	14:24:00		Rejtana / Kustronia 02
+1583	2	197531	14:24:00	14:24:00		Rejtana / Kustronia 02
+1583	2	197531	14:26:00	14:26:00		Piłsudskiego ZDZ 02
+1583	2	197531	14:26:00	14:26:00		Piłsudskiego ZDZ 02
+1583	2	197531	14:28:00	14:28:00		Pl. Wolności 04
+1583	2	197531	14:28:00	14:28:00		Pl. Wolności 04
+1583	2	197531	14:30:00	14:30:00		Dworzec Główny PKP 01
+1583	2	197531	14:30:00	14:30:00		Dworzec Główny PKP 01
+
+1583	2	197593	14:52:00	14:52:00		Dworzec Główny PKP 01
+1583	2	197593	14:52:00	14:52:00		Dworzec Główny PKP 01
+1583	2	197593	14:58:00	14:58:00		Cieplińskiego 02
+1583	2	197593	14:58:00	14:58:00		Cieplińskiego 02
+1583	2	197593	14:59:00	14:59:00		Lisa-Kuli 01
+1583	2	197593	14:59:00	14:59:00		Lisa-Kuli 01
+1583	2	197593	15:03:00	15:03:00		Dąbrowskiego park 02 nż
+1583	2	197593	15:03:00	15:03:00		Dąbrowskiego park 02 nż
+1583	2	197593	15:04:00	15:04:00		Dąbrowskiego KW Policji 04
+1583	2	197593	15:04:00	15:04:00		Dąbrowskiego KW Policji 04
+1583	2	197593	15:05:00	15:05:00		Dąbrowskiego / Boh. Westerplatte 08
+1583	2	197593	15:05:00	15:05:00		Dąbrowskiego / Boh. Westerplatte 08
+1583	2	197593	15:09:00	15:09:00		Powst. Warszawy / Dąbrowskiego 02
+1583	2	197593	15:09:00	15:09:00		Powst. Warszawy / Dąbrowskiego 02
+1583	2	197593	15:11:00	15:11:00		Powst. Warszawy Politechnika 04
+1583	2	197593	15:11:00	15:11:00		Powst. Warszawy Politechnika 04
+1583	2	197593	15:17:00	15:17:00		Powst. Warszawy stadion 06
+1583	2	197593	15:17:00	15:17:00		Powst. Warszawy stadion 06
+1583	2	197593	15:20:00	15:20:00		Powst. Warszawy Dom Studenta 08
+1583	2	197593	15:20:00	15:20:00		Powst. Warszawy Dom Studenta 08
+1583	2	197593	15:21:00	15:21:00		Powst. Warszawy / Graniczna 10
+1583	2	197593	15:21:00	15:21:00		Powst. Warszawy / Graniczna 10
+1583	2	197593	15:25:00	15:25:00		Rejtana / Armii Krajowej 12
+1583	2	197593	15:25:00	15:25:00		Rejtana / Armii Krajowej 12
+1583	2	197593	15:26:00	15:26:00		Rejtana / Paderewskiego 10
+1583	2	197593	15:26:00	15:26:00		Rejtana / Paderewskiego 10
+1583	2	197593	15:27:00	15:27:00		Rejtana / Krzyżanowskiego 08
+1583	2	197593	15:27:00	15:27:00		Rejtana / Krzyżanowskiego 08
+1583	2	197593	15:29:00	15:29:00		Rejtana Uniwersytet 06
+1583	2	197593	15:29:00	15:29:00		Rejtana Uniwersytet 06
+1583	2	197593	15:30:00	15:30:00		Rejtana cmentarz 04 nż
+1583	2	197593	15:30:00	15:30:00		Rejtana cmentarz 04 nż
+1583	2	197593	15:31:00	15:31:00		Rejtana / Kustronia 02
+1583	2	197593	15:31:00	15:31:00		Rejtana / Kustronia 02
+1583	2	197593	15:33:00	15:33:00		Piłsudskiego ZDZ 02
+1583	2	197593	15:33:00	15:33:00		Piłsudskiego ZDZ 02
+1583	2	197593	15:35:00	15:35:00		Pl. Wolności 04
+1583	2	197593	15:35:00	15:35:00		Pl. Wolności 04
+1583	2	197593	15:37:00	15:37:00		Dworzec Główny PKP 01
+1583	2	197593	15:37:00	15:37:00		Dworzec Główny PKP 01
+
+1583	2	197254	15:52:00	15:52:00		Dworzec Główny PKP 01
+1583	2	197254	15:52:00	15:52:00		Dworzec Główny PKP 01
+1583	2	197254	15:58:00	15:58:00		Cieplińskiego 02
+1583	2	197254	15:58:00	15:58:00		Cieplińskiego 02
+1583	2	197254	15:59:00	15:59:00		Lisa-Kuli 01
+1583	2	197254	15:59:00	15:59:00		Lisa-Kuli 01
+1583	2	197254	16:03:00	16:03:00		Dąbrowskiego park 02 nż
+1583	2	197254	16:03:00	16:03:00		Dąbrowskiego park 02 nż
+1583	2	197254	16:04:00	16:04:00		Dąbrowskiego KW Policji 04
+1583	2	197254	16:04:00	16:04:00		Dąbrowskiego KW Policji 04
+1583	2	197254	16:05:00	16:05:00		Dąbrowskiego / Boh. Westerplatte 08
+1583	2	197254	16:05:00	16:05:00		Dąbrowskiego / Boh. Westerplatte 08
+1583	2	197254	16:09:00	16:09:00		Powst. Warszawy / Dąbrowskiego 02
+1583	2	197254	16:09:00	16:09:00		Powst. Warszawy / Dąbrowskiego 02
+1583	2	197254	16:11:00	16:11:00		Powst. Warszawy Politechnika 04
+1583	2	197254	16:11:00	16:11:00		Powst. Warszawy Politechnika 04
+1583	2	197254	16:17:00	16:17:00		Powst. Warszawy stadion 06
+1583	2	197254	16:17:00	16:17:00		Powst. Warszawy stadion 06
+1583	2	197254	16:20:00	16:20:00		Powst. Warszawy Dom Studenta 08
+1583	2	197254	16:20:00	16:20:00		Powst. Warszawy Dom Studenta 08
+1583	2	197254	16:21:00	16:21:00		Powst. Warszawy / Graniczna 10
+1583	2	197254	16:21:00	16:21:00		Powst. Warszawy / Graniczna 10
+1583	2	197254	16:25:00	16:25:00		Rejtana / Armii Krajowej 12
+1583	2	197254	16:25:00	16:25:00		Rejtana / Armii Krajowej 12
+1583	2	197254	16:26:00	16:26:00		Rejtana / Paderewskiego 10
+1583	2	197254	16:26:00	16:26:00		Rejtana / Paderewskiego 10
+1583	2	197254	16:27:00	16:27:00		Rejtana / Krzyżanowskiego 08
+1583	2	197254	16:27:00	16:27:00		Rejtana / Krzyżanowskiego 08
+1583	2	197254	16:29:00	16:29:00		Rejtana Uniwersytet 06
+1583	2	197254	16:29:00	16:29:00		Rejtana Uniwersytet 06
+1583	2	197254	16:30:00	16:30:00		Rejtana cmentarz 04 nż
+1583	2	197254	16:30:00	16:30:00		Rejtana cmentarz 04 nż
+1583	2	197254	16:31:00	16:31:00		Rejtana / Kustronia 02
+1583	2	197254	16:31:00	16:31:00		Rejtana / Kustronia 02
+1583	2	197254	16:33:00	16:33:00		Piłsudskiego ZDZ 02
+1583	2	197254	16:33:00	16:33:00		Piłsudskiego ZDZ 02
+1583	2	197254	16:35:00	16:35:00		Pl. Wolności 04
+1583	2	197254	16:35:00	16:35:00		Pl. Wolności 04
+1583	2	197254	16:37:00	16:37:00		Dworzec Główny PKP 01
+1583	2	197254	16:37:00	16:37:00		Dworzec Główny PKP 01
+
+1583	2	197642	17:03:00	17:03:00		Dworzec Główny PKP 01
+1583	2	197642	17:03:00	17:03:00		Dworzec Główny PKP 01
+1583	2	197642	17:08:00	17:08:00		Cieplińskiego 02
+1583	2	197642	17:08:00	17:08:00		Cieplińskiego 02
+1583	2	197642	17:09:00	17:09:00		Lisa-Kuli 01
+1583	2	197642	17:09:00	17:09:00		Lisa-Kuli 01
+1583	2	197642	17:12:00	17:12:00		Dąbrowskiego park 02 nż
+1583	2	197642	17:12:00	17:12:00		Dąbrowskiego park 02 nż
+1583	2	197642	17:13:00	17:13:00		Dąbrowskiego KW Policji 04
+1583	2	197642	17:13:00	17:13:00		Dąbrowskiego KW Policji 04
+1583	2	197642	17:14:00	17:14:00		Dąbrowskiego / Boh. Westerplatte 08
+1583	2	197642	17:14:00	17:14:00		Dąbrowskiego / Boh. Westerplatte 08
+1583	2	197642	17:17:00	17:17:00		Powst. Warszawy / Dąbrowskiego 02
+1583	2	197642	17:17:00	17:17:00		Powst. Warszawy / Dąbrowskiego 02
+1583	2	197642	17:18:00	17:18:00		Powst. Warszawy Politechnika 04
+1583	2	197642	17:18:00	17:18:00		Powst. Warszawy Politechnika 04
+1583	2	197642	17:20:00	17:20:00		Powst. Warszawy stadion 06
+1583	2	197642	17:20:00	17:20:00		Powst. Warszawy stadion 06
+1583	2	197642	17:23:00	17:23:00		Powst. Warszawy Dom Studenta 08
+1583	2	197642	17:23:00	17:23:00		Powst. Warszawy Dom Studenta 08
+1583	2	197642	17:24:00	17:24:00		Powst. Warszawy / Graniczna 10
+1583	2	197642	17:24:00	17:24:00		Powst. Warszawy / Graniczna 10
+1583	2	197642	17:28:00	17:28:00		Rejtana / Armii Krajowej 12
+1583	2	197642	17:28:00	17:28:00		Rejtana / Armii Krajowej 12
+1583	2	197642	17:29:00	17:29:00		Rejtana / Paderewskiego 10
+1583	2	197642	17:29:00	17:29:00		Rejtana / Paderewskiego 10
+1583	2	197642	17:30:00	17:30:00		Rejtana / Krzyżanowskiego 08
+1583	2	197642	17:30:00	17:30:00		Rejtana / Krzyżanowskiego 08
+1583	2	197642	17:32:00	17:32:00		Rejtana Uniwersytet 06
+1583	2	197642	17:32:00	17:32:00		Rejtana Uniwersytet 06
+1583	2	197642	17:33:00	17:33:00		Rejtana cmentarz 04 nż
+1583	2	197642	17:33:00	17:33:00		Rejtana cmentarz 04 nż
+1583	2	197642	17:34:00	17:34:00		Rejtana / Kustronia 02
+1583	2	197642	17:34:00	17:34:00		Rejtana / Kustronia 02
+1583	2	197642	17:36:00	17:36:00		Piłsudskiego ZDZ 02
+1583	2	197642	17:36:00	17:36:00		Piłsudskiego ZDZ 02
+1583	2	197642	17:38:00	17:38:00		Pl. Wolności 04
+1583	2	197642	17:38:00	17:38:00		Pl. Wolności 04
+1583	2	197642	17:40:00	17:40:00		Dworzec Główny PKP 01
+1583	2	197642	17:40:00	17:40:00		Dworzec Główny PKP 01
+
+1583	2	197680	18:03:00	18:03:00		Dworzec Główny PKP 01
+1583	2	197680	18:03:00	18:03:00		Dworzec Główny PKP 01
+1583	2	197680	18:08:00	18:08:00		Cieplińskiego 02
+1583	2	197680	18:08:00	18:08:00		Cieplińskiego 02
+1583	2	197680	18:09:00	18:09:00		Lisa-Kuli 01
+1583	2	197680	18:09:00	18:09:00		Lisa-Kuli 01
+1583	2	197680	18:12:00	18:12:00		Dąbrowskiego park 02 nż
+1583	2	197680	18:12:00	18:12:00		Dąbrowskiego park 02 nż
+1583	2	197680	18:13:00	18:13:00		Dąbrowskiego KW Policji 04
+1583	2	197680	18:13:00	18:13:00		Dąbrowskiego KW Policji 04
+1583	2	197680	18:14:00	18:14:00		Dąbrowskiego / Boh. Westerplatte 08
+1583	2	197680	18:14:00	18:14:00		Dąbrowskiego / Boh. Westerplatte 08
+1583	2	197680	18:17:00	18:17:00		Powst. Warszawy / Dąbrowskiego 02
+1583	2	197680	18:17:00	18:17:00		Powst. Warszawy / Dąbrowskiego 02
+1583	2	197680	18:18:00	18:18:00		Powst. Warszawy Politechnika 04
+1583	2	197680	18:18:00	18:18:00		Powst. Warszawy Politechnika 04
+1583	2	197680	18:20:00	18:20:00		Powst. Warszawy stadion 06
+1583	2	197680	18:20:00	18:20:00		Powst. Warszawy stadion 06
+1583	2	197680	18:23:00	18:23:00		Powst. Warszawy Dom Studenta 08
+1583	2	197680	18:23:00	18:23:00		Powst. Warszawy Dom Studenta 08
+1583	2	197680	18:24:00	18:24:00		Powst. Warszawy / Graniczna 10
+1583	2	197680	18:24:00	18:24:00		Powst. Warszawy / Graniczna 10
+1583	2	197680	18:28:00	18:28:00		Rejtana / Armii Krajowej 12
+1583	2	197680	18:28:00	18:28:00		Rejtana / Armii Krajowej 12
+1583	2	197680	18:29:00	18:29:00		Rejtana / Paderewskiego 10
+1583	2	197680	18:29:00	18:29:00		Rejtana / Paderewskiego 10
+1583	2	197680	18:30:00	18:30:00		Rejtana / Krzyżanowskiego 08
+1583	2	197680	18:30:00	18:30:00		Rejtana / Krzyżanowskiego 08
+1583	2	197680	18:32:00	18:32:00		Rejtana Uniwersytet 06
+1583	2	197680	18:32:00	18:32:00		Rejtana Uniwersytet 06
+1583	2	197680	18:33:00	18:33:00		Rejtana cmentarz 04 nż
+1583	2	197680	18:33:00	18:33:00		Rejtana cmentarz 04 nż
+1583	2	197680	18:34:00	18:34:00		Rejtana / Kustronia 02
+1583	2	197680	18:34:00	18:34:00		Rejtana / Kustronia 02
+1583	2	197680	18:36:00	18:36:00		Piłsudskiego ZDZ 02
+1583	2	197680	18:36:00	18:36:00		Piłsudskiego ZDZ 02
+1583	2	197680	18:38:00	18:38:00		Pl. Wolności 04
+1583	2	197680	18:38:00	18:38:00		Pl. Wolności 04
+1583	2	197680	18:40:00	18:40:00		Dworzec Główny PKP 01
+1583	2	197680	18:40:00	18:40:00		Dworzec Główny PKP 01
+
+1583	2	197251	19:03:00	19:03:00		Dworzec Główny PKP 01
+1583	2	197251	19:03:00	19:03:00		Dworzec Główny PKP 01
+1583	2	197251	19:07:00	19:07:00		Cieplińskiego 02
+1583	2	197251	19:07:00	19:07:00		Cieplińskiego 02
+1583	2	197251	19:08:00	19:08:00		Lisa-Kuli 01
+1583	2	197251	19:08:00	19:08:00		Lisa-Kuli 01
+1583	2	197251	19:10:00	19:10:00		Dąbrowskiego park 02 nż
+1583	2	197251	19:10:00	19:10:00		Dąbrowskiego park 02 nż
+1583	2	197251	19:11:00	19:11:00		Dąbrowskiego KW Policji 04
+1583	2	197251	19:11:00	19:11:00		Dąbrowskiego KW Policji 04
+1583	2	197251	19:12:00	19:12:00		Dąbrowskiego / Boh. Westerplatte 08
+1583	2	197251	19:12:00	19:12:00		Dąbrowskiego / Boh. Westerplatte 08
+1583	2	197251	19:15:00	19:15:00		Powst. Warszawy / Dąbrowskiego 02
+1583	2	197251	19:15:00	19:15:00		Powst. Warszawy / Dąbrowskiego 02
+1583	2	197251	19:16:00	19:16:00		Powst. Warszawy Politechnika 04
+1583	2	197251	19:16:00	19:16:00		Powst. Warszawy Politechnika 04
+1583	2	197251	19:17:00	19:17:00		Powst. Warszawy stadion 06
+1583	2	197251	19:17:00	19:17:00		Powst. Warszawy stadion 06
+1583	2	197251	19:19:00	19:19:00		Powst. Warszawy Dom Studenta 08
+1583	2	197251	19:19:00	19:19:00		Powst. Warszawy Dom Studenta 08
+1583	2	197251	19:20:00	19:20:00		Powst. Warszawy / Graniczna 10
+1583	2	197251	19:20:00	19:20:00		Powst. Warszawy / Graniczna 10
+1583	2	197251	19:23:00	19:23:00		Rejtana / Armii Krajowej 12
+1583	2	197251	19:23:00	19:23:00		Rejtana / Armii Krajowej 12
+1583	2	197251	19:24:00	19:24:00		Rejtana / Paderewskiego 10
+1583	2	197251	19:24:00	19:24:00		Rejtana / Paderewskiego 10
+1583	2	197251	19:25:00	19:25:00		Rejtana / Krzyżanowskiego 08
+1583	2	197251	19:25:00	19:25:00		Rejtana / Krzyżanowskiego 08
+1583	2	197251	19:26:00	19:26:00		Rejtana Uniwersytet 06
+1583	2	197251	19:26:00	19:26:00		Rejtana Uniwersytet 06
+1583	2	197251	19:27:00	19:27:00		Rejtana cmentarz 04 nż
+1583	2	197251	19:27:00	19:27:00		Rejtana cmentarz 04 nż
+1583	2	197251	19:28:00	19:28:00		Rejtana / Kustronia 02
+1583	2	197251	19:28:00	19:28:00		Rejtana / Kustronia 02
+1583	2	197251	19:30:00	19:30:00		Piłsudskiego ZDZ 02
+1583	2	197251	19:30:00	19:30:00		Piłsudskiego ZDZ 02
+1583	2	197251	19:31:00	19:31:00		Pl. Wolności 04
+1583	2	197251	19:31:00	19:31:00		Pl. Wolności 04
+1583	2	197251	19:33:00	19:33:00		Dworzec Główny PKP 01
+1583	2	197251	19:33:00	19:33:00		Dworzec Główny PKP 01
+
+1583	2	197514	19:57:00	19:57:00		Dworzec Główny PKP 01
+1583	2	197514	19:57:00	19:57:00		Dworzec Główny PKP 01
+1583	2	197514	20:01:00	20:01:00		Cieplińskiego 02
+1583	2	197514	20:01:00	20:01:00		Cieplińskiego 02
+1583	2	197514	20:02:00	20:02:00		Lisa-Kuli 01
+1583	2	197514	20:02:00	20:02:00		Lisa-Kuli 01
+1583	2	197514	20:04:00	20:04:00		Dąbrowskiego park 02 nż
+1583	2	197514	20:04:00	20:04:00		Dąbrowskiego park 02 nż
+1583	2	197514	20:05:00	20:05:00		Dąbrowskiego KW Policji 04
+1583	2	197514	20:05:00	20:05:00		Dąbrowskiego KW Policji 04
+1583	2	197514	20:06:00	20:06:00		Dąbrowskiego / Boh. Westerplatte 08
+1583	2	197514	20:06:00	20:06:00		Dąbrowskiego / Boh. Westerplatte 08
+1583	2	197514	20:09:00	20:09:00		Powst. Warszawy / Dąbrowskiego 02
+1583	2	197514	20:09:00	20:09:00		Powst. Warszawy / Dąbrowskiego 02
+1583	2	197514	20:10:00	20:10:00		Powst. Warszawy Politechnika 04
+1583	2	197514	20:10:00	20:10:00		Powst. Warszawy Politechnika 04
+1583	2	197514	20:11:00	20:11:00		Powst. Warszawy stadion 06
+1583	2	197514	20:11:00	20:11:00		Powst. Warszawy stadion 06
+1583	2	197514	20:13:00	20:13:00		Powst. Warszawy Dom Studenta 08
+1583	2	197514	20:13:00	20:13:00		Powst. Warszawy Dom Studenta 08
+1583	2	197514	20:14:00	20:14:00		Powst. Warszawy / Graniczna 10
+1583	2	197514	20:14:00	20:14:00		Powst. Warszawy / Graniczna 10
+1583	2	197514	20:17:00	20:17:00		Rejtana / Armii Krajowej 12
+1583	2	197514	20:17:00	20:17:00		Rejtana / Armii Krajowej 12
+1583	2	197514	20:18:00	20:18:00		Rejtana / Paderewskiego 10
+1583	2	197514	20:18:00	20:18:00		Rejtana / Paderewskiego 10
+1583	2	197514	20:19:00	20:19:00		Rejtana / Krzyżanowskiego 08
+1583	2	197514	20:19:00	20:19:00		Rejtana / Krzyżanowskiego 08
+1583	2	197514	20:20:00	20:20:00		Rejtana Uniwersytet 06
+1583	2	197514	20:20:00	20:20:00		Rejtana Uniwersytet 06
+1583	2	197514	20:21:00	20:21:00		Rejtana cmentarz 04 nż
+1583	2	197514	20:21:00	20:21:00		Rejtana cmentarz 04 nż
+1583	2	197514	20:22:00	20:22:00		Rejtana / Kustronia 02
+1583	2	197514	20:22:00	20:22:00		Rejtana / Kustronia 02
+1583	2	197514	20:24:00	20:24:00		Piłsudskiego ZDZ 02
+1583	2	197514	20:24:00	20:24:00		Piłsudskiego ZDZ 02
+1583	2	197514	20:25:00	20:25:00		Pl. Wolności 04
+1583	2	197514	20:25:00	20:25:00		Pl. Wolności 04
+1583	2	197514	20:27:00	20:27:00		Dworzec Główny PKP 01
+1583	2	197514	20:27:00	20:27:00		Dworzec Główny PKP 01
+
+1583	2	197686	20:57:00	20:57:00		Dworzec Główny PKP 01
+1583	2	197686	20:57:00	20:57:00		Dworzec Główny PKP 01
+1583	2	197686	21:01:00	21:01:00		Cieplińskiego 02
+1583	2	197686	21:01:00	21:01:00		Cieplińskiego 02
+1583	2	197686	21:02:00	21:02:00		Lisa-Kuli 01
+1583	2	197686	21:02:00	21:02:00		Lisa-Kuli 01
+1583	2	197686	21:04:00	21:04:00		Dąbrowskiego park 02 nż
+1583	2	197686	21:04:00	21:04:00		Dąbrowskiego park 02 nż
+1583	2	197686	21:05:00	21:05:00		Dąbrowskiego KW Policji 04
+1583	2	197686	21:05:00	21:05:00		Dąbrowskiego KW Policji 04
+1583	2	197686	21:06:00	21:06:00		Dąbrowskiego / Boh. Westerplatte 08
+1583	2	197686	21:06:00	21:06:00		Dąbrowskiego / Boh. Westerplatte 08
+1583	2	197686	21:08:00	21:08:00		Powst. Warszawy / Dąbrowskiego 02
+1583	2	197686	21:08:00	21:08:00		Powst. Warszawy / Dąbrowskiego 02
+1583	2	197686	21:09:00	21:09:00		Powst. Warszawy Politechnika 04
+1583	2	197686	21:09:00	21:09:00		Powst. Warszawy Politechnika 04
+1583	2	197686	21:10:00	21:10:00		Powst. Warszawy stadion 06
+1583	2	197686	21:10:00	21:10:00		Powst. Warszawy stadion 06
+1583	2	197686	21:12:00	21:12:00		Powst. Warszawy Dom Studenta 08
+1583	2	197686	21:12:00	21:12:00		Powst. Warszawy Dom Studenta 08
+1583	2	197686	21:13:00	21:13:00		Powst. Warszawy / Graniczna 10
+1583	2	197686	21:13:00	21:13:00		Powst. Warszawy / Graniczna 10
+1583	2	197686	21:15:00	21:15:00		Rejtana / Armii Krajowej 12
+1583	2	197686	21:15:00	21:15:00		Rejtana / Armii Krajowej 12
+1583	2	197686	21:16:00	21:16:00		Rejtana / Paderewskiego 10
+1583	2	197686	21:16:00	21:16:00		Rejtana / Paderewskiego 10
+1583	2	197686	21:17:00	21:17:00		Rejtana / Krzyżanowskiego 08
+1583	2	197686	21:17:00	21:17:00		Rejtana / Krzyżanowskiego 08
+1583	2	197686	21:18:00	21:18:00		Rejtana Uniwersytet 06
+1583	2	197686	21:18:00	21:18:00		Rejtana Uniwersytet 06
+1583	2	197686	21:19:00	21:19:00		Rejtana cmentarz 04 nż
+1583	2	197686	21:19:00	21:19:00		Rejtana cmentarz 04 nż
+1583	2	197686	21:20:00	21:20:00		Rejtana / Kustronia 02
+1583	2	197686	21:20:00	21:20:00		Rejtana / Kustronia 02
+1583	2	197686	21:22:00	21:22:00		Piłsudskiego ZDZ 02
+1583	2	197686	21:22:00	21:22:00		Piłsudskiego ZDZ 02
+1583	2	197686	21:23:00	21:23:00		Pl. Wolności 04
+1583	2	197686	21:23:00	21:23:00		Pl. Wolności 04
+1583	2	197686	21:25:00	21:25:00		Dworzec Główny PKP 01
+1583	2	197686	21:25:00	21:25:00		Dworzec Główny PKP 01
+
+1583	2	197319	21:58:00	21:58:00		Dworzec Główny PKP 01
+1583	2	197319	21:58:00	21:58:00		Dworzec Główny PKP 01
+1583	2	197319	22:01:00	22:01:00		Cieplińskiego 02
+1583	2	197319	22:01:00	22:01:00		Cieplińskiego 02
+1583	2	197319	22:02:00	22:02:00		Lisa-Kuli 01
+1583	2	197319	22:02:00	22:02:00		Lisa-Kuli 01
+1583	2	197319	22:04:00	22:04:00		Dąbrowskiego park 02 nż
+1583	2	197319	22:04:00	22:04:00		Dąbrowskiego park 02 nż
+1583	2	197319	22:05:00	22:05:00		Dąbrowskiego KW Policji 04
+1583	2	197319	22:05:00	22:05:00		Dąbrowskiego KW Policji 04
+1583	2	197319	22:06:00	22:06:00		Dąbrowskiego / Boh. Westerplatte 08
+1583	2	197319	22:06:00	22:06:00		Dąbrowskiego / Boh. Westerplatte 08
+1583	2	197319	22:08:00	22:08:00		Powst. Warszawy / Dąbrowskiego 02
+1583	2	197319	22:08:00	22:08:00		Powst. Warszawy / Dąbrowskiego 02
+1583	2	197319	22:09:00	22:09:00		Powst. Warszawy Politechnika 04
+1583	2	197319	22:09:00	22:09:00		Powst. Warszawy Politechnika 04
+1583	2	197319	22:10:00	22:10:00		Powst. Warszawy stadion 06
+1583	2	197319	22:10:00	22:10:00		Powst. Warszawy stadion 06
+1583	2	197319	22:12:00	22:12:00		Powst. Warszawy Dom Studenta 08
+1583	2	197319	22:12:00	22:12:00		Powst. Warszawy Dom Studenta 08
+1583	2	197319	22:13:00	22:13:00		Powst. Warszawy / Graniczna 10
+1583	2	197319	22:13:00	22:13:00		Powst. Warszawy / Graniczna 10
+1583	2	197319	22:15:00	22:15:00		Rejtana / Armii Krajowej 12
+1583	2	197319	22:15:00	22:15:00		Rejtana / Armii Krajowej 12
+1583	2	197319	22:16:00	22:16:00		Rejtana / Paderewskiego 10
+1583	2	197319	22:16:00	22:16:00		Rejtana / Paderewskiego 10
+1583	2	197319	22:17:00	22:17:00		Rejtana / Krzyżanowskiego 08
+1583	2	197319	22:17:00	22:17:00		Rejtana / Krzyżanowskiego 08
+1583	2	197319	22:18:00	22:18:00		Rejtana Uniwersytet 06
+1583	2	197319	22:18:00	22:18:00		Rejtana Uniwersytet 06
+1583	2	197319	22:19:00	22:19:00		Rejtana cmentarz 04 nż
+1583	2	197319	22:19:00	22:19:00		Rejtana cmentarz 04 nż
+1583	2	197319	22:20:00	22:20:00		Rejtana / Kustronia 02
+1583	2	197319	22:20:00	22:20:00		Rejtana / Kustronia 02
+1583	2	197319	22:22:00	22:22:00		Piłsudskiego ZDZ 02
+1583	2	197319	22:22:00	22:22:00		Piłsudskiego ZDZ 02
+1583	2	197319	22:23:00	22:23:00		Pl. Wolności 04
+1583	2	197319	22:23:00	22:23:00		Pl. Wolności 04
+1583	2	197319	22:25:00	22:25:00		Dworzec Główny PKP 01
+1583	2	197319	22:25:00	22:25:00		Dworzec Główny PKP 01
+
+1583	2	197468	22:58:00	22:58:00		Dworzec Główny PKP 01
+1583	2	197468	22:58:00	22:58:00		Dworzec Główny PKP 01
+1583	2	197468	23:01:00	23:01:00		Cieplińskiego 02
+1583	2	197468	23:01:00	23:01:00		Cieplińskiego 02
+1583	2	197468	23:02:00	23:02:00		Lisa-Kuli 01
+1583	2	197468	23:02:00	23:02:00		Lisa-Kuli 01
+1583	2	197468	23:04:00	23:04:00		Dąbrowskiego park 02 nż
+1583	2	197468	23:04:00	23:04:00		Dąbrowskiego park 02 nż
+1583	2	197468	23:05:00	23:05:00		Dąbrowskiego KW Policji 04
+1583	2	197468	23:05:00	23:05:00		Dąbrowskiego KW Policji 04
+1583	2	197468	23:06:00	23:06:00		Dąbrowskiego / Boh. Westerplatte 08
+1583	2	197468	23:06:00	23:06:00		Dąbrowskiego / Boh. Westerplatte 08
+1583	2	197468	23:08:00	23:08:00		Powst. Warszawy / Dąbrowskiego 02
+1583	2	197468	23:08:00	23:08:00		Powst. Warszawy / Dąbrowskiego 02
+1583	2	197468	23:09:00	23:09:00		Powst. Warszawy Politechnika 04
+1583	2	197468	23:09:00	23:09:00		Powst. Warszawy Politechnika 04
+1583	2	197468	23:10:00	23:10:00		Powst. Warszawy stadion 06
+1583	2	197468	23:10:00	23:10:00		Powst. Warszawy stadion 06
+1583	2	197468	23:12:00	23:12:00		Powst. Warszawy Dom Studenta 08
+1583	2	197468	23:12:00	23:12:00		Powst. Warszawy Dom Studenta 08
+1583	2	197468	23:13:00	23:13:00		Powst. Warszawy / Graniczna 10
+1583	2	197468	23:13:00	23:13:00		Powst. Warszawy / Graniczna 10
+1583	2	197468	23:15:00	23:15:00		Rejtana / Armii Krajowej 12
+1583	2	197468	23:15:00	23:15:00		Rejtana / Armii Krajowej 12
+1583	2	197468	23:16:00	23:16:00		Rejtana / Paderewskiego 10
+1583	2	197468	23:16:00	23:16:00		Rejtana / Paderewskiego 10
+1583	2	197468	23:17:00	23:17:00		Rejtana / Krzyżanowskiego 08
+1583	2	197468	23:17:00	23:17:00		Rejtana / Krzyżanowskiego 08
+1583	2	197468	23:18:00	23:18:00		Rejtana Uniwersytet 06
+1583	2	197468	23:18:00	23:18:00		Rejtana Uniwersytet 06
+1583	2	197468	23:19:00	23:19:00		Rejtana cmentarz 04 nż
+1583	2	197468	23:19:00	23:19:00		Rejtana cmentarz 04 nż
+1583	2	197468	23:20:00	23:20:00		Rejtana / Kustronia 02
+1583	2	197468	23:20:00	23:20:00		Rejtana / Kustronia 02
+1583	2	197468	23:22:00	23:22:00		Piłsudskiego ZDZ 02
+1583	2	197468	23:22:00	23:22:00		Piłsudskiego ZDZ 02
+1583	2	197468	23:23:00	23:23:00		Pl. Wolności 04
+1583	2	197468	23:23:00	23:23:00		Pl. Wolności 04
+1583	2	197468	23:25:00	23:25:00		Dworzec Główny PKP 01
+1583	2	197468	23:25:00	23:25:00		Dworzec Główny PKP 01

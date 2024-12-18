@@ -1,0 +1,697 @@
+route_id	service_id	trip_id	arrival_time	departure_time	stop_headsign	stop_name
+-------------------------------------------------------------------------------
+1582	2	197475	07:30:00	07:30:00		Dworzec Główny PKP 03
+1582	2	197475	07:32:00	07:32:00		Pl. Kilińskiego 01
+1582	2	197475	07:32:00	07:32:00		Pl. Kilińskiego 01
+1582	2	197475	07:34:00	07:34:00		Pl. Wolności 01
+1582	2	197475	07:34:00	07:34:00		Pl. Wolności 01
+1582	2	197475	07:37:00	07:37:00		Rejtana / Lwowska 01
+1582	2	197475	07:37:00	07:37:00		Rejtana / Lwowska 01
+1582	2	197475	07:38:00	07:38:00		Rejtana / Kustronia 03 nż
+1582	2	197475	07:38:00	07:38:00		Rejtana / Kustronia 03 nż
+1582	2	197475	07:39:00	07:39:00		Rejtana Uniwersytet 05
+1582	2	197475	07:39:00	07:39:00		Rejtana Uniwersytet 05
+1582	2	197475	07:41:00	07:41:00		Rejtana / Kopisto 07
+1582	2	197475	07:41:00	07:41:00		Rejtana / Kopisto 07
+1582	2	197475	07:42:00	07:42:00		Rejtana / Popiełuszki 09
+1582	2	197475	07:42:00	07:42:00		Rejtana / Popiełuszki 09
+1582	2	197475	07:45:00	07:45:00		Powst. Warszawy / Rejtana 13
+1582	2	197475	07:45:00	07:45:00		Powst. Warszawy / Rejtana 13
+1582	2	197475	07:46:00	07:46:00		Powst. Warszawy szkoła 11
+1582	2	197475	07:46:00	07:46:00		Powst. Warszawy szkoła 11
+1582	2	197475	07:47:00	07:47:00		Powst. Warszawy Dom Studenta 09
+1582	2	197475	07:47:00	07:47:00		Powst. Warszawy Dom Studenta 09
+1582	2	197475	07:50:00	07:50:00		Powst. Warszawy / Hetmańska 03
+1582	2	197475	07:50:00	07:50:00		Powst. Warszawy / Hetmańska 03
+1582	2	197475	07:51:00	07:51:00		Powst. Warszawy Politechnika 01
+1582	2	197475	07:51:00	07:51:00		Powst. Warszawy Politechnika 01
+1582	2	197475	07:53:00	07:53:00		Dąbrowskiego Instytut Muzyki 07
+1582	2	197475	07:53:00	07:53:00		Dąbrowskiego Instytut Muzyki 07
+1582	2	197475	07:54:00	07:54:00		Dąbrowskiego KW Policji 03
+1582	2	197475	07:54:00	07:54:00		Dąbrowskiego KW Policji 03
+1582	2	197475	07:55:00	07:55:00		Dąbrowskiego park 01 nż
+1582	2	197475	07:55:00	07:55:00		Dąbrowskiego park 01 nż
+1582	2	197475	07:59:00	07:59:00		Lisa-Kuli 02
+1582	2	197475	07:59:00	07:59:00		Lisa-Kuli 02
+1582	2	197475	08:00:00	08:00:00		Cieplińskiego 01
+1582	2	197475	08:00:00	08:00:00		Cieplińskiego 01
+1582	2	197475	08:01:00	08:01:00		Piłsudskiego U. Wojewódzki 03
+1582	2	197475	08:01:00	08:01:00		Piłsudskiego U. Wojewódzki 03
+1582	2	197475	08:04:00	08:04:00		Dworzec Główny PKP 03
+1582	2	197475	08:04:00	08:04:00		Dworzec Główny PKP 03
+
+1582	2	197123	08:31:00	08:31:00		Dworzec Główny PKP 03
+1582	2	197123	08:31:00	08:31:00		Dworzec Główny PKP 03
+1582	2	197123	08:33:00	08:33:00		Pl. Kilińskiego 01
+1582	2	197123	08:33:00	08:33:00		Pl. Kilińskiego 01
+1582	2	197123	08:35:00	08:35:00		Pl. Wolności 01
+1582	2	197123	08:35:00	08:35:00		Pl. Wolności 01
+1582	2	197123	08:38:00	08:38:00		Rejtana / Lwowska 01
+1582	2	197123	08:38:00	08:38:00		Rejtana / Lwowska 01
+1582	2	197123	08:39:00	08:39:00		Rejtana / Kustronia 03 nż
+1582	2	197123	08:39:00	08:39:00		Rejtana / Kustronia 03 nż
+1582	2	197123	08:40:00	08:40:00		Rejtana Uniwersytet 05
+1582	2	197123	08:40:00	08:40:00		Rejtana Uniwersytet 05
+1582	2	197123	08:42:00	08:42:00		Rejtana / Kopisto 07
+1582	2	197123	08:42:00	08:42:00		Rejtana / Kopisto 07
+1582	2	197123	08:43:00	08:43:00		Rejtana / Popiełuszki 09
+1582	2	197123	08:43:00	08:43:00		Rejtana / Popiełuszki 09
+1582	2	197123	08:46:00	08:46:00		Powst. Warszawy / Rejtana 13
+1582	2	197123	08:46:00	08:46:00		Powst. Warszawy / Rejtana 13
+1582	2	197123	08:47:00	08:47:00		Powst. Warszawy szkoła 11
+1582	2	197123	08:47:00	08:47:00		Powst. Warszawy szkoła 11
+1582	2	197123	08:48:00	08:48:00		Powst. Warszawy Dom Studenta 09
+1582	2	197123	08:48:00	08:48:00		Powst. Warszawy Dom Studenta 09
+1582	2	197123	08:51:00	08:51:00		Powst. Warszawy / Hetmańska 03
+1582	2	197123	08:51:00	08:51:00		Powst. Warszawy / Hetmańska 03
+1582	2	197123	08:52:00	08:52:00		Powst. Warszawy Politechnika 01
+1582	2	197123	08:52:00	08:52:00		Powst. Warszawy Politechnika 01
+1582	2	197123	08:54:00	08:54:00		Dąbrowskiego Instytut Muzyki 07
+1582	2	197123	08:54:00	08:54:00		Dąbrowskiego Instytut Muzyki 07
+1582	2	197123	08:55:00	08:55:00		Dąbrowskiego KW Policji 03
+1582	2	197123	08:55:00	08:55:00		Dąbrowskiego KW Policji 03
+1582	2	197123	08:56:00	08:56:00		Dąbrowskiego park 01 nż
+1582	2	197123	08:56:00	08:56:00		Dąbrowskiego park 01 nż
+1582	2	197123	09:00:00	09:00:00		Lisa-Kuli 02
+1582	2	197123	09:00:00	09:00:00		Lisa-Kuli 02
+1582	2	197123	09:01:00	09:01:00		Cieplińskiego 01
+1582	2	197123	09:01:00	09:01:00		Cieplińskiego 01
+1582	2	197123	09:03:00	09:03:00		Piłsudskiego U. Wojewódzki 03
+1582	2	197123	09:03:00	09:03:00		Piłsudskiego U. Wojewódzki 03
+1582	2	197123	09:06:00	09:06:00		Dworzec Główny PKP 03
+1582	2	197123	09:06:00	09:06:00		Dworzec Główny PKP 03
+
+1582	2	197397	09:31:00	09:31:00		Dworzec Główny PKP 03
+1582	2	197397	09:31:00	09:31:00		Dworzec Główny PKP 03
+1582	2	197397	09:33:00	09:33:00		Pl. Kilińskiego 01
+1582	2	197397	09:33:00	09:33:00		Pl. Kilińskiego 01
+1582	2	197397	09:35:00	09:35:00		Pl. Wolności 01
+1582	2	197397	09:35:00	09:35:00		Pl. Wolności 01
+1582	2	197397	09:38:00	09:38:00		Rejtana / Lwowska 01
+1582	2	197397	09:38:00	09:38:00		Rejtana / Lwowska 01
+1582	2	197397	09:39:00	09:39:00		Rejtana / Kustronia 03 nż
+1582	2	197397	09:39:00	09:39:00		Rejtana / Kustronia 03 nż
+1582	2	197397	09:40:00	09:40:00		Rejtana Uniwersytet 05
+1582	2	197397	09:40:00	09:40:00		Rejtana Uniwersytet 05
+1582	2	197397	09:42:00	09:42:00		Rejtana / Kopisto 07
+1582	2	197397	09:42:00	09:42:00		Rejtana / Kopisto 07
+1582	2	197397	09:43:00	09:43:00		Rejtana / Popiełuszki 09
+1582	2	197397	09:43:00	09:43:00		Rejtana / Popiełuszki 09
+1582	2	197397	09:46:00	09:46:00		Powst. Warszawy / Rejtana 13
+1582	2	197397	09:46:00	09:46:00		Powst. Warszawy / Rejtana 13
+1582	2	197397	09:47:00	09:47:00		Powst. Warszawy szkoła 11
+1582	2	197397	09:47:00	09:47:00		Powst. Warszawy szkoła 11
+1582	2	197397	09:48:00	09:48:00		Powst. Warszawy Dom Studenta 09
+1582	2	197397	09:48:00	09:48:00		Powst. Warszawy Dom Studenta 09
+1582	2	197397	09:51:00	09:51:00		Powst. Warszawy / Hetmańska 03
+1582	2	197397	09:51:00	09:51:00		Powst. Warszawy / Hetmańska 03
+1582	2	197397	09:52:00	09:52:00		Powst. Warszawy Politechnika 01
+1582	2	197397	09:52:00	09:52:00		Powst. Warszawy Politechnika 01
+1582	2	197397	09:54:00	09:54:00		Dąbrowskiego Instytut Muzyki 07
+1582	2	197397	09:54:00	09:54:00		Dąbrowskiego Instytut Muzyki 07
+1582	2	197397	09:55:00	09:55:00		Dąbrowskiego KW Policji 03
+1582	2	197397	09:55:00	09:55:00		Dąbrowskiego KW Policji 03
+1582	2	197397	09:56:00	09:56:00		Dąbrowskiego park 01 nż
+1582	2	197397	09:56:00	09:56:00		Dąbrowskiego park 01 nż
+1582	2	197397	10:00:00	10:00:00		Lisa-Kuli 02
+1582	2	197397	10:00:00	10:00:00		Lisa-Kuli 02
+1582	2	197397	10:01:00	10:01:00		Cieplińskiego 01
+1582	2	197397	10:01:00	10:01:00		Cieplińskiego 01
+1582	2	197397	10:03:00	10:03:00		Piłsudskiego U. Wojewódzki 03
+1582	2	197397	10:03:00	10:03:00		Piłsudskiego U. Wojewódzki 03
+1582	2	197397	10:06:00	10:06:00		Dworzec Główny PKP 03
+1582	2	197397	10:06:00	10:06:00		Dworzec Główny PKP 03
+
+1582	2	197144	10:31:00	10:31:00		Dworzec Główny PKP 03
+1582	2	197144	10:31:00	10:31:00		Dworzec Główny PKP 03
+1582	2	197144	10:33:00	10:33:00		Pl. Kilińskiego 01
+1582	2	197144	10:33:00	10:33:00		Pl. Kilińskiego 01
+1582	2	197144	10:35:00	10:35:00		Pl. Wolności 01
+1582	2	197144	10:35:00	10:35:00		Pl. Wolności 01
+1582	2	197144	10:38:00	10:38:00		Rejtana / Lwowska 01
+1582	2	197144	10:38:00	10:38:00		Rejtana / Lwowska 01
+1582	2	197144	10:39:00	10:39:00		Rejtana / Kustronia 03 nż
+1582	2	197144	10:39:00	10:39:00		Rejtana / Kustronia 03 nż
+1582	2	197144	10:40:00	10:40:00		Rejtana Uniwersytet 05
+1582	2	197144	10:40:00	10:40:00		Rejtana Uniwersytet 05
+1582	2	197144	10:42:00	10:42:00		Rejtana / Kopisto 07
+1582	2	197144	10:42:00	10:42:00		Rejtana / Kopisto 07
+1582	2	197144	10:43:00	10:43:00		Rejtana / Popiełuszki 09
+1582	2	197144	10:43:00	10:43:00		Rejtana / Popiełuszki 09
+1582	2	197144	10:46:00	10:46:00		Powst. Warszawy / Rejtana 13
+1582	2	197144	10:46:00	10:46:00		Powst. Warszawy / Rejtana 13
+1582	2	197144	10:47:00	10:47:00		Powst. Warszawy szkoła 11
+1582	2	197144	10:47:00	10:47:00		Powst. Warszawy szkoła 11
+1582	2	197144	10:48:00	10:48:00		Powst. Warszawy Dom Studenta 09
+1582	2	197144	10:48:00	10:48:00		Powst. Warszawy Dom Studenta 09
+1582	2	197144	10:51:00	10:51:00		Powst. Warszawy / Hetmańska 03
+1582	2	197144	10:51:00	10:51:00		Powst. Warszawy / Hetmańska 03
+1582	2	197144	10:52:00	10:52:00		Powst. Warszawy Politechnika 01
+1582	2	197144	10:52:00	10:52:00		Powst. Warszawy Politechnika 01
+1582	2	197144	10:54:00	10:54:00		Dąbrowskiego Instytut Muzyki 07
+1582	2	197144	10:54:00	10:54:00		Dąbrowskiego Instytut Muzyki 07
+1582	2	197144	10:55:00	10:55:00		Dąbrowskiego KW Policji 03
+1582	2	197144	10:55:00	10:55:00		Dąbrowskiego KW Policji 03
+1582	2	197144	10:56:00	10:56:00		Dąbrowskiego park 01 nż
+1582	2	197144	10:56:00	10:56:00		Dąbrowskiego park 01 nż
+1582	2	197144	11:00:00	11:00:00		Lisa-Kuli 02
+1582	2	197144	11:00:00	11:00:00		Lisa-Kuli 02
+1582	2	197144	11:01:00	11:01:00		Cieplińskiego 01
+1582	2	197144	11:01:00	11:01:00		Cieplińskiego 01
+1582	2	197144	11:03:00	11:03:00		Piłsudskiego U. Wojewódzki 03
+1582	2	197144	11:03:00	11:03:00		Piłsudskiego U. Wojewódzki 03
+1582	2	197144	11:06:00	11:06:00		Dworzec Główny PKP 03
+1582	2	197144	11:06:00	11:06:00		Dworzec Główny PKP 03
+
+1582	2	197216	11:31:00	11:31:00		Dworzec Główny PKP 03
+1582	2	197216	11:31:00	11:31:00		Dworzec Główny PKP 03
+1582	2	197216	11:33:00	11:33:00		Pl. Kilińskiego 01
+1582	2	197216	11:33:00	11:33:00		Pl. Kilińskiego 01
+1582	2	197216	11:35:00	11:35:00		Pl. Wolności 01
+1582	2	197216	11:35:00	11:35:00		Pl. Wolności 01
+1582	2	197216	11:38:00	11:38:00		Rejtana / Lwowska 01
+1582	2	197216	11:38:00	11:38:00		Rejtana / Lwowska 01
+1582	2	197216	11:39:00	11:39:00		Rejtana / Kustronia 03 nż
+1582	2	197216	11:39:00	11:39:00		Rejtana / Kustronia 03 nż
+1582	2	197216	11:40:00	11:40:00		Rejtana Uniwersytet 05
+1582	2	197216	11:40:00	11:40:00		Rejtana Uniwersytet 05
+1582	2	197216	11:42:00	11:42:00		Rejtana / Kopisto 07
+1582	2	197216	11:42:00	11:42:00		Rejtana / Kopisto 07
+1582	2	197216	11:43:00	11:43:00		Rejtana / Popiełuszki 09
+1582	2	197216	11:43:00	11:43:00		Rejtana / Popiełuszki 09
+1582	2	197216	11:46:00	11:46:00		Powst. Warszawy / Rejtana 13
+1582	2	197216	11:46:00	11:46:00		Powst. Warszawy / Rejtana 13
+1582	2	197216	11:47:00	11:47:00		Powst. Warszawy szkoła 11
+1582	2	197216	11:47:00	11:47:00		Powst. Warszawy szkoła 11
+1582	2	197216	11:48:00	11:48:00		Powst. Warszawy Dom Studenta 09
+1582	2	197216	11:48:00	11:48:00		Powst. Warszawy Dom Studenta 09
+1582	2	197216	11:51:00	11:51:00		Powst. Warszawy / Hetmańska 03
+1582	2	197216	11:51:00	11:51:00		Powst. Warszawy / Hetmańska 03
+1582	2	197216	11:52:00	11:52:00		Powst. Warszawy Politechnika 01
+1582	2	197216	11:52:00	11:52:00		Powst. Warszawy Politechnika 01
+1582	2	197216	11:55:00	11:55:00		Dąbrowskiego Instytut Muzyki 07
+1582	2	197216	11:55:00	11:55:00		Dąbrowskiego Instytut Muzyki 07
+1582	2	197216	11:56:00	11:56:00		Dąbrowskiego KW Policji 03
+1582	2	197216	11:56:00	11:56:00		Dąbrowskiego KW Policji 03
+1582	2	197216	11:57:00	11:57:00		Dąbrowskiego park 01 nż
+1582	2	197216	11:57:00	11:57:00		Dąbrowskiego park 01 nż
+1582	2	197216	12:01:00	12:01:00		Lisa-Kuli 02
+1582	2	197216	12:01:00	12:01:00		Lisa-Kuli 02
+1582	2	197216	12:02:00	12:02:00		Cieplińskiego 01
+1582	2	197216	12:02:00	12:02:00		Cieplińskiego 01
+1582	2	197216	12:04:00	12:04:00		Piłsudskiego U. Wojewódzki 03
+1582	2	197216	12:04:00	12:04:00		Piłsudskiego U. Wojewódzki 03
+1582	2	197216	12:07:00	12:07:00		Dworzec Główny PKP 03
+1582	2	197216	12:07:00	12:07:00		Dworzec Główny PKP 03
+
+1582	2	197416	12:31:00	12:31:00		Dworzec Główny PKP 03
+1582	2	197416	12:31:00	12:31:00		Dworzec Główny PKP 03
+1582	2	197416	12:33:00	12:33:00		Pl. Kilińskiego 01
+1582	2	197416	12:33:00	12:33:00		Pl. Kilińskiego 01
+1582	2	197416	12:35:00	12:35:00		Pl. Wolności 01
+1582	2	197416	12:35:00	12:35:00		Pl. Wolności 01
+1582	2	197416	12:38:00	12:38:00		Rejtana / Lwowska 01
+1582	2	197416	12:38:00	12:38:00		Rejtana / Lwowska 01
+1582	2	197416	12:39:00	12:39:00		Rejtana / Kustronia 03 nż
+1582	2	197416	12:39:00	12:39:00		Rejtana / Kustronia 03 nż
+1582	2	197416	12:40:00	12:40:00		Rejtana Uniwersytet 05
+1582	2	197416	12:40:00	12:40:00		Rejtana Uniwersytet 05
+1582	2	197416	12:42:00	12:42:00		Rejtana / Kopisto 07
+1582	2	197416	12:42:00	12:42:00		Rejtana / Kopisto 07
+1582	2	197416	12:43:00	12:43:00		Rejtana / Popiełuszki 09
+1582	2	197416	12:43:00	12:43:00		Rejtana / Popiełuszki 09
+1582	2	197416	12:46:00	12:46:00		Powst. Warszawy / Rejtana 13
+1582	2	197416	12:46:00	12:46:00		Powst. Warszawy / Rejtana 13
+1582	2	197416	12:47:00	12:47:00		Powst. Warszawy szkoła 11
+1582	2	197416	12:47:00	12:47:00		Powst. Warszawy szkoła 11
+1582	2	197416	12:48:00	12:48:00		Powst. Warszawy Dom Studenta 09
+1582	2	197416	12:48:00	12:48:00		Powst. Warszawy Dom Studenta 09
+1582	2	197416	12:51:00	12:51:00		Powst. Warszawy / Hetmańska 03
+1582	2	197416	12:51:00	12:51:00		Powst. Warszawy / Hetmańska 03
+1582	2	197416	12:52:00	12:52:00		Powst. Warszawy Politechnika 01
+1582	2	197416	12:52:00	12:52:00		Powst. Warszawy Politechnika 01
+1582	2	197416	12:55:00	12:55:00		Dąbrowskiego Instytut Muzyki 07
+1582	2	197416	12:55:00	12:55:00		Dąbrowskiego Instytut Muzyki 07
+1582	2	197416	12:56:00	12:56:00		Dąbrowskiego KW Policji 03
+1582	2	197416	12:56:00	12:56:00		Dąbrowskiego KW Policji 03
+1582	2	197416	12:57:00	12:57:00		Dąbrowskiego park 01 nż
+1582	2	197416	12:57:00	12:57:00		Dąbrowskiego park 01 nż
+1582	2	197416	13:01:00	13:01:00		Lisa-Kuli 02
+1582	2	197416	13:01:00	13:01:00		Lisa-Kuli 02
+1582	2	197416	13:02:00	13:02:00		Cieplińskiego 01
+1582	2	197416	13:02:00	13:02:00		Cieplińskiego 01
+1582	2	197416	13:04:00	13:04:00		Piłsudskiego U. Wojewódzki 03
+1582	2	197416	13:04:00	13:04:00		Piłsudskiego U. Wojewódzki 03
+1582	2	197416	13:07:00	13:07:00		Dworzec Główny PKP 03
+1582	2	197416	13:07:00	13:07:00		Dworzec Główny PKP 03
+
+1582	2	197639	13:31:00	13:31:00		Dworzec Główny PKP 03
+1582	2	197639	13:31:00	13:31:00		Dworzec Główny PKP 03
+1582	2	197639	13:33:00	13:33:00		Pl. Kilińskiego 01
+1582	2	197639	13:33:00	13:33:00		Pl. Kilińskiego 01
+1582	2	197639	13:35:00	13:35:00		Pl. Wolności 01
+1582	2	197639	13:35:00	13:35:00		Pl. Wolności 01
+1582	2	197639	13:38:00	13:38:00		Rejtana / Lwowska 01
+1582	2	197639	13:38:00	13:38:00		Rejtana / Lwowska 01
+1582	2	197639	13:39:00	13:39:00		Rejtana / Kustronia 03 nż
+1582	2	197639	13:39:00	13:39:00		Rejtana / Kustronia 03 nż
+1582	2	197639	13:40:00	13:40:00		Rejtana Uniwersytet 05
+1582	2	197639	13:40:00	13:40:00		Rejtana Uniwersytet 05
+1582	2	197639	13:42:00	13:42:00		Rejtana / Kopisto 07
+1582	2	197639	13:42:00	13:42:00		Rejtana / Kopisto 07
+1582	2	197639	13:43:00	13:43:00		Rejtana / Popiełuszki 09
+1582	2	197639	13:43:00	13:43:00		Rejtana / Popiełuszki 09
+1582	2	197639	13:46:00	13:46:00		Powst. Warszawy / Rejtana 13
+1582	2	197639	13:46:00	13:46:00		Powst. Warszawy / Rejtana 13
+1582	2	197639	13:47:00	13:47:00		Powst. Warszawy szkoła 11
+1582	2	197639	13:47:00	13:47:00		Powst. Warszawy szkoła 11
+1582	2	197639	13:48:00	13:48:00		Powst. Warszawy Dom Studenta 09
+1582	2	197639	13:48:00	13:48:00		Powst. Warszawy Dom Studenta 09
+1582	2	197639	13:51:00	13:51:00		Powst. Warszawy / Hetmańska 03
+1582	2	197639	13:51:00	13:51:00		Powst. Warszawy / Hetmańska 03
+1582	2	197639	13:52:00	13:52:00		Powst. Warszawy Politechnika 01
+1582	2	197639	13:52:00	13:52:00		Powst. Warszawy Politechnika 01
+1582	2	197639	13:55:00	13:55:00		Dąbrowskiego Instytut Muzyki 07
+1582	2	197639	13:55:00	13:55:00		Dąbrowskiego Instytut Muzyki 07
+1582	2	197639	13:56:00	13:56:00		Dąbrowskiego KW Policji 03
+1582	2	197639	13:56:00	13:56:00		Dąbrowskiego KW Policji 03
+1582	2	197639	13:57:00	13:57:00		Dąbrowskiego park 01 nż
+1582	2	197639	13:57:00	13:57:00		Dąbrowskiego park 01 nż
+1582	2	197639	14:01:00	14:01:00		Lisa-Kuli 02
+1582	2	197639	14:01:00	14:01:00		Lisa-Kuli 02
+1582	2	197639	14:02:00	14:02:00		Cieplińskiego 01
+1582	2	197639	14:02:00	14:02:00		Cieplińskiego 01
+1582	2	197639	14:04:00	14:04:00		Piłsudskiego U. Wojewódzki 03
+1582	2	197639	14:04:00	14:04:00		Piłsudskiego U. Wojewódzki 03
+1582	2	197639	14:07:00	14:07:00		Dworzec Główny PKP 03
+1582	2	197639	14:07:00	14:07:00		Dworzec Główny PKP 03
+
+1582	2	197258	14:32:00	14:32:00		Dworzec Główny PKP 03
+1582	2	197258	14:32:00	14:32:00		Dworzec Główny PKP 03
+1582	2	197258	14:34:00	14:34:00		Pl. Kilińskiego 01
+1582	2	197258	14:34:00	14:34:00		Pl. Kilińskiego 01
+1582	2	197258	14:36:00	14:36:00		Pl. Wolności 01
+1582	2	197258	14:36:00	14:36:00		Pl. Wolności 01
+1582	2	197258	14:39:00	14:39:00		Rejtana / Lwowska 01
+1582	2	197258	14:39:00	14:39:00		Rejtana / Lwowska 01
+1582	2	197258	14:40:00	14:40:00		Rejtana / Kustronia 03 nż
+1582	2	197258	14:40:00	14:40:00		Rejtana / Kustronia 03 nż
+1582	2	197258	14:41:00	14:41:00		Rejtana Uniwersytet 05
+1582	2	197258	14:41:00	14:41:00		Rejtana Uniwersytet 05
+1582	2	197258	14:43:00	14:43:00		Rejtana / Kopisto 07
+1582	2	197258	14:43:00	14:43:00		Rejtana / Kopisto 07
+1582	2	197258	14:45:00	14:45:00		Rejtana / Popiełuszki 09
+1582	2	197258	14:45:00	14:45:00		Rejtana / Popiełuszki 09
+1582	2	197258	14:48:00	14:48:00		Powst. Warszawy / Rejtana 13
+1582	2	197258	14:48:00	14:48:00		Powst. Warszawy / Rejtana 13
+1582	2	197258	14:49:00	14:49:00		Powst. Warszawy szkoła 11
+1582	2	197258	14:49:00	14:49:00		Powst. Warszawy szkoła 11
+1582	2	197258	14:50:00	14:50:00		Powst. Warszawy Dom Studenta 09
+1582	2	197258	14:50:00	14:50:00		Powst. Warszawy Dom Studenta 09
+1582	2	197258	14:53:00	14:53:00		Powst. Warszawy / Hetmańska 03
+1582	2	197258	14:53:00	14:53:00		Powst. Warszawy / Hetmańska 03
+1582	2	197258	14:54:00	14:54:00		Powst. Warszawy Politechnika 01
+1582	2	197258	14:54:00	14:54:00		Powst. Warszawy Politechnika 01
+1582	2	197258	14:57:00	14:57:00		Dąbrowskiego Instytut Muzyki 07
+1582	2	197258	14:57:00	14:57:00		Dąbrowskiego Instytut Muzyki 07
+1582	2	197258	14:58:00	14:58:00		Dąbrowskiego KW Policji 03
+1582	2	197258	14:58:00	14:58:00		Dąbrowskiego KW Policji 03
+1582	2	197258	14:59:00	14:59:00		Dąbrowskiego park 01 nż
+1582	2	197258	14:59:00	14:59:00		Dąbrowskiego park 01 nż
+1582	2	197258	15:05:00	15:05:00		Lisa-Kuli 02
+1582	2	197258	15:05:00	15:05:00		Lisa-Kuli 02
+1582	2	197258	15:06:00	15:06:00		Cieplińskiego 01
+1582	2	197258	15:06:00	15:06:00		Cieplińskiego 01
+1582	2	197258	15:08:00	15:08:00		Piłsudskiego U. Wojewódzki 03
+1582	2	197258	15:08:00	15:08:00		Piłsudskiego U. Wojewódzki 03
+1582	2	197258	15:12:00	15:12:00		Dworzec Główny PKP 03
+1582	2	197258	15:12:00	15:12:00		Dworzec Główny PKP 03
+
+1582	2	197539	15:33:00	15:33:00		Dworzec Główny PKP 03
+1582	2	197539	15:33:00	15:33:00		Dworzec Główny PKP 03
+1582	2	197539	15:35:00	15:35:00		Pl. Kilińskiego 01
+1582	2	197539	15:35:00	15:35:00		Pl. Kilińskiego 01
+1582	2	197539	15:37:00	15:37:00		Pl. Wolności 01
+1582	2	197539	15:37:00	15:37:00		Pl. Wolności 01
+1582	2	197539	15:40:00	15:40:00		Rejtana / Lwowska 01
+1582	2	197539	15:40:00	15:40:00		Rejtana / Lwowska 01
+1582	2	197539	15:41:00	15:41:00		Rejtana / Kustronia 03 nż
+1582	2	197539	15:41:00	15:41:00		Rejtana / Kustronia 03 nż
+1582	2	197539	15:42:00	15:42:00		Rejtana Uniwersytet 05
+1582	2	197539	15:42:00	15:42:00		Rejtana Uniwersytet 05
+1582	2	197539	15:44:00	15:44:00		Rejtana / Kopisto 07
+1582	2	197539	15:44:00	15:44:00		Rejtana / Kopisto 07
+1582	2	197539	15:46:00	15:46:00		Rejtana / Popiełuszki 09
+1582	2	197539	15:46:00	15:46:00		Rejtana / Popiełuszki 09
+1582	2	197539	15:49:00	15:49:00		Powst. Warszawy / Rejtana 13
+1582	2	197539	15:49:00	15:49:00		Powst. Warszawy / Rejtana 13
+1582	2	197539	15:50:00	15:50:00		Powst. Warszawy szkoła 11
+1582	2	197539	15:50:00	15:50:00		Powst. Warszawy szkoła 11
+1582	2	197539	15:51:00	15:51:00		Powst. Warszawy Dom Studenta 09
+1582	2	197539	15:51:00	15:51:00		Powst. Warszawy Dom Studenta 09
+1582	2	197539	15:54:00	15:54:00		Powst. Warszawy / Hetmańska 03
+1582	2	197539	15:54:00	15:54:00		Powst. Warszawy / Hetmańska 03
+1582	2	197539	15:55:00	15:55:00		Powst. Warszawy Politechnika 01
+1582	2	197539	15:55:00	15:55:00		Powst. Warszawy Politechnika 01
+1582	2	197539	15:58:00	15:58:00		Dąbrowskiego Instytut Muzyki 07
+1582	2	197539	15:58:00	15:58:00		Dąbrowskiego Instytut Muzyki 07
+1582	2	197539	15:59:00	15:59:00		Dąbrowskiego KW Policji 03
+1582	2	197539	15:59:00	15:59:00		Dąbrowskiego KW Policji 03
+1582	2	197539	16:00:00	16:00:00		Dąbrowskiego park 01 nż
+1582	2	197539	16:00:00	16:00:00		Dąbrowskiego park 01 nż
+1582	2	197539	16:06:00	16:06:00		Lisa-Kuli 02
+1582	2	197539	16:06:00	16:06:00		Lisa-Kuli 02
+1582	2	197539	16:07:00	16:07:00		Cieplińskiego 01
+1582	2	197539	16:07:00	16:07:00		Cieplińskiego 01
+1582	2	197539	16:09:00	16:09:00		Piłsudskiego U. Wojewódzki 03
+1582	2	197539	16:09:00	16:09:00		Piłsudskiego U. Wojewódzki 03
+1582	2	197539	16:13:00	16:13:00		Dworzec Główny PKP 03
+1582	2	197539	16:13:00	16:13:00		Dworzec Główny PKP 03
+
+1582	2	197267	16:35:00	16:35:00		Dworzec Główny PKP 03
+1582	2	197267	16:35:00	16:35:00		Dworzec Główny PKP 03
+1582	2	197267	16:37:00	16:37:00		Pl. Kilińskiego 01
+1582	2	197267	16:37:00	16:37:00		Pl. Kilińskiego 01
+1582	2	197267	16:39:00	16:39:00		Pl. Wolności 01
+1582	2	197267	16:39:00	16:39:00		Pl. Wolności 01
+1582	2	197267	16:42:00	16:42:00		Rejtana / Lwowska 01
+1582	2	197267	16:42:00	16:42:00		Rejtana / Lwowska 01
+1582	2	197267	16:43:00	16:43:00		Rejtana / Kustronia 03 nż
+1582	2	197267	16:43:00	16:43:00		Rejtana / Kustronia 03 nż
+1582	2	197267	16:44:00	16:44:00		Rejtana Uniwersytet 05
+1582	2	197267	16:44:00	16:44:00		Rejtana Uniwersytet 05
+1582	2	197267	16:46:00	16:46:00		Rejtana / Kopisto 07
+1582	2	197267	16:46:00	16:46:00		Rejtana / Kopisto 07
+1582	2	197267	16:47:00	16:47:00		Rejtana / Popiełuszki 09
+1582	2	197267	16:47:00	16:47:00		Rejtana / Popiełuszki 09
+1582	2	197267	16:50:00	16:50:00		Powst. Warszawy / Rejtana 13
+1582	2	197267	16:50:00	16:50:00		Powst. Warszawy / Rejtana 13
+1582	2	197267	16:51:00	16:51:00		Powst. Warszawy szkoła 11
+1582	2	197267	16:51:00	16:51:00		Powst. Warszawy szkoła 11
+1582	2	197267	16:52:00	16:52:00		Powst. Warszawy Dom Studenta 09
+1582	2	197267	16:52:00	16:52:00		Powst. Warszawy Dom Studenta 09
+1582	2	197267	16:55:00	16:55:00		Powst. Warszawy / Hetmańska 03
+1582	2	197267	16:55:00	16:55:00		Powst. Warszawy / Hetmańska 03
+1582	2	197267	16:56:00	16:56:00		Powst. Warszawy Politechnika 01
+1582	2	197267	16:56:00	16:56:00		Powst. Warszawy Politechnika 01
+1582	2	197267	16:59:00	16:59:00		Dąbrowskiego Instytut Muzyki 07
+1582	2	197267	16:59:00	16:59:00		Dąbrowskiego Instytut Muzyki 07
+1582	2	197267	17:00:00	17:00:00		Dąbrowskiego KW Policji 03
+1582	2	197267	17:00:00	17:00:00		Dąbrowskiego KW Policji 03
+1582	2	197267	17:01:00	17:01:00		Dąbrowskiego park 01 nż
+1582	2	197267	17:01:00	17:01:00		Dąbrowskiego park 01 nż
+1582	2	197267	17:06:00	17:06:00		Lisa-Kuli 02
+1582	2	197267	17:06:00	17:06:00		Lisa-Kuli 02
+1582	2	197267	17:07:00	17:07:00		Cieplińskiego 01
+1582	2	197267	17:07:00	17:07:00		Cieplińskiego 01
+1582	2	197267	17:08:00	17:08:00		Piłsudskiego U. Wojewódzki 03
+1582	2	197267	17:08:00	17:08:00		Piłsudskiego U. Wojewódzki 03
+1582	2	197267	17:11:00	17:11:00		Dworzec Główny PKP 03
+1582	2	197267	17:11:00	17:11:00		Dworzec Główny PKP 03
+
+1582	2	197213	17:35:00	17:35:00		Dworzec Główny PKP 03
+1582	2	197213	17:35:00	17:35:00		Dworzec Główny PKP 03
+1582	2	197213	17:37:00	17:37:00		Pl. Kilińskiego 01
+1582	2	197213	17:37:00	17:37:00		Pl. Kilińskiego 01
+1582	2	197213	17:39:00	17:39:00		Pl. Wolności 01
+1582	2	197213	17:39:00	17:39:00		Pl. Wolności 01
+1582	2	197213	17:42:00	17:42:00		Rejtana / Lwowska 01
+1582	2	197213	17:42:00	17:42:00		Rejtana / Lwowska 01
+1582	2	197213	17:43:00	17:43:00		Rejtana / Kustronia 03 nż
+1582	2	197213	17:43:00	17:43:00		Rejtana / Kustronia 03 nż
+1582	2	197213	17:44:00	17:44:00		Rejtana Uniwersytet 05
+1582	2	197213	17:44:00	17:44:00		Rejtana Uniwersytet 05
+1582	2	197213	17:46:00	17:46:00		Rejtana / Kopisto 07
+1582	2	197213	17:46:00	17:46:00		Rejtana / Kopisto 07
+1582	2	197213	17:47:00	17:47:00		Rejtana / Popiełuszki 09
+1582	2	197213	17:47:00	17:47:00		Rejtana / Popiełuszki 09
+1582	2	197213	17:50:00	17:50:00		Powst. Warszawy / Rejtana 13
+1582	2	197213	17:50:00	17:50:00		Powst. Warszawy / Rejtana 13
+1582	2	197213	17:51:00	17:51:00		Powst. Warszawy szkoła 11
+1582	2	197213	17:51:00	17:51:00		Powst. Warszawy szkoła 11
+1582	2	197213	17:52:00	17:52:00		Powst. Warszawy Dom Studenta 09
+1582	2	197213	17:52:00	17:52:00		Powst. Warszawy Dom Studenta 09
+1582	2	197213	17:55:00	17:55:00		Powst. Warszawy / Hetmańska 03
+1582	2	197213	17:55:00	17:55:00		Powst. Warszawy / Hetmańska 03
+1582	2	197213	17:56:00	17:56:00		Powst. Warszawy Politechnika 01
+1582	2	197213	17:56:00	17:56:00		Powst. Warszawy Politechnika 01
+1582	2	197213	17:59:00	17:59:00		Dąbrowskiego Instytut Muzyki 07
+1582	2	197213	17:59:00	17:59:00		Dąbrowskiego Instytut Muzyki 07
+1582	2	197213	18:00:00	18:00:00		Dąbrowskiego KW Policji 03
+1582	2	197213	18:00:00	18:00:00		Dąbrowskiego KW Policji 03
+1582	2	197213	18:01:00	18:01:00		Dąbrowskiego park 01 nż
+1582	2	197213	18:01:00	18:01:00		Dąbrowskiego park 01 nż
+1582	2	197213	18:06:00	18:06:00		Lisa-Kuli 02
+1582	2	197213	18:06:00	18:06:00		Lisa-Kuli 02
+1582	2	197213	18:07:00	18:07:00		Cieplińskiego 01
+1582	2	197213	18:07:00	18:07:00		Cieplińskiego 01
+1582	2	197213	18:08:00	18:08:00		Piłsudskiego U. Wojewódzki 03
+1582	2	197213	18:08:00	18:08:00		Piłsudskiego U. Wojewódzki 03
+1582	2	197213	18:11:00	18:11:00		Dworzec Główny PKP 03
+1582	2	197213	18:11:00	18:11:00		Dworzec Główny PKP 03
+
+1582	2	197286	18:35:00	18:35:00		Dworzec Główny PKP 03
+1582	2	197286	18:35:00	18:35:00		Dworzec Główny PKP 03
+1582	2	197286	18:37:00	18:37:00		Pl. Kilińskiego 01
+1582	2	197286	18:37:00	18:37:00		Pl. Kilińskiego 01
+1582	2	197286	18:39:00	18:39:00		Pl. Wolności 01
+1582	2	197286	18:39:00	18:39:00		Pl. Wolności 01
+1582	2	197286	18:42:00	18:42:00		Rejtana / Lwowska 01
+1582	2	197286	18:42:00	18:42:00		Rejtana / Lwowska 01
+1582	2	197286	18:43:00	18:43:00		Rejtana / Kustronia 03 nż
+1582	2	197286	18:43:00	18:43:00		Rejtana / Kustronia 03 nż
+1582	2	197286	18:44:00	18:44:00		Rejtana Uniwersytet 05
+1582	2	197286	18:44:00	18:44:00		Rejtana Uniwersytet 05
+1582	2	197286	18:46:00	18:46:00		Rejtana / Kopisto 07
+1582	2	197286	18:46:00	18:46:00		Rejtana / Kopisto 07
+1582	2	197286	18:47:00	18:47:00		Rejtana / Popiełuszki 09
+1582	2	197286	18:47:00	18:47:00		Rejtana / Popiełuszki 09
+1582	2	197286	18:50:00	18:50:00		Powst. Warszawy / Rejtana 13
+1582	2	197286	18:50:00	18:50:00		Powst. Warszawy / Rejtana 13
+1582	2	197286	18:51:00	18:51:00		Powst. Warszawy szkoła 11
+1582	2	197286	18:51:00	18:51:00		Powst. Warszawy szkoła 11
+1582	2	197286	18:52:00	18:52:00		Powst. Warszawy Dom Studenta 09
+1582	2	197286	18:52:00	18:52:00		Powst. Warszawy Dom Studenta 09
+1582	2	197286	18:55:00	18:55:00		Powst. Warszawy / Hetmańska 03
+1582	2	197286	18:55:00	18:55:00		Powst. Warszawy / Hetmańska 03
+1582	2	197286	18:56:00	18:56:00		Powst. Warszawy Politechnika 01
+1582	2	197286	18:56:00	18:56:00		Powst. Warszawy Politechnika 01
+1582	2	197286	18:59:00	18:59:00		Dąbrowskiego Instytut Muzyki 07
+1582	2	197286	18:59:00	18:59:00		Dąbrowskiego Instytut Muzyki 07
+1582	2	197286	19:00:00	19:00:00		Dąbrowskiego KW Policji 03
+1582	2	197286	19:00:00	19:00:00		Dąbrowskiego KW Policji 03
+1582	2	197286	19:01:00	19:01:00		Dąbrowskiego park 01 nż
+1582	2	197286	19:01:00	19:01:00		Dąbrowskiego park 01 nż
+1582	2	197286	19:04:00	19:04:00		Lisa-Kuli 02
+1582	2	197286	19:04:00	19:04:00		Lisa-Kuli 02
+1582	2	197286	19:05:00	19:05:00		Cieplińskiego 01
+1582	2	197286	19:05:00	19:05:00		Cieplińskiego 01
+1582	2	197286	19:06:00	19:06:00		Piłsudskiego U. Wojewódzki 03
+1582	2	197286	19:06:00	19:06:00		Piłsudskiego U. Wojewódzki 03
+1582	2	197286	19:09:00	19:09:00		Dworzec Główny PKP 03
+1582	2	197286	19:09:00	19:09:00		Dworzec Główny PKP 03
+
+1582	2	197340	19:42:00	19:42:00		Dworzec Główny PKP 03
+1582	2	197340	19:42:00	19:42:00		Dworzec Główny PKP 03
+1582	2	197340	19:44:00	19:44:00		Pl. Kilińskiego 01
+1582	2	197340	19:44:00	19:44:00		Pl. Kilińskiego 01
+1582	2	197340	19:46:00	19:46:00		Pl. Wolności 01
+1582	2	197340	19:46:00	19:46:00		Pl. Wolności 01
+1582	2	197340	19:48:00	19:48:00		Rejtana / Lwowska 01
+1582	2	197340	19:48:00	19:48:00		Rejtana / Lwowska 01
+1582	2	197340	19:49:00	19:49:00		Rejtana / Kustronia 03 nż
+1582	2	197340	19:49:00	19:49:00		Rejtana / Kustronia 03 nż
+1582	2	197340	19:50:00	19:50:00		Rejtana Uniwersytet 05
+1582	2	197340	19:50:00	19:50:00		Rejtana Uniwersytet 05
+1582	2	197340	19:51:00	19:51:00		Rejtana / Kopisto 07
+1582	2	197340	19:51:00	19:51:00		Rejtana / Kopisto 07
+1582	2	197340	19:52:00	19:52:00		Rejtana / Popiełuszki 09
+1582	2	197340	19:52:00	19:52:00		Rejtana / Popiełuszki 09
+1582	2	197340	19:55:00	19:55:00		Powst. Warszawy / Rejtana 13
+1582	2	197340	19:55:00	19:55:00		Powst. Warszawy / Rejtana 13
+1582	2	197340	19:56:00	19:56:00		Powst. Warszawy szkoła 11
+1582	2	197340	19:56:00	19:56:00		Powst. Warszawy szkoła 11
+1582	2	197340	19:57:00	19:57:00		Powst. Warszawy Dom Studenta 09
+1582	2	197340	19:57:00	19:57:00		Powst. Warszawy Dom Studenta 09
+1582	2	197340	19:59:00	19:59:00		Powst. Warszawy / Hetmańska 03
+1582	2	197340	19:59:00	19:59:00		Powst. Warszawy / Hetmańska 03
+1582	2	197340	20:00:00	20:00:00		Powst. Warszawy Politechnika 01
+1582	2	197340	20:00:00	20:00:00		Powst. Warszawy Politechnika 01
+1582	2	197340	20:02:00	20:02:00		Dąbrowskiego Instytut Muzyki 07
+1582	2	197340	20:02:00	20:02:00		Dąbrowskiego Instytut Muzyki 07
+1582	2	197340	20:03:00	20:03:00		Dąbrowskiego KW Policji 03
+1582	2	197340	20:03:00	20:03:00		Dąbrowskiego KW Policji 03
+1582	2	197340	20:04:00	20:04:00		Dąbrowskiego park 01 nż
+1582	2	197340	20:04:00	20:04:00		Dąbrowskiego park 01 nż
+1582	2	197340	20:07:00	20:07:00		Lisa-Kuli 02
+1582	2	197340	20:07:00	20:07:00		Lisa-Kuli 02
+1582	2	197340	20:08:00	20:08:00		Cieplińskiego 01
+1582	2	197340	20:08:00	20:08:00		Cieplińskiego 01
+1582	2	197340	20:09:00	20:09:00		Piłsudskiego U. Wojewódzki 03
+1582	2	197340	20:09:00	20:09:00		Piłsudskiego U. Wojewódzki 03
+1582	2	197340	20:12:00	20:12:00		Dworzec Główny PKP 03
+1582	2	197340	20:12:00	20:12:00		Dworzec Główny PKP 03
+
+1582	2	197174	20:42:00	20:42:00		Dworzec Główny PKP 03
+1582	2	197174	20:42:00	20:42:00		Dworzec Główny PKP 03
+1582	2	197174	20:44:00	20:44:00		Pl. Kilińskiego 01
+1582	2	197174	20:44:00	20:44:00		Pl. Kilińskiego 01
+1582	2	197174	20:46:00	20:46:00		Pl. Wolności 01
+1582	2	197174	20:46:00	20:46:00		Pl. Wolności 01
+1582	2	197174	20:48:00	20:48:00		Rejtana / Lwowska 01
+1582	2	197174	20:48:00	20:48:00		Rejtana / Lwowska 01
+1582	2	197174	20:49:00	20:49:00		Rejtana / Kustronia 03 nż
+1582	2	197174	20:49:00	20:49:00		Rejtana / Kustronia 03 nż
+1582	2	197174	20:50:00	20:50:00		Rejtana Uniwersytet 05
+1582	2	197174	20:50:00	20:50:00		Rejtana Uniwersytet 05
+1582	2	197174	20:51:00	20:51:00		Rejtana / Kopisto 07
+1582	2	197174	20:51:00	20:51:00		Rejtana / Kopisto 07
+1582	2	197174	20:52:00	20:52:00		Rejtana / Popiełuszki 09
+1582	2	197174	20:52:00	20:52:00		Rejtana / Popiełuszki 09
+1582	2	197174	20:55:00	20:55:00		Powst. Warszawy / Rejtana 13
+1582	2	197174	20:55:00	20:55:00		Powst. Warszawy / Rejtana 13
+1582	2	197174	20:56:00	20:56:00		Powst. Warszawy szkoła 11
+1582	2	197174	20:56:00	20:56:00		Powst. Warszawy szkoła 11
+1582	2	197174	20:57:00	20:57:00		Powst. Warszawy Dom Studenta 09
+1582	2	197174	20:57:00	20:57:00		Powst. Warszawy Dom Studenta 09
+1582	2	197174	20:59:00	20:59:00		Powst. Warszawy / Hetmańska 03
+1582	2	197174	20:59:00	20:59:00		Powst. Warszawy / Hetmańska 03
+1582	2	197174	21:00:00	21:00:00		Powst. Warszawy Politechnika 01
+1582	2	197174	21:00:00	21:00:00		Powst. Warszawy Politechnika 01
+1582	2	197174	21:02:00	21:02:00		Dąbrowskiego Instytut Muzyki 07
+1582	2	197174	21:02:00	21:02:00		Dąbrowskiego Instytut Muzyki 07
+1582	2	197174	21:03:00	21:03:00		Dąbrowskiego KW Policji 03
+1582	2	197174	21:03:00	21:03:00		Dąbrowskiego KW Policji 03
+1582	2	197174	21:04:00	21:04:00		Dąbrowskiego park 01 nż
+1582	2	197174	21:04:00	21:04:00		Dąbrowskiego park 01 nż
+1582	2	197174	21:06:00	21:06:00		Lisa-Kuli 02
+1582	2	197174	21:06:00	21:06:00		Lisa-Kuli 02
+1582	2	197174	21:07:00	21:07:00		Cieplińskiego 01
+1582	2	197174	21:07:00	21:07:00		Cieplińskiego 01
+1582	2	197174	21:08:00	21:08:00		Piłsudskiego U. Wojewódzki 03
+1582	2	197174	21:08:00	21:08:00		Piłsudskiego U. Wojewódzki 03
+1582	2	197174	21:11:00	21:11:00		Dworzec Główny PKP 03
+1582	2	197174	21:11:00	21:11:00		Dworzec Główny PKP 03
+
+1582	2	197359	21:42:00	21:42:00		Dworzec Główny PKP 03
+1582	2	197359	21:42:00	21:42:00		Dworzec Główny PKP 03
+1582	2	197359	21:44:00	21:44:00		Pl. Kilińskiego 01
+1582	2	197359	21:44:00	21:44:00		Pl. Kilińskiego 01
+1582	2	197359	21:46:00	21:46:00		Pl. Wolności 01
+1582	2	197359	21:46:00	21:46:00		Pl. Wolności 01
+1582	2	197359	21:48:00	21:48:00		Rejtana / Lwowska 01
+1582	2	197359	21:48:00	21:48:00		Rejtana / Lwowska 01
+1582	2	197359	21:49:00	21:49:00		Rejtana / Kustronia 03 nż
+1582	2	197359	21:49:00	21:49:00		Rejtana / Kustronia 03 nż
+1582	2	197359	21:50:00	21:50:00		Rejtana Uniwersytet 05
+1582	2	197359	21:50:00	21:50:00		Rejtana Uniwersytet 05
+1582	2	197359	21:51:00	21:51:00		Rejtana / Kopisto 07
+1582	2	197359	21:51:00	21:51:00		Rejtana / Kopisto 07
+1582	2	197359	21:52:00	21:52:00		Rejtana / Popiełuszki 09
+1582	2	197359	21:52:00	21:52:00		Rejtana / Popiełuszki 09
+1582	2	197359	21:55:00	21:55:00		Powst. Warszawy / Rejtana 13
+1582	2	197359	21:55:00	21:55:00		Powst. Warszawy / Rejtana 13
+1582	2	197359	21:56:00	21:56:00		Powst. Warszawy szkoła 11
+1582	2	197359	21:56:00	21:56:00		Powst. Warszawy szkoła 11
+1582	2	197359	21:57:00	21:57:00		Powst. Warszawy Dom Studenta 09
+1582	2	197359	21:57:00	21:57:00		Powst. Warszawy Dom Studenta 09
+1582	2	197359	21:59:00	21:59:00		Powst. Warszawy / Hetmańska 03
+1582	2	197359	21:59:00	21:59:00		Powst. Warszawy / Hetmańska 03
+1582	2	197359	22:00:00	22:00:00		Powst. Warszawy Politechnika 01
+1582	2	197359	22:00:00	22:00:00		Powst. Warszawy Politechnika 01
+1582	2	197359	22:02:00	22:02:00		Dąbrowskiego Instytut Muzyki 07
+1582	2	197359	22:02:00	22:02:00		Dąbrowskiego Instytut Muzyki 07
+1582	2	197359	22:03:00	22:03:00		Dąbrowskiego KW Policji 03
+1582	2	197359	22:03:00	22:03:00		Dąbrowskiego KW Policji 03
+1582	2	197359	22:04:00	22:04:00		Dąbrowskiego park 01 nż
+1582	2	197359	22:04:00	22:04:00		Dąbrowskiego park 01 nż
+1582	2	197359	22:06:00	22:06:00		Lisa-Kuli 02
+1582	2	197359	22:06:00	22:06:00		Lisa-Kuli 02
+1582	2	197359	22:07:00	22:07:00		Cieplińskiego 01
+1582	2	197359	22:07:00	22:07:00		Cieplińskiego 01
+1582	2	197359	22:08:00	22:08:00		Piłsudskiego U. Wojewódzki 03
+1582	2	197359	22:08:00	22:08:00		Piłsudskiego U. Wojewódzki 03
+1582	2	197359	22:11:00	22:11:00		Dworzec Główny PKP 03
+1582	2	197359	22:11:00	22:11:00		Dworzec Główny PKP 03
+
+1582	2	197517	22:42:00	22:42:00		Dworzec Główny PKP 03
+1582	2	197517	22:42:00	22:42:00		Dworzec Główny PKP 03
+1582	2	197517	22:44:00	22:44:00		Pl. Kilińskiego 01
+1582	2	197517	22:44:00	22:44:00		Pl. Kilińskiego 01
+1582	2	197517	22:46:00	22:46:00		Pl. Wolności 01
+1582	2	197517	22:46:00	22:46:00		Pl. Wolności 01
+1582	2	197517	22:48:00	22:48:00		Rejtana / Lwowska 01
+1582	2	197517	22:48:00	22:48:00		Rejtana / Lwowska 01
+1582	2	197517	22:49:00	22:49:00		Rejtana / Kustronia 03 nż
+1582	2	197517	22:49:00	22:49:00		Rejtana / Kustronia 03 nż
+1582	2	197517	22:50:00	22:50:00		Rejtana Uniwersytet 05
+1582	2	197517	22:50:00	22:50:00		Rejtana Uniwersytet 05
+1582	2	197517	22:51:00	22:51:00		Rejtana / Kopisto 07
+1582	2	197517	22:51:00	22:51:00		Rejtana / Kopisto 07
+1582	2	197517	22:52:00	22:52:00		Rejtana / Popiełuszki 09
+1582	2	197517	22:52:00	22:52:00		Rejtana / Popiełuszki 09
+1582	2	197517	22:55:00	22:55:00		Powst. Warszawy / Rejtana 13
+1582	2	197517	22:55:00	22:55:00		Powst. Warszawy / Rejtana 13
+1582	2	197517	22:56:00	22:56:00		Powst. Warszawy szkoła 11
+1582	2	197517	22:56:00	22:56:00		Powst. Warszawy szkoła 11
+1582	2	197517	22:57:00	22:57:00		Powst. Warszawy Dom Studenta 09
+1582	2	197517	22:57:00	22:57:00		Powst. Warszawy Dom Studenta 09
+1582	2	197517	22:59:00	22:59:00		Powst. Warszawy / Hetmańska 03
+1582	2	197517	22:59:00	22:59:00		Powst. Warszawy / Hetmańska 03
+1582	2	197517	23:00:00	23:00:00		Powst. Warszawy Politechnika 01
+1582	2	197517	23:00:00	23:00:00		Powst. Warszawy Politechnika 01
+1582	2	197517	23:02:00	23:02:00		Dąbrowskiego Instytut Muzyki 07
+1582	2	197517	23:02:00	23:02:00		Dąbrowskiego Instytut Muzyki 07
+1582	2	197517	23:03:00	23:03:00		Dąbrowskiego KW Policji 03
+1582	2	197517	23:03:00	23:03:00		Dąbrowskiego KW Policji 03
+1582	2	197517	23:04:00	23:04:00		Dąbrowskiego park 01 nż
+1582	2	197517	23:04:00	23:04:00		Dąbrowskiego park 01 nż
+1582	2	197517	23:06:00	23:06:00		Lisa-Kuli 02
+1582	2	197517	23:06:00	23:06:00		Lisa-Kuli 02
+1582	2	197517	23:07:00	23:07:00		Cieplińskiego 01
+1582	2	197517	23:07:00	23:07:00		Cieplińskiego 01
+1582	2	197517	23:08:00	23:08:00		Piłsudskiego U. Wojewódzki 03
+1582	2	197517	23:08:00	23:08:00		Piłsudskiego U. Wojewódzki 03
+1582	2	197517	23:11:00	23:11:00		Dworzec Główny PKP 03
+1582	2	197517	23:11:00	23:11:00		Dworzec Główny PKP 03
+
+1582	2	197342	23:42:00	23:42:00		Dworzec Główny PKP 03
+1582	2	197342	23:42:00	23:42:00		Dworzec Główny PKP 03
+1582	2	197342	23:44:00	23:44:00		Pl. Kilińskiego 01
+1582	2	197342	23:44:00	23:44:00		Pl. Kilińskiego 01
+1582	2	197342	23:46:00	23:46:00		Pl. Wolności 01
+1582	2	197342	23:46:00	23:46:00		Pl. Wolności 01
+1582	2	197342	23:48:00	23:48:00		Rejtana / Lwowska 01
+1582	2	197342	23:48:00	23:48:00		Rejtana / Lwowska 01
+1582	2	197342	23:49:00	23:49:00		Rejtana / Kustronia 03 nż
+1582	2	197342	23:49:00	23:49:00		Rejtana / Kustronia 03 nż
+1582	2	197342	23:50:00	23:50:00		Rejtana Uniwersytet 05
+1582	2	197342	23:50:00	23:50:00		Rejtana Uniwersytet 05
+1582	2	197342	23:51:00	23:51:00		Rejtana / Kopisto 07
+1582	2	197342	23:51:00	23:51:00		Rejtana / Kopisto 07
+1582	2	197342	23:52:00	23:52:00		Rejtana / Popiełuszki 09
+1582	2	197342	23:52:00	23:52:00		Rejtana / Popiełuszki 09
+1582	2	197342	23:55:00	23:55:00		Powst. Warszawy / Rejtana 13
+1582	2	197342	23:55:00	23:55:00		Powst. Warszawy / Rejtana 13
+1582	2	197342	23:56:00	23:56:00		Powst. Warszawy szkoła 11
+1582	2	197342	23:56:00	23:56:00		Powst. Warszawy szkoła 11
+1582	2	197342	23:57:00	23:57:00		Powst. Warszawy Dom Studenta 09
+1582	2	197342	23:57:00	23:57:00		Powst. Warszawy Dom Studenta 09
+1582	2	197342	23:59:00	23:59:00		Powst. Warszawy / Hetmańska 03
+1582	2	197342	23:59:00	23:59:00		Powst. Warszawy / Hetmańska 03
+1582	2	197342	24:00:00	24:00:00		Powst. Warszawy Politechnika 01
+1582	2	197342	24:00:00	24:00:00		Powst. Warszawy Politechnika 01
+1582	2	197342	24:01:00	24:01:00		Dąbrowskiego Instytut Muzyki 07
+1582	2	197342	24:01:00	24:01:00		Dąbrowskiego Instytut Muzyki 07
+1582	2	197342	24:02:00	24:02:00		Dąbrowskiego KW Policji 03
+1582	2	197342	24:02:00	24:02:00		Dąbrowskiego KW Policji 03
+1582	2	197342	24:03:00	24:03:00		Dąbrowskiego park 01 nż
+1582	2	197342	24:03:00	24:03:00		Dąbrowskiego park 01 nż
+1582	2	197342	24:05:00	24:05:00		Lisa-Kuli 02
+1582	2	197342	24:05:00	24:05:00		Lisa-Kuli 02
+1582	2	197342	24:06:00	24:06:00		Cieplińskiego 01
+1582	2	197342	24:06:00	24:06:00		Cieplińskiego 01
+1582	2	197342	24:07:00	24:07:00		Piłsudskiego U. Wojewódzki 03
+1582	2	197342	24:07:00	24:07:00		Piłsudskiego U. Wojewódzki 03
+1582	2	197342	24:10:00	24:10:00		Dworzec Główny PKP 03
+1582	2	197342	24:10:00	24:10:00		Dworzec Główny PKP 03

@@ -1,0 +1,472 @@
+route_id	service_id	trip_id	arrival_time	departure_time	stop_headsign	stop_name
+-------------------------------------------------------------------------------
+1635	2	189987	21:50:00	21:50:00		Bardowskiego 03
+1635	2	189987	21:51:00	21:51:00		Pl. Wolności 04
+1635	2	189987	21:51:00	21:51:00		Pl. Wolności 04
+1635	2	189987	21:52:00	21:52:00		Piłsudskiego U. Wojewódzki 06
+1635	2	189987	21:52:00	21:52:00		Piłsudskiego U. Wojewódzki 06
+1635	2	189987	21:54:00	21:54:00		Marszałkowska 02
+1635	2	189987	21:54:00	21:54:00		Marszałkowska 02
+1635	2	189987	21:55:00	21:55:00		Warszawska / Wyzwolenia 02 nż
+1635	2	189987	21:55:00	21:55:00		Warszawska / Wyzwolenia 02 nż
+1635	2	189987	21:56:00	21:56:00		Warszawska ZS. Samoch. 04 nż
+1635	2	189987	21:56:00	21:56:00		Warszawska ZS. Samoch. 04 nż
+1635	2	189987	21:57:00	21:57:00		Warszawska / Staromiejska 06 nż
+1635	2	189987	21:57:00	21:57:00		Warszawska / Staromiejska 06 nż
+1635	2	189987	21:59:00	21:59:00		Warszawska / Borowa 08 nż
+1635	2	189987	21:59:00	21:59:00		Warszawska / Borowa 08 nż
+1635	2	189987	22:00:00	22:00:00		Warszawska / Bażantowa 10 nż
+1635	2	189987	22:00:00	22:00:00		Warszawska / Bażantowa 10 nż
+1635	2	189987	22:01:00	22:01:00		Warszawska / Łowiecka 12 nż
+1635	2	189987	22:01:00	22:01:00		Warszawska / Łowiecka 12 nż
+1635	2	189987	22:02:00	22:02:00		"Zaczernie
+1635	2	189987	22:02:00	22:02:00		"Zaczernie
+1635	2	189987	22:03:00	22:03:00		Warszawska granica 14 nż
+1635	2	189987	22:03:00	22:03:00		Warszawska granica 14 nż
+1635	2	189987	22:05:00	22:05:00		Rudna Mała 03 nż
+1635	2	189987	22:05:00	22:05:00		Rudna Mała 03 nż
+1635	2	189987	22:06:00	22:06:00		Rudna Mała szpital 01 nż
+1635	2	189987	22:06:00	22:06:00		Rudna Mała szpital 01 nż
+1635	2	189987	22:08:00	22:08:00		Głogów Młp. wiadukt 09A nż
+1635	2	189987	22:08:00	22:08:00		Głogów Młp. wiadukt 09A nż
+1635	2	189987	22:11:00	22:11:00		Głogów Młp. Zelmer II 02 nż
+1635	2	189987	22:11:00	22:11:00		Głogów Młp. Zelmer II 02 nż
+1635	2	189987	22:12:00	22:12:00		Głogów Młp. MetaZel II 02 nż
+1635	2	189987	22:12:00	22:12:00		Głogów Młp. MetaZel II 02 nż
+1635	2	189987	22:13:00	22:13:00		Głogów Młp. Yanko I 01 nż
+1635	2	189987	22:13:00	22:13:00		Głogów Młp. Yanko I 01 nż
+1635	2	189987	22:14:00	22:14:00		Głogów Młp. Leniar I 01 nż
+1635	2	189987	22:14:00	22:14:00		Głogów Młp. Leniar I 01 nż
+
+1629	2	190786	22:40:00	22:40:00		Głogów Młp. Zelmer II 02 nż
+1629	2	190786	22:40:00	22:40:00		Głogów Młp. Zelmer II 02 nż
+1629	2	190786	22:41:00	22:41:00		Głogów Młp. MetaZel II 02 nż
+1629	2	190786	22:41:00	22:41:00		Głogów Młp. MetaZel II 02 nż
+1629	2	190786	22:42:00	22:42:00		Głogów Młp. Yanko I 01 nż
+1629	2	190786	22:42:00	22:42:00		Głogów Młp. Yanko I 01 nż
+1629	2	190786	22:43:00	22:43:00		Głogów Młp. Leniar I 01 nż
+1629	2	190786	22:43:00	22:43:00		Głogów Młp. Leniar I 01 nż
+1629	2	190786	22:46:00	22:46:00		Głogów Młp. wiadukt 71A nż
+1629	2	190786	22:46:00	22:46:00		Głogów Młp. wiadukt 71A nż
+1629	2	190786	22:49:00	22:49:00		Rudna Mała szpital 02 nż
+1629	2	190786	22:49:00	22:49:00		Rudna Mała szpital 02 nż
+1629	2	190786	22:50:00	22:50:00		Zaczernie 04 nż
+1629	2	190786	22:50:00	22:50:00		Zaczernie 04 nż
+1629	2	190786	22:52:00	22:52:00		Warszawska granica 11 nż
+1629	2	190786	22:52:00	22:52:00		Warszawska granica 11 nż
+1629	2	190786	22:53:00	22:53:00		"Zaczernie
+1629	2	190786	22:53:00	22:53:00		"Zaczernie
+1629	2	190786	22:54:00	22:54:00		Warszawska / Myśliwska 09 nż
+1629	2	190786	22:54:00	22:54:00		Warszawska / Myśliwska 09 nż
+1629	2	190786	22:55:00	22:55:00		Warszawska / Borowa 07 nż
+1629	2	190786	22:55:00	22:55:00		Warszawska / Borowa 07 nż
+1629	2	190786	22:57:00	22:57:00		Warszawska / Staromiejska 05 nż
+1629	2	190786	22:57:00	22:57:00		Warszawska / Staromiejska 05 nż
+1629	2	190786	22:58:00	22:58:00		Warszawska ZS. Samoch. 03 nż
+1629	2	190786	22:58:00	22:58:00		Warszawska ZS. Samoch. 03 nż
+1629	2	190786	22:59:00	22:59:00		Warszawska / Wyzwolenia 01 nż
+1629	2	190786	22:59:00	22:59:00		Warszawska / Wyzwolenia 01 nż
+1629	2	190786	23:00:00	23:00:00		Marszałkowska 01
+1629	2	190786	23:00:00	23:00:00		Marszałkowska 01
+1629	2	190786	23:02:00	23:02:00		Piłsudskiego U. Wojewódzki 03
+1629	2	190786	23:02:00	23:02:00		Piłsudskiego U. Wojewódzki 03
+1629	2	190786	23:05:00	23:05:00		Bardowskiego 04
+1629	2	190786	23:05:00	23:05:00		Bardowskiego 04
+
+1637	2	189199	23:32:00	23:32:00		Miłocińska pętla 01
+1637	2	189199	23:32:00	23:32:00		Miłocińska pętla 01
+1637	2	189199	23:33:00	23:33:00		Miłocińska szkoła 02 nż
+1637	2	189199	23:33:00	23:33:00		Miłocińska szkoła 02 nż
+1637	2	189199	23:35:00	23:35:00		Obr. Poczty Gdańskiej / Miłocińska 03
+1637	2	189199	23:35:00	23:35:00		Obr. Poczty Gdańskiej / Miłocińska 03
+1637	2	189199	23:36:00	23:36:00		Obr. Poczty Gdańskiej / Raginisa 01
+1637	2	189199	23:36:00	23:36:00		Obr. Poczty Gdańskiej / Raginisa 01
+1637	2	189199	23:37:00	23:37:00		Ofiar Katynia / Wyzwolenia 02
+1637	2	189199	23:37:00	23:37:00		Ofiar Katynia / Wyzwolenia 02
+1637	2	189199	23:38:00	23:38:00		Ofiar Katynia kładka 04
+1637	2	189199	23:38:00	23:38:00		Ofiar Katynia kładka 04
+1637	2	189199	23:40:00	23:40:00		Mikołajczyka pętla 03
+1637	2	189199	23:40:00	23:40:00		Mikołajczyka pętla 03
+1637	2	189199	23:41:00	23:41:00		Ofiar Katynia kładka 01
+1637	2	189199	23:41:00	23:41:00		Ofiar Katynia kładka 01
+1637	2	189199	23:42:00	23:42:00		Wyzwolenia / Ofiar Katynia 07
+1637	2	189199	23:42:00	23:42:00		Wyzwolenia / Ofiar Katynia 07
+1637	2	189199	23:43:00	23:43:00		Wyzwolenia kościół 05
+1637	2	189199	23:43:00	23:43:00		Wyzwolenia kościół 05
+1637	2	189199	23:44:00	23:44:00		Wyzwolenia / Okulickiego 03 nż
+1637	2	189199	23:44:00	23:44:00		Wyzwolenia / Okulickiego 03 nż
+1637	2	189199	23:46:00	23:46:00		Wyzwolenia / Warszawska 01 nż
+1637	2	189199	23:46:00	23:46:00		Wyzwolenia / Warszawska 01 nż
+1637	2	189199	23:47:00	23:47:00		Lubelska kościół 06 nż
+1637	2	189199	23:47:00	23:47:00		Lubelska kościół 06 nż
+1637	2	189199	23:48:00	23:48:00		Trembeckiego ZTM 02 nż
+1637	2	189199	23:48:00	23:48:00		Trembeckiego ZTM 02 nż
+1637	2	189199	23:49:00	23:49:00		Trembeckiego / Siemieńskiego 04 nż
+1637	2	189199	23:49:00	23:49:00		Trembeckiego / Siemieńskiego 04 nż
+1637	2	189199	23:50:00	23:50:00		Siemieńskiego U. Skarbowy 03 nż
+1637	2	189199	23:50:00	23:50:00		Siemieńskiego U. Skarbowy 03 nż
+1637	2	189199	23:51:00	23:51:00		Siemieńskiego Dom Studenta 01 nż
+1637	2	189199	23:51:00	23:51:00		Siemieńskiego Dom Studenta 01 nż
+1637	2	189199	23:52:00	23:52:00		Żółkiewskiego / Kochanowskiego 01 nż
+1637	2	189199	23:52:00	23:52:00		Żółkiewskiego / Kochanowskiego 01 nż
+1637	2	189199	23:54:00	23:54:00		Bardowskiego 02
+1637	2	189199	23:54:00	23:54:00		Bardowskiego 02
+1637	2	189199	23:55:00	24:00:00		Dworzec Główny PKP 01
+1637	2	189199	23:55:00	24:00:00		Dworzec Główny PKP 01
+1637	2	189199	24:03:00	24:03:00		Cieplińskiego 02
+1637	2	189199	24:03:00	24:03:00		Cieplińskiego 02
+1637	2	189199	24:04:00	24:04:00		Lisa-Kuli 01
+1637	2	189199	24:04:00	24:04:00		Lisa-Kuli 01
+1637	2	189199	24:06:00	24:06:00		Dąbrowskiego park 02 nż
+1637	2	189199	24:06:00	24:06:00		Dąbrowskiego park 02 nż
+1637	2	189199	24:07:00	24:07:00		Dąbrowskiego KW Policji 04
+1637	2	189199	24:07:00	24:07:00		Dąbrowskiego KW Policji 04
+1637	2	189199	24:08:00	24:08:00		Dąbrowskiego / Boh. Westerplatte 08
+1637	2	189199	24:08:00	24:08:00		Dąbrowskiego / Boh. Westerplatte 08
+1637	2	189199	24:09:00	24:09:00		Powst. Warszawy / Dąbrowskiego 02
+1637	2	189199	24:09:00	24:09:00		Powst. Warszawy / Dąbrowskiego 02
+1637	2	189199	24:10:00	24:10:00		Powst. Warszawy Politechnika 04
+1637	2	189199	24:10:00	24:10:00		Powst. Warszawy Politechnika 04
+1637	2	189199	24:11:00	24:11:00		Powst. Warszawy stadion 06
+1637	2	189199	24:11:00	24:11:00		Powst. Warszawy stadion 06
+1637	2	189199	24:12:00	24:12:00		Powst. Warszawy Dom Studenta 08
+1637	2	189199	24:12:00	24:12:00		Powst. Warszawy Dom Studenta 08
+1637	2	189199	24:13:00	24:13:00		Powst. Warszawy / Graniczna 10
+1637	2	189199	24:13:00	24:13:00		Powst. Warszawy / Graniczna 10
+1637	2	189199	24:14:00	24:14:00		Powst. Warszawy / Sikorskiego 12 nż
+1637	2	189199	24:14:00	24:14:00		Powst. Warszawy / Sikorskiego 12 nż
+1637	2	189199	24:15:00	24:15:00		Sikorskiego Katedra 04 nż
+1637	2	189199	24:15:00	24:15:00		Sikorskiego Katedra 04 nż
+1637	2	189199	24:16:00	24:16:00		Łukasiewicza / Sikorskiego 02 nż
+1637	2	189199	24:16:00	24:16:00		Łukasiewicza / Sikorskiego 02 nż
+1637	2	189199	24:17:00	24:17:00		Łukasiewicza / Zimowit 04 nż
+1637	2	189199	24:17:00	24:17:00		Łukasiewicza / Zimowit 04 nż
+1637	2	189199	24:18:00	24:18:00		Łukasiewicza / Gumińskich 06 nż
+1637	2	189199	24:18:00	24:18:00		Łukasiewicza / Gumińskich 06 nż
+1637	2	189199	24:19:00	24:19:00		Łukasiewicza pętla 10
+1637	2	189199	24:19:00	24:19:00		Łukasiewicza pętla 10
+
+1644	2	190958	24:35:00	24:35:00		Łukasiewicza pętla 10
+1644	2	190958	24:35:00	24:35:00		Łukasiewicza pętla 10
+1644	2	190958	24:36:00	24:36:00		Łukasiewicza / Sasanki 03 nż
+1644	2	190958	24:36:00	24:36:00		Łukasiewicza / Sasanki 03 nż
+1644	2	190958	24:37:00	24:37:00		Łukasiewicza / Krokusowa 01 nż
+1644	2	190958	24:37:00	24:37:00		Łukasiewicza / Krokusowa 01 nż
+1644	2	190958	24:38:00	24:38:00		Sikorskiego Katedra 01 nż
+1644	2	190958	24:38:00	24:38:00		Sikorskiego Katedra 01 nż
+1644	2	190958	24:40:00	24:40:00		Powst. Warszawy / Rejtana 13
+1644	2	190958	24:40:00	24:40:00		Powst. Warszawy / Rejtana 13
+1644	2	190958	24:41:00	24:41:00		Powst. Warszawy szkoła 11
+1644	2	190958	24:41:00	24:41:00		Powst. Warszawy szkoła 11
+1644	2	190958	24:42:00	24:42:00		Powst. Warszawy Dom Studenta 09
+1644	2	190958	24:42:00	24:42:00		Powst. Warszawy Dom Studenta 09
+1644	2	190958	24:44:00	24:44:00		Powst. Warszawy / Hetmańska 03
+1644	2	190958	24:44:00	24:44:00		Powst. Warszawy / Hetmańska 03
+1644	2	190958	24:45:00	24:45:00		Powst. Warszawy Politechnika 01
+1644	2	190958	24:45:00	24:45:00		Powst. Warszawy Politechnika 01
+1644	2	190958	24:46:00	24:46:00		Dąbrowskiego Instytut Muzyki 07
+1644	2	190958	24:46:00	24:46:00		Dąbrowskiego Instytut Muzyki 07
+1644	2	190958	24:47:00	24:47:00		Dąbrowskiego KW Policji 03
+1644	2	190958	24:47:00	24:47:00		Dąbrowskiego KW Policji 03
+1644	2	190958	24:48:00	24:48:00		Dąbrowskiego park 01 nż
+1644	2	190958	24:48:00	24:48:00		Dąbrowskiego park 01 nż
+1644	2	190958	24:50:00	24:50:00		Lisa-Kuli 02
+1644	2	190958	24:50:00	24:50:00		Lisa-Kuli 02
+1644	2	190958	24:51:00	24:51:00		Cieplińskiego 01
+1644	2	190958	24:51:00	24:51:00		Cieplińskiego 01
+1644	2	190958	24:52:00	24:52:00		Piłsudskiego U. Wojewódzki 03
+1644	2	190958	24:52:00	24:52:00		Piłsudskiego U. Wojewódzki 03
+1644	2	190958	24:55:00	25:00:00		Dworzec Główny PKP 03
+1644	2	190958	24:55:00	25:00:00		Dworzec Główny PKP 03
+1644	2	190958	25:02:00	25:02:00		Bardowskiego 03
+1644	2	190958	25:02:00	25:02:00		Bardowskiego 03
+1644	2	190958	25:04:00	25:04:00		Siemieńskiego / Kochanowskiego 02 nż
+1644	2	190958	25:04:00	25:04:00		Siemieńskiego / Kochanowskiego 02 nż
+1644	2	190958	25:05:00	25:05:00		Siemieńskiego U. Skarbowy 04 nż
+1644	2	190958	25:05:00	25:05:00		Siemieńskiego U. Skarbowy 04 nż
+1644	2	190958	25:06:00	25:06:00		Trembeckiego / Siemieńskiego 07 nż
+1644	2	190958	25:06:00	25:06:00		Trembeckiego / Siemieńskiego 07 nż
+1644	2	190958	25:07:00	25:07:00		Trembeckiego ZTM 05 nż
+1644	2	190958	25:07:00	25:07:00		Trembeckiego ZTM 05 nż
+1644	2	190958	25:08:00	25:08:00		Lubelska kościół 05 nż
+1644	2	190958	25:08:00	25:08:00		Lubelska kościół 05 nż
+1644	2	190958	25:09:00	25:09:00		Wyzwolenia / Lubelska 02 nż
+1644	2	190958	25:09:00	25:09:00		Wyzwolenia / Lubelska 02 nż
+1644	2	190958	25:10:00	25:10:00		Wyzwolenia WORD 04 nż
+1644	2	190958	25:10:00	25:10:00		Wyzwolenia WORD 04 nż
+1644	2	190958	25:11:00	25:11:00		Wyzwolenia / Iranka-Osmeckiego 06
+1644	2	190958	25:11:00	25:11:00		Wyzwolenia / Iranka-Osmeckiego 06
+1644	2	190958	25:12:00	25:12:00		Wyzwolenia / Brydaka 08
+1644	2	190958	25:12:00	25:12:00		Wyzwolenia / Brydaka 08
+1644	2	190958	25:13:00	25:13:00		Ofiar Katynia / Wyzwolenia 02
+1644	2	190958	25:13:00	25:13:00		Ofiar Katynia / Wyzwolenia 02
+1644	2	190958	25:14:00	25:14:00		Ofiar Katynia kładka 04
+1644	2	190958	25:14:00	25:14:00		Ofiar Katynia kładka 04
+1644	2	190958	25:15:00	25:15:00		Mikołajczyka pętla 03
+1644	2	190958	25:15:00	25:15:00		Mikołajczyka pętla 03
+1644	2	190958	25:16:00	25:16:00		Ofiar Katynia kładka 01
+1644	2	190958	25:16:00	25:16:00		Ofiar Katynia kładka 01
+1644	2	190958	25:17:00	25:17:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
+1644	2	190958	25:17:00	25:17:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
+1644	2	190958	25:18:00	25:18:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
+1644	2	190958	25:18:00	25:18:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
+1644	2	190958	25:19:00	25:19:00		Obr. Poczty Gdańskiej pętla 08
+1644	2	190958	25:19:00	25:19:00		Obr. Poczty Gdańskiej pętla 08
+
+1638	2	190788	25:36:00	25:36:00		Obr. Poczty Gdańskiej pętla 08
+1638	2	190788	25:36:00	25:36:00		Obr. Poczty Gdańskiej pętla 08
+1638	2	190788	25:37:00	25:37:00		Obr. Poczty Gdańskiej / Raginisa 01
+1638	2	190788	25:37:00	25:37:00		Obr. Poczty Gdańskiej / Raginisa 01
+1638	2	190788	25:38:00	25:38:00		Ofiar Katynia / Wyzwolenia 02
+1638	2	190788	25:38:00	25:38:00		Ofiar Katynia / Wyzwolenia 02
+1638	2	190788	25:39:00	25:39:00		Ofiar Katynia kładka 04
+1638	2	190788	25:39:00	25:39:00		Ofiar Katynia kładka 04
+1638	2	190788	25:40:00	25:40:00		Mikołajczyka pętla 03
+1638	2	190788	25:40:00	25:40:00		Mikołajczyka pętla 03
+1638	2	190788	25:41:00	25:41:00		Ofiar Katynia kładka 01
+1638	2	190788	25:41:00	25:41:00		Ofiar Katynia kładka 01
+1638	2	190788	25:42:00	25:42:00		Wyzwolenia / Ofiar Katynia 07
+1638	2	190788	25:42:00	25:42:00		Wyzwolenia / Ofiar Katynia 07
+1638	2	190788	25:43:00	25:43:00		Wyzwolenia kościół 05
+1638	2	190788	25:43:00	25:43:00		Wyzwolenia kościół 05
+1638	2	190788	25:44:00	25:44:00		Wyzwolenia / Okulickiego 03 nż
+1638	2	190788	25:44:00	25:44:00		Wyzwolenia / Okulickiego 03 nż
+1638	2	190788	25:46:00	25:46:00		Wyzwolenia / Warszawska 01 nż
+1638	2	190788	25:46:00	25:46:00		Wyzwolenia / Warszawska 01 nż
+1638	2	190788	25:47:00	25:47:00		Lubelska kościół 06 nż
+1638	2	190788	25:47:00	25:47:00		Lubelska kościół 06 nż
+1638	2	190788	25:48:00	25:48:00		Trembeckiego ZTM 02 nż
+1638	2	190788	25:48:00	25:48:00		Trembeckiego ZTM 02 nż
+1638	2	190788	25:49:00	25:49:00		Trembeckiego / Siemieńskiego 04 nż
+1638	2	190788	25:49:00	25:49:00		Trembeckiego / Siemieńskiego 04 nż
+1638	2	190788	25:50:00	25:50:00		Siemieńskiego U. Skarbowy 03 nż
+1638	2	190788	25:50:00	25:50:00		Siemieńskiego U. Skarbowy 03 nż
+1638	2	190788	25:51:00	25:51:00		Siemieńskiego Dom Studenta 01 nż
+1638	2	190788	25:51:00	25:51:00		Siemieńskiego Dom Studenta 01 nż
+1638	2	190788	25:52:00	25:52:00		Żółkiewskiego / Kochanowskiego 01 nż
+1638	2	190788	25:52:00	25:52:00		Żółkiewskiego / Kochanowskiego 01 nż
+1638	2	190788	25:54:00	25:54:00		Bardowskiego 02
+1638	2	190788	25:54:00	25:54:00		Bardowskiego 02
+1638	2	190788	25:55:00	26:00:00		Dworzec Główny PKP 01
+1638	2	190788	25:55:00	26:00:00		Dworzec Główny PKP 01
+1638	2	190788	26:03:00	26:03:00		Cieplińskiego 02
+1638	2	190788	26:03:00	26:03:00		Cieplińskiego 02
+1638	2	190788	26:04:00	26:04:00		Lisa-Kuli 01
+1638	2	190788	26:04:00	26:04:00		Lisa-Kuli 01
+1638	2	190788	26:06:00	26:06:00		Dąbrowskiego park 02 nż
+1638	2	190788	26:06:00	26:06:00		Dąbrowskiego park 02 nż
+1638	2	190788	26:07:00	26:07:00		Dąbrowskiego KW Policji 04
+1638	2	190788	26:07:00	26:07:00		Dąbrowskiego KW Policji 04
+1638	2	190788	26:08:00	26:08:00		Dąbrowskiego / Boh. Westerplatte 08
+1638	2	190788	26:08:00	26:08:00		Dąbrowskiego / Boh. Westerplatte 08
+1638	2	190788	26:09:00	26:09:00		Powst. Warszawy / Dąbrowskiego 02
+1638	2	190788	26:09:00	26:09:00		Powst. Warszawy / Dąbrowskiego 02
+1638	2	190788	26:10:00	26:10:00		Powst. Warszawy Politechnika 04
+1638	2	190788	26:10:00	26:10:00		Powst. Warszawy Politechnika 04
+1638	2	190788	26:11:00	26:11:00		Powst. Warszawy stadion 06
+1638	2	190788	26:11:00	26:11:00		Powst. Warszawy stadion 06
+1638	2	190788	26:12:00	26:12:00		Powst. Warszawy Dom Studenta 08
+1638	2	190788	26:12:00	26:12:00		Powst. Warszawy Dom Studenta 08
+1638	2	190788	26:13:00	26:13:00		Powst. Warszawy / Graniczna 10
+1638	2	190788	26:13:00	26:13:00		Powst. Warszawy / Graniczna 10
+1638	2	190788	26:14:00	26:14:00		Powst. Warszawy / Sikorskiego 12 nż
+1638	2	190788	26:14:00	26:14:00		Powst. Warszawy / Sikorskiego 12 nż
+1638	2	190788	26:15:00	26:15:00		Sikorskiego Katedra 04 nż
+1638	2	190788	26:15:00	26:15:00		Sikorskiego Katedra 04 nż
+1638	2	190788	26:16:00	26:16:00		Łukasiewicza / Sikorskiego 02 nż
+1638	2	190788	26:16:00	26:16:00		Łukasiewicza / Sikorskiego 02 nż
+1638	2	190788	26:17:00	26:17:00		Łukasiewicza / Zimowit 04 nż
+1638	2	190788	26:17:00	26:17:00		Łukasiewicza / Zimowit 04 nż
+1638	2	190788	26:18:00	26:18:00		Łukasiewicza / Gumińskich 06 nż
+1638	2	190788	26:18:00	26:18:00		Łukasiewicza / Gumińskich 06 nż
+1638	2	190788	26:19:00	26:19:00		Łukasiewicza pętla 10
+1638	2	190788	26:19:00	26:19:00		Łukasiewicza pętla 10
+
+1644	2	191746	26:35:00	26:35:00		Łukasiewicza pętla 10
+1644	2	191746	26:35:00	26:35:00		Łukasiewicza pętla 10
+1644	2	191746	26:36:00	26:36:00		Łukasiewicza / Sasanki 03 nż
+1644	2	191746	26:36:00	26:36:00		Łukasiewicza / Sasanki 03 nż
+1644	2	191746	26:37:00	26:37:00		Łukasiewicza / Krokusowa 01 nż
+1644	2	191746	26:37:00	26:37:00		Łukasiewicza / Krokusowa 01 nż
+1644	2	191746	26:38:00	26:38:00		Sikorskiego Katedra 01 nż
+1644	2	191746	26:38:00	26:38:00		Sikorskiego Katedra 01 nż
+1644	2	191746	26:40:00	26:40:00		Powst. Warszawy / Rejtana 13
+1644	2	191746	26:40:00	26:40:00		Powst. Warszawy / Rejtana 13
+1644	2	191746	26:41:00	26:41:00		Powst. Warszawy szkoła 11
+1644	2	191746	26:41:00	26:41:00		Powst. Warszawy szkoła 11
+1644	2	191746	26:42:00	26:42:00		Powst. Warszawy Dom Studenta 09
+1644	2	191746	26:42:00	26:42:00		Powst. Warszawy Dom Studenta 09
+1644	2	191746	26:44:00	26:44:00		Powst. Warszawy / Hetmańska 03
+1644	2	191746	26:44:00	26:44:00		Powst. Warszawy / Hetmańska 03
+1644	2	191746	26:45:00	26:45:00		Powst. Warszawy Politechnika 01
+1644	2	191746	26:45:00	26:45:00		Powst. Warszawy Politechnika 01
+1644	2	191746	26:46:00	26:46:00		Dąbrowskiego Instytut Muzyki 07
+1644	2	191746	26:46:00	26:46:00		Dąbrowskiego Instytut Muzyki 07
+1644	2	191746	26:47:00	26:47:00		Dąbrowskiego KW Policji 03
+1644	2	191746	26:47:00	26:47:00		Dąbrowskiego KW Policji 03
+1644	2	191746	26:48:00	26:48:00		Dąbrowskiego park 01 nż
+1644	2	191746	26:48:00	26:48:00		Dąbrowskiego park 01 nż
+1644	2	191746	26:50:00	26:50:00		Lisa-Kuli 02
+1644	2	191746	26:50:00	26:50:00		Lisa-Kuli 02
+1644	2	191746	26:51:00	26:51:00		Cieplińskiego 01
+1644	2	191746	26:51:00	26:51:00		Cieplińskiego 01
+1644	2	191746	26:52:00	26:52:00		Piłsudskiego U. Wojewódzki 03
+1644	2	191746	26:52:00	26:52:00		Piłsudskiego U. Wojewódzki 03
+1644	2	191746	26:55:00	27:00:00		Dworzec Główny PKP 03
+1644	2	191746	26:55:00	27:00:00		Dworzec Główny PKP 03
+1644	2	191746	27:02:00	27:02:00		Bardowskiego 03
+1644	2	191746	27:02:00	27:02:00		Bardowskiego 03
+1644	2	191746	27:04:00	27:04:00		Siemieńskiego / Kochanowskiego 02 nż
+1644	2	191746	27:04:00	27:04:00		Siemieńskiego / Kochanowskiego 02 nż
+1644	2	191746	27:05:00	27:05:00		Siemieńskiego U. Skarbowy 04 nż
+1644	2	191746	27:05:00	27:05:00		Siemieńskiego U. Skarbowy 04 nż
+1644	2	191746	27:06:00	27:06:00		Trembeckiego / Siemieńskiego 07 nż
+1644	2	191746	27:06:00	27:06:00		Trembeckiego / Siemieńskiego 07 nż
+1644	2	191746	27:07:00	27:07:00		Trembeckiego ZTM 05 nż
+1644	2	191746	27:07:00	27:07:00		Trembeckiego ZTM 05 nż
+1644	2	191746	27:08:00	27:08:00		Lubelska kościół 05 nż
+1644	2	191746	27:08:00	27:08:00		Lubelska kościół 05 nż
+1644	2	191746	27:09:00	27:09:00		Wyzwolenia / Lubelska 02 nż
+1644	2	191746	27:09:00	27:09:00		Wyzwolenia / Lubelska 02 nż
+1644	2	191746	27:10:00	27:10:00		Wyzwolenia WORD 04 nż
+1644	2	191746	27:10:00	27:10:00		Wyzwolenia WORD 04 nż
+1644	2	191746	27:11:00	27:11:00		Wyzwolenia / Iranka-Osmeckiego 06
+1644	2	191746	27:11:00	27:11:00		Wyzwolenia / Iranka-Osmeckiego 06
+1644	2	191746	27:12:00	27:12:00		Wyzwolenia / Brydaka 08
+1644	2	191746	27:12:00	27:12:00		Wyzwolenia / Brydaka 08
+1644	2	191746	27:13:00	27:13:00		Ofiar Katynia / Wyzwolenia 02
+1644	2	191746	27:13:00	27:13:00		Ofiar Katynia / Wyzwolenia 02
+1644	2	191746	27:14:00	27:14:00		Ofiar Katynia kładka 04
+1644	2	191746	27:14:00	27:14:00		Ofiar Katynia kładka 04
+1644	2	191746	27:15:00	27:15:00		Mikołajczyka pętla 03
+1644	2	191746	27:15:00	27:15:00		Mikołajczyka pętla 03
+1644	2	191746	27:16:00	27:16:00		Ofiar Katynia kładka 01
+1644	2	191746	27:16:00	27:16:00		Ofiar Katynia kładka 01
+1644	2	191746	27:17:00	27:17:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
+1644	2	191746	27:17:00	27:17:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
+1644	2	191746	27:18:00	27:18:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
+1644	2	191746	27:18:00	27:18:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
+1644	2	191746	27:19:00	27:19:00		Obr. Poczty Gdańskiej pętla 08
+1644	2	191746	27:19:00	27:19:00		Obr. Poczty Gdańskiej pętla 08
+
+1638	2	191098	27:36:00	27:36:00		Obr. Poczty Gdańskiej pętla 08
+1638	2	191098	27:36:00	27:36:00		Obr. Poczty Gdańskiej pętla 08
+1638	2	191098	27:37:00	27:37:00		Obr. Poczty Gdańskiej / Raginisa 01
+1638	2	191098	27:37:00	27:37:00		Obr. Poczty Gdańskiej / Raginisa 01
+1638	2	191098	27:38:00	27:38:00		Ofiar Katynia / Wyzwolenia 02
+1638	2	191098	27:38:00	27:38:00		Ofiar Katynia / Wyzwolenia 02
+1638	2	191098	27:39:00	27:39:00		Ofiar Katynia kładka 04
+1638	2	191098	27:39:00	27:39:00		Ofiar Katynia kładka 04
+1638	2	191098	27:40:00	27:40:00		Mikołajczyka pętla 03
+1638	2	191098	27:40:00	27:40:00		Mikołajczyka pętla 03
+1638	2	191098	27:41:00	27:41:00		Ofiar Katynia kładka 01
+1638	2	191098	27:41:00	27:41:00		Ofiar Katynia kładka 01
+1638	2	191098	27:42:00	27:42:00		Wyzwolenia / Ofiar Katynia 07
+1638	2	191098	27:42:00	27:42:00		Wyzwolenia / Ofiar Katynia 07
+1638	2	191098	27:43:00	27:43:00		Wyzwolenia kościół 05
+1638	2	191098	27:43:00	27:43:00		Wyzwolenia kościół 05
+1638	2	191098	27:44:00	27:44:00		Wyzwolenia / Okulickiego 03 nż
+1638	2	191098	27:44:00	27:44:00		Wyzwolenia / Okulickiego 03 nż
+1638	2	191098	27:46:00	27:46:00		Wyzwolenia / Warszawska 01 nż
+1638	2	191098	27:46:00	27:46:00		Wyzwolenia / Warszawska 01 nż
+1638	2	191098	27:47:00	27:47:00		Lubelska kościół 06 nż
+1638	2	191098	27:47:00	27:47:00		Lubelska kościół 06 nż
+1638	2	191098	27:48:00	27:48:00		Trembeckiego ZTM 02 nż
+1638	2	191098	27:48:00	27:48:00		Trembeckiego ZTM 02 nż
+1638	2	191098	27:49:00	27:49:00		Trembeckiego / Siemieńskiego 04 nż
+1638	2	191098	27:49:00	27:49:00		Trembeckiego / Siemieńskiego 04 nż
+1638	2	191098	27:50:00	27:50:00		Siemieńskiego U. Skarbowy 03 nż
+1638	2	191098	27:50:00	27:50:00		Siemieńskiego U. Skarbowy 03 nż
+1638	2	191098	27:51:00	27:51:00		Siemieńskiego Dom Studenta 01 nż
+1638	2	191098	27:51:00	27:51:00		Siemieńskiego Dom Studenta 01 nż
+1638	2	191098	27:52:00	27:52:00		Żółkiewskiego / Kochanowskiego 01 nż
+1638	2	191098	27:52:00	27:52:00		Żółkiewskiego / Kochanowskiego 01 nż
+1638	2	191098	27:54:00	27:54:00		Bardowskiego 02
+1638	2	191098	27:54:00	27:54:00		Bardowskiego 02
+1638	2	191098	27:55:00	28:00:00		Dworzec Główny PKP 01
+1638	2	191098	27:55:00	28:00:00		Dworzec Główny PKP 01
+1638	2	191098	28:03:00	28:03:00		Cieplińskiego 02
+1638	2	191098	28:03:00	28:03:00		Cieplińskiego 02
+1638	2	191098	28:04:00	28:04:00		Lisa-Kuli 01
+1638	2	191098	28:04:00	28:04:00		Lisa-Kuli 01
+1638	2	191098	28:06:00	28:06:00		Dąbrowskiego park 02 nż
+1638	2	191098	28:06:00	28:06:00		Dąbrowskiego park 02 nż
+1638	2	191098	28:07:00	28:07:00		Dąbrowskiego KW Policji 04
+1638	2	191098	28:07:00	28:07:00		Dąbrowskiego KW Policji 04
+1638	2	191098	28:08:00	28:08:00		Dąbrowskiego / Boh. Westerplatte 08
+1638	2	191098	28:08:00	28:08:00		Dąbrowskiego / Boh. Westerplatte 08
+1638	2	191098	28:09:00	28:09:00		Powst. Warszawy / Dąbrowskiego 02
+1638	2	191098	28:09:00	28:09:00		Powst. Warszawy / Dąbrowskiego 02
+1638	2	191098	28:10:00	28:10:00		Powst. Warszawy Politechnika 04
+1638	2	191098	28:10:00	28:10:00		Powst. Warszawy Politechnika 04
+1638	2	191098	28:11:00	28:11:00		Powst. Warszawy stadion 06
+1638	2	191098	28:11:00	28:11:00		Powst. Warszawy stadion 06
+1638	2	191098	28:12:00	28:12:00		Powst. Warszawy Dom Studenta 08
+1638	2	191098	28:12:00	28:12:00		Powst. Warszawy Dom Studenta 08
+1638	2	191098	28:13:00	28:13:00		Powst. Warszawy / Graniczna 10
+1638	2	191098	28:13:00	28:13:00		Powst. Warszawy / Graniczna 10
+1638	2	191098	28:14:00	28:14:00		Powst. Warszawy / Sikorskiego 12 nż
+1638	2	191098	28:14:00	28:14:00		Powst. Warszawy / Sikorskiego 12 nż
+1638	2	191098	28:15:00	28:15:00		Sikorskiego Katedra 04 nż
+1638	2	191098	28:15:00	28:15:00		Sikorskiego Katedra 04 nż
+1638	2	191098	28:16:00	28:16:00		Łukasiewicza / Sikorskiego 02 nż
+1638	2	191098	28:16:00	28:16:00		Łukasiewicza / Sikorskiego 02 nż
+1638	2	191098	28:17:00	28:17:00		Łukasiewicza / Zimowit 04 nż
+1638	2	191098	28:17:00	28:17:00		Łukasiewicza / Zimowit 04 nż
+1638	2	191098	28:18:00	28:18:00		Łukasiewicza / Gumińskich 06 nż
+1638	2	191098	28:18:00	28:18:00		Łukasiewicza / Gumińskich 06 nż
+1638	2	191098	28:19:00	28:19:00		Łukasiewicza pętla 10
+1638	2	191098	28:19:00	28:19:00		Łukasiewicza pętla 10
+
+1646	2	189677	28:35:00	28:35:00		Łukasiewicza pętla 10
+1646	2	189677	28:35:00	28:35:00		Łukasiewicza pętla 10
+1646	2	189677	28:36:00	28:36:00		Łukasiewicza / Sasanki 03 nż
+1646	2	189677	28:36:00	28:36:00		Łukasiewicza / Sasanki 03 nż
+1646	2	189677	28:37:00	28:37:00		Łukasiewicza / Krokusowa 01 nż
+1646	2	189677	28:37:00	28:37:00		Łukasiewicza / Krokusowa 01 nż
+1646	2	189677	28:38:00	28:38:00		Sikorskiego Katedra 01 nż
+1646	2	189677	28:38:00	28:38:00		Sikorskiego Katedra 01 nż
+1646	2	189677	28:40:00	28:40:00		Powst. Warszawy / Rejtana 13
+1646	2	189677	28:40:00	28:40:00		Powst. Warszawy / Rejtana 13
+1646	2	189677	28:41:00	28:41:00		Powst. Warszawy szkoła 11
+1646	2	189677	28:41:00	28:41:00		Powst. Warszawy szkoła 11
+1646	2	189677	28:42:00	28:42:00		Powst. Warszawy Dom Studenta 09
+1646	2	189677	28:42:00	28:42:00		Powst. Warszawy Dom Studenta 09
+1646	2	189677	28:44:00	28:44:00		Powst. Warszawy / Hetmańska 03
+1646	2	189677	28:44:00	28:44:00		Powst. Warszawy / Hetmańska 03
+1646	2	189677	28:45:00	28:45:00		Powst. Warszawy Politechnika 01
+1646	2	189677	28:45:00	28:45:00		Powst. Warszawy Politechnika 01
+1646	2	189677	28:46:00	28:46:00		Dąbrowskiego Instytut Muzyki 07
+1646	2	189677	28:46:00	28:46:00		Dąbrowskiego Instytut Muzyki 07
+1646	2	189677	28:47:00	28:47:00		Dąbrowskiego KW Policji 03
+1646	2	189677	28:47:00	28:47:00		Dąbrowskiego KW Policji 03
+1646	2	189677	28:48:00	28:48:00		Dąbrowskiego park 01 nż
+1646	2	189677	28:48:00	28:48:00		Dąbrowskiego park 01 nż
+1646	2	189677	28:50:00	28:50:00		Lisa-Kuli 02
+1646	2	189677	28:50:00	28:50:00		Lisa-Kuli 02
+1646	2	189677	28:51:00	28:51:00		Cieplińskiego 01
+1646	2	189677	28:51:00	28:51:00		Cieplińskiego 01
+1646	2	189677	28:52:00	28:52:00		Piłsudskiego U. Wojewódzki 03
+1646	2	189677	28:52:00	28:52:00		Piłsudskiego U. Wojewódzki 03
+1646	2	189677	28:55:00	29:00:00		Dworzec Główny PKP 03
+1646	2	189677	28:55:00	29:00:00		Dworzec Główny PKP 03
+1646	2	189677	29:02:00	29:02:00		Bardowskiego 03
+1646	2	189677	29:02:00	29:02:00		Bardowskiego 03
+1646	2	189677	29:04:00	29:04:00		Siemieńskiego / Kochanowskiego 02 nż
+1646	2	189677	29:04:00	29:04:00		Siemieńskiego / Kochanowskiego 02 nż
+1646	2	189677	29:05:00	29:05:00		Siemieńskiego U. Skarbowy 04 nż
+1646	2	189677	29:05:00	29:05:00		Siemieńskiego U. Skarbowy 04 nż
+1646	2	189677	29:06:00	29:06:00		Trembeckiego / Siemieńskiego 07 nż
+1646	2	189677	29:06:00	29:06:00		Trembeckiego / Siemieńskiego 07 nż
+1646	2	189677	29:07:00	29:07:00		Trembeckiego ZTM 05 nż
+1646	2	189677	29:07:00	29:07:00		Trembeckiego ZTM 05 nż
+1646	2	189677	29:08:00	29:08:00		Lubelska / Borowa 08 nż
+1646	2	189677	29:08:00	29:08:00		Lubelska / Borowa 08 nż
+1646	2	189677	29:09:00	29:09:00		Lubelska Os. Ogrody 10 nż
+1646	2	189677	29:09:00	29:09:00		Lubelska Os. Ogrody 10 nż
+1646	2	189677	29:10:00	29:10:00		Lubelska Ogrody Hiszpańskie 12 nż
+1646	2	189677	29:10:00	29:10:00		Lubelska Ogrody Hiszpańskie 12 nż
+1646	2	189677	29:11:00	29:11:00		Lubelska MPK 14 nż
+1646	2	189677	29:11:00	29:11:00		Lubelska MPK 14 nż
+1646	2	189677	29:12:00	29:12:00		Lubelska Zajezdnia MPK
+1646	2	189677	29:12:00	29:12:00		Lubelska Zajezdnia MPK

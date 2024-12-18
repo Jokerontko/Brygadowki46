@@ -1,0 +1,958 @@
+route_id	service_id	trip_id	arrival_time	departure_time	stop_headsign	stop_name
+-------------------------------------------------------------------------------
+994	2	162186	05:13:00	05:13:00		Mikołajczyka pętla 03
+994	2	162186	05:14:00	05:14:00		Ofiar Katynia kładka 01
+994	2	162186	05:14:00	05:14:00		Ofiar Katynia kładka 01
+994	2	162186	05:15:00	05:15:00		Wyzwolenia / Ofiar Katynia 07
+994	2	162186	05:15:00	05:15:00		Wyzwolenia / Ofiar Katynia 07
+994	2	162186	05:16:00	05:16:00		Wyzwolenia kościół 05
+994	2	162186	05:16:00	05:16:00		Wyzwolenia kościół 05
+994	2	162186	05:17:00	05:17:00		Okulickiego / Wyzwolenia 05 nż
+994	2	162186	05:17:00	05:17:00		Okulickiego / Wyzwolenia 05 nż
+994	2	162186	05:18:00	05:18:00		Okulickiego / Zwierzyniecka 03 nż
+994	2	162186	05:18:00	05:18:00		Okulickiego / Zwierzyniecka 03 nż
+994	2	162186	05:19:00	05:19:00		Okulickiego C. Handlowe 01
+994	2	162186	05:19:00	05:19:00		Okulickiego C. Handlowe 01
+994	2	162186	05:21:00	05:21:00		Krakowska Jedn. Wojskowa 01
+994	2	162186	05:21:00	05:21:00		Krakowska Jedn. Wojskowa 01
+994	2	162186	05:22:00	05:22:00		Piłsudskiego U. Marszałkowski 05
+994	2	162186	05:22:00	05:22:00		Piłsudskiego U. Marszałkowski 05
+994	2	162186	05:23:00	05:23:00		Cieplińskiego 02
+994	2	162186	05:23:00	05:23:00		Cieplińskiego 02
+994	2	162186	05:24:00	05:24:00		Lisa-Kuli 01
+994	2	162186	05:24:00	05:24:00		Lisa-Kuli 01
+994	2	162186	05:26:00	05:26:00		Dąbrowskiego park 02 nż
+994	2	162186	05:26:00	05:26:00		Dąbrowskiego park 02 nż
+994	2	162186	05:27:00	05:27:00		Dąbrowskiego KW Policji 04
+994	2	162186	05:27:00	05:27:00		Dąbrowskiego KW Policji 04
+994	2	162186	05:28:00	05:28:00		Dąbrowskiego / Bat. Chłopskich 10
+994	2	162186	05:28:00	05:28:00		Dąbrowskiego / Bat. Chłopskich 10
+994	2	162186	05:31:00	05:31:00		Podkarpacka Politechnika 02
+994	2	162186	05:31:00	05:31:00		Podkarpacka Politechnika 02
+994	2	162186	05:32:00	05:32:00		Podkarpacka / Matuszczaka 04
+994	2	162186	05:32:00	05:32:00		Podkarpacka / Matuszczaka 04
+994	2	162186	05:33:00	05:33:00		Bieszczadzka 02 nż
+994	2	162186	05:33:00	05:33:00		Bieszczadzka 02 nż
+994	2	162186	05:34:00	05:34:00		Rymanowska 01 nż
+994	2	162186	05:34:00	05:34:00		Rymanowska 01 nż
+994	2	162186	05:35:00	05:35:00		Matuszczaka pętla 04
+994	2	162186	05:35:00	05:35:00		Matuszczaka pętla 04
+
+982	2	161888	05:53:00	05:53:00		Matuszczaka pętla 04
+982	2	161888	05:53:00	05:53:00		Matuszczaka pętla 04
+982	2	161888	05:54:00	05:54:00		Rymanowska 02 nż
+982	2	161888	05:54:00	05:54:00		Rymanowska 02 nż
+982	2	161888	05:55:00	05:55:00		Bieszczadzka 01 nż
+982	2	161888	05:55:00	05:55:00		Bieszczadzka 01 nż
+982	2	161888	05:56:00	05:56:00		Podkarpacka / Matuszczaka 03
+982	2	161888	05:56:00	05:56:00		Podkarpacka / Matuszczaka 03
+982	2	161888	05:58:00	05:58:00		Podkarpacka Politechnika 01
+982	2	161888	05:58:00	05:58:00		Podkarpacka Politechnika 01
+982	2	161888	06:00:00	06:00:00		Dąbrowskiego Instytut Muzyki 07
+982	2	161888	06:00:00	06:00:00		Dąbrowskiego Instytut Muzyki 07
+982	2	161888	06:01:00	06:01:00		Dąbrowskiego KW Policji 03
+982	2	161888	06:01:00	06:01:00		Dąbrowskiego KW Policji 03
+982	2	161888	06:02:00	06:02:00		Dąbrowskiego park 01 nż
+982	2	161888	06:02:00	06:02:00		Dąbrowskiego park 01 nż
+982	2	161888	06:05:00	06:05:00		Lisa-Kuli 02
+982	2	161888	06:05:00	06:05:00		Lisa-Kuli 02
+982	2	161888	06:06:00	06:06:00		Cieplińskiego 01
+982	2	161888	06:06:00	06:06:00		Cieplińskiego 01
+982	2	161888	06:08:00	06:08:00		Piłsudskiego U. Marszałkowski 08
+982	2	161888	06:08:00	06:08:00		Piłsudskiego U. Marszałkowski 08
+982	2	161888	06:10:00	06:10:00		Krakowska Jedn. Wojskowa 02
+982	2	161888	06:10:00	06:10:00		Krakowska Jedn. Wojskowa 02
+982	2	161888	06:12:00	06:12:00		Okulickiego C. Handlowe 02
+982	2	161888	06:12:00	06:12:00		Okulickiego C. Handlowe 02
+982	2	161888	06:13:00	06:13:00		Okulickiego / Zwierzyniecka 04 nż
+982	2	161888	06:13:00	06:13:00		Okulickiego / Zwierzyniecka 04 nż
+982	2	161888	06:14:00	06:14:00		Wyzwolenia / Iranka-Osmeckiego 06
+982	2	161888	06:14:00	06:14:00		Wyzwolenia / Iranka-Osmeckiego 06
+982	2	161888	06:15:00	06:15:00		Wyzwolenia / Brydaka 08
+982	2	161888	06:15:00	06:15:00		Wyzwolenia / Brydaka 08
+982	2	161888	06:16:00	06:16:00		Ofiar Katynia / Wyzwolenia 02
+982	2	161888	06:16:00	06:16:00		Ofiar Katynia / Wyzwolenia 02
+982	2	161888	06:17:00	06:17:00		Ofiar Katynia kładka 04
+982	2	161888	06:17:00	06:17:00		Ofiar Katynia kładka 04
+982	2	161888	06:19:00	06:19:00		Mikołajczyka pętla 01
+982	2	161888	06:19:00	06:19:00		Mikołajczyka pętla 01
+
+994	2	162350	06:42:00	06:42:00		Mikołajczyka pętla 03
+994	2	162350	06:42:00	06:42:00		Mikołajczyka pętla 03
+994	2	162350	06:43:00	06:43:00		Ofiar Katynia kładka 01
+994	2	162350	06:43:00	06:43:00		Ofiar Katynia kładka 01
+994	2	162350	06:44:00	06:44:00		Wyzwolenia / Ofiar Katynia 07
+994	2	162350	06:44:00	06:44:00		Wyzwolenia / Ofiar Katynia 07
+994	2	162350	06:45:00	06:45:00		Wyzwolenia kościół 05
+994	2	162350	06:45:00	06:45:00		Wyzwolenia kościół 05
+994	2	162350	06:46:00	06:46:00		Okulickiego / Wyzwolenia 05 nż
+994	2	162350	06:46:00	06:46:00		Okulickiego / Wyzwolenia 05 nż
+994	2	162350	06:47:00	06:47:00		Okulickiego / Zwierzyniecka 03 nż
+994	2	162350	06:47:00	06:47:00		Okulickiego / Zwierzyniecka 03 nż
+994	2	162350	06:48:00	06:48:00		Okulickiego C. Handlowe 01
+994	2	162350	06:48:00	06:48:00		Okulickiego C. Handlowe 01
+994	2	162350	06:51:00	06:51:00		Krakowska Jedn. Wojskowa 01
+994	2	162350	06:51:00	06:51:00		Krakowska Jedn. Wojskowa 01
+994	2	162350	06:53:00	06:53:00		Piłsudskiego U. Marszałkowski 05
+994	2	162350	06:53:00	06:53:00		Piłsudskiego U. Marszałkowski 05
+994	2	162350	06:54:00	06:54:00		Cieplińskiego 02
+994	2	162350	06:54:00	06:54:00		Cieplińskiego 02
+994	2	162350	06:55:00	06:55:00		Lisa-Kuli 01
+994	2	162350	06:55:00	06:55:00		Lisa-Kuli 01
+994	2	162350	06:57:00	06:57:00		Dąbrowskiego park 02 nż
+994	2	162350	06:57:00	06:57:00		Dąbrowskiego park 02 nż
+994	2	162350	06:58:00	06:58:00		Dąbrowskiego KW Policji 04
+994	2	162350	06:58:00	06:58:00		Dąbrowskiego KW Policji 04
+994	2	162350	06:59:00	06:59:00		Dąbrowskiego / Bat. Chłopskich 10
+994	2	162350	06:59:00	06:59:00		Dąbrowskiego / Bat. Chłopskich 10
+994	2	162350	07:03:00	07:03:00		Podkarpacka Politechnika 02
+994	2	162350	07:03:00	07:03:00		Podkarpacka Politechnika 02
+994	2	162350	07:04:00	07:04:00		Podkarpacka / Matuszczaka 04
+994	2	162350	07:04:00	07:04:00		Podkarpacka / Matuszczaka 04
+994	2	162350	07:06:00	07:06:00		Bieszczadzka 02 nż
+994	2	162350	07:06:00	07:06:00		Bieszczadzka 02 nż
+994	2	162350	07:07:00	07:07:00		Rymanowska 01 nż
+994	2	162350	07:07:00	07:07:00		Rymanowska 01 nż
+994	2	162350	07:08:00	07:08:00		Matuszczaka pętla 04
+994	2	162350	07:08:00	07:08:00		Matuszczaka pętla 04
+
+982	2	162256	07:23:00	07:23:00		Matuszczaka pętla 04
+982	2	162256	07:23:00	07:23:00		Matuszczaka pętla 04
+982	2	162256	07:24:00	07:24:00		Rymanowska 02 nż
+982	2	162256	07:24:00	07:24:00		Rymanowska 02 nż
+982	2	162256	07:25:00	07:25:00		Bieszczadzka 01 nż
+982	2	162256	07:25:00	07:25:00		Bieszczadzka 01 nż
+982	2	162256	07:26:00	07:26:00		Podkarpacka / Matuszczaka 03
+982	2	162256	07:26:00	07:26:00		Podkarpacka / Matuszczaka 03
+982	2	162256	07:28:00	07:28:00		Podkarpacka Politechnika 01
+982	2	162256	07:28:00	07:28:00		Podkarpacka Politechnika 01
+982	2	162256	07:30:00	07:30:00		Dąbrowskiego Instytut Muzyki 07
+982	2	162256	07:30:00	07:30:00		Dąbrowskiego Instytut Muzyki 07
+982	2	162256	07:31:00	07:31:00		Dąbrowskiego KW Policji 03
+982	2	162256	07:31:00	07:31:00		Dąbrowskiego KW Policji 03
+982	2	162256	07:32:00	07:32:00		Dąbrowskiego park 01 nż
+982	2	162256	07:32:00	07:32:00		Dąbrowskiego park 01 nż
+982	2	162256	07:36:00	07:36:00		Lisa-Kuli 02
+982	2	162256	07:36:00	07:36:00		Lisa-Kuli 02
+982	2	162256	07:37:00	07:37:00		Cieplińskiego 01
+982	2	162256	07:37:00	07:37:00		Cieplińskiego 01
+982	2	162256	07:39:00	07:39:00		Piłsudskiego U. Marszałkowski 08
+982	2	162256	07:39:00	07:39:00		Piłsudskiego U. Marszałkowski 08
+982	2	162256	07:41:00	07:41:00		Krakowska Jedn. Wojskowa 02
+982	2	162256	07:41:00	07:41:00		Krakowska Jedn. Wojskowa 02
+982	2	162256	07:43:00	07:43:00		Okulickiego C. Handlowe 02
+982	2	162256	07:43:00	07:43:00		Okulickiego C. Handlowe 02
+982	2	162256	07:44:00	07:44:00		Okulickiego / Zwierzyniecka 04 nż
+982	2	162256	07:44:00	07:44:00		Okulickiego / Zwierzyniecka 04 nż
+982	2	162256	07:46:00	07:46:00		Wyzwolenia / Iranka-Osmeckiego 06
+982	2	162256	07:46:00	07:46:00		Wyzwolenia / Iranka-Osmeckiego 06
+982	2	162256	07:47:00	07:47:00		Wyzwolenia / Brydaka 08
+982	2	162256	07:47:00	07:47:00		Wyzwolenia / Brydaka 08
+982	2	162256	07:48:00	07:48:00		Ofiar Katynia / Wyzwolenia 02
+982	2	162256	07:48:00	07:48:00		Ofiar Katynia / Wyzwolenia 02
+982	2	162256	07:49:00	07:49:00		Ofiar Katynia kładka 04
+982	2	162256	07:49:00	07:49:00		Ofiar Katynia kładka 04
+982	2	162256	07:51:00	07:51:00		Mikołajczyka pętla 01
+982	2	162256	07:51:00	07:51:00		Mikołajczyka pętla 01
+
+994	2	162434	08:11:00	08:11:00		Mikołajczyka pętla 03
+994	2	162434	08:11:00	08:11:00		Mikołajczyka pętla 03
+994	2	162434	08:12:00	08:12:00		Ofiar Katynia kładka 01
+994	2	162434	08:12:00	08:12:00		Ofiar Katynia kładka 01
+994	2	162434	08:13:00	08:13:00		Wyzwolenia / Ofiar Katynia 07
+994	2	162434	08:13:00	08:13:00		Wyzwolenia / Ofiar Katynia 07
+994	2	162434	08:14:00	08:14:00		Wyzwolenia kościół 05
+994	2	162434	08:14:00	08:14:00		Wyzwolenia kościół 05
+994	2	162434	08:15:00	08:15:00		Okulickiego / Wyzwolenia 05 nż
+994	2	162434	08:15:00	08:15:00		Okulickiego / Wyzwolenia 05 nż
+994	2	162434	08:16:00	08:16:00		Okulickiego / Zwierzyniecka 03 nż
+994	2	162434	08:16:00	08:16:00		Okulickiego / Zwierzyniecka 03 nż
+994	2	162434	08:17:00	08:17:00		Okulickiego C. Handlowe 01
+994	2	162434	08:17:00	08:17:00		Okulickiego C. Handlowe 01
+994	2	162434	08:20:00	08:20:00		Krakowska Jedn. Wojskowa 01
+994	2	162434	08:20:00	08:20:00		Krakowska Jedn. Wojskowa 01
+994	2	162434	08:22:00	08:22:00		Piłsudskiego U. Marszałkowski 05
+994	2	162434	08:22:00	08:22:00		Piłsudskiego U. Marszałkowski 05
+994	2	162434	08:23:00	08:23:00		Cieplińskiego 02
+994	2	162434	08:23:00	08:23:00		Cieplińskiego 02
+994	2	162434	08:24:00	08:24:00		Lisa-Kuli 01
+994	2	162434	08:24:00	08:24:00		Lisa-Kuli 01
+994	2	162434	08:26:00	08:26:00		Dąbrowskiego park 02 nż
+994	2	162434	08:26:00	08:26:00		Dąbrowskiego park 02 nż
+994	2	162434	08:27:00	08:27:00		Dąbrowskiego KW Policji 04
+994	2	162434	08:27:00	08:27:00		Dąbrowskiego KW Policji 04
+994	2	162434	08:28:00	08:28:00		Dąbrowskiego / Bat. Chłopskich 10
+994	2	162434	08:28:00	08:28:00		Dąbrowskiego / Bat. Chłopskich 10
+994	2	162434	08:32:00	08:32:00		Podkarpacka Politechnika 02
+994	2	162434	08:32:00	08:32:00		Podkarpacka Politechnika 02
+994	2	162434	08:33:00	08:33:00		Podkarpacka / Matuszczaka 04
+994	2	162434	08:33:00	08:33:00		Podkarpacka / Matuszczaka 04
+994	2	162434	08:34:00	08:34:00		Bieszczadzka 02 nż
+994	2	162434	08:34:00	08:34:00		Bieszczadzka 02 nż
+994	2	162434	08:35:00	08:35:00		Rymanowska 01 nż
+994	2	162434	08:35:00	08:35:00		Rymanowska 01 nż
+994	2	162434	08:36:00	08:36:00		Matuszczaka pętla 04
+994	2	162434	08:36:00	08:36:00		Matuszczaka pętla 04
+
+982	2	162448	08:52:00	08:52:00		Matuszczaka pętla 04
+982	2	162448	08:52:00	08:52:00		Matuszczaka pętla 04
+982	2	162448	08:53:00	08:53:00		Rymanowska 02 nż
+982	2	162448	08:53:00	08:53:00		Rymanowska 02 nż
+982	2	162448	08:54:00	08:54:00		Bieszczadzka 01 nż
+982	2	162448	08:54:00	08:54:00		Bieszczadzka 01 nż
+982	2	162448	08:55:00	08:55:00		Podkarpacka / Matuszczaka 03
+982	2	162448	08:55:00	08:55:00		Podkarpacka / Matuszczaka 03
+982	2	162448	08:57:00	08:57:00		Podkarpacka Politechnika 01
+982	2	162448	08:57:00	08:57:00		Podkarpacka Politechnika 01
+982	2	162448	08:59:00	08:59:00		Dąbrowskiego Instytut Muzyki 07
+982	2	162448	08:59:00	08:59:00		Dąbrowskiego Instytut Muzyki 07
+982	2	162448	09:00:00	09:00:00		Dąbrowskiego KW Policji 03
+982	2	162448	09:00:00	09:00:00		Dąbrowskiego KW Policji 03
+982	2	162448	09:01:00	09:01:00		Dąbrowskiego park 01 nż
+982	2	162448	09:01:00	09:01:00		Dąbrowskiego park 01 nż
+982	2	162448	09:05:00	09:05:00		Lisa-Kuli 02
+982	2	162448	09:05:00	09:05:00		Lisa-Kuli 02
+982	2	162448	09:06:00	09:06:00		Cieplińskiego 01
+982	2	162448	09:06:00	09:06:00		Cieplińskiego 01
+982	2	162448	09:08:00	09:08:00		Piłsudskiego U. Marszałkowski 08
+982	2	162448	09:08:00	09:08:00		Piłsudskiego U. Marszałkowski 08
+982	2	162448	09:10:00	09:10:00		Krakowska Jedn. Wojskowa 02
+982	2	162448	09:10:00	09:10:00		Krakowska Jedn. Wojskowa 02
+982	2	162448	09:12:00	09:12:00		Okulickiego C. Handlowe 02
+982	2	162448	09:12:00	09:12:00		Okulickiego C. Handlowe 02
+982	2	162448	09:13:00	09:13:00		Okulickiego / Zwierzyniecka 04 nż
+982	2	162448	09:13:00	09:13:00		Okulickiego / Zwierzyniecka 04 nż
+982	2	162448	09:15:00	09:15:00		Wyzwolenia / Iranka-Osmeckiego 06
+982	2	162448	09:15:00	09:15:00		Wyzwolenia / Iranka-Osmeckiego 06
+982	2	162448	09:16:00	09:16:00		Wyzwolenia / Brydaka 08
+982	2	162448	09:16:00	09:16:00		Wyzwolenia / Brydaka 08
+982	2	162448	09:17:00	09:17:00		Ofiar Katynia / Wyzwolenia 02
+982	2	162448	09:17:00	09:17:00		Ofiar Katynia / Wyzwolenia 02
+982	2	162448	09:18:00	09:18:00		Ofiar Katynia kładka 04
+982	2	162448	09:18:00	09:18:00		Ofiar Katynia kładka 04
+982	2	162448	09:20:00	09:20:00		Mikołajczyka pętla 01
+982	2	162448	09:20:00	09:20:00		Mikołajczyka pętla 01
+
+994	2	162262	09:42:00	09:42:00		Mikołajczyka pętla 03
+994	2	162262	09:42:00	09:42:00		Mikołajczyka pętla 03
+994	2	162262	09:43:00	09:43:00		Ofiar Katynia kładka 01
+994	2	162262	09:43:00	09:43:00		Ofiar Katynia kładka 01
+994	2	162262	09:44:00	09:44:00		Wyzwolenia / Ofiar Katynia 07
+994	2	162262	09:44:00	09:44:00		Wyzwolenia / Ofiar Katynia 07
+994	2	162262	09:45:00	09:45:00		Wyzwolenia kościół 05
+994	2	162262	09:45:00	09:45:00		Wyzwolenia kościół 05
+994	2	162262	09:46:00	09:46:00		Okulickiego / Wyzwolenia 05 nż
+994	2	162262	09:46:00	09:46:00		Okulickiego / Wyzwolenia 05 nż
+994	2	162262	09:47:00	09:47:00		Okulickiego / Zwierzyniecka 03 nż
+994	2	162262	09:47:00	09:47:00		Okulickiego / Zwierzyniecka 03 nż
+994	2	162262	09:48:00	09:48:00		Okulickiego C. Handlowe 01
+994	2	162262	09:48:00	09:48:00		Okulickiego C. Handlowe 01
+994	2	162262	09:51:00	09:51:00		Krakowska Jedn. Wojskowa 01
+994	2	162262	09:51:00	09:51:00		Krakowska Jedn. Wojskowa 01
+994	2	162262	09:53:00	09:53:00		Piłsudskiego U. Marszałkowski 05
+994	2	162262	09:53:00	09:53:00		Piłsudskiego U. Marszałkowski 05
+994	2	162262	09:54:00	09:54:00		Cieplińskiego 02
+994	2	162262	09:54:00	09:54:00		Cieplińskiego 02
+994	2	162262	09:55:00	09:55:00		Lisa-Kuli 01
+994	2	162262	09:55:00	09:55:00		Lisa-Kuli 01
+994	2	162262	09:57:00	09:57:00		Dąbrowskiego park 02 nż
+994	2	162262	09:57:00	09:57:00		Dąbrowskiego park 02 nż
+994	2	162262	09:58:00	09:58:00		Dąbrowskiego KW Policji 04
+994	2	162262	09:58:00	09:58:00		Dąbrowskiego KW Policji 04
+994	2	162262	09:59:00	09:59:00		Dąbrowskiego / Bat. Chłopskich 10
+994	2	162262	09:59:00	09:59:00		Dąbrowskiego / Bat. Chłopskich 10
+994	2	162262	10:03:00	10:03:00		Podkarpacka Politechnika 02
+994	2	162262	10:03:00	10:03:00		Podkarpacka Politechnika 02
+994	2	162262	10:04:00	10:04:00		Podkarpacka / Matuszczaka 04
+994	2	162262	10:04:00	10:04:00		Podkarpacka / Matuszczaka 04
+994	2	162262	10:05:00	10:05:00		Bieszczadzka 02 nż
+994	2	162262	10:05:00	10:05:00		Bieszczadzka 02 nż
+994	2	162262	10:06:00	10:06:00		Rymanowska 01 nż
+994	2	162262	10:06:00	10:06:00		Rymanowska 01 nż
+994	2	162262	10:07:00	10:07:00		Matuszczaka pętla 04
+994	2	162262	10:07:00	10:07:00		Matuszczaka pętla 04
+
+982	2	162184	10:22:00	10:22:00		Matuszczaka pętla 04
+982	2	162184	10:22:00	10:22:00		Matuszczaka pętla 04
+982	2	162184	10:23:00	10:23:00		Rymanowska 02 nż
+982	2	162184	10:23:00	10:23:00		Rymanowska 02 nż
+982	2	162184	10:24:00	10:24:00		Bieszczadzka 01 nż
+982	2	162184	10:24:00	10:24:00		Bieszczadzka 01 nż
+982	2	162184	10:25:00	10:25:00		Podkarpacka / Matuszczaka 03
+982	2	162184	10:25:00	10:25:00		Podkarpacka / Matuszczaka 03
+982	2	162184	10:27:00	10:27:00		Podkarpacka Politechnika 01
+982	2	162184	10:27:00	10:27:00		Podkarpacka Politechnika 01
+982	2	162184	10:29:00	10:29:00		Dąbrowskiego Instytut Muzyki 07
+982	2	162184	10:29:00	10:29:00		Dąbrowskiego Instytut Muzyki 07
+982	2	162184	10:30:00	10:30:00		Dąbrowskiego KW Policji 03
+982	2	162184	10:30:00	10:30:00		Dąbrowskiego KW Policji 03
+982	2	162184	10:31:00	10:31:00		Dąbrowskiego park 01 nż
+982	2	162184	10:31:00	10:31:00		Dąbrowskiego park 01 nż
+982	2	162184	10:35:00	10:35:00		Lisa-Kuli 02
+982	2	162184	10:35:00	10:35:00		Lisa-Kuli 02
+982	2	162184	10:36:00	10:36:00		Cieplińskiego 01
+982	2	162184	10:36:00	10:36:00		Cieplińskiego 01
+982	2	162184	10:38:00	10:38:00		Piłsudskiego U. Marszałkowski 08
+982	2	162184	10:38:00	10:38:00		Piłsudskiego U. Marszałkowski 08
+982	2	162184	10:40:00	10:40:00		Krakowska Jedn. Wojskowa 02
+982	2	162184	10:40:00	10:40:00		Krakowska Jedn. Wojskowa 02
+982	2	162184	10:42:00	10:42:00		Okulickiego C. Handlowe 02
+982	2	162184	10:42:00	10:42:00		Okulickiego C. Handlowe 02
+982	2	162184	10:43:00	10:43:00		Okulickiego / Zwierzyniecka 04 nż
+982	2	162184	10:43:00	10:43:00		Okulickiego / Zwierzyniecka 04 nż
+982	2	162184	10:45:00	10:45:00		Wyzwolenia / Iranka-Osmeckiego 06
+982	2	162184	10:45:00	10:45:00		Wyzwolenia / Iranka-Osmeckiego 06
+982	2	162184	10:46:00	10:46:00		Wyzwolenia / Brydaka 08
+982	2	162184	10:46:00	10:46:00		Wyzwolenia / Brydaka 08
+982	2	162184	10:47:00	10:47:00		Ofiar Katynia / Wyzwolenia 02
+982	2	162184	10:47:00	10:47:00		Ofiar Katynia / Wyzwolenia 02
+982	2	162184	10:48:00	10:48:00		Ofiar Katynia kładka 04
+982	2	162184	10:48:00	10:48:00		Ofiar Katynia kładka 04
+982	2	162184	10:50:00	10:50:00		Mikołajczyka pętla 01
+982	2	162184	10:50:00	10:50:00		Mikołajczyka pętla 01
+
+994	2	161969	11:12:00	11:12:00		Mikołajczyka pętla 03
+994	2	161969	11:12:00	11:12:00		Mikołajczyka pętla 03
+994	2	161969	11:13:00	11:13:00		Ofiar Katynia kładka 01
+994	2	161969	11:13:00	11:13:00		Ofiar Katynia kładka 01
+994	2	161969	11:14:00	11:14:00		Wyzwolenia / Ofiar Katynia 07
+994	2	161969	11:14:00	11:14:00		Wyzwolenia / Ofiar Katynia 07
+994	2	161969	11:15:00	11:15:00		Wyzwolenia kościół 05
+994	2	161969	11:15:00	11:15:00		Wyzwolenia kościół 05
+994	2	161969	11:16:00	11:16:00		Okulickiego / Wyzwolenia 05 nż
+994	2	161969	11:16:00	11:16:00		Okulickiego / Wyzwolenia 05 nż
+994	2	161969	11:17:00	11:17:00		Okulickiego / Zwierzyniecka 03 nż
+994	2	161969	11:17:00	11:17:00		Okulickiego / Zwierzyniecka 03 nż
+994	2	161969	11:18:00	11:18:00		Okulickiego C. Handlowe 01
+994	2	161969	11:18:00	11:18:00		Okulickiego C. Handlowe 01
+994	2	161969	11:21:00	11:21:00		Krakowska Jedn. Wojskowa 01
+994	2	161969	11:21:00	11:21:00		Krakowska Jedn. Wojskowa 01
+994	2	161969	11:23:00	11:23:00		Piłsudskiego U. Marszałkowski 05
+994	2	161969	11:23:00	11:23:00		Piłsudskiego U. Marszałkowski 05
+994	2	161969	11:24:00	11:24:00		Cieplińskiego 02
+994	2	161969	11:24:00	11:24:00		Cieplińskiego 02
+994	2	161969	11:25:00	11:25:00		Lisa-Kuli 01
+994	2	161969	11:25:00	11:25:00		Lisa-Kuli 01
+994	2	161969	11:28:00	11:28:00		Dąbrowskiego park 02 nż
+994	2	161969	11:28:00	11:28:00		Dąbrowskiego park 02 nż
+994	2	161969	11:29:00	11:29:00		Dąbrowskiego KW Policji 04
+994	2	161969	11:29:00	11:29:00		Dąbrowskiego KW Policji 04
+994	2	161969	11:30:00	11:30:00		Dąbrowskiego / Bat. Chłopskich 10
+994	2	161969	11:30:00	11:30:00		Dąbrowskiego / Bat. Chłopskich 10
+994	2	161969	11:34:00	11:34:00		Podkarpacka Politechnika 02
+994	2	161969	11:34:00	11:34:00		Podkarpacka Politechnika 02
+994	2	161969	11:35:00	11:35:00		Podkarpacka / Matuszczaka 04
+994	2	161969	11:35:00	11:35:00		Podkarpacka / Matuszczaka 04
+994	2	161969	11:36:00	11:36:00		Bieszczadzka 02 nż
+994	2	161969	11:36:00	11:36:00		Bieszczadzka 02 nż
+994	2	161969	11:37:00	11:37:00		Rymanowska 01 nż
+994	2	161969	11:37:00	11:37:00		Rymanowska 01 nż
+994	2	161969	11:38:00	11:38:00		Matuszczaka pętla 04
+994	2	161969	11:38:00	11:38:00		Matuszczaka pętla 04
+
+982	2	162512	11:52:00	11:52:00		Matuszczaka pętla 04
+982	2	162512	11:52:00	11:52:00		Matuszczaka pętla 04
+982	2	162512	11:53:00	11:53:00		Rymanowska 02 nż
+982	2	162512	11:53:00	11:53:00		Rymanowska 02 nż
+982	2	162512	11:54:00	11:54:00		Bieszczadzka 01 nż
+982	2	162512	11:54:00	11:54:00		Bieszczadzka 01 nż
+982	2	162512	11:55:00	11:55:00		Podkarpacka / Matuszczaka 03
+982	2	162512	11:55:00	11:55:00		Podkarpacka / Matuszczaka 03
+982	2	162512	11:57:00	11:57:00		Podkarpacka Politechnika 01
+982	2	162512	11:57:00	11:57:00		Podkarpacka Politechnika 01
+982	2	162512	11:59:00	11:59:00		Dąbrowskiego Instytut Muzyki 07
+982	2	162512	11:59:00	11:59:00		Dąbrowskiego Instytut Muzyki 07
+982	2	162512	12:00:00	12:00:00		Dąbrowskiego KW Policji 03
+982	2	162512	12:00:00	12:00:00		Dąbrowskiego KW Policji 03
+982	2	162512	12:01:00	12:01:00		Dąbrowskiego park 01 nż
+982	2	162512	12:01:00	12:01:00		Dąbrowskiego park 01 nż
+982	2	162512	12:05:00	12:05:00		Lisa-Kuli 02
+982	2	162512	12:05:00	12:05:00		Lisa-Kuli 02
+982	2	162512	12:06:00	12:06:00		Cieplińskiego 01
+982	2	162512	12:06:00	12:06:00		Cieplińskiego 01
+982	2	162512	12:08:00	12:08:00		Piłsudskiego U. Marszałkowski 08
+982	2	162512	12:08:00	12:08:00		Piłsudskiego U. Marszałkowski 08
+982	2	162512	12:10:00	12:10:00		Krakowska Jedn. Wojskowa 02
+982	2	162512	12:10:00	12:10:00		Krakowska Jedn. Wojskowa 02
+982	2	162512	12:12:00	12:12:00		Okulickiego C. Handlowe 02
+982	2	162512	12:12:00	12:12:00		Okulickiego C. Handlowe 02
+982	2	162512	12:13:00	12:13:00		Okulickiego / Zwierzyniecka 04 nż
+982	2	162512	12:13:00	12:13:00		Okulickiego / Zwierzyniecka 04 nż
+982	2	162512	12:15:00	12:15:00		Wyzwolenia / Iranka-Osmeckiego 06
+982	2	162512	12:15:00	12:15:00		Wyzwolenia / Iranka-Osmeckiego 06
+982	2	162512	12:16:00	12:16:00		Wyzwolenia / Brydaka 08
+982	2	162512	12:16:00	12:16:00		Wyzwolenia / Brydaka 08
+982	2	162512	12:18:00	12:18:00		Ofiar Katynia / Wyzwolenia 02
+982	2	162512	12:18:00	12:18:00		Ofiar Katynia / Wyzwolenia 02
+982	2	162512	12:19:00	12:19:00		Ofiar Katynia kładka 04
+982	2	162512	12:19:00	12:19:00		Ofiar Katynia kładka 04
+982	2	162512	12:21:00	12:21:00		Mikołajczyka pętla 01
+982	2	162512	12:21:00	12:21:00		Mikołajczyka pętla 01
+
+994	2	161984	12:43:00	12:43:00		Mikołajczyka pętla 03
+994	2	161984	12:43:00	12:43:00		Mikołajczyka pętla 03
+994	2	161984	12:44:00	12:44:00		Ofiar Katynia kładka 01
+994	2	161984	12:44:00	12:44:00		Ofiar Katynia kładka 01
+994	2	161984	12:45:00	12:45:00		Wyzwolenia / Ofiar Katynia 07
+994	2	161984	12:45:00	12:45:00		Wyzwolenia / Ofiar Katynia 07
+994	2	161984	12:46:00	12:46:00		Wyzwolenia kościół 05
+994	2	161984	12:46:00	12:46:00		Wyzwolenia kościół 05
+994	2	161984	12:47:00	12:47:00		Okulickiego / Wyzwolenia 05 nż
+994	2	161984	12:47:00	12:47:00		Okulickiego / Wyzwolenia 05 nż
+994	2	161984	12:48:00	12:48:00		Okulickiego / Zwierzyniecka 03 nż
+994	2	161984	12:48:00	12:48:00		Okulickiego / Zwierzyniecka 03 nż
+994	2	161984	12:49:00	12:49:00		Okulickiego C. Handlowe 01
+994	2	161984	12:49:00	12:49:00		Okulickiego C. Handlowe 01
+994	2	161984	12:52:00	12:52:00		Krakowska Jedn. Wojskowa 01
+994	2	161984	12:52:00	12:52:00		Krakowska Jedn. Wojskowa 01
+994	2	161984	12:54:00	12:54:00		Piłsudskiego U. Marszałkowski 05
+994	2	161984	12:54:00	12:54:00		Piłsudskiego U. Marszałkowski 05
+994	2	161984	12:55:00	12:55:00		Cieplińskiego 02
+994	2	161984	12:55:00	12:55:00		Cieplińskiego 02
+994	2	161984	12:56:00	12:56:00		Lisa-Kuli 01
+994	2	161984	12:56:00	12:56:00		Lisa-Kuli 01
+994	2	161984	12:59:00	12:59:00		Dąbrowskiego park 02 nż
+994	2	161984	12:59:00	12:59:00		Dąbrowskiego park 02 nż
+994	2	161984	13:00:00	13:00:00		Dąbrowskiego KW Policji 04
+994	2	161984	13:00:00	13:00:00		Dąbrowskiego KW Policji 04
+994	2	161984	13:01:00	13:01:00		Dąbrowskiego / Bat. Chłopskich 10
+994	2	161984	13:01:00	13:01:00		Dąbrowskiego / Bat. Chłopskich 10
+994	2	161984	13:05:00	13:05:00		Podkarpacka Politechnika 02
+994	2	161984	13:05:00	13:05:00		Podkarpacka Politechnika 02
+994	2	161984	13:06:00	13:06:00		Podkarpacka / Matuszczaka 04
+994	2	161984	13:06:00	13:06:00		Podkarpacka / Matuszczaka 04
+994	2	161984	13:07:00	13:07:00		Bieszczadzka 02 nż
+994	2	161984	13:07:00	13:07:00		Bieszczadzka 02 nż
+994	2	161984	13:08:00	13:08:00		Rymanowska 01 nż
+994	2	161984	13:08:00	13:08:00		Rymanowska 01 nż
+994	2	161984	13:09:00	13:09:00		Matuszczaka pętla 04
+994	2	161984	13:09:00	13:09:00		Matuszczaka pętla 04
+
+982	2	161985	13:22:00	13:22:00		Matuszczaka pętla 04
+982	2	161985	13:22:00	13:22:00		Matuszczaka pętla 04
+982	2	161985	13:23:00	13:23:00		Rymanowska 02 nż
+982	2	161985	13:23:00	13:23:00		Rymanowska 02 nż
+982	2	161985	13:24:00	13:24:00		Bieszczadzka 01 nż
+982	2	161985	13:24:00	13:24:00		Bieszczadzka 01 nż
+982	2	161985	13:25:00	13:25:00		Podkarpacka / Matuszczaka 03
+982	2	161985	13:25:00	13:25:00		Podkarpacka / Matuszczaka 03
+982	2	161985	13:27:00	13:27:00		Podkarpacka Politechnika 01
+982	2	161985	13:27:00	13:27:00		Podkarpacka Politechnika 01
+982	2	161985	13:29:00	13:29:00		Dąbrowskiego Instytut Muzyki 07
+982	2	161985	13:29:00	13:29:00		Dąbrowskiego Instytut Muzyki 07
+982	2	161985	13:30:00	13:30:00		Dąbrowskiego KW Policji 03
+982	2	161985	13:30:00	13:30:00		Dąbrowskiego KW Policji 03
+982	2	161985	13:31:00	13:31:00		Dąbrowskiego park 01 nż
+982	2	161985	13:31:00	13:31:00		Dąbrowskiego park 01 nż
+982	2	161985	13:35:00	13:35:00		Lisa-Kuli 02
+982	2	161985	13:35:00	13:35:00		Lisa-Kuli 02
+982	2	161985	13:36:00	13:36:00		Cieplińskiego 01
+982	2	161985	13:36:00	13:36:00		Cieplińskiego 01
+982	2	161985	13:38:00	13:38:00		Piłsudskiego U. Marszałkowski 08
+982	2	161985	13:38:00	13:38:00		Piłsudskiego U. Marszałkowski 08
+982	2	161985	13:40:00	13:40:00		Krakowska Jedn. Wojskowa 02
+982	2	161985	13:40:00	13:40:00		Krakowska Jedn. Wojskowa 02
+982	2	161985	13:42:00	13:42:00		Okulickiego C. Handlowe 02
+982	2	161985	13:42:00	13:42:00		Okulickiego C. Handlowe 02
+982	2	161985	13:43:00	13:43:00		Okulickiego / Zwierzyniecka 04 nż
+982	2	161985	13:43:00	13:43:00		Okulickiego / Zwierzyniecka 04 nż
+982	2	161985	13:45:00	13:45:00		Wyzwolenia / Iranka-Osmeckiego 06
+982	2	161985	13:45:00	13:45:00		Wyzwolenia / Iranka-Osmeckiego 06
+982	2	161985	13:46:00	13:46:00		Wyzwolenia / Brydaka 08
+982	2	161985	13:46:00	13:46:00		Wyzwolenia / Brydaka 08
+982	2	161985	13:48:00	13:48:00		Ofiar Katynia / Wyzwolenia 02
+982	2	161985	13:48:00	13:48:00		Ofiar Katynia / Wyzwolenia 02
+982	2	161985	13:49:00	13:49:00		Ofiar Katynia kładka 04
+982	2	161985	13:49:00	13:49:00		Ofiar Katynia kładka 04
+982	2	161985	13:51:00	13:51:00		Mikołajczyka pętla 01
+982	2	161985	13:51:00	13:51:00		Mikołajczyka pętla 01
+
+994	2	162168	14:13:00	14:13:00		Mikołajczyka pętla 03
+994	2	162168	14:13:00	14:13:00		Mikołajczyka pętla 03
+994	2	162168	14:14:00	14:14:00		Ofiar Katynia kładka 01
+994	2	162168	14:14:00	14:14:00		Ofiar Katynia kładka 01
+994	2	162168	14:15:00	14:15:00		Wyzwolenia / Ofiar Katynia 07
+994	2	162168	14:15:00	14:15:00		Wyzwolenia / Ofiar Katynia 07
+994	2	162168	14:16:00	14:16:00		Wyzwolenia kościół 05
+994	2	162168	14:16:00	14:16:00		Wyzwolenia kościół 05
+994	2	162168	14:17:00	14:17:00		Okulickiego / Wyzwolenia 05 nż
+994	2	162168	14:17:00	14:17:00		Okulickiego / Wyzwolenia 05 nż
+994	2	162168	14:18:00	14:18:00		Okulickiego / Zwierzyniecka 03 nż
+994	2	162168	14:18:00	14:18:00		Okulickiego / Zwierzyniecka 03 nż
+994	2	162168	14:19:00	14:19:00		Okulickiego C. Handlowe 01
+994	2	162168	14:19:00	14:19:00		Okulickiego C. Handlowe 01
+994	2	162168	14:22:00	14:22:00		Krakowska Jedn. Wojskowa 01
+994	2	162168	14:22:00	14:22:00		Krakowska Jedn. Wojskowa 01
+994	2	162168	14:24:00	14:24:00		Piłsudskiego U. Marszałkowski 05
+994	2	162168	14:24:00	14:24:00		Piłsudskiego U. Marszałkowski 05
+994	2	162168	14:25:00	14:25:00		Cieplińskiego 02
+994	2	162168	14:25:00	14:25:00		Cieplińskiego 02
+994	2	162168	14:26:00	14:26:00		Lisa-Kuli 01
+994	2	162168	14:26:00	14:26:00		Lisa-Kuli 01
+994	2	162168	14:29:00	14:29:00		Dąbrowskiego park 02 nż
+994	2	162168	14:29:00	14:29:00		Dąbrowskiego park 02 nż
+994	2	162168	14:30:00	14:30:00		Dąbrowskiego KW Policji 04
+994	2	162168	14:30:00	14:30:00		Dąbrowskiego KW Policji 04
+994	2	162168	14:31:00	14:31:00		Dąbrowskiego / Bat. Chłopskich 10
+994	2	162168	14:31:00	14:31:00		Dąbrowskiego / Bat. Chłopskich 10
+994	2	162168	14:35:00	14:35:00		Podkarpacka Politechnika 02
+994	2	162168	14:35:00	14:35:00		Podkarpacka Politechnika 02
+994	2	162168	14:36:00	14:36:00		Podkarpacka / Matuszczaka 04
+994	2	162168	14:36:00	14:36:00		Podkarpacka / Matuszczaka 04
+994	2	162168	14:38:00	14:38:00		Bieszczadzka 02 nż
+994	2	162168	14:38:00	14:38:00		Bieszczadzka 02 nż
+994	2	162168	14:39:00	14:39:00		Rymanowska 01 nż
+994	2	162168	14:39:00	14:39:00		Rymanowska 01 nż
+994	2	162168	14:40:00	14:40:00		Matuszczaka pętla 04
+994	2	162168	14:40:00	14:40:00		Matuszczaka pętla 04
+
+982	2	162264	14:50:00	14:50:00		Matuszczaka pętla 04
+982	2	162264	14:50:00	14:50:00		Matuszczaka pętla 04
+982	2	162264	14:51:00	14:51:00		Rymanowska 02 nż
+982	2	162264	14:51:00	14:51:00		Rymanowska 02 nż
+982	2	162264	14:52:00	14:52:00		Bieszczadzka 01 nż
+982	2	162264	14:52:00	14:52:00		Bieszczadzka 01 nż
+982	2	162264	14:53:00	14:53:00		Podkarpacka / Matuszczaka 03
+982	2	162264	14:53:00	14:53:00		Podkarpacka / Matuszczaka 03
+982	2	162264	14:55:00	14:55:00		Podkarpacka Politechnika 01
+982	2	162264	14:55:00	14:55:00		Podkarpacka Politechnika 01
+982	2	162264	14:58:00	14:58:00		Dąbrowskiego Instytut Muzyki 07
+982	2	162264	14:58:00	14:58:00		Dąbrowskiego Instytut Muzyki 07
+982	2	162264	14:59:00	14:59:00		Dąbrowskiego KW Policji 03
+982	2	162264	14:59:00	14:59:00		Dąbrowskiego KW Policji 03
+982	2	162264	15:00:00	15:00:00		Dąbrowskiego park 01 nż
+982	2	162264	15:00:00	15:00:00		Dąbrowskiego park 01 nż
+982	2	162264	15:06:00	15:06:00		Lisa-Kuli 02
+982	2	162264	15:06:00	15:06:00		Lisa-Kuli 02
+982	2	162264	15:07:00	15:07:00		Cieplińskiego 01
+982	2	162264	15:07:00	15:07:00		Cieplińskiego 01
+982	2	162264	15:09:00	15:09:00		Piłsudskiego U. Marszałkowski 08
+982	2	162264	15:09:00	15:09:00		Piłsudskiego U. Marszałkowski 08
+982	2	162264	15:11:00	15:11:00		Krakowska Jedn. Wojskowa 02
+982	2	162264	15:11:00	15:11:00		Krakowska Jedn. Wojskowa 02
+982	2	162264	15:14:00	15:14:00		Okulickiego C. Handlowe 02
+982	2	162264	15:14:00	15:14:00		Okulickiego C. Handlowe 02
+982	2	162264	15:16:00	15:16:00		Okulickiego / Zwierzyniecka 04 nż
+982	2	162264	15:16:00	15:16:00		Okulickiego / Zwierzyniecka 04 nż
+982	2	162264	15:18:00	15:18:00		Wyzwolenia / Iranka-Osmeckiego 06
+982	2	162264	15:18:00	15:18:00		Wyzwolenia / Iranka-Osmeckiego 06
+982	2	162264	15:19:00	15:19:00		Wyzwolenia / Brydaka 08
+982	2	162264	15:19:00	15:19:00		Wyzwolenia / Brydaka 08
+982	2	162264	15:21:00	15:21:00		Ofiar Katynia / Wyzwolenia 02
+982	2	162264	15:21:00	15:21:00		Ofiar Katynia / Wyzwolenia 02
+982	2	162264	15:22:00	15:22:00		Ofiar Katynia kładka 04
+982	2	162264	15:22:00	15:22:00		Ofiar Katynia kładka 04
+982	2	162264	15:24:00	15:24:00		Mikołajczyka pętla 01
+982	2	162264	15:24:00	15:24:00		Mikołajczyka pętla 01
+
+994	2	162514	15:44:00	15:44:00		Mikołajczyka pętla 03
+994	2	162514	15:44:00	15:44:00		Mikołajczyka pętla 03
+994	2	162514	15:45:00	15:45:00		Ofiar Katynia kładka 01
+994	2	162514	15:45:00	15:45:00		Ofiar Katynia kładka 01
+994	2	162514	15:46:00	15:46:00		Wyzwolenia / Ofiar Katynia 07
+994	2	162514	15:46:00	15:46:00		Wyzwolenia / Ofiar Katynia 07
+994	2	162514	15:47:00	15:47:00		Wyzwolenia kościół 05
+994	2	162514	15:47:00	15:47:00		Wyzwolenia kościół 05
+994	2	162514	15:48:00	15:48:00		Okulickiego / Wyzwolenia 05 nż
+994	2	162514	15:48:00	15:48:00		Okulickiego / Wyzwolenia 05 nż
+994	2	162514	15:49:00	15:49:00		Okulickiego / Zwierzyniecka 03 nż
+994	2	162514	15:49:00	15:49:00		Okulickiego / Zwierzyniecka 03 nż
+994	2	162514	15:51:00	15:51:00		Okulickiego C. Handlowe 01
+994	2	162514	15:51:00	15:51:00		Okulickiego C. Handlowe 01
+994	2	162514	15:54:00	15:54:00		Krakowska Jedn. Wojskowa 01
+994	2	162514	15:54:00	15:54:00		Krakowska Jedn. Wojskowa 01
+994	2	162514	15:56:00	15:56:00		Piłsudskiego U. Marszałkowski 05
+994	2	162514	15:56:00	15:56:00		Piłsudskiego U. Marszałkowski 05
+994	2	162514	15:57:00	15:57:00		Cieplińskiego 02
+994	2	162514	15:57:00	15:57:00		Cieplińskiego 02
+994	2	162514	15:58:00	15:58:00		Lisa-Kuli 01
+994	2	162514	15:58:00	15:58:00		Lisa-Kuli 01
+994	2	162514	16:02:00	16:02:00		Dąbrowskiego park 02 nż
+994	2	162514	16:02:00	16:02:00		Dąbrowskiego park 02 nż
+994	2	162514	16:03:00	16:03:00		Dąbrowskiego KW Policji 04
+994	2	162514	16:03:00	16:03:00		Dąbrowskiego KW Policji 04
+994	2	162514	16:04:00	16:04:00		Dąbrowskiego / Bat. Chłopskich 10
+994	2	162514	16:04:00	16:04:00		Dąbrowskiego / Bat. Chłopskich 10
+994	2	162514	16:08:00	16:08:00		Podkarpacka Politechnika 02
+994	2	162514	16:08:00	16:08:00		Podkarpacka Politechnika 02
+994	2	162514	16:09:00	16:09:00		Podkarpacka / Matuszczaka 04
+994	2	162514	16:09:00	16:09:00		Podkarpacka / Matuszczaka 04
+994	2	162514	16:11:00	16:11:00		Bieszczadzka 02 nż
+994	2	162514	16:11:00	16:11:00		Bieszczadzka 02 nż
+994	2	162514	16:12:00	16:12:00		Rymanowska 01 nż
+994	2	162514	16:12:00	16:12:00		Rymanowska 01 nż
+994	2	162514	16:13:00	16:13:00		Matuszczaka pętla 04
+994	2	162514	16:13:00	16:13:00		Matuszczaka pętla 04
+
+982	2	162234	16:27:00	16:27:00		Matuszczaka pętla 04
+982	2	162234	16:27:00	16:27:00		Matuszczaka pętla 04
+982	2	162234	16:28:00	16:28:00		Rymanowska 02 nż
+982	2	162234	16:28:00	16:28:00		Rymanowska 02 nż
+982	2	162234	16:29:00	16:29:00		Bieszczadzka 01 nż
+982	2	162234	16:29:00	16:29:00		Bieszczadzka 01 nż
+982	2	162234	16:30:00	16:30:00		Podkarpacka / Matuszczaka 03
+982	2	162234	16:30:00	16:30:00		Podkarpacka / Matuszczaka 03
+982	2	162234	16:32:00	16:32:00		Podkarpacka Politechnika 01
+982	2	162234	16:32:00	16:32:00		Podkarpacka Politechnika 01
+982	2	162234	16:34:00	16:34:00		Dąbrowskiego Instytut Muzyki 07
+982	2	162234	16:34:00	16:34:00		Dąbrowskiego Instytut Muzyki 07
+982	2	162234	16:35:00	16:35:00		Dąbrowskiego KW Policji 03
+982	2	162234	16:35:00	16:35:00		Dąbrowskiego KW Policji 03
+982	2	162234	16:36:00	16:36:00		Dąbrowskiego park 01 nż
+982	2	162234	16:36:00	16:36:00		Dąbrowskiego park 01 nż
+982	2	162234	16:41:00	16:41:00		Lisa-Kuli 02
+982	2	162234	16:41:00	16:41:00		Lisa-Kuli 02
+982	2	162234	16:42:00	16:42:00		Cieplińskiego 01
+982	2	162234	16:42:00	16:42:00		Cieplińskiego 01
+982	2	162234	16:44:00	16:44:00		Piłsudskiego U. Marszałkowski 08
+982	2	162234	16:44:00	16:44:00		Piłsudskiego U. Marszałkowski 08
+982	2	162234	16:46:00	16:46:00		Krakowska Jedn. Wojskowa 02
+982	2	162234	16:46:00	16:46:00		Krakowska Jedn. Wojskowa 02
+982	2	162234	16:48:00	16:48:00		Okulickiego C. Handlowe 02
+982	2	162234	16:48:00	16:48:00		Okulickiego C. Handlowe 02
+982	2	162234	16:49:00	16:49:00		Okulickiego / Zwierzyniecka 04 nż
+982	2	162234	16:49:00	16:49:00		Okulickiego / Zwierzyniecka 04 nż
+982	2	162234	16:51:00	16:51:00		Wyzwolenia / Iranka-Osmeckiego 06
+982	2	162234	16:51:00	16:51:00		Wyzwolenia / Iranka-Osmeckiego 06
+982	2	162234	16:52:00	16:52:00		Wyzwolenia / Brydaka 08
+982	2	162234	16:52:00	16:52:00		Wyzwolenia / Brydaka 08
+982	2	162234	16:54:00	16:54:00		Ofiar Katynia / Wyzwolenia 02
+982	2	162234	16:54:00	16:54:00		Ofiar Katynia / Wyzwolenia 02
+982	2	162234	16:55:00	16:55:00		Ofiar Katynia kładka 04
+982	2	162234	16:55:00	16:55:00		Ofiar Katynia kładka 04
+982	2	162234	16:57:00	16:57:00		Mikołajczyka pętla 01
+982	2	162234	16:57:00	16:57:00		Mikołajczyka pętla 01
+
+994	2	161945	17:13:00	17:13:00		Mikołajczyka pętla 03
+994	2	161945	17:13:00	17:13:00		Mikołajczyka pętla 03
+994	2	161945	17:14:00	17:14:00		Ofiar Katynia kładka 01
+994	2	161945	17:14:00	17:14:00		Ofiar Katynia kładka 01
+994	2	161945	17:15:00	17:15:00		Wyzwolenia / Ofiar Katynia 07
+994	2	161945	17:15:00	17:15:00		Wyzwolenia / Ofiar Katynia 07
+994	2	161945	17:16:00	17:16:00		Wyzwolenia kościół 05
+994	2	161945	17:16:00	17:16:00		Wyzwolenia kościół 05
+994	2	161945	17:17:00	17:17:00		Okulickiego / Wyzwolenia 05 nż
+994	2	161945	17:17:00	17:17:00		Okulickiego / Wyzwolenia 05 nż
+994	2	161945	17:18:00	17:18:00		Okulickiego / Zwierzyniecka 03 nż
+994	2	161945	17:18:00	17:18:00		Okulickiego / Zwierzyniecka 03 nż
+994	2	161945	17:19:00	17:19:00		Okulickiego C. Handlowe 01
+994	2	161945	17:19:00	17:19:00		Okulickiego C. Handlowe 01
+994	2	161945	17:22:00	17:22:00		Krakowska Jedn. Wojskowa 01
+994	2	161945	17:22:00	17:22:00		Krakowska Jedn. Wojskowa 01
+994	2	161945	17:24:00	17:24:00		Piłsudskiego U. Marszałkowski 05
+994	2	161945	17:24:00	17:24:00		Piłsudskiego U. Marszałkowski 05
+994	2	161945	17:25:00	17:25:00		Cieplińskiego 02
+994	2	161945	17:25:00	17:25:00		Cieplińskiego 02
+994	2	161945	17:26:00	17:26:00		Lisa-Kuli 01
+994	2	161945	17:26:00	17:26:00		Lisa-Kuli 01
+994	2	161945	17:29:00	17:29:00		Dąbrowskiego park 02 nż
+994	2	161945	17:29:00	17:29:00		Dąbrowskiego park 02 nż
+994	2	161945	17:30:00	17:30:00		Dąbrowskiego KW Policji 04
+994	2	161945	17:30:00	17:30:00		Dąbrowskiego KW Policji 04
+994	2	161945	17:31:00	17:31:00		Dąbrowskiego / Bat. Chłopskich 10
+994	2	161945	17:31:00	17:31:00		Dąbrowskiego / Bat. Chłopskich 10
+994	2	161945	17:35:00	17:35:00		Podkarpacka Politechnika 02
+994	2	161945	17:35:00	17:35:00		Podkarpacka Politechnika 02
+994	2	161945	17:36:00	17:36:00		Podkarpacka / Matuszczaka 04
+994	2	161945	17:36:00	17:36:00		Podkarpacka / Matuszczaka 04
+994	2	161945	17:37:00	17:37:00		Bieszczadzka 02 nż
+994	2	161945	17:37:00	17:37:00		Bieszczadzka 02 nż
+994	2	161945	17:38:00	17:38:00		Rymanowska 01 nż
+994	2	161945	17:38:00	17:38:00		Rymanowska 01 nż
+994	2	161945	17:39:00	17:39:00		Matuszczaka pętla 04
+994	2	161945	17:39:00	17:39:00		Matuszczaka pętla 04
+
+982	2	161855	17:58:00	17:58:00		Matuszczaka pętla 04
+982	2	161855	17:58:00	17:58:00		Matuszczaka pętla 04
+982	2	161855	17:59:00	17:59:00		Rymanowska 02 nż
+982	2	161855	17:59:00	17:59:00		Rymanowska 02 nż
+982	2	161855	18:00:00	18:00:00		Bieszczadzka 01 nż
+982	2	161855	18:00:00	18:00:00		Bieszczadzka 01 nż
+982	2	161855	18:01:00	18:01:00		Podkarpacka / Matuszczaka 03
+982	2	161855	18:01:00	18:01:00		Podkarpacka / Matuszczaka 03
+982	2	161855	18:03:00	18:03:00		Podkarpacka Politechnika 01
+982	2	161855	18:03:00	18:03:00		Podkarpacka Politechnika 01
+982	2	161855	18:05:00	18:05:00		Dąbrowskiego Instytut Muzyki 07
+982	2	161855	18:05:00	18:05:00		Dąbrowskiego Instytut Muzyki 07
+982	2	161855	18:06:00	18:06:00		Dąbrowskiego KW Policji 03
+982	2	161855	18:06:00	18:06:00		Dąbrowskiego KW Policji 03
+982	2	161855	18:07:00	18:07:00		Dąbrowskiego park 01 nż
+982	2	161855	18:07:00	18:07:00		Dąbrowskiego park 01 nż
+982	2	161855	18:12:00	18:12:00		Lisa-Kuli 02
+982	2	161855	18:12:00	18:12:00		Lisa-Kuli 02
+982	2	161855	18:13:00	18:13:00		Cieplińskiego 01
+982	2	161855	18:13:00	18:13:00		Cieplińskiego 01
+982	2	161855	18:15:00	18:15:00		Piłsudskiego U. Marszałkowski 08
+982	2	161855	18:15:00	18:15:00		Piłsudskiego U. Marszałkowski 08
+982	2	161855	18:17:00	18:17:00		Krakowska Jedn. Wojskowa 02
+982	2	161855	18:17:00	18:17:00		Krakowska Jedn. Wojskowa 02
+982	2	161855	18:19:00	18:19:00		Okulickiego C. Handlowe 02
+982	2	161855	18:19:00	18:19:00		Okulickiego C. Handlowe 02
+982	2	161855	18:20:00	18:20:00		Okulickiego / Zwierzyniecka 04 nż
+982	2	161855	18:20:00	18:20:00		Okulickiego / Zwierzyniecka 04 nż
+982	2	161855	18:22:00	18:22:00		Wyzwolenia / Iranka-Osmeckiego 06
+982	2	161855	18:22:00	18:22:00		Wyzwolenia / Iranka-Osmeckiego 06
+982	2	161855	18:23:00	18:23:00		Wyzwolenia / Brydaka 08
+982	2	161855	18:23:00	18:23:00		Wyzwolenia / Brydaka 08
+982	2	161855	18:25:00	18:25:00		Ofiar Katynia / Wyzwolenia 02
+982	2	161855	18:25:00	18:25:00		Ofiar Katynia / Wyzwolenia 02
+982	2	161855	18:26:00	18:26:00		Ofiar Katynia kładka 04
+982	2	161855	18:26:00	18:26:00		Ofiar Katynia kładka 04
+982	2	161855	18:28:00	18:28:00		Mikołajczyka pętla 01
+982	2	161855	18:28:00	18:28:00		Mikołajczyka pętla 01
+
+994	2	161946	18:43:00	18:43:00		Mikołajczyka pętla 03
+994	2	161946	18:43:00	18:43:00		Mikołajczyka pętla 03
+994	2	161946	18:44:00	18:44:00		Ofiar Katynia kładka 01
+994	2	161946	18:44:00	18:44:00		Ofiar Katynia kładka 01
+994	2	161946	18:45:00	18:45:00		Wyzwolenia / Ofiar Katynia 07
+994	2	161946	18:45:00	18:45:00		Wyzwolenia / Ofiar Katynia 07
+994	2	161946	18:46:00	18:46:00		Wyzwolenia kościół 05
+994	2	161946	18:46:00	18:46:00		Wyzwolenia kościół 05
+994	2	161946	18:47:00	18:47:00		Okulickiego / Wyzwolenia 05 nż
+994	2	161946	18:47:00	18:47:00		Okulickiego / Wyzwolenia 05 nż
+994	2	161946	18:48:00	18:48:00		Okulickiego / Zwierzyniecka 03 nż
+994	2	161946	18:48:00	18:48:00		Okulickiego / Zwierzyniecka 03 nż
+994	2	161946	18:49:00	18:49:00		Okulickiego C. Handlowe 01
+994	2	161946	18:49:00	18:49:00		Okulickiego C. Handlowe 01
+994	2	161946	18:52:00	18:52:00		Krakowska Jedn. Wojskowa 01
+994	2	161946	18:52:00	18:52:00		Krakowska Jedn. Wojskowa 01
+994	2	161946	18:54:00	18:54:00		Piłsudskiego U. Marszałkowski 05
+994	2	161946	18:54:00	18:54:00		Piłsudskiego U. Marszałkowski 05
+994	2	161946	18:55:00	18:55:00		Cieplińskiego 02
+994	2	161946	18:55:00	18:55:00		Cieplińskiego 02
+994	2	161946	18:56:00	18:56:00		Lisa-Kuli 01
+994	2	161946	18:56:00	18:56:00		Lisa-Kuli 01
+994	2	161946	18:59:00	18:59:00		Dąbrowskiego park 02 nż
+994	2	161946	18:59:00	18:59:00		Dąbrowskiego park 02 nż
+994	2	161946	19:00:00	19:00:00		Dąbrowskiego KW Policji 04
+994	2	161946	19:00:00	19:00:00		Dąbrowskiego KW Policji 04
+994	2	161946	19:01:00	19:01:00		Dąbrowskiego / Bat. Chłopskich 10
+994	2	161946	19:01:00	19:01:00		Dąbrowskiego / Bat. Chłopskich 10
+994	2	161946	19:04:00	19:04:00		Podkarpacka Politechnika 02
+994	2	161946	19:04:00	19:04:00		Podkarpacka Politechnika 02
+994	2	161946	19:05:00	19:05:00		Podkarpacka / Matuszczaka 04
+994	2	161946	19:05:00	19:05:00		Podkarpacka / Matuszczaka 04
+994	2	161946	19:06:00	19:06:00		Bieszczadzka 02 nż
+994	2	161946	19:06:00	19:06:00		Bieszczadzka 02 nż
+994	2	161946	19:07:00	19:07:00		Rymanowska 01 nż
+994	2	161946	19:07:00	19:07:00		Rymanowska 01 nż
+994	2	161946	19:08:00	19:08:00		Matuszczaka pętla 04
+994	2	161946	19:08:00	19:08:00		Matuszczaka pętla 04
+
+905	2	162157	19:20:00	19:20:00		Matuszczaka pętla 04
+905	2	162157	19:20:00	19:20:00		Matuszczaka pętla 04
+905	2	162157	19:21:00	19:21:00		Podkarpacka / Matuszczaka 03
+905	2	162157	19:21:00	19:21:00		Podkarpacka / Matuszczaka 03
+905	2	162157	19:23:00	19:23:00		Podkarpacka Politechnika 01
+905	2	162157	19:23:00	19:23:00		Podkarpacka Politechnika 01
+905	2	162157	19:25:00	19:25:00		Dąbrowskiego Instytut Muzyki 07
+905	2	162157	19:25:00	19:25:00		Dąbrowskiego Instytut Muzyki 07
+905	2	162157	19:26:00	19:26:00		Dąbrowskiego KW Policji 03
+905	2	162157	19:26:00	19:26:00		Dąbrowskiego KW Policji 03
+905	2	162157	19:27:00	19:27:00		Dąbrowskiego park 01 nż
+905	2	162157	19:27:00	19:27:00		Dąbrowskiego park 01 nż
+905	2	162157	19:30:00	19:30:00		Lisa-Kuli 02
+905	2	162157	19:30:00	19:30:00		Lisa-Kuli 02
+905	2	162157	19:31:00	19:31:00		Cieplińskiego 01
+905	2	162157	19:31:00	19:31:00		Cieplińskiego 01
+905	2	162157	19:32:00	19:32:00		Piłsudskiego U. Wojewódzki 03
+905	2	162157	19:32:00	19:32:00		Piłsudskiego U. Wojewódzki 03
+905	2	162157	19:33:00	19:33:00		Pl. Wolności 01
+905	2	162157	19:33:00	19:33:00		Pl. Wolności 01
+905	2	162157	19:35:00	19:35:00		Lwowska Jedn. Wojskowa 02
+905	2	162157	19:35:00	19:35:00		Lwowska Jedn. Wojskowa 02
+905	2	162157	19:36:00	19:36:00		Lwowska cmentarz 04
+905	2	162157	19:36:00	19:36:00		Lwowska cmentarz 04
+905	2	162157	19:37:00	19:37:00		Żołnierzy I Armii Wojska Polskiego 02
+905	2	162157	19:37:00	19:37:00		Żołnierzy I Armii Wojska Polskiego 02
+905	2	162157	19:39:00	19:39:00		Konf. Barskich / Traugutta 02 nż
+905	2	162157	19:39:00	19:39:00		Konf. Barskich / Traugutta 02 nż
+905	2	162157	19:40:00	19:40:00		Załęska / Konf. Barskich 02 nż
+905	2	162157	19:40:00	19:40:00		Załęska / Konf. Barskich 02 nż
+905	2	162157	19:41:00	19:41:00		Sieciecha / Załęska 01 nż
+905	2	162157	19:41:00	19:41:00		Sieciecha / Załęska 01 nż
+905	2	162157	19:44:00	19:44:00		Rzecha / Załęska 02 nż
+905	2	162157	19:44:00	19:44:00		Rzecha / Załęska 02 nż
+905	2	162157	19:45:00	19:45:00		Załęska / Rzecha 03 nż
+905	2	162157	19:45:00	19:45:00		Załęska / Rzecha 03 nż
+905	2	162157	19:46:00	19:46:00		Księżycowa / Załęska 02 nż
+905	2	162157	19:46:00	19:46:00		Księżycowa / Załęska 02 nż
+905	2	162157	19:47:00	19:47:00		Stączka kościół 02 nż
+905	2	162157	19:47:00	19:47:00		Stączka kościół 02 nż
+905	2	162157	19:48:00	19:48:00		Stączka / Jaspisowa 04 nż
+905	2	162157	19:48:00	19:48:00		Stączka / Jaspisowa 04 nż
+905	2	162157	19:49:00	19:49:00		Potockiego / Stączka 02 nż
+905	2	162157	19:49:00	19:49:00		Potockiego / Stączka 02 nż
+905	2	162157	19:50:00	19:50:00		Potockiego / Nefrytowa 04 nż
+905	2	162157	19:50:00	19:50:00		Potockiego / Nefrytowa 04 nż
+905	2	162157	19:51:00	19:51:00		Potockiego / Ametystowa 06 nż
+905	2	162157	19:51:00	19:51:00		Potockiego / Ametystowa 06 nż
+905	2	162157	19:52:00	19:52:00		Potockiego Dom Seniora 08 nż
+905	2	162157	19:52:00	19:52:00		Potockiego Dom Seniora 08 nż
+905	2	162157	19:54:00	19:54:00		Potockiego pętla 10
+905	2	162157	19:54:00	19:54:00		Potockiego pętla 10
+
+899	2	162442	20:20:00	20:20:00		Potockiego pętla 10
+899	2	162442	20:20:00	20:20:00		Potockiego pętla 10
+899	2	162442	20:21:00	20:21:00		Potockiego Dom Seniora 05 nż
+899	2	162442	20:21:00	20:21:00		Potockiego Dom Seniora 05 nż
+899	2	162442	20:22:00	20:22:00		Potockiego / Ametystowa 03 nż
+899	2	162442	20:22:00	20:22:00		Potockiego / Ametystowa 03 nż
+899	2	162442	20:23:00	20:23:00		Potockiego / Nefrytowa 01 nż
+899	2	162442	20:23:00	20:23:00		Potockiego / Nefrytowa 01 nż
+899	2	162442	20:24:00	20:24:00		Stączka / Potockiego 03 nż
+899	2	162442	20:24:00	20:24:00		Stączka / Potockiego 03 nż
+899	2	162442	20:25:00	20:25:00		Stączka kościół 01 nż
+899	2	162442	20:25:00	20:25:00		Stączka kościół 01 nż
+899	2	162442	20:26:00	20:26:00		Księżycowa / Załęska 01 nż
+899	2	162442	20:26:00	20:26:00		Księżycowa / Załęska 01 nż
+899	2	162442	20:28:00	20:28:00		Rzecha / Załęska 01 nż
+899	2	162442	20:28:00	20:28:00		Rzecha / Załęska 01 nż
+899	2	162442	20:30:00	20:30:00		Sieciecha / Załęska 02 nż
+899	2	162442	20:30:00	20:30:00		Sieciecha / Załęska 02 nż
+899	2	162442	20:31:00	20:31:00		Załęska / Konf. Barskich 01 nż
+899	2	162442	20:31:00	20:31:00		Załęska / Konf. Barskich 01 nż
+899	2	162442	20:32:00	20:32:00		Konf. Barskich / Traugutta 01 nż
+899	2	162442	20:32:00	20:32:00		Konf. Barskich / Traugutta 01 nż
+899	2	162442	20:34:00	20:34:00		Lwowska cmentarz 03
+899	2	162442	20:34:00	20:34:00		Lwowska cmentarz 03
+899	2	162442	20:35:00	20:35:00		Lwowska Jedn. Wojskowa 01
+899	2	162442	20:35:00	20:35:00		Lwowska Jedn. Wojskowa 01
+899	2	162442	20:36:00	20:36:00		Piłsudskiego ZDZ 02
+899	2	162442	20:36:00	20:36:00		Piłsudskiego ZDZ 02
+899	2	162442	20:37:00	20:37:00		Pl. Wolności 04
+899	2	162442	20:37:00	20:37:00		Pl. Wolności 04
+899	2	162442	20:40:00	20:40:00		Cieplińskiego 02
+899	2	162442	20:40:00	20:40:00		Cieplińskiego 02
+899	2	162442	20:41:00	20:41:00		Lisa-Kuli 01
+899	2	162442	20:41:00	20:41:00		Lisa-Kuli 01
+899	2	162442	20:43:00	20:43:00		Dąbrowskiego park 02 nż
+899	2	162442	20:43:00	20:43:00		Dąbrowskiego park 02 nż
+899	2	162442	20:44:00	20:44:00		Dąbrowskiego KW Policji 04
+899	2	162442	20:44:00	20:44:00		Dąbrowskiego KW Policji 04
+899	2	162442	20:45:00	20:45:00		Dąbrowskiego / Bat. Chłopskich 10
+899	2	162442	20:45:00	20:45:00		Dąbrowskiego / Bat. Chłopskich 10
+899	2	162442	20:48:00	20:48:00		Podkarpacka Politechnika 02
+899	2	162442	20:48:00	20:48:00		Podkarpacka Politechnika 02
+899	2	162442	20:50:00	20:50:00		Matuszczaka / Rymanowska 02 nż
+899	2	162442	20:50:00	20:50:00		Matuszczaka / Rymanowska 02 nż
+899	2	162442	20:51:00	20:51:00		Matuszczaka pętla 04
+899	2	162442	20:51:00	20:51:00		Matuszczaka pętla 04
+
+982	2	162102	21:00:00	21:00:00		Matuszczaka pętla 04
+982	2	162102	21:00:00	21:00:00		Matuszczaka pętla 04
+982	2	162102	21:01:00	21:01:00		Rymanowska 02 nż
+982	2	162102	21:01:00	21:01:00		Rymanowska 02 nż
+982	2	162102	21:02:00	21:02:00		Bieszczadzka 01 nż
+982	2	162102	21:02:00	21:02:00		Bieszczadzka 01 nż
+982	2	162102	21:03:00	21:03:00		Podkarpacka / Matuszczaka 03
+982	2	162102	21:03:00	21:03:00		Podkarpacka / Matuszczaka 03
+982	2	162102	21:04:00	21:04:00		Podkarpacka Politechnika 01
+982	2	162102	21:04:00	21:04:00		Podkarpacka Politechnika 01
+982	2	162102	21:06:00	21:06:00		Dąbrowskiego Instytut Muzyki 07
+982	2	162102	21:06:00	21:06:00		Dąbrowskiego Instytut Muzyki 07
+982	2	162102	21:07:00	21:07:00		Dąbrowskiego KW Policji 03
+982	2	162102	21:07:00	21:07:00		Dąbrowskiego KW Policji 03
+982	2	162102	21:08:00	21:08:00		Dąbrowskiego park 01 nż
+982	2	162102	21:08:00	21:08:00		Dąbrowskiego park 01 nż
+982	2	162102	21:10:00	21:10:00		Lisa-Kuli 02
+982	2	162102	21:10:00	21:10:00		Lisa-Kuli 02
+982	2	162102	21:11:00	21:11:00		Cieplińskiego 01
+982	2	162102	21:11:00	21:11:00		Cieplińskiego 01
+982	2	162102	21:13:00	21:13:00		Piłsudskiego U. Marszałkowski 08
+982	2	162102	21:13:00	21:13:00		Piłsudskiego U. Marszałkowski 08
+982	2	162102	21:15:00	21:15:00		Krakowska Jedn. Wojskowa 02
+982	2	162102	21:15:00	21:15:00		Krakowska Jedn. Wojskowa 02
+982	2	162102	21:16:00	21:16:00		Okulickiego C. Handlowe 02
+982	2	162102	21:16:00	21:16:00		Okulickiego C. Handlowe 02
+982	2	162102	21:17:00	21:17:00		Okulickiego / Zwierzyniecka 04 nż
+982	2	162102	21:17:00	21:17:00		Okulickiego / Zwierzyniecka 04 nż
+982	2	162102	21:18:00	21:18:00		Wyzwolenia / Iranka-Osmeckiego 06
+982	2	162102	21:18:00	21:18:00		Wyzwolenia / Iranka-Osmeckiego 06
+982	2	162102	21:19:00	21:19:00		Wyzwolenia / Brydaka 08
+982	2	162102	21:19:00	21:19:00		Wyzwolenia / Brydaka 08
+982	2	162102	21:20:00	21:20:00		Ofiar Katynia / Wyzwolenia 02
+982	2	162102	21:20:00	21:20:00		Ofiar Katynia / Wyzwolenia 02
+982	2	162102	21:21:00	21:21:00		Ofiar Katynia kładka 04
+982	2	162102	21:21:00	21:21:00		Ofiar Katynia kładka 04
+982	2	162102	21:23:00	21:23:00		Mikołajczyka pętla 01
+982	2	162102	21:23:00	21:23:00		Mikołajczyka pętla 01
+
+994	2	162173	21:42:00	21:42:00		Mikołajczyka pętla 03
+994	2	162173	21:42:00	21:42:00		Mikołajczyka pętla 03
+994	2	162173	21:43:00	21:43:00		Ofiar Katynia kładka 01
+994	2	162173	21:43:00	21:43:00		Ofiar Katynia kładka 01
+994	2	162173	21:44:00	21:44:00		Wyzwolenia / Ofiar Katynia 07
+994	2	162173	21:44:00	21:44:00		Wyzwolenia / Ofiar Katynia 07
+994	2	162173	21:45:00	21:45:00		Wyzwolenia kościół 05
+994	2	162173	21:45:00	21:45:00		Wyzwolenia kościół 05
+994	2	162173	21:46:00	21:46:00		Okulickiego / Wyzwolenia 05 nż
+994	2	162173	21:46:00	21:46:00		Okulickiego / Wyzwolenia 05 nż
+994	2	162173	21:47:00	21:47:00		Okulickiego / Zwierzyniecka 03 nż
+994	2	162173	21:47:00	21:47:00		Okulickiego / Zwierzyniecka 03 nż
+994	2	162173	21:48:00	21:48:00		Okulickiego C. Handlowe 01
+994	2	162173	21:48:00	21:48:00		Okulickiego C. Handlowe 01
+994	2	162173	21:50:00	21:50:00		Krakowska Jedn. Wojskowa 01
+994	2	162173	21:50:00	21:50:00		Krakowska Jedn. Wojskowa 01
+994	2	162173	21:51:00	21:51:00		Piłsudskiego U. Marszałkowski 05
+994	2	162173	21:51:00	21:51:00		Piłsudskiego U. Marszałkowski 05
+994	2	162173	21:52:00	21:52:00		Cieplińskiego 02
+994	2	162173	21:52:00	21:52:00		Cieplińskiego 02
+994	2	162173	21:53:00	21:53:00		Lisa-Kuli 01
+994	2	162173	21:53:00	21:53:00		Lisa-Kuli 01
+994	2	162173	21:55:00	21:55:00		Dąbrowskiego park 02 nż
+994	2	162173	21:55:00	21:55:00		Dąbrowskiego park 02 nż
+994	2	162173	21:56:00	21:56:00		Dąbrowskiego KW Policji 04
+994	2	162173	21:56:00	21:56:00		Dąbrowskiego KW Policji 04
+994	2	162173	21:57:00	21:57:00		Dąbrowskiego / Bat. Chłopskich 10
+994	2	162173	21:57:00	21:57:00		Dąbrowskiego / Bat. Chłopskich 10
+994	2	162173	21:59:00	21:59:00		Podkarpacka Politechnika 02
+994	2	162173	21:59:00	21:59:00		Podkarpacka Politechnika 02
+994	2	162173	22:00:00	22:00:00		Podkarpacka / Matuszczaka 04
+994	2	162173	22:00:00	22:00:00		Podkarpacka / Matuszczaka 04
+994	2	162173	22:01:00	22:01:00		Bieszczadzka 02 nż
+994	2	162173	22:01:00	22:01:00		Bieszczadzka 02 nż
+994	2	162173	22:02:00	22:02:00		Rymanowska 01 nż
+994	2	162173	22:02:00	22:02:00		Rymanowska 01 nż
+994	2	162173	22:03:00	22:03:00		Matuszczaka pętla 04
+994	2	162173	22:03:00	22:03:00		Matuszczaka pętla 04
+
+982	2	162015	22:30:00	22:30:00		Matuszczaka pętla 04
+982	2	162015	22:30:00	22:30:00		Matuszczaka pętla 04
+982	2	162015	22:31:00	22:31:00		Rymanowska 02 nż
+982	2	162015	22:31:00	22:31:00		Rymanowska 02 nż
+982	2	162015	22:32:00	22:32:00		Bieszczadzka 01 nż
+982	2	162015	22:32:00	22:32:00		Bieszczadzka 01 nż
+982	2	162015	22:33:00	22:33:00		Podkarpacka / Matuszczaka 03
+982	2	162015	22:33:00	22:33:00		Podkarpacka / Matuszczaka 03
+982	2	162015	22:34:00	22:34:00		Podkarpacka Politechnika 01
+982	2	162015	22:34:00	22:34:00		Podkarpacka Politechnika 01
+982	2	162015	22:36:00	22:36:00		Dąbrowskiego Instytut Muzyki 07
+982	2	162015	22:36:00	22:36:00		Dąbrowskiego Instytut Muzyki 07
+982	2	162015	22:37:00	22:37:00		Dąbrowskiego KW Policji 03
+982	2	162015	22:37:00	22:37:00		Dąbrowskiego KW Policji 03
+982	2	162015	22:38:00	22:38:00		Dąbrowskiego park 01 nż
+982	2	162015	22:38:00	22:38:00		Dąbrowskiego park 01 nż
+982	2	162015	22:40:00	22:40:00		Lisa-Kuli 02
+982	2	162015	22:40:00	22:40:00		Lisa-Kuli 02
+982	2	162015	22:41:00	22:41:00		Cieplińskiego 01
+982	2	162015	22:41:00	22:41:00		Cieplińskiego 01
+982	2	162015	22:43:00	22:43:00		Piłsudskiego U. Marszałkowski 08
+982	2	162015	22:43:00	22:43:00		Piłsudskiego U. Marszałkowski 08
+982	2	162015	22:45:00	22:45:00		Krakowska Jedn. Wojskowa 02
+982	2	162015	22:45:00	22:45:00		Krakowska Jedn. Wojskowa 02
+982	2	162015	22:46:00	22:46:00		Okulickiego C. Handlowe 02
+982	2	162015	22:46:00	22:46:00		Okulickiego C. Handlowe 02
+982	2	162015	22:47:00	22:47:00		Okulickiego / Zwierzyniecka 04 nż
+982	2	162015	22:47:00	22:47:00		Okulickiego / Zwierzyniecka 04 nż
+982	2	162015	22:48:00	22:48:00		Wyzwolenia / Iranka-Osmeckiego 06
+982	2	162015	22:48:00	22:48:00		Wyzwolenia / Iranka-Osmeckiego 06
+982	2	162015	22:49:00	22:49:00		Wyzwolenia / Brydaka 08
+982	2	162015	22:49:00	22:49:00		Wyzwolenia / Brydaka 08
+982	2	162015	22:50:00	22:50:00		Ofiar Katynia / Wyzwolenia 02
+982	2	162015	22:50:00	22:50:00		Ofiar Katynia / Wyzwolenia 02
+982	2	162015	22:51:00	22:51:00		Ofiar Katynia kładka 04
+982	2	162015	22:51:00	22:51:00		Ofiar Katynia kładka 04
+982	2	162015	22:53:00	22:53:00		Mikołajczyka pętla 01
+982	2	162015	22:53:00	22:53:00		Mikołajczyka pętla 01
