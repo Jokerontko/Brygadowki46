@@ -1,0 +1,884 @@
+route_id	service_id	trip_id	arrival_time	departure_time	stop_headsign	stop_name
+-------------------------------------------------------------------------------
+1586	1	203504	08:50:00	08:50:00		Obr. Poczty Gdańskiej pętla 08
+1586	1	203504	08:51:00	08:51:00		Obr. Poczty Gdańskiej / Raginisa 01
+1586	1	203504	08:51:00	08:51:00		Obr. Poczty Gdańskiej / Raginisa 01
+1586	1	203504	08:53:00	08:53:00		Wyzwolenia / Ofiar Katynia 07
+1586	1	203504	08:53:00	08:53:00		Wyzwolenia / Ofiar Katynia 07
+1586	1	203504	08:54:00	08:54:00		Wyzwolenia kościół 05
+1586	1	203504	08:54:00	08:54:00		Wyzwolenia kościół 05
+1586	1	203504	08:55:00	08:55:00		Wyzwolenia / Okulickiego 03 nż
+1586	1	203504	08:55:00	08:55:00		Wyzwolenia / Okulickiego 03 nż
+1586	1	203504	08:57:00	08:57:00		Wyzwolenia / Warszawska 01 nż
+1586	1	203504	08:57:00	08:57:00		Wyzwolenia / Warszawska 01 nż
+1586	1	203504	08:58:00	08:58:00		Lubelska szpital 01
+1586	1	203504	08:58:00	08:58:00		Lubelska szpital 01
+1586	1	203504	09:00:00	09:00:00		Marszałkowska 01
+1586	1	203504	09:00:00	09:00:00		Marszałkowska 01
+1586	1	203504	09:04:00	09:04:00		Cieplińskiego 02
+1586	1	203504	09:04:00	09:04:00		Cieplińskiego 02
+1586	1	203504	09:05:00	09:05:00		Lisa-Kuli 01
+1586	1	203504	09:05:00	09:05:00		Lisa-Kuli 01
+1586	1	203504	09:07:00	09:07:00		Dąbrowskiego park 02 nż
+1586	1	203504	09:07:00	09:07:00		Dąbrowskiego park 02 nż
+1586	1	203504	09:08:00	09:08:00		Dąbrowskiego KW Policji 04
+1586	1	203504	09:08:00	09:08:00		Dąbrowskiego KW Policji 04
+1586	1	203504	09:09:00	09:09:00		Dąbrowskiego / Boh. Westerplatte 08
+1586	1	203504	09:09:00	09:09:00		Dąbrowskiego / Boh. Westerplatte 08
+1586	1	203504	09:12:00	09:12:00		Powst. Warszawy / Dąbrowskiego 02
+1586	1	203504	09:12:00	09:12:00		Powst. Warszawy / Dąbrowskiego 02
+1586	1	203504	09:13:00	09:13:00		Powst. Warszawy Politechnika 04
+1586	1	203504	09:13:00	09:13:00		Powst. Warszawy Politechnika 04
+1586	1	203504	09:15:00	09:15:00		Powst. Warszawy stadion 06
+1586	1	203504	09:15:00	09:15:00		Powst. Warszawy stadion 06
+1586	1	203504	09:17:00	09:17:00		Powst. Warszawy Dom Studenta 08
+1586	1	203504	09:17:00	09:17:00		Powst. Warszawy Dom Studenta 08
+1586	1	203504	09:18:00	09:18:00		Powst. Warszawy / Graniczna 10
+1586	1	203504	09:18:00	09:18:00		Powst. Warszawy / Graniczna 10
+1586	1	203504	09:19:00	09:19:00		Powst. Warszawy / Sikorskiego 12 nż
+1586	1	203504	09:19:00	09:19:00		Powst. Warszawy / Sikorskiego 12 nż
+1586	1	203504	09:20:00	09:20:00		Sikorskiego Katedra 04 nż
+1586	1	203504	09:20:00	09:20:00		Sikorskiego Katedra 04 nż
+1586	1	203504	09:21:00	09:21:00		Łukasiewicza / Sikorskiego 02 nż
+1586	1	203504	09:21:00	09:21:00		Łukasiewicza / Sikorskiego 02 nż
+1586	1	203504	09:22:00	09:22:00		Łukasiewicza / Zimowit 04 nż
+1586	1	203504	09:22:00	09:22:00		Łukasiewicza / Zimowit 04 nż
+1586	1	203504	09:23:00	09:23:00		Łukasiewicza / Gumińskich 06 nż
+1586	1	203504	09:23:00	09:23:00		Łukasiewicza / Gumińskich 06 nż
+1586	1	203504	09:24:00	09:24:00		Łukasiewicza pętla 08
+1586	1	203504	09:24:00	09:24:00		Łukasiewicza pętla 08
+1586	1	203504	09:26:00	09:26:00		Kiepury / Herberta 02 nż
+1586	1	203504	09:26:00	09:26:00		Kiepury / Herberta 02 nż
+1586	1	203504	09:27:00	09:27:00		Matysowska / Skalista 02 nż
+1586	1	203504	09:27:00	09:27:00		Matysowska / Skalista 02 nż
+1586	1	203504	09:29:00	09:29:00		Matysowska szkoła 04 nż
+1586	1	203504	09:29:00	09:29:00		Matysowska szkoła 04 nż
+1586	1	203504	09:30:00	09:30:00		Matysowska górka 06 nż
+1586	1	203504	09:30:00	09:30:00		Matysowska górka 06 nż
+1586	1	203504	09:31:00	09:31:00		Matysowska / Pienińska 08 nż
+1586	1	203504	09:31:00	09:31:00		Matysowska / Pienińska 08 nż
+1586	1	203504	09:32:00	09:32:00		Pienińska pętla 03
+1586	1	203504	09:32:00	09:32:00		Pienińska pętla 03
+
+1581	1	203676	09:40:00	09:40:00		Pienińska pętla 03
+1581	1	203676	09:40:00	09:40:00		Pienińska pętla 03
+1581	1	203676	09:41:00	09:41:00		Pienińska / Matysowska 01 nż
+1581	1	203676	09:41:00	09:41:00		Pienińska / Matysowska 01 nż
+1581	1	203676	09:42:00	09:42:00		Matysowska / Św. Walentego 05 nż
+1581	1	203676	09:42:00	09:42:00		Matysowska / Św. Walentego 05 nż
+1581	1	203676	09:43:00	09:43:00		Matysowska górka 03 nż
+1581	1	203676	09:43:00	09:43:00		Matysowska górka 03 nż
+1581	1	203676	09:45:00	09:45:00		Matysowska szkoła 01 nż
+1581	1	203676	09:45:00	09:45:00		Matysowska szkoła 01 nż
+1581	1	203676	09:47:00	09:47:00		Kiepury / Wichrowa 03 nż
+1581	1	203676	09:47:00	09:47:00		Kiepury / Wichrowa 03 nż
+1581	1	203676	09:48:00	09:48:00		Kiepury / Herberta 01 nż
+1581	1	203676	09:48:00	09:48:00		Kiepury / Herberta 01 nż
+1581	1	203676	09:50:00	09:50:00		Łukasiewicza pętla 10
+1581	1	203676	09:50:00	09:50:00		Łukasiewicza pętla 10
+1581	1	203676	09:51:00	09:51:00		Łukasiewicza / Sasanki 03 nż
+1581	1	203676	09:51:00	09:51:00		Łukasiewicza / Sasanki 03 nż
+1581	1	203676	09:52:00	09:52:00		Łukasiewicza / Krokusowa 01 nż
+1581	1	203676	09:52:00	09:52:00		Łukasiewicza / Krokusowa 01 nż
+1581	1	203676	09:53:00	09:53:00		Sikorskiego Katedra 01 nż
+1581	1	203676	09:53:00	09:53:00		Sikorskiego Katedra 01 nż
+1581	1	203676	09:56:00	09:56:00		Powst. Warszawy / Rejtana 13
+1581	1	203676	09:56:00	09:56:00		Powst. Warszawy / Rejtana 13
+1581	1	203676	09:57:00	09:57:00		Powst. Warszawy szkoła 11
+1581	1	203676	09:57:00	09:57:00		Powst. Warszawy szkoła 11
+1581	1	203676	09:58:00	09:58:00		Powst. Warszawy Dom Studenta 09
+1581	1	203676	09:58:00	09:58:00		Powst. Warszawy Dom Studenta 09
+1581	1	203676	10:01:00	10:01:00		Powst. Warszawy / Hetmańska 03
+1581	1	203676	10:01:00	10:01:00		Powst. Warszawy / Hetmańska 03
+1581	1	203676	10:02:00	10:02:00		Powst. Warszawy Politechnika 01
+1581	1	203676	10:02:00	10:02:00		Powst. Warszawy Politechnika 01
+1581	1	203676	10:04:00	10:04:00		Dąbrowskiego Instytut Muzyki 07
+1581	1	203676	10:04:00	10:04:00		Dąbrowskiego Instytut Muzyki 07
+1581	1	203676	10:05:00	10:05:00		Dąbrowskiego KW Policji 03
+1581	1	203676	10:05:00	10:05:00		Dąbrowskiego KW Policji 03
+1581	1	203676	10:06:00	10:06:00		Dąbrowskiego park 01 nż
+1581	1	203676	10:06:00	10:06:00		Dąbrowskiego park 01 nż
+1581	1	203676	10:10:00	10:10:00		Lisa-Kuli 02
+1581	1	203676	10:10:00	10:10:00		Lisa-Kuli 02
+1581	1	203676	10:11:00	10:11:00		Cieplińskiego 01
+1581	1	203676	10:11:00	10:11:00		Cieplińskiego 01
+1581	1	203676	10:14:00	10:14:00		Marszałkowska 02
+1581	1	203676	10:14:00	10:14:00		Marszałkowska 02
+1581	1	203676	10:15:00	10:15:00		Lubelska szpital 02
+1581	1	203676	10:15:00	10:15:00		Lubelska szpital 02
+1581	1	203676	10:17:00	10:17:00		Wyzwolenia / Lubelska 02 nż
+1581	1	203676	10:17:00	10:17:00		Wyzwolenia / Lubelska 02 nż
+1581	1	203676	10:18:00	10:18:00		Wyzwolenia WORD 04 nż
+1581	1	203676	10:18:00	10:18:00		Wyzwolenia WORD 04 nż
+1581	1	203676	10:20:00	10:20:00		Wyzwolenia / Iranka-Osmeckiego 06
+1581	1	203676	10:20:00	10:20:00		Wyzwolenia / Iranka-Osmeckiego 06
+1581	1	203676	10:21:00	10:21:00		Wyzwolenia / Brydaka 08
+1581	1	203676	10:21:00	10:21:00		Wyzwolenia / Brydaka 08
+1581	1	203676	10:22:00	10:22:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
+1581	1	203676	10:22:00	10:22:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
+1581	1	203676	10:23:00	10:23:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
+1581	1	203676	10:23:00	10:23:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
+1581	1	203676	10:24:00	10:24:00		Obr. Poczty Gdańskiej pętla 08
+1581	1	203676	10:24:00	10:24:00		Obr. Poczty Gdańskiej pętla 08
+
+1587	1	205436	10:35:00	10:35:00		Obr. Poczty Gdańskiej pętla 08
+1587	1	205436	10:35:00	10:35:00		Obr. Poczty Gdańskiej pętla 08
+1587	1	205436	10:36:00	10:36:00		Obr. Poczty Gdańskiej / Raginisa 01
+1587	1	205436	10:36:00	10:36:00		Obr. Poczty Gdańskiej / Raginisa 01
+1587	1	205436	10:38:00	10:38:00		Wyzwolenia / Ofiar Katynia 07
+1587	1	205436	10:38:00	10:38:00		Wyzwolenia / Ofiar Katynia 07
+1587	1	205436	10:39:00	10:39:00		Wyzwolenia kościół 05
+1587	1	205436	10:39:00	10:39:00		Wyzwolenia kościół 05
+1587	1	205436	10:40:00	10:40:00		Wyzwolenia / Okulickiego 03 nż
+1587	1	205436	10:40:00	10:40:00		Wyzwolenia / Okulickiego 03 nż
+1587	1	205436	10:42:00	10:42:00		Wyzwolenia / Warszawska 01 nż
+1587	1	205436	10:42:00	10:42:00		Wyzwolenia / Warszawska 01 nż
+1587	1	205436	10:43:00	10:43:00		Lubelska szpital 01
+1587	1	205436	10:43:00	10:43:00		Lubelska szpital 01
+1587	1	205436	10:45:00	10:45:00		Marszałkowska 01
+1587	1	205436	10:45:00	10:45:00		Marszałkowska 01
+1587	1	205436	10:49:00	10:49:00		Cieplińskiego 02
+1587	1	205436	10:49:00	10:49:00		Cieplińskiego 02
+1587	1	205436	10:50:00	10:50:00		Lisa-Kuli 01
+1587	1	205436	10:50:00	10:50:00		Lisa-Kuli 01
+1587	1	205436	10:52:00	10:52:00		Dąbrowskiego park 02 nż
+1587	1	205436	10:52:00	10:52:00		Dąbrowskiego park 02 nż
+1587	1	205436	10:53:00	10:53:00		Dąbrowskiego KW Policji 04
+1587	1	205436	10:53:00	10:53:00		Dąbrowskiego KW Policji 04
+1587	1	205436	10:54:00	10:54:00		Dąbrowskiego / Boh. Westerplatte 08
+1587	1	205436	10:54:00	10:54:00		Dąbrowskiego / Boh. Westerplatte 08
+1587	1	205436	10:57:00	10:57:00		Powst. Warszawy / Dąbrowskiego 02
+1587	1	205436	10:57:00	10:57:00		Powst. Warszawy / Dąbrowskiego 02
+1587	1	205436	10:58:00	10:58:00		Powst. Warszawy Politechnika 04
+1587	1	205436	10:58:00	10:58:00		Powst. Warszawy Politechnika 04
+1587	1	205436	11:00:00	11:00:00		Powst. Warszawy stadion 06
+1587	1	205436	11:00:00	11:00:00		Powst. Warszawy stadion 06
+1587	1	205436	11:02:00	11:02:00		Powst. Warszawy Dom Studenta 08
+1587	1	205436	11:02:00	11:02:00		Powst. Warszawy Dom Studenta 08
+1587	1	205436	11:03:00	11:03:00		Powst. Warszawy / Graniczna 10
+1587	1	205436	11:03:00	11:03:00		Powst. Warszawy / Graniczna 10
+1587	1	205436	11:04:00	11:04:00		Powst. Warszawy / Sikorskiego 12 nż
+1587	1	205436	11:04:00	11:04:00		Powst. Warszawy / Sikorskiego 12 nż
+1587	1	205436	11:05:00	11:05:00		Sikorskiego Katedra 04 nż
+1587	1	205436	11:05:00	11:05:00		Sikorskiego Katedra 04 nż
+1587	1	205436	11:06:00	11:06:00		Łukasiewicza / Sikorskiego 02 nż
+1587	1	205436	11:06:00	11:06:00		Łukasiewicza / Sikorskiego 02 nż
+1587	1	205436	11:07:00	11:07:00		Łukasiewicza / Zimowit 04 nż
+1587	1	205436	11:07:00	11:07:00		Łukasiewicza / Zimowit 04 nż
+1587	1	205436	11:08:00	11:08:00		Łukasiewicza / Gumińskich 06 nż
+1587	1	205436	11:08:00	11:08:00		Łukasiewicza / Gumińskich 06 nż
+1587	1	205436	11:09:00	11:09:00		Łukasiewicza pętla 10
+1587	1	205436	11:09:00	11:09:00		Łukasiewicza pętla 10
+
+1579	1	207150	11:35:00	11:35:00		Łukasiewicza pętla 10
+1579	1	207150	11:35:00	11:35:00		Łukasiewicza pętla 10
+1579	1	207150	11:36:00	11:36:00		Łukasiewicza / Sasanki 03 nż
+1579	1	207150	11:36:00	11:36:00		Łukasiewicza / Sasanki 03 nż
+1579	1	207150	11:37:00	11:37:00		Łukasiewicza / Krokusowa 01 nż
+1579	1	207150	11:37:00	11:37:00		Łukasiewicza / Krokusowa 01 nż
+1579	1	207150	11:38:00	11:38:00		Sikorskiego Katedra 01 nż
+1579	1	207150	11:38:00	11:38:00		Sikorskiego Katedra 01 nż
+1579	1	207150	11:41:00	11:41:00		Powst. Warszawy / Rejtana 13
+1579	1	207150	11:41:00	11:41:00		Powst. Warszawy / Rejtana 13
+1579	1	207150	11:42:00	11:42:00		Powst. Warszawy szkoła 11
+1579	1	207150	11:42:00	11:42:00		Powst. Warszawy szkoła 11
+1579	1	207150	11:43:00	11:43:00		Powst. Warszawy Dom Studenta 09
+1579	1	207150	11:43:00	11:43:00		Powst. Warszawy Dom Studenta 09
+1579	1	207150	11:46:00	11:46:00		Powst. Warszawy / Hetmańska 03
+1579	1	207150	11:46:00	11:46:00		Powst. Warszawy / Hetmańska 03
+1579	1	207150	11:47:00	11:47:00		Powst. Warszawy Politechnika 01
+1579	1	207150	11:47:00	11:47:00		Powst. Warszawy Politechnika 01
+1579	1	207150	11:50:00	11:50:00		Dąbrowskiego Instytut Muzyki 07
+1579	1	207150	11:50:00	11:50:00		Dąbrowskiego Instytut Muzyki 07
+1579	1	207150	11:51:00	11:51:00		Dąbrowskiego KW Policji 03
+1579	1	207150	11:51:00	11:51:00		Dąbrowskiego KW Policji 03
+1579	1	207150	11:52:00	11:52:00		Dąbrowskiego park 01 nż
+1579	1	207150	11:52:00	11:52:00		Dąbrowskiego park 01 nż
+1579	1	207150	11:56:00	11:56:00		Lisa-Kuli 02
+1579	1	207150	11:56:00	11:56:00		Lisa-Kuli 02
+1579	1	207150	11:57:00	11:57:00		Cieplińskiego 01
+1579	1	207150	11:57:00	11:57:00		Cieplińskiego 01
+1579	1	207150	12:00:00	12:00:00		Marszałkowska 02
+1579	1	207150	12:00:00	12:00:00		Marszałkowska 02
+1579	1	207150	12:01:00	12:01:00		Lubelska szpital 02
+1579	1	207150	12:01:00	12:01:00		Lubelska szpital 02
+1579	1	207150	12:03:00	12:03:00		Wyzwolenia / Lubelska 02 nż
+1579	1	207150	12:03:00	12:03:00		Wyzwolenia / Lubelska 02 nż
+1579	1	207150	12:04:00	12:04:00		Wyzwolenia WORD 04 nż
+1579	1	207150	12:04:00	12:04:00		Wyzwolenia WORD 04 nż
+1579	1	207150	12:06:00	12:06:00		Wyzwolenia / Iranka-Osmeckiego 06
+1579	1	207150	12:06:00	12:06:00		Wyzwolenia / Iranka-Osmeckiego 06
+1579	1	207150	12:07:00	12:07:00		Wyzwolenia / Brydaka 08
+1579	1	207150	12:07:00	12:07:00		Wyzwolenia / Brydaka 08
+1579	1	207150	12:08:00	12:08:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
+1579	1	207150	12:08:00	12:08:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
+1579	1	207150	12:09:00	12:09:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
+1579	1	207150	12:09:00	12:09:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
+1579	1	207150	12:10:00	12:10:00		Obr. Poczty Gdańskiej pętla 08
+1579	1	207150	12:10:00	12:10:00		Obr. Poczty Gdańskiej pętla 08
+
+1587	1	203913	12:20:00	12:20:00		Obr. Poczty Gdańskiej pętla 08
+1587	1	203913	12:20:00	12:20:00		Obr. Poczty Gdańskiej pętla 08
+1587	1	203913	12:21:00	12:21:00		Obr. Poczty Gdańskiej / Raginisa 01
+1587	1	203913	12:21:00	12:21:00		Obr. Poczty Gdańskiej / Raginisa 01
+1587	1	203913	12:23:00	12:23:00		Wyzwolenia / Ofiar Katynia 07
+1587	1	203913	12:23:00	12:23:00		Wyzwolenia / Ofiar Katynia 07
+1587	1	203913	12:24:00	12:24:00		Wyzwolenia kościół 05
+1587	1	203913	12:24:00	12:24:00		Wyzwolenia kościół 05
+1587	1	203913	12:25:00	12:25:00		Wyzwolenia / Okulickiego 03 nż
+1587	1	203913	12:25:00	12:25:00		Wyzwolenia / Okulickiego 03 nż
+1587	1	203913	12:27:00	12:27:00		Wyzwolenia / Warszawska 01 nż
+1587	1	203913	12:27:00	12:27:00		Wyzwolenia / Warszawska 01 nż
+1587	1	203913	12:28:00	12:28:00		Lubelska szpital 01
+1587	1	203913	12:28:00	12:28:00		Lubelska szpital 01
+1587	1	203913	12:30:00	12:30:00		Marszałkowska 01
+1587	1	203913	12:30:00	12:30:00		Marszałkowska 01
+1587	1	203913	12:34:00	12:34:00		Cieplińskiego 02
+1587	1	203913	12:34:00	12:34:00		Cieplińskiego 02
+1587	1	203913	12:35:00	12:35:00		Lisa-Kuli 01
+1587	1	203913	12:35:00	12:35:00		Lisa-Kuli 01
+1587	1	203913	12:38:00	12:38:00		Dąbrowskiego park 02 nż
+1587	1	203913	12:38:00	12:38:00		Dąbrowskiego park 02 nż
+1587	1	203913	12:39:00	12:39:00		Dąbrowskiego KW Policji 04
+1587	1	203913	12:39:00	12:39:00		Dąbrowskiego KW Policji 04
+1587	1	203913	12:40:00	12:40:00		Dąbrowskiego / Boh. Westerplatte 08
+1587	1	203913	12:40:00	12:40:00		Dąbrowskiego / Boh. Westerplatte 08
+1587	1	203913	12:44:00	12:44:00		Powst. Warszawy / Dąbrowskiego 02
+1587	1	203913	12:44:00	12:44:00		Powst. Warszawy / Dąbrowskiego 02
+1587	1	203913	12:45:00	12:45:00		Powst. Warszawy Politechnika 04
+1587	1	203913	12:45:00	12:45:00		Powst. Warszawy Politechnika 04
+1587	1	203913	12:47:00	12:47:00		Powst. Warszawy stadion 06
+1587	1	203913	12:47:00	12:47:00		Powst. Warszawy stadion 06
+1587	1	203913	12:50:00	12:50:00		Powst. Warszawy Dom Studenta 08
+1587	1	203913	12:50:00	12:50:00		Powst. Warszawy Dom Studenta 08
+1587	1	203913	12:51:00	12:51:00		Powst. Warszawy / Graniczna 10
+1587	1	203913	12:51:00	12:51:00		Powst. Warszawy / Graniczna 10
+1587	1	203913	12:52:00	12:52:00		Powst. Warszawy / Sikorskiego 12 nż
+1587	1	203913	12:52:00	12:52:00		Powst. Warszawy / Sikorskiego 12 nż
+1587	1	203913	12:53:00	12:53:00		Sikorskiego Katedra 04 nż
+1587	1	203913	12:53:00	12:53:00		Sikorskiego Katedra 04 nż
+1587	1	203913	12:54:00	12:54:00		Łukasiewicza / Sikorskiego 02 nż
+1587	1	203913	12:54:00	12:54:00		Łukasiewicza / Sikorskiego 02 nż
+1587	1	203913	12:55:00	12:55:00		Łukasiewicza / Zimowit 04 nż
+1587	1	203913	12:55:00	12:55:00		Łukasiewicza / Zimowit 04 nż
+1587	1	203913	12:56:00	12:56:00		Łukasiewicza / Gumińskich 06 nż
+1587	1	203913	12:56:00	12:56:00		Łukasiewicza / Gumińskich 06 nż
+1587	1	203913	12:57:00	12:57:00		Łukasiewicza pętla 10
+1587	1	203913	12:57:00	12:57:00		Łukasiewicza pętla 10
+
+1579	1	203991	13:05:00	13:05:00		Łukasiewicza pętla 10
+1579	1	203991	13:05:00	13:05:00		Łukasiewicza pętla 10
+1579	1	203991	13:06:00	13:06:00		Łukasiewicza / Sasanki 03 nż
+1579	1	203991	13:06:00	13:06:00		Łukasiewicza / Sasanki 03 nż
+1579	1	203991	13:07:00	13:07:00		Łukasiewicza / Krokusowa 01 nż
+1579	1	203991	13:07:00	13:07:00		Łukasiewicza / Krokusowa 01 nż
+1579	1	203991	13:08:00	13:08:00		Sikorskiego Katedra 01 nż
+1579	1	203991	13:08:00	13:08:00		Sikorskiego Katedra 01 nż
+1579	1	203991	13:11:00	13:11:00		Powst. Warszawy / Rejtana 13
+1579	1	203991	13:11:00	13:11:00		Powst. Warszawy / Rejtana 13
+1579	1	203991	13:12:00	13:12:00		Powst. Warszawy szkoła 11
+1579	1	203991	13:12:00	13:12:00		Powst. Warszawy szkoła 11
+1579	1	203991	13:13:00	13:13:00		Powst. Warszawy Dom Studenta 09
+1579	1	203991	13:13:00	13:13:00		Powst. Warszawy Dom Studenta 09
+1579	1	203991	13:16:00	13:16:00		Powst. Warszawy / Hetmańska 03
+1579	1	203991	13:16:00	13:16:00		Powst. Warszawy / Hetmańska 03
+1579	1	203991	13:17:00	13:17:00		Powst. Warszawy Politechnika 01
+1579	1	203991	13:17:00	13:17:00		Powst. Warszawy Politechnika 01
+1579	1	203991	13:20:00	13:20:00		Dąbrowskiego Instytut Muzyki 07
+1579	1	203991	13:20:00	13:20:00		Dąbrowskiego Instytut Muzyki 07
+1579	1	203991	13:21:00	13:21:00		Dąbrowskiego KW Policji 03
+1579	1	203991	13:21:00	13:21:00		Dąbrowskiego KW Policji 03
+1579	1	203991	13:22:00	13:22:00		Dąbrowskiego park 01 nż
+1579	1	203991	13:22:00	13:22:00		Dąbrowskiego park 01 nż
+1579	1	203991	13:26:00	13:26:00		Lisa-Kuli 02
+1579	1	203991	13:26:00	13:26:00		Lisa-Kuli 02
+1579	1	203991	13:27:00	13:27:00		Cieplińskiego 01
+1579	1	203991	13:27:00	13:27:00		Cieplińskiego 01
+1579	1	203991	13:30:00	13:30:00		Marszałkowska 02
+1579	1	203991	13:30:00	13:30:00		Marszałkowska 02
+1579	1	203991	13:31:00	13:31:00		Lubelska szpital 02
+1579	1	203991	13:31:00	13:31:00		Lubelska szpital 02
+1579	1	203991	13:33:00	13:33:00		Wyzwolenia / Lubelska 02 nż
+1579	1	203991	13:33:00	13:33:00		Wyzwolenia / Lubelska 02 nż
+1579	1	203991	13:34:00	13:34:00		Wyzwolenia WORD 04 nż
+1579	1	203991	13:34:00	13:34:00		Wyzwolenia WORD 04 nż
+1579	1	203991	13:36:00	13:36:00		Wyzwolenia / Iranka-Osmeckiego 06
+1579	1	203991	13:36:00	13:36:00		Wyzwolenia / Iranka-Osmeckiego 06
+1579	1	203991	13:37:00	13:37:00		Wyzwolenia / Brydaka 08
+1579	1	203991	13:37:00	13:37:00		Wyzwolenia / Brydaka 08
+1579	1	203991	13:38:00	13:38:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
+1579	1	203991	13:38:00	13:38:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
+1579	1	203991	13:39:00	13:39:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
+1579	1	203991	13:39:00	13:39:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
+1579	1	203991	13:40:00	13:40:00		Obr. Poczty Gdańskiej pętla 08
+1579	1	203991	13:40:00	13:40:00		Obr. Poczty Gdańskiej pętla 08
+
+1587	1	203516	14:05:00	14:05:00		Obr. Poczty Gdańskiej pętla 08
+1587	1	203516	14:05:00	14:05:00		Obr. Poczty Gdańskiej pętla 08
+1587	1	203516	14:06:00	14:06:00		Obr. Poczty Gdańskiej / Raginisa 01
+1587	1	203516	14:06:00	14:06:00		Obr. Poczty Gdańskiej / Raginisa 01
+1587	1	203516	14:08:00	14:08:00		Wyzwolenia / Ofiar Katynia 07
+1587	1	203516	14:08:00	14:08:00		Wyzwolenia / Ofiar Katynia 07
+1587	1	203516	14:09:00	14:09:00		Wyzwolenia kościół 05
+1587	1	203516	14:09:00	14:09:00		Wyzwolenia kościół 05
+1587	1	203516	14:10:00	14:10:00		Wyzwolenia / Okulickiego 03 nż
+1587	1	203516	14:10:00	14:10:00		Wyzwolenia / Okulickiego 03 nż
+1587	1	203516	14:12:00	14:12:00		Wyzwolenia / Warszawska 01 nż
+1587	1	203516	14:12:00	14:12:00		Wyzwolenia / Warszawska 01 nż
+1587	1	203516	14:13:00	14:13:00		Lubelska szpital 01
+1587	1	203516	14:13:00	14:13:00		Lubelska szpital 01
+1587	1	203516	14:15:00	14:15:00		Marszałkowska 01
+1587	1	203516	14:15:00	14:15:00		Marszałkowska 01
+1587	1	203516	14:19:00	14:19:00		Cieplińskiego 02
+1587	1	203516	14:19:00	14:19:00		Cieplińskiego 02
+1587	1	203516	14:20:00	14:20:00		Lisa-Kuli 01
+1587	1	203516	14:20:00	14:20:00		Lisa-Kuli 01
+1587	1	203516	14:23:00	14:23:00		Dąbrowskiego park 02 nż
+1587	1	203516	14:23:00	14:23:00		Dąbrowskiego park 02 nż
+1587	1	203516	14:24:00	14:24:00		Dąbrowskiego KW Policji 04
+1587	1	203516	14:24:00	14:24:00		Dąbrowskiego KW Policji 04
+1587	1	203516	14:25:00	14:25:00		Dąbrowskiego / Boh. Westerplatte 08
+1587	1	203516	14:25:00	14:25:00		Dąbrowskiego / Boh. Westerplatte 08
+1587	1	203516	14:29:00	14:29:00		Powst. Warszawy / Dąbrowskiego 02
+1587	1	203516	14:29:00	14:29:00		Powst. Warszawy / Dąbrowskiego 02
+1587	1	203516	14:30:00	14:30:00		Powst. Warszawy Politechnika 04
+1587	1	203516	14:30:00	14:30:00		Powst. Warszawy Politechnika 04
+1587	1	203516	14:36:00	14:36:00		Powst. Warszawy stadion 06
+1587	1	203516	14:36:00	14:36:00		Powst. Warszawy stadion 06
+1587	1	203516	14:39:00	14:39:00		Powst. Warszawy Dom Studenta 08
+1587	1	203516	14:39:00	14:39:00		Powst. Warszawy Dom Studenta 08
+1587	1	203516	14:40:00	14:40:00		Powst. Warszawy / Graniczna 10
+1587	1	203516	14:40:00	14:40:00		Powst. Warszawy / Graniczna 10
+1587	1	203516	14:41:00	14:41:00		Powst. Warszawy / Sikorskiego 12 nż
+1587	1	203516	14:41:00	14:41:00		Powst. Warszawy / Sikorskiego 12 nż
+1587	1	203516	14:43:00	14:43:00		Sikorskiego Katedra 04 nż
+1587	1	203516	14:43:00	14:43:00		Sikorskiego Katedra 04 nż
+1587	1	203516	14:44:00	14:44:00		Łukasiewicza / Sikorskiego 02 nż
+1587	1	203516	14:44:00	14:44:00		Łukasiewicza / Sikorskiego 02 nż
+1587	1	203516	14:45:00	14:45:00		Łukasiewicza / Zimowit 04 nż
+1587	1	203516	14:45:00	14:45:00		Łukasiewicza / Zimowit 04 nż
+1587	1	203516	14:46:00	14:46:00		Łukasiewicza / Gumińskich 06 nż
+1587	1	203516	14:46:00	14:46:00		Łukasiewicza / Gumińskich 06 nż
+1587	1	203516	14:47:00	14:47:00		Łukasiewicza pętla 10
+1587	1	203516	14:47:00	14:47:00		Łukasiewicza pętla 10
+
+1579	1	206852	15:05:00	15:05:00		Łukasiewicza pętla 10
+1579	1	206852	15:05:00	15:05:00		Łukasiewicza pętla 10
+1579	1	206852	15:06:00	15:06:00		Łukasiewicza / Sasanki 03 nż
+1579	1	206852	15:06:00	15:06:00		Łukasiewicza / Sasanki 03 nż
+1579	1	206852	15:07:00	15:07:00		Łukasiewicza / Krokusowa 01 nż
+1579	1	206852	15:07:00	15:07:00		Łukasiewicza / Krokusowa 01 nż
+1579	1	206852	15:08:00	15:08:00		Sikorskiego Katedra 01 nż
+1579	1	206852	15:08:00	15:08:00		Sikorskiego Katedra 01 nż
+1579	1	206852	15:11:00	15:11:00		Powst. Warszawy / Rejtana 13
+1579	1	206852	15:11:00	15:11:00		Powst. Warszawy / Rejtana 13
+1579	1	206852	15:12:00	15:12:00		Powst. Warszawy szkoła 11
+1579	1	206852	15:12:00	15:12:00		Powst. Warszawy szkoła 11
+1579	1	206852	15:13:00	15:13:00		Powst. Warszawy Dom Studenta 09
+1579	1	206852	15:13:00	15:13:00		Powst. Warszawy Dom Studenta 09
+1579	1	206852	15:16:00	15:16:00		Powst. Warszawy / Hetmańska 03
+1579	1	206852	15:16:00	15:16:00		Powst. Warszawy / Hetmańska 03
+1579	1	206852	15:17:00	15:17:00		Powst. Warszawy Politechnika 01
+1579	1	206852	15:17:00	15:17:00		Powst. Warszawy Politechnika 01
+1579	1	206852	15:20:00	15:20:00		Dąbrowskiego Instytut Muzyki 07
+1579	1	206852	15:20:00	15:20:00		Dąbrowskiego Instytut Muzyki 07
+1579	1	206852	15:21:00	15:21:00		Dąbrowskiego KW Policji 03
+1579	1	206852	15:21:00	15:21:00		Dąbrowskiego KW Policji 03
+1579	1	206852	15:22:00	15:22:00		Dąbrowskiego park 01 nż
+1579	1	206852	15:22:00	15:22:00		Dąbrowskiego park 01 nż
+1579	1	206852	15:28:00	15:28:00		Lisa-Kuli 02
+1579	1	206852	15:28:00	15:28:00		Lisa-Kuli 02
+1579	1	206852	15:29:00	15:29:00		Cieplińskiego 01
+1579	1	206852	15:29:00	15:29:00		Cieplińskiego 01
+1579	1	206852	15:33:00	15:33:00		Marszałkowska 02
+1579	1	206852	15:33:00	15:33:00		Marszałkowska 02
+1579	1	206852	15:34:00	15:34:00		Lubelska szpital 02
+1579	1	206852	15:34:00	15:34:00		Lubelska szpital 02
+1579	1	206852	15:37:00	15:37:00		Wyzwolenia / Lubelska 02 nż
+1579	1	206852	15:37:00	15:37:00		Wyzwolenia / Lubelska 02 nż
+1579	1	206852	15:38:00	15:38:00		Wyzwolenia WORD 04 nż
+1579	1	206852	15:38:00	15:38:00		Wyzwolenia WORD 04 nż
+1579	1	206852	15:40:00	15:40:00		Wyzwolenia / Iranka-Osmeckiego 06
+1579	1	206852	15:40:00	15:40:00		Wyzwolenia / Iranka-Osmeckiego 06
+1579	1	206852	15:41:00	15:41:00		Wyzwolenia / Brydaka 08
+1579	1	206852	15:41:00	15:41:00		Wyzwolenia / Brydaka 08
+1579	1	206852	15:42:00	15:42:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
+1579	1	206852	15:42:00	15:42:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
+1579	1	206852	15:43:00	15:43:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
+1579	1	206852	15:43:00	15:43:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
+1579	1	206852	15:44:00	15:44:00		Obr. Poczty Gdańskiej pętla 08
+1579	1	206852	15:44:00	15:44:00		Obr. Poczty Gdańskiej pętla 08
+
+1587	1	206974	16:05:00	16:05:00		Obr. Poczty Gdańskiej pętla 08
+1587	1	206974	16:05:00	16:05:00		Obr. Poczty Gdańskiej pętla 08
+1587	1	206974	16:06:00	16:06:00		Obr. Poczty Gdańskiej / Raginisa 01
+1587	1	206974	16:06:00	16:06:00		Obr. Poczty Gdańskiej / Raginisa 01
+1587	1	206974	16:08:00	16:08:00		Wyzwolenia / Ofiar Katynia 07
+1587	1	206974	16:08:00	16:08:00		Wyzwolenia / Ofiar Katynia 07
+1587	1	206974	16:09:00	16:09:00		Wyzwolenia kościół 05
+1587	1	206974	16:09:00	16:09:00		Wyzwolenia kościół 05
+1587	1	206974	16:11:00	16:11:00		Wyzwolenia / Okulickiego 03 nż
+1587	1	206974	16:11:00	16:11:00		Wyzwolenia / Okulickiego 03 nż
+1587	1	206974	16:13:00	16:13:00		Wyzwolenia / Warszawska 01 nż
+1587	1	206974	16:13:00	16:13:00		Wyzwolenia / Warszawska 01 nż
+1587	1	206974	16:14:00	16:14:00		Lubelska szpital 01
+1587	1	206974	16:14:00	16:14:00		Lubelska szpital 01
+1587	1	206974	16:16:00	16:16:00		Marszałkowska 01
+1587	1	206974	16:16:00	16:16:00		Marszałkowska 01
+1587	1	206974	16:20:00	16:20:00		Cieplińskiego 02
+1587	1	206974	16:20:00	16:20:00		Cieplińskiego 02
+1587	1	206974	16:21:00	16:21:00		Lisa-Kuli 01
+1587	1	206974	16:21:00	16:21:00		Lisa-Kuli 01
+1587	1	206974	16:25:00	16:25:00		Dąbrowskiego park 02 nż
+1587	1	206974	16:25:00	16:25:00		Dąbrowskiego park 02 nż
+1587	1	206974	16:26:00	16:26:00		Dąbrowskiego KW Policji 04
+1587	1	206974	16:26:00	16:26:00		Dąbrowskiego KW Policji 04
+1587	1	206974	16:27:00	16:27:00		Dąbrowskiego / Boh. Westerplatte 08
+1587	1	206974	16:27:00	16:27:00		Dąbrowskiego / Boh. Westerplatte 08
+1587	1	206974	16:31:00	16:31:00		Powst. Warszawy / Dąbrowskiego 02
+1587	1	206974	16:31:00	16:31:00		Powst. Warszawy / Dąbrowskiego 02
+1587	1	206974	16:32:00	16:32:00		Powst. Warszawy Politechnika 04
+1587	1	206974	16:32:00	16:32:00		Powst. Warszawy Politechnika 04
+1587	1	206974	16:34:00	16:34:00		Powst. Warszawy stadion 06
+1587	1	206974	16:34:00	16:34:00		Powst. Warszawy stadion 06
+1587	1	206974	16:37:00	16:37:00		Powst. Warszawy Dom Studenta 08
+1587	1	206974	16:37:00	16:37:00		Powst. Warszawy Dom Studenta 08
+1587	1	206974	16:38:00	16:38:00		Powst. Warszawy / Graniczna 10
+1587	1	206974	16:38:00	16:38:00		Powst. Warszawy / Graniczna 10
+1587	1	206974	16:39:00	16:39:00		Powst. Warszawy / Sikorskiego 12 nż
+1587	1	206974	16:39:00	16:39:00		Powst. Warszawy / Sikorskiego 12 nż
+1587	1	206974	16:40:00	16:40:00		Sikorskiego Katedra 04 nż
+1587	1	206974	16:40:00	16:40:00		Sikorskiego Katedra 04 nż
+1587	1	206974	16:41:00	16:41:00		Łukasiewicza / Sikorskiego 02 nż
+1587	1	206974	16:41:00	16:41:00		Łukasiewicza / Sikorskiego 02 nż
+1587	1	206974	16:42:00	16:42:00		Łukasiewicza / Zimowit 04 nż
+1587	1	206974	16:42:00	16:42:00		Łukasiewicza / Zimowit 04 nż
+1587	1	206974	16:43:00	16:43:00		Łukasiewicza / Gumińskich 06 nż
+1587	1	206974	16:43:00	16:43:00		Łukasiewicza / Gumińskich 06 nż
+1587	1	206974	16:44:00	16:44:00		Łukasiewicza pętla 10
+1587	1	206974	16:44:00	16:44:00		Łukasiewicza pętla 10
+
+1579	1	205405	17:05:00	17:05:00		Łukasiewicza pętla 10
+1579	1	205405	17:05:00	17:05:00		Łukasiewicza pętla 10
+1579	1	205405	17:06:00	17:06:00		Łukasiewicza / Sasanki 03 nż
+1579	1	205405	17:06:00	17:06:00		Łukasiewicza / Sasanki 03 nż
+1579	1	205405	17:07:00	17:07:00		Łukasiewicza / Krokusowa 01 nż
+1579	1	205405	17:07:00	17:07:00		Łukasiewicza / Krokusowa 01 nż
+1579	1	205405	17:08:00	17:08:00		Sikorskiego Katedra 01 nż
+1579	1	205405	17:08:00	17:08:00		Sikorskiego Katedra 01 nż
+1579	1	205405	17:11:00	17:11:00		Powst. Warszawy / Rejtana 13
+1579	1	205405	17:11:00	17:11:00		Powst. Warszawy / Rejtana 13
+1579	1	205405	17:12:00	17:12:00		Powst. Warszawy szkoła 11
+1579	1	205405	17:12:00	17:12:00		Powst. Warszawy szkoła 11
+1579	1	205405	17:13:00	17:13:00		Powst. Warszawy Dom Studenta 09
+1579	1	205405	17:13:00	17:13:00		Powst. Warszawy Dom Studenta 09
+1579	1	205405	17:16:00	17:16:00		Powst. Warszawy / Hetmańska 03
+1579	1	205405	17:16:00	17:16:00		Powst. Warszawy / Hetmańska 03
+1579	1	205405	17:17:00	17:17:00		Powst. Warszawy Politechnika 01
+1579	1	205405	17:17:00	17:17:00		Powst. Warszawy Politechnika 01
+1579	1	205405	17:20:00	17:20:00		Dąbrowskiego Instytut Muzyki 07
+1579	1	205405	17:20:00	17:20:00		Dąbrowskiego Instytut Muzyki 07
+1579	1	205405	17:21:00	17:21:00		Dąbrowskiego KW Policji 03
+1579	1	205405	17:21:00	17:21:00		Dąbrowskiego KW Policji 03
+1579	1	205405	17:22:00	17:22:00		Dąbrowskiego park 01 nż
+1579	1	205405	17:22:00	17:22:00		Dąbrowskiego park 01 nż
+1579	1	205405	17:27:00	17:27:00		Lisa-Kuli 02
+1579	1	205405	17:27:00	17:27:00		Lisa-Kuli 02
+1579	1	205405	17:28:00	17:28:00		Cieplińskiego 01
+1579	1	205405	17:28:00	17:28:00		Cieplińskiego 01
+1579	1	205405	17:31:00	17:31:00		Marszałkowska 02
+1579	1	205405	17:31:00	17:31:00		Marszałkowska 02
+1579	1	205405	17:32:00	17:32:00		Lubelska szpital 02
+1579	1	205405	17:32:00	17:32:00		Lubelska szpital 02
+1579	1	205405	17:34:00	17:34:00		Wyzwolenia / Lubelska 02 nż
+1579	1	205405	17:34:00	17:34:00		Wyzwolenia / Lubelska 02 nż
+1579	1	205405	17:35:00	17:35:00		Wyzwolenia WORD 04 nż
+1579	1	205405	17:35:00	17:35:00		Wyzwolenia WORD 04 nż
+1579	1	205405	17:37:00	17:37:00		Wyzwolenia / Iranka-Osmeckiego 06
+1579	1	205405	17:37:00	17:37:00		Wyzwolenia / Iranka-Osmeckiego 06
+1579	1	205405	17:38:00	17:38:00		Wyzwolenia / Brydaka 08
+1579	1	205405	17:38:00	17:38:00		Wyzwolenia / Brydaka 08
+1579	1	205405	17:39:00	17:39:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
+1579	1	205405	17:39:00	17:39:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
+1579	1	205405	17:40:00	17:40:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
+1579	1	205405	17:40:00	17:40:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
+1579	1	205405	17:41:00	17:41:00		Obr. Poczty Gdańskiej pętla 08
+1579	1	205405	17:41:00	17:41:00		Obr. Poczty Gdańskiej pętla 08
+
+1587	1	206956	18:05:00	18:05:00		Obr. Poczty Gdańskiej pętla 08
+1587	1	206956	18:05:00	18:05:00		Obr. Poczty Gdańskiej pętla 08
+1587	1	206956	18:06:00	18:06:00		Obr. Poczty Gdańskiej / Raginisa 01
+1587	1	206956	18:06:00	18:06:00		Obr. Poczty Gdańskiej / Raginisa 01
+1587	1	206956	18:08:00	18:08:00		Wyzwolenia / Ofiar Katynia 07
+1587	1	206956	18:08:00	18:08:00		Wyzwolenia / Ofiar Katynia 07
+1587	1	206956	18:09:00	18:09:00		Wyzwolenia kościół 05
+1587	1	206956	18:09:00	18:09:00		Wyzwolenia kościół 05
+1587	1	206956	18:10:00	18:10:00		Wyzwolenia / Okulickiego 03 nż
+1587	1	206956	18:10:00	18:10:00		Wyzwolenia / Okulickiego 03 nż
+1587	1	206956	18:12:00	18:12:00		Wyzwolenia / Warszawska 01 nż
+1587	1	206956	18:12:00	18:12:00		Wyzwolenia / Warszawska 01 nż
+1587	1	206956	18:13:00	18:13:00		Lubelska szpital 01
+1587	1	206956	18:13:00	18:13:00		Lubelska szpital 01
+1587	1	206956	18:15:00	18:15:00		Marszałkowska 01
+1587	1	206956	18:15:00	18:15:00		Marszałkowska 01
+1587	1	206956	18:18:00	18:18:00		Cieplińskiego 02
+1587	1	206956	18:18:00	18:18:00		Cieplińskiego 02
+1587	1	206956	18:19:00	18:19:00		Lisa-Kuli 01
+1587	1	206956	18:19:00	18:19:00		Lisa-Kuli 01
+1587	1	206956	18:22:00	18:22:00		Dąbrowskiego park 02 nż
+1587	1	206956	18:22:00	18:22:00		Dąbrowskiego park 02 nż
+1587	1	206956	18:23:00	18:23:00		Dąbrowskiego KW Policji 04
+1587	1	206956	18:23:00	18:23:00		Dąbrowskiego KW Policji 04
+1587	1	206956	18:24:00	18:24:00		Dąbrowskiego / Boh. Westerplatte 08
+1587	1	206956	18:24:00	18:24:00		Dąbrowskiego / Boh. Westerplatte 08
+1587	1	206956	18:27:00	18:27:00		Powst. Warszawy / Dąbrowskiego 02
+1587	1	206956	18:27:00	18:27:00		Powst. Warszawy / Dąbrowskiego 02
+1587	1	206956	18:28:00	18:28:00		Powst. Warszawy Politechnika 04
+1587	1	206956	18:28:00	18:28:00		Powst. Warszawy Politechnika 04
+1587	1	206956	18:30:00	18:30:00		Powst. Warszawy stadion 06
+1587	1	206956	18:30:00	18:30:00		Powst. Warszawy stadion 06
+1587	1	206956	18:33:00	18:33:00		Powst. Warszawy Dom Studenta 08
+1587	1	206956	18:33:00	18:33:00		Powst. Warszawy Dom Studenta 08
+1587	1	206956	18:34:00	18:34:00		Powst. Warszawy / Graniczna 10
+1587	1	206956	18:34:00	18:34:00		Powst. Warszawy / Graniczna 10
+1587	1	206956	18:35:00	18:35:00		Powst. Warszawy / Sikorskiego 12 nż
+1587	1	206956	18:35:00	18:35:00		Powst. Warszawy / Sikorskiego 12 nż
+1587	1	206956	18:36:00	18:36:00		Sikorskiego Katedra 04 nż
+1587	1	206956	18:36:00	18:36:00		Sikorskiego Katedra 04 nż
+1587	1	206956	18:37:00	18:37:00		Łukasiewicza / Sikorskiego 02 nż
+1587	1	206956	18:37:00	18:37:00		Łukasiewicza / Sikorskiego 02 nż
+1587	1	206956	18:38:00	18:38:00		Łukasiewicza / Zimowit 04 nż
+1587	1	206956	18:38:00	18:38:00		Łukasiewicza / Zimowit 04 nż
+1587	1	206956	18:39:00	18:39:00		Łukasiewicza / Gumińskich 06 nż
+1587	1	206956	18:39:00	18:39:00		Łukasiewicza / Gumińskich 06 nż
+1587	1	206956	18:40:00	18:40:00		Łukasiewicza pętla 10
+1587	1	206956	18:40:00	18:40:00		Łukasiewicza pętla 10
+
+1579	1	205488	18:45:00	18:45:00		Łukasiewicza pętla 10
+1579	1	205488	18:45:00	18:45:00		Łukasiewicza pętla 10
+1579	1	205488	18:46:00	18:46:00		Łukasiewicza / Sasanki 03 nż
+1579	1	205488	18:46:00	18:46:00		Łukasiewicza / Sasanki 03 nż
+1579	1	205488	18:47:00	18:47:00		Łukasiewicza / Krokusowa 01 nż
+1579	1	205488	18:47:00	18:47:00		Łukasiewicza / Krokusowa 01 nż
+1579	1	205488	18:48:00	18:48:00		Sikorskiego Katedra 01 nż
+1579	1	205488	18:48:00	18:48:00		Sikorskiego Katedra 01 nż
+1579	1	205488	18:51:00	18:51:00		Powst. Warszawy / Rejtana 13
+1579	1	205488	18:51:00	18:51:00		Powst. Warszawy / Rejtana 13
+1579	1	205488	18:52:00	18:52:00		Powst. Warszawy szkoła 11
+1579	1	205488	18:52:00	18:52:00		Powst. Warszawy szkoła 11
+1579	1	205488	18:53:00	18:53:00		Powst. Warszawy Dom Studenta 09
+1579	1	205488	18:53:00	18:53:00		Powst. Warszawy Dom Studenta 09
+1579	1	205488	18:56:00	18:56:00		Powst. Warszawy / Hetmańska 03
+1579	1	205488	18:56:00	18:56:00		Powst. Warszawy / Hetmańska 03
+1579	1	205488	18:57:00	18:57:00		Powst. Warszawy Politechnika 01
+1579	1	205488	18:57:00	18:57:00		Powst. Warszawy Politechnika 01
+1579	1	205488	19:00:00	19:00:00		Dąbrowskiego Instytut Muzyki 07
+1579	1	205488	19:00:00	19:00:00		Dąbrowskiego Instytut Muzyki 07
+1579	1	205488	19:01:00	19:01:00		Dąbrowskiego KW Policji 03
+1579	1	205488	19:01:00	19:01:00		Dąbrowskiego KW Policji 03
+1579	1	205488	19:02:00	19:02:00		Dąbrowskiego park 01 nż
+1579	1	205488	19:02:00	19:02:00		Dąbrowskiego park 01 nż
+1579	1	205488	19:05:00	19:05:00		Lisa-Kuli 02
+1579	1	205488	19:05:00	19:05:00		Lisa-Kuli 02
+1579	1	205488	19:06:00	19:06:00		Cieplińskiego 01
+1579	1	205488	19:06:00	19:06:00		Cieplińskiego 01
+1579	1	205488	19:08:00	19:08:00		Marszałkowska 02
+1579	1	205488	19:08:00	19:08:00		Marszałkowska 02
+1579	1	205488	19:09:00	19:09:00		Lubelska szpital 02
+1579	1	205488	19:09:00	19:09:00		Lubelska szpital 02
+1579	1	205488	19:11:00	19:11:00		Wyzwolenia / Lubelska 02 nż
+1579	1	205488	19:11:00	19:11:00		Wyzwolenia / Lubelska 02 nż
+1579	1	205488	19:12:00	19:12:00		Wyzwolenia WORD 04 nż
+1579	1	205488	19:12:00	19:12:00		Wyzwolenia WORD 04 nż
+1579	1	205488	19:13:00	19:13:00		Wyzwolenia / Iranka-Osmeckiego 06
+1579	1	205488	19:13:00	19:13:00		Wyzwolenia / Iranka-Osmeckiego 06
+1579	1	205488	19:14:00	19:14:00		Wyzwolenia / Brydaka 08
+1579	1	205488	19:14:00	19:14:00		Wyzwolenia / Brydaka 08
+1579	1	205488	19:15:00	19:15:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
+1579	1	205488	19:15:00	19:15:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
+1579	1	205488	19:16:00	19:16:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
+1579	1	205488	19:16:00	19:16:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
+1579	1	205488	19:17:00	19:17:00		Obr. Poczty Gdańskiej pętla 08
+1579	1	205488	19:17:00	19:17:00		Obr. Poczty Gdańskiej pętla 08
+
+1587	1	203543	19:35:00	19:35:00		Obr. Poczty Gdańskiej pętla 08
+1587	1	203543	19:35:00	19:35:00		Obr. Poczty Gdańskiej pętla 08
+1587	1	203543	19:36:00	19:36:00		Obr. Poczty Gdańskiej / Raginisa 01
+1587	1	203543	19:36:00	19:36:00		Obr. Poczty Gdańskiej / Raginisa 01
+1587	1	203543	19:37:00	19:37:00		Wyzwolenia / Ofiar Katynia 07
+1587	1	203543	19:37:00	19:37:00		Wyzwolenia / Ofiar Katynia 07
+1587	1	203543	19:38:00	19:38:00		Wyzwolenia kościół 05
+1587	1	203543	19:38:00	19:38:00		Wyzwolenia kościół 05
+1587	1	203543	19:39:00	19:39:00		Wyzwolenia / Okulickiego 03 nż
+1587	1	203543	19:39:00	19:39:00		Wyzwolenia / Okulickiego 03 nż
+1587	1	203543	19:41:00	19:41:00		Wyzwolenia / Warszawska 01 nż
+1587	1	203543	19:41:00	19:41:00		Wyzwolenia / Warszawska 01 nż
+1587	1	203543	19:42:00	19:42:00		Lubelska szpital 01
+1587	1	203543	19:42:00	19:42:00		Lubelska szpital 01
+1587	1	203543	19:43:00	19:43:00		Marszałkowska 01
+1587	1	203543	19:43:00	19:43:00		Marszałkowska 01
+1587	1	203543	19:46:00	19:46:00		Cieplińskiego 02
+1587	1	203543	19:46:00	19:46:00		Cieplińskiego 02
+1587	1	203543	19:47:00	19:47:00		Lisa-Kuli 01
+1587	1	203543	19:47:00	19:47:00		Lisa-Kuli 01
+1587	1	203543	19:49:00	19:49:00		Dąbrowskiego park 02 nż
+1587	1	203543	19:49:00	19:49:00		Dąbrowskiego park 02 nż
+1587	1	203543	19:50:00	19:50:00		Dąbrowskiego KW Policji 04
+1587	1	203543	19:50:00	19:50:00		Dąbrowskiego KW Policji 04
+1587	1	203543	19:51:00	19:51:00		Dąbrowskiego / Boh. Westerplatte 08
+1587	1	203543	19:51:00	19:51:00		Dąbrowskiego / Boh. Westerplatte 08
+1587	1	203543	19:54:00	19:54:00		Powst. Warszawy / Dąbrowskiego 02
+1587	1	203543	19:54:00	19:54:00		Powst. Warszawy / Dąbrowskiego 02
+1587	1	203543	19:55:00	19:55:00		Powst. Warszawy Politechnika 04
+1587	1	203543	19:55:00	19:55:00		Powst. Warszawy Politechnika 04
+1587	1	203543	19:56:00	19:56:00		Powst. Warszawy stadion 06
+1587	1	203543	19:56:00	19:56:00		Powst. Warszawy stadion 06
+1587	1	203543	19:58:00	19:58:00		Powst. Warszawy Dom Studenta 08
+1587	1	203543	19:58:00	19:58:00		Powst. Warszawy Dom Studenta 08
+1587	1	203543	19:59:00	19:59:00		Powst. Warszawy / Graniczna 10
+1587	1	203543	19:59:00	19:59:00		Powst. Warszawy / Graniczna 10
+1587	1	203543	20:00:00	20:00:00		Powst. Warszawy / Sikorskiego 12 nż
+1587	1	203543	20:00:00	20:00:00		Powst. Warszawy / Sikorskiego 12 nż
+1587	1	203543	20:01:00	20:01:00		Sikorskiego Katedra 04 nż
+1587	1	203543	20:01:00	20:01:00		Sikorskiego Katedra 04 nż
+1587	1	203543	20:02:00	20:02:00		Łukasiewicza / Sikorskiego 02 nż
+1587	1	203543	20:02:00	20:02:00		Łukasiewicza / Sikorskiego 02 nż
+1587	1	203543	20:03:00	20:03:00		Łukasiewicza / Zimowit 04 nż
+1587	1	203543	20:03:00	20:03:00		Łukasiewicza / Zimowit 04 nż
+1587	1	203543	20:04:00	20:04:00		Łukasiewicza / Gumińskich 06 nż
+1587	1	203543	20:04:00	20:04:00		Łukasiewicza / Gumińskich 06 nż
+1587	1	203543	20:05:00	20:05:00		Łukasiewicza pętla 10
+1587	1	203543	20:05:00	20:05:00		Łukasiewicza pętla 10
+
+1579	1	204748	20:35:00	20:35:00		Łukasiewicza pętla 10
+1579	1	204748	20:35:00	20:35:00		Łukasiewicza pętla 10
+1579	1	204748	20:36:00	20:36:00		Łukasiewicza / Sasanki 03 nż
+1579	1	204748	20:36:00	20:36:00		Łukasiewicza / Sasanki 03 nż
+1579	1	204748	20:37:00	20:37:00		Łukasiewicza / Krokusowa 01 nż
+1579	1	204748	20:37:00	20:37:00		Łukasiewicza / Krokusowa 01 nż
+1579	1	204748	20:38:00	20:38:00		Sikorskiego Katedra 01 nż
+1579	1	204748	20:38:00	20:38:00		Sikorskiego Katedra 01 nż
+1579	1	204748	20:40:00	20:40:00		Powst. Warszawy / Rejtana 13
+1579	1	204748	20:40:00	20:40:00		Powst. Warszawy / Rejtana 13
+1579	1	204748	20:41:00	20:41:00		Powst. Warszawy szkoła 11
+1579	1	204748	20:41:00	20:41:00		Powst. Warszawy szkoła 11
+1579	1	204748	20:42:00	20:42:00		Powst. Warszawy Dom Studenta 09
+1579	1	204748	20:42:00	20:42:00		Powst. Warszawy Dom Studenta 09
+1579	1	204748	20:44:00	20:44:00		Powst. Warszawy / Hetmańska 03
+1579	1	204748	20:44:00	20:44:00		Powst. Warszawy / Hetmańska 03
+1579	1	204748	20:45:00	20:45:00		Powst. Warszawy Politechnika 01
+1579	1	204748	20:45:00	20:45:00		Powst. Warszawy Politechnika 01
+1579	1	204748	20:47:00	20:47:00		Dąbrowskiego Instytut Muzyki 07
+1579	1	204748	20:47:00	20:47:00		Dąbrowskiego Instytut Muzyki 07
+1579	1	204748	20:48:00	20:48:00		Dąbrowskiego KW Policji 03
+1579	1	204748	20:48:00	20:48:00		Dąbrowskiego KW Policji 03
+1579	1	204748	20:49:00	20:49:00		Dąbrowskiego park 01 nż
+1579	1	204748	20:49:00	20:49:00		Dąbrowskiego park 01 nż
+1579	1	204748	20:52:00	20:52:00		Lisa-Kuli 02
+1579	1	204748	20:52:00	20:52:00		Lisa-Kuli 02
+1579	1	204748	20:53:00	20:53:00		Cieplińskiego 01
+1579	1	204748	20:53:00	20:53:00		Cieplińskiego 01
+1579	1	204748	20:55:00	20:55:00		Marszałkowska 02
+1579	1	204748	20:55:00	20:55:00		Marszałkowska 02
+1579	1	204748	20:56:00	20:56:00		Lubelska szpital 02
+1579	1	204748	20:56:00	20:56:00		Lubelska szpital 02
+1579	1	204748	20:58:00	20:58:00		Wyzwolenia / Lubelska 02 nż
+1579	1	204748	20:58:00	20:58:00		Wyzwolenia / Lubelska 02 nż
+1579	1	204748	20:59:00	20:59:00		Wyzwolenia WORD 04 nż
+1579	1	204748	20:59:00	20:59:00		Wyzwolenia WORD 04 nż
+1579	1	204748	21:00:00	21:00:00		Wyzwolenia / Iranka-Osmeckiego 06
+1579	1	204748	21:00:00	21:00:00		Wyzwolenia / Iranka-Osmeckiego 06
+1579	1	204748	21:01:00	21:01:00		Wyzwolenia / Brydaka 08
+1579	1	204748	21:01:00	21:01:00		Wyzwolenia / Brydaka 08
+1579	1	204748	21:02:00	21:02:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
+1579	1	204748	21:02:00	21:02:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
+1579	1	204748	21:03:00	21:03:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
+1579	1	204748	21:03:00	21:03:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
+1579	1	204748	21:04:00	21:04:00		Obr. Poczty Gdańskiej pętla 08
+1579	1	204748	21:04:00	21:04:00		Obr. Poczty Gdańskiej pętla 08
+
+1587	1	205026	21:35:00	21:35:00		Obr. Poczty Gdańskiej pętla 08
+1587	1	205026	21:35:00	21:35:00		Obr. Poczty Gdańskiej pętla 08
+1587	1	205026	21:36:00	21:36:00		Obr. Poczty Gdańskiej / Raginisa 01
+1587	1	205026	21:36:00	21:36:00		Obr. Poczty Gdańskiej / Raginisa 01
+1587	1	205026	21:37:00	21:37:00		Wyzwolenia / Ofiar Katynia 07
+1587	1	205026	21:37:00	21:37:00		Wyzwolenia / Ofiar Katynia 07
+1587	1	205026	21:38:00	21:38:00		Wyzwolenia kościół 05
+1587	1	205026	21:38:00	21:38:00		Wyzwolenia kościół 05
+1587	1	205026	21:39:00	21:39:00		Wyzwolenia / Okulickiego 03 nż
+1587	1	205026	21:39:00	21:39:00		Wyzwolenia / Okulickiego 03 nż
+1587	1	205026	21:41:00	21:41:00		Wyzwolenia / Warszawska 01 nż
+1587	1	205026	21:41:00	21:41:00		Wyzwolenia / Warszawska 01 nż
+1587	1	205026	21:42:00	21:42:00		Lubelska szpital 01
+1587	1	205026	21:42:00	21:42:00		Lubelska szpital 01
+1587	1	205026	21:43:00	21:43:00		Marszałkowska 01
+1587	1	205026	21:43:00	21:43:00		Marszałkowska 01
+1587	1	205026	21:46:00	21:46:00		Cieplińskiego 02
+1587	1	205026	21:46:00	21:46:00		Cieplińskiego 02
+1587	1	205026	21:47:00	21:47:00		Lisa-Kuli 01
+1587	1	205026	21:47:00	21:47:00		Lisa-Kuli 01
+1587	1	205026	21:49:00	21:49:00		Dąbrowskiego park 02 nż
+1587	1	205026	21:49:00	21:49:00		Dąbrowskiego park 02 nż
+1587	1	205026	21:50:00	21:50:00		Dąbrowskiego KW Policji 04
+1587	1	205026	21:50:00	21:50:00		Dąbrowskiego KW Policji 04
+1587	1	205026	21:51:00	21:51:00		Dąbrowskiego / Boh. Westerplatte 08
+1587	1	205026	21:51:00	21:51:00		Dąbrowskiego / Boh. Westerplatte 08
+1587	1	205026	21:53:00	21:53:00		Powst. Warszawy / Dąbrowskiego 02
+1587	1	205026	21:53:00	21:53:00		Powst. Warszawy / Dąbrowskiego 02
+1587	1	205026	21:54:00	21:54:00		Powst. Warszawy Politechnika 04
+1587	1	205026	21:54:00	21:54:00		Powst. Warszawy Politechnika 04
+1587	1	205026	21:55:00	21:55:00		Powst. Warszawy stadion 06
+1587	1	205026	21:55:00	21:55:00		Powst. Warszawy stadion 06
+1587	1	205026	21:57:00	21:57:00		Powst. Warszawy Dom Studenta 08
+1587	1	205026	21:57:00	21:57:00		Powst. Warszawy Dom Studenta 08
+1587	1	205026	21:58:00	21:58:00		Powst. Warszawy / Graniczna 10
+1587	1	205026	21:58:00	21:58:00		Powst. Warszawy / Graniczna 10
+1587	1	205026	21:59:00	21:59:00		Powst. Warszawy / Sikorskiego 12 nż
+1587	1	205026	21:59:00	21:59:00		Powst. Warszawy / Sikorskiego 12 nż
+1587	1	205026	22:00:00	22:00:00		Sikorskiego Katedra 04 nż
+1587	1	205026	22:00:00	22:00:00		Sikorskiego Katedra 04 nż
+1587	1	205026	22:01:00	22:01:00		Łukasiewicza / Sikorskiego 02 nż
+1587	1	205026	22:01:00	22:01:00		Łukasiewicza / Sikorskiego 02 nż
+1587	1	205026	22:02:00	22:02:00		Łukasiewicza / Zimowit 04 nż
+1587	1	205026	22:02:00	22:02:00		Łukasiewicza / Zimowit 04 nż
+1587	1	205026	22:03:00	22:03:00		Łukasiewicza / Gumińskich 06 nż
+1587	1	205026	22:03:00	22:03:00		Łukasiewicza / Gumińskich 06 nż
+1587	1	205026	22:04:00	22:04:00		Łukasiewicza pętla 10
+1587	1	205026	22:04:00	22:04:00		Łukasiewicza pętla 10
+
+1584	1	205573	22:20:00	22:20:00		Łukasiewicza pętla 10
+1584	1	205573	22:20:00	22:20:00		Łukasiewicza pętla 10
+1584	1	205573	22:21:00	22:21:00		Łukasiewicza / Sasanki 03 nż
+1584	1	205573	22:21:00	22:21:00		Łukasiewicza / Sasanki 03 nż
+1584	1	205573	22:22:00	22:22:00		Łukasiewicza / Krokusowa 01 nż
+1584	1	205573	22:22:00	22:22:00		Łukasiewicza / Krokusowa 01 nż
+1584	1	205573	22:23:00	22:23:00		Sikorskiego Katedra 01 nż
+1584	1	205573	22:23:00	22:23:00		Sikorskiego Katedra 01 nż
+1584	1	205573	22:25:00	22:25:00		Rejtana / Armii Krajowej 12
+1584	1	205573	22:25:00	22:25:00		Rejtana / Armii Krajowej 12
+1584	1	205573	22:26:00	22:26:00		Rejtana / Paderewskiego 10
+1584	1	205573	22:26:00	22:26:00		Rejtana / Paderewskiego 10
+1584	1	205573	22:27:00	22:27:00		Rejtana / Krzyżanowskiego 08
+1584	1	205573	22:27:00	22:27:00		Rejtana / Krzyżanowskiego 08
+1584	1	205573	22:28:00	22:28:00		Rejtana Uniwersytet 06
+1584	1	205573	22:28:00	22:28:00		Rejtana Uniwersytet 06
+1584	1	205573	22:29:00	22:29:00		Rejtana cmentarz 04 nż
+1584	1	205573	22:29:00	22:29:00		Rejtana cmentarz 04 nż
+1584	1	205573	22:30:00	22:30:00		Rejtana / Kustronia 02
+1584	1	205573	22:30:00	22:30:00		Rejtana / Kustronia 02
+1584	1	205573	22:32:00	22:32:00		Piłsudskiego ZDZ 02
+1584	1	205573	22:32:00	22:32:00		Piłsudskiego ZDZ 02
+1584	1	205573	22:33:00	22:33:00		Pl. Wolności 04
+1584	1	205573	22:33:00	22:33:00		Pl. Wolności 04
+1584	1	205573	22:35:00	22:35:00		Piłsudskiego U. Marszałkowski 08
+1584	1	205573	22:35:00	22:35:00		Piłsudskiego U. Marszałkowski 08
+1584	1	205573	22:37:00	22:37:00		Krakowska Jedn. Wojskowa 02
+1584	1	205573	22:37:00	22:37:00		Krakowska Jedn. Wojskowa 02
+1584	1	205573	22:38:00	22:38:00		Okulickiego C. Handlowe 02
+1584	1	205573	22:38:00	22:38:00		Okulickiego C. Handlowe 02
+1584	1	205573	22:39:00	22:39:00		Okulickiego / Zwierzyniecka 04 nż
+1584	1	205573	22:39:00	22:39:00		Okulickiego / Zwierzyniecka 04 nż
+1584	1	205573	22:40:00	22:40:00		Wyzwolenia / Iranka-Osmeckiego 06
+1584	1	205573	22:40:00	22:40:00		Wyzwolenia / Iranka-Osmeckiego 06
+1584	1	205573	22:41:00	22:41:00		Wyzwolenia / Brydaka 08
+1584	1	205573	22:41:00	22:41:00		Wyzwolenia / Brydaka 08
+1584	1	205573	22:42:00	22:42:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
+1584	1	205573	22:42:00	22:42:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
+1584	1	205573	22:43:00	22:43:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
+1584	1	205573	22:43:00	22:43:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
+1584	1	205573	22:44:00	22:44:00		Obr. Poczty Gdańskiej pętla 06
+1584	1	205573	22:44:00	22:44:00		Obr. Poczty Gdańskiej pętla 06
+1584	1	205573	22:46:00	22:46:00		Miłocińska pętla 01
+1584	1	205573	22:46:00	22:46:00		Miłocińska pętla 01
+
+1578	1	204287	23:17:00	23:17:00		Miłocińska pętla 01
+1578	1	204287	23:17:00	23:17:00		Miłocińska pętla 01
+1578	1	204287	23:18:00	23:18:00		Miłocińska szkoła 02 nż
+1578	1	204287	23:18:00	23:18:00		Miłocińska szkoła 02 nż
+1578	1	204287	23:20:00	23:20:00		Obr. Poczty Gdańskiej / Miłocińska 03
+1578	1	204287	23:20:00	23:20:00		Obr. Poczty Gdańskiej / Miłocińska 03
+1578	1	204287	23:21:00	23:21:00		Obr. Poczty Gdańskiej / Raginisa 01
+1578	1	204287	23:21:00	23:21:00		Obr. Poczty Gdańskiej / Raginisa 01
+1578	1	204287	23:22:00	23:22:00		Wyzwolenia / Ofiar Katynia 07
+1578	1	204287	23:22:00	23:22:00		Wyzwolenia / Ofiar Katynia 07
+1578	1	204287	23:23:00	23:23:00		Wyzwolenia kościół 05
+1578	1	204287	23:23:00	23:23:00		Wyzwolenia kościół 05
+1578	1	204287	23:24:00	23:24:00		Okulickiego / Wyzwolenia 05 nż
+1578	1	204287	23:24:00	23:24:00		Okulickiego / Wyzwolenia 05 nż
+1578	1	204287	23:25:00	23:25:00		Okulickiego / Zwierzyniecka 03 nż
+1578	1	204287	23:25:00	23:25:00		Okulickiego / Zwierzyniecka 03 nż
+1578	1	204287	23:26:00	23:26:00		Okulickiego C. Handlowe 01
+1578	1	204287	23:26:00	23:26:00		Okulickiego C. Handlowe 01
+1578	1	204287	23:28:00	23:28:00		Krakowska Jedn. Wojskowa 01
+1578	1	204287	23:28:00	23:28:00		Krakowska Jedn. Wojskowa 01
+1578	1	204287	23:30:00	23:30:00		Piłsudskiego U. Wojewódzki 03
+1578	1	204287	23:30:00	23:30:00		Piłsudskiego U. Wojewódzki 03
+1578	1	204287	23:31:00	23:31:00		Pl. Wolności 01
+1578	1	204287	23:31:00	23:31:00		Pl. Wolności 01
+1578	1	204287	23:33:00	23:33:00		Rejtana / Lwowska 01
+1578	1	204287	23:33:00	23:33:00		Rejtana / Lwowska 01
+1578	1	204287	23:34:00	23:34:00		Rejtana / Kustronia 03 nż
+1578	1	204287	23:34:00	23:34:00		Rejtana / Kustronia 03 nż
+1578	1	204287	23:35:00	23:35:00		Rejtana Uniwersytet 05
+1578	1	204287	23:35:00	23:35:00		Rejtana Uniwersytet 05
+1578	1	204287	23:36:00	23:36:00		Rejtana / Kopisto 07
+1578	1	204287	23:36:00	23:36:00		Rejtana / Kopisto 07
+1578	1	204287	23:37:00	23:37:00		Rejtana / Popiełuszki 09
+1578	1	204287	23:37:00	23:37:00		Rejtana / Popiełuszki 09
+1578	1	204287	23:39:00	23:39:00		Sikorskiego / Powst. Warszawy 02 nż
+1578	1	204287	23:39:00	23:39:00		Sikorskiego / Powst. Warszawy 02 nż
+1578	1	204287	23:40:00	23:40:00		Sikorskiego Katedra 04 nż
+1578	1	204287	23:40:00	23:40:00		Sikorskiego Katedra 04 nż
+1578	1	204287	23:41:00	23:41:00		Łukasiewicza / Sikorskiego 02 nż
+1578	1	204287	23:41:00	23:41:00		Łukasiewicza / Sikorskiego 02 nż
+1578	1	204287	23:42:00	23:42:00		Łukasiewicza / Zimowit 04 nż
+1578	1	204287	23:42:00	23:42:00		Łukasiewicza / Zimowit 04 nż
+1578	1	204287	23:43:00	23:43:00		Łukasiewicza / Gumińskich 06 nż
+1578	1	204287	23:43:00	23:43:00		Łukasiewicza / Gumińskich 06 nż
+1578	1	204287	23:44:00	23:44:00		Łukasiewicza pętla 10
+1578	1	204287	23:44:00	23:44:00		Łukasiewicza pętla 10
+
+1584	1	204838	23:50:00	23:50:00		Łukasiewicza pętla 10
+1584	1	204838	23:50:00	23:50:00		Łukasiewicza pętla 10
+1584	1	204838	23:51:00	23:51:00		Łukasiewicza / Sasanki 03 nż
+1584	1	204838	23:51:00	23:51:00		Łukasiewicza / Sasanki 03 nż
+1584	1	204838	23:52:00	23:52:00		Łukasiewicza / Krokusowa 01 nż
+1584	1	204838	23:52:00	23:52:00		Łukasiewicza / Krokusowa 01 nż
+1584	1	204838	23:53:00	23:53:00		Sikorskiego Katedra 01 nż
+1584	1	204838	23:53:00	23:53:00		Sikorskiego Katedra 01 nż
+1584	1	204838	23:55:00	23:55:00		Rejtana / Armii Krajowej 12
+1584	1	204838	23:55:00	23:55:00		Rejtana / Armii Krajowej 12
+1584	1	204838	23:56:00	23:56:00		Rejtana / Paderewskiego 10
+1584	1	204838	23:56:00	23:56:00		Rejtana / Paderewskiego 10
+1584	1	204838	23:57:00	23:57:00		Rejtana / Krzyżanowskiego 08
+1584	1	204838	23:57:00	23:57:00		Rejtana / Krzyżanowskiego 08
+1584	1	204838	23:58:00	23:58:00		Rejtana Uniwersytet 06
+1584	1	204838	23:58:00	23:58:00		Rejtana Uniwersytet 06
+1584	1	204838	23:59:00	23:59:00		Rejtana cmentarz 04 nż
+1584	1	204838	23:59:00	23:59:00		Rejtana cmentarz 04 nż
+1584	1	204838	24:00:00	24:00:00		Rejtana / Kustronia 02
+1584	1	204838	24:00:00	24:00:00		Rejtana / Kustronia 02
+1584	1	204838	24:02:00	24:02:00		Piłsudskiego ZDZ 02
+1584	1	204838	24:02:00	24:02:00		Piłsudskiego ZDZ 02
+1584	1	204838	24:03:00	24:03:00		Pl. Wolności 04
+1584	1	204838	24:03:00	24:03:00		Pl. Wolności 04
+1584	1	204838	24:05:00	24:05:00		Piłsudskiego U. Marszałkowski 08
+1584	1	204838	24:05:00	24:05:00		Piłsudskiego U. Marszałkowski 08
+1584	1	204838	24:07:00	24:07:00		Krakowska Jedn. Wojskowa 02
+1584	1	204838	24:07:00	24:07:00		Krakowska Jedn. Wojskowa 02
+1584	1	204838	24:08:00	24:08:00		Okulickiego C. Handlowe 02
+1584	1	204838	24:08:00	24:08:00		Okulickiego C. Handlowe 02
+1584	1	204838	24:09:00	24:09:00		Okulickiego / Zwierzyniecka 04 nż
+1584	1	204838	24:09:00	24:09:00		Okulickiego / Zwierzyniecka 04 nż
+1584	1	204838	24:10:00	24:10:00		Wyzwolenia / Iranka-Osmeckiego 06
+1584	1	204838	24:10:00	24:10:00		Wyzwolenia / Iranka-Osmeckiego 06
+1584	1	204838	24:11:00	24:11:00		Wyzwolenia / Brydaka 08
+1584	1	204838	24:11:00	24:11:00		Wyzwolenia / Brydaka 08
+1584	1	204838	24:12:00	24:12:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
+1584	1	204838	24:12:00	24:12:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
+1584	1	204838	24:13:00	24:13:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
+1584	1	204838	24:13:00	24:13:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
+1584	1	204838	24:14:00	24:14:00		Obr. Poczty Gdańskiej pętla 06
+1584	1	204838	24:14:00	24:14:00		Obr. Poczty Gdańskiej pętla 06
+1584	1	204838	24:16:00	24:16:00		Miłocińska pętla 01
+1584	1	204838	24:16:00	24:16:00		Miłocińska pętla 01

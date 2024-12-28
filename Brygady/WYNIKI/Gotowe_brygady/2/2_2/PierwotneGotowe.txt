@@ -1,0 +1,612 @@
+route_id	service_id	trip_id	arrival_time	departure_time	stop_headsign	stop_name
+-------------------------------------------------------------------------------
+1450	3	201690	06:00:00	06:00:00		Piłsudskiego U. Marszałkowski 08
+1450	3	201690	06:02:00	06:02:00		Krakowska Jedn. Wojskowa 02
+1450	3	201690	06:03:00	06:03:00		Krakowska szpital 04
+1450	3	201690	06:04:00	06:04:00		Krakowska galeria 06
+1450	3	201690	06:06:00	06:06:00		Ofiar Katynia galeria 06
+1450	3	201690	06:07:00	06:07:00		Kotuli / Ustrzycka 02 nż
+1450	3	201690	06:08:00	06:08:00		Kotuli domki 04 nż
+1450	3	201690	06:09:00	06:09:00		Bł. Karoliny / Strzyżowska 02 nż
+1450	3	201690	06:10:00	06:10:00		Bł. Karoliny / Sanocka 04 nż
+1450	3	201690	06:11:00	06:11:00		Bł. Karoliny przedszkole 06
+1450	3	201690	06:12:00	06:12:00		Odrzykońska / Bł. Karoliny 02 nż
+1450	3	201690	06:13:00	06:13:00		Odrzykońska / Baligrodzka 04 nż
+1450	3	201690	06:14:00	06:14:00		Iwonicka / Korczyńska 02 nż
+1450	3	201690	06:15:00	06:15:00		Baligrodzka 01
+
+1631	3	199322	06:20:00	06:20:00		Baligrodzka 01
+1631	3	199322	06:21:00	06:21:00		Iwonicka / Korczyńska 01 nż
+1631	3	199322	06:22:00	06:22:00		Odrzykońska / Iwonicka 01 nż
+1631	3	199322	06:24:00	06:24:00		Bł. Karoliny 09
+1631	3	199322	06:25:00	06:25:00		Bł. Karoliny przedszkole 07
+1631	3	199322	06:26:00	06:26:00		Bł. Karoliny / Nowosądecka 05 nż
+1631	3	199322	06:27:00	06:27:00		Bł. Karoliny / Sanocka 03 nż
+1631	3	199322	06:28:00	06:28:00		Bł. Karoliny / Strzyżowska 01 nż
+1631	3	199322	06:29:00	06:29:00		Kotuli / Solarza 03 nż
+1631	3	199322	06:30:00	06:30:00		Kotuli / Zbyszewskiego 01 nż
+1631	3	199322	06:33:00	06:33:00		Krakowska galeria 05
+1631	3	199322	06:34:00	06:34:00		Krakowska szpital 03
+1631	3	199322	06:36:00	06:36:00		Krakowska Jedn. Wojskowa 01
+1631	3	199322	06:38:00	06:38:00		Piłsudskiego U. Marszałkowski 05
+1631	3	199322	06:39:00	06:39:00		Cieplińskiego 02
+1631	3	199322	06:40:00	06:40:00		Lisa-Kuli 01
+1631	3	199322	06:43:00	06:43:00		Kilara 02 nż
+1631	3	199322	06:45:00	06:45:00		Kopisto U. Skarbowy 03
+1631	3	199322	06:46:00	06:46:00		Kopisto Uniwersytet 01
+1631	3	199322	06:47:00	06:47:00		Rejtana / Kopisto 07
+1631	3	199322	06:48:00	06:48:00		Rejtana / Popiełuszki 09
+1631	3	199322	06:51:00	06:51:00		Sikorskiego / Powst. Warszawy 02 nż
+1631	3	199322	06:52:00	06:52:00		Sikorskiego Katedra 04 nż
+1631	3	199322	06:53:00	06:53:00		Sikorskiego / Łukasiewicza 06 nż
+1631	3	199322	06:54:00	06:54:00		Sikorskiego domki 08 nż
+1631	3	199322	06:56:00	06:56:00		Strażacka / Sikorskiego 07 nż
+1631	3	199322	06:57:00	06:57:00		Strażacka / Sympatyczna 05 nż
+1631	3	199322	06:58:00	06:58:00		Miła / Strażacka 02 nż
+1631	3	199322	06:59:00	06:59:00		Miła bloki 04 nż
+1631	3	199322	07:00:00	07:00:00		Miła szkoła 06 nż
+1631	3	199322	07:01:00	07:01:00		Kard. K. Wojtyły kościół 05 nż
+1631	3	199322	07:03:00	07:03:00		Kard. K. Wojtyły pętla 03 nż
+
+1633	3	203284	07:07:00	07:07:00		Kard. K. Wojtyły pętla 03 nż
+1633	3	203284	07:08:00	07:08:00		Kard. K. Wojtyły kościół 06 nż
+1633	3	203284	07:10:00	07:10:00		Miła Dom Kultury 05 nż
+1633	3	203284	07:11:00	07:11:00		Miła bloki 03 nż
+1633	3	203284	07:12:00	07:12:00		Miła / Strażacka 01 nż
+1633	3	203284	07:13:00	07:13:00		Strażacka / Sympatyczna 06 nż
+1633	3	203284	07:14:00	07:17:00		Strażacka / Sikorskiego 08 nż
+1633	3	203284	07:19:00	07:19:00		Sikorskiego / Robotnicza 05 nż
+1633	3	203284	07:20:00	07:20:00		Sikorskiego domki 03 nż
+1633	3	203284	07:22:00	07:22:00		Sikorskiego Katedra 01 nż
+1633	3	203284	07:25:00	07:25:00		Rejtana / Armii Krajowej 12
+1633	3	203284	07:26:00	07:26:00		Rejtana / Paderewskiego 10
+1633	3	203284	07:27:00	07:27:00		Rejtana / Krzyżanowskiego 08
+1633	3	203284	07:29:00	07:29:00		Kopisto Uniwersytet 02
+1633	3	203284	07:33:00	07:33:00		Kopisto Most Zamkowy 04
+1633	3	203284	07:34:00	07:34:00		Kilara 01 nż
+1633	3	203284	07:37:00	07:37:00		Lisa-Kuli 02
+1633	3	203284	07:38:00	07:38:00		Cieplińskiego 01
+1633	3	203284	07:40:00	07:40:00		Piłsudskiego U. Marszałkowski 08
+1633	3	203284	07:42:00	07:42:00		Krakowska Jedn. Wojskowa 02
+1633	3	203284	07:43:00	07:43:00		Krakowska szpital 04
+1633	3	203284	07:44:00	07:44:00		Krakowska galeria 06
+1633	3	203284	07:46:00	07:46:00		Ofiar Katynia galeria 06
+1633	3	203284	07:47:00	07:47:00		Kotuli / Ustrzycka 02 nż
+1633	3	203284	07:48:00	07:48:00		Kotuli domki 04 nż
+1633	3	203284	07:49:00	07:49:00		Bł. Karoliny / Strzyżowska 02 nż
+1633	3	203284	07:50:00	07:50:00		Bł. Karoliny / Sanocka 04 nż
+1633	3	203284	07:51:00	07:51:00		Bł. Karoliny przedszkole 06
+1633	3	203284	07:52:00	07:52:00		Odrzykońska / Bł. Karoliny 02 nż
+1633	3	203284	07:53:00	07:53:00		Odrzykońska / Baligrodzka 04 nż
+1633	3	203284	07:54:00	07:54:00		Iwonicka / Korczyńska 02 nż
+1633	3	203284	07:55:00	07:55:00		Baligrodzka 01
+
+1631	3	199869	08:20:00	08:20:00		Baligrodzka 01
+1631	3	199869	08:21:00	08:21:00		Iwonicka / Korczyńska 01 nż
+1631	3	199869	08:22:00	08:22:00		Odrzykońska / Iwonicka 01 nż
+1631	3	199869	08:24:00	08:24:00		Bł. Karoliny 09
+1631	3	199869	08:25:00	08:25:00		Bł. Karoliny przedszkole 07
+1631	3	199869	08:26:00	08:26:00		Bł. Karoliny / Nowosądecka 05 nż
+1631	3	199869	08:27:00	08:27:00		Bł. Karoliny / Sanocka 03 nż
+1631	3	199869	08:28:00	08:28:00		Bł. Karoliny / Strzyżowska 01 nż
+1631	3	199869	08:29:00	08:29:00		Kotuli / Solarza 03 nż
+1631	3	199869	08:30:00	08:30:00		Kotuli / Zbyszewskiego 01 nż
+1631	3	199869	08:33:00	08:33:00		Krakowska galeria 05
+1631	3	199869	08:34:00	08:34:00		Krakowska szpital 03
+1631	3	199869	08:36:00	08:36:00		Krakowska Jedn. Wojskowa 01
+1631	3	199869	08:38:00	08:38:00		Piłsudskiego U. Marszałkowski 05
+1631	3	199869	08:39:00	08:39:00		Cieplińskiego 02
+1631	3	199869	08:40:00	08:40:00		Lisa-Kuli 01
+1631	3	199869	08:43:00	08:43:00		Kilara 02 nż
+1631	3	199869	08:45:00	08:45:00		Kopisto U. Skarbowy 03
+1631	3	199869	08:46:00	08:46:00		Kopisto Uniwersytet 01
+1631	3	199869	08:47:00	08:47:00		Rejtana / Kopisto 07
+1631	3	199869	08:48:00	08:48:00		Rejtana / Popiełuszki 09
+1631	3	199869	08:51:00	08:51:00		Sikorskiego / Powst. Warszawy 02 nż
+1631	3	199869	08:52:00	08:52:00		Sikorskiego Katedra 04 nż
+1631	3	199869	08:53:00	08:53:00		Sikorskiego / Łukasiewicza 06 nż
+1631	3	199869	08:54:00	08:54:00		Sikorskiego domki 08 nż
+1631	3	199869	08:56:00	08:56:00		Strażacka / Sikorskiego 07 nż
+1631	3	199869	08:57:00	08:57:00		Strażacka / Sympatyczna 05 nż
+1631	3	199869	08:58:00	08:58:00		Miła / Strażacka 02 nż
+1631	3	199869	08:59:00	08:59:00		Miła bloki 04 nż
+1631	3	199869	09:00:00	09:00:00		Miła szkoła 06 nż
+1631	3	199869	09:01:00	09:01:00		Kard. K. Wojtyły kościół 05 nż
+1631	3	199869	09:03:00	09:03:00		Kard. K. Wojtyły pętla 03 nż
+
+1633	3	200702	09:11:00	09:11:00		Kard. K. Wojtyły pętla 03 nż
+1633	3	200702	09:12:00	09:12:00		Kard. K. Wojtyły kościół 06 nż
+1633	3	200702	09:14:00	09:14:00		Miła Dom Kultury 05 nż
+1633	3	200702	09:15:00	09:15:00		Miła bloki 03 nż
+1633	3	200702	09:16:00	09:16:00		Miła / Strażacka 01 nż
+1633	3	200702	09:17:00	09:17:00		Strażacka / Sympatyczna 06 nż
+1633	3	200702	09:18:00	09:18:00		Strażacka / Sikorskiego 08 nż
+1633	3	200702	09:20:00	09:20:00		Sikorskiego / Robotnicza 05 nż
+1633	3	200702	09:21:00	09:21:00		Sikorskiego domki 03 nż
+1633	3	200702	09:23:00	09:23:00		Sikorskiego Katedra 01 nż
+1633	3	200702	09:26:00	09:26:00		Rejtana / Armii Krajowej 12
+1633	3	200702	09:27:00	09:27:00		Rejtana / Paderewskiego 10
+1633	3	200702	09:28:00	09:28:00		Rejtana / Krzyżanowskiego 08
+1633	3	200702	09:30:00	09:30:00		Kopisto Uniwersytet 02
+1633	3	200702	09:33:00	09:33:00		Kopisto Most Zamkowy 04
+1633	3	200702	09:34:00	09:34:00		Kilara 01 nż
+1633	3	200702	09:37:00	09:37:00		Lisa-Kuli 02
+1633	3	200702	09:38:00	09:38:00		Cieplińskiego 01
+1633	3	200702	09:40:00	09:40:00		Piłsudskiego U. Marszałkowski 08
+1633	3	200702	09:42:00	09:42:00		Krakowska Jedn. Wojskowa 02
+1633	3	200702	09:43:00	09:43:00		Krakowska szpital 04
+1633	3	200702	09:44:00	09:44:00		Krakowska galeria 06
+1633	3	200702	09:46:00	09:46:00		Ofiar Katynia galeria 06
+1633	3	200702	09:47:00	09:47:00		Kotuli / Ustrzycka 02 nż
+1633	3	200702	09:48:00	09:48:00		Kotuli domki 04 nż
+1633	3	200702	09:49:00	09:49:00		Bł. Karoliny / Strzyżowska 02 nż
+1633	3	200702	09:50:00	09:50:00		Bł. Karoliny / Sanocka 04 nż
+1633	3	200702	09:51:00	09:51:00		Bł. Karoliny przedszkole 06
+1633	3	200702	09:52:00	09:52:00		Odrzykońska / Bł. Karoliny 02 nż
+1633	3	200702	09:53:00	09:53:00		Odrzykońska / Baligrodzka 04 nż
+1633	3	200702	09:54:00	09:54:00		Iwonicka / Korczyńska 02 nż
+1633	3	200702	09:55:00	09:55:00		Baligrodzka 01
+
+1631	3	198219	10:00:00	10:00:00		Baligrodzka 01
+1631	3	198219	10:01:00	10:01:00		Iwonicka / Korczyńska 01 nż
+1631	3	198219	10:02:00	10:02:00		Odrzykońska / Iwonicka 01 nż
+1631	3	198219	10:04:00	10:04:00		Bł. Karoliny 09
+1631	3	198219	10:05:00	10:05:00		Bł. Karoliny przedszkole 07
+1631	3	198219	10:06:00	10:06:00		Bł. Karoliny / Nowosądecka 05 nż
+1631	3	198219	10:07:00	10:07:00		Bł. Karoliny / Sanocka 03 nż
+1631	3	198219	10:08:00	10:08:00		Bł. Karoliny / Strzyżowska 01 nż
+1631	3	198219	10:09:00	10:09:00		Kotuli / Solarza 03 nż
+1631	3	198219	10:10:00	10:10:00		Kotuli / Zbyszewskiego 01 nż
+1631	3	198219	10:13:00	10:13:00		Krakowska galeria 05
+1631	3	198219	10:14:00	10:14:00		Krakowska szpital 03
+1631	3	198219	10:16:00	10:16:00		Krakowska Jedn. Wojskowa 01
+1631	3	198219	10:18:00	10:18:00		Piłsudskiego U. Marszałkowski 05
+1631	3	198219	10:19:00	10:19:00		Cieplińskiego 02
+1631	3	198219	10:20:00	10:20:00		Lisa-Kuli 01
+1631	3	198219	10:23:00	10:23:00		Kilara 02 nż
+1631	3	198219	10:25:00	10:25:00		Kopisto U. Skarbowy 03
+1631	3	198219	10:26:00	10:26:00		Kopisto Uniwersytet 01
+1631	3	198219	10:27:00	10:27:00		Rejtana / Kopisto 07
+1631	3	198219	10:28:00	10:28:00		Rejtana / Popiełuszki 09
+1631	3	198219	10:31:00	10:31:00		Sikorskiego / Powst. Warszawy 02 nż
+1631	3	198219	10:32:00	10:32:00		Sikorskiego Katedra 04 nż
+1631	3	198219	10:33:00	10:33:00		Sikorskiego / Łukasiewicza 06 nż
+1631	3	198219	10:34:00	10:34:00		Sikorskiego domki 08 nż
+1631	3	198219	10:36:00	10:36:00		Strażacka / Sikorskiego 07 nż
+1631	3	198219	10:37:00	10:37:00		Strażacka / Sympatyczna 05 nż
+1631	3	198219	10:38:00	10:38:00		Miła / Strażacka 02 nż
+1631	3	198219	10:39:00	10:39:00		Miła bloki 04 nż
+1631	3	198219	10:40:00	10:40:00		Miła szkoła 06 nż
+1631	3	198219	10:41:00	10:41:00		Kard. K. Wojtyły kościół 05 nż
+1631	3	198219	10:43:00	10:43:00		Kard. K. Wojtyły pętla 03 nż
+
+1633	3	198473	10:51:00	10:51:00		Kard. K. Wojtyły pętla 03 nż
+1633	3	198473	10:52:00	10:52:00		Kard. K. Wojtyły kościół 06 nż
+1633	3	198473	10:54:00	10:54:00		Miła Dom Kultury 05 nż
+1633	3	198473	10:55:00	10:55:00		Miła bloki 03 nż
+1633	3	198473	10:56:00	10:56:00		Miła / Strażacka 01 nż
+1633	3	198473	10:57:00	10:57:00		Strażacka / Sympatyczna 06 nż
+1633	3	198473	10:58:00	10:58:00		Strażacka / Sikorskiego 08 nż
+1633	3	198473	11:00:00	11:00:00		Sikorskiego / Robotnicza 05 nż
+1633	3	198473	11:01:00	11:01:00		Sikorskiego domki 03 nż
+1633	3	198473	11:03:00	11:03:00		Sikorskiego Katedra 01 nż
+1633	3	198473	11:06:00	11:06:00		Rejtana / Armii Krajowej 12
+1633	3	198473	11:07:00	11:07:00		Rejtana / Paderewskiego 10
+1633	3	198473	11:08:00	11:08:00		Rejtana / Krzyżanowskiego 08
+1633	3	198473	11:10:00	11:10:00		Kopisto Uniwersytet 02
+1633	3	198473	11:13:00	11:13:00		Kopisto Most Zamkowy 04
+1633	3	198473	11:14:00	11:14:00		Kilara 01 nż
+1633	3	198473	11:17:00	11:17:00		Lisa-Kuli 02
+1633	3	198473	11:18:00	11:18:00		Cieplińskiego 01
+1633	3	198473	11:20:00	11:20:00		Piłsudskiego U. Marszałkowski 08
+1633	3	198473	11:22:00	11:22:00		Krakowska Jedn. Wojskowa 02
+1633	3	198473	11:24:00	11:24:00		Krakowska szpital 04
+1633	3	198473	11:25:00	11:25:00		Krakowska galeria 06
+1633	3	198473	11:27:00	11:27:00		Ofiar Katynia galeria 06
+1633	3	198473	11:28:00	11:28:00		Kotuli / Ustrzycka 02 nż
+1633	3	198473	11:29:00	11:29:00		Kotuli domki 04 nż
+1633	3	198473	11:30:00	11:30:00		Bł. Karoliny / Strzyżowska 02 nż
+1633	3	198473	11:31:00	11:31:00		Bł. Karoliny / Sanocka 04 nż
+1633	3	198473	11:32:00	11:32:00		Bł. Karoliny przedszkole 06
+1633	3	198473	11:33:00	11:33:00		Odrzykońska / Bł. Karoliny 02 nż
+1633	3	198473	11:34:00	11:34:00		Odrzykońska / Baligrodzka 04 nż
+1633	3	198473	11:35:00	11:35:00		Iwonicka / Korczyńska 02 nż
+1633	3	198473	11:36:00	11:36:00		Baligrodzka 01
+
+1631	3	199238	12:00:00	12:00:00		Baligrodzka 01
+1631	3	199238	12:01:00	12:01:00		Iwonicka / Korczyńska 01 nż
+1631	3	199238	12:02:00	12:02:00		Odrzykońska / Iwonicka 01 nż
+1631	3	199238	12:04:00	12:04:00		Bł. Karoliny 09
+1631	3	199238	12:05:00	12:05:00		Bł. Karoliny przedszkole 07
+1631	3	199238	12:06:00	12:06:00		Bł. Karoliny / Nowosądecka 05 nż
+1631	3	199238	12:07:00	12:07:00		Bł. Karoliny / Sanocka 03 nż
+1631	3	199238	12:08:00	12:08:00		Bł. Karoliny / Strzyżowska 01 nż
+1631	3	199238	12:09:00	12:09:00		Kotuli / Solarza 03 nż
+1631	3	199238	12:10:00	12:10:00		Kotuli / Zbyszewskiego 01 nż
+1631	3	199238	12:13:00	12:13:00		Krakowska galeria 05
+1631	3	199238	12:14:00	12:14:00		Krakowska szpital 03
+1631	3	199238	12:16:00	12:16:00		Krakowska Jedn. Wojskowa 01
+1631	3	199238	12:18:00	12:18:00		Piłsudskiego U. Marszałkowski 05
+1631	3	199238	12:19:00	12:19:00		Cieplińskiego 02
+1631	3	199238	12:20:00	12:20:00		Lisa-Kuli 01
+1631	3	199238	12:23:00	12:23:00		Kilara 02 nż
+1631	3	199238	12:26:00	12:26:00		Kopisto U. Skarbowy 03
+1631	3	199238	12:27:00	12:27:00		Kopisto Uniwersytet 01
+1631	3	199238	12:28:00	12:28:00		Rejtana / Kopisto 07
+1631	3	199238	12:29:00	12:29:00		Rejtana / Popiełuszki 09
+1631	3	199238	12:32:00	12:32:00		Sikorskiego / Powst. Warszawy 02 nż
+1631	3	199238	12:33:00	12:33:00		Sikorskiego Katedra 04 nż
+1631	3	199238	12:34:00	12:34:00		Sikorskiego / Łukasiewicza 06 nż
+1631	3	199238	12:35:00	12:35:00		Sikorskiego domki 08 nż
+1631	3	199238	12:37:00	12:37:00		Strażacka / Sikorskiego 07 nż
+1631	3	199238	12:38:00	12:38:00		Strażacka / Sympatyczna 05 nż
+1631	3	199238	12:39:00	12:39:00		Miła / Strażacka 02 nż
+1631	3	199238	12:40:00	12:40:00		Miła bloki 04 nż
+1631	3	199238	12:41:00	12:41:00		Miła szkoła 06 nż
+1631	3	199238	12:42:00	12:42:00		Kard. K. Wojtyły kościół 05 nż
+1631	3	199238	12:44:00	12:44:00		Kard. K. Wojtyły pętla 03 nż
+
+1633	3	202033	12:51:00	12:51:00		Kard. K. Wojtyły pętla 03 nż
+1633	3	202033	12:52:00	12:52:00		Kard. K. Wojtyły kościół 06 nż
+1633	3	202033	12:54:00	12:54:00		Miła Dom Kultury 05 nż
+1633	3	202033	12:55:00	12:55:00		Miła bloki 03 nż
+1633	3	202033	12:56:00	12:56:00		Miła / Strażacka 01 nż
+1633	3	202033	12:57:00	12:57:00		Strażacka / Sympatyczna 06 nż
+1633	3	202033	12:58:00	12:58:00		Strażacka / Sikorskiego 08 nż
+1633	3	202033	13:00:00	13:00:00		Sikorskiego / Robotnicza 05 nż
+1633	3	202033	13:01:00	13:01:00		Sikorskiego domki 03 nż
+1633	3	202033	13:03:00	13:03:00		Sikorskiego Katedra 01 nż
+1633	3	202033	13:06:00	13:06:00		Rejtana / Armii Krajowej 12
+1633	3	202033	13:07:00	13:07:00		Rejtana / Paderewskiego 10
+1633	3	202033	13:08:00	13:08:00		Rejtana / Krzyżanowskiego 08
+1633	3	202033	13:10:00	13:10:00		Kopisto Uniwersytet 02
+1633	3	202033	13:12:00	13:12:00		Kopisto Most Zamkowy 04
+1633	3	202033	13:14:00	13:14:00		Kilara 01 nż
+1633	3	202033	13:17:00	13:17:00		Lisa-Kuli 02
+1633	3	202033	13:18:00	13:18:00		Cieplińskiego 01
+1633	3	202033	13:20:00	13:20:00		Piłsudskiego U. Marszałkowski 08
+1633	3	202033	13:22:00	13:22:00		Krakowska Jedn. Wojskowa 02
+1633	3	202033	13:24:00	13:24:00		Krakowska szpital 04
+1633	3	202033	13:25:00	13:25:00		Krakowska galeria 06
+1633	3	202033	13:27:00	13:27:00		Ofiar Katynia galeria 06
+1633	3	202033	13:28:00	13:28:00		Kotuli / Ustrzycka 02 nż
+1633	3	202033	13:29:00	13:29:00		Kotuli domki 04 nż
+1633	3	202033	13:30:00	13:30:00		Bł. Karoliny / Strzyżowska 02 nż
+1633	3	202033	13:31:00	13:31:00		Bł. Karoliny / Sanocka 04 nż
+1633	3	202033	13:32:00	13:32:00		Bł. Karoliny przedszkole 06
+1633	3	202033	13:33:00	13:33:00		Odrzykońska / Bł. Karoliny 02 nż
+1633	3	202033	13:34:00	13:34:00		Odrzykońska / Baligrodzka 04 nż
+1633	3	202033	13:35:00	13:35:00		Iwonicka / Korczyńska 02 nż
+1633	3	202033	13:36:00	13:36:00		Baligrodzka 01
+
+1631	3	199235	14:00:00	14:00:00		Baligrodzka 01
+1631	3	199235	14:01:00	14:01:00		Iwonicka / Korczyńska 01 nż
+1631	3	199235	14:02:00	14:02:00		Odrzykońska / Iwonicka 01 nż
+1631	3	199235	14:04:00	14:04:00		Bł. Karoliny 09
+1631	3	199235	14:05:00	14:05:00		Bł. Karoliny przedszkole 07
+1631	3	199235	14:06:00	14:06:00		Bł. Karoliny / Nowosądecka 05 nż
+1631	3	199235	14:07:00	14:07:00		Bł. Karoliny / Sanocka 03 nż
+1631	3	199235	14:08:00	14:08:00		Bł. Karoliny / Strzyżowska 01 nż
+1631	3	199235	14:09:00	14:09:00		Kotuli / Solarza 03 nż
+1631	3	199235	14:10:00	14:10:00		Kotuli / Zbyszewskiego 01 nż
+1631	3	199235	14:13:00	14:13:00		Krakowska galeria 05
+1631	3	199235	14:14:00	14:14:00		Krakowska szpital 03
+1631	3	199235	14:16:00	14:16:00		Krakowska Jedn. Wojskowa 01
+1631	3	199235	14:18:00	14:18:00		Piłsudskiego U. Marszałkowski 05
+1631	3	199235	14:19:00	14:19:00		Cieplińskiego 02
+1631	3	199235	14:20:00	14:20:00		Lisa-Kuli 01
+1631	3	199235	14:23:00	14:23:00		Kilara 02 nż
+1631	3	199235	14:26:00	14:26:00		Kopisto U. Skarbowy 03
+1631	3	199235	14:27:00	14:27:00		Kopisto Uniwersytet 01
+1631	3	199235	14:28:00	14:28:00		Rejtana / Kopisto 07
+1631	3	199235	14:29:00	14:29:00		Rejtana / Popiełuszki 09
+1631	3	199235	14:32:00	14:32:00		Sikorskiego / Powst. Warszawy 02 nż
+1631	3	199235	14:33:00	14:33:00		Sikorskiego Katedra 04 nż
+1631	3	199235	14:34:00	14:34:00		Sikorskiego / Łukasiewicza 06 nż
+1631	3	199235	14:35:00	14:35:00		Sikorskiego domki 08 nż
+1631	3	199235	14:37:00	14:37:00		Strażacka / Sikorskiego 07 nż
+1631	3	199235	14:38:00	14:38:00		Strażacka / Sympatyczna 05 nż
+1631	3	199235	14:39:00	14:39:00		Miła / Strażacka 02 nż
+1631	3	199235	14:40:00	14:40:00		Miła bloki 04 nż
+1631	3	199235	14:41:00	14:41:00		Miła szkoła 06 nż
+1631	3	199235	14:42:00	14:42:00		Kard. K. Wojtyły kościół 05 nż
+1631	3	199235	14:44:00	14:44:00		Kard. K. Wojtyły pętla 03 nż
+
+1633	3	198828	15:09:00	15:09:00		Kard. K. Wojtyły pętla 03 nż
+1633	3	198828	15:10:00	15:10:00		Kard. K. Wojtyły kościół 06 nż
+1633	3	198828	15:12:00	15:12:00		Miła Dom Kultury 05 nż
+1633	3	198828	15:13:00	15:13:00		Miła bloki 03 nż
+1633	3	198828	15:14:00	15:14:00		Miła / Strażacka 01 nż
+1633	3	198828	15:15:00	15:15:00		Strażacka / Sympatyczna 06 nż
+1633	3	198828	15:16:00	15:16:00		Strażacka / Sikorskiego 08 nż
+1633	3	198828	15:18:00	15:18:00		Sikorskiego / Robotnicza 05 nż
+1633	3	198828	15:19:00	15:19:00		Sikorskiego domki 03 nż
+1633	3	198828	15:21:00	15:21:00		Sikorskiego Katedra 01 nż
+1633	3	198828	15:24:00	15:24:00		Rejtana / Armii Krajowej 12
+1633	3	198828	15:25:00	15:25:00		Rejtana / Paderewskiego 10
+1633	3	198828	15:26:00	15:26:00		Rejtana / Krzyżanowskiego 08
+1633	3	198828	15:28:00	15:28:00		Kopisto Uniwersytet 02
+1633	3	198828	15:31:00	15:31:00		Kopisto Most Zamkowy 04
+1633	3	198828	15:33:00	15:33:00		Kilara 01 nż
+1633	3	198828	15:36:00	15:36:00		Lisa-Kuli 02
+1633	3	198828	15:37:00	15:37:00		Cieplińskiego 01
+1633	3	198828	15:40:00	15:40:00		Piłsudskiego U. Marszałkowski 08
+1633	3	198828	15:42:00	15:42:00		Krakowska Jedn. Wojskowa 02
+1633	3	198828	15:44:00	15:44:00		Krakowska szpital 04
+1633	3	198828	15:45:00	15:45:00		Krakowska galeria 06
+1633	3	198828	15:47:00	15:47:00		Ofiar Katynia galeria 06
+1633	3	198828	15:48:00	15:48:00		Kotuli / Ustrzycka 02 nż
+1633	3	198828	15:49:00	15:49:00		Kotuli domki 04 nż
+1633	3	198828	15:51:00	15:51:00		Bł. Karoliny / Strzyżowska 02 nż
+1633	3	198828	15:52:00	15:52:00		Bł. Karoliny / Sanocka 04 nż
+1633	3	198828	15:54:00	15:54:00		Bł. Karoliny przedszkole 06
+1633	3	198828	15:55:00	15:55:00		Odrzykońska / Bł. Karoliny 02 nż
+1633	3	198828	15:56:00	15:56:00		Odrzykońska / Baligrodzka 04 nż
+1633	3	198828	15:57:00	15:57:00		Iwonicka / Korczyńska 02 nż
+1633	3	198828	15:58:00	15:58:00		Baligrodzka 01
+
+1449	3	201814	16:20:00	16:20:00		Baligrodzka 01
+1449	3	201814	16:21:00	16:21:00		Iwonicka / Korczyńska 01 nż
+1449	3	201814	16:22:00	16:22:00		Odrzykońska / Iwonicka 01 nż
+1449	3	201814	16:24:00	16:24:00		Bł. Karoliny 09
+1449	3	201814	16:25:00	16:25:00		Bł. Karoliny przedszkole 07
+1449	3	201814	16:26:00	16:26:00		Bł. Karoliny / Nowosądecka 05 nż
+1449	3	201814	16:27:00	16:27:00		Bł. Karoliny / Sanocka 03 nż
+1449	3	201814	16:28:00	16:28:00		Bł. Karoliny / Strzyżowska 01 nż
+1449	3	201814	16:29:00	16:29:00		Kotuli / Solarza 03 nż
+1449	3	201814	16:30:00	16:30:00		Kotuli / Zbyszewskiego 01 nż
+1449	3	201814	16:33:00	16:33:00		Krakowska galeria 05
+1449	3	201814	16:34:00	16:34:00		Krakowska szpital 03
+1449	3	201814	16:36:00	16:36:00		Krakowska Jedn. Wojskowa 01
+1449	3	201814	16:39:00	16:39:00		Piłsudskiego U. Wojewódzki 03
+1449	3	201814	16:40:00	16:40:00		Pl. Wolności 01
+1449	3	201814	16:43:00	16:43:00		Rejtana / Lwowska 01
+1449	3	201814	16:44:00	16:44:00		Rejtana / Kustronia 03 nż
+1449	3	201814	16:45:00	16:45:00		Rejtana Uniwersytet 05
+1449	3	201814	16:48:00	16:48:00		Niepodległości / Rejtana 02
+1449	3	201814	16:49:00	16:49:00		Niepodległości Dom Dziecka 04 nż
+1449	3	201814	16:50:00	16:50:00		Niepodległości działki 06 nż
+1449	3	201814	16:53:00	16:53:00		Armii Krajowej szpital 10 nż
+1449	3	201814	16:55:00	16:55:00		Lwowska szpital 06
+1449	3	201814	16:57:00	16:57:00		Cienista / Lwowska 02 nż
+1449	3	201814	16:58:00	16:58:00		Cienista cmentarz 04
+
+1447	3	200858	17:00:00	17:00:00		Cienista cmentarz 01
+1447	3	200858	17:01:00	17:01:00		Lwowska / Cienista 07 nż
+1447	3	200858	17:03:00	17:03:00		Lwowska szpital 05
+1447	3	200858	17:06:00	17:06:00		Armii Krajowej kościół 09 nż
+1447	3	200858	17:07:00	17:07:00		Niepodległości / Armii Krajowej 05
+1447	3	200858	17:08:00	17:08:00		Niepodległości / Mieszka I 03 nż
+1447	3	200858	17:09:00	17:09:00		Niepodległości Dom Dziecka 01 nż
+1447	3	200858	17:11:00	17:11:00		Rejtana Uniwersytet 06
+1447	3	200858	17:12:00	17:12:00		Rejtana cmentarz 04 nż
+1447	3	200858	17:13:00	17:13:00		Rejtana / Kustronia 02
+1447	3	200858	17:15:00	17:15:00		Piłsudskiego ZDZ 02
+1447	3	200858	17:17:00	17:17:00		Pl. Wolności 04
+1447	3	200858	17:20:00	17:20:00		Piłsudskiego U. Marszałkowski 08
+1447	3	200858	17:22:00	17:22:00		Krakowska Jedn. Wojskowa 02
+1447	3	200858	17:24:00	17:24:00		Krakowska szpital 04
+1447	3	200858	17:25:00	17:25:00		Krakowska galeria 06
+1447	3	200858	17:27:00	17:27:00		Ofiar Katynia galeria 06
+1447	3	200858	17:28:00	17:28:00		Kotuli / Ustrzycka 02 nż
+1447	3	200858	17:29:00	17:29:00		Kotuli domki 04 nż
+1447	3	200858	17:31:00	17:31:00		Bł. Karoliny / Strzyżowska 02 nż
+1447	3	200858	17:32:00	17:32:00		Bł. Karoliny / Sanocka 04 nż
+1447	3	200858	17:34:00	17:34:00		Bł. Karoliny przedszkole 06
+1447	3	200858	17:35:00	17:35:00		Odrzykońska / Bł. Karoliny 02 nż
+1447	3	200858	17:36:00	17:36:00		Odrzykońska / Baligrodzka 04 nż
+1447	3	200858	17:37:00	17:37:00		Iwonicka / Korczyńska 02 nż
+1447	3	200858	17:38:00	17:38:00		Baligrodzka 01
+
+1631	3	199763	18:00:00	18:00:00		Baligrodzka 01
+1631	3	199763	18:01:00	18:01:00		Iwonicka / Korczyńska 01 nż
+1631	3	199763	18:02:00	18:02:00		Odrzykońska / Iwonicka 01 nż
+1631	3	199763	18:04:00	18:04:00		Bł. Karoliny 09
+1631	3	199763	18:05:00	18:05:00		Bł. Karoliny przedszkole 07
+1631	3	199763	18:06:00	18:06:00		Bł. Karoliny / Nowosądecka 05 nż
+1631	3	199763	18:07:00	18:07:00		Bł. Karoliny / Sanocka 03 nż
+1631	3	199763	18:08:00	18:08:00		Bł. Karoliny / Strzyżowska 01 nż
+1631	3	199763	18:09:00	18:09:00		Kotuli / Solarza 03 nż
+1631	3	199763	18:10:00	18:10:00		Kotuli / Zbyszewskiego 01 nż
+1631	3	199763	18:13:00	18:13:00		Krakowska galeria 05
+1631	3	199763	18:14:00	18:14:00		Krakowska szpital 03
+1631	3	199763	18:16:00	18:16:00		Krakowska Jedn. Wojskowa 01
+1631	3	199763	18:18:00	18:18:00		Piłsudskiego U. Marszałkowski 05
+1631	3	199763	18:19:00	18:19:00		Cieplińskiego 02
+1631	3	199763	18:20:00	18:20:00		Lisa-Kuli 01
+1631	3	199763	18:24:00	18:24:00		Kilara 02 nż
+1631	3	199763	18:26:00	18:26:00		Kopisto U. Skarbowy 03
+1631	3	199763	18:27:00	18:27:00		Kopisto Uniwersytet 01
+1631	3	199763	18:29:00	18:29:00		Rejtana / Kopisto 07
+1631	3	199763	18:30:00	18:30:00		Rejtana / Popiełuszki 09
+1631	3	199763	18:33:00	18:33:00		Sikorskiego / Powst. Warszawy 02 nż
+1631	3	199763	18:34:00	18:34:00		Sikorskiego Katedra 04 nż
+1631	3	199763	18:35:00	18:35:00		Sikorskiego / Łukasiewicza 06 nż
+1631	3	199763	18:36:00	18:36:00		Sikorskiego domki 08 nż
+1631	3	199763	18:38:00	18:38:00		Strażacka / Sikorskiego 07 nż
+1631	3	199763	18:39:00	18:39:00		Strażacka / Sympatyczna 05 nż
+1631	3	199763	18:40:00	18:40:00		Miła / Strażacka 02 nż
+1631	3	199763	18:41:00	18:41:00		Miła bloki 04 nż
+1631	3	199763	18:42:00	18:42:00		Miła szkoła 06 nż
+1631	3	199763	18:43:00	18:43:00		Kard. K. Wojtyły kościół 05 nż
+1631	3	199763	18:45:00	18:45:00		Kard. K. Wojtyły pętla 03 nż
+
+1633	3	200068	18:54:00	18:54:00		Kard. K. Wojtyły pętla 03 nż
+1633	3	200068	18:55:00	18:55:00		Kard. K. Wojtyły kościół 06 nż
+1633	3	200068	18:57:00	18:57:00		Miła Dom Kultury 05 nż
+1633	3	200068	18:58:00	18:58:00		Miła bloki 03 nż
+1633	3	200068	18:59:00	18:59:00		Miła / Strażacka 01 nż
+1633	3	200068	19:00:00	19:00:00		Strażacka / Sympatyczna 06 nż
+1633	3	200068	19:01:00	19:01:00		Strażacka / Sikorskiego 08 nż
+1633	3	200068	19:03:00	19:03:00		Sikorskiego / Robotnicza 05 nż
+1633	3	200068	19:04:00	19:04:00		Sikorskiego domki 03 nż
+1633	3	200068	19:06:00	19:06:00		Sikorskiego Katedra 01 nż
+1633	3	200068	19:08:00	19:08:00		Rejtana / Armii Krajowej 12
+1633	3	200068	19:09:00	19:09:00		Rejtana / Paderewskiego 10
+1633	3	200068	19:10:00	19:10:00		Rejtana / Krzyżanowskiego 08
+1633	3	200068	19:12:00	19:12:00		Kopisto Uniwersytet 02
+1633	3	200068	19:14:00	19:14:00		Kopisto Most Zamkowy 04
+1633	3	200068	19:15:00	19:15:00		Kilara 01 nż
+1633	3	200068	19:17:00	19:17:00		Lisa-Kuli 02
+1633	3	200068	19:18:00	19:18:00		Cieplińskiego 01
+1633	3	200068	19:20:00	19:20:00		Piłsudskiego U. Marszałkowski 08
+1633	3	200068	19:22:00	19:22:00		Krakowska Jedn. Wojskowa 02
+1633	3	200068	19:23:00	19:23:00		Krakowska szpital 04
+1633	3	200068	19:24:00	19:24:00		Krakowska galeria 06
+1633	3	200068	19:26:00	19:26:00		Ofiar Katynia galeria 06
+1633	3	200068	19:27:00	19:27:00		Kotuli / Ustrzycka 02 nż
+1633	3	200068	19:28:00	19:28:00		Kotuli domki 04 nż
+1633	3	200068	19:29:00	19:29:00		Bł. Karoliny / Strzyżowska 02 nż
+1633	3	200068	19:30:00	19:30:00		Bł. Karoliny / Sanocka 04 nż
+1633	3	200068	19:31:00	19:31:00		Bł. Karoliny przedszkole 06
+1633	3	200068	19:32:00	19:32:00		Odrzykońska / Bł. Karoliny 02 nż
+1633	3	200068	19:33:00	19:33:00		Odrzykońska / Baligrodzka 04 nż
+1633	3	200068	19:34:00	19:34:00		Iwonicka / Korczyńska 02 nż
+1633	3	200068	19:35:00	19:35:00		Baligrodzka 01
+
+1631	3	202647	20:00:00	20:00:00		Baligrodzka 01
+1631	3	202647	20:01:00	20:01:00		Iwonicka / Korczyńska 01 nż
+1631	3	202647	20:02:00	20:02:00		Odrzykońska / Iwonicka 01 nż
+1631	3	202647	20:04:00	20:04:00		Bł. Karoliny 09
+1631	3	202647	20:05:00	20:05:00		Bł. Karoliny przedszkole 07
+1631	3	202647	20:06:00	20:06:00		Bł. Karoliny / Nowosądecka 05 nż
+1631	3	202647	20:07:00	20:07:00		Bł. Karoliny / Sanocka 03 nż
+1631	3	202647	20:08:00	20:08:00		Bł. Karoliny / Strzyżowska 01 nż
+1631	3	202647	20:09:00	20:09:00		Kotuli / Solarza 03 nż
+1631	3	202647	20:10:00	20:10:00		Kotuli / Zbyszewskiego 01 nż
+1631	3	202647	20:13:00	20:13:00		Krakowska galeria 05
+1631	3	202647	20:14:00	20:14:00		Krakowska szpital 03
+1631	3	202647	20:16:00	20:16:00		Krakowska Jedn. Wojskowa 01
+1631	3	202647	20:18:00	20:18:00		Piłsudskiego U. Marszałkowski 05
+1631	3	202647	20:19:00	20:19:00		Cieplińskiego 02
+1631	3	202647	20:20:00	20:20:00		Lisa-Kuli 01
+1631	3	202647	20:22:00	20:22:00		Kilara 02 nż
+1631	3	202647	20:24:00	20:24:00		Kopisto U. Skarbowy 03
+1631	3	202647	20:25:00	20:25:00		Kopisto Uniwersytet 01
+1631	3	202647	20:26:00	20:26:00		Rejtana / Kopisto 07
+1631	3	202647	20:27:00	20:27:00		Rejtana / Popiełuszki 09
+1631	3	202647	20:29:00	20:29:00		Sikorskiego / Powst. Warszawy 02 nż
+1631	3	202647	20:30:00	20:30:00		Sikorskiego Katedra 04 nż
+1631	3	202647	20:31:00	20:31:00		Sikorskiego / Łukasiewicza 06 nż
+1631	3	202647	20:32:00	20:32:00		Sikorskiego domki 08 nż
+1631	3	202647	20:34:00	20:34:00		Strażacka / Sikorskiego 07 nż
+1631	3	202647	20:35:00	20:35:00		Strażacka / Sympatyczna 05 nż
+1631	3	202647	20:36:00	20:36:00		Miła / Strażacka 02 nż
+1631	3	202647	20:37:00	20:37:00		Miła bloki 04 nż
+1631	3	202647	20:38:00	20:38:00		Miła szkoła 06 nż
+1631	3	202647	20:39:00	20:39:00		Kard. K. Wojtyły kościół 05 nż
+1631	3	202647	20:41:00	20:41:00		Kard. K. Wojtyły pętla 03 nż
+
+1633	3	200361	20:56:00	20:56:00		Kard. K. Wojtyły pętla 03 nż
+1633	3	200361	20:57:00	20:57:00		Kard. K. Wojtyły kościół 06 nż
+1633	3	200361	20:58:00	20:58:00		Miła Dom Kultury 05 nż
+1633	3	200361	20:59:00	20:59:00		Miła bloki 03 nż
+1633	3	200361	21:00:00	21:00:00		Miła / Strażacka 01 nż
+1633	3	200361	21:01:00	21:01:00		Strażacka / Sympatyczna 06 nż
+1633	3	200361	21:02:00	21:02:00		Strażacka / Sikorskiego 08 nż
+1633	3	200361	21:03:00	21:03:00		Sikorskiego / Robotnicza 05 nż
+1633	3	200361	21:04:00	21:04:00		Sikorskiego domki 03 nż
+1633	3	200361	21:06:00	21:06:00		Sikorskiego Katedra 01 nż
+1633	3	200361	21:08:00	21:08:00		Rejtana / Armii Krajowej 12
+1633	3	200361	21:09:00	21:09:00		Rejtana / Paderewskiego 10
+1633	3	200361	21:10:00	21:10:00		Rejtana / Krzyżanowskiego 08
+1633	3	200361	21:12:00	21:12:00		Kopisto Uniwersytet 02
+1633	3	200361	21:14:00	21:14:00		Kopisto Most Zamkowy 04
+1633	3	200361	21:15:00	21:15:00		Kilara 01 nż
+1633	3	200361	21:17:00	21:17:00		Lisa-Kuli 02
+1633	3	200361	21:18:00	21:18:00		Cieplińskiego 01
+1633	3	200361	21:20:00	21:20:00		Piłsudskiego U. Marszałkowski 08
+1633	3	200361	21:22:00	21:22:00		Krakowska Jedn. Wojskowa 02
+1633	3	200361	21:23:00	21:23:00		Krakowska szpital 04
+1633	3	200361	21:24:00	21:24:00		Krakowska galeria 06
+1633	3	200361	21:26:00	21:26:00		Ofiar Katynia galeria 06
+1633	3	200361	21:27:00	21:27:00		Kotuli / Ustrzycka 02 nż
+1633	3	200361	21:28:00	21:28:00		Kotuli domki 04 nż
+1633	3	200361	21:29:00	21:29:00		Bł. Karoliny / Strzyżowska 02 nż
+1633	3	200361	21:30:00	21:30:00		Bł. Karoliny / Sanocka 04 nż
+1633	3	200361	21:31:00	21:31:00		Bł. Karoliny przedszkole 06
+1633	3	200361	21:32:00	21:32:00		Odrzykońska / Bł. Karoliny 02 nż
+1633	3	200361	21:33:00	21:33:00		Odrzykońska / Baligrodzka 04 nż
+1633	3	200361	21:34:00	21:34:00		Iwonicka / Korczyńska 02 nż
+1633	3	200361	21:35:00	21:35:00		Baligrodzka 01
+
+1631	3	202932	22:00:00	22:00:00		Baligrodzka 01
+1631	3	202932	22:01:00	22:01:00		Iwonicka / Korczyńska 01 nż
+1631	3	202932	22:02:00	22:02:00		Odrzykońska / Iwonicka 01 nż
+1631	3	202932	22:04:00	22:04:00		Bł. Karoliny 09
+1631	3	202932	22:05:00	22:05:00		Bł. Karoliny przedszkole 07
+1631	3	202932	22:06:00	22:06:00		Bł. Karoliny / Nowosądecka 05 nż
+1631	3	202932	22:07:00	22:07:00		Bł. Karoliny / Sanocka 03 nż
+1631	3	202932	22:08:00	22:08:00		Bł. Karoliny / Strzyżowska 01 nż
+1631	3	202932	22:09:00	22:09:00		Kotuli / Solarza 03 nż
+1631	3	202932	22:10:00	22:10:00		Kotuli / Zbyszewskiego 01 nż
+1631	3	202932	22:13:00	22:13:00		Krakowska galeria 05
+1631	3	202932	22:14:00	22:14:00		Krakowska szpital 03
+1631	3	202932	22:15:00	22:15:00		Krakowska Jedn. Wojskowa 01
+1631	3	202932	22:16:00	22:16:00		Piłsudskiego U. Marszałkowski 05
+1631	3	202932	22:17:00	22:17:00		Cieplińskiego 02
+1631	3	202932	22:18:00	22:18:00		Lisa-Kuli 01
+1631	3	202932	22:20:00	22:20:00		Kilara 02 nż
+1631	3	202932	22:22:00	22:22:00		Kopisto U. Skarbowy 03
+1631	3	202932	22:23:00	22:23:00		Kopisto Uniwersytet 01
+1631	3	202932	22:24:00	22:24:00		Rejtana / Kopisto 07
+1631	3	202932	22:25:00	22:25:00		Rejtana / Popiełuszki 09
+1631	3	202932	22:27:00	22:27:00		Sikorskiego / Powst. Warszawy 02 nż
+1631	3	202932	22:28:00	22:28:00		Sikorskiego Katedra 04 nż
+1631	3	202932	22:29:00	22:29:00		Sikorskiego / Łukasiewicza 06 nż
+1631	3	202932	22:30:00	22:30:00		Sikorskiego domki 08 nż
+1631	3	202932	22:31:00	22:31:00		Strażacka / Sikorskiego 07 nż
+1631	3	202932	22:32:00	22:32:00		Strażacka / Sympatyczna 05 nż
+1631	3	202932	22:33:00	22:33:00		Miła / Strażacka 02 nż
+1631	3	202932	22:34:00	22:34:00		Miła bloki 04 nż
+1631	3	202932	22:35:00	22:35:00		Miła szkoła 06 nż
+1631	3	202932	22:36:00	22:36:00		Kard. K. Wojtyły kościół 05 nż
+1631	3	202932	22:38:00	22:38:00		Kard. K. Wojtyły pętla 03 nż
+
+1633	3	201579	22:56:00	22:56:00		Kard. K. Wojtyły pętla 03 nż
+1633	3	201579	22:57:00	22:57:00		Kard. K. Wojtyły kościół 06 nż
+1633	3	201579	22:58:00	22:58:00		Miła Dom Kultury 05 nż
+1633	3	201579	22:59:00	22:59:00		Miła bloki 03 nż
+1633	3	201579	23:00:00	23:00:00		Miła / Strażacka 01 nż
+1633	3	201579	23:01:00	23:01:00		Strażacka / Sympatyczna 06 nż
+1633	3	201579	23:02:00	23:02:00		Strażacka / Sikorskiego 08 nż
+1633	3	201579	23:03:00	23:03:00		Sikorskiego / Robotnicza 05 nż
+1633	3	201579	23:04:00	23:04:00		Sikorskiego domki 03 nż
+1633	3	201579	23:06:00	23:06:00		Sikorskiego Katedra 01 nż
+1633	3	201579	23:08:00	23:08:00		Rejtana / Armii Krajowej 12
+1633	3	201579	23:09:00	23:09:00		Rejtana / Paderewskiego 10
+1633	3	201579	23:10:00	23:10:00		Rejtana / Krzyżanowskiego 08
+1633	3	201579	23:12:00	23:12:00		Kopisto Uniwersytet 02
+1633	3	201579	23:14:00	23:14:00		Kopisto Most Zamkowy 04
+1633	3	201579	23:15:00	23:15:00		Kilara 01 nż
+1633	3	201579	23:17:00	23:17:00		Lisa-Kuli 02
+1633	3	201579	23:18:00	23:18:00		Cieplińskiego 01
+1633	3	201579	23:20:00	23:20:00		Piłsudskiego U. Marszałkowski 08
+1633	3	201579	23:22:00	23:22:00		Krakowska Jedn. Wojskowa 02
+1633	3	201579	23:23:00	23:23:00		Krakowska szpital 04
+1633	3	201579	23:24:00	23:24:00		Krakowska galeria 06
+1633	3	201579	23:26:00	23:26:00		Ofiar Katynia galeria 06
+1633	3	201579	23:27:00	23:27:00		Kotuli / Ustrzycka 02 nż
+1633	3	201579	23:28:00	23:28:00		Kotuli domki 04 nż
+1633	3	201579	23:29:00	23:29:00		Bł. Karoliny / Strzyżowska 02 nż
+1633	3	201579	23:30:00	23:30:00		Bł. Karoliny / Sanocka 04 nż
+1633	3	201579	23:31:00	23:31:00		Bł. Karoliny przedszkole 06
+1633	3	201579	23:32:00	23:32:00		Odrzykońska / Bł. Karoliny 02 nż
+1633	3	201579	23:33:00	23:33:00		Odrzykońska / Baligrodzka 04 nż
+1633	3	201579	23:34:00	23:34:00		Iwonicka / Korczyńska 02 nż
+1633	3	201579	23:35:00	23:35:00		Baligrodzka 01
+
+1647	3	199941	24:00:00	24:00:00		Baligrodzka 01
+1647	3	199941	24:01:00	24:01:00		Iwonicka / Korczyńska 01 nż
+1647	3	199941	24:02:00	24:02:00		Odrzykońska / Iwonicka 01 nż
+1647	3	199941	24:04:00	24:04:00		Bł. Karoliny 09
+1647	3	199941	24:05:00	24:05:00		Bł. Karoliny przedszkole 07
+1647	3	199941	24:06:00	24:06:00		Bł. Karoliny / Nowosądecka 05 nż
+1647	3	199941	24:07:00	24:07:00		Bł. Karoliny / Sanocka 03 nż
+1647	3	199941	24:08:00	24:08:00		Bł. Karoliny / Strzyżowska 01 nż
+1647	3	199941	24:09:00	24:09:00		Kotuli / Solarza 03 nż
+1647	3	199941	24:10:00	24:10:00		Kotuli / Zbyszewskiego 01 nż
+1647	3	199941	24:13:00	24:13:00		Krakowska galeria 05
+1647	3	199941	24:14:00	24:14:00		Krakowska szpital 03
+1647	3	199941	24:15:00	24:15:00		Krakowska Jedn. Wojskowa 01
+1647	3	199941	24:16:00	24:16:00		Piłsudskiego U. Marszałkowski 05

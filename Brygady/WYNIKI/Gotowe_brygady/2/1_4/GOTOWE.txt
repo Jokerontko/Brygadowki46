@@ -1,0 +1,376 @@
+route_id	service_id	trip_id	arrival_time	departure_time	stop_headsign	stop_name
+-------------------------------------------------------------------------------
+1627	3	202860	05:02:00	05:02:00		Krakowska granica 15 nż
+1627	3	202860	05:03:00	05:03:00		Krakowska Dworzysko 13 nż
+1627	3	202860	05:03:00	05:03:00		Krakowska Dworzysko 13 nż
+1627	3	202860	05:05:00	05:05:00		Krakowska / Ustrzycka 11
+1627	3	202860	05:05:00	05:05:00		Krakowska / Ustrzycka 11
+1627	3	202860	05:06:00	05:06:00		Krakowska cmentarz 09 nż
+1627	3	202860	05:06:00	05:06:00		Krakowska cmentarz 09 nż
+1627	3	202860	05:08:00	05:08:00		Krakowska / Mielecka 07 nż
+1627	3	202860	05:08:00	05:08:00		Krakowska / Mielecka 07 nż
+1627	3	202860	05:09:00	05:09:00		Krakowska galeria 05
+1627	3	202860	05:09:00	05:09:00		Krakowska galeria 05
+1627	3	202860	05:10:00	05:10:00		Krakowska szpital 03
+1627	3	202860	05:10:00	05:10:00		Krakowska szpital 03
+1627	3	202860	05:11:00	05:11:00		Krakowska Jedn. Wojskowa 01
+1627	3	202860	05:11:00	05:11:00		Krakowska Jedn. Wojskowa 01
+1627	3	202860	05:14:00	05:14:00		Piłsudskiego U. Wojewódzki 03
+1627	3	202860	05:14:00	05:14:00		Piłsudskiego U. Wojewódzki 03
+1627	3	202860	05:15:00	05:15:00		Pl. Wolności 01
+1627	3	202860	05:15:00	05:15:00		Pl. Wolności 01
+1627	3	202860	05:18:00	05:18:00		Lwowska Jedn. Wojskowa 02
+1627	3	202860	05:18:00	05:18:00		Lwowska Jedn. Wojskowa 02
+1627	3	202860	05:19:00	05:19:00		Lwowska cmentarz 04
+1627	3	202860	05:19:00	05:19:00		Lwowska cmentarz 04
+1627	3	202860	05:20:00	05:20:00		Żołnierzy I Armii Wojska Polskiego 02
+1627	3	202860	05:20:00	05:20:00		Żołnierzy I Armii Wojska Polskiego 02
+1627	3	202860	05:22:00	05:22:00		Konf. Barskich / Traugutta 02 nż
+1627	3	202860	05:22:00	05:22:00		Konf. Barskich / Traugutta 02 nż
+1627	3	202860	05:23:00	05:23:00		Załęska / Konf. Barskich 02 nż
+1627	3	202860	05:23:00	05:23:00		Załęska / Konf. Barskich 02 nż
+1627	3	202860	05:24:00	05:24:00		Sieciecha / Załęska 01 nż
+1627	3	202860	05:24:00	05:24:00		Sieciecha / Załęska 01 nż
+1627	3	202860	05:26:00	05:26:00		Rzecha / Załęska 02 nż
+1627	3	202860	05:26:00	05:26:00		Rzecha / Załęska 02 nż
+1627	3	202860	05:27:00	05:27:00		Załęska / Rzecha 04 nż
+1627	3	202860	05:27:00	05:27:00		Załęska / Rzecha 04 nż
+1627	3	202860	05:28:00	05:28:00		Załęska Zakład Karny 06 nż
+1627	3	202860	05:28:00	05:28:00		Załęska Zakład Karny 06 nż
+1627	3	202860	05:29:00	05:29:00		Załęska / Spichlerzowa 10 nż
+1627	3	202860	05:29:00	05:29:00		Załęska / Spichlerzowa 10 nż
+1627	3	202860	05:30:00	05:30:00		Spichlerzowa / Załęska 02 nż
+1627	3	202860	05:30:00	05:30:00		Spichlerzowa / Załęska 02 nż
+1627	3	202860	05:32:00	05:32:00		Spichlerzowa pętla 04 nż
+1627	3	202860	05:32:00	05:32:00		Spichlerzowa pętla 04 nż
+
+1630	3	200376	05:33:00	05:33:00		Spichlerzowa pętla 04 nż
+1630	3	200376	05:33:00	05:33:00		Spichlerzowa pętla 04 nż
+1630	3	200376	05:34:00	05:34:00		Spichlerzowa / Załęska 01 nż
+1630	3	200376	05:34:00	05:34:00		Spichlerzowa / Załęska 01 nż
+1630	3	200376	05:35:00	05:35:00		Załęska / Spichlerzowa 09 nż
+1630	3	200376	05:35:00	05:35:00		Załęska / Spichlerzowa 09 nż
+1630	3	200376	05:36:00	05:36:00		Załęska Zakład Karny 07 nż
+1630	3	200376	05:36:00	05:36:00		Załęska Zakład Karny 07 nż
+1630	3	200376	05:37:00	05:37:00		Załęska / Rzecha 05 nż
+1630	3	200376	05:37:00	05:37:00		Załęska / Rzecha 05 nż
+1630	3	200376	05:39:00	05:39:00		Rzecha / Załęska 01 nż
+1630	3	200376	05:39:00	05:39:00		Rzecha / Załęska 01 nż
+1630	3	200376	05:42:00	05:42:00		Sieciecha / Załęska 02 nż
+1630	3	200376	05:42:00	05:42:00		Sieciecha / Załęska 02 nż
+1630	3	200376	05:43:00	05:43:00		Załęska / Konf. Barskich 01 nż
+1630	3	200376	05:43:00	05:43:00		Załęska / Konf. Barskich 01 nż
+1630	3	200376	05:44:00	05:44:00		Konf. Barskich / Traugutta 01 nż
+1630	3	200376	05:44:00	05:44:00		Konf. Barskich / Traugutta 01 nż
+1630	3	200376	05:46:00	05:46:00		Lwowska cmentarz 03
+1630	3	200376	05:46:00	05:46:00		Lwowska cmentarz 03
+1630	3	200376	05:47:00	05:47:00		Lwowska Jedn. Wojskowa 01
+1630	3	200376	05:47:00	05:47:00		Lwowska Jedn. Wojskowa 01
+1630	3	200376	05:49:00	05:49:00		Piłsudskiego ZDZ 02
+1630	3	200376	05:49:00	05:49:00		Piłsudskiego ZDZ 02
+1630	3	200376	05:50:00	05:50:00		Pl. Wolności 04
+1630	3	200376	05:50:00	05:50:00		Pl. Wolności 04
+1630	3	200376	05:52:00	05:52:00		Piłsudskiego U. Marszałkowski 08
+1630	3	200376	05:52:00	05:52:00		Piłsudskiego U. Marszałkowski 08
+1630	3	200376	05:54:00	05:54:00		Krakowska Jedn. Wojskowa 02
+1630	3	200376	05:54:00	05:54:00		Krakowska Jedn. Wojskowa 02
+1630	3	200376	05:55:00	05:55:00		Krakowska szpital 04
+1630	3	200376	05:55:00	05:55:00		Krakowska szpital 04
+1630	3	200376	05:56:00	05:56:00		Krakowska galeria 06
+1630	3	200376	05:56:00	05:56:00		Krakowska galeria 06
+1630	3	200376	05:57:00	05:57:00		Krakowska / Wyzwolenia 08 nż
+1630	3	200376	05:57:00	05:57:00		Krakowska / Wyzwolenia 08 nż
+1630	3	200376	05:58:00	05:58:00		Krakowska cmentarz 10 nż
+1630	3	200376	05:58:00	05:58:00		Krakowska cmentarz 10 nż
+1630	3	200376	06:00:00	06:00:00		Krakowska / Ceramiczna 12
+1630	3	200376	06:00:00	06:00:00		Krakowska / Ceramiczna 12
+1630	3	200376	06:01:00	06:01:00		Krakowska Dworzysko 16 nż
+1630	3	200376	06:01:00	06:01:00		Krakowska Dworzysko 16 nż
+1630	3	200376	06:03:00	06:03:00		Krakowska granica 18 nż
+1630	3	200376	06:03:00	06:03:00		Krakowska granica 18 nż
+1630	3	200376	06:05:00	06:05:00		Krakowska granica 15 nż
+1630	3	200376	06:05:00	06:05:00		Krakowska granica 15 nż
+
+1648	3	200160	06:16:00	06:16:00		Krakowska granica 15 nż
+1648	3	200160	06:16:00	06:16:00		Krakowska granica 15 nż
+1648	3	200160	06:17:00	06:17:00		Krakowska Dworzysko 13 nż
+1648	3	200160	06:17:00	06:17:00		Krakowska Dworzysko 13 nż
+1648	3	200160	06:19:00	06:19:00		Krakowska / Ustrzycka 11
+1648	3	200160	06:19:00	06:19:00		Krakowska / Ustrzycka 11
+1648	3	200160	06:20:00	06:20:00		Krakowska cmentarz 09 nż
+1648	3	200160	06:20:00	06:20:00		Krakowska cmentarz 09 nż
+1648	3	200160	06:22:00	06:22:00		Krakowska / Mielecka 07 nż
+1648	3	200160	06:22:00	06:22:00		Krakowska / Mielecka 07 nż
+1648	3	200160	06:23:00	06:23:00		Krakowska galeria 05
+1648	3	200160	06:23:00	06:23:00		Krakowska galeria 05
+1648	3	200160	06:24:00	06:24:00		Krakowska szpital 03
+1648	3	200160	06:24:00	06:24:00		Krakowska szpital 03
+1648	3	200160	06:26:00	06:26:00		Krakowska Jedn. Wojskowa 01
+1648	3	200160	06:26:00	06:26:00		Krakowska Jedn. Wojskowa 01
+1648	3	200160	06:29:00	06:29:00		Piłsudskiego U. Wojewódzki 03
+1648	3	200160	06:29:00	06:29:00		Piłsudskiego U. Wojewódzki 03
+1648	3	200160	06:30:00	06:30:00		Pl. Wolności 01
+1648	3	200160	06:30:00	06:30:00		Pl. Wolności 01
+1648	3	200160	06:33:00	06:33:00		Lwowska Jedn. Wojskowa 02
+1648	3	200160	06:33:00	06:33:00		Lwowska Jedn. Wojskowa 02
+1648	3	200160	06:35:00	06:35:00		Lwowska cmentarz 04
+1648	3	200160	06:35:00	06:35:00		Lwowska cmentarz 04
+1648	3	200160	06:37:00	06:37:00		Żołnierzy I Armii Wojska Polskiego 02
+1648	3	200160	06:37:00	06:37:00		Żołnierzy I Armii Wojska Polskiego 02
+1648	3	200160	06:39:00	06:39:00		Konf. Barskich / Traugutta 02 nż
+1648	3	200160	06:39:00	06:39:00		Konf. Barskich / Traugutta 02 nż
+1648	3	200160	06:40:00	06:40:00		Załęska / Konf. Barskich 02 nż
+1648	3	200160	06:40:00	06:40:00		Załęska / Konf. Barskich 02 nż
+1648	3	200160	06:41:00	06:41:00		Sieciecha / Załęska 01 nż
+1648	3	200160	06:41:00	06:41:00		Sieciecha / Załęska 01 nż
+1648	3	200160	06:44:00	06:44:00		Rzecha / Załęska 02 nż
+1648	3	200160	06:44:00	06:44:00		Rzecha / Załęska 02 nż
+1648	3	200160	06:45:00	06:45:00		Rzecha / Spółdzielcza 04 nż
+1648	3	200160	06:45:00	06:45:00		Rzecha / Spółdzielcza 04 nż
+1648	3	200160	06:46:00	06:46:00		Ciepłownicza / Rzecha 02 nż
+1648	3	200160	06:46:00	06:46:00		Ciepłownicza / Rzecha 02 nż
+1648	3	200160	06:47:00	06:47:00		Ciepłownicza MPGK 04 nż
+1648	3	200160	06:47:00	06:47:00		Ciepłownicza MPGK 04 nż
+1648	3	200160	06:48:00	06:48:00		Ciepłownicza Elektrociepłownia 06 nż
+1648	3	200160	06:48:00	06:48:00		Ciepłownicza Elektrociepłownia 06 nż
+1648	3	200160	06:49:00	06:49:00		Ciepłownicza MPGK 01 nż
+1648	3	200160	06:49:00	06:49:00		Ciepłownicza MPGK 01 nż
+1648	3	200160	06:51:00	06:51:00		Rzecha / Ciepłownicza 03 nż
+1648	3	200160	06:51:00	06:51:00		Rzecha / Ciepłownicza 03 nż
+1648	3	200160	06:54:00	06:54:00		Załęska / Rzecha 04 nż
+1648	3	200160	06:54:00	06:54:00		Załęska / Rzecha 04 nż
+1648	3	200160	06:55:00	06:55:00		Załęska Zakład Karny 06 nż
+1648	3	200160	06:55:00	06:55:00		Załęska Zakład Karny 06 nż
+1648	3	200160	06:56:00	06:56:00		Załęska / Spichlerzowa 10 nż
+1648	3	200160	06:56:00	06:56:00		Załęska / Spichlerzowa 10 nż
+1648	3	200160	06:57:00	06:57:00		Spichlerzowa / Załęska 02 nż
+1648	3	200160	06:57:00	06:57:00		Spichlerzowa / Załęska 02 nż
+1648	3	200160	06:59:00	06:59:00		Spichlerzowa pętla 04 nż
+1648	3	200160	06:59:00	06:59:00		Spichlerzowa pętla 04 nż
+
+1652	3	203151	07:24:00	07:24:00		Spichlerzowa pętla 04 nż
+1652	3	203151	07:24:00	07:24:00		Spichlerzowa pętla 04 nż
+1652	3	203151	07:25:00	07:25:00		Spichlerzowa / Załęska 01 nż
+1652	3	203151	07:25:00	07:25:00		Spichlerzowa / Załęska 01 nż
+1652	3	203151	07:26:00	07:26:00		Załęska / Spichlerzowa 09 nż
+1652	3	203151	07:26:00	07:26:00		Załęska / Spichlerzowa 09 nż
+1652	3	203151	07:27:00	07:27:00		Załęska Zakład Karny 07 nż
+1652	3	203151	07:27:00	07:27:00		Załęska Zakład Karny 07 nż
+1652	3	203151	07:28:00	07:28:00		Załęska / Rzecha 05 nż
+1652	3	203151	07:28:00	07:28:00		Załęska / Rzecha 05 nż
+1652	3	203151	07:29:00	07:29:00		Rzecha / Spółdzielcza 04 nż
+1652	3	203151	07:29:00	07:29:00		Rzecha / Spółdzielcza 04 nż
+1652	3	203151	07:30:00	07:30:00		Ciepłownicza / Rzecha 02 nż
+1652	3	203151	07:30:00	07:30:00		Ciepłownicza / Rzecha 02 nż
+1652	3	203151	07:31:00	07:31:00		Ciepłownicza MPGK 04 nż
+1652	3	203151	07:31:00	07:31:00		Ciepłownicza MPGK 04 nż
+1652	3	203151	07:32:00	07:32:00		Ciepłownicza Elektrociepłownia 06 nż
+1652	3	203151	07:32:00	07:32:00		Ciepłownicza Elektrociepłownia 06 nż
+1652	3	203151	07:33:00	07:33:00		Ciepłownicza MPGK 01 nż
+1652	3	203151	07:33:00	07:33:00		Ciepłownicza MPGK 01 nż
+1652	3	203151	07:35:00	07:35:00		Rzecha / Ciepłownicza 03 nż
+1652	3	203151	07:35:00	07:35:00		Rzecha / Ciepłownicza 03 nż
+1652	3	203151	07:37:00	07:37:00		Rzecha / Załęska 01 nż
+1652	3	203151	07:37:00	07:37:00		Rzecha / Załęska 01 nż
+1652	3	203151	07:40:00	07:40:00		Sieciecha / Załęska 02 nż
+1652	3	203151	07:40:00	07:40:00		Sieciecha / Załęska 02 nż
+1652	3	203151	07:41:00	07:41:00		Załęska / Konf. Barskich 01 nż
+1652	3	203151	07:41:00	07:41:00		Załęska / Konf. Barskich 01 nż
+1652	3	203151	07:42:00	07:42:00		Konf. Barskich / Traugutta 01 nż
+1652	3	203151	07:42:00	07:42:00		Konf. Barskich / Traugutta 01 nż
+1652	3	203151	07:46:00	07:46:00		Lwowska cmentarz 03
+1652	3	203151	07:46:00	07:46:00		Lwowska cmentarz 03
+1652	3	203151	07:47:00	07:47:00		Lwowska Jedn. Wojskowa 01
+1652	3	203151	07:47:00	07:47:00		Lwowska Jedn. Wojskowa 01
+1652	3	203151	07:49:00	07:49:00		Piłsudskiego ZDZ 02
+1652	3	203151	07:49:00	07:49:00		Piłsudskiego ZDZ 02
+1652	3	203151	07:51:00	07:51:00		Pl. Wolności 04
+1652	3	203151	07:51:00	07:51:00		Pl. Wolności 04
+1652	3	203151	07:53:00	07:53:00		Piłsudskiego U. Marszałkowski 08
+1652	3	203151	07:53:00	07:53:00		Piłsudskiego U. Marszałkowski 08
+1652	3	203151	07:55:00	07:55:00		Krakowska Jedn. Wojskowa 02
+1652	3	203151	07:55:00	07:55:00		Krakowska Jedn. Wojskowa 02
+1652	3	203151	07:56:00	07:56:00		Krakowska szpital 04
+1652	3	203151	07:56:00	07:56:00		Krakowska szpital 04
+1652	3	203151	07:57:00	07:57:00		Krakowska galeria 06
+1652	3	203151	07:57:00	07:57:00		Krakowska galeria 06
+1652	3	203151	07:58:00	07:58:00		Krakowska / Wyzwolenia 08 nż
+1652	3	203151	07:58:00	07:58:00		Krakowska / Wyzwolenia 08 nż
+1652	3	203151	08:00:00	08:00:00		Krakowska cmentarz 10 nż
+1652	3	203151	08:00:00	08:00:00		Krakowska cmentarz 10 nż
+1652	3	203151	08:02:00	08:02:00		Krakowska / Ceramiczna 12
+1652	3	203151	08:02:00	08:02:00		Krakowska / Ceramiczna 12
+1652	3	203151	08:03:00	08:03:00		Krakowska Dworzysko 16 nż
+1652	3	203151	08:03:00	08:03:00		Krakowska Dworzysko 16 nż
+1652	3	203151	08:05:00	08:05:00		Krakowska granica 18 nż
+1652	3	203151	08:05:00	08:05:00		Krakowska granica 18 nż
+1652	3	203151	08:07:00	08:07:00		Krakowska granica 15 nż
+1652	3	203151	08:07:00	08:07:00		Krakowska granica 15 nż
+
+1654	3	199534	08:31:00	08:31:00		Krakowska granica 15 nż
+1654	3	199534	08:31:00	08:31:00		Krakowska granica 15 nż
+1654	3	199534	08:32:00	08:32:00		Krakowska Dworzysko 13 nż
+1654	3	199534	08:32:00	08:32:00		Krakowska Dworzysko 13 nż
+1654	3	199534	08:34:00	08:34:00		Krakowska / Ustrzycka 11
+1654	3	199534	08:34:00	08:34:00		Krakowska / Ustrzycka 11
+1654	3	199534	08:35:00	08:35:00		Krakowska cmentarz 09 nż
+1654	3	199534	08:35:00	08:35:00		Krakowska cmentarz 09 nż
+1654	3	199534	08:37:00	08:37:00		Krakowska / Mielecka 07 nż
+1654	3	199534	08:37:00	08:37:00		Krakowska / Mielecka 07 nż
+1654	3	199534	08:38:00	08:38:00		Krakowska galeria 05
+1654	3	199534	08:38:00	08:38:00		Krakowska galeria 05
+1654	3	199534	08:39:00	08:39:00		Krakowska szpital 03
+1654	3	199534	08:39:00	08:39:00		Krakowska szpital 03
+1654	3	199534	08:41:00	08:41:00		Krakowska Jedn. Wojskowa 01
+1654	3	199534	08:41:00	08:41:00		Krakowska Jedn. Wojskowa 01
+1654	3	199534	08:43:00	08:43:00		Piłsudskiego U. Marszałkowski 05
+1654	3	199534	08:43:00	08:43:00		Piłsudskiego U. Marszałkowski 05
+
+1627	3	200086	13:31:00	13:31:00		Krakowska granica 15 nż
+1627	3	200086	13:31:00	13:31:00		Krakowska granica 15 nż
+1627	3	200086	13:32:00	13:32:00		Krakowska Dworzysko 13 nż
+1627	3	200086	13:32:00	13:32:00		Krakowska Dworzysko 13 nż
+1627	3	200086	13:34:00	13:34:00		Krakowska / Ustrzycka 11
+1627	3	200086	13:34:00	13:34:00		Krakowska / Ustrzycka 11
+1627	3	200086	13:35:00	13:35:00		Krakowska cmentarz 09 nż
+1627	3	200086	13:35:00	13:35:00		Krakowska cmentarz 09 nż
+1627	3	200086	13:37:00	13:37:00		Krakowska / Mielecka 07 nż
+1627	3	200086	13:37:00	13:37:00		Krakowska / Mielecka 07 nż
+1627	3	200086	13:38:00	13:38:00		Krakowska galeria 05
+1627	3	200086	13:38:00	13:38:00		Krakowska galeria 05
+1627	3	200086	13:39:00	13:39:00		Krakowska szpital 03
+1627	3	200086	13:39:00	13:39:00		Krakowska szpital 03
+1627	3	200086	13:41:00	13:41:00		Krakowska Jedn. Wojskowa 01
+1627	3	200086	13:41:00	13:41:00		Krakowska Jedn. Wojskowa 01
+1627	3	200086	13:44:00	13:44:00		Piłsudskiego U. Wojewódzki 03
+1627	3	200086	13:44:00	13:44:00		Piłsudskiego U. Wojewódzki 03
+1627	3	200086	13:45:00	13:45:00		Pl. Wolności 01
+1627	3	200086	13:45:00	13:45:00		Pl. Wolności 01
+1627	3	200086	13:49:00	13:49:00		Lwowska Jedn. Wojskowa 02
+1627	3	200086	13:49:00	13:49:00		Lwowska Jedn. Wojskowa 02
+1627	3	200086	13:52:00	13:52:00		Lwowska cmentarz 04
+1627	3	200086	13:52:00	13:52:00		Lwowska cmentarz 04
+1627	3	200086	13:54:00	13:54:00		Żołnierzy I Armii Wojska Polskiego 02
+1627	3	200086	13:54:00	13:54:00		Żołnierzy I Armii Wojska Polskiego 02
+1627	3	200086	13:56:00	13:56:00		Konf. Barskich / Traugutta 02 nż
+1627	3	200086	13:56:00	13:56:00		Konf. Barskich / Traugutta 02 nż
+1627	3	200086	13:57:00	13:57:00		Załęska / Konf. Barskich 02 nż
+1627	3	200086	13:57:00	13:57:00		Załęska / Konf. Barskich 02 nż
+1627	3	200086	13:58:00	13:58:00		Sieciecha / Załęska 01 nż
+1627	3	200086	13:58:00	13:58:00		Sieciecha / Załęska 01 nż
+1627	3	200086	14:02:00	14:02:00		Rzecha / Załęska 02 nż
+1627	3	200086	14:02:00	14:02:00		Rzecha / Załęska 02 nż
+1627	3	200086	14:03:00	14:03:00		Załęska / Rzecha 04 nż
+1627	3	200086	14:03:00	14:03:00		Załęska / Rzecha 04 nż
+1627	3	200086	14:04:00	14:04:00		Załęska Zakład Karny 06 nż
+1627	3	200086	14:04:00	14:04:00		Załęska Zakład Karny 06 nż
+1627	3	200086	14:05:00	14:05:00		Załęska / Spichlerzowa 10 nż
+1627	3	200086	14:05:00	14:05:00		Załęska / Spichlerzowa 10 nż
+1627	3	200086	14:06:00	14:06:00		Spichlerzowa / Załęska 02 nż
+1627	3	200086	14:06:00	14:06:00		Spichlerzowa / Załęska 02 nż
+1627	3	200086	14:08:00	14:08:00		Spichlerzowa pętla 04 nż
+1627	3	200086	14:08:00	14:08:00		Spichlerzowa pętla 04 nż
+
+1652	3	202591	14:20:00	14:20:00		Spichlerzowa pętla 04 nż
+1652	3	202591	14:20:00	14:20:00		Spichlerzowa pętla 04 nż
+1652	3	202591	14:21:00	14:21:00		Spichlerzowa / Załęska 01 nż
+1652	3	202591	14:21:00	14:21:00		Spichlerzowa / Załęska 01 nż
+1652	3	202591	14:22:00	14:22:00		Załęska / Spichlerzowa 09 nż
+1652	3	202591	14:22:00	14:22:00		Załęska / Spichlerzowa 09 nż
+1652	3	202591	14:23:00	14:23:00		Załęska Zakład Karny 07 nż
+1652	3	202591	14:23:00	14:23:00		Załęska Zakład Karny 07 nż
+1652	3	202591	14:24:00	14:24:00		Załęska / Rzecha 05 nż
+1652	3	202591	14:24:00	14:24:00		Załęska / Rzecha 05 nż
+1652	3	202591	14:25:00	14:25:00		Rzecha / Spółdzielcza 04 nż
+1652	3	202591	14:25:00	14:25:00		Rzecha / Spółdzielcza 04 nż
+1652	3	202591	14:26:00	14:26:00		Ciepłownicza / Rzecha 02 nż
+1652	3	202591	14:26:00	14:26:00		Ciepłownicza / Rzecha 02 nż
+1652	3	202591	14:27:00	14:27:00		Ciepłownicza MPGK 04 nż
+1652	3	202591	14:27:00	14:27:00		Ciepłownicza MPGK 04 nż
+1652	3	202591	14:28:00	14:28:00		Ciepłownicza Elektrociepłownia 06 nż
+1652	3	202591	14:28:00	14:28:00		Ciepłownicza Elektrociepłownia 06 nż
+1652	3	202591	14:29:00	14:29:00		Ciepłownicza MPGK 01 nż
+1652	3	202591	14:29:00	14:29:00		Ciepłownicza MPGK 01 nż
+1652	3	202591	14:31:00	14:31:00		Rzecha / Ciepłownicza 03 nż
+1652	3	202591	14:31:00	14:31:00		Rzecha / Ciepłownicza 03 nż
+1652	3	202591	14:35:00	14:35:00		Rzecha / Załęska 01 nż
+1652	3	202591	14:35:00	14:35:00		Rzecha / Załęska 01 nż
+1652	3	202591	14:39:00	14:39:00		Sieciecha / Załęska 02 nż
+1652	3	202591	14:39:00	14:39:00		Sieciecha / Załęska 02 nż
+1652	3	202591	14:40:00	14:40:00		Załęska / Konf. Barskich 01 nż
+1652	3	202591	14:40:00	14:40:00		Załęska / Konf. Barskich 01 nż
+1652	3	202591	14:41:00	14:41:00		Konf. Barskich / Traugutta 01 nż
+1652	3	202591	14:41:00	14:41:00		Konf. Barskich / Traugutta 01 nż
+1652	3	202591	14:46:00	14:46:00		Lwowska cmentarz 03
+1652	3	202591	14:46:00	14:46:00		Lwowska cmentarz 03
+1652	3	202591	14:47:00	14:47:00		Lwowska Jedn. Wojskowa 01
+1652	3	202591	14:47:00	14:47:00		Lwowska Jedn. Wojskowa 01
+1652	3	202591	14:50:00	14:50:00		Piłsudskiego ZDZ 02
+1652	3	202591	14:50:00	14:50:00		Piłsudskiego ZDZ 02
+1652	3	202591	14:53:00	14:53:00		Pl. Wolności 04
+1652	3	202591	14:53:00	14:53:00		Pl. Wolności 04
+1652	3	202591	14:59:00	14:59:00		Piłsudskiego U. Marszałkowski 08
+1652	3	202591	14:59:00	14:59:00		Piłsudskiego U. Marszałkowski 08
+1652	3	202591	15:01:00	15:01:00		Krakowska Jedn. Wojskowa 02
+1652	3	202591	15:01:00	15:01:00		Krakowska Jedn. Wojskowa 02
+1652	3	202591	15:03:00	15:03:00		Krakowska szpital 04
+1652	3	202591	15:03:00	15:03:00		Krakowska szpital 04
+1652	3	202591	15:04:00	15:04:00		Krakowska galeria 06
+1652	3	202591	15:04:00	15:04:00		Krakowska galeria 06
+1652	3	202591	15:05:00	15:05:00		Krakowska / Wyzwolenia 08 nż
+1652	3	202591	15:05:00	15:05:00		Krakowska / Wyzwolenia 08 nż
+1652	3	202591	15:07:00	15:07:00		Krakowska cmentarz 10 nż
+1652	3	202591	15:07:00	15:07:00		Krakowska cmentarz 10 nż
+1652	3	202591	15:09:00	15:09:00		Krakowska / Ceramiczna 12
+1652	3	202591	15:09:00	15:09:00		Krakowska / Ceramiczna 12
+1652	3	202591	15:10:00	15:10:00		Krakowska Dworzysko 16 nż
+1652	3	202591	15:10:00	15:10:00		Krakowska Dworzysko 16 nż
+1652	3	202591	15:12:00	15:12:00		Krakowska granica 18 nż
+1652	3	202591	15:12:00	15:12:00		Krakowska granica 18 nż
+1652	3	202591	15:14:00	15:14:00		Krakowska granica 15 nż
+1652	3	202591	15:14:00	15:14:00		Krakowska granica 15 nż
+
+1627	3	202662	15:29:00	15:29:00		Krakowska granica 15 nż
+1627	3	202662	15:29:00	15:29:00		Krakowska granica 15 nż
+1627	3	202662	15:30:00	15:30:00		Krakowska Dworzysko 13 nż
+1627	3	202662	15:30:00	15:30:00		Krakowska Dworzysko 13 nż
+1627	3	202662	15:32:00	15:32:00		Krakowska / Ustrzycka 11
+1627	3	202662	15:32:00	15:32:00		Krakowska / Ustrzycka 11
+1627	3	202662	15:33:00	15:33:00		Krakowska cmentarz 09 nż
+1627	3	202662	15:33:00	15:33:00		Krakowska cmentarz 09 nż
+1627	3	202662	15:35:00	15:35:00		Krakowska / Mielecka 07 nż
+1627	3	202662	15:35:00	15:35:00		Krakowska / Mielecka 07 nż
+1627	3	202662	15:36:00	15:36:00		Krakowska galeria 05
+1627	3	202662	15:36:00	15:36:00		Krakowska galeria 05
+1627	3	202662	15:37:00	15:37:00		Krakowska szpital 03
+1627	3	202662	15:37:00	15:37:00		Krakowska szpital 03
+1627	3	202662	15:40:00	15:40:00		Krakowska Jedn. Wojskowa 01
+1627	3	202662	15:40:00	15:40:00		Krakowska Jedn. Wojskowa 01
+1627	3	202662	15:43:00	15:43:00		Piłsudskiego U. Wojewódzki 03
+1627	3	202662	15:43:00	15:43:00		Piłsudskiego U. Wojewódzki 03
+1627	3	202662	15:45:00	15:45:00		Pl. Wolności 01
+1627	3	202662	15:45:00	15:45:00		Pl. Wolności 01
+1627	3	202662	15:49:00	15:49:00		Lwowska Jedn. Wojskowa 02
+1627	3	202662	15:49:00	15:49:00		Lwowska Jedn. Wojskowa 02
+1627	3	202662	15:57:00	15:57:00		Lwowska cmentarz 04
+1627	3	202662	15:57:00	15:57:00		Lwowska cmentarz 04
+1627	3	202662	16:01:00	16:01:00		Żołnierzy I Armii Wojska Polskiego 02
+1627	3	202662	16:01:00	16:01:00		Żołnierzy I Armii Wojska Polskiego 02
+1627	3	202662	16:04:00	16:04:00		Konf. Barskich / Traugutta 02 nż
+1627	3	202662	16:04:00	16:04:00		Konf. Barskich / Traugutta 02 nż
+1627	3	202662	16:05:00	16:05:00		Załęska / Konf. Barskich 02 nż
+1627	3	202662	16:05:00	16:05:00		Załęska / Konf. Barskich 02 nż
+1627	3	202662	16:06:00	16:06:00		Sieciecha / Załęska 01 nż
+1627	3	202662	16:06:00	16:06:00		Sieciecha / Załęska 01 nż
+1627	3	202662	16:10:00	16:10:00		Rzecha / Załęska 02 nż
+1627	3	202662	16:10:00	16:10:00		Rzecha / Załęska 02 nż
+1627	3	202662	16:11:00	16:11:00		Załęska / Rzecha 04 nż
+1627	3	202662	16:11:00	16:11:00		Załęska / Rzecha 04 nż
+1627	3	202662	16:12:00	16:12:00		Załęska Zakład Karny 06 nż
+1627	3	202662	16:12:00	16:12:00		Załęska Zakład Karny 06 nż
+1627	3	202662	16:13:00	16:13:00		Załęska / Spichlerzowa 10 nż
+1627	3	202662	16:13:00	16:13:00		Załęska / Spichlerzowa 10 nż
+1627	3	202662	16:14:00	16:14:00		Spichlerzowa / Załęska 02 nż
+1627	3	202662	16:14:00	16:14:00		Spichlerzowa / Załęska 02 nż
+1627	3	202662	16:16:00	16:16:00		Spichlerzowa pętla 04 nż
+1627	3	202662	16:16:00	16:16:00		Spichlerzowa pętla 04 nż

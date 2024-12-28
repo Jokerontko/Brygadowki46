@@ -1,0 +1,480 @@
+route_id	service_id	trip_id	arrival_time	departure_time	stop_headsign	stop_name
+-------------------------------------------------------------------------------
+1374	3	202284	06:00:00	06:00:00		Trembeckiego ZTM pętla 01
+1374	3	202284	06:01:00	06:01:00		Trembeckiego / Siemieńskiego 04 nż
+1374	3	202284	06:01:00	06:01:00		Trembeckiego / Siemieńskiego 04 nż
+1374	3	202284	06:02:00	06:02:00		Siemieńskiego U. Skarbowy 03 nż
+1374	3	202284	06:02:00	06:02:00		Siemieńskiego U. Skarbowy 03 nż
+1374	3	202284	06:03:00	06:03:00		Siemieńskiego Dom Studenta 01 nż
+1374	3	202284	06:03:00	06:03:00		Siemieńskiego Dom Studenta 01 nż
+1374	3	202284	06:04:00	06:04:00		Żółkiewskiego / Kochanowskiego 01 nż
+1374	3	202284	06:04:00	06:04:00		Żółkiewskiego / Kochanowskiego 01 nż
+1374	3	202284	06:06:00	06:06:00		Bardowskiego 02
+1374	3	202284	06:06:00	06:06:00		Bardowskiego 02
+1374	3	202284	06:08:00	06:08:00		Pl. Wolności 04
+1374	3	202284	06:08:00	06:08:00		Pl. Wolności 04
+1374	3	202284	06:11:00	06:11:00		Cieplińskiego 02
+1374	3	202284	06:11:00	06:11:00		Cieplińskiego 02
+1374	3	202284	06:12:00	06:12:00		Lisa-Kuli 01
+1374	3	202284	06:12:00	06:12:00		Lisa-Kuli 01
+1374	3	202284	06:14:00	06:14:00		Dąbrowskiego park 02 nż
+1374	3	202284	06:14:00	06:14:00		Dąbrowskiego park 02 nż
+1374	3	202284	06:15:00	06:15:00		Dąbrowskiego KW Policji 04
+1374	3	202284	06:15:00	06:15:00		Dąbrowskiego KW Policji 04
+1374	3	202284	06:16:00	06:16:00		Dąbrowskiego / Bat. Chłopskich 10
+1374	3	202284	06:16:00	06:16:00		Dąbrowskiego / Bat. Chłopskich 10
+1374	3	202284	06:19:00	06:19:00		Podkarpacka Politechnika 02
+1374	3	202284	06:19:00	06:19:00		Podkarpacka Politechnika 02
+1374	3	202284	06:20:00	06:20:00		Podkarpacka / Matuszczaka 04
+1374	3	202284	06:20:00	06:20:00		Podkarpacka / Matuszczaka 04
+1374	3	202284	06:21:00	06:21:00		Podkarpacka / Wetlińska 06 nż
+1374	3	202284	06:21:00	06:21:00		Podkarpacka / Wetlińska 06 nż
+1374	3	202284	06:24:00	06:24:00		Zawiszy Czarnego 03 nż
+1374	3	202284	06:24:00	06:24:00		Zawiszy Czarnego 03 nż
+1374	3	202284	06:25:00	06:25:00		Zawiszy Czarnego / Podgórska 01 nż
+1374	3	202284	06:25:00	06:25:00		Zawiszy Czarnego / Podgórska 01 nż
+1374	3	202284	06:26:00	06:26:00		Architektów 01
+1374	3	202284	06:26:00	06:26:00		Architektów 01
+1374	3	202284	06:29:00	06:29:00		Przemysłowa U. Celny 05 nż
+1374	3	202284	06:29:00	06:29:00		Przemysłowa U. Celny 05 nż
+
+1364	3	198957	06:40:00	06:40:00		Przemysłowa U. Celny 05 nż
+1364	3	198957	06:40:00	06:40:00		Przemysłowa U. Celny 05 nż
+1364	3	198957	06:42:00	06:42:00		Architektów 02
+1364	3	198957	06:42:00	06:42:00		Architektów 02
+1364	3	198957	06:44:00	06:44:00		Zawiszy Czarnego / Podgórska 02 nż
+1364	3	198957	06:44:00	06:44:00		Zawiszy Czarnego / Podgórska 02 nż
+1364	3	198957	06:45:00	06:45:00		Zawiszy Czarnego 04 nż
+1364	3	198957	06:45:00	06:45:00		Zawiszy Czarnego 04 nż
+1364	3	198957	06:46:00	06:46:00		Żołnierzy 9 Dyw. Piechoty 02 nż
+1364	3	198957	06:46:00	06:46:00		Żołnierzy 9 Dyw. Piechoty 02 nż
+1364	3	198957	06:47:00	06:47:00		Żołnierzy 9 Dyw. Piechoty 01 nż
+1364	3	198957	06:47:00	06:47:00		Żołnierzy 9 Dyw. Piechoty 01 nż
+1364	3	198957	06:49:00	06:49:00		Podkarpacka / Wetlińska 05 nż
+1364	3	198957	06:49:00	06:49:00		Podkarpacka / Wetlińska 05 nż
+1364	3	198957	06:50:00	06:50:00		Podkarpacka / Matuszczaka 03
+1364	3	198957	06:50:00	06:50:00		Podkarpacka / Matuszczaka 03
+1364	3	198957	06:52:00	06:52:00		Podkarpacka Politechnika 01
+1364	3	198957	06:52:00	06:52:00		Podkarpacka Politechnika 01
+1364	3	198957	06:55:00	06:55:00		Dąbrowskiego Instytut Muzyki 07
+1364	3	198957	06:55:00	06:55:00		Dąbrowskiego Instytut Muzyki 07
+1364	3	198957	06:56:00	06:56:00		Dąbrowskiego KW Policji 03
+1364	3	198957	06:56:00	06:56:00		Dąbrowskiego KW Policji 03
+1364	3	198957	06:57:00	06:57:00		Dąbrowskiego park 01 nż
+1364	3	198957	06:57:00	06:57:00		Dąbrowskiego park 01 nż
+1364	3	198957	07:01:00	07:01:00		Lisa-Kuli 02
+1364	3	198957	07:01:00	07:01:00		Lisa-Kuli 02
+1364	3	198957	07:02:00	07:02:00		Cieplińskiego 01
+1364	3	198957	07:02:00	07:02:00		Cieplińskiego 01
+1364	3	198957	07:03:00	07:03:00		Piłsudskiego U. Wojewódzki 03
+1364	3	198957	07:03:00	07:03:00		Piłsudskiego U. Wojewódzki 03
+1364	3	198957	07:06:00	07:06:00		Bardowskiego 03
+1364	3	198957	07:06:00	07:06:00		Bardowskiego 03
+1364	3	198957	07:08:00	07:08:00		Siemieńskiego / Kochanowskiego 02 nż
+1364	3	198957	07:08:00	07:08:00		Siemieńskiego / Kochanowskiego 02 nż
+1364	3	198957	07:09:00	07:09:00		Siemieńskiego U. Skarbowy 04 nż
+1364	3	198957	07:09:00	07:09:00		Siemieńskiego U. Skarbowy 04 nż
+1364	3	198957	07:10:00	07:10:00		Trembeckiego / Siemieńskiego 07 nż
+1364	3	198957	07:10:00	07:10:00		Trembeckiego / Siemieńskiego 07 nż
+1364	3	198957	07:11:00	07:11:00		Trembeckiego ZTM pętla 01
+1364	3	198957	07:11:00	07:11:00		Trembeckiego ZTM pętla 01
+
+1374	3	200496	07:30:00	07:30:00		Trembeckiego ZTM pętla 01
+1374	3	200496	07:30:00	07:30:00		Trembeckiego ZTM pętla 01
+1374	3	200496	07:31:00	07:31:00		Trembeckiego / Siemieńskiego 04 nż
+1374	3	200496	07:31:00	07:31:00		Trembeckiego / Siemieńskiego 04 nż
+1374	3	200496	07:32:00	07:32:00		Siemieńskiego U. Skarbowy 03 nż
+1374	3	200496	07:32:00	07:32:00		Siemieńskiego U. Skarbowy 03 nż
+1374	3	200496	07:33:00	07:33:00		Siemieńskiego Dom Studenta 01 nż
+1374	3	200496	07:33:00	07:33:00		Siemieńskiego Dom Studenta 01 nż
+1374	3	200496	07:34:00	07:34:00		Żółkiewskiego / Kochanowskiego 01 nż
+1374	3	200496	07:34:00	07:34:00		Żółkiewskiego / Kochanowskiego 01 nż
+1374	3	200496	07:36:00	07:36:00		Bardowskiego 02
+1374	3	200496	07:36:00	07:36:00		Bardowskiego 02
+1374	3	200496	07:38:00	07:38:00		Pl. Wolności 04
+1374	3	200496	07:38:00	07:38:00		Pl. Wolności 04
+1374	3	200496	07:41:00	07:41:00		Cieplińskiego 02
+1374	3	200496	07:41:00	07:41:00		Cieplińskiego 02
+1374	3	200496	07:42:00	07:42:00		Lisa-Kuli 01
+1374	3	200496	07:42:00	07:42:00		Lisa-Kuli 01
+1374	3	200496	07:45:00	07:45:00		Dąbrowskiego park 02 nż
+1374	3	200496	07:45:00	07:45:00		Dąbrowskiego park 02 nż
+1374	3	200496	07:46:00	07:46:00		Dąbrowskiego KW Policji 04
+1374	3	200496	07:46:00	07:46:00		Dąbrowskiego KW Policji 04
+1374	3	200496	07:47:00	07:47:00		Dąbrowskiego / Bat. Chłopskich 10
+1374	3	200496	07:47:00	07:47:00		Dąbrowskiego / Bat. Chłopskich 10
+1374	3	200496	07:50:00	07:50:00		Podkarpacka Politechnika 02
+1374	3	200496	07:50:00	07:50:00		Podkarpacka Politechnika 02
+1374	3	200496	07:51:00	07:51:00		Podkarpacka / Matuszczaka 04
+1374	3	200496	07:51:00	07:51:00		Podkarpacka / Matuszczaka 04
+1374	3	200496	07:52:00	07:52:00		Podkarpacka / Wetlińska 06 nż
+1374	3	200496	07:52:00	07:52:00		Podkarpacka / Wetlińska 06 nż
+1374	3	200496	07:55:00	07:55:00		Zawiszy Czarnego 03 nż
+1374	3	200496	07:55:00	07:55:00		Zawiszy Czarnego 03 nż
+1374	3	200496	07:56:00	07:56:00		Zawiszy Czarnego / Podgórska 01 nż
+1374	3	200496	07:56:00	07:56:00		Zawiszy Czarnego / Podgórska 01 nż
+1374	3	200496	07:57:00	07:57:00		Architektów 01
+1374	3	200496	07:57:00	07:57:00		Architektów 01
+1374	3	200496	08:00:00	08:00:00		Przemysłowa U. Celny 05 nż
+1374	3	200496	08:00:00	08:00:00		Przemysłowa U. Celny 05 nż
+
+1364	3	199399	08:10:00	08:10:00		Przemysłowa U. Celny 05 nż
+1364	3	199399	08:10:00	08:10:00		Przemysłowa U. Celny 05 nż
+1364	3	199399	08:12:00	08:12:00		Architektów 02
+1364	3	199399	08:12:00	08:12:00		Architektów 02
+1364	3	199399	08:14:00	08:14:00		Zawiszy Czarnego / Podgórska 02 nż
+1364	3	199399	08:14:00	08:14:00		Zawiszy Czarnego / Podgórska 02 nż
+1364	3	199399	08:15:00	08:15:00		Zawiszy Czarnego 04 nż
+1364	3	199399	08:15:00	08:15:00		Zawiszy Czarnego 04 nż
+1364	3	199399	08:16:00	08:16:00		Żołnierzy 9 Dyw. Piechoty 02 nż
+1364	3	199399	08:16:00	08:16:00		Żołnierzy 9 Dyw. Piechoty 02 nż
+1364	3	199399	08:17:00	08:17:00		Żołnierzy 9 Dyw. Piechoty 01 nż
+1364	3	199399	08:17:00	08:17:00		Żołnierzy 9 Dyw. Piechoty 01 nż
+1364	3	199399	08:19:00	08:19:00		Podkarpacka / Wetlińska 05 nż
+1364	3	199399	08:19:00	08:19:00		Podkarpacka / Wetlińska 05 nż
+1364	3	199399	08:20:00	08:20:00		Podkarpacka / Matuszczaka 03
+1364	3	199399	08:20:00	08:20:00		Podkarpacka / Matuszczaka 03
+1364	3	199399	08:22:00	08:22:00		Podkarpacka Politechnika 01
+1364	3	199399	08:22:00	08:22:00		Podkarpacka Politechnika 01
+1364	3	199399	08:25:00	08:25:00		Dąbrowskiego Instytut Muzyki 07
+1364	3	199399	08:25:00	08:25:00		Dąbrowskiego Instytut Muzyki 07
+1364	3	199399	08:26:00	08:26:00		Dąbrowskiego KW Policji 03
+1364	3	199399	08:26:00	08:26:00		Dąbrowskiego KW Policji 03
+1364	3	199399	08:27:00	08:27:00		Dąbrowskiego park 01 nż
+1364	3	199399	08:27:00	08:27:00		Dąbrowskiego park 01 nż
+1364	3	199399	08:31:00	08:31:00		Lisa-Kuli 02
+1364	3	199399	08:31:00	08:31:00		Lisa-Kuli 02
+1364	3	199399	08:32:00	08:32:00		Cieplińskiego 01
+1364	3	199399	08:32:00	08:32:00		Cieplińskiego 01
+1364	3	199399	08:34:00	08:34:00		Piłsudskiego U. Wojewódzki 03
+1364	3	199399	08:34:00	08:34:00		Piłsudskiego U. Wojewódzki 03
+1364	3	199399	08:37:00	08:37:00		Bardowskiego 03
+1364	3	199399	08:37:00	08:37:00		Bardowskiego 03
+1364	3	199399	08:39:00	08:39:00		Siemieńskiego / Kochanowskiego 02 nż
+1364	3	199399	08:39:00	08:39:00		Siemieńskiego / Kochanowskiego 02 nż
+1364	3	199399	08:40:00	08:40:00		Siemieńskiego U. Skarbowy 04 nż
+1364	3	199399	08:40:00	08:40:00		Siemieńskiego U. Skarbowy 04 nż
+1364	3	199399	08:41:00	08:41:00		Trembeckiego / Siemieńskiego 07 nż
+1364	3	199399	08:41:00	08:41:00		Trembeckiego / Siemieńskiego 07 nż
+1364	3	199399	08:42:00	08:42:00		Trembeckiego ZTM pętla 01
+1364	3	199399	08:42:00	08:42:00		Trembeckiego ZTM pętla 01
+
+1374	3	201054	09:00:00	09:00:00		Trembeckiego ZTM pętla 01
+1374	3	201054	09:00:00	09:00:00		Trembeckiego ZTM pętla 01
+1374	3	201054	09:01:00	09:01:00		Trembeckiego / Siemieńskiego 04 nż
+1374	3	201054	09:01:00	09:01:00		Trembeckiego / Siemieńskiego 04 nż
+1374	3	201054	09:02:00	09:02:00		Siemieńskiego U. Skarbowy 03 nż
+1374	3	201054	09:02:00	09:02:00		Siemieńskiego U. Skarbowy 03 nż
+1374	3	201054	09:03:00	09:03:00		Siemieńskiego Dom Studenta 01 nż
+1374	3	201054	09:03:00	09:03:00		Siemieńskiego Dom Studenta 01 nż
+1374	3	201054	09:04:00	09:04:00		Żółkiewskiego / Kochanowskiego 01 nż
+1374	3	201054	09:04:00	09:04:00		Żółkiewskiego / Kochanowskiego 01 nż
+1374	3	201054	09:06:00	09:06:00		Bardowskiego 02
+1374	3	201054	09:06:00	09:06:00		Bardowskiego 02
+1374	3	201054	09:08:00	09:08:00		Pl. Wolności 04
+1374	3	201054	09:08:00	09:08:00		Pl. Wolności 04
+1374	3	201054	09:11:00	09:11:00		Cieplińskiego 02
+1374	3	201054	09:11:00	09:11:00		Cieplińskiego 02
+1374	3	201054	09:12:00	09:12:00		Lisa-Kuli 01
+1374	3	201054	09:12:00	09:12:00		Lisa-Kuli 01
+1374	3	201054	09:15:00	09:15:00		Dąbrowskiego park 02 nż
+1374	3	201054	09:15:00	09:15:00		Dąbrowskiego park 02 nż
+1374	3	201054	09:16:00	09:16:00		Dąbrowskiego KW Policji 04
+1374	3	201054	09:16:00	09:16:00		Dąbrowskiego KW Policji 04
+1374	3	201054	09:17:00	09:17:00		Dąbrowskiego / Bat. Chłopskich 10
+1374	3	201054	09:17:00	09:17:00		Dąbrowskiego / Bat. Chłopskich 10
+1374	3	201054	09:20:00	09:20:00		Podkarpacka Politechnika 02
+1374	3	201054	09:20:00	09:20:00		Podkarpacka Politechnika 02
+1374	3	201054	09:21:00	09:21:00		Podkarpacka / Matuszczaka 04
+1374	3	201054	09:21:00	09:21:00		Podkarpacka / Matuszczaka 04
+1374	3	201054	09:22:00	09:22:00		Podkarpacka / Wetlińska 06 nż
+1374	3	201054	09:22:00	09:22:00		Podkarpacka / Wetlińska 06 nż
+1374	3	201054	09:25:00	09:25:00		Zawiszy Czarnego 03 nż
+1374	3	201054	09:25:00	09:25:00		Zawiszy Czarnego 03 nż
+1374	3	201054	09:26:00	09:26:00		Zawiszy Czarnego / Podgórska 01 nż
+1374	3	201054	09:26:00	09:26:00		Zawiszy Czarnego / Podgórska 01 nż
+1374	3	201054	09:27:00	09:27:00		Architektów 01
+1374	3	201054	09:27:00	09:27:00		Architektów 01
+1374	3	201054	09:29:00	09:29:00		Przemysłowa U. Celny 05 nż
+1374	3	201054	09:29:00	09:29:00		Przemysłowa U. Celny 05 nż
+
+1364	3	202070	09:40:00	09:40:00		Przemysłowa U. Celny 05 nż
+1364	3	202070	09:40:00	09:40:00		Przemysłowa U. Celny 05 nż
+1364	3	202070	09:42:00	09:42:00		Architektów 02
+1364	3	202070	09:42:00	09:42:00		Architektów 02
+1364	3	202070	09:44:00	09:44:00		Zawiszy Czarnego / Podgórska 02 nż
+1364	3	202070	09:44:00	09:44:00		Zawiszy Czarnego / Podgórska 02 nż
+1364	3	202070	09:45:00	09:45:00		Zawiszy Czarnego 04 nż
+1364	3	202070	09:45:00	09:45:00		Zawiszy Czarnego 04 nż
+1364	3	202070	09:46:00	09:46:00		Żołnierzy 9 Dyw. Piechoty 02 nż
+1364	3	202070	09:46:00	09:46:00		Żołnierzy 9 Dyw. Piechoty 02 nż
+1364	3	202070	09:47:00	09:47:00		Żołnierzy 9 Dyw. Piechoty 01 nż
+1364	3	202070	09:47:00	09:47:00		Żołnierzy 9 Dyw. Piechoty 01 nż
+1364	3	202070	09:49:00	09:49:00		Podkarpacka / Wetlińska 05 nż
+1364	3	202070	09:49:00	09:49:00		Podkarpacka / Wetlińska 05 nż
+1364	3	202070	09:50:00	09:50:00		Podkarpacka / Matuszczaka 03
+1364	3	202070	09:50:00	09:50:00		Podkarpacka / Matuszczaka 03
+1364	3	202070	09:52:00	09:52:00		Podkarpacka Politechnika 01
+1364	3	202070	09:52:00	09:52:00		Podkarpacka Politechnika 01
+1364	3	202070	09:55:00	09:55:00		Dąbrowskiego Instytut Muzyki 07
+1364	3	202070	09:55:00	09:55:00		Dąbrowskiego Instytut Muzyki 07
+1364	3	202070	09:56:00	09:56:00		Dąbrowskiego KW Policji 03
+1364	3	202070	09:56:00	09:56:00		Dąbrowskiego KW Policji 03
+1364	3	202070	09:57:00	09:57:00		Dąbrowskiego park 01 nż
+1364	3	202070	09:57:00	09:57:00		Dąbrowskiego park 01 nż
+1364	3	202070	10:01:00	10:01:00		Lisa-Kuli 02
+1364	3	202070	10:01:00	10:01:00		Lisa-Kuli 02
+1364	3	202070	10:02:00	10:02:00		Cieplińskiego 01
+1364	3	202070	10:02:00	10:02:00		Cieplińskiego 01
+1364	3	202070	10:04:00	10:04:00		Piłsudskiego U. Wojewódzki 03
+1364	3	202070	10:04:00	10:04:00		Piłsudskiego U. Wojewódzki 03
+1364	3	202070	10:07:00	10:07:00		Bardowskiego 03
+1364	3	202070	10:07:00	10:07:00		Bardowskiego 03
+1364	3	202070	10:09:00	10:09:00		Siemieńskiego / Kochanowskiego 02 nż
+1364	3	202070	10:09:00	10:09:00		Siemieńskiego / Kochanowskiego 02 nż
+1364	3	202070	10:10:00	10:10:00		Siemieńskiego U. Skarbowy 04 nż
+1364	3	202070	10:10:00	10:10:00		Siemieńskiego U. Skarbowy 04 nż
+1364	3	202070	10:11:00	10:11:00		Trembeckiego / Siemieńskiego 07 nż
+1364	3	202070	10:11:00	10:11:00		Trembeckiego / Siemieńskiego 07 nż
+1364	3	202070	10:12:00	10:12:00		Trembeckiego ZTM pętla 01
+1364	3	202070	10:12:00	10:12:00		Trembeckiego ZTM pętla 01
+
+1374	3	200887	14:30:00	14:30:00		Trembeckiego ZTM pętla 01
+1374	3	200887	14:30:00	14:30:00		Trembeckiego ZTM pętla 01
+1374	3	200887	14:31:00	14:31:00		Trembeckiego / Siemieńskiego 04 nż
+1374	3	200887	14:31:00	14:31:00		Trembeckiego / Siemieńskiego 04 nż
+1374	3	200887	14:32:00	14:32:00		Siemieńskiego U. Skarbowy 03 nż
+1374	3	200887	14:32:00	14:32:00		Siemieńskiego U. Skarbowy 03 nż
+1374	3	200887	14:33:00	14:33:00		Siemieńskiego Dom Studenta 01 nż
+1374	3	200887	14:33:00	14:33:00		Siemieńskiego Dom Studenta 01 nż
+1374	3	200887	14:34:00	14:34:00		Żółkiewskiego / Kochanowskiego 01 nż
+1374	3	200887	14:34:00	14:34:00		Żółkiewskiego / Kochanowskiego 01 nż
+1374	3	200887	14:36:00	14:36:00		Bardowskiego 02
+1374	3	200887	14:36:00	14:36:00		Bardowskiego 02
+1374	3	200887	14:39:00	14:39:00		Pl. Wolności 04
+1374	3	200887	14:39:00	14:39:00		Pl. Wolności 04
+1374	3	200887	14:45:00	14:45:00		Cieplińskiego 02
+1374	3	200887	14:45:00	14:45:00		Cieplińskiego 02
+1374	3	200887	14:46:00	14:46:00		Lisa-Kuli 01
+1374	3	200887	14:46:00	14:46:00		Lisa-Kuli 01
+1374	3	200887	14:50:00	14:50:00		Dąbrowskiego park 02 nż
+1374	3	200887	14:50:00	14:50:00		Dąbrowskiego park 02 nż
+1374	3	200887	14:51:00	14:51:00		Dąbrowskiego KW Policji 04
+1374	3	200887	14:51:00	14:51:00		Dąbrowskiego KW Policji 04
+1374	3	200887	14:52:00	14:52:00		Dąbrowskiego / Bat. Chłopskich 10
+1374	3	200887	14:52:00	14:52:00		Dąbrowskiego / Bat. Chłopskich 10
+1374	3	200887	14:57:00	14:57:00		Podkarpacka Politechnika 02
+1374	3	200887	14:57:00	14:57:00		Podkarpacka Politechnika 02
+1374	3	200887	14:58:00	14:58:00		Podkarpacka / Matuszczaka 04
+1374	3	200887	14:58:00	14:58:00		Podkarpacka / Matuszczaka 04
+1374	3	200887	14:59:00	14:59:00		Podkarpacka / Wetlińska 06 nż
+1374	3	200887	14:59:00	14:59:00		Podkarpacka / Wetlińska 06 nż
+1374	3	200887	15:02:00	15:02:00		Zawiszy Czarnego 03 nż
+1374	3	200887	15:02:00	15:02:00		Zawiszy Czarnego 03 nż
+1374	3	200887	15:03:00	15:03:00		Zawiszy Czarnego / Podgórska 01 nż
+1374	3	200887	15:03:00	15:03:00		Zawiszy Czarnego / Podgórska 01 nż
+1374	3	200887	15:04:00	15:04:00		Architektów 01
+1374	3	200887	15:04:00	15:04:00		Architektów 01
+1374	3	200887	15:07:00	15:07:00		Przemysłowa U. Celny 05 nż
+1374	3	200887	15:07:00	15:07:00		Przemysłowa U. Celny 05 nż
+
+1364	3	200714	15:10:00	15:10:00		Przemysłowa U. Celny 05 nż
+1364	3	200714	15:10:00	15:10:00		Przemysłowa U. Celny 05 nż
+1364	3	200714	15:12:00	15:12:00		Architektów 02
+1364	3	200714	15:12:00	15:12:00		Architektów 02
+1364	3	200714	15:14:00	15:14:00		Zawiszy Czarnego / Podgórska 02 nż
+1364	3	200714	15:14:00	15:14:00		Zawiszy Czarnego / Podgórska 02 nż
+1364	3	200714	15:15:00	15:15:00		Zawiszy Czarnego 04 nż
+1364	3	200714	15:15:00	15:15:00		Zawiszy Czarnego 04 nż
+1364	3	200714	15:16:00	15:16:00		Żołnierzy 9 Dyw. Piechoty 02 nż
+1364	3	200714	15:16:00	15:16:00		Żołnierzy 9 Dyw. Piechoty 02 nż
+1364	3	200714	15:17:00	15:17:00		Żołnierzy 9 Dyw. Piechoty 01 nż
+1364	3	200714	15:17:00	15:17:00		Żołnierzy 9 Dyw. Piechoty 01 nż
+1364	3	200714	15:19:00	15:19:00		Podkarpacka / Wetlińska 05 nż
+1364	3	200714	15:19:00	15:19:00		Podkarpacka / Wetlińska 05 nż
+1364	3	200714	15:20:00	15:20:00		Podkarpacka / Matuszczaka 03
+1364	3	200714	15:20:00	15:20:00		Podkarpacka / Matuszczaka 03
+1364	3	200714	15:24:00	15:24:00		Podkarpacka Politechnika 01
+1364	3	200714	15:24:00	15:24:00		Podkarpacka Politechnika 01
+1364	3	200714	15:28:00	15:28:00		Dąbrowskiego Instytut Muzyki 07
+1364	3	200714	15:28:00	15:28:00		Dąbrowskiego Instytut Muzyki 07
+1364	3	200714	15:29:00	15:29:00		Dąbrowskiego KW Policji 03
+1364	3	200714	15:29:00	15:29:00		Dąbrowskiego KW Policji 03
+1364	3	200714	15:30:00	15:30:00		Dąbrowskiego park 01 nż
+1364	3	200714	15:30:00	15:30:00		Dąbrowskiego park 01 nż
+1364	3	200714	15:37:00	15:37:00		Lisa-Kuli 02
+1364	3	200714	15:37:00	15:37:00		Lisa-Kuli 02
+1364	3	200714	15:38:00	15:38:00		Cieplińskiego 01
+1364	3	200714	15:38:00	15:38:00		Cieplińskiego 01
+1364	3	200714	15:40:00	15:40:00		Piłsudskiego U. Wojewódzki 03
+1364	3	200714	15:40:00	15:40:00		Piłsudskiego U. Wojewódzki 03
+1364	3	200714	15:45:00	15:45:00		Bardowskiego 03
+1364	3	200714	15:45:00	15:45:00		Bardowskiego 03
+1364	3	200714	15:47:00	15:47:00		Siemieńskiego / Kochanowskiego 02 nż
+1364	3	200714	15:47:00	15:47:00		Siemieńskiego / Kochanowskiego 02 nż
+1364	3	200714	15:48:00	15:48:00		Siemieńskiego U. Skarbowy 04 nż
+1364	3	200714	15:48:00	15:48:00		Siemieńskiego U. Skarbowy 04 nż
+1364	3	200714	15:49:00	15:49:00		Trembeckiego / Siemieńskiego 07 nż
+1364	3	200714	15:49:00	15:49:00		Trembeckiego / Siemieńskiego 07 nż
+1364	3	200714	15:50:00	15:50:00		Trembeckiego ZTM pętla 01
+1364	3	200714	15:50:00	15:50:00		Trembeckiego ZTM pętla 01
+
+1374	3	203027	16:00:00	16:00:00		Trembeckiego ZTM pętla 01
+1374	3	203027	16:00:00	16:00:00		Trembeckiego ZTM pętla 01
+1374	3	203027	16:01:00	16:01:00		Trembeckiego / Siemieńskiego 04 nż
+1374	3	203027	16:01:00	16:01:00		Trembeckiego / Siemieńskiego 04 nż
+1374	3	203027	16:02:00	16:02:00		Siemieńskiego U. Skarbowy 03 nż
+1374	3	203027	16:02:00	16:02:00		Siemieńskiego U. Skarbowy 03 nż
+1374	3	203027	16:03:00	16:03:00		Siemieńskiego Dom Studenta 01 nż
+1374	3	203027	16:03:00	16:03:00		Siemieńskiego Dom Studenta 01 nż
+1374	3	203027	16:04:00	16:04:00		Żółkiewskiego / Kochanowskiego 01 nż
+1374	3	203027	16:04:00	16:04:00		Żółkiewskiego / Kochanowskiego 01 nż
+1374	3	203027	16:06:00	16:06:00		Bardowskiego 02
+1374	3	203027	16:06:00	16:06:00		Bardowskiego 02
+1374	3	203027	16:09:00	16:09:00		Pl. Wolności 04
+1374	3	203027	16:09:00	16:09:00		Pl. Wolności 04
+1374	3	203027	16:15:00	16:15:00		Cieplińskiego 02
+1374	3	203027	16:15:00	16:15:00		Cieplińskiego 02
+1374	3	203027	16:16:00	16:16:00		Lisa-Kuli 01
+1374	3	203027	16:16:00	16:16:00		Lisa-Kuli 01
+1374	3	203027	16:20:00	16:20:00		Dąbrowskiego park 02 nż
+1374	3	203027	16:20:00	16:20:00		Dąbrowskiego park 02 nż
+1374	3	203027	16:21:00	16:21:00		Dąbrowskiego KW Policji 04
+1374	3	203027	16:21:00	16:21:00		Dąbrowskiego KW Policji 04
+1374	3	203027	16:22:00	16:22:00		Dąbrowskiego / Bat. Chłopskich 10
+1374	3	203027	16:22:00	16:22:00		Dąbrowskiego / Bat. Chłopskich 10
+1374	3	203027	16:27:00	16:27:00		Podkarpacka Politechnika 02
+1374	3	203027	16:27:00	16:27:00		Podkarpacka Politechnika 02
+1374	3	203027	16:28:00	16:28:00		Podkarpacka / Matuszczaka 04
+1374	3	203027	16:28:00	16:28:00		Podkarpacka / Matuszczaka 04
+1374	3	203027	16:29:00	16:29:00		Podkarpacka / Wetlińska 06 nż
+1374	3	203027	16:29:00	16:29:00		Podkarpacka / Wetlińska 06 nż
+1374	3	203027	16:32:00	16:32:00		Zawiszy Czarnego 03 nż
+1374	3	203027	16:32:00	16:32:00		Zawiszy Czarnego 03 nż
+1374	3	203027	16:33:00	16:33:00		Zawiszy Czarnego / Podgórska 01 nż
+1374	3	203027	16:33:00	16:33:00		Zawiszy Czarnego / Podgórska 01 nż
+1374	3	203027	16:34:00	16:34:00		Architektów 01
+1374	3	203027	16:34:00	16:34:00		Architektów 01
+1374	3	203027	16:37:00	16:37:00		Przemysłowa U. Celny 05 nż
+1374	3	203027	16:37:00	16:37:00		Przemysłowa U. Celny 05 nż
+
+1364	3	202902	16:40:00	16:40:00		Przemysłowa U. Celny 05 nż
+1364	3	202902	16:40:00	16:40:00		Przemysłowa U. Celny 05 nż
+1364	3	202902	16:42:00	16:42:00		Architektów 02
+1364	3	202902	16:42:00	16:42:00		Architektów 02
+1364	3	202902	16:44:00	16:44:00		Zawiszy Czarnego / Podgórska 02 nż
+1364	3	202902	16:44:00	16:44:00		Zawiszy Czarnego / Podgórska 02 nż
+1364	3	202902	16:45:00	16:45:00		Zawiszy Czarnego 04 nż
+1364	3	202902	16:45:00	16:45:00		Zawiszy Czarnego 04 nż
+1364	3	202902	16:46:00	16:46:00		Żołnierzy 9 Dyw. Piechoty 02 nż
+1364	3	202902	16:46:00	16:46:00		Żołnierzy 9 Dyw. Piechoty 02 nż
+1364	3	202902	16:47:00	16:47:00		Żołnierzy 9 Dyw. Piechoty 01 nż
+1364	3	202902	16:47:00	16:47:00		Żołnierzy 9 Dyw. Piechoty 01 nż
+1364	3	202902	16:49:00	16:49:00		Podkarpacka / Wetlińska 05 nż
+1364	3	202902	16:49:00	16:49:00		Podkarpacka / Wetlińska 05 nż
+1364	3	202902	16:50:00	16:50:00		Podkarpacka / Matuszczaka 03
+1364	3	202902	16:50:00	16:50:00		Podkarpacka / Matuszczaka 03
+1364	3	202902	16:52:00	16:52:00		Podkarpacka Politechnika 01
+1364	3	202902	16:52:00	16:52:00		Podkarpacka Politechnika 01
+1364	3	202902	16:55:00	16:55:00		Dąbrowskiego Instytut Muzyki 07
+1364	3	202902	16:55:00	16:55:00		Dąbrowskiego Instytut Muzyki 07
+1364	3	202902	16:56:00	16:56:00		Dąbrowskiego KW Policji 03
+1364	3	202902	16:56:00	16:56:00		Dąbrowskiego KW Policji 03
+1364	3	202902	16:57:00	16:57:00		Dąbrowskiego park 01 nż
+1364	3	202902	16:57:00	16:57:00		Dąbrowskiego park 01 nż
+1364	3	202902	17:02:00	17:02:00		Lisa-Kuli 02
+1364	3	202902	17:02:00	17:02:00		Lisa-Kuli 02
+1364	3	202902	17:03:00	17:03:00		Cieplińskiego 01
+1364	3	202902	17:03:00	17:03:00		Cieplińskiego 01
+1364	3	202902	17:05:00	17:05:00		Piłsudskiego U. Wojewódzki 03
+1364	3	202902	17:05:00	17:05:00		Piłsudskiego U. Wojewódzki 03
+1364	3	202902	17:08:00	17:08:00		Bardowskiego 03
+1364	3	202902	17:08:00	17:08:00		Bardowskiego 03
+1364	3	202902	17:10:00	17:10:00		Siemieńskiego / Kochanowskiego 02 nż
+1364	3	202902	17:10:00	17:10:00		Siemieńskiego / Kochanowskiego 02 nż
+1364	3	202902	17:11:00	17:11:00		Siemieńskiego U. Skarbowy 04 nż
+1364	3	202902	17:11:00	17:11:00		Siemieńskiego U. Skarbowy 04 nż
+1364	3	202902	17:12:00	17:12:00		Trembeckiego / Siemieńskiego 07 nż
+1364	3	202902	17:12:00	17:12:00		Trembeckiego / Siemieńskiego 07 nż
+1364	3	202902	17:13:00	17:13:00		Trembeckiego ZTM pętla 01
+1364	3	202902	17:13:00	17:13:00		Trembeckiego ZTM pętla 01
+
+1374	3	202980	17:30:00	17:30:00		Trembeckiego ZTM pętla 01
+1374	3	202980	17:30:00	17:30:00		Trembeckiego ZTM pętla 01
+1374	3	202980	17:31:00	17:31:00		Trembeckiego / Siemieńskiego 04 nż
+1374	3	202980	17:31:00	17:31:00		Trembeckiego / Siemieńskiego 04 nż
+1374	3	202980	17:32:00	17:32:00		Siemieńskiego U. Skarbowy 03 nż
+1374	3	202980	17:32:00	17:32:00		Siemieńskiego U. Skarbowy 03 nż
+1374	3	202980	17:33:00	17:33:00		Siemieńskiego Dom Studenta 01 nż
+1374	3	202980	17:33:00	17:33:00		Siemieńskiego Dom Studenta 01 nż
+1374	3	202980	17:34:00	17:34:00		Żółkiewskiego / Kochanowskiego 01 nż
+1374	3	202980	17:34:00	17:34:00		Żółkiewskiego / Kochanowskiego 01 nż
+1374	3	202980	17:36:00	17:36:00		Bardowskiego 02
+1374	3	202980	17:36:00	17:36:00		Bardowskiego 02
+1374	3	202980	17:38:00	17:38:00		Pl. Wolności 04
+1374	3	202980	17:38:00	17:38:00		Pl. Wolności 04
+1374	3	202980	17:42:00	17:42:00		Cieplińskiego 02
+1374	3	202980	17:42:00	17:42:00		Cieplińskiego 02
+1374	3	202980	17:43:00	17:43:00		Lisa-Kuli 01
+1374	3	202980	17:43:00	17:43:00		Lisa-Kuli 01
+1374	3	202980	17:46:00	17:46:00		Dąbrowskiego park 02 nż
+1374	3	202980	17:46:00	17:46:00		Dąbrowskiego park 02 nż
+1374	3	202980	17:47:00	17:47:00		Dąbrowskiego KW Policji 04
+1374	3	202980	17:47:00	17:47:00		Dąbrowskiego KW Policji 04
+1374	3	202980	17:48:00	17:48:00		Dąbrowskiego / Bat. Chłopskich 10
+1374	3	202980	17:48:00	17:48:00		Dąbrowskiego / Bat. Chłopskich 10
+1374	3	202980	17:52:00	17:52:00		Podkarpacka Politechnika 02
+1374	3	202980	17:52:00	17:52:00		Podkarpacka Politechnika 02
+1374	3	202980	17:53:00	17:53:00		Podkarpacka / Matuszczaka 04
+1374	3	202980	17:53:00	17:53:00		Podkarpacka / Matuszczaka 04
+1374	3	202980	17:54:00	17:54:00		Podkarpacka / Wetlińska 06 nż
+1374	3	202980	17:54:00	17:54:00		Podkarpacka / Wetlińska 06 nż
+1374	3	202980	17:57:00	17:57:00		Zawiszy Czarnego 03 nż
+1374	3	202980	17:57:00	17:57:00		Zawiszy Czarnego 03 nż
+1374	3	202980	17:58:00	17:58:00		Zawiszy Czarnego / Podgórska 01 nż
+1374	3	202980	17:58:00	17:58:00		Zawiszy Czarnego / Podgórska 01 nż
+1374	3	202980	17:59:00	17:59:00		Architektów 01
+1374	3	202980	17:59:00	17:59:00		Architektów 01
+1374	3	202980	18:02:00	18:02:00		Przemysłowa U. Celny 05 nż
+1374	3	202980	18:02:00	18:02:00		Przemysłowa U. Celny 05 nż
+
+1364	3	198619	18:10:00	18:10:00		Przemysłowa U. Celny 05 nż
+1364	3	198619	18:10:00	18:10:00		Przemysłowa U. Celny 05 nż
+1364	3	198619	18:12:00	18:12:00		Architektów 02
+1364	3	198619	18:12:00	18:12:00		Architektów 02
+1364	3	198619	18:14:00	18:14:00		Zawiszy Czarnego / Podgórska 02 nż
+1364	3	198619	18:14:00	18:14:00		Zawiszy Czarnego / Podgórska 02 nż
+1364	3	198619	18:15:00	18:15:00		Zawiszy Czarnego 04 nż
+1364	3	198619	18:15:00	18:15:00		Zawiszy Czarnego 04 nż
+1364	3	198619	18:16:00	18:16:00		Żołnierzy 9 Dyw. Piechoty 02 nż
+1364	3	198619	18:16:00	18:16:00		Żołnierzy 9 Dyw. Piechoty 02 nż
+1364	3	198619	18:17:00	18:17:00		Żołnierzy 9 Dyw. Piechoty 01 nż
+1364	3	198619	18:17:00	18:17:00		Żołnierzy 9 Dyw. Piechoty 01 nż
+1364	3	198619	18:19:00	18:19:00		Podkarpacka / Wetlińska 05 nż
+1364	3	198619	18:19:00	18:19:00		Podkarpacka / Wetlińska 05 nż
+1364	3	198619	18:20:00	18:20:00		Podkarpacka / Matuszczaka 03
+1364	3	198619	18:20:00	18:20:00		Podkarpacka / Matuszczaka 03
+1364	3	198619	18:22:00	18:22:00		Podkarpacka Politechnika 01
+1364	3	198619	18:22:00	18:22:00		Podkarpacka Politechnika 01
+1364	3	198619	18:25:00	18:25:00		Dąbrowskiego Instytut Muzyki 07
+1364	3	198619	18:25:00	18:25:00		Dąbrowskiego Instytut Muzyki 07
+1364	3	198619	18:26:00	18:26:00		Dąbrowskiego KW Policji 03
+1364	3	198619	18:26:00	18:26:00		Dąbrowskiego KW Policji 03
+1364	3	198619	18:27:00	18:27:00		Dąbrowskiego park 01 nż
+1364	3	198619	18:27:00	18:27:00		Dąbrowskiego park 01 nż
+1364	3	198619	18:32:00	18:32:00		Lisa-Kuli 02
+1364	3	198619	18:32:00	18:32:00		Lisa-Kuli 02
+1364	3	198619	18:33:00	18:33:00		Cieplińskiego 01
+1364	3	198619	18:33:00	18:33:00		Cieplińskiego 01
+1364	3	198619	18:35:00	18:35:00		Piłsudskiego U. Wojewódzki 03
+1364	3	198619	18:35:00	18:35:00		Piłsudskiego U. Wojewódzki 03
+1364	3	198619	18:38:00	18:38:00		Bardowskiego 03
+1364	3	198619	18:38:00	18:38:00		Bardowskiego 03
+1364	3	198619	18:40:00	18:40:00		Siemieńskiego / Kochanowskiego 02 nż
+1364	3	198619	18:40:00	18:40:00		Siemieńskiego / Kochanowskiego 02 nż
+1364	3	198619	18:41:00	18:41:00		Siemieńskiego U. Skarbowy 04 nż
+1364	3	198619	18:41:00	18:41:00		Siemieńskiego U. Skarbowy 04 nż
+1364	3	198619	18:42:00	18:42:00		Trembeckiego / Siemieńskiego 07 nż
+1364	3	198619	18:42:00	18:42:00		Trembeckiego / Siemieńskiego 07 nż
+1364	3	198619	18:43:00	18:43:00		Trembeckiego ZTM pętla 01
+1364	3	198619	18:43:00	18:43:00		Trembeckiego ZTM pętla 01

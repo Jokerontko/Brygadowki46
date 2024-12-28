@@ -1,493 +1,262 @@
 route_id	service_id	trip_id	arrival_time	departure_time	stop_headsign	stop_name
 -------------------------------------------------------------------------------
-1098	2	175557	13:24:00	13:24:00		Pl. Wolności 04
-1098	2	175557	13:27:00	13:27:00		Piłsudskiego U. Marszałkowski 08
-1098	2	175557	13:27:00	13:27:00		Piłsudskiego U. Marszałkowski 08
-1098	2	175557	13:29:00	13:29:00		Krakowska Jedn. Wojskowa 02
-1098	2	175557	13:29:00	13:29:00		Krakowska Jedn. Wojskowa 02
-1098	2	175557	13:31:00	13:31:00		Witosa / Solarza 07 nż
-1098	2	175557	13:31:00	13:31:00		Witosa / Solarza 07 nż
-1098	2	175557	13:32:00	13:32:00		Witosa / Wiktora 05 nż
-1098	2	175557	13:32:00	13:32:00		Witosa / Wiktora 05 nż
-1098	2	175557	13:34:00	13:34:00		Wyspiańskiego stadion 01 nż
-1098	2	175557	13:34:00	13:34:00		Wyspiańskiego stadion 01 nż
-1098	2	175557	13:35:00	13:35:00		Wita Stwosza / Wyspiańskiego 05 nż
-1098	2	175557	13:35:00	13:35:00		Wita Stwosza / Wyspiańskiego 05 nż
-1098	2	175557	13:36:00	13:36:00		Wita Stwosza kościół 03
-1098	2	175557	13:36:00	13:36:00		Wita Stwosza kościół 03
-1098	2	175557	13:37:00	13:37:00		Langiewicza / Wita Stwosza 04
-1098	2	175557	13:37:00	13:37:00		Langiewicza / Wita Stwosza 04
-1098	2	175557	13:39:00	13:39:00		Bat. Chłopskich / Staroniwska 05 nż
-1098	2	175557	13:39:00	13:39:00		Bat. Chłopskich / Staroniwska 05 nż
-1098	2	175557	13:40:00	13:40:00		Przemysłowa / Bat. Chłopskich 02 nż
-1098	2	175557	13:40:00	13:40:00		Przemysłowa / Bat. Chłopskich 02 nż
-1098	2	175557	13:41:00	13:41:00		Przemysłowa / Magazynowa 04
-1098	2	175557	13:41:00	13:41:00		Przemysłowa / Magazynowa 04
-1098	2	175557	13:43:00	13:43:00		Przemysłowa U. Celny 05 nż
-1098	2	175557	13:43:00	13:43:00		Przemysłowa U. Celny 05 nż
+1098	1	207227	13:24:00	13:24:00		Pl. Wolności 04
+1098	1	207227	13:27:00	13:27:00		Piłsudskiego U. Marszałkowski 08
+1098	1	207227	13:27:00	13:27:00		Piłsudskiego U. Marszałkowski 08
+1098	1	207227	13:29:00	13:29:00		Krakowska Jedn. Wojskowa 02
+1098	1	207227	13:29:00	13:29:00		Krakowska Jedn. Wojskowa 02
+1098	1	207227	13:31:00	13:31:00		Witosa / Solarza 07 nż
+1098	1	207227	13:31:00	13:31:00		Witosa / Solarza 07 nż
+1098	1	207227	13:32:00	13:32:00		Witosa / Wiktora 05 nż
+1098	1	207227	13:32:00	13:32:00		Witosa / Wiktora 05 nż
+1098	1	207227	13:34:00	13:34:00		Wyspiańskiego stadion 01 nż
+1098	1	207227	13:34:00	13:34:00		Wyspiańskiego stadion 01 nż
+1098	1	207227	13:35:00	13:35:00		Wita Stwosza / Wyspiańskiego 05 nż
+1098	1	207227	13:35:00	13:35:00		Wita Stwosza / Wyspiańskiego 05 nż
+1098	1	207227	13:36:00	13:36:00		Wita Stwosza kościół 03
+1098	1	207227	13:36:00	13:36:00		Wita Stwosza kościół 03
+1098	1	207227	13:37:00	13:37:00		Langiewicza / Wita Stwosza 04
+1098	1	207227	13:37:00	13:37:00		Langiewicza / Wita Stwosza 04
+1098	1	207227	13:39:00	13:39:00		Bat. Chłopskich / Staroniwska 05 nż
+1098	1	207227	13:39:00	13:39:00		Bat. Chłopskich / Staroniwska 05 nż
+1098	1	207227	13:40:00	13:40:00		Przemysłowa / Bat. Chłopskich 02 nż
+1098	1	207227	13:40:00	13:40:00		Przemysłowa / Bat. Chłopskich 02 nż
+1098	1	207227	13:41:00	13:41:00		Przemysłowa / Magazynowa 04
+1098	1	207227	13:41:00	13:41:00		Przemysłowa / Magazynowa 04
+1098	1	207227	13:43:00	13:43:00		Przemysłowa U. Celny 05 nż
+1098	1	207227	13:43:00	13:43:00		Przemysłowa U. Celny 05 nż
 
-1101	2	176833	14:03:00	14:03:00		Przemysłowa U. Celny 05 nż
-1101	2	176833	14:03:00	14:03:00		Przemysłowa U. Celny 05 nż
-1101	2	176833	14:04:00	14:04:00		Przemysłowa / Architektów 03
-1101	2	176833	14:04:00	14:04:00		Przemysłowa / Architektów 03
-1101	2	176833	14:05:00	14:05:00		Przemysłowa / Bat. Chłopskich 01 nż
-1101	2	176833	14:05:00	14:05:00		Przemysłowa / Bat. Chłopskich 01 nż
-1101	2	176833	14:07:00	14:07:00		Bat. Chłopskich / Langiewicza 04 nż
-1101	2	176833	14:07:00	14:07:00		Bat. Chłopskich / Langiewicza 04 nż
-1101	2	176833	14:08:00	14:08:00		Langiewicza / Wita Stwosza 05 nż
-1101	2	176833	14:08:00	14:08:00		Langiewicza / Wita Stwosza 05 nż
-1101	2	176833	14:09:00	14:09:00		Wita Stwosza / Langiewicza 02
-1101	2	176833	14:09:00	14:09:00		Wita Stwosza / Langiewicza 02
-1101	2	176833	14:10:00	14:10:00		Wita Stwosza kościół 04
-1101	2	176833	14:10:00	14:10:00		Wita Stwosza kościół 04
-1101	2	176833	14:11:00	14:11:00		Wita Stwosza / Wyspiańskiego 06 nż
-1101	2	176833	14:11:00	14:11:00		Wita Stwosza / Wyspiańskiego 06 nż
-1101	2	176833	14:12:00	14:12:00		Wyspiańskiego stadion 02 nż
-1101	2	176833	14:12:00	14:12:00		Wyspiańskiego stadion 02 nż
-1101	2	176833	14:13:00	14:13:00		Witosa / Wyspiańskiego 06 nż
-1101	2	176833	14:13:00	14:13:00		Witosa / Wyspiańskiego 06 nż
-1101	2	176833	14:14:00	14:14:00		Witosa Jedn. Wojskowa 08 nż
-1101	2	176833	14:14:00	14:14:00		Witosa Jedn. Wojskowa 08 nż
-1101	2	176833	14:16:00	14:16:00		Krakowska Jedn. Wojskowa 01
-1101	2	176833	14:16:00	14:16:00		Krakowska Jedn. Wojskowa 01
-1101	2	176833	14:19:00	14:19:00		Piłsudskiego U. Wojewódzki 03
-1101	2	176833	14:19:00	14:19:00		Piłsudskiego U. Wojewódzki 03
-1101	2	176833	14:20:00	14:20:00		Pl. Wolności 01
-1101	2	176833	14:20:00	14:20:00		Pl. Wolności 01
-1101	2	176833	14:23:00	14:23:00		Rejtana / Lwowska 01
-1101	2	176833	14:23:00	14:23:00		Rejtana / Lwowska 01
-1101	2	176833	14:24:00	14:24:00		Rejtana / Kustronia 03 nż
-1101	2	176833	14:24:00	14:24:00		Rejtana / Kustronia 03 nż
-1101	2	176833	14:25:00	14:25:00		Rejtana Uniwersytet 05
-1101	2	176833	14:25:00	14:25:00		Rejtana Uniwersytet 05
-1101	2	176833	14:27:00	14:27:00		Rejtana / Kopisto 07
-1101	2	176833	14:27:00	14:27:00		Rejtana / Kopisto 07
-1101	2	176833	14:31:00	14:31:00		Paderewskiego / Ossolińskich 02 nż
-1101	2	176833	14:31:00	14:31:00		Paderewskiego / Ossolińskich 02 nż
-1101	2	176833	14:32:00	14:32:00		Krzyżanowskiego szkoła 01 nż
-1101	2	176833	14:32:00	14:32:00		Krzyżanowskiego szkoła 01 nż
-1101	2	176833	14:34:00	14:34:00		Niepodległości Dom Dziecka 04 nż
-1101	2	176833	14:34:00	14:34:00		Niepodległości Dom Dziecka 04 nż
-1101	2	176833	14:36:00	14:36:00		Mieszka I / Kustronia 01 nż
-1101	2	176833	14:36:00	14:36:00		Mieszka I / Kustronia 01 nż
-1101	2	176833	14:43:00	14:43:00		Lwowska cmentarz 04
-1101	2	176833	14:43:00	14:43:00		Lwowska cmentarz 04
-1101	2	176833	14:47:00	14:47:00		Lwowska szpital pętla 02
-1101	2	176833	14:47:00	14:47:00		Lwowska szpital pętla 02
+1101	1	205431	14:03:00	14:03:00		Przemysłowa U. Celny 05 nż
+1101	1	205431	14:03:00	14:03:00		Przemysłowa U. Celny 05 nż
+1101	1	205431	14:04:00	14:04:00		Przemysłowa / Architektów 03
+1101	1	205431	14:04:00	14:04:00		Przemysłowa / Architektów 03
+1101	1	205431	14:05:00	14:05:00		Przemysłowa / Bat. Chłopskich 01 nż
+1101	1	205431	14:05:00	14:05:00		Przemysłowa / Bat. Chłopskich 01 nż
+1101	1	205431	14:07:00	14:07:00		Bat. Chłopskich / Langiewicza 04 nż
+1101	1	205431	14:07:00	14:07:00		Bat. Chłopskich / Langiewicza 04 nż
+1101	1	205431	14:08:00	14:08:00		Langiewicza / Wita Stwosza 05 nż
+1101	1	205431	14:08:00	14:08:00		Langiewicza / Wita Stwosza 05 nż
+1101	1	205431	14:09:00	14:09:00		Wita Stwosza / Langiewicza 02
+1101	1	205431	14:09:00	14:09:00		Wita Stwosza / Langiewicza 02
+1101	1	205431	14:10:00	14:10:00		Wita Stwosza kościół 04
+1101	1	205431	14:10:00	14:10:00		Wita Stwosza kościół 04
+1101	1	205431	14:11:00	14:11:00		Wita Stwosza / Wyspiańskiego 06 nż
+1101	1	205431	14:11:00	14:11:00		Wita Stwosza / Wyspiańskiego 06 nż
+1101	1	205431	14:12:00	14:12:00		Wyspiańskiego stadion 02 nż
+1101	1	205431	14:12:00	14:12:00		Wyspiańskiego stadion 02 nż
+1101	1	205431	14:13:00	14:13:00		Witosa / Wyspiańskiego 06 nż
+1101	1	205431	14:13:00	14:13:00		Witosa / Wyspiańskiego 06 nż
+1101	1	205431	14:14:00	14:14:00		Witosa Jedn. Wojskowa 08 nż
+1101	1	205431	14:14:00	14:14:00		Witosa Jedn. Wojskowa 08 nż
+1101	1	205431	14:16:00	14:16:00		Krakowska Jedn. Wojskowa 01
+1101	1	205431	14:16:00	14:16:00		Krakowska Jedn. Wojskowa 01
+1101	1	205431	14:19:00	14:19:00		Piłsudskiego U. Wojewódzki 03
+1101	1	205431	14:19:00	14:19:00		Piłsudskiego U. Wojewódzki 03
+1101	1	205431	14:20:00	14:20:00		Pl. Wolności 01
+1101	1	205431	14:20:00	14:20:00		Pl. Wolności 01
+1101	1	205431	14:23:00	14:23:00		Rejtana / Lwowska 01
+1101	1	205431	14:23:00	14:23:00		Rejtana / Lwowska 01
+1101	1	205431	14:24:00	14:24:00		Rejtana / Kustronia 03 nż
+1101	1	205431	14:24:00	14:24:00		Rejtana / Kustronia 03 nż
+1101	1	205431	14:25:00	14:25:00		Rejtana Uniwersytet 05
+1101	1	205431	14:25:00	14:25:00		Rejtana Uniwersytet 05
+1101	1	205431	14:27:00	14:27:00		Rejtana / Kopisto 07
+1101	1	205431	14:27:00	14:27:00		Rejtana / Kopisto 07
+1101	1	205431	14:31:00	14:31:00		Paderewskiego / Ossolińskich 02 nż
+1101	1	205431	14:31:00	14:31:00		Paderewskiego / Ossolińskich 02 nż
+1101	1	205431	14:32:00	14:32:00		Krzyżanowskiego szkoła 01 nż
+1101	1	205431	14:32:00	14:32:00		Krzyżanowskiego szkoła 01 nż
+1101	1	205431	14:34:00	14:34:00		Niepodległości Dom Dziecka 04 nż
+1101	1	205431	14:34:00	14:34:00		Niepodległości Dom Dziecka 04 nż
+1101	1	205431	14:36:00	14:36:00		Mieszka I / Kustronia 01 nż
+1101	1	205431	14:36:00	14:36:00		Mieszka I / Kustronia 01 nż
+1101	1	205431	14:43:00	14:43:00		Lwowska cmentarz 04
+1101	1	205431	14:43:00	14:43:00		Lwowska cmentarz 04
+1101	1	205431	14:47:00	14:47:00		Lwowska szpital pętla 02
+1101	1	205431	14:47:00	14:47:00		Lwowska szpital pętla 02
 
-1108	2	177048	15:15:00	15:15:00		Lwowska szpital pętla 02
-1108	2	177048	15:15:00	15:15:00		Lwowska szpital pętla 02
-1108	2	177048	15:18:00	15:18:00		Lwowska szpital 05
-1108	2	177048	15:18:00	15:18:00		Lwowska szpital 05
-1108	2	177048	15:21:00	15:21:00		Lwowska cmentarz 03
-1108	2	177048	15:21:00	15:21:00		Lwowska cmentarz 03
-1108	2	177048	15:23:00	15:23:00		Mieszka I / Kustronia 02 nż
-1108	2	177048	15:23:00	15:23:00		Mieszka I / Kustronia 02 nż
-1108	2	177048	15:25:00	15:25:00		Niepodległości / Mieszka I 03 nż
-1108	2	177048	15:25:00	15:25:00		Niepodległości / Mieszka I 03 nż
-1108	2	177048	15:26:00	15:26:00		Niepodległości Dom Dziecka 01 nż
-1108	2	177048	15:26:00	15:26:00		Niepodległości Dom Dziecka 01 nż
-1108	2	177048	15:27:00	15:27:00		Krzyżanowskiego szkoła 02 nż
-1108	2	177048	15:27:00	15:27:00		Krzyżanowskiego szkoła 02 nż
-1108	2	177048	15:29:00	15:29:00		Paderewskiego / Ossolińskich 01 nż
-1108	2	177048	15:29:00	15:29:00		Paderewskiego / Ossolińskich 01 nż
-1108	2	177048	15:31:00	15:31:00		Rejtana / Krzyżanowskiego 08
-1108	2	177048	15:31:00	15:31:00		Rejtana / Krzyżanowskiego 08
-1108	2	177048	15:33:00	15:33:00		Rejtana Uniwersytet 06
-1108	2	177048	15:33:00	15:33:00		Rejtana Uniwersytet 06
-1108	2	177048	15:34:00	15:34:00		Rejtana cmentarz 04 nż
-1108	2	177048	15:34:00	15:34:00		Rejtana cmentarz 04 nż
-1108	2	177048	15:35:00	15:35:00		Rejtana / Kustronia 02
-1108	2	177048	15:35:00	15:35:00		Rejtana / Kustronia 02
-1108	2	177048	15:37:00	15:37:00		Piłsudskiego ZDZ 02
-1108	2	177048	15:37:00	15:37:00		Piłsudskiego ZDZ 02
-1108	2	177048	15:39:00	15:39:00		Pl. Wolności 04
-1108	2	177048	15:39:00	15:39:00		Pl. Wolności 04
-1108	2	177048	15:45:00	15:45:00		Piłsudskiego U. Marszałkowski 08
-1108	2	177048	15:45:00	15:45:00		Piłsudskiego U. Marszałkowski 08
-1108	2	177048	15:47:00	15:47:00		Krakowska Jedn. Wojskowa 02
-1108	2	177048	15:47:00	15:47:00		Krakowska Jedn. Wojskowa 02
-1108	2	177048	15:50:00	15:50:00		Witosa / Solarza 07 nż
-1108	2	177048	15:50:00	15:50:00		Witosa / Solarza 07 nż
-1108	2	177048	15:51:00	15:51:00		Witosa / Wiktora 05 nż
-1108	2	177048	15:51:00	15:51:00		Witosa / Wiktora 05 nż
-1108	2	177048	15:54:00	15:54:00		Wyspiańskiego stadion 01 nż
-1108	2	177048	15:54:00	15:54:00		Wyspiańskiego stadion 01 nż
-1108	2	177048	15:55:00	15:55:00		Wita Stwosza / Wyspiańskiego 05 nż
-1108	2	177048	15:55:00	15:55:00		Wita Stwosza / Wyspiańskiego 05 nż
-1108	2	177048	15:56:00	15:56:00		Wita Stwosza kościół 03
-1108	2	177048	15:56:00	15:56:00		Wita Stwosza kościół 03
-1108	2	177048	15:58:00	15:58:00		Langiewicza / Wita Stwosza 04
-1108	2	177048	15:58:00	15:58:00		Langiewicza / Wita Stwosza 04
-1108	2	177048	16:00:00	16:00:00		Bat. Chłopskich / Staroniwska 05 nż
-1108	2	177048	16:00:00	16:00:00		Bat. Chłopskich / Staroniwska 05 nż
-1108	2	177048	16:01:00	16:01:00		Przemysłowa / Bat. Chłopskich 02 nż
-1108	2	177048	16:01:00	16:01:00		Przemysłowa / Bat. Chłopskich 02 nż
-1108	2	177048	16:02:00	16:02:00		Przemysłowa / Magazynowa 04
-1108	2	177048	16:02:00	16:02:00		Przemysłowa / Magazynowa 04
-1108	2	177048	16:04:00	16:04:00		Przemysłowa U. Celny 05 nż
-1108	2	177048	16:04:00	16:04:00		Przemysłowa U. Celny 05 nż
+1108	1	206099	15:15:00	15:15:00		Lwowska szpital pętla 02
+1108	1	206099	15:15:00	15:15:00		Lwowska szpital pętla 02
+1108	1	206099	15:18:00	15:18:00		Lwowska szpital 05
+1108	1	206099	15:18:00	15:18:00		Lwowska szpital 05
+1108	1	206099	15:21:00	15:21:00		Lwowska cmentarz 03
+1108	1	206099	15:21:00	15:21:00		Lwowska cmentarz 03
+1108	1	206099	15:23:00	15:23:00		Mieszka I / Kustronia 02 nż
+1108	1	206099	15:23:00	15:23:00		Mieszka I / Kustronia 02 nż
+1108	1	206099	15:25:00	15:25:00		Niepodległości / Mieszka I 03 nż
+1108	1	206099	15:25:00	15:25:00		Niepodległości / Mieszka I 03 nż
+1108	1	206099	15:26:00	15:26:00		Niepodległości Dom Dziecka 01 nż
+1108	1	206099	15:26:00	15:26:00		Niepodległości Dom Dziecka 01 nż
+1108	1	206099	15:27:00	15:27:00		Krzyżanowskiego szkoła 02 nż
+1108	1	206099	15:27:00	15:27:00		Krzyżanowskiego szkoła 02 nż
+1108	1	206099	15:29:00	15:29:00		Paderewskiego / Ossolińskich 01 nż
+1108	1	206099	15:29:00	15:29:00		Paderewskiego / Ossolińskich 01 nż
+1108	1	206099	15:31:00	15:31:00		Rejtana / Krzyżanowskiego 08
+1108	1	206099	15:31:00	15:31:00		Rejtana / Krzyżanowskiego 08
+1108	1	206099	15:33:00	15:33:00		Rejtana Uniwersytet 06
+1108	1	206099	15:33:00	15:33:00		Rejtana Uniwersytet 06
+1108	1	206099	15:34:00	15:34:00		Rejtana cmentarz 04 nż
+1108	1	206099	15:34:00	15:34:00		Rejtana cmentarz 04 nż
+1108	1	206099	15:35:00	15:35:00		Rejtana / Kustronia 02
+1108	1	206099	15:35:00	15:35:00		Rejtana / Kustronia 02
+1108	1	206099	15:37:00	15:37:00		Piłsudskiego ZDZ 02
+1108	1	206099	15:37:00	15:37:00		Piłsudskiego ZDZ 02
+1108	1	206099	15:39:00	15:39:00		Pl. Wolności 04
+1108	1	206099	15:39:00	15:39:00		Pl. Wolności 04
+1108	1	206099	15:45:00	15:45:00		Piłsudskiego U. Marszałkowski 08
+1108	1	206099	15:45:00	15:45:00		Piłsudskiego U. Marszałkowski 08
+1108	1	206099	15:47:00	15:47:00		Krakowska Jedn. Wojskowa 02
+1108	1	206099	15:47:00	15:47:00		Krakowska Jedn. Wojskowa 02
+1108	1	206099	15:50:00	15:50:00		Witosa / Solarza 07 nż
+1108	1	206099	15:50:00	15:50:00		Witosa / Solarza 07 nż
+1108	1	206099	15:51:00	15:51:00		Witosa / Wiktora 05 nż
+1108	1	206099	15:51:00	15:51:00		Witosa / Wiktora 05 nż
+1108	1	206099	15:54:00	15:54:00		Wyspiańskiego stadion 01 nż
+1108	1	206099	15:54:00	15:54:00		Wyspiańskiego stadion 01 nż
+1108	1	206099	15:55:00	15:55:00		Wita Stwosza / Wyspiańskiego 05 nż
+1108	1	206099	15:55:00	15:55:00		Wita Stwosza / Wyspiańskiego 05 nż
+1108	1	206099	15:56:00	15:56:00		Wita Stwosza kościół 03
+1108	1	206099	15:56:00	15:56:00		Wita Stwosza kościół 03
+1108	1	206099	15:58:00	15:58:00		Langiewicza / Wita Stwosza 04
+1108	1	206099	15:58:00	15:58:00		Langiewicza / Wita Stwosza 04
+1108	1	206099	16:00:00	16:00:00		Bat. Chłopskich / Staroniwska 05 nż
+1108	1	206099	16:00:00	16:00:00		Bat. Chłopskich / Staroniwska 05 nż
+1108	1	206099	16:01:00	16:01:00		Przemysłowa / Bat. Chłopskich 02 nż
+1108	1	206099	16:01:00	16:01:00		Przemysłowa / Bat. Chłopskich 02 nż
+1108	1	206099	16:02:00	16:02:00		Przemysłowa / Magazynowa 04
+1108	1	206099	16:02:00	16:02:00		Przemysłowa / Magazynowa 04
+1108	1	206099	16:04:00	16:04:00		Przemysłowa U. Celny 05 nż
+1108	1	206099	16:04:00	16:04:00		Przemysłowa U. Celny 05 nż
 
-1101	2	177159	16:35:00	16:35:00		Przemysłowa U. Celny 05 nż
-1101	2	177159	16:35:00	16:35:00		Przemysłowa U. Celny 05 nż
-1101	2	177159	16:36:00	16:36:00		Przemysłowa / Architektów 03
-1101	2	177159	16:36:00	16:36:00		Przemysłowa / Architektów 03
-1101	2	177159	16:37:00	16:37:00		Przemysłowa / Bat. Chłopskich 01 nż
-1101	2	177159	16:37:00	16:37:00		Przemysłowa / Bat. Chłopskich 01 nż
-1101	2	177159	16:39:00	16:39:00		Bat. Chłopskich / Langiewicza 04 nż
-1101	2	177159	16:39:00	16:39:00		Bat. Chłopskich / Langiewicza 04 nż
-1101	2	177159	16:40:00	16:40:00		Langiewicza / Wita Stwosza 05 nż
-1101	2	177159	16:40:00	16:40:00		Langiewicza / Wita Stwosza 05 nż
-1101	2	177159	16:41:00	16:41:00		Wita Stwosza / Langiewicza 02
-1101	2	177159	16:41:00	16:41:00		Wita Stwosza / Langiewicza 02
-1101	2	177159	16:42:00	16:42:00		Wita Stwosza kościół 04
-1101	2	177159	16:42:00	16:42:00		Wita Stwosza kościół 04
-1101	2	177159	16:43:00	16:43:00		Wita Stwosza / Wyspiańskiego 06 nż
-1101	2	177159	16:43:00	16:43:00		Wita Stwosza / Wyspiańskiego 06 nż
-1101	2	177159	16:44:00	16:44:00		Wyspiańskiego stadion 02 nż
-1101	2	177159	16:44:00	16:44:00		Wyspiańskiego stadion 02 nż
-1101	2	177159	16:45:00	16:45:00		Witosa / Wyspiańskiego 06 nż
-1101	2	177159	16:45:00	16:45:00		Witosa / Wyspiańskiego 06 nż
-1101	2	177159	16:46:00	16:46:00		Witosa Jedn. Wojskowa 08 nż
-1101	2	177159	16:46:00	16:46:00		Witosa Jedn. Wojskowa 08 nż
-1101	2	177159	16:48:00	16:48:00		Krakowska Jedn. Wojskowa 01
-1101	2	177159	16:48:00	16:48:00		Krakowska Jedn. Wojskowa 01
-1101	2	177159	16:51:00	16:51:00		Piłsudskiego U. Wojewódzki 03
-1101	2	177159	16:51:00	16:51:00		Piłsudskiego U. Wojewódzki 03
-1101	2	177159	16:52:00	16:52:00		Pl. Wolności 01
-1101	2	177159	16:52:00	16:52:00		Pl. Wolności 01
-1101	2	177159	16:55:00	16:55:00		Rejtana / Lwowska 01
-1101	2	177159	16:55:00	16:55:00		Rejtana / Lwowska 01
-1101	2	177159	16:56:00	16:56:00		Rejtana / Kustronia 03 nż
-1101	2	177159	16:56:00	16:56:00		Rejtana / Kustronia 03 nż
-1101	2	177159	16:57:00	16:57:00		Rejtana Uniwersytet 05
-1101	2	177159	16:57:00	16:57:00		Rejtana Uniwersytet 05
-1101	2	177159	16:59:00	16:59:00		Rejtana / Kopisto 07
-1101	2	177159	16:59:00	16:59:00		Rejtana / Kopisto 07
-1101	2	177159	17:02:00	17:02:00		Paderewskiego / Ossolińskich 02 nż
-1101	2	177159	17:02:00	17:02:00		Paderewskiego / Ossolińskich 02 nż
-1101	2	177159	17:03:00	17:03:00		Krzyżanowskiego szkoła 01 nż
-1101	2	177159	17:03:00	17:03:00		Krzyżanowskiego szkoła 01 nż
-1101	2	177159	17:05:00	17:05:00		Niepodległości Dom Dziecka 04 nż
-1101	2	177159	17:05:00	17:05:00		Niepodległości Dom Dziecka 04 nż
-1101	2	177159	17:07:00	17:07:00		Mieszka I / Kustronia 01 nż
-1101	2	177159	17:07:00	17:07:00		Mieszka I / Kustronia 01 nż
-1101	2	177159	17:11:00	17:11:00		Lwowska cmentarz 04
-1101	2	177159	17:11:00	17:11:00		Lwowska cmentarz 04
-1101	2	177159	17:13:00	17:13:00		Lwowska szpital pętla 02
-1101	2	177159	17:13:00	17:13:00		Lwowska szpital pętla 02
+1101	1	203515	16:35:00	16:35:00		Przemysłowa U. Celny 05 nż
+1101	1	203515	16:35:00	16:35:00		Przemysłowa U. Celny 05 nż
+1101	1	203515	16:36:00	16:36:00		Przemysłowa / Architektów 03
+1101	1	203515	16:36:00	16:36:00		Przemysłowa / Architektów 03
+1101	1	203515	16:37:00	16:37:00		Przemysłowa / Bat. Chłopskich 01 nż
+1101	1	203515	16:37:00	16:37:00		Przemysłowa / Bat. Chłopskich 01 nż
+1101	1	203515	16:39:00	16:39:00		Bat. Chłopskich / Langiewicza 04 nż
+1101	1	203515	16:39:00	16:39:00		Bat. Chłopskich / Langiewicza 04 nż
+1101	1	203515	16:40:00	16:40:00		Langiewicza / Wita Stwosza 05 nż
+1101	1	203515	16:40:00	16:40:00		Langiewicza / Wita Stwosza 05 nż
+1101	1	203515	16:41:00	16:41:00		Wita Stwosza / Langiewicza 02
+1101	1	203515	16:41:00	16:41:00		Wita Stwosza / Langiewicza 02
+1101	1	203515	16:42:00	16:42:00		Wita Stwosza kościół 04
+1101	1	203515	16:42:00	16:42:00		Wita Stwosza kościół 04
+1101	1	203515	16:43:00	16:43:00		Wita Stwosza / Wyspiańskiego 06 nż
+1101	1	203515	16:43:00	16:43:00		Wita Stwosza / Wyspiańskiego 06 nż
+1101	1	203515	16:44:00	16:44:00		Wyspiańskiego stadion 02 nż
+1101	1	203515	16:44:00	16:44:00		Wyspiańskiego stadion 02 nż
+1101	1	203515	16:45:00	16:45:00		Witosa / Wyspiańskiego 06 nż
+1101	1	203515	16:45:00	16:45:00		Witosa / Wyspiańskiego 06 nż
+1101	1	203515	16:46:00	16:46:00		Witosa Jedn. Wojskowa 08 nż
+1101	1	203515	16:46:00	16:46:00		Witosa Jedn. Wojskowa 08 nż
+1101	1	203515	16:48:00	16:48:00		Krakowska Jedn. Wojskowa 01
+1101	1	203515	16:48:00	16:48:00		Krakowska Jedn. Wojskowa 01
+1101	1	203515	16:51:00	16:51:00		Piłsudskiego U. Wojewódzki 03
+1101	1	203515	16:51:00	16:51:00		Piłsudskiego U. Wojewódzki 03
+1101	1	203515	16:52:00	16:52:00		Pl. Wolności 01
+1101	1	203515	16:52:00	16:52:00		Pl. Wolności 01
+1101	1	203515	16:55:00	16:55:00		Rejtana / Lwowska 01
+1101	1	203515	16:55:00	16:55:00		Rejtana / Lwowska 01
+1101	1	203515	16:56:00	16:56:00		Rejtana / Kustronia 03 nż
+1101	1	203515	16:56:00	16:56:00		Rejtana / Kustronia 03 nż
+1101	1	203515	16:57:00	16:57:00		Rejtana Uniwersytet 05
+1101	1	203515	16:57:00	16:57:00		Rejtana Uniwersytet 05
+1101	1	203515	16:59:00	16:59:00		Rejtana / Kopisto 07
+1101	1	203515	16:59:00	16:59:00		Rejtana / Kopisto 07
+1101	1	203515	17:02:00	17:02:00		Paderewskiego / Ossolińskich 02 nż
+1101	1	203515	17:02:00	17:02:00		Paderewskiego / Ossolińskich 02 nż
+1101	1	203515	17:03:00	17:03:00		Krzyżanowskiego szkoła 01 nż
+1101	1	203515	17:03:00	17:03:00		Krzyżanowskiego szkoła 01 nż
+1101	1	203515	17:05:00	17:05:00		Niepodległości Dom Dziecka 04 nż
+1101	1	203515	17:05:00	17:05:00		Niepodległości Dom Dziecka 04 nż
+1101	1	203515	17:07:00	17:07:00		Mieszka I / Kustronia 01 nż
+1101	1	203515	17:07:00	17:07:00		Mieszka I / Kustronia 01 nż
+1101	1	203515	17:11:00	17:11:00		Lwowska cmentarz 04
+1101	1	203515	17:11:00	17:11:00		Lwowska cmentarz 04
+1101	1	203515	17:13:00	17:13:00		Lwowska szpital pętla 02
+1101	1	203515	17:13:00	17:13:00		Lwowska szpital pętla 02
 
-1097	2	177719	17:46:00	17:46:00		Lwowska szpital pętla 02
-1097	2	177719	17:46:00	17:46:00		Lwowska szpital pętla 02
-1097	2	177719	17:48:00	17:48:00		Lwowska szpital 05
-1097	2	177719	17:48:00	17:48:00		Lwowska szpital 05
-1097	2	177719	17:51:00	17:51:00		Lwowska cmentarz 03
-1097	2	177719	17:51:00	17:51:00		Lwowska cmentarz 03
-1097	2	177719	17:53:00	17:53:00		Mieszka I / Kustronia 02 nż
-1097	2	177719	17:53:00	17:53:00		Mieszka I / Kustronia 02 nż
-1097	2	177719	17:55:00	17:55:00		Niepodległości / Mieszka I 03 nż
-1097	2	177719	17:55:00	17:55:00		Niepodległości / Mieszka I 03 nż
-1097	2	177719	17:56:00	17:56:00		Niepodległości Dom Dziecka 01 nż
-1097	2	177719	17:56:00	17:56:00		Niepodległości Dom Dziecka 01 nż
-1097	2	177719	17:57:00	17:57:00		Krzyżanowskiego szkoła 02 nż
-1097	2	177719	17:57:00	17:57:00		Krzyżanowskiego szkoła 02 nż
-1097	2	177719	17:59:00	17:59:00		Paderewskiego / Ossolińskich 01 nż
-1097	2	177719	17:59:00	17:59:00		Paderewskiego / Ossolińskich 01 nż
-1097	2	177719	18:00:00	18:00:00		Rejtana / Krzyżanowskiego 08
-1097	2	177719	18:00:00	18:00:00		Rejtana / Krzyżanowskiego 08
-1097	2	177719	18:02:00	18:02:00		Rejtana Uniwersytet 06
-1097	2	177719	18:02:00	18:02:00		Rejtana Uniwersytet 06
-1097	2	177719	18:03:00	18:03:00		Rejtana cmentarz 04 nż
-1097	2	177719	18:03:00	18:03:00		Rejtana cmentarz 04 nż
-1097	2	177719	18:04:00	18:04:00		Rejtana / Kustronia 02
-1097	2	177719	18:04:00	18:04:00		Rejtana / Kustronia 02
-1097	2	177719	18:06:00	18:06:00		Piłsudskiego ZDZ 02
-1097	2	177719	18:06:00	18:06:00		Piłsudskiego ZDZ 02
-1097	2	177719	18:08:00	18:08:00		Pl. Wolności 04
-1097	2	177719	18:08:00	18:08:00		Pl. Wolności 04
-1097	2	177719	18:11:00	18:11:00		Piłsudskiego U. Marszałkowski 08
-1097	2	177719	18:11:00	18:11:00		Piłsudskiego U. Marszałkowski 08
-1097	2	177719	18:13:00	18:13:00		Krakowska Jedn. Wojskowa 02
-1097	2	177719	18:13:00	18:13:00		Krakowska Jedn. Wojskowa 02
-1097	2	177719	18:15:00	18:15:00		Witosa / Solarza 07 nż
-1097	2	177719	18:15:00	18:15:00		Witosa / Solarza 07 nż
-1097	2	177719	18:16:00	18:16:00		Witosa / Wiktora 05 nż
-1097	2	177719	18:16:00	18:16:00		Witosa / Wiktora 05 nż
-1097	2	177719	18:18:00	18:18:00		Wyspiańskiego stadion 01 nż
-1097	2	177719	18:18:00	18:18:00		Wyspiańskiego stadion 01 nż
-1097	2	177719	18:19:00	18:19:00		Wita Stwosza / Wyspiańskiego 05 nż
-1097	2	177719	18:19:00	18:19:00		Wita Stwosza / Wyspiańskiego 05 nż
-1097	2	177719	18:20:00	18:20:00		Wita Stwosza kościół 03
-1097	2	177719	18:20:00	18:20:00		Wita Stwosza kościół 03
-1097	2	177719	18:21:00	18:21:00		Wita Stwosza pętla 01
-1097	2	177719	18:21:00	18:21:00		Wita Stwosza pętla 01
+1097	1	206827	17:46:00	17:46:00		Lwowska szpital pętla 02
+1097	1	206827	17:46:00	17:46:00		Lwowska szpital pętla 02
+1097	1	206827	17:48:00	17:48:00		Lwowska szpital 05
+1097	1	206827	17:48:00	17:48:00		Lwowska szpital 05
+1097	1	206827	17:51:00	17:51:00		Lwowska cmentarz 03
+1097	1	206827	17:51:00	17:51:00		Lwowska cmentarz 03
+1097	1	206827	17:53:00	17:53:00		Mieszka I / Kustronia 02 nż
+1097	1	206827	17:53:00	17:53:00		Mieszka I / Kustronia 02 nż
+1097	1	206827	17:55:00	17:55:00		Niepodległości / Mieszka I 03 nż
+1097	1	206827	17:55:00	17:55:00		Niepodległości / Mieszka I 03 nż
+1097	1	206827	17:56:00	17:56:00		Niepodległości Dom Dziecka 01 nż
+1097	1	206827	17:56:00	17:56:00		Niepodległości Dom Dziecka 01 nż
+1097	1	206827	17:57:00	17:57:00		Krzyżanowskiego szkoła 02 nż
+1097	1	206827	17:57:00	17:57:00		Krzyżanowskiego szkoła 02 nż
+1097	1	206827	17:59:00	17:59:00		Paderewskiego / Ossolińskich 01 nż
+1097	1	206827	17:59:00	17:59:00		Paderewskiego / Ossolińskich 01 nż
+1097	1	206827	18:00:00	18:00:00		Rejtana / Krzyżanowskiego 08
+1097	1	206827	18:00:00	18:00:00		Rejtana / Krzyżanowskiego 08
+1097	1	206827	18:02:00	18:02:00		Rejtana Uniwersytet 06
+1097	1	206827	18:02:00	18:02:00		Rejtana Uniwersytet 06
+1097	1	206827	18:03:00	18:03:00		Rejtana cmentarz 04 nż
+1097	1	206827	18:03:00	18:03:00		Rejtana cmentarz 04 nż
+1097	1	206827	18:04:00	18:04:00		Rejtana / Kustronia 02
+1097	1	206827	18:04:00	18:04:00		Rejtana / Kustronia 02
+1097	1	206827	18:06:00	18:06:00		Piłsudskiego ZDZ 02
+1097	1	206827	18:06:00	18:06:00		Piłsudskiego ZDZ 02
+1097	1	206827	18:08:00	18:08:00		Pl. Wolności 04
+1097	1	206827	18:08:00	18:08:00		Pl. Wolności 04
+1097	1	206827	18:11:00	18:11:00		Piłsudskiego U. Marszałkowski 08
+1097	1	206827	18:11:00	18:11:00		Piłsudskiego U. Marszałkowski 08
+1097	1	206827	18:13:00	18:13:00		Krakowska Jedn. Wojskowa 02
+1097	1	206827	18:13:00	18:13:00		Krakowska Jedn. Wojskowa 02
+1097	1	206827	18:15:00	18:15:00		Witosa / Solarza 07 nż
+1097	1	206827	18:15:00	18:15:00		Witosa / Solarza 07 nż
+1097	1	206827	18:16:00	18:16:00		Witosa / Wiktora 05 nż
+1097	1	206827	18:16:00	18:16:00		Witosa / Wiktora 05 nż
+1097	1	206827	18:18:00	18:18:00		Wyspiańskiego stadion 01 nż
+1097	1	206827	18:18:00	18:18:00		Wyspiańskiego stadion 01 nż
+1097	1	206827	18:19:00	18:19:00		Wita Stwosza / Wyspiańskiego 05 nż
+1097	1	206827	18:19:00	18:19:00		Wita Stwosza / Wyspiańskiego 05 nż
+1097	1	206827	18:20:00	18:20:00		Wita Stwosza kościół 03
+1097	1	206827	18:20:00	18:20:00		Wita Stwosza kościół 03
+1097	1	206827	18:21:00	18:21:00		Wita Stwosza pętla 01
+1097	1	206827	18:21:00	18:21:00		Wita Stwosza pętla 01
 
-1104	2	175750	18:41:00	18:41:00		Wita Stwosza / Langiewicza 02
-1104	2	175750	18:41:00	18:41:00		Wita Stwosza / Langiewicza 02
-1104	2	175750	18:42:00	18:42:00		Wita Stwosza kościół 04
-1104	2	175750	18:42:00	18:42:00		Wita Stwosza kościół 04
-1104	2	175750	18:43:00	18:43:00		Wita Stwosza / Wyspiańskiego 06 nż
-1104	2	175750	18:43:00	18:43:00		Wita Stwosza / Wyspiańskiego 06 nż
-1104	2	175750	18:44:00	18:44:00		Wyspiańskiego stadion 02 nż
-1104	2	175750	18:44:00	18:44:00		Wyspiańskiego stadion 02 nż
-1104	2	175750	18:45:00	18:45:00		Witosa / Wyspiańskiego 06 nż
-1104	2	175750	18:45:00	18:45:00		Witosa / Wyspiańskiego 06 nż
-1104	2	175750	18:46:00	18:46:00		Witosa Jedn. Wojskowa 08 nż
-1104	2	175750	18:46:00	18:46:00		Witosa Jedn. Wojskowa 08 nż
-1104	2	175750	18:48:00	18:48:00		Krakowska Jedn. Wojskowa 01
-1104	2	175750	18:48:00	18:48:00		Krakowska Jedn. Wojskowa 01
-1104	2	175750	18:51:00	18:51:00		Piłsudskiego U. Wojewódzki 03
-1104	2	175750	18:51:00	18:51:00		Piłsudskiego U. Wojewódzki 03
-1104	2	175750	18:52:00	18:52:00		Pl. Wolności 01
-1104	2	175750	18:52:00	18:52:00		Pl. Wolności 01
-1104	2	175750	18:55:00	18:55:00		Rejtana / Lwowska 01
-1104	2	175750	18:55:00	18:55:00		Rejtana / Lwowska 01
-1104	2	175750	18:56:00	18:56:00		Rejtana / Kustronia 03 nż
-1104	2	175750	18:56:00	18:56:00		Rejtana / Kustronia 03 nż
-1104	2	175750	18:57:00	18:57:00		Rejtana Uniwersytet 05
-1104	2	175750	18:57:00	18:57:00		Rejtana Uniwersytet 05
-1104	2	175750	18:59:00	18:59:00		Rejtana / Kopisto 07
-1104	2	175750	18:59:00	18:59:00		Rejtana / Kopisto 07
-1104	2	175750	19:02:00	19:02:00		Paderewskiego / Ossolińskich 02 nż
-1104	2	175750	19:02:00	19:02:00		Paderewskiego / Ossolińskich 02 nż
-1104	2	175750	19:03:00	19:03:00		Krzyżanowskiego szkoła 01 nż
-1104	2	175750	19:03:00	19:03:00		Krzyżanowskiego szkoła 01 nż
-1104	2	175750	19:04:00	19:04:00		Niepodległości Dom Dziecka 04 nż
-1104	2	175750	19:04:00	19:04:00		Niepodległości Dom Dziecka 04 nż
-1104	2	175750	19:06:00	19:06:00		Mieszka I / Kustronia 01 nż
-1104	2	175750	19:06:00	19:06:00		Mieszka I / Kustronia 01 nż
-1104	2	175750	19:08:00	19:08:00		Lwowska cmentarz 04
-1104	2	175750	19:08:00	19:08:00		Lwowska cmentarz 04
-1104	2	175750	19:10:00	19:10:00		Lwowska szpital pętla 02
-1104	2	175750	19:10:00	19:10:00		Lwowska szpital pętla 02
-
-1108	2	175023	19:19:00	19:19:00		Lwowska szpital pętla 02
-1108	2	175023	19:19:00	19:19:00		Lwowska szpital pętla 02
-1108	2	175023	19:20:00	19:20:00		Lwowska szpital 05
-1108	2	175023	19:20:00	19:20:00		Lwowska szpital 05
-1108	2	175023	19:22:00	19:22:00		Lwowska cmentarz 03
-1108	2	175023	19:22:00	19:22:00		Lwowska cmentarz 03
-1108	2	175023	19:24:00	19:24:00		Mieszka I / Kustronia 02 nż
-1108	2	175023	19:24:00	19:24:00		Mieszka I / Kustronia 02 nż
-1108	2	175023	19:25:00	19:25:00		Niepodległości / Mieszka I 03 nż
-1108	2	175023	19:25:00	19:25:00		Niepodległości / Mieszka I 03 nż
-1108	2	175023	19:26:00	19:26:00		Niepodległości Dom Dziecka 01 nż
-1108	2	175023	19:26:00	19:26:00		Niepodległości Dom Dziecka 01 nż
-1108	2	175023	19:27:00	19:27:00		Krzyżanowskiego szkoła 02 nż
-1108	2	175023	19:27:00	19:27:00		Krzyżanowskiego szkoła 02 nż
-1108	2	175023	19:29:00	19:29:00		Paderewskiego / Ossolińskich 01 nż
-1108	2	175023	19:29:00	19:29:00		Paderewskiego / Ossolińskich 01 nż
-1108	2	175023	19:30:00	19:30:00		Rejtana / Krzyżanowskiego 08
-1108	2	175023	19:30:00	19:30:00		Rejtana / Krzyżanowskiego 08
-1108	2	175023	19:31:00	19:31:00		Rejtana Uniwersytet 06
-1108	2	175023	19:31:00	19:31:00		Rejtana Uniwersytet 06
-1108	2	175023	19:32:00	19:32:00		Rejtana cmentarz 04 nż
-1108	2	175023	19:32:00	19:32:00		Rejtana cmentarz 04 nż
-1108	2	175023	19:33:00	19:33:00		Rejtana / Kustronia 02
-1108	2	175023	19:33:00	19:33:00		Rejtana / Kustronia 02
-1108	2	175023	19:35:00	19:35:00		Piłsudskiego ZDZ 02
-1108	2	175023	19:35:00	19:35:00		Piłsudskiego ZDZ 02
-1108	2	175023	19:36:00	19:36:00		Pl. Wolności 04
-1108	2	175023	19:36:00	19:36:00		Pl. Wolności 04
-1108	2	175023	19:38:00	19:38:00		Piłsudskiego U. Marszałkowski 08
-1108	2	175023	19:38:00	19:38:00		Piłsudskiego U. Marszałkowski 08
-1108	2	175023	19:40:00	19:40:00		Krakowska Jedn. Wojskowa 02
-1108	2	175023	19:40:00	19:40:00		Krakowska Jedn. Wojskowa 02
-1108	2	175023	19:42:00	19:42:00		Witosa / Solarza 07 nż
-1108	2	175023	19:42:00	19:42:00		Witosa / Solarza 07 nż
-1108	2	175023	19:43:00	19:43:00		Witosa / Wiktora 05 nż
-1108	2	175023	19:43:00	19:43:00		Witosa / Wiktora 05 nż
-1108	2	175023	19:45:00	19:45:00		Wyspiańskiego stadion 01 nż
-1108	2	175023	19:45:00	19:45:00		Wyspiańskiego stadion 01 nż
-1108	2	175023	19:46:00	19:46:00		Wita Stwosza / Wyspiańskiego 05 nż
-1108	2	175023	19:46:00	19:46:00		Wita Stwosza / Wyspiańskiego 05 nż
-1108	2	175023	19:47:00	19:47:00		Wita Stwosza kościół 03
-1108	2	175023	19:47:00	19:47:00		Wita Stwosza kościół 03
-1108	2	175023	19:48:00	19:48:00		Langiewicza / Wita Stwosza 04
-1108	2	175023	19:48:00	19:48:00		Langiewicza / Wita Stwosza 04
-1108	2	175023	19:49:00	19:49:00		Bat. Chłopskich / Staroniwska 05 nż
-1108	2	175023	19:49:00	19:49:00		Bat. Chłopskich / Staroniwska 05 nż
-1108	2	175023	19:50:00	19:50:00		Przemysłowa / Bat. Chłopskich 02 nż
-1108	2	175023	19:50:00	19:50:00		Przemysłowa / Bat. Chłopskich 02 nż
-1108	2	175023	19:51:00	19:51:00		Przemysłowa / Magazynowa 04
-1108	2	175023	19:51:00	19:51:00		Przemysłowa / Magazynowa 04
-1108	2	175023	19:53:00	19:53:00		Przemysłowa U. Celny 05 nż
-1108	2	175023	19:53:00	19:53:00		Przemysłowa U. Celny 05 nż
-
-1101	2	174174	20:06:00	20:06:00		Przemysłowa U. Celny 05 nż
-1101	2	174174	20:06:00	20:06:00		Przemysłowa U. Celny 05 nż
-1101	2	174174	20:07:00	20:07:00		Przemysłowa / Architektów 03
-1101	2	174174	20:07:00	20:07:00		Przemysłowa / Architektów 03
-1101	2	174174	20:08:00	20:08:00		Przemysłowa / Bat. Chłopskich 01 nż
-1101	2	174174	20:08:00	20:08:00		Przemysłowa / Bat. Chłopskich 01 nż
-1101	2	174174	20:10:00	20:10:00		Bat. Chłopskich / Langiewicza 04 nż
-1101	2	174174	20:10:00	20:10:00		Bat. Chłopskich / Langiewicza 04 nż
-1101	2	174174	20:11:00	20:11:00		Langiewicza / Wita Stwosza 05 nż
-1101	2	174174	20:11:00	20:11:00		Langiewicza / Wita Stwosza 05 nż
-1101	2	174174	20:12:00	20:12:00		Wita Stwosza / Langiewicza 02
-1101	2	174174	20:12:00	20:12:00		Wita Stwosza / Langiewicza 02
-1101	2	174174	20:13:00	20:13:00		Wita Stwosza kościół 04
-1101	2	174174	20:13:00	20:13:00		Wita Stwosza kościół 04
-1101	2	174174	20:14:00	20:14:00		Wita Stwosza / Wyspiańskiego 06 nż
-1101	2	174174	20:14:00	20:14:00		Wita Stwosza / Wyspiańskiego 06 nż
-1101	2	174174	20:15:00	20:15:00		Wyspiańskiego stadion 02 nż
-1101	2	174174	20:15:00	20:15:00		Wyspiańskiego stadion 02 nż
-1101	2	174174	20:16:00	20:16:00		Witosa / Wyspiańskiego 06 nż
-1101	2	174174	20:16:00	20:16:00		Witosa / Wyspiańskiego 06 nż
-1101	2	174174	20:17:00	20:17:00		Witosa Jedn. Wojskowa 08 nż
-1101	2	174174	20:17:00	20:17:00		Witosa Jedn. Wojskowa 08 nż
-1101	2	174174	20:18:00	20:18:00		Krakowska Jedn. Wojskowa 01
-1101	2	174174	20:18:00	20:18:00		Krakowska Jedn. Wojskowa 01
-1101	2	174174	20:20:00	20:20:00		Piłsudskiego U. Wojewódzki 03
-1101	2	174174	20:20:00	20:20:00		Piłsudskiego U. Wojewódzki 03
-1101	2	174174	20:21:00	20:21:00		Pl. Wolności 01
-1101	2	174174	20:21:00	20:21:00		Pl. Wolności 01
-1101	2	174174	20:23:00	20:23:00		Rejtana / Lwowska 01
-1101	2	174174	20:23:00	20:23:00		Rejtana / Lwowska 01
-1101	2	174174	20:24:00	20:24:00		Rejtana / Kustronia 03 nż
-1101	2	174174	20:24:00	20:24:00		Rejtana / Kustronia 03 nż
-1101	2	174174	20:25:00	20:25:00		Rejtana Uniwersytet 05
-1101	2	174174	20:25:00	20:25:00		Rejtana Uniwersytet 05
-1101	2	174174	20:26:00	20:26:00		Rejtana / Kopisto 07
-1101	2	174174	20:26:00	20:26:00		Rejtana / Kopisto 07
-1101	2	174174	20:29:00	20:29:00		Paderewskiego / Ossolińskich 02 nż
-1101	2	174174	20:29:00	20:29:00		Paderewskiego / Ossolińskich 02 nż
-1101	2	174174	20:30:00	20:30:00		Krzyżanowskiego szkoła 01 nż
-1101	2	174174	20:30:00	20:30:00		Krzyżanowskiego szkoła 01 nż
-1101	2	174174	20:31:00	20:31:00		Niepodległości Dom Dziecka 04 nż
-1101	2	174174	20:31:00	20:31:00		Niepodległości Dom Dziecka 04 nż
-1101	2	174174	20:33:00	20:33:00		Mieszka I / Kustronia 01 nż
-1101	2	174174	20:33:00	20:33:00		Mieszka I / Kustronia 01 nż
-1101	2	174174	20:35:00	20:35:00		Lwowska cmentarz 04
-1101	2	174174	20:35:00	20:35:00		Lwowska cmentarz 04
-1101	2	174174	20:37:00	20:37:00		Lwowska szpital pętla 02
-1101	2	174174	20:37:00	20:37:00		Lwowska szpital pętla 02
-
-1097	2	175837	20:49:00	20:49:00		Lwowska szpital pętla 02
-1097	2	175837	20:49:00	20:49:00		Lwowska szpital pętla 02
-1097	2	175837	20:50:00	20:50:00		Lwowska szpital 05
-1097	2	175837	20:50:00	20:50:00		Lwowska szpital 05
-1097	2	175837	20:52:00	20:52:00		Lwowska cmentarz 03
-1097	2	175837	20:52:00	20:52:00		Lwowska cmentarz 03
-1097	2	175837	20:54:00	20:54:00		Mieszka I / Kustronia 02 nż
-1097	2	175837	20:54:00	20:54:00		Mieszka I / Kustronia 02 nż
-1097	2	175837	20:55:00	20:55:00		Niepodległości / Mieszka I 03 nż
-1097	2	175837	20:55:00	20:55:00		Niepodległości / Mieszka I 03 nż
-1097	2	175837	20:56:00	20:56:00		Niepodległości Dom Dziecka 01 nż
-1097	2	175837	20:56:00	20:56:00		Niepodległości Dom Dziecka 01 nż
-1097	2	175837	20:57:00	20:57:00		Krzyżanowskiego szkoła 02 nż
-1097	2	175837	20:57:00	20:57:00		Krzyżanowskiego szkoła 02 nż
-1097	2	175837	20:59:00	20:59:00		Paderewskiego / Ossolińskich 01 nż
-1097	2	175837	20:59:00	20:59:00		Paderewskiego / Ossolińskich 01 nż
-1097	2	175837	21:00:00	21:00:00		Rejtana / Krzyżanowskiego 08
-1097	2	175837	21:00:00	21:00:00		Rejtana / Krzyżanowskiego 08
-1097	2	175837	21:01:00	21:01:00		Rejtana Uniwersytet 06
-1097	2	175837	21:01:00	21:01:00		Rejtana Uniwersytet 06
-1097	2	175837	21:02:00	21:02:00		Rejtana cmentarz 04 nż
-1097	2	175837	21:02:00	21:02:00		Rejtana cmentarz 04 nż
-1097	2	175837	21:03:00	21:03:00		Rejtana / Kustronia 02
-1097	2	175837	21:03:00	21:03:00		Rejtana / Kustronia 02
-1097	2	175837	21:05:00	21:05:00		Piłsudskiego ZDZ 02
-1097	2	175837	21:05:00	21:05:00		Piłsudskiego ZDZ 02
-1097	2	175837	21:06:00	21:06:00		Pl. Wolności 04
-1097	2	175837	21:06:00	21:06:00		Pl. Wolności 04
-1097	2	175837	21:08:00	21:08:00		Piłsudskiego U. Marszałkowski 08
-1097	2	175837	21:08:00	21:08:00		Piłsudskiego U. Marszałkowski 08
-1097	2	175837	21:10:00	21:10:00		Krakowska Jedn. Wojskowa 02
-1097	2	175837	21:10:00	21:10:00		Krakowska Jedn. Wojskowa 02
-1097	2	175837	21:12:00	21:12:00		Witosa / Solarza 07 nż
-1097	2	175837	21:12:00	21:12:00		Witosa / Solarza 07 nż
-1097	2	175837	21:13:00	21:13:00		Witosa / Wiktora 05 nż
-1097	2	175837	21:13:00	21:13:00		Witosa / Wiktora 05 nż
-1097	2	175837	21:14:00	21:14:00		Wyspiańskiego stadion 01 nż
-1097	2	175837	21:14:00	21:14:00		Wyspiańskiego stadion 01 nż
-1097	2	175837	21:15:00	21:15:00		Wita Stwosza / Wyspiańskiego 05 nż
-1097	2	175837	21:15:00	21:15:00		Wita Stwosza / Wyspiańskiego 05 nż
-1097	2	175837	21:16:00	21:16:00		Wita Stwosza kościół 03
-1097	2	175837	21:16:00	21:16:00		Wita Stwosza kościół 03
-1097	2	175837	21:17:00	21:17:00		Wita Stwosza pętla 01
-1097	2	175837	21:17:00	21:17:00		Wita Stwosza pętla 01
-
-1104	2	173695	21:44:00	21:44:00		Wita Stwosza / Langiewicza 02
-1104	2	173695	21:44:00	21:44:00		Wita Stwosza / Langiewicza 02
-1104	2	173695	21:45:00	21:45:00		Wita Stwosza kościół 04
-1104	2	173695	21:45:00	21:45:00		Wita Stwosza kościół 04
-1104	2	173695	21:46:00	21:46:00		Wita Stwosza / Wyspiańskiego 06 nż
-1104	2	173695	21:46:00	21:46:00		Wita Stwosza / Wyspiańskiego 06 nż
-1104	2	173695	21:47:00	21:47:00		Wyspiańskiego stadion 02 nż
-1104	2	173695	21:47:00	21:47:00		Wyspiańskiego stadion 02 nż
-1104	2	173695	21:48:00	21:48:00		Witosa / Wyspiańskiego 06 nż
-1104	2	173695	21:48:00	21:48:00		Witosa / Wyspiańskiego 06 nż
-1104	2	173695	21:49:00	21:49:00		Witosa Jedn. Wojskowa 08 nż
-1104	2	173695	21:49:00	21:49:00		Witosa Jedn. Wojskowa 08 nż
-1104	2	173695	21:50:00	21:50:00		Krakowska Jedn. Wojskowa 01
-1104	2	173695	21:50:00	21:50:00		Krakowska Jedn. Wojskowa 01
-1104	2	173695	21:52:00	21:52:00		Piłsudskiego U. Wojewódzki 03
-1104	2	173695	21:52:00	21:52:00		Piłsudskiego U. Wojewódzki 03
-1104	2	173695	21:53:00	21:53:00		Pl. Wolności 01
-1104	2	173695	21:53:00	21:53:00		Pl. Wolności 01
-1104	2	173695	21:55:00	21:55:00		Rejtana / Lwowska 01
-1104	2	173695	21:55:00	21:55:00		Rejtana / Lwowska 01
-1104	2	173695	21:56:00	21:56:00		Rejtana / Kustronia 03 nż
-1104	2	173695	21:56:00	21:56:00		Rejtana / Kustronia 03 nż
-1104	2	173695	21:57:00	21:57:00		Rejtana Uniwersytet 05
-1104	2	173695	21:57:00	21:57:00		Rejtana Uniwersytet 05
-1104	2	173695	21:58:00	21:58:00		Rejtana / Kopisto 07
-1104	2	173695	21:58:00	21:58:00		Rejtana / Kopisto 07
-1104	2	173695	22:00:00	22:00:00		Paderewskiego / Ossolińskich 02 nż
-1104	2	173695	22:00:00	22:00:00		Paderewskiego / Ossolińskich 02 nż
-1104	2	173695	22:01:00	22:01:00		Krzyżanowskiego szkoła 01 nż
-1104	2	173695	22:01:00	22:01:00		Krzyżanowskiego szkoła 01 nż
-1104	2	173695	22:02:00	22:02:00		Niepodległości Dom Dziecka 04 nż
-1104	2	173695	22:02:00	22:02:00		Niepodległości Dom Dziecka 04 nż
-1104	2	173695	22:04:00	22:04:00		Mieszka I / Kustronia 01 nż
-1104	2	173695	22:04:00	22:04:00		Mieszka I / Kustronia 01 nż
-1104	2	173695	22:06:00	22:06:00		Lwowska cmentarz 04
-1104	2	173695	22:06:00	22:06:00		Lwowska cmentarz 04
-1104	2	173695	22:08:00	22:08:00		Lwowska szpital pętla 02
-1104	2	173695	22:08:00	22:08:00		Lwowska szpital pętla 02
-
-1097	2	177991	22:20:00	22:20:00		Lwowska szpital pętla 02
-1097	2	177991	22:20:00	22:20:00		Lwowska szpital pętla 02
-1097	2	177991	22:21:00	22:21:00		Lwowska szpital 05
-1097	2	177991	22:21:00	22:21:00		Lwowska szpital 05
-1097	2	177991	22:23:00	22:23:00		Lwowska cmentarz 03
-1097	2	177991	22:23:00	22:23:00		Lwowska cmentarz 03
-1097	2	177991	22:25:00	22:25:00		Mieszka I / Kustronia 02 nż
-1097	2	177991	22:25:00	22:25:00		Mieszka I / Kustronia 02 nż
-1097	2	177991	22:26:00	22:26:00		Niepodległości / Mieszka I 03 nż
-1097	2	177991	22:26:00	22:26:00		Niepodległości / Mieszka I 03 nż
-1097	2	177991	22:27:00	22:27:00		Niepodległości Dom Dziecka 01 nż
-1097	2	177991	22:27:00	22:27:00		Niepodległości Dom Dziecka 01 nż
-1097	2	177991	22:28:00	22:28:00		Krzyżanowskiego szkoła 02 nż
-1097	2	177991	22:28:00	22:28:00		Krzyżanowskiego szkoła 02 nż
-1097	2	177991	22:29:00	22:29:00		Paderewskiego / Ossolińskich 01 nż
-1097	2	177991	22:29:00	22:29:00		Paderewskiego / Ossolińskich 01 nż
-1097	2	177991	22:30:00	22:30:00		Rejtana / Krzyżanowskiego 08
-1097	2	177991	22:30:00	22:30:00		Rejtana / Krzyżanowskiego 08
-1097	2	177991	22:31:00	22:31:00		Rejtana Uniwersytet 06
-1097	2	177991	22:31:00	22:31:00		Rejtana Uniwersytet 06
-1097	2	177991	22:32:00	22:32:00		Rejtana cmentarz 04 nż
-1097	2	177991	22:32:00	22:32:00		Rejtana cmentarz 04 nż
-1097	2	177991	22:33:00	22:33:00		Rejtana / Kustronia 02
-1097	2	177991	22:33:00	22:33:00		Rejtana / Kustronia 02
-1097	2	177991	22:35:00	22:35:00		Piłsudskiego ZDZ 02
-1097	2	177991	22:35:00	22:35:00		Piłsudskiego ZDZ 02
-1097	2	177991	22:36:00	22:36:00		Pl. Wolności 04
-1097	2	177991	22:36:00	22:36:00		Pl. Wolności 04
-1097	2	177991	22:38:00	22:38:00		Piłsudskiego U. Marszałkowski 08
-1097	2	177991	22:38:00	22:38:00		Piłsudskiego U. Marszałkowski 08
-1097	2	177991	22:40:00	22:40:00		Krakowska Jedn. Wojskowa 02
-1097	2	177991	22:40:00	22:40:00		Krakowska Jedn. Wojskowa 02
-1097	2	177991	22:42:00	22:42:00		Witosa / Solarza 07 nż
-1097	2	177991	22:42:00	22:42:00		Witosa / Solarza 07 nż
-1097	2	177991	22:43:00	22:43:00		Witosa / Wiktora 05 nż
-1097	2	177991	22:43:00	22:43:00		Witosa / Wiktora 05 nż
-1097	2	177991	22:44:00	22:44:00		Wyspiańskiego stadion 01 nż
-1097	2	177991	22:44:00	22:44:00		Wyspiańskiego stadion 01 nż
-1097	2	177991	22:45:00	22:45:00		Wita Stwosza / Wyspiańskiego 05 nż
-1097	2	177991	22:45:00	22:45:00		Wita Stwosza / Wyspiańskiego 05 nż
-1097	2	177991	22:46:00	22:46:00		Wita Stwosza kościół 03
-1097	2	177991	22:46:00	22:46:00		Wita Stwosza kościół 03
-1097	2	177991	22:47:00	22:47:00		Wita Stwosza pętla 01
-1097	2	177991	22:47:00	22:47:00		Wita Stwosza pętla 01
+1104	1	205538	18:41:00	18:41:00		Wita Stwosza / Langiewicza 02
+1104	1	205538	18:41:00	18:41:00		Wita Stwosza / Langiewicza 02
+1104	1	205538	18:42:00	18:42:00		Wita Stwosza kościół 04
+1104	1	205538	18:42:00	18:42:00		Wita Stwosza kościół 04
+1104	1	205538	18:43:00	18:43:00		Wita Stwosza / Wyspiańskiego 06 nż
+1104	1	205538	18:43:00	18:43:00		Wita Stwosza / Wyspiańskiego 06 nż
+1104	1	205538	18:44:00	18:44:00		Wyspiańskiego stadion 02 nż
+1104	1	205538	18:44:00	18:44:00		Wyspiańskiego stadion 02 nż
+1104	1	205538	18:45:00	18:45:00		Witosa / Wyspiańskiego 06 nż
+1104	1	205538	18:45:00	18:45:00		Witosa / Wyspiańskiego 06 nż
+1104	1	205538	18:46:00	18:46:00		Witosa Jedn. Wojskowa 08 nż
+1104	1	205538	18:46:00	18:46:00		Witosa Jedn. Wojskowa 08 nż
+1104	1	205538	18:48:00	18:48:00		Krakowska Jedn. Wojskowa 01
+1104	1	205538	18:48:00	18:48:00		Krakowska Jedn. Wojskowa 01
+1104	1	205538	18:51:00	18:51:00		Piłsudskiego U. Wojewódzki 03
+1104	1	205538	18:51:00	18:51:00		Piłsudskiego U. Wojewódzki 03
+1104	1	205538	18:52:00	18:52:00		Pl. Wolności 01
+1104	1	205538	18:52:00	18:52:00		Pl. Wolności 01
+1104	1	205538	18:55:00	18:55:00		Rejtana / Lwowska 01
+1104	1	205538	18:55:00	18:55:00		Rejtana / Lwowska 01
+1104	1	205538	18:56:00	18:56:00		Rejtana / Kustronia 03 nż
+1104	1	205538	18:56:00	18:56:00		Rejtana / Kustronia 03 nż
+1104	1	205538	18:57:00	18:57:00		Rejtana Uniwersytet 05
+1104	1	205538	18:57:00	18:57:00		Rejtana Uniwersytet 05
+1104	1	205538	18:59:00	18:59:00		Rejtana / Kopisto 07
+1104	1	205538	18:59:00	18:59:00		Rejtana / Kopisto 07
+1104	1	205538	19:02:00	19:02:00		Paderewskiego / Ossolińskich 02 nż
+1104	1	205538	19:02:00	19:02:00		Paderewskiego / Ossolińskich 02 nż
+1104	1	205538	19:03:00	19:03:00		Krzyżanowskiego szkoła 01 nż
+1104	1	205538	19:03:00	19:03:00		Krzyżanowskiego szkoła 01 nż
+1104	1	205538	19:04:00	19:04:00		Niepodległości Dom Dziecka 04 nż
+1104	1	205538	19:04:00	19:04:00		Niepodległości Dom Dziecka 04 nż
+1104	1	205538	19:06:00	19:06:00		Mieszka I / Kustronia 01 nż
+1104	1	205538	19:06:00	19:06:00		Mieszka I / Kustronia 01 nż
+1104	1	205538	19:08:00	19:08:00		Lwowska cmentarz 04
+1104	1	205538	19:08:00	19:08:00		Lwowska cmentarz 04
+1104	1	205538	19:10:00	19:10:00		Lwowska szpital pętla 02
+1104	1	205538	19:10:00	19:10:00		Lwowska szpital pętla 02

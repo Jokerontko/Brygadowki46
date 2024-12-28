@@ -1,596 +1,596 @@
 route_id	service_id	trip_id	arrival_time	departure_time	stop_headsign	stop_name
 -------------------------------------------------------------------------------
-1593	2	186160	15:08:00	15:08:00		Piłsudskiego U. Wojewódzki 03
-1593	2	186160	15:10:00	15:10:00		Pl. Wolności 01
-1593	2	186160	15:10:00	15:10:00		Pl. Wolności 01
-1593	2	186160	15:13:00	15:13:00		Rejtana / Lwowska 01
-1593	2	186160	15:13:00	15:13:00		Rejtana / Lwowska 01
-1593	2	186160	15:14:00	15:14:00		Rejtana / Kustronia 03 nż
-1593	2	186160	15:14:00	15:14:00		Rejtana / Kustronia 03 nż
-1593	2	186160	15:15:00	15:15:00		Rejtana Uniwersytet 05
-1593	2	186160	15:15:00	15:15:00		Rejtana Uniwersytet 05
-1593	2	186160	15:17:00	15:17:00		Rejtana / Kopisto 07
-1593	2	186160	15:17:00	15:17:00		Rejtana / Kopisto 07
-1593	2	186160	15:19:00	15:19:00		Rejtana / Popiełuszki 09
-1593	2	186160	15:19:00	15:19:00		Rejtana / Popiełuszki 09
-1593	2	186160	15:22:00	15:22:00		Sikorskiego / Powst. Warszawy 02 nż
-1593	2	186160	15:22:00	15:22:00		Sikorskiego / Powst. Warszawy 02 nż
-1593	2	186160	15:23:00	15:23:00		Sikorskiego Katedra 04 nż
-1593	2	186160	15:23:00	15:23:00		Sikorskiego Katedra 04 nż
-1593	2	186160	15:24:00	15:24:00		Łukasiewicza / Sikorskiego 02 nż
-1593	2	186160	15:24:00	15:24:00		Łukasiewicza / Sikorskiego 02 nż
-1593	2	186160	15:25:00	15:25:00		Łukasiewicza / Zimowit 04 nż
-1593	2	186160	15:25:00	15:25:00		Łukasiewicza / Zimowit 04 nż
-1593	2	186160	15:26:00	15:26:00		Łukasiewicza / Gumińskich 06 nż
-1593	2	186160	15:26:00	15:26:00		Łukasiewicza / Gumińskich 06 nż
-1593	2	186160	15:27:00	15:27:00		Łukasiewicza pętla 10
-1593	2	186160	15:27:00	15:27:00		Łukasiewicza pętla 10
+1593	1	207028	15:08:00	15:08:00		Piłsudskiego U. Wojewódzki 03
+1593	1	207028	15:10:00	15:10:00		Pl. Wolności 01
+1593	1	207028	15:10:00	15:10:00		Pl. Wolności 01
+1593	1	207028	15:13:00	15:13:00		Rejtana / Lwowska 01
+1593	1	207028	15:13:00	15:13:00		Rejtana / Lwowska 01
+1593	1	207028	15:14:00	15:14:00		Rejtana / Kustronia 03 nż
+1593	1	207028	15:14:00	15:14:00		Rejtana / Kustronia 03 nż
+1593	1	207028	15:15:00	15:15:00		Rejtana Uniwersytet 05
+1593	1	207028	15:15:00	15:15:00		Rejtana Uniwersytet 05
+1593	1	207028	15:17:00	15:17:00		Rejtana / Kopisto 07
+1593	1	207028	15:17:00	15:17:00		Rejtana / Kopisto 07
+1593	1	207028	15:19:00	15:19:00		Rejtana / Popiełuszki 09
+1593	1	207028	15:19:00	15:19:00		Rejtana / Popiełuszki 09
+1593	1	207028	15:22:00	15:22:00		Sikorskiego / Powst. Warszawy 02 nż
+1593	1	207028	15:22:00	15:22:00		Sikorskiego / Powst. Warszawy 02 nż
+1593	1	207028	15:23:00	15:23:00		Sikorskiego Katedra 04 nż
+1593	1	207028	15:23:00	15:23:00		Sikorskiego Katedra 04 nż
+1593	1	207028	15:24:00	15:24:00		Łukasiewicza / Sikorskiego 02 nż
+1593	1	207028	15:24:00	15:24:00		Łukasiewicza / Sikorskiego 02 nż
+1593	1	207028	15:25:00	15:25:00		Łukasiewicza / Zimowit 04 nż
+1593	1	207028	15:25:00	15:25:00		Łukasiewicza / Zimowit 04 nż
+1593	1	207028	15:26:00	15:26:00		Łukasiewicza / Gumińskich 06 nż
+1593	1	207028	15:26:00	15:26:00		Łukasiewicza / Gumińskich 06 nż
+1593	1	207028	15:27:00	15:27:00		Łukasiewicza pętla 10
+1593	1	207028	15:27:00	15:27:00		Łukasiewicza pętla 10
 
-1579	2	185736	15:35:00	15:35:00		Łukasiewicza pętla 10
-1579	2	185736	15:35:00	15:35:00		Łukasiewicza pętla 10
-1579	2	185736	15:36:00	15:36:00		Łukasiewicza / Sasanki 03 nż
-1579	2	185736	15:36:00	15:36:00		Łukasiewicza / Sasanki 03 nż
-1579	2	185736	15:37:00	15:37:00		Łukasiewicza / Krokusowa 01 nż
-1579	2	185736	15:37:00	15:37:00		Łukasiewicza / Krokusowa 01 nż
-1579	2	185736	15:38:00	15:38:00		Sikorskiego Katedra 01 nż
-1579	2	185736	15:38:00	15:38:00		Sikorskiego Katedra 01 nż
-1579	2	185736	15:41:00	15:41:00		Powst. Warszawy / Rejtana 13
-1579	2	185736	15:41:00	15:41:00		Powst. Warszawy / Rejtana 13
-1579	2	185736	15:42:00	15:42:00		Powst. Warszawy szkoła 11
-1579	2	185736	15:42:00	15:42:00		Powst. Warszawy szkoła 11
-1579	2	185736	15:43:00	15:43:00		Powst. Warszawy Dom Studenta 09
-1579	2	185736	15:43:00	15:43:00		Powst. Warszawy Dom Studenta 09
-1579	2	185736	15:46:00	15:46:00		Powst. Warszawy / Hetmańska 03
-1579	2	185736	15:46:00	15:46:00		Powst. Warszawy / Hetmańska 03
-1579	2	185736	15:47:00	15:47:00		Powst. Warszawy Politechnika 01
-1579	2	185736	15:47:00	15:47:00		Powst. Warszawy Politechnika 01
-1579	2	185736	15:50:00	15:50:00		Dąbrowskiego Instytut Muzyki 07
-1579	2	185736	15:50:00	15:50:00		Dąbrowskiego Instytut Muzyki 07
-1579	2	185736	15:51:00	15:51:00		Dąbrowskiego KW Policji 03
-1579	2	185736	15:51:00	15:51:00		Dąbrowskiego KW Policji 03
-1579	2	185736	15:52:00	15:52:00		Dąbrowskiego park 01 nż
-1579	2	185736	15:52:00	15:52:00		Dąbrowskiego park 01 nż
-1579	2	185736	15:58:00	15:58:00		Lisa-Kuli 02
-1579	2	185736	15:58:00	15:58:00		Lisa-Kuli 02
-1579	2	185736	15:59:00	15:59:00		Cieplińskiego 01
-1579	2	185736	15:59:00	15:59:00		Cieplińskiego 01
-1579	2	185736	16:03:00	16:03:00		Marszałkowska 02
-1579	2	185736	16:03:00	16:03:00		Marszałkowska 02
-1579	2	185736	16:04:00	16:04:00		Lubelska szpital 02
-1579	2	185736	16:04:00	16:04:00		Lubelska szpital 02
-1579	2	185736	16:07:00	16:07:00		Wyzwolenia / Lubelska 02 nż
-1579	2	185736	16:07:00	16:07:00		Wyzwolenia / Lubelska 02 nż
-1579	2	185736	16:08:00	16:08:00		Wyzwolenia WORD 04 nż
-1579	2	185736	16:08:00	16:08:00		Wyzwolenia WORD 04 nż
-1579	2	185736	16:10:00	16:10:00		Wyzwolenia / Iranka-Osmeckiego 06
-1579	2	185736	16:10:00	16:10:00		Wyzwolenia / Iranka-Osmeckiego 06
-1579	2	185736	16:11:00	16:11:00		Wyzwolenia / Brydaka 08
-1579	2	185736	16:11:00	16:11:00		Wyzwolenia / Brydaka 08
-1579	2	185736	16:12:00	16:12:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
-1579	2	185736	16:12:00	16:12:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
-1579	2	185736	16:13:00	16:13:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
-1579	2	185736	16:13:00	16:13:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
-1579	2	185736	16:14:00	16:14:00		Obr. Poczty Gdańskiej pętla 08
-1579	2	185736	16:14:00	16:14:00		Obr. Poczty Gdańskiej pętla 08
+1579	1	205723	15:35:00	15:35:00		Łukasiewicza pętla 10
+1579	1	205723	15:35:00	15:35:00		Łukasiewicza pętla 10
+1579	1	205723	15:36:00	15:36:00		Łukasiewicza / Sasanki 03 nż
+1579	1	205723	15:36:00	15:36:00		Łukasiewicza / Sasanki 03 nż
+1579	1	205723	15:37:00	15:37:00		Łukasiewicza / Krokusowa 01 nż
+1579	1	205723	15:37:00	15:37:00		Łukasiewicza / Krokusowa 01 nż
+1579	1	205723	15:38:00	15:38:00		Sikorskiego Katedra 01 nż
+1579	1	205723	15:38:00	15:38:00		Sikorskiego Katedra 01 nż
+1579	1	205723	15:41:00	15:41:00		Powst. Warszawy / Rejtana 13
+1579	1	205723	15:41:00	15:41:00		Powst. Warszawy / Rejtana 13
+1579	1	205723	15:42:00	15:42:00		Powst. Warszawy szkoła 11
+1579	1	205723	15:42:00	15:42:00		Powst. Warszawy szkoła 11
+1579	1	205723	15:43:00	15:43:00		Powst. Warszawy Dom Studenta 09
+1579	1	205723	15:43:00	15:43:00		Powst. Warszawy Dom Studenta 09
+1579	1	205723	15:46:00	15:46:00		Powst. Warszawy / Hetmańska 03
+1579	1	205723	15:46:00	15:46:00		Powst. Warszawy / Hetmańska 03
+1579	1	205723	15:47:00	15:47:00		Powst. Warszawy Politechnika 01
+1579	1	205723	15:47:00	15:47:00		Powst. Warszawy Politechnika 01
+1579	1	205723	15:50:00	15:50:00		Dąbrowskiego Instytut Muzyki 07
+1579	1	205723	15:50:00	15:50:00		Dąbrowskiego Instytut Muzyki 07
+1579	1	205723	15:51:00	15:51:00		Dąbrowskiego KW Policji 03
+1579	1	205723	15:51:00	15:51:00		Dąbrowskiego KW Policji 03
+1579	1	205723	15:52:00	15:52:00		Dąbrowskiego park 01 nż
+1579	1	205723	15:52:00	15:52:00		Dąbrowskiego park 01 nż
+1579	1	205723	15:58:00	15:58:00		Lisa-Kuli 02
+1579	1	205723	15:58:00	15:58:00		Lisa-Kuli 02
+1579	1	205723	15:59:00	15:59:00		Cieplińskiego 01
+1579	1	205723	15:59:00	15:59:00		Cieplińskiego 01
+1579	1	205723	16:03:00	16:03:00		Marszałkowska 02
+1579	1	205723	16:03:00	16:03:00		Marszałkowska 02
+1579	1	205723	16:04:00	16:04:00		Lubelska szpital 02
+1579	1	205723	16:04:00	16:04:00		Lubelska szpital 02
+1579	1	205723	16:07:00	16:07:00		Wyzwolenia / Lubelska 02 nż
+1579	1	205723	16:07:00	16:07:00		Wyzwolenia / Lubelska 02 nż
+1579	1	205723	16:08:00	16:08:00		Wyzwolenia WORD 04 nż
+1579	1	205723	16:08:00	16:08:00		Wyzwolenia WORD 04 nż
+1579	1	205723	16:10:00	16:10:00		Wyzwolenia / Iranka-Osmeckiego 06
+1579	1	205723	16:10:00	16:10:00		Wyzwolenia / Iranka-Osmeckiego 06
+1579	1	205723	16:11:00	16:11:00		Wyzwolenia / Brydaka 08
+1579	1	205723	16:11:00	16:11:00		Wyzwolenia / Brydaka 08
+1579	1	205723	16:12:00	16:12:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
+1579	1	205723	16:12:00	16:12:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
+1579	1	205723	16:13:00	16:13:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
+1579	1	205723	16:13:00	16:13:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
+1579	1	205723	16:14:00	16:14:00		Obr. Poczty Gdańskiej pętla 08
+1579	1	205723	16:14:00	16:14:00		Obr. Poczty Gdańskiej pętla 08
 
-1615	2	187278	17:12:00	17:12:00		Trembeckiego ZTM pętla 01
-1615	2	187278	17:12:00	17:12:00		Trembeckiego ZTM pętla 01
-1615	2	187278	17:14:00	17:14:00		Lubelska kościół 05 nż
-1615	2	187278	17:14:00	17:14:00		Lubelska kościół 05 nż
-1615	2	187278	17:15:00	17:15:00		Lubelska szpital 01
-1615	2	187278	17:15:00	17:15:00		Lubelska szpital 01
-1615	2	187278	17:17:00	17:17:00		Marszałkowska 01
-1615	2	187278	17:17:00	17:17:00		Marszałkowska 01
-1615	2	187278	17:21:00	17:21:00		Piłsudskiego U. Wojewódzki 03
-1615	2	187278	17:21:00	17:21:00		Piłsudskiego U. Wojewódzki 03
-1615	2	187278	17:22:00	17:22:00		Pl. Wolności 01
-1615	2	187278	17:22:00	17:22:00		Pl. Wolności 01
-1615	2	187278	17:23:00	17:23:00		Targowa 01
-1615	2	187278	17:23:00	17:23:00		Targowa 01
-1615	2	187278	17:25:00	17:25:00		Szopena Filharmonia 02 nż
-1615	2	187278	17:25:00	17:25:00		Szopena Filharmonia 02 nż
-1615	2	187278	17:26:00	17:26:00		Kilara 01 nż
-1615	2	187278	17:26:00	17:26:00		Kilara 01 nż
-1615	2	187278	17:28:00	17:28:00		Hetmańska podzamcze 02 nż
-1615	2	187278	17:28:00	17:28:00		Hetmańska podzamcze 02 nż
-1615	2	187278	17:29:00	17:29:00		Hetmańska przychodnia 04
-1615	2	187278	17:29:00	17:29:00		Hetmańska przychodnia 04
-1615	2	187278	17:30:00	17:30:00		Hetmańska ZS. Mech. 06
-1615	2	187278	17:30:00	17:30:00		Hetmańska ZS. Mech. 06
-1615	2	187278	17:33:00	17:33:00		Powst. Warszawy stadion 06
-1615	2	187278	17:33:00	17:33:00		Powst. Warszawy stadion 06
-1615	2	187278	17:36:00	17:36:00		Powst. Warszawy Dom Studenta 08
-1615	2	187278	17:36:00	17:36:00		Powst. Warszawy Dom Studenta 08
-1615	2	187278	17:37:00	17:37:00		Powst. Warszawy / Graniczna 10
-1615	2	187278	17:37:00	17:37:00		Powst. Warszawy / Graniczna 10
-1615	2	187278	17:38:00	17:38:00		Powst. Warszawy / Sikorskiego 12 nż
-1615	2	187278	17:38:00	17:38:00		Powst. Warszawy / Sikorskiego 12 nż
-1615	2	187278	17:39:00	17:39:00		Sikorskiego Katedra 04 nż
-1615	2	187278	17:39:00	17:39:00		Sikorskiego Katedra 04 nż
-1615	2	187278	17:40:00	17:40:00		Sikorskiego / Łukasiewicza 06 nż
-1615	2	187278	17:40:00	17:40:00		Sikorskiego / Łukasiewicza 06 nż
-1615	2	187278	17:41:00	17:41:00		Sikorskiego domki 08 nż
-1615	2	187278	17:41:00	17:41:00		Sikorskiego domki 08 nż
-1615	2	187278	17:42:00	17:42:00		Sikorskiego / Strażacka 10 nż
-1615	2	187278	17:42:00	17:42:00		Sikorskiego / Strażacka 10 nż
-1615	2	187278	17:44:00	17:44:00		Sikorskiego / Białogórska 12 nż
-1615	2	187278	17:44:00	17:44:00		Sikorskiego / Białogórska 12 nż
-1615	2	187278	17:45:00	17:45:00		Sikorskiego / Rodzinna 14 nż
-1615	2	187278	17:45:00	17:45:00		Sikorskiego / Rodzinna 14 nż
-1615	2	187278	17:47:00	17:47:00		Sikorskiego / Kard. K. Wojtyły 16 nż
-1615	2	187278	17:47:00	17:47:00		Sikorskiego / Kard. K. Wojtyły 16 nż
-1615	2	187278	17:48:00	17:48:00		Sikorskiego granica 18 nż
-1615	2	187278	17:48:00	17:48:00		Sikorskiego granica 18 nż
-1615	2	187278	17:49:00	17:49:00		Tyczyn Grunwaldzka POM 02 nż
-1615	2	187278	17:49:00	17:49:00		Tyczyn Grunwaldzka POM 02 nż
-1615	2	187278	17:50:00	17:50:00		Tyczyn Orkana skrzyżowanie 13 nż
-1615	2	187278	17:50:00	17:50:00		Tyczyn Orkana skrzyżowanie 13 nż
-1615	2	187278	17:51:00	17:51:00		Budziwojska / Herbowa 02 nż
-1615	2	187278	17:51:00	17:51:00		Budziwojska / Herbowa 02 nż
-1615	2	187278	17:52:00	17:52:00		Budziwojska / Legionistów 04 nż
-1615	2	187278	17:52:00	17:52:00		Budziwojska / Legionistów 04 nż
-1615	2	187278	17:53:00	17:53:00		Budziwojska / Tarnopolska 06 nż
-1615	2	187278	17:53:00	17:53:00		Budziwojska / Tarnopolska 06 nż
-1615	2	187278	17:54:00	17:54:00		Budziwojska / Karmelicka 08 nż
-1615	2	187278	17:54:00	17:54:00		Budziwojska / Karmelicka 08 nż
-1615	2	187278	17:55:00	17:55:00		Budziwojska / Jana Pawła II 10 nż
-1615	2	187278	17:55:00	17:55:00		Budziwojska / Jana Pawła II 10 nż
-1615	2	187278	17:56:00	17:56:00		Budziwojska szkoła 12
-1615	2	187278	17:56:00	17:56:00		Budziwojska szkoła 12
-1615	2	187278	17:57:00	17:57:00		Budziwojska / Podleśna 14 nż
-1615	2	187278	17:57:00	17:57:00		Budziwojska / Podleśna 14 nż
-1615	2	187278	17:59:00	17:59:00		Budziwojska / Kwiatowa 16 nż
-1615	2	187278	17:59:00	17:59:00		Budziwojska / Kwiatowa 16 nż
-1615	2	187278	18:00:00	18:00:00		Poselska / Budziwojska 03 nż
-1615	2	187278	18:00:00	18:00:00		Poselska / Budziwojska 03 nż
-1615	2	187278	18:01:00	18:01:00		Poselska / Podleśna 01 nż
-1615	2	187278	18:01:00	18:01:00		Poselska / Podleśna 01 nż
-1615	2	187278	18:03:00	18:03:00		Podleśna / Podlesie 02 nż
-1615	2	187278	18:03:00	18:03:00		Podleśna / Podlesie 02 nż
-1615	2	187278	18:04:00	18:04:00		Podleśna / Liliowa 04 nż
-1615	2	187278	18:04:00	18:04:00		Podleśna / Liliowa 04 nż
-1615	2	187278	18:05:00	18:05:00		Podleśna / Nadziei 06 nż
-1615	2	187278	18:05:00	18:05:00		Podleśna / Nadziei 06 nż
-1615	2	187278	18:07:00	18:07:00		Podleśna / Jarzębinowa 08 nż
-1615	2	187278	18:07:00	18:07:00		Podleśna / Jarzębinowa 08 nż
-1615	2	187278	18:08:00	18:08:00		Hermanowa Przylasek 01 nż
-1615	2	187278	18:08:00	18:08:00		Hermanowa Przylasek 01 nż
-1615	2	187278	18:09:00	18:09:00		Hermanowa Przylasek źródełko 03 nż
-1615	2	187278	18:09:00	18:09:00		Hermanowa Przylasek źródełko 03 nż
-1615	2	187278	18:10:00	18:10:00		Hermanowa Przylasek pętla 06
-1615	2	187278	18:10:00	18:10:00		Hermanowa Przylasek pętla 06
+1615	1	205411	17:12:00	17:12:00		Trembeckiego ZTM pętla 01
+1615	1	205411	17:12:00	17:12:00		Trembeckiego ZTM pętla 01
+1615	1	205411	17:14:00	17:14:00		Lubelska kościół 05 nż
+1615	1	205411	17:14:00	17:14:00		Lubelska kościół 05 nż
+1615	1	205411	17:15:00	17:15:00		Lubelska szpital 01
+1615	1	205411	17:15:00	17:15:00		Lubelska szpital 01
+1615	1	205411	17:17:00	17:17:00		Marszałkowska 01
+1615	1	205411	17:17:00	17:17:00		Marszałkowska 01
+1615	1	205411	17:21:00	17:21:00		Piłsudskiego U. Wojewódzki 03
+1615	1	205411	17:21:00	17:21:00		Piłsudskiego U. Wojewódzki 03
+1615	1	205411	17:22:00	17:22:00		Pl. Wolności 01
+1615	1	205411	17:22:00	17:22:00		Pl. Wolności 01
+1615	1	205411	17:23:00	17:23:00		Targowa 01
+1615	1	205411	17:23:00	17:23:00		Targowa 01
+1615	1	205411	17:25:00	17:25:00		Szopena Filharmonia 02 nż
+1615	1	205411	17:25:00	17:25:00		Szopena Filharmonia 02 nż
+1615	1	205411	17:26:00	17:26:00		Kilara 01 nż
+1615	1	205411	17:26:00	17:26:00		Kilara 01 nż
+1615	1	205411	17:28:00	17:28:00		Hetmańska podzamcze 02 nż
+1615	1	205411	17:28:00	17:28:00		Hetmańska podzamcze 02 nż
+1615	1	205411	17:29:00	17:29:00		Hetmańska przychodnia 04
+1615	1	205411	17:29:00	17:29:00		Hetmańska przychodnia 04
+1615	1	205411	17:30:00	17:30:00		Hetmańska ZS. Mech. 06
+1615	1	205411	17:30:00	17:30:00		Hetmańska ZS. Mech. 06
+1615	1	205411	17:33:00	17:33:00		Powst. Warszawy stadion 06
+1615	1	205411	17:33:00	17:33:00		Powst. Warszawy stadion 06
+1615	1	205411	17:36:00	17:36:00		Powst. Warszawy Dom Studenta 08
+1615	1	205411	17:36:00	17:36:00		Powst. Warszawy Dom Studenta 08
+1615	1	205411	17:37:00	17:37:00		Powst. Warszawy / Graniczna 10
+1615	1	205411	17:37:00	17:37:00		Powst. Warszawy / Graniczna 10
+1615	1	205411	17:38:00	17:38:00		Powst. Warszawy / Sikorskiego 12 nż
+1615	1	205411	17:38:00	17:38:00		Powst. Warszawy / Sikorskiego 12 nż
+1615	1	205411	17:39:00	17:39:00		Sikorskiego Katedra 04 nż
+1615	1	205411	17:39:00	17:39:00		Sikorskiego Katedra 04 nż
+1615	1	205411	17:40:00	17:40:00		Sikorskiego / Łukasiewicza 06 nż
+1615	1	205411	17:40:00	17:40:00		Sikorskiego / Łukasiewicza 06 nż
+1615	1	205411	17:41:00	17:41:00		Sikorskiego domki 08 nż
+1615	1	205411	17:41:00	17:41:00		Sikorskiego domki 08 nż
+1615	1	205411	17:42:00	17:42:00		Sikorskiego / Strażacka 10 nż
+1615	1	205411	17:42:00	17:42:00		Sikorskiego / Strażacka 10 nż
+1615	1	205411	17:44:00	17:44:00		Sikorskiego / Białogórska 12 nż
+1615	1	205411	17:44:00	17:44:00		Sikorskiego / Białogórska 12 nż
+1615	1	205411	17:45:00	17:45:00		Sikorskiego / Rodzinna 14 nż
+1615	1	205411	17:45:00	17:45:00		Sikorskiego / Rodzinna 14 nż
+1615	1	205411	17:47:00	17:47:00		Sikorskiego / Kard. K. Wojtyły 16 nż
+1615	1	205411	17:47:00	17:47:00		Sikorskiego / Kard. K. Wojtyły 16 nż
+1615	1	205411	17:48:00	17:48:00		Sikorskiego granica 18 nż
+1615	1	205411	17:48:00	17:48:00		Sikorskiego granica 18 nż
+1615	1	205411	17:49:00	17:49:00		Tyczyn Grunwaldzka POM 02 nż
+1615	1	205411	17:49:00	17:49:00		Tyczyn Grunwaldzka POM 02 nż
+1615	1	205411	17:50:00	17:50:00		Tyczyn Orkana skrzyżowanie 13 nż
+1615	1	205411	17:50:00	17:50:00		Tyczyn Orkana skrzyżowanie 13 nż
+1615	1	205411	17:51:00	17:51:00		Budziwojska / Herbowa 02 nż
+1615	1	205411	17:51:00	17:51:00		Budziwojska / Herbowa 02 nż
+1615	1	205411	17:52:00	17:52:00		Budziwojska / Legionistów 04 nż
+1615	1	205411	17:52:00	17:52:00		Budziwojska / Legionistów 04 nż
+1615	1	205411	17:53:00	17:53:00		Budziwojska / Tarnopolska 06 nż
+1615	1	205411	17:53:00	17:53:00		Budziwojska / Tarnopolska 06 nż
+1615	1	205411	17:54:00	17:54:00		Budziwojska / Karmelicka 08 nż
+1615	1	205411	17:54:00	17:54:00		Budziwojska / Karmelicka 08 nż
+1615	1	205411	17:55:00	17:55:00		Budziwojska / Jana Pawła II 10 nż
+1615	1	205411	17:55:00	17:55:00		Budziwojska / Jana Pawła II 10 nż
+1615	1	205411	17:56:00	17:56:00		Budziwojska szkoła 12
+1615	1	205411	17:56:00	17:56:00		Budziwojska szkoła 12
+1615	1	205411	17:57:00	17:57:00		Budziwojska / Podleśna 14 nż
+1615	1	205411	17:57:00	17:57:00		Budziwojska / Podleśna 14 nż
+1615	1	205411	17:59:00	17:59:00		Budziwojska / Kwiatowa 16 nż
+1615	1	205411	17:59:00	17:59:00		Budziwojska / Kwiatowa 16 nż
+1615	1	205411	18:00:00	18:00:00		Poselska / Budziwojska 03 nż
+1615	1	205411	18:00:00	18:00:00		Poselska / Budziwojska 03 nż
+1615	1	205411	18:01:00	18:01:00		Poselska / Podleśna 01 nż
+1615	1	205411	18:01:00	18:01:00		Poselska / Podleśna 01 nż
+1615	1	205411	18:03:00	18:03:00		Podleśna / Podlesie 02 nż
+1615	1	205411	18:03:00	18:03:00		Podleśna / Podlesie 02 nż
+1615	1	205411	18:04:00	18:04:00		Podleśna / Liliowa 04 nż
+1615	1	205411	18:04:00	18:04:00		Podleśna / Liliowa 04 nż
+1615	1	205411	18:05:00	18:05:00		Podleśna / Nadziei 06 nż
+1615	1	205411	18:05:00	18:05:00		Podleśna / Nadziei 06 nż
+1615	1	205411	18:07:00	18:07:00		Podleśna / Jarzębinowa 08 nż
+1615	1	205411	18:07:00	18:07:00		Podleśna / Jarzębinowa 08 nż
+1615	1	205411	18:08:00	18:08:00		Hermanowa Przylasek 01 nż
+1615	1	205411	18:08:00	18:08:00		Hermanowa Przylasek 01 nż
+1615	1	205411	18:09:00	18:09:00		Hermanowa Przylasek źródełko 03 nż
+1615	1	205411	18:09:00	18:09:00		Hermanowa Przylasek źródełko 03 nż
+1615	1	205411	18:10:00	18:10:00		Hermanowa Przylasek pętla 06
+1615	1	205411	18:10:00	18:10:00		Hermanowa Przylasek pętla 06
 
-1616	2	185678	18:22:00	18:22:00		Hermanowa Przylasek pętla 06
-1616	2	185678	18:22:00	18:22:00		Hermanowa Przylasek pętla 06
-1616	2	185678	18:23:00	18:23:00		Hermanowa Przylasek źródełko 04 nż
-1616	2	185678	18:23:00	18:23:00		Hermanowa Przylasek źródełko 04 nż
-1616	2	185678	18:24:00	18:24:00		Hermanowa Przylasek 02 nż
-1616	2	185678	18:24:00	18:24:00		Hermanowa Przylasek 02 nż
-1616	2	185678	18:25:00	18:25:00		Podleśna / Jarzębinowa 07 nż
-1616	2	185678	18:25:00	18:25:00		Podleśna / Jarzębinowa 07 nż
-1616	2	185678	18:27:00	18:27:00		Podleśna / Nadziei 05 nż
-1616	2	185678	18:27:00	18:27:00		Podleśna / Nadziei 05 nż
-1616	2	185678	18:28:00	18:28:00		Podleśna / Laskowa 03 nż
-1616	2	185678	18:28:00	18:28:00		Podleśna / Laskowa 03 nż
-1616	2	185678	18:29:00	18:29:00		Podleśna / Podlesie 01 nż
-1616	2	185678	18:29:00	18:29:00		Podleśna / Podlesie 01 nż
-1616	2	185678	18:31:00	18:31:00		Poselska / Podleśna 02 nż
-1616	2	185678	18:31:00	18:31:00		Poselska / Podleśna 02 nż
-1616	2	185678	18:32:00	18:32:00		Poselska / Budziwojska 04 nż
-1616	2	185678	18:32:00	18:32:00		Poselska / Budziwojska 04 nż
-1616	2	185678	18:33:00	18:33:00		Budziwojska / Kwiatowa 15 nż
-1616	2	185678	18:33:00	18:33:00		Budziwojska / Kwiatowa 15 nż
-1616	2	185678	18:34:00	18:34:00		Budziwojska / Podleśna 13 nż
-1616	2	185678	18:34:00	18:34:00		Budziwojska / Podleśna 13 nż
-1616	2	185678	18:35:00	18:35:00		Budziwojska cmentarz 11
-1616	2	185678	18:35:00	18:35:00		Budziwojska cmentarz 11
-1616	2	185678	18:36:00	18:36:00		Budziwojska / Jana Pawła II 09 nż
-1616	2	185678	18:36:00	18:36:00		Budziwojska / Jana Pawła II 09 nż
-1616	2	185678	18:37:00	18:37:00		Budziwojska / Karmelicka 07 nż
-1616	2	185678	18:37:00	18:37:00		Budziwojska / Karmelicka 07 nż
-1616	2	185678	18:38:00	18:38:00		Budziwojska / Tarnopolska 05 nż
-1616	2	185678	18:38:00	18:38:00		Budziwojska / Tarnopolska 05 nż
-1616	2	185678	18:39:00	18:39:00		Budziwojska / Legionistów 03 nż
-1616	2	185678	18:39:00	18:39:00		Budziwojska / Legionistów 03 nż
-1616	2	185678	18:40:00	18:40:00		Budziwojska / Herbowa 01 nż
-1616	2	185678	18:40:00	18:40:00		Budziwojska / Herbowa 01 nż
-1616	2	185678	18:41:00	18:41:00		Tyczyn Orkana skrzyżowanie 16
-1616	2	185678	18:41:00	18:41:00		Tyczyn Orkana skrzyżowanie 16
-1616	2	185678	18:42:00	18:42:00		Tyczyn Grunwaldzka POM 27 nż
-1616	2	185678	18:42:00	18:42:00		Tyczyn Grunwaldzka POM 27 nż
-1616	2	185678	18:43:00	18:43:00		Sikorskiego granica 15 nż
-1616	2	185678	18:43:00	18:43:00		Sikorskiego granica 15 nż
-1616	2	185678	18:44:00	18:44:00		Sikorskiego / Ruczajowa 13 nż
-1616	2	185678	18:44:00	18:44:00		Sikorskiego / Ruczajowa 13 nż
-1616	2	185678	18:45:00	18:45:00		Sikorskiego / Kard. K. Wojtyły 11 nż
-1616	2	185678	18:45:00	18:45:00		Sikorskiego / Kard. K. Wojtyły 11 nż
-1616	2	185678	18:46:00	18:46:00		Sikorskiego / Rodzinna 09 nż
-1616	2	185678	18:46:00	18:46:00		Sikorskiego / Rodzinna 09 nż
-1616	2	185678	18:47:00	18:47:00		Sikorskiego / Białogórska 07 nż
-1616	2	185678	18:47:00	18:47:00		Sikorskiego / Białogórska 07 nż
-1616	2	185678	18:49:00	18:49:00		Sikorskiego / Robotnicza 05 nż
-1616	2	185678	18:49:00	18:49:00		Sikorskiego / Robotnicza 05 nż
-1616	2	185678	18:50:00	18:50:00		Sikorskiego domki 03 nż
-1616	2	185678	18:50:00	18:50:00		Sikorskiego domki 03 nż
-1616	2	185678	18:52:00	18:52:00		Sikorskiego Katedra 01 nż
-1616	2	185678	18:52:00	18:52:00		Sikorskiego Katedra 01 nż
-1616	2	185678	18:55:00	18:55:00		Powst. Warszawy / Rejtana 13
-1616	2	185678	18:55:00	18:55:00		Powst. Warszawy / Rejtana 13
-1616	2	185678	18:56:00	18:56:00		Powst. Warszawy szkoła 11
-1616	2	185678	18:56:00	18:56:00		Powst. Warszawy szkoła 11
-1616	2	185678	18:57:00	18:57:00		Powst. Warszawy Dom Studenta 09
-1616	2	185678	18:57:00	18:57:00		Powst. Warszawy Dom Studenta 09
-1616	2	185678	19:00:00	19:00:00		Hetmańska stadion 07
-1616	2	185678	19:00:00	19:00:00		Hetmańska stadion 07
-1616	2	185678	19:01:00	19:01:00		Hetmańska ZS. Mech. 05
-1616	2	185678	19:01:00	19:01:00		Hetmańska ZS. Mech. 05
-1616	2	185678	19:02:00	19:02:00		Hetmańska przychodnia 03
-1616	2	185678	19:02:00	19:02:00		Hetmańska przychodnia 03
-1616	2	185678	19:03:00	19:03:00		Hetmańska podzamcze 01 nż
-1616	2	185678	19:03:00	19:03:00		Hetmańska podzamcze 01 nż
-1616	2	185678	19:04:00	19:04:00		Kilara 02 nż
-1616	2	185678	19:04:00	19:04:00		Kilara 02 nż
-1616	2	185678	19:05:00	19:05:00		Szopena Filharmonia 01 nż
-1616	2	185678	19:05:00	19:05:00		Szopena Filharmonia 01 nż
-1616	2	185678	19:06:00	19:06:00		Targowa 02
-1616	2	185678	19:06:00	19:06:00		Targowa 02
-1616	2	185678	19:08:00	19:08:00		Pl. Wolności 04
-1616	2	185678	19:08:00	19:08:00		Pl. Wolności 04
-1616	2	185678	19:09:00	19:09:00		Piłsudskiego U. Wojewódzki 06
-1616	2	185678	19:09:00	19:09:00		Piłsudskiego U. Wojewódzki 06
-1616	2	185678	19:12:00	19:12:00		Marszałkowska 02
-1616	2	185678	19:12:00	19:12:00		Marszałkowska 02
-1616	2	185678	19:13:00	19:13:00		Lubelska szpital 02
-1616	2	185678	19:13:00	19:13:00		Lubelska szpital 02
-1616	2	185678	19:14:00	19:14:00		Lubelska kościół 06 nż
-1616	2	185678	19:14:00	19:14:00		Lubelska kościół 06 nż
-1616	2	185678	19:16:00	19:16:00		Trembeckiego ZTM pętla 01
-1616	2	185678	19:16:00	19:16:00		Trembeckiego ZTM pętla 01
+1616	1	205847	18:22:00	18:22:00		Hermanowa Przylasek pętla 06
+1616	1	205847	18:22:00	18:22:00		Hermanowa Przylasek pętla 06
+1616	1	205847	18:23:00	18:23:00		Hermanowa Przylasek źródełko 04 nż
+1616	1	205847	18:23:00	18:23:00		Hermanowa Przylasek źródełko 04 nż
+1616	1	205847	18:24:00	18:24:00		Hermanowa Przylasek 02 nż
+1616	1	205847	18:24:00	18:24:00		Hermanowa Przylasek 02 nż
+1616	1	205847	18:25:00	18:25:00		Podleśna / Jarzębinowa 07 nż
+1616	1	205847	18:25:00	18:25:00		Podleśna / Jarzębinowa 07 nż
+1616	1	205847	18:27:00	18:27:00		Podleśna / Nadziei 05 nż
+1616	1	205847	18:27:00	18:27:00		Podleśna / Nadziei 05 nż
+1616	1	205847	18:28:00	18:28:00		Podleśna / Laskowa 03 nż
+1616	1	205847	18:28:00	18:28:00		Podleśna / Laskowa 03 nż
+1616	1	205847	18:29:00	18:29:00		Podleśna / Podlesie 01 nż
+1616	1	205847	18:29:00	18:29:00		Podleśna / Podlesie 01 nż
+1616	1	205847	18:31:00	18:31:00		Poselska / Podleśna 02 nż
+1616	1	205847	18:31:00	18:31:00		Poselska / Podleśna 02 nż
+1616	1	205847	18:32:00	18:32:00		Poselska / Budziwojska 04 nż
+1616	1	205847	18:32:00	18:32:00		Poselska / Budziwojska 04 nż
+1616	1	205847	18:33:00	18:33:00		Budziwojska / Kwiatowa 15 nż
+1616	1	205847	18:33:00	18:33:00		Budziwojska / Kwiatowa 15 nż
+1616	1	205847	18:34:00	18:34:00		Budziwojska / Podleśna 13 nż
+1616	1	205847	18:34:00	18:34:00		Budziwojska / Podleśna 13 nż
+1616	1	205847	18:35:00	18:35:00		Budziwojska cmentarz 11
+1616	1	205847	18:35:00	18:35:00		Budziwojska cmentarz 11
+1616	1	205847	18:36:00	18:36:00		Budziwojska / Jana Pawła II 09 nż
+1616	1	205847	18:36:00	18:36:00		Budziwojska / Jana Pawła II 09 nż
+1616	1	205847	18:37:00	18:37:00		Budziwojska / Karmelicka 07 nż
+1616	1	205847	18:37:00	18:37:00		Budziwojska / Karmelicka 07 nż
+1616	1	205847	18:38:00	18:38:00		Budziwojska / Tarnopolska 05 nż
+1616	1	205847	18:38:00	18:38:00		Budziwojska / Tarnopolska 05 nż
+1616	1	205847	18:39:00	18:39:00		Budziwojska / Legionistów 03 nż
+1616	1	205847	18:39:00	18:39:00		Budziwojska / Legionistów 03 nż
+1616	1	205847	18:40:00	18:40:00		Budziwojska / Herbowa 01 nż
+1616	1	205847	18:40:00	18:40:00		Budziwojska / Herbowa 01 nż
+1616	1	205847	18:41:00	18:41:00		Tyczyn Orkana skrzyżowanie 16
+1616	1	205847	18:41:00	18:41:00		Tyczyn Orkana skrzyżowanie 16
+1616	1	205847	18:42:00	18:42:00		Tyczyn Grunwaldzka POM 27 nż
+1616	1	205847	18:42:00	18:42:00		Tyczyn Grunwaldzka POM 27 nż
+1616	1	205847	18:43:00	18:43:00		Sikorskiego granica 15 nż
+1616	1	205847	18:43:00	18:43:00		Sikorskiego granica 15 nż
+1616	1	205847	18:44:00	18:44:00		Sikorskiego / Ruczajowa 13 nż
+1616	1	205847	18:44:00	18:44:00		Sikorskiego / Ruczajowa 13 nż
+1616	1	205847	18:45:00	18:45:00		Sikorskiego / Kard. K. Wojtyły 11 nż
+1616	1	205847	18:45:00	18:45:00		Sikorskiego / Kard. K. Wojtyły 11 nż
+1616	1	205847	18:46:00	18:46:00		Sikorskiego / Rodzinna 09 nż
+1616	1	205847	18:46:00	18:46:00		Sikorskiego / Rodzinna 09 nż
+1616	1	205847	18:47:00	18:47:00		Sikorskiego / Białogórska 07 nż
+1616	1	205847	18:47:00	18:47:00		Sikorskiego / Białogórska 07 nż
+1616	1	205847	18:49:00	18:49:00		Sikorskiego / Robotnicza 05 nż
+1616	1	205847	18:49:00	18:49:00		Sikorskiego / Robotnicza 05 nż
+1616	1	205847	18:50:00	18:50:00		Sikorskiego domki 03 nż
+1616	1	205847	18:50:00	18:50:00		Sikorskiego domki 03 nż
+1616	1	205847	18:52:00	18:52:00		Sikorskiego Katedra 01 nż
+1616	1	205847	18:52:00	18:52:00		Sikorskiego Katedra 01 nż
+1616	1	205847	18:55:00	18:55:00		Powst. Warszawy / Rejtana 13
+1616	1	205847	18:55:00	18:55:00		Powst. Warszawy / Rejtana 13
+1616	1	205847	18:56:00	18:56:00		Powst. Warszawy szkoła 11
+1616	1	205847	18:56:00	18:56:00		Powst. Warszawy szkoła 11
+1616	1	205847	18:57:00	18:57:00		Powst. Warszawy Dom Studenta 09
+1616	1	205847	18:57:00	18:57:00		Powst. Warszawy Dom Studenta 09
+1616	1	205847	19:00:00	19:00:00		Hetmańska stadion 07
+1616	1	205847	19:00:00	19:00:00		Hetmańska stadion 07
+1616	1	205847	19:01:00	19:01:00		Hetmańska ZS. Mech. 05
+1616	1	205847	19:01:00	19:01:00		Hetmańska ZS. Mech. 05
+1616	1	205847	19:02:00	19:02:00		Hetmańska przychodnia 03
+1616	1	205847	19:02:00	19:02:00		Hetmańska przychodnia 03
+1616	1	205847	19:03:00	19:03:00		Hetmańska podzamcze 01 nż
+1616	1	205847	19:03:00	19:03:00		Hetmańska podzamcze 01 nż
+1616	1	205847	19:04:00	19:04:00		Kilara 02 nż
+1616	1	205847	19:04:00	19:04:00		Kilara 02 nż
+1616	1	205847	19:05:00	19:05:00		Szopena Filharmonia 01 nż
+1616	1	205847	19:05:00	19:05:00		Szopena Filharmonia 01 nż
+1616	1	205847	19:06:00	19:06:00		Targowa 02
+1616	1	205847	19:06:00	19:06:00		Targowa 02
+1616	1	205847	19:08:00	19:08:00		Pl. Wolności 04
+1616	1	205847	19:08:00	19:08:00		Pl. Wolności 04
+1616	1	205847	19:09:00	19:09:00		Piłsudskiego U. Wojewódzki 06
+1616	1	205847	19:09:00	19:09:00		Piłsudskiego U. Wojewódzki 06
+1616	1	205847	19:12:00	19:12:00		Marszałkowska 02
+1616	1	205847	19:12:00	19:12:00		Marszałkowska 02
+1616	1	205847	19:13:00	19:13:00		Lubelska szpital 02
+1616	1	205847	19:13:00	19:13:00		Lubelska szpital 02
+1616	1	205847	19:14:00	19:14:00		Lubelska kościół 06 nż
+1616	1	205847	19:14:00	19:14:00		Lubelska kościół 06 nż
+1616	1	205847	19:16:00	19:16:00		Trembeckiego ZTM pętla 01
+1616	1	205847	19:16:00	19:16:00		Trembeckiego ZTM pętla 01
 
-1615	2	186000	20:13:00	20:13:00		Trembeckiego ZTM pętla 01
-1615	2	186000	20:13:00	20:13:00		Trembeckiego ZTM pętla 01
-1615	2	186000	20:15:00	20:15:00		Lubelska kościół 05 nż
-1615	2	186000	20:15:00	20:15:00		Lubelska kościół 05 nż
-1615	2	186000	20:16:00	20:16:00		Lubelska szpital 01
-1615	2	186000	20:16:00	20:16:00		Lubelska szpital 01
-1615	2	186000	20:17:00	20:17:00		Marszałkowska 01
-1615	2	186000	20:17:00	20:17:00		Marszałkowska 01
-1615	2	186000	20:20:00	20:20:00		Piłsudskiego U. Wojewódzki 03
-1615	2	186000	20:20:00	20:20:00		Piłsudskiego U. Wojewódzki 03
-1615	2	186000	20:21:00	20:21:00		Pl. Wolności 01
-1615	2	186000	20:21:00	20:21:00		Pl. Wolności 01
-1615	2	186000	20:22:00	20:22:00		Targowa 01
-1615	2	186000	20:22:00	20:22:00		Targowa 01
-1615	2	186000	20:24:00	20:24:00		Szopena Filharmonia 02 nż
-1615	2	186000	20:24:00	20:24:00		Szopena Filharmonia 02 nż
-1615	2	186000	20:25:00	20:25:00		Kilara 01 nż
-1615	2	186000	20:25:00	20:25:00		Kilara 01 nż
-1615	2	186000	20:27:00	20:27:00		Hetmańska podzamcze 02 nż
-1615	2	186000	20:27:00	20:27:00		Hetmańska podzamcze 02 nż
-1615	2	186000	20:28:00	20:28:00		Hetmańska przychodnia 04
-1615	2	186000	20:28:00	20:28:00		Hetmańska przychodnia 04
-1615	2	186000	20:29:00	20:29:00		Hetmańska ZS. Mech. 06
-1615	2	186000	20:29:00	20:29:00		Hetmańska ZS. Mech. 06
-1615	2	186000	20:31:00	20:31:00		Powst. Warszawy stadion 06
-1615	2	186000	20:31:00	20:31:00		Powst. Warszawy stadion 06
-1615	2	186000	20:33:00	20:33:00		Powst. Warszawy Dom Studenta 08
-1615	2	186000	20:33:00	20:33:00		Powst. Warszawy Dom Studenta 08
-1615	2	186000	20:34:00	20:34:00		Powst. Warszawy / Graniczna 10
-1615	2	186000	20:34:00	20:34:00		Powst. Warszawy / Graniczna 10
-1615	2	186000	20:35:00	20:35:00		Powst. Warszawy / Sikorskiego 12 nż
-1615	2	186000	20:35:00	20:35:00		Powst. Warszawy / Sikorskiego 12 nż
-1615	2	186000	20:36:00	20:36:00		Sikorskiego Katedra 04 nż
-1615	2	186000	20:36:00	20:36:00		Sikorskiego Katedra 04 nż
-1615	2	186000	20:37:00	20:37:00		Sikorskiego / Łukasiewicza 06 nż
-1615	2	186000	20:37:00	20:37:00		Sikorskiego / Łukasiewicza 06 nż
-1615	2	186000	20:38:00	20:38:00		Sikorskiego domki 08 nż
-1615	2	186000	20:38:00	20:38:00		Sikorskiego domki 08 nż
-1615	2	186000	20:39:00	20:39:00		Sikorskiego / Strażacka 10 nż
-1615	2	186000	20:39:00	20:39:00		Sikorskiego / Strażacka 10 nż
-1615	2	186000	20:40:00	20:40:00		Sikorskiego / Białogórska 12 nż
-1615	2	186000	20:40:00	20:40:00		Sikorskiego / Białogórska 12 nż
-1615	2	186000	20:41:00	20:41:00		Sikorskiego / Rodzinna 14 nż
-1615	2	186000	20:41:00	20:41:00		Sikorskiego / Rodzinna 14 nż
-1615	2	186000	20:43:00	20:43:00		Sikorskiego / Kard. K. Wojtyły 16 nż
-1615	2	186000	20:43:00	20:43:00		Sikorskiego / Kard. K. Wojtyły 16 nż
-1615	2	186000	20:44:00	20:44:00		Sikorskiego granica 18 nż
-1615	2	186000	20:44:00	20:44:00		Sikorskiego granica 18 nż
-1615	2	186000	20:45:00	20:45:00		Tyczyn Grunwaldzka POM 02 nż
-1615	2	186000	20:45:00	20:45:00		Tyczyn Grunwaldzka POM 02 nż
-1615	2	186000	20:46:00	20:46:00		Tyczyn Orkana skrzyżowanie 13 nż
-1615	2	186000	20:46:00	20:46:00		Tyczyn Orkana skrzyżowanie 13 nż
-1615	2	186000	20:47:00	20:47:00		Budziwojska / Herbowa 02 nż
-1615	2	186000	20:47:00	20:47:00		Budziwojska / Herbowa 02 nż
-1615	2	186000	20:48:00	20:48:00		Budziwojska / Legionistów 04 nż
-1615	2	186000	20:48:00	20:48:00		Budziwojska / Legionistów 04 nż
-1615	2	186000	20:49:00	20:49:00		Budziwojska / Tarnopolska 06 nż
-1615	2	186000	20:49:00	20:49:00		Budziwojska / Tarnopolska 06 nż
-1615	2	186000	20:50:00	20:50:00		Budziwojska / Karmelicka 08 nż
-1615	2	186000	20:50:00	20:50:00		Budziwojska / Karmelicka 08 nż
-1615	2	186000	20:51:00	20:51:00		Budziwojska / Jana Pawła II 10 nż
-1615	2	186000	20:51:00	20:51:00		Budziwojska / Jana Pawła II 10 nż
-1615	2	186000	20:52:00	20:52:00		Budziwojska szkoła 12
-1615	2	186000	20:52:00	20:52:00		Budziwojska szkoła 12
-1615	2	186000	20:53:00	20:53:00		Budziwojska / Podleśna 14 nż
-1615	2	186000	20:53:00	20:53:00		Budziwojska / Podleśna 14 nż
-1615	2	186000	20:55:00	20:55:00		Budziwojska / Kwiatowa 16 nż
-1615	2	186000	20:55:00	20:55:00		Budziwojska / Kwiatowa 16 nż
-1615	2	186000	20:56:00	20:56:00		Poselska / Budziwojska 03 nż
-1615	2	186000	20:56:00	20:56:00		Poselska / Budziwojska 03 nż
-1615	2	186000	20:57:00	20:57:00		Poselska / Podleśna 01 nż
-1615	2	186000	20:57:00	20:57:00		Poselska / Podleśna 01 nż
-1615	2	186000	20:59:00	20:59:00		Podleśna / Podlesie 02 nż
-1615	2	186000	20:59:00	20:59:00		Podleśna / Podlesie 02 nż
-1615	2	186000	21:00:00	21:00:00		Podleśna / Liliowa 04 nż
-1615	2	186000	21:00:00	21:00:00		Podleśna / Liliowa 04 nż
-1615	2	186000	21:01:00	21:01:00		Podleśna / Nadziei 06 nż
-1615	2	186000	21:01:00	21:01:00		Podleśna / Nadziei 06 nż
-1615	2	186000	21:03:00	21:03:00		Podleśna / Jarzębinowa 08 nż
-1615	2	186000	21:03:00	21:03:00		Podleśna / Jarzębinowa 08 nż
-1615	2	186000	21:04:00	21:04:00		Hermanowa Przylasek 01 nż
-1615	2	186000	21:04:00	21:04:00		Hermanowa Przylasek 01 nż
-1615	2	186000	21:05:00	21:05:00		Hermanowa Przylasek źródełko 03 nż
-1615	2	186000	21:05:00	21:05:00		Hermanowa Przylasek źródełko 03 nż
-1615	2	186000	21:06:00	21:06:00		Hermanowa Przylasek pętla 06
-1615	2	186000	21:06:00	21:06:00		Hermanowa Przylasek pętla 06
+1615	1	206769	20:13:00	20:13:00		Trembeckiego ZTM pętla 01
+1615	1	206769	20:13:00	20:13:00		Trembeckiego ZTM pętla 01
+1615	1	206769	20:15:00	20:15:00		Lubelska kościół 05 nż
+1615	1	206769	20:15:00	20:15:00		Lubelska kościół 05 nż
+1615	1	206769	20:16:00	20:16:00		Lubelska szpital 01
+1615	1	206769	20:16:00	20:16:00		Lubelska szpital 01
+1615	1	206769	20:17:00	20:17:00		Marszałkowska 01
+1615	1	206769	20:17:00	20:17:00		Marszałkowska 01
+1615	1	206769	20:20:00	20:20:00		Piłsudskiego U. Wojewódzki 03
+1615	1	206769	20:20:00	20:20:00		Piłsudskiego U. Wojewódzki 03
+1615	1	206769	20:21:00	20:21:00		Pl. Wolności 01
+1615	1	206769	20:21:00	20:21:00		Pl. Wolności 01
+1615	1	206769	20:22:00	20:22:00		Targowa 01
+1615	1	206769	20:22:00	20:22:00		Targowa 01
+1615	1	206769	20:24:00	20:24:00		Szopena Filharmonia 02 nż
+1615	1	206769	20:24:00	20:24:00		Szopena Filharmonia 02 nż
+1615	1	206769	20:25:00	20:25:00		Kilara 01 nż
+1615	1	206769	20:25:00	20:25:00		Kilara 01 nż
+1615	1	206769	20:27:00	20:27:00		Hetmańska podzamcze 02 nż
+1615	1	206769	20:27:00	20:27:00		Hetmańska podzamcze 02 nż
+1615	1	206769	20:28:00	20:28:00		Hetmańska przychodnia 04
+1615	1	206769	20:28:00	20:28:00		Hetmańska przychodnia 04
+1615	1	206769	20:29:00	20:29:00		Hetmańska ZS. Mech. 06
+1615	1	206769	20:29:00	20:29:00		Hetmańska ZS. Mech. 06
+1615	1	206769	20:31:00	20:31:00		Powst. Warszawy stadion 06
+1615	1	206769	20:31:00	20:31:00		Powst. Warszawy stadion 06
+1615	1	206769	20:33:00	20:33:00		Powst. Warszawy Dom Studenta 08
+1615	1	206769	20:33:00	20:33:00		Powst. Warszawy Dom Studenta 08
+1615	1	206769	20:34:00	20:34:00		Powst. Warszawy / Graniczna 10
+1615	1	206769	20:34:00	20:34:00		Powst. Warszawy / Graniczna 10
+1615	1	206769	20:35:00	20:35:00		Powst. Warszawy / Sikorskiego 12 nż
+1615	1	206769	20:35:00	20:35:00		Powst. Warszawy / Sikorskiego 12 nż
+1615	1	206769	20:36:00	20:36:00		Sikorskiego Katedra 04 nż
+1615	1	206769	20:36:00	20:36:00		Sikorskiego Katedra 04 nż
+1615	1	206769	20:37:00	20:37:00		Sikorskiego / Łukasiewicza 06 nż
+1615	1	206769	20:37:00	20:37:00		Sikorskiego / Łukasiewicza 06 nż
+1615	1	206769	20:38:00	20:38:00		Sikorskiego domki 08 nż
+1615	1	206769	20:38:00	20:38:00		Sikorskiego domki 08 nż
+1615	1	206769	20:39:00	20:39:00		Sikorskiego / Strażacka 10 nż
+1615	1	206769	20:39:00	20:39:00		Sikorskiego / Strażacka 10 nż
+1615	1	206769	20:40:00	20:40:00		Sikorskiego / Białogórska 12 nż
+1615	1	206769	20:40:00	20:40:00		Sikorskiego / Białogórska 12 nż
+1615	1	206769	20:41:00	20:41:00		Sikorskiego / Rodzinna 14 nż
+1615	1	206769	20:41:00	20:41:00		Sikorskiego / Rodzinna 14 nż
+1615	1	206769	20:43:00	20:43:00		Sikorskiego / Kard. K. Wojtyły 16 nż
+1615	1	206769	20:43:00	20:43:00		Sikorskiego / Kard. K. Wojtyły 16 nż
+1615	1	206769	20:44:00	20:44:00		Sikorskiego granica 18 nż
+1615	1	206769	20:44:00	20:44:00		Sikorskiego granica 18 nż
+1615	1	206769	20:45:00	20:45:00		Tyczyn Grunwaldzka POM 02 nż
+1615	1	206769	20:45:00	20:45:00		Tyczyn Grunwaldzka POM 02 nż
+1615	1	206769	20:46:00	20:46:00		Tyczyn Orkana skrzyżowanie 13 nż
+1615	1	206769	20:46:00	20:46:00		Tyczyn Orkana skrzyżowanie 13 nż
+1615	1	206769	20:47:00	20:47:00		Budziwojska / Herbowa 02 nż
+1615	1	206769	20:47:00	20:47:00		Budziwojska / Herbowa 02 nż
+1615	1	206769	20:48:00	20:48:00		Budziwojska / Legionistów 04 nż
+1615	1	206769	20:48:00	20:48:00		Budziwojska / Legionistów 04 nż
+1615	1	206769	20:49:00	20:49:00		Budziwojska / Tarnopolska 06 nż
+1615	1	206769	20:49:00	20:49:00		Budziwojska / Tarnopolska 06 nż
+1615	1	206769	20:50:00	20:50:00		Budziwojska / Karmelicka 08 nż
+1615	1	206769	20:50:00	20:50:00		Budziwojska / Karmelicka 08 nż
+1615	1	206769	20:51:00	20:51:00		Budziwojska / Jana Pawła II 10 nż
+1615	1	206769	20:51:00	20:51:00		Budziwojska / Jana Pawła II 10 nż
+1615	1	206769	20:52:00	20:52:00		Budziwojska szkoła 12
+1615	1	206769	20:52:00	20:52:00		Budziwojska szkoła 12
+1615	1	206769	20:53:00	20:53:00		Budziwojska / Podleśna 14 nż
+1615	1	206769	20:53:00	20:53:00		Budziwojska / Podleśna 14 nż
+1615	1	206769	20:55:00	20:55:00		Budziwojska / Kwiatowa 16 nż
+1615	1	206769	20:55:00	20:55:00		Budziwojska / Kwiatowa 16 nż
+1615	1	206769	20:56:00	20:56:00		Poselska / Budziwojska 03 nż
+1615	1	206769	20:56:00	20:56:00		Poselska / Budziwojska 03 nż
+1615	1	206769	20:57:00	20:57:00		Poselska / Podleśna 01 nż
+1615	1	206769	20:57:00	20:57:00		Poselska / Podleśna 01 nż
+1615	1	206769	20:59:00	20:59:00		Podleśna / Podlesie 02 nż
+1615	1	206769	20:59:00	20:59:00		Podleśna / Podlesie 02 nż
+1615	1	206769	21:00:00	21:00:00		Podleśna / Liliowa 04 nż
+1615	1	206769	21:00:00	21:00:00		Podleśna / Liliowa 04 nż
+1615	1	206769	21:01:00	21:01:00		Podleśna / Nadziei 06 nż
+1615	1	206769	21:01:00	21:01:00		Podleśna / Nadziei 06 nż
+1615	1	206769	21:03:00	21:03:00		Podleśna / Jarzębinowa 08 nż
+1615	1	206769	21:03:00	21:03:00		Podleśna / Jarzębinowa 08 nż
+1615	1	206769	21:04:00	21:04:00		Hermanowa Przylasek 01 nż
+1615	1	206769	21:04:00	21:04:00		Hermanowa Przylasek 01 nż
+1615	1	206769	21:05:00	21:05:00		Hermanowa Przylasek źródełko 03 nż
+1615	1	206769	21:05:00	21:05:00		Hermanowa Przylasek źródełko 03 nż
+1615	1	206769	21:06:00	21:06:00		Hermanowa Przylasek pętla 06
+1615	1	206769	21:06:00	21:06:00		Hermanowa Przylasek pętla 06
 
-1616	2	186014	21:22:00	21:22:00		Hermanowa Przylasek pętla 06
-1616	2	186014	21:22:00	21:22:00		Hermanowa Przylasek pętla 06
-1616	2	186014	21:23:00	21:23:00		Hermanowa Przylasek źródełko 04 nż
-1616	2	186014	21:23:00	21:23:00		Hermanowa Przylasek źródełko 04 nż
-1616	2	186014	21:24:00	21:24:00		Hermanowa Przylasek 02 nż
-1616	2	186014	21:24:00	21:24:00		Hermanowa Przylasek 02 nż
-1616	2	186014	21:25:00	21:25:00		Podleśna / Jarzębinowa 07 nż
-1616	2	186014	21:25:00	21:25:00		Podleśna / Jarzębinowa 07 nż
-1616	2	186014	21:27:00	21:27:00		Podleśna / Nadziei 05 nż
-1616	2	186014	21:27:00	21:27:00		Podleśna / Nadziei 05 nż
-1616	2	186014	21:28:00	21:28:00		Podleśna / Laskowa 03 nż
-1616	2	186014	21:28:00	21:28:00		Podleśna / Laskowa 03 nż
-1616	2	186014	21:29:00	21:29:00		Podleśna / Podlesie 01 nż
-1616	2	186014	21:29:00	21:29:00		Podleśna / Podlesie 01 nż
-1616	2	186014	21:31:00	21:31:00		Poselska / Podleśna 02 nż
-1616	2	186014	21:31:00	21:31:00		Poselska / Podleśna 02 nż
-1616	2	186014	21:32:00	21:32:00		Poselska / Budziwojska 04 nż
-1616	2	186014	21:32:00	21:32:00		Poselska / Budziwojska 04 nż
-1616	2	186014	21:33:00	21:33:00		Budziwojska / Kwiatowa 15 nż
-1616	2	186014	21:33:00	21:33:00		Budziwojska / Kwiatowa 15 nż
-1616	2	186014	21:34:00	21:34:00		Budziwojska / Podleśna 13 nż
-1616	2	186014	21:34:00	21:34:00		Budziwojska / Podleśna 13 nż
-1616	2	186014	21:35:00	21:35:00		Budziwojska cmentarz 11
-1616	2	186014	21:35:00	21:35:00		Budziwojska cmentarz 11
-1616	2	186014	21:36:00	21:36:00		Budziwojska / Jana Pawła II 09 nż
-1616	2	186014	21:36:00	21:36:00		Budziwojska / Jana Pawła II 09 nż
-1616	2	186014	21:37:00	21:37:00		Budziwojska / Karmelicka 07 nż
-1616	2	186014	21:37:00	21:37:00		Budziwojska / Karmelicka 07 nż
-1616	2	186014	21:38:00	21:38:00		Budziwojska / Tarnopolska 05 nż
-1616	2	186014	21:38:00	21:38:00		Budziwojska / Tarnopolska 05 nż
-1616	2	186014	21:39:00	21:39:00		Budziwojska / Legionistów 03 nż
-1616	2	186014	21:39:00	21:39:00		Budziwojska / Legionistów 03 nż
-1616	2	186014	21:40:00	21:40:00		Budziwojska / Herbowa 01 nż
-1616	2	186014	21:40:00	21:40:00		Budziwojska / Herbowa 01 nż
-1616	2	186014	21:41:00	21:41:00		Tyczyn Orkana skrzyżowanie 16
-1616	2	186014	21:41:00	21:41:00		Tyczyn Orkana skrzyżowanie 16
-1616	2	186014	21:42:00	21:42:00		Tyczyn Grunwaldzka POM 27 nż
-1616	2	186014	21:42:00	21:42:00		Tyczyn Grunwaldzka POM 27 nż
-1616	2	186014	21:43:00	21:43:00		Sikorskiego granica 15 nż
-1616	2	186014	21:43:00	21:43:00		Sikorskiego granica 15 nż
-1616	2	186014	21:44:00	21:44:00		Sikorskiego / Ruczajowa 13 nż
-1616	2	186014	21:44:00	21:44:00		Sikorskiego / Ruczajowa 13 nż
-1616	2	186014	21:45:00	21:45:00		Sikorskiego / Kard. K. Wojtyły 11 nż
-1616	2	186014	21:45:00	21:45:00		Sikorskiego / Kard. K. Wojtyły 11 nż
-1616	2	186014	21:46:00	21:46:00		Sikorskiego / Rodzinna 09 nż
-1616	2	186014	21:46:00	21:46:00		Sikorskiego / Rodzinna 09 nż
-1616	2	186014	21:47:00	21:47:00		Sikorskiego / Białogórska 07 nż
-1616	2	186014	21:47:00	21:47:00		Sikorskiego / Białogórska 07 nż
-1616	2	186014	21:48:00	21:48:00		Sikorskiego / Robotnicza 05 nż
-1616	2	186014	21:48:00	21:48:00		Sikorskiego / Robotnicza 05 nż
-1616	2	186014	21:49:00	21:49:00		Sikorskiego domki 03 nż
-1616	2	186014	21:49:00	21:49:00		Sikorskiego domki 03 nż
-1616	2	186014	21:51:00	21:51:00		Sikorskiego Katedra 01 nż
-1616	2	186014	21:51:00	21:51:00		Sikorskiego Katedra 01 nż
-1616	2	186014	21:53:00	21:53:00		Powst. Warszawy / Rejtana 13
-1616	2	186014	21:53:00	21:53:00		Powst. Warszawy / Rejtana 13
-1616	2	186014	21:54:00	21:54:00		Powst. Warszawy szkoła 11
-1616	2	186014	21:54:00	21:54:00		Powst. Warszawy szkoła 11
-1616	2	186014	21:55:00	21:55:00		Powst. Warszawy Dom Studenta 09
-1616	2	186014	21:55:00	21:55:00		Powst. Warszawy Dom Studenta 09
-1616	2	186014	21:57:00	21:57:00		Hetmańska stadion 07
-1616	2	186014	21:57:00	21:57:00		Hetmańska stadion 07
-1616	2	186014	21:58:00	21:58:00		Hetmańska ZS. Mech. 05
-1616	2	186014	21:58:00	21:58:00		Hetmańska ZS. Mech. 05
-1616	2	186014	21:59:00	21:59:00		Hetmańska przychodnia 03
-1616	2	186014	21:59:00	21:59:00		Hetmańska przychodnia 03
-1616	2	186014	22:00:00	22:00:00		Hetmańska podzamcze 01 nż
-1616	2	186014	22:00:00	22:00:00		Hetmańska podzamcze 01 nż
-1616	2	186014	22:01:00	22:01:00		Kilara 02 nż
-1616	2	186014	22:01:00	22:01:00		Kilara 02 nż
-1616	2	186014	22:02:00	22:02:00		Szopena Filharmonia 01 nż
-1616	2	186014	22:02:00	22:02:00		Szopena Filharmonia 01 nż
-1616	2	186014	22:03:00	22:03:00		Targowa 02
-1616	2	186014	22:03:00	22:03:00		Targowa 02
-1616	2	186014	22:05:00	22:05:00		Pl. Wolności 04
-1616	2	186014	22:05:00	22:05:00		Pl. Wolności 04
-1616	2	186014	22:06:00	22:06:00		Piłsudskiego U. Wojewódzki 06
-1616	2	186014	22:06:00	22:06:00		Piłsudskiego U. Wojewódzki 06
-1616	2	186014	22:08:00	22:08:00		Marszałkowska 02
-1616	2	186014	22:08:00	22:08:00		Marszałkowska 02
-1616	2	186014	22:09:00	22:09:00		Lubelska szpital 02
-1616	2	186014	22:09:00	22:09:00		Lubelska szpital 02
-1616	2	186014	22:10:00	22:10:00		Lubelska kościół 06 nż
-1616	2	186014	22:10:00	22:10:00		Lubelska kościół 06 nż
-1616	2	186014	22:12:00	22:12:00		Trembeckiego ZTM pętla 01
-1616	2	186014	22:12:00	22:12:00		Trembeckiego ZTM pętla 01
+1616	1	205841	21:22:00	21:22:00		Hermanowa Przylasek pętla 06
+1616	1	205841	21:22:00	21:22:00		Hermanowa Przylasek pętla 06
+1616	1	205841	21:23:00	21:23:00		Hermanowa Przylasek źródełko 04 nż
+1616	1	205841	21:23:00	21:23:00		Hermanowa Przylasek źródełko 04 nż
+1616	1	205841	21:24:00	21:24:00		Hermanowa Przylasek 02 nż
+1616	1	205841	21:24:00	21:24:00		Hermanowa Przylasek 02 nż
+1616	1	205841	21:25:00	21:25:00		Podleśna / Jarzębinowa 07 nż
+1616	1	205841	21:25:00	21:25:00		Podleśna / Jarzębinowa 07 nż
+1616	1	205841	21:27:00	21:27:00		Podleśna / Nadziei 05 nż
+1616	1	205841	21:27:00	21:27:00		Podleśna / Nadziei 05 nż
+1616	1	205841	21:28:00	21:28:00		Podleśna / Laskowa 03 nż
+1616	1	205841	21:28:00	21:28:00		Podleśna / Laskowa 03 nż
+1616	1	205841	21:29:00	21:29:00		Podleśna / Podlesie 01 nż
+1616	1	205841	21:29:00	21:29:00		Podleśna / Podlesie 01 nż
+1616	1	205841	21:31:00	21:31:00		Poselska / Podleśna 02 nż
+1616	1	205841	21:31:00	21:31:00		Poselska / Podleśna 02 nż
+1616	1	205841	21:32:00	21:32:00		Poselska / Budziwojska 04 nż
+1616	1	205841	21:32:00	21:32:00		Poselska / Budziwojska 04 nż
+1616	1	205841	21:33:00	21:33:00		Budziwojska / Kwiatowa 15 nż
+1616	1	205841	21:33:00	21:33:00		Budziwojska / Kwiatowa 15 nż
+1616	1	205841	21:34:00	21:34:00		Budziwojska / Podleśna 13 nż
+1616	1	205841	21:34:00	21:34:00		Budziwojska / Podleśna 13 nż
+1616	1	205841	21:35:00	21:35:00		Budziwojska cmentarz 11
+1616	1	205841	21:35:00	21:35:00		Budziwojska cmentarz 11
+1616	1	205841	21:36:00	21:36:00		Budziwojska / Jana Pawła II 09 nż
+1616	1	205841	21:36:00	21:36:00		Budziwojska / Jana Pawła II 09 nż
+1616	1	205841	21:37:00	21:37:00		Budziwojska / Karmelicka 07 nż
+1616	1	205841	21:37:00	21:37:00		Budziwojska / Karmelicka 07 nż
+1616	1	205841	21:38:00	21:38:00		Budziwojska / Tarnopolska 05 nż
+1616	1	205841	21:38:00	21:38:00		Budziwojska / Tarnopolska 05 nż
+1616	1	205841	21:39:00	21:39:00		Budziwojska / Legionistów 03 nż
+1616	1	205841	21:39:00	21:39:00		Budziwojska / Legionistów 03 nż
+1616	1	205841	21:40:00	21:40:00		Budziwojska / Herbowa 01 nż
+1616	1	205841	21:40:00	21:40:00		Budziwojska / Herbowa 01 nż
+1616	1	205841	21:41:00	21:41:00		Tyczyn Orkana skrzyżowanie 16
+1616	1	205841	21:41:00	21:41:00		Tyczyn Orkana skrzyżowanie 16
+1616	1	205841	21:42:00	21:42:00		Tyczyn Grunwaldzka POM 27 nż
+1616	1	205841	21:42:00	21:42:00		Tyczyn Grunwaldzka POM 27 nż
+1616	1	205841	21:43:00	21:43:00		Sikorskiego granica 15 nż
+1616	1	205841	21:43:00	21:43:00		Sikorskiego granica 15 nż
+1616	1	205841	21:44:00	21:44:00		Sikorskiego / Ruczajowa 13 nż
+1616	1	205841	21:44:00	21:44:00		Sikorskiego / Ruczajowa 13 nż
+1616	1	205841	21:45:00	21:45:00		Sikorskiego / Kard. K. Wojtyły 11 nż
+1616	1	205841	21:45:00	21:45:00		Sikorskiego / Kard. K. Wojtyły 11 nż
+1616	1	205841	21:46:00	21:46:00		Sikorskiego / Rodzinna 09 nż
+1616	1	205841	21:46:00	21:46:00		Sikorskiego / Rodzinna 09 nż
+1616	1	205841	21:47:00	21:47:00		Sikorskiego / Białogórska 07 nż
+1616	1	205841	21:47:00	21:47:00		Sikorskiego / Białogórska 07 nż
+1616	1	205841	21:48:00	21:48:00		Sikorskiego / Robotnicza 05 nż
+1616	1	205841	21:48:00	21:48:00		Sikorskiego / Robotnicza 05 nż
+1616	1	205841	21:49:00	21:49:00		Sikorskiego domki 03 nż
+1616	1	205841	21:49:00	21:49:00		Sikorskiego domki 03 nż
+1616	1	205841	21:51:00	21:51:00		Sikorskiego Katedra 01 nż
+1616	1	205841	21:51:00	21:51:00		Sikorskiego Katedra 01 nż
+1616	1	205841	21:53:00	21:53:00		Powst. Warszawy / Rejtana 13
+1616	1	205841	21:53:00	21:53:00		Powst. Warszawy / Rejtana 13
+1616	1	205841	21:54:00	21:54:00		Powst. Warszawy szkoła 11
+1616	1	205841	21:54:00	21:54:00		Powst. Warszawy szkoła 11
+1616	1	205841	21:55:00	21:55:00		Powst. Warszawy Dom Studenta 09
+1616	1	205841	21:55:00	21:55:00		Powst. Warszawy Dom Studenta 09
+1616	1	205841	21:57:00	21:57:00		Hetmańska stadion 07
+1616	1	205841	21:57:00	21:57:00		Hetmańska stadion 07
+1616	1	205841	21:58:00	21:58:00		Hetmańska ZS. Mech. 05
+1616	1	205841	21:58:00	21:58:00		Hetmańska ZS. Mech. 05
+1616	1	205841	21:59:00	21:59:00		Hetmańska przychodnia 03
+1616	1	205841	21:59:00	21:59:00		Hetmańska przychodnia 03
+1616	1	205841	22:00:00	22:00:00		Hetmańska podzamcze 01 nż
+1616	1	205841	22:00:00	22:00:00		Hetmańska podzamcze 01 nż
+1616	1	205841	22:01:00	22:01:00		Kilara 02 nż
+1616	1	205841	22:01:00	22:01:00		Kilara 02 nż
+1616	1	205841	22:02:00	22:02:00		Szopena Filharmonia 01 nż
+1616	1	205841	22:02:00	22:02:00		Szopena Filharmonia 01 nż
+1616	1	205841	22:03:00	22:03:00		Targowa 02
+1616	1	205841	22:03:00	22:03:00		Targowa 02
+1616	1	205841	22:05:00	22:05:00		Pl. Wolności 04
+1616	1	205841	22:05:00	22:05:00		Pl. Wolności 04
+1616	1	205841	22:06:00	22:06:00		Piłsudskiego U. Wojewódzki 06
+1616	1	205841	22:06:00	22:06:00		Piłsudskiego U. Wojewódzki 06
+1616	1	205841	22:08:00	22:08:00		Marszałkowska 02
+1616	1	205841	22:08:00	22:08:00		Marszałkowska 02
+1616	1	205841	22:09:00	22:09:00		Lubelska szpital 02
+1616	1	205841	22:09:00	22:09:00		Lubelska szpital 02
+1616	1	205841	22:10:00	22:10:00		Lubelska kościół 06 nż
+1616	1	205841	22:10:00	22:10:00		Lubelska kościół 06 nż
+1616	1	205841	22:12:00	22:12:00		Trembeckiego ZTM pętla 01
+1616	1	205841	22:12:00	22:12:00		Trembeckiego ZTM pętla 01
 
-1615	2	185587	22:15:00	22:15:00		Trembeckiego ZTM pętla 01
-1615	2	185587	22:15:00	22:15:00		Trembeckiego ZTM pętla 01
-1615	2	185587	22:17:00	22:17:00		Lubelska kościół 05 nż
-1615	2	185587	22:17:00	22:17:00		Lubelska kościół 05 nż
-1615	2	185587	22:18:00	22:18:00		Lubelska szpital 01
-1615	2	185587	22:18:00	22:18:00		Lubelska szpital 01
-1615	2	185587	22:19:00	22:19:00		Marszałkowska 01
-1615	2	185587	22:19:00	22:19:00		Marszałkowska 01
-1615	2	185587	22:21:00	22:21:00		Piłsudskiego U. Wojewódzki 03
-1615	2	185587	22:21:00	22:21:00		Piłsudskiego U. Wojewódzki 03
-1615	2	185587	22:22:00	22:22:00		Pl. Wolności 01
-1615	2	185587	22:22:00	22:22:00		Pl. Wolności 01
-1615	2	185587	22:23:00	22:23:00		Targowa 01
-1615	2	185587	22:23:00	22:23:00		Targowa 01
-1615	2	185587	22:24:00	22:24:00		Szopena Filharmonia 02 nż
-1615	2	185587	22:24:00	22:24:00		Szopena Filharmonia 02 nż
-1615	2	185587	22:25:00	22:25:00		Kilara 01 nż
-1615	2	185587	22:25:00	22:25:00		Kilara 01 nż
-1615	2	185587	22:26:00	22:26:00		Hetmańska podzamcze 02 nż
-1615	2	185587	22:26:00	22:26:00		Hetmańska podzamcze 02 nż
-1615	2	185587	22:27:00	22:27:00		Hetmańska przychodnia 04
-1615	2	185587	22:27:00	22:27:00		Hetmańska przychodnia 04
-1615	2	185587	22:28:00	22:28:00		Hetmańska ZS. Mech. 06
-1615	2	185587	22:28:00	22:28:00		Hetmańska ZS. Mech. 06
-1615	2	185587	22:30:00	22:30:00		Powst. Warszawy stadion 06
-1615	2	185587	22:30:00	22:30:00		Powst. Warszawy stadion 06
-1615	2	185587	22:32:00	22:32:00		Powst. Warszawy Dom Studenta 08
-1615	2	185587	22:32:00	22:32:00		Powst. Warszawy Dom Studenta 08
-1615	2	185587	22:33:00	22:33:00		Powst. Warszawy / Graniczna 10
-1615	2	185587	22:33:00	22:33:00		Powst. Warszawy / Graniczna 10
-1615	2	185587	22:34:00	22:34:00		Powst. Warszawy / Sikorskiego 12 nż
-1615	2	185587	22:34:00	22:34:00		Powst. Warszawy / Sikorskiego 12 nż
-1615	2	185587	22:35:00	22:35:00		Sikorskiego Katedra 04 nż
-1615	2	185587	22:35:00	22:35:00		Sikorskiego Katedra 04 nż
-1615	2	185587	22:36:00	22:36:00		Sikorskiego / Łukasiewicza 06 nż
-1615	2	185587	22:36:00	22:36:00		Sikorskiego / Łukasiewicza 06 nż
-1615	2	185587	22:37:00	22:37:00		Sikorskiego domki 08 nż
-1615	2	185587	22:37:00	22:37:00		Sikorskiego domki 08 nż
-1615	2	185587	22:38:00	22:38:00		Sikorskiego / Strażacka 10 nż
-1615	2	185587	22:38:00	22:38:00		Sikorskiego / Strażacka 10 nż
-1615	2	185587	22:39:00	22:39:00		Sikorskiego / Białogórska 12 nż
-1615	2	185587	22:39:00	22:39:00		Sikorskiego / Białogórska 12 nż
-1615	2	185587	22:40:00	22:40:00		Sikorskiego / Rodzinna 14 nż
-1615	2	185587	22:40:00	22:40:00		Sikorskiego / Rodzinna 14 nż
-1615	2	185587	22:41:00	22:41:00		Sikorskiego / Kard. K. Wojtyły 16 nż
-1615	2	185587	22:41:00	22:41:00		Sikorskiego / Kard. K. Wojtyły 16 nż
-1615	2	185587	22:42:00	22:42:00		Sikorskiego granica 18 nż
-1615	2	185587	22:42:00	22:42:00		Sikorskiego granica 18 nż
-1615	2	185587	22:43:00	22:43:00		Tyczyn Grunwaldzka POM 02 nż
-1615	2	185587	22:43:00	22:43:00		Tyczyn Grunwaldzka POM 02 nż
-1615	2	185587	22:44:00	22:44:00		Tyczyn Orkana skrzyżowanie 13 nż
-1615	2	185587	22:44:00	22:44:00		Tyczyn Orkana skrzyżowanie 13 nż
-1615	2	185587	22:45:00	22:45:00		Budziwojska / Herbowa 02 nż
-1615	2	185587	22:45:00	22:45:00		Budziwojska / Herbowa 02 nż
-1615	2	185587	22:46:00	22:46:00		Budziwojska / Legionistów 04 nż
-1615	2	185587	22:46:00	22:46:00		Budziwojska / Legionistów 04 nż
-1615	2	185587	22:47:00	22:47:00		Budziwojska / Tarnopolska 06 nż
-1615	2	185587	22:47:00	22:47:00		Budziwojska / Tarnopolska 06 nż
-1615	2	185587	22:48:00	22:48:00		Budziwojska / Karmelicka 08 nż
-1615	2	185587	22:48:00	22:48:00		Budziwojska / Karmelicka 08 nż
-1615	2	185587	22:49:00	22:49:00		Budziwojska / Jana Pawła II 10 nż
-1615	2	185587	22:49:00	22:49:00		Budziwojska / Jana Pawła II 10 nż
-1615	2	185587	22:50:00	22:50:00		Budziwojska szkoła 12
-1615	2	185587	22:50:00	22:50:00		Budziwojska szkoła 12
-1615	2	185587	22:51:00	22:51:00		Budziwojska / Podleśna 14 nż
-1615	2	185587	22:51:00	22:51:00		Budziwojska / Podleśna 14 nż
-1615	2	185587	22:53:00	22:53:00		Budziwojska / Kwiatowa 16 nż
-1615	2	185587	22:53:00	22:53:00		Budziwojska / Kwiatowa 16 nż
-1615	2	185587	22:54:00	22:54:00		Poselska / Budziwojska 03 nż
-1615	2	185587	22:54:00	22:54:00		Poselska / Budziwojska 03 nż
-1615	2	185587	22:55:00	22:55:00		Poselska / Podleśna 01 nż
-1615	2	185587	22:55:00	22:55:00		Poselska / Podleśna 01 nż
-1615	2	185587	22:57:00	22:57:00		Podleśna / Podlesie 02 nż
-1615	2	185587	22:57:00	22:57:00		Podleśna / Podlesie 02 nż
-1615	2	185587	22:58:00	22:58:00		Podleśna / Liliowa 04 nż
-1615	2	185587	22:58:00	22:58:00		Podleśna / Liliowa 04 nż
-1615	2	185587	22:59:00	22:59:00		Podleśna / Nadziei 06 nż
-1615	2	185587	22:59:00	22:59:00		Podleśna / Nadziei 06 nż
-1615	2	185587	23:01:00	23:01:00		Podleśna / Jarzębinowa 08 nż
-1615	2	185587	23:01:00	23:01:00		Podleśna / Jarzębinowa 08 nż
-1615	2	185587	23:02:00	23:02:00		Hermanowa Przylasek 01 nż
-1615	2	185587	23:02:00	23:02:00		Hermanowa Przylasek 01 nż
-1615	2	185587	23:03:00	23:03:00		Hermanowa Przylasek źródełko 03 nż
-1615	2	185587	23:03:00	23:03:00		Hermanowa Przylasek źródełko 03 nż
-1615	2	185587	23:04:00	23:04:00		Hermanowa Przylasek pętla 06
-1615	2	185587	23:04:00	23:04:00		Hermanowa Przylasek pętla 06
+1615	1	207006	22:15:00	22:15:00		Trembeckiego ZTM pętla 01
+1615	1	207006	22:15:00	22:15:00		Trembeckiego ZTM pętla 01
+1615	1	207006	22:17:00	22:17:00		Lubelska kościół 05 nż
+1615	1	207006	22:17:00	22:17:00		Lubelska kościół 05 nż
+1615	1	207006	22:18:00	22:18:00		Lubelska szpital 01
+1615	1	207006	22:18:00	22:18:00		Lubelska szpital 01
+1615	1	207006	22:19:00	22:19:00		Marszałkowska 01
+1615	1	207006	22:19:00	22:19:00		Marszałkowska 01
+1615	1	207006	22:21:00	22:21:00		Piłsudskiego U. Wojewódzki 03
+1615	1	207006	22:21:00	22:21:00		Piłsudskiego U. Wojewódzki 03
+1615	1	207006	22:22:00	22:22:00		Pl. Wolności 01
+1615	1	207006	22:22:00	22:22:00		Pl. Wolności 01
+1615	1	207006	22:23:00	22:23:00		Targowa 01
+1615	1	207006	22:23:00	22:23:00		Targowa 01
+1615	1	207006	22:24:00	22:24:00		Szopena Filharmonia 02 nż
+1615	1	207006	22:24:00	22:24:00		Szopena Filharmonia 02 nż
+1615	1	207006	22:25:00	22:25:00		Kilara 01 nż
+1615	1	207006	22:25:00	22:25:00		Kilara 01 nż
+1615	1	207006	22:26:00	22:26:00		Hetmańska podzamcze 02 nż
+1615	1	207006	22:26:00	22:26:00		Hetmańska podzamcze 02 nż
+1615	1	207006	22:27:00	22:27:00		Hetmańska przychodnia 04
+1615	1	207006	22:27:00	22:27:00		Hetmańska przychodnia 04
+1615	1	207006	22:28:00	22:28:00		Hetmańska ZS. Mech. 06
+1615	1	207006	22:28:00	22:28:00		Hetmańska ZS. Mech. 06
+1615	1	207006	22:30:00	22:30:00		Powst. Warszawy stadion 06
+1615	1	207006	22:30:00	22:30:00		Powst. Warszawy stadion 06
+1615	1	207006	22:32:00	22:32:00		Powst. Warszawy Dom Studenta 08
+1615	1	207006	22:32:00	22:32:00		Powst. Warszawy Dom Studenta 08
+1615	1	207006	22:33:00	22:33:00		Powst. Warszawy / Graniczna 10
+1615	1	207006	22:33:00	22:33:00		Powst. Warszawy / Graniczna 10
+1615	1	207006	22:34:00	22:34:00		Powst. Warszawy / Sikorskiego 12 nż
+1615	1	207006	22:34:00	22:34:00		Powst. Warszawy / Sikorskiego 12 nż
+1615	1	207006	22:35:00	22:35:00		Sikorskiego Katedra 04 nż
+1615	1	207006	22:35:00	22:35:00		Sikorskiego Katedra 04 nż
+1615	1	207006	22:36:00	22:36:00		Sikorskiego / Łukasiewicza 06 nż
+1615	1	207006	22:36:00	22:36:00		Sikorskiego / Łukasiewicza 06 nż
+1615	1	207006	22:37:00	22:37:00		Sikorskiego domki 08 nż
+1615	1	207006	22:37:00	22:37:00		Sikorskiego domki 08 nż
+1615	1	207006	22:38:00	22:38:00		Sikorskiego / Strażacka 10 nż
+1615	1	207006	22:38:00	22:38:00		Sikorskiego / Strażacka 10 nż
+1615	1	207006	22:39:00	22:39:00		Sikorskiego / Białogórska 12 nż
+1615	1	207006	22:39:00	22:39:00		Sikorskiego / Białogórska 12 nż
+1615	1	207006	22:40:00	22:40:00		Sikorskiego / Rodzinna 14 nż
+1615	1	207006	22:40:00	22:40:00		Sikorskiego / Rodzinna 14 nż
+1615	1	207006	22:41:00	22:41:00		Sikorskiego / Kard. K. Wojtyły 16 nż
+1615	1	207006	22:41:00	22:41:00		Sikorskiego / Kard. K. Wojtyły 16 nż
+1615	1	207006	22:42:00	22:42:00		Sikorskiego granica 18 nż
+1615	1	207006	22:42:00	22:42:00		Sikorskiego granica 18 nż
+1615	1	207006	22:43:00	22:43:00		Tyczyn Grunwaldzka POM 02 nż
+1615	1	207006	22:43:00	22:43:00		Tyczyn Grunwaldzka POM 02 nż
+1615	1	207006	22:44:00	22:44:00		Tyczyn Orkana skrzyżowanie 13 nż
+1615	1	207006	22:44:00	22:44:00		Tyczyn Orkana skrzyżowanie 13 nż
+1615	1	207006	22:45:00	22:45:00		Budziwojska / Herbowa 02 nż
+1615	1	207006	22:45:00	22:45:00		Budziwojska / Herbowa 02 nż
+1615	1	207006	22:46:00	22:46:00		Budziwojska / Legionistów 04 nż
+1615	1	207006	22:46:00	22:46:00		Budziwojska / Legionistów 04 nż
+1615	1	207006	22:47:00	22:47:00		Budziwojska / Tarnopolska 06 nż
+1615	1	207006	22:47:00	22:47:00		Budziwojska / Tarnopolska 06 nż
+1615	1	207006	22:48:00	22:48:00		Budziwojska / Karmelicka 08 nż
+1615	1	207006	22:48:00	22:48:00		Budziwojska / Karmelicka 08 nż
+1615	1	207006	22:49:00	22:49:00		Budziwojska / Jana Pawła II 10 nż
+1615	1	207006	22:49:00	22:49:00		Budziwojska / Jana Pawła II 10 nż
+1615	1	207006	22:50:00	22:50:00		Budziwojska szkoła 12
+1615	1	207006	22:50:00	22:50:00		Budziwojska szkoła 12
+1615	1	207006	22:51:00	22:51:00		Budziwojska / Podleśna 14 nż
+1615	1	207006	22:51:00	22:51:00		Budziwojska / Podleśna 14 nż
+1615	1	207006	22:53:00	22:53:00		Budziwojska / Kwiatowa 16 nż
+1615	1	207006	22:53:00	22:53:00		Budziwojska / Kwiatowa 16 nż
+1615	1	207006	22:54:00	22:54:00		Poselska / Budziwojska 03 nż
+1615	1	207006	22:54:00	22:54:00		Poselska / Budziwojska 03 nż
+1615	1	207006	22:55:00	22:55:00		Poselska / Podleśna 01 nż
+1615	1	207006	22:55:00	22:55:00		Poselska / Podleśna 01 nż
+1615	1	207006	22:57:00	22:57:00		Podleśna / Podlesie 02 nż
+1615	1	207006	22:57:00	22:57:00		Podleśna / Podlesie 02 nż
+1615	1	207006	22:58:00	22:58:00		Podleśna / Liliowa 04 nż
+1615	1	207006	22:58:00	22:58:00		Podleśna / Liliowa 04 nż
+1615	1	207006	22:59:00	22:59:00		Podleśna / Nadziei 06 nż
+1615	1	207006	22:59:00	22:59:00		Podleśna / Nadziei 06 nż
+1615	1	207006	23:01:00	23:01:00		Podleśna / Jarzębinowa 08 nż
+1615	1	207006	23:01:00	23:01:00		Podleśna / Jarzębinowa 08 nż
+1615	1	207006	23:02:00	23:02:00		Hermanowa Przylasek 01 nż
+1615	1	207006	23:02:00	23:02:00		Hermanowa Przylasek 01 nż
+1615	1	207006	23:03:00	23:03:00		Hermanowa Przylasek źródełko 03 nż
+1615	1	207006	23:03:00	23:03:00		Hermanowa Przylasek źródełko 03 nż
+1615	1	207006	23:04:00	23:04:00		Hermanowa Przylasek pętla 06
+1615	1	207006	23:04:00	23:04:00		Hermanowa Przylasek pętla 06
 
-1616	2	187096	23:22:00	23:22:00		Hermanowa Przylasek pętla 06
-1616	2	187096	23:22:00	23:22:00		Hermanowa Przylasek pętla 06
-1616	2	187096	23:23:00	23:23:00		Hermanowa Przylasek źródełko 04 nż
-1616	2	187096	23:23:00	23:23:00		Hermanowa Przylasek źródełko 04 nż
-1616	2	187096	23:24:00	23:24:00		Hermanowa Przylasek 02 nż
-1616	2	187096	23:24:00	23:24:00		Hermanowa Przylasek 02 nż
-1616	2	187096	23:25:00	23:25:00		Podleśna / Jarzębinowa 07 nż
-1616	2	187096	23:25:00	23:25:00		Podleśna / Jarzębinowa 07 nż
-1616	2	187096	23:27:00	23:27:00		Podleśna / Nadziei 05 nż
-1616	2	187096	23:27:00	23:27:00		Podleśna / Nadziei 05 nż
-1616	2	187096	23:28:00	23:28:00		Podleśna / Laskowa 03 nż
-1616	2	187096	23:28:00	23:28:00		Podleśna / Laskowa 03 nż
-1616	2	187096	23:29:00	23:29:00		Podleśna / Podlesie 01 nż
-1616	2	187096	23:29:00	23:29:00		Podleśna / Podlesie 01 nż
-1616	2	187096	23:31:00	23:31:00		Poselska / Podleśna 02 nż
-1616	2	187096	23:31:00	23:31:00		Poselska / Podleśna 02 nż
-1616	2	187096	23:32:00	23:32:00		Poselska / Budziwojska 04 nż
-1616	2	187096	23:32:00	23:32:00		Poselska / Budziwojska 04 nż
-1616	2	187096	23:33:00	23:33:00		Budziwojska / Kwiatowa 15 nż
-1616	2	187096	23:33:00	23:33:00		Budziwojska / Kwiatowa 15 nż
-1616	2	187096	23:34:00	23:34:00		Budziwojska / Podleśna 13 nż
-1616	2	187096	23:34:00	23:34:00		Budziwojska / Podleśna 13 nż
-1616	2	187096	23:35:00	23:35:00		Budziwojska cmentarz 11
-1616	2	187096	23:35:00	23:35:00		Budziwojska cmentarz 11
-1616	2	187096	23:36:00	23:36:00		Budziwojska / Jana Pawła II 09 nż
-1616	2	187096	23:36:00	23:36:00		Budziwojska / Jana Pawła II 09 nż
-1616	2	187096	23:37:00	23:37:00		Budziwojska / Karmelicka 07 nż
-1616	2	187096	23:37:00	23:37:00		Budziwojska / Karmelicka 07 nż
-1616	2	187096	23:38:00	23:38:00		Budziwojska / Tarnopolska 05 nż
-1616	2	187096	23:38:00	23:38:00		Budziwojska / Tarnopolska 05 nż
-1616	2	187096	23:39:00	23:39:00		Budziwojska / Legionistów 03 nż
-1616	2	187096	23:39:00	23:39:00		Budziwojska / Legionistów 03 nż
-1616	2	187096	23:40:00	23:40:00		Budziwojska / Herbowa 01 nż
-1616	2	187096	23:40:00	23:40:00		Budziwojska / Herbowa 01 nż
-1616	2	187096	23:41:00	23:41:00		Tyczyn Orkana skrzyżowanie 16
-1616	2	187096	23:41:00	23:41:00		Tyczyn Orkana skrzyżowanie 16
-1616	2	187096	23:42:00	23:42:00		Tyczyn Grunwaldzka POM 27 nż
-1616	2	187096	23:42:00	23:42:00		Tyczyn Grunwaldzka POM 27 nż
-1616	2	187096	23:43:00	23:43:00		Sikorskiego granica 15 nż
-1616	2	187096	23:43:00	23:43:00		Sikorskiego granica 15 nż
-1616	2	187096	23:44:00	23:44:00		Sikorskiego / Ruczajowa 13 nż
-1616	2	187096	23:44:00	23:44:00		Sikorskiego / Ruczajowa 13 nż
-1616	2	187096	23:45:00	23:45:00		Sikorskiego / Kard. K. Wojtyły 11 nż
-1616	2	187096	23:45:00	23:45:00		Sikorskiego / Kard. K. Wojtyły 11 nż
-1616	2	187096	23:46:00	23:46:00		Sikorskiego / Rodzinna 09 nż
-1616	2	187096	23:46:00	23:46:00		Sikorskiego / Rodzinna 09 nż
-1616	2	187096	23:47:00	23:47:00		Sikorskiego / Białogórska 07 nż
-1616	2	187096	23:47:00	23:47:00		Sikorskiego / Białogórska 07 nż
-1616	2	187096	23:48:00	23:48:00		Sikorskiego / Robotnicza 05 nż
-1616	2	187096	23:48:00	23:48:00		Sikorskiego / Robotnicza 05 nż
-1616	2	187096	23:49:00	23:49:00		Sikorskiego domki 03 nż
-1616	2	187096	23:49:00	23:49:00		Sikorskiego domki 03 nż
-1616	2	187096	23:51:00	23:51:00		Sikorskiego Katedra 01 nż
-1616	2	187096	23:51:00	23:51:00		Sikorskiego Katedra 01 nż
-1616	2	187096	23:53:00	23:53:00		Powst. Warszawy / Rejtana 13
-1616	2	187096	23:53:00	23:53:00		Powst. Warszawy / Rejtana 13
-1616	2	187096	23:54:00	23:54:00		Powst. Warszawy szkoła 11
-1616	2	187096	23:54:00	23:54:00		Powst. Warszawy szkoła 11
-1616	2	187096	23:55:00	23:55:00		Powst. Warszawy Dom Studenta 09
-1616	2	187096	23:55:00	23:55:00		Powst. Warszawy Dom Studenta 09
-1616	2	187096	23:57:00	23:57:00		Hetmańska stadion 07
-1616	2	187096	23:57:00	23:57:00		Hetmańska stadion 07
-1616	2	187096	23:58:00	23:58:00		Hetmańska ZS. Mech. 05
-1616	2	187096	23:58:00	23:58:00		Hetmańska ZS. Mech. 05
-1616	2	187096	23:59:00	23:59:00		Hetmańska przychodnia 03
-1616	2	187096	23:59:00	23:59:00		Hetmańska przychodnia 03
-1616	2	187096	24:00:00	24:00:00		Hetmańska podzamcze 01 nż
-1616	2	187096	24:00:00	24:00:00		Hetmańska podzamcze 01 nż
-1616	2	187096	24:01:00	24:01:00		Kilara 02 nż
-1616	2	187096	24:01:00	24:01:00		Kilara 02 nż
-1616	2	187096	24:02:00	24:02:00		Szopena Filharmonia 01 nż
-1616	2	187096	24:02:00	24:02:00		Szopena Filharmonia 01 nż
-1616	2	187096	24:03:00	24:03:00		Targowa 02
-1616	2	187096	24:03:00	24:03:00		Targowa 02
-1616	2	187096	24:05:00	24:05:00		Pl. Wolności 04
-1616	2	187096	24:05:00	24:05:00		Pl. Wolności 04
-1616	2	187096	24:06:00	24:06:00		Piłsudskiego U. Wojewódzki 06
-1616	2	187096	24:06:00	24:06:00		Piłsudskiego U. Wojewódzki 06
-1616	2	187096	24:08:00	24:08:00		Marszałkowska 02
-1616	2	187096	24:08:00	24:08:00		Marszałkowska 02
-1616	2	187096	24:09:00	24:09:00		Lubelska szpital 02
-1616	2	187096	24:09:00	24:09:00		Lubelska szpital 02
-1616	2	187096	24:10:00	24:10:00		Lubelska kościół 06 nż
-1616	2	187096	24:10:00	24:10:00		Lubelska kościół 06 nż
-1616	2	187096	24:12:00	24:12:00		Trembeckiego ZTM pętla 01
-1616	2	187096	24:12:00	24:12:00		Trembeckiego ZTM pętla 01
+1616	1	206213	23:22:00	23:22:00		Hermanowa Przylasek pętla 06
+1616	1	206213	23:22:00	23:22:00		Hermanowa Przylasek pętla 06
+1616	1	206213	23:23:00	23:23:00		Hermanowa Przylasek źródełko 04 nż
+1616	1	206213	23:23:00	23:23:00		Hermanowa Przylasek źródełko 04 nż
+1616	1	206213	23:24:00	23:24:00		Hermanowa Przylasek 02 nż
+1616	1	206213	23:24:00	23:24:00		Hermanowa Przylasek 02 nż
+1616	1	206213	23:25:00	23:25:00		Podleśna / Jarzębinowa 07 nż
+1616	1	206213	23:25:00	23:25:00		Podleśna / Jarzębinowa 07 nż
+1616	1	206213	23:27:00	23:27:00		Podleśna / Nadziei 05 nż
+1616	1	206213	23:27:00	23:27:00		Podleśna / Nadziei 05 nż
+1616	1	206213	23:28:00	23:28:00		Podleśna / Laskowa 03 nż
+1616	1	206213	23:28:00	23:28:00		Podleśna / Laskowa 03 nż
+1616	1	206213	23:29:00	23:29:00		Podleśna / Podlesie 01 nż
+1616	1	206213	23:29:00	23:29:00		Podleśna / Podlesie 01 nż
+1616	1	206213	23:31:00	23:31:00		Poselska / Podleśna 02 nż
+1616	1	206213	23:31:00	23:31:00		Poselska / Podleśna 02 nż
+1616	1	206213	23:32:00	23:32:00		Poselska / Budziwojska 04 nż
+1616	1	206213	23:32:00	23:32:00		Poselska / Budziwojska 04 nż
+1616	1	206213	23:33:00	23:33:00		Budziwojska / Kwiatowa 15 nż
+1616	1	206213	23:33:00	23:33:00		Budziwojska / Kwiatowa 15 nż
+1616	1	206213	23:34:00	23:34:00		Budziwojska / Podleśna 13 nż
+1616	1	206213	23:34:00	23:34:00		Budziwojska / Podleśna 13 nż
+1616	1	206213	23:35:00	23:35:00		Budziwojska cmentarz 11
+1616	1	206213	23:35:00	23:35:00		Budziwojska cmentarz 11
+1616	1	206213	23:36:00	23:36:00		Budziwojska / Jana Pawła II 09 nż
+1616	1	206213	23:36:00	23:36:00		Budziwojska / Jana Pawła II 09 nż
+1616	1	206213	23:37:00	23:37:00		Budziwojska / Karmelicka 07 nż
+1616	1	206213	23:37:00	23:37:00		Budziwojska / Karmelicka 07 nż
+1616	1	206213	23:38:00	23:38:00		Budziwojska / Tarnopolska 05 nż
+1616	1	206213	23:38:00	23:38:00		Budziwojska / Tarnopolska 05 nż
+1616	1	206213	23:39:00	23:39:00		Budziwojska / Legionistów 03 nż
+1616	1	206213	23:39:00	23:39:00		Budziwojska / Legionistów 03 nż
+1616	1	206213	23:40:00	23:40:00		Budziwojska / Herbowa 01 nż
+1616	1	206213	23:40:00	23:40:00		Budziwojska / Herbowa 01 nż
+1616	1	206213	23:41:00	23:41:00		Tyczyn Orkana skrzyżowanie 16
+1616	1	206213	23:41:00	23:41:00		Tyczyn Orkana skrzyżowanie 16
+1616	1	206213	23:42:00	23:42:00		Tyczyn Grunwaldzka POM 27 nż
+1616	1	206213	23:42:00	23:42:00		Tyczyn Grunwaldzka POM 27 nż
+1616	1	206213	23:43:00	23:43:00		Sikorskiego granica 15 nż
+1616	1	206213	23:43:00	23:43:00		Sikorskiego granica 15 nż
+1616	1	206213	23:44:00	23:44:00		Sikorskiego / Ruczajowa 13 nż
+1616	1	206213	23:44:00	23:44:00		Sikorskiego / Ruczajowa 13 nż
+1616	1	206213	23:45:00	23:45:00		Sikorskiego / Kard. K. Wojtyły 11 nż
+1616	1	206213	23:45:00	23:45:00		Sikorskiego / Kard. K. Wojtyły 11 nż
+1616	1	206213	23:46:00	23:46:00		Sikorskiego / Rodzinna 09 nż
+1616	1	206213	23:46:00	23:46:00		Sikorskiego / Rodzinna 09 nż
+1616	1	206213	23:47:00	23:47:00		Sikorskiego / Białogórska 07 nż
+1616	1	206213	23:47:00	23:47:00		Sikorskiego / Białogórska 07 nż
+1616	1	206213	23:48:00	23:48:00		Sikorskiego / Robotnicza 05 nż
+1616	1	206213	23:48:00	23:48:00		Sikorskiego / Robotnicza 05 nż
+1616	1	206213	23:49:00	23:49:00		Sikorskiego domki 03 nż
+1616	1	206213	23:49:00	23:49:00		Sikorskiego domki 03 nż
+1616	1	206213	23:51:00	23:51:00		Sikorskiego Katedra 01 nż
+1616	1	206213	23:51:00	23:51:00		Sikorskiego Katedra 01 nż
+1616	1	206213	23:53:00	23:53:00		Powst. Warszawy / Rejtana 13
+1616	1	206213	23:53:00	23:53:00		Powst. Warszawy / Rejtana 13
+1616	1	206213	23:54:00	23:54:00		Powst. Warszawy szkoła 11
+1616	1	206213	23:54:00	23:54:00		Powst. Warszawy szkoła 11
+1616	1	206213	23:55:00	23:55:00		Powst. Warszawy Dom Studenta 09
+1616	1	206213	23:55:00	23:55:00		Powst. Warszawy Dom Studenta 09
+1616	1	206213	23:57:00	23:57:00		Hetmańska stadion 07
+1616	1	206213	23:57:00	23:57:00		Hetmańska stadion 07
+1616	1	206213	23:58:00	23:58:00		Hetmańska ZS. Mech. 05
+1616	1	206213	23:58:00	23:58:00		Hetmańska ZS. Mech. 05
+1616	1	206213	23:59:00	23:59:00		Hetmańska przychodnia 03
+1616	1	206213	23:59:00	23:59:00		Hetmańska przychodnia 03
+1616	1	206213	24:00:00	24:00:00		Hetmańska podzamcze 01 nż
+1616	1	206213	24:00:00	24:00:00		Hetmańska podzamcze 01 nż
+1616	1	206213	24:01:00	24:01:00		Kilara 02 nż
+1616	1	206213	24:01:00	24:01:00		Kilara 02 nż
+1616	1	206213	24:02:00	24:02:00		Szopena Filharmonia 01 nż
+1616	1	206213	24:02:00	24:02:00		Szopena Filharmonia 01 nż
+1616	1	206213	24:03:00	24:03:00		Targowa 02
+1616	1	206213	24:03:00	24:03:00		Targowa 02
+1616	1	206213	24:05:00	24:05:00		Pl. Wolności 04
+1616	1	206213	24:05:00	24:05:00		Pl. Wolności 04
+1616	1	206213	24:06:00	24:06:00		Piłsudskiego U. Wojewódzki 06
+1616	1	206213	24:06:00	24:06:00		Piłsudskiego U. Wojewódzki 06
+1616	1	206213	24:08:00	24:08:00		Marszałkowska 02
+1616	1	206213	24:08:00	24:08:00		Marszałkowska 02
+1616	1	206213	24:09:00	24:09:00		Lubelska szpital 02
+1616	1	206213	24:09:00	24:09:00		Lubelska szpital 02
+1616	1	206213	24:10:00	24:10:00		Lubelska kościół 06 nż
+1616	1	206213	24:10:00	24:10:00		Lubelska kościół 06 nż
+1616	1	206213	24:12:00	24:12:00		Trembeckiego ZTM pętla 01
+1616	1	206213	24:12:00	24:12:00		Trembeckiego ZTM pętla 01

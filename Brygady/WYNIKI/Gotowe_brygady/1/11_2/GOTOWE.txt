@@ -1,0 +1,875 @@
+route_id	service_id	trip_id	arrival_time	departure_time	stop_headsign	stop_name
+-------------------------------------------------------------------------------
+1635	2	198444	05:20:00	05:20:00		Bardowskiego 03
+1635	2	198444	05:22:00	05:22:00		Pl. Wolności 04
+1635	2	198444	05:22:00	05:22:00		Pl. Wolności 04
+1635	2	198444	05:23:00	05:23:00		Piłsudskiego U. Wojewódzki 06
+1635	2	198444	05:23:00	05:23:00		Piłsudskiego U. Wojewódzki 06
+1635	2	198444	05:25:00	05:25:00		Marszałkowska 02
+1635	2	198444	05:25:00	05:25:00		Marszałkowska 02
+1635	2	198444	05:26:00	05:26:00		Warszawska / Wyzwolenia 02 nż
+1635	2	198444	05:26:00	05:26:00		Warszawska / Wyzwolenia 02 nż
+1635	2	198444	05:27:00	05:27:00		Warszawska ZS. Samoch. 04 nż
+1635	2	198444	05:27:00	05:27:00		Warszawska ZS. Samoch. 04 nż
+1635	2	198444	05:28:00	05:28:00		Warszawska / Staromiejska 06 nż
+1635	2	198444	05:28:00	05:28:00		Warszawska / Staromiejska 06 nż
+1635	2	198444	05:30:00	05:30:00		Warszawska / Borowa 08 nż
+1635	2	198444	05:30:00	05:30:00		Warszawska / Borowa 08 nż
+1635	2	198444	05:31:00	05:31:00		Warszawska / Bażantowa 10 nż
+1635	2	198444	05:31:00	05:31:00		Warszawska / Bażantowa 10 nż
+1635	2	198444	05:32:00	05:32:00		Warszawska / Łowiecka 12 nż
+1635	2	198444	05:32:00	05:32:00		Warszawska / Łowiecka 12 nż
+1635	2	198444	05:33:00	05:33:00		"Zaczernie
+1635	2	198444	05:33:00	05:33:00		"Zaczernie
+1635	2	198444	05:34:00	05:34:00		Warszawska granica 14 nż
+1635	2	198444	05:34:00	05:34:00		Warszawska granica 14 nż
+1635	2	198444	05:36:00	05:36:00		Rudna Mała 03 nż
+1635	2	198444	05:36:00	05:36:00		Rudna Mała 03 nż
+1635	2	198444	05:37:00	05:37:00		Rudna Mała szpital 01 nż
+1635	2	198444	05:37:00	05:37:00		Rudna Mała szpital 01 nż
+1635	2	198444	05:39:00	05:39:00		Głogów Młp. wiadukt 09A nż
+1635	2	198444	05:39:00	05:39:00		Głogów Młp. wiadukt 09A nż
+1635	2	198444	05:42:00	05:42:00		Głogów Młp. Zelmer II 02 nż
+1635	2	198444	05:42:00	05:42:00		Głogów Młp. Zelmer II 02 nż
+1635	2	198444	05:43:00	05:43:00		Głogów Młp. MetaZel II 02 nż
+1635	2	198444	05:43:00	05:43:00		Głogów Młp. MetaZel II 02 nż
+1635	2	198444	05:44:00	05:44:00		Głogów Młp. Yanko I 01 nż
+1635	2	198444	05:44:00	05:44:00		Głogów Młp. Yanko I 01 nż
+1635	2	198444	05:45:00	05:45:00		Głogów Młp. Leniar I 01 nż
+1635	2	198444	05:45:00	05:45:00		Głogów Młp. Leniar I 01 nż
+
+1629	2	199468	06:10:00	06:10:00		Głogów Młp. Zelmer II 02 nż
+1629	2	199468	06:10:00	06:10:00		Głogów Młp. Zelmer II 02 nż
+1629	2	199468	06:11:00	06:11:00		Głogów Młp. MetaZel II 02 nż
+1629	2	199468	06:11:00	06:11:00		Głogów Młp. MetaZel II 02 nż
+1629	2	199468	06:12:00	06:12:00		Głogów Młp. Yanko I 01 nż
+1629	2	199468	06:12:00	06:12:00		Głogów Młp. Yanko I 01 nż
+1629	2	199468	06:13:00	06:13:00		Głogów Młp. Leniar I 01 nż
+1629	2	199468	06:13:00	06:13:00		Głogów Młp. Leniar I 01 nż
+1629	2	199468	06:16:00	06:16:00		Głogów Młp. wiadukt 71A nż
+1629	2	199468	06:16:00	06:16:00		Głogów Młp. wiadukt 71A nż
+1629	2	199468	06:19:00	06:19:00		Rudna Mała szpital 02 nż
+1629	2	199468	06:19:00	06:19:00		Rudna Mała szpital 02 nż
+1629	2	199468	06:20:00	06:20:00		Zaczernie 04 nż
+1629	2	199468	06:20:00	06:20:00		Zaczernie 04 nż
+1629	2	199468	06:22:00	06:22:00		Warszawska granica 11 nż
+1629	2	199468	06:22:00	06:22:00		Warszawska granica 11 nż
+1629	2	199468	06:23:00	06:23:00		"Zaczernie
+1629	2	199468	06:23:00	06:23:00		"Zaczernie
+1629	2	199468	06:24:00	06:24:00		Warszawska / Myśliwska 09 nż
+1629	2	199468	06:24:00	06:24:00		Warszawska / Myśliwska 09 nż
+1629	2	199468	06:26:00	06:26:00		Warszawska / Borowa 07 nż
+1629	2	199468	06:26:00	06:26:00		Warszawska / Borowa 07 nż
+1629	2	199468	06:28:00	06:28:00		Warszawska / Staromiejska 05 nż
+1629	2	199468	06:28:00	06:28:00		Warszawska / Staromiejska 05 nż
+1629	2	199468	06:29:00	06:29:00		Warszawska ZS. Samoch. 03 nż
+1629	2	199468	06:29:00	06:29:00		Warszawska ZS. Samoch. 03 nż
+1629	2	199468	06:30:00	06:30:00		Warszawska / Wyzwolenia 01 nż
+1629	2	199468	06:30:00	06:30:00		Warszawska / Wyzwolenia 01 nż
+1629	2	199468	06:31:00	06:31:00		Marszałkowska 01
+1629	2	199468	06:31:00	06:31:00		Marszałkowska 01
+1629	2	199468	06:33:00	06:33:00		Piłsudskiego U. Wojewódzki 03
+1629	2	199468	06:33:00	06:33:00		Piłsudskiego U. Wojewódzki 03
+1629	2	199468	06:36:00	06:36:00		Bardowskiego 04
+1629	2	199468	06:36:00	06:36:00		Bardowskiego 04
+
+1302	2	203080	07:09:00	07:09:00		Piłsudskiego U. Wojewódzki 03
+1302	2	203080	07:09:00	07:09:00		Piłsudskiego U. Wojewódzki 03
+1302	2	203080	07:10:00	07:10:00		Pl. Wolności 01
+1302	2	203080	07:10:00	07:10:00		Pl. Wolności 01
+1302	2	203080	07:13:00	07:13:00		Lwowska Jedn. Wojskowa 02
+1302	2	203080	07:13:00	07:13:00		Lwowska Jedn. Wojskowa 02
+1302	2	203080	07:15:00	07:15:00		Lwowska cmentarz 04
+1302	2	203080	07:15:00	07:15:00		Lwowska cmentarz 04
+1302	2	203080	07:16:00	07:16:00		Żołnierzy I Armii Wojska Polskiego 02
+1302	2	203080	07:16:00	07:16:00		Żołnierzy I Armii Wojska Polskiego 02
+1302	2	203080	07:18:00	07:18:00		Konf. Barskich / Traugutta 02 nż
+1302	2	203080	07:18:00	07:18:00		Konf. Barskich / Traugutta 02 nż
+1302	2	203080	07:19:00	07:19:00		Załęska / Konf. Barskich 02 nż
+1302	2	203080	07:19:00	07:19:00		Załęska / Konf. Barskich 02 nż
+1302	2	203080	07:20:00	07:20:00		Sieciecha / Załęska 01 nż
+1302	2	203080	07:20:00	07:20:00		Sieciecha / Załęska 01 nż
+1302	2	203080	07:23:00	07:23:00		Rzecha / Załęska 02 nż
+1302	2	203080	07:23:00	07:23:00		Rzecha / Załęska 02 nż
+1302	2	203080	07:24:00	07:24:00		Załęska / Rzecha 03 nż
+1302	2	203080	07:24:00	07:24:00		Załęska / Rzecha 03 nż
+1302	2	203080	07:25:00	07:25:00		Księżycowa / Załęska 02 nż
+1302	2	203080	07:25:00	07:25:00		Księżycowa / Załęska 02 nż
+1302	2	203080	07:26:00	07:26:00		Stączka kościół 02 nż
+1302	2	203080	07:26:00	07:26:00		Stączka kościół 02 nż
+1302	2	203080	07:27:00	07:27:00		Stączka / Jaspisowa 04 nż
+1302	2	203080	07:27:00	07:27:00		Stączka / Jaspisowa 04 nż
+1302	2	203080	07:28:00	07:28:00		Potockiego / Stączka 02 nż
+1302	2	203080	07:28:00	07:28:00		Potockiego / Stączka 02 nż
+1302	2	203080	07:29:00	07:29:00		Potockiego / Nefrytowa 04 nż
+1302	2	203080	07:29:00	07:29:00		Potockiego / Nefrytowa 04 nż
+1302	2	203080	07:30:00	07:30:00		Potockiego / Ametystowa 06 nż
+1302	2	203080	07:30:00	07:30:00		Potockiego / Ametystowa 06 nż
+1302	2	203080	07:31:00	07:31:00		Potockiego Dom Seniora 08 nż
+1302	2	203080	07:31:00	07:31:00		Potockiego Dom Seniora 08 nż
+1302	2	203080	07:33:00	07:33:00		Potockiego pętla 10
+1302	2	203080	07:33:00	07:33:00		Potockiego pętla 10
+
+899	2	199758	08:09:00	08:09:00		Potockiego pętla 10
+899	2	199758	08:09:00	08:09:00		Potockiego pętla 10
+899	2	199758	08:10:00	08:10:00		Potockiego Dom Seniora 05 nż
+899	2	199758	08:10:00	08:10:00		Potockiego Dom Seniora 05 nż
+899	2	199758	08:11:00	08:11:00		Potockiego / Ametystowa 03 nż
+899	2	199758	08:11:00	08:11:00		Potockiego / Ametystowa 03 nż
+899	2	199758	08:12:00	08:12:00		Potockiego / Nefrytowa 01 nż
+899	2	199758	08:12:00	08:12:00		Potockiego / Nefrytowa 01 nż
+899	2	199758	08:13:00	08:13:00		Stączka / Potockiego 03 nż
+899	2	199758	08:13:00	08:13:00		Stączka / Potockiego 03 nż
+899	2	199758	08:14:00	08:14:00		Stączka kościół 01 nż
+899	2	199758	08:14:00	08:14:00		Stączka kościół 01 nż
+899	2	199758	08:15:00	08:15:00		Księżycowa / Załęska 01 nż
+899	2	199758	08:15:00	08:15:00		Księżycowa / Załęska 01 nż
+899	2	199758	08:17:00	08:17:00		Rzecha / Załęska 01 nż
+899	2	199758	08:17:00	08:17:00		Rzecha / Załęska 01 nż
+899	2	199758	08:19:00	08:19:00		Sieciecha / Załęska 02 nż
+899	2	199758	08:19:00	08:19:00		Sieciecha / Załęska 02 nż
+899	2	199758	08:20:00	08:20:00		Załęska / Konf. Barskich 01 nż
+899	2	199758	08:20:00	08:20:00		Załęska / Konf. Barskich 01 nż
+899	2	199758	08:21:00	08:21:00		Konf. Barskich / Traugutta 01 nż
+899	2	199758	08:21:00	08:21:00		Konf. Barskich / Traugutta 01 nż
+899	2	199758	08:24:00	08:24:00		Lwowska cmentarz 03
+899	2	199758	08:24:00	08:24:00		Lwowska cmentarz 03
+899	2	199758	08:25:00	08:25:00		Lwowska Jedn. Wojskowa 01
+899	2	199758	08:25:00	08:25:00		Lwowska Jedn. Wojskowa 01
+899	2	199758	08:26:00	08:26:00		Piłsudskiego ZDZ 02
+899	2	199758	08:26:00	08:26:00		Piłsudskiego ZDZ 02
+899	2	199758	08:27:00	08:27:00		Pl. Wolności 04
+899	2	199758	08:27:00	08:27:00		Pl. Wolności 04
+899	2	199758	08:30:00	08:30:00		Cieplińskiego 02
+899	2	199758	08:30:00	08:30:00		Cieplińskiego 02
+899	2	199758	08:31:00	08:31:00		Lisa-Kuli 01
+899	2	199758	08:31:00	08:31:00		Lisa-Kuli 01
+899	2	199758	08:33:00	08:33:00		Dąbrowskiego park 02 nż
+899	2	199758	08:33:00	08:33:00		Dąbrowskiego park 02 nż
+899	2	199758	08:34:00	08:34:00		Dąbrowskiego KW Policji 04
+899	2	199758	08:34:00	08:34:00		Dąbrowskiego KW Policji 04
+899	2	199758	08:35:00	08:35:00		Dąbrowskiego / Bat. Chłopskich 10
+899	2	199758	08:35:00	08:35:00		Dąbrowskiego / Bat. Chłopskich 10
+899	2	199758	08:37:00	08:37:00		Podkarpacka Politechnika 02
+899	2	199758	08:37:00	08:37:00		Podkarpacka Politechnika 02
+899	2	199758	08:39:00	08:39:00		Matuszczaka / Rymanowska 02 nż
+899	2	199758	08:39:00	08:39:00		Matuszczaka / Rymanowska 02 nż
+899	2	199758	08:40:00	08:40:00		Matuszczaka pętla 04
+899	2	199758	08:40:00	08:40:00		Matuszczaka pętla 04
+
+905	2	200133	08:57:00	08:57:00		Matuszczaka pętla 04
+905	2	200133	08:57:00	08:57:00		Matuszczaka pętla 04
+905	2	200133	08:58:00	08:58:00		Podkarpacka / Matuszczaka 03
+905	2	200133	08:58:00	08:58:00		Podkarpacka / Matuszczaka 03
+905	2	200133	09:00:00	09:00:00		Podkarpacka Politechnika 01
+905	2	200133	09:00:00	09:00:00		Podkarpacka Politechnika 01
+905	2	200133	09:02:00	09:02:00		Dąbrowskiego Instytut Muzyki 07
+905	2	200133	09:02:00	09:02:00		Dąbrowskiego Instytut Muzyki 07
+905	2	200133	09:03:00	09:03:00		Dąbrowskiego KW Policji 03
+905	2	200133	09:03:00	09:03:00		Dąbrowskiego KW Policji 03
+905	2	200133	09:04:00	09:04:00		Dąbrowskiego park 01 nż
+905	2	200133	09:04:00	09:04:00		Dąbrowskiego park 01 nż
+905	2	200133	09:07:00	09:07:00		Lisa-Kuli 02
+905	2	200133	09:07:00	09:07:00		Lisa-Kuli 02
+905	2	200133	09:08:00	09:08:00		Cieplińskiego 01
+905	2	200133	09:08:00	09:08:00		Cieplińskiego 01
+905	2	200133	09:09:00	09:09:00		Piłsudskiego U. Wojewódzki 03
+905	2	200133	09:09:00	09:09:00		Piłsudskiego U. Wojewódzki 03
+905	2	200133	09:10:00	09:10:00		Pl. Wolności 01
+905	2	200133	09:10:00	09:10:00		Pl. Wolności 01
+905	2	200133	09:13:00	09:13:00		Lwowska Jedn. Wojskowa 02
+905	2	200133	09:13:00	09:13:00		Lwowska Jedn. Wojskowa 02
+905	2	200133	09:15:00	09:15:00		Lwowska cmentarz 04
+905	2	200133	09:15:00	09:15:00		Lwowska cmentarz 04
+905	2	200133	09:16:00	09:16:00		Żołnierzy I Armii Wojska Polskiego 02
+905	2	200133	09:16:00	09:16:00		Żołnierzy I Armii Wojska Polskiego 02
+905	2	200133	09:18:00	09:18:00		Konf. Barskich / Traugutta 02 nż
+905	2	200133	09:18:00	09:18:00		Konf. Barskich / Traugutta 02 nż
+905	2	200133	09:19:00	09:19:00		Załęska / Konf. Barskich 02 nż
+905	2	200133	09:19:00	09:19:00		Załęska / Konf. Barskich 02 nż
+905	2	200133	09:20:00	09:20:00		Sieciecha / Załęska 01 nż
+905	2	200133	09:20:00	09:20:00		Sieciecha / Załęska 01 nż
+905	2	200133	09:23:00	09:23:00		Rzecha / Załęska 02 nż
+905	2	200133	09:23:00	09:23:00		Rzecha / Załęska 02 nż
+905	2	200133	09:24:00	09:24:00		Załęska / Rzecha 03 nż
+905	2	200133	09:24:00	09:24:00		Załęska / Rzecha 03 nż
+905	2	200133	09:25:00	09:25:00		Księżycowa / Załęska 02 nż
+905	2	200133	09:25:00	09:25:00		Księżycowa / Załęska 02 nż
+905	2	200133	09:26:00	09:26:00		Stączka kościół 02 nż
+905	2	200133	09:26:00	09:26:00		Stączka kościół 02 nż
+905	2	200133	09:27:00	09:27:00		Stączka / Jaspisowa 04 nż
+905	2	200133	09:27:00	09:27:00		Stączka / Jaspisowa 04 nż
+905	2	200133	09:28:00	09:28:00		Potockiego / Stączka 02 nż
+905	2	200133	09:28:00	09:28:00		Potockiego / Stączka 02 nż
+905	2	200133	09:29:00	09:29:00		Potockiego / Nefrytowa 04 nż
+905	2	200133	09:29:00	09:29:00		Potockiego / Nefrytowa 04 nż
+905	2	200133	09:30:00	09:30:00		Potockiego / Ametystowa 06 nż
+905	2	200133	09:30:00	09:30:00		Potockiego / Ametystowa 06 nż
+905	2	200133	09:31:00	09:31:00		Potockiego Dom Seniora 08 nż
+905	2	200133	09:31:00	09:31:00		Potockiego Dom Seniora 08 nż
+905	2	200133	09:33:00	09:33:00		Potockiego pętla 10
+905	2	200133	09:33:00	09:33:00		Potockiego pętla 10
+
+899	2	199859	09:49:00	09:49:00		Potockiego pętla 10
+899	2	199859	09:49:00	09:49:00		Potockiego pętla 10
+899	2	199859	09:50:00	09:50:00		Potockiego Dom Seniora 05 nż
+899	2	199859	09:50:00	09:50:00		Potockiego Dom Seniora 05 nż
+899	2	199859	09:51:00	09:51:00		Potockiego / Ametystowa 03 nż
+899	2	199859	09:51:00	09:51:00		Potockiego / Ametystowa 03 nż
+899	2	199859	09:52:00	09:52:00		Potockiego / Nefrytowa 01 nż
+899	2	199859	09:52:00	09:52:00		Potockiego / Nefrytowa 01 nż
+899	2	199859	09:53:00	09:53:00		Stączka / Potockiego 03 nż
+899	2	199859	09:53:00	09:53:00		Stączka / Potockiego 03 nż
+899	2	199859	09:54:00	09:54:00		Stączka kościół 01 nż
+899	2	199859	09:54:00	09:54:00		Stączka kościół 01 nż
+899	2	199859	09:55:00	09:55:00		Księżycowa / Załęska 01 nż
+899	2	199859	09:55:00	09:55:00		Księżycowa / Załęska 01 nż
+899	2	199859	09:57:00	09:57:00		Rzecha / Załęska 01 nż
+899	2	199859	09:57:00	09:57:00		Rzecha / Załęska 01 nż
+899	2	199859	09:59:00	09:59:00		Sieciecha / Załęska 02 nż
+899	2	199859	09:59:00	09:59:00		Sieciecha / Załęska 02 nż
+899	2	199859	10:00:00	10:00:00		Załęska / Konf. Barskich 01 nż
+899	2	199859	10:00:00	10:00:00		Załęska / Konf. Barskich 01 nż
+899	2	199859	10:01:00	10:01:00		Konf. Barskich / Traugutta 01 nż
+899	2	199859	10:01:00	10:01:00		Konf. Barskich / Traugutta 01 nż
+899	2	199859	10:04:00	10:04:00		Lwowska cmentarz 03
+899	2	199859	10:04:00	10:04:00		Lwowska cmentarz 03
+899	2	199859	10:05:00	10:05:00		Lwowska Jedn. Wojskowa 01
+899	2	199859	10:05:00	10:05:00		Lwowska Jedn. Wojskowa 01
+899	2	199859	10:06:00	10:06:00		Piłsudskiego ZDZ 02
+899	2	199859	10:06:00	10:06:00		Piłsudskiego ZDZ 02
+899	2	199859	10:07:00	10:07:00		Pl. Wolności 04
+899	2	199859	10:07:00	10:07:00		Pl. Wolności 04
+899	2	199859	10:10:00	10:10:00		Cieplińskiego 02
+899	2	199859	10:10:00	10:10:00		Cieplińskiego 02
+899	2	199859	10:11:00	10:11:00		Lisa-Kuli 01
+899	2	199859	10:11:00	10:11:00		Lisa-Kuli 01
+899	2	199859	10:13:00	10:13:00		Dąbrowskiego park 02 nż
+899	2	199859	10:13:00	10:13:00		Dąbrowskiego park 02 nż
+899	2	199859	10:14:00	10:14:00		Dąbrowskiego KW Policji 04
+899	2	199859	10:14:00	10:14:00		Dąbrowskiego KW Policji 04
+899	2	199859	10:15:00	10:15:00		Dąbrowskiego / Bat. Chłopskich 10
+899	2	199859	10:15:00	10:15:00		Dąbrowskiego / Bat. Chłopskich 10
+899	2	199859	10:17:00	10:17:00		Podkarpacka Politechnika 02
+899	2	199859	10:17:00	10:17:00		Podkarpacka Politechnika 02
+899	2	199859	10:19:00	10:19:00		Matuszczaka / Rymanowska 02 nż
+899	2	199859	10:19:00	10:19:00		Matuszczaka / Rymanowska 02 nż
+899	2	199859	10:20:00	10:20:00		Matuszczaka pętla 04
+899	2	199859	10:20:00	10:20:00		Matuszczaka pętla 04
+
+905	2	201323	10:37:00	10:37:00		Matuszczaka pętla 04
+905	2	201323	10:37:00	10:37:00		Matuszczaka pętla 04
+905	2	201323	10:38:00	10:38:00		Podkarpacka / Matuszczaka 03
+905	2	201323	10:38:00	10:38:00		Podkarpacka / Matuszczaka 03
+905	2	201323	10:40:00	10:40:00		Podkarpacka Politechnika 01
+905	2	201323	10:40:00	10:40:00		Podkarpacka Politechnika 01
+905	2	201323	10:42:00	10:42:00		Dąbrowskiego Instytut Muzyki 07
+905	2	201323	10:42:00	10:42:00		Dąbrowskiego Instytut Muzyki 07
+905	2	201323	10:43:00	10:43:00		Dąbrowskiego KW Policji 03
+905	2	201323	10:43:00	10:43:00		Dąbrowskiego KW Policji 03
+905	2	201323	10:44:00	10:44:00		Dąbrowskiego park 01 nż
+905	2	201323	10:44:00	10:44:00		Dąbrowskiego park 01 nż
+905	2	201323	10:47:00	10:47:00		Lisa-Kuli 02
+905	2	201323	10:47:00	10:47:00		Lisa-Kuli 02
+905	2	201323	10:48:00	10:48:00		Cieplińskiego 01
+905	2	201323	10:48:00	10:48:00		Cieplińskiego 01
+905	2	201323	10:49:00	10:49:00		Piłsudskiego U. Wojewódzki 03
+905	2	201323	10:49:00	10:49:00		Piłsudskiego U. Wojewódzki 03
+905	2	201323	10:50:00	10:50:00		Pl. Wolności 01
+905	2	201323	10:50:00	10:50:00		Pl. Wolności 01
+905	2	201323	10:53:00	10:53:00		Lwowska Jedn. Wojskowa 02
+905	2	201323	10:53:00	10:53:00		Lwowska Jedn. Wojskowa 02
+905	2	201323	10:55:00	10:55:00		Lwowska cmentarz 04
+905	2	201323	10:55:00	10:55:00		Lwowska cmentarz 04
+905	2	201323	10:56:00	10:56:00		Żołnierzy I Armii Wojska Polskiego 02
+905	2	201323	10:56:00	10:56:00		Żołnierzy I Armii Wojska Polskiego 02
+905	2	201323	10:58:00	10:58:00		Konf. Barskich / Traugutta 02 nż
+905	2	201323	10:58:00	10:58:00		Konf. Barskich / Traugutta 02 nż
+905	2	201323	10:59:00	10:59:00		Załęska / Konf. Barskich 02 nż
+905	2	201323	10:59:00	10:59:00		Załęska / Konf. Barskich 02 nż
+905	2	201323	11:00:00	11:00:00		Sieciecha / Załęska 01 nż
+905	2	201323	11:00:00	11:00:00		Sieciecha / Załęska 01 nż
+905	2	201323	11:03:00	11:03:00		Rzecha / Załęska 02 nż
+905	2	201323	11:03:00	11:03:00		Rzecha / Załęska 02 nż
+905	2	201323	11:04:00	11:04:00		Załęska / Rzecha 03 nż
+905	2	201323	11:04:00	11:04:00		Załęska / Rzecha 03 nż
+905	2	201323	11:05:00	11:05:00		Księżycowa / Załęska 02 nż
+905	2	201323	11:05:00	11:05:00		Księżycowa / Załęska 02 nż
+905	2	201323	11:06:00	11:06:00		Stączka kościół 02 nż
+905	2	201323	11:06:00	11:06:00		Stączka kościół 02 nż
+905	2	201323	11:07:00	11:07:00		Stączka / Jaspisowa 04 nż
+905	2	201323	11:07:00	11:07:00		Stączka / Jaspisowa 04 nż
+905	2	201323	11:08:00	11:08:00		Potockiego / Stączka 02 nż
+905	2	201323	11:08:00	11:08:00		Potockiego / Stączka 02 nż
+905	2	201323	11:09:00	11:09:00		Potockiego / Nefrytowa 04 nż
+905	2	201323	11:09:00	11:09:00		Potockiego / Nefrytowa 04 nż
+905	2	201323	11:10:00	11:10:00		Potockiego / Ametystowa 06 nż
+905	2	201323	11:10:00	11:10:00		Potockiego / Ametystowa 06 nż
+905	2	201323	11:11:00	11:11:00		Potockiego Dom Seniora 08 nż
+905	2	201323	11:11:00	11:11:00		Potockiego Dom Seniora 08 nż
+905	2	201323	11:13:00	11:13:00		Potockiego pętla 10
+905	2	201323	11:13:00	11:13:00		Potockiego pętla 10
+
+899	2	200065	11:49:00	11:49:00		Potockiego pętla 10
+899	2	200065	11:49:00	11:49:00		Potockiego pętla 10
+899	2	200065	11:50:00	11:50:00		Potockiego Dom Seniora 05 nż
+899	2	200065	11:50:00	11:50:00		Potockiego Dom Seniora 05 nż
+899	2	200065	11:51:00	11:51:00		Potockiego / Ametystowa 03 nż
+899	2	200065	11:51:00	11:51:00		Potockiego / Ametystowa 03 nż
+899	2	200065	11:52:00	11:52:00		Potockiego / Nefrytowa 01 nż
+899	2	200065	11:52:00	11:52:00		Potockiego / Nefrytowa 01 nż
+899	2	200065	11:53:00	11:53:00		Stączka / Potockiego 03 nż
+899	2	200065	11:53:00	11:53:00		Stączka / Potockiego 03 nż
+899	2	200065	11:54:00	11:54:00		Stączka kościół 01 nż
+899	2	200065	11:54:00	11:54:00		Stączka kościół 01 nż
+899	2	200065	11:55:00	11:55:00		Księżycowa / Załęska 01 nż
+899	2	200065	11:55:00	11:55:00		Księżycowa / Załęska 01 nż
+899	2	200065	11:57:00	11:57:00		Rzecha / Załęska 01 nż
+899	2	200065	11:57:00	11:57:00		Rzecha / Załęska 01 nż
+899	2	200065	11:59:00	11:59:00		Sieciecha / Załęska 02 nż
+899	2	200065	11:59:00	11:59:00		Sieciecha / Załęska 02 nż
+899	2	200065	12:00:00	12:00:00		Załęska / Konf. Barskich 01 nż
+899	2	200065	12:00:00	12:00:00		Załęska / Konf. Barskich 01 nż
+899	2	200065	12:01:00	12:01:00		Konf. Barskich / Traugutta 01 nż
+899	2	200065	12:01:00	12:01:00		Konf. Barskich / Traugutta 01 nż
+899	2	200065	12:04:00	12:04:00		Lwowska cmentarz 03
+899	2	200065	12:04:00	12:04:00		Lwowska cmentarz 03
+899	2	200065	12:05:00	12:05:00		Lwowska Jedn. Wojskowa 01
+899	2	200065	12:05:00	12:05:00		Lwowska Jedn. Wojskowa 01
+899	2	200065	12:06:00	12:06:00		Piłsudskiego ZDZ 02
+899	2	200065	12:06:00	12:06:00		Piłsudskiego ZDZ 02
+899	2	200065	12:07:00	12:07:00		Pl. Wolności 04
+899	2	200065	12:07:00	12:07:00		Pl. Wolności 04
+899	2	200065	12:10:00	12:10:00		Cieplińskiego 02
+899	2	200065	12:10:00	12:10:00		Cieplińskiego 02
+899	2	200065	12:11:00	12:11:00		Lisa-Kuli 01
+899	2	200065	12:11:00	12:11:00		Lisa-Kuli 01
+899	2	200065	12:13:00	12:13:00		Dąbrowskiego park 02 nż
+899	2	200065	12:13:00	12:13:00		Dąbrowskiego park 02 nż
+899	2	200065	12:14:00	12:14:00		Dąbrowskiego KW Policji 04
+899	2	200065	12:14:00	12:14:00		Dąbrowskiego KW Policji 04
+899	2	200065	12:15:00	12:15:00		Dąbrowskiego / Bat. Chłopskich 10
+899	2	200065	12:15:00	12:15:00		Dąbrowskiego / Bat. Chłopskich 10
+899	2	200065	12:17:00	12:17:00		Podkarpacka Politechnika 02
+899	2	200065	12:17:00	12:17:00		Podkarpacka Politechnika 02
+899	2	200065	12:19:00	12:19:00		Matuszczaka / Rymanowska 02 nż
+899	2	200065	12:19:00	12:19:00		Matuszczaka / Rymanowska 02 nż
+899	2	200065	12:20:00	12:20:00		Matuszczaka pętla 04
+899	2	200065	12:20:00	12:20:00		Matuszczaka pętla 04
+
+905	2	200835	12:37:00	12:37:00		Matuszczaka pętla 04
+905	2	200835	12:37:00	12:37:00		Matuszczaka pętla 04
+905	2	200835	12:38:00	12:38:00		Podkarpacka / Matuszczaka 03
+905	2	200835	12:38:00	12:38:00		Podkarpacka / Matuszczaka 03
+905	2	200835	12:40:00	12:40:00		Podkarpacka Politechnika 01
+905	2	200835	12:40:00	12:40:00		Podkarpacka Politechnika 01
+905	2	200835	12:42:00	12:42:00		Dąbrowskiego Instytut Muzyki 07
+905	2	200835	12:42:00	12:42:00		Dąbrowskiego Instytut Muzyki 07
+905	2	200835	12:43:00	12:43:00		Dąbrowskiego KW Policji 03
+905	2	200835	12:43:00	12:43:00		Dąbrowskiego KW Policji 03
+905	2	200835	12:44:00	12:44:00		Dąbrowskiego park 01 nż
+905	2	200835	12:44:00	12:44:00		Dąbrowskiego park 01 nż
+905	2	200835	12:47:00	12:47:00		Lisa-Kuli 02
+905	2	200835	12:47:00	12:47:00		Lisa-Kuli 02
+905	2	200835	12:48:00	12:48:00		Cieplińskiego 01
+905	2	200835	12:48:00	12:48:00		Cieplińskiego 01
+905	2	200835	12:49:00	12:49:00		Piłsudskiego U. Wojewódzki 03
+905	2	200835	12:49:00	12:49:00		Piłsudskiego U. Wojewódzki 03
+905	2	200835	12:50:00	12:50:00		Pl. Wolności 01
+905	2	200835	12:50:00	12:50:00		Pl. Wolności 01
+905	2	200835	12:53:00	12:53:00		Lwowska Jedn. Wojskowa 02
+905	2	200835	12:53:00	12:53:00		Lwowska Jedn. Wojskowa 02
+905	2	200835	12:55:00	12:55:00		Lwowska cmentarz 04
+905	2	200835	12:55:00	12:55:00		Lwowska cmentarz 04
+905	2	200835	12:56:00	12:56:00		Żołnierzy I Armii Wojska Polskiego 02
+905	2	200835	12:56:00	12:56:00		Żołnierzy I Armii Wojska Polskiego 02
+905	2	200835	12:58:00	12:58:00		Konf. Barskich / Traugutta 02 nż
+905	2	200835	12:58:00	12:58:00		Konf. Barskich / Traugutta 02 nż
+905	2	200835	12:59:00	12:59:00		Załęska / Konf. Barskich 02 nż
+905	2	200835	12:59:00	12:59:00		Załęska / Konf. Barskich 02 nż
+905	2	200835	13:00:00	13:00:00		Sieciecha / Załęska 01 nż
+905	2	200835	13:00:00	13:00:00		Sieciecha / Załęska 01 nż
+905	2	200835	13:03:00	13:03:00		Rzecha / Załęska 02 nż
+905	2	200835	13:03:00	13:03:00		Rzecha / Załęska 02 nż
+905	2	200835	13:04:00	13:04:00		Załęska / Rzecha 03 nż
+905	2	200835	13:04:00	13:04:00		Załęska / Rzecha 03 nż
+905	2	200835	13:05:00	13:05:00		Księżycowa / Załęska 02 nż
+905	2	200835	13:05:00	13:05:00		Księżycowa / Załęska 02 nż
+905	2	200835	13:06:00	13:06:00		Stączka kościół 02 nż
+905	2	200835	13:06:00	13:06:00		Stączka kościół 02 nż
+905	2	200835	13:07:00	13:07:00		Stączka / Jaspisowa 04 nż
+905	2	200835	13:07:00	13:07:00		Stączka / Jaspisowa 04 nż
+905	2	200835	13:08:00	13:08:00		Potockiego / Stączka 02 nż
+905	2	200835	13:08:00	13:08:00		Potockiego / Stączka 02 nż
+905	2	200835	13:09:00	13:09:00		Potockiego / Nefrytowa 04 nż
+905	2	200835	13:09:00	13:09:00		Potockiego / Nefrytowa 04 nż
+905	2	200835	13:10:00	13:10:00		Potockiego / Ametystowa 06 nż
+905	2	200835	13:10:00	13:10:00		Potockiego / Ametystowa 06 nż
+905	2	200835	13:11:00	13:11:00		Potockiego Dom Seniora 08 nż
+905	2	200835	13:11:00	13:11:00		Potockiego Dom Seniora 08 nż
+905	2	200835	13:13:00	13:13:00		Potockiego pętla 10
+905	2	200835	13:13:00	13:13:00		Potockiego pętla 10
+
+899	2	201759	13:30:00	13:30:00		Potockiego pętla 10
+899	2	201759	13:30:00	13:30:00		Potockiego pętla 10
+899	2	201759	13:31:00	13:31:00		Potockiego Dom Seniora 05 nż
+899	2	201759	13:31:00	13:31:00		Potockiego Dom Seniora 05 nż
+899	2	201759	13:32:00	13:32:00		Potockiego / Ametystowa 03 nż
+899	2	201759	13:32:00	13:32:00		Potockiego / Ametystowa 03 nż
+899	2	201759	13:33:00	13:33:00		Potockiego / Nefrytowa 01 nż
+899	2	201759	13:33:00	13:33:00		Potockiego / Nefrytowa 01 nż
+899	2	201759	13:34:00	13:34:00		Stączka / Potockiego 03 nż
+899	2	201759	13:34:00	13:34:00		Stączka / Potockiego 03 nż
+899	2	201759	13:35:00	13:35:00		Stączka kościół 01 nż
+899	2	201759	13:35:00	13:35:00		Stączka kościół 01 nż
+899	2	201759	13:36:00	13:36:00		Księżycowa / Załęska 01 nż
+899	2	201759	13:36:00	13:36:00		Księżycowa / Załęska 01 nż
+899	2	201759	13:38:00	13:38:00		Rzecha / Załęska 01 nż
+899	2	201759	13:38:00	13:38:00		Rzecha / Załęska 01 nż
+899	2	201759	13:40:00	13:40:00		Sieciecha / Załęska 02 nż
+899	2	201759	13:40:00	13:40:00		Sieciecha / Załęska 02 nż
+899	2	201759	13:41:00	13:41:00		Załęska / Konf. Barskich 01 nż
+899	2	201759	13:41:00	13:41:00		Załęska / Konf. Barskich 01 nż
+899	2	201759	13:42:00	13:42:00		Konf. Barskich / Traugutta 01 nż
+899	2	201759	13:42:00	13:42:00		Konf. Barskich / Traugutta 01 nż
+899	2	201759	13:44:00	13:44:00		Lwowska cmentarz 03
+899	2	201759	13:44:00	13:44:00		Lwowska cmentarz 03
+899	2	201759	13:45:00	13:45:00		Lwowska Jedn. Wojskowa 01
+899	2	201759	13:45:00	13:45:00		Lwowska Jedn. Wojskowa 01
+899	2	201759	13:46:00	13:46:00		Piłsudskiego ZDZ 02
+899	2	201759	13:46:00	13:46:00		Piłsudskiego ZDZ 02
+899	2	201759	13:47:00	13:47:00		Pl. Wolności 04
+899	2	201759	13:47:00	13:47:00		Pl. Wolności 04
+899	2	201759	13:50:00	13:50:00		Cieplińskiego 02
+899	2	201759	13:50:00	13:50:00		Cieplińskiego 02
+899	2	201759	13:51:00	13:51:00		Lisa-Kuli 01
+899	2	201759	13:51:00	13:51:00		Lisa-Kuli 01
+899	2	201759	13:53:00	13:53:00		Dąbrowskiego park 02 nż
+899	2	201759	13:53:00	13:53:00		Dąbrowskiego park 02 nż
+899	2	201759	13:54:00	13:54:00		Dąbrowskiego KW Policji 04
+899	2	201759	13:54:00	13:54:00		Dąbrowskiego KW Policji 04
+899	2	201759	13:55:00	13:55:00		Dąbrowskiego / Bat. Chłopskich 10
+899	2	201759	13:55:00	13:55:00		Dąbrowskiego / Bat. Chłopskich 10
+899	2	201759	13:58:00	13:58:00		Podkarpacka Politechnika 02
+899	2	201759	13:58:00	13:58:00		Podkarpacka Politechnika 02
+899	2	201759	14:00:00	14:00:00		Matuszczaka / Rymanowska 02 nż
+899	2	201759	14:00:00	14:00:00		Matuszczaka / Rymanowska 02 nż
+899	2	201759	14:01:00	14:01:00		Matuszczaka pętla 04
+899	2	201759	14:01:00	14:01:00		Matuszczaka pętla 04
+
+905	2	202911	14:37:00	14:37:00		Matuszczaka pętla 04
+905	2	202911	14:37:00	14:37:00		Matuszczaka pętla 04
+905	2	202911	14:38:00	14:38:00		Podkarpacka / Matuszczaka 03
+905	2	202911	14:38:00	14:38:00		Podkarpacka / Matuszczaka 03
+905	2	202911	14:40:00	14:40:00		Podkarpacka Politechnika 01
+905	2	202911	14:40:00	14:40:00		Podkarpacka Politechnika 01
+905	2	202911	14:42:00	14:42:00		Dąbrowskiego Instytut Muzyki 07
+905	2	202911	14:42:00	14:42:00		Dąbrowskiego Instytut Muzyki 07
+905	2	202911	14:43:00	14:43:00		Dąbrowskiego KW Policji 03
+905	2	202911	14:43:00	14:43:00		Dąbrowskiego KW Policji 03
+905	2	202911	14:44:00	14:44:00		Dąbrowskiego park 01 nż
+905	2	202911	14:44:00	14:44:00		Dąbrowskiego park 01 nż
+905	2	202911	14:47:00	14:47:00		Lisa-Kuli 02
+905	2	202911	14:47:00	14:47:00		Lisa-Kuli 02
+905	2	202911	14:48:00	14:48:00		Cieplińskiego 01
+905	2	202911	14:48:00	14:48:00		Cieplińskiego 01
+905	2	202911	14:49:00	14:49:00		Piłsudskiego U. Wojewódzki 03
+905	2	202911	14:49:00	14:49:00		Piłsudskiego U. Wojewódzki 03
+905	2	202911	14:50:00	14:50:00		Pl. Wolności 01
+905	2	202911	14:50:00	14:50:00		Pl. Wolności 01
+905	2	202911	14:53:00	14:53:00		Lwowska Jedn. Wojskowa 02
+905	2	202911	14:53:00	14:53:00		Lwowska Jedn. Wojskowa 02
+905	2	202911	14:55:00	14:55:00		Lwowska cmentarz 04
+905	2	202911	14:55:00	14:55:00		Lwowska cmentarz 04
+905	2	202911	14:56:00	14:56:00		Żołnierzy I Armii Wojska Polskiego 02
+905	2	202911	14:56:00	14:56:00		Żołnierzy I Armii Wojska Polskiego 02
+905	2	202911	14:58:00	14:58:00		Konf. Barskich / Traugutta 02 nż
+905	2	202911	14:58:00	14:58:00		Konf. Barskich / Traugutta 02 nż
+905	2	202911	14:59:00	14:59:00		Załęska / Konf. Barskich 02 nż
+905	2	202911	14:59:00	14:59:00		Załęska / Konf. Barskich 02 nż
+905	2	202911	15:00:00	15:00:00		Sieciecha / Załęska 01 nż
+905	2	202911	15:00:00	15:00:00		Sieciecha / Załęska 01 nż
+905	2	202911	15:03:00	15:03:00		Rzecha / Załęska 02 nż
+905	2	202911	15:03:00	15:03:00		Rzecha / Załęska 02 nż
+905	2	202911	15:04:00	15:04:00		Załęska / Rzecha 03 nż
+905	2	202911	15:04:00	15:04:00		Załęska / Rzecha 03 nż
+905	2	202911	15:05:00	15:05:00		Księżycowa / Załęska 02 nż
+905	2	202911	15:05:00	15:05:00		Księżycowa / Załęska 02 nż
+905	2	202911	15:06:00	15:06:00		Stączka kościół 02 nż
+905	2	202911	15:06:00	15:06:00		Stączka kościół 02 nż
+905	2	202911	15:07:00	15:07:00		Stączka / Jaspisowa 04 nż
+905	2	202911	15:07:00	15:07:00		Stączka / Jaspisowa 04 nż
+905	2	202911	15:08:00	15:08:00		Potockiego / Stączka 02 nż
+905	2	202911	15:08:00	15:08:00		Potockiego / Stączka 02 nż
+905	2	202911	15:09:00	15:09:00		Potockiego / Nefrytowa 04 nż
+905	2	202911	15:09:00	15:09:00		Potockiego / Nefrytowa 04 nż
+905	2	202911	15:10:00	15:10:00		Potockiego / Ametystowa 06 nż
+905	2	202911	15:10:00	15:10:00		Potockiego / Ametystowa 06 nż
+905	2	202911	15:11:00	15:11:00		Potockiego Dom Seniora 08 nż
+905	2	202911	15:11:00	15:11:00		Potockiego Dom Seniora 08 nż
+905	2	202911	15:13:00	15:13:00		Potockiego pętla 10
+905	2	202911	15:13:00	15:13:00		Potockiego pętla 10
+
+899	2	201251	15:30:00	15:30:00		Potockiego pętla 10
+899	2	201251	15:30:00	15:30:00		Potockiego pętla 10
+899	2	201251	15:31:00	15:31:00		Potockiego Dom Seniora 05 nż
+899	2	201251	15:31:00	15:31:00		Potockiego Dom Seniora 05 nż
+899	2	201251	15:32:00	15:32:00		Potockiego / Ametystowa 03 nż
+899	2	201251	15:32:00	15:32:00		Potockiego / Ametystowa 03 nż
+899	2	201251	15:33:00	15:33:00		Potockiego / Nefrytowa 01 nż
+899	2	201251	15:33:00	15:33:00		Potockiego / Nefrytowa 01 nż
+899	2	201251	15:34:00	15:34:00		Stączka / Potockiego 03 nż
+899	2	201251	15:34:00	15:34:00		Stączka / Potockiego 03 nż
+899	2	201251	15:35:00	15:35:00		Stączka kościół 01 nż
+899	2	201251	15:35:00	15:35:00		Stączka kościół 01 nż
+899	2	201251	15:36:00	15:36:00		Księżycowa / Załęska 01 nż
+899	2	201251	15:36:00	15:36:00		Księżycowa / Załęska 01 nż
+899	2	201251	15:38:00	15:38:00		Rzecha / Załęska 01 nż
+899	2	201251	15:38:00	15:38:00		Rzecha / Załęska 01 nż
+899	2	201251	15:40:00	15:40:00		Sieciecha / Załęska 02 nż
+899	2	201251	15:40:00	15:40:00		Sieciecha / Załęska 02 nż
+899	2	201251	15:41:00	15:41:00		Załęska / Konf. Barskich 01 nż
+899	2	201251	15:41:00	15:41:00		Załęska / Konf. Barskich 01 nż
+899	2	201251	15:42:00	15:42:00		Konf. Barskich / Traugutta 01 nż
+899	2	201251	15:42:00	15:42:00		Konf. Barskich / Traugutta 01 nż
+899	2	201251	15:44:00	15:44:00		Lwowska cmentarz 03
+899	2	201251	15:44:00	15:44:00		Lwowska cmentarz 03
+899	2	201251	15:45:00	15:45:00		Lwowska Jedn. Wojskowa 01
+899	2	201251	15:45:00	15:45:00		Lwowska Jedn. Wojskowa 01
+899	2	201251	15:46:00	15:46:00		Piłsudskiego ZDZ 02
+899	2	201251	15:46:00	15:46:00		Piłsudskiego ZDZ 02
+899	2	201251	15:47:00	15:47:00		Pl. Wolności 04
+899	2	201251	15:47:00	15:47:00		Pl. Wolności 04
+899	2	201251	15:50:00	15:50:00		Cieplińskiego 02
+899	2	201251	15:50:00	15:50:00		Cieplińskiego 02
+899	2	201251	15:51:00	15:51:00		Lisa-Kuli 01
+899	2	201251	15:51:00	15:51:00		Lisa-Kuli 01
+899	2	201251	15:53:00	15:53:00		Dąbrowskiego park 02 nż
+899	2	201251	15:53:00	15:53:00		Dąbrowskiego park 02 nż
+899	2	201251	15:54:00	15:54:00		Dąbrowskiego KW Policji 04
+899	2	201251	15:54:00	15:54:00		Dąbrowskiego KW Policji 04
+899	2	201251	15:55:00	15:55:00		Dąbrowskiego / Bat. Chłopskich 10
+899	2	201251	15:55:00	15:55:00		Dąbrowskiego / Bat. Chłopskich 10
+899	2	201251	15:58:00	15:58:00		Podkarpacka Politechnika 02
+899	2	201251	15:58:00	15:58:00		Podkarpacka Politechnika 02
+899	2	201251	16:00:00	16:00:00		Matuszczaka / Rymanowska 02 nż
+899	2	201251	16:00:00	16:00:00		Matuszczaka / Rymanowska 02 nż
+899	2	201251	16:01:00	16:01:00		Matuszczaka pętla 04
+899	2	201251	16:01:00	16:01:00		Matuszczaka pętla 04
+
+905	2	198865	16:17:00	16:17:00		Matuszczaka pętla 04
+905	2	198865	16:17:00	16:17:00		Matuszczaka pętla 04
+905	2	198865	16:18:00	16:18:00		Podkarpacka / Matuszczaka 03
+905	2	198865	16:18:00	16:18:00		Podkarpacka / Matuszczaka 03
+905	2	198865	16:20:00	16:20:00		Podkarpacka Politechnika 01
+905	2	198865	16:20:00	16:20:00		Podkarpacka Politechnika 01
+905	2	198865	16:22:00	16:22:00		Dąbrowskiego Instytut Muzyki 07
+905	2	198865	16:22:00	16:22:00		Dąbrowskiego Instytut Muzyki 07
+905	2	198865	16:23:00	16:23:00		Dąbrowskiego KW Policji 03
+905	2	198865	16:23:00	16:23:00		Dąbrowskiego KW Policji 03
+905	2	198865	16:24:00	16:24:00		Dąbrowskiego park 01 nż
+905	2	198865	16:24:00	16:24:00		Dąbrowskiego park 01 nż
+905	2	198865	16:27:00	16:27:00		Lisa-Kuli 02
+905	2	198865	16:27:00	16:27:00		Lisa-Kuli 02
+905	2	198865	16:28:00	16:28:00		Cieplińskiego 01
+905	2	198865	16:28:00	16:28:00		Cieplińskiego 01
+905	2	198865	16:29:00	16:29:00		Piłsudskiego U. Wojewódzki 03
+905	2	198865	16:29:00	16:29:00		Piłsudskiego U. Wojewódzki 03
+905	2	198865	16:30:00	16:30:00		Pl. Wolności 01
+905	2	198865	16:30:00	16:30:00		Pl. Wolności 01
+905	2	198865	16:33:00	16:33:00		Lwowska Jedn. Wojskowa 02
+905	2	198865	16:33:00	16:33:00		Lwowska Jedn. Wojskowa 02
+905	2	198865	16:35:00	16:35:00		Lwowska cmentarz 04
+905	2	198865	16:35:00	16:35:00		Lwowska cmentarz 04
+905	2	198865	16:36:00	16:36:00		Żołnierzy I Armii Wojska Polskiego 02
+905	2	198865	16:36:00	16:36:00		Żołnierzy I Armii Wojska Polskiego 02
+905	2	198865	16:38:00	16:38:00		Konf. Barskich / Traugutta 02 nż
+905	2	198865	16:38:00	16:38:00		Konf. Barskich / Traugutta 02 nż
+905	2	198865	16:39:00	16:39:00		Załęska / Konf. Barskich 02 nż
+905	2	198865	16:39:00	16:39:00		Załęska / Konf. Barskich 02 nż
+905	2	198865	16:40:00	16:40:00		Sieciecha / Załęska 01 nż
+905	2	198865	16:40:00	16:40:00		Sieciecha / Załęska 01 nż
+905	2	198865	16:43:00	16:43:00		Rzecha / Załęska 02 nż
+905	2	198865	16:43:00	16:43:00		Rzecha / Załęska 02 nż
+905	2	198865	16:44:00	16:44:00		Załęska / Rzecha 03 nż
+905	2	198865	16:44:00	16:44:00		Załęska / Rzecha 03 nż
+905	2	198865	16:45:00	16:45:00		Księżycowa / Załęska 02 nż
+905	2	198865	16:45:00	16:45:00		Księżycowa / Załęska 02 nż
+905	2	198865	16:46:00	16:46:00		Stączka kościół 02 nż
+905	2	198865	16:46:00	16:46:00		Stączka kościół 02 nż
+905	2	198865	16:47:00	16:47:00		Stączka / Jaspisowa 04 nż
+905	2	198865	16:47:00	16:47:00		Stączka / Jaspisowa 04 nż
+905	2	198865	16:48:00	16:48:00		Potockiego / Stączka 02 nż
+905	2	198865	16:48:00	16:48:00		Potockiego / Stączka 02 nż
+905	2	198865	16:49:00	16:49:00		Potockiego / Nefrytowa 04 nż
+905	2	198865	16:49:00	16:49:00		Potockiego / Nefrytowa 04 nż
+905	2	198865	16:50:00	16:50:00		Potockiego / Ametystowa 06 nż
+905	2	198865	16:50:00	16:50:00		Potockiego / Ametystowa 06 nż
+905	2	198865	16:51:00	16:51:00		Potockiego Dom Seniora 08 nż
+905	2	198865	16:51:00	16:51:00		Potockiego Dom Seniora 08 nż
+905	2	198865	16:53:00	16:53:00		Potockiego pętla 10
+905	2	198865	16:53:00	16:53:00		Potockiego pętla 10
+
+899	2	202210	17:10:00	17:10:00		Potockiego pętla 10
+899	2	202210	17:10:00	17:10:00		Potockiego pętla 10
+899	2	202210	17:11:00	17:11:00		Potockiego Dom Seniora 05 nż
+899	2	202210	17:11:00	17:11:00		Potockiego Dom Seniora 05 nż
+899	2	202210	17:12:00	17:12:00		Potockiego / Ametystowa 03 nż
+899	2	202210	17:12:00	17:12:00		Potockiego / Ametystowa 03 nż
+899	2	202210	17:13:00	17:13:00		Potockiego / Nefrytowa 01 nż
+899	2	202210	17:13:00	17:13:00		Potockiego / Nefrytowa 01 nż
+899	2	202210	17:14:00	17:14:00		Stączka / Potockiego 03 nż
+899	2	202210	17:14:00	17:14:00		Stączka / Potockiego 03 nż
+899	2	202210	17:15:00	17:15:00		Stączka kościół 01 nż
+899	2	202210	17:15:00	17:15:00		Stączka kościół 01 nż
+899	2	202210	17:16:00	17:16:00		Księżycowa / Załęska 01 nż
+899	2	202210	17:16:00	17:16:00		Księżycowa / Załęska 01 nż
+899	2	202210	17:18:00	17:18:00		Rzecha / Załęska 01 nż
+899	2	202210	17:18:00	17:18:00		Rzecha / Załęska 01 nż
+899	2	202210	17:20:00	17:20:00		Sieciecha / Załęska 02 nż
+899	2	202210	17:20:00	17:20:00		Sieciecha / Załęska 02 nż
+899	2	202210	17:21:00	17:21:00		Załęska / Konf. Barskich 01 nż
+899	2	202210	17:21:00	17:21:00		Załęska / Konf. Barskich 01 nż
+899	2	202210	17:22:00	17:22:00		Konf. Barskich / Traugutta 01 nż
+899	2	202210	17:22:00	17:22:00		Konf. Barskich / Traugutta 01 nż
+899	2	202210	17:24:00	17:24:00		Lwowska cmentarz 03
+899	2	202210	17:24:00	17:24:00		Lwowska cmentarz 03
+899	2	202210	17:25:00	17:25:00		Lwowska Jedn. Wojskowa 01
+899	2	202210	17:25:00	17:25:00		Lwowska Jedn. Wojskowa 01
+899	2	202210	17:26:00	17:26:00		Piłsudskiego ZDZ 02
+899	2	202210	17:26:00	17:26:00		Piłsudskiego ZDZ 02
+899	2	202210	17:27:00	17:27:00		Pl. Wolności 04
+899	2	202210	17:27:00	17:27:00		Pl. Wolności 04
+899	2	202210	17:30:00	17:30:00		Cieplińskiego 02
+899	2	202210	17:30:00	17:30:00		Cieplińskiego 02
+899	2	202210	17:31:00	17:31:00		Lisa-Kuli 01
+899	2	202210	17:31:00	17:31:00		Lisa-Kuli 01
+899	2	202210	17:33:00	17:33:00		Dąbrowskiego park 02 nż
+899	2	202210	17:33:00	17:33:00		Dąbrowskiego park 02 nż
+899	2	202210	17:34:00	17:34:00		Dąbrowskiego KW Policji 04
+899	2	202210	17:34:00	17:34:00		Dąbrowskiego KW Policji 04
+899	2	202210	17:35:00	17:35:00		Dąbrowskiego / Bat. Chłopskich 10
+899	2	202210	17:35:00	17:35:00		Dąbrowskiego / Bat. Chłopskich 10
+899	2	202210	17:38:00	17:38:00		Podkarpacka Politechnika 02
+899	2	202210	17:38:00	17:38:00		Podkarpacka Politechnika 02
+899	2	202210	17:40:00	17:40:00		Matuszczaka / Rymanowska 02 nż
+899	2	202210	17:40:00	17:40:00		Matuszczaka / Rymanowska 02 nż
+899	2	202210	17:41:00	17:41:00		Matuszczaka pętla 04
+899	2	202210	17:41:00	17:41:00		Matuszczaka pętla 04
+
+905	2	201904	17:57:00	17:57:00		Matuszczaka pętla 04
+905	2	201904	17:57:00	17:57:00		Matuszczaka pętla 04
+905	2	201904	17:58:00	17:58:00		Podkarpacka / Matuszczaka 03
+905	2	201904	17:58:00	17:58:00		Podkarpacka / Matuszczaka 03
+905	2	201904	18:00:00	18:00:00		Podkarpacka Politechnika 01
+905	2	201904	18:00:00	18:00:00		Podkarpacka Politechnika 01
+905	2	201904	18:02:00	18:02:00		Dąbrowskiego Instytut Muzyki 07
+905	2	201904	18:02:00	18:02:00		Dąbrowskiego Instytut Muzyki 07
+905	2	201904	18:03:00	18:03:00		Dąbrowskiego KW Policji 03
+905	2	201904	18:03:00	18:03:00		Dąbrowskiego KW Policji 03
+905	2	201904	18:04:00	18:04:00		Dąbrowskiego park 01 nż
+905	2	201904	18:04:00	18:04:00		Dąbrowskiego park 01 nż
+905	2	201904	18:07:00	18:07:00		Lisa-Kuli 02
+905	2	201904	18:07:00	18:07:00		Lisa-Kuli 02
+905	2	201904	18:08:00	18:08:00		Cieplińskiego 01
+905	2	201904	18:08:00	18:08:00		Cieplińskiego 01
+905	2	201904	18:09:00	18:09:00		Piłsudskiego U. Wojewódzki 03
+905	2	201904	18:09:00	18:09:00		Piłsudskiego U. Wojewódzki 03
+905	2	201904	18:10:00	18:10:00		Pl. Wolności 01
+905	2	201904	18:10:00	18:10:00		Pl. Wolności 01
+905	2	201904	18:13:00	18:13:00		Lwowska Jedn. Wojskowa 02
+905	2	201904	18:13:00	18:13:00		Lwowska Jedn. Wojskowa 02
+905	2	201904	18:15:00	18:15:00		Lwowska cmentarz 04
+905	2	201904	18:15:00	18:15:00		Lwowska cmentarz 04
+905	2	201904	18:16:00	18:16:00		Żołnierzy I Armii Wojska Polskiego 02
+905	2	201904	18:16:00	18:16:00		Żołnierzy I Armii Wojska Polskiego 02
+905	2	201904	18:18:00	18:18:00		Konf. Barskich / Traugutta 02 nż
+905	2	201904	18:18:00	18:18:00		Konf. Barskich / Traugutta 02 nż
+905	2	201904	18:19:00	18:19:00		Załęska / Konf. Barskich 02 nż
+905	2	201904	18:19:00	18:19:00		Załęska / Konf. Barskich 02 nż
+905	2	201904	18:20:00	18:20:00		Sieciecha / Załęska 01 nż
+905	2	201904	18:20:00	18:20:00		Sieciecha / Załęska 01 nż
+905	2	201904	18:23:00	18:23:00		Rzecha / Załęska 02 nż
+905	2	201904	18:23:00	18:23:00		Rzecha / Załęska 02 nż
+905	2	201904	18:24:00	18:24:00		Załęska / Rzecha 03 nż
+905	2	201904	18:24:00	18:24:00		Załęska / Rzecha 03 nż
+905	2	201904	18:25:00	18:25:00		Księżycowa / Załęska 02 nż
+905	2	201904	18:25:00	18:25:00		Księżycowa / Załęska 02 nż
+905	2	201904	18:26:00	18:26:00		Stączka kościół 02 nż
+905	2	201904	18:26:00	18:26:00		Stączka kościół 02 nż
+905	2	201904	18:27:00	18:27:00		Stączka / Jaspisowa 04 nż
+905	2	201904	18:27:00	18:27:00		Stączka / Jaspisowa 04 nż
+905	2	201904	18:28:00	18:28:00		Potockiego / Stączka 02 nż
+905	2	201904	18:28:00	18:28:00		Potockiego / Stączka 02 nż
+905	2	201904	18:29:00	18:29:00		Potockiego / Nefrytowa 04 nż
+905	2	201904	18:29:00	18:29:00		Potockiego / Nefrytowa 04 nż
+905	2	201904	18:30:00	18:30:00		Potockiego / Ametystowa 06 nż
+905	2	201904	18:30:00	18:30:00		Potockiego / Ametystowa 06 nż
+905	2	201904	18:31:00	18:31:00		Potockiego Dom Seniora 08 nż
+905	2	201904	18:31:00	18:31:00		Potockiego Dom Seniora 08 nż
+905	2	201904	18:33:00	18:33:00		Potockiego pętla 10
+905	2	201904	18:33:00	18:33:00		Potockiego pętla 10
+
+899	2	200378	18:50:00	18:50:00		Potockiego pętla 10
+899	2	200378	18:50:00	18:50:00		Potockiego pętla 10
+899	2	200378	18:51:00	18:51:00		Potockiego Dom Seniora 05 nż
+899	2	200378	18:51:00	18:51:00		Potockiego Dom Seniora 05 nż
+899	2	200378	18:52:00	18:52:00		Potockiego / Ametystowa 03 nż
+899	2	200378	18:52:00	18:52:00		Potockiego / Ametystowa 03 nż
+899	2	200378	18:53:00	18:53:00		Potockiego / Nefrytowa 01 nż
+899	2	200378	18:53:00	18:53:00		Potockiego / Nefrytowa 01 nż
+899	2	200378	18:54:00	18:54:00		Stączka / Potockiego 03 nż
+899	2	200378	18:54:00	18:54:00		Stączka / Potockiego 03 nż
+899	2	200378	18:55:00	18:55:00		Stączka kościół 01 nż
+899	2	200378	18:55:00	18:55:00		Stączka kościół 01 nż
+899	2	200378	18:56:00	18:56:00		Księżycowa / Załęska 01 nż
+899	2	200378	18:56:00	18:56:00		Księżycowa / Załęska 01 nż
+899	2	200378	18:58:00	18:58:00		Rzecha / Załęska 01 nż
+899	2	200378	18:58:00	18:58:00		Rzecha / Załęska 01 nż
+899	2	200378	19:00:00	19:00:00		Sieciecha / Załęska 02 nż
+899	2	200378	19:00:00	19:00:00		Sieciecha / Załęska 02 nż
+899	2	200378	19:01:00	19:01:00		Załęska / Konf. Barskich 01 nż
+899	2	200378	19:01:00	19:01:00		Załęska / Konf. Barskich 01 nż
+899	2	200378	19:02:00	19:02:00		Konf. Barskich / Traugutta 01 nż
+899	2	200378	19:02:00	19:02:00		Konf. Barskich / Traugutta 01 nż
+899	2	200378	19:04:00	19:04:00		Lwowska cmentarz 03
+899	2	200378	19:04:00	19:04:00		Lwowska cmentarz 03
+899	2	200378	19:05:00	19:05:00		Lwowska Jedn. Wojskowa 01
+899	2	200378	19:05:00	19:05:00		Lwowska Jedn. Wojskowa 01
+899	2	200378	19:06:00	19:06:00		Piłsudskiego ZDZ 02
+899	2	200378	19:06:00	19:06:00		Piłsudskiego ZDZ 02
+899	2	200378	19:07:00	19:07:00		Pl. Wolności 04
+899	2	200378	19:07:00	19:07:00		Pl. Wolności 04
+899	2	200378	19:10:00	19:10:00		Cieplińskiego 02
+899	2	200378	19:10:00	19:10:00		Cieplińskiego 02
+899	2	200378	19:11:00	19:11:00		Lisa-Kuli 01
+899	2	200378	19:11:00	19:11:00		Lisa-Kuli 01
+899	2	200378	19:13:00	19:13:00		Dąbrowskiego park 02 nż
+899	2	200378	19:13:00	19:13:00		Dąbrowskiego park 02 nż
+899	2	200378	19:14:00	19:14:00		Dąbrowskiego KW Policji 04
+899	2	200378	19:14:00	19:14:00		Dąbrowskiego KW Policji 04
+899	2	200378	19:15:00	19:15:00		Dąbrowskiego / Bat. Chłopskich 10
+899	2	200378	19:15:00	19:15:00		Dąbrowskiego / Bat. Chłopskich 10
+899	2	200378	19:17:00	19:17:00		Podkarpacka Politechnika 02
+899	2	200378	19:17:00	19:17:00		Podkarpacka Politechnika 02
+899	2	200378	19:19:00	19:19:00		Matuszczaka / Rymanowska 02 nż
+899	2	200378	19:19:00	19:19:00		Matuszczaka / Rymanowska 02 nż
+899	2	200378	19:20:00	19:20:00		Matuszczaka pętla 04
+899	2	200378	19:20:00	19:20:00		Matuszczaka pętla 04
+
+905	2	203305	19:38:00	19:38:00		Matuszczaka pętla 04
+905	2	203305	19:38:00	19:38:00		Matuszczaka pętla 04
+905	2	203305	19:39:00	19:39:00		Podkarpacka / Matuszczaka 03
+905	2	203305	19:39:00	19:39:00		Podkarpacka / Matuszczaka 03
+905	2	203305	19:40:00	19:40:00		Podkarpacka Politechnika 01
+905	2	203305	19:40:00	19:40:00		Podkarpacka Politechnika 01
+905	2	203305	19:42:00	19:42:00		Dąbrowskiego Instytut Muzyki 07
+905	2	203305	19:42:00	19:42:00		Dąbrowskiego Instytut Muzyki 07
+905	2	203305	19:43:00	19:43:00		Dąbrowskiego KW Policji 03
+905	2	203305	19:43:00	19:43:00		Dąbrowskiego KW Policji 03
+905	2	203305	19:44:00	19:44:00		Dąbrowskiego park 01 nż
+905	2	203305	19:44:00	19:44:00		Dąbrowskiego park 01 nż
+905	2	203305	19:47:00	19:47:00		Lisa-Kuli 02
+905	2	203305	19:47:00	19:47:00		Lisa-Kuli 02
+905	2	203305	19:48:00	19:48:00		Cieplińskiego 01
+905	2	203305	19:48:00	19:48:00		Cieplińskiego 01
+905	2	203305	19:49:00	19:49:00		Piłsudskiego U. Wojewódzki 03
+905	2	203305	19:49:00	19:49:00		Piłsudskiego U. Wojewódzki 03
+905	2	203305	19:50:00	19:50:00		Pl. Wolności 01
+905	2	203305	19:50:00	19:50:00		Pl. Wolności 01
+905	2	203305	19:52:00	19:52:00		Lwowska Jedn. Wojskowa 02
+905	2	203305	19:52:00	19:52:00		Lwowska Jedn. Wojskowa 02
+905	2	203305	19:54:00	19:54:00		Lwowska cmentarz 04
+905	2	203305	19:54:00	19:54:00		Lwowska cmentarz 04
+905	2	203305	19:55:00	19:55:00		Żołnierzy I Armii Wojska Polskiego 02
+905	2	203305	19:55:00	19:55:00		Żołnierzy I Armii Wojska Polskiego 02
+905	2	203305	19:57:00	19:57:00		Konf. Barskich / Traugutta 02 nż
+905	2	203305	19:57:00	19:57:00		Konf. Barskich / Traugutta 02 nż
+905	2	203305	19:58:00	19:58:00		Załęska / Konf. Barskich 02 nż
+905	2	203305	19:58:00	19:58:00		Załęska / Konf. Barskich 02 nż
+905	2	203305	19:59:00	19:59:00		Sieciecha / Załęska 01 nż
+905	2	203305	19:59:00	19:59:00		Sieciecha / Załęska 01 nż
+905	2	203305	20:01:00	20:01:00		Rzecha / Załęska 02 nż
+905	2	203305	20:01:00	20:01:00		Rzecha / Załęska 02 nż
+905	2	203305	20:02:00	20:02:00		Załęska / Rzecha 03 nż
+905	2	203305	20:02:00	20:02:00		Załęska / Rzecha 03 nż
+905	2	203305	20:03:00	20:03:00		Księżycowa / Załęska 02 nż
+905	2	203305	20:03:00	20:03:00		Księżycowa / Załęska 02 nż
+905	2	203305	20:04:00	20:04:00		Stączka kościół 02 nż
+905	2	203305	20:04:00	20:04:00		Stączka kościół 02 nż
+905	2	203305	20:05:00	20:05:00		Stączka / Jaspisowa 04 nż
+905	2	203305	20:05:00	20:05:00		Stączka / Jaspisowa 04 nż
+905	2	203305	20:06:00	20:06:00		Potockiego / Stączka 02 nż
+905	2	203305	20:06:00	20:06:00		Potockiego / Stączka 02 nż
+905	2	203305	20:07:00	20:07:00		Potockiego / Nefrytowa 04 nż
+905	2	203305	20:07:00	20:07:00		Potockiego / Nefrytowa 04 nż
+905	2	203305	20:08:00	20:08:00		Potockiego / Ametystowa 06 nż
+905	2	203305	20:08:00	20:08:00		Potockiego / Ametystowa 06 nż
+905	2	203305	20:09:00	20:09:00		Potockiego Dom Seniora 08 nż
+905	2	203305	20:09:00	20:09:00		Potockiego Dom Seniora 08 nż
+905	2	203305	20:11:00	20:11:00		Potockiego pętla 10
+905	2	203305	20:11:00	20:11:00		Potockiego pętla 10
+
+899	2	202837	20:30:00	20:30:00		Potockiego pętla 10
+899	2	202837	20:30:00	20:30:00		Potockiego pętla 10
+899	2	202837	20:31:00	20:31:00		Potockiego Dom Seniora 05 nż
+899	2	202837	20:31:00	20:31:00		Potockiego Dom Seniora 05 nż
+899	2	202837	20:32:00	20:32:00		Potockiego / Ametystowa 03 nż
+899	2	202837	20:32:00	20:32:00		Potockiego / Ametystowa 03 nż
+899	2	202837	20:33:00	20:33:00		Potockiego / Nefrytowa 01 nż
+899	2	202837	20:33:00	20:33:00		Potockiego / Nefrytowa 01 nż
+899	2	202837	20:34:00	20:34:00		Stączka / Potockiego 03 nż
+899	2	202837	20:34:00	20:34:00		Stączka / Potockiego 03 nż
+899	2	202837	20:35:00	20:35:00		Stączka kościół 01 nż
+899	2	202837	20:35:00	20:35:00		Stączka kościół 01 nż
+899	2	202837	20:36:00	20:36:00		Księżycowa / Załęska 01 nż
+899	2	202837	20:36:00	20:36:00		Księżycowa / Załęska 01 nż
+899	2	202837	20:38:00	20:38:00		Rzecha / Załęska 01 nż
+899	2	202837	20:38:00	20:38:00		Rzecha / Załęska 01 nż
+899	2	202837	20:40:00	20:40:00		Sieciecha / Załęska 02 nż
+899	2	202837	20:40:00	20:40:00		Sieciecha / Załęska 02 nż
+899	2	202837	20:41:00	20:41:00		Załęska / Konf. Barskich 01 nż
+899	2	202837	20:41:00	20:41:00		Załęska / Konf. Barskich 01 nż
+899	2	202837	20:42:00	20:42:00		Konf. Barskich / Traugutta 01 nż
+899	2	202837	20:42:00	20:42:00		Konf. Barskich / Traugutta 01 nż
+899	2	202837	20:44:00	20:44:00		Lwowska cmentarz 03
+899	2	202837	20:44:00	20:44:00		Lwowska cmentarz 03
+899	2	202837	20:45:00	20:45:00		Lwowska Jedn. Wojskowa 01
+899	2	202837	20:45:00	20:45:00		Lwowska Jedn. Wojskowa 01
+899	2	202837	20:46:00	20:46:00		Piłsudskiego ZDZ 02
+899	2	202837	20:46:00	20:46:00		Piłsudskiego ZDZ 02
+899	2	202837	20:47:00	20:47:00		Pl. Wolności 04
+899	2	202837	20:47:00	20:47:00		Pl. Wolności 04
+899	2	202837	20:50:00	20:50:00		Cieplińskiego 02
+899	2	202837	20:50:00	20:50:00		Cieplińskiego 02
+899	2	202837	20:51:00	20:51:00		Lisa-Kuli 01
+899	2	202837	20:51:00	20:51:00		Lisa-Kuli 01
+899	2	202837	20:53:00	20:53:00		Dąbrowskiego park 02 nż
+899	2	202837	20:53:00	20:53:00		Dąbrowskiego park 02 nż
+899	2	202837	20:54:00	20:54:00		Dąbrowskiego KW Policji 04
+899	2	202837	20:54:00	20:54:00		Dąbrowskiego KW Policji 04
+899	2	202837	20:55:00	20:55:00		Dąbrowskiego / Bat. Chłopskich 10
+899	2	202837	20:55:00	20:55:00		Dąbrowskiego / Bat. Chłopskich 10
+899	2	202837	20:57:00	20:57:00		Podkarpacka Politechnika 02
+899	2	202837	20:57:00	20:57:00		Podkarpacka Politechnika 02
+899	2	202837	20:59:00	20:59:00		Matuszczaka / Rymanowska 02 nż
+899	2	202837	20:59:00	20:59:00		Matuszczaka / Rymanowska 02 nż
+899	2	202837	21:00:00	21:00:00		Matuszczaka pętla 04
+899	2	202837	21:00:00	21:00:00		Matuszczaka pętla 04
+
+1303	2	203292	21:18:00	21:18:00		Matuszczaka pętla 04
+1303	2	203292	21:18:00	21:18:00		Matuszczaka pętla 04
+1303	2	203292	21:19:00	21:19:00		Podkarpacka / Matuszczaka 03
+1303	2	203292	21:19:00	21:19:00		Podkarpacka / Matuszczaka 03
+1303	2	203292	21:20:00	21:20:00		Podkarpacka Politechnika 01
+1303	2	203292	21:20:00	21:20:00		Podkarpacka Politechnika 01
+1303	2	203292	21:22:00	21:22:00		Dąbrowskiego Instytut Muzyki 07
+1303	2	203292	21:22:00	21:22:00		Dąbrowskiego Instytut Muzyki 07
+1303	2	203292	21:23:00	21:23:00		Dąbrowskiego KW Policji 03
+1303	2	203292	21:23:00	21:23:00		Dąbrowskiego KW Policji 03
+1303	2	203292	21:24:00	21:24:00		Dąbrowskiego park 01 nż
+1303	2	203292	21:24:00	21:24:00		Dąbrowskiego park 01 nż
+1303	2	203292	21:27:00	21:27:00		Lisa-Kuli 02
+1303	2	203292	21:27:00	21:27:00		Lisa-Kuli 02
+1303	2	203292	21:28:00	21:28:00		Cieplińskiego 01
+1303	2	203292	21:28:00	21:28:00		Cieplińskiego 01
