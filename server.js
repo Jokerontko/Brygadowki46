@@ -3,6 +3,9 @@ import fs from 'fs';
 import path from 'path';
 import bodyParser from 'body-parser';
 import {
+    Analytics
+} from "@vercel/analytics/react"
+import {
     fileURLToPath
 } from 'url';
 import {
