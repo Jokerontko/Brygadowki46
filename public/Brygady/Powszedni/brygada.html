@@ -2,529 +2,531 @@
 <html lang="pl">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=0.6">
-  <link rel="stylesheet" href="../../style_css/headermenu.css">
-  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-  <meta http-equiv="Pragma" content="no-cache">
-  <meta http-equiv="Expires" content="0">
-  <meta http-equiv="refresh" content="180">
-  <title>Szczegóły kursu</title>
-  <style>
-    body {
-      background: rgb(50, 50, 50);
-      font-family: Arial, sans-serif;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      height: 100vh;
-      color: white;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.6">
+    <link rel="stylesheet" href="../../style_css/headermenu.css">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="refresh" content="180">
+    <title>Szczegóły kursu</title>
+    <style>
+        body {
+            background: rgb(50, 50, 50);
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+            color: white;
+        }
 
-    h1 {
-      font-size: 2rem;
-      margin: 40px 0 10px;
-    }
+        h1 {
+            font-size: 2rem;
+            margin: 40px 0 10px;
+        }
 
-    table {
-      width: 90%;
-      max-width: 940px;
-      border-collapse: collapse;
-      border-radius: 5px;
-      overflow: hidden;
-      margin-top: 20px;
+        table {
+            width: 90%;
+            max-width: 940px;
+            border-collapse: collapse;
+            border-radius: 5px;
+            overflow: hidden;
+            margin-top: 20px;
 
-    }
+        }
 
-    th,
-    td {
-      text-align: center;
-      padding: 10px;
-      border: 1px solid #ccc;
-      font-size: 17px;
-    }
+        th,
+        td {
+            text-align: center;
+            padding: 10px;
+            border: 1px solid #ccc;
+            font-size: 17px;
+        }
 
-    thead {
-      background-color: rgba(163, 120, 0);
-    }
+        thead {
+            background-color: rgba(163, 120, 0);
+        }
 
-    .NrOflp {
-      text-decoration: none;
-      color: orange;
-    }
+        .NrOflp {
+            text-decoration: none;
+            color: orange;
+        }
 
-    .hide {
-      font-size: 0px;
-      padding: 0px;
-      border: 0px;
-    }
+        .hide {
+            font-size: 0px;
+            padding: 0px;
+            border: 0px;
+        }
 
-    .Rez {
-      padding: 0px;
-      text-align: right;
-      border-top: 1px solid;
-      border-bottom: 1px solid;
-      border-left: none;
-      border-right: none;
+        .Rez {
+            padding: 0px;
+            text-align: right;
+            border-top: 1px solid;
+            border-bottom: 1px solid;
+            border-left: none;
+            border-right: none;
 
-    }
+        }
 
-    .RezLP {
-      padding: 0px;
-      text-align: right;
-      border-top: 1px solid;
-      border-bottom: 1px solid;
-      border-left: 1px solid;
-      border-right: none;
-    }
+        .RezLP {
+            padding: 0px;
+            text-align: right;
+            border-top: 1px solid;
+            border-bottom: 1px solid;
+            border-left: 1px solid;
+            border-right: none;
+        }
 
-    p {
-      color: grey;
-    }
+        p {
+            color: grey;
+        }
 
-    #brygadaType {
-      margin-top: -5px;
-      color: grey;
-    }
+        #brygadaType {
+            margin-top: -5px;
+            color: grey;
+        }
 
-    #wykazbrygady {
-      width: 30%;
-    }
+        #wykazbrygady {
+            width: 30%;
+        }
 
-    header {
-      position: sticky;
-      top: 0px;
-      background-color: rgb(50, 50, 50);
-    }
+        header {
+            position: sticky;
+            top: 0px;
+            background-color: rgb(50, 50, 50);
+        }
 
-    @keyframes blink {
-      0% {
-        background-color: red;
-      }
+        @keyframes blink {
+            0% {
+                background-color: red;
+            }
 
-      50% {
-        background-color: transparent;
-      }
+            50% {
+                background-color: transparent;
+            }
 
-      100% {
-        background-color: red;
-      }
-    }
+            100% {
+                background-color: red;
+            }
+        }
 
-    .blink {
-      animation: blink 1s infinite;
-    }
+        .blink {
+            animation: blink 1s infinite;
+        }
 
-    @keyframes blinkbrake {
-      0% {
-        background-color: transparent 20%;
-      }
+        @keyframes blinkbrake {
+            0% {
+                background-color: transparent 20%;
+            }
 
-      50% {
-        background-color: transparent;
-      }
+            50% {
+                background-color: transparent;
+            }
 
-      100% {
-        background-color: transparent 20%;
-      }
-    }
+            100% {
+                background-color: transparent 20%;
+            }
+        }
 
-    .blinkbrake {
-      animation: blinkbrake 2s infinite;
-    }
+        .blinkbrake {
+            animation: blinkbrake 2s infinite;
+        }
 
-  </style>
+    </style>
 </head>
 
 <body>
-  <header>
-    <a href="../../Main_Panel.html" class="menu">Panel Główny</a>
-    <a href="../ChooseDay.html" class="menu">Brygady</a>
-    <a href="../../Brygady/Kursy/Kursy.html" class="menu">Kursy</a>
-    <a href="#" class="menu exit" id="logout">Opuść Panel</a>
-    <hr>
-  </header>
+    <header>
+        <a href="../../Main_Panel.html" class="menu">Panel Główny</a>
+        <a href="../ChooseDay.html" class="menu">Brygady</a>
+        <a href="../../Brygady/Kursy/Kursy.html" class="menu">Kursy</a>
+        <a href="#" class="menu exit" id="logout">Opuść Panel</a>
+        <hr>
+    </header>
 
-  <h1 id="brygadaTitle">Brygada</h1>
-  <h3 id="brygadaType">Typ</h3>
+    <h1 id="brygadaTitle">Brygada</h1>
+    <h3 id="brygadaType">Typ</h3>
 
-  <a href="#" class="menu" id="highlightButton">Wyróżnij linie</a>
+    <a href="#" class="menu" id="highlightButton">Wyróżnij linie</a>
 
-  <table id="wykazbrygady">
-    <thead>
-      <tr>
-        <th>Zmiana</th>
-        <th>Godz. Rozp.</th>
-        <th>Godz. Zak.</th>
-        <th>Czas</th>
-        <th>Km</th>
-      </tr>
-    </thead>
-    <tbody id="dane-wykaz">
-      <!-- Rows will be added dynamically -->
+    <table id="wykazbrygady">
+        <thead>
+            <tr>
+                <th>Zmiana</th>
+                <th>Godz. Rozp.</th>
+                <th>Godz. Zak.</th>
+                <th>Czas</th>
+                <th>Km</th>
+            </tr>
+        </thead>
+        <tbody id="dane-wykaz">
+            <!-- Rows will be added dynamically -->
 
-    </tbody>
-  </table>
-  <br>
+        </tbody>
+    </table>
+    <br>
 
 
 
-  <table id="rozkładTable">
-    <thead>
-      <tr>
-        <th>Lp</th>
-        <th>Linia</th>
-        <th>Początek</th>
-        <th>Kierunek</th>
-        <th>Godz. Rozp.</th>
-        <th>Godz. Zak.</th>
-        <th>Czas trwania</th>
-        <th>Km</th>
-        <th class="hide">Kod Trasy</th>
-      </tr>
-    </thead>
-    <tbody id="dane-tabeli">
-      <!-- Rows will be added dynamically -->
-    </tbody>
-  </table>
+    <table id="rozkładTable">
+        <thead>
+            <tr>
+                <th>Lp</th>
+                <th>Linia</th>
+                <th>Początek</th>
+                <th>Kierunek</th>
+                <th>Godz. Rozp.</th>
+                <th>Godz. Zak.</th>
+                <th>Czas trwania</th>
+                <th>Km</th>
+                <th class="hide">Kod Trasy</th>
+            </tr>
+        </thead>
+        <tbody id="dane-tabeli">
+            <!-- Rows will be added dynamically -->
+        </tbody>
+    </table>
 
-  <p>Strona odświeża się automatycznie co 180 sekund.</p>
+    <!--<button onclick="drukujRozklad()">Drukuj rozkład</button>-->
 
-  <script>
-    // Check if the user is logged in, otherwise redirect
-    function checkLogin() {
-      const user = JSON.parse(sessionStorage.getItem('user'));
-      if (!user) {
-        window.location.href = '../../zoltakartka.html';
-      }
-    }
+    <p>Strona odświeża się automatycznie co 180 sekund.</p>
 
-    // Set the title for the brigade
-    function loadBrygadaTitle() {
-      const brygadaTitle = sessionStorage.getItem('brygadaTitle');
-      if (brygadaTitle) {
-        const formattedTitle = brygadaTitle.replace(/_/g, '/');
-        document.getElementById('brygadaTitle').innerText = `Szczegóły brygady: ${formattedTitle}`;
-      } else {
-        console.error("Nie znaleziono brygadaTitle w sessionStorage.");
-      }
-    }
-
-    // Set the type for the brigade
-    function loadBrygadaType() {
-      const brygadaType = sessionStorage.getItem('BrygadaType');
-      if (brygadaType) {
-        document.getElementById('brygadaType').innerText = `${brygadaType}`;
-      } else {
-        console.error("Nie znaleziono brygadaTitle w sessionStorage.");
-      }
-    }
-
-    // Logout logic
-    document.getElementById('logout').addEventListener('click', function() {
-      sessionStorage.clear();
-      window.location.href = '../../index.html';
-    });
-
-    // Fetch the 'GOTOWE.txt' file
-    async function fetchGOTOWEFile() {
-      const brygadaTitle = sessionStorage.getItem('brygadaTitle');
-      if (!brygadaTitle) {
-        console.error("Nie znaleziono brygadaTitle w sessionStorage.");
-        return null;
-      }
-
-      let filePath = `../../../Brygady/WYNIKI/Gotowe_brygady/${brygadaNumber}/${brygadaTitle}/GOTOWE.txt`;
-      try {
-        const response = await fetch(filePath);
-        if (!response.ok) {
-          throw new Error(`Sieć odpowiedziała błędem: ${response.status}`);
+    <script>
+        // Check if the user is logged in, otherwise redirect
+        function checkLogin() {
+            const user = JSON.parse(sessionStorage.getItem('user'));
+            if (!user) {
+                window.location.href = '../../zoltakartka.html';
+            }
         }
-        const text = await response.text();
-        return text.split("\n");
-      } catch (error) {
-        console.error('Błąd podczas odczytu pliku GOTOWE.txt:', error);
-        return null;
-      }
-    }
 
-    // Fetch the 'Kierunki.txt' file
-    async function fetchKierunkiFile() {
-      const filePath = "../../../Brygady/WYNIKI/Kierunki.txt";
-      try {
-        const response = await fetch(filePath);
-        if (!response.ok) {
-          throw new Error(`Sieć odpowiedziała błędem: ${response.status}`);
+        // Set the title for the brigade
+        function loadBrygadaTitle() {
+            const brygadaTitle = sessionStorage.getItem('brygadaTitle');
+            if (brygadaTitle) {
+                const formattedTitle = brygadaTitle.replace(/_/g, '/');
+                document.getElementById('brygadaTitle').innerText = `Szczegóły brygady: ${formattedTitle}`;
+            } else {
+                console.error("Nie znaleziono brygadaTitle w sessionStorage.");
+            }
         }
-        const text = await response.text();
-        return text.split("\n");
-      } catch (error) {
-        console.error('Błąd podczas odczytu pliku Kierunki.txt:', error);
-        return null;
-      }
-    }
 
-    // Build a map from the Kierunki file
-    function buildKierunkiMap(lines) {
-      const kierunkiMap = new Map();
-      lines.forEach((line) => {
-        const parts = line.split("\t");
-        if (parts.length >= 2) {
-          const linia = parts[0].trim();
-          const numerLiniiMatch = parts[1].match(/\[([^\]]+)\]/);
-          if (numerLiniiMatch) {
-            const numerLinii = numerLiniiMatch[1];
-            kierunkiMap.set(linia, numerLinii);
-          }
+        // Set the type for the brigade
+        function loadBrygadaType() {
+            const brygadaType = sessionStorage.getItem('BrygadaType');
+            if (brygadaType) {
+                document.getElementById('brygadaType').innerText = `${brygadaType}`;
+            } else {
+                console.error("Nie znaleziono brygadaTitle w sessionStorage.");
+            }
         }
-      });
-      return kierunkiMap;
-    }
 
-    // Normalize time to a standard format (HH:MM)
-    function normalizeTime(time) {
-      const [hours, minutes] = time.split(':').map(Number);
-      const normalizedHours = hours >= 24 ? hours - 24 : hours;
-      return `${String(normalizedHours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}`;
-    }
+        // Logout logic
+        document.getElementById('logout').addEventListener('click', function() {
+            sessionStorage.clear();
+            window.location.href = '../../index.html';
+        });
 
-    // Function to calculate time duration between start and end times (in minutes)
-    function calculateDuration(startTime, endTime) {
-      const [startHours, startMinutes] = startTime.split(":").map(Number);
-      const [endHours, endMinutes] = endTime.split(":").map(Number);
+        // Fetch the 'GOTOWE.txt' file
+        async function fetchGOTOWEFile() {
+            const brygadaTitle = sessionStorage.getItem('brygadaTitle');
+            if (!brygadaTitle) {
+                console.error("Nie znaleziono brygadaTitle w sessionStorage.");
+                return null;
+            }
 
-      let durationHours = endHours - startHours;
-      let durationMinutes = endMinutes - startMinutes;
-
-      if (durationMinutes < 0) {
-        durationMinutes += 60;
-        durationHours -= 1;
-      }
-
-      if (durationHours < 0) {
-        durationHours += 24; // Handle crossing midnight
-      }
-
-      return durationHours * 60 + durationMinutes; // Return duration in minutes
-    }
-
-    // Function to remove numbers from a string
-    function removeNumbers(str) {
-      return str.replace(/[0-9]/g, '').trim();
-    }
-
-    // Function to check if current time is between start and end times, handling midnight crossing
-    function isCurrentTimeBetween(startTime, endTime) {
-      const currentTime = new Date();
-      const currentHours = currentTime.getHours();
-      const currentMinutes = currentTime.getMinutes();
-      const currentFormattedTime = `${String(currentHours).padStart(2, '0')}:${String(currentMinutes).padStart(2, '0')}`;
-
-      // Convert times to minutes from midnight for easier comparison
-      const getMinutesFromMidnight = (time) => {
-        const [hours, minutes] = time.split(':').map(Number);
-        return hours * 60 + minutes;
-      };
-
-      const startMinutes = getMinutesFromMidnight(startTime);
-      const endMinutes = getMinutesFromMidnight(endTime);
-      const currentMinutesFromMidnight = getMinutesFromMidnight(currentFormattedTime);
-
-      // Case when end time is after start time
-      if (startMinutes < endMinutes) {
-        return currentMinutesFromMidnight >= startMinutes && currentMinutesFromMidnight <= endMinutes;
-      } else {
-        // Case when end time is before midnight (crossing midnight)
-        return (
-          currentMinutesFromMidnight >= startMinutes || currentMinutesFromMidnight <= endMinutes
-        );
-      }
-    }
-
-    // Function to check if currentTime is between startTime and endTime, handling midnight crossing
-    function isTimeBetween(currentTime, startTime, endTime) {
-      if (startTime < endTime) {
-        return currentTime > startTime && currentTime < endTime;
-      } else {
-        return currentTime > startTime || currentTime < endTime;
-      }
-    }
-
-    function highlightCurrentTimeCells() {
-      const tableRows = document.querySelectorAll("#rozkładTable tbody tr");
-      let anyHighlighted = false; // Flag to check if any row is highlighted
-
-      tableRows.forEach(row => {
-        const startCell = row.cells[4]; // Godz. Rozp.
-        const endCell = row.cells[5]; // Godz. Zak.
-
-        if (startCell && endCell) {
-          const startTime = normalizeTime(startCell.innerText);
-          const endTime = normalizeTime(endCell.innerText);
-          console.log(`Start time: ${startTime}, End time: ${endTime}`); // Logging
-
-          // If current time is between start and end time, highlight the row
-          if (isCurrentTimeBetween(startTime, endTime)) {
-            row.style.backgroundColor = "rgb(75, 75, 75)";
-            anyHighlighted = true; // If any row is highlighted, set the flag
-          } else {
-            row.style.backgroundColor = ""; // Reset the background if not in range
-          }
+            let filePath = `../../../Brygady/WYNIKI/Gotowe_brygady/${brygadaNumber}/${brygadaTitle}/GOTOWE.txt`;
+            try {
+                const response = await fetch(filePath);
+                if (!response.ok) {
+                    throw new Error(`Sieć odpowiedziała błędem: ${response.status}`);
+                }
+                const text = await response.text();
+                return text.split("\n");
+            } catch (error) {
+                console.error('Błąd podczas odczytu pliku GOTOWE.txt:', error);
+                return null;
+            }
         }
-      });
 
-      // If no row is highlighted, add a new row
-      if (!anyHighlighted) {
-        insertNewRowBetweenNearestTimes();
-      }
-    }
-
-    // Function to insert a new row between the nearest "Godz. Zak." and "Godz. Rozp."
-    function insertNewRowBetweenNearestTimes() {
-      const tableBody = document.querySelector("#rozkładTable tbody");
-      const tableRows = Array.from(tableBody.rows); // Convert NodeList to array
-
-      let closestStartTime = null;
-      let closestEndTime = null;
-      let insertIndex = -1;
-      let brake = 0; // Time difference between times
-
-      for (let i = 0; i < tableRows.length - 1; i++) {
-        const currentRow = tableRows[i];
-        const nextRow = tableRows[i + 1];
-
-        // Ensure that both startCell and endCell exist in the current and next rows
-        const startCell = currentRow.cells[4]; // Godz. Rozp.
-        const endCell = currentRow.cells[5]; // Godz. Zak.
-        const nextStartCell = nextRow.cells[4]; // Godz. Rozp. in the next row
-
-        if (startCell && endCell && nextStartCell) { // Check if cells exist
-          const startTime = normalizeTime(startCell.innerText);
-          const endTime = normalizeTime(endCell.innerText);
-          const nextStartTime = normalizeTime(nextStartCell.innerText); // Next row's start time
-
-          if (closestStartTime === null || (isCloserToCurrentTime(startTime, closestStartTime) && isCloserToCurrentTime(endTime, closestEndTime))) {
-            closestStartTime = startTime;
-            closestEndTime = endTime;
-            insertIndex = i + 1; // Insert after the current row
-
-            // Calculate time difference (Brake) between start and end time
-            brake = calculateDuration(startTime, endTime);
-          }
+        // Fetch the 'Kierunki.txt' file
+        async function fetchKierunkiFile() {
+            const filePath = "../../../Brygady/WYNIKI/Kierunki.txt";
+            try {
+                const response = await fetch(filePath);
+                if (!response.ok) {
+                    throw new Error(`Sieć odpowiedziała błędem: ${response.status}`);
+                }
+                const text = await response.text();
+                return text.split("\n");
+            } catch (error) {
+                console.error('Błąd podczas odczytu pliku Kierunki.txt:', error);
+                return null;
+            }
         }
-      }
 
-      // Insert the new row only if insertIndex is set (i.e. valid insertion point)
-      if (insertIndex !== -1) {
-        const nextRow = tableRows[insertIndex]; // Row below which the new row will be inserted
-        const nextStartCell = nextRow.cells[4]; // Godz. Rozp. in the next row
-        const nextStartTime = normalizeTime(nextStartCell.innerText); // Next start time
+        // Build a map from the Kierunki file
+        function buildKierunkiMap(lines) {
+            const kierunkiMap = new Map();
+            lines.forEach((line) => {
+                const parts = line.split("\t");
+                if (parts.length >= 2) {
+                    const linia = parts[0].trim();
+                    const numerLiniiMatch = parts[1].match(/\[([^\]]+)\]/);
+                    if (numerLiniiMatch) {
+                        const numerLinii = numerLiniiMatch[1];
+                        kierunkiMap.set(linia, numerLinii);
+                    }
+                }
+            });
+            return kierunkiMap;
+        }
 
-        // New row's start time is the next row's start time
-        const newStartTime = nextStartTime;
-        const newEndTime = closestEndTime; // End time remains the same as the previous row
+        // Normalize time to a standard format (HH:MM)
+        function normalizeTime(time) {
+            const [hours, minutes] = time.split(':').map(Number);
+            const normalizedHours = hours >= 24 ? hours - 24 : hours;
+            return `${String(normalizedHours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}`;
+        }
 
-        // Calculate time difference (Brake) between newStartTime and closestEndTime
-        const timeDifference = calculateDuration(closestEndTime, newStartTime);
+        // Function to calculate time duration between start and end times (in minutes)
+        function calculateDuration(startTime, endTime) {
+            const [startHours, startMinutes] = startTime.split(":").map(Number);
+            const [endHours, endMinutes] = endTime.split(":").map(Number);
 
-        // Calculate remaining time (brakeleft)
-        const currentTime = new Date();
-        const currentTimeFormatted = normalizeTime(`${String(currentTime.getHours()).padStart(2, '0')}:${String(currentTime.getMinutes()).padStart(2, '0')}`);
-        const remainingTime = calculateDuration(currentTimeFormatted, newStartTime);
+            let durationHours = endHours - startHours;
+            let durationMinutes = endMinutes - startMinutes;
 
-        // Check if current time is between newEndTime and newStartTime and if brakeleft is valid
-        if (isTimeBetween(currentTimeFormatted, newEndTime, newStartTime)) {
-          const brakeleft = remainingTime;
-          if (brakeleft < timeDifference) {
-            // brakeleft is the difference between brake and remaining time
-            const newRow = document.createElement("tr");
-            newRow.innerHTML = `
+            if (durationMinutes < 0) {
+                durationMinutes += 60;
+                durationHours -= 1;
+            }
+
+            if (durationHours < 0) {
+                durationHours += 24; // Handle crossing midnight
+            }
+
+            return durationHours * 60 + durationMinutes; // Return duration in minutes
+        }
+
+        // Function to remove numbers from a string
+        function removeNumbers(str) {
+            return str.replace(/[0-9]/g, '').trim();
+        }
+
+        // Function to check if current time is between start and end times, handling midnight crossing
+        function isCurrentTimeBetween(startTime, endTime) {
+            const currentTime = new Date();
+            const currentHours = currentTime.getHours();
+            const currentMinutes = currentTime.getMinutes();
+            const currentFormattedTime = `${String(currentHours).padStart(2, '0')}:${String(currentMinutes).padStart(2, '0')}`;
+
+            // Convert times to minutes from midnight for easier comparison
+            const getMinutesFromMidnight = (time) => {
+                const [hours, minutes] = time.split(':').map(Number);
+                return hours * 60 + minutes;
+            };
+
+            const startMinutes = getMinutesFromMidnight(startTime);
+            const endMinutes = getMinutesFromMidnight(endTime);
+            const currentMinutesFromMidnight = getMinutesFromMidnight(currentFormattedTime);
+
+            // Case when end time is after start time
+            if (startMinutes < endMinutes) {
+                return currentMinutesFromMidnight >= startMinutes && currentMinutesFromMidnight <= endMinutes;
+            } else {
+                // Case when end time is before midnight (crossing midnight)
+                return (
+                    currentMinutesFromMidnight >= startMinutes || currentMinutesFromMidnight <= endMinutes
+                );
+            }
+        }
+
+        // Function to check if currentTime is between startTime and endTime, handling midnight crossing
+        function isTimeBetween(currentTime, startTime, endTime) {
+            if (startTime < endTime) {
+                return currentTime > startTime && currentTime < endTime;
+            } else {
+                return currentTime > startTime || currentTime < endTime;
+            }
+        }
+
+        function highlightCurrentTimeCells() {
+            const tableRows = document.querySelectorAll("#rozkładTable tbody tr");
+            let anyHighlighted = false; // Flag to check if any row is highlighted
+
+            tableRows.forEach(row => {
+                const startCell = row.cells[4]; // Godz. Rozp.
+                const endCell = row.cells[5]; // Godz. Zak.
+
+                if (startCell && endCell) {
+                    const startTime = normalizeTime(startCell.innerText);
+                    const endTime = normalizeTime(endCell.innerText);
+                    console.log(`Start time: ${startTime}, End time: ${endTime}`); // Logging
+
+                    // If current time is between start and end time, highlight the row
+                    if (isCurrentTimeBetween(startTime, endTime)) {
+                        row.style.backgroundColor = "rgb(75, 75, 75)";
+                        anyHighlighted = true; // If any row is highlighted, set the flag
+                    } else {
+                        row.style.backgroundColor = ""; // Reset the background if not in range
+                    }
+                }
+            });
+
+            // If no row is highlighted, add a new row
+            if (!anyHighlighted) {
+                insertNewRowBetweenNearestTimes();
+            }
+        }
+
+        // Function to insert a new row between the nearest "Godz. Zak." and "Godz. Rozp."
+        function insertNewRowBetweenNearestTimes() {
+            const tableBody = document.querySelector("#rozkładTable tbody");
+            const tableRows = Array.from(tableBody.rows); // Convert NodeList to array
+
+            let closestStartTime = null;
+            let closestEndTime = null;
+            let insertIndex = -1;
+            let brake = 0; // Time difference between times
+
+            for (let i = 0; i < tableRows.length - 1; i++) {
+                const currentRow = tableRows[i];
+                const nextRow = tableRows[i + 1];
+
+                // Ensure that both startCell and endCell exist in the current and next rows
+                const startCell = currentRow.cells[4]; // Godz. Rozp.
+                const endCell = currentRow.cells[5]; // Godz. Zak.
+                const nextStartCell = nextRow.cells[4]; // Godz. Rozp. in the next row
+
+                if (startCell && endCell && nextStartCell) { // Check if cells exist
+                    const startTime = normalizeTime(startCell.innerText);
+                    const endTime = normalizeTime(endCell.innerText);
+                    const nextStartTime = normalizeTime(nextStartCell.innerText); // Next row's start time
+
+                    if (closestStartTime === null || (isCloserToCurrentTime(startTime, closestStartTime) && isCloserToCurrentTime(endTime, closestEndTime))) {
+                        closestStartTime = startTime;
+                        closestEndTime = endTime;
+                        insertIndex = i + 1; // Insert after the current row
+
+                        // Calculate time difference (Brake) between start and end time
+                        brake = calculateDuration(startTime, endTime);
+                    }
+                }
+            }
+
+            // Insert the new row only if insertIndex is set (i.e. valid insertion point)
+            if (insertIndex !== -1) {
+                const nextRow = tableRows[insertIndex]; // Row below which the new row will be inserted
+                const nextStartCell = nextRow.cells[4]; // Godz. Rozp. in the next row
+                const nextStartTime = normalizeTime(nextStartCell.innerText); // Next start time
+
+                // New row's start time is the next row's start time
+                const newStartTime = nextStartTime;
+                const newEndTime = closestEndTime; // End time remains the same as the previous row
+
+                // Calculate time difference (Brake) between newStartTime and closestEndTime
+                const timeDifference = calculateDuration(closestEndTime, newStartTime);
+
+                // Calculate remaining time (brakeleft)
+                const currentTime = new Date();
+                const currentTimeFormatted = normalizeTime(`${String(currentTime.getHours()).padStart(2, '0')}:${String(currentTime.getMinutes()).padStart(2, '0')}`);
+                const remainingTime = calculateDuration(currentTimeFormatted, newStartTime);
+
+                // Check if current time is between newEndTime and newStartTime and if brakeleft is valid
+                if (isTimeBetween(currentTimeFormatted, newEndTime, newStartTime)) {
+                    const brakeleft = remainingTime;
+                    if (brakeleft < timeDifference) {
+                        // brakeleft is the difference between brake and remaining time
+                        const newRow = document.createElement("tr");
+                        newRow.innerHTML = `
                     <td colspan="8" style="background-color: rgb(75, 75, 75); text-align: center; font-size: 15px; padding: 3px;" class="blinkbrake">
                         Trwa przerwa ${timeDifference} min., pozostało: <strong> ${brakeleft} min.</strong>
                     </td>
                 `;
-            tableBody.insertBefore(newRow, tableBody.rows[insertIndex]);
-          }
-        } else {
-          // If the condition is not met, stop further execution
-          return;
+                        tableBody.insertBefore(newRow, tableBody.rows[insertIndex]);
+                    }
+                } else {
+                    // If the condition is not met, stop further execution
+                    return;
+                }
+            } else {
+                // If insertIndex is -1, stop execution (no valid row to insert)
+                return;
+            }
         }
-      } else {
-        // If insertIndex is -1, stop execution (no valid row to insert)
-        return;
-      }
-    }
 
 
-    // Function to compare which time is closer to the current time
-    function isCloserToCurrentTime(time1, time2) {
-      const currentTime = new Date();
-      const currentFormatted = normalizeTime(`${String(currentTime.getHours()).padStart(2, '0')}:${String(currentTime.getMinutes()).padStart(2, '0')}`);
+        // Function to compare which time is closer to the current time
+        function isCloserToCurrentTime(time1, time2) {
+            const currentTime = new Date();
+            const currentFormatted = normalizeTime(`${String(currentTime.getHours()).padStart(2, '0')}:${String(currentTime.getMinutes()).padStart(2, '0')}`);
 
-      const time1Diff = calculateDuration(currentFormatted, time1);
-      const time2Diff = calculateDuration(currentFormatted, time2);
+            const time1Diff = calculateDuration(currentFormatted, time1);
+            const time2Diff = calculateDuration(currentFormatted, time2);
 
-      return time1Diff < time2Diff;
-    }
+            return time1Diff < time2Diff;
+        }
 
 
 
 
-    // Helper function to calculate time difference in minutes, handling midnight crossing
-    function calculateTimeDifference(startTime, endTime) {
-      const [startHours, startMinutes] = startTime.split(":").map(Number);
-      const [endHours, endMinutes] = endTime.split(":").map(Number);
-      const startTotal = startHours * 60 + startMinutes;
-      const endTotal = endHours * 60 + endMinutes;
-      let diff = endTotal - startTotal;
-      if (diff < 0) {
-        diff += 24 * 60; // Add 24 hours if end time is before start time
-      }
-      return diff;
-    }
+        // Helper function to calculate time difference in minutes, handling midnight crossing
+        function calculateTimeDifference(startTime, endTime) {
+            const [startHours, startMinutes] = startTime.split(":").map(Number);
+            const [endHours, endMinutes] = endTime.split(":").map(Number);
+            const startTotal = startHours * 60 + startMinutes;
+            const endTotal = endHours * 60 + endMinutes;
+            let diff = endTotal - startTotal;
+            if (diff < 0) {
+                diff += 24 * 60; // Add 24 hours if end time is before start time
+            }
+            return diff;
+        }
 
-    // Helper function to check which time is closer to the current time
-    function isCloserToCurrentTime(time1, time2) {
-      const currentTime = new Date();
-      const currentMinutes = currentTime.getHours() * 60 + currentTime.getMinutes();
+        // Helper function to check which time is closer to the current time
+        function isCloserToCurrentTime(time1, time2) {
+            const currentTime = new Date();
+            const currentMinutes = currentTime.getHours() * 60 + currentTime.getMinutes();
 
-      const time1Minutes = time1.split(":").map(Number).reduce((acc, time) => acc * 60 + time);
-      const time2Minutes = time2.split(":").map(Number).reduce((acc, time) => acc * 60 + time);
+            const time1Minutes = time1.split(":").map(Number).reduce((acc, time) => acc * 60 + time);
+            const time2Minutes = time2.split(":").map(Number).reduce((acc, time) => acc * 60 + time);
 
-      const diff1 = Math.min(Math.abs(currentMinutes - time1Minutes), 1440 - Math.abs(currentMinutes - time1Minutes));
-      const diff2 = Math.min(Math.abs(currentMinutes - time2Minutes), 1440 - Math.abs(currentMinutes - time2Minutes));
+            const diff1 = Math.min(Math.abs(currentMinutes - time1Minutes), 1440 - Math.abs(currentMinutes - time1Minutes));
+            const diff2 = Math.min(Math.abs(currentMinutes - time2Minutes), 1440 - Math.abs(currentMinutes - time2Minutes));
 
-      return diff1 < diff2;
-    }
+            return diff1 < diff2;
+        }
 
-    async function processGOTOWEData(lines) {
-      let tableBody = document.querySelector("#rozkładTable tbody");
-      let lp = 1;
-      let currentRouteId = null;
-      let firstStop = null;
-      let lastStop = null;
-      let startTime = null;
-      let endTime = null;
-      let tripId = null;
+        async function processGOTOWEData(lines) {
+            let tableBody = document.querySelector("#rozkładTable tbody");
+            let lp = 1;
+            let currentRouteId = null;
+            let firstStop = null;
+            let lastStop = null;
+            let startTime = null;
+            let endTime = null;
+            let tripId = null;
 
-      lines.slice(2).forEach((line) => {
-        line = line.trim();
+            lines.slice(2).forEach((line) => {
+                line = line.trim();
 
-        if (line === "") {
-          if (currentRouteId && firstStop && lastStop && startTime && endTime) {
-            // Obliczanie różnicy czasu w minutach
-            const durationInMinutes = calculateDuration(startTime, endTime);
+                if (line === "") {
+                    if (currentRouteId && firstStop && lastStop && startTime && endTime) {
+                        // Obliczanie różnicy czasu w minutach
+                        const durationInMinutes = calculateDuration(startTime, endTime);
 
-            // Przekształcenie minut na godziny i minuty
-            const hours = Math.floor(durationInMinutes / 60);
-            const minutes = durationInMinutes % 60;
+                        // Przekształcenie minut na godziny i minuty
+                        const hours = Math.floor(durationInMinutes / 60);
+                        const minutes = durationInMinutes % 60;
 
-            // Formatowanie w formacie HH:MM
-            const durationFormatted = `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}`;
+                        // Formatowanie w formacie HH:MM
+                        const durationFormatted = `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}`;
 
-            let row = document.createElement("tr");
-            row.innerHTML +=
-              `<td><a class="NrOflp" href="BrygadaSzczegoly.html" onclick="savetripid('${tripId}')" >${lp}.</a></td>
+                        let row = document.createElement("tr");
+                        row.innerHTML +=
+                            `<td><a class="NrOflp" href="BrygadaSzczegoly.html" onclick="savetripid('${tripId}')" >${lp}.</a></td>
              <td class="NrOfLine">${currentRouteId}</td>
              <td>${firstStop}</td>
              <td>${lastStop}</td>
@@ -536,32 +538,32 @@
 
 
 
-            tableBody.appendChild(row);
-            lp++;
-            currentRouteId = null;
-            firstStop = null;
-            lastStop = null;
-            startTime = null;
-            endTime = null;
-            tripId = null;
-          }
-        } else if (line.includes("Rezerwa")) {
-          // Jeżeli linia zawiera słowo "Rezerwa"
-          let parts = line.split("\t");
+                        tableBody.appendChild(row);
+                        lp++;
+                        currentRouteId = null;
+                        firstStop = null;
+                        lastStop = null;
+                        startTime = null;
+                        endTime = null;
+                        tripId = null;
+                    }
+                } else if (line.includes("Rezerwa")) {
+                    // Jeżeli linia zawiera słowo "Rezerwa"
+                    let parts = line.split("\t");
 
-          // Zakładamy, że części będą miały postać: "Rezerwa" i godziny w formacie "Godz_Rozp-Godz_Zak"
-          let godzRozp = parts[3];
-          let godzZak = parts[4];
-          let godzRozpConv = null;
-          let godzZakConv = null;
-          let rezerwatime = null;
-          godzRozpConv = normalizeTime(godzRozp);
-          godzZakConv = normalizeTime(godzZak);
-          const czasrezerwa = calculateTimeDifference(godzRozp, godzZak);
-          rezerwatime = convertTimeToMinutes(czasrezerwa);
-          let row = document.createElement("tr");
-          row.innerHTML +=
-            `
+                    // Zakładamy, że części będą miały postać: "Rezerwa" i godziny w formacie "Godz_Rozp-Godz_Zak"
+                    let godzRozp = parts[3];
+                    let godzZak = parts[4];
+                    let godzRozpConv = null;
+                    let godzZakConv = null;
+                    let rezerwatime = null;
+                    godzRozpConv = normalizeTime(godzRozp);
+                    godzZakConv = normalizeTime(godzZak);
+                    const czasrezerwa = calculateTimeDifference(godzRozp, godzZak);
+                    rezerwatime = convertTimeToMinutes(czasrezerwa);
+                    let row = document.createElement("tr");
+                    row.innerHTML +=
+                        `
 <td class="RezLP"></td>
 <td class="Rez"></td>
 <td class="Rez">Rezerwa</td>
@@ -571,31 +573,31 @@
 <td>${rezerwatime}</td>
 <td>N/A</td>`;
 
-          tableBody.appendChild(row);
+                    tableBody.appendChild(row);
 
-        } else {
-          let parts = line.split(/\s+/);
-          let routeId = parts[0]; // Assuming this is the identifier you want
-          let arrivalTime = parts[3];
-          let stopName = parts.slice(5).join(" ");
-          tripId = parts[2]; // Przypisz trip_id
+                } else {
+                    let parts = line.split(/\s+/);
+                    let routeId = parts[0]; // Assuming this is the identifier you want
+                    let arrivalTime = parts[3];
+                    let stopName = parts.slice(5).join(" ");
+                    tripId = parts[2]; // Przypisz trip_id
 
-          if (!currentRouteId) {
-            currentRouteId = routeId;
-            firstStop = stopName;
-            startTime = normalizeTime(arrivalTime);
-          }
-          lastStop = stopName;
-          endTime = normalizeTime(arrivalTime);
-        }
-      });
+                    if (!currentRouteId) {
+                        currentRouteId = routeId;
+                        firstStop = stopName;
+                        startTime = normalizeTime(arrivalTime);
+                    }
+                    lastStop = stopName;
+                    endTime = normalizeTime(arrivalTime);
+                }
+            });
 
-      // Dodaj ostatni wiersz, jeśli istnieje
-      if (currentRouteId && firstStop && lastStop && startTime && endTime) {
-        const duration = calculateDuration(startTime, endTime);
-        let row = document.createElement("tr");
-        row.innerHTML +=
-          `<td><a class="NrOflp" href="Szczegoly.html">${lp}.</a></td>
+            // Dodaj ostatni wiersz, jeśli istnieje
+            if (currentRouteId && firstStop && lastStop && startTime && endTime) {
+                const duration = calculateDuration(startTime, endTime);
+                let row = document.createElement("tr");
+                row.innerHTML +=
+                    `<td><a class="NrOflp" href="Szczegoly.html">${lp}.</a></td>
              <td>${currentRouteId}</td>
              <td>${firstStop}</td>
              <td>${lastStop}</td>
@@ -604,166 +606,166 @@
              <td>${duration}</td>
              <td>N/A</td>
              <td class="hide">${tripId}</td>`;
-        tableBody.appendChild(row);
-        lp++;
-      }
-
-
-
-
-
-
-
-
-
-      // Fetch kierunki and update the lines
-      const kierunkiLines = await fetchKierunkiFile();
-      if (kierunkiLines) {
-        const kierunkiMap = buildKierunkiMap(kierunkiLines);
-        for (let row of tableBody.rows) {
-          const liniaCell = row.cells[1];
-          const liniaValue = liniaCell ? liniaCell.innerText : null;
-          if (liniaValue && kierunkiMap.has(liniaValue)) {
-            liniaCell.innerText = kierunkiMap.get(liniaValue);
-          }
-        }
-      } else {
-        console.error("Nie udało się wczytać Kierunki.txt.");
-      }
-    }
-
-    // Pobranie pełnej ścieżki do pliku
-    const fullPath = window.location.pathname;
-
-    // Podzielenie ścieżki na części na podstawie "/"
-    const pathParts = fullPath.split('/');
-
-    // Pobranie nazwy folderu (zakładamy, że folder jest bezpośrednio nad plikiem)
-    const folderName = pathParts[pathParts.length - 2]; // -2, bo ostatni element to nazwa pliku
-
-    // Inicjalizacja zmiennej brygadaNumber na podstawie folderu
-    let brygadaNumber;
-
-    switch (folderName) {
-      case 'Niedzielny':
-        brygadaNumber = '1';
-        break;
-      case 'Powszedni':
-        brygadaNumber = '2';
-        break;
-      case 'PowszedniWolny':
-        brygadaNumber = '3';
-        break;
-      case 'Sobotni':
-        brygadaNumber = '4';
-        break;
-      default:
-        brygadaNumber = '2'; // Domyślna wartość, jeśli folder nie pasuje do żadnego przypadku
-    }
-
-    // Zmienna, która przechowuje stan wyróżnienia
-    let isHighlighted = false;
-    // Funkcja do wyróżniania unikalnych wartości w kolumnie "Linia"
-    function toggleHighlight() {
-      const tableRows = document.querySelectorAll("#rozkładTable tbody tr");
-      const uniqueLines = new Set();
-      const lineColors = {};
-      const colors = ["#CD853F", "#778899", "#4169E1", "#20B2AA", "#6A5ACD", "#228B22"];
-      let colorIndex = 0;
-
-      // Jeśli jest włączone wyróżnienie, resetujemy kolory i przerywamy funkcję
-      if (isHighlighted) {
-        tableRows.forEach(row => {
-          const lineCell = row.querySelector(".NrOfLine");
-          if (lineCell) {
-            // Przywracamy oryginalny tekst, który zapisaliśmy w atrybucie data-original-text
-            const originalText = lineCell.getAttribute("data-original-text");
-            if (originalText) {
-              lineCell.innerText = originalText;
+                tableBody.appendChild(row);
+                lp++;
             }
-          }
-        });
-        isHighlighted = false;
-        document.getElementById("highlightButton").innerText = "Wyróżnij linie"; // Zmień tekst przycisku
-        return;
-      }
 
-      // Iterujemy przez wiersze, aby zidentyfikować unikalne wartości w kolumnie "Linia"
-      tableRows.forEach(row => {
-        const lineCell = row.querySelector(".NrOfLine");
-        if (lineCell) {
-          const lineValue = lineCell.innerText;
-          uniqueLines.add(lineValue);
+
+
+
+
+
+
+
+
+            // Fetch kierunki and update the lines
+            const kierunkiLines = await fetchKierunkiFile();
+            if (kierunkiLines) {
+                const kierunkiMap = buildKierunkiMap(kierunkiLines);
+                for (let row of tableBody.rows) {
+                    const liniaCell = row.cells[1];
+                    const liniaValue = liniaCell ? liniaCell.innerText : null;
+                    if (liniaValue && kierunkiMap.has(liniaValue)) {
+                        liniaCell.innerText = kierunkiMap.get(liniaValue);
+                    }
+                }
+            } else {
+                console.error("Nie udało się wczytać Kierunki.txt.");
+            }
         }
-      });
 
-      // Przypisujemy unikalny kolor do każdej unikalnej wartości w kolumnie "Linia"
-      uniqueLines.forEach(line => {
-        lineColors[line] = colors[colorIndex % colors.length];
-        colorIndex++;
-      });
+        // Pobranie pełnej ścieżki do pliku
+        const fullPath = window.location.pathname;
 
-      // Ustawiamy kolor tylko dla tekstu w komórce w kolumnie "Linia", na podstawie wartości
-      tableRows.forEach(row => {
-        const lineCell = row.querySelector(".NrOfLine");
-        if (lineCell && lineColors[lineCell.innerText]) {
-          const lineValue = lineCell.innerText;
+        // Podzielenie ścieżki na części na podstawie "/"
+        const pathParts = fullPath.split('/');
 
-          // Zapisz oryginalny tekst komórki, aby można było go później przywrócić
-          if (!lineCell.getAttribute("data-original-text")) {
-            lineCell.setAttribute("data-original-text", lineValue);
-          }
+        // Pobranie nazwy folderu (zakładamy, że folder jest bezpośrednio nad plikiem)
+        const folderName = pathParts[pathParts.length - 2]; // -2, bo ostatni element to nazwa pliku
 
-          // Dodaj `span` z odpowiednim stylem wokół tekstu
-          lineCell.innerHTML = `<span class="highlighted-text" style="
+        // Inicjalizacja zmiennej brygadaNumber na podstawie folderu
+        let brygadaNumber;
+
+        switch (folderName) {
+            case 'Niedzielny':
+                brygadaNumber = '1';
+                break;
+            case 'Powszedni':
+                brygadaNumber = '2';
+                break;
+            case 'PowszedniWolny':
+                brygadaNumber = '3';
+                break;
+            case 'Sobotni':
+                brygadaNumber = '4';
+                break;
+            default:
+                brygadaNumber = '2'; // Domyślna wartość, jeśli folder nie pasuje do żadnego przypadku
+        }
+
+        // Zmienna, która przechowuje stan wyróżnienia
+        let isHighlighted = false;
+        // Funkcja do wyróżniania unikalnych wartości w kolumnie "Linia"
+        function toggleHighlight() {
+            const tableRows = document.querySelectorAll("#rozkładTable tbody tr");
+            const uniqueLines = new Set();
+            const lineColors = {};
+            const colors = ["#CD853F", "#778899", "#4169E1", "#20B2AA", "#6A5ACD", "#228B22"];
+            let colorIndex = 0;
+
+            // Jeśli jest włączone wyróżnienie, resetujemy kolory i przerywamy funkcję
+            if (isHighlighted) {
+                tableRows.forEach(row => {
+                    const lineCell = row.querySelector(".NrOfLine");
+                    if (lineCell) {
+                        // Przywracamy oryginalny tekst, który zapisaliśmy w atrybucie data-original-text
+                        const originalText = lineCell.getAttribute("data-original-text");
+                        if (originalText) {
+                            lineCell.innerText = originalText;
+                        }
+                    }
+                });
+                isHighlighted = false;
+                document.getElementById("highlightButton").innerText = "Wyróżnij linie"; // Zmień tekst przycisku
+                return;
+            }
+
+            // Iterujemy przez wiersze, aby zidentyfikować unikalne wartości w kolumnie "Linia"
+            tableRows.forEach(row => {
+                const lineCell = row.querySelector(".NrOfLine");
+                if (lineCell) {
+                    const lineValue = lineCell.innerText;
+                    uniqueLines.add(lineValue);
+                }
+            });
+
+            // Przypisujemy unikalny kolor do każdej unikalnej wartości w kolumnie "Linia"
+            uniqueLines.forEach(line => {
+                lineColors[line] = colors[colorIndex % colors.length];
+                colorIndex++;
+            });
+
+            // Ustawiamy kolor tylko dla tekstu w komórce w kolumnie "Linia", na podstawie wartości
+            tableRows.forEach(row => {
+                const lineCell = row.querySelector(".NrOfLine");
+                if (lineCell && lineColors[lineCell.innerText]) {
+                    const lineValue = lineCell.innerText;
+
+                    // Zapisz oryginalny tekst komórki, aby można było go później przywrócić
+                    if (!lineCell.getAttribute("data-original-text")) {
+                        lineCell.setAttribute("data-original-text", lineValue);
+                    }
+
+                    // Dodaj `span` z odpowiednim stylem wokół tekstu
+                    lineCell.innerHTML = `<span class="highlighted-text" style="
                 background-color: ${lineColors[lineValue]};
                 color: white;
                 border-radius: 5px;
                 padding: 2px 5px;
                 display: inline-block;
             ">${lineValue}</span>`;
-        }
-      });
+                }
+            });
 
-      isHighlighted = true;
-      document.getElementById("highlightButton").innerText = "Przestań wyróżniać linie"; // Zmień tekst przycisku
-    }
-
-    // Dodanie nasłuchu kliknięcia na przycisk "Wyróżnij linie"
-    document.getElementById("highlightButton").addEventListener("click", toggleHighlight);
-    window.onload = init;
-
-    function savetripid(tripid) {
-      sessionStorage.setItem('savedtripid', tripid);
-    }
-
-    // Funkcja globalna: Dodawanie wiersza na podstawie warunku
-    function checkAndAddRow() {
-      const brygadaType = sessionStorage.getItem("BrygadaType");
-
-
-      if (brygadaType === "Brygada Jednozmianowa" || brygadaType === "Brygada Nocna Jednozmianowa") {
-        const tabelaWykaz = document.querySelector("#wykazbrygady #dane-wykaz");
-        const tabelaRozklad = document.querySelector("#rozkładTable #dane-tabeli");
-
-        if (!tabelaWykaz || !tabelaRozklad) {
-          console.error("Nie znaleziono jednej z wymaganych tabel.");
-          return;
+            isHighlighted = true;
+            document.getElementById("highlightButton").innerText = "Przestań wyróżniać linie"; // Zmień tekst przycisku
         }
 
-        logTableContent(tabelaRozklad); // Dodane dla diagnostyki
+        // Dodanie nasłuchu kliknięcia na przycisk "Wyróżnij linie"
+        document.getElementById("highlightButton").addEventListener("click", toggleHighlight);
+        window.onload = init;
 
-        const godzRozp = findFirstAvailableStartTime(tabelaRozklad);
-        const godzZak = findLatestEndTime(tabelaRozklad);
-        if (!godzRozp || !godzZak) {
-          console.error("Nie znaleziono wartości w kolumnach 'Godz. Rozp.' lub 'Godz. Zak.' w tabeli rozkładTable.");
-          return;
+        function savetripid(tripid) {
+            sessionStorage.setItem('savedtripid', tripid);
         }
 
-        const roznica = calculateTimeDifference(godzRozp, godzZak);
+        // Funkcja globalna: Dodawanie wiersza na podstawie warunku
+        function checkAndAddRow() {
+            const brygadaType = sessionStorage.getItem("BrygadaType");
 
-        const newRow = document.createElement("tr");
-        newRow.innerHTML = `
+
+            if (brygadaType === "Brygada Jednozmianowa" || brygadaType === "Brygada Nocna Jednozmianowa") {
+                const tabelaWykaz = document.querySelector("#wykazbrygady #dane-wykaz");
+                const tabelaRozklad = document.querySelector("#rozkładTable #dane-tabeli");
+
+                if (!tabelaWykaz || !tabelaRozklad) {
+                    console.error("Nie znaleziono jednej z wymaganych tabel.");
+                    return;
+                }
+
+                logTableContent(tabelaRozklad); // Dodane dla diagnostyki
+
+                const godzRozp = findFirstAvailableStartTime(tabelaRozklad);
+                const godzZak = findLatestEndTime(tabelaRozklad);
+                if (!godzRozp || !godzZak) {
+                    console.error("Nie znaleziono wartości w kolumnach 'Godz. Rozp.' lub 'Godz. Zak.' w tabeli rozkładTable.");
+                    return;
+                }
+
+                const roznica = calculateTimeDifference(godzRozp, godzZak);
+
+                const newRow = document.createElement("tr");
+                newRow.innerHTML = `
             <td>A</td>
             <td>${godzRozp}</td>
             <td>${godzZak}</td>
@@ -771,503 +773,881 @@
             <td>N/A</td>
         `;
 
-        tabelaWykaz.appendChild(newRow);
-      } else if (brygadaType === "Brygada Dwuzmianowa" || brygadaType === "Brygada Szczytowa") {
-        const savedpodmiana = sessionStorage.getItem('godzina');
-        const tabelaWykaz = document.querySelector("#wykazbrygady #dane-wykaz");
-        const tabelaRozklad = document.querySelector("#rozkładTable #dane-tabeli");
+                tabelaWykaz.appendChild(newRow);
+            } else if (brygadaType === "Brygada Dwuzmianowa" || brygadaType === "Brygada Szczytowa") {
+                const savedpodmiana = sessionStorage.getItem('godzina');
+                const tabelaWykaz = document.querySelector("#wykazbrygady #dane-wykaz");
+                const tabelaRozklad = document.querySelector("#rozkładTable #dane-tabeli");
 
-        if (!tabelaWykaz || !tabelaRozklad) {
-          console.error("Nie znaleziono jednej z wymaganych tabel.");
-          return;
-        }
+                if (!tabelaWykaz || !tabelaRozklad) {
+                    console.error("Nie znaleziono jednej z wymaganych tabel.");
+                    return;
+                }
 
-        logTableContent(tabelaRozklad); // Dodane dla diagnostyki
+                logTableContent(tabelaRozklad); // Dodane dla diagnostyki
 
-        const godzRozp = findFirstAvailableStartTime(tabelaRozklad);
-        const godzZak = findLatestEndTime(tabelaRozklad);
-        if (!godzRozp || !godzZak) {
-          console.error("Nie znaleziono wartości w kolumnach 'Godz. Rozp.' lub 'Godz. Zak.' w tabeli rozkładTable.");
-          return;
-        }
+                const godzRozp = findFirstAvailableStartTime(tabelaRozklad);
+                const godzZak = findLatestEndTime(tabelaRozklad);
+                if (!godzRozp || !godzZak) {
+                    console.error("Nie znaleziono wartości w kolumnach 'Godz. Rozp.' lub 'Godz. Zak.' w tabeli rozkładTable.");
+                    return;
+                }
 
-        const roznicaA = calculateTimeDifference(godzRozp, savedpodmiana);
-        const roznicaB = calculateTimeDifference(savedpodmiana, godzZak);
-        const podmiana = 22;
+                const roznicaA = calculateTimeDifference(godzRozp, savedpodmiana);
+                const roznicaB = calculateTimeDifference(savedpodmiana, godzZak);
+                const podmiana = 22;
 
-        function createRow(label, godzRozp, godzZak, roznicaA, roznicaB) {
-          const row = document.createElement("tr");
-          row.innerHTML = `
+                function createRow(label, godzRozp, godzZak, roznicaA, roznicaB) {
+                    const row = document.createElement("tr");
+                    row.innerHTML = `
 <td>${label}</td>
 <td>${godzRozp}</td>
 <td>${godzZak}</td>
 <td>${roznicaA}</td>
 <td>N/A</td>
 `;
-          return row;
+                    return row;
+                }
+
+                // Tworzenie dwóch wierszy
+                const newRow1 = createRow("A", godzRozp, savedpodmiana, roznicaA);
+                const newRow2 = createRow("B", savedpodmiana, godzZak, roznicaB);
+
+                // Dodanie wierszy do tabeli
+                tabelaWykaz.appendChild(newRow1);
+                tabelaWykaz.appendChild(newRow2);
+            }
         }
 
-        // Tworzenie dwóch wierszy
-        const newRow1 = createRow("A", godzRozp, savedpodmiana, roznicaA);
-        const newRow2 = createRow("B", savedpodmiana, godzZak, roznicaB);
-
-        // Dodanie wierszy do tabeli
-        tabelaWykaz.appendChild(newRow1);
-        tabelaWykaz.appendChild(newRow2);
-      }
-    }
 
 
 
 
 
-
-    // Funkcja globalna: Znajdowanie pierwszej dostępnej wartości w kolumnie "Godz. Rozp."
-    function findFirstAvailableStartTime(tabelaRozklad) {
-      const rows = tabelaRozklad.querySelectorAll("tr");
-      for (const row of rows) {
-        const godzRozpCell = row.cells[4]; // Kolumna "Godz. Rozp." (indeks 4)
-        if (godzRozpCell && godzRozpCell.textContent.trim()) {
-          return godzRozpCell.textContent.trim();
-        }
-      }
-      return null;
-    }
-
-
-
-    function findLatestEndTime(tabelaRozklad) {
-      const rows = Array.from(tabelaRozklad.querySelectorAll("tr")); // Pobieramy wszystkie wiersze tabeli jako tablicę
-
-      // Iterujemy od ostatniego wiersza do pierwszego
-      for (let i = rows.length - 1; i >= 0; i--) {
-        const godzZakCell = rows[i].cells[5]; // Kolumna "Godz. Zak." (indeks 5)
-
-        // Sprawdzamy, czy komórka zawiera niepustą wartość
-        if (godzZakCell && godzZakCell.textContent.trim()) {
-          return godzZakCell.textContent.trim(); // Zwracamy pierwszą znalezioną niepustą wartość
-        }
-      }
-
-      // Jeśli nie znaleziono żadnej wartości, zwracamy null
-      return null;
-    }
-
-
-    // Funkcja globalna: Konwersja czasu w formacie HH:MM na minuty od początku dnia
-    function convertTimeToMinutes(time) {
-      const [hours, minutes] = time.split(":").map(Number);
-      return (hours % 24) * 60 + minutes; // Modulo obsługuje godziny po północy
-    }
-
-
-
-
-    // Funkcja globalna: Logowanie zawartości tabeli (dla diagnostyki)
-    function logTableContent(tabelaRozklad) {
-      const rows = tabelaRozklad.querySelectorAll("tr");
-      rows.forEach((row, index) => {
-        const godzRozpCell = row.cells[4]; // Kolumna "Godz. Rozp." (indeks 4)
-        const godzZakCell = row.cells[5]; // Kolumna "Godz. Zak." (indeks 5)
-        console.log(`Wiersz ${index + 1}: Rozp: ${godzRozpCell ? godzRozpCell.textContent.trim() : "Brak"} | Zak: ${godzZakCell ? godzZakCell.textContent.trim() : "Brak"}`);
-      });
-    }
-
-    // Funkcja globalna: Obliczanie różnicy czasu, z obsługą godzin po północy
-    function calculateTimeDifference(start, end) {
-      const startMinutes = convertTimeToMinutes(start);
-      const endMinutes = convertTimeToMinutes(end);
-
-      let diffMinutes;
-      if (endMinutes < startMinutes) {
-        // Obsługa przejścia przez północ (dodajemy 24 godziny)
-        diffMinutes = (endMinutes + 24 * 60) - startMinutes;
-      } else {
-        diffMinutes = endMinutes - startMinutes;
-      }
-
-      const hours = Math.floor(diffMinutes / 60);
-      const minutes = diffMinutes % 60;
-
-      return `${hours}:${minutes}`;
-    }
-
-
-
-
-
-
-
-
-
-    async function addPodmianaRows() {
-      try {
-        const pathParts = window.location.pathname.split("/");
-        const folderName = pathParts[pathParts.length - 2];
-        console.log("Nazwa folderu:", folderName);
-
-        let brygadaNumber;
-        switch (folderName) {
-          case 'Niedzielny':
-            brygadaNumber = '1';
-            break;
-          case 'Powszedni':
-            brygadaNumber = '2';
-            break;
-          case 'PowszedniWolny':
-            brygadaNumber = '3';
-            break;
-          case 'Sobotni':
-            brygadaNumber = '4';
-            break;
-          default:
-            brygadaNumber = '2';
+        // Funkcja globalna: Znajdowanie pierwszej dostępnej wartości w kolumnie "Godz. Rozp."
+        function findFirstAvailableStartTime(tabelaRozklad) {
+            const rows = tabelaRozklad.querySelectorAll("tr");
+            for (const row of rows) {
+                const godzRozpCell = row.cells[4]; // Kolumna "Godz. Rozp." (indeks 4)
+                if (godzRozpCell && godzRozpCell.textContent.trim()) {
+                    return godzRozpCell.textContent.trim();
+                }
+            }
+            return null;
         }
 
-        const brygadaTitle = sessionStorage.getItem("brygadaTitle");
-        if (!brygadaTitle) {
-          console.error("Nie znaleziono brygadaTitle w sessionStorage.");
-          return;
+
+
+        function findLatestEndTime(tabelaRozklad) {
+            const rows = Array.from(tabelaRozklad.querySelectorAll("tr")); // Pobieramy wszystkie wiersze tabeli jako tablicę
+
+            // Iterujemy od ostatniego wiersza do pierwszego
+            for (let i = rows.length - 1; i >= 0; i--) {
+                const godzZakCell = rows[i].cells[5]; // Kolumna "Godz. Zak." (indeks 5)
+
+                // Sprawdzamy, czy komórka zawiera niepustą wartość
+                if (godzZakCell && godzZakCell.textContent.trim()) {
+                    return godzZakCell.textContent.trim(); // Zwracamy pierwszą znalezioną niepustą wartość
+                }
+            }
+
+            // Jeśli nie znaleziono żadnej wartości, zwracamy null
+            return null;
         }
 
-        const basePath = `../../../Brygady/WYNIKI/Gotowe_brygady/${brygadaNumber}/${brygadaTitle}`;
-        const podmianaPath = `${basePath}/podmiana.txt`;
-        console.log("Ścieżka do pliku:", podmianaPath);
 
-        // Sprawdzenie istnienia pliku podmiana.txt
-        const response = await fetch(podmianaPath);
-        if (response.ok) {
-          const text = await response.text();
-          processPodmianaFile(text);
-        } else {
-          console.warn("Plik podmiana.txt nie istnieje. Sprawdzanie alternatywnych plików...");
-          const zakonczenieAPath = `${basePath}/ZakonczenieA.txt`;
-          const rozpoczecieBPath = `${basePath}/RozpoczecieB.txt`;
-
-          const [zakonczenieAResponse, rozpoczecieBResponse] = await Promise.all([
-            fetch(zakonczenieAPath),
-            fetch(rozpoczecieBPath)
-          ]);
-
-          if (zakonczenieAResponse.ok && rozpoczecieBResponse.ok) {
-            const zakonczenieAContent = await zakonczenieAResponse.text();
-            const rozpoczecieBContent = await rozpoczecieBResponse.text();
-
-            const [przystanekZakonczenieA, godzinaZakonczenieA] = parseFileContent(zakonczenieAContent);
-            const [przystanekRozpoczecieB, godzinaRozpoczeciaB] = parseFileContent(rozpoczecieBContent);
-
-            insertRowAtCorrectPosition(
-              przystanekZakonczenieA,
-              godzinaZakonczenieA,
-              przystanekRozpoczecieB,
-              godzinaRozpoczeciaB
-            );
-          } else {
-            console.error("Nie znaleziono wymaganych plików ZakonczenieA.txt i RozpoczecieB.txt.");
-          }
+        // Funkcja globalna: Konwersja czasu w formacie HH:MM na minuty od początku dnia
+        function convertTimeToMinutes(time) {
+            const [hours, minutes] = time.split(":").map(Number);
+            return (hours % 24) * 60 + minutes; // Modulo obsługuje godziny po północy
         }
-      } catch (error) {
-        console.error("Wystąpił błąd:", error);
-      }
-    }
 
-    function processPodmianaFile(text) {
-      const podmianaLines = text.split("\n").map(line => line.trim()).filter(line => line);
 
-      let tableBody = document.querySelector("#rozkładTable tbody");
-      if (!tableBody) {
-        console.error("Nie znaleziono tabeli z id 'rozkładTable'.");
-        return;
-      }
 
-      let tableRows = Array.from(tableBody.querySelectorAll("tr"));
-      const now = new Date();
-      const currentTimeFormatted = `${now.getHours().toString().padStart(2, '0')}:${now.getMinutes().toString().padStart(2, '0')}`;
 
-      podmianaLines.forEach((line) => {
-        const [przystanek, godzina] = line.split("\t").map(item => item.trim());
+        // Funkcja globalna: Logowanie zawartości tabeli (dla diagnostyki)
+        function logTableContent(tabelaRozklad) {
+            const rows = tabelaRozklad.querySelectorAll("tr");
+            rows.forEach((row, index) => {
+                const godzRozpCell = row.cells[4]; // Kolumna "Godz. Rozp." (indeks 4)
+                const godzZakCell = row.cells[5]; // Kolumna "Godz. Zak." (indeks 5)
+                console.log(`Wiersz ${index + 1}: Rozp: ${godzRozpCell ? godzRozpCell.textContent.trim() : "Brak"} | Zak: ${godzZakCell ? godzZakCell.textContent.trim() : "Brak"}`);
+            });
+        }
 
-        for (let i = 0; i < tableRows.length - 1; i++) {
-          const currentRow = tableRows[i];
-          const nextRow = tableRows[i + 1];
-          let currentTime = currentRow.cells[4]?.textContent;
-          let nextTime = nextRow.cells[4]?.textContent;
+        // Funkcja globalna: Obliczanie różnicy czasu, z obsługą godzin po północy
+        function calculateTimeDifference(start, end) {
+            const startMinutes = convertTimeToMinutes(start);
+            const endMinutes = convertTimeToMinutes(end);
 
-          if (!nextTime) {
-            const thirdRow = tableRows[i + 2];
-            nextTime = thirdRow ? thirdRow.cells[4]?.textContent : null;
-          }
+            let diffMinutes;
+            if (endMinutes < startMinutes) {
+                // Obsługa przejścia przez północ (dodajemy 24 godziny)
+                diffMinutes = (endMinutes + 24 * 60) - startMinutes;
+            } else {
+                diffMinutes = endMinutes - startMinutes;
+            }
 
-          if (currentTime && nextTime && isBetween(godzina, currentTime, nextTime)) {
-            sessionStorage.setItem('godzina', godzina);
+            const hours = Math.floor(diffMinutes / 60);
+            const minutes = diffMinutes % 60;
 
-            const displayedTime = (godzina === currentTimeFormatted) ? "TERAZ" : godzina;
-            const newRow = document.createElement("tr");
-            newRow.innerHTML =
-              `<td colspan="9" style="text-align: center; font-size: 15px; padding: 3px;">
+            return `${hours}:${minutes}`;
+        }
+
+
+
+
+
+
+
+
+
+        async function addPodmianaRows() {
+            try {
+                const pathParts = window.location.pathname.split("/");
+                const folderName = pathParts[pathParts.length - 2];
+                console.log("Nazwa folderu:", folderName);
+
+                let brygadaNumber;
+                switch (folderName) {
+                    case 'Niedzielny':
+                        brygadaNumber = '1';
+                        break;
+                    case 'Powszedni':
+                        brygadaNumber = '2';
+                        break;
+                    case 'PowszedniWolny':
+                        brygadaNumber = '3';
+                        break;
+                    case 'Sobotni':
+                        brygadaNumber = '4';
+                        break;
+                    default:
+                        brygadaNumber = '2';
+                }
+
+                const brygadaTitle = sessionStorage.getItem("brygadaTitle");
+                if (!brygadaTitle) {
+                    console.error("Nie znaleziono brygadaTitle w sessionStorage.");
+                    return;
+                }
+
+                const basePath = `../../../Brygady/WYNIKI/Gotowe_brygady/${brygadaNumber}/${brygadaTitle}`;
+                const podmianaPath = `${basePath}/podmiana.txt`;
+                console.log("Ścieżka do pliku:", podmianaPath);
+
+                // Sprawdzenie istnienia pliku podmiana.txt
+                const response = await fetch(podmianaPath);
+                if (response.ok) {
+                    const text = await response.text();
+                    processPodmianaFile(text);
+                } else {
+                    console.warn("Plik podmiana.txt nie istnieje. Sprawdzanie alternatywnych plików...");
+                    const zakonczenieAPath = `${basePath}/ZakonczenieA.txt`;
+                    const rozpoczecieBPath = `${basePath}/RozpoczecieB.txt`;
+
+                    const [zakonczenieAResponse, rozpoczecieBResponse] = await Promise.all([
+                        fetch(zakonczenieAPath),
+                        fetch(rozpoczecieBPath)
+                    ]);
+
+                    if (zakonczenieAResponse.ok && rozpoczecieBResponse.ok) {
+                        const zakonczenieAContent = await zakonczenieAResponse.text();
+                        const rozpoczecieBContent = await rozpoczecieBResponse.text();
+
+                        const [przystanekZakonczenieA, godzinaZakonczenieA] = parseFileContent(zakonczenieAContent);
+                        const [przystanekRozpoczecieB, godzinaRozpoczeciaB] = parseFileContent(rozpoczecieBContent);
+
+                        insertRowAtCorrectPosition(
+                            przystanekZakonczenieA,
+                            godzinaZakonczenieA,
+                            przystanekRozpoczecieB,
+                            godzinaRozpoczeciaB
+                        );
+                    } else {
+                        console.error("Nie znaleziono wymaganych plików ZakonczenieA.txt i RozpoczecieB.txt.");
+                    }
+                }
+            } catch (error) {
+                console.error("Wystąpił błąd:", error);
+            }
+        }
+
+        function processPodmianaFile(text) {
+            const podmianaLines = text.split("\n").map(line => line.trim()).filter(line => line);
+
+            let tableBody = document.querySelector("#rozkładTable tbody");
+            if (!tableBody) {
+                console.error("Nie znaleziono tabeli z id 'rozkładTable'.");
+                return;
+            }
+
+            let tableRows = Array.from(tableBody.querySelectorAll("tr"));
+            const now = new Date();
+            const currentTimeFormatted = `${now.getHours().toString().padStart(2, '0')}:${now.getMinutes().toString().padStart(2, '0')}`;
+
+            podmianaLines.forEach((line) => {
+                const [przystanek, godzina] = line.split("\t").map(item => item.trim());
+
+                for (let i = 0; i < tableRows.length - 1; i++) {
+                    const currentRow = tableRows[i];
+                    const nextRow = tableRows[i + 1];
+                    let currentTime = currentRow.cells[4]?.textContent;
+                    let nextTime = nextRow.cells[4]?.textContent;
+
+                    if (!nextTime) {
+                        const thirdRow = tableRows[i + 2];
+                        nextTime = thirdRow ? thirdRow.cells[4]?.textContent : null;
+                    }
+
+                    if (currentTime && nextTime && isBetween(godzina, currentTime, nextTime)) {
+                        sessionStorage.setItem('godzina', godzina);
+
+                        const displayedTime = (godzina === currentTimeFormatted) ? "TERAZ" : godzina;
+                        const newRow = document.createElement("tr");
+                        newRow.innerHTML =
+                            `<td colspan="9" style="text-align: center; font-size: 15px; padding: 3px;">
                         Podmiana: <strong>${przystanek}</strong> &nbsp;&nbsp; ${displayedTime}
                     </td>`;
 
-            if (godzina === currentTimeFormatted) {
-              newRow.classList.add("blink");
+                        if (godzina === currentTimeFormatted) {
+                            newRow.classList.add("blink");
+                        }
+
+                        tableBody.insertBefore(newRow, nextRow);
+                        break;
+                    }
+                }
+            });
+        }
+
+        function insertRowAtCorrectPosition(przystanekZakonczenieA, godzinaZakonczenieA, przystanekRozpoczecieB, godzinaRozpoczeciaB) {
+            let tableBody = document.querySelector("#rozkładTable tbody");
+            if (!tableBody) {
+                console.error("Nie znaleziono tabeli z id 'rozkładTable'.");
+                return;
             }
 
-            tableBody.insertBefore(newRow, nextRow);
-            break;
-          }
-        }
-      });
-    }
+            let tableRows = Array.from(tableBody.querySelectorAll("tr"));
+            for (let i = 0; i < tableRows.length - 1; i++) {
+                const currentRow = tableRows[i];
+                const nextRow = tableRows[i + 1];
+                let currentTime = currentRow.cells[4]?.textContent;
+                let nextTime = nextRow.cells[4]?.textContent;
 
-    function insertRowAtCorrectPosition(przystanekZakonczenieA, godzinaZakonczenieA, przystanekRozpoczecieB, godzinaRozpoczeciaB) {
-      let tableBody = document.querySelector("#rozkładTable tbody");
-      if (!tableBody) {
-        console.error("Nie znaleziono tabeli z id 'rozkładTable'.");
-        return;
-      }
+                if (!nextTime) {
+                    const thirdRow = tableRows[i + 2];
+                    nextTime = thirdRow ? thirdRow.cells[4]?.textContent : null;
+                }
 
-      let tableRows = Array.from(tableBody.querySelectorAll("tr"));
-      for (let i = 0; i < tableRows.length - 1; i++) {
-        const currentRow = tableRows[i];
-        const nextRow = tableRows[i + 1];
-        let currentTime = currentRow.cells[4]?.textContent;
-        let nextTime = nextRow.cells[4]?.textContent;
-
-        if (!nextTime) {
-          const thirdRow = tableRows[i + 2];
-          nextTime = thirdRow ? thirdRow.cells[4]?.textContent : null;
-        }
-
-        if (currentTime && nextTime && isBetween(godzinaZakonczenieA, currentTime, nextTime)) {
-          const newRow = document.createElement("tr");
-          newRow.innerHTML =
-            `<td colspan="9" style="text-align: center; font-size: 15px; padding: 3px;">
+                if (currentTime && nextTime && isBetween(godzinaZakonczenieA, currentTime, nextTime)) {
+                    const newRow = document.createElement("tr");
+                    newRow.innerHTML =
+                        `<td colspan="9" style="text-align: center; font-size: 15px; padding: 3px;">
                     <strong> Podmiana: ${przystanekZakonczenieA} </strong><br>
                     Zakończenie A: <strong> ${godzinaZakonczenieA} </strong> | Rozpoczęcie B: <strong> ${godzinaRozpoczeciaB} </strong>
                 </td>`;
-          tableBody.insertBefore(newRow, nextRow);
-          break;
-        }
-      }
-    }
-
-    function parseFileContent(content) {
-      const lines = content.split("\n").map(line => line.trim()).filter(line => line);
-      if (lines.length > 0) {
-        return lines[0].split("\t").map(item => item.trim());
-      }
-      return [null, null];
-    }
-
-    function isBetween(value, start, end) {
-      const [valueH, valueM] = value.split(":").map(Number);
-      const [startH, startM] = start.split(":").map(Number);
-      const [endH, endM] = end.split(":").map(Number);
-
-      const valueMinutes = valueH * 60 + valueM;
-      const startMinutes = startH * 60 + startM;
-      const endMinutes = endH * 60 + endM;
-
-      return valueMinutes > startMinutes && valueMinutes < endMinutes;
-    }
-
-
-
-
-
-
-
-    function brygadabisowa() {
-      const tableBody = document.getElementById("dane-tabeli");
-      const rows = tableBody.getElementsByTagName("tr");
-      let maxGap = 0;
-      let maxGapIndex = -1;
-      const brygadaType = sessionStorage.getItem("BrygadaType");
-
-
-      if (brygadaType === "Brygada Szczytowa") {
-
-        // Funkcja pomocnicza do parsowania czasu (np. "14:30")
-        function parseTime(timeString) {
-          if (!timeString) return null; // Jeśli null lub pusty, zwróć null
-          const [hours, minutes] = timeString.split(":").map(Number);
-          return hours * 60 + minutes; // Zwraca czas w minutach 
-        }
-
-        // Iteracja przez wiersze tabeli
-        for (let i = 0; i < rows.length - 1; i++) {
-          const currentRow = rows[i];
-          const nextRow = rows[i + 1];
-
-          if (!currentRow || !nextRow) continue; // Upewniamy się, że oba wiersze istnieją
-
-          const endTimeCurrent = currentRow.cells[5]?.textContent.trim(); // "Godz. Zak."
-          let startTimeNext = nextRow.cells[4]?.textContent.trim(); // "Godz. Rozp."
-
-          // Jeśli "Godz. Rozp." wiersza następnego jest null, weź wartość z kolejnego wiersza (o ile istnieje)
-          if (!startTimeNext && rows[i + 2]) {
-            const nextNextRow = rows[i + 2];
-            startTimeNext = nextNextRow?.cells[4]?.textContent.trim();
-          }
-
-          // Parsowanie czasów
-          const endMinutes = parseTime(endTimeCurrent);
-          const startMinutes = parseTime(startTimeNext);
-
-          // Jeśli brak jednego z czasów, pomijamy tę parę
-          if (endMinutes === null || startMinutes === null) continue;
-
-          const gap = startMinutes - endMinutes;
-          if (gap > maxGap) {
-            maxGap = gap;
-            maxGapIndex = i;
-          }
-        }
-
-        // Dodanie nowego wiersza z informacją o najdłuższej przerwie
-        if (maxGapIndex !== -1) {
-          const newRow = document.createElement("tr");
-
-          newRow.innerHTML =
-            `<td colspan="9" style="text-align: center; background-color: purple;"> <strong> Przerwa bisowa </strong> (${Math.floor(maxGap / 60)}h ${maxGap % 60}min) </td>`;
-          // Wstaw nowy wiersz po wierszu, który ma największą różnicę
-          tableBody.insertBefore(newRow, rows[maxGapIndex + 1]);
-        }
-      }
-    }
-
-    function WyjazdNaLinie() {
-      const tableBody = document.querySelector("#rozkładTable tbody");
-      // Add the "Wyjazd Na Linie" row if needed
-      let wyjazdAdded = false;
-      if (tableBody.rows.length > 0) {
-        const firstPoczątekValue = tableBody.rows[0].cells[2].innerText.trim();
-        const wasRezerwa = firstPoczątekValue === "Rezerwa";
-        const nextRowPoczątekValue = tableBody.rows[1].cells[2].innerText.trim();
-
-        // Jeśli pierwsza komórka nie jest "Lubelska Zajezdnia MPK"
-        if (firstPoczątekValue !== "Lubelska Zajezdnia MPK") {
-          // Jeżeli wartość w pierwszej komórce nie jest "Rezerwa" i druga komórka nie zawiera "Lubelska Zajezdnia MPK"
-          if (!wasRezerwa || nextRowPoczątekValue !== "Lubelska Zajezdnia MPK") {
-            let wyjazdRow = document.createElement("tr");
-            let wyjazdCell = document.createElement("td");
-            wyjazdCell.colSpan = 9;
-            wyjazdCell.innerText = "Wyjazd Na Linie";
-            wyjazdCell.style.textAlign = "center"; // Wyśrodkowanie tekstu
-            wyjazdRow.appendChild(wyjazdCell);
-            tableBody.insertBefore(wyjazdRow, tableBody.rows[0]);
-            wyjazdRow.style.backgroundColor = "rgba(163, 120, 0)";
-            wyjazdAdded = true;
-          }
-        }
-      }
-    }
-
-    function PrzejazdTechniczny() {
-      const tableBody = document.querySelector("#rozkładTable tbody");
-      // Przejazd Techniczny
-      const exceptions = ["Głogów Młp. Leniar I  nż", "Głogów Młp. Leniar I  nż", "Langiewicza / Wita Stwosza", "Wita Stwosza pętla", "Ustrzycka  nż", "Ustrzycka / Magórska "];
-      let rowCount = tableBody.rows.length; // Zapisz początkową liczbę wierszy w tabeli
-
-      for (let i = 0; i < rowCount - 1; i++) {
-        // Sprawdź, czy to już ostatni wiersz
-        if (i === rowCount - 2) {
-          break; // Przerywamy działanie pętli, jeśli osiągnęliśmy przedostatni wiersz
-        }
-
-        const currentRow = tableBody.rows[i];
-        const nextRow = tableBody.rows[i + 1];
-        const kierunekValue = currentRow.cells[3] ? currentRow.cells[3].innerText : null;
-        let początekValue = nextRow.cells[2] ? nextRow.cells[2].innerText : null;
-        let cleanKierunek = kierunekValue ? removeNumbers(kierunekValue).trim() : null;
-        let cleanPoczątek = początekValue ? removeNumbers(początekValue).trim() : null;
-
-        // Sprawdzamy, czy cleanPoczątek to "Rezerwa"
-        const wasRezerwa = cleanPoczątek === "Rezerwa";
-
-        // Jeśli cleanPoczątek to "Rezerwa", to zaktualizuj go o wartość z kolejnego wiersza (i + 2)
-        if (wasRezerwa && tableBody.rows[i + 2]) {
-          const nextNextRow = tableBody.rows[i + 2];
-          początekValue = nextNextRow.cells[2] ? nextNextRow.cells[2].innerText : null;
-          cleanPoczątek = początekValue ? removeNumbers(początekValue).trim() : null;
-        }
-
-        // Sprawdzamy, czy cleanKierunek jest różne od cleanPoczątek po aktualizacji
-        if (cleanKierunek && cleanPoczątek && cleanKierunek !== cleanPoczątek) {
-          let isNotException = true;
-
-          // Sprawdzenie wyjątków
-          for (let exception of exceptions) {
-            if (cleanKierunek === exception || cleanPoczątek === exception) {
-              isNotException = false;
-              break;
+                    tableBody.insertBefore(newRow, nextRow);
+                    break;
+                }
             }
-          }
+        }
 
-          // Jeśli nie ma wyjątków, dodaj wiersz "Przejazd Techniczny"
-          if (isNotException) {
-            let przejazdRow = document.createElement("tr");
-            let przejazdCell = document.createElement("td");
-            przejazdCell.colSpan = 9;
-            przejazdCell.innerText = "Przejazd Techniczny";
-            przejazdCell.style.textAlign = "center";
-            przejazdRow.appendChild(przejazdCell);
+        function parseFileContent(content) {
+            const lines = content.split("\n").map(line => line.trim()).filter(line => line);
+            if (lines.length > 0) {
+                return lines[0].split("\t").map(item => item.trim());
+            }
+            return [null, null];
+        }
 
-            // Dodaj "Przejazd Techniczny" poniżej tylko w przypadku, gdy początkowy cleanPoczątek wynosił "Rezerwa"
-            if (wasRezerwa) {
-              tableBody.insertBefore(przejazdRow, nextRow.nextSibling); // Dodaj po currentRow
-              rowCount++; // Zwiększamy rowCount, bo dodaliśmy wiersz
-              i++; // Zwiększ i, aby pominąć dodany wiersz
+        function isBetween(value, start, end) {
+            const [valueH, valueM] = value.split(":").map(Number);
+            const [startH, startM] = start.split(":").map(Number);
+            const [endH, endM] = end.split(":").map(Number);
+
+            const valueMinutes = valueH * 60 + valueM;
+            const startMinutes = startH * 60 + startM;
+            const endMinutes = endH * 60 + endM;
+
+            return valueMinutes > startMinutes && valueMinutes < endMinutes;
+        }
+
+
+
+
+
+
+
+        function brygadabisowa() {
+            const tableBody = document.getElementById("dane-tabeli");
+            const rows = tableBody.getElementsByTagName("tr");
+            let maxGap = 0;
+            let maxGapIndex = -1;
+            const brygadaType = sessionStorage.getItem("BrygadaType");
+
+
+            if (brygadaType === "Brygada Szczytowa") {
+
+                // Funkcja pomocnicza do parsowania czasu (np. "14:30")
+                function parseTime(timeString) {
+                    if (!timeString) return null; // Jeśli null lub pusty, zwróć null
+                    const [hours, minutes] = timeString.split(":").map(Number);
+                    return hours * 60 + minutes; // Zwraca czas w minutach 
+                }
+
+                // Iteracja przez wiersze tabeli
+                for (let i = 0; i < rows.length - 1; i++) {
+                    const currentRow = rows[i];
+                    const nextRow = rows[i + 1];
+
+                    if (!currentRow || !nextRow) continue; // Upewniamy się, że oba wiersze istnieją
+
+                    const endTimeCurrent = currentRow.cells[5]?.textContent.trim(); // "Godz. Zak."
+                    let startTimeNext = nextRow.cells[4]?.textContent.trim(); // "Godz. Rozp."
+
+                    // Jeśli "Godz. Rozp." wiersza następnego jest null, weź wartość z kolejnego wiersza (o ile istnieje)
+                    if (!startTimeNext && rows[i + 2]) {
+                        const nextNextRow = rows[i + 2];
+                        startTimeNext = nextNextRow?.cells[4]?.textContent.trim();
+                    }
+
+                    // Parsowanie czasów
+                    const endMinutes = parseTime(endTimeCurrent);
+                    const startMinutes = parseTime(startTimeNext);
+
+                    // Jeśli brak jednego z czasów, pomijamy tę parę
+                    if (endMinutes === null || startMinutes === null) continue;
+
+                    const gap = startMinutes - endMinutes;
+                    if (gap > maxGap) {
+                        maxGap = gap;
+                        maxGapIndex = i;
+                    }
+                }
+
+                // Dodanie nowego wiersza z informacją o najdłuższej przerwie
+                if (maxGapIndex !== -1) {
+                    const newRow = document.createElement("tr");
+
+                    newRow.innerHTML =
+                        `<td colspan="9" style="text-align: center; background-color: purple;"> <strong> Przerwa bisowa </strong> (${Math.floor(maxGap / 60)}h ${maxGap % 60}min) </td>`;
+                    // Wstaw nowy wiersz po wierszu, który ma największą różnicę
+                    tableBody.insertBefore(newRow, rows[maxGapIndex + 1]);
+                }
+            }
+        }
+
+        function WyjazdNaLinie() {
+            const tableBody = document.querySelector("#rozkładTable tbody");
+            // Add the "Wyjazd Na Linie" row if needed
+            let wyjazdAdded = false;
+            if (tableBody.rows.length > 0) {
+                const firstPoczątekValue = tableBody.rows[0].cells[2].innerText.trim();
+                const wasRezerwa = firstPoczątekValue === "Rezerwa";
+                const nextRowPoczątekValue = tableBody.rows[1].cells[2].innerText.trim();
+
+                // Jeśli pierwsza komórka nie jest "Lubelska Zajezdnia MPK"
+                if (firstPoczątekValue !== "Lubelska Zajezdnia MPK") {
+                    // Jeżeli wartość w pierwszej komórce nie jest "Rezerwa" i druga komórka nie zawiera "Lubelska Zajezdnia MPK"
+                    if (!wasRezerwa || nextRowPoczątekValue !== "Lubelska Zajezdnia MPK") {
+                        let wyjazdRow = document.createElement("tr");
+                        let wyjazdCell = document.createElement("td");
+                        wyjazdCell.colSpan = 9;
+                        wyjazdCell.innerText = "Wyjazd Na Linie";
+                        wyjazdCell.style.textAlign = "center"; // Wyśrodkowanie tekstu
+                        wyjazdRow.appendChild(wyjazdCell);
+                        tableBody.insertBefore(wyjazdRow, tableBody.rows[0]);
+                        wyjazdRow.style.backgroundColor = "rgba(163, 120, 0)";
+                        wyjazdAdded = true;
+                    }
+                }
+            }
+        }
+
+        function PrzejazdTechniczny() {
+            const tableBody = document.querySelector("#rozkładTable tbody");
+            // Przejazd Techniczny
+            const exceptions = ["Głogów Młp. Leniar I  nż", "Głogów Młp. Leniar I  nż", "Langiewicza / Wita Stwosza", "Wita Stwosza pętla", "Ustrzycka  nż", "Ustrzycka / Magórska "];
+            let rowCount = tableBody.rows.length; // Zapisz początkową liczbę wierszy w tabeli
+
+            for (let i = 0; i < rowCount - 1; i++) {
+                // Sprawdź, czy to już ostatni wiersz
+                if (i === rowCount - 2) {
+                    break; // Przerywamy działanie pętli, jeśli osiągnęliśmy przedostatni wiersz
+                }
+
+                const currentRow = tableBody.rows[i];
+                const nextRow = tableBody.rows[i + 1];
+                const kierunekValue = currentRow.cells[3] ? currentRow.cells[3].innerText : null;
+                let początekValue = nextRow.cells[2] ? nextRow.cells[2].innerText : null;
+                let cleanKierunek = kierunekValue ? removeNumbers(kierunekValue).trim() : null;
+                let cleanPoczątek = początekValue ? removeNumbers(początekValue).trim() : null;
+
+                // Sprawdzamy, czy cleanPoczątek to "Rezerwa"
+                const wasRezerwa = cleanPoczątek === "Rezerwa";
+
+                // Jeśli cleanPoczątek to "Rezerwa", to zaktualizuj go o wartość z kolejnego wiersza (i + 2)
+                if (wasRezerwa && tableBody.rows[i + 2]) {
+                    const nextNextRow = tableBody.rows[i + 2];
+                    początekValue = nextNextRow.cells[2] ? nextNextRow.cells[2].innerText : null;
+                    cleanPoczątek = początekValue ? removeNumbers(początekValue).trim() : null;
+                }
+
+                // Sprawdzamy, czy cleanKierunek jest różne od cleanPoczątek po aktualizacji
+                if (cleanKierunek && cleanPoczątek && cleanKierunek !== cleanPoczątek) {
+                    let isNotException = true;
+
+                    // Sprawdzenie wyjątków
+                    for (let exception of exceptions) {
+                        if (cleanKierunek === exception || cleanPoczątek === exception) {
+                            isNotException = false;
+                            break;
+                        }
+                    }
+
+                    // Jeśli nie ma wyjątków, dodaj wiersz "Przejazd Techniczny"
+                    if (isNotException) {
+                        let przejazdRow = document.createElement("tr");
+                        let przejazdCell = document.createElement("td");
+                        przejazdCell.colSpan = 9;
+                        przejazdCell.innerText = "Przejazd Techniczny";
+                        przejazdCell.style.textAlign = "center";
+                        przejazdRow.appendChild(przejazdCell);
+
+                        // Dodaj "Przejazd Techniczny" poniżej tylko w przypadku, gdy początkowy cleanPoczątek wynosił "Rezerwa"
+                        if (wasRezerwa) {
+                            tableBody.insertBefore(przejazdRow, nextRow.nextSibling); // Dodaj po currentRow
+                            rowCount++; // Zwiększamy rowCount, bo dodaliśmy wiersz
+                            i++; // Zwiększ i, aby pominąć dodany wiersz
+                        } else {
+                            tableBody.insertBefore(przejazdRow, nextRow);
+                            rowCount++; // Zwiększamy rowCount, bo dodaliśmy wiersz
+                            i++; // Zwiększ i, aby pominąć dodany wiersz
+                        }
+
+                        przejazdRow.style.backgroundColor = "rgba(163, 120, 0)";
+                    }
+                }
+            }
+        }
+
+        function ZjazdDoZajezdni() {
+            // Add the "Zjazd Do Zajezdni" row if needed
+            const tableBody = document.querySelector("#rozkładTable tbody");
+            if (tableBody.rows.length > 0) {
+                const lastRow = tableBody.rows[tableBody.rows.length - 1];
+                const beflastRow = tableBody.rows[tableBody.rows.length - 2];
+                const KierunekValue = beflastRow.cells[3].innerText.trim();
+
+                // Check if the last row has enough cells (at least 4 cells)
+                if (lastRow.cells.length > 3) {
+                    const lastKierunekValue = lastRow.cells[3].innerText.trim();
+
+                    const lastPoczatekValue = lastRow.cells[2].innerText.trim();
+
+                    if (lastKierunekValue !== "Lubelska Zajezdnia MPK" && lastPoczatekValue !== "Rezerwa") {
+                        let zjazdRow = document.createElement("tr");
+                        let zjazdCell = document.createElement("td");
+                        zjazdCell.colSpan = 9;
+                        zjazdCell.innerText = "Zjazd Do Zajezdni";
+                        zjazdCell.style.textAlign = "center";
+                        zjazdRow.appendChild(zjazdCell);
+                        tableBody.appendChild(zjazdRow);
+                        zjazdRow.style.backgroundColor = "rgba(163, 120, 0)";
+                    } else if (lastPoczatekValue == "Rezerwa" && KierunekValue !== "Lubelska Zajezdnia MPK") {
+
+                        let zjazdRow = document.createElement("tr");
+                        let zjazdCell = document.createElement("td");
+                        zjazdCell.colSpan = 9;
+                        zjazdCell.innerText = "Zjazd Do Zajezdni";
+                        zjazdCell.style.textAlign = "center";
+                        zjazdRow.appendChild(zjazdCell);
+                        tableBody.appendChild(zjazdRow);
+                        zjazdRow.style.backgroundColor = "rgba(163, 120, 0)";
+
+                    }
+                }
+            }
+        }
+
+
+
+
+
+
+        function drukujRozklad() {
+            // Pobranie numeru linii (zawsze oddzielony przecinkiem)
+            const nrLinii = Array.from(new Set(
+                    [...document.querySelectorAll("#rozkładTable tbody tr td:nth-child(2)")].map(cell => cell.innerText.trim())
+                ))
+                .sort((a, b) => a - b) // Sortowanie od najmniejszej do największej
+                .join(", ") || "Brak!"; // Domyślna wartość, jeśli brak
+
+
+            // Pobranie wartości brygady z sessionStorage
+            let nrBrygada = "NR_BRYGADA"; // Domyślna wartość
+
+            const brygadaTitle = sessionStorage.getItem('brygadaTitle');
+            if (brygadaTitle) {
+                const formattedTitle = brygadaTitle.replace(/_/g, '/');
+                nrBrygada = `${formattedTitle}`;
             } else {
-              tableBody.insertBefore(przejazdRow, nextRow);
-              rowCount++; // Zwiększamy rowCount, bo dodaliśmy wiersz
-              i++; // Zwiększ i, aby pominąć dodany wiersz
+                console.error("Nie znaleziono brygadaTitle w sessionStorage.");
+            }
+            debugger;
+            console.log("Numer linii wysyłany do serwera:", nrLinii);
+
+
+            fetch('/getRouteStops', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        nrLinii: nrLinii
+                    }) // Wysyłamy nrLinii do serwera
+                })
+                .then(response => response.json())
+                .then(data => {
+                    console.log('Odpowiedź z serwera:', data); // Logowanie odpowiedzi
+                    if (data.stops && Array.isArray(data.stops)) {
+                        // Tylko wtedy, gdy odpowiedź zawiera poprawne dane
+                        updateTable(data.stops); // Funkcja do aktualizacji tabeli
+                    } else {
+                        console.error('Błąd: Brak przystanków w odpowiedzi');
+                    }
+                })
+                .catch(error => {
+                    console.error("Błąd w wysyłaniu numeru linii:", error);
+                });
+
+
+            function updateTable(przystanki) {
+                // Znajdź tabelę i ciało tabeli
+                const tabela = document.querySelector("#rozkładTable");
+                const tbody = tabela.querySelector("tbody");
+
+                // Usuń istniejące wiersze w tabeli
+                tbody.innerHTML = '';
+
+                // Dodaj nowe wiersze na podstawie przystanków
+                przystanki.forEach((przystanek, index) => {
+                    const tr = document.createElement("tr");
+
+                    const td1 = document.createElement("td");
+                    td1.innerText = index + 1; // Numer porządkowy przystanku
+                    tr.appendChild(td1);
+
+                    const td2 = document.createElement("td");
+                    td2.innerText = przystanek; // Nazwa przystanku
+                    tr.appendChild(td2);
+
+                    tbody.appendChild(tr); // Dodaj wiersz do ciała tabeli
+                });
             }
 
-            przejazdRow.style.backgroundColor = "rgba(163, 120, 0)";
-          }
+
+
+            // Pobranie wartości "ChoosedTypeOfDay" z sessionStorage
+            let choosedTypeOfDay = sessionStorage.getItem('ChoosedTypeOfDay') || "2"; // Domyślna wartość to "2" (Rozkład ROBOCZY), jeśli brak
+
+            // Zmienna choosedTypeOfDay z mapowaniem wartości
+            switch (choosedTypeOfDay) {
+                case "1":
+                    choosedTypeOfDay = "Rozkład NIEDZIELNY";
+                    break;
+                case "2":
+                    choosedTypeOfDay = "Rozkład ROBOCZY";
+                    break;
+                case "3":
+                    choosedTypeOfDay = "Rozkład WAKACYJNY";
+                    break;
+                case "4":
+                    choosedTypeOfDay = "Rozkład SOBOTNI";
+                    break;
+                default:
+                    choosedTypeOfDay = "Error"; // Domyślnie, jeśli wartość jest nieznana
+                    break;
+            }
+
+
+            // Pobranie zawartości tabeli
+            const tabela = document.querySelector("#rozkładTable")?.outerHTML || "<p>Brak danych w tabeli</p>";
+
+            // Pobranie daty z serwera
+            fetch('/getDateFrom')
+                .then(response => response.text())
+                .then(dateFrom => {
+                    const ilKm = document.querySelector("#kilometers")?.innerText || "IL_KM";
+
+                    // Tworzenie nowego okna do druku
+                    const oknoDrukowania = window.open("", "_blank");
+                    oknoDrukowania.document.write(`
+<html>
+
+<head>
+    <title>Rozkład do Druku</title>
+    <style>
+        @page {
+            size: A5 portrait;
+            margin: 0.5cm;
         }
-      }
-    }
 
-    function ZjazdDoZajezdni() {
-      // Add the "Zjazd Do Zajezdni" row if needed
-      const tableBody = document.querySelector("#rozkładTable tbody");
-      if (tableBody.rows.length > 0) {
-        const lastRow = tableBody.rows[tableBody.rows.length - 1];
-        const beflastRow = tableBody.rows[tableBody.rows.length - 2];
-        const KierunekValue = beflastRow.cells[3].innerText.trim();
-
-        // Check if the last row has enough cells (at least 4 cells)
-        if (lastRow.cells.length > 3) {
-          const lastKierunekValue = lastRow.cells[3].innerText.trim();
-
-          const lastPoczatekValue = lastRow.cells[2].innerText.trim();
-
-          if (lastKierunekValue !== "Lubelska Zajezdnia MPK" && lastPoczatekValue !== "Rezerwa") {
-            let zjazdRow = document.createElement("tr");
-            let zjazdCell = document.createElement("td");
-            zjazdCell.colSpan = 9;
-            zjazdCell.innerText = "Zjazd Do Zajezdni";
-            zjazdCell.style.textAlign = "center";
-            zjazdRow.appendChild(zjazdCell);
-            tableBody.appendChild(zjazdRow);
-            zjazdRow.style.backgroundColor = "rgba(163, 120, 0)";
-          } else if (lastPoczatekValue == "Rezerwa" && KierunekValue !== "Lubelska Zajezdnia MPK") {
-
-            let zjazdRow = document.createElement("tr");
-            let zjazdCell = document.createElement("td");
-            zjazdCell.colSpan = 9;
-            zjazdCell.innerText = "Zjazd Do Zajezdni";
-            zjazdCell.style.textAlign = "center";
-            zjazdRow.appendChild(zjazdCell);
-            tableBody.appendChild(zjazdRow);
-            zjazdRow.style.backgroundColor = "rgba(163, 120, 0)";
-
-          }
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 2px solid black;
+            position: relative;
         }
-      }
-    }
+
+        .header {
+            position: absolute;
+            top: 0.5cm;
+            left: 0.5cm;
+            width: 2.8cm;
+            height: 0.5cm;
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        #nr_linii {
+            position: absolute;
+            top: 1.0cm;
+            left: 0.5cm;
+            width: 2.8cm;
+            height: calc(1.5cm + 2px);
+            border-top: none;
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+            border-bottom: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .data_waznosci {
+            position: absolute;
+            top: 0.5cm;
+            left: calc(3.3cm + 1px);
+            width: 2.5cm;
+            height: 1cm;
+            border: 1px solid black;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 0 5px;
+        }
+
+        .data_waznosci span {
+            display: block;
+        }
+
+        .data_waznosci_duplikat {
+            position: absolute;
+            top: calc(1.5cm + 2px - 1px);
+            left: calc(3.3cm + 1px);
+            width: 2.5cm;
+            height: 1cm;
+            border: 1px solid black;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 0 5px;
+        }
+
+        .data_waznosci_duplikat span {
+            display: block;
+        }
+
+        .duzy_prostokat {
+            position: absolute;
+            top: 0.5cm;
+            left: calc(5.8cm + 1px + 10px + 1px);
+            width: 4.25cm;
+            height: calc(1.8cm - 2px);
+            border: 1px solid black;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 5px;
+        }
+
+        .duzy_prostokat span {
+            display: block;
+            margin-bottom: 3px;
+        }
+
+        .nowy_prostokat {
+            position: absolute;
+            top: 0.5cm;
+            right: 0.5cm;
+            width: 3.5cm;
+            height: 1.5cm;
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .nowy_prostokat span {
+            display: block;
+            font-weight: bold;
+        }
+
+        .header2 {
+            position: absolute;
+            top: calc(2.0cm + 1px);
+            right: 0.5cm;
+            width: 3.5cm;
+            height: 0.5cm;
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .Start {
+            position: absolute;
+            top: calc(2.5cm + 2px);
+            right: 0.5cm;
+            width: 13.65cm;
+            height: 0.5cm;
+            border: 1px solid black;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            text-align: center;
+        }
+
+        .End {
+            width: 13.65cm;
+            height: 0.5cm;
+            border: 1px solid black;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            text-align: center;
+        }
+
+        .Przerwa1 {
+            position: absolute;
+            top: calc(3cm + 3px);
+            right: 0.5cm;
+            width: 13.65cm;
+            height: 0.20cm;
+            border: 1px solid black;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            text-align: center;
+        }
+
+        .Przerwa {
+            width: 13.65cm;
+            height: 0.25cm;
+            border: 1px solid black;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            text-align: center;
+        }
+
+        .rozklad {
+            width: 90%;
+            margin-top: 3.5cm;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            text-align: center;
+            padding: 5px;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        #rozkładTable{
+position: absolute;
+        top: 200px;
+}
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        Linie :
+    </div>
+    <div id="nr_linii">
+        ${nrLinii}
+    </div>
+    <div class="data_waznosci">
+        <span>Ważny od :</span>
+        <span>${dateFrom}</span>
+    </div>
+    <div class="data_waznosci_duplikat">
+        <span>Kilometry :</span>
+        <span>${ilKm}</span>
+    </div>
+    <div class="nowy_prostokat">
+        <span>${nrBrygada}</span>
+    </div>
+    <div class="header2">
+        <span>${choosedTypeOfDay}</span>
+    </div>
+    <div class="duzy_prostokat">
+        <span>ROZPOCZĘCIE - XX:XX</span>
+        <span>ZAKOŃCZENIE - XX:XX</span>
+        <span>CZAS PRACA - XX:XX</span>
+    </div>
+    <div class="Start">
+        <span>&nbsp;ROZPOCZĄCIE PRACY - Bardowskiego 04</span>
+    </div>
+    <div class="Przerwa1">
+        <span></span>
+    </div>
+
+    <div class="Przerwa">
+        <span></span>
+    </div>
+    <div class="End">
+        <span>&nbsp;ZAKOŃCZENIE PRACY - Bardowskiego 04</span>
+    </div>
+</body>
+
+</html>
+            `);
+                    oknoDrukowania.document.close();
+                    oknoDrukowania.print();
+                })
+                .catch(error => {
+                    console.error("Błąd pobierania daty z serwera:", error);
+                });
+        }
 
 
 
@@ -1277,33 +1657,33 @@
 
 
 
-    // Główna funkcja init()
-    async function init() {
+        // Główna funkcja init()
+        async function init() {
 
-      checkLogin();
+            checkLogin();
 
-      loadBrygadaTitle();
-      loadBrygadaType();
+            loadBrygadaTitle();
+            loadBrygadaType();
 
-      let lines = await fetchGOTOWEFile();
-      if (lines) {
-        await processGOTOWEData(lines);
-        addPodmianaRows();
-        ZjazdDoZajezdni();
-        WyjazdNaLinie();
-        brygadabisowa();
-        PrzejazdTechniczny();
-        highlightCurrentTimeCells();
+            let lines = await fetchGOTOWEFile();
+            if (lines) {
+                await processGOTOWEData(lines);
+                addPodmianaRows();
+                ZjazdDoZajezdni();
+                WyjazdNaLinie();
+                brygadabisowa();
+                PrzejazdTechniczny();
+                highlightCurrentTimeCells();
 
-        checkAndAddRow();
+                checkAndAddRow();
 
 
-      } else {
-        console.error("Nie udało się wczytać GOTOWE.txt.");
-      }
-    }
+            } else {
+                console.error("Nie udało się wczytać GOTOWE.txt.");
+            }
+        }
 
-  </script>
+    </script>
 </body>
 
 </html>

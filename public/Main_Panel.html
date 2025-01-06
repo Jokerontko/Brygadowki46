@@ -13,16 +13,12 @@
         body {
             background: rgb(50, 50, 50);
             font-family: Arial, sans-serif;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            height: 100vh;
             color: white;
         }
 
         h1 {
             font-size: 2rem;
-            margin: 40px 0 20px;
+            margin: 40px 20px 20px;
 
         }
 
@@ -56,8 +52,6 @@
         article {
             border-radius: 10px;
             max-width: 60vw;
-            display: block;
-
         }
 
         .content p {
@@ -119,6 +113,7 @@
             border: 3px solid orange;
             margin-top: -30px;
             border-radius: 10px;
+            padding: 10px;
 
         }
 
@@ -155,8 +150,68 @@
             display: none;
         }
 
+        #date {
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+        }
+
+        #NrOfDay {
+            font-size: 90px;
+        }
+
+        #Name_day {
+            color: gray;
+        }
+
+        #Type_of_rozklad {
+            color: orange;
+        }
+
+        @media (min-width: 774px) {
+            .flex-container {
+                display: flex;
+                flex-direction: row;
+                margin: 30px;
+            }
+
+            #callendar {
+                align-items: center;
+                /* Wyśrodkowanie pionowe */
+                justify-content: center;
+                /* Wyśrodkowanie poziome */
+                border: 2px solid;
+                padding: 15px;
+                width: 250px;
+                height: 350px;
+            }
+        }
+
+        @media (max-width: 774px) {
+
+            .flex-container {
+                margin: 30px;
+            }
+
+            #callendar {
+                margin: auto;
+                border: 2px solid;
+                padding: 15px;
+                width: 250px;
+                height: 300px;
+            }
+
+        }
+
+        #news-articles {
+            margin-left: 80px;
+            margin-right: 80px;
+            min-width: 200px;
+        }
+
     </style>
 </head>
+
 
 <body>
     <header>
@@ -167,10 +222,41 @@
         <a href="#" class="menu exit" id="logout">Opuść Panel</a>
         <hr>
     </header>
-    <h1 id="welcome-message"></h1>
+    <center>
+        <h1 id="welcome-message"></h1>
+    </center>
+    <div class="flex-container">
+        <div id="callendar">
+            <center>
+                <br>
+                <span id="DayWeekType">X</span>
+                <br> <br>
+                <span id="NrOfDay"> {Data}</span>
+                <br> <br>
+                <span id="Month">x</span>
+                <br> <br>
+                <span id="Note">x</span>
+                <br>
+                <span id="Name_day">X</span>
+                <br>
+                <br>
+                <span>Obowiązuje </span>
+                <span id="Type_of_rozklad">x</span>
 
-    <section id="news-articles"></section>
-    <p class="NothingToFind"></p>
+
+            </center>
+        </div>
+
+        <section id="news-articles"></section>
+        <p class="NothingToFind"></p>
+    </div>
+
+    <div class="kreska" style="width: 100%; height: 40px; background-color: rgb(50,50,50); position: fixed; bottom: 0; color: white; text-align: center; line-height: 40px;">
+
+        <span>Brygadowki46 © 2024-2025</span>
+    </div>
+
+
 
     <script>
         // Pobierz dane użytkownika z sessionStorage
@@ -287,6 +373,110 @@
             sessionStorage.clear();
             window.location.href = 'index.html';
         });
+
+
+
+
+        // Wstawianie daty
+        const currentDate = new Date();
+
+        // Numer dnia (np. "1" zamiast "06")
+        const dayNumber = currentDate.getDate();
+
+        // Miesiąc (np. "STYCZEŃ" zamiast "01")
+        const monthNames = [
+            "STYCZEŃ", "LUTY", "MARZEC", "KWIECIEŃ", "MAJ", "CZERWIEC",
+            "LIPIEC", "SIERPIEŃ", "WRZESIEŃ", "PAŹDZIERNIK", "LISTOPAD", "GRUDZIEŃ"
+        ];
+        const monthName = monthNames[currentDate.getMonth()];
+
+        // Dzień tygodnia (np. "Poniedziałek")
+        const dayOfWeekNames = [
+            "Niedziela", "Poniedziałek", "Wtorek", "Środa", "Czwartek", "Piątek", "Sobota"
+        ];
+        const dayOfWeek = dayOfWeekNames[currentDate.getDay()];
+
+        // Wstawienie numeru dnia, miesiąca i dnia tygodnia do odpowiednich elementów
+        document.getElementById("NrOfDay").textContent = dayNumber;
+        document.getElementById("Month").textContent = monthName;
+        document.getElementById("DayWeekType").textContent = dayOfWeek;
+
+        // Funkcja do pobierania typu rozkładu i notatki z pliku Callendar.txt
+        fetch("/Brygady/Callendar.txt")
+            .then(response => response.text())
+            .then(data => {
+                // Przeszukaj dane, aby znaleźć odpowiedni wpis
+                const formattedDate = currentDate.toLocaleDateString("pl-PL", {
+                    day: "2-digit",
+                    month: "2-digit",
+                    year: "numeric"
+                });
+                const lines = data.split("\n");
+                const foundLine = lines.find(line => line.startsWith(formattedDate));
+
+                if (foundLine) {
+                    const parts = foundLine.split("\t");
+                    const scheduleType = parts[1].trim();
+                    const note = parts[2] ? parts[2].trim() : "Brak notatki"; // Jeśli brak notatki, ustaw "Brak notatki"
+
+                    document.getElementById("Type_of_rozklad").textContent = scheduleType;
+                    if (scheduleType == "Rozkład Niedzielny") {
+                        document.getElementById("callendar").style.borderColor = "red";
+                    }
+
+                    document.getElementById("Note").textContent = note; // Dodanie notatki do elementu o id="Note"
+                } else {
+                    document.getElementById("Type_of_rozklad").textContent = "Brak rozkładu dla tej daty";
+                    document.getElementById("Note").textContent = "Brak notatki dla tej daty"; // Brak notatki, ustaw odpowiedni komunikat
+                }
+            })
+            .catch(error => {
+                console.error("Błąd podczas odczytu pliku:", error);
+                document.getElementById("Type_of_rozklad").textContent = "Błąd ładowania rozkładu";
+                document.getElementById("Note").textContent = "Błąd ładowania notatki";
+            });
+
+        // Funkcja do pobierania imion z pliku Name_Day.txt na podstawie daty
+        fetch("/Brygady/Name_Day.txt")
+            .then(response => response.text())
+            .then(data => {
+                const lines = data.split("\n");
+                let monthFound = false;
+                let names = "Brak imion na tę datę";
+
+                // Szukamy odpowiedniego miesiąca i dnia
+                let i = 0;
+                while (i < lines.length) {
+                    const monthLine = lines[i].trim();
+
+                    // Jeśli znajdziesz nazwę miesiąca
+                    if (monthLine === monthName) {
+                        monthFound = true;
+                        // Przejdź do następnej linii, aby sprawdzić dni
+                        i++;
+                        while (i < lines.length && !lines[i].startsWith("STYCZEŃ") && !lines[i].startsWith("LUTY") && !lines[i].startsWith("MARZEC") && !lines[i].startsWith("KWIECIEŃ") && !lines[i].startsWith("MAJ") && !lines[i].startsWith("CZERWIEC") && !lines[i].startsWith("LIPIEC") && !lines[i].startsWith("SIERPIEŃ") && !lines[i].startsWith("WRZESIEŃ") && !lines[i].startsWith("PAŹDZIERNIK") && !lines[i].startsWith("LISTOPAD") && !lines[i].startsWith("GRUDZIEŃ")) {
+                            const dayLine = lines[i].trim();
+
+                            // Jeśli dzień pasuje do numeru dnia
+                            if (parseInt(dayLine) === dayNumber) {
+                                names = lines[i + 1].trim(); // Imiona będą w linii po dniu
+                                break;
+                            }
+
+                            i++;
+                        }
+                        break;
+                    }
+                    i++;
+                }
+
+                // Wstawienie imion do odpowiedniego elementu HTML
+                document.getElementById("Name_day").textContent = names;
+            })
+            .catch(error => {
+                console.error("Błąd podczas odczytu pliku:", error);
+                document.getElementById("Name_day").textContent = "Błąd ładowania imion";
+            });
 
     </script>
 

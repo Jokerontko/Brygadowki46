@@ -20,9 +20,6 @@ const PORT = process.env.PORT || 3000; // Use Heroku's port or 3000 locally
 // Enable JSON processing in request bodies
 app.use(bodyParser.json());
 
-// Serve static files
-app.use(express.static('public'));
-
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
@@ -501,6 +498,21 @@ app.post('/update-token', (req, res) => {
     });
 });
 
+// Endpoint do pobierania daty z pliku
+app.get('/getDateFrom', (req, res) => {
+    const filePath = path.join(__dirname, 'public', 'Brygady', 'wazny_od.txt');
+
+    fs.readFile(filePath, 'utf8', (err, data) => {
+        if (err) {
+            res.status(500).send('Błąd odczytu pliku');
+            return;
+        }
+
+        // Odpowiedź z zawartością pliku
+        res.send(data.trim()); // .trim() usuwa niepotrzebne białe znaki
+    });
+});
+
 // Obsługa żądań na innych endpointach
 app.use((req, res) => {
     res.status(404).json({
@@ -577,14 +589,139 @@ app.post('/create-news', (req, res) => {
     });
 });
 
-// Serwowanie statycznych plików (HTML, CSS, JS)
-app.use(express.static(path.join(__dirname, 'public')));
 
 
 
 
 
 
+// Middleware do obsługi JSON
+app.use(express.json());
+
+app.post('/getRouteStops', (req, res) => {
+    console.log('Otrzymano zapytanie POST do /getRouteStops');
+    const {
+        nrLinii
+    } = req.body;
+
+    if (!nrLinii) {
+        return res.status(400).json({
+            error: "Brak numeru linii."
+        });
+    }
+
+    // Ścieżka do folderu z plikami tras
+    const folderPath = path.join(__dirname, 'public', 'Brygady', 'Trasy_linii');
+    const filePath = path.join(folderPath, `${nrLinii}.txt`);
+
+    // Sprawdzanie, czy plik istnieje
+    if (!fs.existsSync(filePath)) {
+        return res.status(404).json({
+            error: "Nie znaleziono pliku dla podanej linii."
+        });
+    }
+
+    // Odczyt pliku
+    fs.readFile(filePath, 'utf-8', (err, data) => {
+        if (err) {
+            console.error('Błąd odczytu pliku:', err);
+            return res.status(500).json({
+                error: "Błąd serwera podczas odczytu pliku."
+            });
+        }
+
+        const stops = data.split('\n').map(stop => stop.trim()).filter(Boolean);
+        res.json({
+            stops
+        });
+    });
+});
+
+
+// Endpoint do pobierania daty
+app.get('/getDateFrom', (req, res) => {
+    // W tym miejscu możesz dynamicznie generować datę
+    const dateFrom = new Date().toLocaleDateString('pl-PL');
+    res.send(dateFrom);
+});
+
+
+
+
+
+
+
+
+
+// Middleware do obsługi plików statycznych
+app.use(express.static("public"));
+
+// Endpoint API do pobierania typu rozkładu
+app.get("/api/rozklad", (req, res) => {
+    const filePath = path.join(__dirname, "public/Brygady/Callendar.txt");
+
+    // Pobierz aktualną datę w formacie DD.MM.YYYY
+    const today = new Date();
+    const formattedDate = today.toLocaleDateString("pl-PL", {
+        day: "2-digit",
+        month: "2-digit",
+        year: "numeric"
+    });
+
+    console.log(`Szukam daty: ${formattedDate} w pliku ${filePath}`);
+
+    // Odczytaj zawartość pliku
+    fs.readFile(filePath, "utf8", (err, data) => {
+        if (err) {
+            console.error("Błąd odczytu pliku:", err);
+            return res.status(500).json({
+                error: "Nie udało się odczytać pliku"
+            });
+        }
+
+        // Przeszukaj plik, aby znaleźć odpowiedni wpis
+        const lines = data.split("\n");
+        const foundLine = lines.find(line => line.startsWith(formattedDate));
+
+        if (foundLine) {
+            const [, scheduleType] = foundLine.split("\t");
+            console.log(`Znaleziono rozkład: ${scheduleType.trim()}`);
+            res.json({
+                scheduleType: scheduleType.trim()
+            });
+        } else {
+            console.log("Brak danych dla dzisiejszej daty.");
+            res.json({
+                scheduleType: "Brak danych dla dzisiejszej daty"
+            });
+        }
+    });
+});
+
+// Obsługa nieistniejących endpointów
+app.use((req, res) => {
+    res.status(404).json({
+        message: "Endpoint nie istnieje."
+    });
+});
+
+
+// Obsługa żądania dla pliku Name_Day.txt
+app.get('/Brygady/Name_Day.txt', (req, res) => {
+    const filePath = path.join(__dirname, 'Name_Day.txt');
+
+    // Sprawdzenie, czy plik istnieje
+    fs.access(filePath, fs.constants.F_OK, (err) => {
+        if (err) {
+            // Jeśli plik nie istnieje, zwróć błąd 404
+            console.error('Plik Name_Day.txt nie istnieje');
+            res.status(404).send('Plik Name_Day.txt nie istnieje');
+        } else {
+            // Jeśli plik istnieje, wysyłamy go do klienta
+            res.sendFile(filePath);
+        }
+    });
+});
 
 
 // Uruchomienie serwera

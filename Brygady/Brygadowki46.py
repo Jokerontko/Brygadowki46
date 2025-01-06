@@ -3,6 +3,7 @@ import time
 import csv
 import re
 import shutil
+import datetime
 
 
 def clear_screen():
@@ -964,7 +965,6 @@ def SpecialDodajPodmiane():
   
   
   
-  
 def zmien_typ_w_pliku():
     clear_screen()
     # Pobranie danych od użytkownika
@@ -1017,7 +1017,10 @@ def zmien_typ_w_pliku():
             file.writelines(linie)
 
     except Exception as e:
-        print(f"Wystąpił błąd podczas przetwarzania pliku: {e}")
+        print(f"Wystąpił błąd podczas przetwarzania pliku: {e}")  
+
+
+
 
 
         
@@ -1066,25 +1069,406 @@ def ModyfikujBrygadyBIS():
         print(f"Wystąpił błąd w opcji 6: {e}")
 
   
+
+
+
+    
+    
+    
+def ChangeToken():  
+    clear_screen()
+
+    try:
+        # Pobranie tokenu dwukrotnie od użytkownika
+        token1 = input("Wprowadź nowy token: ")
+        token2 = input("Potwierdź nowy token: ")
+
+        # Sprawdzenie, czy tokeny są zgodne
+        if token1 != token2:
+            print("BŁĄD: Wprowadzone tokeny są różne")
+            time.sleep(2)
+            clear_screen()
+            return
+
+        # Ścieżka do pliku Token.txt
+        file_path = os.path.join("..", "public", "Token.txt")
+
+        # Utworzenie folderu ../public, jeśli nie istnieje
+        os.makedirs(os.path.dirname(file_path), exist_ok=True)
+
+        # Nadpisanie pliku Token.txt
+        with open(file_path, "w") as file:
+            file.write(token1)
+
+        print("Token został zmieniony.")
+        time.sleep(2)
+        clear_screen()
+    except Exception as e:
+        print(f"Wystąpił błąd: {e}")
+        time.sleep(2)
+        clear_screen()
   
   
+    
+def ShowToken():  
+    try:
+        with open('../public/Token.txt', 'r') as file:
+            content = file.read()
+            print("Token administratora: ", content)
+    except FileNotFoundError:
+        print("Plik nie został znaleziony. Upewnij się, że ścieżka jest poprawna.")
+    except Exception as e:
+        print(f"Wystąpił błąd: {e}")
+
+
+    
+    
+    
+   
+
+            
+            
+    
+    
+    
+def NewsList():
+    # Ścieżka do folderu z newsami
+    folder_path = '../public/News'
+    
+    # Upewniamy się, że folder istnieje
+    if not os.path.exists(folder_path):
+        print(f"Folder {folder_path} nie istnieje.")
+        return
+
+    # Pobieranie listy plików w folderze
+    files = [file for file in os.listdir(folder_path) if file.endswith('.txt')]
+
+    # Sprawdzanie, czy są pliki tekstowe
+    if not files:
+        print("Brak plików tekstowych w folderze News.")
+        return
+
+    # Wyświetlanie listy plików
+    print("Lista plików tekstowych w folderze News:")
+    for index, file in enumerate(sorted(files), start=1):
+        print(f"{index}. {file}")
+    
+    
+def AddNews():
+    clear_screen()
+    # Pobranie danych od użytkownika
+    data = input("Data: ")
+    tytul = input("Tytuł: ")
+    tresc = input("Treść: ")
+    obrazek = input("Załącznik: ")
+
+    # Ścieżka do folderu, w którym ma zostać zapisany plik
+    folder_path = '../public/News'
+    
+    # Upewnijmy się, że folder istnieje
+    if not os.path.exists(folder_path):
+        os.makedirs(folder_path)
+
+    # Ścieżka do pliku tekstowego, który będzie zawierał news
+    file_path = os.path.join(folder_path, f'{data}.txt')
+
+    # Tworzenie zawartości pliku
+    with open(file_path, 'w', encoding='utf-8') as file:
+        file.write(f"{tytul}\n")
+        file.write(f"Dodano {data}\n")
+        file.write("\n")  # Pusta linijka
+        file.write(f"{tresc}\n")
+        if obrazek:  # Jeżeli obrazek jest podany
+            file.write(f"{obrazek}\n")
+    
+    print(f"Dodano Wiadomość.")    
+    time.sleep(1)
+    clear_screen()
   
   
+def EditNews():
+    # Ścieżka do folderu z newsami
+    folder_path = '../public/News'
+    
+    # Upewniamy się, że folder istnieje
+    if not os.path.exists(folder_path):
+        print(f"Folder {folder_path} nie istnieje.")
+        return
+    
+    # Pobranie listy plików w folderze
+    files = [file for file in os.listdir(folder_path) if file.endswith('.txt')]
+    if not files:
+        print("Brak plików w folderze News.")
+        return
+
+
+    
+    print("0. Anuluj")
+
+    # Wybór pliku do edycji
+    try:
+        choice = int(input("\nWybierz numer pliku do edycji: "))
+        if choice == 0:
+            print("Anulowano edycję.")
+            return
+        if choice < 1 or choice > len(files):
+            print("Nieprawidłowy wybór.")
+            return
+        file_path = os.path.join(folder_path, sorted(files)[choice - 1])
+    except ValueError:
+        print("Nieprawidłowy numer. Proszę wprowadzić liczbę.")
+        return
+
+    # Wczytanie zawartości pliku
+    with open(file_path, 'r', encoding='utf-8') as file:
+        lines = file.readlines()
+
+    # Wyciągamy poszczególne sekcje
+    tytul = lines[0].strip() if len(lines) > 0 else ""
+    data_dodania = lines[1].strip() if len(lines) > 1 else ""
+    tresc = lines[3].strip() if len(lines) > 3 else ""
+    obrazek = lines[4].strip() if len(lines) > 4 else ""
+
+    # Wyświetlenie obecnych wartości
+    clear_screen()
+    print(f"Tytuł: {tytul}")
+    print(f"Data dodania: {data_dodania}")
+    print(f"Treść: {tresc}")
+    print(f"Obrazek: {obrazek if obrazek else 'N/A'}")
+    print("\n")
+    
+    # Wybór, co zmodyfikować
+    print("1 - Data dodania")    
+    print("2 - Tytuł")
+    print("3 - Treść")
+    print("4 - Obrazek")
+    print("0 - Anuluj")
+
+    choice = input("Wybierz opcję: ")
+
+    if choice == "2":
+        tytul = input("Wpisz nowy tytuł: ")
+    elif choice == "3":
+        tresc = input("Wpisz nową treść: ")
+    elif choice == "4":
+        obrazek = input("Wpisz nową nazwę obrazka (lub pozostaw puste): ")
+    elif choice == "1":
+        new_data = input("Wpisz nową datę (np. 2024-12-29): ")
+        new_file_path = os.path.join(folder_path, f'{new_data}.txt')
+        os.rename(file_path, new_file_path)
+        file_path = new_file_path
+        data_dodania = f"Dodano {new_data}"
+    elif choice == "0":
+        clear_screen()
+        print("Anulowano modyfikację.")
+        time.sleep(1)
+        clear_screen()
+        return
+    else:
+        clear_screen()
+        print("Nieprawidłowy wybór.")
+        time.sleep(1)
+        clear_screen()
+        return
+
+    # Aktualizacja pliku z newsem
+    with open(file_path, 'w', encoding='utf-8') as file:
+        file.write(f"{tytul}\n")
+        file.write(f"{data_dodania}\n")
+        file.write("\n")  # Pusta linia
+        file.write(f"{tresc}\n")
+        if obrazek:
+            file.write(f"{obrazek}\n")
+
+    print(f"Plik został zaktualizowany: {file_path}")  
+    time.sleep(1)
+    clear_screen()
+  
+def DeleteNews():
+    # Ścieżka do folderu z newsami
+    folder_path = '../public/News'
+
+    # Upewniamy się, że folder istnieje
+    if not os.path.exists(folder_path):
+        print(f"Folder {folder_path} nie istnieje.")
+        return
+
+    # Pobieranie listy plików w folderze
+    files = [file for file in os.listdir(folder_path) if file.endswith('.txt')]
+
+    # Sprawdzanie, czy są pliki tekstowe
+    if not files:
+        print("Brak plików tekstowych w folderze News.")
+        return
+
+    # Wyświetlanie listy plików
+    print("Lista plików tekstowych w folderze News:")
+    for index, file in enumerate(sorted(files), start=1):
+        print(f"{index}. {file}")
+
+    # Wybór pliku do usunięcia
+    try:
+        print("0. Wyjdź")
+        choice = int(input("\nWybierz numer pliku do usunięcia: "))
+        if choice == 0:
+            print("Anulowano usuwanie.")
+            time.sleep(2)
+            clear_screen()
+        if choice < 1 or choice > len(files):
+            print("Nieprawidłowy wybór.")
+            clear_screen()
+            DeleteNews()
+
+        # Wybrany plik do usunięcia
+        file_to_delete = os.path.join(folder_path, sorted(files)[choice - 1])
+        print(f"Wybrany plik: {sorted(files)[choice - 1]}")
+
+        # Potwierdzenie usunięcia
+        confirm = input("Czy na pewno chcesz usunąć ten plik? (tak/nie): ").strip().lower()
+        if confirm == "tak":
+            os.remove(file_to_delete)
+            print(f"Plik {sorted(files)[choice - 1]} został usunięty.")
+            time.sleep(2)
+            clear_screen()
+        else:
+            clear_screen()            
+            print("Anulowano usuwanie.")
+            time.sleep(2)
+            clear_screen()
+    except ValueError:
+        print("Nieprawidłowy numer. Proszę wprowadzić liczbę.")
   
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+def NewsToArchy():
+    # Ścieżka do folderu z newsami
+    folder_path = '../public/News'
+    archive_path = '../public/News/Archiwum'
+
+    # Upewniamy się, że folder istnieje
+    if not os.path.exists(folder_path):
+        print(f"Folder {folder_path} nie istnieje.")
+        return
+
+    # Upewniamy się, że podfolder Archiwum istnieje
+    if not os.path.exists(archive_path):
+        os.makedirs(archive_path)
+
+    # Pobieranie listy plików w folderze
+    files = [file for file in os.listdir(folder_path) if file.endswith('.txt')]
+
+    # Sprawdzanie, czy są pliki tekstowe
+    if not files:
+        print("Brak plików tekstowych w folderze News.")
+        return
+
+    # Wyświetlanie listy plików
+    print("Lista plików tekstowych w folderze News:")
+    for index, file in enumerate(sorted(files), start=1):
+        print(f"{index}. {file}")
+
+    # Wybór pliku do przeniesienia
+    try:
+        print("0. Wyjdź")
+        choice = int(input("\nWybierz numer pliku do przeniesienia do Archiwum: "))
+        if choice == 0:
+            clean_screen()
+            print("Anulowano przenoszenie.")
+            time.sleep(1)
+            clean_screen()
+            return
+        if choice < 1 or choice > len(files):
+            print("Nieprawidłowy wybór.")
+            return
+
+        # Wybrany plik do przeniesienia
+        file_to_move = os.path.join(folder_path, sorted(files)[choice - 1])
+        clear_screen()
+        print(f"Wybrany plik: {sorted(files)[choice - 1]}")
+
+        # Potwierdzenie przeniesienia
+        confirm = input("Czy na pewno chcesz przenieść ten plik do Archiwum? (tak/nie): ").strip().lower()
+        if confirm == "tak":
+            shutil.move(file_to_move, archive_path)
+            print(f"Plik {sorted(files)[choice - 1]} został przeniesiony do Archiwum.")
+            time.sleep(2)
+            clean_screen()
+        else:
+            print("Anulowano przenoszenie.")
+            time.sleep(2)
+    except ValueError:
+        print("Nieprawidłowy numer. Proszę wprowadzić liczbę.")    
   
 
-  
+
+def CallendarCreator():
+    # Funkcja do generowania rozkładu
+    def generate_schedule_for_date(date):
+        if date.weekday() == 5:  # Sobota
+            return "Rozkład Sobotni"
+        elif date.weekday() == 6:  # Niedziela
+            return "Rozkład Niedzielny"
+        else:
+            return "Rozkład Szkolny"
+
+    # Funkcja do generowania kalendarza
+    def generate_calendar(start_date, end_date, output_file, special_dates_file):
+        try:
+            # Tworzenie folderu, jeśli nie istnieje
+            folder = os.path.dirname(output_file)
+            if not os.path.exists(folder):
+                os.makedirs(folder)
+
+            # Wczytanie specjalnych dat (DD.MM format)
+            special_dates = {}
+            if os.path.exists(special_dates_file):
+                with open(special_dates_file, 'r', encoding='utf-8') as f:
+                    for line in f:
+                        parts = line.strip().split("\t")
+                        if len(parts) >= 2:
+                            # Przechowujemy specjalne daty w formacie DD.MM -> opis
+                            special_dates[parts[0]] = "\t".join(parts[1:])
+
+            # Otwieramy plik do zapisu
+            current_date = start_date
+            lines_to_write = []
+            while current_date <= end_date:
+                # Formatowanie daty na DD.MM.YYYY
+                formatted_date = current_date.strftime("%d.%m.%Y")
+                # Sprawdzamy datę w formacie DD.MM, aby porównać ją z plikiem specjalnych dat
+                short_date = current_date.strftime("%d.%m")
+                # Generowanie rozkładu dla danej daty
+                schedule_type = generate_schedule_for_date(current_date)
+                
+                # Sprawdzanie, czy data w formacie DD.MM znajduje się w specjalnych datach
+                if short_date in special_dates:
+                    lines_to_write.append(f"{formatted_date}\t{special_dates[short_date]}\n")
+                else:
+                    # Zapisanie daty i rozkładu do pliku
+                    lines_to_write.append(f"{formatted_date}\t{schedule_type}\n")
+                
+                # Przechodzimy do następnego dnia
+                current_date += datetime.timedelta(days=1)
+
+            # Zapisanie danych do pliku
+            with open(output_file, 'w', encoding='utf-8') as f:
+                f.writelines(lines_to_write)
+
+        except Exception as e:
+            print(f"Błąd podczas generowania kalendarza: {e}")
+
+    # Ustawienia - data początkowa i końcowa (np. cały rok 2025)
+    start_date = datetime.date(2025, 1, 1)
+    end_date = datetime.date(2025, 12, 31)
+    
+    # Ścieżki do plików
+    output_file = "../public/Brygady/Callendar.txt"
+    special_dates_file = "../public/Brygady/Callendar_special_dates.txt"
+
+    # Generowanie kalendarza
+    generate_calendar(start_date, end_date, output_file, special_dates_file)
+
+    print(f"Plik {output_file} został wygenerowany.")
+    input("ss")
 
       
     
@@ -1112,7 +1496,7 @@ def help():
       
 def menu():
     while True:
-        print("===== MENU =====")
+        print("====== Pliki strony ============")
         print("1. Wczytaj brygady")
         print("2. Utwórz Linie.txt")
         print("3. Utwórz Godz Rozp i Godz Zak")
@@ -1122,7 +1506,12 @@ def menu():
         print("7. Nazwij Brygady")
         print("8. Utwórz plik zbiorczy Kursy")    
         print("9. Utwórz plik GOTOWE.txt")       
-        print("10. Dodaj podmiane")   
+        print("10. Dodaj podmiane")
+        print("11. Stwórz plik kalendarza")
+        print("")
+        print("====== Strona www ==============")
+        print("90. Panel Wiadomości")
+        print("91. Token administratora")
         wybor = input("Wybierz opcję: ")
         
         if wybor == "1":
@@ -1145,11 +1534,71 @@ def menu():
             UtwórzGOTOWEtxt()
         elif wybor == "10":
             Podmiana()
+        elif wybor == "11":
+            CallendarCreator()
+        elif wybor == "90":
+            NewsMenu()
+        elif wybor == "91":
+            TokenMenu()
         elif wybor == "help":
             help()
         else:
             print("\nNiepoprawny wybór, spróbuj ponownie.\n")
+            time.sleep(0.5)
+            clear_screen()
+            
+            
+def NewsMenu():
+    clear_screen()
+    print("===== MENU =====")
+    print("1. Lista wiadomości")
+    print("2. Utwórz Wiadomość")
+    print("3. Edytuj wiadomość")
+    print("4. Usuń wiadomość")    
+    print("5. Przenieś wiadomość do archiwum")
+    print("0. Wyjdź")
+    Newswybor = input("Wybierz opcję: ")
 
+    if Newswybor == "1":
+            clear_screen()    
+            NewsList()   
+            input("Naciśnij [ENTER], aby kontunować...")
+            NewsMenu()
+    elif Newswybor == "2":
+            clear_screen()
+            AddNews()
+    elif Newswybor == "3":
+            clear_screen()  
+            NewsList()
+            EditNews()
+    elif Newswybor == "4":
+            clear_screen()
+            DeleteNews()
+    elif Newswybor == "5":
+            clear_screen()
+            NewsToArchy()
+    elif Newswybor == "0":
+            clear_screen() 
+            
+
+def TokenMenu():
+    clear_screen()
+    print("===== MENU =====")
+    print("1. Wyświetl Token")
+    print("2. Zmień Token")
+    tokenwybor = input("Wybierz opcję: ")
+
+    if tokenwybor == "1":
+            clear_screen()    
+            ShowToken()
+            time.sleep(2)
+            clear_screen()
+    elif tokenwybor == "2":
+            clear_screen()
+            ChangeToken()
+            
+            
+            
 # Uruchomienie menu
 if __name__ == "__main__":
     menu()

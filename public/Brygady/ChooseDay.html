@@ -124,6 +124,8 @@
     <br>
     <a href="#" class="chooseextra-close">Archiwum</a>
     <!-- Archiwum/Archiwum.html -->
+    <br> <br>
+
 
     <script>
         // Sprawdzenie, czy trwa przerwa techniczna
@@ -158,6 +160,13 @@
 
             // Przekieruj na stronę logowania
             window.location.href = '../index.html';
+        });
+
+        document.querySelectorAll('.choose-open').forEach(function(link) {
+            link.addEventListener('click', function(event) {
+                // Zapisanie wartości typu dnia do sessionStorage
+                sessionStorage.setItem('ChoosedTypeOfDay', event.target.getAttribute('data-day-type'));
+            });
         });
 
     </script>
