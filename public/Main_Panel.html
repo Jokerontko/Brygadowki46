@@ -50,9 +50,16 @@
             transform: scale(1.05);
         }
 
+        .NEWSsmallleters {
+            color: gray;
+        }
+
         article {
+            border: 3px solid orange;
             border-radius: 10px;
             max-width: 60vw;
+            min-width: 290px;
+
         }
 
         .content p {
@@ -90,33 +97,41 @@
             display: grid;
         }
 
-        .title {
-            font-family: Arial, sans-serif;
-            margin: 0 auto;
-            margin-left: -20px;
-            margin-bottom: -10px;
-            display: inline-block;
-            border-radius: 10px;
-            background-color: rgba(50, 50, 50, 0.9);
+        .NEWScategory {
             border: 3px solid orange;
-            font-size: 20px;
-            padding: 10px 15px;
-            color: white;
-            text-align: center;
-            word-wrap: break-word;
-            max-width: 400px;
-            box-sizing: border-box;
-        }
-
-
-
-        .content {
-            border: 3px solid orange;
-            margin-top: -30px;
-            border-radius: 10px;
             padding: 10px;
+            border-radius: 5px 5px;
+            display: block;
+            width: auto;
+            position: absolute;
+            text-align: center;
+            right: -2px;
+            /* Wyrównuje do prawej strony */
+            top: -15px;
+            /* Dopasuj do odpowiedniej wysokości */
+            font-size: 22px;
+            background-color: orange;
+
 
         }
+
+
+        .NEWStitle {
+            padding: 7px;
+            border-radius: 5px 5px;
+            display: block;
+            width: auto;
+            position: absolute;
+            text-align: center;
+            left: 10px;
+            /* Wyrównuje do prawej strony */
+            top: 40px;
+            /* Dopasuj do odpowiedniej wysokości */
+        }
+
+
+
+
 
         .smallletters {
             font-size: 10px;
@@ -149,6 +164,7 @@
 
         .hidden {
             display: none;
+
         }
 
         #date {
@@ -200,6 +216,7 @@
                 padding: 15px;
                 width: 250px;
                 height: 300px;
+
             }
 
         }
@@ -208,6 +225,25 @@
             margin-left: 80px;
             margin-right: 80px;
             min-width: 200px;
+
+        }
+
+        .NEWSTable {
+            padding: 20px;
+
+        }
+
+        .NEWSup {
+            line-height: 0.5;
+        }
+
+        h3 del {
+            color: gray;
+            text-decoration-color: white;
+        }
+
+        h3 strong {
+            color: red;
         }
 
     </style>
@@ -247,6 +283,7 @@
 
             </center>
         </div>
+        <br>
 
         <section id="news-articles"></section>
         <p class="NothingToFind"></p>
@@ -330,20 +367,49 @@
                     if (photo !== "") { // Sprawdzamy, czy photo jest zdefiniowane i nie jest pustym stringiem 
                         articleHTML = `
             <article>
-                    <h2><span class="title">${title}</span></h2>
-                <div class="content">
-                    <p class="contenttext">${content}</p><br>
-                    <img class="image" src="${folder}/Images/${photo}" alt="Błąd podczas ładowania zdjęcia"><br><br><center><a class="ShowPhoto" href="${folder}/Images/${photo}"> Powiększ zdjęcie</center></a> <br> <sup class="smallletters">${type} ${date}</sup>
+                <div class="NEWSTable" style="position: relative;">
+                    <div class="NEWSup">
+                        <h2 class="NEWScategory" >AKTUALIZACJA</h2>
+                                
+                        <h7 class="NEWSsmallleters">TYTUŁ</h7>
+                        <h2>${title}</h2>
+                        <br>
+                        <h7 class="NEWSsmallleters">DATA DODANIA</h7>
+                        <h2>${type}</h2>
+                    </div>
+                 
+
+                    <hr>
+                    <h7 class="NEWSsmallleters">TREŚĆ</h7>
+                    <h3 style="padding: 20px; text-align: center;">${content}</h3>
+
+                    <hr>
+                    <h7 class="NEWSsmallleters">ZAŁĄCZNIK</h7>
+                    <br><br><br>
+                    <img class="image" src="${folder}/Images/${photo}" alt="Błąd podczas ładowania zdjęcia"><br><br>
+                    
+                    <center>
+                    <a class="ShowPhoto" href="${folder}/Images/${photo}"> Powiększ zdjęcie</a>
+                    </center>    <br> 
+                </div>
+                
+    
+
+
+
+
                 </div>
             </article>
             `;
                     } else {
                         articleHTML = `
             <article>
+<div class="NEWSTable">
                     <h2><span class="title">${title}</span></h2>
                 <div class="content">
                     <p>${content}</p><sup class="smallletters">${type} ${date}</sup>
                 </div>
+</div>
             </article>
             `;
                     }
