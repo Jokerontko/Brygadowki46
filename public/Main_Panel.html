@@ -58,7 +58,7 @@
             border: 3px solid orange;
             border-radius: 10px;
             max-width: 60vw;
-            min-width: 290px;
+
 
         }
 
@@ -207,7 +207,11 @@
         @media (max-width: 774px) {
 
             .flex-container {
-                margin: 30px;
+                margin: 0px;
+            }
+
+            .NEWSTytul {
+                color: rgb(50, 50, 50);
             }
 
             #callendar {
@@ -234,7 +238,7 @@
         }
 
         .NEWSup {
-            line-height: 0.5;
+            line-height: 0.7;
         }
 
         h3 del {
@@ -278,7 +282,7 @@
                 <br>
                 <br>
                 <span>Obowiązuje </span>
-                <span id="Type_of_rozklad">x</span>
+                <a id="Type_of_rozklad" href="#" style="text-decoration: none;">x</a>
 
 
             </center>
@@ -371,7 +375,7 @@
                     <div class="NEWSup">
                         <h2 class="NEWScategory" >AKTUALIZACJA</h2>
                                 
-                        <h7 class="NEWSsmallleters">TYTUŁ</h7>
+                        <h7 class="NEWSsmallleters NEWSTytul">TYTUŁ</h7>
                         <h2>${title}</h2>
                         <br>
                         <h7 class="NEWSsmallleters">DATA DODANIA</h7>
@@ -544,6 +548,47 @@
                 console.error("Błąd podczas odczytu pliku:", error);
                 document.getElementById("Name_day").textContent = "Błąd ładowania imion";
             });
+
+
+
+
+
+        document.getElementById('Type_of_rozklad').addEventListener('click', function(event) {
+            event.preventDefault(); // Zapobiega domyślnemu zachowaniu linku
+
+            const linkElement = event.target;
+            const linkText = linkElement.textContent.trim();
+            let targetUrl = "#";
+            let choosedTypeOfDay = "";
+
+            switch (linkText) {
+                case "Rozkład Szkolny":
+                    targetUrl = "Brygady/Powszedni/listabrygad.html";
+                    choosedTypeOfDay = "Roboczy";
+                    break;
+                case "Rozkład Powszedni Wolny":
+                    targetUrl = "Brygady/PowszedniWolny/listabrygad.html";
+                    choosedTypeOfDay = "Roboczy Wolny";
+                    break;
+                case "Rozkład Sobotni":
+                    targetUrl = "Brygady/Sobotni/listabrygad.html";
+                    choosedTypeOfDay = "Sobota";
+                    break;
+                case "Rozkład Niedzielny":
+                    targetUrl = "Brygady/Niedzielny/listabrygad.html";
+                    choosedTypeOfDay = "Niedziela";
+                    break;
+                default:
+                    console.warn("Nieznany typ rozkładu: " + linkText);
+                    return;
+            }
+
+            // Zapisanie wartości w sessionStorage
+            sessionStorage.setItem("ChoosedTypeOfDay", choosedTypeOfDay);
+
+            // Przekierowanie na docelowy URL
+            window.location.href = targetUrl;
+        });
 
     </script>
 
