@@ -129,10 +129,6 @@
             /* Dopasuj do odpowiedniej wysokości */
         }
 
-
-
-
-
         .smallletters {
             font-size: 10px;
             color: grey;
@@ -212,6 +208,7 @@
 
             .NewsSection {
                 margin-top: 20px;
+                padding: 20px;
 
 
             }
@@ -260,7 +257,7 @@
             position: relative;
             margin-left: 30px;
             margin-right: 20px;
-
+            padding: 20px;
             right: 0;
             left: 0;
             max-width: 100%;
@@ -647,14 +644,16 @@
 
 
 
-        // Pobieramy elementy menu i kontener na artykuły
-        const menuLinks = document.querySelectorAll('.NEWSbutton');
+        // Pobieramy elementy przycisków i kontener na artykuły
+        const buttons = document.querySelectorAll('.NEWSbutton');
         const newsSection = document.getElementById('news-articles');
+        const noResultsMessage = document.querySelector('.NothingToFind');
 
         // Funkcja filtrowania artykułów
         function filterArticles(category) {
             // Pobieramy wszystkie artykuły
             const articles = newsSection.querySelectorAll('article');
+            let hasResults = false; // Flaga sprawdzająca, czy są dopasowane artykuły
 
             articles.forEach(article => {
                 const articleCategory = article.querySelector('.NEWScategory').textContent.trim();
@@ -662,24 +661,31 @@
                 // Ukrywamy lub pokazujemy artykuły w zależności od wybranej kategorii
                 if (articleCategory === category || category === 'ALL') {
                     article.style.display = ''; // Pokaż
+                    hasResults = true; // Jeśli choć jeden artykuł pasuje, ustawiamy flagę
                 } else {
                     article.style.display = 'none'; // Ukryj
                 }
             });
+
+            // Wyświetl komunikat, jeśli nie ma wyników
+            noResultsMessage.style.display = hasResults ? 'none' : 'block';
         }
 
-        // Obsługa kliknięcia w linki menu
-        menuLinks.forEach(link => {
-            link.addEventListener('click', event => {
+        // Obsługa kliknięcia w przyciski
+        buttons.forEach(button => {
+            button.addEventListener('click', event => {
                 event.preventDefault(); // Zapobiega domyślnemu zachowaniu linku
 
-                // Pobieramy kategorię z tekstu linku
-                const selectedCategory = link.textContent.trim();
+                // Pobieramy kategorię z tekstu przycisku
+                const selectedCategory = button.textContent.trim();
 
                 // Wywołujemy funkcję filtrowania
                 filterArticles(selectedCategory);
             });
         });
+
+        // Ukrycie komunikatu na starcie
+        noResultsMessage.style.display = 'none';
 
     </script>
 
