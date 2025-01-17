@@ -647,7 +647,69 @@ def DodajRezerwe():
 
 
 
-  
+def BISDodajRezerwe():
+    clear_screen()
+    # Wczytywanie wartości z klawiatury
+    typ_dnia = input("Wprowadź typ dnia: ")
+    clear_screen()
+    while True:
+        print("Wybrany typ dnia: " + typ_dnia)
+        brygada = input("Wprowadź brygadę: ")
+        rozpoczecie = input("Wprowadź godzinę rozpoczęcia (format HH:MM): ")
+        zakonczenie = input("Wprowadź godzinę zakończenia (format HH:MM): ")
+
+        # Funkcja do dodania sekund, jeśli ich brak
+        def dodaj_sekundy(czas):
+            if len(czas.split(":")) == 2:  # Jeśli czas ma tylko godzinę i minutę
+                return f"{czas}:00"  # Dodajemy sekundy
+            return czas  # Jeśli już są sekundy, zwracamy czas bez zmian
+
+        # Używamy funkcji do dodania sekund do rozpoczecie i zakonczenie
+        rozpoczecie = dodaj_sekundy(rozpoczecie)
+        zakonczenie = dodaj_sekundy(zakonczenie)
+
+        # Tworzenie ścieżki do folderu
+        sciezka_folder = os.path.join("WYNIKI", "Gotowe_brygady", typ_dnia, brygada)
+
+        # Sprawdzanie, czy folder istnieje, jeśli nie - tworzymy go
+        if not os.path.exists(sciezka_folder):
+            try:
+                os.makedirs(sciezka_folder)
+                print(f"Utworzono folder: {sciezka_folder}")
+            except Exception as e:
+                print(f"Nie udało się utworzyć folderu: {e}")
+                return  # Kończymy funkcję, jeśli wystąpił błąd podczas tworzenia folderu
+
+        # Ścieżka do pliku rezerwa.txt
+        plik_wyjsciowy = os.path.join(sciezka_folder, "rezerwa.txt")
+
+        # Jeśli plik istnieje, tworzymy nowy z numerem
+        if os.path.exists(plik_wyjsciowy):
+            i = 2
+            while True:
+                nowa_nazwa_pliku = os.path.join(sciezka_folder, f"rezerwa{i}.txt")
+                if not os.path.exists(nowa_nazwa_pliku):
+                    plik_wyjsciowy = nowa_nazwa_pliku
+                    break
+                i += 1
+
+        # Zawartość pliku w odpowiednim formacie
+        tresc_pliku = (
+        "[Rez] Rezerwa\n"
+        "route_id\tservice_id\ttrip_id\tarrival_time\tdeparture_time\tstop_headsign\tstop_name\n"
+        "-------------------------------------------------------------------------------\n"
+        f"REZ\tR\t-\t{rozpoczecie}\t{zakonczenie}\t\tRezerwa\n"
+        )
+
+        # Tworzenie pliku i zapisanie danych
+        try:
+            with open(plik_wyjsciowy, "w") as plik:
+                plik.write(tresc_pliku)
+            clear_screen()
+            print(f"Plik zapisano w {plik_wyjsciowy}")
+        except Exception as e:
+            clear_screen()
+            print(f"Wystąpił błąd podczas zapisywania pliku: {e}")  
   
   
   
@@ -872,6 +934,21 @@ def Podmiana():
         SpecialDodajPodmiane()
     else:
         DodajPodmiane()
+        
+def BISPodmiana():
+    while True:  # Pętla nieskończona
+        typ_podmiany = input("Wprowadź typ podmiany (nic = w mieście, B = w bazie, Q = wyjście): ")
+        
+        if typ_podmiany == "Q":  # Opcja wyjścia
+            print("Koniec programu.")
+            break  # Przerwij pętlę
+        
+        if typ_podmiany == "B":
+            SpecialDodajPodmiane()  # Wywołanie funkcji
+        else:
+            DodajPodmiane()  # Wywołanie innej funkcji
+
+    
 
         
 def DodajPodmiane():
@@ -1489,7 +1566,156 @@ def help():
       
       
       
-      
+def PodmianaList():
+    # Ścieżka głównego folderu
+    base_path = "WYNIKI/Gotowe_brygady"
+
+    # Iteracja po folderach "1", "2", "3", "4"
+    for folder in ["1", "2", "3", "4"]:
+        # Zamiana "_" na "/"
+        formatted_folder = folder.replace("_", "/")
+        folder_path = os.path.join(base_path, formatted_folder)
+        podmiana_list_file = os.path.join(folder_path, "Podmiana_list.txt")
+
+        # Tymczasowy bufor na dane do sortowania
+        data_to_sort = []
+
+        # Iteracja po podfolderach w folderze
+        for subfolder in os.listdir(folder_path):
+            subfolder_path = os.path.join(folder_path, subfolder)
+
+            if os.path.isdir(subfolder_path):
+                podmiana_file_path = os.path.join(subfolder_path, "podmiana.txt")
+
+                # Sprawdzenie, czy plik podmiana.txt istnieje
+                if os.path.exists(podmiana_file_path):
+                    with open(podmiana_file_path, "r", encoding="utf-8") as podmiana_file:
+                        for line in podmiana_file:
+                            line = line.strip()
+                            if line:
+                                # Dodaj dane do bufora w formacie: (Nazwa_folderu, Przystanek, Godzina_Podmiany)
+                                # Zamiana "_" na "/" podczas zapisu tylko w pliku
+                                data_to_sort.append((subfolder, *line.split("\t")))
+
+        # Sortowanie danych według godziny (drugi element tuple)
+        data_to_sort.sort(key=lambda x: x[2])
+
+        # Zapis posortowanych danych do pliku
+        with open(podmiana_list_file, "w", encoding="utf-8") as output_file:
+            for entry in data_to_sort:
+                # Zamiana "_" na "/" w zapisie do pliku
+                output_file.write(f"{entry[0].replace('_', '/')}\t{entry[1]}\t{entry[2]}\n")
+
+    print("Operacja zakończona.")
+
+    
+def PodmianaBAZA():    
+
+    def read_files_and_create_list(directory):
+        # Lista do zapisania wyników
+        result_list = []
+
+        # Ścieżka do folderu "WYNIKI/Gotowe_brygady/1"
+        path = os.path.join("WYNIKI", "Gotowe_brygady", directory)
+        
+        # Przechodzimy przez wszystkie foldery w danym katalogu
+        for subfolder in os.listdir(path):
+            subfolder_path = os.path.join(path, subfolder)
+            
+            zakonczenie_file = os.path.join(subfolder_path, "ZakonczenieA.txt")
+            rozpoczecie_file = os.path.join(subfolder_path, "RozpoczecieB.txt")
+            
+            if os.path.isfile(zakonczenie_file) and os.path.isfile(rozpoczecie_file):
+                # Odczytujemy pliki
+                with open(zakonczenie_file, 'r') as f:
+                    zakonczenie = f.readline().strip()
+                with open(rozpoczecie_file, 'r') as f:
+                    rozpoczecie = f.readline().strip()
+                
+                # Zamiana "_" na "/" w nazwie subfoldera
+                subfolder = subfolder.replace("_", "/")
+                
+                # Tworzymy linie do listy
+                result_line = f"{subfolder}\t{zakonczenie}\t{rozpoczecie}"
+                result_list.append(result_line)
+        
+        return result_list
+
+    def sort_and_write_to_file(directory, lines):
+        # Sortujemy linie po godzinie (ostatnia kolumna)
+        sorted_lines = sorted(lines, key=lambda x: x.split('\t')[3])
+        
+        # Zapisujemy do pliku PodmianaBAZA_list.txt
+        path = os.path.join("WYNIKI", "Gotowe_brygady", directory)
+        output_path = os.path.join(path, "PodmianaBAZA_list.txt")
+        with open(output_path, 'w') as output_file:
+            for line in sorted_lines:
+                output_file.write(line + "\n")
+
+    # Lista folderów "1", "2", "3", "4"
+    folders = ["1", "2", "3", "4"]
+
+    for folder in folders:
+        lines = read_files_and_create_list(folder)
+        sort_and_write_to_file(folder, lines)
+
+    print("Pliki zostały pomyślnie zapisane i posortowane!")
+
+
+
+
+    
+def RezerwaList():
+    # Ścieżka głównego folderu
+    base_path = "WYNIKI/Gotowe_brygady"
+
+    # Iteracja po folderach "1", "2", "3", "4"
+    for folder in ["1", "2", "3", "4"]:
+        folder_path = os.path.join(base_path, folder)
+        rezerwa_list_file = os.path.join(folder_path, "Rezerwa_list.txt")
+
+        # Tymczasowy bufor na dane do sortowania
+        data_to_sort = []
+
+        # Iteracja po podfolderach w folderze
+        for subfolder in os.listdir(folder_path):
+            subfolder_path = os.path.join(folder_path, subfolder)
+
+            if os.path.isdir(subfolder_path):
+                rezerwa_file_path = os.path.join(subfolder_path, "rezerwa.txt")
+
+                # Sprawdzenie, czy plik Rezerwa.txt istnieje
+                if os.path.exists(rezerwa_file_path):
+                    with open(rezerwa_file_path, "r", encoding="utf-8") as rezerwa_file:
+                        # Iteracja po liniach w pliku
+                        for line in rezerwa_file:
+                            line = line.strip()
+                            # Pomijamy linie nagłówka oraz separatora
+                            if line.startswith("[Rez]") or line.startswith("route_id") or line.startswith("-"):
+                                continue
+
+                            # Rozdzielamy dane w linii
+                            fields = line.split("\t")
+                            if len(fields) >= 5:
+                                arrival_time = fields[3][:5]  # Wyciągamy tylko HH:MM
+                                departure_time = fields[4][:5]  # Wyciągamy tylko HH:MM
+                                # Dodajemy dane do bufora
+                                data_to_sort.append((subfolder, arrival_time, departure_time))
+
+        # Sortowanie danych według czasu przyjazdu (drugi element tuple)
+        data_to_sort.sort(key=lambda x: x[1])
+
+        # Zapis posortowanych danych do pliku
+        with open(rezerwa_list_file, "w", encoding="utf-8") as output_file:
+            for entry in data_to_sort:
+                output_file.write(f"{entry[0].replace('_', '/')}\t{entry[1]}\t{entry[2]}\n")
+
+    print("Operacja zakończona.")
+
+    
+    
+    
+    
       
       
       
@@ -1508,6 +1734,13 @@ def menu():
         print("9. Utwórz plik GOTOWE.txt")       
         print("10. Dodaj podmiane")
         print("11. Stwórz plik kalendarza")
+        print("12. Stwórz Liste Podmian")
+        print("13. Stwórz Liste Podmian - wariant BAZA")
+        print("14. Stwórz Liste Rezerw")
+        print("")
+        print("====== Kody zapętlone ==============")
+        print("Aby skorzystać z kodu zapętlonego, należy przed numerem wpisać znak hasztag #")
+        print("Aby wyjść z trybu zapętlonego, należy zrestartować konsole")
         print("")
         print("====== Strona www ==============")
         print("90. Panel Wiadomości")
@@ -1526,6 +1759,8 @@ def menu():
             ModyfikujBrygadyBIS()    
         elif wybor == "6":
             DodajRezerwe() 
+        elif wybor == "#6":
+            BISDodajRezerwe()
         elif wybor == "7":
             NazwijBrygady()
         elif wybor == "8":
@@ -1534,8 +1769,16 @@ def menu():
             UtwórzGOTOWEtxt()
         elif wybor == "10":
             Podmiana()
+        elif wybor == "#10":
+            BISPodmiana()
         elif wybor == "11":
             CallendarCreator()
+        elif wybor == "12":
+            PodmianaList()
+        elif wybor == "13":
+            PodmianaBAZA()
+        elif wybor == "14":
+            RezerwaList()
         elif wybor == "90":
             NewsMenu()
         elif wybor == "91":

@@ -445,23 +445,29 @@
                     </center>    <br> 
                 </div>
                 
-    
-
-
-
-
                 </div>
             </article>
             `;
                     } else {
                         articleHTML = `
             <article>
-<div class="NEWSTable">
-                    <h2><span class="title">${title}</span></h2>
-                <div class="content">
-                    <p>${content}</p><sup class="smallletters">${type} ${date}</sup>
+                <div class="NEWSTable" style="position: relative;">
+                    <div class="NEWSup">
+                        <h2 class="NEWScategory" >BRYGADY</h2>
+                                
+                        <h7 class="NEWSsmallleters NEWSTytul">TYTUŁ</h7>
+                        <h2>${title}</h2>
+                        <br>
+                        <h7 class="NEWSsmallleters">DATA DODANIA</h7>
+                        <h2>${type}</h2>
+                    </div>
+                 
+
+                    <hr>
+                    <h7 class="NEWSsmallleters">TREŚĆ</h7>
+                    <h3 style="padding: 20px; text-align: center;">${content}</h3>
+
                 </div>
-</div>
             </article>
             `;
                     }

@@ -724,6 +724,106 @@ app.get('/Brygady/Name_Day.txt', (req, res) => {
 });
 
 
+
+
+
+
+
+
+
+// Route do obsługi pliku
+app.get('../../Brygady/WYNIKI/Gotowe_brygady/:folder/Podmiana_list.txt', (req, res) => {
+    const folder = req.params.folder; // Pobiera nazwę folderu
+    let filePath = '';
+
+    // Ustawienie odpowiedniego path w zależności od folderu
+    if (folder === '1') {
+        filePath = path.join(__dirname, 'Brygady', 'WYNIKI', 'Gotowe_brygady', '1', 'Podmiana_list.txt');
+    } else if (folder === '2') {
+        filePath = path.join(__dirname, 'Brygady', 'WYNIKI', 'Gotowe_brygady', '2', 'Podmiana_list.txt');
+    } else if (folder === '3') {
+        filePath = path.join(__dirname, 'Brygady', 'WYNIKI', 'Gotowe_brygady', '3', 'Podmiana_list.txt');
+    } else if (folder === '4') {
+        filePath = path.join(__dirname, 'Brygady', 'WYNIKI', 'Gotowe_brygady', '4', 'Podmiana_list.txt');
+    } else {
+        return res.status(404).send('Nieznana ścieżka');
+    }
+
+    fs.readFile(filePath, 'utf8', (err, data) => {
+        if (err) {
+            return res.status(500).send('Błąd podczas odczytu pliku');
+        }
+
+        res.type('txt').send(data);
+    });
+});
+
+
+// Route do obsługi pliku
+app.get('../../Brygady/WYNIKI/Gotowe_brygady/:folder/PodmianaBAZA_list.txt', (req, res) => {
+    const folder = req.params.folder; // Pobiera nazwę folderu
+    let filePath = '';
+
+    // Ustawienie odpowiedniego path w zależności od folderu
+    if (folder === '1') {
+        filePath = path.join(__dirname, 'Brygady', 'WYNIKI', 'Gotowe_brygady', '1', 'PodmianaBAZA_list.txt');
+    } else if (folder === '2') {
+        filePath = path.join(__dirname, 'Brygady', 'WYNIKI', 'Gotowe_brygady', '2', 'PodmianaBAZA_list.txt');
+    } else if (folder === '3') {
+        filePath = path.join(__dirname, 'Brygady', 'WYNIKI', 'Gotowe_brygady', '3', 'PodmianaBAZA_list.txt');
+    } else if (folder === '4') {
+        filePath = path.join(__dirname, 'Brygady', 'WYNIKI', 'Gotowe_brygady', '4', 'PodmianaBAZA_list.txt');
+    } else {
+        return res.status(404).send('Nieznana ścieżka');
+    }
+
+    fs.readFile(filePath, 'utf8', (err, data) => {
+        if (err) {
+            return res.status(500).send('Błąd podczas odczytu pliku');
+        }
+
+        res.type('txt').send(data);
+    });
+});
+
+
+
+
+// Route do obsługi pliku
+app.get('../../Brygady/WYNIKI/Gotowe_brygady/:folder/Rezerwa_list.txt', (req, res) => {
+    const folder = req.params.folder; // Pobiera nazwę folderu
+    let filePath = '';
+
+    // Ustawienie odpowiedniego path w zależności od folderu
+    if (folder === '1') {
+        filePath = path.join(__dirname, 'Brygady', 'WYNIKI', 'Gotowe_brygady', '1', 'Rezerwa_list.txt');
+    } else if (folder === '2') {
+        filePath = path.join(__dirname, 'Brygady', 'WYNIKI', 'Gotowe_brygady', '2', 'Rezerwa_list.txt');
+    } else if (folder === '3') {
+        filePath = path.join(__dirname, 'Brygady', 'WYNIKI', 'Gotowe_brygady', '3', 'Rezerwa_list.txt');
+    } else if (folder === '4') {
+        filePath = path.join(__dirname, 'Brygady', 'WYNIKI', 'Gotowe_brygady', '4', 'Rezerwa_list.txt');
+    } else {
+        return res.status(404).send('Nieznana ścieżka');
+    }
+
+    fs.readFile(filePath, 'utf8', (err, data) => {
+        if (err) {
+            return res.status(500).send('Błąd podczas odczytu pliku');
+        }
+
+        res.type('txt').send(data);
+    });
+});
+
+
+
+
+
+
+
+
+
 // Uruchomienie serwera
 app.listen(PORT, () => {
     console.log(`Serwer działa na porcie ${PORT}`);

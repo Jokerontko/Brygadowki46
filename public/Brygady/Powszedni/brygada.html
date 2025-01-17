@@ -1041,9 +1041,18 @@
                 }
 
                 if (currentTime && nextTime && isBetween(godzinaZakonczenieA, currentTime, nextTime)) {
+                    // Create and insert the additional row
+                    const extraRow = document.createElement("tr");
+                    extraRow.innerHTML =
+                        `<td colspan="9" id="PodmianaWIERSZ" style="background-color: rgb(163, 120, 0);">
+                     Zjazd Do Zajezdni 
+                </td>`;
+                    tableBody.insertBefore(extraRow, nextRow); // Insert before the next row
+
+                    // Create the new row
                     const newRow = document.createElement("tr");
                     newRow.innerHTML =
-                        `<td colspan="9" style="text-align: center; font-size: 15px; padding: 3px;">
+                        `<td colspan="9" style="text-align: center; font-size: 15px; padding: 3px;" id="PodmianaBAZA">
                     <strong> Podmiana: ${przystanekZakonczenieA} </strong><br>
                     Zakończenie A: <strong> ${godzinaZakonczenieA} </strong> | Rozpoczęcie B: <strong> ${godzinaRozpoczeciaB} </strong>
                 </td>`;
@@ -1052,6 +1061,9 @@
                 }
             }
         }
+
+
+
 
         function parseFileContent(content) {
             const lines = content.split("\n").map(line => line.trim()).filter(line => line);
@@ -1276,7 +1288,46 @@
 
 
 
-        function drukujRozklad() {
+
+
+
+        // Główna funkcja init()
+        async function init() {
+
+            checkLogin();
+
+            loadBrygadaTitle();
+            loadBrygadaType();
+
+            let lines = await fetchGOTOWEFile();
+            if (lines) {
+                await processGOTOWEData(lines);
+                addPodmianaRows();
+                ZjazdDoZajezdni();
+                WyjazdNaLinie();
+                brygadabisowa();
+                PrzejazdTechniczny();
+                highlightCurrentTimeCells();
+                checkAndAddRow();
+
+
+            } else {
+                console.error("Nie udało się wczytać GOTOWE.txt.");
+            }
+        }
+
+    </script>
+</body>
+
+</html>
+
+
+
+
+<!--
+
+
+ function drukujRozklad() {
             // Pobranie numeru linii (zawsze oddzielony przecinkiem)
             const nrLinii = Array.from(new Set(
                     [...document.querySelectorAll("#rozkładTable tbody tr td:nth-child(2)")].map(cell => cell.innerText.trim())
@@ -1650,40 +1701,4 @@ position: absolute;
         }
 
 
-
-
-
-
-
-
-
-        // Główna funkcja init()
-        async function init() {
-
-            checkLogin();
-
-            loadBrygadaTitle();
-            loadBrygadaType();
-
-            let lines = await fetchGOTOWEFile();
-            if (lines) {
-                await processGOTOWEData(lines);
-                addPodmianaRows();
-                ZjazdDoZajezdni();
-                WyjazdNaLinie();
-                brygadabisowa();
-                PrzejazdTechniczny();
-                highlightCurrentTimeCells();
-
-                checkAndAddRow();
-
-
-            } else {
-                console.error("Nie udało się wczytać GOTOWE.txt.");
-            }
-        }
-
-    </script>
-</body>
-
-</html>
+-->

@@ -2,251 +2,254 @@
 <html lang="pl">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../../style_css/headermenu.css">
-  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-  <meta http-equiv="Pragma" content="no-cache">
-  <meta http-equiv="Expires" content="0">
-  <title>Wybór dnia</title>
-  <style>
-    body {
-      background: rgb(50, 50, 50);
-      font-family: Arial, sans-serif;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      height: 100vh;
-      color: white;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../style_css/headermenu.css">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>Wybór dnia</title>
+    <style>
+        body {
+            background: rgb(50, 50, 50);
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+            color: white;
+        }
 
-    h1 {
-      font-size: 2rem;
-      margin-bottom: -13px;
-    }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: -13px;
+        }
 
-    table {
-      width: 35%;
-      border-collapse: collapse;
-      border-radius: 5px;
-      overflow: hidden;
-    }
+        table {
+            width: 35%;
+            border-collapse: collapse;
+            border-radius: 5px;
+            overflow: hidden;
+        }
 
-    th,
-    td {
-      text-align: center;
-      padding: 10px;
-      border: 1px solid #ccc;
-    }
+        th,
+        td {
+            text-align: center;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
 
-    thead {
-      background-color: rgba(163, 120, 0);
-    }
+        thead {
+            background-color: rgba(163, 120, 0);
+        }
 
-    td {
-      font-size-adjust: auto;
-    }
+        td {
+            font-size-adjust: auto;
+        }
 
-    .bordered {
-      border: 1.5px solid white;
-      padding: 7px;
-      width: 20px;
-      display: inline-block;
-      margin: 2px 2px;
-      font-weight: bolder;
-      align-items: center;
-    }
+        .bordered {
+            border: 1.5px solid white;
+            padding: 7px;
+            width: 20px;
+            display: inline-block;
+            margin: 2px 2px;
+            font-weight: bolder;
+            align-items: center;
+        }
 
-    .borderedRez {
-      font-size: 0px;
-    }
+        .borderedRez {
+            font-size: 0px;
+        }
 
-    .movetobrygada {
-      text-decoration: none;
-      color: white;
-      font-size: 17px;
+        .movetobrygada {
+            text-decoration: none;
+            color: white;
+            font-size: 17px;
 
-    }
+        }
 
-    .filter-container {
-      margin-bottom: 10px;
-    }
+        .filter-container {
+            margin-bottom: 10px;
+        }
 
-    .filter-input {
-      display: inline-block;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      text-decoration: none;
-      color: white;
-      background-color: rgba(50, 50, 50);
-      border: 2px solid;
-      border-radius: 10px;
-      padding: 10px;
-      transition: all 0.3s ease;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-      width: 112px;
-      max-width: 440px;
-      margin-bottom: 10px;
-    }
+        .filter-input {
+            display: inline-block;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            text-decoration: none;
+            color: white;
+            background-color: rgba(50, 50, 50);
+            border: 2px solid;
+            border-radius: 10px;
+            padding: 10px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            width: 112px;
+            max-width: 440px;
+            margin-bottom: 10px;
+        }
 
-    .filter-label {
-      font-weight: bold;
-      margin-right: 5px;
-    }
+        .filter-label {
+            font-weight: bold;
+            margin-right: 5px;
+        }
 
-    .top {
-      margin: 10px;
-      margin-bottom: 30px;
-    }
+        .top {
+            margin: 10px;
+            margin-bottom: 30px;
+        }
 
-    h4 {
-      margin: 0px 0px 10px;
-    }
+        h4 {
+            margin: 0px 0px 10px;
+        }
 
-    .szary {
-      color: grey;
-      font-size: 10px;
-    }
+        .szary {
+            color: grey;
+            font-size: 10px;
+        }
 
-    header {
-      position: sticky;
-      top: 0px;
-      background-color: rgb(50, 50, 50);
-    }
+        header {
+            position: sticky;
+            top: 0px;
+            background-color: rgb(50, 50, 50);
+        }
 
-  </style>
+    </style>
 </head>
 
 <body>
-  <header>
-    <a href="../../Main_Panel.html" class="menu">Panel Główny</a>
-    <a href="../ChooseDay.html" class="menu">Brygady</a>
-    <a href="../../Brygady/Kursy/Kursy.html" class="menu">Kursy</a>
-    <a href="#" class="menu exit" id="logout">Opuść Panel</a>
-    <hr>
-  </header>
+    <header>
+        <a href="../../Main_Panel.html" class="menu">Panel Główny</a>
+        <a href="../ChooseDay.html" class="menu">Brygady</a>
+        <a href="../../Brygady/Kursy/Kursy.html" class="menu">Kursy</a>
+        <a href="#" class="menu exit" id="logout">Opuść Panel</a>
+        <hr>
+    </header>
 
-  <center>
-    <h1>Rozkład {Jaki?}</h1>
-    <p class="top">Ważny od dnia <span id="waznyOd" style="background-color: red;">ładowanie...</span></p>
-  </center>
-
-  <div class="filter-container">
     <center>
-      <h4>Filtruj według:</h4>
-
-      <input type="text" id="filterBrygada" class="filter-input" placeholder="Numer Brygady">
-
-      <input type="text" id="filterLinie" class="filter-input" placeholder="Numer linii">
-      <br>
-      <a href="#" class="filtracja" id="greyFilter">Jednozmianowa</a>
-      <a href="#" class="filtracja" id="orangeFilter">Dwuzmianowa</a>
-      <br>
-      <a href="#" class="filtracja" id="purpleFilter">Szczytowa</a>
-      <a href="#" class="filtracja" id="blackFilter">Nocna</a>
-      <p class="szary">Po wpisaniu 'Rez' w filtrze linii, wyświetlają się wszystkie brygady z rezerwą :3</p>
+        <h1>Rozkład {Jaki?}</h1>
+        <p class="top">Ważny od dnia <span id="waznyOd">ładowanie...</span></p>
     </center>
-  </div>
+
+    <div class="filter-container">
+        <center>
+            <h4>Filtruj według:</h4>
+
+            <input type="text" id="filterBrygada" class="filter-input" placeholder="Numer Brygady">
+
+            <input type="text" id="filterLinie" class="filter-input" placeholder="Numer linii">
+            <br>
+            <a href="#" class="filtracja" id="greyFilter">Jednozmianowa</a>
+            <a href="#" class="filtracja" id="orangeFilter">Dwuzmianowa</a>
+            <br>
+            <a href="#" class="filtracja" id="purpleFilter">Szczytowa</a>
+            <a href="#" class="filtracja" id="blackFilter">Nocna</a>
+            <!-- <p class="szary">Po wpisaniu 'Rez' w filtrze linii, wyświetlają się wszystkie brygady z rezerwą :3</p> -->
+            <hr>
+            <a class="menu" style="font-size: 15px;" href="Podmiany.html">Lista podmian</a>
+            <a class="menu" style="font-size: 15px;" href="Rezerwy.html">Lista rezerw</a>
+        </center>
+    </div>
 
 
 
-  <table>
-    <thead>
-      <tr>
-        <th>Brygada</th>
-        <th>Linie</th>
-        <th>Godz. Rozp.</th>
-        <th>Godz. Zak.</th>
-        <th>Km</th>
-      </tr>
-    </thead>
-    <tbody id="dataTableBody">
-      <!-- Wiersze zostaną dodane dynamicznie -->
-    </tbody>
-  </table>
+    <table>
+        <thead>
+            <tr>
+                <th>Brygada</th>
+                <th>Linie</th>
+                <th>Godz. Rozp.</th>
+                <th>Godz. Zak.</th>
+                <th>Km</th>
+            </tr>
+        </thead>
+        <tbody id="dataTableBody">
+            <!-- Wiersze zostaną dodane dynamicznie -->
+        </tbody>
+    </table>
 
-  <script>
-    async function fetchDate() {
-      try {
-        const response = await fetch('../wazny_od.txt');
-        if (!response.ok) {
-          throw new Error('Błąd podczas ładowania daty');
+    <script>
+        async function fetchDate() {
+            try {
+                const response = await fetch('../wazny_od.txt');
+                if (!response.ok) {
+                    throw new Error('Błąd podczas ładowania daty');
+                }
+                const dateText = await response.text();
+                document.getElementById('waznyOd').textContent = dateText.trim();
+            } catch (error) {
+                console.error('Błąd:', error);
+                document.getElementById('waznyOd').textContent = 'Błąd ładowania daty';
+            }
         }
-        const dateText = await response.text();
-        document.getElementById('waznyOd').textContent = dateText.trim();
-      } catch (error) {
-        console.error('Błąd:', error);
-        document.getElementById('waznyOd').textContent = 'Błąd ładowania daty';
-      }
-    }
 
 
 
-    document.addEventListener("DOMContentLoaded", function() {
-      // Funkcja do pobrania nazwy folderu
-      function getFolderName() {
-        // Użyj lokalizacji do uzyskania ścieżki
-        const path = window.location.pathname;
-        const folderName = path.substring(0, path.lastIndexOf('/')).split('/').pop();
-        return folderName;
-      }
+        document.addEventListener("DOMContentLoaded", function() {
+            // Funkcja do pobrania nazwy folderu
+            function getFolderName() {
+                // Użyj lokalizacji do uzyskania ścieżki
+                const path = window.location.pathname;
+                const folderName = path.substring(0, path.lastIndexOf('/')).split('/').pop();
+                return folderName;
+            }
 
-      // Uzupełnij tytuł o nazwę folderu
-      const folderName = getFolderName();
-      document.querySelector('h1').innerHTML = `Rozkład ${folderName}`;
-    });
-
-    function checkLogin() {
-      const user = JSON.parse(sessionStorage.getItem('user'));
-
-      if (!user) {
-        window.location.href = '../../zoltakartka.html';
-      }
-    }
-
-    function normalizeTime(time) {
-      const parts = time.split(':'); // Rozdziel na godziny, minuty i sekundy
-      if (parts.length !== 2) return time; // Sprawdź, czy format jest poprawny
-      let hours = parseInt(parts[0], 10);
-      const minutes = parseInt(parts[1], 10);
-      const seconds = parseInt(parts[2], 10);
-
-      // Sprawdź, czy godziny są większe lub równe 24
-      while (hours >= 24) {
-        hours -= 24; // Odejmij 24 godziny
-      }
-
-      // Zwróć sformatowany czas
-      return `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}`;
-    }
-
-    async function loadData() {
-      try {
-        const response = await fetch(`/api/data?brygada=${brygadaNumber}`); // Wysyłamy numer brygady w zapytaniu
-        const data = await response.json();
-
-        data.sort((a, b) => {
-          // Zakładając, że wartości brygady to daty w formacie "mm/dd"
-          const [monthA, dayA] = a.brygada.split('/').map(Number); // Rozdzielamy na miesiąc i dzień
-          const [monthB, dayB] = b.brygada.split('/').map(Number); // Rozdzielamy na miesiąc i dzień
-
-          // Porównujemy miesiące, jeśli miesiące są równe, porównujemy dni
-          if (monthA === monthB) {
-            return dayA - dayB;
-          } else {
-            return monthA - monthB;
-          }
+            // Uzupełnij tytuł o nazwę folderu
+            const folderName = getFolderName();
+            document.querySelector('h1').innerHTML = `Rozkład ${folderName}`;
         });
 
-        const tableBody = document.getElementById('dataTableBody');
+        function checkLogin() {
+            const user = JSON.parse(sessionStorage.getItem('user'));
 
-        data.forEach(item => {
-          const normalizedStart = normalizeTime(item.godzRozp); // Normalizuj czas rozpoczęcia
-          const normalizedEnd = normalizeTime(item.godzZak); // Normalizuj czas zakończenia
+            if (!user) {
+                window.location.href = '../../zoltakartka.html';
+            }
+        }
 
-          const row = document.createElement('tr');
-          row.innerHTML = `
+        function normalizeTime(time) {
+            const parts = time.split(':'); // Rozdziel na godziny, minuty i sekundy
+            if (parts.length !== 2) return time; // Sprawdź, czy format jest poprawny
+            let hours = parseInt(parts[0], 10);
+            const minutes = parseInt(parts[1], 10);
+            const seconds = parseInt(parts[2], 10);
+
+            // Sprawdź, czy godziny są większe lub równe 24
+            while (hours >= 24) {
+                hours -= 24; // Odejmij 24 godziny
+            }
+
+            // Zwróć sformatowany czas
+            return `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}`;
+        }
+
+        async function loadData() {
+            try {
+                const response = await fetch(`/api/data?brygada=${brygadaNumber}`); // Wysyłamy numer brygady w zapytaniu
+                const data = await response.json();
+
+                data.sort((a, b) => {
+                    // Zakładając, że wartości brygady to daty w formacie "mm/dd"
+                    const [monthA, dayA] = a.brygada.split('/').map(Number); // Rozdzielamy na miesiąc i dzień
+                    const [monthB, dayB] = b.brygada.split('/').map(Number); // Rozdzielamy na miesiąc i dzień
+
+                    // Porównujemy miesiące, jeśli miesiące są równe, porównujemy dni
+                    if (monthA === monthB) {
+                        return dayA - dayB;
+                    } else {
+                        return monthA - monthB;
+                    }
+                });
+
+                const tableBody = document.getElementById('dataTableBody');
+
+                data.forEach(item => {
+                    const normalizedStart = normalizeTime(item.godzRozp); // Normalizuj czas rozpoczęcia
+                    const normalizedEnd = normalizeTime(item.godzZak); // Normalizuj czas zakończenia
+
+                    const row = document.createElement('tr');
+                    row.innerHTML = `
     <td><a href="brygada.html" class="movetobrygada" onclick="saveBrygada('${item.brygada}')">${item.brygada}</a></td>
     <td><center>
         ${item.linie
@@ -261,273 +264,273 @@
     <td>${normalizedEnd}</td> <!-- Zaktualizowane -->
     <td>${item.km || 'N/A'}</td>
 `;
-          tableBody.appendChild(row);
+                    tableBody.appendChild(row);
 
 
 
 
 
-        });
-      } catch (error) {
-        console.error('Błąd podczas ładowania danych:', error);
-      }
-    }
-
-    function saveBrygada(brygada) {
-      sessionStorage.setItem('brygadaTitle', brygada.replace(/\//g, "_")); // Zamień "/" na "_" i zapisz w sessionStorage
-      sessionStorage.setItem('selectedBrygada', brygada); // Opcjonalne: możesz zachować również selectedBrygada
-    }
-
-    document.getElementById('logout').addEventListener('click', function() {
-      sessionStorage.clear();
-      window.location.href = '../../index.html';
-    });
-
-    // Funkcja do filtrowania tabeli
-    function addFilters() {
-      const filterLinie = document.getElementById('filterLinie');
-      const filterBrygada = document.getElementById('filterBrygada');
-
-      filterLinie.addEventListener('input', filterTable);
-      filterBrygada.addEventListener('input', filterTable);
-    }
-
-    function filterTable() {
-      const linieFilter = document.getElementById('filterLinie').value.toLowerCase();
-      const brygadaFilter = document.getElementById('filterBrygada').value.toLowerCase();
-      const row = document.querySelectorAll('#dataTableBody tr');
-
-      rows.forEach(row => {
-        const linie = row.children[1].textContent.toLowerCase();
-        const brygada = row.children[0].textContent.toLowerCase();
-
-        // Zmiana z includes na startsWith dla brygady
-        const showRow = linie.includes(linieFilter) && brygada.startsWith(brygadaFilter);
-        row.style.display = showRow ? '' : 'none';
-      });
-    }
-
-    // Pobranie pełnej ścieżki do pliku
-    const fullPath = window.location.pathname;
-
-    // Podzielenie ścieżki na części na podstawie "/"
-    const pathParts = fullPath.split('/');
-
-    // Pobranie nazwy folderu (zakładamy, że folder jest bezpośrednio nad plikiem)
-    const folderName = pathParts[pathParts.length - 2]; // -2, bo ostatni element to nazwa pliku
-
-    // Inicjalizacja zmiennej brygadaNumber na podstawie folderu
-    let brygadaNumber;
-
-    switch (folderName) {
-      case 'Niedzielny':
-        brygadaNumber = '1';
-        break;
-      case 'Powszedni':
-        brygadaNumber = '2';
-        break;
-      case 'PowszedniWolny':
-        brygadaNumber = '3';
-        break;
-      case 'Sobotni':
-        brygadaNumber = '4';
-        break;
-      default:
-        brygadaNumber = '2'; // Domyślna wartość, jeśli folder nie pasuje do żadnego przypadku
-    }
-
-    sessionStorage.setItem("ChoosedTypeOfDay", brygadaNumber)
-
-
-
-
-    async function checkBrygadaStatus() {
-      const rows = document.querySelectorAll('#dataTableBody tr');
-
-      try {
-        const response = await fetch(`../../../Brygady/WYNIKI/Gotowe_brygady/${brygadaNumber}/Brygady_BIS.txt`);
-        if (!response.ok) {
-          console.error("Błąd podczas ładowania pliku Brygady_BIS.txt");
-          return;
-        }
-        const fileContent = await response.text();
-        const lines = fileContent.split('\n');
-
-        // Tworzenie mapy brygad i ich statusów (Bisówka lub JednoZmianówka)
-        const brygadaStatusMap = {};
-        lines.forEach(line => {
-          const [brygada, status] = line.split('\t');
-          if (brygada && status) {
-            brygadaStatusMap[brygada.trim()] = status.trim();
-          }
-        });
-
-        // Przejście przez wiersze tabeli i ustawienie koloru tła za tekstem w zależności od statusu
-        rows.forEach(row => {
-          const brygadaCell = row.querySelector('td:first-child a');
-          const brygada = brygadaCell.textContent.trim();
-          sessionStorage.setItem('BrygadaType', 'Brak Tła');
-          if (brygadaStatusMap[brygada]) {
-            const status = brygadaStatusMap[brygada];
-            if (status === 'B') {
-              brygadaCell.style.backgroundColor = 'purple';
-              brygadaCell.style.color = 'white';
-            } else if (status === 'JZ') {
-              brygadaCell.style.backgroundColor = 'grey';
-              brygadaCell.style.color = 'white';
-            } else if (status === 'X') {
-              brygadaCell.style.backgroundColor = 'rgba(163, 120, 0)';
-              brygadaCell.style.color = 'white';
-            } else if (status === 'JZN') {
-              brygadaCell.style.backgroundColor = 'black';
-              brygadaCell.style.color = 'white';
+                });
+            } catch (error) {
+                console.error('Błąd podczas ładowania danych:', error);
             }
-            // Dodanie marginesów, aby zwiększyć obszar tła
-            brygadaCell.style.padding = '2px 5px';
-            brygadaCell.style.borderRadius = '4px'; // Zaokrąglenie rogów dla estetyki
+        }
 
-            // Dodanie nasłuchiwacza kliknięcia na komórkę
-            brygadaCell.addEventListener('click', function() {
-              sessionStorage.setItem('BrygadaType', 'Brygada Dwuzmianowa');
-              const backgroundColor = brygadaCell.style.backgroundColor;
-              if (backgroundColor === 'purple') { // BISÓWKA
-                sessionStorage.setItem('BrygadaType', 'Brygada Szczytowa');
-              } else if (backgroundColor === 'grey') { // 1 ZMIANÓWKA
-                sessionStorage.setItem('BrygadaType', 'Brygada Jednozmianowa');
-              } else if (backgroundColor === 'black') { // NOCNY
-                sessionStorage.setItem('BrygadaType', 'Brygada Nocna Jednozmianowa');
-              } else if (backgroundColor === 'rgba(0, 0, 1)') { // NOCNY
-                sessionStorage.setItem('BrygadaType', 'Brygada Nocna Dwuzmianowa');
-              }
+        function saveBrygada(brygada) {
+            sessionStorage.setItem('brygadaTitle', brygada.replace(/\//g, "_")); // Zamień "/" na "_" i zapisz w sessionStorage
+            sessionStorage.setItem('selectedBrygada', brygada); // Opcjonalne: możesz zachować również selectedBrygada
+        }
 
-            });
-          }
+        document.getElementById('logout').addEventListener('click', function() {
+            sessionStorage.clear();
+            window.location.href = '../../index.html';
         });
-      } catch (error) {
-        console.error("Błąd:", error);
-      }
-    }
 
+        // Funkcja do filtrowania tabeli
+        function addFilters() {
+            const filterLinie = document.getElementById('filterLinie');
+            const filterBrygada = document.getElementById('filterBrygada');
 
-
-
-
-
-    function filterTable() {
-      const linieFilter = document.getElementById('filterLinie').value.toLowerCase();
-      const brygadaFilter = document.getElementById('filterBrygada').value.toLowerCase();
-
-      // Get all rows in the table
-      const rows = document.querySelectorAll('#dataTableBody tr');
-
-      // Check which color filters are active
-      const purpleChecked = document.getElementById('purpleFilter').classList.contains('active');
-      const greyChecked = document.getElementById('greyFilter').classList.contains('active');
-      const orangeChecked = document.getElementById('orangeFilter').classList.contains('active');
-      const blackChecked = document.getElementById('blackFilter').classList.contains('active');
-
-      // Check if any color filter is active
-      const isAnyColorChecked = purpleChecked || greyChecked || orangeChecked || blackChecked;
-
-      rows.forEach(row => {
-        const linie = row.children[1].textContent.toLowerCase();
-        const brygada = row.children[0].textContent.toLowerCase();
-        const brygadaCell = row.querySelector("td:first-child a"); // The cell containing the "Brygada" link
-        const backgroundColor = window.getComputedStyle(brygadaCell).backgroundColor;
-
-        // Check if the row matches both the text filter and color filter (if any color is active)
-        const matchesLinie = linie.includes(linieFilter);
-        const matchesBrygada = brygada.startsWith(brygadaFilter);
-
-        let matchesColor = true; // Default to true if no color filter is active
-
-        if (isAnyColorChecked) {
-          matchesColor = (
-            (backgroundColor === 'rgb(128, 0, 128)' && purpleChecked) || // Purple
-            (backgroundColor === 'rgb(128, 128, 128)' && greyChecked) || // Grey
-            (backgroundColor === 'rgb(163, 120, 0)' && orangeChecked) || // Orange
-            (backgroundColor === 'rgb(0, 0, 0)' && blackChecked) // Black
-          );
+            filterLinie.addEventListener('input', filterTable);
+            filterBrygada.addEventListener('input', filterTable);
         }
 
-        // Show the row if it matches both filters (text and color, if applied), otherwise hide it
-        if (matchesLinie && matchesBrygada && matchesColor) {
-          row.style.display = '';
-        } else {
-          row.style.display = 'none';
+        function filterTable() {
+            const linieFilter = document.getElementById('filterLinie').value.toLowerCase();
+            const brygadaFilter = document.getElementById('filterBrygada').value.toLowerCase();
+            const row = document.querySelectorAll('#dataTableBody tr');
+
+            rows.forEach(row => {
+                const linie = row.children[1].textContent.toLowerCase();
+                const brygada = row.children[0].textContent.toLowerCase();
+
+                // Zmiana z includes na startsWith dla brygady
+                const showRow = linie.includes(linieFilter) && brygada.startsWith(brygadaFilter);
+                row.style.display = showRow ? '' : 'none';
+            });
         }
-      });
-    }
 
-    // Attach the filtering function to the click event of the color filter links
-    function addFilters() {
-      const filterLinie = document.getElementById('filterLinie');
-      const filterBrygada = document.getElementById('filterBrygada');
+        // Pobranie pełnej ścieżki do pliku
+        const fullPath = window.location.pathname;
 
-      // Add event listeners to text filters (linie and brygada)
-      filterLinie.addEventListener('input', filterTable);
-      filterBrygada.addEventListener('input', filterTable);
+        // Podzielenie ścieżki na części na podstawie "/"
+        const pathParts = fullPath.split('/');
 
-      // Add event listeners to color filter links
-      document.getElementById('purpleFilter').addEventListener('click', toggleFilter);
-      document.getElementById('greyFilter').addEventListener('click', toggleFilter);
-      document.getElementById('orangeFilter').addEventListener('click', toggleFilter);
-      document.getElementById('blackFilter').addEventListener('click', toggleFilter);
-    }
+        // Pobranie nazwy folderu (zakładamy, że folder jest bezpośrednio nad plikiem)
+        const folderName = pathParts[pathParts.length - 2]; // -2, bo ostatni element to nazwa pliku
 
-    // Function to toggle active class on the color filter links
-    function toggleFilter(event) {
-      // Toggle 'active' class on the clicked link
-      const filterLink = event.target;
-      filterLink.classList.toggle('active');
+        // Inicjalizacja zmiennej brygadaNumber na podstawie folderu
+        let brygadaNumber;
 
-      // Check if all color filters are now active
-      const allFiltersActive = document.getElementById('purpleFilter').classList.contains('active') &&
-        document.getElementById('greyFilter').classList.contains('active') &&
-        document.getElementById('orangeFilter').classList.contains('active') &&
-        document.getElementById('blackFilter').classList.contains('active');
+        switch (folderName) {
+            case 'Niedzielny':
+                brygadaNumber = '1';
+                break;
+            case 'Powszedni':
+                brygadaNumber = '2';
+                break;
+            case 'PowszedniWolny':
+                brygadaNumber = '3';
+                break;
+            case 'Sobotni':
+                brygadaNumber = '4';
+                break;
+            default:
+                brygadaNumber = '2'; // Domyślna wartość, jeśli folder nie pasuje do żadnego przypadku
+        }
 
-      // If all filters are active, remove 'active' class from all filters
-      if (allFiltersActive) {
-        document.getElementById('purpleFilter').classList.remove('active');
-        document.getElementById('greyFilter').classList.remove('active');
-        document.getElementById('orangeFilter').classList.remove('active');
-        document.getElementById('blackFilter').classList.remove('active');
-      }
-
-      // Call filterTable after the class change
-      filterTable();
-    }
-
-    document.addEventListener("DOMContentLoaded", function() {
-      addFilters();
-    });
+        sessionStorage.setItem("ChoosedTypeOfDay", brygadaNumber)
 
 
 
 
+        async function checkBrygadaStatus() {
+            const rows = document.querySelectorAll('#dataTableBody tr');
+
+            try {
+                const response = await fetch(`../../../Brygady/WYNIKI/Gotowe_brygady/${brygadaNumber}/Brygady_BIS.txt`);
+                if (!response.ok) {
+                    console.error("Błąd podczas ładowania pliku Brygady_BIS.txt");
+                    return;
+                }
+                const fileContent = await response.text();
+                const lines = fileContent.split('\n');
+
+                // Tworzenie mapy brygad i ich statusów (Bisówka lub JednoZmianówka)
+                const brygadaStatusMap = {};
+                lines.forEach(line => {
+                    const [brygada, status] = line.split('\t');
+                    if (brygada && status) {
+                        brygadaStatusMap[brygada.trim()] = status.trim();
+                    }
+                });
+
+                // Przejście przez wiersze tabeli i ustawienie koloru tła za tekstem w zależności od statusu
+                rows.forEach(row => {
+                    const brygadaCell = row.querySelector('td:first-child a');
+                    const brygada = brygadaCell.textContent.trim();
+                    sessionStorage.setItem('BrygadaType', 'Brak Tła');
+                    if (brygadaStatusMap[brygada]) {
+                        const status = brygadaStatusMap[brygada];
+                        if (status === 'B') {
+                            brygadaCell.style.backgroundColor = 'purple';
+                            brygadaCell.style.color = 'white';
+                        } else if (status === 'JZ') {
+                            brygadaCell.style.backgroundColor = 'grey';
+                            brygadaCell.style.color = 'white';
+                        } else if (status === 'X') {
+                            brygadaCell.style.backgroundColor = 'rgba(163, 120, 0)';
+                            brygadaCell.style.color = 'white';
+                        } else if (status === 'JZN') {
+                            brygadaCell.style.backgroundColor = 'black';
+                            brygadaCell.style.color = 'white';
+                        }
+                        // Dodanie marginesów, aby zwiększyć obszar tła
+                        brygadaCell.style.padding = '2px 5px';
+                        brygadaCell.style.borderRadius = '4px'; // Zaokrąglenie rogów dla estetyki
+
+                        // Dodanie nasłuchiwacza kliknięcia na komórkę
+                        brygadaCell.addEventListener('click', function() {
+                            sessionStorage.setItem('BrygadaType', 'Brygada Dwuzmianowa');
+                            const backgroundColor = brygadaCell.style.backgroundColor;
+                            if (backgroundColor === 'purple') { // BISÓWKA
+                                sessionStorage.setItem('BrygadaType', 'Brygada Szczytowa');
+                            } else if (backgroundColor === 'grey') { // 1 ZMIANÓWKA
+                                sessionStorage.setItem('BrygadaType', 'Brygada Jednozmianowa');
+                            } else if (backgroundColor === 'black') { // NOCNY
+                                sessionStorage.setItem('BrygadaType', 'Brygada Nocna Jednozmianowa');
+                            } else if (backgroundColor === 'rgba(0, 0, 1)') { // NOCNY
+                                sessionStorage.setItem('BrygadaType', 'Brygada Nocna Dwuzmianowa');
+                            }
+
+                        });
+                    }
+                });
+            } catch (error) {
+                console.error("Błąd:", error);
+            }
+        }
 
 
 
 
 
-    // Wywołaj funkcję po załadowaniu danych
-    window.onload = async function() {
-      await fetchDate();
-      checkLogin();
-      await loadData();
-      addFilters();
-      await checkBrygadaStatus(); // Sprawdź status brygad po załadowaniu danych
-    };
 
-  </script>
+        function filterTable() {
+            const linieFilter = document.getElementById('filterLinie').value.toLowerCase();
+            const brygadaFilter = document.getElementById('filterBrygada').value.toLowerCase();
 
-  <p>
-    <center>
-      Rozkłady na dzień dzisiejszy posiadają godziny rozpoczęcia oraz zakończenia <strong>PIERWSZYCH KURSÓW LINIOWYCH zawartych w brygadzie.</strong> <br>
-      W przyszłości planuję to zmienić.<br>
-    </center>
-  </p>
+            // Get all rows in the table
+            const rows = document.querySelectorAll('#dataTableBody tr');
+
+            // Check which color filters are active
+            const purpleChecked = document.getElementById('purpleFilter').classList.contains('active');
+            const greyChecked = document.getElementById('greyFilter').classList.contains('active');
+            const orangeChecked = document.getElementById('orangeFilter').classList.contains('active');
+            const blackChecked = document.getElementById('blackFilter').classList.contains('active');
+
+            // Check if any color filter is active
+            const isAnyColorChecked = purpleChecked || greyChecked || orangeChecked || blackChecked;
+
+            rows.forEach(row => {
+                const linie = row.children[1].textContent.toLowerCase();
+                const brygada = row.children[0].textContent.toLowerCase();
+                const brygadaCell = row.querySelector("td:first-child a"); // The cell containing the "Brygada" link
+                const backgroundColor = window.getComputedStyle(brygadaCell).backgroundColor;
+
+                // Check if the row matches both the text filter and color filter (if any color is active)
+                const matchesLinie = linie.includes(linieFilter);
+                const matchesBrygada = brygada.startsWith(brygadaFilter);
+
+                let matchesColor = true; // Default to true if no color filter is active
+
+                if (isAnyColorChecked) {
+                    matchesColor = (
+                        (backgroundColor === 'rgb(128, 0, 128)' && purpleChecked) || // Purple
+                        (backgroundColor === 'rgb(128, 128, 128)' && greyChecked) || // Grey
+                        (backgroundColor === 'rgb(163, 120, 0)' && orangeChecked) || // Orange
+                        (backgroundColor === 'rgb(0, 0, 0)' && blackChecked) // Black
+                    );
+                }
+
+                // Show the row if it matches both filters (text and color, if applied), otherwise hide it
+                if (matchesLinie && matchesBrygada && matchesColor) {
+                    row.style.display = '';
+                } else {
+                    row.style.display = 'none';
+                }
+            });
+        }
+
+        // Attach the filtering function to the click event of the color filter links
+        function addFilters() {
+            const filterLinie = document.getElementById('filterLinie');
+            const filterBrygada = document.getElementById('filterBrygada');
+
+            // Add event listeners to text filters (linie and brygada)
+            filterLinie.addEventListener('input', filterTable);
+            filterBrygada.addEventListener('input', filterTable);
+
+            // Add event listeners to color filter links
+            document.getElementById('purpleFilter').addEventListener('click', toggleFilter);
+            document.getElementById('greyFilter').addEventListener('click', toggleFilter);
+            document.getElementById('orangeFilter').addEventListener('click', toggleFilter);
+            document.getElementById('blackFilter').addEventListener('click', toggleFilter);
+        }
+
+        // Function to toggle active class on the color filter links
+        function toggleFilter(event) {
+            // Toggle 'active' class on the clicked link
+            const filterLink = event.target;
+            filterLink.classList.toggle('active');
+
+            // Check if all color filters are now active
+            const allFiltersActive = document.getElementById('purpleFilter').classList.contains('active') &&
+                document.getElementById('greyFilter').classList.contains('active') &&
+                document.getElementById('orangeFilter').classList.contains('active') &&
+                document.getElementById('blackFilter').classList.contains('active');
+
+            // If all filters are active, remove 'active' class from all filters
+            if (allFiltersActive) {
+                document.getElementById('purpleFilter').classList.remove('active');
+                document.getElementById('greyFilter').classList.remove('active');
+                document.getElementById('orangeFilter').classList.remove('active');
+                document.getElementById('blackFilter').classList.remove('active');
+            }
+
+            // Call filterTable after the class change
+            filterTable();
+        }
+
+        document.addEventListener("DOMContentLoaded", function() {
+            addFilters();
+        });
+
+
+
+
+
+
+
+
+
+        // Wywołaj funkcję po załadowaniu danych
+        window.onload = async function() {
+            await fetchDate();
+            checkLogin();
+            await loadData();
+            addFilters();
+            await checkBrygadaStatus(); // Sprawdź status brygad po załadowaniu danych
+        };
+
+    </script>
+
+    <p>
+        <center>
+            Rozkłady na dzień dzisiejszy posiadają godziny rozpoczęcia oraz zakończenia <strong>PIERWSZYCH KURSÓW LINIOWYCH zawartych w brygadzie.</strong> <br>
+            W przyszłości planuję to zmienić.<br>
+        </center>
+    </p>
 
 </body>
 
