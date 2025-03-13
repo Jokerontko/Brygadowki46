@@ -4,7 +4,8 @@ import csv
 import re
 import shutil
 import datetime
-
+from datetime import datetime, timedelta
+import xml.etree.ElementTree as ET
 
 def clear_screen():
     # Sprawdź system operacyjny
@@ -257,7 +258,6 @@ def WczytajBrygady():
                     brygady_file.write('\n')  # Dodaj pustą linię po każdym zestawie folderów
                     
                     clear_screen()
-    input("Proces wykonano pomyślnie.")
     clear_screen()
                     
 
@@ -308,7 +308,6 @@ def StwórzLinietxt():
                     for numer in sorted_numer_linii:
                         l_file.write(numer + '\n')
 
-    input("Proces wykonano pomyślnie.")
     clear_screen()
 
 
@@ -1140,7 +1139,6 @@ def ModyfikujBrygadyBIS():
     clear_screen()
     try:
         zmien_typ_w_pliku()
-        input("Proces wykonano pomyślnie.")
         clear_screen()        
     except Exception as e:
         print(f"Wystąpił błąd w opcji 6: {e}")
@@ -1199,15 +1197,7 @@ def ShowToken():
 
 
     
-    
-    
-   
 
-            
-            
-    
-    
-    
 def NewsList():
     # Ścieżka do folderu z newsami
     folder_path = '../public/News'
@@ -1235,6 +1225,7 @@ def AddNews():
     clear_screen()
     # Pobranie danych od użytkownika
     data = input("Data: ")
+    godzina = input("Godzina: ")
     tytul = input("Tytuł: ")
     tresc = input("Treść: ")
     obrazek = input("Załącznik: ")
@@ -1252,7 +1243,7 @@ def AddNews():
     # Tworzenie zawartości pliku
     with open(file_path, 'w', encoding='utf-8') as file:
         file.write(f"{tytul}\n")
-        file.write(f"Dodano {data}\n")
+        file.write(f"{data}; {godzina}\n")
         file.write("\n")  # Pusta linijka
         file.write(f"{tresc}\n")
         if obrazek:  # Jeżeli obrazek jest podany
@@ -1545,7 +1536,6 @@ def CallendarCreator():
     generate_calendar(start_date, end_date, output_file, special_dates_file)
 
     print(f"Plik {output_file} został wygenerowany.")
-    input("ss")
 
       
     
@@ -1712,6 +1702,289 @@ def RezerwaList():
 
     print("Operacja zakończona.")
 
+def calculate_time_difference(start_time, end_time):
+    fmt = "%H:%M"
+    try:
+        start = datetime.strptime(start_time, fmt)
+
+        end_parts = end_time.split(':')
+        if int(end_parts[0]) >= 24:
+            end_time = f"{int(end_parts[0]) - 24}:{end_parts[1]}"
+
+        end = datetime.strptime(end_time, fmt)
+
+        if end < start:
+            end += timedelta(days=1)
+
+        difference = (end - start).total_seconds() / 3600
+        return difference
+    except ValueError:
+        print(f"BŁĄD: Nieprawidłowy format godziny: {start_time}, {end_time}")
+        return None
+
+
+def ZaproponujBrygadyBIS():
+    base_paths = [
+        "WYNIKI/Gotowe_brygady/1",
+        "WYNIKI/Gotowe_brygady/2",
+        "WYNIKI/Gotowe_brygady/3",
+        "WYNIKI/Gotowe_brygady/4"
+    ]
+
+    for base_path in base_paths:
+        if not os.path.exists(base_path):
+            print(f"BŁĄD: Folder {base_path} nie istnieje.")
+            continue
+
+        output_file = os.path.join(base_path, "Brygady_BIS.txt")
+        print(f"Tworzenie pliku: {output_file}")
+
+        with open(output_file, "w", encoding="utf-8") as out_file:
+            found_any = False
+            out_file.write(" Numer\tB/JZ \n")
+            out_file.write(" ------------- \n")
+
+            print(f"Sprawdzanie folderów w: {base_path}")
+            for folder in os.listdir(base_path):
+                folder_path = os.path.join(base_path, folder)
+                if os.path.isdir(folder_path):
+                    folder = folder.replace("_", "/")
+                    print(f"📂 Przetwarzanie folderu: {folder}")
+
+                    start_file = os.path.join(folder_path, "Godz_Rozp.txt")
+                    end_file = os.path.join(folder_path, "Godz_Zak.txt")
+
+                    if os.path.exists(start_file) and os.path.exists(end_file):
+                        print(f"✅ Pliki znalezione w {folder}")
+
+                        with open(start_file, "r", encoding="utf-8") as sf, open(end_file, "r", encoding="utf-8") as ef:
+                            start_time = sf.read().strip()
+                            end_time = ef.read().strip()
+
+                            time_diff = calculate_time_difference(start_time, end_time)
+
+                            if time_diff is not None:
+                                found_any = True
+                                if time_diff < 10:
+                                    out_file.write(f"{folder}\tJZ\n")
+                                elif time_diff > 10:
+                                    # Sprawdzenie pliku CzyBIS.txt i jego zawartości
+                                    bis_file_path = os.path.join(folder_path, "CzyBIS.txt")
+                                    if os.path.exists(bis_file_path):
+                                        with open(bis_file_path, "r", encoding="utf-8") as bis_file:
+                                            if "Tak" in bis_file.read():
+                                                out_file.write(f"{folder}\tB\n")                                  
+                                    else:
+                                        out_file.write(f"{folder}\tX\n")
+
+
+
+
+                    else:
+                        print(f"⚠️ Brak wymaganych plików w {folder}!")
+
+            if not found_any:
+                print("❌ Nie znaleziono żadnych folderów z poprawnymi danymi.")
+
+    print("✅ Zakończono działanie skryptu.")
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+import os
+from datetime import datetime
+
+def CzyBIS():
+    # Lista folderów, które chcemy przetworzyć
+    folder_paths = ['WYNIKI/Gotowe_brygady/1', 'WYNIKI/Gotowe_brygady/2', 'WYNIKI/Gotowe_brygady/3', 'WYNIKI/Gotowe_brygady/4']
+    
+    for folder_path in folder_paths:
+        # Sprawdzamy, czy folder istnieje
+        if os.path.exists(folder_path) and os.path.isdir(folder_path):
+            # Przechodzimy przez wszystkie podfoldery w folderze
+            for subfolder in os.listdir(folder_path):
+                subfolder_path = os.path.join(folder_path, subfolder)
+
+                try:
+                    # Sprawdzamy, czy to folder
+                    if os.path.isdir(subfolder_path):
+                        print(f'Przechodzę do folderu: {subfolder_path}')
+                        
+                        # Ścieżka do pliku CzyBIS.txt w danym podfolderze
+                        file_path_cybis = os.path.join(subfolder_path, 'CzyBIS-Analiza.txt')
+                        
+                        # Ścieżka do pliku GOTOWE.txt w danym podfolderze
+                        file_path_gotowe = os.path.join(subfolder_path, 'GOTOWE.txt')
+
+                        # Tworzymy plik CzyBIS.txt
+                        with open(file_path_cybis, 'w') as file_cybis:
+
+                            # Sprawdzamy, czy plik GOTOWE.txt istnieje
+                            if os.path.exists(file_path_gotowe):
+                                print(f'Plik GOTOWE.txt istnieje w folderze {subfolder_path}')
+                                try:
+                                    # Próba otwarcia pliku z określonym kodowaniem (np. 'utf-8', 'latin-1')
+                                    with open(file_path_gotowe, 'r', encoding='latin-1') as file_gotowe:
+                                        # Pomijamy pierwsze 2 linijki
+                                        lines = file_gotowe.readlines()[2:]
+
+                                        # Zmienna do przechowywania wartości departure_time
+                                        kurs_times = []
+                                        previous_max_time = None  # Zmienna do przechowywania poprzedniego maksymalnego czasu
+
+                                        # Przechodzimy przez wszystkie linie w pliku GOTOWE.txt
+                                        for line in lines:
+                                            # Sprawdzamy, czy linia jest pusta (oznacza koniec kursu)
+                                            if line.strip() == '':
+                                                # Jeśli są czasy, obliczamy min i max dla kursu
+                                                if kurs_times:
+                                                    min_time = min(kurs_times)
+                                                    max_time = max(kurs_times)
+
+                                                    # Zapisujemy do pliku
+                                                    file_cybis.write(f'Najmniejszy departure_time: {min_time}\n')
+                                                    file_cybis.write(f'Największy departure_time: {max_time}\n')
+
+                                                    # Obliczamy przerwę między kursami
+                                                    if previous_max_time:
+                                                        time_format = "%H:%M:%S"
+                                                        # Obliczanie różnicy między ostatnim czasem poprzedniego kursu a pierwszym czasem bieżącego kursu
+                                                        min_time_dt = datetime.strptime(min_time, time_format)
+                                                        previous_max_time_dt = datetime.strptime(previous_max_time, time_format)
+
+                                                        # Obliczanie różnicy w minutach
+                                                        break_time = (min_time_dt - previous_max_time_dt).total_seconds() / 60
+                                                        if break_time < 0:  # Jeśli różnica jest ujemna, to znaczy, że coś poszło nie tak
+                                                            break_time = 0
+                                                        file_cybis.write(f'Przerwa kierowcy: {break_time:.2f} minut\n')
+                                                        if break_time > 200:
+                                                            file_cybis.write(f'PRZERWA BISOWA\n')
+                                                            # Tworzymy plik CzyBIS.txt, jeśli warunek jest spełniony
+                                                            cybis_file_path = os.path.join(subfolder_path, 'CzyBIS.txt')
+                                                            with open(cybis_file_path, 'w') as cybis_file:
+                                                                cybis_file.write("Tak")
+                                                    
+
+                                                    # Aktualizujemy poprzedni maksymalny czas
+                                                    previous_max_time = max_time
+
+                                                    file_cybis.write('\n')
+
+                                                # Resetujemy listę czasów dla nowego kursu
+                                                kurs_times = []
+                                            else:
+                                                # Dzielimy linię na kolumny (oddzielone tabulatorem)
+                                                columns = line.split('\t')
+
+                                                # Wartość route_id (1-sza kolumna) traktujemy jako identyfikator kursu
+                                                if len(columns) > 4:
+                                                    # Dodajemy departure_time do listy czasów dla aktualnego kursu
+                                                    departure_time = columns[4]
+
+                                                    # Zapisujemy godzinę dokładnie tak, jak jest w pliku (bez konwersji)
+                                                    kurs_times.append(departure_time)
+
+                                        # Po zakończeniu pętli, zapisujemy ostatni kurs
+                                        if kurs_times:
+                                            min_time = min(kurs_times)
+                                            max_time = max(kurs_times)
+
+                                            # Zapisujemy do pliku
+                                            file_cybis.write(f'Najmniejszy departure_time: {min_time}\n')
+                                            file_cybis.write(f'Największy departure_time: {max_time}\n')
+
+                                except UnicodeDecodeError as e:
+                                    print(f'Błąd przy odczycie pliku GOTOWE.txt w folderze {subfolder_path}: {e}')
+                                    file_cybis.write(f'Błąd przy odczycie pliku GOTOWE.txt w folderze {subfolder_path}: {e}\n')
+                            else:
+                                print(f'Brak pliku GOTOWE.txt w folderze {subfolder_path}')
+                                file_cybis.write(f'Brak pliku GOTOWE.txt w folderze {subfolder_path}\n')
+
+                        print(f'Plik CzyBIS.txt został utworzony w folderze: {subfolder_path}')
+                    else:
+                        print(f'{subfolder_path} nie jest folderem, pomijam.')
+                except Exception as e:
+                    print(f'Błąd w folderze {subfolder_path}: {e}')
+        else:
+            print(f'Folder {folder_path} nie istnieje lub nie jest folderem.')
+
+    
+def WczytajNumeracje():
+    clear_screen()
+    input(f'Prawidłowa nazwa pliku xml:  ServiceCodes.xml\n Aby kontynuować kliknij ENTER')
+    # Definiowanie ścieżki do pliku XML
+    sciezka_pliku = 'ServiceCodes.xml'  # Poprawna nazwa zmiennej
+
+    # Wczytanie zawartości pliku XML
+    with open(sciezka_pliku, 'r', encoding='utf-8-sig') as file:
+        xml_content = file.read()
+
+    # Parsowanie zawartości XML
+    korzen = ET.fromstring(xml_content)
+
+    # Definiowanie przestrzeni nazw
+    namespaces = {'ns': 'http://www.transxchange.org.uk/'}
+
+    # Otwieramy plik tekstowy do zapisu
+    with open('WYNIKI/Numeracja brygad.txt', 'w', encoding='utf-8') as f:
+        # Iteracja przez wszystkie elementy Service
+        for service in korzen.findall('.//ns:Service', namespaces):
+            # Szukanie ServiceCode i PrivateCode
+            service_code = service.find('ns:ServiceCode', namespaces).text if service.find('ns:ServiceCode', namespaces) is not None else ''
+            private_code = service.find('ns:PrivateCode', namespaces).text if service.find('ns:PrivateCode', namespaces) is not None else ''
+            
+            # Zapisujemy do pliku
+            f.write(f"{service_code}\t{private_code}\n")
+    
+        
+
+        
+
+def Pozmieniaj():
+    plik = "trips.txt"
+    
+    while True:
+        numer_brygady = input("Podaj numer brygady (lub 'q' aby zakończyć): ")
+        if numer_brygady.lower() == 'q':
+            break
+        
+        nowy_numer = input("Podaj numer do zastąpienia: ")
+        
+        with open(plik, "r", encoding="utf-8") as f:
+            linie = f.readlines()
+        
+        with open(plik, "w", encoding="utf-8") as f:
+            for linia in linie:
+                pola = linia.strip().split(",")
+                
+                if pola[0] == numer_brygady:
+                    print(f"Zmieniono: {linia.strip()} -> {numer_brygady},{nowy_numer},{','.join(pola[2:])}")
+                    pola[1] = nowy_numer
+                
+                f.write(",".join(pola) + "\n")
+    
+
+def SprawdzPozmieniaj():
+    plik = "trips.txt"
+    
+    with open(plik, "r", encoding="utf-8") as f:
+        linie = f.readlines()
+    
+    print("Linijki, w których druga wartość jest różna od 1, 2, 3 oraz 4:")
+    for linia in linie:
+        pola = linia.strip().split(",")
+        if pola[1] not in {"1", "2", "3", "4"}:
+            print(linia.strip())    
     
     
     
@@ -1722,21 +1995,28 @@ def RezerwaList():
       
 def menu():
     while True:
+        
         print("====== Pliki strony ============")
         print("1. Wczytaj brygady")
-        print("2. Utwórz Linie.txt")
-        print("3. Utwórz Godz Rozp i Godz Zak")
-        print("4. Utwórz Brygady BIS")
-        print("5. Modyfikuj BRYGADY BIS")
-        print("6. Dodaj rezerwe")
-        print("7. Nazwij Brygady")
-        print("8. Utwórz plik zbiorczy Kursy")    
-        print("9. Utwórz plik GOTOWE.txt")       
-        print("10. Dodaj podmiane")
-        print("11. Stwórz plik kalendarza")
-        print("12. Stwórz Liste Podmian")
-        print("13. Stwórz Liste Podmian - wariant BAZA")
-        print("14. Stwórz Liste Rezerw")
+        print("2. Wczytaj numeracje brygad")
+        print("3. Nazwij Brygady")
+        print("4. Dodaj rezerwe")
+        print("5. Dodaj podmiane")
+        print("6. Utwórz Linie.txt")
+        print("7. Utwórz Godz Rozp i Godz Zak")
+        print("8. Utwórz plik GOTOWE.txt")  
+        print("9. Wyznacz brygady bisowe")
+        print("10. Wczytaj rodzaj brygad")
+        print("11. Stwórz Liste Podmian")
+        print("12. Stwórz Liste Podmian - wariant BAZA")
+        print("13. Stwórz Liste Rezerw")
+        print("14. Utwórz plik zbiorczy Kursy") 
+        print("15 - TESTY POZMIENIAJ")
+        print("16 - TESTY SPRAWDŹ PODMIENIAJ CZY SĄ INNE WARTOŚCI NIZ 1234")
+        print("")
+        print("20. Brygady + Numeracja + Nazwanie + Linie + Godziny + GOTOWE.txt + Wyznacz bb + Wczytaj bb + Plik Zbiorczy Kursy")
+        print("================================")
+
         print("")
         print("====== Kody zapętlone ==============")
         print("Aby skorzystać z kodu zapętlonego, należy przed numerem wpisać znak hasztag #")
@@ -1748,37 +2028,72 @@ def menu():
         wybor = input("Wybierz opcję: ")
         
         if wybor == "1":
-            WczytajBrygady()
+            WczytajBrygady() 
+            input("Gotowe.")
         elif wybor == "2":
-            StwórzLinietxt()
+            WczytajNumeracje()
+            input("Gotowe.")            
         elif wybor == "3":
-            StwórzGodzRozpGodzZak()
-        elif wybor == "4":
-            StwórzBrygadyBIS()
-        elif wybor == "5":
-            ModyfikujBrygadyBIS()    
-        elif wybor == "6":
-            DodajRezerwe() 
-        elif wybor == "#6":
-            BISDodajRezerwe()
-        elif wybor == "7":
             NazwijBrygady()
-        elif wybor == "8":
-            StwórzZbiorczyKursy() 
-        elif wybor == "9":
-            UtwórzGOTOWEtxt()
-        elif wybor == "10":
+            input("Gotowe.")            
+        elif wybor == "4":
+            DodajRezerwe() 
+            input("Gotowe.")            
+        elif wybor == "#4":
+            BISDodajRezerwe()
+            input("Gotowe.")            
+        elif wybor == "5":
             Podmiana()
-        elif wybor == "#10":
+            input("Gotowe.")            
+        elif wybor == "#5":
             BISPodmiana()
+            input("Gotowe.")            
+        elif wybor == "6":
+            StwórzLinietxt()
+            input("Gotowe.")            
+        elif wybor == "7":
+            StwórzGodzRozpGodzZak()
+            input("Gotowe.")            
+        elif wybor == "8":
+            UtwórzGOTOWEtxt()
+            input("Gotowe.")            
+        elif wybor == "9":
+            CzyBIS()
+            input("Gotowe.")            
+        elif wybor == "10":
+            ZaproponujBrygadyBIS()
+            input("Gotowe.")            
         elif wybor == "11":
-            CallendarCreator()
-        elif wybor == "12":
             PodmianaList()
-        elif wybor == "13":
+            input("Gotowe.")            
+        elif wybor == "12":
             PodmianaBAZA()
-        elif wybor == "14":
+            input("Gotowe.")            
+        elif wybor == "13":
             RezerwaList()
+            input("Gotowe.")            
+        elif wybor == "14":
+            StwórzZbiorczyKursy()
+            input("Gotowe.")   
+        elif wybor == "15":
+            Pozmieniaj()
+            input("Gotowe.")    
+        elif wybor == "16":
+            SprawdzPozmieniaj()
+            input("Gotowe.")               
+        elif wybor == "20":
+            WczytajBrygady()            
+            WczytajNumeracje()
+            NazwijBrygady()
+            UtwórzGOTOWEtxt()
+            StwórzLinietxt()            
+            StwórzGodzRozpGodzZak()
+            CzyBIS() 
+            ZaproponujBrygadyBIS()
+            StwórzZbiorczyKursy()
+            input("Gotowe.")            
+
+
         elif wybor == "90":
             NewsMenu()
         elif wybor == "91":

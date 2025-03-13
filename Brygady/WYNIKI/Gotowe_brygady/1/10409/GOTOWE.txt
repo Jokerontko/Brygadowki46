@@ -1,0 +1,940 @@
+route_id	service_id	trip_id	arrival_time	departure_time	stop_headsign	stop_name
+-------------------------------------------------------------------------------
+1010	3	201357	05:05:00	05:05:00		Dworzec Lokalny
+1010	3	201357	05:06:00	05:06:00		Piłsudskiego U. Marszałkowski 07
+1010	3	201357	05:06:00	05:06:00		Piłsudskiego U. Marszałkowski 07
+1010	3	201357	05:07:00	05:07:00		Cieplińskiego 02
+1010	3	201357	05:07:00	05:07:00		Cieplińskiego 02
+1010	3	201357	05:08:00	05:08:00		Lisa-Kuli 01
+1010	3	201357	05:08:00	05:08:00		Lisa-Kuli 01
+1010	3	201357	05:10:00	05:10:00		Dąbrowskiego park 02 nż
+1010	3	201357	05:10:00	05:10:00		Dąbrowskiego park 02 nż
+1010	3	201357	05:11:00	05:11:00		Dąbrowskiego KW. Policji 04
+1010	3	201357	05:11:00	05:11:00		Dąbrowskiego KW. Policji 04
+1010	3	201357	05:12:00	05:12:00		Dąbrowskiego / Boh. Westerplatte 08
+1010	3	201357	05:12:00	05:12:00		Dąbrowskiego / Boh. Westerplatte 08
+1010	3	201357	05:13:00	05:13:00		Powst. Warszawy / Dąbrowskiego 02
+1010	3	201357	05:13:00	05:13:00		Powst. Warszawy / Dąbrowskiego 02
+1010	3	201357	05:14:00	05:14:00		Powst. Warszawy politechnika 04
+1010	3	201357	05:14:00	05:14:00		Powst. Warszawy politechnika 04
+1010	3	201357	05:15:00	05:15:00		Powst. Warszawy stadion 06
+1010	3	201357	05:15:00	05:15:00		Powst. Warszawy stadion 06
+1010	3	201357	05:17:00	05:17:00		Podwisłocze / Powst. Warszawy 02
+1010	3	201357	05:17:00	05:17:00		Podwisłocze / Powst. Warszawy 02
+1010	3	201357	05:18:00	05:18:00		Podwisłocze / Seniora 04
+1010	3	201357	05:18:00	05:18:00		Podwisłocze / Seniora 04
+1010	3	201357	05:19:00	05:19:00		Kopisto U. Skarbowy 03
+1010	3	201357	05:19:00	05:19:00		Kopisto U. Skarbowy 03
+1010	3	201357	05:20:00	05:20:00		Kopisto uniwersytet 01
+1010	3	201357	05:20:00	05:20:00		Kopisto uniwersytet 01
+1010	3	201357	05:22:00	05:22:00		Rejtana uniwersytet 06
+1010	3	201357	05:22:00	05:22:00		Rejtana uniwersytet 06
+1010	3	201357	05:23:00	05:23:00		Rejtana cmentarz 04 nż
+1010	3	201357	05:23:00	05:23:00		Rejtana cmentarz 04 nż
+1010	3	201357	05:24:00	05:24:00		Rejtana / Kustronia 02
+1010	3	201357	05:24:00	05:24:00		Rejtana / Kustronia 02
+1010	3	201357	05:25:00	05:25:00		Lwowska jedn. wojskowa 02
+1010	3	201357	05:25:00	05:25:00		Lwowska jedn. wojskowa 02
+1010	3	201357	05:26:00	05:26:00		Lwowska cmentarz 04
+1010	3	201357	05:26:00	05:26:00		Lwowska cmentarz 04
+1010	3	201357	05:27:00	05:27:00		Lwowska szpital 06
+1010	3	201357	05:27:00	05:27:00		Lwowska szpital 06
+1010	3	201357	05:29:00	05:29:00		Lwowska / Olbrachta 08 nż
+1010	3	201357	05:29:00	05:29:00		Lwowska / Olbrachta 08 nż
+1010	3	201357	05:30:00	05:30:00		Lwowska / Kr. Marysieńki 10 nż
+1010	3	201357	05:30:00	05:30:00		Lwowska / Kr. Marysieńki 10 nż
+1010	3	201357	05:31:00	05:31:00		Lwowska granica 12 nż
+1010	3	201357	05:31:00	05:31:00		Lwowska granica 12 nż
+1010	3	201357	05:33:00	05:33:00		Krasne Auchan 01
+1010	3	201357	05:33:00	05:33:00		Krasne Auchan 01
+
+1013	3	200592	05:45:00	05:45:00		Krasne Auchan 01
+1013	3	200592	05:45:00	05:45:00		Krasne Auchan 01
+1013	3	200592	05:49:00	05:49:00		Lwowska granica 11 nż
+1013	3	200592	05:49:00	05:49:00		Lwowska granica 11 nż
+1013	3	200592	05:50:00	05:50:00		Lwowska / Bałtycka 09 nż
+1013	3	200592	05:50:00	05:50:00		Lwowska / Bałtycka 09 nż
+1013	3	200592	05:51:00	05:51:00		Lwowska / Cienista 07 nż
+1013	3	200592	05:51:00	05:51:00		Lwowska / Cienista 07 nż
+1013	3	200592	05:53:00	05:53:00		Lwowska szpital 05
+1013	3	200592	05:53:00	05:53:00		Lwowska szpital 05
+1013	3	200592	05:55:00	05:55:00		Lwowska cmentarz 03
+1013	3	200592	05:55:00	05:55:00		Lwowska cmentarz 03
+1013	3	200592	05:56:00	05:56:00		Lwowska jedn. wojskowa 01
+1013	3	200592	05:56:00	05:56:00		Lwowska jedn. wojskowa 01
+1013	3	200592	05:58:00	05:58:00		Rejtana / Kustronia 03 nż
+1013	3	200592	05:58:00	05:58:00		Rejtana / Kustronia 03 nż
+1013	3	200592	05:59:00	05:59:00		Rejtana uniwersytet 05
+1013	3	200592	05:59:00	05:59:00		Rejtana uniwersytet 05
+1013	3	200592	06:00:00	06:00:00		Kopisto uniwersytet 02
+1013	3	200592	06:00:00	06:00:00		Kopisto uniwersytet 02
+1013	3	200592	06:02:00	06:02:00		Podwisłocze U. Skarbowy 03
+1013	3	200592	06:02:00	06:02:00		Podwisłocze U. Skarbowy 03
+1013	3	200592	06:03:00	06:03:00		Podwisłocze domki 01
+1013	3	200592	06:03:00	06:03:00		Podwisłocze domki 01
+1013	3	200592	06:04:00	06:04:00		Powst. Warszawy / Podwisłocze 07 nż
+1013	3	200592	06:04:00	06:04:00		Powst. Warszawy / Podwisłocze 07 nż
+1013	3	200592	06:06:00	06:06:00		Powst. Warszawy / Hetmańska 03
+1013	3	200592	06:06:00	06:06:00		Powst. Warszawy / Hetmańska 03
+1013	3	200592	06:07:00	06:07:00		Powst. Warszawy politechnika 01
+1013	3	200592	06:07:00	06:07:00		Powst. Warszawy politechnika 01
+1013	3	200592	06:09:00	06:09:00		Dąbrowskiego / Chrobrego 07
+1013	3	200592	06:09:00	06:09:00		Dąbrowskiego / Chrobrego 07
+1013	3	200592	06:10:00	06:10:00		Dąbrowskiego KW. Policji 03
+1013	3	200592	06:10:00	06:10:00		Dąbrowskiego KW. Policji 03
+1013	3	200592	06:11:00	06:11:00		Dąbrowskiego park 01 nż
+1013	3	200592	06:11:00	06:11:00		Dąbrowskiego park 01 nż
+1013	3	200592	06:13:00	06:13:00		Lisa-Kuli 02
+1013	3	200592	06:13:00	06:13:00		Lisa-Kuli 02
+1013	3	200592	06:14:00	06:14:00		Cieplińskiego 01
+1013	3	200592	06:14:00	06:14:00		Cieplińskiego 01
+1013	3	200592	06:16:00	06:16:00		Piłsudskiego U. Marszałkowski 08
+1013	3	200592	06:16:00	06:16:00		Piłsudskiego U. Marszałkowski 08
+1013	3	200592	06:17:00	06:17:00		Dworzec Lokalny
+1013	3	200592	06:17:00	06:17:00		Dworzec Lokalny
+
+1010	3	200370	06:35:00	06:35:00		Dworzec Lokalny
+1010	3	200370	06:35:00	06:35:00		Dworzec Lokalny
+1010	3	200370	06:36:00	06:36:00		Piłsudskiego U. Marszałkowski 07
+1010	3	200370	06:36:00	06:36:00		Piłsudskiego U. Marszałkowski 07
+1010	3	200370	06:37:00	06:37:00		Cieplińskiego 02
+1010	3	200370	06:37:00	06:37:00		Cieplińskiego 02
+1010	3	200370	06:38:00	06:38:00		Lisa-Kuli 01
+1010	3	200370	06:38:00	06:38:00		Lisa-Kuli 01
+1010	3	200370	06:40:00	06:40:00		Dąbrowskiego park 02 nż
+1010	3	200370	06:40:00	06:40:00		Dąbrowskiego park 02 nż
+1010	3	200370	06:41:00	06:41:00		Dąbrowskiego KW. Policji 04
+1010	3	200370	06:41:00	06:41:00		Dąbrowskiego KW. Policji 04
+1010	3	200370	06:42:00	06:42:00		Dąbrowskiego / Boh. Westerplatte 08
+1010	3	200370	06:42:00	06:42:00		Dąbrowskiego / Boh. Westerplatte 08
+1010	3	200370	06:45:00	06:45:00		Powst. Warszawy / Dąbrowskiego 02
+1010	3	200370	06:45:00	06:45:00		Powst. Warszawy / Dąbrowskiego 02
+1010	3	200370	06:46:00	06:46:00		Powst. Warszawy politechnika 04
+1010	3	200370	06:46:00	06:46:00		Powst. Warszawy politechnika 04
+1010	3	200370	06:47:00	06:47:00		Powst. Warszawy stadion 06
+1010	3	200370	06:47:00	06:47:00		Powst. Warszawy stadion 06
+1010	3	200370	06:49:00	06:49:00		Podwisłocze / Powst. Warszawy 02
+1010	3	200370	06:49:00	06:49:00		Podwisłocze / Powst. Warszawy 02
+1010	3	200370	06:50:00	06:50:00		Podwisłocze / Seniora 04
+1010	3	200370	06:50:00	06:50:00		Podwisłocze / Seniora 04
+1010	3	200370	06:52:00	06:52:00		Kopisto U. Skarbowy 03
+1010	3	200370	06:52:00	06:52:00		Kopisto U. Skarbowy 03
+1010	3	200370	06:53:00	06:53:00		Kopisto uniwersytet 01
+1010	3	200370	06:53:00	06:53:00		Kopisto uniwersytet 01
+1010	3	200370	06:55:00	06:55:00		Rejtana uniwersytet 06
+1010	3	200370	06:55:00	06:55:00		Rejtana uniwersytet 06
+1010	3	200370	06:56:00	06:56:00		Rejtana cmentarz 04 nż
+1010	3	200370	06:56:00	06:56:00		Rejtana cmentarz 04 nż
+1010	3	200370	06:57:00	06:57:00		Rejtana / Kustronia 02
+1010	3	200370	06:57:00	06:57:00		Rejtana / Kustronia 02
+1010	3	200370	06:58:00	06:58:00		Lwowska jedn. wojskowa 02
+1010	3	200370	06:58:00	06:58:00		Lwowska jedn. wojskowa 02
+1010	3	200370	07:00:00	07:00:00		Lwowska cmentarz 04
+1010	3	200370	07:00:00	07:00:00		Lwowska cmentarz 04
+1010	3	200370	07:01:00	07:01:00		Lwowska szpital 06
+1010	3	200370	07:01:00	07:01:00		Lwowska szpital 06
+1010	3	200370	07:03:00	07:03:00		Lwowska / Olbrachta 08 nż
+1010	3	200370	07:03:00	07:03:00		Lwowska / Olbrachta 08 nż
+1010	3	200370	07:04:00	07:04:00		Lwowska / Kr. Marysieńki 10 nż
+1010	3	200370	07:04:00	07:04:00		Lwowska / Kr. Marysieńki 10 nż
+1010	3	200370	07:05:00	07:05:00		Lwowska granica 12 nż
+1010	3	200370	07:05:00	07:05:00		Lwowska granica 12 nż
+1010	3	200370	07:07:00	07:07:00		Krasne Auchan 01
+1010	3	200370	07:07:00	07:07:00		Krasne Auchan 01
+
+1013	3	200472	07:20:00	07:20:00		Krasne Auchan 01
+1013	3	200472	07:20:00	07:20:00		Krasne Auchan 01
+1013	3	200472	07:24:00	07:24:00		Lwowska granica 11 nż
+1013	3	200472	07:24:00	07:24:00		Lwowska granica 11 nż
+1013	3	200472	07:25:00	07:25:00		Lwowska / Bałtycka 09 nż
+1013	3	200472	07:25:00	07:25:00		Lwowska / Bałtycka 09 nż
+1013	3	200472	07:27:00	07:27:00		Lwowska / Cienista 07 nż
+1013	3	200472	07:27:00	07:27:00		Lwowska / Cienista 07 nż
+1013	3	200472	07:29:00	07:29:00		Lwowska szpital 05
+1013	3	200472	07:29:00	07:29:00		Lwowska szpital 05
+1013	3	200472	07:31:00	07:31:00		Lwowska cmentarz 03
+1013	3	200472	07:31:00	07:31:00		Lwowska cmentarz 03
+1013	3	200472	07:32:00	07:32:00		Lwowska jedn. wojskowa 01
+1013	3	200472	07:32:00	07:32:00		Lwowska jedn. wojskowa 01
+1013	3	200472	07:34:00	07:34:00		Rejtana / Kustronia 03 nż
+1013	3	200472	07:34:00	07:34:00		Rejtana / Kustronia 03 nż
+1013	3	200472	07:35:00	07:35:00		Rejtana uniwersytet 05
+1013	3	200472	07:35:00	07:35:00		Rejtana uniwersytet 05
+1013	3	200472	07:36:00	07:36:00		Kopisto uniwersytet 02
+1013	3	200472	07:36:00	07:36:00		Kopisto uniwersytet 02
+1013	3	200472	07:38:00	07:38:00		Podwisłocze U. Skarbowy 03
+1013	3	200472	07:38:00	07:38:00		Podwisłocze U. Skarbowy 03
+1013	3	200472	07:39:00	07:39:00		Podwisłocze domki 01
+1013	3	200472	07:39:00	07:39:00		Podwisłocze domki 01
+1013	3	200472	07:40:00	07:40:00		Powst. Warszawy / Podwisłocze 07 nż
+1013	3	200472	07:40:00	07:40:00		Powst. Warszawy / Podwisłocze 07 nż
+1013	3	200472	07:42:00	07:42:00		Powst. Warszawy / Hetmańska 03
+1013	3	200472	07:42:00	07:42:00		Powst. Warszawy / Hetmańska 03
+1013	3	200472	07:43:00	07:43:00		Powst. Warszawy politechnika 01
+1013	3	200472	07:43:00	07:43:00		Powst. Warszawy politechnika 01
+1013	3	200472	07:45:00	07:45:00		Dąbrowskiego / Chrobrego 07
+1013	3	200472	07:45:00	07:45:00		Dąbrowskiego / Chrobrego 07
+1013	3	200472	07:46:00	07:46:00		Dąbrowskiego KW. Policji 03
+1013	3	200472	07:46:00	07:46:00		Dąbrowskiego KW. Policji 03
+1013	3	200472	07:47:00	07:47:00		Dąbrowskiego park 01 nż
+1013	3	200472	07:47:00	07:47:00		Dąbrowskiego park 01 nż
+1013	3	200472	07:51:00	07:51:00		Lisa-Kuli 02
+1013	3	200472	07:51:00	07:51:00		Lisa-Kuli 02
+1013	3	200472	07:52:00	07:52:00		Cieplińskiego 01
+1013	3	200472	07:52:00	07:52:00		Cieplińskiego 01
+1013	3	200472	07:54:00	07:54:00		Piłsudskiego U. Marszałkowski 08
+1013	3	200472	07:54:00	07:54:00		Piłsudskiego U. Marszałkowski 08
+1013	3	200472	07:56:00	07:56:00		Dworzec Lokalny
+1013	3	200472	07:56:00	07:56:00		Dworzec Lokalny
+
+1010	3	200273	08:05:00	08:05:00		Dworzec Lokalny
+1010	3	200273	08:05:00	08:05:00		Dworzec Lokalny
+1010	3	200273	08:06:00	08:06:00		Piłsudskiego U. Marszałkowski 07
+1010	3	200273	08:06:00	08:06:00		Piłsudskiego U. Marszałkowski 07
+1010	3	200273	08:07:00	08:07:00		Cieplińskiego 02
+1010	3	200273	08:07:00	08:07:00		Cieplińskiego 02
+1010	3	200273	08:08:00	08:08:00		Lisa-Kuli 01
+1010	3	200273	08:08:00	08:08:00		Lisa-Kuli 01
+1010	3	200273	08:10:00	08:10:00		Dąbrowskiego park 02 nż
+1010	3	200273	08:10:00	08:10:00		Dąbrowskiego park 02 nż
+1010	3	200273	08:11:00	08:11:00		Dąbrowskiego KW. Policji 04
+1010	3	200273	08:11:00	08:11:00		Dąbrowskiego KW. Policji 04
+1010	3	200273	08:12:00	08:12:00		Dąbrowskiego / Boh. Westerplatte 08
+1010	3	200273	08:12:00	08:12:00		Dąbrowskiego / Boh. Westerplatte 08
+1010	3	200273	08:15:00	08:15:00		Powst. Warszawy / Dąbrowskiego 02
+1010	3	200273	08:15:00	08:15:00		Powst. Warszawy / Dąbrowskiego 02
+1010	3	200273	08:16:00	08:16:00		Powst. Warszawy politechnika 04
+1010	3	200273	08:16:00	08:16:00		Powst. Warszawy politechnika 04
+1010	3	200273	08:17:00	08:17:00		Powst. Warszawy stadion 06
+1010	3	200273	08:17:00	08:17:00		Powst. Warszawy stadion 06
+1010	3	200273	08:19:00	08:19:00		Podwisłocze / Powst. Warszawy 02
+1010	3	200273	08:19:00	08:19:00		Podwisłocze / Powst. Warszawy 02
+1010	3	200273	08:20:00	08:20:00		Podwisłocze / Seniora 04
+1010	3	200273	08:20:00	08:20:00		Podwisłocze / Seniora 04
+1010	3	200273	08:22:00	08:22:00		Kopisto U. Skarbowy 03
+1010	3	200273	08:22:00	08:22:00		Kopisto U. Skarbowy 03
+1010	3	200273	08:23:00	08:23:00		Kopisto uniwersytet 01
+1010	3	200273	08:23:00	08:23:00		Kopisto uniwersytet 01
+1010	3	200273	08:25:00	08:25:00		Rejtana uniwersytet 06
+1010	3	200273	08:25:00	08:25:00		Rejtana uniwersytet 06
+1010	3	200273	08:26:00	08:26:00		Rejtana cmentarz 04 nż
+1010	3	200273	08:26:00	08:26:00		Rejtana cmentarz 04 nż
+1010	3	200273	08:27:00	08:27:00		Rejtana / Kustronia 02
+1010	3	200273	08:27:00	08:27:00		Rejtana / Kustronia 02
+1010	3	200273	08:28:00	08:28:00		Lwowska jedn. wojskowa 02
+1010	3	200273	08:28:00	08:28:00		Lwowska jedn. wojskowa 02
+1010	3	200273	08:30:00	08:30:00		Lwowska cmentarz 04
+1010	3	200273	08:30:00	08:30:00		Lwowska cmentarz 04
+1010	3	200273	08:31:00	08:31:00		Lwowska szpital 06
+1010	3	200273	08:31:00	08:31:00		Lwowska szpital 06
+1010	3	200273	08:33:00	08:33:00		Lwowska / Olbrachta 08 nż
+1010	3	200273	08:33:00	08:33:00		Lwowska / Olbrachta 08 nż
+1010	3	200273	08:34:00	08:34:00		Lwowska / Kr. Marysieńki 10 nż
+1010	3	200273	08:34:00	08:34:00		Lwowska / Kr. Marysieńki 10 nż
+1010	3	200273	08:35:00	08:35:00		Lwowska granica 12 nż
+1010	3	200273	08:35:00	08:35:00		Lwowska granica 12 nż
+1010	3	200273	08:37:00	08:37:00		Krasne Auchan 01
+1010	3	200273	08:37:00	08:37:00		Krasne Auchan 01
+
+1013	3	203160	08:45:00	08:45:00		Krasne Auchan 01
+1013	3	203160	08:45:00	08:45:00		Krasne Auchan 01
+1013	3	203160	08:49:00	08:49:00		Lwowska granica 11 nż
+1013	3	203160	08:49:00	08:49:00		Lwowska granica 11 nż
+1013	3	203160	08:50:00	08:50:00		Lwowska / Bałtycka 09 nż
+1013	3	203160	08:50:00	08:50:00		Lwowska / Bałtycka 09 nż
+1013	3	203160	08:52:00	08:52:00		Lwowska / Cienista 07 nż
+1013	3	203160	08:52:00	08:52:00		Lwowska / Cienista 07 nż
+1013	3	203160	08:54:00	08:54:00		Lwowska szpital 05
+1013	3	203160	08:54:00	08:54:00		Lwowska szpital 05
+1013	3	203160	08:56:00	08:56:00		Lwowska cmentarz 03
+1013	3	203160	08:56:00	08:56:00		Lwowska cmentarz 03
+1013	3	203160	08:57:00	08:57:00		Lwowska jedn. wojskowa 01
+1013	3	203160	08:57:00	08:57:00		Lwowska jedn. wojskowa 01
+1013	3	203160	08:59:00	08:59:00		Rejtana / Kustronia 03 nż
+1013	3	203160	08:59:00	08:59:00		Rejtana / Kustronia 03 nż
+1013	3	203160	09:00:00	09:00:00		Rejtana uniwersytet 05
+1013	3	203160	09:00:00	09:00:00		Rejtana uniwersytet 05
+1013	3	203160	09:01:00	09:01:00		Kopisto uniwersytet 02
+1013	3	203160	09:01:00	09:01:00		Kopisto uniwersytet 02
+1013	3	203160	09:03:00	09:03:00		Podwisłocze U. Skarbowy 03
+1013	3	203160	09:03:00	09:03:00		Podwisłocze U. Skarbowy 03
+1013	3	203160	09:04:00	09:04:00		Podwisłocze domki 01
+1013	3	203160	09:04:00	09:04:00		Podwisłocze domki 01
+1013	3	203160	09:05:00	09:05:00		Powst. Warszawy / Podwisłocze 07 nż
+1013	3	203160	09:05:00	09:05:00		Powst. Warszawy / Podwisłocze 07 nż
+1013	3	203160	09:07:00	09:07:00		Powst. Warszawy / Hetmańska 03
+1013	3	203160	09:07:00	09:07:00		Powst. Warszawy / Hetmańska 03
+1013	3	203160	09:08:00	09:08:00		Powst. Warszawy politechnika 01
+1013	3	203160	09:08:00	09:08:00		Powst. Warszawy politechnika 01
+1013	3	203160	09:10:00	09:10:00		Dąbrowskiego / Chrobrego 07
+1013	3	203160	09:10:00	09:10:00		Dąbrowskiego / Chrobrego 07
+1013	3	203160	09:11:00	09:11:00		Dąbrowskiego KW. Policji 03
+1013	3	203160	09:11:00	09:11:00		Dąbrowskiego KW. Policji 03
+1013	3	203160	09:12:00	09:12:00		Dąbrowskiego park 01 nż
+1013	3	203160	09:12:00	09:12:00		Dąbrowskiego park 01 nż
+1013	3	203160	09:16:00	09:16:00		Lisa-Kuli 02
+1013	3	203160	09:16:00	09:16:00		Lisa-Kuli 02
+1013	3	203160	09:17:00	09:17:00		Cieplińskiego 01
+1013	3	203160	09:17:00	09:17:00		Cieplińskiego 01
+1013	3	203160	09:19:00	09:19:00		Piłsudskiego U. Marszałkowski 08
+1013	3	203160	09:19:00	09:19:00		Piłsudskiego U. Marszałkowski 08
+1013	3	203160	09:21:00	09:21:00		Dworzec Lokalny
+1013	3	203160	09:21:00	09:21:00		Dworzec Lokalny
+
+1010	3	201890	09:40:00	09:40:00		Dworzec Lokalny
+1010	3	201890	09:40:00	09:40:00		Dworzec Lokalny
+1010	3	201890	09:41:00	09:41:00		Piłsudskiego U. Marszałkowski 07
+1010	3	201890	09:41:00	09:41:00		Piłsudskiego U. Marszałkowski 07
+1010	3	201890	09:42:00	09:42:00		Cieplińskiego 02
+1010	3	201890	09:42:00	09:42:00		Cieplińskiego 02
+1010	3	201890	09:43:00	09:43:00		Lisa-Kuli 01
+1010	3	201890	09:43:00	09:43:00		Lisa-Kuli 01
+1010	3	201890	09:45:00	09:45:00		Dąbrowskiego park 02 nż
+1010	3	201890	09:45:00	09:45:00		Dąbrowskiego park 02 nż
+1010	3	201890	09:46:00	09:46:00		Dąbrowskiego KW. Policji 04
+1010	3	201890	09:46:00	09:46:00		Dąbrowskiego KW. Policji 04
+1010	3	201890	09:47:00	09:47:00		Dąbrowskiego / Boh. Westerplatte 08
+1010	3	201890	09:47:00	09:47:00		Dąbrowskiego / Boh. Westerplatte 08
+1010	3	201890	09:50:00	09:50:00		Powst. Warszawy / Dąbrowskiego 02
+1010	3	201890	09:50:00	09:50:00		Powst. Warszawy / Dąbrowskiego 02
+1010	3	201890	09:51:00	09:51:00		Powst. Warszawy politechnika 04
+1010	3	201890	09:51:00	09:51:00		Powst. Warszawy politechnika 04
+1010	3	201890	09:52:00	09:52:00		Powst. Warszawy stadion 06
+1010	3	201890	09:52:00	09:52:00		Powst. Warszawy stadion 06
+1010	3	201890	09:54:00	09:54:00		Podwisłocze / Powst. Warszawy 02
+1010	3	201890	09:54:00	09:54:00		Podwisłocze / Powst. Warszawy 02
+1010	3	201890	09:55:00	09:55:00		Podwisłocze / Seniora 04
+1010	3	201890	09:55:00	09:55:00		Podwisłocze / Seniora 04
+1010	3	201890	09:57:00	09:57:00		Kopisto U. Skarbowy 03
+1010	3	201890	09:57:00	09:57:00		Kopisto U. Skarbowy 03
+1010	3	201890	09:58:00	09:58:00		Kopisto uniwersytet 01
+1010	3	201890	09:58:00	09:58:00		Kopisto uniwersytet 01
+1010	3	201890	10:00:00	10:00:00		Rejtana uniwersytet 06
+1010	3	201890	10:00:00	10:00:00		Rejtana uniwersytet 06
+1010	3	201890	10:01:00	10:01:00		Rejtana cmentarz 04 nż
+1010	3	201890	10:01:00	10:01:00		Rejtana cmentarz 04 nż
+1010	3	201890	10:02:00	10:02:00		Rejtana / Kustronia 02
+1010	3	201890	10:02:00	10:02:00		Rejtana / Kustronia 02
+1010	3	201890	10:03:00	10:03:00		Lwowska jedn. wojskowa 02
+1010	3	201890	10:03:00	10:03:00		Lwowska jedn. wojskowa 02
+1010	3	201890	10:05:00	10:05:00		Lwowska cmentarz 04
+1010	3	201890	10:05:00	10:05:00		Lwowska cmentarz 04
+1010	3	201890	10:06:00	10:06:00		Lwowska szpital 06
+1010	3	201890	10:06:00	10:06:00		Lwowska szpital 06
+1010	3	201890	10:08:00	10:08:00		Lwowska / Olbrachta 08 nż
+1010	3	201890	10:08:00	10:08:00		Lwowska / Olbrachta 08 nż
+1010	3	201890	10:09:00	10:09:00		Lwowska / Kr. Marysieńki 10 nż
+1010	3	201890	10:09:00	10:09:00		Lwowska / Kr. Marysieńki 10 nż
+1010	3	201890	10:10:00	10:10:00		Lwowska granica 12 nż
+1010	3	201890	10:10:00	10:10:00		Lwowska granica 12 nż
+1010	3	201890	10:12:00	10:12:00		Krasne Auchan 01
+1010	3	201890	10:12:00	10:12:00		Krasne Auchan 01
+
+1013	3	202653	10:30:00	10:30:00		Krasne Auchan 01
+1013	3	202653	10:30:00	10:30:00		Krasne Auchan 01
+1013	3	202653	10:34:00	10:34:00		Lwowska granica 11 nż
+1013	3	202653	10:34:00	10:34:00		Lwowska granica 11 nż
+1013	3	202653	10:35:00	10:35:00		Lwowska / Bałtycka 09 nż
+1013	3	202653	10:35:00	10:35:00		Lwowska / Bałtycka 09 nż
+1013	3	202653	10:37:00	10:37:00		Lwowska / Cienista 07 nż
+1013	3	202653	10:37:00	10:37:00		Lwowska / Cienista 07 nż
+1013	3	202653	10:39:00	10:39:00		Lwowska szpital 05
+1013	3	202653	10:39:00	10:39:00		Lwowska szpital 05
+1013	3	202653	10:41:00	10:41:00		Lwowska cmentarz 03
+1013	3	202653	10:41:00	10:41:00		Lwowska cmentarz 03
+1013	3	202653	10:42:00	10:42:00		Lwowska jedn. wojskowa 01
+1013	3	202653	10:42:00	10:42:00		Lwowska jedn. wojskowa 01
+1013	3	202653	10:44:00	10:44:00		Rejtana / Kustronia 03 nż
+1013	3	202653	10:44:00	10:44:00		Rejtana / Kustronia 03 nż
+1013	3	202653	10:45:00	10:45:00		Rejtana uniwersytet 05
+1013	3	202653	10:45:00	10:45:00		Rejtana uniwersytet 05
+1013	3	202653	10:46:00	10:46:00		Kopisto uniwersytet 02
+1013	3	202653	10:46:00	10:46:00		Kopisto uniwersytet 02
+1013	3	202653	10:49:00	10:49:00		Podwisłocze U. Skarbowy 03
+1013	3	202653	10:49:00	10:49:00		Podwisłocze U. Skarbowy 03
+1013	3	202653	10:50:00	10:50:00		Podwisłocze domki 01
+1013	3	202653	10:50:00	10:50:00		Podwisłocze domki 01
+1013	3	202653	10:52:00	10:52:00		Powst. Warszawy / Podwisłocze 07 nż
+1013	3	202653	10:52:00	10:52:00		Powst. Warszawy / Podwisłocze 07 nż
+1013	3	202653	10:54:00	10:54:00		Powst. Warszawy / Hetmańska 03
+1013	3	202653	10:54:00	10:54:00		Powst. Warszawy / Hetmańska 03
+1013	3	202653	10:55:00	10:55:00		Powst. Warszawy politechnika 01
+1013	3	202653	10:55:00	10:55:00		Powst. Warszawy politechnika 01
+1013	3	202653	10:57:00	10:57:00		Dąbrowskiego / Chrobrego 07
+1013	3	202653	10:57:00	10:57:00		Dąbrowskiego / Chrobrego 07
+1013	3	202653	10:58:00	10:58:00		Dąbrowskiego KW. Policji 03
+1013	3	202653	10:58:00	10:58:00		Dąbrowskiego KW. Policji 03
+1013	3	202653	10:59:00	10:59:00		Dąbrowskiego park 01 nż
+1013	3	202653	10:59:00	10:59:00		Dąbrowskiego park 01 nż
+1013	3	202653	11:03:00	11:03:00		Lisa-Kuli 02
+1013	3	202653	11:03:00	11:03:00		Lisa-Kuli 02
+1013	3	202653	11:04:00	11:04:00		Cieplińskiego 01
+1013	3	202653	11:04:00	11:04:00		Cieplińskiego 01
+1013	3	202653	11:06:00	11:06:00		Piłsudskiego U. Marszałkowski 08
+1013	3	202653	11:06:00	11:06:00		Piłsudskiego U. Marszałkowski 08
+1013	3	202653	11:08:00	11:08:00		Dworzec Lokalny
+1013	3	202653	11:08:00	11:08:00		Dworzec Lokalny
+
+1010	3	201807	11:15:00	11:15:00		Dworzec Lokalny
+1010	3	201807	11:15:00	11:15:00		Dworzec Lokalny
+1010	3	201807	11:16:00	11:16:00		Piłsudskiego U. Marszałkowski 07
+1010	3	201807	11:16:00	11:16:00		Piłsudskiego U. Marszałkowski 07
+1010	3	201807	11:17:00	11:17:00		Cieplińskiego 02
+1010	3	201807	11:17:00	11:17:00		Cieplińskiego 02
+1010	3	201807	11:18:00	11:18:00		Lisa-Kuli 01
+1010	3	201807	11:18:00	11:18:00		Lisa-Kuli 01
+1010	3	201807	11:21:00	11:21:00		Dąbrowskiego park 02 nż
+1010	3	201807	11:21:00	11:21:00		Dąbrowskiego park 02 nż
+1010	3	201807	11:22:00	11:22:00		Dąbrowskiego KW. Policji 04
+1010	3	201807	11:22:00	11:22:00		Dąbrowskiego KW. Policji 04
+1010	3	201807	11:23:00	11:23:00		Dąbrowskiego / Boh. Westerplatte 08
+1010	3	201807	11:23:00	11:23:00		Dąbrowskiego / Boh. Westerplatte 08
+1010	3	201807	11:26:00	11:26:00		Powst. Warszawy / Dąbrowskiego 02
+1010	3	201807	11:26:00	11:26:00		Powst. Warszawy / Dąbrowskiego 02
+1010	3	201807	11:27:00	11:27:00		Powst. Warszawy politechnika 04
+1010	3	201807	11:27:00	11:27:00		Powst. Warszawy politechnika 04
+1010	3	201807	11:28:00	11:28:00		Powst. Warszawy stadion 06
+1010	3	201807	11:28:00	11:28:00		Powst. Warszawy stadion 06
+1010	3	201807	11:31:00	11:31:00		Podwisłocze / Powst. Warszawy 02
+1010	3	201807	11:31:00	11:31:00		Podwisłocze / Powst. Warszawy 02
+1010	3	201807	11:32:00	11:32:00		Podwisłocze / Seniora 04
+1010	3	201807	11:32:00	11:32:00		Podwisłocze / Seniora 04
+1010	3	201807	11:34:00	11:34:00		Kopisto U. Skarbowy 03
+1010	3	201807	11:34:00	11:34:00		Kopisto U. Skarbowy 03
+1010	3	201807	11:35:00	11:35:00		Kopisto uniwersytet 01
+1010	3	201807	11:35:00	11:35:00		Kopisto uniwersytet 01
+1010	3	201807	11:37:00	11:37:00		Rejtana uniwersytet 06
+1010	3	201807	11:37:00	11:37:00		Rejtana uniwersytet 06
+1010	3	201807	11:38:00	11:38:00		Rejtana cmentarz 04 nż
+1010	3	201807	11:38:00	11:38:00		Rejtana cmentarz 04 nż
+1010	3	201807	11:39:00	11:39:00		Rejtana / Kustronia 02
+1010	3	201807	11:39:00	11:39:00		Rejtana / Kustronia 02
+1010	3	201807	11:40:00	11:40:00		Lwowska jedn. wojskowa 02
+1010	3	201807	11:40:00	11:40:00		Lwowska jedn. wojskowa 02
+1010	3	201807	11:42:00	11:42:00		Lwowska cmentarz 04
+1010	3	201807	11:42:00	11:42:00		Lwowska cmentarz 04
+1010	3	201807	11:43:00	11:43:00		Lwowska szpital 06
+1010	3	201807	11:43:00	11:43:00		Lwowska szpital 06
+1010	3	201807	11:45:00	11:45:00		Lwowska / Olbrachta 08 nż
+1010	3	201807	11:45:00	11:45:00		Lwowska / Olbrachta 08 nż
+1010	3	201807	11:46:00	11:46:00		Lwowska / Kr. Marysieńki 10 nż
+1010	3	201807	11:46:00	11:46:00		Lwowska / Kr. Marysieńki 10 nż
+1010	3	201807	11:47:00	11:47:00		Lwowska granica 12 nż
+1010	3	201807	11:47:00	11:47:00		Lwowska granica 12 nż
+1010	3	201807	11:49:00	11:49:00		Krasne Auchan 01
+1010	3	201807	11:49:00	11:49:00		Krasne Auchan 01
+
+1013	3	201804	12:05:00	12:05:00		Krasne Auchan 01
+1013	3	201804	12:05:00	12:05:00		Krasne Auchan 01
+1013	3	201804	12:09:00	12:09:00		Lwowska granica 11 nż
+1013	3	201804	12:09:00	12:09:00		Lwowska granica 11 nż
+1013	3	201804	12:10:00	12:10:00		Lwowska / Bałtycka 09 nż
+1013	3	201804	12:10:00	12:10:00		Lwowska / Bałtycka 09 nż
+1013	3	201804	12:12:00	12:12:00		Lwowska / Cienista 07 nż
+1013	3	201804	12:12:00	12:12:00		Lwowska / Cienista 07 nż
+1013	3	201804	12:14:00	12:14:00		Lwowska szpital 05
+1013	3	201804	12:14:00	12:14:00		Lwowska szpital 05
+1013	3	201804	12:16:00	12:16:00		Lwowska cmentarz 03
+1013	3	201804	12:16:00	12:16:00		Lwowska cmentarz 03
+1013	3	201804	12:17:00	12:17:00		Lwowska jedn. wojskowa 01
+1013	3	201804	12:17:00	12:17:00		Lwowska jedn. wojskowa 01
+1013	3	201804	12:19:00	12:19:00		Rejtana / Kustronia 03 nż
+1013	3	201804	12:19:00	12:19:00		Rejtana / Kustronia 03 nż
+1013	3	201804	12:20:00	12:20:00		Rejtana uniwersytet 05
+1013	3	201804	12:20:00	12:20:00		Rejtana uniwersytet 05
+1013	3	201804	12:21:00	12:21:00		Kopisto uniwersytet 02
+1013	3	201804	12:21:00	12:21:00		Kopisto uniwersytet 02
+1013	3	201804	12:24:00	12:24:00		Podwisłocze U. Skarbowy 03
+1013	3	201804	12:24:00	12:24:00		Podwisłocze U. Skarbowy 03
+1013	3	201804	12:25:00	12:25:00		Podwisłocze domki 01
+1013	3	201804	12:25:00	12:25:00		Podwisłocze domki 01
+1013	3	201804	12:27:00	12:27:00		Powst. Warszawy / Podwisłocze 07 nż
+1013	3	201804	12:27:00	12:27:00		Powst. Warszawy / Podwisłocze 07 nż
+1013	3	201804	12:29:00	12:29:00		Powst. Warszawy / Hetmańska 03
+1013	3	201804	12:29:00	12:29:00		Powst. Warszawy / Hetmańska 03
+1013	3	201804	12:30:00	12:30:00		Powst. Warszawy politechnika 01
+1013	3	201804	12:30:00	12:30:00		Powst. Warszawy politechnika 01
+1013	3	201804	12:32:00	12:32:00		Dąbrowskiego / Chrobrego 07
+1013	3	201804	12:32:00	12:32:00		Dąbrowskiego / Chrobrego 07
+1013	3	201804	12:33:00	12:33:00		Dąbrowskiego KW. Policji 03
+1013	3	201804	12:33:00	12:33:00		Dąbrowskiego KW. Policji 03
+1013	3	201804	12:34:00	12:34:00		Dąbrowskiego park 01 nż
+1013	3	201804	12:34:00	12:34:00		Dąbrowskiego park 01 nż
+1013	3	201804	12:38:00	12:38:00		Lisa-Kuli 02
+1013	3	201804	12:38:00	12:38:00		Lisa-Kuli 02
+1013	3	201804	12:39:00	12:39:00		Cieplińskiego 01
+1013	3	201804	12:39:00	12:39:00		Cieplińskiego 01
+1013	3	201804	12:41:00	12:41:00		Piłsudskiego U. Marszałkowski 08
+1013	3	201804	12:41:00	12:41:00		Piłsudskiego U. Marszałkowski 08
+1013	3	201804	12:43:00	12:43:00		Dworzec Lokalny
+1013	3	201804	12:43:00	12:43:00		Dworzec Lokalny
+
+1010	3	200090	12:50:00	12:50:00		Dworzec Lokalny
+1010	3	200090	12:50:00	12:50:00		Dworzec Lokalny
+1010	3	200090	12:51:00	12:51:00		Piłsudskiego U. Marszałkowski 07
+1010	3	200090	12:51:00	12:51:00		Piłsudskiego U. Marszałkowski 07
+1010	3	200090	12:52:00	12:52:00		Cieplińskiego 02
+1010	3	200090	12:52:00	12:52:00		Cieplińskiego 02
+1010	3	200090	12:53:00	12:53:00		Lisa-Kuli 01
+1010	3	200090	12:53:00	12:53:00		Lisa-Kuli 01
+1010	3	200090	12:56:00	12:56:00		Dąbrowskiego park 02 nż
+1010	3	200090	12:56:00	12:56:00		Dąbrowskiego park 02 nż
+1010	3	200090	12:57:00	12:57:00		Dąbrowskiego KW. Policji 04
+1010	3	200090	12:57:00	12:57:00		Dąbrowskiego KW. Policji 04
+1010	3	200090	12:58:00	12:58:00		Dąbrowskiego / Boh. Westerplatte 08
+1010	3	200090	12:58:00	12:58:00		Dąbrowskiego / Boh. Westerplatte 08
+1010	3	200090	13:01:00	13:01:00		Powst. Warszawy / Dąbrowskiego 02
+1010	3	200090	13:01:00	13:01:00		Powst. Warszawy / Dąbrowskiego 02
+1010	3	200090	13:02:00	13:02:00		Powst. Warszawy politechnika 04
+1010	3	200090	13:02:00	13:02:00		Powst. Warszawy politechnika 04
+1010	3	200090	13:03:00	13:03:00		Powst. Warszawy stadion 06
+1010	3	200090	13:03:00	13:03:00		Powst. Warszawy stadion 06
+1010	3	200090	13:06:00	13:06:00		Podwisłocze / Powst. Warszawy 02
+1010	3	200090	13:06:00	13:06:00		Podwisłocze / Powst. Warszawy 02
+1010	3	200090	13:07:00	13:07:00		Podwisłocze / Seniora 04
+1010	3	200090	13:07:00	13:07:00		Podwisłocze / Seniora 04
+1010	3	200090	13:09:00	13:09:00		Kopisto U. Skarbowy 03
+1010	3	200090	13:09:00	13:09:00		Kopisto U. Skarbowy 03
+1010	3	200090	13:10:00	13:10:00		Kopisto uniwersytet 01
+1010	3	200090	13:10:00	13:10:00		Kopisto uniwersytet 01
+1010	3	200090	13:12:00	13:12:00		Rejtana uniwersytet 06
+1010	3	200090	13:12:00	13:12:00		Rejtana uniwersytet 06
+1010	3	200090	13:13:00	13:13:00		Rejtana cmentarz 04 nż
+1010	3	200090	13:13:00	13:13:00		Rejtana cmentarz 04 nż
+1010	3	200090	13:14:00	13:14:00		Rejtana / Kustronia 02
+1010	3	200090	13:14:00	13:14:00		Rejtana / Kustronia 02
+1010	3	200090	13:15:00	13:15:00		Lwowska jedn. wojskowa 02
+1010	3	200090	13:15:00	13:15:00		Lwowska jedn. wojskowa 02
+1010	3	200090	13:17:00	13:17:00		Lwowska cmentarz 04
+1010	3	200090	13:17:00	13:17:00		Lwowska cmentarz 04
+1010	3	200090	13:18:00	13:18:00		Lwowska szpital 06
+1010	3	200090	13:18:00	13:18:00		Lwowska szpital 06
+1010	3	200090	13:20:00	13:20:00		Lwowska / Olbrachta 08 nż
+1010	3	200090	13:20:00	13:20:00		Lwowska / Olbrachta 08 nż
+1010	3	200090	13:21:00	13:21:00		Lwowska / Kr. Marysieńki 10 nż
+1010	3	200090	13:21:00	13:21:00		Lwowska / Kr. Marysieńki 10 nż
+1010	3	200090	13:22:00	13:22:00		Lwowska granica 12 nż
+1010	3	200090	13:22:00	13:22:00		Lwowska granica 12 nż
+1010	3	200090	13:24:00	13:24:00		Krasne Auchan 01
+1010	3	200090	13:24:00	13:24:00		Krasne Auchan 01
+
+1013	3	199034	13:40:00	13:40:00		Krasne Auchan 01
+1013	3	199034	13:40:00	13:40:00		Krasne Auchan 01
+1013	3	199034	13:44:00	13:44:00		Lwowska granica 11 nż
+1013	3	199034	13:44:00	13:44:00		Lwowska granica 11 nż
+1013	3	199034	13:45:00	13:45:00		Lwowska / Bałtycka 09 nż
+1013	3	199034	13:45:00	13:45:00		Lwowska / Bałtycka 09 nż
+1013	3	199034	13:47:00	13:47:00		Lwowska / Cienista 07 nż
+1013	3	199034	13:47:00	13:47:00		Lwowska / Cienista 07 nż
+1013	3	199034	13:49:00	13:49:00		Lwowska szpital 05
+1013	3	199034	13:49:00	13:49:00		Lwowska szpital 05
+1013	3	199034	13:51:00	13:51:00		Lwowska cmentarz 03
+1013	3	199034	13:51:00	13:51:00		Lwowska cmentarz 03
+1013	3	199034	13:52:00	13:52:00		Lwowska jedn. wojskowa 01
+1013	3	199034	13:52:00	13:52:00		Lwowska jedn. wojskowa 01
+1013	3	199034	13:54:00	13:54:00		Rejtana / Kustronia 03 nż
+1013	3	199034	13:54:00	13:54:00		Rejtana / Kustronia 03 nż
+1013	3	199034	13:55:00	13:55:00		Rejtana uniwersytet 05
+1013	3	199034	13:55:00	13:55:00		Rejtana uniwersytet 05
+1013	3	199034	13:56:00	13:56:00		Kopisto uniwersytet 02
+1013	3	199034	13:56:00	13:56:00		Kopisto uniwersytet 02
+1013	3	199034	13:59:00	13:59:00		Podwisłocze U. Skarbowy 03
+1013	3	199034	13:59:00	13:59:00		Podwisłocze U. Skarbowy 03
+1013	3	199034	14:00:00	14:00:00		Podwisłocze domki 01
+1013	3	199034	14:00:00	14:00:00		Podwisłocze domki 01
+1013	3	199034	14:02:00	14:02:00		Powst. Warszawy / Podwisłocze 07 nż
+1013	3	199034	14:02:00	14:02:00		Powst. Warszawy / Podwisłocze 07 nż
+1013	3	199034	14:04:00	14:04:00		Powst. Warszawy / Hetmańska 03
+1013	3	199034	14:04:00	14:04:00		Powst. Warszawy / Hetmańska 03
+1013	3	199034	14:05:00	14:05:00		Powst. Warszawy politechnika 01
+1013	3	199034	14:05:00	14:05:00		Powst. Warszawy politechnika 01
+1013	3	199034	14:07:00	14:07:00		Dąbrowskiego / Chrobrego 07
+1013	3	199034	14:07:00	14:07:00		Dąbrowskiego / Chrobrego 07
+1013	3	199034	14:08:00	14:08:00		Dąbrowskiego KW. Policji 03
+1013	3	199034	14:08:00	14:08:00		Dąbrowskiego KW. Policji 03
+1013	3	199034	14:09:00	14:09:00		Dąbrowskiego park 01 nż
+1013	3	199034	14:09:00	14:09:00		Dąbrowskiego park 01 nż
+1013	3	199034	14:13:00	14:13:00		Lisa-Kuli 02
+1013	3	199034	14:13:00	14:13:00		Lisa-Kuli 02
+1013	3	199034	14:14:00	14:14:00		Cieplińskiego 01
+1013	3	199034	14:14:00	14:14:00		Cieplińskiego 01
+1013	3	199034	14:16:00	14:16:00		Piłsudskiego U. Marszałkowski 08
+1013	3	199034	14:16:00	14:16:00		Piłsudskiego U. Marszałkowski 08
+1013	3	199034	14:18:00	14:18:00		Dworzec Lokalny
+1013	3	199034	14:18:00	14:18:00		Dworzec Lokalny
+
+1010	3	201198	14:30:00	14:30:00		Dworzec Lokalny
+1010	3	201198	14:30:00	14:30:00		Dworzec Lokalny
+1010	3	201198	14:31:00	14:31:00		Piłsudskiego U. Marszałkowski 07
+1010	3	201198	14:31:00	14:31:00		Piłsudskiego U. Marszałkowski 07
+1010	3	201198	14:32:00	14:32:00		Cieplińskiego 02
+1010	3	201198	14:32:00	14:32:00		Cieplińskiego 02
+1010	3	201198	14:33:00	14:33:00		Lisa-Kuli 01
+1010	3	201198	14:33:00	14:33:00		Lisa-Kuli 01
+1010	3	201198	14:36:00	14:36:00		Dąbrowskiego park 02 nż
+1010	3	201198	14:36:00	14:36:00		Dąbrowskiego park 02 nż
+1010	3	201198	14:37:00	14:37:00		Dąbrowskiego KW. Policji 04
+1010	3	201198	14:37:00	14:37:00		Dąbrowskiego KW. Policji 04
+1010	3	201198	14:38:00	14:38:00		Dąbrowskiego / Boh. Westerplatte 08
+1010	3	201198	14:38:00	14:38:00		Dąbrowskiego / Boh. Westerplatte 08
+1010	3	201198	14:41:00	14:41:00		Powst. Warszawy / Dąbrowskiego 02
+1010	3	201198	14:41:00	14:41:00		Powst. Warszawy / Dąbrowskiego 02
+1010	3	201198	14:42:00	14:42:00		Powst. Warszawy politechnika 04
+1010	3	201198	14:42:00	14:42:00		Powst. Warszawy politechnika 04
+1010	3	201198	14:43:00	14:43:00		Powst. Warszawy stadion 06
+1010	3	201198	14:43:00	14:43:00		Powst. Warszawy stadion 06
+1010	3	201198	14:45:00	14:45:00		Podwisłocze / Powst. Warszawy 02
+1010	3	201198	14:45:00	14:45:00		Podwisłocze / Powst. Warszawy 02
+1010	3	201198	14:46:00	14:46:00		Podwisłocze / Seniora 04
+1010	3	201198	14:46:00	14:46:00		Podwisłocze / Seniora 04
+1010	3	201198	14:48:00	14:48:00		Kopisto U. Skarbowy 03
+1010	3	201198	14:48:00	14:48:00		Kopisto U. Skarbowy 03
+1010	3	201198	14:49:00	14:49:00		Kopisto uniwersytet 01
+1010	3	201198	14:49:00	14:49:00		Kopisto uniwersytet 01
+1010	3	201198	14:51:00	14:51:00		Rejtana uniwersytet 06
+1010	3	201198	14:51:00	14:51:00		Rejtana uniwersytet 06
+1010	3	201198	14:52:00	14:52:00		Rejtana cmentarz 04 nż
+1010	3	201198	14:52:00	14:52:00		Rejtana cmentarz 04 nż
+1010	3	201198	14:53:00	14:53:00		Rejtana / Kustronia 02
+1010	3	201198	14:53:00	14:53:00		Rejtana / Kustronia 02
+1010	3	201198	14:54:00	14:54:00		Lwowska jedn. wojskowa 02
+1010	3	201198	14:54:00	14:54:00		Lwowska jedn. wojskowa 02
+1010	3	201198	14:56:00	14:56:00		Lwowska cmentarz 04
+1010	3	201198	14:56:00	14:56:00		Lwowska cmentarz 04
+1010	3	201198	14:57:00	14:57:00		Lwowska szpital 06
+1010	3	201198	14:57:00	14:57:00		Lwowska szpital 06
+1010	3	201198	14:59:00	14:59:00		Lwowska / Olbrachta 08 nż
+1010	3	201198	14:59:00	14:59:00		Lwowska / Olbrachta 08 nż
+1010	3	201198	15:00:00	15:00:00		Lwowska / Kr. Marysieńki 10 nż
+1010	3	201198	15:00:00	15:00:00		Lwowska / Kr. Marysieńki 10 nż
+1010	3	201198	15:01:00	15:01:00		Lwowska granica 12 nż
+1010	3	201198	15:01:00	15:01:00		Lwowska granica 12 nż
+1010	3	201198	15:03:00	15:03:00		Krasne Auchan 01
+1010	3	201198	15:03:00	15:03:00		Krasne Auchan 01
+
+1013	3	201378	15:15:00	15:15:00		Krasne Auchan 01
+1013	3	201378	15:15:00	15:15:00		Krasne Auchan 01
+1013	3	201378	15:19:00	15:19:00		Lwowska granica 11 nż
+1013	3	201378	15:19:00	15:19:00		Lwowska granica 11 nż
+1013	3	201378	15:20:00	15:20:00		Lwowska / Bałtycka 09 nż
+1013	3	201378	15:20:00	15:20:00		Lwowska / Bałtycka 09 nż
+1013	3	201378	15:22:00	15:22:00		Lwowska / Cienista 07 nż
+1013	3	201378	15:22:00	15:22:00		Lwowska / Cienista 07 nż
+1013	3	201378	15:24:00	15:24:00		Lwowska szpital 05
+1013	3	201378	15:24:00	15:24:00		Lwowska szpital 05
+1013	3	201378	15:26:00	15:26:00		Lwowska cmentarz 03
+1013	3	201378	15:26:00	15:26:00		Lwowska cmentarz 03
+1013	3	201378	15:27:00	15:27:00		Lwowska jedn. wojskowa 01
+1013	3	201378	15:27:00	15:27:00		Lwowska jedn. wojskowa 01
+1013	3	201378	15:30:00	15:30:00		Rejtana / Kustronia 03 nż
+1013	3	201378	15:30:00	15:30:00		Rejtana / Kustronia 03 nż
+1013	3	201378	15:31:00	15:31:00		Rejtana uniwersytet 05
+1013	3	201378	15:31:00	15:31:00		Rejtana uniwersytet 05
+1013	3	201378	15:32:00	15:32:00		Kopisto uniwersytet 02
+1013	3	201378	15:32:00	15:32:00		Kopisto uniwersytet 02
+1013	3	201378	15:35:00	15:35:00		Podwisłocze U. Skarbowy 03
+1013	3	201378	15:35:00	15:35:00		Podwisłocze U. Skarbowy 03
+1013	3	201378	15:36:00	15:36:00		Podwisłocze domki 01
+1013	3	201378	15:36:00	15:36:00		Podwisłocze domki 01
+1013	3	201378	15:37:00	15:37:00		Powst. Warszawy / Podwisłocze 07 nż
+1013	3	201378	15:37:00	15:37:00		Powst. Warszawy / Podwisłocze 07 nż
+1013	3	201378	15:39:00	15:39:00		Powst. Warszawy / Hetmańska 03
+1013	3	201378	15:39:00	15:39:00		Powst. Warszawy / Hetmańska 03
+1013	3	201378	15:40:00	15:40:00		Powst. Warszawy politechnika 01
+1013	3	201378	15:40:00	15:40:00		Powst. Warszawy politechnika 01
+1013	3	201378	15:42:00	15:42:00		Dąbrowskiego / Chrobrego 07
+1013	3	201378	15:42:00	15:42:00		Dąbrowskiego / Chrobrego 07
+1013	3	201378	15:43:00	15:43:00		Dąbrowskiego KW. Policji 03
+1013	3	201378	15:43:00	15:43:00		Dąbrowskiego KW. Policji 03
+1013	3	201378	15:44:00	15:44:00		Dąbrowskiego park 01 nż
+1013	3	201378	15:44:00	15:44:00		Dąbrowskiego park 01 nż
+1013	3	201378	15:48:00	15:48:00		Lisa-Kuli 02
+1013	3	201378	15:48:00	15:48:00		Lisa-Kuli 02
+1013	3	201378	15:49:00	15:49:00		Cieplińskiego 01
+1013	3	201378	15:49:00	15:49:00		Cieplińskiego 01
+1013	3	201378	15:51:00	15:51:00		Piłsudskiego U. Marszałkowski 08
+1013	3	201378	15:51:00	15:51:00		Piłsudskiego U. Marszałkowski 08
+1013	3	201378	15:53:00	15:53:00		Dworzec Lokalny
+1013	3	201378	15:53:00	15:53:00		Dworzec Lokalny
+
+1010	3	198494	16:10:00	16:10:00		Dworzec Lokalny
+1010	3	198494	16:10:00	16:10:00		Dworzec Lokalny
+1010	3	198494	16:11:00	16:11:00		Piłsudskiego U. Marszałkowski 07
+1010	3	198494	16:11:00	16:11:00		Piłsudskiego U. Marszałkowski 07
+1010	3	198494	16:12:00	16:12:00		Cieplińskiego 02
+1010	3	198494	16:12:00	16:12:00		Cieplińskiego 02
+1010	3	198494	16:13:00	16:13:00		Lisa-Kuli 01
+1010	3	198494	16:13:00	16:13:00		Lisa-Kuli 01
+1010	3	198494	16:16:00	16:16:00		Dąbrowskiego park 02 nż
+1010	3	198494	16:16:00	16:16:00		Dąbrowskiego park 02 nż
+1010	3	198494	16:17:00	16:17:00		Dąbrowskiego KW. Policji 04
+1010	3	198494	16:17:00	16:17:00		Dąbrowskiego KW. Policji 04
+1010	3	198494	16:18:00	16:18:00		Dąbrowskiego / Boh. Westerplatte 08
+1010	3	198494	16:18:00	16:18:00		Dąbrowskiego / Boh. Westerplatte 08
+1010	3	198494	16:21:00	16:21:00		Powst. Warszawy / Dąbrowskiego 02
+1010	3	198494	16:21:00	16:21:00		Powst. Warszawy / Dąbrowskiego 02
+1010	3	198494	16:22:00	16:22:00		Powst. Warszawy politechnika 04
+1010	3	198494	16:22:00	16:22:00		Powst. Warszawy politechnika 04
+1010	3	198494	16:23:00	16:23:00		Powst. Warszawy stadion 06
+1010	3	198494	16:23:00	16:23:00		Powst. Warszawy stadion 06
+1010	3	198494	16:25:00	16:25:00		Podwisłocze / Powst. Warszawy 02
+1010	3	198494	16:25:00	16:25:00		Podwisłocze / Powst. Warszawy 02
+1010	3	198494	16:26:00	16:26:00		Podwisłocze / Seniora 04
+1010	3	198494	16:26:00	16:26:00		Podwisłocze / Seniora 04
+1010	3	198494	16:28:00	16:28:00		Kopisto U. Skarbowy 03
+1010	3	198494	16:28:00	16:28:00		Kopisto U. Skarbowy 03
+1010	3	198494	16:29:00	16:29:00		Kopisto uniwersytet 01
+1010	3	198494	16:29:00	16:29:00		Kopisto uniwersytet 01
+1010	3	198494	16:31:00	16:31:00		Rejtana uniwersytet 06
+1010	3	198494	16:31:00	16:31:00		Rejtana uniwersytet 06
+1010	3	198494	16:32:00	16:32:00		Rejtana cmentarz 04 nż
+1010	3	198494	16:32:00	16:32:00		Rejtana cmentarz 04 nż
+1010	3	198494	16:33:00	16:33:00		Rejtana / Kustronia 02
+1010	3	198494	16:33:00	16:33:00		Rejtana / Kustronia 02
+1010	3	198494	16:34:00	16:34:00		Lwowska jedn. wojskowa 02
+1010	3	198494	16:34:00	16:34:00		Lwowska jedn. wojskowa 02
+1010	3	198494	16:36:00	16:36:00		Lwowska cmentarz 04
+1010	3	198494	16:36:00	16:36:00		Lwowska cmentarz 04
+1010	3	198494	16:37:00	16:37:00		Lwowska szpital 06
+1010	3	198494	16:37:00	16:37:00		Lwowska szpital 06
+1010	3	198494	16:39:00	16:39:00		Lwowska / Olbrachta 08 nż
+1010	3	198494	16:39:00	16:39:00		Lwowska / Olbrachta 08 nż
+1010	3	198494	16:40:00	16:40:00		Lwowska / Kr. Marysieńki 10 nż
+1010	3	198494	16:40:00	16:40:00		Lwowska / Kr. Marysieńki 10 nż
+1010	3	198494	16:41:00	16:41:00		Lwowska granica 12 nż
+1010	3	198494	16:41:00	16:41:00		Lwowska granica 12 nż
+1010	3	198494	16:43:00	16:43:00		Krasne Auchan 01
+1010	3	198494	16:43:00	16:43:00		Krasne Auchan 01
+
+1013	3	201060	16:50:00	16:50:00		Krasne Auchan 01
+1013	3	201060	16:50:00	16:50:00		Krasne Auchan 01
+1013	3	201060	16:54:00	16:54:00		Lwowska granica 11 nż
+1013	3	201060	16:54:00	16:54:00		Lwowska granica 11 nż
+1013	3	201060	16:55:00	16:55:00		Lwowska / Bałtycka 09 nż
+1013	3	201060	16:55:00	16:55:00		Lwowska / Bałtycka 09 nż
+1013	3	201060	16:57:00	16:57:00		Lwowska / Cienista 07 nż
+1013	3	201060	16:57:00	16:57:00		Lwowska / Cienista 07 nż
+1013	3	201060	16:59:00	16:59:00		Lwowska szpital 05
+1013	3	201060	16:59:00	16:59:00		Lwowska szpital 05
+1013	3	201060	17:01:00	17:01:00		Lwowska cmentarz 03
+1013	3	201060	17:01:00	17:01:00		Lwowska cmentarz 03
+1013	3	201060	17:02:00	17:02:00		Lwowska jedn. wojskowa 01
+1013	3	201060	17:02:00	17:02:00		Lwowska jedn. wojskowa 01
+1013	3	201060	17:05:00	17:05:00		Rejtana / Kustronia 03 nż
+1013	3	201060	17:05:00	17:05:00		Rejtana / Kustronia 03 nż
+1013	3	201060	17:06:00	17:06:00		Rejtana uniwersytet 05
+1013	3	201060	17:06:00	17:06:00		Rejtana uniwersytet 05
+1013	3	201060	17:07:00	17:07:00		Kopisto uniwersytet 02
+1013	3	201060	17:07:00	17:07:00		Kopisto uniwersytet 02
+1013	3	201060	17:10:00	17:10:00		Podwisłocze U. Skarbowy 03
+1013	3	201060	17:10:00	17:10:00		Podwisłocze U. Skarbowy 03
+1013	3	201060	17:11:00	17:11:00		Podwisłocze domki 01
+1013	3	201060	17:11:00	17:11:00		Podwisłocze domki 01
+1013	3	201060	17:12:00	17:12:00		Powst. Warszawy / Podwisłocze 07 nż
+1013	3	201060	17:12:00	17:12:00		Powst. Warszawy / Podwisłocze 07 nż
+1013	3	201060	17:14:00	17:14:00		Powst. Warszawy / Hetmańska 03
+1013	3	201060	17:14:00	17:14:00		Powst. Warszawy / Hetmańska 03
+1013	3	201060	17:15:00	17:15:00		Powst. Warszawy politechnika 01
+1013	3	201060	17:15:00	17:15:00		Powst. Warszawy politechnika 01
+1013	3	201060	17:17:00	17:17:00		Dąbrowskiego / Chrobrego 07
+1013	3	201060	17:17:00	17:17:00		Dąbrowskiego / Chrobrego 07
+1013	3	201060	17:18:00	17:18:00		Dąbrowskiego KW. Policji 03
+1013	3	201060	17:18:00	17:18:00		Dąbrowskiego KW. Policji 03
+1013	3	201060	17:19:00	17:19:00		Dąbrowskiego park 01 nż
+1013	3	201060	17:19:00	17:19:00		Dąbrowskiego park 01 nż
+1013	3	201060	17:23:00	17:23:00		Lisa-Kuli 02
+1013	3	201060	17:23:00	17:23:00		Lisa-Kuli 02
+1013	3	201060	17:24:00	17:24:00		Cieplińskiego 01
+1013	3	201060	17:24:00	17:24:00		Cieplińskiego 01
+1013	3	201060	17:26:00	17:26:00		Piłsudskiego U. Marszałkowski 08
+1013	3	201060	17:26:00	17:26:00		Piłsudskiego U. Marszałkowski 08
+1013	3	201060	17:28:00	17:28:00		Dworzec Lokalny
+1013	3	201060	17:28:00	17:28:00		Dworzec Lokalny
+
+1010	3	199522	18:00:00	18:00:00		Dworzec Lokalny
+1010	3	199522	18:00:00	18:00:00		Dworzec Lokalny
+1010	3	199522	18:01:00	18:01:00		Piłsudskiego U. Marszałkowski 07
+1010	3	199522	18:01:00	18:01:00		Piłsudskiego U. Marszałkowski 07
+1010	3	199522	18:02:00	18:02:00		Cieplińskiego 02
+1010	3	199522	18:02:00	18:02:00		Cieplińskiego 02
+1010	3	199522	18:03:00	18:03:00		Lisa-Kuli 01
+1010	3	199522	18:03:00	18:03:00		Lisa-Kuli 01
+1010	3	199522	18:05:00	18:05:00		Dąbrowskiego park 02 nż
+1010	3	199522	18:05:00	18:05:00		Dąbrowskiego park 02 nż
+1010	3	199522	18:06:00	18:06:00		Dąbrowskiego KW. Policji 04
+1010	3	199522	18:06:00	18:06:00		Dąbrowskiego KW. Policji 04
+1010	3	199522	18:07:00	18:07:00		Dąbrowskiego / Boh. Westerplatte 08
+1010	3	199522	18:07:00	18:07:00		Dąbrowskiego / Boh. Westerplatte 08
+1010	3	199522	18:10:00	18:10:00		Powst. Warszawy / Dąbrowskiego 02
+1010	3	199522	18:10:00	18:10:00		Powst. Warszawy / Dąbrowskiego 02
+1010	3	199522	18:11:00	18:11:00		Powst. Warszawy politechnika 04
+1010	3	199522	18:11:00	18:11:00		Powst. Warszawy politechnika 04
+1010	3	199522	18:12:00	18:12:00		Powst. Warszawy stadion 06
+1010	3	199522	18:12:00	18:12:00		Powst. Warszawy stadion 06
+1010	3	199522	18:14:00	18:14:00		Podwisłocze / Powst. Warszawy 02
+1010	3	199522	18:14:00	18:14:00		Podwisłocze / Powst. Warszawy 02
+1010	3	199522	18:15:00	18:15:00		Podwisłocze / Seniora 04
+1010	3	199522	18:15:00	18:15:00		Podwisłocze / Seniora 04
+1010	3	199522	18:17:00	18:17:00		Kopisto U. Skarbowy 03
+1010	3	199522	18:17:00	18:17:00		Kopisto U. Skarbowy 03
+1010	3	199522	18:18:00	18:18:00		Kopisto uniwersytet 01
+1010	3	199522	18:18:00	18:18:00		Kopisto uniwersytet 01
+1010	3	199522	18:20:00	18:20:00		Rejtana uniwersytet 06
+1010	3	199522	18:20:00	18:20:00		Rejtana uniwersytet 06
+1010	3	199522	18:21:00	18:21:00		Rejtana cmentarz 04 nż
+1010	3	199522	18:21:00	18:21:00		Rejtana cmentarz 04 nż
+1010	3	199522	18:22:00	18:22:00		Rejtana / Kustronia 02
+1010	3	199522	18:22:00	18:22:00		Rejtana / Kustronia 02
+1010	3	199522	18:23:00	18:23:00		Lwowska jedn. wojskowa 02
+1010	3	199522	18:23:00	18:23:00		Lwowska jedn. wojskowa 02
+1010	3	199522	18:25:00	18:25:00		Lwowska cmentarz 04
+1010	3	199522	18:25:00	18:25:00		Lwowska cmentarz 04
+1010	3	199522	18:26:00	18:26:00		Lwowska szpital 06
+1010	3	199522	18:26:00	18:26:00		Lwowska szpital 06
+1010	3	199522	18:28:00	18:28:00		Lwowska / Olbrachta 08 nż
+1010	3	199522	18:28:00	18:28:00		Lwowska / Olbrachta 08 nż
+1010	3	199522	18:29:00	18:29:00		Lwowska / Kr. Marysieńki 10 nż
+1010	3	199522	18:29:00	18:29:00		Lwowska / Kr. Marysieńki 10 nż
+1010	3	199522	18:30:00	18:30:00		Lwowska granica 12 nż
+1010	3	199522	18:30:00	18:30:00		Lwowska granica 12 nż
+1010	3	199522	18:32:00	18:32:00		Krasne Auchan 01
+1010	3	199522	18:32:00	18:32:00		Krasne Auchan 01
+
+1013	3	201944	18:50:00	18:50:00		Krasne Auchan 01
+1013	3	201944	18:50:00	18:50:00		Krasne Auchan 01
+1013	3	201944	18:54:00	18:54:00		Lwowska granica 11 nż
+1013	3	201944	18:54:00	18:54:00		Lwowska granica 11 nż
+1013	3	201944	18:55:00	18:55:00		Lwowska / Bałtycka 09 nż
+1013	3	201944	18:55:00	18:55:00		Lwowska / Bałtycka 09 nż
+1013	3	201944	18:56:00	18:56:00		Lwowska / Cienista 07 nż
+1013	3	201944	18:56:00	18:56:00		Lwowska / Cienista 07 nż
+1013	3	201944	18:58:00	18:58:00		Lwowska szpital 05
+1013	3	201944	18:58:00	18:58:00		Lwowska szpital 05
+1013	3	201944	19:00:00	19:00:00		Lwowska cmentarz 03
+1013	3	201944	19:00:00	19:00:00		Lwowska cmentarz 03
+1013	3	201944	19:01:00	19:01:00		Lwowska jedn. wojskowa 01
+1013	3	201944	19:01:00	19:01:00		Lwowska jedn. wojskowa 01
+1013	3	201944	19:03:00	19:03:00		Rejtana / Kustronia 03 nż
+1013	3	201944	19:03:00	19:03:00		Rejtana / Kustronia 03 nż
+1013	3	201944	19:04:00	19:04:00		Rejtana uniwersytet 05
+1013	3	201944	19:04:00	19:04:00		Rejtana uniwersytet 05
+1013	3	201944	19:05:00	19:05:00		Kopisto uniwersytet 02
+1013	3	201944	19:05:00	19:05:00		Kopisto uniwersytet 02
+1013	3	201944	19:08:00	19:08:00		Podwisłocze U. Skarbowy 03
+1013	3	201944	19:08:00	19:08:00		Podwisłocze U. Skarbowy 03
+1013	3	201944	19:09:00	19:09:00		Podwisłocze domki 01
+1013	3	201944	19:09:00	19:09:00		Podwisłocze domki 01
+1013	3	201944	19:10:00	19:10:00		Powst. Warszawy / Podwisłocze 07 nż
+1013	3	201944	19:10:00	19:10:00		Powst. Warszawy / Podwisłocze 07 nż
+1013	3	201944	19:12:00	19:12:00		Powst. Warszawy / Hetmańska 03
+1013	3	201944	19:12:00	19:12:00		Powst. Warszawy / Hetmańska 03
+1013	3	201944	19:13:00	19:13:00		Powst. Warszawy politechnika 01
+1013	3	201944	19:13:00	19:13:00		Powst. Warszawy politechnika 01
+1013	3	201944	19:15:00	19:15:00		Dąbrowskiego / Chrobrego 07
+1013	3	201944	19:15:00	19:15:00		Dąbrowskiego / Chrobrego 07
+1013	3	201944	19:16:00	19:16:00		Dąbrowskiego KW. Policji 03
+1013	3	201944	19:16:00	19:16:00		Dąbrowskiego KW. Policji 03
+1013	3	201944	19:17:00	19:17:00		Dąbrowskiego park 01 nż
+1013	3	201944	19:17:00	19:17:00		Dąbrowskiego park 01 nż
+1013	3	201944	19:20:00	19:20:00		Lisa-Kuli 02
+1013	3	201944	19:20:00	19:20:00		Lisa-Kuli 02
+1013	3	201944	19:21:00	19:21:00		Cieplińskiego 01
+1013	3	201944	19:21:00	19:21:00		Cieplińskiego 01
+1013	3	201944	19:23:00	19:23:00		Piłsudskiego U. Marszałkowski 08
+1013	3	201944	19:23:00	19:23:00		Piłsudskiego U. Marszałkowski 08
+1013	3	201944	19:25:00	19:25:00		Dworzec Lokalny
+1013	3	201944	19:25:00	19:25:00		Dworzec Lokalny
+
+1010	3	199358	19:40:00	19:40:00		Dworzec Lokalny
+1010	3	199358	19:40:00	19:40:00		Dworzec Lokalny
+1010	3	199358	19:41:00	19:41:00		Piłsudskiego U. Marszałkowski 07
+1010	3	199358	19:41:00	19:41:00		Piłsudskiego U. Marszałkowski 07
+1010	3	199358	19:42:00	19:42:00		Cieplińskiego 02
+1010	3	199358	19:42:00	19:42:00		Cieplińskiego 02
+1010	3	199358	19:43:00	19:43:00		Lisa-Kuli 01
+1010	3	199358	19:43:00	19:43:00		Lisa-Kuli 01
+1010	3	199358	19:45:00	19:45:00		Dąbrowskiego park 02 nż
+1010	3	199358	19:45:00	19:45:00		Dąbrowskiego park 02 nż
+1010	3	199358	19:46:00	19:46:00		Dąbrowskiego KW. Policji 04
+1010	3	199358	19:46:00	19:46:00		Dąbrowskiego KW. Policji 04
+1010	3	199358	19:47:00	19:47:00		Dąbrowskiego / Boh. Westerplatte 08
+1010	3	199358	19:47:00	19:47:00		Dąbrowskiego / Boh. Westerplatte 08
+1010	3	199358	19:50:00	19:50:00		Powst. Warszawy / Dąbrowskiego 02
+1010	3	199358	19:50:00	19:50:00		Powst. Warszawy / Dąbrowskiego 02
+1010	3	199358	19:51:00	19:51:00		Powst. Warszawy politechnika 04
+1010	3	199358	19:51:00	19:51:00		Powst. Warszawy politechnika 04
+1010	3	199358	19:52:00	19:52:00		Powst. Warszawy stadion 06
+1010	3	199358	19:52:00	19:52:00		Powst. Warszawy stadion 06
+1010	3	199358	19:54:00	19:54:00		Podwisłocze / Powst. Warszawy 02
+1010	3	199358	19:54:00	19:54:00		Podwisłocze / Powst. Warszawy 02
+1010	3	199358	19:55:00	19:55:00		Podwisłocze / Seniora 04
+1010	3	199358	19:55:00	19:55:00		Podwisłocze / Seniora 04
+1010	3	199358	19:57:00	19:57:00		Kopisto U. Skarbowy 03
+1010	3	199358	19:57:00	19:57:00		Kopisto U. Skarbowy 03
+1010	3	199358	19:58:00	19:58:00		Kopisto uniwersytet 01
+1010	3	199358	19:58:00	19:58:00		Kopisto uniwersytet 01
+1010	3	199358	20:00:00	20:00:00		Rejtana uniwersytet 06
+1010	3	199358	20:00:00	20:00:00		Rejtana uniwersytet 06
+1010	3	199358	20:01:00	20:01:00		Rejtana cmentarz 04 nż
+1010	3	199358	20:01:00	20:01:00		Rejtana cmentarz 04 nż
+1010	3	199358	20:02:00	20:02:00		Rejtana / Kustronia 02
+1010	3	199358	20:02:00	20:02:00		Rejtana / Kustronia 02
+1010	3	199358	20:03:00	20:03:00		Lwowska jedn. wojskowa 02
+1010	3	199358	20:03:00	20:03:00		Lwowska jedn. wojskowa 02
+1010	3	199358	20:05:00	20:05:00		Lwowska cmentarz 04
+1010	3	199358	20:05:00	20:05:00		Lwowska cmentarz 04
+1010	3	199358	20:06:00	20:06:00		Lwowska szpital 06
+1010	3	199358	20:06:00	20:06:00		Lwowska szpital 06
+1010	3	199358	20:08:00	20:08:00		Lwowska / Olbrachta 08 nż
+1010	3	199358	20:08:00	20:08:00		Lwowska / Olbrachta 08 nż
+1010	3	199358	20:09:00	20:09:00		Lwowska / Kr. Marysieńki 10 nż
+1010	3	199358	20:09:00	20:09:00		Lwowska / Kr. Marysieńki 10 nż
+1010	3	199358	20:10:00	20:10:00		Lwowska granica 12 nż
+1010	3	199358	20:10:00	20:10:00		Lwowska granica 12 nż
+1010	3	199358	20:12:00	20:12:00		Krasne Auchan 01
+1010	3	199358	20:12:00	20:12:00		Krasne Auchan 01
+
+1013	3	202124	20:25:00	20:25:00		Krasne Auchan 01
+1013	3	202124	20:25:00	20:25:00		Krasne Auchan 01
+1013	3	202124	20:29:00	20:29:00		Lwowska granica 11 nż
+1013	3	202124	20:29:00	20:29:00		Lwowska granica 11 nż
+1013	3	202124	20:30:00	20:30:00		Lwowska / Bałtycka 09 nż
+1013	3	202124	20:30:00	20:30:00		Lwowska / Bałtycka 09 nż
+1013	3	202124	20:31:00	20:31:00		Lwowska / Cienista 07 nż
+1013	3	202124	20:31:00	20:31:00		Lwowska / Cienista 07 nż
+1013	3	202124	20:33:00	20:33:00		Lwowska szpital 05
+1013	3	202124	20:33:00	20:33:00		Lwowska szpital 05
+1013	3	202124	20:34:00	20:34:00		Lwowska cmentarz 03
+1013	3	202124	20:34:00	20:34:00		Lwowska cmentarz 03
+1013	3	202124	20:35:00	20:35:00		Lwowska jedn. wojskowa 01
+1013	3	202124	20:35:00	20:35:00		Lwowska jedn. wojskowa 01
+1013	3	202124	20:37:00	20:37:00		Rejtana / Kustronia 03 nż
+1013	3	202124	20:37:00	20:37:00		Rejtana / Kustronia 03 nż
+1013	3	202124	20:38:00	20:38:00		Rejtana uniwersytet 05
+1013	3	202124	20:38:00	20:38:00		Rejtana uniwersytet 05
+1013	3	202124	20:39:00	20:39:00		Kopisto uniwersytet 02
+1013	3	202124	20:39:00	20:39:00		Kopisto uniwersytet 02
+1013	3	202124	20:42:00	20:42:00		Podwisłocze U. Skarbowy 03
+1013	3	202124	20:42:00	20:42:00		Podwisłocze U. Skarbowy 03
+1013	3	202124	20:43:00	20:43:00		Podwisłocze domki 01
+1013	3	202124	20:43:00	20:43:00		Podwisłocze domki 01
+1013	3	202124	20:44:00	20:44:00		Powst. Warszawy / Podwisłocze 07 nż
+1013	3	202124	20:44:00	20:44:00		Powst. Warszawy / Podwisłocze 07 nż
+1013	3	202124	20:46:00	20:46:00		Powst. Warszawy / Hetmańska 03
+1013	3	202124	20:46:00	20:46:00		Powst. Warszawy / Hetmańska 03
+1013	3	202124	20:47:00	20:47:00		Powst. Warszawy politechnika 01
+1013	3	202124	20:47:00	20:47:00		Powst. Warszawy politechnika 01
+1013	3	202124	20:49:00	20:49:00		Dąbrowskiego / Chrobrego 07
+1013	3	202124	20:49:00	20:49:00		Dąbrowskiego / Chrobrego 07
+1013	3	202124	20:50:00	20:50:00		Dąbrowskiego KW. Policji 03
+1013	3	202124	20:50:00	20:50:00		Dąbrowskiego KW. Policji 03
+1013	3	202124	20:51:00	20:51:00		Dąbrowskiego park 01 nż
+1013	3	202124	20:51:00	20:51:00		Dąbrowskiego park 01 nż
+1013	3	202124	20:54:00	20:54:00		Lisa-Kuli 02
+1013	3	202124	20:54:00	20:54:00		Lisa-Kuli 02
+1013	3	202124	20:55:00	20:55:00		Cieplińskiego 01
+1013	3	202124	20:55:00	20:55:00		Cieplińskiego 01
+1013	3	202124	20:57:00	20:57:00		Piłsudskiego U. Marszałkowski 08
+1013	3	202124	20:57:00	20:57:00		Piłsudskiego U. Marszałkowski 08
+1013	3	202124	20:58:00	20:58:00		Dworzec Lokalny
+1013	3	202124	20:58:00	20:58:00		Dworzec Lokalny

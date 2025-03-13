@@ -1,0 +1,9 @@
+        print("X Utwórz Brygady BIS")
+                elif wybor == "4":
+            StwórzBrygadyBIS()
+        print("X Modyfikuj BRYGADY BIS")
+                elif wybor == "5":
+            ModyfikujBrygadyBIS()   
+        print("X Stwórz plik kalendarza")
+                elif wybor == "11":
+            CallendarCreator()

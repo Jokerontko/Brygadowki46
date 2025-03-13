@@ -58,13 +58,11 @@
             border: 3px solid orange;
             border-radius: 10px;
             max-width: 60vw;
-
-
+            margin-bottom: 20px;
         }
 
         .content p {
             font-size: 1rem;
-            margin-top: 10px;
             margin: 25px;
         }
 
@@ -111,8 +109,6 @@
             /* Dopasuj do odpowiedniej wysokości */
             font-size: 22px;
             background-color: orange;
-
-
         }
 
 
@@ -200,6 +196,18 @@
             }
         }
 
+        .callendar2 {
+            align-items: center;
+            /* Wyśrodkowanie pionowe */
+            justify-content: center;
+            /* Wyśrodkowanie poziome */
+            border: 2px solid;
+            padding: 15px;
+            width: 250px;
+            height: 350px;
+        }
+
+
         @media (max-width: 774px) {
 
             .flex-container {
@@ -209,8 +217,6 @@
             .NewsSection {
                 margin-top: 20px;
                 padding: 20px;
-
-
             }
 
             .NEWSTytul {
@@ -223,8 +229,6 @@
                 padding: 15px;
                 width: 250px;
                 height: 300px;
-
-
             }
 
         }
@@ -321,10 +325,27 @@
                 <br>
                 <span>Obowiązuje </span>
                 <a id="Type_of_rozklad" href="#" style="text-decoration: none;">x</a>
-
-
             </center>
+
         </div>
+
+        <div class="callendar2" style="display: none;">
+            <table class="bordered">
+                <tr>
+                    <th>Dzień</th>
+                    <th>Rodzaj</th>
+                </tr>
+                <tbody id="schedule-table" class="bordered">
+                </tbody>
+
+            </table>
+
+
+
+
+        </div>
+
+
         <div class="NewsSection">
 
             <h2>&nbsp;&nbsp;Komunikaty</h2>
@@ -340,6 +361,9 @@
             <p class="NothingToFind">Nic tu nie znaleziono...</p>
         </div>
     </div>
+
+
+
 
     <div class="kreska" style="width: 100%; height: 40px; background-color: rgb(50,50,50); position: fixed; bottom: 0; color: white; text-align: center; line-height: 40px;">
 
@@ -433,7 +457,7 @@
 
                     <hr>
                     <h7 class="NEWSsmallleters">TREŚĆ</h7>
-                    <h3 style="padding: 20px; text-align: center;">${content}</h3>
+                    <h3 style="padding: 10px; text-align: left;">${content}</h3>
 
                     <hr>
                     <h7 class="NEWSsmallleters">ZAŁĄCZNIK</h7>
@@ -465,7 +489,7 @@
 
                     <hr>
                     <h7 class="NEWSsmallleters">TREŚĆ</h7>
-                    <h3 style="padding: 20px; text-align: center;">${content}</h3>
+                    <h3 style="margin-right: 20px; text-align: left;">${content}</h3>
 
                 </div>
             </article>
@@ -692,6 +716,51 @@
 
         // Ukrycie komunikatu na starcie
         noResultsMessage.style.display = 'none';
+
+        document.addEventListener("DOMContentLoaded", function() {
+            const today = new Date();
+            const dates = [];
+            for (let i = 0; i < 7; i++) {
+                const futureDate = new Date();
+                futureDate.setDate(today.getDate() + i);
+                const day = String(futureDate.getDate()).padStart(2, '0');
+                const month = String(futureDate.getMonth() + 1).padStart(2, '0');
+                dates.push(`${day}.${month}.`);
+            }
+
+            fetch("Brygady/Callendar.txt")
+                .then(response => response.text())
+                .then(text => {
+                    const lines = text.split("\n");
+                    const scheduleData = {};
+                    for (let line of lines) {
+                        const parts = line.split("\t");
+                        if (parts.length >= 2) {
+                            const dateParts = parts[0].trim().split(".");
+                            if (dateParts.length === 3) {
+                                const shortDate = `${dateParts[0]}.${dateParts[1]}.`;
+                                scheduleData[shortDate] = parts[1].trim();
+                            }
+                        }
+                    }
+
+                    const tableBody = document.getElementById("schedule-table");
+                    dates.forEach(date => {
+                        const row = document.createElement("tr");
+                        const dateCell = document.createElement("td");
+                        dateCell.textContent = date;
+                        const scheduleCell = document.createElement("td");
+                        scheduleCell.textContent = scheduleData[date] || "Brak danych";
+                        row.appendChild(dateCell);
+                        row.appendChild(scheduleCell);
+                        tableBody.appendChild(row);
+                    });
+                })
+                .catch(error => {
+                    console.error("Błąd wczytywania pliku: ", error);
+                    document.getElementById("schedule-table").innerHTML = "<tr><td colspan='2'>Błąd ładowania</td></tr>";
+                });
+        });
 
     </script>
 

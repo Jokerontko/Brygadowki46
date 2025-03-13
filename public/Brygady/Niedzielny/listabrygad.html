@@ -115,6 +115,24 @@
             background-color: rgb(50, 50, 50);
         }
 
+        @keyframes blink {
+            0% {
+                background-color: red;
+            }
+
+            50% {
+                background-color: transparent;
+            }
+
+            100% {
+                background-color: red;
+            }
+        }
+
+        .blink {
+            animation: blink 1s infinite;
+        }
+
     </style>
 </head>
 
@@ -145,6 +163,7 @@
             <br>
             <a href="#" class="filtracja" id="purpleFilter">Szczytowa</a>
             <a href="#" class="filtracja" id="blackFilter">Nocna</a>
+            <br>
             <!-- <p class="szary">Po wpisaniu 'Rez' w filtrze linii, wyświetlają się wszystkie brygady z rezerwą :3</p> -->
             <hr>
             <a class="menu" style="font-size: 15px;" href="Podmiany.html">Lista podmian</a>
@@ -384,6 +403,8 @@
                         } else if (status === 'JZN') {
                             brygadaCell.style.backgroundColor = 'black';
                             brygadaCell.style.color = 'white';
+                        } else if (status === 'TRZEBA_RECZNIE_SPRAWDZIC') {
+                            brygadaCell.classList.add('blink');
                         }
                         // Dodanie marginesów, aby zwiększyć obszar tła
                         brygadaCell.style.padding = '2px 5px';

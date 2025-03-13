@@ -98,6 +98,16 @@
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
         }
 
+        .bordered {
+            border: 1.5px solid white;
+            padding: 7px;
+
+
+            margin: 2px 2px;
+
+            align-items: center;
+        }
+
     </style>
 </head>
 
@@ -119,12 +129,22 @@
         <a href="Sobotni/listabrygad.html" class="choose-open">Sobota</a>
         <a href="Niedzielny/listabrygad.html" class="choose-open">Niedziela</a>
     </div>
-    <a href="#" class="chooseextra-close">Zaplanowane zmiany rozkładów</a>
+    <a href="Zapowiedz_Rozkladu/ChooseDay.html" class="chooseextra-close">Zaplanowane zmiany rozkładów</a>
     <!-- Zapowiedz_Rozkladu/ChooseDay.html -->
     <br>
-    <a href="#" class="chooseextra-close">Archiwum</a>
+    <a href="Archiwum/Archiwum.html" class="chooseextra-open">Archiwum</a>
     <!-- Archiwum/Archiwum.html -->
     <br> <br>
+
+    <table class="bordered">
+        <tr>
+            <th>Dzień</th>
+            <th>Rodzaj</th>
+        </tr>
+        <tbody id="schedule-table" class="bordered">
+        </tbody>
+
+    </table>
 
 
     <script>
@@ -167,6 +187,56 @@
                 // Zapisanie wartości typu dnia do sessionStorage
                 sessionStorage.setItem('ChoosedTypeOfDay', event.target.getAttribute('data-day-type'));
             });
+        });
+
+
+
+
+
+
+        document.addEventListener("DOMContentLoaded", function() {
+            const today = new Date();
+            const dates = [];
+            for (let i = 0; i < 7; i++) {
+                const futureDate = new Date();
+                futureDate.setDate(today.getDate() + i);
+                const day = String(futureDate.getDate()).padStart(2, '0');
+                const month = String(futureDate.getMonth() + 1).padStart(2, '0');
+                dates.push(`${day}.${month}.`);
+            }
+
+            fetch("Callendar.txt")
+                .then(response => response.text())
+                .then(text => {
+                    const lines = text.split("\n");
+                    const scheduleData = {};
+                    for (let line of lines) {
+                        const parts = line.split("\t");
+                        if (parts.length >= 2) {
+                            const dateParts = parts[0].trim().split(".");
+                            if (dateParts.length === 3) {
+                                const shortDate = `${dateParts[0]}.${dateParts[1]}.`;
+                                scheduleData[shortDate] = parts[1].trim();
+                            }
+                        }
+                    }
+
+                    const tableBody = document.getElementById("schedule-table");
+                    dates.forEach(date => {
+                        const row = document.createElement("tr");
+                        const dateCell = document.createElement("td");
+                        dateCell.textContent = date;
+                        const scheduleCell = document.createElement("td");
+                        scheduleCell.textContent = scheduleData[date] || "Brak danych";
+                        row.appendChild(dateCell);
+                        row.appendChild(scheduleCell);
+                        tableBody.appendChild(row);
+                    });
+                })
+                .catch(error => {
+                    console.error("Błąd wczytywania pliku: ", error);
+                    document.getElementById("schedule-table").innerHTML = "<tr><td colspan='2'>Błąd ładowania</td></tr>";
+                });
         });
 
     </script>
