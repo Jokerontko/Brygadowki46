@@ -136,7 +136,7 @@
     </style>
 </head>
 
-<body>
+<body id="HideOnLoadSite" style="display: none;">
     <header>
         <a href="../../Main_Panel.html" class="menu">Panel Główny</a>
         <a href="../ChooseDay.html" class="menu">Brygady</a>
@@ -181,6 +181,7 @@
                 <th>Czas trwania</th>
                 <th>Km</th>
                 <th class="hide">Kod Trasy</th>
+                <th class="hide">Kod Linii</th>
             </tr>
         </thead>
         <tbody id="dane-tabeli">
@@ -534,7 +535,8 @@
              <td>${endTime}</td>
              <td>${durationFormatted}</td>
              <td>N/A</td>
-             <td class="hide">${tripId}</td>`;
+             <td class="hide">${tripId}</td>
+             <td class="hide">${currentRouteId}</td>`;
 
 
 
@@ -609,14 +611,6 @@
                 tableBody.appendChild(row);
                 lp++;
             }
-
-
-
-
-
-
-
-
 
             // Fetch kierunki and update the lines
             const kierunkiLines = await fetchKierunkiFile();
@@ -723,6 +717,7 @@
                 border-radius: 5px;
                 padding: 2px 5px;
                 display: inline-block;
+                font-weight: bold;
             ">${lineValue}</span>`;
                 }
             });
@@ -855,11 +850,18 @@
             return null;
         }
 
-
         // Funkcja globalna: Konwersja czasu w formacie HH:MM na minuty od początku dnia
         function convertTimeToMinutes(time) {
-            const [hours, minutes] = time.split(":").map(Number);
-            return (hours % 24) * 60 + minutes; // Modulo obsługuje godziny po północy
+            try {
+                const [hours, minutes] = time.split(":").map(Number);
+                if (isNaN(hours) || isNaN(minutes)) {
+                    throw new Error("Niepoprawny format czasu.");
+                }
+                return (hours % 24) * 60 + minutes; // Modulo obsługuje godziny po północy
+            } catch (error) {
+                console.error("Błąd konwersji czasu:", error);
+                return null; // Możesz zwrócić null lub jakąś domyślną wartość
+            }
         }
 
 
@@ -891,7 +893,11 @@
             const hours = Math.floor(diffMinutes / 60);
             const minutes = diffMinutes % 60;
 
-            return `${hours}:${minutes}`;
+            // Formatowanie godzin i minut do 2 cyfr
+            const formattedHours = String(hours).padStart(2, '0');
+            const formattedMinutes = String(minutes).padStart(2, '0');
+
+            return `${formattedHours}:${formattedMinutes}`;
         }
 
 
@@ -994,21 +1000,17 @@
                     const nextRow = tableRows[i + 1];
                     let currentTime = currentRow.cells[4]?.textContent;
                     let nextTime = nextRow.cells[4]?.textContent;
-
                     if (!nextTime) {
                         const thirdRow = tableRows[i + 2];
                         nextTime = thirdRow ? thirdRow.cells[4]?.textContent : null;
                     }
-
                     if (currentTime && nextTime && isBetween(godzina, currentTime, nextTime)) {
                         sessionStorage.setItem('godzina', godzina);
-
                         const displayedTime = (godzina === currentTimeFormatted) ? "TERAZ" : godzina;
                         const newRow = document.createElement("tr");
-                        newRow.innerHTML =
-                            `<td colspan="9" style="text-align: center; font-size: 15px; padding: 3px;">
-                        Podmiana: <strong>${przystanek}</strong> &nbsp;&nbsp; ${displayedTime}
-                    </td>`;
+                        newRow.innerHTML = `<td colspan="9" style="text-align: center; font-size: 15px; padding: 3px;">
+            Podmiana: <strong>${przystanek}</strong> &nbsp;&nbsp; ${displayedTime}
+            </td>`;
 
                         if (godzina === currentTimeFormatted) {
                             newRow.classList.add("blink");
@@ -1283,9 +1285,261 @@
             }
         }
 
+        /*
+                function usunzbedne() {
+                    const zakazaneSlowa = ['pętla', 'nż', 'granica']; // Lista zakazanych słów
+                    const table = document.getElementById('rozkładTable');
+                    const rows = table.getElementsByTagName('tr');
+
+                    for (let i = 1; i < rows.length; i++) { // zaczynamy od 1, ponieważ 0 to nagłówki
+                        const cells = rows[i].getElementsByTagName('td');
+
+                        for (let j = 0; j < cells.length; j++) {
+                            const cell = cells[j];
+                            const links = cell.getElementsByTagName('a');
+
+                            // Sprawdzamy, czy w komórce są linki
+                            if (links.length > 0) {
+                                // Dla każdego linku nie usuwamy jego tekstu
+                                for (let link of links) {
+                                    let linkText = link.innerText;
+                                    // Usuwamy zakazane słowa z tekstu linku
+                                    for (let slowo of zakazaneSlowa) {
+                                        linkText = linkText.replace(new RegExp(slowo, 'g'), '');
+                                    }
+                                    link.innerText = linkText;
+                                }
+                            } else {
+                                // Jeśli w komórce nie ma linków, to usuwamy tekst normalnie
+                                let cellText = cell.innerText;
+                                // Usuwamy zakazane słowa
+                                for (let slowo of zakazaneSlowa) {
+                                    cellText = cellText.replace(new RegExp(slowo, 'g'), '');
+                                }
+
+                                // Usuwamy cyfry w 3. i 4. kolumnie
+                                if (j === 2 || j === 3) { // Indeksy zaczynają się od 0, więc 2 to 3. kolumna, a 3 to 4. kolumna
+                                    cellText = cellText.replace(/\d+/g, ''); // Usuwamy wszystkie cyfry
+                                }
+
+                                // Sprawdzamy, czy tekst zawiera "p."
+                                const pIndex = cellText.indexOf("p.");
+                                if (pIndex !== -1) {
+                                    // Dzielimy tekst na dwie części: przed "p." i po "p."
+                                    const beforeP = cellText.substring(0, pIndex); // Tekst przed "p."
+                                    const afterP = cellText.substring(pIndex); // Tekst po "p." (włącznie)
+
+                                    // Tworzymy nowe elementy HTML
+                                    const newContent = document.createElement("div");
+                                    newContent.innerHTML = beforeP + "<br><span style='color: grey;'>" + "(" + afterP + ")" + "</span>";
+
+                                    // Zastępujemy tekst w komórce
+                                    cell.innerHTML = newContent.innerHTML;
+                                } else {
+                                    // Jeśli nie ma "p.", ustawiamy zwykły tekst
+                                    cell.innerText = cellText;
+                                }
+                            }
+                        }
+                    }
+                }
+
+        */
+
+
+        function usunZakazaneSlowaICyfry() {
+            const zakazaneSlowa = ['pętla', 'nż', 'granica', 'Skrzyż. Młyn', 'OSP', 'skrzyż. młyn']; // Lista zakazanych słów
+            const table = document.getElementById('rozkładTable');
+            const rows = table.getElementsByTagName('tr');
+
+            for (let i = 1; i < rows.length; i++) { // zaczynamy od 1, ponieważ 0 to nagłówki
+                const cells = rows[i].getElementsByTagName('td');
+
+                for (let j = 0; j < cells.length; j++) {
+                    const cell = cells[j];
+                    const links = cell.getElementsByTagName('a');
+                    let cellHTML = cell.innerHTML; // Zmiana z innerText na innerHTML
+
+                    // Sprawdzamy, czy w komórce są linki
+                    if (links.length > 0) {
+                        // Jeśli są linki, pomijamy modyfikowanie tekstu komórki
+                        for (let link of links) {
+                            // Usuwamy zakazane słowa z tekstu linku, ale nie z całego HTML
+                            let linkText = link.innerText;
+                            for (let slowo of zakazaneSlowa) {
+                                linkText = linkText.replace(new RegExp(slowo, 'g'), '');
+                            }
+                            link.innerText = linkText;
+                        }
+                    } else {
+                        // Usuwamy zakazane słowa z całego HTML
+                        for (let slowo of zakazaneSlowa) {
+                            cellHTML = cellHTML.replace(new RegExp(slowo, 'g'), '');
+                        }
+
+                        // Usuwamy cyfry w 3. i 4. kolumnie
+                        if (j === 2 || j === 3) { // Indeksy zaczynają się od 0, więc 2 to 3. kolumna, a 3 to 4. kolumna
+                            cellHTML = cellHTML.replace(/\d+/g, ''); // Usuwamy wszystkie cyfry
+                        }
+                    }
+
+                    // Zaktualizowanie HTML komórki
+                    cell.innerHTML = cellHTML;
+                }
+            }
+        }
+
+
+        function sprawdzTekstPoP() {
+            const table = document.getElementById('rozkładTable');
+            const rows = table.getElementsByTagName('tr');
+
+            for (let i = 1; i < rows.length; i++) { // zaczynamy od 1, ponieważ 0 to nagłówki
+                const cells = rows[i].getElementsByTagName('td');
+
+                for (let j = 0; j < cells.length; j++) {
+                    const cell = cells[j];
+                    let cellHTML = cell.innerHTML; // Używamy innerHTML, aby zachować strukturę HTML
+
+                    // Sprawdzamy, czy tekst zawiera "p."
+                    const pIndex = cellHTML.indexOf("p.");
+                    if (pIndex !== -1) {
+                        // Dzielimy tekst na dwie części: przed "p." i po "p."
+                        const beforeP = cellHTML.substring(0, pIndex); // Tekst przed "p."
+                        const afterP = cellHTML.substring(pIndex); // Tekst po "p." (włącznie)
+
+                        // Lista wyjątków
+                        const wyjatki = ["p. Leniar I", "p. Zelmer II"];
+
+                        // Sprawdzamy, czy tekst po "p." jest jednym z wyjątków
+                        let isException = false;
+                        for (let wyjatek of wyjatki) {
+                            if (afterP.includes(wyjatek)) {
+                                isException = true;
+                                break;
+                            }
+                        }
+
+                        if (!isException) {
+                            // Jeśli tekst po "p." nie jest wyjątkiem, dodajemy formatowanie
+                            const newContent = document.createElement("div");
+                            newContent.innerHTML = beforeP + "<br><span style='color: grey;'>" + "(" + afterP + ")" + "</span>";
+
+                            // Zastępujemy tekst w komórce
+                            cell.innerHTML = newContent.innerHTML;
+                        }
+                    } else {
+                        // Jeśli nie ma "p.", ustawiamy zwykły tekst
+                        cell.innerHTML = cellHTML;
+                    }
+                }
+            }
+        }
+
+        async function updateKierunki() {
+            let tableRows = document.querySelectorAll("#rozkładTable tbody tr"); // Pobieramy wszystkie wiersze tabeli
+            for (let row of tableRows) {
+                let routeCell = row.querySelector(".NrOfLine"); // Kolumna "Linia"
+                let kierunekCell = row.querySelector("td:nth-child(4)"); // Kolumna "Kierunek"
+                let tripId = row.querySelector("td:nth-child(9)").textContent; // Pobieramy tripId z ukrytej kolumny
+
+                if (routeCell && routeCell.textContent === "1" && tripId) {
+                    // Jeśli linia = 1 i tripId jest dostępne, szukamy w pliku Kierunki.txt
+                    let kierunek = await findKierunek(tripId);
+                    if (kierunek) {
+                        kierunekCell.textContent = kierunek; // Uzupełniamy komórkę "Kierunek"
+                    }
+                }
+            }
+        }
+
+        // Funkcja do wyszukiwania kierunku w pliku Kierunki.txt
+        async function findKierunek(tripId) {
+            try {
+                let response = await fetch('../../../Kierunki.txt'); // Wczytujemy plik Kierunki.txt
+                let text = await response.text();
+                let lines = text.split("\n");
+
+                // Przeszukujemy każdą linię pliku
+                for (let line of lines) {
+                    let parts = line.split("\t");
+                    if (parts[0] === tripId) {
+                        // Znaleźliśmy pasujący tripId, zwracamy kierunek (część po pauzie)
+                        let kierunek = parts[2].split(" - ")[1];
+                        return kierunek;
+                    }
+                }
+
+                // Jeśli nie znaleziono pasującego tripId, zwróć null
+                return null;
+            } catch (error) {
+                console.error("Błąd podczas ładowania pliku Kierunki.txt:", error);
+                return null;
+            }
+        }
 
 
 
+
+        async function scanTableForLine1() {
+            // Pobierz wszystkie wiersze tabeli (poza nagłówkami)
+            let rows = document.querySelectorAll("#rozkładTable tbody tr");
+
+            // Zmienna do przechowywania obietnic (Promises)
+            const promises = [];
+
+            // Iteruj po wierszach
+            rows.forEach((row) => {
+                if (row.cells.length < 2) return; // Pomijamy wiersze źle sformatowane
+
+                let linia = row.cells[1].textContent.trim(); // Pobierz wartość z drugiej komórki (Linia)
+
+                if (linia) {
+                    let kodTrasy = row.cells[9].textContent.trim(); // Pobierz kod trasy z ostatniej komórki
+                    console.log("Znaleziono kod trasy:", kodTrasy);
+
+                    // Funkcja do pobrania i wyszukania kodu trasy w pliku
+                    promises.push(fetchKierunki(kodTrasy, row)); // Dodaj obietnicę do tablicy
+                }
+            });
+
+            // Czekaj na zakończenie wszystkich operacji fetchKierunki
+            await Promise.all(promises);
+        }
+
+        async function fetchKierunki(kodTrasy, row) {
+            try {
+                const response = await fetch("../../../Brygady/WYNIKI/Kierunki.txt");
+                const data = await response.text();
+
+                // Podziel zawartość pliku na linie
+                const lines = data.split("\n");
+
+                // Szukamy odpowiedniej linii z kodem trasy
+                const foundLine = lines.find(line => line.split("\t")[0] === kodTrasy);
+
+                if (foundLine) {
+                    console.log("Znaleziono linię:", foundLine);
+
+                    // Podziel linię po tabulatorach, aby uzyskać wartości
+                    const parts = foundLine.split("\t");
+
+                    // Załóżmy, że format jest taki, że $Koniec znajduje się po ostatnim "-"
+                    const koniec = parts[parts.length - 1].split("-")[1]?.trim(); // Pobieramy wartość po "-"
+
+                    if (koniec) {
+                        // Zaktualizuj wartość w tabeli, w kolumnie "Kierunek" (indeks 3)
+                        row.cells[3].textContent = koniec; // Kolumna Kierunek
+                    } else {
+                        console.log("Nie znaleziono wartości $Koniec w linii.");
+                    }
+                } else {
+                    console.log("Nie znaleziono linii o kodzie trasy:", kodTrasy);
+                }
+            } catch (error) {
+                console.error("Błąd podczas pobierania pliku Kierunki.txt:", error);
+            }
+        }
 
 
 
@@ -1293,23 +1547,27 @@
 
         // Główna funkcja init()
         async function init() {
-
             checkLogin();
-
             loadBrygadaTitle();
             loadBrygadaType();
 
             let lines = await fetchGOTOWEFile();
             if (lines) {
                 await processGOTOWEData(lines);
-                addPodmianaRows();
+
+                await addPodmianaRows(); // 🛑 Poczekaj, aż wiersz z podmianą zostanie dodany!
+                checkAndAddRow(); // 🟢 Teraz uzupełnij tabelę wykazu!
                 ZjazdDoZajezdni();
                 WyjazdNaLinie();
                 brygadabisowa();
                 PrzejazdTechniczny();
                 highlightCurrentTimeCells();
-                checkAndAddRow();
+                debugger;
+                await scanTableForLine1(); // Poczekaj na zakończenie scanTableForLine1
 
+                usunZakazaneSlowaICyfry();
+                sprawdzTekstPoP();
+                document.getElementById('HideOnLoadSite').style.display = '';
 
             } else {
                 console.error("Nie udało się wczytać GOTOWE.txt.");

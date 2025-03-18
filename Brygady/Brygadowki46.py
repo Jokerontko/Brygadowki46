@@ -267,6 +267,10 @@ def WczytajBrygady():
                     
         
         
+def natural_sort_key(text):
+    # Funkcja pomocnicza do naturalnego sortowania, dzieli tekst na część tekstową i numeryczną
+    return [int(text_part) if text_part.isdigit() else text_part.lower() for text_part in re.split('([0-9]+)', text)]
+
 def StwórzLinietxt():
     clear_screen()
     # Ścieżki do plików
@@ -302,7 +306,8 @@ def StwórzLinietxt():
             # Zapis do pliku Linie.txt w każdym podfolderze
             if numer_linii_set:
                 linie_file = os.path.join(subdir, 'Linie.txt')
-                sorted_numer_linii = sorted(numer_linii_set)
+                # Sortowanie z użyciem funkcji natural_sort_key do obsługi liter i cyfr
+                sorted_numer_linii = sorted(numer_linii_set, key=natural_sort_key)
 
                 with open(linie_file, 'w', encoding='utf-8') as l_file:
                     for numer in sorted_numer_linii:

@@ -145,6 +145,7 @@
         <hr>
     </header>
 
+
     <center>
         <h1>Rozkład {Jaki?}</h1>
         <p class="top">Ważny od dnia <span id="waznyOd">ładowanie...</span></p>
@@ -438,50 +439,85 @@
 
 
         function filterTable() {
-            const linieFilter = document.getElementById('filterLinie').value.toLowerCase();
-            const brygadaFilter = document.getElementById('filterBrygada').value.toLowerCase();
+            const linieFilter = document.getElementById('filterLinie').value.trim().toLowerCase(); // Pobieramy wartość filtra dla linii
+            const brygadaFilter = document.getElementById('filterBrygada').value.trim().toLowerCase(); // Pobieramy wartość filtra dla brygady
 
-            // Get all rows in the table
+            // Jeśli input dla numeru linii jest pusty, nie stosujemy filtra dla numerów
             const rows = document.querySelectorAll('#dataTableBody tr');
 
-            // Check which color filters are active
+            // Sprawdzamy, które filtry kolorów są aktywne
             const purpleChecked = document.getElementById('purpleFilter').classList.contains('active');
             const greyChecked = document.getElementById('greyFilter').classList.contains('active');
             const orangeChecked = document.getElementById('orangeFilter').classList.contains('active');
             const blackChecked = document.getElementById('blackFilter').classList.contains('active');
 
-            // Check if any color filter is active
+            // Sprawdzamy, czy jakikolwiek filtr kolorów jest aktywny
             const isAnyColorChecked = purpleChecked || greyChecked || orangeChecked || blackChecked;
 
             rows.forEach(row => {
-                const linie = row.children[1].textContent.toLowerCase();
-                const brygada = row.children[0].textContent.toLowerCase();
-                const brygadaCell = row.querySelector("td:first-child a"); // The cell containing the "Brygada" link
-                const backgroundColor = window.getComputedStyle(brygadaCell).backgroundColor;
+                const linie = row.children[1].textContent.trim().toLowerCase(); // Numer linii
+                const brygada = row.children[0].textContent.trim().toLowerCase(); // Nazwa brygady
+                const brygadaCell = row.querySelector("td:first-child a"); // Komórka zawierająca link do "Brygady"
+                const backgroundColor = window.getComputedStyle(brygadaCell).backgroundColor; // Kolor tła brygady
 
-                // Check if the row matches both the text filter and color filter (if any color is active)
-                const matchesLinie = linie.includes(linieFilter);
+                // Rozdzielamy zawartość komórki na poszczególne linie (np. "2", "10", "11") i sprawdzamy każdą z nich
+                const linieArray = linie.split(/\s+/); // Rozdzielamy na linie, zakładając, że linie są oddzielone spacjami
+
+                // Sprawdzamy, czy którykolwiek numer linii pasuje do filtra
+                const matchesLinie = linieFilter ? linieArray.some(linia => linia === linieFilter) : true;
+
+                // Porównanie dla brygady (zaczyna się od wprowadzonego tekstu)
                 const matchesBrygada = brygada.startsWith(brygadaFilter);
 
-                let matchesColor = true; // Default to true if no color filter is active
+                let matchesColor = true; // Domyślnie ustawiamy, że kolor nie jest brany pod uwagę
 
                 if (isAnyColorChecked) {
                     matchesColor = (
-                        (backgroundColor === 'rgb(128, 0, 128)' && purpleChecked) || // Purple
-                        (backgroundColor === 'rgb(128, 128, 128)' && greyChecked) || // Grey
-                        (backgroundColor === 'rgb(163, 120, 0)' && orangeChecked) || // Orange
-                        (backgroundColor === 'rgb(0, 0, 0)' && blackChecked) // Black
+                        (backgroundColor === 'rgb(128, 0, 128)' && purpleChecked) || // Fioletowy
+                        (backgroundColor === 'rgb(128, 128, 128)' && greyChecked) || // Szary
+                        (backgroundColor === 'rgb(163, 120, 0)' && orangeChecked) || // Pomarańczowy
+                        (backgroundColor === 'rgb(0, 0, 0)' && blackChecked) // Czarny
                     );
                 }
 
-                // Show the row if it matches both filters (text and color, if applied), otherwise hide it
+                // Pokazujemy wiersz, jeśli pasuje do wszystkich filtrów (tekstowych i kolorowych, jeśli aktywne)
                 if (matchesLinie && matchesBrygada && matchesColor) {
-                    row.style.display = '';
+                    row.style.display = ''; // Pokazujemy wiersz
+
+                    // Sprawdzamy, czy numer linii pasuje do filtra i zmieniamy jego kolor na pomarańczowy
+                    if (linieFilter) {
+                        // Znajdujemy wszystkie elementy <span> w komórce z numerem linii
+                        const spans = row.children[1].querySelectorAll('span');
+                        spans.forEach(span => {
+                            const spanText = span.textContent.trim().toLowerCase();
+                            if (spanText === linieFilter) {
+                                span.style.color = 'orange'; // Kolorujemy tylko pasującą liczbę na pomarańczowo
+                            } else {
+                                span.style.color = ''; // Reszta pozostaje bez zmian
+                            }
+                        });
+                    }
                 } else {
-                    row.style.display = 'none';
+                    row.style.display = 'none'; // Ukrywamy wiersz
+                }
+
+                // Jeśli pole filtra jest puste, resetujemy kolor na domyślny
+                if (!linieFilter) {
+                    const spans = row.children[1].querySelectorAll('span');
+                    spans.forEach(span => {
+                        span.style.color = ''; // Resetujemy kolor, gdy brak filtra
+                    });
                 }
             });
         }
+
+
+
+
+
+
+
+
 
         // Attach the filtering function to the click event of the color filter links
         function addFilters() {

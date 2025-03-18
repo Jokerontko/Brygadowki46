@@ -98,14 +98,23 @@
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
         }
 
-        .bordered {
-            border: 1.5px solid white;
-            padding: 7px;
+        .styled-table {
+            border-collapse: collapse;
+            border-radius: 2px;
+            overflow: hidden;
+        }
 
+        .styled-table th,
+        .styled-table td {
+            padding: 12px;
+            text-align: left;
+            border: 1px solid #dee2e6;
+        }
 
-            margin: 2px 2px;
-
-            align-items: center;
+        .styled-table th {
+            color: white;
+            font-weight: bold;
+            text-transform: uppercase;
         }
 
     </style>
@@ -129,21 +138,23 @@
         <a href="Sobotni/listabrygad.html" class="choose-open">Sobota</a>
         <a href="Niedzielny/listabrygad.html" class="choose-open">Niedziela</a>
     </div>
-    <a href="Zapowiedz_Rozkladu/ChooseDay.html" class="chooseextra-close">Zaplanowane zmiany rozkładów</a>
+    <a href="#" class="chooseextra-close">Zaplanowane zmiany rozkładów</a>
     <!-- Zapowiedz_Rozkladu/ChooseDay.html -->
     <br>
-    <a href="Archiwum/Archiwum.html" class="chooseextra-open">Archiwum</a>
+    <a href="#" class="chooseextra-close">Archiwum</a>
     <!-- Archiwum/Archiwum.html -->
     <br> <br>
 
-    <table class="bordered">
-        <tr>
-            <th>Dzień</th>
-            <th>Rodzaj</th>
-        </tr>
-        <tbody id="schedule-table" class="bordered">
+    <table class="styled-table">
+        <thead>
+            <tr>
+                <th>Dzień</th>
+                <th>Typ rozkładu</th>
+            </tr>
+        </thead>
+        <tbody id="schedule-table">
+            <!-- Wiersze będą dodawane dynamicznie -->
         </tbody>
-
     </table>
 
 
