@@ -1485,6 +1485,9 @@
             // Pobierz wszystkie wiersze tabeli (poza nagłówkami)
             let rows = document.querySelectorAll("#rozkładTable tbody tr");
 
+            // Lista dozwolonych linii
+            const dozwoloneLinie = ["1", "4", "7", "8", "10", "15", "20", "28", "32", "51"];
+
             // Zmienna do przechowywania obietnic (Promises)
             const promises = [];
 
@@ -1494,7 +1497,7 @@
 
                 let linia = row.cells[1].textContent.trim(); // Pobierz wartość z drugiej komórki (Linia)
 
-                if (linia) {
+                if (dozwoloneLinie.includes(linia)) {
                     let kodTrasy = row.cells[9].textContent.trim(); // Pobierz kod trasy z ostatniej komórki
                     console.log("Znaleziono kod trasy:", kodTrasy);
 
@@ -1562,7 +1565,6 @@
                 brygadabisowa();
                 PrzejazdTechniczny();
                 highlightCurrentTimeCells();
-                debugger;
                 await scanTableForLine1(); // Poczekaj na zakończenie scanTableForLine1
 
                 usunZakazaneSlowaICyfry();
