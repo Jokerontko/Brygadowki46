@@ -1,0 +1,219 @@
+route_id	service_id	trip_id	arrival_time	departure_time	stop_headsign	stop_name
+-------------------------------------------------------------------------------
+1970	4	209717	04:56:00	04:56:00		Cienista cmentarz 01
+1970	4	209717	04:57:00	04:57:00		Lwowska / Cienista 07 nż
+1970	4	209717	04:59:00	04:59:00		Lwowska szpital 05
+1970	4	209717	05:01:00	05:01:00		Armii Krajowej kościół 09 nż
+1970	4	209717	05:02:00	05:02:00		Niepodległości / Armii Krajowej 05
+1970	4	209717	05:03:00	05:03:00		Niepodległości / Mieszka I 03 nż
+1970	4	209717	05:04:00	05:04:00		Niepodległości dom dziecka 01 nż
+1970	4	209717	05:05:00	05:05:00		Kopisto uniwersytet 02
+1970	4	209717	05:08:00	05:08:00		Podwisłocze U. Skarbowy 03
+1970	4	209717	05:09:00	05:09:00		Podwisłocze domki 01
+1970	4	209717	05:11:00	05:11:00		Powst. Warszawy / Podwisłocze 07 nż
+1970	4	209717	05:12:00	05:12:00		Powst. Warszawy stadion 05 nż
+1970	4	209717	05:13:00	05:13:00		Hetmańska stadion 07
+1970	4	209717	05:14:00	05:14:00		Hetmańska ZS. Mech. 05
+1970	4	209717	05:15:00	05:15:00		Hetmańska przychodnia 03
+1970	4	209717	05:16:00	05:16:00		Hetmańska podzamcze 01 nż
+1970	4	209717	05:18:00	05:18:00		Lisa-Kuli 02
+1970	4	209717	05:19:00	05:19:00		Cieplińskiego 01
+1970	4	209717	05:21:00	05:21:00		Marszałkowska 02
+1970	4	209717	05:22:00	05:22:00		Lubelska szpital 02
+1970	4	209717	05:24:00	05:24:00		Wyzwolenia / Lubelska 02 nż
+1970	4	209717	05:25:00	05:25:00		Wyzwolenia WORD 04 nż
+1970	4	209717	05:25:00	05:25:00		Wyzwolenia / Przy Torze 06 nż
+1970	4	209717	05:26:00	05:26:00		Wyzwolenia / Iranka-Osmeckiego 08
+1970	4	209717	05:27:00	05:27:00		Wyzwolenia / Brydaka 10
+1970	4	209717	05:28:00	05:28:00		Wyzwolenia / Obr. Poczty Gdańskiej 12
+1970	4	209717	05:29:00	05:29:00		Wyzwolenia / Krakowska 14 nż
+1970	4	209717	05:31:00	05:31:00		Krakowska cmentarz 10 nż
+1970	4	209717	05:33:00	05:33:00		Krakowska / Ceramiczna 12
+1970	4	209717	05:34:00	05:34:00		Krakowska / Dworzysko 14 nż
+1970	4	209717	05:37:00	05:37:00		Chmury 02 nż
+1970	4	209717	05:39:00	05:39:00		Inwestycyjna 02 nż
+1970	4	209717	05:41:00	05:41:00		Technologiczna / Kapitałowa 02 nż
+1970	4	209717	05:42:00	05:42:00		Biznesowa / Kapitałowa 02 nż
+1970	4	209717	05:43:00	05:43:00		Biznesowa / Innowacyjna 04 nż
+1970	4	209717	05:44:00	05:44:00		Biznesowa 06
+
+1859	4	213370	06:08:00	06:08:00		Biznesowa 06
+1859	4	213370	06:09:00	06:09:00		Biznesowa / Innowacyjna 03 nż
+1859	4	213370	06:10:00	06:10:00		Biznesowa / Kapitałowa 01 nż
+1859	4	213370	06:11:00	06:11:00		Technologiczna / Kapitałowa 01 nż
+1859	4	213370	06:13:00	06:13:00		Inwestycyjna 01 nż
+1859	4	213370	06:15:00	06:15:00		Chmury 01 nż
+1859	4	213370	06:18:00	06:18:00		Krakowska / Dworzysko 13 nż
+1859	4	213370	06:20:00	06:20:00		Krakowska / Ustrzycka 11
+1859	4	213370	06:21:00	06:21:00		Krakowska cmentarz 09 nż
+1859	4	213370	06:23:00	06:23:00		Wyzwolenia / Mikołajczyka 11 nż
+1859	4	213370	06:25:00	06:25:00		Wyzwolenia / Ofiar Katynia 09
+1859	4	213370	06:26:00	06:26:00		Wyzwolenia kościół 07
+1859	4	213370	06:28:00	06:28:00		Wyzwolenia / Okulickiego 05 nż
+1859	4	213370	06:29:00	06:29:00		Wyzwolenia / Ujejskiego 03 nż
+1859	4	213370	06:30:00	06:30:00		Wyzwolenia / Warszawska 01 nż
+1859	4	213370	06:32:00	06:32:00		Lubelska szpital 01
+1859	4	213370	06:35:00	06:35:00		Marszałkowska 01
+1859	4	213370	06:39:00	06:39:00		Cieplińskiego 02
+1859	4	213370	06:40:00	06:40:00		Lisa-Kuli 01
+1859	4	213370	06:43:00	06:43:00		Hetmańska podzamcze 02 nż
+1859	4	213370	06:44:00	06:44:00		Hetmańska przychodnia 04
+1859	4	213370	06:45:00	06:45:00		Hetmańska ZS. Mech. 06
+1859	4	213370	06:48:00	06:48:00		Powst. Warszawy stadion 06
+1859	4	213370	06:51:00	06:51:00		Podwisłocze / Powst. Warszawy 02
+1859	4	213370	06:52:00	06:52:00		Podwisłocze / Seniora 04
+1859	4	213370	06:55:00	06:55:00		Kopisto U. Skarbowy 03
+1859	4	213370	06:56:00	06:56:00		Kopisto uniwersytet 01
+1859	4	213370	06:58:00	06:58:00		Niepodległości / Rejtana 02
+1859	4	213370	06:59:00	06:59:00		Niepodległości dom dziecka 04 nż
+1859	4	213370	07:00:00	07:00:00		Niepodległości działki 06 nż
+1859	4	213370	07:03:00	07:03:00		Armii Krajowej szpital 10 nż
+1859	4	213370	07:06:00	07:06:00		Lwowska szpital 06
+1859	4	213370	07:08:00	07:08:00		Cienista / Lwowska 02 nż
+1859	4	213370	07:09:00	07:09:00		Cienista cmentarz 04
+
+1902	4	212325	07:16:00	07:16:00		Cienista cmentarz 01
+1902	4	212325	07:17:00	07:17:00		Lwowska / Cienista 07 nż
+1902	4	212325	07:21:00	07:21:00		Lwowska szpital 05
+1902	4	212325	07:26:00	07:26:00		Armii Krajowej kościół 09 nż
+1902	4	212325	07:27:00	07:27:00		Niepodległości / Armii Krajowej 05
+1902	4	212325	07:28:00	07:28:00		Niepodległości / Mieszka I 03 nż
+1902	4	212325	07:29:00	07:29:00		Niepodległości dom dziecka 01 nż
+1902	4	212325	07:31:00	07:31:00		Kopisto uniwersytet 02
+1902	4	212325	07:35:00	07:35:00		Podwisłocze U. Skarbowy 03
+1902	4	212325	07:36:00	07:36:00		Podwisłocze domki 01
+1902	4	212325	07:38:00	07:38:00		Powst. Warszawy / Podwisłocze 07 nż
+1902	4	212325	07:39:00	07:39:00		Powst. Warszawy stadion 05 nż
+1902	4	212325	07:40:00	07:40:00		Hetmańska stadion 07
+1902	4	212325	07:41:00	07:41:00		Hetmańska ZS. Mech. 05
+1902	4	212325	07:42:00	07:42:00		Hetmańska przychodnia 03
+1902	4	212325	07:43:00	07:43:00		Hetmańska podzamcze 01 nż
+1902	4	212325	07:47:00	07:47:00		Lisa-Kuli 02
+1902	4	212325	07:48:00	07:48:00		Cieplińskiego 01
+1902	4	212325	07:51:00	07:51:00		Marszałkowska 02
+1902	4	212325	07:52:00	07:52:00		Lubelska szpital 02
+1902	4	212325	07:54:00	07:54:00		Wyzwolenia / Lubelska 02 nż
+1902	4	212325	07:55:00	07:55:00		Wyzwolenia WORD 04 nż
+1902	4	212325	07:56:00	07:56:00		Wyzwolenia / Przy Torze 06 nż
+1902	4	212325	07:57:00	07:57:00		Wyzwolenia / Iranka-Osmeckiego 08
+1902	4	212325	07:58:00	07:58:00		Wyzwolenia / Brydaka 10
+1902	4	212325	07:59:00	07:59:00		Wyzwolenia / Obr. Poczty Gdańskiej 12
+1902	4	212325	08:00:00	08:00:00		Wyzwolenia / Krakowska 14 nż
+1902	4	212325	08:02:00	08:02:00		Krakowska cmentarz 10 nż
+1902	4	212325	08:04:00	08:04:00		Krakowska / Ceramiczna 12
+1902	4	212325	08:05:00	08:05:00		Krakowska / Dworzysko 14 nż
+1902	4	212325	08:07:00	08:07:00		Krakowska granica 16 nż
+1902	4	212325	08:09:00	08:09:00		Krakowska granica 15 nż
+
+1936	4	215037	08:36:00	08:36:00		Krakowska granica 15 nż
+1936	4	215037	08:37:00	08:37:00		Krakowska / Dworzysko 13 nż
+1936	4	215037	08:39:00	08:39:00		Krakowska / Ustrzycka 11
+1936	4	215037	08:40:00	08:40:00		Krakowska cmentarz 09 nż
+1936	4	215037	08:42:00	08:42:00		Wyzwolenia / Mikołajczyka 11 nż
+1936	4	215037	08:43:00	08:43:00		Wyzwolenia / Ofiar Katynia 09
+1936	4	215037	08:44:00	08:44:00		Wyzwolenia kościół 07
+1936	4	215037	08:45:00	08:45:00		Wyzwolenia / Okulickiego 05 nż
+1936	4	215037	08:46:00	08:46:00		Wyzwolenia / Ujejskiego 03 nż
+1936	4	215037	08:47:00	08:47:00		Wyzwolenia / Warszawska 01 nż
+
+1890	4	214878	13:48:00	13:48:00		Krakowska granica 15 nż
+1890	4	214878	13:49:00	13:49:00		Krakowska / Dworzysko 13 nż
+1890	4	214878	13:51:00	13:51:00		Krakowska / Ustrzycka 11
+1890	4	214878	13:52:00	13:52:00		Krakowska cmentarz 09 nż
+1890	4	214878	13:54:00	13:54:00		Wyzwolenia / Mikołajczyka 11 nż
+1890	4	214878	13:55:00	13:55:00		Wyzwolenia / Ofiar Katynia 09
+1890	4	214878	13:56:00	13:56:00		Wyzwolenia kościół 07
+1890	4	214878	13:57:00	13:57:00		Wyzwolenia / Okulickiego 05 nż
+1890	4	214878	13:58:00	13:58:00		Wyzwolenia / Ujejskiego 03 nż
+1890	4	214878	13:59:00	13:59:00		Wyzwolenia / Warszawska 01 nż
+1890	4	214878	14:01:00	14:01:00		Lubelska szpital 01
+1890	4	214878	14:04:00	14:04:00		Marszałkowska 01
+1890	4	214878	14:08:00	14:08:00		Cieplińskiego 02
+1890	4	214878	14:09:00	14:09:00		Lisa-Kuli 01
+1890	4	214878	14:13:00	14:13:00		Hetmańska podzamcze 02 nż
+1890	4	214878	14:14:00	14:14:00		Hetmańska przychodnia 04
+1890	4	214878	14:15:00	14:15:00		Hetmańska ZS. Mech. 06
+1890	4	214878	14:19:00	14:19:00		Powst. Warszawy stadion 06
+1890	4	214878	14:22:00	14:22:00		Podwisłocze / Powst. Warszawy 02
+1890	4	214878	14:23:00	14:23:00		Podwisłocze / Seniora 04
+1890	4	214878	14:25:00	14:25:00		Kopisto U. Skarbowy 03
+1890	4	214878	14:26:00	14:26:00		Kopisto uniwersytet 01
+1890	4	214878	14:28:00	14:28:00		Niepodległości / Rejtana 02
+1890	4	214878	14:29:00	14:29:00		Niepodległości dom dziecka 04 nż
+1890	4	214878	14:30:00	14:30:00		Niepodległości działki 06 nż
+1890	4	214878	14:34:00	14:34:00		Armii Krajowej szpital 10 nż
+1890	4	214878	14:37:00	14:37:00		Lwowska szpital 06
+1890	4	214878	14:39:00	14:39:00		Cienista / Lwowska 02 nż
+1890	4	214878	14:40:00	14:40:00		Cienista cmentarz 04
+
+1970	4	216174	15:14:00	15:14:00		Cienista cmentarz 01
+1970	4	216174	15:15:00	15:15:00		Lwowska / Cienista 07 nż
+1970	4	216174	15:17:00	15:17:00		Lwowska szpital 05
+1970	4	216174	15:20:00	15:20:00		Armii Krajowej kościół 09 nż
+1970	4	216174	15:22:00	15:22:00		Niepodległości / Armii Krajowej 05
+1970	4	216174	15:23:00	15:23:00		Niepodległości / Mieszka I 03 nż
+1970	4	216174	15:24:00	15:24:00		Niepodległości dom dziecka 01 nż
+1970	4	216174	15:26:00	15:26:00		Kopisto uniwersytet 02
+1970	4	216174	15:31:00	15:31:00		Podwisłocze U. Skarbowy 03
+1970	4	216174	15:32:00	15:32:00		Podwisłocze domki 01
+1970	4	216174	15:34:00	15:34:00		Powst. Warszawy / Podwisłocze 07 nż
+1970	4	216174	15:35:00	15:35:00		Powst. Warszawy stadion 05 nż
+1970	4	216174	15:36:00	15:36:00		Hetmańska stadion 07
+1970	4	216174	15:37:00	15:37:00		Hetmańska ZS. Mech. 05
+1970	4	216174	15:38:00	15:38:00		Hetmańska przychodnia 03
+1970	4	216174	15:39:00	15:39:00		Hetmańska podzamcze 01 nż
+1970	4	216174	15:44:00	15:44:00		Lisa-Kuli 02
+1970	4	216174	15:45:00	15:45:00		Cieplińskiego 01
+1970	4	216174	15:49:00	15:49:00		Marszałkowska 02
+1970	4	216174	15:50:00	15:50:00		Lubelska szpital 02
+1970	4	216174	15:53:00	15:53:00		Wyzwolenia / Lubelska 02 nż
+1970	4	216174	15:54:00	15:54:00		Wyzwolenia WORD 04 nż
+1970	4	216174	15:55:00	15:55:00		Wyzwolenia / Przy Torze 06 nż
+1970	4	216174	15:56:00	15:56:00		Wyzwolenia / Iranka-Osmeckiego 08
+1970	4	216174	15:57:00	15:57:00		Wyzwolenia / Brydaka 10
+1970	4	216174	15:59:00	15:59:00		Wyzwolenia / Obr. Poczty Gdańskiej 12
+1970	4	216174	16:00:00	16:00:00		Wyzwolenia / Krakowska 14 nż
+1970	4	216174	16:02:00	16:02:00		Krakowska cmentarz 10 nż
+1970	4	216174	16:04:00	16:04:00		Krakowska / Ceramiczna 12
+1970	4	216174	16:05:00	16:05:00		Krakowska / Dworzysko 14 nż
+1970	4	216174	16:07:00	16:07:00		Chmury 02 nż
+1970	4	216174	16:09:00	16:09:00		Inwestycyjna 02 nż
+1970	4	216174	16:11:00	16:11:00		Technologiczna / Kapitałowa 02 nż
+1970	4	216174	16:12:00	16:12:00		Biznesowa / Kapitałowa 02 nż
+1970	4	216174	16:13:00	16:13:00		Biznesowa / Innowacyjna 04 nż
+1970	4	216174	16:14:00	16:14:00		Biznesowa 06
+
+1859	4	213785	16:16:00	16:16:00		Biznesowa 06
+1859	4	213785	16:17:00	16:17:00		Biznesowa / Innowacyjna 03 nż
+1859	4	213785	16:18:00	16:18:00		Biznesowa / Kapitałowa 01 nż
+1859	4	213785	16:19:00	16:19:00		Technologiczna / Kapitałowa 01 nż
+1859	4	213785	16:21:00	16:21:00		Inwestycyjna 01 nż
+1859	4	213785	16:24:00	16:24:00		Chmury 01 nż
+1859	4	213785	16:31:00	16:31:00		Krakowska / Dworzysko 13 nż
+1859	4	213785	16:33:00	16:33:00		Krakowska / Ustrzycka 11
+1859	4	213785	16:34:00	16:34:00		Krakowska cmentarz 09 nż
+1859	4	213785	16:36:00	16:36:00		Wyzwolenia / Mikołajczyka 11 nż
+1859	4	213785	16:37:00	16:37:00		Wyzwolenia / Ofiar Katynia 09
+1859	4	213785	16:38:00	16:38:00		Wyzwolenia kościół 07
+1859	4	213785	16:39:00	16:39:00		Wyzwolenia / Okulickiego 05 nż
+1859	4	213785	16:40:00	16:40:00		Wyzwolenia / Ujejskiego 03 nż
+1859	4	213785	16:41:00	16:41:00		Wyzwolenia / Warszawska 01 nż
+1859	4	213785	16:43:00	16:43:00		Lubelska szpital 01
+1859	4	213785	16:45:00	16:45:00		Marszałkowska 01
+1859	4	213785	16:49:00	16:49:00		Cieplińskiego 02
+1859	4	213785	16:50:00	16:50:00		Lisa-Kuli 01
+1859	4	213785	16:53:00	16:53:00		Hetmańska podzamcze 02 nż
+1859	4	213785	16:54:00	16:54:00		Hetmańska przychodnia 04
+1859	4	213785	16:55:00	16:55:00		Hetmańska ZS. Mech. 06
+1859	4	213785	16:59:00	16:59:00		Powst. Warszawy stadion 06
+1859	4	213785	17:02:00	17:02:00		Podwisłocze / Powst. Warszawy 02
+1859	4	213785	17:03:00	17:03:00		Podwisłocze / Seniora 04
+1859	4	213785	17:05:00	17:05:00		Kopisto U. Skarbowy 03
+1859	4	213785	17:06:00	17:06:00		Kopisto uniwersytet 01
+1859	4	213785	17:08:00	17:08:00		Niepodległości / Rejtana 02
+1859	4	213785	17:09:00	17:09:00		Niepodległości dom dziecka 04 nż
+1859	4	213785	17:10:00	17:10:00		Niepodległości działki 06 nż
+1859	4	213785	17:13:00	17:13:00		Armii Krajowej szpital 10 nż
+1859	4	213785	17:15:00	17:15:00		Lwowska szpital 06
+1859	4	213785	17:17:00	17:17:00		Cienista / Lwowska 02 nż
+1859	4	213785	17:18:00	17:18:00		Cienista cmentarz 04

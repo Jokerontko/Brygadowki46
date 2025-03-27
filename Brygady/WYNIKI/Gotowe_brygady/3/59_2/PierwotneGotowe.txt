@@ -1,0 +1,494 @@
+route_id	service_id	trip_id	arrival_time	departure_time	stop_headsign	stop_name
+-------------------------------------------------------------------------------
+1839	3	212733	05:30:00	05:30:00		Trembeckiego ZTM pętla 01
+1839	3	212733	05:31:00	05:31:00		Trembeckiego / Siemieńskiego 04 nż
+1839	3	212733	05:32:00	05:32:00		Siemieńskiego U. Skarbowy 03 nż
+1839	3	212733	05:33:00	05:33:00		Siemieńskiego dom studenta 01 nż
+1839	3	212733	05:34:00	05:34:00		Żółkiewskiego / Kochanowskiego 01 nż
+1839	3	212733	05:36:00	05:36:00		Bardowskiego 02
+1839	3	212733	05:37:00	05:37:00		Pl. Wolności 04
+1839	3	212733	05:38:00	05:38:00		Piłsudskiego U. Wojewódzki 06
+1839	3	212733	05:40:00	05:40:00		Cieplińskiego 02
+1839	3	212733	05:41:00	05:41:00		Lisa-Kuli 01
+1839	3	212733	05:43:00	05:43:00		Dąbrowskiego park 02 nż
+1839	3	212733	05:44:00	05:44:00		Dąbrowskiego KW. Policji 04
+1839	3	212733	05:45:00	05:45:00		Dąbrowskiego / Bat. Chłopskich 10
+1839	3	212733	05:48:00	05:48:00		Podkarpacka politechnika 02
+1839	3	212733	05:49:00	05:49:00		Podkarpacka / Matuszczaka 04
+1839	3	212733	05:50:00	05:50:00		Podkarpacka / Wetlińska 06 nż
+1839	3	212733	05:53:00	05:53:00		Zawiszy Czarnego 03 nż
+1839	3	212733	05:54:00	05:54:00		Zawiszy Czarnego / Podgórska 01 nż
+1839	3	212733	05:55:00	05:55:00		Architektów 01
+1839	3	212733	05:57:00	05:57:00		Przemysłowa U. Celny 05 nż
+
+1941	3	209347	06:10:00	06:10:00		Przemysłowa U. Celny 05 nż
+1941	3	209347	06:12:00	06:12:00		Architektów 02
+1941	3	209347	06:14:00	06:14:00		Zawiszy Czarnego / Podgórska 02 nż
+1941	3	209347	06:15:00	06:15:00		Zawiszy Czarnego 04 nż
+1941	3	209347	06:16:00	06:16:00		Żołnierzy 9 DP 01 nż
+1941	3	209347	06:18:00	06:18:00		Podkarpacka / Wetlińska 05 nż
+1941	3	209347	06:19:00	06:19:00		Podkarpacka / Matuszczaka 03
+1941	3	209347	06:21:00	06:21:00		Podkarpacka politechnika 01
+1941	3	209347	06:23:00	06:23:00		Dąbrowskiego / Chrobrego 07
+1941	3	209347	06:24:00	06:24:00		Dąbrowskiego KW. Policji 03
+1941	3	209347	06:25:00	06:25:00		Dąbrowskiego park 01 nż
+1941	3	209347	06:29:00	06:29:00		Lisa-Kuli 02
+1941	3	209347	06:30:00	06:30:00		Cieplińskiego 01
+1941	3	209347	06:31:00	06:31:00		Piłsudskiego U. Wojewódzki 05
+1941	3	209347	06:34:00	06:34:00		Bardowskiego 03
+1941	3	209347	06:36:00	06:36:00		Siemieńskiego / Kochanowskiego 02 nż
+1941	3	209347	06:37:00	06:37:00		Siemieńskiego U. Skarbowy 04 nż
+1941	3	209347	06:38:00	06:38:00		Trembeckiego / Siemieńskiego 07 nż
+1941	3	209347	06:39:00	06:39:00		Trembeckiego ZTM pętla 01
+
+1839	3	213567	07:00:00	07:00:00		Trembeckiego ZTM pętla 01
+1839	3	213567	07:01:00	07:01:00		Trembeckiego / Siemieńskiego 04 nż
+1839	3	213567	07:02:00	07:02:00		Siemieńskiego U. Skarbowy 03 nż
+1839	3	213567	07:03:00	07:03:00		Siemieńskiego dom studenta 01 nż
+1839	3	213567	07:04:00	07:04:00		Żółkiewskiego / Kochanowskiego 01 nż
+1839	3	213567	07:06:00	07:06:00		Bardowskiego 02
+1839	3	213567	07:08:00	07:08:00		Pl. Wolności 04
+1839	3	213567	07:09:00	07:09:00		Piłsudskiego U. Wojewódzki 06
+1839	3	213567	07:11:00	07:11:00		Cieplińskiego 02
+1839	3	213567	07:12:00	07:12:00		Lisa-Kuli 01
+1839	3	213567	07:14:00	07:14:00		Dąbrowskiego park 02 nż
+1839	3	213567	07:15:00	07:15:00		Dąbrowskiego KW. Policji 04
+1839	3	213567	07:16:00	07:16:00		Dąbrowskiego / Bat. Chłopskich 10
+1839	3	213567	07:20:00	07:20:00		Podkarpacka politechnika 02
+1839	3	213567	07:21:00	07:21:00		Podkarpacka / Matuszczaka 04
+1839	3	213567	07:22:00	07:22:00		Podkarpacka / Wetlińska 06 nż
+1839	3	213567	07:25:00	07:25:00		Zawiszy Czarnego 03 nż
+1839	3	213567	07:26:00	07:26:00		Zawiszy Czarnego / Podgórska 01 nż
+1839	3	213567	07:27:00	07:27:00		Architektów 01
+1839	3	213567	07:30:00	07:30:00		Przemysłowa U. Celny 05 nż
+
+1941	3	208808	07:40:00	07:40:00		Przemysłowa U. Celny 05 nż
+1941	3	208808	07:42:00	07:42:00		Architektów 02
+1941	3	208808	07:44:00	07:44:00		Zawiszy Czarnego / Podgórska 02 nż
+1941	3	208808	07:45:00	07:45:00		Zawiszy Czarnego 04 nż
+1941	3	208808	07:46:00	07:46:00		Żołnierzy 9 DP 01 nż
+1941	3	208808	07:48:00	07:48:00		Podkarpacka / Wetlińska 05 nż
+1941	3	208808	07:49:00	07:49:00		Podkarpacka / Matuszczaka 03
+1941	3	208808	07:51:00	07:51:00		Podkarpacka politechnika 01
+1941	3	208808	07:53:00	07:53:00		Dąbrowskiego / Chrobrego 07
+1941	3	208808	07:54:00	07:54:00		Dąbrowskiego KW. Policji 03
+1941	3	208808	07:55:00	07:55:00		Dąbrowskiego park 01 nż
+1941	3	208808	07:59:00	07:59:00		Lisa-Kuli 02
+1941	3	208808	08:00:00	08:00:00		Cieplińskiego 01
+1941	3	208808	08:01:00	08:01:00		Piłsudskiego U. Wojewódzki 05
+1941	3	208808	08:04:00	08:04:00		Bardowskiego 03
+1941	3	208808	08:06:00	08:06:00		Siemieńskiego / Kochanowskiego 02 nż
+1941	3	208808	08:07:00	08:07:00		Siemieńskiego U. Skarbowy 04 nż
+1941	3	208808	08:08:00	08:08:00		Trembeckiego / Siemieńskiego 07 nż
+1941	3	208808	08:09:00	08:09:00		Trembeckiego ZTM pętla 01
+
+1839	3	209940	08:30:00	08:30:00		Trembeckiego ZTM pętla 01
+1839	3	209940	08:31:00	08:31:00		Trembeckiego / Siemieńskiego 04 nż
+1839	3	209940	08:32:00	08:32:00		Siemieńskiego U. Skarbowy 03 nż
+1839	3	209940	08:33:00	08:33:00		Siemieńskiego dom studenta 01 nż
+1839	3	209940	08:34:00	08:34:00		Żółkiewskiego / Kochanowskiego 01 nż
+1839	3	209940	08:36:00	08:36:00		Bardowskiego 02
+1839	3	209940	08:38:00	08:38:00		Pl. Wolności 04
+1839	3	209940	08:39:00	08:39:00		Piłsudskiego U. Wojewódzki 06
+1839	3	209940	08:41:00	08:41:00		Cieplińskiego 02
+1839	3	209940	08:42:00	08:42:00		Lisa-Kuli 01
+1839	3	209940	08:44:00	08:44:00		Dąbrowskiego park 02 nż
+1839	3	209940	08:45:00	08:45:00		Dąbrowskiego KW. Policji 04
+1839	3	209940	08:46:00	08:46:00		Dąbrowskiego / Bat. Chłopskich 10
+1839	3	209940	08:50:00	08:50:00		Podkarpacka politechnika 02
+1839	3	209940	08:51:00	08:51:00		Podkarpacka / Matuszczaka 04
+1839	3	209940	08:52:00	08:52:00		Podkarpacka / Wetlińska 06 nż
+1839	3	209940	08:55:00	08:55:00		Zawiszy Czarnego 03 nż
+1839	3	209940	08:56:00	08:56:00		Zawiszy Czarnego / Podgórska 01 nż
+1839	3	209940	08:57:00	08:57:00		Architektów 01
+1839	3	209940	08:59:00	08:59:00		Przemysłowa U. Celny 05 nż
+
+1941	3	213988	09:10:00	09:10:00		Przemysłowa U. Celny 05 nż
+1941	3	213988	09:12:00	09:12:00		Architektów 02
+1941	3	213988	09:14:00	09:14:00		Zawiszy Czarnego / Podgórska 02 nż
+1941	3	213988	09:15:00	09:15:00		Zawiszy Czarnego 04 nż
+1941	3	213988	09:16:00	09:16:00		Żołnierzy 9 DP 01 nż
+1941	3	213988	09:18:00	09:18:00		Podkarpacka / Wetlińska 05 nż
+1941	3	213988	09:19:00	09:19:00		Podkarpacka / Matuszczaka 03
+1941	3	213988	09:21:00	09:21:00		Podkarpacka politechnika 01
+1941	3	213988	09:23:00	09:23:00		Dąbrowskiego / Chrobrego 07
+1941	3	213988	09:24:00	09:24:00		Dąbrowskiego KW. Policji 03
+1941	3	213988	09:25:00	09:25:00		Dąbrowskiego park 01 nż
+1941	3	213988	09:29:00	09:29:00		Lisa-Kuli 02
+1941	3	213988	09:30:00	09:30:00		Cieplińskiego 01
+1941	3	213988	09:32:00	09:32:00		Piłsudskiego U. Wojewódzki 05
+1941	3	213988	09:35:00	09:35:00		Bardowskiego 03
+1941	3	213988	09:37:00	09:37:00		Siemieńskiego / Kochanowskiego 02 nż
+1941	3	213988	09:38:00	09:38:00		Siemieńskiego U. Skarbowy 04 nż
+1941	3	213988	09:39:00	09:39:00		Trembeckiego / Siemieńskiego 07 nż
+1941	3	213988	09:40:00	09:40:00		Trembeckiego ZTM pętla 01
+
+1839	3	208700	10:00:00	10:00:00		Trembeckiego ZTM pętla 01
+1839	3	208700	10:01:00	10:01:00		Trembeckiego / Siemieńskiego 04 nż
+1839	3	208700	10:02:00	10:02:00		Siemieńskiego U. Skarbowy 03 nż
+1839	3	208700	10:03:00	10:03:00		Siemieńskiego dom studenta 01 nż
+1839	3	208700	10:04:00	10:04:00		Żółkiewskiego / Kochanowskiego 01 nż
+1839	3	208700	10:06:00	10:06:00		Bardowskiego 02
+1839	3	208700	10:08:00	10:08:00		Pl. Wolności 04
+1839	3	208700	10:09:00	10:09:00		Piłsudskiego U. Wojewódzki 06
+1839	3	208700	10:11:00	10:11:00		Cieplińskiego 02
+1839	3	208700	10:12:00	10:12:00		Lisa-Kuli 01
+1839	3	208700	10:14:00	10:14:00		Dąbrowskiego park 02 nż
+1839	3	208700	10:15:00	10:15:00		Dąbrowskiego KW. Policji 04
+1839	3	208700	10:16:00	10:16:00		Dąbrowskiego / Bat. Chłopskich 10
+1839	3	208700	10:20:00	10:20:00		Podkarpacka politechnika 02
+1839	3	208700	10:21:00	10:21:00		Podkarpacka / Matuszczaka 04
+1839	3	208700	10:22:00	10:22:00		Podkarpacka / Wetlińska 06 nż
+1839	3	208700	10:25:00	10:25:00		Zawiszy Czarnego 03 nż
+1839	3	208700	10:26:00	10:26:00		Zawiszy Czarnego / Podgórska 01 nż
+1839	3	208700	10:27:00	10:27:00		Architektów 01
+1839	3	208700	10:29:00	10:29:00		Przemysłowa U. Celny 05 nż
+
+1941	3	212171	10:40:00	10:40:00		Przemysłowa U. Celny 05 nż
+1941	3	212171	10:42:00	10:42:00		Architektów 02
+1941	3	212171	10:44:00	10:44:00		Zawiszy Czarnego / Podgórska 02 nż
+1941	3	212171	10:45:00	10:45:00		Zawiszy Czarnego 04 nż
+1941	3	212171	10:46:00	10:46:00		Żołnierzy 9 DP 01 nż
+1941	3	212171	10:48:00	10:48:00		Podkarpacka / Wetlińska 05 nż
+1941	3	212171	10:49:00	10:49:00		Podkarpacka / Matuszczaka 03
+1941	3	212171	10:51:00	10:51:00		Podkarpacka politechnika 01
+1941	3	212171	10:53:00	10:53:00		Dąbrowskiego / Chrobrego 07
+1941	3	212171	10:54:00	10:54:00		Dąbrowskiego KW. Policji 03
+1941	3	212171	10:55:00	10:55:00		Dąbrowskiego park 01 nż
+1941	3	212171	10:59:00	10:59:00		Lisa-Kuli 02
+1941	3	212171	11:00:00	11:00:00		Cieplińskiego 01
+1941	3	212171	11:02:00	11:02:00		Piłsudskiego U. Wojewódzki 05
+1941	3	212171	11:05:00	11:05:00		Bardowskiego 03
+1941	3	212171	11:07:00	11:07:00		Siemieńskiego / Kochanowskiego 02 nż
+1941	3	212171	11:08:00	11:08:00		Siemieńskiego U. Skarbowy 04 nż
+1941	3	212171	11:09:00	11:09:00		Trembeckiego / Siemieńskiego 07 nż
+1941	3	212171	11:10:00	11:10:00		Trembeckiego ZTM pętla 01
+
+1839	3	209712	12:00:00	12:00:00		Trembeckiego ZTM pętla 01
+1839	3	209712	12:01:00	12:01:00		Trembeckiego / Siemieńskiego 04 nż
+1839	3	209712	12:02:00	12:02:00		Siemieńskiego U. Skarbowy 03 nż
+1839	3	209712	12:03:00	12:03:00		Siemieńskiego dom studenta 01 nż
+1839	3	209712	12:04:00	12:04:00		Żółkiewskiego / Kochanowskiego 01 nż
+1839	3	209712	12:06:00	12:06:00		Bardowskiego 02
+1839	3	209712	12:08:00	12:08:00		Pl. Wolności 04
+1839	3	209712	12:09:00	12:09:00		Piłsudskiego U. Wojewódzki 06
+1839	3	209712	12:11:00	12:11:00		Cieplińskiego 02
+1839	3	209712	12:12:00	12:12:00		Lisa-Kuli 01
+1839	3	209712	12:15:00	12:15:00		Dąbrowskiego park 02 nż
+1839	3	209712	12:16:00	12:16:00		Dąbrowskiego KW. Policji 04
+1839	3	209712	12:17:00	12:17:00		Dąbrowskiego / Bat. Chłopskich 10
+1839	3	209712	12:21:00	12:21:00		Podkarpacka politechnika 02
+1839	3	209712	12:22:00	12:22:00		Podkarpacka / Matuszczaka 04
+1839	3	209712	12:23:00	12:23:00		Podkarpacka / Wetlińska 06 nż
+1839	3	209712	12:26:00	12:26:00		Zawiszy Czarnego 03 nż
+1839	3	209712	12:27:00	12:27:00		Zawiszy Czarnego / Podgórska 01 nż
+1839	3	209712	12:28:00	12:28:00		Architektów 01
+1839	3	209712	12:30:00	12:30:00		Przemysłowa U. Celny 05 nż
+
+1941	3	212707	12:40:00	12:40:00		Przemysłowa U. Celny 05 nż
+1941	3	212707	12:42:00	12:42:00		Architektów 02
+1941	3	212707	12:44:00	12:44:00		Zawiszy Czarnego / Podgórska 02 nż
+1941	3	212707	12:45:00	12:45:00		Zawiszy Czarnego 04 nż
+1941	3	212707	12:46:00	12:46:00		Żołnierzy 9 DP 01 nż
+1941	3	212707	12:48:00	12:48:00		Podkarpacka / Wetlińska 05 nż
+1941	3	212707	12:49:00	12:49:00		Podkarpacka / Matuszczaka 03
+1941	3	212707	12:51:00	12:51:00		Podkarpacka politechnika 01
+1941	3	212707	12:53:00	12:53:00		Dąbrowskiego / Chrobrego 07
+1941	3	212707	12:54:00	12:54:00		Dąbrowskiego KW. Policji 03
+1941	3	212707	12:55:00	12:55:00		Dąbrowskiego park 01 nż
+1941	3	212707	12:59:00	12:59:00		Lisa-Kuli 02
+1941	3	212707	13:00:00	13:00:00		Cieplińskiego 01
+1941	3	212707	13:02:00	13:02:00		Piłsudskiego U. Wojewódzki 05
+1941	3	212707	13:05:00	13:05:00		Bardowskiego 03
+1941	3	212707	13:07:00	13:07:00		Siemieńskiego / Kochanowskiego 02 nż
+1941	3	212707	13:08:00	13:08:00		Siemieńskiego U. Skarbowy 04 nż
+1941	3	212707	13:09:00	13:09:00		Trembeckiego / Siemieńskiego 07 nż
+1941	3	212707	13:10:00	13:10:00		Trembeckiego ZTM pętla 01
+
+1839	3	210501	13:30:00	13:30:00		Trembeckiego ZTM pętla 01
+1839	3	210501	13:31:00	13:31:00		Trembeckiego / Siemieńskiego 04 nż
+1839	3	210501	13:32:00	13:32:00		Siemieńskiego U. Skarbowy 03 nż
+1839	3	210501	13:33:00	13:33:00		Siemieńskiego dom studenta 01 nż
+1839	3	210501	13:34:00	13:34:00		Żółkiewskiego / Kochanowskiego 01 nż
+1839	3	210501	13:36:00	13:36:00		Bardowskiego 02
+1839	3	210501	13:38:00	13:38:00		Pl. Wolności 04
+1839	3	210501	13:39:00	13:39:00		Piłsudskiego U. Wojewódzki 06
+1839	3	210501	13:41:00	13:41:00		Cieplińskiego 02
+1839	3	210501	13:42:00	13:42:00		Lisa-Kuli 01
+1839	3	210501	13:45:00	13:45:00		Dąbrowskiego park 02 nż
+1839	3	210501	13:46:00	13:46:00		Dąbrowskiego KW. Policji 04
+1839	3	210501	13:47:00	13:47:00		Dąbrowskiego / Bat. Chłopskich 10
+1839	3	210501	13:51:00	13:51:00		Podkarpacka politechnika 02
+1839	3	210501	13:52:00	13:52:00		Podkarpacka / Matuszczaka 04
+1839	3	210501	13:53:00	13:53:00		Podkarpacka / Wetlińska 06 nż
+1839	3	210501	13:56:00	13:56:00		Zawiszy Czarnego 03 nż
+1839	3	210501	13:57:00	13:57:00		Zawiszy Czarnego / Podgórska 01 nż
+1839	3	210501	13:58:00	13:58:00		Architektów 01
+1839	3	210501	14:00:00	14:00:00		Przemysłowa U. Celny 05 nż
+
+1941	3	213243	14:10:00	14:10:00		Przemysłowa U. Celny 05 nż
+1941	3	213243	14:12:00	14:12:00		Architektów 02
+1941	3	213243	14:14:00	14:14:00		Zawiszy Czarnego / Podgórska 02 nż
+1941	3	213243	14:15:00	14:15:00		Zawiszy Czarnego 04 nż
+1941	3	213243	14:16:00	14:16:00		Żołnierzy 9 DP 01 nż
+1941	3	213243	14:18:00	14:18:00		Podkarpacka / Wetlińska 05 nż
+1941	3	213243	14:19:00	14:19:00		Podkarpacka / Matuszczaka 03
+1941	3	213243	14:21:00	14:21:00		Podkarpacka politechnika 01
+1941	3	213243	14:23:00	14:23:00		Dąbrowskiego / Chrobrego 07
+1941	3	213243	14:24:00	14:24:00		Dąbrowskiego KW. Policji 03
+1941	3	213243	14:25:00	14:25:00		Dąbrowskiego park 01 nż
+1941	3	213243	14:29:00	14:29:00		Lisa-Kuli 02
+1941	3	213243	14:30:00	14:30:00		Cieplińskiego 01
+1941	3	213243	14:32:00	14:32:00		Piłsudskiego U. Wojewódzki 05
+1941	3	213243	14:36:00	14:36:00		Bardowskiego 03
+1941	3	213243	14:38:00	14:38:00		Siemieńskiego / Kochanowskiego 02 nż
+1941	3	213243	14:39:00	14:39:00		Siemieńskiego U. Skarbowy 04 nż
+1941	3	213243	14:40:00	14:40:00		Trembeckiego / Siemieńskiego 07 nż
+1941	3	213243	14:41:00	14:41:00		Trembeckiego ZTM pętla 01
+
+1839	3	214673	15:00:00	15:00:00		Trembeckiego ZTM pętla 01
+1839	3	214673	15:01:00	15:01:00		Trembeckiego / Siemieńskiego 04 nż
+1839	3	214673	15:02:00	15:02:00		Siemieńskiego U. Skarbowy 03 nż
+1839	3	214673	15:03:00	15:03:00		Siemieńskiego dom studenta 01 nż
+1839	3	214673	15:04:00	15:04:00		Żółkiewskiego / Kochanowskiego 01 nż
+1839	3	214673	15:06:00	15:06:00		Bardowskiego 02
+1839	3	214673	15:09:00	15:09:00		Pl. Wolności 04
+1839	3	214673	15:12:00	15:12:00		Piłsudskiego U. Wojewódzki 06
+1839	3	214673	15:15:00	15:15:00		Cieplińskiego 02
+1839	3	214673	15:16:00	15:16:00		Lisa-Kuli 01
+1839	3	214673	15:20:00	15:20:00		Dąbrowskiego park 02 nż
+1839	3	214673	15:21:00	15:21:00		Dąbrowskiego KW. Policji 04
+1839	3	214673	15:22:00	15:22:00		Dąbrowskiego / Bat. Chłopskich 10
+1839	3	214673	15:26:00	15:26:00		Podkarpacka politechnika 02
+1839	3	214673	15:27:00	15:27:00		Podkarpacka / Matuszczaka 04
+1839	3	214673	15:28:00	15:28:00		Podkarpacka / Wetlińska 06 nż
+1839	3	214673	15:31:00	15:31:00		Zawiszy Czarnego 03 nż
+1839	3	214673	15:32:00	15:32:00		Zawiszy Czarnego / Podgórska 01 nż
+1839	3	214673	15:33:00	15:33:00		Architektów 01
+1839	3	214673	15:36:00	15:36:00		Przemysłowa U. Celny 05 nż
+
+1941	3	215769	15:40:00	15:40:00		Przemysłowa U. Celny 05 nż
+1941	3	215769	15:42:00	15:42:00		Architektów 02
+1941	3	215769	15:44:00	15:44:00		Zawiszy Czarnego / Podgórska 02 nż
+1941	3	215769	15:45:00	15:45:00		Zawiszy Czarnego 04 nż
+1941	3	215769	15:46:00	15:46:00		Żołnierzy 9 DP 01 nż
+1941	3	215769	15:48:00	15:48:00		Podkarpacka / Wetlińska 05 nż
+1941	3	215769	15:49:00	15:49:00		Podkarpacka / Matuszczaka 03
+1941	3	215769	15:51:00	15:51:00		Podkarpacka politechnika 01
+1941	3	215769	15:54:00	15:54:00		Dąbrowskiego / Chrobrego 07
+1941	3	215769	15:55:00	15:55:00		Dąbrowskiego KW. Policji 03
+1941	3	215769	15:56:00	15:56:00		Dąbrowskiego park 01 nż
+1941	3	215769	16:02:00	16:02:00		Lisa-Kuli 02
+1941	3	215769	16:03:00	16:03:00		Cieplińskiego 01
+1941	3	215769	16:05:00	16:05:00		Piłsudskiego U. Wojewódzki 05
+1941	3	215769	16:09:00	16:09:00		Bardowskiego 03
+1941	3	215769	16:11:00	16:11:00		Siemieńskiego / Kochanowskiego 02 nż
+1941	3	215769	16:12:00	16:12:00		Siemieńskiego U. Skarbowy 04 nż
+1941	3	215769	16:13:00	16:13:00		Trembeckiego / Siemieńskiego 07 nż
+1941	3	215769	16:14:00	16:14:00		Trembeckiego ZTM pętla 01
+
+1839	3	214522	16:30:00	16:30:00		Trembeckiego ZTM pętla 01
+1839	3	214522	16:31:00	16:31:00		Trembeckiego / Siemieńskiego 04 nż
+1839	3	214522	16:32:00	16:32:00		Siemieńskiego U. Skarbowy 03 nż
+1839	3	214522	16:33:00	16:33:00		Siemieńskiego dom studenta 01 nż
+1839	3	214522	16:34:00	16:34:00		Żółkiewskiego / Kochanowskiego 01 nż
+1839	3	214522	16:36:00	16:36:00		Bardowskiego 02
+1839	3	214522	16:38:00	16:38:00		Pl. Wolności 04
+1839	3	214522	16:39:00	16:39:00		Piłsudskiego U. Wojewódzki 06
+1839	3	214522	16:42:00	16:42:00		Cieplińskiego 02
+1839	3	214522	16:43:00	16:43:00		Lisa-Kuli 01
+1839	3	214522	16:46:00	16:46:00		Dąbrowskiego park 02 nż
+1839	3	214522	16:47:00	16:47:00		Dąbrowskiego KW. Policji 04
+1839	3	214522	16:48:00	16:48:00		Dąbrowskiego / Bat. Chłopskich 10
+1839	3	214522	16:52:00	16:52:00		Podkarpacka politechnika 02
+1839	3	214522	16:53:00	16:53:00		Podkarpacka / Matuszczaka 04
+1839	3	214522	16:54:00	16:54:00		Podkarpacka / Wetlińska 06 nż
+1839	3	214522	16:57:00	16:57:00		Zawiszy Czarnego 03 nż
+1839	3	214522	16:58:00	16:58:00		Zawiszy Czarnego / Podgórska 01 nż
+1839	3	214522	16:59:00	16:59:00		Architektów 01
+1839	3	214522	17:02:00	17:02:00		Przemysłowa U. Celny 05 nż
+
+1941	3	215530	17:10:00	17:10:00		Przemysłowa U. Celny 05 nż
+1941	3	215530	17:12:00	17:12:00		Architektów 02
+1941	3	215530	17:14:00	17:14:00		Zawiszy Czarnego / Podgórska 02 nż
+1941	3	215530	17:15:00	17:15:00		Zawiszy Czarnego 04 nż
+1941	3	215530	17:16:00	17:16:00		Żołnierzy 9 DP 01 nż
+1941	3	215530	17:18:00	17:18:00		Podkarpacka / Wetlińska 05 nż
+1941	3	215530	17:19:00	17:19:00		Podkarpacka / Matuszczaka 03
+1941	3	215530	17:21:00	17:21:00		Podkarpacka politechnika 01
+1941	3	215530	17:23:00	17:23:00		Dąbrowskiego / Chrobrego 07
+1941	3	215530	17:24:00	17:24:00		Dąbrowskiego KW. Policji 03
+1941	3	215530	17:25:00	17:25:00		Dąbrowskiego park 01 nż
+1941	3	215530	17:30:00	17:30:00		Lisa-Kuli 02
+1941	3	215530	17:31:00	17:31:00		Cieplińskiego 01
+1941	3	215530	17:32:00	17:32:00		Piłsudskiego U. Wojewódzki 05
+1941	3	215530	17:35:00	17:35:00		Bardowskiego 03
+1941	3	215530	17:37:00	17:37:00		Siemieńskiego / Kochanowskiego 02 nż
+1941	3	215530	17:38:00	17:38:00		Siemieńskiego U. Skarbowy 04 nż
+1941	3	215530	17:39:00	17:39:00		Trembeckiego / Siemieńskiego 07 nż
+1941	3	215530	17:40:00	17:40:00		Trembeckiego ZTM pętla 01
+
+1839	3	212693	18:00:00	18:00:00		Trembeckiego ZTM pętla 01
+1839	3	212693	18:01:00	18:01:00		Trembeckiego / Siemieńskiego 04 nż
+1839	3	212693	18:02:00	18:02:00		Siemieńskiego U. Skarbowy 03 nż
+1839	3	212693	18:03:00	18:03:00		Siemieńskiego dom studenta 01 nż
+1839	3	212693	18:04:00	18:04:00		Żółkiewskiego / Kochanowskiego 01 nż
+1839	3	212693	18:06:00	18:06:00		Bardowskiego 02
+1839	3	212693	18:08:00	18:08:00		Pl. Wolności 04
+1839	3	212693	18:09:00	18:09:00		Piłsudskiego U. Wojewódzki 06
+1839	3	212693	18:12:00	18:12:00		Cieplińskiego 02
+1839	3	212693	18:13:00	18:13:00		Lisa-Kuli 01
+1839	3	212693	18:16:00	18:16:00		Dąbrowskiego park 02 nż
+1839	3	212693	18:17:00	18:17:00		Dąbrowskiego KW. Policji 04
+1839	3	212693	18:18:00	18:18:00		Dąbrowskiego / Bat. Chłopskich 10
+1839	3	212693	18:22:00	18:22:00		Podkarpacka politechnika 02
+1839	3	212693	18:23:00	18:23:00		Podkarpacka / Matuszczaka 04
+1839	3	212693	18:24:00	18:24:00		Podkarpacka / Wetlińska 06 nż
+1839	3	212693	18:27:00	18:27:00		Zawiszy Czarnego 03 nż
+1839	3	212693	18:28:00	18:28:00		Zawiszy Czarnego / Podgórska 01 nż
+1839	3	212693	18:29:00	18:29:00		Architektów 01
+1839	3	212693	18:32:00	18:32:00		Przemysłowa U. Celny 05 nż
+
+1941	3	211151	18:40:00	18:40:00		Przemysłowa U. Celny 05 nż
+1941	3	211151	18:42:00	18:42:00		Architektów 02
+1941	3	211151	18:44:00	18:44:00		Zawiszy Czarnego / Podgórska 02 nż
+1941	3	211151	18:45:00	18:45:00		Zawiszy Czarnego 04 nż
+1941	3	211151	18:46:00	18:46:00		Żołnierzy 9 DP 01 nż
+1941	3	211151	18:48:00	18:48:00		Podkarpacka / Wetlińska 05 nż
+1941	3	211151	18:49:00	18:49:00		Podkarpacka / Matuszczaka 03
+1941	3	211151	18:51:00	18:51:00		Podkarpacka politechnika 01
+1941	3	211151	18:53:00	18:53:00		Dąbrowskiego / Chrobrego 07
+1941	3	211151	18:54:00	18:54:00		Dąbrowskiego KW. Policji 03
+1941	3	211151	18:55:00	18:55:00		Dąbrowskiego park 01 nż
+1941	3	211151	19:00:00	19:00:00		Lisa-Kuli 02
+1941	3	211151	19:01:00	19:01:00		Cieplińskiego 01
+1941	3	211151	19:02:00	19:02:00		Piłsudskiego U. Wojewódzki 05
+1941	3	211151	19:05:00	19:05:00		Bardowskiego 03
+1941	3	211151	19:07:00	19:07:00		Siemieńskiego / Kochanowskiego 02 nż
+1941	3	211151	19:08:00	19:08:00		Siemieńskiego U. Skarbowy 04 nż
+1941	3	211151	19:09:00	19:09:00		Trembeckiego / Siemieńskiego 07 nż
+1941	3	211151	19:10:00	19:10:00		Trembeckiego ZTM pętla 01
+
+1839	3	210785	19:30:00	19:30:00		Trembeckiego ZTM pętla 01
+1839	3	210785	19:31:00	19:31:00		Trembeckiego / Siemieńskiego 04 nż
+1839	3	210785	19:32:00	19:32:00		Siemieńskiego U. Skarbowy 03 nż
+1839	3	210785	19:33:00	19:33:00		Siemieńskiego dom studenta 01 nż
+1839	3	210785	19:34:00	19:34:00		Żółkiewskiego / Kochanowskiego 01 nż
+1839	3	210785	19:36:00	19:36:00		Bardowskiego 02
+1839	3	210785	19:38:00	19:38:00		Pl. Wolności 04
+1839	3	210785	19:39:00	19:39:00		Piłsudskiego U. Wojewódzki 06
+1839	3	210785	19:41:00	19:41:00		Cieplińskiego 02
+1839	3	210785	19:42:00	19:42:00		Lisa-Kuli 01
+1839	3	210785	19:44:00	19:44:00		Dąbrowskiego park 02 nż
+1839	3	210785	19:45:00	19:45:00		Dąbrowskiego KW. Policji 04
+1839	3	210785	19:46:00	19:46:00		Dąbrowskiego / Bat. Chłopskich 10
+1839	3	210785	19:49:00	19:49:00		Podkarpacka politechnika 02
+1839	3	210785	19:50:00	19:50:00		Podkarpacka / Matuszczaka 04
+1839	3	210785	19:51:00	19:51:00		Podkarpacka / Wetlińska 06 nż
+1839	3	210785	19:54:00	19:54:00		Zawiszy Czarnego 03 nż
+1839	3	210785	19:55:00	19:55:00		Zawiszy Czarnego / Podgórska 01 nż
+1839	3	210785	19:56:00	19:56:00		Architektów 01
+1839	3	210785	19:58:00	19:58:00		Przemysłowa U. Celny 05 nż
+
+1941	3	213289	20:10:00	20:10:00		Przemysłowa U. Celny 05 nż
+1941	3	213289	20:12:00	20:12:00		Architektów 02
+1941	3	213289	20:14:00	20:14:00		Zawiszy Czarnego / Podgórska 02 nż
+1941	3	213289	20:15:00	20:15:00		Zawiszy Czarnego 04 nż
+1941	3	213289	20:16:00	20:16:00		Żołnierzy 9 DP 01 nż
+1941	3	213289	20:18:00	20:18:00		Podkarpacka / Wetlińska 05 nż
+1941	3	213289	20:19:00	20:19:00		Podkarpacka / Matuszczaka 03
+1941	3	213289	20:21:00	20:21:00		Podkarpacka politechnika 01
+1941	3	213289	20:23:00	20:23:00		Dąbrowskiego / Chrobrego 07
+1941	3	213289	20:24:00	20:24:00		Dąbrowskiego KW. Policji 03
+1941	3	213289	20:25:00	20:25:00		Dąbrowskiego park 01 nż
+1941	3	213289	20:28:00	20:28:00		Lisa-Kuli 02
+1941	3	213289	20:29:00	20:29:00		Cieplińskiego 01
+1941	3	213289	20:30:00	20:30:00		Piłsudskiego U. Wojewódzki 05
+1941	3	213289	20:33:00	20:33:00		Bardowskiego 03
+1941	3	213289	20:35:00	20:35:00		Siemieńskiego / Kochanowskiego 02 nż
+1941	3	213289	20:36:00	20:36:00		Siemieńskiego U. Skarbowy 04 nż
+1941	3	213289	20:37:00	20:37:00		Trembeckiego / Siemieńskiego 07 nż
+1941	3	213289	20:38:00	20:38:00		Trembeckiego ZTM pętla 01
+
+1839	3	212113	21:00:00	21:00:00		Trembeckiego ZTM pętla 01
+1839	3	212113	21:01:00	21:01:00		Trembeckiego / Siemieńskiego 04 nż
+1839	3	212113	21:02:00	21:02:00		Siemieńskiego U. Skarbowy 03 nż
+1839	3	212113	21:03:00	21:03:00		Siemieńskiego dom studenta 01 nż
+1839	3	212113	21:04:00	21:04:00		Żółkiewskiego / Kochanowskiego 01 nż
+1839	3	212113	21:06:00	21:06:00		Bardowskiego 02
+1839	3	212113	21:08:00	21:08:00		Pl. Wolności 04
+1839	3	212113	21:09:00	21:09:00		Piłsudskiego U. Wojewódzki 06
+1839	3	212113	21:11:00	21:11:00		Cieplińskiego 02
+1839	3	212113	21:12:00	21:12:00		Lisa-Kuli 01
+1839	3	212113	21:14:00	21:14:00		Dąbrowskiego park 02 nż
+1839	3	212113	21:15:00	21:15:00		Dąbrowskiego KW. Policji 04
+1839	3	212113	21:16:00	21:16:00		Dąbrowskiego / Bat. Chłopskich 10
+1839	3	212113	21:18:00	21:18:00		Podkarpacka politechnika 02
+1839	3	212113	21:19:00	21:19:00		Podkarpacka / Matuszczaka 04
+1839	3	212113	21:20:00	21:20:00		Podkarpacka / Wetlińska 06 nż
+1839	3	212113	21:23:00	21:23:00		Zawiszy Czarnego 03 nż
+1839	3	212113	21:24:00	21:24:00		Zawiszy Czarnego / Podgórska 01 nż
+1839	3	212113	21:25:00	21:25:00		Architektów 01
+1839	3	212113	21:27:00	21:27:00		Przemysłowa U. Celny 05 nż
+
+1941	3	215389	21:40:00	21:40:00		Przemysłowa U. Celny 05 nż
+1941	3	215389	21:42:00	21:42:00		Architektów 02
+1941	3	215389	21:44:00	21:44:00		Zawiszy Czarnego / Podgórska 02 nż
+1941	3	215389	21:45:00	21:45:00		Zawiszy Czarnego 04 nż
+1941	3	215389	21:46:00	21:46:00		Żołnierzy 9 DP 01 nż
+1941	3	215389	21:48:00	21:48:00		Podkarpacka / Wetlińska 05 nż
+1941	3	215389	21:49:00	21:49:00		Podkarpacka / Matuszczaka 03
+1941	3	215389	21:50:00	21:50:00		Podkarpacka politechnika 01
+1941	3	215389	21:52:00	21:52:00		Dąbrowskiego / Chrobrego 07
+1941	3	215389	21:53:00	21:53:00		Dąbrowskiego KW. Policji 03
+1941	3	215389	21:54:00	21:54:00		Dąbrowskiego park 01 nż
+1941	3	215389	21:56:00	21:56:00		Lisa-Kuli 02
+1941	3	215389	21:57:00	21:57:00		Cieplińskiego 01
+1941	3	215389	21:58:00	21:58:00		Piłsudskiego U. Wojewódzki 05
+1941	3	215389	22:01:00	22:01:00		Bardowskiego 03
+1941	3	215389	22:03:00	22:03:00		Siemieńskiego / Kochanowskiego 02 nż
+1941	3	215389	22:04:00	22:04:00		Siemieńskiego U. Skarbowy 04 nż
+1941	3	215389	22:05:00	22:05:00		Trembeckiego / Siemieńskiego 07 nż
+1941	3	215389	22:06:00	22:06:00		Trembeckiego ZTM pętla 01
+
+1837	3	216037	22:49:00	22:49:00		Lubelska Zajezdnia MPK
+1837	3	216037	22:50:00	22:50:00		Lubelska MPK 13 nż
+1837	3	216037	22:51:00	22:51:00		Lubelska Ogrody Hiszpańskie 11 nż
+1837	3	216037	22:52:00	22:52:00		Lubelska Os. Ogrody 09 nż
+1837	3	216037	22:53:00	22:53:00		Lubelska / Borowa 07 nż
+1837	3	216037	22:54:00	22:54:00		Lubelska kościół 05 nż
+1837	3	216037	22:55:00	22:55:00		Lubelska szpital 01
+1837	3	216037	22:56:00	22:56:00		Marszałkowska 01
+1837	3	216037	22:58:00	22:58:00		Piłsudskiego U. Wojewódzki 05
+1837	3	216037	23:01:00	23:01:00		Dworzec Główny PKP 03
+1837	3	216037	23:05:00	23:05:00		Pl. Wolności 03
+1837	3	216037	23:06:00	23:06:00		Piłsudskiego ZDZ 01 nż
+1837	3	216037	23:07:00	23:07:00		Lwowska jedn. wojskowa 02
+1837	3	216037	23:08:00	23:08:00		Mieszka I / Kustronia 02 nż
+1837	3	216037	23:09:00	23:09:00		Niepodległości / Mieszka I 03 nż
+1837	3	216037	23:10:00	23:10:00		Niepodległości dom dziecka 01 nż
+1837	3	216037	23:11:00	23:11:00		Krzyżanowskiego szkoła 02 nż
+1837	3	216037	23:12:00	23:12:00		Paderewskiego / Ossolińskich 01 nż
+1837	3	216037	23:13:00	23:13:00		Rejtana / Popiełuszki 09
+1837	3	216037	23:16:00	23:16:00		Powst. Warszawy / Rejtana 13
+1837	3	216037	23:17:00	23:17:00		Powst. Warszawy szkoła 11
+1837	3	216037	23:18:00	23:18:00		Powst. Warszawy dom studenta 09
+1837	3	216037	23:19:00	23:19:00		Powst. Warszawy stadion 05 nż
+1837	3	216037	23:20:00	23:20:00		Hetmańska stadion 07
+1837	3	216037	23:21:00	23:21:00		Hetmańska ZS. Mech. 05
+1837	3	216037	23:22:00	23:22:00		Hetmańska przychodnia 03
+1837	3	216037	23:23:00	23:23:00		Hetmańska podzamcze 01 nż
+1837	3	216037	23:24:00	23:24:00		Kilara 02 nż
+1837	3	216037	23:25:00	23:25:00		Szopena Filharmonia 01 nż
+1837	3	216037	23:26:00	23:26:00		Targowa 02
+1837	3	216037	23:28:00	23:28:00		Pl. Wolności 04
+1837	3	216037	23:30:00	23:30:00		Dworzec Główny PKP 01
+1837	3	216037	23:31:00	23:31:00		Piłsudskiego U. Wojewódzki 06
+1837	3	216037	23:33:00	23:33:00		Marszałkowska 02
+1837	3	216037	23:34:00	23:34:00		Lubelska szpital 02
+1837	3	216037	23:35:00	23:35:00		Lubelska kościół 06 nż
+1837	3	216037	23:36:00	23:36:00		Lubelska / Borowa 08 nż
+1837	3	216037	23:37:00	23:37:00		Lubelska Os. Ogrody 10 nż
+1837	3	216037	23:38:00	23:38:00		Lubelska Ogrody Hiszpańskie 12 nż
+1837	3	216037	23:39:00	23:39:00		Lubelska MPK 14 nż
+1837	3	216037	23:40:00	23:40:00		Lubelska Zajezdnia MPK

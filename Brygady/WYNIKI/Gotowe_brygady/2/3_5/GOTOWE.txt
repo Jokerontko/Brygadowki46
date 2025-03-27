@@ -1,0 +1,482 @@
+route_id	service_id	trip_id	arrival_time	departure_time	stop_headsign	stop_name
+-------------------------------------------------------------------------------
+736	4	211867	05:19:00	05:19:00		Krakowska granica 15 nż
+736	4	211867	05:20:00	05:20:00		Krakowska / Dworzysko 13 nż
+736	4	211867	05:20:00	05:20:00		Krakowska / Dworzysko 13 nż
+736	4	211867	05:22:00	05:22:00		Krakowska / Ustrzycka 11
+736	4	211867	05:22:00	05:22:00		Krakowska / Ustrzycka 11
+736	4	211867	05:23:00	05:23:00		Krakowska cmentarz 09 nż
+736	4	211867	05:23:00	05:23:00		Krakowska cmentarz 09 nż
+736	4	211867	05:25:00	05:25:00		Wyzwolenia / Mikołajczyka 11 nż
+736	4	211867	05:25:00	05:25:00		Wyzwolenia / Mikołajczyka 11 nż
+736	4	211867	05:26:00	05:26:00		Ofiar Katynia / Wyzwolenia 02
+736	4	211867	05:26:00	05:26:00		Ofiar Katynia / Wyzwolenia 02
+736	4	211867	05:27:00	05:27:00		Ofiar Katynia kładka 04
+736	4	211867	05:27:00	05:27:00		Ofiar Katynia kładka 04
+736	4	211867	05:28:00	05:28:00		Ofiar Katynia galeria 06
+736	4	211867	05:28:00	05:28:00		Ofiar Katynia galeria 06
+736	4	211867	05:30:00	05:30:00		Krakowska galeria 05
+736	4	211867	05:30:00	05:30:00		Krakowska galeria 05
+736	4	211867	05:31:00	05:31:00		Krakowska szpital 03
+736	4	211867	05:31:00	05:31:00		Krakowska szpital 03
+736	4	211867	05:32:00	05:32:00		Krakowska jedn. wojskowa 01
+736	4	211867	05:32:00	05:32:00		Krakowska jedn. wojskowa 01
+736	4	211867	05:34:00	05:34:00		Piłsudskiego U. Marszałkowski 07
+736	4	211867	05:34:00	05:34:00		Piłsudskiego U. Marszałkowski 07
+736	4	211867	05:35:00	05:35:00		Cieplińskiego 02
+736	4	211867	05:35:00	05:35:00		Cieplińskiego 02
+736	4	211867	05:36:00	05:36:00		Lisa-Kuli 01
+736	4	211867	05:36:00	05:36:00		Lisa-Kuli 01
+736	4	211867	05:38:00	05:38:00		Dąbrowskiego park 02 nż
+736	4	211867	05:38:00	05:38:00		Dąbrowskiego park 02 nż
+736	4	211867	05:39:00	05:39:00		Dąbrowskiego KW. Policji 04
+736	4	211867	05:39:00	05:39:00		Dąbrowskiego KW. Policji 04
+736	4	211867	05:40:00	05:40:00		Dąbrowskiego / Bat. Chłopskich 10
+736	4	211867	05:40:00	05:40:00		Dąbrowskiego / Bat. Chłopskich 10
+736	4	211867	05:42:00	05:42:00		Podkarpacka politechnika 02
+736	4	211867	05:42:00	05:42:00		Podkarpacka politechnika 02
+736	4	211867	05:43:00	05:43:00		Podkarpacka / Matuszczaka 04
+736	4	211867	05:43:00	05:43:00		Podkarpacka / Matuszczaka 04
+736	4	211867	05:44:00	05:44:00		Podkarpacka / Wetlińska 06 nż
+736	4	211867	05:44:00	05:44:00		Podkarpacka / Wetlińska 06 nż
+736	4	211867	05:46:00	05:46:00		Podkarpacka kościół 08 nż
+736	4	211867	05:46:00	05:46:00		Podkarpacka kościół 08 nż
+736	4	211867	05:47:00	05:47:00		Podkarpacka / Nalepy 10 nż
+736	4	211867	05:47:00	05:47:00		Podkarpacka / Nalepy 10 nż
+736	4	211867	05:49:00	05:49:00		Boguchwała 64 nż
+736	4	211867	05:49:00	05:49:00		Boguchwała 64 nż
+736	4	211867	05:50:00	05:50:00		Boguchwała 66 nż
+736	4	211867	05:50:00	05:50:00		Boguchwała 66 nż
+736	4	211867	05:51:00	05:51:00		Boguchwała 68
+736	4	211867	05:51:00	05:51:00		Boguchwała 68
+736	4	211867	05:52:00	05:52:00		Boguchwała 70 nż
+736	4	211867	05:52:00	05:52:00		Boguchwała 70 nż
+736	4	211867	05:54:00	05:54:00		Boguchwała 72 nż
+736	4	211867	05:54:00	05:54:00		Boguchwała 72 nż
+736	4	211867	05:55:00	05:55:00		Boguchwała 74 nż
+736	4	211867	05:55:00	05:55:00		Boguchwała 74 nż
+736	4	211867	05:57:00	05:57:00		Lutoryż 76 nż
+736	4	211867	05:57:00	05:57:00		Lutoryż 76 nż
+736	4	211867	05:58:00	05:58:00		Lutoryż kościół 09 nż
+736	4	211867	05:58:00	05:58:00		Lutoryż kościół 09 nż
+736	4	211867	05:59:00	05:59:00		Lutoryż szkoła 07 nż
+736	4	211867	05:59:00	05:59:00		Lutoryż szkoła 07 nż
+736	4	211867	06:00:00	06:00:00		Lutoryż wieś 05 nż
+736	4	211867	06:00:00	06:00:00		Lutoryż wieś 05 nż
+736	4	211867	06:02:00	06:02:00		Lutoryż pętla 04
+736	4	211867	06:02:00	06:02:00		Lutoryż pętla 04
+
+774	4	209759	06:13:00	06:13:00		Lutoryż pętla 04
+774	4	209759	06:13:00	06:13:00		Lutoryż pętla 04
+774	4	209759	06:14:00	06:14:00		Lutoryż wieś 06 nż
+774	4	209759	06:14:00	06:14:00		Lutoryż wieś 06 nż
+774	4	209759	06:15:00	06:15:00		Lutoryż szkoła 08 nż
+774	4	209759	06:15:00	06:15:00		Lutoryż szkoła 08 nż
+774	4	209759	06:16:00	06:16:00		Lutoryż kościół 10 nż
+774	4	209759	06:16:00	06:16:00		Lutoryż kościół 10 nż
+774	4	209759	06:18:00	06:18:00		Lutoryż 89 nż
+774	4	209759	06:18:00	06:18:00		Lutoryż 89 nż
+774	4	209759	06:20:00	06:20:00		Boguchwała 91 nż
+774	4	209759	06:20:00	06:20:00		Boguchwała 91 nż
+774	4	209759	06:21:00	06:21:00		Boguchwała 93 nż
+774	4	209759	06:21:00	06:21:00		Boguchwała 93 nż
+774	4	209759	06:23:00	06:23:00		Boguchwała 95 nż
+774	4	209759	06:23:00	06:23:00		Boguchwała 95 nż
+774	4	209759	06:27:00	06:27:00		Boguchwała D. A. Grunwald 01
+774	4	209759	06:27:00	06:27:00		Boguchwała D. A. Grunwald 01
+774	4	209759	06:30:00	06:30:00		Boguchwała 97 nż
+774	4	209759	06:30:00	06:30:00		Boguchwała 97 nż
+774	4	209759	06:31:00	06:31:00		Boguchwała 99 nż
+774	4	209759	06:31:00	06:31:00		Boguchwała 99 nż
+774	4	209759	06:32:00	06:32:00		Podkarpacka / Zwięczycka 11 nż
+774	4	209759	06:32:00	06:32:00		Podkarpacka / Zwięczycka 11 nż
+774	4	209759	06:33:00	06:33:00		Podkarpacka / Nalepy 09 nż
+774	4	209759	06:33:00	06:33:00		Podkarpacka / Nalepy 09 nż
+774	4	209759	06:35:00	06:35:00		Podkarpacka kościół 07 nż
+774	4	209759	06:35:00	06:35:00		Podkarpacka kościół 07 nż
+774	4	209759	06:36:00	06:36:00		Podkarpacka / Wetlińska 05 nż
+774	4	209759	06:36:00	06:36:00		Podkarpacka / Wetlińska 05 nż
+774	4	209759	06:37:00	06:37:00		Podkarpacka / Matuszczaka 03
+774	4	209759	06:37:00	06:37:00		Podkarpacka / Matuszczaka 03
+774	4	209759	06:39:00	06:39:00		Podkarpacka politechnika 01
+774	4	209759	06:39:00	06:39:00		Podkarpacka politechnika 01
+774	4	209759	06:42:00	06:42:00		Dąbrowskiego / Chrobrego 07
+774	4	209759	06:42:00	06:42:00		Dąbrowskiego / Chrobrego 07
+774	4	209759	06:43:00	06:43:00		Dąbrowskiego KW. Policji 03
+774	4	209759	06:43:00	06:43:00		Dąbrowskiego KW. Policji 03
+774	4	209759	06:44:00	06:44:00		Dąbrowskiego park 01 nż
+774	4	209759	06:44:00	06:44:00		Dąbrowskiego park 01 nż
+774	4	209759	06:48:00	06:48:00		Lisa-Kuli 02
+774	4	209759	06:48:00	06:48:00		Lisa-Kuli 02
+774	4	209759	06:49:00	06:49:00		Cieplińskiego 01
+774	4	209759	06:49:00	06:49:00		Cieplińskiego 01
+774	4	209759	06:51:00	06:51:00		Piłsudskiego U. Marszałkowski 08
+774	4	209759	06:51:00	06:51:00		Piłsudskiego U. Marszałkowski 08
+774	4	209759	06:53:00	06:53:00		Krakowska jedn. wojskowa 02
+774	4	209759	06:53:00	06:53:00		Krakowska jedn. wojskowa 02
+774	4	209759	06:54:00	06:54:00		Krakowska szpital 04
+774	4	209759	06:54:00	06:54:00		Krakowska szpital 04
+774	4	209759	06:55:00	06:55:00		Krakowska galeria 06
+774	4	209759	06:55:00	06:55:00		Krakowska galeria 06
+774	4	209759	06:57:00	06:57:00		Ofiar Katynia park 03
+774	4	209759	06:57:00	06:57:00		Ofiar Katynia park 03
+774	4	209759	06:58:00	06:58:00		Ofiar Katynia kładka 01
+774	4	209759	06:58:00	06:58:00		Ofiar Katynia kładka 01
+774	4	209759	06:59:00	06:59:00		Wyzwolenia / Obr. Poczty Gdańskiej 12
+774	4	209759	06:59:00	06:59:00		Wyzwolenia / Obr. Poczty Gdańskiej 12
+774	4	209759	07:00:00	07:00:00		Wyzwolenia / Krakowska 14 nż
+774	4	209759	07:00:00	07:00:00		Wyzwolenia / Krakowska 14 nż
+774	4	209759	07:02:00	07:02:00		Krakowska cmentarz 10 nż
+774	4	209759	07:02:00	07:02:00		Krakowska cmentarz 10 nż
+774	4	209759	07:04:00	07:04:00		Krakowska / Ceramiczna 12
+774	4	209759	07:04:00	07:04:00		Krakowska / Ceramiczna 12
+774	4	209759	07:05:00	07:05:00		Krakowska / Dworzysko 14 nż
+774	4	209759	07:05:00	07:05:00		Krakowska / Dworzysko 14 nż
+774	4	209759	07:07:00	07:07:00		Krakowska granica 16 nż
+774	4	209759	07:07:00	07:07:00		Krakowska granica 16 nż
+774	4	209759	07:09:00	07:09:00		Krakowska granica 15 nż
+774	4	209759	07:09:00	07:09:00		Krakowska granica 15 nż
+
+760	4	209524	07:49:00	07:49:00		Krakowska granica 15 nż
+760	4	209524	07:49:00	07:49:00		Krakowska granica 15 nż
+760	4	209524	07:50:00	07:50:00		Krakowska / Dworzysko 13 nż
+760	4	209524	07:50:00	07:50:00		Krakowska / Dworzysko 13 nż
+760	4	209524	07:52:00	07:52:00		Krakowska / Ustrzycka 11
+760	4	209524	07:52:00	07:52:00		Krakowska / Ustrzycka 11
+760	4	209524	07:53:00	07:53:00		Krakowska cmentarz 09 nż
+760	4	209524	07:53:00	07:53:00		Krakowska cmentarz 09 nż
+760	4	209524	07:55:00	07:55:00		Wyzwolenia / Mikołajczyka 11 nż
+760	4	209524	07:55:00	07:55:00		Wyzwolenia / Mikołajczyka 11 nż
+760	4	209524	07:56:00	07:56:00		Ofiar Katynia / Wyzwolenia 02
+760	4	209524	07:56:00	07:56:00		Ofiar Katynia / Wyzwolenia 02
+760	4	209524	07:57:00	07:57:00		Ofiar Katynia kładka 04
+760	4	209524	07:57:00	07:57:00		Ofiar Katynia kładka 04
+760	4	209524	07:58:00	07:58:00		Ofiar Katynia galeria 06
+760	4	209524	07:58:00	07:58:00		Ofiar Katynia galeria 06
+760	4	209524	08:00:00	08:00:00		Krakowska galeria 05
+760	4	209524	08:00:00	08:00:00		Krakowska galeria 05
+760	4	209524	08:01:00	08:01:00		Krakowska szpital 03
+760	4	209524	08:01:00	08:01:00		Krakowska szpital 03
+760	4	209524	08:03:00	08:03:00		Krakowska jedn. wojskowa 01
+760	4	209524	08:03:00	08:03:00		Krakowska jedn. wojskowa 01
+760	4	209524	08:05:00	08:05:00		Piłsudskiego U. Marszałkowski 07
+760	4	209524	08:05:00	08:05:00		Piłsudskiego U. Marszałkowski 07
+760	4	209524	08:06:00	08:06:00		Cieplińskiego 02
+760	4	209524	08:06:00	08:06:00		Cieplińskiego 02
+760	4	209524	08:07:00	08:07:00		Lisa-Kuli 01
+760	4	209524	08:07:00	08:07:00		Lisa-Kuli 01
+760	4	209524	08:10:00	08:10:00		Dąbrowskiego park 02 nż
+760	4	209524	08:10:00	08:10:00		Dąbrowskiego park 02 nż
+760	4	209524	08:11:00	08:11:00		Dąbrowskiego KW. Policji 04
+760	4	209524	08:11:00	08:11:00		Dąbrowskiego KW. Policji 04
+760	4	209524	08:12:00	08:12:00		Dąbrowskiego / Bat. Chłopskich 10
+760	4	209524	08:12:00	08:12:00		Dąbrowskiego / Bat. Chłopskich 10
+760	4	209524	08:15:00	08:15:00		Podkarpacka politechnika 02
+760	4	209524	08:15:00	08:15:00		Podkarpacka politechnika 02
+760	4	209524	08:16:00	08:16:00		Podkarpacka / Matuszczaka 04
+760	4	209524	08:16:00	08:16:00		Podkarpacka / Matuszczaka 04
+760	4	209524	08:17:00	08:17:00		Podkarpacka / Wetlińska 06 nż
+760	4	209524	08:17:00	08:17:00		Podkarpacka / Wetlińska 06 nż
+760	4	209524	08:19:00	08:19:00		Podkarpacka kościół 08 nż
+760	4	209524	08:19:00	08:19:00		Podkarpacka kościół 08 nż
+760	4	209524	08:20:00	08:20:00		Podkarpacka / Nalepy 10 nż
+760	4	209524	08:20:00	08:20:00		Podkarpacka / Nalepy 10 nż
+760	4	209524	08:22:00	08:22:00		Boguchwała 64 nż
+760	4	209524	08:22:00	08:22:00		Boguchwała 64 nż
+760	4	209524	08:23:00	08:23:00		Boguchwała 66 nż
+760	4	209524	08:23:00	08:23:00		Boguchwała 66 nż
+760	4	209524	08:24:00	08:24:00		Boguchwała 68
+760	4	209524	08:24:00	08:24:00		Boguchwała 68
+760	4	209524	08:25:00	08:25:00		Boguchwała D. A. Grunwald 01
+760	4	209524	08:25:00	08:25:00		Boguchwała D. A. Grunwald 01
+
+756	4	208664	08:58:00	08:58:00		Boguchwała D. A. Grunwald 01
+756	4	208664	08:58:00	08:58:00		Boguchwała D. A. Grunwald 01
+756	4	208664	08:59:00	08:59:00		Boguchwała 97 nż
+756	4	208664	08:59:00	08:59:00		Boguchwała 97 nż
+756	4	208664	09:00:00	09:00:00		Boguchwała 99 nż
+756	4	208664	09:00:00	09:00:00		Boguchwała 99 nż
+756	4	208664	09:01:00	09:01:00		Podkarpacka / Zwięczycka 11 nż
+756	4	208664	09:01:00	09:01:00		Podkarpacka / Zwięczycka 11 nż
+756	4	208664	09:02:00	09:02:00		Podkarpacka / Nalepy 09 nż
+756	4	208664	09:02:00	09:02:00		Podkarpacka / Nalepy 09 nż
+756	4	208664	09:04:00	09:04:00		Podkarpacka kościół 07 nż
+756	4	208664	09:04:00	09:04:00		Podkarpacka kościół 07 nż
+756	4	208664	09:05:00	09:05:00		Podkarpacka / Wetlińska 05 nż
+756	4	208664	09:05:00	09:05:00		Podkarpacka / Wetlińska 05 nż
+756	4	208664	09:06:00	09:06:00		Podkarpacka / Matuszczaka 03
+756	4	208664	09:06:00	09:06:00		Podkarpacka / Matuszczaka 03
+756	4	208664	09:08:00	09:08:00		Podkarpacka politechnika 01
+756	4	208664	09:08:00	09:08:00		Podkarpacka politechnika 01
+756	4	208664	09:11:00	09:11:00		Dąbrowskiego / Chrobrego 07
+756	4	208664	09:11:00	09:11:00		Dąbrowskiego / Chrobrego 07
+756	4	208664	09:12:00	09:12:00		Dąbrowskiego KW. Policji 03
+756	4	208664	09:12:00	09:12:00		Dąbrowskiego KW. Policji 03
+756	4	208664	09:13:00	09:13:00		Dąbrowskiego park 01 nż
+756	4	208664	09:13:00	09:13:00		Dąbrowskiego park 01 nż
+756	4	208664	09:17:00	09:17:00		Lisa-Kuli 02
+756	4	208664	09:17:00	09:17:00		Lisa-Kuli 02
+756	4	208664	09:18:00	09:18:00		Cieplińskiego 01
+756	4	208664	09:18:00	09:18:00		Cieplińskiego 01
+756	4	208664	09:20:00	09:20:00		Piłsudskiego U. Marszałkowski 08
+756	4	208664	09:20:00	09:20:00		Piłsudskiego U. Marszałkowski 08
+756	4	208664	09:22:00	09:22:00		Krakowska jedn. wojskowa 02
+756	4	208664	09:22:00	09:22:00		Krakowska jedn. wojskowa 02
+756	4	208664	09:23:00	09:23:00		Krakowska szpital 04
+756	4	208664	09:23:00	09:23:00		Krakowska szpital 04
+756	4	208664	09:24:00	09:24:00		Krakowska galeria 06
+756	4	208664	09:24:00	09:24:00		Krakowska galeria 06
+756	4	208664	09:26:00	09:26:00		Ofiar Katynia park 03
+756	4	208664	09:26:00	09:26:00		Ofiar Katynia park 03
+756	4	208664	09:27:00	09:27:00		Ofiar Katynia kładka 01
+756	4	208664	09:27:00	09:27:00		Ofiar Katynia kładka 01
+756	4	208664	09:28:00	09:28:00		Wyzwolenia / Obr. Poczty Gdańskiej 12
+756	4	208664	09:28:00	09:28:00		Wyzwolenia / Obr. Poczty Gdańskiej 12
+756	4	208664	09:29:00	09:29:00		Wyzwolenia / Krakowska 14 nż
+756	4	208664	09:29:00	09:29:00		Wyzwolenia / Krakowska 14 nż
+756	4	208664	09:31:00	09:31:00		Krakowska cmentarz 10 nż
+756	4	208664	09:31:00	09:31:00		Krakowska cmentarz 10 nż
+756	4	208664	09:33:00	09:33:00		Krakowska / Ceramiczna 12
+756	4	208664	09:33:00	09:33:00		Krakowska / Ceramiczna 12
+756	4	208664	09:34:00	09:34:00		Krakowska / Dworzysko 14 nż
+756	4	208664	09:34:00	09:34:00		Krakowska / Dworzysko 14 nż
+756	4	208664	09:36:00	09:36:00		Krakowska granica 16 nż
+756	4	208664	09:36:00	09:36:00		Krakowska granica 16 nż
+756	4	208664	09:38:00	09:38:00		Krakowska granica 15 nż
+756	4	208664	09:38:00	09:38:00		Krakowska granica 15 nż
+
+1631	4	213259	14:40:00	14:40:00		Baligrodzka 01
+1631	4	213259	14:40:00	14:40:00		Baligrodzka 01
+1631	4	213259	14:41:00	14:41:00		Iwonicka / Korczyńska 01 nż
+1631	4	213259	14:41:00	14:41:00		Iwonicka / Korczyńska 01 nż
+1631	4	213259	14:42:00	14:42:00		Odrzykońska / Iwonicka 01 nż
+1631	4	213259	14:42:00	14:42:00		Odrzykońska / Iwonicka 01 nż
+1631	4	213259	14:44:00	14:44:00		Bł. Karoliny pętla 09
+1631	4	213259	14:44:00	14:44:00		Bł. Karoliny pętla 09
+1631	4	213259	14:45:00	14:45:00		Bł. Karoliny przedszkole 07
+1631	4	213259	14:45:00	14:45:00		Bł. Karoliny przedszkole 07
+1631	4	213259	14:46:00	14:46:00		Bł. Karoliny / Nowosądecka 05 nż
+1631	4	213259	14:46:00	14:46:00		Bł. Karoliny / Nowosądecka 05 nż
+1631	4	213259	14:47:00	14:47:00		Bł. Karoliny / Sanocka 03 nż
+1631	4	213259	14:47:00	14:47:00		Bł. Karoliny / Sanocka 03 nż
+1631	4	213259	14:48:00	14:48:00		Bł. Karoliny / Strzyżowska 01 nż
+1631	4	213259	14:48:00	14:48:00		Bł. Karoliny / Strzyżowska 01 nż
+1631	4	213259	14:49:00	14:49:00		Kotuli / Solarza 03 nż
+1631	4	213259	14:49:00	14:49:00		Kotuli / Solarza 03 nż
+1631	4	213259	14:50:00	14:50:00		Kotuli / Zbyszewskiego 01 nż
+1631	4	213259	14:50:00	14:50:00		Kotuli / Zbyszewskiego 01 nż
+1631	4	213259	14:53:00	14:53:00		Krakowska galeria 05
+1631	4	213259	14:53:00	14:53:00		Krakowska galeria 05
+1631	4	213259	14:54:00	14:54:00		Krakowska szpital 03
+1631	4	213259	14:54:00	14:54:00		Krakowska szpital 03
+1631	4	213259	14:57:00	14:57:00		Krakowska jedn. wojskowa 01
+1631	4	213259	14:57:00	14:57:00		Krakowska jedn. wojskowa 01
+1631	4	213259	14:59:00	14:59:00		Piłsudskiego U. Marszałkowski 07
+1631	4	213259	14:59:00	14:59:00		Piłsudskiego U. Marszałkowski 07
+1631	4	213259	15:01:00	15:01:00		Cieplińskiego 02
+1631	4	213259	15:01:00	15:01:00		Cieplińskiego 02
+1631	4	213259	15:02:00	15:02:00		Lisa-Kuli 01
+1631	4	213259	15:02:00	15:02:00		Lisa-Kuli 01
+1631	4	213259	15:07:00	15:07:00		Kilara 02 nż
+1631	4	213259	15:07:00	15:07:00		Kilara 02 nż
+1631	4	213259	15:10:00	15:10:00		Kopisto U. Skarbowy 03
+1631	4	213259	15:10:00	15:10:00		Kopisto U. Skarbowy 03
+1631	4	213259	15:12:00	15:12:00		Kopisto uniwersytet 01
+1631	4	213259	15:12:00	15:12:00		Kopisto uniwersytet 01
+1631	4	213259	15:14:00	15:14:00		Rejtana / Kopisto 07
+1631	4	213259	15:14:00	15:14:00		Rejtana / Kopisto 07
+1631	4	213259	15:17:00	15:17:00		Rejtana / Popiełuszki 09
+1631	4	213259	15:17:00	15:17:00		Rejtana / Popiełuszki 09
+1631	4	213259	15:20:00	15:20:00		Sikorskiego / Powst. Warszawy 02 nż
+1631	4	213259	15:20:00	15:20:00		Sikorskiego / Powst. Warszawy 02 nż
+1631	4	213259	15:21:00	15:21:00		Sikorskiego katedra 04 nż
+1631	4	213259	15:21:00	15:21:00		Sikorskiego katedra 04 nż
+1631	4	213259	15:22:00	15:22:00		Sikorskiego / Łukasiewicza 06 nż
+1631	4	213259	15:22:00	15:22:00		Sikorskiego / Łukasiewicza 06 nż
+1631	4	213259	15:23:00	15:23:00		Sikorskiego domki 08 nż
+1631	4	213259	15:23:00	15:23:00		Sikorskiego domki 08 nż
+1631	4	213259	15:25:00	15:25:00		Strażacka / Sikorskiego 07 nż
+1631	4	213259	15:25:00	15:25:00		Strażacka / Sikorskiego 07 nż
+1631	4	213259	15:26:00	15:26:00		Strażacka / Sympatyczna 05 nż
+1631	4	213259	15:26:00	15:26:00		Strażacka / Sympatyczna 05 nż
+1631	4	213259	15:27:00	15:27:00		Miła / Strażacka 02 nż
+1631	4	213259	15:27:00	15:27:00		Miła / Strażacka 02 nż
+1631	4	213259	15:28:00	15:28:00		Miła bloki 04 nż
+1631	4	213259	15:28:00	15:28:00		Miła bloki 04 nż
+1631	4	213259	15:29:00	15:29:00		Miła szkoła 06 nż
+1631	4	213259	15:29:00	15:29:00		Miła szkoła 06 nż
+1631	4	213259	15:30:00	15:30:00		Kard. K. Wojtyły kościół 05 nż
+1631	4	213259	15:30:00	15:30:00		Kard. K. Wojtyły kościół 05 nż
+1631	4	213259	15:32:00	15:32:00		Kard. K. Wojtyły pętla 03 nż
+1631	4	213259	15:32:00	15:32:00		Kard. K. Wojtyły pętla 03 nż
+
+1633	4	216183	15:49:00	15:49:00		Kard. K. Wojtyły pętla 03 nż
+1633	4	216183	15:49:00	15:49:00		Kard. K. Wojtyły pętla 03 nż
+1633	4	216183	15:50:00	15:50:00		Kard. K. Wojtyły kościół 06 nż
+1633	4	216183	15:50:00	15:50:00		Kard. K. Wojtyły kościół 06 nż
+1633	4	216183	15:52:00	15:52:00		Miła dom kultury 05 nż
+1633	4	216183	15:52:00	15:52:00		Miła dom kultury 05 nż
+1633	4	216183	15:53:00	15:53:00		Miła bloki 03 nż
+1633	4	216183	15:53:00	15:53:00		Miła bloki 03 nż
+1633	4	216183	15:54:00	15:54:00		Miła / Strażacka 01 nż
+1633	4	216183	15:54:00	15:54:00		Miła / Strażacka 01 nż
+1633	4	216183	15:55:00	15:55:00		Strażacka / Sympatyczna 06 nż
+1633	4	216183	15:55:00	15:55:00		Strażacka / Sympatyczna 06 nż
+1633	4	216183	15:56:00	15:56:00		Strażacka / Sikorskiego 08 nż
+1633	4	216183	15:56:00	15:56:00		Strażacka / Sikorskiego 08 nż
+1633	4	216183	15:58:00	15:58:00		Sikorskiego / Robotnicza 05 nż
+1633	4	216183	15:58:00	15:58:00		Sikorskiego / Robotnicza 05 nż
+1633	4	216183	15:59:00	15:59:00		Sikorskiego domki 03 nż
+1633	4	216183	15:59:00	15:59:00		Sikorskiego domki 03 nż
+1633	4	216183	16:01:00	16:01:00		Sikorskiego katedra 01 nż
+1633	4	216183	16:01:00	16:01:00		Sikorskiego katedra 01 nż
+1633	4	216183	16:04:00	16:04:00		Rejtana / Armii Krajowej 12
+1633	4	216183	16:04:00	16:04:00		Rejtana / Armii Krajowej 12
+1633	4	216183	16:05:00	16:05:00		Rejtana / Paderewskiego 10
+1633	4	216183	16:05:00	16:05:00		Rejtana / Paderewskiego 10
+1633	4	216183	16:06:00	16:06:00		Rejtana / Krzyżanowskiego 08
+1633	4	216183	16:06:00	16:06:00		Rejtana / Krzyżanowskiego 08
+1633	4	216183	16:08:00	16:08:00		Kopisto uniwersytet 02
+1633	4	216183	16:08:00	16:08:00		Kopisto uniwersytet 02
+1633	4	216183	16:11:00	16:11:00		Kopisto Most Zamkowy 04
+1633	4	216183	16:11:00	16:11:00		Kopisto Most Zamkowy 04
+1633	4	216183	16:13:00	16:13:00		Kilara 01 nż
+1633	4	216183	16:13:00	16:13:00		Kilara 01 nż
+1633	4	216183	16:16:00	16:16:00		Lisa-Kuli 02
+1633	4	216183	16:16:00	16:16:00		Lisa-Kuli 02
+1633	4	216183	16:17:00	16:17:00		Cieplińskiego 01
+1633	4	216183	16:17:00	16:17:00		Cieplińskiego 01
+1633	4	216183	16:20:00	16:20:00		Piłsudskiego U. Marszałkowski 08
+1633	4	216183	16:20:00	16:20:00		Piłsudskiego U. Marszałkowski 08
+1633	4	216183	16:22:00	16:22:00		Krakowska jedn. wojskowa 02
+1633	4	216183	16:22:00	16:22:00		Krakowska jedn. wojskowa 02
+1633	4	216183	16:24:00	16:24:00		Krakowska szpital 04
+1633	4	216183	16:24:00	16:24:00		Krakowska szpital 04
+1633	4	216183	16:25:00	16:25:00		Krakowska galeria 06
+1633	4	216183	16:25:00	16:25:00		Krakowska galeria 06
+1633	4	216183	16:27:00	16:27:00		Ofiar Katynia galeria 06
+1633	4	216183	16:27:00	16:27:00		Ofiar Katynia galeria 06
+1633	4	216183	16:28:00	16:28:00		Kotuli / Ustrzycka 02 nż
+1633	4	216183	16:28:00	16:28:00		Kotuli / Ustrzycka 02 nż
+1633	4	216183	16:29:00	16:29:00		Kotuli domki 04 nż
+1633	4	216183	16:29:00	16:29:00		Kotuli domki 04 nż
+1633	4	216183	16:31:00	16:31:00		Bł. Karoliny / Strzyżowska 02 nż
+1633	4	216183	16:31:00	16:31:00		Bł. Karoliny / Strzyżowska 02 nż
+1633	4	216183	16:32:00	16:32:00		Bł. Karoliny / Sanocka 04 nż
+1633	4	216183	16:32:00	16:32:00		Bł. Karoliny / Sanocka 04 nż
+1633	4	216183	16:34:00	16:34:00		Bł. Karoliny przedszkole 06
+1633	4	216183	16:34:00	16:34:00		Bł. Karoliny przedszkole 06
+1633	4	216183	16:35:00	16:35:00		Odrzykońska / Bł. Karoliny 02 nż
+1633	4	216183	16:35:00	16:35:00		Odrzykońska / Bł. Karoliny 02 nż
+1633	4	216183	16:36:00	16:36:00		Odrzykońska / Baligrodzka 04 nż
+1633	4	216183	16:36:00	16:36:00		Odrzykońska / Baligrodzka 04 nż
+1633	4	216183	16:37:00	16:37:00		Iwonicka / Korczyńska 02 nż
+1633	4	216183	16:37:00	16:37:00		Iwonicka / Korczyńska 02 nż
+1633	4	216183	16:38:00	16:38:00		Baligrodzka 01
+1633	4	216183	16:38:00	16:38:00		Baligrodzka 01
+
+1961	4	212053	17:00:00	17:00:00		Baligrodzka 01
+1961	4	212053	17:00:00	17:00:00		Baligrodzka 01
+1961	4	212053	17:01:00	17:01:00		Iwonicka / Korczyńska 01 nż
+1961	4	212053	17:01:00	17:01:00		Iwonicka / Korczyńska 01 nż
+1961	4	212053	17:02:00	17:02:00		Odrzykońska / Iwonicka 01 nż
+1961	4	212053	17:02:00	17:02:00		Odrzykońska / Iwonicka 01 nż
+1961	4	212053	17:04:00	17:04:00		Bł. Karoliny pętla 09
+1961	4	212053	17:04:00	17:04:00		Bł. Karoliny pętla 09
+1961	4	212053	17:05:00	17:05:00		Bł. Karoliny przedszkole 07
+1961	4	212053	17:05:00	17:05:00		Bł. Karoliny przedszkole 07
+1961	4	212053	17:06:00	17:06:00		Bł. Karoliny / Nowosądecka 05 nż
+1961	4	212053	17:06:00	17:06:00		Bł. Karoliny / Nowosądecka 05 nż
+1961	4	212053	17:07:00	17:07:00		Bł. Karoliny / Sanocka 03 nż
+1961	4	212053	17:07:00	17:07:00		Bł. Karoliny / Sanocka 03 nż
+1961	4	212053	17:08:00	17:08:00		Bł. Karoliny / Strzyżowska 01 nż
+1961	4	212053	17:08:00	17:08:00		Bł. Karoliny / Strzyżowska 01 nż
+1961	4	212053	17:09:00	17:09:00		Kotuli / Solarza 03 nż
+1961	4	212053	17:09:00	17:09:00		Kotuli / Solarza 03 nż
+1961	4	212053	17:10:00	17:10:00		Kotuli / Zbyszewskiego 01 nż
+1961	4	212053	17:10:00	17:10:00		Kotuli / Zbyszewskiego 01 nż
+1961	4	212053	17:13:00	17:13:00		Krakowska galeria 05
+1961	4	212053	17:13:00	17:13:00		Krakowska galeria 05
+1961	4	212053	17:14:00	17:14:00		Krakowska szpital 03
+1961	4	212053	17:14:00	17:14:00		Krakowska szpital 03
+1961	4	212053	17:16:00	17:16:00		Krakowska jedn. wojskowa 01
+1961	4	212053	17:16:00	17:16:00		Krakowska jedn. wojskowa 01
+1961	4	212053	17:19:00	17:19:00		Piłsudskiego U. Wojewódzki 05
+1961	4	212053	17:19:00	17:19:00		Piłsudskiego U. Wojewódzki 05
+1961	4	212053	17:20:00	17:20:00		Pl. Wolności 03
+1961	4	212053	17:20:00	17:20:00		Pl. Wolności 03
+1961	4	212053	17:21:00	17:21:00		Piłsudskiego ZDZ 01 nż
+1961	4	212053	17:21:00	17:21:00		Piłsudskiego ZDZ 01 nż
+1961	4	212053	17:23:00	17:23:00		Rejtana / Lwowska 01
+1961	4	212053	17:23:00	17:23:00		Rejtana / Lwowska 01
+1961	4	212053	17:24:00	17:24:00		Rejtana / Kustronia 03 nż
+1961	4	212053	17:24:00	17:24:00		Rejtana / Kustronia 03 nż
+1961	4	212053	17:25:00	17:25:00		Rejtana uniwersytet 05
+1961	4	212053	17:25:00	17:25:00		Rejtana uniwersytet 05
+1961	4	212053	17:28:00	17:28:00		Niepodległości / Rejtana 02
+1961	4	212053	17:28:00	17:28:00		Niepodległości / Rejtana 02
+1961	4	212053	17:29:00	17:29:00		Niepodległości dom dziecka 04 nż
+1961	4	212053	17:29:00	17:29:00		Niepodległości dom dziecka 04 nż
+1961	4	212053	17:30:00	17:30:00		Niepodległości działki 06 nż
+1961	4	212053	17:30:00	17:30:00		Niepodległości działki 06 nż
+1961	4	212053	17:33:00	17:33:00		Armii Krajowej szpital 10 nż
+1961	4	212053	17:33:00	17:33:00		Armii Krajowej szpital 10 nż
+1961	4	212053	17:35:00	17:35:00		Lwowska szpital 06
+1961	4	212053	17:35:00	17:35:00		Lwowska szpital 06
+1961	4	212053	17:37:00	17:37:00		Cienista / Lwowska 02 nż
+1961	4	212053	17:37:00	17:37:00		Cienista / Lwowska 02 nż
+1961	4	212053	17:38:00	17:38:00		Cienista cmentarz 04
+1961	4	212053	17:38:00	17:38:00		Cienista cmentarz 04
+
+1913	4	215849	17:40:00	17:40:00		Cienista cmentarz 01
+1913	4	215849	17:40:00	17:40:00		Cienista cmentarz 01
+1913	4	215849	17:41:00	17:41:00		Lwowska / Cienista 07 nż
+1913	4	215849	17:41:00	17:41:00		Lwowska / Cienista 07 nż
+1913	4	215849	17:43:00	17:43:00		Lwowska szpital 05
+1913	4	215849	17:43:00	17:43:00		Lwowska szpital 05
+1913	4	215849	17:46:00	17:46:00		Armii Krajowej kościół 09 nż
+1913	4	215849	17:46:00	17:46:00		Armii Krajowej kościół 09 nż
+1913	4	215849	17:47:00	17:47:00		Niepodległości / Armii Krajowej 05
+1913	4	215849	17:47:00	17:47:00		Niepodległości / Armii Krajowej 05
+1913	4	215849	17:48:00	17:48:00		Niepodległości / Mieszka I 03 nż
+1913	4	215849	17:48:00	17:48:00		Niepodległości / Mieszka I 03 nż
+1913	4	215849	17:49:00	17:49:00		Niepodległości dom dziecka 01 nż
+1913	4	215849	17:49:00	17:49:00		Niepodległości dom dziecka 01 nż
+1913	4	215849	17:51:00	17:51:00		Rejtana uniwersytet 06
+1913	4	215849	17:51:00	17:51:00		Rejtana uniwersytet 06
+1913	4	215849	17:52:00	17:52:00		Rejtana cmentarz 04 nż
+1913	4	215849	17:52:00	17:52:00		Rejtana cmentarz 04 nż
+1913	4	215849	17:53:00	17:53:00		Rejtana / Kustronia 02
+1913	4	215849	17:53:00	17:53:00		Rejtana / Kustronia 02
+1913	4	215849	17:55:00	17:55:00		Piłsudskiego ZDZ 02
+1913	4	215849	17:55:00	17:55:00		Piłsudskiego ZDZ 02
+1913	4	215849	17:57:00	17:57:00		Pl. Wolności 04
+1913	4	215849	17:57:00	17:57:00		Pl. Wolności 04
+1913	4	215849	18:00:00	18:00:00		Piłsudskiego U. Marszałkowski 08
+1913	4	215849	18:00:00	18:00:00		Piłsudskiego U. Marszałkowski 08
+1913	4	215849	18:02:00	18:02:00		Krakowska jedn. wojskowa 02
+1913	4	215849	18:02:00	18:02:00		Krakowska jedn. wojskowa 02
+1913	4	215849	18:04:00	18:04:00		Krakowska szpital 04
+1913	4	215849	18:04:00	18:04:00		Krakowska szpital 04
+1913	4	215849	18:05:00	18:05:00		Krakowska galeria 06
+1913	4	215849	18:05:00	18:05:00		Krakowska galeria 06
+1913	4	215849	18:07:00	18:07:00		Ofiar Katynia galeria 06
+1913	4	215849	18:07:00	18:07:00		Ofiar Katynia galeria 06
+1913	4	215849	18:08:00	18:08:00		Kotuli / Ustrzycka 02 nż
+1913	4	215849	18:08:00	18:08:00		Kotuli / Ustrzycka 02 nż
+1913	4	215849	18:09:00	18:09:00		Kotuli domki 04 nż
+1913	4	215849	18:09:00	18:09:00		Kotuli domki 04 nż
+1913	4	215849	18:11:00	18:11:00		Bł. Karoliny / Strzyżowska 02 nż
+1913	4	215849	18:11:00	18:11:00		Bł. Karoliny / Strzyżowska 02 nż
+1913	4	215849	18:12:00	18:12:00		Bł. Karoliny / Sanocka 04 nż
+1913	4	215849	18:12:00	18:12:00		Bł. Karoliny / Sanocka 04 nż
+1913	4	215849	18:14:00	18:14:00		Bł. Karoliny przedszkole 06
+1913	4	215849	18:14:00	18:14:00		Bł. Karoliny przedszkole 06
+1913	4	215849	18:15:00	18:15:00		Odrzykońska / Bł. Karoliny 02 nż
+1913	4	215849	18:15:00	18:15:00		Odrzykońska / Bł. Karoliny 02 nż
+1913	4	215849	18:16:00	18:16:00		Odrzykońska / Baligrodzka 04 nż
+1913	4	215849	18:16:00	18:16:00		Odrzykońska / Baligrodzka 04 nż
+1913	4	215849	18:17:00	18:17:00		Iwonicka / Korczyńska 02 nż
+1913	4	215849	18:17:00	18:17:00		Iwonicka / Korczyńska 02 nż
+1913	4	215849	18:18:00	18:18:00		Baligrodzka 01
+1913	4	215849	18:18:00	18:18:00		Baligrodzka 01

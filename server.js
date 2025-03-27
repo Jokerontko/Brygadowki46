@@ -267,21 +267,6 @@ async function processDirectoriesZapowiedz(basePath1) {
     return results;
 }
 
-
-// Endpoint to fetch data DLA NOWEGO ROZKŁADU ZAPOWIEDZI
-app.get('/api/dataZapowiedz', async (req, res) => {
-    try {
-        const brygadaNumber = req.query.brygada || '1'; // Default to 1 if not provided
-        const dataPath = path.join(__dirname, 'Brygady_Zapowiedz', 'WYNIKI', 'Gotowe_brygady', brygadaNumber);
-        console.log(`Pobieram dane z: ${dataPath}`);
-        const data = await processDirectories(dataPath);
-        res.json(data);
-    } catch (error) {
-        console.error('Błąd serwera:', error);
-        res.status(500).send('Błąd serwera: ' + error.message);
-    }
-});
-
 // Endpoint to fetch data dla rozkładu Cmentarne
 app.get('/api/dataCMENTARNE', async (req, res) => {
     try {
@@ -331,6 +316,20 @@ app.get('/api/data', async (req, res) => {
     try {
         const brygadaNumber = req.query.brygada || '1'; // Default to 1 if not provided
         const dataPath = path.join(__dirname, 'Brygady', 'WYNIKI', 'Gotowe_brygady', brygadaNumber);
+        console.log(`Pobieram dane z: ${dataPath}`);
+        const data = await processDirectories(dataPath);
+        res.json(data);
+    } catch (error) {
+        console.error('Błąd serwera:', error);
+        res.status(500).send('Błąd serwera: ' + error.message);
+    }
+});
+
+// Endpoint to fetch data
+app.get('/api/dataZapowiedz', async (req, res) => {
+    try {
+        const brygadaNumber = req.query.brygada || '1'; // Default to 1 if not provided
+        const dataPath = path.join(__dirname, 'Brygady_Zmiany', 'WYNIKI', 'Gotowe_brygady', brygadaNumber);
         console.log(`Pobieram dane z: ${dataPath}`);
         const data = await processDirectories(dataPath);
         res.json(data);
