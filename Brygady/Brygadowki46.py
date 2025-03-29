@@ -267,6 +267,9 @@ def WczytajBrygady():
                     
         
         
+import os
+import re
+
 def natural_sort_key(text):
     # Funkcja pomocnicza do naturalnego sortowania, dzieli tekst na część tekstową i numeryczną
     return [int(text_part) if text_part.isdigit() else text_part.lower() for text_part in re.split('([0-9]+)', text)]
@@ -313,7 +316,14 @@ def StwórzLinietxt():
                     for numer in sorted_numer_linii:
                         l_file.write(numer + '\n')
 
+                # Sprawdzanie, czy istnieje plik 'rezerwa.txt' w danym folderze
+                rezerwa_file = os.path.join(subdir, 'rezerwa.txt')
+                if os.path.exists(rezerwa_file):
+                    with open(linie_file, 'a', encoding='utf-8') as l_file:
+                        l_file.write("Rez\n")
+
     clear_screen()
+
 
 
 
@@ -1707,6 +1717,9 @@ def RezerwaList():
 
     print("Operacja zakończona.")
 
+import os
+from datetime import datetime, timedelta
+
 def calculate_time_difference(start_time, end_time):
     fmt = "%H:%M"
     try:
@@ -1714,7 +1727,7 @@ def calculate_time_difference(start_time, end_time):
 
         end_parts = end_time.split(':')
         if int(end_parts[0]) >= 24:
-            end_time = f"{int(end_parts[0]) - 24}:{end_parts[1]}"
+            end_time = f"{(int(end_parts[0]) - 24):02}:{end_parts[1]}"  # Zapewnia poprawny format "01:30"
 
         end = datetime.strptime(end_time, fmt)
 
@@ -1753,45 +1766,46 @@ def ZaproponujBrygadyBIS():
             for folder in os.listdir(base_path):
                 folder_path = os.path.join(base_path, folder)
                 if os.path.isdir(folder_path):
-                    folder = folder.replace("_", "/")
-                    print(f"📂 Przetwarzanie folderu: {folder}")
+                    folder_formatted = folder.replace("_", "/")
+                    print(f"📂 Przetwarzanie folderu: {folder_formatted}")
 
                     start_file = os.path.join(folder_path, "Godz_Rozp.txt")
                     end_file = os.path.join(folder_path, "Godz_Zak.txt")
 
                     if os.path.exists(start_file) and os.path.exists(end_file):
-                        print(f"✅ Pliki znalezione w {folder}")
+                        print(f"✅ Pliki znalezione w {folder_formatted}")
 
                         with open(start_file, "r", encoding="utf-8") as sf, open(end_file, "r", encoding="utf-8") as ef:
                             start_time = sf.read().strip()
                             end_time = ef.read().strip()
 
                             time_diff = calculate_time_difference(start_time, end_time)
+                            if time_diff is None:
+                                continue
 
-                            if time_diff is not None:
-                                found_any = True
-                                if time_diff < 10:
-                                    out_file.write(f"{folder}\tJZ\n")
-                                elif time_diff > 10:
-                                    # Sprawdzenie pliku CzyBIS.txt i jego zawartości
-                                    bis_file_path = os.path.join(folder_path, "CzyBIS.txt")
-                                    if os.path.exists(bis_file_path):
-                                        with open(bis_file_path, "r", encoding="utf-8") as bis_file:
-                                            if "Tak" in bis_file.read():
-                                                out_file.write(f"{folder}\tB\n")                                  
-                                    else:
-                                        out_file.write(f"{folder}\tX\n")
-
-
-
-
+                            found_any = True
+                            if time_diff < 10:
+                                if int(start_time.split(":")[0]) >= 20 and time_diff < 10:
+                                    out_file.write(f"{folder_formatted}\tJZN\n")
+                                else:
+                                    out_file.write(f"{folder_formatted}\tJZ\n")
+                            elif time_diff > 10:
+                                bis_file_path = os.path.join(folder_path, "CzyBIS.txt")
+                                if os.path.exists(bis_file_path):
+                                    with open(bis_file_path, "r", encoding="utf-8") as bis_file:
+                                        if "Tak" in bis_file.read().strip():
+                                            out_file.write(f"{folder_formatted}\tB\n")
+                                        
+                                else:
+                                    out_file.write(f"{folder_formatted}\tX\n")
                     else:
-                        print(f"⚠️ Brak wymaganych plików w {folder}!")
+                        print(f"⚠️ Brak wymaganych plików w {folder_formatted}!")
 
             if not found_any:
                 print("❌ Nie znaleziono żadnych folderów z poprawnymi danymi.")
 
     print("✅ Zakończono działanie skryptu.")
+
 
 
 
@@ -1996,6 +2010,156 @@ def SprawdzPozmieniaj():
     
       
       
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+import os
+import re
+from datetime import datetime, timedelta
+
+def find_stop_name_for_end(end_time, output_dir):
+    """ Funkcja do szukania stop_name w pliku 'PierwotneGotowe.txt' w danym folderze """
+    pierwotne_file_path = os.path.join(output_dir, "PierwotneGotowe.txt")
+    
+    if not os.path.exists(pierwotne_file_path):
+        print(f"Plik {pierwotne_file_path} nie istnieje.")
+        return None
+    
+    with open(pierwotne_file_path, "r", encoding="utf-8") as file:
+        lines = file.readlines()
+    
+    lines = lines[2:]
+
+    for line in lines:
+        if line.strip() == "":
+            continue
+        
+        match = re.match(r"(\S+)\t(\S+)\t(\S+)\t(\S+:\S+:\S+)\t(\S+:\S+:\S+)\t(.*)\t(.*)", line)
+        if match:
+            _, _, _, arrival_time, _, _, stop_name = match.groups()
+            
+            end_time_without_seconds = end_time.strip()[:5]  # HH:MM
+            arrival_time_without_seconds = arrival_time[:5]  # HH:MM
+            
+            if end_time_without_seconds == arrival_time_without_seconds:
+                return stop_name
+    
+    print(f"Nie znaleziono stop_name dla godziny: {end_time}")
+    return None
+
+def subtract_one_minute(time_str):
+    time_obj = datetime.strptime(time_str, "%H:%M")
+    new_time_obj = time_obj - timedelta(minutes=1)
+    return new_time_obj.strftime("%H:%M")
+
+def time_difference_in_hours(start_time, end_time):
+    start_obj = datetime.strptime(start_time, "%H:%M")
+    end_obj = datetime.strptime(end_time, "%H:%M")
+    difference = end_obj - start_obj
+    return difference.total_seconds() / 3600
+
+def UtworzGodzPodmiany():
+    for folder in ["1", "2", "3", "4"]:
+        input_path = f"WYNIKI/Gotowe_brygady/{folder}/PodmianyStronaKierowców.txt"
+        print(f"Sprawdzanie pliku: {input_path}")
+        
+        if not os.path.exists(input_path):
+            print(f"Plik {input_path} nie istnieje.")
+            continue
+        
+        with open(input_path, "r", encoding="utf-8") as file:
+            lines = file.readlines()
+        
+        print(f"Wczytano {len(lines)} linijek z pliku w folderze {folder}.")
+        
+        for i, line in enumerate(lines):
+            print(f"Przetwarzanie linii: {line.strip()}")
+            match = re.match(r"(\S+)\t(\d{1,2}:\d{2}) - (\d{1,2}:\d{2})", line)
+            if match:
+                sluzba, start, end = match.groups()
+                print(f"Rozpoznana służba: {sluzba}, Start: {start}, Koniec: {end}")
+                
+                if sluzba.endswith("B") or not sluzba.endswith("A"):
+                    print(f"Pominięto służbę: {sluzba}")
+                    continue
+
+                time_diff = time_difference_in_hours(start, end)
+                if time_diff < 6:
+                    print(f"Różnica godzin dla służby {sluzba} jest mniejsza niż 6 godziny ({time_diff:.2f} godz.). Pomijam tę służbę.")
+                    continue
+                
+                output_dir = f"WYNIKI/Gotowe_brygady/{folder}/{sluzba[:-1].replace('/', '_')}"
+                os.makedirs(output_dir, exist_ok=True)
+                
+                if i + 1 < len(lines):
+                    next_match = re.match(r"(\S+)\t(\d{1,2}:\d{2}) - (\d{1,2}:\d{2})", lines[i + 1])
+                    if next_match:
+                        next_start = next_match.group(2)
+                        if end != next_start:
+                            print(f"Koniec ({end}) nie pasuje do początku następnej służby ({next_start}). Tworzenie plików informacyjnych.")
+                            with open(os.path.join(output_dir, "zakonczenieA.txt"), "w", encoding="utf-8") as file:
+                                file.write(f"Lubelska Zajezdnia MPK \t {end}\n")
+                            with open(os.path.join(output_dir, "rozpoczecieB.txt"), "w", encoding="utf-8") as file:
+                                file.write(f"Lubelska Zajezdnia MPK \t {next_start}\n")
+                            continue
+                
+                original_end = end  
+                stop_name = find_stop_name_for_end(end, output_dir)
+                
+                while stop_name is None:
+                    print(f"Nie znaleziono stop_name dla godziny: {end}. Próbuję dla godziny wcześniejszej.")
+                    end = subtract_one_minute(end)  
+                    stop_name = find_stop_name_for_end(end, output_dir)
+                
+                output_path = os.path.join(output_dir, "podmiana.txt")
+                with open(output_path, "w", encoding="utf-8") as out_file:
+                    out_file.write(f"{stop_name}\t{original_end}\t{end}\n")
+                
+                print(f"Utworzono {output_path}")
+    
+    input("Naciśnij Enter, aby zakończyć...")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
       
       
 def menu():
@@ -2018,6 +2182,7 @@ def menu():
         print("14. Utwórz plik zbiorczy Kursy") 
         print("15 - TESTY POZMIENIAJ")
         print("16 - TESTY SPRAWDŹ PODMIENIAJ CZY SĄ INNE WARTOŚCI NIZ 1234")
+        print("17 - TESTOWANKO utwórz liste podmian automatycznie")
         print("")
         print("20. Brygady + Numeracja + Nazwanie + Linie + Godziny + GOTOWE.txt + Wyznacz bb + Wczytaj bb + Plik Zbiorczy Kursy")
         print("================================")
@@ -2085,7 +2250,10 @@ def menu():
             input("Gotowe.")    
         elif wybor == "16":
             SprawdzPozmieniaj()
-            input("Gotowe.")               
+            input("Gotowe.")   
+        elif wybor == '17':
+            UtworzGodzPodmiany()
+            input("Gotowe.")   
         elif wybor == "20":
             WczytajBrygady()            
             WczytajNumeracje()

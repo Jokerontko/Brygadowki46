@@ -565,6 +565,34 @@
 
 
 
+        document.addEventListener("DOMContentLoaded", function() {
+            const spanElement = document.getElementById("waznyOd");
+
+            if (spanElement) {
+                // Poczekaj, aż treść spana się załaduje (np. z backendu)
+                const observer = new MutationObserver(() => {
+                    let dateString = spanElement.textContent.trim();
+                    let dateParts = dateString.split("/");
+
+                    if (dateParts.length === 3) {
+                        let spanDate = new Date(dateParts[2], dateParts[1] - 1, dateParts[0]); // DD/MM/YYYY
+                        let currentDate = new Date();
+                        currentDate.setHours(0, 0, 0, 0);
+
+                        if (spanDate > currentDate) {
+                            spanElement.style.backgroundColor = "red";
+                            spanElement.style.color = "white";
+                        }
+                    }
+                });
+
+                observer.observe(spanElement, {
+                    childList: true
+                });
+            }
+        });
+
+
 
 
 

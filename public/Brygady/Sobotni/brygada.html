@@ -1043,24 +1043,34 @@
                 }
 
                 if (currentTime && nextTime && isBetween(godzinaZakonczenieA, currentTime, nextTime)) {
-                    // Create and insert the additional row
+                    // Pierwszy wiersz - bez zmian
                     const extraRow = document.createElement("tr");
                     extraRow.innerHTML =
                         `<td colspan="9" id="PodmianaWIERSZ" style="background-color: rgb(163, 120, 0);">
-                     Zjazd Do Zajezdni 
-                </td>`;
+            Zjazd Do Zajezdni 
+        </td>`;
                     tableBody.insertBefore(extraRow, nextRow); // Insert before the next row
 
-                    // Create the new row
+                    // Wiersz podmiany - bez zmian
                     const newRow = document.createElement("tr");
                     newRow.innerHTML =
-                        `<td colspan="9" style="text-align: center; font-size: 15px; padding: 3px;" id="PodmianaBAZA">
-                    <strong> Podmiana: ${przystanekZakonczenieA} </strong><br>
-                    Zakończenie A: <strong> ${godzinaZakonczenieA} </strong> | Rozpoczęcie B: <strong> ${godzinaRozpoczeciaB} </strong>
-                </td>`;
+                        `<td colspan="9" style="text-align: center; font-size: 15px; padding: 3px; " id="PodmianaBAZA">
+            <strong> Podmiana: ${przystanekZakonczenieA} </strong><br>
+            Zakończenie A: <strong> ${godzinaZakonczenieA} </strong> | Rozpoczęcie B: <strong> ${godzinaRozpoczeciaB} </strong>
+        </td>`;
                     tableBody.insertBefore(newRow, nextRow);
+
+                    // Drugi wiersz "Zjazd do zajezdni" - dodatkowy, pod podmianą
+                    const extraRow2 = document.createElement("tr");
+                    extraRow2.innerHTML =
+                        `<td colspan="9" id="PodmianaWIERSZ_DODATKOWY" style="background-color: rgb(163, 120, 0);">
+            Wyjazd na linię 
+        </td>`;
+                    tableBody.insertBefore(extraRow2, nextRow);
+
                     break;
                 }
+
             }
         }
 
@@ -1548,11 +1558,16 @@
 
 
 
+
+
+
+
         // Główna funkcja init()
         async function init() {
             checkLogin();
             loadBrygadaTitle();
             loadBrygadaType();
+
 
             let lines = await fetchGOTOWEFile();
             if (lines) {
