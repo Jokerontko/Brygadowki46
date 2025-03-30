@@ -8,7 +8,7 @@
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="0">
-    <meta http-equiv="refresh" content="46">
+
     <title>Szczegóły brygady</title>
     <style>
         body {
@@ -202,9 +202,6 @@
                     tableBody.appendChild(row);
                 }
             }
-
-            // Sprawdzamy aktualny czas po załadowaniu tabeli
-            checkCurrentTimeAgainstTable();
         }
 
 
@@ -218,25 +215,31 @@
             return currentFormattedTime === targetTime;
         }
 
-        // Funkcja iteruje przez tabelę, wyróżnia aktualną godzinę lub najbliższą wcześniejszą
         function checkCurrentTimeAgainstTable() {
             const tableRows = document.querySelectorAll("#dane-tabeli tr");
             let rowHighlighted = false;
             let closestRow = null;
             let closestTimeDiff = Number.MAX_SAFE_INTEGER;
 
+            // Usunięcie dodanych komunikatów o następnym przystanku
+            document.querySelectorAll(".blink").forEach(el => el.parentElement.remove());
+
+            // Resetowanie wszystkich podświetleń
+            tableRows.forEach((row) => {
+                row.style.backgroundColor = "";
+            });
+
             tableRows.forEach((row) => {
                 const timeCell = row.querySelector("td:nth-child(3)");
                 const targetTime = timeCell.textContent.trim();
 
-                // Sprawdzamy, czy targetTime jest null lub pusty, jeśli tak, przerywamy działanie
                 if (!targetTime || targetTime === "N/A") {
                     console.warn("Wartość targetTime jest null lub N/A, przerywanie działania funkcji.");
                     return;
                 }
 
                 if (isCurrentTimeEqualToTarget(targetTime)) {
-                    row.style.backgroundColor = "rgba(96, 96, 96)"; // Kolor dla aktualnego czasu
+                    row.style.backgroundColor = "rgba(96, 96, 96)";
                     rowHighlighted = true;
                 } else {
                     const [targetHours, targetMinutes] = targetTime.split(":").map(Number);
@@ -252,24 +255,22 @@
                     }
                 }
             });
+
             const isLastRow = tableRows.length > 0 && tableRows[tableRows.length - 1] === closestRow;
 
-            // Jeśli nie wyróżniono aktualnego czasu, a znaleziono najbliższą wcześniejszą godzinę
             if (!rowHighlighted && closestRow && !isLastRow) {
-                // Pobieramy nazwę przystanku z komórki w wierszu poniżej
                 const nextRow = closestRow.nextElementSibling;
                 const nextstop = nextRow ? nextRow.querySelector("td:nth-child(2)").textContent.trim() : "brak informacji";
 
-                // Dodajemy nowy wiersz z informacją o następnym przystanku
                 const hejRow = document.createElement("tr");
                 hejRow.innerHTML = `
-            <td class="blink" style="text-align: center; background-color: rgba(66, 66, 66); font-size: 12px; padding: 5px;"></td>
-            <td class="blink" style="text-align: center; background-color: rgba(66, 66, 66); font-size: 12px; padding: 5px;">
-                Pojazd jest w drodze na przystanek <br> <strong> ${nextstop} </strong>
-            </td>
-            <td class="blink" style="text-align: center; background-color: rgba(66, 66, 66); font-size: 12px; padding: 5px;"></td>
-            <td class="blink" style="text-align: center; background-color: rgba(66, 66, 66); font-size: 12px; padding: 5px;"></td>
-            `;
+        <td class="blink" style="text-align: center; background-color: rgba(66, 66, 66); font-size: 12px; padding: 5px;"></td>
+        <td class="blink" style="text-align: center; background-color: rgba(66, 66, 66); font-size: 12px; padding: 5px;">
+            Pojazd jest w drodze na przystanek <br> <strong> ${nextstop} </strong>
+        </td>
+        <td class="blink" style="text-align: center; background-color: rgba(66, 66, 66); font-size: 12px; padding: 5px;"></td>
+        <td class="blink" style="text-align: center; background-color: rgba(66, 66, 66); font-size: 12px; padding: 5px;"></td>
+        `;
                 closestRow.insertAdjacentElement('afterend', hejRow);
             }
         }
@@ -285,6 +286,8 @@
             } else {
                 console.error("Nie udało się wczytać pliku.");
             }
+            checkCurrentTimeAgainstTable();
+            setInterval(checkCurrentTimeAgainstTable, 1000);
         }
 
         window.onload = init;

@@ -144,19 +144,15 @@
     <script>
         async function fetchAndDisplayData() {
             try {
-
                 function getFolderName() {
-                    // Użyj lokalizacji do uzyskania ścieżki
                     const path = window.location.pathname;
                     const folderName = path.substring(0, path.lastIndexOf('/')).split('/').pop();
                     return folderName;
                 }
-                // Pobierz nazwę folderu z lokalnego katalogu HTML
-                const folderName = getFolderName();
 
+                const folderName = getFolderName();
                 let filePath = '';
 
-                // Określenie ścieżki do pliku w zależności od folderu
                 if (folderName === 'Niedzielny') {
                     filePath = '../../Brygady/WYNIKI/Gotowe_brygady/1/Rezerwa_list.txt';
                 } else if (folderName === 'Powszedni') {
@@ -171,41 +167,22 @@
 
                 const response = await fetch(filePath);
                 const data = await response.text();
-
                 const rows = data.split('\n');
                 const tableBody = document.getElementById('dataTableBody');
 
                 rows.forEach((row, index) => {
                     if (row.trim()) {
                         const columns = row.split('\t');
-
                         if (columns.length === 3) {
                             const tr = document.createElement('tr');
-
-                            // Tworzymy pierwszą komórkę - Lp.
                             const tdLp = document.createElement('td');
-                            tdLp.textContent = index + 1; // Lp. zaczyna się od 1
+                            tdLp.textContent = index + 1;
                             tr.appendChild(tdLp);
-
-                            // Pozostałe kolumny
-                            columns.forEach((column, colIndex) => {
+                            columns.forEach(column => {
                                 const td = document.createElement('td');
                                 td.textContent = column.trim();
                                 tr.appendChild(td);
-
-                                // Sprawdzanie, czy godzina z kolumny jest zgodna z aktualną godziną
-                                if (colIndex === 3) { // Jeśli to jest "Godzina"
-                                    const currentTime = new Date().toLocaleTimeString([], {
-                                        hour: '2-digit',
-                                        minute: '2-digit'
-                                    });
-                                    if (currentTime === column.trim()) {
-                                        tr.style.backgroundColor = 'red'; // Ustawienie koloru tła na czerwony
-                                        return; // Przerwij dalsze iterowanie po tym wierszu, bo godzina się zgadza
-                                    }
-                                }
                             });
-
                             tableBody.appendChild(tr);
                         }
                     }
@@ -214,7 +191,39 @@
                 console.error('Błąd podczas odczytu pliku:', error);
             }
         }
-        window.addEventListener('DOMContentLoaded', fetchAndDisplayData);
+
+        function highlightActiveRows() {
+            const rows = document.querySelectorAll("#dataTableBody tr");
+            const now = new Date();
+            const currentTime = now.getHours() * 60 + now.getMinutes();
+
+            rows.forEach(row => {
+                const startTimeText = row.cells[2].textContent.trim();
+                const endTimeText = row.cells[3].textContent.trim();
+
+                if (startTimeText && endTimeText) {
+                    const [startHours, startMinutes] = startTimeText.split(":").map(Number);
+                    const [endHours, endMinutes] = endTimeText.split(":").map(Number);
+
+                    const startTime = startHours * 60 + startMinutes;
+                    const endTime = endHours * 60 + endMinutes;
+
+                    if (currentTime >= startTime && currentTime <= endTime) {
+                        row.style.backgroundColor = "grey";
+                    } else {
+                        row.style.backgroundColor = "";
+                    }
+                }
+            });
+        }
+
+        async function init() {
+            await fetchAndDisplayData();
+            highlightActiveRows();
+            setInterval(highlightActiveRows, 45000);
+        }
+
+        window.addEventListener("DOMContentLoaded", init);
 
     </script>
 

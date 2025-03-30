@@ -133,6 +133,61 @@
             animation: blinkbrake 2s infinite;
         }
 
+        .BrakeDetected {
+            color: white;
+            pointer-events: visible;
+        }
+
+        .NoBrakeDetected {
+            color: grey;
+            pointer-events: none;
+        }
+
+        .PodmianaDetected {
+            color: white;
+            pointer-events: visible;
+        }
+
+        .NoPodmianaDetected {
+            color: grey;
+            pointer-events: none;
+        }
+
+        .highlightButton {
+            color: white;
+            pointer-events: visible;
+        }
+
+        .NohighlightButton {
+            color: grey;
+            pointer-events: none;
+        }
+
+        .PTDetected {
+            color: white;
+            pointer-events: visible;
+        }
+
+        .NoPTDetected {
+            color: grey;
+            pointer-events: none;
+        }
+
+        .buttons a {
+            width: 170px;
+            text-align: center;
+        }
+
+        .WNLZDZDetected {
+            color: white;
+            pointer-events: visible;
+        }
+
+        .NoWNLZDZDetected {
+            color: grey;
+            pointer-events: none;
+        }
+
     </style>
 </head>
 
@@ -147,8 +202,20 @@
 
     <h1 id="brygadaTitle">Brygada</h1>
     <h3 id="brygadaType">Typ</h3>
+    <div class="buttons">
+        <a href="#" class="menu" id="highlightButton">Wyróżnij linie</a>
+        <a href="#" class="menu" id="highlitghtedButton">Wyłącz podświetlenie</a>
+        <br>
+        <a href="#" class="menu" id="przerwaButton">Ukryj przerwę</a>
+        <a href="#" class="menu" id="podmianaButton">Ukryj podmianę</a>
+        <br>
+        <a href="#" class="menu" id="PTButton">Ukryj PT</a>
+        <a href="#" class="menu" id="WNLZDZButton">Ukryj WNL i ZDZ</a>
+        <br>
+    </div>
+    <a href="#" class="menu PrzerwaBisowa" id="PBButton" style="display: none;">Ukryj Przerwę Bisową</a>
 
-    <a href="#" class="menu" id="highlightButton">Wyróżnij linie</a>
+
 
     <table id="wykazbrygady">
         <thead>
@@ -157,7 +224,7 @@
                 <th>Godz. Rozp.</th>
                 <th>Godz. Zak.</th>
                 <th>Czas</th>
-                <th>Km</th>
+                <th style="display: none;">Km</th>
             </tr>
         </thead>
         <tbody id="dane-wykaz">
@@ -179,7 +246,7 @@
                 <th>Godz. Rozp.</th>
                 <th>Godz. Zak.</th>
                 <th>Czas trwania</th>
-                <th>Km</th>
+                <th style="display: none;">Km</th>
                 <th class="hide">Kod Trasy</th>
                 <th class="hide">Kod Linii</th>
             </tr>
@@ -369,6 +436,8 @@
                     // If current time is between start and end time, highlight the row
                     if (isCurrentTimeBetween(startTime, endTime)) {
                         row.style.backgroundColor = "rgb(75, 75, 75)";
+                        row.classList.add("HighlitghtedRow");
+
                         anyHighlighted = true; // If any row is highlighted, set the flag
                     } else {
                         row.style.backgroundColor = ""; // Reset the background if not in range
@@ -534,7 +603,7 @@
              <td>${startTime}</td>
              <td>${endTime}</td>
              <td>${durationFormatted}</td>
-             <td>N/A</td>
+             <td style="display: none;">N/A</td>
              <td class="hide">${tripId}</td>
              <td class="hide">${currentRouteId}</td>`;
 
@@ -573,7 +642,7 @@
 <td>${godzRozpConv}</td>
 <td>${godzZakConv}</td>
 <td>${rezerwatime}</td>
-<td>N/A</td>`;
+<td style="display: none;">N/A</td>`;
 
                     tableBody.appendChild(row);
 
@@ -606,7 +675,7 @@
              <td>${startTime}</td>
              <td>${endTime}</td>
              <td>${duration}</td>
-             <td>N/A</td>
+             <td style="display: none;">N/A</td>
              <td class="hide">${tripId}</td>`;
                 tableBody.appendChild(row);
                 lp++;
@@ -723,7 +792,7 @@
             });
 
             isHighlighted = true;
-            document.getElementById("highlightButton").innerText = "Przestań wyróżniać linie"; // Zmień tekst przycisku
+            document.getElementById("highlightButton").innerText = "Nie wyróżniaj linii"; // Zmień tekst przycisku
         }
 
         // Dodanie nasłuchu kliknięcia na przycisk "Wyróżnij linie"
@@ -737,84 +806,81 @@
         // Funkcja globalna: Dodawanie wiersza na podstawie warunku
         function checkAndAddRow() {
             const brygadaType = sessionStorage.getItem("BrygadaType");
+            const tabelaWykaz = document.querySelector("#wykazbrygady #dane-wykaz");
+            const tabelaRozklad = document.querySelector("#rozkładTable #dane-tabeli");
 
+            if (!tabelaWykaz || !tabelaRozklad) {
+                console.error("Nie znaleziono jednej z wymaganych tabel.");
+                return;
+            }
+
+            logTableContent(tabelaRozklad);
+
+            const godzRozp = findFirstAvailableStartTime(tabelaRozklad);
+            const godzZak = findLatestEndTime(tabelaRozklad);
+
+            if (!godzRozp || !godzZak) {
+                console.error("Nie znaleziono wartości w kolumnach 'Godz. Rozp.' lub 'Godz. Zak.' w tabeli rozkładTable.");
+                return;
+            }
 
             if (brygadaType === "Brygada Jednozmianowa" || brygadaType === "Brygada Nocna Jednozmianowa") {
-                const tabelaWykaz = document.querySelector("#wykazbrygady #dane-wykaz");
-                const tabelaRozklad = document.querySelector("#rozkładTable #dane-tabeli");
-
-                if (!tabelaWykaz || !tabelaRozklad) {
-                    console.error("Nie znaleziono jednej z wymaganych tabel.");
-                    return;
-                }
-
-                logTableContent(tabelaRozklad); // Dodane dla diagnostyki
-
-                const godzRozp = findFirstAvailableStartTime(tabelaRozklad);
-                const godzZak = findLatestEndTime(tabelaRozklad);
-                if (!godzRozp || !godzZak) {
-                    console.error("Nie znaleziono wartości w kolumnach 'Godz. Rozp.' lub 'Godz. Zak.' w tabeli rozkładTable.");
-                    return;
-                }
-
                 const roznica = calculateTimeDifference(godzRozp, godzZak);
-
-                const newRow = document.createElement("tr");
-                newRow.innerHTML = `
-            <td>A</td>
-            <td>${godzRozp}</td>
-            <td>${godzZak}</td>
-            <td>${roznica}</td>
-            <td>N/A</td>
-        `;
-
-                tabelaWykaz.appendChild(newRow);
-            } else if (brygadaType === "Brygada Dwuzmianowa" || brygadaType === "Brygada Szczytowa") {
+                tabelaWykaz.appendChild(createRow("A", godzRozp, godzZak, roznica));
+            } else if (brygadaType === "Brygada Dwuzmianowa") {
                 const savedpodmiana = sessionStorage.getItem('godzina');
-                const tabelaWykaz = document.querySelector("#wykazbrygady #dane-wykaz");
-                const tabelaRozklad = document.querySelector("#rozkładTable #dane-tabeli");
+                if (savedpodmiana) {
+                    const roznicaA = calculateTimeDifference(godzRozp, savedpodmiana);
+                    const roznicaB = calculateTimeDifference(savedpodmiana, godzZak);
 
-                if (!tabelaWykaz || !tabelaRozklad) {
-                    console.error("Nie znaleziono jednej z wymaganych tabel.");
-                    return;
+                    tabelaWykaz.appendChild(createRow("A", godzRozp, savedpodmiana, roznicaA));
+                    tabelaWykaz.appendChild(createRow("B", savedpodmiana, godzZak, roznicaB));
+                } else {
+                    const ZakonczenieA = sessionStorage.getItem('godzinaZakonczenieA');
+                    const RozpoczecieB = sessionStorage.getItem('godzinaRozpoczeciaB');
+
+                    if (!ZakonczenieA || !RozpoczecieB) {
+                        console.error("Brak wartości dla ZakonczenieA lub RozpoczecieB w sessionStorage.");
+                        return;
+                    }
+
+                    const roznicaA = calculateTimeDifference(godzRozp, ZakonczenieA);
+                    const roznicaB = calculateTimeDifference(RozpoczecieB, godzZak);
+
+                    tabelaWykaz.appendChild(createRow("A", godzRozp, ZakonczenieA, roznicaA));
+                    tabelaWykaz.appendChild(createRow("B", RozpoczecieB, godzZak, roznicaB));
                 }
-
-                logTableContent(tabelaRozklad); // Dodane dla diagnostyki
+            } else if (brygadaType === "Brygada Szczytowa") {
 
                 const godzRozp = findFirstAvailableStartTime(tabelaRozklad);
                 const godzZak = findLatestEndTime(tabelaRozklad);
-                if (!godzRozp || !godzZak) {
-                    console.error("Nie znaleziono wartości w kolumnach 'Godz. Rozp.' lub 'Godz. Zak.' w tabeli rozkładTable.");
+                const ZakPrzedPrzerwa = sessionStorage.getItem("NajdluzszaPrzerwa_GodzZak");
+                const RozpPoPrzerwa = sessionStorage.getItem("godz_rozp_przerwa");
+
+
+                if (!godzRozp || !godzZak || !ZakPrzedPrzerwa || !RozpPoPrzerwa) {
+                    console.error("Brak wartości w sessionStorage dla jednej z wymaganych zmiennych.");
                     return;
                 }
+                const roznicaA = calculateTimeDifference(godzRozp, ZakPrzedPrzerwa);
+                const roznicaB = calculateTimeDifference(RozpPoPrzerwa, godzZak);
 
-                const roznicaA = calculateTimeDifference(godzRozp, savedpodmiana);
-                const roznicaB = calculateTimeDifference(savedpodmiana, godzZak);
-                const podmiana = 22;
-
-                function createRow(label, godzRozp, godzZak, roznicaA, roznicaB) {
-                    const row = document.createElement("tr");
-                    row.innerHTML = `
-<td>${label}</td>
-<td>${godzRozp}</td>
-<td>${godzZak}</td>
-<td>${roznicaA}</td>
-<td>N/A</td>
-`;
-                    return row;
-                }
-
-                // Tworzenie dwóch wierszy
-                const newRow1 = createRow("A", godzRozp, savedpodmiana, roznicaA);
-                const newRow2 = createRow("B", savedpodmiana, godzZak, roznicaB);
-
-                // Dodanie wierszy do tabeli
-                tabelaWykaz.appendChild(newRow1);
-                tabelaWykaz.appendChild(newRow2);
+                tabelaWykaz.appendChild(createRow("A", godzRozp, ZakPrzedPrzerwa, roznicaA));
+                tabelaWykaz.appendChild(createRow("B", RozpPoPrzerwa, godzZak, roznicaB));
             }
         }
 
-
+        function createRow(label, godzRozp, godzZak, roznica) {
+            const row = document.createElement("tr");
+            row.innerHTML = `
+        <td>${label}</td>
+        <td>${godzRozp}</td>
+        <td>${godzZak}</td>
+        <td>${roznica}</td>
+        <td style="display: none;">N/A</td>
+    `;
+            return row;
+        }
 
 
 
@@ -982,6 +1048,7 @@
         function processPodmianaFile(text) {
             const podmianaLines = text.split("\n").map(line => line.trim()).filter(line => line);
 
+
             let tableBody = document.querySelector("#rozkładTable tbody");
             if (!tableBody) {
                 console.error("Nie znaleziono tabeli z id 'rozkładTable'.");
@@ -1008,8 +1075,8 @@
                         sessionStorage.setItem('godzina', godzina);
                         const displayedTime = (godzina === currentTimeFormatted) ? "TERAZ" : godzina;
                         const newRow = document.createElement("tr");
-                        newRow.innerHTML = `<td colspan="9" style="text-align: center; font-size: 15px; padding: 3px;">
-            Podmiana: <strong>${przystanek}</strong> &nbsp;&nbsp; ${displayedTime}
+                        newRow.innerHTML = `<td colspan="9" style="text-align: center; font-size: 15px; padding: 3px;" class="podmiana">
+            Podmiana: &nbsp; <strong>${przystanek}</strong> &nbsp;&nbsp; ${displayedTime}
             </td>`;
 
                         if (godzina === currentTimeFormatted) {
@@ -1022,6 +1089,7 @@
                 }
             });
         }
+
 
         function insertRowAtCorrectPosition(przystanekZakonczenieA, godzinaZakonczenieA, przystanekRozpoczecieB, godzinaRozpoczeciaB) {
             let tableBody = document.querySelector("#rozkładTable tbody");
@@ -1059,6 +1127,9 @@
             Zakończenie A: <strong> ${godzinaZakonczenieA} </strong> | Rozpoczęcie B: <strong> ${godzinaRozpoczeciaB} </strong>
         </td>`;
                     tableBody.insertBefore(newRow, nextRow);
+
+                    sessionStorage.setItem("godzinaZakonczenieA", godzinaZakonczenieA);
+                    sessionStorage.setItem("godzinaRozpoczeciaB", godzinaRozpoczeciaB);
 
                     // Drugi wiersz "Zjazd do zajezdni" - dodatkowy, pod podmianą
                     const extraRow2 = document.createElement("tr");
@@ -1110,8 +1181,11 @@
             let maxGapIndex = -1;
             const brygadaType = sessionStorage.getItem("BrygadaType");
 
-
             if (brygadaType === "Brygada Szczytowa") {
+                document.querySelectorAll("a.PrzerwaBisowa").forEach(el => el.style.display = "");
+
+
+
 
                 // Funkcja pomocnicza do parsowania czasu (np. "14:30")
                 function parseTime(timeString) {
@@ -1147,6 +1221,11 @@
                     if (gap > maxGap) {
                         maxGap = gap;
                         maxGapIndex = i;
+
+                        sessionStorage.setItem("NajdluzszaPrzerwa_GodzZak", endTimeCurrent);
+                        sessionStorage.setItem("NajdluzszaPrzerwa_GodzRozp", startTimeNext); // Zapisz godz. rozpoczęcia
+
+                        console.log(endTimeCurrent);
                     }
                 }
 
@@ -1155,12 +1234,18 @@
                     const newRow = document.createElement("tr");
 
                     newRow.innerHTML =
-                        `<td colspan="9" style="text-align: center; background-color: purple;"> <strong> Przerwa bisowa </strong> (${Math.floor(maxGap / 60)}h ${maxGap % 60}min) </td>`;
+                        `<td colspan="9" class="PrzerwaBisowa" style="text-align: center; background-color: purple;"> <strong> Przerwa bisowa </strong> <br> (${Math.floor(maxGap / 60)}h ${maxGap % 60}min) </td>`;
                     // Wstaw nowy wiersz po wierszu, który ma największą różnicę
                     tableBody.insertBefore(newRow, rows[maxGapIndex + 1]);
+
+                    // Zapisz godzinę rozpoczęcia w sessionStorage po dodaniu wiersza
+                    const godzRozp = sessionStorage.getItem("NajdluzszaPrzerwa_GodzRozp");
+                    sessionStorage.setItem("godz_rozp_przerwa", godzRozp); // Zapisz godzinę rozpoczęcia po dodaniu wiersza
+
                 }
             }
         }
+
 
         function WyjazdNaLinie() {
             const tableBody = document.querySelector("#rozkładTable tbody");
@@ -1179,6 +1264,7 @@
                         let wyjazdCell = document.createElement("td");
                         wyjazdCell.colSpan = 9;
                         wyjazdCell.innerText = "Wyjazd Na Linie";
+                        wyjazdCell.classList.add("WNL");
                         wyjazdCell.style.textAlign = "center"; // Wyśrodkowanie tekstu
                         wyjazdRow.appendChild(wyjazdCell);
                         tableBody.insertBefore(wyjazdRow, tableBody.rows[0]);
@@ -1237,6 +1323,7 @@
                         przejazdCell.colSpan = 9;
                         przejazdCell.innerText = "Przejazd Techniczny";
                         przejazdCell.style.textAlign = "center";
+                        przejazdCell.classList.add("PT");
                         przejazdRow.appendChild(przejazdCell);
 
                         // Dodaj "Przejazd Techniczny" poniżej tylko w przypadku, gdy początkowy cleanPoczątek wynosił "Rezerwa"
@@ -1275,6 +1362,7 @@
                         let zjazdCell = document.createElement("td");
                         zjazdCell.colSpan = 9;
                         zjazdCell.innerText = "Zjazd Do Zajezdni";
+                        zjazdCell.classList.add("ZDZ");
                         zjazdCell.style.textAlign = "center";
                         zjazdRow.appendChild(zjazdCell);
                         tableBody.appendChild(zjazdRow);
@@ -1556,14 +1644,204 @@
 
 
 
+        function checkForBrake() {
+            let button = document.getElementById('przerwaButton');
+            let brakeRow = document.querySelector('#dane-tabeli .blinkbrake');
+
+            if (brakeRow) {
+                button.classList.add('BrakeDetected');
+                button.classList.remove('NoBrakeDetected');
+
+            } else {
+                button.classList.add('NoBrakeDetected');
+                button.classList.remove('BrakeDetected');
+            }
+        }
+
+
+        document.getElementById("przerwaButton").addEventListener("click", function(event) {
+            event.preventDefault();
+
+            let rows = document.querySelectorAll("#dane-tabeli .blinkbrake");
+            let isHidden = Array.from(rows).every(row => row.closest("tr").style.display === "none");
+
+            rows.forEach(cell => {
+                let row = cell.closest("tr");
+                if (row) {
+                    row.style.display = isHidden ? "table-row" : "none";
+                }
+            });
+
+            this.textContent = isHidden ? "Ukryj przerwę" : "Pokaż przerwę";
+        });
 
 
 
 
+        function checkForPodmiana() {
+            let button = document.getElementById('podmianaButton');
+            let brakeRow = document.querySelector('#dane-tabeli .podmiana');
 
+            if (brakeRow) {
+                button.classList.add('PodmianaDetected');
+                button.classList.remove('NoPodmianaDetected');
+
+            } else {
+                button.classList.add('NoPodmianaDetected');
+                button.classList.remove('PodmianaDetected');
+            }
+        }
+
+
+        document.getElementById("podmianaButton").addEventListener("click", function(event) {
+            event.preventDefault();
+
+            let rows = document.querySelectorAll("#dane-tabeli .podmiana");
+            let isHidden = Array.from(rows).every(row => row.closest("tr").style.display === "none");
+
+            rows.forEach(cell => {
+                let row = cell.closest("tr");
+                if (row) {
+                    row.style.display = isHidden ? "table-row" : "none";
+                }
+            });
+
+            this.textContent = isHidden ? "Ukryj podmianę" : "Pokaż podmianę";
+        });
+
+
+
+
+        function checkForHighlitghtedRow() {
+            let button = document.getElementById('highlitghtedButton');
+            let brakeRow = document.querySelector('#dane-tabeli .HighlitghtedRow');
+
+            if (!brakeRow) {
+                button.classList.add('NohighlightButton');
+                button.classList.remove('highlightButton');
+            } else {
+                button.classList.add('highlightButton');
+                button.classList.remove('NohighlightButton');
+            }
+        }
+
+        document.getElementById("highlitghtedButton").addEventListener("click", function(event) {
+            event.preventDefault();
+
+            let rows = document.querySelectorAll("#dane-tabeli .HighlitghtedRow");
+            let isActive = Array.from(rows).some(row => row.closest("tr").style.backgroundColor === "rgb(50, 50, 50)");
+
+            rows.forEach(cell => {
+                let row = cell.closest("tr");
+                if (row) {
+                    row.style.backgroundColor = isActive ? "rgb(75, 75, 75)" : "rgb(50, 50, 50)";
+                }
+            });
+
+            this.textContent = isActive ? "Wyłącz podświetlenie" : "Włącz podświetlenie";
+        });
+
+        function checkForPT() {
+            let button = document.getElementById('PTButton');
+            let brakeRow = document.querySelector('#dane-tabeli .PT');
+
+            if (brakeRow) {
+                button.classList.add('PTDetected');
+                button.classList.remove('NoPTDetected');
+
+            } else {
+                button.classList.add('NoPTDetected');
+                button.classList.remove('PTDetected');
+            }
+        }
+
+
+        document.getElementById("PTButton").addEventListener("click", function(event) {
+            event.preventDefault();
+
+            let rows = document.querySelectorAll("#dane-tabeli .PT");
+            let isHidden = Array.from(rows).every(row => row.closest("tr").style.display === "none");
+
+            rows.forEach(cell => {
+                let row = cell.closest("tr");
+                if (row) {
+                    row.style.display = isHidden ? "table-row" : "none";
+                }
+            });
+
+            this.textContent = isHidden ? "Ukryj PT" : "Pokaż PT";
+        });
+
+
+        function checkForWNLZDZ() {
+            let button = document.getElementById('WNLZDZButton');
+            let hasWNL = document.querySelector('#dane-tabeli .WNL') !== null;
+            let hasZDZ = document.querySelector('#dane-tabeli .ZDZ') !== null;
+
+            // Usuwamy wszystkie klasy, by uniknąć konfliktów
+            button.classList.remove('WNLZDZDetected', 'NoWNLZDZDetected');
+
+            // Warunki logiczne
+            if (hasWNL || hasZDZ) {
+                button.classList.add('WNLZDZDetected');
+            } else {
+                button.classList.add('NoWNLZDZDetected');
+            }
+        }
+
+        document.getElementById("WNLZDZButton").addEventListener("click", function(event) {
+            event.preventDefault();
+
+            let rows = document.querySelectorAll("#dane-tabeli .WNL, #dane-tabeli .ZDZ");
+            let isHidden = Array.from(rows).every(row => row.closest("tr").style.display === "none");
+
+            rows.forEach(cell => {
+                let row = cell.closest("tr");
+                if (row) {
+                    row.style.display = isHidden ? "table-row" : "none";
+                }
+            });
+
+            this.textContent = isHidden ? "Ukryj WNL i ZDZ" : "Pokaż WNL i ZDZ";
+        });
+
+
+        function checkForPrzerwaBisowa() {
+            let button = document.getElementById('PBButton');
+            let brakeRow = document.querySelector('#dane-tabeli .PrzerwaBisowa');
+
+            if (brakeRow) {
+                button.classList.add('PBDetected');
+                button.classList.remove('NoPBDetected');
+
+            } else {
+                button.classList.add('NoPBDetected');
+                button.classList.remove('PBDetected');
+            }
+        }
+
+
+        document.getElementById("PBButton").addEventListener("click", function(event) {
+            event.preventDefault();
+
+            let rows = document.querySelectorAll("#dane-tabeli .PrzerwaBisowa");
+            let isHidden = Array.from(rows).every(row => row.closest("tr").style.display === "none");
+
+            rows.forEach(cell => {
+                let row = cell.closest("tr");
+                if (row) {
+                    row.style.display = isHidden ? "table-row" : "none";
+                }
+            });
+
+            this.textContent = isHidden ? "Ukryj Przerwe Bisową" : "Pokaż Przerwę Bisową";
+        });
 
         // Główna funkcja init()
         async function init() {
+            const brygadaType = sessionStorage.getItem('BrygadaType');
+
+            sessionStorage.removeItem('godzina');
             checkLogin();
             loadBrygadaTitle();
             loadBrygadaType();
@@ -1572,18 +1850,28 @@
             let lines = await fetchGOTOWEFile();
             if (lines) {
                 await processGOTOWEData(lines);
-
-                await addPodmianaRows(); // 🛑 Poczekaj, aż wiersz z podmianą zostanie dodany!
-                checkAndAddRow(); // 🟢 Teraz uzupełnij tabelę wykazu!
+                if (brygadaType == "Brygada Dwuzmianowa") {
+                    await addPodmianaRows(); // 🛑 Poczekaj, aż wiersz z podmianą zostanie dodany!
+                }
                 ZjazdDoZajezdni();
                 WyjazdNaLinie();
-                brygadabisowa();
+                await brygadabisowa();
+
                 PrzejazdTechniczny();
                 highlightCurrentTimeCells();
+                checkAndAddRow(); // 🟢 Teraz uzupełnij tabelę wykazu!
+                checkForPodmiana();
+                checkForBrake();
+                checkForHighlitghtedRow();
+                checkForPT();
+                checkForWNLZDZ();
+                checkForPrzerwaBisowa();
                 await scanTableForLine1(); // Poczekaj na zakończenie scanTableForLine1
 
                 usunZakazaneSlowaICyfry();
                 sprawdzTekstPoP();
+
+
 
 
             } else {

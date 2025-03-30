@@ -133,6 +133,61 @@
             animation: blinkbrake 2s infinite;
         }
 
+        .BrakeDetected {
+            color: white;
+            pointer-events: visible;
+        }
+
+        .NoBrakeDetected {
+            color: grey;
+            pointer-events: none;
+        }
+
+        .PodmianaDetected {
+            color: white;
+            pointer-events: visible;
+        }
+
+        .NoPodmianaDetected {
+            color: grey;
+            pointer-events: none;
+        }
+
+        .highlightButton {
+            color: white;
+            pointer-events: visible;
+        }
+
+        .NohighlightButton {
+            color: grey;
+            pointer-events: none;
+        }
+
+        .PTDetected {
+            color: white;
+            pointer-events: visible;
+        }
+
+        .NoPTDetected {
+            color: grey;
+            pointer-events: none;
+        }
+
+        .buttons a {
+            width: 170px;
+            text-align: center;
+        }
+
+        .WNLZDZDetected {
+            color: white;
+            pointer-events: visible;
+        }
+
+        .NoWNLZDZDetected {
+            color: grey;
+            pointer-events: none;
+        }
+
     </style>
 </head>
 
@@ -147,8 +202,20 @@
 
     <h1 id="brygadaTitle">Brygada</h1>
     <h3 id="brygadaType">Typ</h3>
+    <div class="buttons">
+        <a href="#" class="menu" id="highlightButton">Wyróżnij linie</a>
+        <a href="#" class="menu" id="highlitghtedButton">Wyłącz podświetlenie</a>
+        <br>
+        <a href="#" class="menu" id="przerwaButton">Ukryj przerwę</a>
+        <a href="#" class="menu" id="podmianaButton">Ukryj podmianę</a>
+        <br>
+        <a href="#" class="menu" id="PTButton">Ukryj PT</a>
+        <a href="#" class="menu" id="WNLZDZButton">Ukryj WNL i ZDZ</a>
+        <br>
+    </div>
+    <a href="#" class="menu PrzerwaBisowa" id="PBButton" style="display: none;">Ukryj Przerwę Bisową</a>
 
-    <a href="#" class="menu" id="highlightButton">Wyróżnij linie</a>
+
 
     <table id="wykazbrygady">
         <thead>
@@ -157,7 +224,7 @@
                 <th>Godz. Rozp.</th>
                 <th>Godz. Zak.</th>
                 <th>Czas</th>
-                <th>Km</th>
+                <th style="display: none;">Km</th>
             </tr>
         </thead>
         <tbody id="dane-wykaz">
@@ -179,7 +246,7 @@
                 <th>Godz. Rozp.</th>
                 <th>Godz. Zak.</th>
                 <th>Czas trwania</th>
-                <th>Km</th>
+                <th style="display: none;">Km</th>
                 <th class="hide">Kod Trasy</th>
                 <th class="hide">Kod Linii</th>
             </tr>
@@ -369,6 +436,8 @@
                     // If current time is between start and end time, highlight the row
                     if (isCurrentTimeBetween(startTime, endTime)) {
                         row.style.backgroundColor = "rgb(75, 75, 75)";
+                        row.classList.add("HighlitghtedRow");
+
                         anyHighlighted = true; // If any row is highlighted, set the flag
                     } else {
                         row.style.backgroundColor = ""; // Reset the background if not in range
@@ -534,7 +603,7 @@
              <td>${startTime}</td>
              <td>${endTime}</td>
              <td>${durationFormatted}</td>
-             <td>N/A</td>
+             <td style="display: none;">N/A</td>
              <td class="hide">${tripId}</td>
              <td class="hide">${currentRouteId}</td>`;
 
@@ -573,7 +642,7 @@
 <td>${godzRozpConv}</td>
 <td>${godzZakConv}</td>
 <td>${rezerwatime}</td>
-<td>N/A</td>`;
+<td style="display: none;">N/A</td>`;
 
                     tableBody.appendChild(row);
 
@@ -606,7 +675,7 @@
              <td>${startTime}</td>
              <td>${endTime}</td>
              <td>${duration}</td>
-             <td>N/A</td>
+             <td style="display: none;">N/A</td>
              <td class="hide">${tripId}</td>`;
                 tableBody.appendChild(row);
                 lp++;
@@ -723,7 +792,7 @@
             });
 
             isHighlighted = true;
-            document.getElementById("highlightButton").innerText = "Przestań wyróżniać linie"; // Zmień tekst przycisku
+            document.getElementById("highlightButton").innerText = "Nie wyróżniaj linii"; // Zmień tekst przycisku
         }
 
         // Dodanie nasłuchu kliknięcia na przycisk "Wyróżnij linie"
@@ -808,7 +877,7 @@
         <td>${godzRozp}</td>
         <td>${godzZak}</td>
         <td>${roznica}</td>
-        <td>N/A</td>
+        <td style="display: none;">N/A</td>
     `;
             return row;
         }
@@ -1006,7 +1075,7 @@
                         sessionStorage.setItem('godzina', godzina);
                         const displayedTime = (godzina === currentTimeFormatted) ? "TERAZ" : godzina;
                         const newRow = document.createElement("tr");
-                        newRow.innerHTML = `<td colspan="9" style="text-align: center; font-size: 15px; padding: 3px;">
+                        newRow.innerHTML = `<td colspan="9" style="text-align: center; font-size: 15px; padding: 3px;" class="podmiana">
             Podmiana: &nbsp; <strong>${przystanek}</strong> &nbsp;&nbsp; ${displayedTime}
             </td>`;
 
@@ -1113,6 +1182,10 @@
             const brygadaType = sessionStorage.getItem("BrygadaType");
 
             if (brygadaType === "Brygada Szczytowa") {
+                document.querySelectorAll("a.PrzerwaBisowa").forEach(el => el.style.display = "");
+
+
+
 
                 // Funkcja pomocnicza do parsowania czasu (np. "14:30")
                 function parseTime(timeString) {
@@ -1161,7 +1234,7 @@
                     const newRow = document.createElement("tr");
 
                     newRow.innerHTML =
-                        `<td colspan="9" style="text-align: center; background-color: purple;"> <strong> Przerwa bisowa </strong> (${Math.floor(maxGap / 60)}h ${maxGap % 60}min) </td>`;
+                        `<td colspan="9" class="PrzerwaBisowa" style="text-align: center; background-color: purple;"> <strong> Przerwa bisowa </strong> <br> (${Math.floor(maxGap / 60)}h ${maxGap % 60}min) </td>`;
                     // Wstaw nowy wiersz po wierszu, który ma największą różnicę
                     tableBody.insertBefore(newRow, rows[maxGapIndex + 1]);
 
@@ -1191,6 +1264,7 @@
                         let wyjazdCell = document.createElement("td");
                         wyjazdCell.colSpan = 9;
                         wyjazdCell.innerText = "Wyjazd Na Linie";
+                        wyjazdCell.classList.add("WNL");
                         wyjazdCell.style.textAlign = "center"; // Wyśrodkowanie tekstu
                         wyjazdRow.appendChild(wyjazdCell);
                         tableBody.insertBefore(wyjazdRow, tableBody.rows[0]);
@@ -1249,6 +1323,7 @@
                         przejazdCell.colSpan = 9;
                         przejazdCell.innerText = "Przejazd Techniczny";
                         przejazdCell.style.textAlign = "center";
+                        przejazdCell.classList.add("PT");
                         przejazdRow.appendChild(przejazdCell);
 
                         // Dodaj "Przejazd Techniczny" poniżej tylko w przypadku, gdy początkowy cleanPoczątek wynosił "Rezerwa"
@@ -1287,6 +1362,7 @@
                         let zjazdCell = document.createElement("td");
                         zjazdCell.colSpan = 9;
                         zjazdCell.innerText = "Zjazd Do Zajezdni";
+                        zjazdCell.classList.add("ZDZ");
                         zjazdCell.style.textAlign = "center";
                         zjazdRow.appendChild(zjazdCell);
                         tableBody.appendChild(zjazdRow);
@@ -1568,11 +1644,198 @@
 
 
 
+        function checkForBrake() {
+            let button = document.getElementById('przerwaButton');
+            let brakeRow = document.querySelector('#dane-tabeli .blinkbrake');
+
+            if (brakeRow) {
+                button.classList.add('BrakeDetected');
+                button.classList.remove('NoBrakeDetected');
+
+            } else {
+                button.classList.add('NoBrakeDetected');
+                button.classList.remove('BrakeDetected');
+            }
+        }
+
+
+        document.getElementById("przerwaButton").addEventListener("click", function(event) {
+            event.preventDefault();
+
+            let rows = document.querySelectorAll("#dane-tabeli .blinkbrake");
+            let isHidden = Array.from(rows).every(row => row.closest("tr").style.display === "none");
+
+            rows.forEach(cell => {
+                let row = cell.closest("tr");
+                if (row) {
+                    row.style.display = isHidden ? "table-row" : "none";
+                }
+            });
+
+            this.textContent = isHidden ? "Ukryj przerwę" : "Pokaż przerwę";
+        });
 
 
 
 
+        function checkForPodmiana() {
+            let button = document.getElementById('podmianaButton');
+            let brakeRow = document.querySelector('#dane-tabeli .podmiana');
 
+            if (brakeRow) {
+                button.classList.add('PodmianaDetected');
+                button.classList.remove('NoPodmianaDetected');
+
+            } else {
+                button.classList.add('NoPodmianaDetected');
+                button.classList.remove('PodmianaDetected');
+            }
+        }
+
+
+        document.getElementById("podmianaButton").addEventListener("click", function(event) {
+            event.preventDefault();
+
+            let rows = document.querySelectorAll("#dane-tabeli .podmiana");
+            let isHidden = Array.from(rows).every(row => row.closest("tr").style.display === "none");
+
+            rows.forEach(cell => {
+                let row = cell.closest("tr");
+                if (row) {
+                    row.style.display = isHidden ? "table-row" : "none";
+                }
+            });
+
+            this.textContent = isHidden ? "Ukryj podmianę" : "Pokaż podmianę";
+        });
+
+
+
+
+        function checkForHighlitghtedRow() {
+            let button = document.getElementById('highlitghtedButton');
+            let brakeRow = document.querySelector('#dane-tabeli .HighlitghtedRow');
+
+            if (!brakeRow) {
+                button.classList.add('NohighlightButton');
+                button.classList.remove('highlightButton');
+            } else {
+                button.classList.add('highlightButton');
+                button.classList.remove('NohighlightButton');
+            }
+        }
+
+        document.getElementById("highlitghtedButton").addEventListener("click", function(event) {
+            event.preventDefault();
+
+            let rows = document.querySelectorAll("#dane-tabeli .HighlitghtedRow");
+            let isActive = Array.from(rows).some(row => row.closest("tr").style.backgroundColor === "rgb(50, 50, 50)");
+
+            rows.forEach(cell => {
+                let row = cell.closest("tr");
+                if (row) {
+                    row.style.backgroundColor = isActive ? "rgb(75, 75, 75)" : "rgb(50, 50, 50)";
+                }
+            });
+
+            this.textContent = isActive ? "Wyłącz podświetlenie" : "Włącz podświetlenie";
+        });
+
+        function checkForPT() {
+            let button = document.getElementById('PTButton');
+            let brakeRow = document.querySelector('#dane-tabeli .PT');
+
+            if (brakeRow) {
+                button.classList.add('PTDetected');
+                button.classList.remove('NoPTDetected');
+
+            } else {
+                button.classList.add('NoPTDetected');
+                button.classList.remove('PTDetected');
+            }
+        }
+
+
+        document.getElementById("PTButton").addEventListener("click", function(event) {
+            event.preventDefault();
+
+            let rows = document.querySelectorAll("#dane-tabeli .PT");
+            let isHidden = Array.from(rows).every(row => row.closest("tr").style.display === "none");
+
+            rows.forEach(cell => {
+                let row = cell.closest("tr");
+                if (row) {
+                    row.style.display = isHidden ? "table-row" : "none";
+                }
+            });
+
+            this.textContent = isHidden ? "Ukryj PT" : "Pokaż PT";
+        });
+
+
+        function checkForWNLZDZ() {
+            let button = document.getElementById('WNLZDZButton');
+            let hasWNL = document.querySelector('#dane-tabeli .WNL') !== null;
+            let hasZDZ = document.querySelector('#dane-tabeli .ZDZ') !== null;
+
+            // Usuwamy wszystkie klasy, by uniknąć konfliktów
+            button.classList.remove('WNLZDZDetected', 'NoWNLZDZDetected');
+
+            // Warunki logiczne
+            if (hasWNL || hasZDZ) {
+                button.classList.add('WNLZDZDetected');
+            } else {
+                button.classList.add('NoWNLZDZDetected');
+            }
+        }
+
+        document.getElementById("WNLZDZButton").addEventListener("click", function(event) {
+            event.preventDefault();
+
+            let rows = document.querySelectorAll("#dane-tabeli .WNL, #dane-tabeli .ZDZ");
+            let isHidden = Array.from(rows).every(row => row.closest("tr").style.display === "none");
+
+            rows.forEach(cell => {
+                let row = cell.closest("tr");
+                if (row) {
+                    row.style.display = isHidden ? "table-row" : "none";
+                }
+            });
+
+            this.textContent = isHidden ? "Ukryj WNL i ZDZ" : "Pokaż WNL i ZDZ";
+        });
+
+
+        function checkForPrzerwaBisowa() {
+            let button = document.getElementById('PBButton');
+            let brakeRow = document.querySelector('#dane-tabeli .PrzerwaBisowa');
+
+            if (brakeRow) {
+                button.classList.add('PBDetected');
+                button.classList.remove('NoPBDetected');
+
+            } else {
+                button.classList.add('NoPBDetected');
+                button.classList.remove('PBDetected');
+            }
+        }
+
+
+        document.getElementById("PBButton").addEventListener("click", function(event) {
+            event.preventDefault();
+
+            let rows = document.querySelectorAll("#dane-tabeli .PrzerwaBisowa");
+            let isHidden = Array.from(rows).every(row => row.closest("tr").style.display === "none");
+
+            rows.forEach(cell => {
+                let row = cell.closest("tr");
+                if (row) {
+                    row.style.display = isHidden ? "table-row" : "none";
+                }
+            });
+
+            this.textContent = isHidden ? "Ukryj Przerwe Bisową" : "Pokaż Przerwę Bisową";
+        });
 
         // Główna funkcja init()
         async function init() {
@@ -1593,13 +1856,22 @@
                 ZjazdDoZajezdni();
                 WyjazdNaLinie();
                 await brygadabisowa();
+
                 PrzejazdTechniczny();
                 highlightCurrentTimeCells();
                 checkAndAddRow(); // 🟢 Teraz uzupełnij tabelę wykazu!
+                checkForPodmiana();
+                checkForBrake();
+                checkForHighlitghtedRow();
+                checkForPT();
+                checkForWNLZDZ();
+                checkForPrzerwaBisowa();
                 await scanTableForLine1(); // Poczekaj na zakończenie scanTableForLine1
 
                 usunZakazaneSlowaICyfry();
                 sprawdzTekstPoP();
+
+
 
 
             } else {

@@ -204,6 +204,8 @@
                             const tdLp = document.createElement('td');
                             const link = document.createElement('a');
                             link.href = 'brygada.html';
+                            link.style.color = 'orange';
+                            link.style.textDecoration = "none";
                             // Zapisz wartość do sessionStorage
                             sessionStorage.setItem('BrygadaType', 'Brygada Dwuzmianowa');
 
@@ -311,7 +313,7 @@
                                         minute: '2-digit'
                                     });
                                     if (currentTime === column.trim()) {
-                                        tr.style.backgroundColor = 'red'; // Ustawienie koloru tła na czerwony
+                                        tr.style.backgroundColor = 'grey'; // Ustawienie koloru tła na czerwony
                                     }
                                 }
                             });
@@ -367,6 +369,8 @@
                             const tdLp = document.createElement('td');
                             const link = document.createElement('a');
                             link.href = 'brygada.html';
+                            link.style.color = 'orange';
+                            link.style.textDecoration = "none";
                             link.textContent = index + 1; // Lp. zaczyna się od 1
                             link.addEventListener('click', async () => {
                                 // Zmieniamy '/' na '_'
@@ -471,7 +475,7 @@
                                         minute: '2-digit'
                                     });
                                     if (currentTime === column.trim()) {
-                                        tr.style.backgroundColor = 'red'; // Kolor na czerwony
+                                        tr.style.backgroundColor = 'grey'; // Kolor na czerwony
                                     }
                                 }
                             });
