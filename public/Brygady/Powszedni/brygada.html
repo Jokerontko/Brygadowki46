@@ -782,16 +782,17 @@
                     tabelaWykaz.appendChild(createRow("B", RozpoczecieB, godzZak, roznicaB));
                 }
             } else if (brygadaType === "Brygada Szczytowa") {
+
+                const godzRozp = findFirstAvailableStartTime(tabelaRozklad);
+                const godzZak = findLatestEndTime(tabelaRozklad);
                 const ZakPrzedPrzerwa = sessionStorage.getItem("NajdluzszaPrzerwa_GodzZak");
                 const RozpPoPrzerwa = sessionStorage.getItem("godz_rozp_przerwa");
-                const ZakonczenieA = sessionStorage.getItem('godzinaZakonczenieA');
-                const RozpoczecieB = sessionStorage.getItem('godzinaRozpoczeciaB');
 
-                if (!ZakonczenieA || !RozpoczecieB) {
-                    console.error("Brak wartości dla ZakonczenieA lub RozpoczecieB w sessionStorage.");
+
+                if (!godzRozp || !godzZak || !ZakPrzedPrzerwa || !RozpPoPrzerwa) {
+                    console.error("Brak wartości w sessionStorage dla jednej z wymaganych zmiennych.");
                     return;
                 }
-
                 const roznicaA = calculateTimeDifference(godzRozp, ZakPrzedPrzerwa);
                 const roznicaB = calculateTimeDifference(RozpPoPrzerwa, godzZak);
 
@@ -1150,6 +1151,8 @@
 
                         sessionStorage.setItem("NajdluzszaPrzerwa_GodzZak", endTimeCurrent);
                         sessionStorage.setItem("NajdluzszaPrzerwa_GodzRozp", startTimeNext); // Zapisz godz. rozpoczęcia
+
+                        console.log(endTimeCurrent);
                     }
                 }
 
@@ -1575,7 +1578,6 @@
         async function init() {
             const brygadaType = sessionStorage.getItem('BrygadaType');
 
-
             sessionStorage.removeItem('godzina');
             checkLogin();
             loadBrygadaTitle();
@@ -1590,7 +1592,7 @@
                 }
                 ZjazdDoZajezdni();
                 WyjazdNaLinie();
-                brygadabisowa();
+                await brygadabisowa();
                 PrzejazdTechniczny();
                 highlightCurrentTimeCells();
                 checkAndAddRow(); // 🟢 Teraz uzupełnij tabelę wykazu!
