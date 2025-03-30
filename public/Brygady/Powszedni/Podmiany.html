@@ -204,6 +204,8 @@
                             const tdLp = document.createElement('td');
                             const link = document.createElement('a');
                             link.href = 'brygada.html';
+                            link.style.color = 'orange';
+                            link.style.textDecoration = "none";
                             // Zapisz wartość do sessionStorage
                             sessionStorage.setItem('BrygadaType', 'Brygada Dwuzmianowa');
 
@@ -367,6 +369,8 @@
                             const tdLp = document.createElement('td');
                             const link = document.createElement('a');
                             link.href = 'brygada.html';
+                            link.style.color = 'orange';
+                            link.style.textDecoration = "none";
                             link.textContent = index + 1; // Lp. zaczyna się od 1
                             link.addEventListener('click', async () => {
                                 // Zmieniamy '/' na '_'

@@ -737,84 +737,80 @@
         // Funkcja globalna: Dodawanie wiersza na podstawie warunku
         function checkAndAddRow() {
             const brygadaType = sessionStorage.getItem("BrygadaType");
+            const tabelaWykaz = document.querySelector("#wykazbrygady #dane-wykaz");
+            const tabelaRozklad = document.querySelector("#rozkładTable #dane-tabeli");
 
+            if (!tabelaWykaz || !tabelaRozklad) {
+                console.error("Nie znaleziono jednej z wymaganych tabel.");
+                return;
+            }
+
+            logTableContent(tabelaRozklad);
+
+            const godzRozp = findFirstAvailableStartTime(tabelaRozklad);
+            const godzZak = findLatestEndTime(tabelaRozklad);
+
+            if (!godzRozp || !godzZak) {
+                console.error("Nie znaleziono wartości w kolumnach 'Godz. Rozp.' lub 'Godz. Zak.' w tabeli rozkładTable.");
+                return;
+            }
 
             if (brygadaType === "Brygada Jednozmianowa" || brygadaType === "Brygada Nocna Jednozmianowa") {
-                const tabelaWykaz = document.querySelector("#wykazbrygady #dane-wykaz");
-                const tabelaRozklad = document.querySelector("#rozkładTable #dane-tabeli");
-
-                if (!tabelaWykaz || !tabelaRozklad) {
-                    console.error("Nie znaleziono jednej z wymaganych tabel.");
-                    return;
-                }
-
-                logTableContent(tabelaRozklad); // Dodane dla diagnostyki
-
-                const godzRozp = findFirstAvailableStartTime(tabelaRozklad);
-                const godzZak = findLatestEndTime(tabelaRozklad);
-                if (!godzRozp || !godzZak) {
-                    console.error("Nie znaleziono wartości w kolumnach 'Godz. Rozp.' lub 'Godz. Zak.' w tabeli rozkładTable.");
-                    return;
-                }
-
                 const roznica = calculateTimeDifference(godzRozp, godzZak);
-
-                const newRow = document.createElement("tr");
-                newRow.innerHTML = `
-            <td>A</td>
-            <td>${godzRozp}</td>
-            <td>${godzZak}</td>
-            <td>${roznica}</td>
-            <td>N/A</td>
-        `;
-
-                tabelaWykaz.appendChild(newRow);
-            } else if (brygadaType === "Brygada Dwuzmianowa" || brygadaType === "Brygada Szczytowa") {
+                tabelaWykaz.appendChild(createRow("A", godzRozp, godzZak, roznica));
+            } else if (brygadaType === "Brygada Dwuzmianowa") {
                 const savedpodmiana = sessionStorage.getItem('godzina');
-                const tabelaWykaz = document.querySelector("#wykazbrygady #dane-wykaz");
-                const tabelaRozklad = document.querySelector("#rozkładTable #dane-tabeli");
+                if (savedpodmiana) {
+                    const roznicaA = calculateTimeDifference(godzRozp, savedpodmiana);
+                    const roznicaB = calculateTimeDifference(savedpodmiana, godzZak);
 
-                if (!tabelaWykaz || !tabelaRozklad) {
-                    console.error("Nie znaleziono jednej z wymaganych tabel.");
+                    tabelaWykaz.appendChild(createRow("A", godzRozp, savedpodmiana, roznicaA));
+                    tabelaWykaz.appendChild(createRow("B", savedpodmiana, godzZak, roznicaB));
+                } else {
+                    const ZakonczenieA = sessionStorage.getItem('godzinaZakonczenieA');
+                    const RozpoczecieB = sessionStorage.getItem('godzinaRozpoczeciaB');
+
+                    if (!ZakonczenieA || !RozpoczecieB) {
+                        console.error("Brak wartości dla ZakonczenieA lub RozpoczecieB w sessionStorage.");
+                        return;
+                    }
+
+                    const roznicaA = calculateTimeDifference(godzRozp, ZakonczenieA);
+                    const roznicaB = calculateTimeDifference(RozpoczecieB, godzZak);
+
+                    tabelaWykaz.appendChild(createRow("A", godzRozp, ZakonczenieA, roznicaA));
+                    tabelaWykaz.appendChild(createRow("B", RozpoczecieB, godzZak, roznicaB));
+                }
+            } else if (brygadaType === "Brygada Szczytowa") {
+                const ZakPrzedPrzerwa = sessionStorage.getItem("NajdluzszaPrzerwa_GodzZak");
+                const RozpPoPrzerwa = sessionStorage.getItem("godz_rozp_przerwa");
+                const ZakonczenieA = sessionStorage.getItem('godzinaZakonczenieA');
+                const RozpoczecieB = sessionStorage.getItem('godzinaRozpoczeciaB');
+
+                if (!ZakonczenieA || !RozpoczecieB) {
+                    console.error("Brak wartości dla ZakonczenieA lub RozpoczecieB w sessionStorage.");
                     return;
                 }
 
-                logTableContent(tabelaRozklad); // Dodane dla diagnostyki
+                const roznicaA = calculateTimeDifference(godzRozp, ZakPrzedPrzerwa);
+                const roznicaB = calculateTimeDifference(RozpPoPrzerwa, godzZak);
 
-                const godzRozp = findFirstAvailableStartTime(tabelaRozklad);
-                const godzZak = findLatestEndTime(tabelaRozklad);
-                if (!godzRozp || !godzZak) {
-                    console.error("Nie znaleziono wartości w kolumnach 'Godz. Rozp.' lub 'Godz. Zak.' w tabeli rozkładTable.");
-                    return;
-                }
-
-                const roznicaA = calculateTimeDifference(godzRozp, savedpodmiana);
-                const roznicaB = calculateTimeDifference(savedpodmiana, godzZak);
-                const podmiana = 22;
-
-                function createRow(label, godzRozp, godzZak, roznicaA, roznicaB) {
-                    const row = document.createElement("tr");
-                    row.innerHTML = `
-<td>${label}</td>
-<td>${godzRozp}</td>
-<td>${godzZak}</td>
-<td>${roznicaA}</td>
-<td>N/A</td>
-`;
-                    return row;
-                }
-
-                // Tworzenie dwóch wierszy
-                const newRow1 = createRow("A", godzRozp, savedpodmiana, roznicaA);
-                const newRow2 = createRow("B", savedpodmiana, godzZak, roznicaB);
-
-                // Dodanie wierszy do tabeli
-                tabelaWykaz.appendChild(newRow1);
-                tabelaWykaz.appendChild(newRow2);
+                tabelaWykaz.appendChild(createRow("A", godzRozp, ZakPrzedPrzerwa, roznicaA));
+                tabelaWykaz.appendChild(createRow("B", RozpPoPrzerwa, godzZak, roznicaB));
             }
         }
 
-
+        function createRow(label, godzRozp, godzZak, roznica) {
+            const row = document.createElement("tr");
+            row.innerHTML = `
+        <td>${label}</td>
+        <td>${godzRozp}</td>
+        <td>${godzZak}</td>
+        <td>${roznica}</td>
+        <td>N/A</td>
+    `;
+            return row;
+        }
 
 
 
@@ -982,6 +978,7 @@
         function processPodmianaFile(text) {
             const podmianaLines = text.split("\n").map(line => line.trim()).filter(line => line);
 
+
             let tableBody = document.querySelector("#rozkładTable tbody");
             if (!tableBody) {
                 console.error("Nie znaleziono tabeli z id 'rozkładTable'.");
@@ -1009,7 +1006,7 @@
                         const displayedTime = (godzina === currentTimeFormatted) ? "TERAZ" : godzina;
                         const newRow = document.createElement("tr");
                         newRow.innerHTML = `<td colspan="9" style="text-align: center; font-size: 15px; padding: 3px;">
-            Podmiana: <strong>${przystanek}</strong> &nbsp;&nbsp; ${displayedTime}
+            Podmiana: &nbsp; <strong>${przystanek}</strong> &nbsp;&nbsp; ${displayedTime}
             </td>`;
 
                         if (godzina === currentTimeFormatted) {
@@ -1022,6 +1019,7 @@
                 }
             });
         }
+
 
         function insertRowAtCorrectPosition(przystanekZakonczenieA, godzinaZakonczenieA, przystanekRozpoczecieB, godzinaRozpoczeciaB) {
             let tableBody = document.querySelector("#rozkładTable tbody");
@@ -1059,6 +1057,9 @@
             Zakończenie A: <strong> ${godzinaZakonczenieA} </strong> | Rozpoczęcie B: <strong> ${godzinaRozpoczeciaB} </strong>
         </td>`;
                     tableBody.insertBefore(newRow, nextRow);
+
+                    sessionStorage.setItem("godzinaZakonczenieA", godzinaZakonczenieA);
+                    sessionStorage.setItem("godzinaRozpoczeciaB", godzinaRozpoczeciaB);
 
                     // Drugi wiersz "Zjazd do zajezdni" - dodatkowy, pod podmianą
                     const extraRow2 = document.createElement("tr");
@@ -1110,7 +1111,6 @@
             let maxGapIndex = -1;
             const brygadaType = sessionStorage.getItem("BrygadaType");
 
-
             if (brygadaType === "Brygada Szczytowa") {
 
                 // Funkcja pomocnicza do parsowania czasu (np. "14:30")
@@ -1147,6 +1147,9 @@
                     if (gap > maxGap) {
                         maxGap = gap;
                         maxGapIndex = i;
+
+                        sessionStorage.setItem("NajdluzszaPrzerwa_GodzZak", endTimeCurrent);
+                        sessionStorage.setItem("NajdluzszaPrzerwa_GodzRozp", startTimeNext); // Zapisz godz. rozpoczęcia
                     }
                 }
 
@@ -1158,9 +1161,15 @@
                         `<td colspan="9" style="text-align: center; background-color: purple;"> <strong> Przerwa bisowa </strong> (${Math.floor(maxGap / 60)}h ${maxGap % 60}min) </td>`;
                     // Wstaw nowy wiersz po wierszu, który ma największą różnicę
                     tableBody.insertBefore(newRow, rows[maxGapIndex + 1]);
+
+                    // Zapisz godzinę rozpoczęcia w sessionStorage po dodaniu wiersza
+                    const godzRozp = sessionStorage.getItem("NajdluzszaPrzerwa_GodzRozp");
+                    sessionStorage.setItem("godz_rozp_przerwa", godzRozp); // Zapisz godzinę rozpoczęcia po dodaniu wiersza
+
                 }
             }
         }
+
 
         function WyjazdNaLinie() {
             const tableBody = document.querySelector("#rozkładTable tbody");
@@ -1564,6 +1573,10 @@
 
         // Główna funkcja init()
         async function init() {
+            const brygadaType = sessionStorage.getItem('BrygadaType');
+
+
+            sessionStorage.removeItem('godzina');
             checkLogin();
             loadBrygadaTitle();
             loadBrygadaType();
@@ -1572,14 +1585,15 @@
             let lines = await fetchGOTOWEFile();
             if (lines) {
                 await processGOTOWEData(lines);
-
-                await addPodmianaRows(); // 🛑 Poczekaj, aż wiersz z podmianą zostanie dodany!
-                checkAndAddRow(); // 🟢 Teraz uzupełnij tabelę wykazu!
+                if (brygadaType == "Brygada Dwuzmianowa") {
+                    await addPodmianaRows(); // 🛑 Poczekaj, aż wiersz z podmianą zostanie dodany!
+                }
                 ZjazdDoZajezdni();
                 WyjazdNaLinie();
                 brygadabisowa();
                 PrzejazdTechniczny();
                 highlightCurrentTimeCells();
+                checkAndAddRow(); // 🟢 Teraz uzupełnij tabelę wykazu!
                 await scanTableForLine1(); // Poczekaj na zakończenie scanTableForLine1
 
                 usunZakazaneSlowaICyfry();
