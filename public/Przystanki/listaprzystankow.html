@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../style_css/headermenu.css">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>Lista przystanków</title>
+    <style>
+        body {
+            background: rgb(50, 50, 50);
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+            color: white;
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin-bottom: -13px;
+        }
+
+        table {
+            width: 30%;
+            max-width: 680px;
+            height: 50px;
+            border-collapse: collapse;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+        th,
+        td {
+            text-align: center;
+            padding: 10px;
+            height: 30px;
+            border: 1px solid #ccc;
+        }
+
+        thead {
+            background-color: rgba(163, 120, 0);
+        }
+
+        td {
+            font-size-adjust: auto;
+        }
+
+        .bordered {
+            border: 1.5px solid white;
+            padding: 7px;
+            width: 20px;
+            display: inline-block;
+            margin: 2px 2px;
+            font-weight: bolder;
+            align-items: center;
+        }
+
+        .borderedRez {
+            font-size: 0px;
+        }
+
+        .movetobrygada {
+            text-decoration: none;
+            color: white;
+            font-size: 17px;
+
+        }
+
+        .filter-container {
+            margin-bottom: 10px;
+        }
+
+        .filter-input {
+            display: inline-block;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            text-decoration: none;
+            color: white;
+            background-color: rgba(50, 50, 50);
+            border: 2px solid;
+            border-radius: 10px;
+            padding: 10px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            width: 300px;
+            margin-bottom: 10px;
+        }
+
+        .filter-label {
+            font-weight: bold;
+            margin-right: 5px;
+        }
+
+        .top {
+            margin: 10px;
+            margin-bottom: 30px;
+        }
+
+        h4 {
+            margin: 0px 0px 10px;
+        }
+
+        .szary {
+            color: grey;
+            font-size: 10px;
+        }
+
+        header {
+            position: sticky;
+            top: 0px;
+            background-color: rgb(50, 50, 50);
+        }
+
+        @keyframes blink {
+            0% {
+                background-color: red;
+            }
+
+            50% {
+                background-color: transparent;
+            }
+
+            100% {
+                background-color: red;
+            }
+        }
+
+        .blink {
+            animation: blink 1s infinite;
+        }
+
+        .menu.active {
+            background-color: darkorange;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="../../Main_Panel.html" class="menu">Panel Główny</a>
+        <a href="#" class="menu">Przystanki</a>
+        <a href="../Brygady/ChooseDay.html" class="menu">Brygady</a>
+        <a href="../../../Brygady/Kursy/Kursy.html" class="menu">Kursy</a>
+        <a href="#" class="menu exit" id="logout">Opuść Panel</a>
+        <hr>
+    </header>
+
+
+    <center>
+        <h1>Wyszukaj przystanek</h1>
+        <p class="top" style="margin: 15px 0px 18px">Stan na dzień 01/04/2025</p>
+    </center>
+
+    <div class="filter-container">
+        <center>
+            <input type="text" id="filterBrygada" class="filter-input" placeholder="Nazwa przystanku">
+            <div style="display: none;">
+                <br>
+                <a href="#" class="menu" id="ButtonStrefaA">Strefa A</a>
+                <a href="#" class="menu" id="ButtonStrefaB">Strefa B</a>
+                <br>
+                <a href="#" class="menu" id="Rzeszow">Rzeszów</a>
+                <a href="#" class="menu" id="Trzciana">Trzciana</a>
+                <br>
+                <a href="#" class="menu" id="Swilcza">Świlcza</a>
+                <a href="#" class="menu" id="Boguchwala">Boguchwała</a>
+                <br>
+                <a href="#" class="menu" id="Tyczyn">Tyczyn</a>
+                <a href="#" class="menu" id="GlogowMlp">Głogów Młp.</a>
+                <br>
+                <a href="#" class="menu" id="Siedliska">Siedliska</a>
+                <a href="#" class="menu" id="Trzebownisko">Trzebownisko</a>
+                <br>
+                <a href="#" class="menu" id="LancutGmina">Łańcut Gmina</a>
+                <a href="#" class="menu" id="Krasne">Krasne</a>
+            </div>
+
+
+
+        </center>
+    </div>
+
+
+
+    <table>
+        <thead>
+            <tr>
+                <th>Kod przystanku</th>
+                <th>Nazwa Przystanku</th>
+                <th>Strefa</th>
+                <th style="display: none;">Obsługiwane linie</th>
+
+            </tr>
+        </thead>
+        <tbody id="dataTableBody">
+            <!-- Wiersze zostaną dodane dynamicznie -->
+        </tbody>
+    </table>
+
+    <script>
+        function checkLogin() {
+            const user = JSON.parse(sessionStorage.getItem('user'));
+
+            if (!user) {
+                window.location.href = '../../zoltakartka.html';
+            }
+        }
+
+
+        // Funkcja do wczytywania danych i uzupełniania tabeli
+        function loadData() {
+            const tableBody = document.getElementById('dataTableBody');
+            const filterInput = document.getElementById('filterBrygada');
+            const filePath = '../../Brygady/WYNIKI/Przystanki.txt';
+
+            // Odczytanie pliku z serwera
+            fetch(filePath)
+                .then(response => response.text()) // Odczytanie tekstu z pliku
+                .then(data => {
+                    const rows = data.split('\n'); // Podział na wiersze
+                    let przystankiData = []; // Przechowywanie danych o przystankach
+
+                    rows.forEach(row => {
+                        if (row.trim()) { // Pomijanie pustych linii
+                            const columns = row.split('\t'); // Podział wiersza na kolumny (zakładając, że jest tabulacja)
+
+                            // Przetwarzanie nazwy przystanku - usuwanie "nż" i dodawanie "(Na zadanie)" jeśli TRUE
+                            let nazwaPrzystanku = columns[1].replace(/nż/g, '').trim(); // Usuwanie "nż"
+                            if (columns[2].trim() === 'true') {
+                                nazwaPrzystanku += '<br> <span style="color: grey; margin: 1px;">(Przystanek na żądanie)</span>'; // Dodawanie "Na zadanie" jeśli TRUE
+                            }
+
+                            // Przechowywanie danych
+                            przystankiData.push({
+                                kod: columns[0],
+                                nazwa: nazwaPrzystanku,
+                                strefa: columns[3],
+                                linie: 'N/A',
+                                teren: columns[6]
+                            });
+                        }
+                    });
+
+                    // Funkcja do podświetlania liter w nazwie przystanku przed <br>
+                    function highlightMatch(text, query) {
+                        if (!query) return text; // Jeśli brak filtra, zwracamy oryginalny tekst
+
+                        // Dzielimy tekst na dwie części: przed <br> i po <br>
+                        const parts = text.split('<br>');
+
+                        // Podświetlamy tylko pierwszą część (przed <br>)
+                        const regex = new RegExp(`(${query})`, 'gi');
+                        parts[0] = parts[0].replace(regex, '<span style="color: orange;">$1</span>');
+
+                        // Łączymy z powrotem tekst, dodając <br> po pierwszej części
+                        return parts.join('<br>');
+                    }
+
+
+                    // Funkcja wyświetlania tabeli
+                    function displayTable(data, query = '') {
+                        tableBody.innerHTML = ''; // Czyszczenie tabeli
+                        data.forEach(item => {
+                            const tr = document.createElement('tr');
+
+                            const kodPrzystanku = document.createElement('td');
+                            kodPrzystanku.textContent = item.kod; // Kod przystanku
+
+                            const nazwa = document.createElement('td');
+                            nazwa.innerHTML = highlightMatch(item.nazwa, query); // Podświetlanie wyszukiwanego tekstu
+
+                            const strefa = document.createElement('td');
+                            strefa.textContent = item.strefa; // Strefa
+
+                            const obslugiwaneLinie = document.createElement('td');
+                            obslugiwaneLinie.textContent = item.linie; // Obsługiwane linie
+                            obslugiwaneLinie.style.display = "none";
+
+                            const teren = document.createElement('td');
+                            teren.textContent = item.teren;
+                            teren.style.display = "none";
+
+                            tr.appendChild(kodPrzystanku);
+                            tr.appendChild(nazwa);
+                            tr.appendChild(strefa);
+                            tr.appendChild(obslugiwaneLinie);
+                            tr.appendChild(teren);
+
+
+
+                            tableBody.appendChild(tr);
+
+                            // Dodajemy nasłuchiwacz zdarzenia kliknięcia na kod przystanku
+                            kodPrzystanku.addEventListener('click', function() {
+                                // Zapisujemy nazwę przystanku do sessionStorage
+                                sessionStorage.setItem('PrzystanekName', item.nazwa);
+
+                                // Zapisujemy kod przystanku do sessionStorage
+                                sessionStorage.setItem('PrzystanekNumber', item.kod);
+
+                                // Drukujemy nazwę przystanku w konsoli
+                                console.log('Nazwa przystanku:', item.nazwa);
+
+                                // Drukujemy kod przystanku w konsoli
+                                console.log('Kod przystanku:', item.kod);
+
+                                // Przekierowanie do strony PrzystanekSzczegoly.html
+                                window.location.href = 'PrzystanekSzczegoly.html';
+                            });
+
+                            // Stylizacja kodu przystanku - zmiana koloru na pomarańczowy i kursor na "łapkę"
+                            kodPrzystanku.style.cursor = 'pointer'; // Zmiana kursora na "łapkę"
+                            kodPrzystanku.style.color = 'orange'; // Zmiana koloru tekstu na pomarańczowy
+                        });
+                    }
+
+                    // Wyświetlamy wszystkie dane po załadowaniu
+                    displayTable(przystankiData);
+
+                    // Funkcja filtrowania
+                    filterInput.addEventListener('input', function() {
+                        const filterValue = this.value.toLowerCase(); // Pobranie wartości filtra
+
+                        // Filtrowanie danych, tylko część przed <br> jest uwzględniana
+                        const filteredData = przystankiData.filter(item => {
+                            const beforeBr = item.nazwa.split('<br>')[0].toLowerCase(); // Pobieramy tylko część przed <br>
+                            return beforeBr.includes(filterValue); // Filtrowanie po tej części
+                        });
+
+                        // Wyświetlanie przefiltrowanych danych i podświetlanie pasującego tekstu
+                        displayTable(filteredData, filterValue);
+                    });
+
+
+                })
+                .catch(error => {
+                    console.error("Błąd podczas wczytywania pliku:", error);
+                });
+        }
+
+
+
+
+
+        document.addEventListener('DOMContentLoaded', function() {
+            function filterTable() {
+                const rows = document.querySelectorAll('#dataTableBody tr');
+
+                // Pobranie aktywnych filtrów tylko z <div class="filter-container">
+                const filterContainer = document.querySelector('.filter-container');
+                const activeStrefaA = filterContainer.querySelector('#ButtonStrefaA').classList.contains('active');
+                const activeStrefaB = filterContainer.querySelector('#ButtonStrefaB').classList.contains('active');
+                const hasActiveStrefaFilter = activeStrefaA || activeStrefaB;
+
+                const activeFilters = Array.from(filterContainer.querySelectorAll('.menu.location.active')).map(el => el.textContent.trim());
+
+                rows.forEach(row => {
+                    const strefa = row.children[2].textContent.trim();
+                    const matchesStrefa = (activeStrefaA && strefa === 'A') || (activeStrefaB && strefa === 'B') || !hasActiveStrefaFilter;
+
+                    const columnText = row.children[4].textContent.trim();
+                    const matchesFilter = activeFilters.length === 0 || activeFilters.includes(columnText);
+
+                    row.style.display = matchesStrefa && matchesFilter ? '' : 'none';
+                });
+            }
+
+            function toggleFilter(button, isStrefa = false) {
+                const filterContainer = document.querySelector('.filter-container');
+                if (isStrefa) {
+                    const buttonA = filterContainer.querySelector('#ButtonStrefaA');
+                    const buttonB = filterContainer.querySelector('#ButtonStrefaB');
+
+                    if (button.classList.contains('active')) {
+                        buttonA.classList.remove('active');
+                        buttonB.classList.remove('active');
+                    } else {
+                        buttonA.classList.remove('active');
+                        buttonB.classList.remove('active');
+                        button.classList.add('active');
+                    }
+                } else {
+                    button.classList.toggle('active');
+                }
+                filterTable();
+            }
+
+            const filterContainer = document.querySelector('.filter-container');
+            filterContainer.querySelector('#ButtonStrefaA').addEventListener('click', function() {
+                toggleFilter(this, true);
+            });
+
+            filterContainer.querySelector('#ButtonStrefaB').addEventListener('click', function() {
+                toggleFilter(this, true);
+            });
+
+            filterContainer.querySelectorAll('.menu').forEach(link => {
+                if (!link.id.startsWith('ButtonStrefa')) {
+                    link.classList.add('location');
+                    link.addEventListener('click', function(event) {
+                        event.preventDefault();
+                        toggleFilter(this);
+                    });
+                }
+            });
+        });
+
+
+
+
+
+
+
+
+
+        // Wywołaj funkcję po załadowaniu danych
+        window.onload = async function() {
+            checkLogin();
+            loadData();
+        };
+
+    </script>
+
+</body>
+
+</html>

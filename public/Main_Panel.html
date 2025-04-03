@@ -304,6 +304,7 @@
 <body>
     <header>
         <a href="Main_Panel.html" class="menu">Panel Główny</a>
+        <a href="Przystanki/listaprzystankow.html" class="menu">Przystanki</a>
         <a href="Brygady/ChooseDay.html" class="menu">Brygady</a>
         <a href="Brygady/Kursy/Kursy.html" class="menu">Kursy</a>
         <a href="PanelAdmin.html" id="adminpanel" class="hidden">Admin</a>
@@ -408,106 +409,81 @@
         async function loadArticles() {
             const folder = 'News';
             try {
-                // Pobierz listę plików z backendu
                 const response = await fetch('/api/files');
                 if (!response.ok) throw new Error("Nie udało się pobrać listy plików.");
 
-                const files = await response.json(); // Zwrócona lista plików .txt
+                const files = await response.json();
                 const textFiles = files.filter(file => file.endsWith('.txt'));
 
-                // Funkcja do parsowania daty z formatu DD.MM.YYYY
                 function parseDate(filename) {
                     const [day, month, year] = filename.split('.txt')[0].split('.');
-                    return new Date(`${year}-${month}-${day}`); // Tworzymy datę w formacie YYYY-MM-DD
+                    return new Date(`${year}-${month}-${day}`);
                 }
 
-                // Sortowanie plików według daty
                 textFiles.sort((a, b) => parseDate(b) - parseDate(a));
 
-                // Sprawdzenie, czy są pliki tekstowe
                 if (textFiles.length === 0) {
-                    // Jeśli nie ma plików, wyświetl komunikat
                     document.querySelector('.NothingToFind').textContent = "Nic tu nie znaleziono...";
-                    return; // Kończymy funkcję
+                    return;
                 }
 
                 for (const file of textFiles) {
                     const filePath = `${folder}/${file}`;
                     const articleContent = await fetch(filePath).then(res => res.text());
 
-                    // Zmiana w parsowaniu: teraz oczekujemy tytułu w 1. linii, treści w 2. i zdjęcia w 3.
                     const lines = articleContent.split('\n');
                     const title = lines[0] || 'Brak tytułu';
-                    const type = lines[1] || "Brak typu";
-                    const date = lines[2] || "Brak daty";
-                    const content = lines[3] || 'Brak treści';
-                    const photo = lines[4] || '';
+                    const kategoria = lines[1] || 'Ogłoszenie';
+                    const type = lines[2] || "Brak typu";
+                    const date = lines[3] || "Brak daty";
+                    const content = lines[4] || 'Brak treści';
+                    const photo = lines[5] || '';
 
-                    let articleHTML; // Zmienna do przechowywania HTML
+                    // Wybór klasy CSS na podstawie kategorii
+                    const newsClass = kategoria === "WAŻNE" ? "RedNews" : "NEWSTable";
 
-                    if (photo !== "") { // Sprawdzamy, czy photo jest zdefiniowane i nie jest pustym stringiem 
-                        articleHTML = `
-            <article>
-                <div class="NEWSTable" style="position: relative;">
-                    <div class="NEWSup">
-                        <h2 class="NEWScategory" >AKTUALIZACJA</h2>
-                                
-                        <h7 class="NEWSsmallleters NEWSTytul">TYTUŁ</h7>
-                        <h2>${title}</h2>
-                        <br>
-                        <h7 class="NEWSsmallleters">DATA DODANIA</h7>
-                        <h2>${type}</h2>
-                    </div>
-                 
+                    let articleHTML = `
+        <article>
+            <div class="${newsClass}" style="position: relative;">
+                <div class="NEWSup">
+                    <h2 class="NEWScategory">${kategoria}</h2>
+                    <h7 class="NEWSsmallleters NEWSTytul">TYTUŁ</h7>
+                    <h2>${title}</h2>
+                    <br>
+                    <h7 class="NEWSsmallleters">DATA DODANIA</h7>
+                    <h2>${type}</h2>
+                </div>
+                <hr>
+                <h7 class="NEWSsmallleters">TREŚĆ</h7>
+                <h3 style="padding: 7px; text-align: left;">${content}</h3>
+                `;
 
-                    <hr>
-                    <h7 class="NEWSsmallleters">TREŚĆ</h7>
-                    <h3 style="padding: 7px; text-align: left;">${content}</h3>
-
-                    <hr>
-                    <h7 class="NEWSsmallleters">ZAŁĄCZNIK</h7>
-                    <br><br><br>
-                    <img class="image" src="${folder}/Images/${photo}" alt="Błąd podczas ładowania zdjęcia"><br><br>
-                    
-                    <center>
+                    if (photo !== "") {
+                        articleHTML += `
+                <hr>
+                <h7 class="NEWSsmallleters">ZAŁĄCZNIK</h7>
+                <br><br><br>
+                <img class="image" src="${folder}/Images/${photo}" alt="Błąd podczas ładowania zdjęcia"><br><br>
+                <center>
                     <a class="ShowPhoto" href="${folder}/Images/${photo}"> Powiększ zdjęcie</a>
-                    </center>    <br> 
-                </div>
-                
-                </div>
-            </article>
-            `;
-                    } else {
-                        articleHTML = `
-            <article>
-                <div class="NEWSTable" style="position: relative;">
-                    <div class="NEWSup">
-                        <h2 class="NEWScategory" >KURSY</h2>
-                                
-                        <h7 class="NEWSsmallleters NEWSTytul">TYTUŁ</h7>
-                        <h2>${title}</h2>
-                        <br>
-                        <h7 class="NEWSsmallleters">DATA DODANIA</h7>
-                        <h2>${type}</h2>
-                    </div>
-                 
-
-                    <hr>
-                    <h7 class="NEWSsmallleters">TREŚĆ</h7>
-                    <h3 style="margin-right: 7px; text-align: left;">${content}</h3>
-
-                </div>
-            </article>
-            `;
+                </center>
+                <br>
+                `;
                     }
 
-                    // Wstawiamy HTML do dokumentu
+                    articleHTML += `
+            </div>
+        </article>
+        `;
+
                     document.getElementById('news-articles').insertAdjacentHTML('beforeend', articleHTML);
                 }
             } catch (error) {
                 console.error("Błąd podczas ładowania artykułów:", error);
             }
         }
+
+
 
 
         function checkLogin() {

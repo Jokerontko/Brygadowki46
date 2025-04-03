@@ -469,6 +469,16 @@
                                 tr.appendChild(td);
 
                                 // Sprawdzanie, czy godzina z kolumny jest zgodna z aktualną godziną
+                                if (colIndex === 2) { // Jeśli to jest "Godzina"
+                                    const currentTime = new Date().toLocaleTimeString([], {
+                                        hour: '2-digit',
+                                        minute: '2-digit'
+                                    });
+                                    if (currentTime === column.trim()) {
+                                        tr.style.backgroundColor = 'grey'; // Kolor na czerwony
+                                    }
+                                }
+
                                 if (colIndex === 4) { // Jeśli to jest "Godzina"
                                     const currentTime = new Date().toLocaleTimeString([], {
                                         hour: '2-digit',

@@ -821,6 +821,46 @@ app.get('../../Brygady/WYNIKI/Gotowe_brygady/:folder/Rezerwa_list.txt', (req, re
 
 
 
+app.get('/przystanki', (req, res) => {
+    const filePath = path.join(__dirname, 'Brygady', 'WYNIKI', 'Przystanki.txt');
+
+    // Sprawdzamy, czy plik istnieje
+    fs.exists(filePath, (exists) => {
+        if (!exists) {
+            return res.status(404).json({
+                error: 'Plik Przystanki.txt nie został znaleziony.'
+            });
+        }
+
+        // Odczytujemy plik
+        fs.readFile(filePath, 'utf8', (err, data) => {
+            if (err) {
+                console.error('Błąd odczytu pliku:', err);
+                return res.status(500).json({
+                    error: 'Nie udało się wczytać danych'
+                });
+            }
+
+            // Zwracamy dane w formie JSON
+            const stops = data.split('\n').filter(line => line.trim()).map(line => {
+                const parts = line.split('\t');
+                return {
+                    kod: parts[0]?.trim() || '',
+                    nazwa: parts[1]?.trim() || '',
+                    naZadanie: parts[2]?.trim().toLowerCase() === 'true',
+                    strefa: parts[3]?.trim() || '',
+                    linie: '' // Można tu dodać obsługiwane linie, jeśli są dostępne w innym pliku
+                };
+            });
+
+            res.json(stops);
+        });
+    });
+});
+
+
+
+
 
 
 // Uruchomienie serwera
