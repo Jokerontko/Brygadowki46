@@ -8,7 +8,7 @@
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="0">
-    <title>Ta? To smerfastycznie</title>
+    <title>Rozkład Przystankowy</title>
     <style>
         body {
             background: rgb(50, 50, 50);
@@ -24,12 +24,15 @@
             margin-bottom: -13px;
         }
 
-        h3 {
-            margin: 15px 20px 10px;
+        .tabelki {
+            display: flex;
+            width: 40vw;
+            align-items: center;
+            align-content: center;
         }
 
         table {
-            width: 70%;
+
             max-width: 680px;
             height: 50px;
             border-collapse: collapse;
@@ -39,8 +42,9 @@
 
         th,
         td {
-            text-align: center;
-            padding: 10px;
+
+            padding: 4px;
+            height: 30px;
             border: 1px solid #ccc;
         }
 
@@ -139,6 +143,61 @@
 
         .menu.active {
             background-color: darkorange;
+
+        }
+
+        .linie {
+            display: inline-block;
+            text-decoration: none;
+            color: rgb(50, 50, 50);
+            background-color: white;
+            border: 1.5px solid;
+            padding: 5px 5px;
+            margin: 5px 5px 5px;
+            transition: background-color 0.3s ease;
+            font-size: 20px;
+            font-weight: bolder;
+            width: 26px;
+            height: 26px;
+            text-align: center;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin: 2px;
+
+
+        }
+
+        .linie:hover {
+            border-color: orange;
+            background-color: orange;
+            color: rgb(50, 50, 50);
+
+        }
+
+
+        .clickable {
+            cursor: pointer;
+        }
+
+        .Legenda {
+            font-weight: 100;
+            margin: 15px;
+
+        }
+
+        th {
+            text-align: left;
+        }
+
+        .Godzina {
+            text-align: center;
+            background-color: rgba(163, 120, 0);
+            font-weight: bolder;
+        }
+
+        span {
+            margin: 0px 0px 0px 10px;
         }
 
     </style>
@@ -155,17 +214,527 @@
     </header>
 
 
-    <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 75vh; text-align: center;">
+    <center>
+        <h1 id="Przystanek">Przystanek?</h1>
+        <p class="top">Stan na dzień <span id="waznyOd" style="margin: 0px;">01/04/2025</span></p>
+    </center>
+
+    <div style="width: 50%; max-width: 680px; min-width: 300px;">
+        <a style="text-align: left;">Dostępne linie:</a> <br>
+        <div id="linie-container">
+        </div>
         <br>
-        <h1>RYSZARD ODDAJ STRONE ZŁODZIEJU</h1>
-        <h3>Ta podstrona nie jest jeszcze gotowa, żółta kartka dla Ciebie</h3>
-        <img src="../Photos/zoltakartka.png"><br>
-        <a href="listaprzystankow.html" class="menu">Wróć na dobre tory</a>
+
+        <table style="width: 100%" id="dane-wspolne">
+            <thead>
+                <tr>
+                    <th style="width: 10px;">Godz</th>
+                    <th style="text-align: center;">Powszedni</th>
+                    <th style="text-align: center;">Sobotni</th>
+                    <th style="text-align: center;">Niedzielny</th>
+                </tr>
+            </thead>
+            <tbody id="tabela-wspolna-body">
+                <!-- Wiersze zostaną dodane dynamicznie -->
+            </tbody>
+        </table>
+
+
+        <table style="width: 100%;">
+            <tbody>
+                <th id="Legenda"></th>
+            </tbody>
+        </table>
     </div>
 
+    <script>
+        function sprawdzDate() {
+            const spanElement = document.getElementById("waznyOd");
+
+            if (spanElement) {
+                let dateString = spanElement.textContent.trim();
+                let dateParts = dateString.split("/");
+
+                if (dateParts.length === 3) {
+                    let spanDate = new Date(dateParts[2], dateParts[1] - 1, dateParts[0]); // DD/MM/YYYY
+                    let currentDate = new Date();
+                    currentDate.setHours(0, 0, 0, 0);
+
+                    if (spanDate > currentDate) {
+                        spanElement.style.backgroundColor = "red";
+                        spanElement.style.color = "white";
+                    }
+                }
+            }
+        }
+
+
+        document.addEventListener("DOMContentLoaded", async function() {
+            const przystanekName = sessionStorage.getItem('PrzystanekName');
+            const przystanekNameChanged = przystanekName ? przystanekName.replace(/\//g, '_') : '';
+            document.getElementById('Przystanek').textContent = przystanekName;
+            if (!przystanekName) {
+                console.error("Brak nazwy przystanku w sessionStorage");
+                return;
+            }
+
+            try {
+                const response = await fetch(`/api/pliki/${przystanekNameChanged}`);
+                if (!response.ok) throw new Error("Błąd pobierania plików");
+                const files = await response.json();
+
+                // Sortowanie plików, najpierw cyfry, potem litery
+                files.sort((a, b) => {
+                    const isANumber = /^[0-9]/.test(a);
+                    const isBNumber = /^[0-9]/.test(b);
+
+                    if (isANumber && !isBNumber) return -1;
+                    if (!isANumber && isBNumber) return 1;
+
+                    const extractNumber = (str) => parseInt(str.replace(/[^\d]/g, ''), 10);
+                    const aNumber = extractNumber(a);
+                    const bNumber = extractNumber(b);
+
+                    if (aNumber !== bNumber) return aNumber - bNumber;
+                    return a.localeCompare(b);
+                });
+
+                const container = document.getElementById("linie-container");
+
+                // 🔽 Pobierz mapę linii nocnych
+                const nocneResponse = await fetch('/api/czyNocna');
+                const nocneMap = await nocneResponse.json();
+
+                files.forEach(file => {
+                    const linia = file.replace('.txt', '');
+                    const link = document.createElement("a");
+                    link.className = "linie";
+                    link.href = "#";
+                    link.textContent = linia;
+                    link.classList.add(linia);
+
+                    // Sprawdź, czy linia jest nocna
+                    if (nocneMap.hasOwnProperty(linia)) {
+                        link.style.backgroundColor = 'black';
+                        link.style.color = 'white';
+                        link.setAttribute('data-original-bg', 'black');
+                    } else {
+                        link.style.backgroundColor = 'white';
+                        link.style.color = 'black';
+                        link.setAttribute('data-original-bg', 'white');
+                    }
+
+                    container.appendChild(link);
+                });
+
+
+                setUpClickListener();
+
+            } catch (error) {
+                console.error("Wystąpił błąd:", error);
+            }
+        });
+
+        // Funkcja uruchamiająca nasłuchiwacz kliknięć na linki
+        let lastClickedLink = null; // globalna zmienna
+
+        function setUpClickListener() {
+            document.querySelectorAll('#linie-container a').forEach(function(aTag) {
+                aTag.addEventListener('click', function(e) {
+                    e.preventDefault(); // zapobiega przeskakiwaniu do góry przez href="#"
+
+                    console.log("Kliknięto w element <a> z tekstem: " + aTag.textContent);
+
+                    // Jeśli kliknięto w już zaznaczoną linię – odkliknij ją
+                    if (lastClickedLink === aTag) {
+                        const originalBg = aTag.getAttribute('data-original-bg');
+                        aTag.style.backgroundColor = originalBg || 'white';
+                        aTag.style.color = (originalBg === 'black') ? 'white' : 'black';
+                        lastClickedLink = null;
+
+                        // Wywołaj funkcję przy odkliknięciu
+                        loadCzysteWiersze();
+                        return;
+                    }
+
+                    // Zapisz drugą klasę w sessionStorage
+                    const classes = aTag.classList;
+                    if (classes.length > 1) {
+                        sessionStorage.setItem('secondClass', classes[1]);
+                        console.log("Druga klasa zapisana:", classes[1]);
+                    } else {
+                        console.log("Brak drugiej klasy");
+                    }
+
+                    // Przywróć oryginalne tło wszystkim liniom
+                    document.querySelectorAll('#linie-container a').forEach(el => {
+                        const originalBg = el.getAttribute('data-original-bg');
+                        el.style.backgroundColor = originalBg || 'white';
+                        el.style.color = (originalBg === 'black') ? 'white' : 'black';
+                    });
+
+                    // Ustaw pomarańczowe tło klikniętemu
+                    aTag.style.backgroundColor = 'rgb(223, 168, 0)';
+                    aTag.style.color = 'black';
+                    lastClickedLink = aTag;
+
+                    // Usunięcie legendy
+                    const legendaTbody = document.getElementById('Legenda');
+                    if (legendaTbody) {
+                        legendaTbody.innerHTML = '';
+                    }
+
+                    // Ładowanie rozkładów
+                    loadAllRozklady();
+                });
+            });
+        }
 
 
 
+
+        const litery = 'ABCDEFGHIJKLMNOPQRSTUWV';
+        let numerDoLitery = {};
+        let literaIndex = 0;
+        const indeksyUzyte = new Set();
+
+        // Odczytaj zapisaną mapę z sessionStorage, jeśli istnieje
+        const storedMapping = sessionStorage.getItem('numerDoLitery');
+        if (storedMapping) {
+            numerDoLitery = JSON.parse(storedMapping);
+
+            // Ustaw literaIndex na pierwszy wolny indeks
+            const usedLetters = new Set(Object.values(numerDoLitery));
+            for (let i = 0; i < litery.length; i++) {
+                if (!usedLetters.has(litery[i])) {
+                    literaIndex = i;
+                    break;
+                }
+            }
+        }
+
+        async function loadAllRozklady() {
+            const Linia = sessionStorage.getItem('secondClass');
+            const przystanekName = sessionStorage.getItem('PrzystanekName');
+            const przystanekNameChanged = przystanekName.replace(/\//g, '_');
+            const encodedPrzystanekName = encodeURIComponent(przystanekNameChanged);
+            const tabelaBody = document.getElementById('tabela-wspolna-body');
+            tabelaBody.innerHTML = '';
+
+            const typyDni = {
+                Powszedni: {
+                    id: 2,
+                    data: null,
+                    hasError: false
+                },
+                Sobotni: {
+                    id: 4,
+                    data: null,
+                    hasError: false
+                },
+                Niedzielny: {
+                    id: 1,
+                    data: null,
+                    hasError: false
+                },
+            };
+
+            // Zmienna do przechowywania użytych indeksów
+            const indeksyUzyte = new Set();
+
+            // Wczytaj dane dla każdego typu dnia
+            for (const [nazwa, obj] of Object.entries(typyDni)) {
+                const url = `/get-${nazwa.toLowerCase()}?przystanekName=${encodedPrzystanekName}&linia=${Linia}`;
+                try {
+                    const response = await fetch(url);
+                    const data = await response.json();
+                    obj.data = data;
+                } catch (error) {
+                    console.error(`Błąd ładowania danych dla ${nazwa}:`, error);
+                    obj.hasError = true; // Zaznaczamy, że wystąpił błąd dla tego dnia
+                }
+            }
+
+            // Inicjalizuj mapę godzin
+            const godzinyMap = new Map();
+            for (let i = 0; i < 24; i++) {
+                const tr = document.createElement('tr');
+
+                const godzTd = document.createElement('td');
+                godzTd.textContent = i;
+                godzTd.classList.add('Godzina'); // ← DODANO klasę "Godzina"
+                tr.appendChild(godzTd);
+
+                const tds = [];
+                for (let j = 0; j < 3; j++) {
+                    const td = document.createElement('td');
+                    td.dataset.godzina = i;
+                    tds.push(td);
+                    tr.appendChild(td);
+                }
+
+                tabelaBody.appendChild(tr);
+                godzinyMap.set(i, tds); // tds[0] → Powszedni, [1] → Sobotni, [2] → Niedzielny
+            }
+
+
+            // Wypełnianie danych
+            const numerDoLitery = JSON.parse(sessionStorage.getItem('numerDoLitery')) || {};
+            let literaIndex = 0;
+            const litery = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+
+            for (const [nazwa, {
+                    id,
+                    data,
+                    hasError
+                }] of Object.entries(typyDni)) {
+                const colIndex = Object.keys(typyDni).indexOf(nazwa); // 0 = Powszedni, 1 = Sobotni, 2 = Niedzielny
+
+                const licznikNumerow = {};
+                if (!hasError) {
+                    // Tylko dla dni, które mają dane, wypełniamy je
+                    data.forEach(row => {
+                        if (!row.numer) return;
+                        const numer = row.numer.trim();
+                        licznikNumerow[numer] = (licznikNumerow[numer] || 0) + 1;
+                    });
+
+                    let najczestszyNumer = null;
+                    let maxIlosc = 0;
+                    for (const [numer, count] of Object.entries(licznikNumerow)) {
+                        if (count > maxIlosc) {
+                            najczestszyNumer = numer;
+                            maxIlosc = count;
+                        }
+                    }
+
+                    data.forEach(row => {
+                        if (!row.godzina) return;
+                        const [hh, mm] = row.godzina.split(':');
+                        let godzina = parseInt(hh, 10);
+                        if (godzina >= 24) godzina -= 24;
+
+                        const kolumny = godzinyMap.get(godzina);
+                        if (!kolumny) return;
+
+                        const td = kolumny[colIndex];
+                        const numer = row.numer ? row.numer.trim() : 'brak';
+                        const brygada = row.brygada ? row.brygada.trim() : 'brak';
+
+                        const span = document.createElement('span');
+                        span.textContent = mm;
+
+                        if (numer !== najczestszyNumer) {
+                            if (!numerDoLitery[numer]) {
+                                // Jeśli litera nie została jeszcze przypisana, przypisz kolejną z puli
+                                if (literaIndex < litery.length) {
+                                    numerDoLitery[numer] = litery[literaIndex++];
+                                    sessionStorage.setItem('numerDoLitery', JSON.stringify(numerDoLitery));
+                                } else {
+                                    console.warn("Brak dostępnych liter do przypisania.");
+                                }
+                            }
+
+                            const litera = numerDoLitery[numer];
+                            if (litera) {
+                                const sup = document.createElement('sup');
+                                sup.textContent = litera;
+                                sup.style.color = "orange";
+                                span.appendChild(sup);
+                                indeksyUzyte.add(numer);
+                            }
+                        }
+
+                        span.classList.add(`numer-${numer.replace(/\s+/g, '-')}`);
+                        span.classList.add(`brygada-${brygada.replace(/\s+/g, '-')}`);
+                        span.classList.add('clickable');
+
+                        span.addEventListener('click', async () => {
+                            const filePath = `../../../Brygady/WYNIKI/Gotowe_brygady/${id}/Brygady_BIS.txt`;
+                            try {
+                                const response = await fetch(filePath);
+                                const data = await response.text();
+                                const lines = data.split('\n').slice(2);
+                                let brygadaType = null;
+
+                                for (const line of lines) {
+                                    const [currentBrygada, typBrygady] = line.split('\t');
+                                    if (currentBrygada?.trim() === brygada) {
+                                        brygadaType = typBrygady?.trim();
+                                        break;
+                                    }
+                                }
+
+                                function findBrygadaType(searchBrygada) {
+                                    for (const line of lines) {
+                                        const [currentBrygada, typBrygady] = line.split('\t');
+                                        if (currentBrygada?.trim() === searchBrygada) {
+                                            switch (typBrygady?.trim()) {
+                                                case 'JZ':
+                                                    return 'Brygada Jednozmianowa';
+                                                case 'X':
+                                                    return 'Brygada Dwuzmianowa';
+                                                case 'B':
+                                                    return 'Brygada Szczytowa';
+                                                case 'JZN':
+                                                    return 'Brygada Nocna Jednozmianowa';
+                                                case 'DZN':
+                                                    return 'Brygada Nocna Dwuzmianowa';
+                                            }
+                                        }
+                                    }
+                                    return null;
+                                }
+
+                                brygadaType = findBrygadaType(brygada) || findBrygadaType(brygada.replace(/_/g, '/'));
+
+                                if (brygadaType) {
+                                    sessionStorage.setItem('BrygadaType', brygadaType);
+                                } else {
+                                    console.error('Nie znaleziono typu brygady:', brygada);
+                                }
+
+
+                                sessionStorage.setItem('brygadaTitle', brygada);
+                                sessionStorage.setItem('BrygadaType', brygadaType || 'Nieznany');
+                                sessionStorage.setItem('ChoosedTypeOfDay', id);
+                                window.location.href = `../Brygady/${nazwa}/brygada.html`;
+                            } catch (error) {
+                                console.error('Błąd ładowania brygady:', error);
+                            }
+                        });
+
+                        td.appendChild(span);
+                        td.appendChild(document.createTextNode('   '));
+                    });
+                } else {
+                    // W przypadku błędu dodajemy "-" w odpowiednich komórkach
+                    const kolumny = godzinyMap.get(i);
+                    const td = kolumny[colIndex];
+                    const span = document.createElement('span');
+                    span.textContent = '-';
+                    td.appendChild(span);
+
+
+                }
+
+                // Sortowanie spanów
+                godzinyMap.forEach((tds) => {
+                    const td = tds[colIndex];
+                    const spans = Array.from(td.querySelectorAll('span'));
+                    spans.sort((a, b) => parseInt(a.firstChild.textContent, 10) - parseInt(b.firstChild.textContent, 10));
+                    td.innerHTML = '';
+                    spans.forEach(span => {
+                        td.appendChild(span);
+                        td.appendChild(document.createTextNode(' '));
+                    });
+                });
+            }
+
+            // Legenda jak wcześniej
+            if (indeksyUzyte.size > 0) {
+                fetch('/Przystanki/Kierunki.txt')
+                    .then(response => response.text())
+                    .then(text => {
+                        const wyjasnieniaMap = new Map();
+                        text.split('\n').forEach(line => {
+                            const [numer, , opis] = line.split('\t'); // Uwzględniamy nowy format (3 kolumny)
+                            if (numer && opis) {
+                                wyjasnieniaMap.set(numer.trim(), opis.trim());
+                            }
+                        });
+
+                        const legendaTbody = document.getElementById('Legenda');
+                        if (legendaTbody) {
+                            legendaTbody.innerHTML = ''; // Czyścimy poprzednią zawartość
+
+                            // Dodajemy tytuł "Legenda" na górze, wyśrodkowany
+                            const legendaTitle = document.createElement('h3');
+                            legendaTitle.style.margin = "0px";
+                            legendaTitle.style.textAlign = "center";
+
+                            legendaTitle.textContent = 'Legenda';
+                            legendaTbody.appendChild(legendaTitle);
+
+                            // Tworzymy legendę z wyjaśnieniami
+                            const fragmenty = [];
+                            Array.from(indeksyUzyte).forEach(numer => {
+                                const litera = numerDoLitery[numer] || 'Brak litery';
+                                const opis = wyjasnieniaMap.get(numer) || `Brak opisu dla ${numer}`;
+                                const legendaTekst = `<span class="Legenda"> [ <eoeo style="color: orange;">${litera} </eoeo>]:&nbsp; ${opis} </span>`;
+
+                                // Dodajemy do tablicy fragmentów
+                                fragmenty.push(legendaTekst);
+                            });
+
+                            // Jeśli są fragmenty, dodajemy je do legendy
+                            if (fragmenty.length > 0) {
+                                // Umieszczamy wyjaśnienia w <p> i łączymy je za pomocą <br>
+                                const legendaHTML = fragmenty.join('<br>');
+                                legendaTbody.innerHTML += legendaHTML;
+                            }
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Błąd ładowania legendy:', error);
+                    });
+            }
+        }
+
+
+        async function loadCzysteWiersze() {
+            const Linia = sessionStorage.getItem('secondClass');
+            const przystanekName = sessionStorage.getItem('PrzystanekName');
+            const przystanekNameChanged = przystanekName.replace(/\//g, '_');
+            const encodedPrzystanekName = encodeURIComponent(przystanekNameChanged);
+            const tabelaBody = document.getElementById('tabela-wspolna-body');
+            tabelaBody.innerHTML = ''; // Czyszczenie tabeli przed załadowaniem nowych danych
+
+            // Tworzymy puste wiersze
+            for (let i = 0; i < 24; i++) { // Tworzymy 24 wiersze (po jednym na każdą godzinę)
+                const tr = document.createElement('tr');
+
+                const godzTd = document.createElement('td');
+                godzTd.textContent = i;
+                godzTd.classList.add('Godzina'); // Dodajemy klasę dla godziny
+                tr.appendChild(godzTd);
+
+                const tds = [];
+                for (let j = 0; j < 3; j++) { // 3 kolumny (Powszedni, Sobotni, Niedzielny)
+                    const td = document.createElement('td');
+                    td.dataset.godzina = i;
+                    tds.push(td);
+                    tr.appendChild(td);
+                }
+
+                tabelaBody.appendChild(tr);
+            }
+
+            console.log("Wstawiono puste wiersze w tabeli.");
+
+            // Można dalej załadować pozostałe elementy (np. legendę) po załadowaniu pustych wierszy
+            const legendaTbody = document.getElementById('Legenda');
+            if (legendaTbody) {
+                legendaTbody.innerHTML = ''; // Czyścimy legendę
+
+                const legendaTitle = document.createElement('h3');
+                legendaTitle.style.margin = "0px";
+                legendaTitle.style.textAlign = "center";
+                legendaTitle.textContent = 'Legenda';
+                legendaTbody.appendChild(legendaTitle);
+
+                // Tutaj można dodać legendę w przyszłości, jeśli trzeba
+            }
+        }
+
+
+
+        window.onload = async function() {
+            loadAllRozklady();
+            sprawdzDate();
+        }
+
+    </script>
 
 </body>
 

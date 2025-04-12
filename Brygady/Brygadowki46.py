@@ -2143,7 +2143,73 @@ def UtworzGodzPodmiany():
 
 
 
-
+def parse_kursy_file(file_path):
+    with open(file_path, 'r', encoding='utf-8') as file:
+        lines = file.readlines()
+    
+    i = 0
+    while i < len(lines):
+        line = lines[i].strip()
+        
+        if line.startswith("Folder:"):
+            # Pobranie numeru folderu
+            folder_number = line.split(" ")[1]
+            
+            # Pobranie numeru linii
+            i += 1
+            match = re.search(r'\[(.*?)\]', lines[i])
+            if match:
+                line_number = match.group(1)
+            else:
+                continue
+            
+            # Przesunięcie do tabeli
+            while i < len(lines) and not lines[i].startswith("route_id"):
+                i += 1
+            
+            # Przetwarzanie danych z tabeli
+            i += 2  # Pominięcie linii z kreskami
+            while i < len(lines) and lines[i].strip():
+                parts = lines[i].split("\t")
+                if len(parts) >= 6:
+                    departure_time = parts[4]
+                    route_id = parts[0]
+                    stop_name = parts[6].strip().replace("/", "_")  # Zmiana '/' na '_'
+                    
+                    # Sprawdzamy, czy linia jest ostatnia w rozkładzie
+                    if i + 1 < len(lines) and lines[i + 1].strip() == "":
+                        break  # Jeśli to ostatnia linia, nie zapisuj jej
+                    
+                    # Wyciągnięcie wartości x z file_path (np. "x" z "WYNIKI/Gotowe_brygady/x/Kursy.txt")
+                    folder_part = file_path.split("/")[2]  # Zakładając, że "x" jest w trzeciej części ścieżki
+                    stop_folder = f"../Przystanki/{folder_part}/{stop_name}"
+                    
+                    # Tworzenie folderu przystanku
+                    os.makedirs(stop_folder, exist_ok=True)
+                    
+                    # Ścieżka do pliku linii
+                    stop_file = os.path.join(stop_folder, f"{line_number}.txt")
+                    
+                    # Dopisywanie danych do pliku
+                    with open(stop_file, "a", encoding="utf-8") as f:
+                        f.write(f"{departure_time}\t{folder_number}\t{route_id}\n")
+                
+                i += 1
+        else:
+            i += 1
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
 
 
@@ -2183,6 +2249,7 @@ def menu():
         print("15 - TESTY POZMIENIAJ")
         print("16 - TESTY SPRAWDŹ PODMIENIAJ CZY SĄ INNE WARTOŚCI NIZ 1234")
         print("17 - TESTOWANKO utwórz liste podmian automatycznie")
+        print("18. Utwórz plik Przystanki")
         print("")
         print("20. Brygady + Numeracja + Nazwanie + Linie + Godziny + GOTOWE.txt + Wyznacz bb + Wczytaj bb + Plik Zbiorczy Kursy")
         print("================================")
@@ -2254,6 +2321,12 @@ def menu():
         elif wybor == '17':
             UtworzGodzPodmiany()
             input("Gotowe.")   
+        elif wybor == '18':
+            parse_kursy_file("WYNIKI/Gotowe_brygady/1/Kursy.txt")
+            parse_kursy_file("WYNIKI/Gotowe_brygady/2/Kursy.txt")
+            parse_kursy_file("WYNIKI/Gotowe_brygady/3/Kursy.txt")
+            parse_kursy_file("WYNIKI/Gotowe_brygady/4/Kursy.txt")
+            input("Gotowe.")
         elif wybor == "20":
             WczytajBrygady()            
             WczytajNumeracje()

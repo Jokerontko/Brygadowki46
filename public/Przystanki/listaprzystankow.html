@@ -160,7 +160,7 @@
 
     <div class="filter-container">
         <center>
-            <input type="text" id="filterBrygada" class="filter-input" placeholder="Nazwa przystanku">
+            <input type="text" id="filterBrygada" class="filter-input" placeholder="Nazwa przystanku" autocomplete="off">
             <div style="display: none;">
                 <br>
                 <a href="#" class="menu" id="ButtonStrefaA">Strefa A</a>
@@ -196,6 +196,7 @@
                 <th>Nazwa Przystanku</th>
                 <th>Strefa</th>
                 <th style="display: none;">Obsługiwane linie</th>
+                <th style="display: none;">NazwaPrzystankuBis</th>
 
             </tr>
         </thead>
@@ -232,6 +233,7 @@
                             const columns = row.split('\t'); // Podział wiersza na kolumny (zakładając, że jest tabulacja)
 
                             // Przetwarzanie nazwy przystanku - usuwanie "nż" i dodawanie "(Na zadanie)" jeśli TRUE
+                            let nazwaPrzystankuBIS = columns[1]
                             let nazwaPrzystanku = columns[1].replace(/nż/g, '').trim(); // Usuwanie "nż"
                             if (columns[2].trim() === 'true') {
                                 nazwaPrzystanku += '<br> <span style="color: grey; margin: 1px;">(Przystanek na żądanie)</span>'; // Dodawanie "Na zadanie" jeśli TRUE
@@ -243,7 +245,8 @@
                                 nazwa: nazwaPrzystanku,
                                 strefa: columns[3],
                                 linie: 'N/A',
-                                teren: columns[6]
+                                teren: columns[6],
+                                nazwaBIS: nazwaPrzystankuBIS
                             });
                         }
                     });
@@ -287,12 +290,16 @@
                             teren.textContent = item.teren;
                             teren.style.display = "none";
 
+                            const nazwaBIS = document.createElement('td');
+                            nazwaBIS.innerHTML = highlightMatch(item.nazwaBIS, query); // Podświetlanie wyszukiwanego tekstu
+                            nazwaBIS.style.display = "none";
+
                             tr.appendChild(kodPrzystanku);
                             tr.appendChild(nazwa);
                             tr.appendChild(strefa);
                             tr.appendChild(obslugiwaneLinie);
                             tr.appendChild(teren);
-
+                            tr.appendChild(nazwaBIS);
 
 
                             tableBody.appendChild(tr);
@@ -300,13 +307,15 @@
                             // Dodajemy nasłuchiwacz zdarzenia kliknięcia na kod przystanku
                             kodPrzystanku.addEventListener('click', function() {
                                 // Zapisujemy nazwę przystanku do sessionStorage
-                                sessionStorage.setItem('PrzystanekName', item.nazwa);
+                                // Zapisujemy nazwę przystanku do sessionStorage (zamieniamy "/" na "_")
+                                sessionStorage.setItem('PrzystanekName', item.nazwaBIS);
+
 
                                 // Zapisujemy kod przystanku do sessionStorage
                                 sessionStorage.setItem('PrzystanekNumber', item.kod);
 
                                 // Drukujemy nazwę przystanku w konsoli
-                                console.log('Nazwa przystanku:', item.nazwa);
+                                console.log('Nazwa przystanku:', item.nazwaBIS);
 
                                 // Drukujemy kod przystanku w konsoli
                                 console.log('Kod przystanku:', item.kod);

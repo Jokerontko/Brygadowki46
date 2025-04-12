@@ -24,6 +24,196 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
+app.use(express.static(path.join(__dirname, 'Przystanki')));
+
+
+
+
+
+
+app.get('/get-powszedni', (req, res) => {
+    // Odbieramy nazwę przystanku i linię z parametrów zapytania
+    const przystanekName = decodeURIComponent(req.query.przystanekName);
+    const linia = req.query.linia; // Pobieramy parametr 'linia' z zapytania
+
+    // Sprawdzamy, czy oba parametry są przekazane
+    if (!przystanekName || !linia) {
+        console.error('Brak wymaganych parametrów: przystanekName lub linia');
+        return res.status(400).send('Brak wymaganych parametrów');
+    }
+
+    // Tworzymy ścieżkę do pliku, gdzie 'Linia' jest używana zamiast '11.txt'
+    const filePath = path.join(__dirname, 'Przystanki', '2', przystanekName, `${linia}.txt`);
+
+    console.log('Sprawdzam ścieżkę pliku:', filePath);
+
+    // Sprawdzamy, czy plik istnieje
+    fs.access(filePath, fs.constants.F_OK, (err) => {
+        if (err) {
+            console.error('Plik nie istnieje:', filePath);
+            return res.status(404).send('Plik nie istnieje');
+        }
+
+        // Jeśli plik istnieje, odczytujemy dane
+        fs.readFile(filePath, 'utf8', (err, data) => {
+            if (err) {
+                console.error('Błąd odczytu pliku:', err.message); // Więcej szczegółów o błędzie
+                return res.status(500).send('Błąd odczytu pliku');
+            }
+
+            console.log('Odczytano dane:', data); // Logujemy, że dane zostały poprawnie odczytane
+
+            const rows = data.split('\n').map(line => {
+                const columns = line.split('\t');
+                return {
+                    godzina: columns[0],
+                    brygada: columns[1],
+                    numer: columns[2]
+                };
+            });
+
+            console.log('Dane przetworzone:', rows); // Logujemy przetworzone dane
+
+            res.json(rows); // Odpowiadamy z danymi w formacie JSON
+        });
+    });
+});
+
+
+app.get('/get-sobotni', (req, res) => {
+    // Odbieramy nazwę przystanku z parametrów zapytania
+    const przystanekName = decodeURIComponent(req.query.przystanekName);
+    const linia = req.query.linia; // Pobieramy parametr 'linia' z zapytania
+
+    // Tworzymy ścieżkę do pliku, gdzie 'Linia' jest używana zamiast '11.txt'
+    const filePath = path.join(__dirname, 'Przystanki', '4', przystanekName, `${linia}.txt`);
+
+    fs.readFile(filePath, 'utf8', (err, data) => {
+        if (err) {
+            console.error('Błąd odczytu pliku:', err);
+            return res.status(500).send('Błąd odczytu pliku');
+        }
+
+        console.log('Odczytano dane:', data); // Dodajemy log do sprawdzenia, czy dane są poprawnie wczytane
+
+        const rows = data.split('\n').map(line => {
+            const columns = line.split('\t');
+            return {
+                godzina: columns[0],
+                brygada: columns[1],
+                numer: columns[2]
+            };
+        });
+
+        console.log('Dane przetworzone:', rows); // Logujemy przetworzone dane
+
+        res.json(rows);
+    });
+});
+
+app.get('/get-niedzielny', (req, res) => {
+    // Odbieramy nazwę przystanku z parametrów zapytania
+    const przystanekName = decodeURIComponent(req.query.przystanekName);
+    const linia = req.query.linia; // Pobieramy parametr 'linia' z zapytania
+
+    // Tworzymy ścieżkę do pliku, gdzie 'Linia' jest używana zamiast '11.txt'
+    const filePath = path.join(__dirname, 'Przystanki', '1', przystanekName, `${linia}.txt`);
+
+    fs.readFile(filePath, 'utf8', (err, data) => {
+        if (err) {
+            console.error('Błąd odczytu pliku:', err);
+            return res.status(500).send('Błąd odczytu pliku');
+        }
+
+        console.log('Odczytano dane:', data); // Dodajemy log do sprawdzenia, czy dane są poprawnie wczytane
+
+        const rows = data.split('\n').map(line => {
+            const columns = line.split('\t');
+            return {
+                godzina: columns[0],
+                brygada: columns[1],
+                numer: columns[2]
+            };
+        });
+
+        console.log('Dane przetworzone:', rows); // Logujemy przetworzone dane
+
+        res.json(rows);
+    });
+});
+
+
+
+// API do pobierania listy plików z katalogu przystanku
+app.get('/api/pliki/:przystanekName', (req, res) => {
+    const przystanekName = req.params.przystanekName;
+    const folderNames = ['1', '2', '3', '4']; // Lista folderów, które chcemy sprawdzić
+    const allFiles = new Set(); // Używamy Set, aby automatycznie usunąć duplikaty
+
+    // Funkcja pomocnicza do sprawdzania folderów
+    const findFilesInFolder = (index) => {
+        if (index >= folderNames.length) {
+            // Po zakończeniu przeszukiwania wszystkich folderów, zwróć pliki
+            if (allFiles.size > 0) {
+                return res.json(Array.from(allFiles)); // Zwracamy pliki bez duplikatów
+            } else {
+                return res.status(404).json({
+                    error: 'Nie znaleziono plików w żadnym z folderów.'
+                });
+            }
+        }
+
+        const folderPath = path.join(__dirname, 'Przystanki', folderNames[index], przystanekName);
+
+        fs.readdir(folderPath, (err, files) => {
+            if (err) {
+                // Jeśli jest błąd, próbujemy następny folder
+                return findFilesInFolder(index + 1);
+            }
+
+            // Filtrujemy tylko pliki tekstowe
+            const txtFiles = files.filter(file => file.endsWith('.txt'));
+
+            // Dodajemy pliki do zbioru (Set automatycznie usuwa duplikaty)
+            txtFiles.forEach(file => allFiles.add(file));
+
+            // Przechodzimy do następnego folderu
+            findFilesInFolder(index + 1);
+        });
+    };
+
+    // Rozpoczynamy szukanie w pierwszym folderze
+    findFilesInFolder(0);
+});
+
+
+// Endpoint do sprawdzania, które linie są nocne
+app.get('/api/czyNocna', (req, res) => {
+    const filePath = path.join(__dirname, 'Przystanki', 'CzyNocna.txt');
+
+    fs.readFile(filePath, 'utf8', (err, data) => {
+        if (err) {
+            console.error("Błąd podczas odczytu CzyNocna.txt:", err);
+            return res.status(500).json({
+                error: 'Nie udało się odczytać pliku CzyNocna.txt'
+            });
+        }
+
+        const result = {};
+        data.split('\n').forEach(line => {
+            const linia = line.trim().split('\t')[0];
+            if (linia) {
+                result[linia] = true;
+            }
+        });
+
+        res.json(result);
+    });
+});
+
+
+
+
 // Login endpoint
 app.post('/login', (req, res) => {
     const {
@@ -857,6 +1047,9 @@ app.get('/przystanki', (req, res) => {
         });
     });
 });
+
+
+
 
 
 
