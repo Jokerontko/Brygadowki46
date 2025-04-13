@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.6">
+    <link rel="stylesheet" href="../../style_css/headermenu.css">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="refresh" content="180">
+    <title>Szczegóły kursu</title>
+    <style>
+        body {
+            background: rgb(50, 50, 50);
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+            color: white;
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin: 40px 0 10px;
+        }
+
+        table {
+            width: 90%;
+            max-width: 940px;
+            border-collapse: collapse;
+            border-radius: 5px;
+            overflow: hidden;
+            margin-top: 20px;
+
+        }
+
+        th,
+        td {
+            text-align: center;
+            padding: 10px;
+            border: 1px solid #ccc;
+            font-size: 17px;
+        }
+
+        thead {
+            background-color: rgba(163, 120, 0);
+        }
+
+        .NrOflp {
+            text-decoration: none;
+            color: orange;
+        }
+
+        .hide {
+            font-size: 0px;
+            padding: 0px;
+            border: 0px;
+        }
+
+        .Rez {
+            padding: 0px;
+            text-align: right;
+            border-top: 1px solid;
+            border-bottom: 1px solid;
+            border-left: none;
+            border-right: none;
+
+        }
+
+        .RezLP {
+            padding: 0px;
+            text-align: right;
+            border-top: 1px solid;
+            border-bottom: 1px solid;
+            border-left: 1px solid;
+            border-right: none;
+        }
+
+        p {
+            color: grey;
+        }
+
+        #brygadaType {
+            margin-top: -5px;
+            color: grey;
+        }
+
+        #wykazbrygady {
+            width: 30%;
+        }
+
+        header {
+            position: sticky;
+            top: 0px;
+            background-color: rgb(50, 50, 50);
+        }
+
+        @keyframes blink {
+            0% {
+                background-color: red;
+            }
+
+            50% {
+                background-color: transparent;
+            }
+
+            100% {
+                background-color: red;
+            }
+        }
+
+        .blink {
+            animation: blink 1s infinite;
+        }
+
+        @keyframes blinkbrake {
+            0% {
+                background-color: transparent 20%;
+            }
+
+            50% {
+                background-color: transparent;
+            }
+
+            100% {
+                background-color: transparent 20%;
+            }
+        }
+
+        .blinkbrake {
+            animation: blinkbrake 2s infinite;
+        }
+
+        .BrakeDetected {
+            color: white;
+            pointer-events: visible;
+        }
+
+        .NoBrakeDetected {
+            color: grey;
+            pointer-events: none;
+        }
+
+        .PodmianaDetected {
+            color: white;
+            pointer-events: visible;
+        }
+
+        .NoPodmianaDetected {
+            color: grey;
+            pointer-events: none;
+        }
+
+        .highlightButton {
+            color: white;
+            pointer-events: visible;
+        }
+
+        .NohighlightButton {
+            color: grey;
+            pointer-events: none;
+        }
+
+        .PTDetected {
+            color: white;
+            pointer-events: visible;
+        }
+
+        .NoPTDetected {
+            color: grey;
+            pointer-events: none;
+        }
+
+        .buttons a {
+            width: 170px;
+            text-align: center;
+        }
+
+        .WNLZDZDetected {
+            color: white;
+            pointer-events: visible;
+        }
+
+        .NoWNLZDZDetected {
+            color: grey;
+            pointer-events: none;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="../../Main_Panel.html" class="menu">Panel Główny</a>
+        <a href="../../Przystanki/listaprzystankow.html" class="menu">Przystanki</a>
+        <a href="../ChooseDay.html" class="menu">Brygady</a>
+        <a href="../../Brygady/Kursy/Kursy.html" class="menu">Kursy</a>
+        <a href="#" class="menu exit" id="logout">Opuść Panel</a>
+        <hr>
+    </header>
+
+    <h1 id="brygadaTitle">Brygada</h1>
+    <h3 id="brygadaType">Typ</h3>
+    <div class="buttons">
+        <a href="#" class="menu" id="highlightButton">Wyróżnij linie</a>
+        <a href="#" class="menu" id="highlitghtedButton">Wyłącz podświetlenie</a>
+        <br>
+        <a href="#" class="menu" id="przerwaButton">Ukryj przerwę</a>
+        <a href="#" class="menu" id="podmianaButton">Ukryj podmianę</a>
+        <br>
+        <a href="#" class="menu" id="PTButton">Ukryj PT</a>
+        <a href="#" class="menu" id="WNLZDZButton">Ukryj WNL i ZDZ</a>
+        <br>
+    </div>
+    <a href="#" class="menu PrzerwaBisowa" id="PBButton" style="display: none;">Ukryj Przerwę Bisową</a>
+
+
+
+    <table id="wykazstrony">
+        <thead>
+            <tr>
+                <th>Numer Autobusu</th>
+                <th>Numer Linii</th>
+                <th>Przystanek Początkowy</th>
+                <th>Następny kierunek</th>
+                <th>Godzina odjazdu</th>
+            </tr>
+        </thead>
+        <tbody id="dane-wykaz">
+            <!-- Wiersze zostaną dodane automatycznie -->
+        </tbody>
+    </table>
+
+
+
+
+    <!--<button onclick="drukujRozklad()">Drukuj rozkład</button>-->
+
+    <p>Strona odświeża się automatycznie co 180 sekund.</p>
+
+    <script>
+        fetch('http://localhost:3000/api/vehicles')
+            .then(response => response.text())
+            .then(xmlString => {
+                const parser = new DOMParser();
+                const xmlDoc = parser.parseFromString(xmlString, "text/xml");
+                const vehicles = Array.from(xmlDoc.getElementsByTagName("V"));
+
+                // 🧠 Sortujemy pojazdy rosnąco wg numeru bocznego
+                vehicles.sort((a, b) => {
+                    const nbA = parseInt(a.getAttribute("nb")) || 0;
+                    const nbB = parseInt(b.getAttribute("nb")) || 0;
+                    return nbA - nbB;
+                });
+
+                const tbody = document.getElementById("dane-wykaz");
+                tbody.innerHTML = ""; // wyczyść stare dane (na wypadek ponownego wczytania)
+
+                vehicles.forEach(v => {
+                    const nb = v.getAttribute("nb");
+                    const nr = v.getAttribute("nr");
+                    const op = v.getAttribute("op");
+                    const nop = v.getAttribute("nop");
+                    const p = v.getAttribute("p");
+
+                    const row = document.createElement("tr");
+                    row.innerHTML = `
+        <td>${nb}</td>
+        <td>${nr}</td>
+        <td>${op}</td>
+        <td>${nop}</td>
+        <td>${p}</td>
+      `;
+                    tbody.appendChild(row);
+                });
+            })
+            .catch(error => {
+                console.error('Błąd przy pobieraniu danych:', error);
+            });
+
+    </script>
+
+
+</body>
+
+</html>
+
+
+
+
+<!--
+
+
+ function drukujRozklad() {
+            // Pobranie numeru linii (zawsze oddzielony przecinkiem)
+            const nrLinii = Array.from(new Set(
+                    [...document.querySelectorAll("#rozkładTable tbody tr td:nth-child(2)")].map(cell => cell.innerText.trim())
+                ))
+                .sort((a, b) => a - b) // Sortowanie od najmniejszej do największej
+                .join(", ") || "Brak!"; // Domyślna wartość, jeśli brak
+
+
+            // Pobranie wartości brygady z sessionStorage
+            let nrBrygada = "NR_BRYGADA"; // Domyślna wartość
+
+            const brygadaTitle = sessionStorage.getItem('brygadaTitle');
+            if (brygadaTitle) {
+                const formattedTitle = brygadaTitle.replace(/_/g, '/');
+                nrBrygada = `${formattedTitle}`;
+            } else {
+                console.error("Nie znaleziono brygadaTitle w sessionStorage.");
+            }
+            debugger;
+            console.log("Numer linii wysyłany do serwera:", nrLinii);
+
+
+            fetch('/getRouteStops', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        nrLinii: nrLinii
+                    }) // Wysyłamy nrLinii do serwera
+                })
+                .then(response => response.json())
+                .then(data => {
+                    console.log('Odpowiedź z serwera:', data); // Logowanie odpowiedzi
+                    if (data.stops && Array.isArray(data.stops)) {
+                        // Tylko wtedy, gdy odpowiedź zawiera poprawne dane
+                        updateTable(data.stops); // Funkcja do aktualizacji tabeli
+                    } else {
+                        console.error('Błąd: Brak przystanków w odpowiedzi');
+                    }
+                })
+                .catch(error => {
+                    console.error("Błąd w wysyłaniu numeru linii:", error);
+                });
+
+
+            function updateTable(przystanki) {
+                // Znajdź tabelę i ciało tabeli
+                const tabela = document.querySelector("#rozkładTable");
+                const tbody = tabela.querySelector("tbody");
+
+                // Usuń istniejące wiersze w tabeli
+                tbody.innerHTML = '';
+
+                // Dodaj nowe wiersze na podstawie przystanków
+                przystanki.forEach((przystanek, index) => {
+                    const tr = document.createElement("tr");
+
+                    const td1 = document.createElement("td");
+                    td1.innerText = index + 1; // Numer porządkowy przystanku
+                    tr.appendChild(td1);
+
+                    const td2 = document.createElement("td");
+                    td2.innerText = przystanek; // Nazwa przystanku
+                    tr.appendChild(td2);
+
+                    tbody.appendChild(tr); // Dodaj wiersz do ciała tabeli
+                });
+            }
+
+
+
+            // Pobranie wartości "ChoosedTypeOfDay" z sessionStorage
+            let choosedTypeOfDay = sessionStorage.getItem('ChoosedTypeOfDay') || "2"; // Domyślna wartość to "2" (Rozkład ROBOCZY), jeśli brak
+
+            // Zmienna choosedTypeOfDay z mapowaniem wartości
+            switch (choosedTypeOfDay) {
+                case "1":
+                    choosedTypeOfDay = "Rozkład NIEDZIELNY";
+                    break;
+                case "2":
+                    choosedTypeOfDay = "Rozkład ROBOCZY";
+                    break;
+                case "3":
+                    choosedTypeOfDay = "Rozkład WAKACYJNY";
+                    break;
+                case "4":
+                    choosedTypeOfDay = "Rozkład SOBOTNI";
+                    break;
+                default:
+                    choosedTypeOfDay = "Error"; // Domyślnie, jeśli wartość jest nieznana
+                    break;
+            }
+
+
+            // Pobranie zawartości tabeli
+            const tabela = document.querySelector("#rozkładTable")?.outerHTML || "<p>Brak danych w tabeli</p>";
+
+            // Pobranie daty z serwera
+            fetch('/getDateFrom')
+                .then(response => response.text())
+                .then(dateFrom => {
+                    const ilKm = document.querySelector("#kilometers")?.innerText || "IL_KM";
+
+                    // Tworzenie nowego okna do druku
+                    const oknoDrukowania = window.open("", "_blank");
+                    oknoDrukowania.document.write(`
+<html>
+
+<head>
+    <title>Rozkład do Druku</title>
+    <style>
+        @page {
+            size: A5 portrait;
+            margin: 0.5cm;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 2px solid black;
+            position: relative;
+        }
+
+        .header {
+            position: absolute;
+            top: 0.5cm;
+            left: 0.5cm;
+            width: 2.8cm;
+            height: 0.5cm;
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        #nr_linii {
+            position: absolute;
+            top: 1.0cm;
+            left: 0.5cm;
+            width: 2.8cm;
+            height: calc(1.5cm + 2px);
+            border-top: none;
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+            border-bottom: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .data_waznosci {
+            position: absolute;
+            top: 0.5cm;
+            left: calc(3.3cm + 1px);
+            width: 2.5cm;
+            height: 1cm;
+            border: 1px solid black;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 0 5px;
+        }
+
+        .data_waznosci span {
+            display: block;
+        }
+
+        .data_waznosci_duplikat {
+            position: absolute;
+            top: calc(1.5cm + 2px - 1px);
+            left: calc(3.3cm + 1px);
+            width: 2.5cm;
+            height: 1cm;
+            border: 1px solid black;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 0 5px;
+        }
+
+        .data_waznosci_duplikat span {
+            display: block;
+        }
+
+        .duzy_prostokat {
+            position: absolute;
+            top: 0.5cm;
+            left: calc(5.8cm + 1px + 10px + 1px);
+            width: 4.25cm;
+            height: calc(1.8cm - 2px);
+            border: 1px solid black;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 5px;
+        }
+
+        .duzy_prostokat span {
+            display: block;
+            margin-bottom: 3px;
+        }
+
+        .nowy_prostokat {
+            position: absolute;
+            top: 0.5cm;
+            right: 0.5cm;
+            width: 3.5cm;
+            height: 1.5cm;
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .nowy_prostokat span {
+            display: block;
+            font-weight: bold;
+        }
+
+        .header2 {
+            position: absolute;
+            top: calc(2.0cm + 1px);
+            right: 0.5cm;
+            width: 3.5cm;
+            height: 0.5cm;
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .Start {
+            position: absolute;
+            top: calc(2.5cm + 2px);
+            right: 0.5cm;
+            width: 13.65cm;
+            height: 0.5cm;
+            border: 1px solid black;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            text-align: center;
+        }
+
+        .End {
+            width: 13.65cm;
+            height: 0.5cm;
+            border: 1px solid black;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            text-align: center;
+        }
+
+        .Przerwa1 {
+            position: absolute;
+            top: calc(3cm + 3px);
+            right: 0.5cm;
+            width: 13.65cm;
+            height: 0.20cm;
+            border: 1px solid black;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            text-align: center;
+        }
+
+        .Przerwa {
+            width: 13.65cm;
+            height: 0.25cm;
+            border: 1px solid black;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            text-align: center;
+        }
+
+        .rozklad {
+            width: 90%;
+            margin-top: 3.5cm;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            text-align: center;
+            padding: 5px;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        #rozkładTable{
+position: absolute;
+        top: 200px;
+}
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        Linie :
+    </div>
+    <div id="nr_linii">
+        ${nrLinii}
+    </div>
+    <div class="data_waznosci">
+        <span>Ważny od :</span>
+        <span>${dateFrom}</span>
+    </div>
+    <div class="data_waznosci_duplikat">
+        <span>Kilometry :</span>
+        <span>${ilKm}</span>
+    </div>
+    <div class="nowy_prostokat">
+        <span>${nrBrygada}</span>
+    </div>
+    <div class="header2">
+        <span>${choosedTypeOfDay}</span>
+    </div>
+    <div class="duzy_prostokat">
+        <span>ROZPOCZĘCIE - XX:XX</span>
+        <span>ZAKOŃCZENIE - XX:XX</span>
+        <span>CZAS PRACA - XX:XX</span>
+    </div>
+    <div class="Start">
+        <span>&nbsp;ROZPOCZĄCIE PRACY - Bardowskiego 04</span>
+    </div>
+    <div class="Przerwa1">
+        <span></span>
+    </div>
+
+    <div class="Przerwa">
+        <span></span>
+    </div>
+    <div class="End">
+        <span>&nbsp;ZAKOŃCZENIE PRACY - Bardowskiego 04</span>
+    </div>
+</body>
+
+</html>
+            `);
+                    oknoDrukowania.document.close();
+                    oknoDrukowania.print();
+                })
+                .catch(error => {
+                    console.error("Błąd pobierania daty z serwera:", error);
+                });
+        }
+
+
+-->

@@ -31,6 +31,35 @@ app.use(express.static(path.join(__dirname, 'Przystanki')));
 
 
 
+
+
+
+import fetch from 'node-fetch';
+import cors from 'cors';
+
+
+app.use(cors());
+
+app.get('/api/vehicles', async (req, res) => {
+    try {
+        const response = await fetch('http://84.38.160.220/myBusServices/SchedulesService.svc/GetVehicles');
+        const xmlData = await response.text();
+        res.set('Content-Type', 'application/xml');
+        res.send(xmlData);
+    } catch (error) {
+        console.error('Błąd podczas pobierania danych:', error);
+        res.status(500).send('Błąd serwera proxy');
+    }
+});
+
+
+
+
+
+
+
+
+
 app.get('/get-powszedni', (req, res) => {
     // Odbieramy nazwę przystanku i linię z parametrów zapytania
     const przystanekName = decodeURIComponent(req.query.przystanekName);
@@ -1047,7 +1076,6 @@ app.get('/przystanki', (req, res) => {
         });
     });
 });
-
 
 
 
