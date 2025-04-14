@@ -241,7 +241,7 @@
     <p>Strona odświeża się automatycznie co 180 sekund.</p>
 
     <script>
-        fetch('http://localhost:3000/api/vehicles')
+        fetch('/api/vehicles')
             .then(response => response.text())
             .then(xmlString => {
                 const parser = new DOMParser();
