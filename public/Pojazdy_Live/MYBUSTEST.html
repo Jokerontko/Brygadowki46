@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.6">
+    <link rel="stylesheet" href="../../style_css/headermenu.css">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>Szczegóły kursu</title>
+    <style>
+        body {
+            background: rgb(50, 50, 50);
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+            color: white;
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin: 40px 0 10px;
+        }
+
+        table {
+            width: 90%;
+            max-width: 940px;
+            border-collapse: collapse;
+            border-radius: 5px;
+            overflow: hidden;
+            margin-top: 20px;
+
+        }
+
+        th,
+        td {
+            text-align: center;
+            padding: 10px;
+            border: 1px solid #ccc;
+            font-size: 17px;
+        }
+
+        thead {
+            background-color: rgba(163, 120, 0);
+        }
+
+        .NrOflp {
+            text-decoration: none;
+            color: orange;
+        }
+
+        .hide {
+            font-size: 0px;
+            padding: 0px;
+            border: 0px;
+        }
+
+        .Rez {
+            padding: 0px;
+            text-align: right;
+            border-top: 1px solid;
+            border-bottom: 1px solid;
+            border-left: none;
+            border-right: none;
+
+        }
+
+        .RezLP {
+            padding: 0px;
+            text-align: right;
+            border-top: 1px solid;
+            border-bottom: 1px solid;
+            border-left: 1px solid;
+            border-right: none;
+        }
+
+        p {
+            color: grey;
+        }
+
+        #brygadaType {
+            margin-top: -5px;
+            color: grey;
+        }
+
+        #wykazbrygady {
+            width: 30%;
+        }
+
+        header {
+            position: sticky;
+            top: 0px;
+            background-color: rgb(50, 50, 50);
+        }
+
+        @keyframes blink {
+            0% {
+                background-color: red;
+            }
+
+            50% {
+                background-color: transparent;
+            }
+
+            100% {
+                background-color: red;
+            }
+        }
+
+        .blink {
+            animation: blink 1s infinite;
+        }
+
+        @keyframes blinkbrake {
+            0% {
+                background-color: transparent 20%;
+            }
+
+            50% {
+                background-color: transparent;
+            }
+
+            100% {
+                background-color: transparent 20%;
+            }
+        }
+
+        .blinkbrake {
+            animation: blinkbrake 2s infinite;
+        }
+
+        .BrakeDetected {
+            color: white;
+            pointer-events: visible;
+        }
+
+        .NoBrakeDetected {
+            color: grey;
+            pointer-events: none;
+        }
+
+        .PodmianaDetected {
+            color: white;
+            pointer-events: visible;
+        }
+
+        .NoPodmianaDetected {
+            color: grey;
+            pointer-events: none;
+        }
+
+        .highlightButton {
+            color: white;
+            pointer-events: visible;
+        }
+
+        .NohighlightButton {
+            color: grey;
+            pointer-events: none;
+        }
+
+        .PTDetected {
+            color: white;
+            pointer-events: visible;
+        }
+
+        .NoPTDetected {
+            color: grey;
+            pointer-events: none;
+        }
+
+        .buttons a {
+            width: 170px;
+            text-align: center;
+        }
+
+        .WNLZDZDetected {
+            color: white;
+            pointer-events: visible;
+        }
+
+        .NoWNLZDZDetected {
+            color: grey;
+            pointer-events: none;
+        }
+
+        menu {
+            display: inline-block;
+            text-decoration: none;
+            color: white;
+            border: 1.5px solid;
+            border-radius: 5px;
+            padding: 10px 20px;
+            margin: 5px 5px 5px;
+            transition: background-color 0.3s ease;
+
+        }
+
+        .menu:hover {
+            border-color: orange;
+            background-color: rgba(255, 165, 0, 0.2);
+            color: white;
+
+        }
+
+        .blocked {
+            color: gray;
+            cursor: not-allowed;
+            display: inline-block;
+            text-decoration: none;
+            border: 1.5px solid;
+            border-radius: 5px;
+            padding: 10px 20px;
+            margin: 5px 5px 5px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="../../Main_Panel.html" class="menu">Panel Główny</a>
+        <a href="../../Przystanki/listaprzystankow.html" class="menu">Przystanki</a>
+        <a href="../ChooseDay.html" class="menu">Brygady</a>
+        <a href="../../Brygady/Kursy/Kursy.html" class="menu">Kursy</a>
+        <a href="#" class="menu exit" id="logout">Opuść Panel</a>
+        <hr>
+    </header>
+
+    <h1>Pojazdy LIVE</h1>
+
+    <div id="filtrowanie" style="width: 70%;">
+
+    </div>
+
+    <table id="wykazstrony" style="width: 90%;">
+        <thead>
+            <tr>
+                <th>Numer Autobusu</th>
+                <th style="display: none;">Model Autobusu</th>
+                <th>Opóźnienie</th>
+                <th>Numer Linii</th>
+                <th>Kierunek</th>
+                <th>Następny kierunek</th>
+                <th>Godzina odjazdu</th>
+            </tr>
+        </thead>
+        <tbody id="dane-wykaz">
+            <!-- Wiersze zostaną dodane automatycznie -->
+        </tbody>
+    </table>
+
+
+
+
+
+
+    <!--<button onclick="drukujRozklad()">Drukuj rozkład</button>-->
+
+
+    <script>
+        let modelMap = [];
+        let activeFilter = null;
+
+        function parseModelFile(text) {
+            modelMap = [];
+            const lines = text.trim().split('\n');
+
+            for (const line of lines) {
+                const [rangePart, model] = line.split('\t').map(s => s.trim());
+                const entries = [];
+
+                if (rangePart.includes(',')) {
+                    entries.push(...rangePart.split(',').map(num => parseInt(num.trim(), 10)));
+                } else if (rangePart.includes('-')) {
+                    const [from, to] = rangePart.split('-').map(s => parseInt(s.trim(), 10));
+                    for (let i = from; i <= to; i++) {
+                        entries.push(i);
+                    }
+                }
+                modelMap.push({
+                    model,
+                    entries,
+                    display: rangePart,
+                    count: 0,
+                    isBlocked: false, // Nowy status: czy model jest zablokowany
+                });
+            }
+        }
+
+        function updateModelCounts(vehicles) {
+            modelMap.forEach(m => m.count = 0);
+            for (const v of vehicles) {
+                const nb = parseInt(v.getAttribute("nb"), 10);
+                const matched = modelMap.find(entry => entry.entries.includes(nb));
+                if (matched) matched.count++;
+            }
+        }
+
+        function renderFilters() {
+            const filterDiv = document.getElementById("filtrowanie");
+            filterDiv.innerHTML = '';
+
+            modelMap.forEach(entry => {
+                const a = document.createElement('a');
+                a.href = '#';
+                a.classList.add('menu');
+                a.innerHTML = `${entry.model} (${entry.count})<br><span style="color: grey; display: block; text-align: center;">${entry.display}</span>`;
+
+
+                // Jeśli model = 0, zmień klasę na "blocked"
+                if (entry.count === 0) {
+                    a.classList.remove('menu');
+                    a.classList.add('blocked');
+
+                    a.addEventListener('click', e => {
+                        e.preventDefault(); // Zablokuj kliknięcie
+                    });
+                } else {
+                    a.addEventListener('click', e => {
+                        e.preventDefault();
+
+                        const rows = document.querySelectorAll('#dane-wykaz tr');
+                        const links = document.querySelectorAll('#filtrowanie a.menu');
+
+                        // Sprawdzenie, czy kliknięty model jest aktywnym filtrem
+                        if (activeFilter === entry.model) {
+                            rows.forEach(row => row.style.display = '');
+                            activeFilter = null;
+
+                            links.forEach(link => {
+                                link.classList.remove('active');
+                                link.removeAttribute('style');
+                            });
+                        } else {
+                            activeFilter = entry.model;
+
+                            links.forEach(link => {
+                                link.classList.remove('active');
+                                link.removeAttribute('style');
+                            });
+
+                            a.classList.add('active');
+                            a.style.borderColor = 'orange';
+                            a.style.backgroundColor = 'rgba(255, 165, 0, 0.2)';
+                            a.style.color = 'white';
+
+                            rows.forEach(row => {
+                                const modelCell = row.cells[1];
+                                row.style.display = modelCell && modelCell.textContent.trim() === entry.model ? '' : 'none';
+                            });
+                        }
+                    });
+                }
+
+                filterDiv.appendChild(a);
+            });
+
+            // Przywrócenie stylu aktywnego filtra po odświeżeniu
+            if (activeFilter) {
+                const activeLink = [...document.querySelectorAll('#filtrowanie a.menu')].find(link => {
+                    return link.innerHTML.includes(activeFilter);
+                });
+
+                if (activeLink) {
+                    activeLink.classList.add('active');
+                    activeLink.style.borderColor = 'orange';
+                    activeLink.style.backgroundColor = 'rgba(255, 165, 0, 0.2)';
+                    activeLink.style.color = 'white';
+                }
+            }
+        }
+
+        function loadAndRenderTable() {
+            fetch('/api/vehicles')
+                .then(response => response.text())
+                .then(xmlString => {
+                    const parser = new DOMParser();
+                    const xmlDoc = parser.parseFromString(xmlString, "text/xml");
+                    const vehicles = Array.from(xmlDoc.getElementsByTagName("V"));
+
+                    vehicles.sort((a, b) => {
+                        const nbA = parseInt(a.getAttribute("nb")) || 0;
+                        const nbB = parseInt(b.getAttribute("nb")) || 0;
+                        return nbA - nbB;
+                    });
+
+                    updateModelCounts(vehicles);
+                    renderFilters(); // odśwież filtry z nowymi liczbami
+
+                    const tbody = document.getElementById("dane-wykaz");
+                    tbody.innerHTML = "";
+
+                    vehicles.forEach(v => {
+                        const nb = v.getAttribute("nb");
+                        const nr = v.getAttribute("nr");
+                        const op = v.getAttribute("op");
+                        const nop = v.getAttribute("nop");
+                        const p = v.getAttribute("p");
+                        const o = parseInt(v.getAttribute("o"), 10);
+                        const isDelayed = o < 0;
+                        const absO = Math.abs(o);
+
+                        const minutes = Math.floor(absO / 60);
+                        const seconds = absO % 60;
+                        const formattedTime = `${isDelayed ? '-' : ''}${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+
+                        const nbNum = parseInt(nb, 10);
+                        const matched = modelMap.find(entry => entry.entries.includes(nbNum));
+                        const model = matched ? matched.model : 'N/A';
+
+                        const row = document.createElement("tr");
+                        row.innerHTML = `
+                        <td>${nb}</td>
+                        <td style="display: none;">${model}</td>
+                        <td>${formattedTime}</td>
+                        <td>${nr}</td>
+                        <td>${op}</td>
+                        <td>${nop}</td>
+                        <td>${p}</td>
+                    `;
+                        tbody.appendChild(row);
+                    });
+
+                    // Jeśli filtr jest aktywny, odfiltruj ponownie
+                    if (activeFilter) {
+                        document.querySelectorAll('#dane-wykaz tr').forEach(row => {
+                            const modelCell = row.cells[1];
+                            row.style.display = modelCell.textContent.trim() === activeFilter ? '' : 'none';
+                        });
+                    }
+
+                    // Sprawdź dostępność marek
+                    sprawdzDostepnosc();
+                })
+                .catch(error => {
+                    console.error('Błąd przy pobieraniu danych:', error);
+                });
+        }
+
+        // === Start ===
+        fetch('/Pojazdy_live/ModeleAutobusow.txt')
+            .then(response => response.text())
+            .then(text => {
+                parseModelFile(text);
+                loadAndRenderTable();
+                setInterval(() => {
+                    loadAndRenderTable();
+                    sprawdzDostepnosc(); // sprawdzenie dostępności marek po odświeżeniu tabeli
+                }, 10000); // odświeżanie co 10 sekund
+
+            })
+            .catch(err => console.error('Błąd ładowania pliku modeli:', err));
+
+    </script>
+
+
+
+
+
+
+</body>
+
+</html>
