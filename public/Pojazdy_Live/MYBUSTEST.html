@@ -470,7 +470,7 @@
         }
 
         // === Start ===
-        fetch('/Pojazdy_live/ModeleAutobusow.txt')
+        fetch('ModeleAutobusow.txt')
             .then(response => response.text())
             .then(text => {
                 parseModelFile(text);
