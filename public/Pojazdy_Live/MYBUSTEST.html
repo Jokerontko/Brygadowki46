@@ -187,25 +187,6 @@
             pointer-events: none;
         }
 
-        menu {
-            display: inline-block;
-            text-decoration: none;
-            color: white;
-            border: 1.5px solid;
-            border-radius: 5px;
-            padding: 10px 20px;
-            margin: 5px 5px 5px;
-            transition: background-color 0.3s ease;
-
-        }
-
-        .menu:hover {
-            border-color: orange;
-            background-color: rgba(255, 165, 0, 0.2);
-            color: white;
-
-        }
-
         .blocked {
             color: gray;
             cursor: not-allowed;
@@ -215,6 +196,24 @@
             border-radius: 5px;
             padding: 10px 20px;
             margin: 5px 5px 5px;
+        }
+
+        select {
+            background-color: rgb(50, 50, 50);
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            padding: 6px 12px;
+            font-size: 16px;
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+
+            background-image: url("data:image/svg+xml;utf8,<svg fill='white' height='16' viewBox='0 0 24 24' width='16' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>");
+            background-repeat: no-repeat;
+            background-position: right 10px center;
+            background-size: 16px;
+            padding-right: 30px;
         }
 
     </style>
@@ -270,7 +269,21 @@
             const lines = text.trim().split('\n');
 
             for (const line of lines) {
-                const [rangePart, model] = line.split('\t').map(s => s.trim());
+                const trimmed = line.trim();
+
+                // Jeśli to separator kategorii (np. "----- 18 metrów -----")
+                if (/^-{3,}.*-{3,}$/.test(trimmed)) {
+                    modelMap.push({
+                        model: trimmed,
+                        entries: [],
+                        display: '',
+                        count: 0,
+                        isCategory: true
+                    });
+                    continue;
+                }
+
+                const [rangePart, model] = trimmed.split('\t').map(s => s.trim());
                 const entries = [];
 
                 if (rangePart.includes(',')) {
@@ -280,13 +293,16 @@
                     for (let i = from; i <= to; i++) {
                         entries.push(i);
                     }
+                } else if (!isNaN(rangePart)) {
+                    entries.push(parseInt(rangePart, 10));
                 }
+
                 modelMap.push({
                     model,
                     entries,
                     display: rangePart,
                     count: 0,
-                    isBlocked: false, // Nowy status: czy model jest zablokowany
+                    isCategory: false
                 });
             }
         }
@@ -295,7 +311,7 @@
             modelMap.forEach(m => m.count = 0);
             for (const v of vehicles) {
                 const nb = parseInt(v.getAttribute("nb"), 10);
-                const matched = modelMap.find(entry => entry.entries.includes(nb));
+                const matched = modelMap.find(entry => !entry.isCategory && entry.entries.includes(nb));
                 if (matched) matched.count++;
             }
         }
@@ -304,77 +320,74 @@
             const filterDiv = document.getElementById("filtrowanie");
             filterDiv.innerHTML = '';
 
+            const select = document.createElement('select');
+            select.style.maxWidth = '100%';
+
+            const defaultOption = document.createElement('option');
+            defaultOption.value = '';
+            defaultOption.textContent = '-- Wybierz model --';
+            defaultOption.style.backgroundColor = 'rgb(50,50,50)';
+            defaultOption.disabled = false;
+
+            defaultOption.selected = true;
+
+            select.appendChild(defaultOption);
+
             modelMap.forEach(entry => {
-                const a = document.createElement('a');
-                a.href = '#';
-                a.classList.add('menu');
-                a.innerHTML = `${entry.model} (${entry.count})<br><span style="color: grey; display: block; text-align: center;">${entry.display}</span>`;
-
-
-                // Jeśli model = 0, zmień klasę na "blocked"
-                if (entry.count === 0) {
-                    a.classList.remove('menu');
-                    a.classList.add('blocked');
-
-                    a.addEventListener('click', e => {
-                        e.preventDefault(); // Zablokuj kliknięcie
-                    });
-                } else {
-                    a.addEventListener('click', e => {
-                        e.preventDefault();
-
-                        const rows = document.querySelectorAll('#dane-wykaz tr');
-                        const links = document.querySelectorAll('#filtrowanie a.menu');
-
-                        // Sprawdzenie, czy kliknięty model jest aktywnym filtrem
-                        if (activeFilter === entry.model) {
-                            rows.forEach(row => row.style.display = '');
-                            activeFilter = null;
-
-                            links.forEach(link => {
-                                link.classList.remove('active');
-                                link.removeAttribute('style');
-                            });
-                        } else {
-                            activeFilter = entry.model;
-
-                            links.forEach(link => {
-                                link.classList.remove('active');
-                                link.removeAttribute('style');
-                            });
-
-                            a.classList.add('active');
-                            a.style.borderColor = 'orange';
-                            a.style.backgroundColor = 'rgba(255, 165, 0, 0.2)';
-                            a.style.color = 'white';
-
-                            rows.forEach(row => {
-                                const modelCell = row.cells[1];
-                                row.style.display = modelCell && modelCell.textContent.trim() === entry.model ? '' : 'none';
-                            });
-                        }
-                    });
+                if (entry.isCategory) {
+                    const categoryOption = document.createElement('option');
+                    categoryOption.textContent = entry.model.replace(/^-+\s*|\s*-+$/g, '').trim();
+                    categoryOption.disabled = true;
+                    categoryOption.style.fontWeight = 'bold';
+                    categoryOption.style.backgroundColor = '#333';
+                    categoryOption.style.color = 'white';
+                    categoryOption.style.textAlign = 'center';
+                    select.appendChild(categoryOption);
+                    return;
                 }
 
-                filterDiv.appendChild(a);
+                const option = document.createElement('option');
+                option.value = entry.model;
+                option.textContent = `${entry.model} (${entry.count}) - ${entry.display}`;
+
+                if (entry.count === 0) {
+                    option.disabled = true;
+                    option.textContent += ' [brak]';
+                }
+
+                select.appendChild(option);
             });
 
-            // Przywrócenie stylu aktywnego filtra po odświeżeniu
-            if (activeFilter) {
-                const activeLink = [...document.querySelectorAll('#filtrowanie a.menu')].find(link => {
-                    return link.innerHTML.includes(activeFilter);
-                });
+            select.addEventListener('change', () => {
+                const selectedModel = select.value;
+                const rows = document.querySelectorAll('#dane-wykaz tr');
 
-                if (activeLink) {
-                    activeLink.classList.add('active');
-                    activeLink.style.borderColor = 'orange';
-                    activeLink.style.backgroundColor = 'rgba(255, 165, 0, 0.2)';
-                    activeLink.style.color = 'white';
+                if (selectedModel === '') {
+                    rows.forEach(row => row.style.display = '');
+                    activeFilter = null;
+                } else {
+                    activeFilter = selectedModel;
+                    rows.forEach(row => {
+                        const modelCell = row.cells[1];
+                        row.style.display = modelCell && modelCell.textContent.trim() === selectedModel ? '' : 'none';
+                    });
                 }
+            });
+
+            select.addEventListener('click', () => {
+                sprawdzDostepnosc();
+            });
+
+            filterDiv.appendChild(select);
+
+            if (activeFilter) {
+                select.value = activeFilter;
             }
         }
 
         function loadAndRenderTable() {
+            const selectWasOpen = document.activeElement?.tagName === 'SELECT';
+
             fetch('/api/vehicles')
                 .then(response => response.text())
                 .then(xmlString => {
@@ -389,7 +402,7 @@
                     });
 
                     updateModelCounts(vehicles);
-                    renderFilters(); // odśwież filtry z nowymi liczbami
+                    renderFilters();
 
                     const tbody = document.getElementById("dane-wykaz");
                     tbody.innerHTML = "";
@@ -406,17 +419,30 @@
 
                         const minutes = Math.floor(absO / 60);
                         const seconds = absO % 60;
-                        const formattedTime = `${isDelayed ? '-' : ''}${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+                        const formattedTime = `${isDelayed ? '-' : '+'}${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+
+                        const totalSeconds = (isDelayed ? -1 : 1) * (minutes * 60 + seconds);
+
+                        let color = "#ffffff";
+                        if (totalSeconds >= 1) {
+                            color = "#0e8616";
+                        } else if (totalSeconds < 0 && totalSeconds >= -600) {
+                            color = "#ff8000";
+                        } else if (totalSeconds < -600) {
+                            color = "#ff0000";
+                        }
+
+                        const formattedTimeReal = `<span style="color: ${color}">${formattedTime}</span>`;
 
                         const nbNum = parseInt(nb, 10);
-                        const matched = modelMap.find(entry => entry.entries.includes(nbNum));
+                        const matched = modelMap.find(entry => !entry.isCategory && entry.entries.includes(nbNum));
                         const model = matched ? matched.model : 'N/A';
 
                         const row = document.createElement("tr");
                         row.innerHTML = `
                         <td>${nb}</td>
                         <td style="display: none;">${model}</td>
-                        <td>${formattedTime}</td>
+                        <td>${formattedTimeReal}</td>
                         <td>${nr}</td>
                         <td>${op}</td>
                         <td>${nop}</td>
@@ -425,7 +451,6 @@
                         tbody.appendChild(row);
                     });
 
-                    // Jeśli filtr jest aktywny, odfiltruj ponownie
                     if (activeFilter) {
                         document.querySelectorAll('#dane-wykaz tr').forEach(row => {
                             const modelCell = row.cells[1];
@@ -433,7 +458,10 @@
                         });
                     }
 
-                    // Sprawdź dostępność marek
+                    if (selectWasOpen) {
+                        document.querySelector('select')?.focus();
+                    }
+
                     sprawdzDostepnosc();
                 })
                 .catch(error => {
@@ -449,13 +477,19 @@
                 loadAndRenderTable();
                 setInterval(() => {
                     loadAndRenderTable();
-                    sprawdzDostepnosc(); // sprawdzenie dostępności marek po odświeżeniu tabeli
-                }, 10000); // odświeżanie co 10 sekund
-
+                }, 10000);
             })
             .catch(err => console.error('Błąd ładowania pliku modeli:', err));
 
+        function sprawdzDostepnosc() {
+            // przykładowa implementacja
+            console.log("Sprawdzanie dostępności...");
+        }
+
     </script>
+
+
+
 
 
 
