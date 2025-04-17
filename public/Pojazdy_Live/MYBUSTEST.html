@@ -216,6 +216,24 @@
             padding-right: 30px;
         }
 
+        .filter-input {
+            display: inline-block;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            text-decoration: none;
+            color: white;
+            background-color: rgba(50, 50, 50);
+            border: 2px solid;
+            border-radius: 10px;
+            padding: 10px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            width: 112px;
+            max-width: 440px;
+            margin-bottom: 10px;
+        }
+
     </style>
 </head>
 
@@ -263,6 +281,9 @@
     <script>
         let modelMap = [];
         let activeFilter = null;
+        let activeDelaySort = '';
+        let activeLineFilter = '';
+        let activeBusNumberFilter = '';
 
         function parseModelFile(text) {
             modelMap = [];
@@ -270,8 +291,6 @@
 
             for (const line of lines) {
                 const trimmed = line.trim();
-
-                // Jeśli to separator kategorii (np. "----- 18 metrów -----")
                 if (/^-{3,}.*-{3,}$/.test(trimmed)) {
                     modelMap.push({
                         model: trimmed,
@@ -320,15 +339,15 @@
             const filterDiv = document.getElementById("filtrowanie");
             filterDiv.innerHTML = '';
 
+            // === Select 1: Model Autobusu ===
             const select = document.createElement('select');
             select.style.maxWidth = '100%';
 
             const defaultOption = document.createElement('option');
             defaultOption.value = '';
             defaultOption.textContent = '-- Wybierz model --';
+            defaultOption.style.textAlign = 'center';
             defaultOption.style.backgroundColor = 'rgb(50,50,50)';
-            defaultOption.disabled = false;
-
             defaultOption.selected = true;
 
             select.appendChild(defaultOption);
@@ -348,30 +367,18 @@
 
                 const option = document.createElement('option');
                 option.value = entry.model;
-                option.textContent = `${entry.model} (${entry.count}) - ${entry.display}`;
+                option.textContent = `${entry.display} • ${entry.model} • (${entry.count})`;
 
                 if (entry.count === 0) {
                     option.disabled = true;
-                    option.textContent += ' [brak]';
                 }
 
                 select.appendChild(option);
             });
 
             select.addEventListener('change', () => {
-                const selectedModel = select.value;
-                const rows = document.querySelectorAll('#dane-wykaz tr');
-
-                if (selectedModel === '') {
-                    rows.forEach(row => row.style.display = '');
-                    activeFilter = null;
-                } else {
-                    activeFilter = selectedModel;
-                    rows.forEach(row => {
-                        const modelCell = row.cells[1];
-                        row.style.display = modelCell && modelCell.textContent.trim() === selectedModel ? '' : 'none';
-                    });
-                }
+                activeFilter = select.value || null;
+                applyFilters();
             });
 
             select.addEventListener('click', () => {
@@ -380,13 +387,120 @@
 
             filterDiv.appendChild(select);
 
+            // === Select 2: Sortowanie po opóźnieniu ===
+            const delaySelect = document.createElement('select');
+            delaySelect.style.marginLeft = '10px';
+            delaySelect.style.maxWidth = '100%';
+
+            const delayDefault = document.createElement('option');
+            delayDefault.value = '';
+            delayDefault.textContent = '-- Sortuj po opóźnieniu --';
+            delayDefault.selected = true;
+            delaySelect.appendChild(delayDefault);
+
+            const delayAsc = document.createElement('option');
+            delayAsc.value = 'asc';
+            delayAsc.textContent = 'Od najmniejszego do największego';
+            delaySelect.appendChild(delayAsc);
+
+            const delayDesc = document.createElement('option');
+            delayDesc.value = 'desc';
+            delayDesc.textContent = 'Od największego do najmniejszego';
+            delaySelect.appendChild(delayDesc);
+
+            delaySelect.value = activeDelaySort;
+
+            delaySelect.addEventListener('change', () => {
+                activeDelaySort = delaySelect.value;
+                if (activeDelaySort === '') {
+                    loadAndRenderTable();
+                } else {
+                    applyFilters();
+                }
+            });
+
+            filterDiv.appendChild(delaySelect);
+
+            // === Input: Numer linii ===
+            const lineInput = document.createElement('input');
+            lineInput.placeholder = 'Filtruj po linii...';
+            lineInput.classList.add('filter-input');
+            lineInput.style.marginLeft = '10px';
+            lineInput.value = activeLineFilter;
+
+            lineInput.addEventListener('input', () => {
+                activeLineFilter = lineInput.value.trim();
+                applyFilters();
+            });
+
+            filterDiv.appendChild(lineInput);
+
+            // === Input: Numer autobusu ===
+            const busInput = document.createElement('input');
+            busInput.placeholder = 'Filtruj po numerze autobusu...';
+            busInput.classList.add('filter-input');
+            busInput.style.marginLeft = '10px';
+            busInput.value = activeBusNumberFilter;
+
+            busInput.addEventListener('input', () => {
+                activeBusNumberFilter = busInput.value.trim();
+                applyFilters();
+            });
+
+            filterDiv.appendChild(busInput);
+
+            // Ustaw ponownie wartości
             if (activeFilter) {
                 select.value = activeFilter;
             }
         }
 
+        function applyFilters() {
+            const rows = Array.from(document.querySelectorAll('#dane-wykaz tr'));
+
+            rows.forEach(row => {
+                const modelCell = row.cells[1];
+                const lineCell = row.cells[3];
+                const busNumberCell = row.cells[0];
+
+                const matchesModel = !activeFilter || modelCell.textContent.trim() === activeFilter;
+                const matchesLine = !activeLineFilter || lineCell.textContent.trim() === activeLineFilter;
+                const matchesBusNumber = !activeBusNumberFilter || busNumberCell.textContent.trim() === activeBusNumberFilter;
+
+                row.style.display = (matchesModel && matchesLine && matchesBusNumber) ? '' : 'none';
+            });
+
+            if (activeDelaySort) {
+                const sortedRows = rows
+                    .filter(row => row.style.display !== 'none')
+                    .sort((a, b) => {
+                        const delayA = a.cells[2].textContent.trim();
+                        const delayB = b.cells[2].textContent.trim();
+
+                        const valueA = parseDelay(delayA);
+                        const valueB = parseDelay(delayB);
+
+                        return activeDelaySort === 'asc' ? valueA - valueB : valueB - valueA;
+                    });
+
+                const tbody = document.getElementById('dane-wykaz');
+                sortedRows.forEach(row => tbody.appendChild(row));
+            }
+        }
+
+        function parseDelay(text) {
+            const match = text.match(/([-+])(\d{2}):(\d{2})/);
+            if (!match) return 0;
+            const sign = match[1] === '+' ? 1 : -1;
+            const minutes = parseInt(match[2], 10);
+            const seconds = parseInt(match[3], 10);
+            return sign * (minutes * 60 + seconds);
+        }
+
         function loadAndRenderTable() {
-            const selectWasOpen = document.activeElement?.tagName === 'SELECT';
+            const scrollTop = window.scrollY;
+            const activeElement = document.activeElement;
+            const wasFocused = activeElement?.tagName === 'SELECT' || activeElement?.tagName === 'INPUT';
 
             fetch('/api/vehicles')
                 .then(response => response.text())
@@ -426,10 +540,14 @@
                         let color = "#ffffff";
                         if (totalSeconds >= 1) {
                             color = "#0e8616";
-                        } else if (totalSeconds < 0 && totalSeconds >= -600) {
+                        } else if (totalSeconds < 0 && totalSeconds >= -300) {
+                            color = "#ffbb00";
+                        } else if (totalSeconds < -300 && totalSeconds >= -600) {
                             color = "#ff8000";
-                        } else if (totalSeconds < -600) {
+                        } else if (totalSeconds < -600 && totalSeconds >= -1200) {
                             color = "#ff0000";
+                        } else if (totalSeconds < -1200) {
+                            color = "#a80000";
                         }
 
                         const formattedTimeReal = `<span style="color: ${color}">${formattedTime}</span>`;
@@ -451,17 +569,15 @@
                         tbody.appendChild(row);
                     });
 
-                    if (activeFilter) {
-                        document.querySelectorAll('#dane-wykaz tr').forEach(row => {
-                            const modelCell = row.cells[1];
-                            row.style.display = modelCell.textContent.trim() === activeFilter ? '' : 'none';
-                        });
+                    applyFilters();
+
+                    if (wasFocused) {
+                        activeElement?.focus();
                     }
 
-                    if (selectWasOpen) {
-                        document.querySelector('select')?.focus();
-                    }
-
+                    window.scrollTo({
+                        top: scrollTop
+                    });
                     sprawdzDostepnosc();
                 })
                 .catch(error => {
@@ -469,7 +585,6 @@
                 });
         }
 
-        // === Start ===
         fetch('ModeleAutobusow.txt')
             .then(response => response.text())
             .then(text => {
@@ -482,11 +597,11 @@
             .catch(err => console.error('Błąd ładowania pliku modeli:', err));
 
         function sprawdzDostepnosc() {
-            // przykładowa implementacja
             console.log("Sprawdzanie dostępności...");
         }
 
     </script>
+
 
 
 
