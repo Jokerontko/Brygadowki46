@@ -257,11 +257,12 @@
         <thead>
             <tr>
                 <th>Numer Autobusu</th>
+                <th>Brygada</th>
                 <th style="display: none;">Model Autobusu</th>
                 <th>Opóźnienie</th>
                 <th>Numer Linii</th>
                 <th>Kierunek</th>
-                <th>Następny kierunek</th>
+                <th style="display: none;">Następny kierunek</th>
                 <th>Godzina odjazdu</th>
             </tr>
         </thead>
@@ -339,7 +340,6 @@
             const filterDiv = document.getElementById("filtrowanie");
             filterDiv.innerHTML = '';
 
-            // === Select 1: Model Autobusu ===
             const select = document.createElement('select');
             select.style.maxWidth = '100%';
 
@@ -381,13 +381,8 @@
                 applyFilters();
             });
 
-            select.addEventListener('click', () => {
-                sprawdzDostepnosc();
-            });
-
             filterDiv.appendChild(select);
 
-            // === Select 2: Sortowanie po opóźnieniu ===
             const delaySelect = document.createElement('select');
             delaySelect.style.marginLeft = '10px';
             delaySelect.style.maxWidth = '100%';
@@ -400,12 +395,12 @@
 
             const delayAsc = document.createElement('option');
             delayAsc.value = 'asc';
-            delayAsc.textContent = 'Od najmniejszego do największego';
+            delayAsc.textContent = 'Od największego do najmniejszego';
             delaySelect.appendChild(delayAsc);
 
             const delayDesc = document.createElement('option');
             delayDesc.value = 'desc';
-            delayDesc.textContent = 'Od największego do najmniejszego';
+            delayDesc.textContent = 'Od najmniejszego do największego';
             delaySelect.appendChild(delayDesc);
 
             delaySelect.value = activeDelaySort;
@@ -421,7 +416,6 @@
 
             filterDiv.appendChild(delaySelect);
 
-            // === Input: Numer linii ===
             const lineInput = document.createElement('input');
             lineInput.placeholder = 'Filtruj po linii...';
             lineInput.classList.add('filter-input');
@@ -435,7 +429,6 @@
 
             filterDiv.appendChild(lineInput);
 
-            // === Input: Numer autobusu ===
             const busInput = document.createElement('input');
             busInput.placeholder = 'Filtruj po numerze autobusu...';
             busInput.classList.add('filter-input');
@@ -449,7 +442,6 @@
 
             filterDiv.appendChild(busInput);
 
-            // Ustaw ponownie wartości
             if (activeFilter) {
                 select.value = activeFilter;
             }
@@ -497,6 +489,22 @@
             return sign * (minutes * 60 + seconds);
         }
 
+        function LoadBrygada(godzinaOdjazdu, kierunek, callback) {
+            fetch(`http://localhost:3000/api/brygada?godzina=${encodeURIComponent(godzinaOdjazdu)}&kierunek=${encodeURIComponent(kierunek)}`)
+                .then(response => response.json())
+                .then(data => {
+                    console.log('Dane otrzymane od serwera:', data);
+                    // Przekazanie obu wartości do callbacka
+                    callback(data.brygada, data.linia); // Przekazanie również linia
+                })
+                .catch(error => {
+                    console.error('Błąd przy pobieraniu danych:', error);
+                    callback('Błąd');
+                });
+        }
+
+
+
         function loadAndRenderTable() {
             const scrollTop = window.scrollY;
             const activeElement = document.activeElement;
@@ -523,18 +531,17 @@
 
                     vehicles.forEach(v => {
                         const nb = v.getAttribute("nb");
-                        const nr = v.getAttribute("nr");
-                        const op = v.getAttribute("op");
-                        const nop = v.getAttribute("nop");
-                        const p = v.getAttribute("p");
+                        const nr = v.getAttribute("nr") || '';
+                        let op = v.getAttribute("op") || '';
+                        const nop = v.getAttribute("nop") || '';
+                        let p = v.getAttribute("p") || '';
                         const o = parseInt(v.getAttribute("o"), 10);
                         const isDelayed = o < 0;
                         const absO = Math.abs(o);
 
                         const minutes = Math.floor(absO / 60);
                         const seconds = absO % 60;
-                        const formattedTime = `${isDelayed ? '-' : '+'}${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
-
+                        const formattedDelay = `${isDelayed ? '-' : '+'}${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
                         const totalSeconds = (isDelayed ? -1 : 1) * (minutes * 60 + seconds);
 
                         let color = "#ffffff";
@@ -550,7 +557,25 @@
                             color = "#a80000";
                         }
 
-                        const formattedTimeReal = `<span style="color: ${color}">${formattedTime}</span>`;
+                        const formattedTimeReal = `<span style="color: ${color}">${formattedDelay}</span>`;
+
+                        if ((!nr || nr.trim() === '') && (!op || op.trim() === '') && (!p || p.trim() === '')) {
+                            op = nop;
+
+                            const now = new Date();
+                            now.setSeconds(now.getSeconds() + totalSeconds);
+
+                            if (now.getSeconds() >= 0 && now.getSeconds() < 30) {
+                                now.setSeconds(0);
+                            } else if (now.getSeconds() >= 30 && now.getSeconds() < 60) {
+                                now.setMinutes(now.getMinutes() + 1);
+                                now.setSeconds(0);
+                            }
+
+                            const hours = now.getHours().toString().padStart(2, '0');
+                            const mins = now.getMinutes().toString().padStart(2, '0');
+                            p = `${hours}:${mins}`;
+                        }
 
                         const nbNum = parseInt(nb, 10);
                         const matched = modelMap.find(entry => !entry.isCategory && entry.entries.includes(nbNum));
@@ -558,15 +583,56 @@
 
                         const row = document.createElement("tr");
                         row.innerHTML = `
-                        <td>${nb}</td>
-                        <td style="display: none;">${model}</td>
-                        <td>${formattedTimeReal}</td>
-                        <td>${nr}</td>
-                        <td>${op}</td>
-                        <td>${nop}</td>
-                        <td>${p}</td>
-                    `;
+                <td>${nb}</td>
+                <td style="display: none;">${model}</td>
+                <td>${formattedTimeReal}</td>
+                <td>${nr}</td>
+                <td>${op}</td>
+                <td style="display: none;">${nop}</td>
+                <td>${p}</td>
+                `;
                         tbody.appendChild(row);
+
+                        const godzinaOdjazdu = row.cells[6].textContent.trim();
+                        const kierunek = row.cells[4].textContent.trim();
+                        const cellBrygada = row.insertCell(2);
+                        const cellLinie = row.cells[4];
+
+                        // Funkcja LoadBrygada, która zwraca brygadę i linię
+                        LoadBrygada(godzinaOdjazdu, kierunek, function(brygada, linia) {
+                            // Sprawdzamy, czy brygada zawiera "Folder:" i usuwamy go
+                            if (brygada.includes("Folder:")) {
+                                brygada = brygada.replace("Folder:", "").trim(); // Usuwamy "Folder:" i przycinamy nadmiarowe spacje
+                            }
+
+                            // Zamiana "_" na "/"
+                            brygada = brygada.replace(/_/g, "/");
+
+                            // Ustawienie brygady w komórce
+                            cellBrygada.textContent = brygada;
+
+                            // Sprawdzamy, czy komórka "linie" zawiera jakąkolwiek wartość (nie jest pusta)
+                            if (cellLinie.textContent.trim() === "") {
+                                // Nadpisanie wartości linii, jeśli komórka nie jest pusta
+                                cellLinie.textContent = linia;
+                                // Zmiana koloru na różowy
+                                cellLinie.style.color = 'gray';
+
+                                // Zmiana koloru również w kolumnie Kierunek
+                                const cellKierunek = row.cells[5];
+                                cellKierunek.style.color = 'gray';
+                            }
+
+                        });
+
+
+
+
+
+
+
+
+
                     });
 
                     applyFilters();
@@ -578,7 +644,6 @@
                     window.scrollTo({
                         top: scrollTop
                     });
-                    sprawdzDostepnosc();
                 })
                 .catch(error => {
                     console.error('Błąd przy pobieraniu danych:', error);

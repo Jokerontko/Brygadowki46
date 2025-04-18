@@ -821,6 +821,8 @@ def NazwijBrygady():
       
 def StwórzZbiorczyKursy():
     clear_screen()
+    
+    # Funkcja do odczytu rozkładów z pliku
     def read_schedule(file_path):
         schedules = []
         current_schedule = []
@@ -843,18 +845,18 @@ def StwórzZbiorczyKursy():
         if current_schedule:
             schedules.append(current_schedule)
 
-        print(f"Znaleziono {len(schedules)} rozkładów.")  # Debug: liczba znalezionych rozkładów
+        print(f"Znaleziono {len(schedules)} rozkładów.")
         return schedules
 
+    # Funkcja do konwersji czasu z formatu HH:MM:SS na minuty
     def convert_time_to_minutes(time_str):
-        """Konwertuje czas w formacie HH:MM:SS na całkowite minuty."""
         hours, minutes, seconds = map(int, time_str.split(':'))
-        return hours * 60 + minutes + seconds / 60  # Zwraca minuty z ułamkiem
+        return hours * 60 + minutes + seconds / 60
 
+    # Funkcja do wyciągania czasów odjazdu
     def get_departure_times(schedule):
         times = []
         for line in schedule:
-            # Sprawdzenie, czy wiersz jest w formacie z czasem odjazdu
             if re.match(r'^\d+\s+\d+\s+\d+\s+\d{2}:\d{2}:\d{2}\s+(\d{2}:\d{2}:\d{2})', line):
                 departure_time_str = line.split()[4]
                 try:
@@ -864,64 +866,68 @@ def StwórzZbiorczyKursy():
                     print(f"Błąd konwersji czasu odjazdu: {departure_time_str}. Błąd: {e}")
         return times
 
+    # Funkcja filtrująca dane rozkładu, zwraca min. czas odjazdu, nazwę folderu i kierunek
     def filter_schedule(schedule):
-        header = schedule[0:2]  # Zakładamy, że nagłówki to pierwsze dwa wiersze
-        departure_times = get_departure_times(schedule[2:])  # Sprawdzamy tylko kursy
+        header = schedule[0:2]  # Pierwsze dwie linie
+        departure_times = get_departure_times(schedule[2:])  # Czas odjazdu w kursach
         
         if not departure_times:
-            print("Brak czasów odjazdów w rozkładzie.")  # Debug: brak czasów odjazdów
-            return []  # Zwracamy pusty rozkład
+            print("Brak czasów odjazdów w rozkładzie.")
+            return None  # Brak danych, zwróć None
         
-        # Wiersze z minimalnym i maksymalnym departure_time
-        min_time = min(departure_times, key=lambda x: x[0])[1]  # Wiersz z minimalnym departure_time
-        max_time = max(departure_times, key=lambda x: x[0])[1]  # Wiersz z maksymalnym departure_time
-        
-        return header + [min_time, max_time]  # Zwracamy nagłówki oraz wiersze z min i max
+        min_time_line = min(departure_times, key=lambda x: x[0])[1]
+        folder_name = os.path.basename(schedule[0].strip())  # Usuwamy 'Folder:' i zachowujemy tylko nazwę folderu
+        direction = header[1].strip()  # Kierunek jest w drugiej linii
+        return min_time_line, folder_name, direction
 
-    def sort_schedules_by_departure(schedules):
-        return sorted(schedules, key=lambda sch: get_departure_times(sch[2:])[0][0] if get_departure_times(sch[2:]) else float('inf'))
-
-    def write_sorted_schedules(schedules, output_path):
+    # Funkcja zapisująca dane do pliku PojazdyLIVE.txt
+    def write_to_pojazdy_live(data, output_path):
         try:
             with open(output_path, 'w', encoding='utf-8') as file:
-                for schedule in schedules:
-                    if schedule:  # Upewniamy się, że rozkład nie jest pusty
-                        for line in schedule:
-                            file.write(line)
-                        file.write("\n")
+                for line in data:
+                    file.write(line + "\n")
         except Exception as e:
             print(f"Błąd przy zapisie do pliku: {e}")
 
-    # Lista katalogów do przetworzenia
+    # Funkcja do formatowania godziny, uwzględniająca odjęcie 24 godzin, jeżeli godzina >= 24:00
+    def format_time(time_str):
+        hours, minutes, _ = time_str.split(':')
+        hours = int(hours)
+        minutes = int(minutes)
+        
+        # Jeżeli godzina >= 24, odejmujemy 24 godziny
+        if hours >= 24:
+            hours -= 24
+        
+        return f"{hours:02}:{minutes:02}"
+
+    # Funkcja do wyciągania numeru linii (część tekstu między "[" i "]")
+    def extract_line(direction):
+        match = re.search(r'\[(.*?)\]', direction)
+        return match.group(1) if match else ""
+
     dirs_to_process = ['WYNIKI/Gotowe_brygady/1', 'WYNIKI/Gotowe_brygady/2', 'WYNIKI/Gotowe_brygady/3', 'WYNIKI/Gotowe_brygady/4']
 
     for main_dir in dirs_to_process:
-        # Sprawdzenie, czy główny folder istnieje
         if not os.path.exists(main_dir):
             print(f"Błąd: Folder {main_dir} nie istnieje!")
             continue
 
-        output_file = os.path.join(main_dir, 'Kursy.txt')  # Plik wyjściowy w aktualnym katalogu
+        output_file = os.path.join(main_dir, 'Kursy.txt')
 
-        # Tworzenie lub otwieranie pliku wyjściowego z kodowaniem UTF-8
+        # Tworzenie pliku Kursy.txt
         with open(output_file, 'w', encoding='utf-8') as kursy_file:
-            # Przeglądanie wszystkich podfolderów i plików
             for root, dirs, files in os.walk(main_dir):
-                # Pomijamy główny folder, bo chcemy tylko podfoldery
                 if root != main_dir:
-                    folder_name = os.path.basename(root)  # Pobranie nazwy folderu
+                    folder_name = os.path.basename(root)
                     for file in files:
-                        # Sprawdzanie, czy plik ma rozszerzenie .txt i czy w nazwie są cyfry
                         if file.endswith('.txt') and re.search(r'\d', file):
                             file_path = os.path.join(root, file)
 
-                            # Otwieranie pliku z kodowaniem UTF-8
                             try:
                                 with open(file_path, 'r', encoding='utf-8') as f:
                                     content = f.read().strip()
-
-                                    # Wpisywanie zawartości pliku do Kursy.txt z informacją o folderze
-                                    kursy_file.write(f"Folder: {folder_name}\n")  # Dodaj nazwę folderu
+                                    kursy_file.write(f"Folder: {folder_name}\n")
                                     kursy_file.write(content + '\n\n')
                                     print(f"Plik {file_path} został dodany do {output_file}")
                             except Exception as e:
@@ -929,16 +935,30 @@ def StwórzZbiorczyKursy():
 
         print(f"Zawartość została zapisana do pliku {output_file}")
 
-        # Odczytaj, posortuj i zapisz rozkłady jazdy
         schedules = read_schedule(output_file)
         if schedules:
-            filtered_schedules = [filter_schedule(schedule) for schedule in schedules]
-            sorted_schedules = sort_schedules_by_departure(filtered_schedules)
-            output_sorted_file = os.path.join(main_dir, 'Kursy_filtered_sorted.txt')
-            write_sorted_schedules(sorted_schedules, output_sorted_file)
-            print(f"Sortowanie i filtrowanie zakończone sukcesem! Wyniki zapisano w {output_sorted_file}")
+            min_times_info = []
+            for schedule in schedules:
+                result = filter_schedule(schedule)
+                if result:
+                    min_time_line, folder_name, direction = result
+                    
+                    min_time_str = min_time_line.split()[4]  # Czas odjazdu w formacie HH:MM:SS
+                    formatted_time = format_time(min_time_str)  # Formatujemy godzinę
+                    line = extract_line(direction)  # Wyciągamy numer linii
+
+                    # Zapisujemy do listy: godzina, numer folderu, kierunek, linia
+                    min_times_info.append(f"{formatted_time}\t{folder_name}\t{direction}\t{line}")
+            
+            # Tworzymy plik PojazdyLIVE.txt
+            output_pojazdy_file = os.path.join(main_dir, 'PojazdyLIVE.txt')
+            write_to_pojazdy_live(min_times_info, output_pojazdy_file)
+            print(f"Minimalne godziny odjazdu, numery folderów, kierunki i linie zapisane do pliku {output_pojazdy_file}")
         else:
             print("Brak rozkładów do przetworzenia.")
+
+
+
 
       
           

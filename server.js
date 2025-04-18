@@ -34,6 +34,91 @@ app.use(express.static(path.join(__dirname, 'Przystanki')));
 
 
 
+app.use(express.json()); // może się jeszcze przydać
+
+// Endpoint GET do sprawdzania brygady
+app.get('/api/brygada', (req, res) => {
+    const godzinaOdjazdu = req.query.godzina;
+    const kierunek = req.query.kierunek;
+
+    console.log('⏱️ Odebrana godzina:', godzinaOdjazdu);
+    console.log('📍 Odebrany kierunek:', kierunek);
+
+    if (!godzinaOdjazdu || !kierunek) {
+        return res.status(400).json({
+            message: 'Brakuje danych: godzina lub kierunek.'
+        });
+    }
+
+    const filePath = path.join(__dirname, 'Brygady', 'WYNIKI', 'Gotowe_brygady', '3', 'PojazdyLIVE.txt');
+
+
+    fs.readFile(filePath, 'utf8', (err, content) => {
+        if (err) {
+            console.error('❌ Błąd odczytu pliku:', err);
+            return res.status(500).json({
+                message: 'Błąd serwera podczas odczytu pliku.'
+            });
+        }
+
+        const lines = content.split('\n').filter(line => line.trim() !== '');
+        const godzinaOdjazduBezSekund = godzinaOdjazdu.trim().substring(0, 5); // np. 23:32
+
+        console.log(`📂 Przeszukuję ${lines.length} linii...`);
+
+        for (const line of lines) {
+            const [godzinaZPlikuPełna, brygada, kierunekZPliku, linia] = line.split('\t');
+            let godzinaZPliku = godzinaZPlikuPełna?.substring(0, 5); // tylko HH:MM
+
+            // Dopasowanie godziny: jeśli godzina w pliku jest w formacie HH:MM (bez sekund), to dodajemy domyślne ":00"
+            if (godzinaZPliku.length === 5) {
+                godzinaZPliku += ':00';
+            }
+
+            // Dopasowanie godziny (przedział bez sekund)
+            const godzinaZPlikuBezSekund = godzinaZPliku.substring(0, 5);
+
+
+            // Porównanie godziny
+            if (godzinaZPlikuBezSekund === godzinaOdjazduBezSekund) {
+
+                const slowaZZapytania = kierunek.toLowerCase().split(/\s+/);
+                const kierunekZPlikuLower = kierunekZPliku.toLowerCase();
+                console.log(`🌍 Porównuję kierunki: "${kierunek}" z "${kierunekZPliku}"`);
+
+                const pasujeKierunek = slowaZZapytania.some(slowo =>
+                    kierunekZPlikuLower.includes(slowo)
+                );
+
+                if (pasujeKierunek) {
+                    console.log(`🎯 Kierunek "${kierunek}" pasuje do "${kierunekZPliku}"`);
+                    return res.json({
+                        brygada,
+                        linia
+                    });
+                } else {
+                    console.log(`❌ Kierunek "${kierunek}" NIE pasuje do "${kierunekZPliku}"`);
+                }
+            }
+        }
+
+        console.warn('⚠️ Brak dopasowania – zwracam "Nieznana".');
+        res.json({
+            brygada: 'Nieznana',
+            linia: 'Nieznana'
+        });
+
+    });
+});
+
+
+
+
+
+
+
+
+
 import fetch from 'node-fetch';
 import cors from 'cors';
 

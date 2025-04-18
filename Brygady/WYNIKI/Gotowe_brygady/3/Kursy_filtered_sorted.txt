@@ -4475,8 +4475,8 @@ Folder: 58_3
 
 Folder: 0A_3
 [0A] Dworzec Główny PKP 01 - Dworzec Główny PKP 01 
-1937	3	215712	10:08:00	10:08:00		Dworzec Główny PKP 01
-1937	3	215712	10:41:00	10:41:00		Dworzec Główny PKP 01
+1937	3	215712	10:08:00	10:08:00		Dworzec Główny PKP
+1937	3	215712	10:41:00	10:41:00		Dworzec Główny PKP
 
 Folder: 14_1
 [14] Kard. K. Wojtyły pętla 03 nż - Dworzec Lokalny 
@@ -12699,14 +12699,14 @@ Folder: 1_3
 1307	3	210548	24:22:00	24:22:00		Cieplińskiego 01
 
 Folder: 31_1
-[31] Sikorskiego MPGK 20 - Lubelska Zajezdnia MPK 
-1901	3	215139	24:11:00	24:11:00		Sikorskiego MPGK 20
-1901	3	215139	24:41:00	24:41:00		Lubelska Zajezdnia MPK
+[31] Sikorskiego MPGK 20 - Lubelska MPK 
+1901	3	215139	00:11:00	00:11:00		Sikorskiego MPGK 20
+1901	3	215139	00:41:00	00:41:00		Lubelska MPK
 
 Folder: 58_3
 [58] Hermanowa Czerwonki pętla 53 - Dworzec Lokalny p. Hermanową pętla
-1942	3	208625	24:16:00	24:16:00		Hermanowa Czerwonki pętla 53
-1942	3	208625	24:59:00	24:59:00		Dworzec Lokalny
+1942	3	208625	24:16:00	00:16:00		Hermanowa Czerwonki pętla 53
+1942	3	208625	24:59:00	00:59:00		Dworzec Lokalny
 
 Folder: 6_1
 [6] Słocińska pętla 11 nż - Piłsudskiego U. Wojewódzki 06 
@@ -12715,7 +12715,7 @@ Folder: 6_1
 
 Folder: 52_3
 [51] Jasionka - Port Lotniczy - Bardowskiego 04 
-1766	3	203903	24:20:00	24:20:00		Jasionka - Port Lotniczy
+1766	3	203903	00:20:00	00:20:00		Jasionka - Port Lotniczy
 1766	3	203903	24:47:00	24:47:00		Bardowskiego 04
 
 Folder: 11_4
