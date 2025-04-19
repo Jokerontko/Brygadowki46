@@ -241,13 +241,14 @@
     <header>
         <a href="../../Main_Panel.html" class="menu">Panel Główny</a>
         <a href="../../Przystanki/listaprzystankow.html" class="menu">Przystanki</a>
-        <a href="../ChooseDay.html" class="menu">Brygady</a>
+        <a href="../Brygady/ChooseDay.html" class="menu">Brygady</a>
         <a href="../../Brygady/Kursy/Kursy.html" class="menu">Kursy</a>
         <a href="#" class="menu exit" id="logout">Opuść Panel</a>
         <hr>
     </header>
 
     <h1>Pojazdy LIVE</h1>
+    <p style="margin: 0px 0px 15px 0px;">Dostęp testowy</p>
 
     <div id="filtrowanie" style="width: 70%;">
 
@@ -280,11 +281,37 @@
 
 
     <script>
+        // Pobierz dane użytkownika z sessionStorage
+        const user = JSON.parse(sessionStorage.getItem('user'));
+
+        function checkLogin() {
+            const user = JSON.parse(sessionStorage.getItem('user'));
+            if (!user) {
+                window.location.href = '../zoltakartka.html';
+            }
+        }
+
+        window.onload = async function() {
+            checkLogin();
+            await loadArticles();
+        };
+
+
+        document.getElementById('logout').addEventListener('click', function() {
+            sessionStorage.clear();
+            window.location.href = '../index.html';
+        });
+
+
+
         let modelMap = [];
         let activeFilter = null;
         let activeDelaySort = '';
         let activeLineFilter = '';
         let activeBusNumberFilter = '';
+        let wartoscdnia = ""; // domyślnie np. "Powszedni"
+        let activeDzien = "2"; // Domyślnie Powszedni
+
 
         function parseModelFile(text) {
             modelMap = [];
@@ -442,6 +469,58 @@
 
             filterDiv.appendChild(busInput);
 
+
+            let dzienSelect = document.getElementById('dzienSelect');
+            if (!dzienSelect) {
+                dzienSelect = document.createElement('select');
+                dzienSelect.id = 'dzienSelect';
+                dzienSelect.style.marginLeft = '10px';
+                dzienSelect.style.maxWidth = '100%';
+
+                const dzienOptions = [{
+                        label: 'Powszedni',
+                        value: '2'
+                    },
+                    {
+                        label: 'Powszedni Wolny',
+                        value: '3'
+                    },
+                    {
+                        label: 'Sobotni',
+                        value: '4'
+                    },
+                    {
+                        label: 'Niedzielny',
+                        value: '1'
+                    }
+                ];
+
+                dzienOptions.forEach(opt => {
+                    const option = document.createElement('option');
+                    option.value = opt.value;
+                    option.textContent = opt.label;
+                    dzienSelect.appendChild(option);
+                });
+
+                dzienSelect.value = sessionStorage.getItem('activeDzien') || activeDzien;
+
+                dzienSelect.addEventListener('change', () => {
+                    activeDzien = dzienSelect.value;
+                    sessionStorage.setItem('activeDzien', activeDzien);
+                    loadAndRenderTable(); // przeładuj dane przy zmianie
+                });
+
+                filterDiv.appendChild(dzienSelect);
+            }
+
+            // Aktualizuj globalną zmienną zgodnie z tym, co jest w select:
+            activeDzien = dzienSelect.value;
+
+
+            filterDiv.appendChild(dzienSelect);
+
+
+
             if (activeFilter) {
                 select.value = activeFilter;
             }
@@ -452,7 +531,7 @@
 
             rows.forEach(row => {
                 const modelCell = row.cells[1];
-                const lineCell = row.cells[3];
+                const lineCell = row.cells[4];
                 const busNumberCell = row.cells[0];
 
                 const matchesModel = !activeFilter || modelCell.textContent.trim() === activeFilter;
@@ -489,8 +568,9 @@
             return sign * (minutes * 60 + seconds);
         }
 
-        function LoadBrygada(godzinaOdjazdu, kierunek, callback) {
-            fetch(`/api/brygada?godzina=${encodeURIComponent(godzinaOdjazdu)}&kierunek=${encodeURIComponent(kierunek)}`)
+        function LoadBrygada(godzinaOdjazdu, kierunek, dzien, callback) {
+            fetch(`/api/brygada?godzina=${encodeURIComponent(godzinaOdjazdu)}&kierunek=${encodeURIComponent(kierunek)}&dzien=${encodeURIComponent(dzien)}`)
+
                 .then(response => response.json())
                 .then(data => {
                     console.log('Dane otrzymane od serwera:', data);
@@ -505,7 +585,10 @@
 
 
 
-        function loadAndRenderTable() {
+        function loadAndRenderTable(dzien) {
+            dzien = dzien || (document.getElementById('dzienSelect')?.value || activeDzien);
+
+
             const scrollTop = window.scrollY;
             const activeElement = document.activeElement;
             const wasFocused = activeElement?.tagName === 'SELECT' || activeElement?.tagName === 'INPUT';
@@ -599,7 +682,8 @@
                         const cellLinie = row.cells[4];
 
                         // Funkcja LoadBrygada, która zwraca brygadę i linię
-                        LoadBrygada(godzinaOdjazdu, kierunek, function(brygada, linia) {
+                        LoadBrygada(godzinaOdjazdu, kierunek, activeDzien, function(brygada, linia) {
+
                             // Sprawdzamy, czy brygada zawiera "Folder:" i usuwamy go
                             if (brygada.includes("Folder:")) {
                                 brygada = brygada.replace("Folder:", "").trim(); // Usuwamy "Folder:" i przycinamy nadmiarowe spacje
@@ -616,11 +700,14 @@
                                 // Nadpisanie wartości linii, jeśli komórka nie jest pusta
                                 cellLinie.textContent = linia;
                                 // Zmiana koloru na różowy
-                                cellLinie.style.color = 'gray';
+                                cellLinie.style.color = 'grey';
 
                                 // Zmiana koloru również w kolumnie Kierunek
                                 const cellKierunek = row.cells[5];
-                                cellKierunek.style.color = 'gray';
+                                cellKierunek.style.color = 'grey';
+
+                                const cellOpoznienie = row.cells[3];
+                                cellOpoznienie.style.color = 'white';
                             }
 
                         });
@@ -653,6 +740,7 @@
         fetch('ModeleAutobusow.txt')
             .then(response => response.text())
             .then(text => {
+                checkLogin();
                 parseModelFile(text);
                 loadAndRenderTable();
                 setInterval(() => {

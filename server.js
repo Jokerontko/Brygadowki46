@@ -40,17 +40,20 @@ app.use(express.json()); // może się jeszcze przydać
 app.get('/api/brygada', (req, res) => {
     const godzinaOdjazdu = req.query.godzina;
     const kierunek = req.query.kierunek;
+    const wartoscdnia = req.query.dzien; // <- NOWE
+
 
     console.log('⏱️ Odebrana godzina:', godzinaOdjazdu);
     console.log('📍 Odebrany kierunek:', kierunek);
 
-    if (!godzinaOdjazdu || !kierunek) {
+
+    if (!godzinaOdjazdu || !kierunek || !wartoscdnia) {
         return res.status(400).json({
-            message: 'Brakuje danych: godzina lub kierunek.'
+            message: 'Brakuje danych: godzina, kierunek lub wartość dnia.'
         });
     }
 
-    const filePath = path.join(__dirname, 'Brygady', 'WYNIKI', 'Gotowe_brygady', '3', 'PojazdyLIVE.txt');
+    const filePath = path.join(__dirname, 'Brygady', 'WYNIKI', 'Gotowe_brygady', wartoscdnia, 'PojazdyLIVE.txt');
 
 
     fs.readFile(filePath, 'utf8', (err, content) => {
@@ -104,7 +107,7 @@ app.get('/api/brygada', (req, res) => {
 
         console.warn('⚠️ Brak dopasowania – zwracam "Nieznana".');
         res.json({
-            brygada: 'Nieznana',
+            brygada: '?',
             linia: 'Nieznana'
         });
 
