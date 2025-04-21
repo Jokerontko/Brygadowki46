@@ -293,7 +293,6 @@
 
         window.onload = async function() {
             checkLogin();
-            await loadArticles();
         };
 
 
@@ -545,8 +544,8 @@
                 const sortedRows = rows
                     .filter(row => row.style.display !== 'none')
                     .sort((a, b) => {
-                        const delayA = a.cells[2].textContent.trim();
-                        const delayB = b.cells[2].textContent.trim();
+                        const delayA = a.cells[3].textContent.trim();
+                        const delayB = b.cells[3].textContent.trim();
 
                         const valueA = parseDelay(delayA);
                         const valueB = parseDelay(delayB);
@@ -752,6 +751,95 @@
         function sprawdzDostepnosc() {
             console.log("Sprawdzanie dostępności...");
         }
+
+
+
+
+
+
+
+
+
+        document.getElementById("wykazstrony").addEventListener("click", async function(e) {
+            const cell = e.target;
+            if (cell.tagName === "TD" && cell.cellIndex === 2) {
+                const row = cell.parentElement;
+                const brygada = row.cells[2].textContent.trim(); // kolumna "Brygada"
+                const modifiedBrygada = brygada.replace(/\//g, '_');
+                sessionStorage.setItem('brygadaTitle', modifiedBrygada);
+
+                // Pobierz activeDzien z sessionStorage
+                const activeDzien = sessionStorage.getItem('activeDzien') || '2';
+
+                // Określ JakiTYPdnia
+                let JakiTYPdnia = "Powszedni";
+                let rodzajDniaForFile = 2;
+                switch (activeDzien) {
+                    case "1":
+                        JakiTYPdnia = "Niedzielny";
+                        rodzajDniaForFile = 1;
+                        break;
+                    case "3":
+                        JakiTYPdnia = "PowszedniWolny";
+                        rodzajDniaForFile = 3;
+                        break;
+                    case "4":
+                        JakiTYPdnia = "Sobotni";
+                        rodzajDniaForFile = 4;
+                        break;
+                }
+
+                const filePath = `../../../Brygady/WYNIKI/Gotowe_brygady/${rodzajDniaForFile}/Brygady_BIS.txt`;
+                sessionStorage.setItem('ChoosedTypeOfDay', rodzajDniaForFile);
+
+
+                try {
+                    const response = await fetch(filePath);
+                    const data = await response.text();
+                    const lines = data.split('\n').slice(2); // pomiń 2 pierwsze linie
+
+                    function findBrygadaType(searchBrygada) {
+                        for (const line of lines) {
+                            const [currentBrygada, typBrygady] = line.split('\t');
+                            if (currentBrygada?.trim() === searchBrygada) {
+                                switch (typBrygady?.trim()) {
+                                    case 'JZ':
+                                        return 'Brygada Jednozmianowa';
+                                    case 'X':
+                                        return 'Brygada Dwuzmianowa';
+                                    case 'B':
+                                        return 'Brygada Szczytowa';
+                                    case 'JZN':
+                                        return 'Brygada Nocna Jednozmianowa';
+                                    case 'DZN':
+                                        return 'Brygada Nocna Dwuzmianowa';
+                                }
+                            }
+                        }
+                        return null;
+                    }
+
+                    let brygadaType = findBrygadaType(modifiedBrygada);
+
+                    if (!brygadaType) {
+                        const originalBrygada = modifiedBrygada.replace(/_/g, '/');
+                        brygadaType = findBrygadaType(originalBrygada);
+                    }
+
+                    if (brygadaType) {
+                        sessionStorage.setItem('BrygadaType', brygadaType);
+                    } else {
+                        console.error('Nie znaleziono typu brygady dla:', modifiedBrygada);
+                    }
+
+                } catch (error) {
+                    console.error('Błąd podczas pobierania lub przetwarzania pliku:', error);
+                }
+
+                // Przekierowanie
+                window.location.href = `../Brygady/${JakiTYPdnia}/brygada.html`;
+            }
+        });
 
     </script>
 

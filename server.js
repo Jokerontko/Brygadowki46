@@ -107,8 +107,8 @@ app.get('/api/brygada', (req, res) => {
 
         console.warn('⚠️ Brak dopasowania – zwracam "Nieznana".');
         res.json({
-            brygada: '?',
-            linia: 'Nieznana'
+            brygada: '',
+            linia: ''
         });
 
     });
