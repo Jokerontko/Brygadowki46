@@ -663,16 +663,26 @@
                         const matched = modelMap.find(entry => !entry.isCategory && entry.entries.includes(nbNum));
                         const model = matched ? matched.model : 'N/A';
 
+                        // Jeśli kierunek zawiera "p.", to umieszczamy resztę w <span>
+                        let formattedOp = op;
+                        const pIndex = op.toLowerCase().indexOf("p.");
+                        if (pIndex !== -1) {
+                            const before = op.slice(0, pIndex).trim();
+                            const after = op.slice(pIndex).trim();
+                            formattedOp = `${before} <br> <span>${after}</span>`;
+                        }
+
                         const row = document.createElement("tr");
                         row.innerHTML = `
-                <td>${nb}</td>
-                <td style="display: none;">${model}</td>
-                <td>${formattedTimeReal}</td>
-                <td>${nr}</td>
-                <td>${op}</td>
-                <td style="display: none;">${nop}</td>
-                <td>${p}</td>
-                `;
+    <td>${nb}</td>
+    <td style="display: none;">${model}</td>
+    <td>${formattedTimeReal}</td>
+    <td>${nr}</td>
+    <td>${formattedOp}</td>
+    <td style="display: none;">${nop}</td>
+    <td>${p}</td>
+`;
+
                         tbody.appendChild(row);
 
                         const godzinaOdjazdu = row.cells[6].textContent.trim();

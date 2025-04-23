@@ -2232,7 +2232,111 @@ def parse_kursy_file(file_path):
     
 
 
+    
+    
+    
+    
+    
+import xml.etree.ElementTree as ET
+import locale    
+    
+    
+def Wczytaj_Przystanki():
+    input('Prawidłowa nazwa pliku xml: ServiceCodes.xml\nAby kontynuować kliknij ENTER')
 
+    # Definiowanie ścieżki do pliku XML
+    sciezka_pliku = 'ServiceCodes.xml'
+
+    # Wczytanie zawartości pliku XML
+    with open(sciezka_pliku, 'r', encoding='utf-8-sig') as file:
+        xml_content = file.read()
+
+    # Parsowanie zawartości XML
+    korzen = ET.fromstring(xml_content)
+
+    # Definiowanie przestrzeni nazw
+    namespaces = {'ns': 'http://www.transxchange.org.uk/'}
+
+    # Ustawienie lokalizacji na polską
+    locale.setlocale(locale.LC_COLLATE, 'pl_PL.UTF-8')
+
+    # Listy przechowujące dane przed zapisaniem
+    data = []
+    stop_names = []
+    stop_name_id_pairs = []
+
+    # Iteracja przez wszystkie elementy StopPoint
+    for stop_point in korzen.findall('.//ns:StopPoint', namespaces):
+        public_code = stop_point.find('.//ns:Extensions/ns:PublicCode', namespaces)
+        stop_ID = stop_point.attrib.get('id', '')
+        stop_name = stop_point.find('.//ns:Descriptor/ns:CommonName', namespaces)
+        on_demand = stop_point.find('.//ns:Extensions/ns:OnDemand', namespaces)
+        ticket_zone_ref = stop_point.find('.//ns:Extensions/ns:TicketZones/ns:TicketZoneRef', namespaces)
+        latitude = stop_point.find('.//ns:Place/ns:Location/ns:Latitude', namespaces)
+        longitude = stop_point.find('.//ns:Place/ns:Location/ns:Longitude', namespaces)
+        adm_city_element = stop_point.find('.//ns:Extensions/ns:AdministrativeAreaRefs/ns:AdministrativeAreaRef', namespaces)
+
+        public_code = public_code.text if public_code is not None else ''
+        stop_name = stop_name.text if stop_name is not None else ''
+        on_demand = on_demand.text if on_demand is not None else ''
+        ticket_zone_ref = ticket_zone_ref.text if ticket_zone_ref is not None else ''
+        latitude = latitude.text if latitude is not None else ''
+        longitude = longitude.text if longitude is not None else ''
+        AdmCity = adm_city_element.text if adm_city_element is not None else ''
+
+        if ticket_zone_ref == "1":
+            ticket_zone_ref = "A"
+        elif ticket_zone_ref == "2":
+            ticket_zone_ref = "B"
+
+        adm_city_map = {
+            "001": "Rzeszów",
+            "005": "Krasne",
+            "003": "Tyczyn",
+            "006": "Świlcza",
+            "009": "Siedliska",
+            "010": "Chmielnik",
+            "007": "Trzebownisko",
+            "004": "Głogów Młp.",
+            "008": "Boguchwała",
+            "012": "Łańcut Miasto",
+            "013": "Łańcut Gmina"
+        }
+
+        AdmCity = adm_city_map.get(AdmCity, "BRAK INFORMACJI")
+
+        data.append([public_code, stop_name, on_demand, ticket_zone_ref, latitude, longitude, AdmCity])
+        stop_names.append(stop_name)
+        stop_name_id_pairs.append((stop_name, stop_ID))
+
+    # Sortowanie danych
+    data.sort(key=lambda x: locale.strxfrm(x[1]))
+    stop_names.sort(key=locale.strxfrm)
+    stop_name_id_pairs.sort(key=lambda x: locale.strxfrm(x[0]))
+
+    # Upewniamy się, że folder WYNIKI istnieje
+    os.makedirs('WYNIKI', exist_ok=True)
+
+    # Zapis danych do plików
+    with open('WYNIKI/Przystanki.txt', 'w', encoding='utf-8') as f:
+        for row in data:
+            f.write("\t".join(row) + "\n")
+
+    with open('WYNIKI/Przystanki_names.txt', 'w', encoding='utf-8') as f:
+        for name in stop_names:
+            f.write(name + "\n")
+
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
 
 
 
@@ -2250,7 +2354,6 @@ def parse_kursy_file(file_path):
       
 def menu():
     while True:
-        
         print("====== Pliki strony ============")
         print("1. Wczytaj brygady")
         print("2. Wczytaj numeracje brygad")
@@ -2270,6 +2373,7 @@ def menu():
         print("16 - TESTY SPRAWDŹ PODMIENIAJ CZY SĄ INNE WARTOŚCI NIZ 1234")
         print("17 - TESTOWANKO utwórz liste podmian automatycznie")
         print("18. Utwórz plik Przystanki")
+        print("19. Odczytaj przystanki (nazewnictwo itd)")
         print("")
         print("20. Brygady + Numeracja + Nazwanie + Linie + Godziny + GOTOWE.txt + Wyznacz bb + Wczytaj bb + Plik Zbiorczy Kursy")
         print("================================")
@@ -2346,6 +2450,9 @@ def menu():
             parse_kursy_file("WYNIKI/Gotowe_brygady/2/Kursy.txt")
             parse_kursy_file("WYNIKI/Gotowe_brygady/3/Kursy.txt")
             parse_kursy_file("WYNIKI/Gotowe_brygady/4/Kursy.txt")
+            input("Gotowe.")
+        elif wybor == '19':
+            Wczytaj_Przystanki()
             input("Gotowe.")
         elif wybor == "20":
             WczytajBrygady()            
