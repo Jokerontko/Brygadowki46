@@ -133,6 +133,36 @@
             animation: blink 1s infinite;
         }
 
+        @keyframes mruganie {
+
+            0%,
+            100% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0.3;
+            }
+        }
+
+        .svg-blink {
+            fill: green;
+            animation: mruganie 2s infinite;
+            vertical-align: middle;
+            margin-left: 6px;
+        }
+
+        .center-cell {
+
+            flex-direction: column;
+            align-items: center;
+            /* wyśrodkowanie poziome */
+            justify-content: center;
+            /* wyśrodkowanie pionowe */
+            text-align: center;
+            /* wyśrodkowanie tekstu */
+        }
+
     </style>
 </head>
 
@@ -166,6 +196,7 @@
             <a href="#" class="filtracja" id="purpleFilter">Szczytowa</a>
             <a href="#" class="filtracja" id="blackFilter">Nocna</a>
             <br>
+            <a href="#" class="filtracja" id="OnlyLIVE" style="width: 90%; display: none;">Wyświetl Pojazdy LIVE</a>
             <!-- <p class="szary">Po wpisaniu 'Rez' w filtrze linii, wyświetlają się wszystkie brygady z rezerwą :3</p> -->
             <hr>
             <a class="menu" style="font-size: 15px;" href="Podmiany.html">Lista podmian</a>
@@ -182,8 +213,8 @@
                 <th>Linie</th>
                 <th>Godz. Rozp.</th>
                 <th>Godz. Zak.</th>
-                <th>Km</th>
-                <th>LIVE</th>
+                <th style="display: none;">Km</th>
+                <th>Autobus <br> LIVE</th>
 
             </tr>
         </thead>
@@ -196,7 +227,7 @@
 
     </div>
 
-    <table id="wykazstrony" style="width: 90%;">
+    <table id="wykazstrony" style="width: 90%; display: none;">
         <thead>
             <tr>
                 <th>Numer Autobusu</th>
@@ -307,8 +338,8 @@
         </center></td>
         <td>${normalizedStart}</td> <!-- Zaktualizowane -->
         <td>${normalizedEnd}</td> <!-- Zaktualizowane -->
-        <td>${item.km || 'N/A'}</td>
-        <td>Brak danych</td> <!-- Nowa kolumna LIVE -->
+        <td style="display: none;">${item.km || 'N/A'}</td>
+        <td>...</td> <!-- Nowa kolumna LIVE -->
     `;
                     tableBody.appendChild(row);
                 });
@@ -382,6 +413,7 @@
         }
 
         sessionStorage.setItem("ChoosedTypeOfDay", brygadaNumber)
+        let activeDzien = brygadaNumber;
 
 
 
@@ -535,12 +567,6 @@
 
 
 
-
-
-
-
-
-
         // Attach the filtering function to the click event of the color filter links
         function addFilters() {
             const filterLinie = document.getElementById('filterLinie');
@@ -614,52 +640,41 @@
             }
         });
 
-
-
-
-
-
-
-
         // Wywołaj funkcję po załadowaniu danych
         window.onload = async function() {
             try {
                 console.log("Początek ładowania danych");
 
-                await fetchDate(); // Pobierz daty
+                await fetchDate();
                 console.log("Daty pobrane");
 
-                checkLogin(); // Sprawdź status logowania
-                await loadData(); // Załaduj dane
+                checkLogin();
+                await loadData();
                 console.log("Dane załadowane");
 
-                addFilters(); // Dodaj filtry
-                await checkBrygadaStatus(); // Sprawdź status brygad po załadowaniu danych
+                addFilters();
+                await checkBrygadaStatus();
 
                 console.log("Przygotowanie do ładowania modeli autobusów");
-                // Załaduj modele autobusów i generuj tabelę
-                await fetch('ModeleAutobusow.txt')
-                    .then(response => response.text())
-                    .then(text => {
-                        console.log("Plik modeli załadowany");
-                        checkLogin();
-                        parseModelFile(text); // Parsowanie pliku z modelami
-                        loadAndRenderTable(); // Generowanie tabeli
-                        console.log("Tabela załadowana");
 
-                        // Odświeżaj tabelę co 10 sekund
-                        setInterval(() => {
-                            loadAndRenderTable();
-                            console.log("Tabela odświeżona");
-                        }, 10000);
-                    })
-                    .catch(err => console.error('Błąd ładowania pliku modeli:', err));
+                const response = await fetch('ModeleAutobusow.txt');
+                const text = await response.text();
+                console.log("Plik modeli załadowany");
 
-                console.log("Synchronizacja tabel");
-                // Synchronizuj tabele po załadowaniu wszystkich danych
-                await synchronizeTables();
+                checkLogin();
+                parseModelFile(text);
+                uzupelnijLiveZDrugiejTabeli();
 
-                console.log("Synchronizacja zakończona");
+                await loadAndRenderTable();
+                await new Promise(resolve => setTimeout(resolve, 1000));
+                uzupelnijLiveZDrugiejTabeli();
+
+                setInterval(async () => {
+                    await loadAndRenderTable();
+
+                    uzupelnijLiveZDrugiejTabeli();
+                    console.log("Tabela odświeżona");
+                }, 10000);
 
             } catch (err) {
                 console.error('Błąd podczas ładowania:', err);
@@ -680,7 +695,7 @@
         let activeLineFilter = '';
         let activeBusNumberFilter = '';
         let wartoscdnia = ""; // domyślnie np. "Powszedni"
-        let activeDzien = "3"; // Domyślnie Powszedni
+
 
 
         function parseModelFile(text) {
@@ -892,15 +907,8 @@
 
                         });
 
-
-
-
-
-
-
-
-
                     });
+
 
 
                     if (wasFocused) {
@@ -920,44 +928,60 @@
 
         function sprawdzDostepnosc() {
             console.log("Sprawdzanie dostępności...");
+
         }
 
 
 
 
+        function uzupelnijLiveZDrugiejTabeli() {
+            const pierwszaTabela = document.querySelector('#PierwszaTabela tbody');
+            const drugaTabela = document.querySelector('#wykazstrony tbody');
 
-
-
-
-
-        function synchronizeTables() {
-            const pierwszaTabelaRows = document.querySelectorAll("#PierwszaTabela tbody tr");
-            const drugaTabelaRows = document.querySelectorAll("#wykazstrony tbody tr");
-
-            // Iterujemy przez wiersze pierwszej tabeli
-            pierwszaTabelaRows.forEach(firstRow => {
-                const brygadaFirstTable = firstRow.cells[0].textContent.trim(); // Pobieramy wartość Brygada z pierwszej tabeli
-
-                // Szukamy brygady w drugiej tabeli
-                let matchedRow = null;
-                drugaTabelaRows.forEach(secondRow => {
-                    const brygadaSecondTable = secondRow.cells[1].textContent.trim(); // Pobieramy wartość Brygada z drugiej tabeli
-
-                    if (brygadaFirstTable === brygadaSecondTable) {
-                        // Jeśli brygady się zgadzają, przypisujemy numer autobusu do "LIVE"
-                        const numerAutobusu = secondRow.cells[0].textContent.trim(); // Numer autobusu w drugiej tabeli
-                        const liveCell = firstRow.cells[5]; // Komórka "LIVE" w pierwszej tabeli
-
-                        liveCell.textContent = numerAutobusu ? numerAutobusu : "Brak danych";
-                        matchedRow = secondRow;
-                    }
-                });
-
-                // Jeśli nie znaleziono dopasowania, możemy zostawić "Brak danych"
-                if (!matchedRow) {
-                    firstRow.cells[5].textContent = "Brak danych";
+            // Tworzymy mapę: Brygada -> Numer Autobusu z drugiej tabeli
+            const mapaBrygadaNumer = {};
+            for (const row of drugaTabela.rows) {
+                const numerAutobusu = row.cells[0].textContent.trim();
+                const brygada = row.cells[2].textContent.trim();
+                if (brygada) {
+                    mapaBrygadaNumer[brygada] = numerAutobusu;
                 }
-            });
+            }
+
+            // SVG ikona z klasą blink
+
+            const svgIkonaOFF = `
+    <svg xmlns="http://www.w3.org/2000/svg" height="16" viewBox="0 0 24 24" width="16" style="fill:red;">
+        <path d="m1 9 2 2c4.97-4.97 13.03-4.97 18 0l2-2C16.93 2.93 7.08 2.93 1 9zm8 8 3 3 3-3c-1.65-1.66-4.34-1.66-6 0zm-4-4 2 2c2.76-2.76 7.24-2.76 10 0l2-2C15.14 9.14 8.87 9.14 5 13z"></path>
+    </svg>
+`;
+
+
+            const svgIkona = `
+        <svg xmlns="http://www.w3.org/2000/svg" height="16" viewBox="0 0 24 24" width="16" class="svg-blink">
+            <path d="m1 9 2 2c4.97-4.97 13.03-4.97 18 0l2-2C16.93 2.93 7.08 2.93 1 9zm8 8 3 3 3-3c-1.65-1.66-4.34-1.66-6 0zm-4-4 2 2c2.76-2.76 7.24-2.76 10 0l2-2C15.14 9.14 8.87 9.14 5 13z"></path>
+        </svg>
+    `;
+
+
+
+            // Iterujemy po pierwszej tabeli i uzupełniamy kolumnę LIVE
+            for (const row of pierwszaTabela.rows) {
+                const brygada = row.cells[0].textContent.trim();
+                const numerAutobusu = mapaBrygadaNumer[brygada];
+
+                // Wyśrodkowanie zawartości komórki
+                row.cells[5].style.textAlign = 'center';
+                row.cells[5].classList.add('center-cell');
+
+
+                if (numerAutobusu) {
+                    row.cells[5].innerHTML = `${numerAutobusu} ${svgIkona}`;
+                } else {
+                    row.cells[5].innerHTML = `${svgIkonaOFF}`;
+                }
+            }
+
         }
 
     </script>

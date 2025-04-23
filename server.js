@@ -36,16 +36,13 @@ app.use(express.static(path.join(__dirname, 'Przystanki')));
 
 app.use(express.json()); // może się jeszcze przydać
 
-// Endpoint GET do sprawdzania brygady
 app.get('/api/brygada', (req, res) => {
     const godzinaOdjazdu = req.query.godzina;
     const kierunek = req.query.kierunek;
-    const wartoscdnia = req.query.dzien; // <- NOWE
-
+    const wartoscdnia = req.query.dzien;
 
     console.log('⏱️ Odebrana godzina:', godzinaOdjazdu);
     console.log('📍 Odebrany kierunek:', kierunek);
-
 
     if (!godzinaOdjazdu || !kierunek || !wartoscdnia) {
         return res.status(400).json({
@@ -54,7 +51,6 @@ app.get('/api/brygada', (req, res) => {
     }
 
     const filePath = path.join(__dirname, 'Brygady', 'WYNIKI', 'Gotowe_brygady', wartoscdnia, 'PojazdyLIVE.txt');
-
 
     fs.readFile(filePath, 'utf8', (err, content) => {
         if (err) {
@@ -66,43 +62,43 @@ app.get('/api/brygada', (req, res) => {
 
         const lines = content.split('\n').filter(line => line.trim() !== '');
         const godzinaOdjazduBezSekund = godzinaOdjazdu.trim().substring(0, 5); // np. 23:32
+        const slowaZZapytania = kierunek.toLowerCase().split(/\s+/);
 
         console.log(`📂 Przeszukuję ${lines.length} linii...`);
 
+        let najlepszeDopasowanie = null;
+        let maksLiczbaSlow = 0;
+
         for (const line of lines) {
             const [godzinaZPlikuPełna, brygada, kierunekZPliku, linia] = line.split('\t');
-            let godzinaZPliku = godzinaZPlikuPełna?.substring(0, 5); // tylko HH:MM
+            if (!godzinaZPlikuPełna || !kierunekZPliku) continue;
 
-            // Dopasowanie godziny: jeśli godzina w pliku jest w formacie HH:MM (bez sekund), to dodajemy domyślne ":00"
-            if (godzinaZPliku.length === 5) {
-                godzinaZPliku += ':00';
-            }
+            let godzinaZPlikuBezSekund = godzinaZPlikuPełna.substring(0, 5); // tylko HH:MM
 
-            // Dopasowanie godziny (przedział bez sekund)
-            const godzinaZPlikuBezSekund = godzinaZPliku.substring(0, 5);
-
-
-            // Porównanie godziny
             if (godzinaZPlikuBezSekund === godzinaOdjazduBezSekund) {
-
-                const slowaZZapytania = kierunek.toLowerCase().split(/\s+/);
                 const kierunekZPlikuLower = kierunekZPliku.toLowerCase();
-                console.log(`🌍 Porównuję kierunki: "${kierunek}" z "${kierunekZPliku}"`);
 
-                const pasujeKierunek = slowaZZapytania.some(slowo =>
+                // Zlicz ile słów z zapytania znajduje się w kierunku z pliku
+                let liczbaPasujacychSlow = slowaZZapytania.filter(slowo =>
                     kierunekZPlikuLower.includes(slowo)
-                );
+                ).length;
 
-                if (pasujeKierunek) {
-                    console.log(`🎯 Kierunek "${kierunek}" pasuje do "${kierunekZPliku}"`);
-                    return res.json({
+                console.log(`🔍 Kierunek z pliku: "${kierunekZPliku}" => Pasujące słowa: ${liczbaPasujacychSlow}`);
+
+                // Zapamiętaj to dopasowanie, jeśli jest lepsze
+                if (liczbaPasujacychSlow > maksLiczbaSlow) {
+                    maksLiczbaSlow = liczbaPasujacychSlow;
+                    najlepszeDopasowanie = {
                         brygada,
                         linia
-                    });
-                } else {
-                    console.log(`❌ Kierunek "${kierunek}" NIE pasuje do "${kierunekZPliku}"`);
+                    };
                 }
             }
+        }
+
+        if (najlepszeDopasowanie) {
+            console.log(`✅ Najlepsze dopasowanie:`, najlepszeDopasowanie);
+            return res.json(najlepszeDopasowanie);
         }
 
         console.warn('⚠️ Brak dopasowania – zwracam "Nieznana".');
@@ -110,7 +106,6 @@ app.get('/api/brygada', (req, res) => {
             brygada: '',
             linia: ''
         });
-
     });
 });
 
