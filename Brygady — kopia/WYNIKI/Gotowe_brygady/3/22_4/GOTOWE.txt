@@ -1,0 +1,782 @@
+route_id	service_id	trip_id	arrival_time	departure_time	stop_headsign	stop_name
+-------------------------------------------------------------------------------
+1830	3	209964	04:44:00	04:44:00		Trembeckiego ZTM pętla 01
+1830	3	209964	04:46:00	04:46:00		Lubelska kościół 05 nż
+1830	3	209964	04:46:00	04:46:00		Lubelska kościół 05 nż
+1830	3	209964	04:47:00	04:47:00		Lubelska szpital 01
+1830	3	209964	04:47:00	04:47:00		Lubelska szpital 01
+1830	3	209964	04:48:00	04:48:00		Marszałkowska 01
+1830	3	209964	04:48:00	04:48:00		Marszałkowska 01
+1830	3	209964	04:51:00	04:51:00		Piłsudskiego U. Wojewódzki 05
+1830	3	209964	04:51:00	04:51:00		Piłsudskiego U. Wojewódzki 05
+1830	3	209964	04:52:00	04:52:00		Pl. Wolności 03
+1830	3	209964	04:52:00	04:52:00		Pl. Wolności 03
+1830	3	209964	04:53:00	04:53:00		Targowa 01
+1830	3	209964	04:53:00	04:53:00		Targowa 01
+1830	3	209964	04:54:00	04:54:00		Szopena Filharmonia 02 nż
+1830	3	209964	04:54:00	04:54:00		Szopena Filharmonia 02 nż
+1830	3	209964	04:55:00	04:55:00		Kilara 01 nż
+1830	3	209964	04:55:00	04:55:00		Kilara 01 nż
+1830	3	209964	04:56:00	04:56:00		Hetmańska podzamcze 02 nż
+1830	3	209964	04:56:00	04:56:00		Hetmańska podzamcze 02 nż
+1830	3	209964	04:57:00	04:57:00		Hetmańska przychodnia 04
+1830	3	209964	04:57:00	04:57:00		Hetmańska przychodnia 04
+1830	3	209964	04:58:00	04:58:00		Hetmańska ZS. Mech. 06
+1830	3	209964	04:58:00	04:58:00		Hetmańska ZS. Mech. 06
+1830	3	209964	05:00:00	05:00:00		Powst. Warszawy stadion 06
+1830	3	209964	05:00:00	05:00:00		Powst. Warszawy stadion 06
+1830	3	209964	05:02:00	05:02:00		Powst. Warszawy dom studenta 08
+1830	3	209964	05:02:00	05:02:00		Powst. Warszawy dom studenta 08
+1830	3	209964	05:03:00	05:03:00		Powst. Warszawy / Graniczna 10
+1830	3	209964	05:03:00	05:03:00		Powst. Warszawy / Graniczna 10
+1830	3	209964	05:04:00	05:04:00		Powst. Warszawy / Sikorskiego 12 nż
+1830	3	209964	05:04:00	05:04:00		Powst. Warszawy / Sikorskiego 12 nż
+1830	3	209964	05:05:00	05:05:00		Sikorskiego katedra 04 nż
+1830	3	209964	05:05:00	05:05:00		Sikorskiego katedra 04 nż
+1830	3	209964	05:06:00	05:06:00		Sikorskiego / Łukasiewicza 06 nż
+1830	3	209964	05:06:00	05:06:00		Sikorskiego / Łukasiewicza 06 nż
+1830	3	209964	05:07:00	05:07:00		Sikorskiego domki 08 nż
+1830	3	209964	05:07:00	05:07:00		Sikorskiego domki 08 nż
+1830	3	209964	05:08:00	05:08:00		Sikorskiego / Strażacka 10 nż
+1830	3	209964	05:08:00	05:08:00		Sikorskiego / Strażacka 10 nż
+1830	3	209964	05:09:00	05:09:00		Sikorskiego / Białogórska 12 nż
+1830	3	209964	05:09:00	05:09:00		Sikorskiego / Białogórska 12 nż
+1830	3	209964	05:10:00	05:10:00		Sikorskiego / Rodzinna 14 nż
+1830	3	209964	05:10:00	05:10:00		Sikorskiego / Rodzinna 14 nż
+1830	3	209964	05:11:00	05:11:00		Sikorskiego / Kard. K. Wojtyły 16 nż
+1830	3	209964	05:11:00	05:11:00		Sikorskiego / Kard. K. Wojtyły 16 nż
+1830	3	209964	05:12:00	05:12:00		Sikorskiego granica 18 nż
+1830	3	209964	05:12:00	05:12:00		Sikorskiego granica 18 nż
+1830	3	209964	05:13:00	05:13:00		Tyczyn Grunwaldzka POM 02 nż
+1830	3	209964	05:13:00	05:13:00		Tyczyn Grunwaldzka POM 02 nż
+1830	3	209964	05:14:00	05:14:00		Tyczyn Orkana skrzyżowanie 13 nż
+1830	3	209964	05:14:00	05:14:00		Tyczyn Orkana skrzyżowanie 13 nż
+1830	3	209964	05:15:00	05:15:00		Budziwojska / Herbowa 02 nż
+1830	3	209964	05:15:00	05:15:00		Budziwojska / Herbowa 02 nż
+1830	3	209964	05:16:00	05:16:00		Budziwojska / Legionistów 04 nż
+1830	3	209964	05:16:00	05:16:00		Budziwojska / Legionistów 04 nż
+1830	3	209964	05:17:00	05:17:00		Budziwojska / Tarnopolska 06 nż
+1830	3	209964	05:17:00	05:17:00		Budziwojska / Tarnopolska 06 nż
+1830	3	209964	05:18:00	05:18:00		Budziwojska / Karmelicka 08 nż
+1830	3	209964	05:18:00	05:18:00		Budziwojska / Karmelicka 08 nż
+1830	3	209964	05:19:00	05:19:00		Budziwojska / Jana Pawła II 10 nż
+1830	3	209964	05:19:00	05:19:00		Budziwojska / Jana Pawła II 10 nż
+1830	3	209964	05:20:00	05:20:00		Budziwojska szkoła 12
+1830	3	209964	05:20:00	05:20:00		Budziwojska szkoła 12
+1830	3	209964	05:21:00	05:21:00		Budziwojska / Podleśna 14 nż
+1830	3	209964	05:21:00	05:21:00		Budziwojska / Podleśna 14 nż
+1830	3	209964	05:23:00	05:23:00		Budziwojska / Kwiatowa 16 nż
+1830	3	209964	05:23:00	05:23:00		Budziwojska / Kwiatowa 16 nż
+1830	3	209964	05:24:00	05:24:00		Poselska / Budziwojska 03 nż
+1830	3	209964	05:24:00	05:24:00		Poselska / Budziwojska 03 nż
+1830	3	209964	05:25:00	05:25:00		Poselska / Podleśna 01 nż
+1830	3	209964	05:25:00	05:25:00		Poselska / Podleśna 01 nż
+1830	3	209964	05:27:00	05:27:00		Podleśna / Podlesie 02 nż
+1830	3	209964	05:27:00	05:27:00		Podleśna / Podlesie 02 nż
+1830	3	209964	05:28:00	05:28:00		Podleśna / Liliowa 04 nż
+1830	3	209964	05:28:00	05:28:00		Podleśna / Liliowa 04 nż
+1830	3	209964	05:29:00	05:29:00		Podleśna / Nadziei 06 nż
+1830	3	209964	05:29:00	05:29:00		Podleśna / Nadziei 06 nż
+1830	3	209964	05:31:00	05:31:00		Podleśna / Jarzębinowa 08 nż
+1830	3	209964	05:31:00	05:31:00		Podleśna / Jarzębinowa 08 nż
+1830	3	209964	05:32:00	05:32:00		Hermanowa Przylasek 02 nż
+1830	3	209964	05:32:00	05:32:00		Hermanowa Przylasek 02 nż
+1830	3	209964	05:33:00	05:33:00		Hermanowa Przylasek źródełko 04 nż
+1830	3	209964	05:33:00	05:33:00		Hermanowa Przylasek źródełko 04 nż
+1830	3	209964	05:34:00	05:34:00		Hermanowa Przylasek pętla 05
+1830	3	209964	05:34:00	05:34:00		Hermanowa Przylasek pętla 05
+
+1848	3	213974	05:52:00	05:52:00		Hermanowa Przylasek pętla 05
+1848	3	213974	05:52:00	05:52:00		Hermanowa Przylasek pętla 05
+1848	3	213974	05:53:00	05:53:00		Hermanowa Przylasek źródełko 03 nż
+1848	3	213974	05:53:00	05:53:00		Hermanowa Przylasek źródełko 03 nż
+1848	3	213974	05:54:00	05:54:00		Hermanowa Przylasek 01 nż
+1848	3	213974	05:54:00	05:54:00		Hermanowa Przylasek 01 nż
+1848	3	213974	05:55:00	05:55:00		Podleśna / Jarzębinowa 07 nż
+1848	3	213974	05:55:00	05:55:00		Podleśna / Jarzębinowa 07 nż
+1848	3	213974	05:57:00	05:57:00		Podleśna / Nadziei 05 nż
+1848	3	213974	05:57:00	05:57:00		Podleśna / Nadziei 05 nż
+1848	3	213974	05:58:00	05:58:00		Podleśna / Laskowa 03 nż
+1848	3	213974	05:58:00	05:58:00		Podleśna / Laskowa 03 nż
+1848	3	213974	05:59:00	05:59:00		Podleśna / Podlesie 01 nż
+1848	3	213974	05:59:00	05:59:00		Podleśna / Podlesie 01 nż
+1848	3	213974	06:01:00	06:01:00		Poselska / Podleśna 02 nż
+1848	3	213974	06:01:00	06:01:00		Poselska / Podleśna 02 nż
+1848	3	213974	06:02:00	06:02:00		Poselska / Budziwojska 04 nż
+1848	3	213974	06:02:00	06:02:00		Poselska / Budziwojska 04 nż
+1848	3	213974	06:03:00	06:03:00		Budziwojska / Kwiatowa 13 nż
+1848	3	213974	06:03:00	06:03:00		Budziwojska / Kwiatowa 13 nż
+1848	3	213974	06:04:00	06:04:00		Budziwojska / Podleśna 11 nż
+1848	3	213974	06:04:00	06:04:00		Budziwojska / Podleśna 11 nż
+1848	3	213974	06:05:00	06:05:00		Budziwojska cmentarz 09
+1848	3	213974	06:05:00	06:05:00		Budziwojska cmentarz 09
+1848	3	213974	06:06:00	06:06:00		Budziwojska / Jana Pawła II 07 nż
+1848	3	213974	06:06:00	06:06:00		Budziwojska / Jana Pawła II 07 nż
+1848	3	213974	06:07:00	06:07:00		Budziwojska / Karmelicka 05 nż
+1848	3	213974	06:07:00	06:07:00		Budziwojska / Karmelicka 05 nż
+1848	3	213974	06:08:00	06:08:00		Budziwojska / Tarnopolska 03 nż
+1848	3	213974	06:08:00	06:08:00		Budziwojska / Tarnopolska 03 nż
+1848	3	213974	06:09:00	06:09:00		Budziwojska / Legionistów 01 nż
+1848	3	213974	06:09:00	06:09:00		Budziwojska / Legionistów 01 nż
+1848	3	213974	06:10:00	06:10:00		Tyczyn Orkana stawy 14 nż
+1848	3	213974	06:10:00	06:10:00		Tyczyn Orkana stawy 14 nż
+1848	3	213974	06:11:00	06:11:00		Tyczyn Orkana skrzyżowanie 16
+1848	3	213974	06:11:00	06:11:00		Tyczyn Orkana skrzyżowanie 16
+1848	3	213974	06:12:00	06:12:00		Tyczyn Grunwaldzka POM 27 nż
+1848	3	213974	06:12:00	06:12:00		Tyczyn Grunwaldzka POM 27 nż
+1848	3	213974	06:13:00	06:13:00		Sikorskiego granica 15 nż
+1848	3	213974	06:13:00	06:13:00		Sikorskiego granica 15 nż
+1848	3	213974	06:14:00	06:14:00		Sikorskiego / Ruczajowa 13 nż
+1848	3	213974	06:14:00	06:14:00		Sikorskiego / Ruczajowa 13 nż
+1848	3	213974	06:15:00	06:15:00		Sikorskiego / Kard. K. Wojtyły 11 nż
+1848	3	213974	06:15:00	06:15:00		Sikorskiego / Kard. K. Wojtyły 11 nż
+1848	3	213974	06:16:00	06:16:00		Sikorskiego / Rodzinna 09 nż
+1848	3	213974	06:16:00	06:16:00		Sikorskiego / Rodzinna 09 nż
+1848	3	213974	06:17:00	06:17:00		Sikorskiego / Białogórska 07 nż
+1848	3	213974	06:17:00	06:17:00		Sikorskiego / Białogórska 07 nż
+1848	3	213974	06:19:00	06:19:00		Sikorskiego / Robotnicza 05 nż
+1848	3	213974	06:19:00	06:19:00		Sikorskiego / Robotnicza 05 nż
+1848	3	213974	06:20:00	06:20:00		Sikorskiego domki 03 nż
+1848	3	213974	06:20:00	06:20:00		Sikorskiego domki 03 nż
+1848	3	213974	06:22:00	06:22:00		Sikorskiego katedra 01 nż
+1848	3	213974	06:22:00	06:22:00		Sikorskiego katedra 01 nż
+1848	3	213974	06:25:00	06:25:00		Powst. Warszawy / Rejtana 13
+1848	3	213974	06:25:00	06:25:00		Powst. Warszawy / Rejtana 13
+1848	3	213974	06:26:00	06:26:00		Powst. Warszawy szkoła 11
+1848	3	213974	06:26:00	06:26:00		Powst. Warszawy szkoła 11
+1848	3	213974	06:27:00	06:27:00		Powst. Warszawy dom studenta 09
+1848	3	213974	06:27:00	06:27:00		Powst. Warszawy dom studenta 09
+1848	3	213974	06:29:00	06:29:00		Powst. Warszawy stadion 05 nż
+1848	3	213974	06:29:00	06:29:00		Powst. Warszawy stadion 05 nż
+1848	3	213974	06:30:00	06:30:00		Hetmańska stadion 07
+1848	3	213974	06:30:00	06:30:00		Hetmańska stadion 07
+1848	3	213974	06:31:00	06:31:00		Hetmańska ZS. Mech. 05
+1848	3	213974	06:31:00	06:31:00		Hetmańska ZS. Mech. 05
+1848	3	213974	06:32:00	06:32:00		Hetmańska przychodnia 03
+1848	3	213974	06:32:00	06:32:00		Hetmańska przychodnia 03
+1848	3	213974	06:33:00	06:33:00		Hetmańska podzamcze 01 nż
+1848	3	213974	06:33:00	06:33:00		Hetmańska podzamcze 01 nż
+1848	3	213974	06:34:00	06:34:00		Kilara 02 nż
+1848	3	213974	06:34:00	06:34:00		Kilara 02 nż
+1848	3	213974	06:36:00	06:36:00		Szopena Filharmonia 01 nż
+1848	3	213974	06:36:00	06:36:00		Szopena Filharmonia 01 nż
+1848	3	213974	06:38:00	06:38:00		Targowa 02
+1848	3	213974	06:38:00	06:38:00		Targowa 02
+1848	3	213974	06:40:00	06:40:00		Pl. Wolności 04
+1848	3	213974	06:40:00	06:40:00		Pl. Wolności 04
+1848	3	213974	06:41:00	06:41:00		Piłsudskiego U. Wojewódzki 06
+1848	3	213974	06:41:00	06:41:00		Piłsudskiego U. Wojewódzki 06
+1848	3	213974	06:44:00	06:44:00		Marszałkowska 02
+1848	3	213974	06:44:00	06:44:00		Marszałkowska 02
+1848	3	213974	06:45:00	06:45:00		Lubelska szpital 02
+1848	3	213974	06:45:00	06:45:00		Lubelska szpital 02
+1848	3	213974	06:47:00	06:47:00		Lubelska kościół 06 nż
+1848	3	213974	06:47:00	06:47:00		Lubelska kościół 06 nż
+1848	3	213974	06:49:00	06:49:00		Trembeckiego ZTM pętla 01
+1848	3	213974	06:49:00	06:49:00		Trembeckiego ZTM pętla 01
+
+1830	3	211092	07:11:00	07:11:00		Trembeckiego ZTM pętla 01
+1830	3	211092	07:11:00	07:11:00		Trembeckiego ZTM pętla 01
+1830	3	211092	07:14:00	07:14:00		Lubelska kościół 05 nż
+1830	3	211092	07:14:00	07:14:00		Lubelska kościół 05 nż
+1830	3	211092	07:15:00	07:15:00		Lubelska szpital 01
+1830	3	211092	07:15:00	07:15:00		Lubelska szpital 01
+1830	3	211092	07:17:00	07:17:00		Marszałkowska 01
+1830	3	211092	07:17:00	07:17:00		Marszałkowska 01
+1830	3	211092	07:21:00	07:21:00		Piłsudskiego U. Wojewódzki 05
+1830	3	211092	07:21:00	07:21:00		Piłsudskiego U. Wojewódzki 05
+1830	3	211092	07:22:00	07:22:00		Pl. Wolności 03
+1830	3	211092	07:22:00	07:22:00		Pl. Wolności 03
+1830	3	211092	07:23:00	07:23:00		Targowa 01
+1830	3	211092	07:23:00	07:23:00		Targowa 01
+1830	3	211092	07:26:00	07:26:00		Szopena Filharmonia 02 nż
+1830	3	211092	07:26:00	07:26:00		Szopena Filharmonia 02 nż
+1830	3	211092	07:27:00	07:27:00		Kilara 01 nż
+1830	3	211092	07:27:00	07:27:00		Kilara 01 nż
+1830	3	211092	07:29:00	07:29:00		Hetmańska podzamcze 02 nż
+1830	3	211092	07:29:00	07:29:00		Hetmańska podzamcze 02 nż
+1830	3	211092	07:30:00	07:30:00		Hetmańska przychodnia 04
+1830	3	211092	07:30:00	07:30:00		Hetmańska przychodnia 04
+1830	3	211092	07:31:00	07:31:00		Hetmańska ZS. Mech. 06
+1830	3	211092	07:31:00	07:31:00		Hetmańska ZS. Mech. 06
+1830	3	211092	07:34:00	07:34:00		Powst. Warszawy stadion 06
+1830	3	211092	07:34:00	07:34:00		Powst. Warszawy stadion 06
+1830	3	211092	07:36:00	07:36:00		Powst. Warszawy dom studenta 08
+1830	3	211092	07:36:00	07:36:00		Powst. Warszawy dom studenta 08
+1830	3	211092	07:37:00	07:37:00		Powst. Warszawy / Graniczna 10
+1830	3	211092	07:37:00	07:37:00		Powst. Warszawy / Graniczna 10
+1830	3	211092	07:38:00	07:38:00		Powst. Warszawy / Sikorskiego 12 nż
+1830	3	211092	07:38:00	07:38:00		Powst. Warszawy / Sikorskiego 12 nż
+1830	3	211092	07:39:00	07:39:00		Sikorskiego katedra 04 nż
+1830	3	211092	07:39:00	07:39:00		Sikorskiego katedra 04 nż
+1830	3	211092	07:40:00	07:40:00		Sikorskiego / Łukasiewicza 06 nż
+1830	3	211092	07:40:00	07:40:00		Sikorskiego / Łukasiewicza 06 nż
+1830	3	211092	07:41:00	07:41:00		Sikorskiego domki 08 nż
+1830	3	211092	07:41:00	07:41:00		Sikorskiego domki 08 nż
+1830	3	211092	07:42:00	07:42:00		Sikorskiego / Strażacka 10 nż
+1830	3	211092	07:42:00	07:42:00		Sikorskiego / Strażacka 10 nż
+1830	3	211092	07:43:00	07:43:00		Sikorskiego / Białogórska 12 nż
+1830	3	211092	07:43:00	07:43:00		Sikorskiego / Białogórska 12 nż
+1830	3	211092	07:44:00	07:44:00		Sikorskiego / Rodzinna 14 nż
+1830	3	211092	07:44:00	07:44:00		Sikorskiego / Rodzinna 14 nż
+1830	3	211092	07:46:00	07:46:00		Sikorskiego / Kard. K. Wojtyły 16 nż
+1830	3	211092	07:46:00	07:46:00		Sikorskiego / Kard. K. Wojtyły 16 nż
+1830	3	211092	07:47:00	07:47:00		Sikorskiego granica 18 nż
+1830	3	211092	07:47:00	07:47:00		Sikorskiego granica 18 nż
+1830	3	211092	07:48:00	07:48:00		Tyczyn Grunwaldzka POM 02 nż
+1830	3	211092	07:48:00	07:48:00		Tyczyn Grunwaldzka POM 02 nż
+1830	3	211092	07:49:00	07:49:00		Tyczyn Orkana skrzyżowanie 13 nż
+1830	3	211092	07:49:00	07:49:00		Tyczyn Orkana skrzyżowanie 13 nż
+1830	3	211092	07:50:00	07:50:00		Budziwojska / Herbowa 02 nż
+1830	3	211092	07:50:00	07:50:00		Budziwojska / Herbowa 02 nż
+1830	3	211092	07:51:00	07:51:00		Budziwojska / Legionistów 04 nż
+1830	3	211092	07:51:00	07:51:00		Budziwojska / Legionistów 04 nż
+1830	3	211092	07:52:00	07:52:00		Budziwojska / Tarnopolska 06 nż
+1830	3	211092	07:52:00	07:52:00		Budziwojska / Tarnopolska 06 nż
+1830	3	211092	07:53:00	07:53:00		Budziwojska / Karmelicka 08 nż
+1830	3	211092	07:53:00	07:53:00		Budziwojska / Karmelicka 08 nż
+1830	3	211092	07:54:00	07:54:00		Budziwojska / Jana Pawła II 10 nż
+1830	3	211092	07:54:00	07:54:00		Budziwojska / Jana Pawła II 10 nż
+1830	3	211092	07:55:00	07:55:00		Budziwojska szkoła 12
+1830	3	211092	07:55:00	07:55:00		Budziwojska szkoła 12
+1830	3	211092	07:56:00	07:56:00		Budziwojska / Podleśna 14 nż
+1830	3	211092	07:56:00	07:56:00		Budziwojska / Podleśna 14 nż
+1830	3	211092	07:58:00	07:58:00		Budziwojska / Kwiatowa 16 nż
+1830	3	211092	07:58:00	07:58:00		Budziwojska / Kwiatowa 16 nż
+1830	3	211092	07:59:00	07:59:00		Poselska / Budziwojska 03 nż
+1830	3	211092	07:59:00	07:59:00		Poselska / Budziwojska 03 nż
+1830	3	211092	08:00:00	08:00:00		Poselska / Podleśna 01 nż
+1830	3	211092	08:00:00	08:00:00		Poselska / Podleśna 01 nż
+1830	3	211092	08:02:00	08:02:00		Podleśna / Podlesie 02 nż
+1830	3	211092	08:02:00	08:02:00		Podleśna / Podlesie 02 nż
+1830	3	211092	08:03:00	08:03:00		Podleśna / Liliowa 04 nż
+1830	3	211092	08:03:00	08:03:00		Podleśna / Liliowa 04 nż
+1830	3	211092	08:04:00	08:04:00		Podleśna / Nadziei 06 nż
+1830	3	211092	08:04:00	08:04:00		Podleśna / Nadziei 06 nż
+1830	3	211092	08:06:00	08:06:00		Podleśna / Jarzębinowa 08 nż
+1830	3	211092	08:06:00	08:06:00		Podleśna / Jarzębinowa 08 nż
+1830	3	211092	08:07:00	08:07:00		Hermanowa Przylasek 02 nż
+1830	3	211092	08:07:00	08:07:00		Hermanowa Przylasek 02 nż
+1830	3	211092	08:08:00	08:08:00		Hermanowa Przylasek źródełko 04 nż
+1830	3	211092	08:08:00	08:08:00		Hermanowa Przylasek źródełko 04 nż
+1830	3	211092	08:09:00	08:09:00		Hermanowa Przylasek pętla 05
+1830	3	211092	08:09:00	08:09:00		Hermanowa Przylasek pętla 05
+
+1848	3	211784	08:22:00	08:22:00		Hermanowa Przylasek pętla 05
+1848	3	211784	08:22:00	08:22:00		Hermanowa Przylasek pętla 05
+1848	3	211784	08:23:00	08:23:00		Hermanowa Przylasek źródełko 03 nż
+1848	3	211784	08:23:00	08:23:00		Hermanowa Przylasek źródełko 03 nż
+1848	3	211784	08:24:00	08:24:00		Hermanowa Przylasek 01 nż
+1848	3	211784	08:24:00	08:24:00		Hermanowa Przylasek 01 nż
+1848	3	211784	08:25:00	08:25:00		Podleśna / Jarzębinowa 07 nż
+1848	3	211784	08:25:00	08:25:00		Podleśna / Jarzębinowa 07 nż
+1848	3	211784	08:27:00	08:27:00		Podleśna / Nadziei 05 nż
+1848	3	211784	08:27:00	08:27:00		Podleśna / Nadziei 05 nż
+1848	3	211784	08:28:00	08:28:00		Podleśna / Laskowa 03 nż
+1848	3	211784	08:28:00	08:28:00		Podleśna / Laskowa 03 nż
+1848	3	211784	08:29:00	08:29:00		Podleśna / Podlesie 01 nż
+1848	3	211784	08:29:00	08:29:00		Podleśna / Podlesie 01 nż
+1848	3	211784	08:31:00	08:31:00		Poselska / Podleśna 02 nż
+1848	3	211784	08:31:00	08:31:00		Poselska / Podleśna 02 nż
+1848	3	211784	08:32:00	08:32:00		Poselska / Budziwojska 04 nż
+1848	3	211784	08:32:00	08:32:00		Poselska / Budziwojska 04 nż
+1848	3	211784	08:33:00	08:33:00		Budziwojska / Kwiatowa 13 nż
+1848	3	211784	08:33:00	08:33:00		Budziwojska / Kwiatowa 13 nż
+1848	3	211784	08:34:00	08:34:00		Budziwojska / Podleśna 11 nż
+1848	3	211784	08:34:00	08:34:00		Budziwojska / Podleśna 11 nż
+1848	3	211784	08:35:00	08:35:00		Budziwojska cmentarz 09
+1848	3	211784	08:35:00	08:35:00		Budziwojska cmentarz 09
+1848	3	211784	08:36:00	08:36:00		Budziwojska / Jana Pawła II 07 nż
+1848	3	211784	08:36:00	08:36:00		Budziwojska / Jana Pawła II 07 nż
+1848	3	211784	08:37:00	08:37:00		Budziwojska / Karmelicka 05 nż
+1848	3	211784	08:37:00	08:37:00		Budziwojska / Karmelicka 05 nż
+1848	3	211784	08:38:00	08:38:00		Budziwojska / Tarnopolska 03 nż
+1848	3	211784	08:38:00	08:38:00		Budziwojska / Tarnopolska 03 nż
+1848	3	211784	08:39:00	08:39:00		Budziwojska / Legionistów 01 nż
+1848	3	211784	08:39:00	08:39:00		Budziwojska / Legionistów 01 nż
+1848	3	211784	08:40:00	08:40:00		Tyczyn Orkana stawy 14 nż
+1848	3	211784	08:40:00	08:40:00		Tyczyn Orkana stawy 14 nż
+1848	3	211784	08:41:00	08:41:00		Tyczyn Orkana skrzyżowanie 16
+1848	3	211784	08:41:00	08:41:00		Tyczyn Orkana skrzyżowanie 16
+1848	3	211784	08:42:00	08:42:00		Tyczyn Grunwaldzka POM 27 nż
+1848	3	211784	08:42:00	08:42:00		Tyczyn Grunwaldzka POM 27 nż
+1848	3	211784	08:43:00	08:43:00		Sikorskiego granica 15 nż
+1848	3	211784	08:43:00	08:43:00		Sikorskiego granica 15 nż
+1848	3	211784	08:44:00	08:44:00		Sikorskiego / Ruczajowa 13 nż
+1848	3	211784	08:44:00	08:44:00		Sikorskiego / Ruczajowa 13 nż
+1848	3	211784	08:45:00	08:45:00		Sikorskiego / Kard. K. Wojtyły 11 nż
+1848	3	211784	08:45:00	08:45:00		Sikorskiego / Kard. K. Wojtyły 11 nż
+1848	3	211784	08:46:00	08:46:00		Sikorskiego / Rodzinna 09 nż
+1848	3	211784	08:46:00	08:46:00		Sikorskiego / Rodzinna 09 nż
+1848	3	211784	08:47:00	08:47:00		Sikorskiego / Białogórska 07 nż
+1848	3	211784	08:47:00	08:47:00		Sikorskiego / Białogórska 07 nż
+1848	3	211784	08:49:00	08:49:00		Sikorskiego / Robotnicza 05 nż
+1848	3	211784	08:49:00	08:49:00		Sikorskiego / Robotnicza 05 nż
+1848	3	211784	08:50:00	08:50:00		Sikorskiego domki 03 nż
+1848	3	211784	08:50:00	08:50:00		Sikorskiego domki 03 nż
+1848	3	211784	08:52:00	08:52:00		Sikorskiego katedra 01 nż
+1848	3	211784	08:52:00	08:52:00		Sikorskiego katedra 01 nż
+1848	3	211784	08:55:00	08:55:00		Powst. Warszawy / Rejtana 13
+1848	3	211784	08:55:00	08:55:00		Powst. Warszawy / Rejtana 13
+1848	3	211784	08:56:00	08:56:00		Powst. Warszawy szkoła 11
+1848	3	211784	08:56:00	08:56:00		Powst. Warszawy szkoła 11
+1848	3	211784	08:57:00	08:57:00		Powst. Warszawy dom studenta 09
+1848	3	211784	08:57:00	08:57:00		Powst. Warszawy dom studenta 09
+1848	3	211784	08:59:00	08:59:00		Powst. Warszawy stadion 05 nż
+1848	3	211784	08:59:00	08:59:00		Powst. Warszawy stadion 05 nż
+1848	3	211784	09:00:00	09:00:00		Hetmańska stadion 07
+1848	3	211784	09:00:00	09:00:00		Hetmańska stadion 07
+1848	3	211784	09:01:00	09:01:00		Hetmańska ZS. Mech. 05
+1848	3	211784	09:01:00	09:01:00		Hetmańska ZS. Mech. 05
+1848	3	211784	09:02:00	09:02:00		Hetmańska przychodnia 03
+1848	3	211784	09:02:00	09:02:00		Hetmańska przychodnia 03
+1848	3	211784	09:03:00	09:03:00		Hetmańska podzamcze 01 nż
+1848	3	211784	09:03:00	09:03:00		Hetmańska podzamcze 01 nż
+1848	3	211784	09:04:00	09:04:00		Kilara 02 nż
+1848	3	211784	09:04:00	09:04:00		Kilara 02 nż
+1848	3	211784	09:06:00	09:06:00		Szopena Filharmonia 01 nż
+1848	3	211784	09:06:00	09:06:00		Szopena Filharmonia 01 nż
+1848	3	211784	09:08:00	09:08:00		Targowa 02
+1848	3	211784	09:08:00	09:08:00		Targowa 02
+1848	3	211784	09:11:00	09:11:00		Pl. Wolności 04
+1848	3	211784	09:11:00	09:11:00		Pl. Wolności 04
+1848	3	211784	09:12:00	09:12:00		Piłsudskiego U. Wojewódzki 06
+1848	3	211784	09:12:00	09:12:00		Piłsudskiego U. Wojewódzki 06
+1848	3	211784	09:15:00	09:15:00		Marszałkowska 02
+1848	3	211784	09:15:00	09:15:00		Marszałkowska 02
+1848	3	211784	09:16:00	09:16:00		Lubelska szpital 02
+1848	3	211784	09:16:00	09:16:00		Lubelska szpital 02
+1848	3	211784	09:18:00	09:18:00		Lubelska kościół 06 nż
+1848	3	211784	09:18:00	09:18:00		Lubelska kościół 06 nż
+1848	3	211784	09:20:00	09:20:00		Trembeckiego ZTM pętla 01
+1848	3	211784	09:20:00	09:20:00		Trembeckiego ZTM pętla 01
+
+1476	3	208667	10:10:00	10:10:00		Bardowskiego 01
+1476	3	208667	10:10:00	10:10:00		Bardowskiego 01
+1476	3	208667	10:12:00	10:12:00		Pl. Wolności 04
+1476	3	208667	10:12:00	10:12:00		Pl. Wolności 04
+1476	3	208667	10:15:00	10:15:00		Piłsudskiego U. Marszałkowski 08
+1476	3	208667	10:15:00	10:15:00		Piłsudskiego U. Marszałkowski 08
+1476	3	208667	10:17:00	10:17:00		Krakowska jedn. wojskowa 02
+1476	3	208667	10:17:00	10:17:00		Krakowska jedn. wojskowa 02
+1476	3	208667	10:18:00	10:18:00		Krakowska szpital 04
+1476	3	208667	10:18:00	10:18:00		Krakowska szpital 04
+1476	3	208667	10:19:00	10:19:00		Krakowska galeria 06
+1476	3	208667	10:19:00	10:19:00		Krakowska galeria 06
+1476	3	208667	10:20:00	10:20:00		Krakowska / Wyzwolenia 08 nż
+1476	3	208667	10:20:00	10:20:00		Krakowska / Wyzwolenia 08 nż
+1476	3	208667	10:21:00	10:21:00		Krakowska cmentarz 10 nż
+1476	3	208667	10:21:00	10:21:00		Krakowska cmentarz 10 nż
+1476	3	208667	10:23:00	10:23:00		Krakowska / Ceramiczna 12
+1476	3	208667	10:23:00	10:23:00		Krakowska / Ceramiczna 12
+1476	3	208667	10:24:00	10:24:00		Krakowska / Dworzysko 14 nż
+1476	3	208667	10:24:00	10:24:00		Krakowska / Dworzysko 14 nż
+1476	3	208667	10:26:00	10:26:00		Krakowska granica 16 nż
+1476	3	208667	10:26:00	10:26:00		Krakowska granica 16 nż
+1476	3	208667	10:27:00	10:27:00		Świlcza Nowy Dwór 71 nż
+1476	3	208667	10:27:00	10:27:00		Świlcza Nowy Dwór 71 nż
+1476	3	208667	10:29:00	10:29:00		Świlcza osiedle 73 nż
+1476	3	208667	10:29:00	10:29:00		Świlcza osiedle 73 nż
+1476	3	208667	10:30:00	10:30:00		Świlcza 75 nż
+1476	3	208667	10:30:00	10:30:00		Świlcza 75 nż
+1476	3	208667	10:33:00	10:33:00		Trzciana Woliczka 77 nż
+1476	3	208667	10:33:00	10:33:00		Trzciana Woliczka 77 nż
+1476	3	208667	10:36:00	10:36:00		Trzciana Gminny Ośrodek Kultury 01 nż
+1476	3	208667	10:36:00	10:36:00		Trzciana Gminny Ośrodek Kultury 01 nż
+1476	3	208667	10:37:00	10:37:00		Trzciana sklep 03 nż
+1476	3	208667	10:37:00	10:37:00		Trzciana sklep 03 nż
+1476	3	208667	10:39:00	10:39:00		Trzciana pętla 05
+1476	3	208667	10:39:00	10:39:00		Trzciana pętla 05
+
+1480	3	214335	10:57:00	10:57:00		Trzciana pętla 05
+1480	3	214335	10:57:00	10:57:00		Trzciana pętla 05
+1480	3	214335	10:58:00	10:58:00		Trzciana sklep 02 nż
+1480	3	214335	10:58:00	10:58:00		Trzciana sklep 02 nż
+1480	3	214335	11:00:00	11:00:00		Trzciana Gminny Ośrodek Kultury 02 nż
+1480	3	214335	11:00:00	11:00:00		Trzciana Gminny Ośrodek Kultury 02 nż
+1480	3	214335	11:02:00	11:02:00		Trzciana Woliczka 56 nż
+1480	3	214335	11:02:00	11:02:00		Trzciana Woliczka 56 nż
+1480	3	214335	11:05:00	11:05:00		Świlcza 58
+1480	3	214335	11:05:00	11:05:00		Świlcza 58
+1480	3	214335	11:07:00	11:07:00		Świlcza osiedle 60 nż
+1480	3	214335	11:07:00	11:07:00		Świlcza osiedle 60 nż
+1480	3	214335	11:09:00	11:09:00		Świlcza Nowy Dwór 62 nż
+1480	3	214335	11:09:00	11:09:00		Świlcza Nowy Dwór 62 nż
+1480	3	214335	11:10:00	11:10:00		Krakowska granica 15 nż
+1480	3	214335	11:10:00	11:10:00		Krakowska granica 15 nż
+1480	3	214335	11:11:00	11:11:00		Krakowska / Dworzysko 13 nż
+1480	3	214335	11:11:00	11:11:00		Krakowska / Dworzysko 13 nż
+1480	3	214335	11:13:00	11:13:00		Krakowska / Ustrzycka 11
+1480	3	214335	11:13:00	11:13:00		Krakowska / Ustrzycka 11
+1480	3	214335	11:14:00	11:14:00		Krakowska cmentarz 09 nż
+1480	3	214335	11:14:00	11:14:00		Krakowska cmentarz 09 nż
+1480	3	214335	11:16:00	11:16:00		Krakowska / Mielecka 07 nż
+1480	3	214335	11:16:00	11:16:00		Krakowska / Mielecka 07 nż
+1480	3	214335	11:17:00	11:17:00		Krakowska galeria 05
+1480	3	214335	11:17:00	11:17:00		Krakowska galeria 05
+1480	3	214335	11:18:00	11:18:00		Krakowska szpital 03
+1480	3	214335	11:18:00	11:18:00		Krakowska szpital 03
+1480	3	214335	11:20:00	11:20:00		Krakowska jedn. wojskowa 01
+1480	3	214335	11:20:00	11:20:00		Krakowska jedn. wojskowa 01
+1480	3	214335	11:23:00	11:23:00		Piłsudskiego U. Wojewódzki 05
+1480	3	214335	11:23:00	11:23:00		Piłsudskiego U. Wojewódzki 05
+1480	3	214335	11:26:00	11:26:00		Bardowskiego 04
+1480	3	214335	11:26:00	11:26:00		Bardowskiego 04
+
+1478	3	212136	11:35:00	11:35:00		Bardowskiego 01
+1478	3	212136	11:35:00	11:35:00		Bardowskiego 01
+1478	3	212136	11:37:00	11:37:00		Pl. Wolności 04
+1478	3	212136	11:37:00	11:37:00		Pl. Wolności 04
+1478	3	212136	11:40:00	11:40:00		Piłsudskiego U. Marszałkowski 08
+1478	3	212136	11:40:00	11:40:00		Piłsudskiego U. Marszałkowski 08
+1478	3	212136	11:42:00	11:42:00		Krakowska jedn. wojskowa 02
+1478	3	212136	11:42:00	11:42:00		Krakowska jedn. wojskowa 02
+1478	3	212136	11:43:00	11:43:00		Krakowska szpital 04
+1478	3	212136	11:43:00	11:43:00		Krakowska szpital 04
+1478	3	212136	11:44:00	11:44:00		Krakowska galeria 06
+1478	3	212136	11:44:00	11:44:00		Krakowska galeria 06
+1478	3	212136	11:45:00	11:45:00		Krakowska / Wyzwolenia 08 nż
+1478	3	212136	11:45:00	11:45:00		Krakowska / Wyzwolenia 08 nż
+1478	3	212136	11:47:00	11:47:00		Krakowska cmentarz 10 nż
+1478	3	212136	11:47:00	11:47:00		Krakowska cmentarz 10 nż
+1478	3	212136	11:49:00	11:49:00		Krakowska / Ceramiczna 12
+1478	3	212136	11:49:00	11:49:00		Krakowska / Ceramiczna 12
+1478	3	212136	11:50:00	11:50:00		Krakowska / Dworzysko 14 nż
+1478	3	212136	11:50:00	11:50:00		Krakowska / Dworzysko 14 nż
+1478	3	212136	11:52:00	11:52:00		Krakowska granica 16 nż
+1478	3	212136	11:52:00	11:52:00		Krakowska granica 16 nż
+1478	3	212136	11:53:00	11:53:00		Świlcza Nowy Dwór 71 nż
+1478	3	212136	11:53:00	11:53:00		Świlcza Nowy Dwór 71 nż
+1478	3	212136	11:55:00	11:55:00		Świlcza osiedle 73 nż
+1478	3	212136	11:55:00	11:55:00		Świlcza osiedle 73 nż
+1478	3	212136	11:56:00	11:56:00		Świlcza 58
+1478	3	212136	11:56:00	11:56:00		Świlcza 58
+
+1471	3	216170	12:20:00	12:20:00		Świlcza 58
+1471	3	216170	12:20:00	12:20:00		Świlcza 58
+1471	3	216170	12:22:00	12:22:00		Świlcza osiedle 60 nż
+1471	3	216170	12:22:00	12:22:00		Świlcza osiedle 60 nż
+1471	3	216170	12:24:00	12:24:00		Świlcza Nowy Dwór 62 nż
+1471	3	216170	12:24:00	12:24:00		Świlcza Nowy Dwór 62 nż
+1471	3	216170	12:25:00	12:25:00		Krakowska granica 15 nż
+1471	3	216170	12:25:00	12:25:00		Krakowska granica 15 nż
+1471	3	216170	12:26:00	12:26:00		Krakowska / Dworzysko 13 nż
+1471	3	216170	12:26:00	12:26:00		Krakowska / Dworzysko 13 nż
+1471	3	216170	12:28:00	12:28:00		Krakowska / Ustrzycka 11
+1471	3	216170	12:28:00	12:28:00		Krakowska / Ustrzycka 11
+1471	3	216170	12:29:00	12:29:00		Krakowska cmentarz 09 nż
+1471	3	216170	12:29:00	12:29:00		Krakowska cmentarz 09 nż
+1471	3	216170	12:31:00	12:31:00		Krakowska / Mielecka 07 nż
+1471	3	216170	12:31:00	12:31:00		Krakowska / Mielecka 07 nż
+1471	3	216170	12:32:00	12:32:00		Krakowska galeria 05
+1471	3	216170	12:32:00	12:32:00		Krakowska galeria 05
+1471	3	216170	12:33:00	12:33:00		Krakowska szpital 03
+1471	3	216170	12:33:00	12:33:00		Krakowska szpital 03
+1471	3	216170	12:35:00	12:35:00		Krakowska jedn. wojskowa 01
+1471	3	216170	12:35:00	12:35:00		Krakowska jedn. wojskowa 01
+1471	3	216170	12:38:00	12:38:00		Piłsudskiego U. Wojewódzki 05
+1471	3	216170	12:38:00	12:38:00		Piłsudskiego U. Wojewódzki 05
+1471	3	216170	12:41:00	12:41:00		Bardowskiego 04
+1471	3	216170	12:41:00	12:41:00		Bardowskiego 04
+
+1476	3	214747	12:50:00	12:50:00		Bardowskiego 01
+1476	3	214747	12:50:00	12:50:00		Bardowskiego 01
+1476	3	214747	12:52:00	12:52:00		Pl. Wolności 04
+1476	3	214747	12:52:00	12:52:00		Pl. Wolności 04
+1476	3	214747	12:55:00	12:55:00		Piłsudskiego U. Marszałkowski 08
+1476	3	214747	12:55:00	12:55:00		Piłsudskiego U. Marszałkowski 08
+1476	3	214747	12:57:00	12:57:00		Krakowska jedn. wojskowa 02
+1476	3	214747	12:57:00	12:57:00		Krakowska jedn. wojskowa 02
+1476	3	214747	12:58:00	12:58:00		Krakowska szpital 04
+1476	3	214747	12:58:00	12:58:00		Krakowska szpital 04
+1476	3	214747	12:59:00	12:59:00		Krakowska galeria 06
+1476	3	214747	12:59:00	12:59:00		Krakowska galeria 06
+1476	3	214747	13:00:00	13:00:00		Krakowska / Wyzwolenia 08 nż
+1476	3	214747	13:00:00	13:00:00		Krakowska / Wyzwolenia 08 nż
+1476	3	214747	13:02:00	13:02:00		Krakowska cmentarz 10 nż
+1476	3	214747	13:02:00	13:02:00		Krakowska cmentarz 10 nż
+1476	3	214747	13:04:00	13:04:00		Krakowska / Ceramiczna 12
+1476	3	214747	13:04:00	13:04:00		Krakowska / Ceramiczna 12
+1476	3	214747	13:05:00	13:05:00		Krakowska / Dworzysko 14 nż
+1476	3	214747	13:05:00	13:05:00		Krakowska / Dworzysko 14 nż
+1476	3	214747	13:07:00	13:07:00		Krakowska granica 16 nż
+1476	3	214747	13:07:00	13:07:00		Krakowska granica 16 nż
+1476	3	214747	13:08:00	13:08:00		Świlcza Nowy Dwór 71 nż
+1476	3	214747	13:08:00	13:08:00		Świlcza Nowy Dwór 71 nż
+1476	3	214747	13:10:00	13:10:00		Świlcza osiedle 73 nż
+1476	3	214747	13:10:00	13:10:00		Świlcza osiedle 73 nż
+1476	3	214747	13:11:00	13:11:00		Świlcza 75 nż
+1476	3	214747	13:11:00	13:11:00		Świlcza 75 nż
+1476	3	214747	13:14:00	13:14:00		Trzciana Woliczka 77 nż
+1476	3	214747	13:14:00	13:14:00		Trzciana Woliczka 77 nż
+1476	3	214747	13:17:00	13:17:00		Trzciana Gminny Ośrodek Kultury 01 nż
+1476	3	214747	13:17:00	13:17:00		Trzciana Gminny Ośrodek Kultury 01 nż
+1476	3	214747	13:18:00	13:18:00		Trzciana sklep 03 nż
+1476	3	214747	13:18:00	13:18:00		Trzciana sklep 03 nż
+1476	3	214747	13:20:00	13:20:00		Trzciana pętla 05
+1476	3	214747	13:20:00	13:20:00		Trzciana pętla 05
+
+1480	3	212333	13:42:00	13:42:00		Trzciana pętla 05
+1480	3	212333	13:42:00	13:42:00		Trzciana pętla 05
+1480	3	212333	13:43:00	13:43:00		Trzciana sklep 02 nż
+1480	3	212333	13:43:00	13:43:00		Trzciana sklep 02 nż
+1480	3	212333	13:45:00	13:45:00		Trzciana Gminny Ośrodek Kultury 02 nż
+1480	3	212333	13:45:00	13:45:00		Trzciana Gminny Ośrodek Kultury 02 nż
+1480	3	212333	13:47:00	13:47:00		Trzciana Woliczka 56 nż
+1480	3	212333	13:47:00	13:47:00		Trzciana Woliczka 56 nż
+1480	3	212333	13:50:00	13:50:00		Świlcza 58
+1480	3	212333	13:50:00	13:50:00		Świlcza 58
+1480	3	212333	13:52:00	13:52:00		Świlcza osiedle 60 nż
+1480	3	212333	13:52:00	13:52:00		Świlcza osiedle 60 nż
+1480	3	212333	13:54:00	13:54:00		Świlcza Nowy Dwór 62 nż
+1480	3	212333	13:54:00	13:54:00		Świlcza Nowy Dwór 62 nż
+1480	3	212333	13:55:00	13:55:00		Krakowska granica 15 nż
+1480	3	212333	13:55:00	13:55:00		Krakowska granica 15 nż
+1480	3	212333	13:56:00	13:56:00		Krakowska / Dworzysko 13 nż
+1480	3	212333	13:56:00	13:56:00		Krakowska / Dworzysko 13 nż
+1480	3	212333	13:58:00	13:58:00		Krakowska / Ustrzycka 11
+1480	3	212333	13:58:00	13:58:00		Krakowska / Ustrzycka 11
+1480	3	212333	13:59:00	13:59:00		Krakowska cmentarz 09 nż
+1480	3	212333	13:59:00	13:59:00		Krakowska cmentarz 09 nż
+1480	3	212333	14:01:00	14:01:00		Krakowska / Mielecka 07 nż
+1480	3	212333	14:01:00	14:01:00		Krakowska / Mielecka 07 nż
+1480	3	212333	14:02:00	14:02:00		Krakowska galeria 05
+1480	3	212333	14:02:00	14:02:00		Krakowska galeria 05
+1480	3	212333	14:03:00	14:03:00		Krakowska szpital 03
+1480	3	212333	14:03:00	14:03:00		Krakowska szpital 03
+1480	3	212333	14:05:00	14:05:00		Krakowska jedn. wojskowa 01
+1480	3	212333	14:05:00	14:05:00		Krakowska jedn. wojskowa 01
+1480	3	212333	14:08:00	14:08:00		Piłsudskiego U. Wojewódzki 05
+1480	3	212333	14:08:00	14:08:00		Piłsudskiego U. Wojewódzki 05
+1480	3	212333	14:11:00	14:11:00		Bardowskiego 04
+1480	3	212333	14:11:00	14:11:00		Bardowskiego 04
+
+1492	3	211021	15:10:00	15:10:00		Bardowskiego 01
+1492	3	211021	15:10:00	15:10:00		Bardowskiego 01
+1492	3	211021	15:13:00	15:13:00		Pl. Wolności 04
+1492	3	211021	15:13:00	15:13:00		Pl. Wolności 04
+1492	3	211021	15:19:00	15:19:00		Piłsudskiego U. Marszałkowski 08
+1492	3	211021	15:19:00	15:19:00		Piłsudskiego U. Marszałkowski 08
+1492	3	211021	15:21:00	15:21:00		Krakowska jedn. wojskowa 02
+1492	3	211021	15:21:00	15:21:00		Krakowska jedn. wojskowa 02
+1492	3	211021	15:23:00	15:23:00		Krakowska szpital 04
+1492	3	211021	15:23:00	15:23:00		Krakowska szpital 04
+1492	3	211021	15:24:00	15:24:00		Krakowska galeria 06
+1492	3	211021	15:24:00	15:24:00		Krakowska galeria 06
+1492	3	211021	15:25:00	15:25:00		Krakowska / Wyzwolenia 08 nż
+1492	3	211021	15:25:00	15:25:00		Krakowska / Wyzwolenia 08 nż
+1492	3	211021	15:27:00	15:27:00		Krakowska cmentarz 10 nż
+1492	3	211021	15:27:00	15:27:00		Krakowska cmentarz 10 nż
+1492	3	211021	15:29:00	15:29:00		Krakowska / Ceramiczna 12
+1492	3	211021	15:29:00	15:29:00		Krakowska / Ceramiczna 12
+1492	3	211021	15:30:00	15:30:00		Krakowska / Dworzysko 14 nż
+1492	3	211021	15:30:00	15:30:00		Krakowska / Dworzysko 14 nż
+1492	3	211021	15:32:00	15:32:00		Krakowska granica 16 nż
+1492	3	211021	15:32:00	15:32:00		Krakowska granica 16 nż
+1492	3	211021	15:33:00	15:33:00		Świlcza Nowy Dwór 71 nż
+1492	3	211021	15:33:00	15:33:00		Świlcza Nowy Dwór 71 nż
+1492	3	211021	15:35:00	15:35:00		Świlcza osiedle 73 nż
+1492	3	211021	15:35:00	15:35:00		Świlcza osiedle 73 nż
+1492	3	211021	15:36:00	15:36:00		Świlcza 08 nż
+1492	3	211021	15:36:00	15:36:00		Świlcza 08 nż
+1492	3	211021	15:37:00	15:37:00		Świlcza sklep 06 nż
+1492	3	211021	15:37:00	15:37:00		Świlcza sklep 06 nż
+1492	3	211021	15:38:00	15:38:00		Świlcza PKP 04 nż
+1492	3	211021	15:38:00	15:38:00		Świlcza PKP 04 nż
+1492	3	211021	15:39:00	15:39:00		Kamyszyn 03 nż
+1492	3	211021	15:39:00	15:39:00		Kamyszyn 03 nż
+1492	3	211021	15:40:00	15:40:00		Kamyszyn pętla 01 nż
+1492	3	211021	15:40:00	15:40:00		Kamyszyn pętla 01 nż
+1492	3	211021	15:42:00	15:42:00		Mrowla Otoka pętla 01
+1492	3	211021	15:42:00	15:42:00		Mrowla Otoka pętla 01
+
+1482	3	211604	15:59:00	15:59:00		Mrowla Otoka pętla 01
+1482	3	211604	15:59:00	15:59:00		Mrowla Otoka pętla 01
+1482	3	211604	16:01:00	16:01:00		Kamyszyn pętla 02 nż
+1482	3	211604	16:01:00	16:01:00		Kamyszyn pętla 02 nż
+1482	3	211604	16:02:00	16:02:00		Kamyszyn 04 nż
+1482	3	211604	16:02:00	16:02:00		Kamyszyn 04 nż
+1482	3	211604	16:03:00	16:03:00		Świlcza PKP 03 nż
+1482	3	211604	16:03:00	16:03:00		Świlcza PKP 03 nż
+1482	3	211604	16:04:00	16:04:00		Świlcza sklep 05 nż
+1482	3	211604	16:04:00	16:04:00		Świlcza sklep 05 nż
+1482	3	211604	16:05:00	16:05:00		Świlcza 07
+1482	3	211604	16:05:00	16:05:00		Świlcza 07
+1482	3	211604	16:07:00	16:07:00		Świlcza osiedle 60 nż
+1482	3	211604	16:07:00	16:07:00		Świlcza osiedle 60 nż
+1482	3	211604	16:09:00	16:09:00		Świlcza Nowy Dwór 62 nż
+1482	3	211604	16:09:00	16:09:00		Świlcza Nowy Dwór 62 nż
+1482	3	211604	16:10:00	16:10:00		Krakowska granica 15 nż
+1482	3	211604	16:10:00	16:10:00		Krakowska granica 15 nż
+1482	3	211604	16:11:00	16:11:00		Krakowska / Dworzysko 13 nż
+1482	3	211604	16:11:00	16:11:00		Krakowska / Dworzysko 13 nż
+1482	3	211604	16:13:00	16:13:00		Krakowska / Ustrzycka 11
+1482	3	211604	16:13:00	16:13:00		Krakowska / Ustrzycka 11
+1482	3	211604	16:14:00	16:14:00		Krakowska cmentarz 09 nż
+1482	3	211604	16:14:00	16:14:00		Krakowska cmentarz 09 nż
+1482	3	211604	16:16:00	16:16:00		Krakowska / Mielecka 07 nż
+1482	3	211604	16:16:00	16:16:00		Krakowska / Mielecka 07 nż
+1482	3	211604	16:17:00	16:17:00		Krakowska galeria 05
+1482	3	211604	16:17:00	16:17:00		Krakowska galeria 05
+1482	3	211604	16:18:00	16:18:00		Krakowska szpital 03
+1482	3	211604	16:18:00	16:18:00		Krakowska szpital 03
+1482	3	211604	16:20:00	16:20:00		Krakowska jedn. wojskowa 01
+1482	3	211604	16:20:00	16:20:00		Krakowska jedn. wojskowa 01
+1482	3	211604	16:23:00	16:23:00		Piłsudskiego U. Wojewódzki 05
+1482	3	211604	16:23:00	16:23:00		Piłsudskiego U. Wojewódzki 05
+1482	3	211604	16:27:00	16:27:00		Bardowskiego 04
+1482	3	211604	16:27:00	16:27:00		Bardowskiego 04
+
+1492	3	210339	16:40:00	16:40:00		Bardowskiego 01
+1492	3	210339	16:40:00	16:40:00		Bardowskiego 01
+1492	3	210339	16:42:00	16:42:00		Pl. Wolności 04
+1492	3	210339	16:42:00	16:42:00		Pl. Wolności 04
+1492	3	210339	16:45:00	16:45:00		Piłsudskiego U. Marszałkowski 08
+1492	3	210339	16:45:00	16:45:00		Piłsudskiego U. Marszałkowski 08
+1492	3	210339	16:47:00	16:47:00		Krakowska jedn. wojskowa 02
+1492	3	210339	16:47:00	16:47:00		Krakowska jedn. wojskowa 02
+1492	3	210339	16:49:00	16:49:00		Krakowska szpital 04
+1492	3	210339	16:49:00	16:49:00		Krakowska szpital 04
+1492	3	210339	16:50:00	16:50:00		Krakowska galeria 06
+1492	3	210339	16:50:00	16:50:00		Krakowska galeria 06
+1492	3	210339	16:51:00	16:51:00		Krakowska / Wyzwolenia 08 nż
+1492	3	210339	16:51:00	16:51:00		Krakowska / Wyzwolenia 08 nż
+1492	3	210339	16:52:00	16:52:00		Krakowska cmentarz 10 nż
+1492	3	210339	16:52:00	16:52:00		Krakowska cmentarz 10 nż
+1492	3	210339	16:54:00	16:54:00		Krakowska / Ceramiczna 12
+1492	3	210339	16:54:00	16:54:00		Krakowska / Ceramiczna 12
+1492	3	210339	16:55:00	16:55:00		Krakowska / Dworzysko 14 nż
+1492	3	210339	16:55:00	16:55:00		Krakowska / Dworzysko 14 nż
+1492	3	210339	16:57:00	16:57:00		Krakowska granica 16 nż
+1492	3	210339	16:57:00	16:57:00		Krakowska granica 16 nż
+1492	3	210339	16:58:00	16:58:00		Świlcza Nowy Dwór 71 nż
+1492	3	210339	16:58:00	16:58:00		Świlcza Nowy Dwór 71 nż
+1492	3	210339	17:00:00	17:00:00		Świlcza osiedle 73 nż
+1492	3	210339	17:00:00	17:00:00		Świlcza osiedle 73 nż
+1492	3	210339	17:01:00	17:01:00		Świlcza 08 nż
+1492	3	210339	17:01:00	17:01:00		Świlcza 08 nż
+1492	3	210339	17:02:00	17:02:00		Świlcza sklep 06 nż
+1492	3	210339	17:02:00	17:02:00		Świlcza sklep 06 nż
+1492	3	210339	17:03:00	17:03:00		Świlcza PKP 04 nż
+1492	3	210339	17:03:00	17:03:00		Świlcza PKP 04 nż
+1492	3	210339	17:04:00	17:04:00		Kamyszyn 03 nż
+1492	3	210339	17:04:00	17:04:00		Kamyszyn 03 nż
+1492	3	210339	17:05:00	17:05:00		Kamyszyn pętla 01 nż
+1492	3	210339	17:05:00	17:05:00		Kamyszyn pętla 01 nż
+1492	3	210339	17:07:00	17:07:00		Mrowla Otoka pętla 01
+1492	3	210339	17:07:00	17:07:00		Mrowla Otoka pętla 01
+
+1482	3	213845	17:19:00	17:19:00		Mrowla Otoka pętla 01
+1482	3	213845	17:19:00	17:19:00		Mrowla Otoka pętla 01
+1482	3	213845	17:21:00	17:21:00		Kamyszyn pętla 02 nż
+1482	3	213845	17:21:00	17:21:00		Kamyszyn pętla 02 nż
+1482	3	213845	17:22:00	17:22:00		Kamyszyn 04 nż
+1482	3	213845	17:22:00	17:22:00		Kamyszyn 04 nż
+1482	3	213845	17:23:00	17:23:00		Świlcza PKP 03 nż
+1482	3	213845	17:23:00	17:23:00		Świlcza PKP 03 nż
+1482	3	213845	17:24:00	17:24:00		Świlcza sklep 05 nż
+1482	3	213845	17:24:00	17:24:00		Świlcza sklep 05 nż
+1482	3	213845	17:25:00	17:25:00		Świlcza 07
+1482	3	213845	17:25:00	17:25:00		Świlcza 07
+1482	3	213845	17:27:00	17:27:00		Świlcza osiedle 60 nż
+1482	3	213845	17:27:00	17:27:00		Świlcza osiedle 60 nż
+1482	3	213845	17:29:00	17:29:00		Świlcza Nowy Dwór 62 nż
+1482	3	213845	17:29:00	17:29:00		Świlcza Nowy Dwór 62 nż
+1482	3	213845	17:30:00	17:30:00		Krakowska granica 15 nż
+1482	3	213845	17:30:00	17:30:00		Krakowska granica 15 nż
+1482	3	213845	17:31:00	17:31:00		Krakowska / Dworzysko 13 nż
+1482	3	213845	17:31:00	17:31:00		Krakowska / Dworzysko 13 nż
+1482	3	213845	17:33:00	17:33:00		Krakowska / Ustrzycka 11
+1482	3	213845	17:33:00	17:33:00		Krakowska / Ustrzycka 11
+1482	3	213845	17:34:00	17:34:00		Krakowska cmentarz 09 nż
+1482	3	213845	17:34:00	17:34:00		Krakowska cmentarz 09 nż
+1482	3	213845	17:36:00	17:36:00		Krakowska / Mielecka 07 nż
+1482	3	213845	17:36:00	17:36:00		Krakowska / Mielecka 07 nż
+1482	3	213845	17:37:00	17:37:00		Krakowska galeria 05
+1482	3	213845	17:37:00	17:37:00		Krakowska galeria 05
+1482	3	213845	17:38:00	17:38:00		Krakowska szpital 03
+1482	3	213845	17:38:00	17:38:00		Krakowska szpital 03
+1482	3	213845	17:40:00	17:40:00		Krakowska jedn. wojskowa 01
+1482	3	213845	17:40:00	17:40:00		Krakowska jedn. wojskowa 01
+1482	3	213845	17:43:00	17:43:00		Piłsudskiego U. Wojewódzki 05
+1482	3	213845	17:43:00	17:43:00		Piłsudskiego U. Wojewódzki 05
+1482	3	213845	17:46:00	17:46:00		Bardowskiego 04
+1482	3	213845	17:46:00	17:46:00		Bardowskiego 04
+
+993	3	215741	18:20:00	18:20:00		Dworzec Lokalny
+993	3	215741	18:20:00	18:20:00		Dworzec Lokalny
+993	3	215741	18:22:00	18:22:00		Piłsudskiego U. Wojewódzki 05
+993	3	215741	18:22:00	18:22:00		Piłsudskiego U. Wojewódzki 05
+993	3	215741	18:23:00	18:23:00		Pl. Wolności 03
+993	3	215741	18:23:00	18:23:00		Pl. Wolności 03
+993	3	215741	18:24:00	18:24:00		Targowa 01
+993	3	215741	18:24:00	18:24:00		Targowa 01
+993	3	215741	18:26:00	18:26:00		Szopena Filharmonia 02 nż
+993	3	215741	18:26:00	18:26:00		Szopena Filharmonia 02 nż
+993	3	215741	18:29:00	18:29:00		Kopisto U. Skarbowy 03
+993	3	215741	18:29:00	18:29:00		Kopisto U. Skarbowy 03
+993	3	215741	18:30:00	18:30:00		Kopisto uniwersytet 01
+993	3	215741	18:30:00	18:30:00		Kopisto uniwersytet 01
+993	3	215741	18:32:00	18:32:00		Niepodległości / Rejtana 02
+993	3	215741	18:32:00	18:32:00		Niepodległości / Rejtana 02
+993	3	215741	18:33:00	18:33:00		Niepodległości dom dziecka 04 nż
+993	3	215741	18:33:00	18:33:00		Niepodległości dom dziecka 04 nż
+993	3	215741	18:34:00	18:34:00		Niepodległości działki 06 nż
+993	3	215741	18:34:00	18:34:00		Niepodległości działki 06 nż
+993	3	215741	18:36:00	18:36:00		Niemierskiego 02 nż
+993	3	215741	18:36:00	18:36:00		Niemierskiego 02 nż
+993	3	215741	18:38:00	18:38:00		Witolda seminarium 02 nż
+993	3	215741	18:38:00	18:38:00		Witolda seminarium 02 nż
+993	3	215741	18:40:00	18:40:00		Paderewskiego kościół 08
+993	3	215741	18:40:00	18:40:00		Paderewskiego kościół 08
+993	3	215741	18:42:00	18:42:00		Słocińska szkoła 02 nż
+993	3	215741	18:42:00	18:42:00		Słocińska szkoła 02 nż
+993	3	215741	18:43:00	18:43:00		Słocińska cmentarz 04 nż
+993	3	215741	18:43:00	18:43:00		Słocińska cmentarz 04 nż
+993	3	215741	18:44:00	18:44:00		Słocińska / Niedziochy 06 nż
+993	3	215741	18:44:00	18:44:00		Słocińska / Niedziochy 06 nż
+993	3	215741	18:45:00	18:45:00		Słocińska / Pileckich 08 nż
+993	3	215741	18:45:00	18:45:00		Słocińska / Pileckich 08 nż
+993	3	215741	18:46:00	18:46:00		Słocińska / Rodziny Lutaków 10 nż
+993	3	215741	18:46:00	18:46:00		Słocińska / Rodziny Lutaków 10 nż
+993	3	215741	18:47:00	18:47:00		Słocińska pętla 11 nż
+993	3	215741	18:47:00	18:47:00		Słocińska pętla 11 nż
+
+990	3	215717	19:40:00	19:40:00		Słocińska pętla 11 nż
+990	3	215717	19:40:00	19:40:00		Słocińska pętla 11 nż
+990	3	215717	19:41:00	19:41:00		Słocińska / Rodziny Lutaków 09 nż
+990	3	215717	19:41:00	19:41:00		Słocińska / Rodziny Lutaków 09 nż
+990	3	215717	19:42:00	19:42:00		Słocińska / Pileckich 07 nż
+990	3	215717	19:42:00	19:42:00		Słocińska / Pileckich 07 nż
+990	3	215717	19:43:00	19:43:00		Słocińska / Niedziochy 05 nż
+990	3	215717	19:43:00	19:43:00		Słocińska / Niedziochy 05 nż
+990	3	215717	19:44:00	19:44:00		Słocińska cmentarz 03 nż
+990	3	215717	19:44:00	19:44:00		Słocińska cmentarz 03 nż
+990	3	215717	19:45:00	19:45:00		Słocińska szkoła 01 nż
+990	3	215717	19:45:00	19:45:00		Słocińska szkoła 01 nż
+990	3	215717	19:47:00	19:47:00		Paderewskiego kościół 05
+990	3	215717	19:47:00	19:47:00		Paderewskiego kościół 05
+990	3	215717	19:48:00	19:48:00		Witolda seminarium 01 nż
+990	3	215717	19:48:00	19:48:00		Witolda seminarium 01 nż
+990	3	215717	19:49:00	19:49:00		Niemierskiego 01 nż
+990	3	215717	19:49:00	19:49:00		Niemierskiego 01 nż
+990	3	215717	19:51:00	19:51:00		Niepodległości / Armii Krajowej 05
+990	3	215717	19:51:00	19:51:00		Niepodległości / Armii Krajowej 05
+990	3	215717	19:52:00	19:52:00		Niepodległości / Mieszka I 03 nż
+990	3	215717	19:52:00	19:52:00		Niepodległości / Mieszka I 03 nż
+990	3	215717	19:53:00	19:53:00		Niepodległości dom dziecka 01 nż
+990	3	215717	19:53:00	19:53:00		Niepodległości dom dziecka 01 nż
+990	3	215717	19:54:00	19:54:00		Kopisto uniwersytet 02
+990	3	215717	19:54:00	19:54:00		Kopisto uniwersytet 02
+990	3	215717	19:56:00	19:56:00		Kopisto Most Zamkowy 04
+990	3	215717	19:56:00	19:56:00		Kopisto Most Zamkowy 04
+990	3	215717	19:57:00	19:57:00		Szopena Filharmonia 01 nż
+990	3	215717	19:57:00	19:57:00		Szopena Filharmonia 01 nż
+990	3	215717	19:58:00	19:58:00		Targowa 02
+990	3	215717	19:58:00	19:58:00		Targowa 02
+990	3	215717	20:00:00	20:00:00		Pl. Wolności 04
+990	3	215717	20:00:00	20:00:00		Pl. Wolności 04
+990	3	215717	20:02:00	20:02:00		Piłsudskiego U. Marszałkowski 08
+990	3	215717	20:02:00	20:02:00		Piłsudskiego U. Marszałkowski 08
+990	3	215717	20:03:00	20:03:00		Dworzec Lokalny
+990	3	215717	20:03:00	20:03:00		Dworzec Lokalny

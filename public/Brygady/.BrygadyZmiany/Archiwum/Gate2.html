@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=0.6">
+   <link rel="stylesheet" href="../../style_css/headermenu.css">
+   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+   <meta http-equiv="Pragma" content="no-cache">
+   <meta http-equiv="Expires" content="0">
+   <title>Szczegóły brygady</title>
+   <style>
+      body {
+         background: rgb(50, 50, 50);
+         font-family: Arial, sans-serif;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         height: 100vh;
+         color: white;
+      }
+
+      h1 {
+         font-size: 2rem;
+         margin: 40px 0 20px;
+      }
+
+      table {
+         width: 10%;
+         border-collapse: collapse;
+         border-radius: 5px;
+         overflow: hidden;
+         margin-top: 20px;
+      }
+
+      th,
+      td {
+         text-align: center;
+         padding: 10px;
+         border: 1px solid #ccc;
+         font-size: 17px;
+      }
+
+      th {
+         background-color: rgba(255, 165, 0, 0.2);
+      }
+
+      thead {
+         background-color: rgba(255, 165, 0, 0.2);
+      }
+
+   </style>
+</head>
+
+<body>
+   <header>
+      <a href="../../Main_Panel.html" class="menu">Panel Główny</a>
+      <a href="../ChooseDay.html" class="menu">Brygady</a>
+      <a href="../../Brygady/Kursy/Kursy.html" class="menu">Kursy</a>
+      <a href="#" class="menu exit" id="logout">Opuść Panel</a>
+      <hr>
+   </header>
+
+   <script>
+      // Check if the user is logged in, otherwise redirect
+      function checkLogin() {
+         const user = JSON.parse(sessionStorage.getItem('user'));
+         if (!user) {
+            window.location.href = '../../zoltakartka.html';
+         }
+      }
+
+
+      // Logout logic
+      document.getElementById('logout').addEventListener('click', function() {
+         sessionStorage.clear();
+         window.location.href = '../../index.html';
+      });
+
+      const brygadaTitle = sessionStorage.getItem('brygadaTitle');
+
+      fetch(`/check-chooseday?brygadaTitle=${brygadaTitle}`)
+         .then(response => {
+            // Sprawdź, czy odpowiedź jest OK (status 200)
+            if (!response.ok) {
+               throw new Error('Błąd HTTP, status: ' + response.status);
+            }
+            return response.json(); // Parsuj JSON tylko, gdy status OK
+         })
+         .then(data => {
+            if (data.isChooseDay) {
+               window.location.href = 'ChooseDay.html';
+            } else {
+               window.location.href = 'brygada.html'
+            }
+         })
+         .catch(error => {
+            console.error('Błąd podczas sprawdzania wartości ChooseDay:', error);
+         });
+
+   </script>
+</body>
+
+</html>
