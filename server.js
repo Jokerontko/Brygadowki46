@@ -8,6 +8,9 @@ import {
 import {
     dirname
 } from 'path';
+import {
+    Analytics
+} from "@vercel/analytics/react"
 
 // Get the __dirname equivalent in ES modules
 const __filename = fileURLToPath(
