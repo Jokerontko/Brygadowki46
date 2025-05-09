@@ -114,6 +114,23 @@
     <br>
     <a href="brygada.html" class="menu">Wróć do brygady</a>
     <br><br>
+    <table id="wykazstrony" style="width: 90%;">
+        <thead>
+            <tr>
+                <th>Numer Autobusu</th>
+                <th>Brygada</th>
+                <th style="display: none;">Model Autobusu</th>
+                <th>Opóźnienie</th>
+                <th>Numer Linii</th>
+                <th>Kierunek</th>
+                <th style="display: none;">Następny kierunek</th>
+                <th>Godzina odjazdu</th>
+            </tr>
+        </thead>
+        <tbody id="dane-wykaz">
+            <!-- Wiersze zostaną dodane automatycznie -->
+        </tbody>
+    </table>
 
 
     <script>
@@ -279,17 +296,305 @@
 
         //---------------------------------------------------------------------------------------------------------------------------------
 
+
+
+
+
+
+
+
+
+        let modelMap = [];
+        let activeFilter = null;
+        let activeDelaySort = '';
+        let activeLineFilter = '';
+        let activeBusNumberFilter = '';
+        let wartoscdnia = ""; // domyślnie np. "Powszedni"
+
+
+
+        function parseModelFile(text) {
+            modelMap = [];
+            const lines = text.trim().split('\n');
+
+            for (const line of lines) {
+                const trimmed = line.trim();
+                if (/^-{3,}.*-{3,}$/.test(trimmed)) {
+                    modelMap.push({
+                        model: trimmed,
+                        entries: [],
+                        display: '',
+                        count: 0,
+                        isCategory: true
+                    });
+                    continue;
+                }
+
+                const [rangePart, model] = trimmed.split('\t').map(s => s.trim());
+                const entries = [];
+
+                if (rangePart.includes(',')) {
+                    entries.push(...rangePart.split(',').map(num => parseInt(num.trim(), 10)));
+                } else if (rangePart.includes('-')) {
+                    const [from, to] = rangePart.split('-').map(s => parseInt(s.trim(), 10));
+                    for (let i = from; i <= to; i++) {
+                        entries.push(i);
+                    }
+                } else if (!isNaN(rangePart)) {
+                    entries.push(parseInt(rangePart, 10));
+                }
+
+                modelMap.push({
+                    model,
+                    entries,
+                    display: rangePart,
+                    count: 0,
+                    isCategory: false
+                });
+            }
+        }
+
+        function updateModelCounts(vehicles) {
+            modelMap.forEach(m => m.count = 0);
+            for (const v of vehicles) {
+                const nb = parseInt(v.getAttribute("nb"), 10);
+                const matched = modelMap.find(entry => !entry.isCategory && entry.entries.includes(nb));
+                if (matched) matched.count++;
+            }
+        }
+
+
+
+        function parseDelay(text) {
+            const match = text.match(/([-+])(\d{2}):(\d{2})/);
+            if (!match) return 0;
+            const sign = match[1] === '+' ? 1 : -1;
+            const minutes = parseInt(match[2], 10);
+            const seconds = parseInt(match[3], 10);
+            return sign * (minutes * 60 + seconds);
+        }
+
+        function LoadBrygada(godzinaOdjazdu, kierunek, dzien, callback) {
+            fetch(`/api/brygada?godzina=${encodeURIComponent(godzinaOdjazdu)}&kierunek=${encodeURIComponent(kierunek)}&dzien=${encodeURIComponent(dzien)}`)
+
+                .then(response => response.json())
+                .then(data => {
+                    console.log('Dane otrzymane od serwera:', data);
+                    // Przekazanie obu wartości do callbacka
+                    callback(data.brygada, data.linia); // Przekazanie również linia
+                })
+                .catch(error => {
+                    console.error('Błąd przy pobieraniu danych:', error);
+                    callback('Błąd');
+                });
+        }
+
+
+
+        function loadAndRenderTable(dzien) {
+            dzien = dzien || (document.getElementById('dzienSelect')?.value || activeDzien);
+
+
+            const scrollTop = window.scrollY;
+            const activeElement = document.activeElement;
+            const wasFocused = activeElement?.tagName === 'SELECT' || activeElement?.tagName === 'INPUT';
+
+            fetch('/api/vehicles')
+                .then(response => response.text())
+                .then(xmlString => {
+                    const parser = new DOMParser();
+                    const xmlDoc = parser.parseFromString(xmlString, "text/xml");
+                    const vehicles = Array.from(xmlDoc.getElementsByTagName("V"));
+
+                    vehicles.sort((a, b) => {
+                        const nbA = parseInt(a.getAttribute("nb")) || 0;
+                        const nbB = parseInt(b.getAttribute("nb")) || 0;
+                        return nbA - nbB;
+                    });
+
+                    updateModelCounts(vehicles);
+
+                    const tbody = document.getElementById("dane-wykaz");
+                    tbody.innerHTML = "";
+
+                    vehicles.forEach(v => {
+                        const nb = v.getAttribute("nb");
+                        const nr = v.getAttribute("nr") || '';
+                        let op = v.getAttribute("op") || '';
+                        const nop = v.getAttribute("nop") || '';
+                        let p = v.getAttribute("p") || '';
+                        const o = parseInt(v.getAttribute("o"), 10);
+                        const isDelayed = o < 0;
+                        const absO = Math.abs(o);
+                        const minutes = Math.floor(absO / 60);
+                        const seconds = absO % 60;
+                        const formattedDelay = `${isDelayed ? '-' : '+' }${String(minutes).padStart(2, '0' )}:${String(seconds).padStart(2, '0' )}`;
+                        const totalSeconds = (isDelayed ? -1 : 1) * (minutes * 60 + seconds);
+                        let color = "#ffffff";
+                        if (totalSeconds >= 1) {
+                            color = "#0e8616";
+                        } else if (totalSeconds < 0 && totalSeconds >= -300) {
+                            color = "#ffbb00";
+                        } else if (totalSeconds < -300 && totalSeconds >= -600) {
+                            color = "#ff8000";
+                        } else if (totalSeconds < -600 && totalSeconds >= -1200) {
+                            color = "#ff0000";
+                        } else if (totalSeconds < -1200) {
+                            color = "#a80000";
+                        }
+                        const formattedTimeReal = `<span style="color: ${color}">${formattedDelay}</span>`;
+
+                        if ((!nr || nr.trim() === '') && (!op || op.trim() === '') && (!p || p.trim() === '')) {
+                            op = nop;
+
+                            const now = new Date();
+                            now.setSeconds(now.getSeconds() + totalSeconds);
+
+                            if (now.getSeconds() >= 0 && now.getSeconds() < 30) {
+                                now.setSeconds(0);
+                            } else if (now.getSeconds() >= 30 && now.getSeconds() < 60) {
+                                now.setMinutes(now.getMinutes() + 1);
+                                now.setSeconds(0);
+                            }
+                            const hours = now.getHours().toString().padStart(2, '0');
+                            const mins = now.getMinutes().toString().padStart(2, '0');
+                            p = `${hours}:${mins}`;
+                        }
+                        const nbNum = parseInt(nb, 10);
+                        const matched = modelMap.find(entry => !entry.isCategory && entry.entries.includes(nbNum));
+                        const model = matched ? matched.model : 'N/A';
+
+                        // Jeśli kierunek zawiera "p.", to umieszczamy resztę w <span>
+                        let formattedOp = op;
+                        const pIndex = op.toLowerCase().indexOf("p.");
+                        if (pIndex !== -1) {
+                            const before = op.slice(0, pIndex).trim();
+                            const after = op.slice(pIndex).trim();
+                            formattedOp = `${before} <br> <span>${after}</span>`;
+                        }
+
+                        const row = document.createElement("tr");
+                        row.innerHTML = `
+                                        <td>${nb}</td>
+                                        <td style="display: none;">${model}</td>
+                                        <td>${formattedTimeReal}</td>
+                                        <td>${nr}</td>
+                                        <td>${formattedOp}</td>
+                                        <td style="display: none;">${nop}</td>
+                                        <td>${p}</td>
+                                        `;
+
+                        tbody.appendChild(row);
+
+                        const godzinaOdjazdu = row.cells[6].textContent.trim();
+                        const kierunek = row.cells[4].textContent.trim();
+                        const cellBrygada = row.insertCell(2);
+                        const cellLinie = row.cells[4];
+
+                        // Funkcja LoadBrygada, która zwraca brygadę i linię
+                        LoadBrygada(godzinaOdjazdu, kierunek, activeDzien, function(brygada, linia) {
+
+                            // Sprawdzamy, czy brygada zawiera "Folder:" i usuwamy go
+                            if (brygada.includes("Folder:")) {
+                                brygada = brygada.replace("Folder:", "").trim(); // Usuwamy "Folder:" i przycinamy nadmiarowe spacje
+                            }
+
+                            // Zamiana "_" na "/"
+                            brygada = brygada.replace(/_/g, "/");
+
+                            // Ustawienie brygady w komórce
+                            cellBrygada.textContent = brygada;
+
+                            // Sprawdzamy, czy komórka "linie" zawiera jakąkolwiek wartość (nie jest pusta)
+                            if (cellLinie.textContent.trim() === "") {
+                                // Nadpisanie wartości linii, jeśli komórka nie jest pusta
+                                cellLinie.textContent = linia;
+                                // Zmiana koloru na różowy
+                                cellLinie.style.color = 'grey';
+
+                                // Zmiana koloru również w kolumnie Kierunek
+                                const cellKierunek = row.cells[5];
+                                cellKierunek.style.color = 'grey';
+
+                                const cellOpoznienie = row.cells[3];
+                                cellOpoznienie.style.color = 'white';
+                            }
+
+                        });
+
+                    });
+
+
+
+                    if (wasFocused) {
+                        activeElement?.focus();
+                    }
+
+                    window.scrollTo({
+                        top: scrollTop
+                    });
+                })
+                .catch(error => {
+                    console.error('Błąd przy pobieraniu danych:', error);
+                });
+        }
+
+
+
+        function sprawdzDostepnosc() {
+            console.log("Sprawdzanie dostępności...");
+
+        }
+
+
+        // Pobranie pełnej ścieżki do pliku
+        const fullPath = window.location.pathname;
+
+        // Podzielenie ścieżki na części na podstawie "/"
+        const pathParts = fullPath.split('/');
+
+        // Pobranie nazwy folderu (zakładamy, że folder jest bezpośrednio nad plikiem)
+        const folderName = pathParts[pathParts.length - 2]; // -2, bo ostatni element to nazwa pliku
+
+        // Inicjalizacja zmiennej brygadaNumber na podstawie folderu
+        let brygadaNumber;
+
+        switch (folderName) {
+            case 'Niedzielny':
+                brygadaNumber = '1';
+                break;
+            case 'Powszedni':
+                brygadaNumber = '2';
+                break;
+            case 'PowszedniWolny':
+                brygadaNumber = '3';
+                break;
+            case 'Sobotni':
+                brygadaNumber = '4';
+                break;
+            default:
+                brygadaNumber = '2'; // Domyślna wartość, jeśli folder nie pasuje do żadnego przypadku
+        }
+
+        sessionStorage.setItem("ChoosedTypeOfDay", brygadaNumber)
+        let activeDzien = brygadaNumber;
+
+
+
+
         async function init() {
             checkLogin();
             const TripIdValue = loadTripIdValue();
             const lines = await fetchFile(TripIdValue);
             if (lines) {
                 await processFileData(lines);
+                loadAndRenderTable();
             } else {
                 console.error("Nie udało się wczytać pliku.");
             }
             checkCurrentTimeAgainstTable();
             setInterval(checkCurrentTimeAgainstTable, 1000);
+
         }
 
         window.onload = init;

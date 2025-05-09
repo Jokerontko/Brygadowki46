@@ -167,6 +167,34 @@
     </table>
 
     <script>
+        function checkAndInsertNoDataRow() {
+            const tableBody = document.getElementById('dataTableBody');
+            if (tableBody.children.length === 0) {
+                const row = document.createElement('tr');
+                const cell = document.createElement('td');
+                cell.setAttribute('colspan', '4');
+                cell.style.textAlign = 'center';
+                cell.style.color = 'gray';
+                cell.textContent = 'Brak Danych';
+                row.appendChild(cell);
+                tableBody.appendChild(row);
+            }
+        }
+
+        function checkAndInsertNoDataRowBAZA() {
+            const tableBody = document.getElementById('dataTableBodyBaza');
+            if (tableBody.children.length === 0) {
+                const row = document.createElement('tr');
+                const cell = document.createElement('td');
+                cell.setAttribute('colspan', '6');
+                cell.style.textAlign = 'center';
+                cell.style.color = 'gray';
+                cell.textContent = 'Brak Danych';
+                row.appendChild(cell);
+                tableBody.appendChild(row);
+            }
+        }
+
         async function fetchAndDisplayData() {
             try {
                 function getFolderName() {
@@ -322,6 +350,8 @@
                             tableBody.appendChild(tr);
                         }
                     }
+                    checkAndInsertNoDataRow();
+
                 });
             } catch (error) {
                 console.error('Błąd podczas odczytu pliku:', error);
@@ -494,6 +524,7 @@
                             tableBody.appendChild(tr);
                         }
                     }
+                    checkAndInsertNoDataRowBAZA();
                 });
             } catch (error) {
                 console.error('Błąd podczas odczytu pliku:', error);

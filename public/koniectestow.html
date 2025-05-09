@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>Koniec pierwszych testów</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div>
+        <center>
+            <h1>OGŁOSZENIE</h1>
+            <br>
+            <p>
+                Pierwsze testy strony dobiegły końca <br> dziękuję za udział oraz wszystkie uwagi i propozycje dotyczące jej działania. <br>
+                Jeśli ktoś chciałby nadal mieć dostęp do strony, proszę o wiadomość na Messengerze. <br>
+                Zakończenie testów nie oznacza zamknięcia strony — będzie ona nadal rozwijana, <br>
+                szczególnie w zakresie wydajności oraz funkcjonalności. <br>
+                Byłbym wdzięczny za uzupełnienie krótkiej ankiety dotyczącej strony <br>
+
+            </p>
+            <a class="Panel" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfXu30VkxSDxEz_yGsYaiUILnN5cQ3FqM8WJZHkj-GMbHFCZw/viewform?usp=dialog">Ankieta</a>
+            <br><br>
+            <a href="index.html" class="Panel">Powrót do strony logowania</a>
+        </center>
+    </div>
+
+    <style>
+        h1 {
+            color: orange;
+            margin-bottom: -10px;
+        }
+
+        p {
+            margin: 20px, 20px, 20px;
+        }
+
+        body {
+            background: rgb(50, 50, 50);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-family: arial;
+            height: 90vh;
+        }
+
+        .Panel {
+            justify-content: right;
+            text-align: right;
+            align-items: right;
+            text-decoration: none;
+
+            color: white;
+            border: 2px solid gray;
+            border-radius: 4px;
+            padding: 5px;
+            font-size: 0.8rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .choose {
+            display: inline-block;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            text-decoration: none;
+            color: white;
+            border: 2px solid white;
+            border-radius: 10px;
+            padding: 15px;
+            transition: all 0.3s ease;
+            font-size: 1.2rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+
+        .choose:hover {
+            background-color: orange;
+            color: white;
+            transform: scale(1.05);
+        }
+
+        .choose-close {
+            display: inline-block;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            text-decoration: none;
+            color: gray;
+            border: 2px solid gray;
+            border-radius: 10px;
+            padding: 15px;
+            transition: all 0.3s ease;
+            font-size: 1.2rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            pointer-events: none;
+
+        }
+
+    </style>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const button = document.getElementById('returnButton');
+            const user = sessionStorage.getItem('user');
+
+            console.log("Wartość 'user' w sessionStorage:", user);
+
+            // Sprawdzenie stanu przerwy technicznej od razu po załadowaniu strony
+            fetch('/check-maintenance')
+                .then(response => response.json())
+                .then(data => {
+                    if (data.LoginMaintenance) {
+                        // Jeśli trwa przerwa techniczna (LoginMaintenance == true)
+                        button.classList.remove('choose');
+                        button.classList.add('choose-close');
+                    } else {
+                        // Jeśli nie ma przerwy technicznej (LoginMaintenance == false)
+                        button.classList.remove('choose-close');
+                        button.classList.add('choose');
+                    }
+                })
+                .catch(error => {
+                    console.error('Błąd podczas sprawdzania przerwy technicznej:', error);
+                });
+
+            // Nasłuchiwanie na kliknięcie przycisku
+            button.addEventListener('click', (event) => {
+                // Sprawdzenie wartości 'user' w sessionStorage
+                const user = sessionStorage.getItem('user');
+                if (user === "") {
+                    window.location.href = "index.html";
+                } else if (user !== "") {
+                    window.location.href = "index.html";
+                }
+            });
+        });
+
+    </script>
+</body>
+
+</html>

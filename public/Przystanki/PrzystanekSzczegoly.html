@@ -439,30 +439,27 @@
                 },
             };
 
-            // Zmienna do przechowywania użytych indeksów
             const indeksyUzyte = new Set();
 
-            // Wczytaj dane dla każdego typu dnia
+            // Pobierz dane z serwera
             for (const [nazwa, obj] of Object.entries(typyDni)) {
                 const url = `/get-${nazwa.toLowerCase()}?przystanekName=${encodedPrzystanekName}&linia=${Linia}`;
                 try {
                     const response = await fetch(url);
-                    const data = await response.json();
-                    obj.data = data;
+                    obj.data = await response.json();
                 } catch (error) {
                     console.error(`Błąd ładowania danych dla ${nazwa}:`, error);
-                    obj.hasError = true; // Zaznaczamy, że wystąpił błąd dla tego dnia
+                    obj.hasError = true;
                 }
             }
 
-            // Inicjalizuj mapę godzin
+            // Przygotuj mapę godzin
             const godzinyMap = new Map();
             for (let i = 0; i < 24; i++) {
                 const tr = document.createElement('tr');
-
                 const godzTd = document.createElement('td');
                 godzTd.textContent = i;
-                godzTd.classList.add('Godzina'); // ← DODANO klasę "Godzina"
+                godzTd.classList.add('Godzina');
                 tr.appendChild(godzTd);
 
                 const tds = [];
@@ -474,48 +471,63 @@
                 }
 
                 tabelaBody.appendChild(tr);
-                godzinyMap.set(i, tds); // tds[0] → Powszedni, [1] → Sobotni, [2] → Niedzielny
+                godzinyMap.set(i, tds);
             }
 
+            // 🔁 ZBIERZ WSZYSTKIE NUMERY ze wszystkich dni do jednej mapy zliczającej
+            const licznikGlobalny = {};
+            for (const obj of Object.values(typyDni)) {
+                if (obj.data && !obj.hasError) {
+                    obj.data.forEach(row => {
+                        const numer = row.numer?.trim();
+                        if (numer) {
+                            licznikGlobalny[numer] = (licznikGlobalny[numer] || 0) + 1;
+                        }
+                    });
+                }
+            }
 
-            // Wypełnianie danych
-            const numerDoLitery = JSON.parse(sessionStorage.getItem('numerDoLitery')) || {};
-            let literaIndex = 0;
+            // 📌 Znajdź NAJCZĘSTSZY numer ze wszystkich dni
+            let najczestszyNumer = null;
+            let maxIlosc = 0;
+            for (const [numer, ilosc] of Object.entries(licznikGlobalny)) {
+                if (ilosc > maxIlosc) {
+                    najczestszyNumer = numer;
+                    maxIlosc = ilosc;
+                }
+            }
+
+            // 📚 Przygotuj mapę liter
             const litery = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+            let literaIndex = 0;
+            let numerDoLitery = JSON.parse(sessionStorage.getItem('numerDoLitery')) || {};
 
+            // Zbierz użyte litery i uzupełnij literaIndex
+            const usedLetters = new Set(Object.values(numerDoLitery));
+            for (let i = 0; i < litery.length; i++) {
+                if (!usedLetters.has(litery[i])) {
+                    literaIndex = i;
+                    break;
+                }
+            }
+
+            // 🔁 Teraz przetwórz każdą tabelę
             for (const [nazwa, {
                     id,
                     data,
                     hasError
                 }] of Object.entries(typyDni)) {
-                const colIndex = Object.keys(typyDni).indexOf(nazwa); // 0 = Powszedni, 1 = Sobotni, 2 = Niedzielny
+                const colIndex = Object.keys(typyDni).indexOf(nazwa);
 
-                const licznikNumerow = {};
-                if (!hasError) {
-                    // Tylko dla dni, które mają dane, wypełniamy je
-                    data.forEach(row => {
-                        if (!row.numer) return;
-                        const numer = row.numer.trim();
-                        licznikNumerow[numer] = (licznikNumerow[numer] || 0) + 1;
-                    });
-
-                    let najczestszyNumer = null;
-                    let maxIlosc = 0;
-                    for (const [numer, count] of Object.entries(licznikNumerow)) {
-                        if (count > maxIlosc) {
-                            najczestszyNumer = numer;
-                            maxIlosc = count;
-                        }
-                    }
-
-                    data.forEach(row => {
-                        if (!row.godzina) return;
+                if (!hasError && data) {
+                    for (const row of data) {
+                        if (!row.godzina) continue;
                         const [hh, mm] = row.godzina.split(':');
                         let godzina = parseInt(hh, 10);
                         if (godzina >= 24) godzina -= 24;
 
                         const kolumny = godzinyMap.get(godzina);
-                        if (!kolumny) return;
+                        if (!kolumny) continue;
 
                         const td = kolumny[colIndex];
                         const numer = row.numer ? row.numer.trim() : 'brak';
@@ -526,7 +538,6 @@
 
                         if (numer !== najczestszyNumer) {
                             if (!numerDoLitery[numer]) {
-                                // Jeśli litera nie została jeszcze przypisana, przypisz kolejną z puli
                                 if (literaIndex < litery.length) {
                                     numerDoLitery[numer] = litery[literaIndex++];
                                     sessionStorage.setItem('numerDoLitery', JSON.stringify(numerDoLitery));
@@ -555,15 +566,6 @@
                                 const response = await fetch(filePath);
                                 const data = await response.text();
                                 const lines = data.split('\n').slice(2);
-                                let brygadaType = null;
-
-                                for (const line of lines) {
-                                    const [currentBrygada, typBrygady] = line.split('\t');
-                                    if (currentBrygada?.trim() === brygada) {
-                                        brygadaType = typBrygady?.trim();
-                                        break;
-                                    }
-                                }
 
                                 function findBrygadaType(searchBrygada) {
                                     for (const line of lines) {
@@ -586,14 +588,13 @@
                                     return null;
                                 }
 
-                                brygadaType = findBrygadaType(brygada) || findBrygadaType(brygada.replace(/_/g, '/'));
+                                const brygadaType = findBrygadaType(brygada) || findBrygadaType(brygada.replace(/_/g, '/'));
 
                                 if (brygadaType) {
                                     sessionStorage.setItem('BrygadaType', brygadaType);
                                 } else {
                                     console.error('Nie znaleziono typu brygady:', brygada);
                                 }
-
 
                                 sessionStorage.setItem('brygadaTitle', brygada);
                                 sessionStorage.setItem('BrygadaType', brygadaType || 'Nieznany');
@@ -606,16 +607,7 @@
 
                         td.appendChild(span);
                         td.appendChild(document.createTextNode('   '));
-                    });
-                } else {
-                    // W przypadku błędu dodajemy "-" w odpowiednich komórkach
-                    const kolumny = godzinyMap.get(i);
-                    const td = kolumny[colIndex];
-                    const span = document.createElement('span');
-                    span.textContent = '-';
-                    td.appendChild(span);
-
-
+                    }
                 }
 
                 // Sortowanie spanów
@@ -631,14 +623,14 @@
                 });
             }
 
-            // Legenda jak wcześniej
+            // Legenda
             if (indeksyUzyte.size > 0) {
                 fetch('/Przystanki/Kierunki.txt')
                     .then(response => response.text())
                     .then(text => {
                         const wyjasnieniaMap = new Map();
                         text.split('\n').forEach(line => {
-                            const [numer, , opis] = line.split('\t'); // Uwzględniamy nowy format (3 kolumny)
+                            const [numer, , opis] = line.split('\t');
                             if (numer && opis) {
                                 wyjasnieniaMap.set(numer.trim(), opis.trim());
                             }
@@ -646,30 +638,22 @@
 
                         const legendaTbody = document.getElementById('Legenda');
                         if (legendaTbody) {
-                            legendaTbody.innerHTML = ''; // Czyścimy poprzednią zawartość
-
-                            // Dodajemy tytuł "Legenda" na górze, wyśrodkowany
+                            legendaTbody.innerHTML = '';
                             const legendaTitle = document.createElement('h3');
                             legendaTitle.style.margin = "0px";
                             legendaTitle.style.textAlign = "center";
-
                             legendaTitle.textContent = 'Legenda';
                             legendaTbody.appendChild(legendaTitle);
 
-                            // Tworzymy legendę z wyjaśnieniami
                             const fragmenty = [];
                             Array.from(indeksyUzyte).forEach(numer => {
                                 const litera = numerDoLitery[numer] || 'Brak litery';
                                 const opis = wyjasnieniaMap.get(numer) || `Brak opisu dla ${numer}`;
                                 const legendaTekst = `<span class="Legenda"> [ <eoeo style="color: orange;">${litera} </eoeo>]:&nbsp; ${opis} </span>`;
-
-                                // Dodajemy do tablicy fragmentów
                                 fragmenty.push(legendaTekst);
                             });
 
-                            // Jeśli są fragmenty, dodajemy je do legendy
                             if (fragmenty.length > 0) {
-                                // Umieszczamy wyjaśnienia w <p> i łączymy je za pomocą <br>
                                 const legendaHTML = fragmenty.join('<br>');
                                 legendaTbody.innerHTML += legendaHTML;
                             }
@@ -680,6 +664,7 @@
                     });
             }
         }
+
 
 
         async function loadCzysteWiersze() {

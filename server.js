@@ -38,6 +38,80 @@ app.use(express.static(path.join(__dirname, 'Przystanki')));
 app.use(express.json()); // może się jeszcze przydać
 
 app.get('/api/brygada', (req, res) => {
+    const godzinaOdjazdu = req.query.godzina?.trim();
+    const kierunek = req.query.kierunek?.trim().toLowerCase();
+    const linia = req.query.nr?.trim();
+    const wartoscdnia = req.query.dzien;
+
+    console.log('⏱️ Odebrana godzina:', godzinaOdjazdu);
+    console.log('📍 Odebrany kierunek:', kierunek);
+    console.log('🚌 Odebrana linia:', linia);
+
+    if (!godzinaOdjazdu || !kierunek || !linia || !wartoscdnia) {
+        return res.status(400).json({
+            message: 'Brakuje danych: godzina, kierunek, linia lub wartość dnia.'
+        });
+    }
+
+    const filePath = path.join(__dirname, 'Brygady', 'WYNIKI', 'Gotowe_brygady', wartoscdnia, 'PojazdyLIVE.txt');
+
+    fs.readFile(filePath, 'utf8', (err, content) => {
+        if (err) {
+            console.error('❌ Błąd odczytu pliku:', err);
+            return res.status(500).json({
+                message: 'Błąd serwera podczas odczytu pliku.'
+            });
+        }
+
+        const godzinaBezSekund = godzinaOdjazdu.substring(0, 5);
+        const slowaZZapytania = kierunek.split(/\s+/);
+        let najlepszeDopasowanie = null;
+        let maksLiczbaSlow = 0;
+
+        const lines = content.split('\n').filter(line => line.trim() !== '');
+        console.log(`📂 Przeszukuję ${lines.length} linii...`);
+
+        for (const line of lines) {
+            const [godzinaZPliku, brygada, kierunekZPliku, liniaZPliku] = line.split('\t').map(x => x?.trim());
+
+            if (!godzinaZPliku || !kierunekZPliku || !liniaZPliku) continue;
+
+            if (godzinaZPliku.substring(0, 5) === godzinaBezSekund && liniaZPliku === linia) {
+                const kierunekPoMyślniku = kierunekZPliku.split('-').pop().trim().toLowerCase();
+
+                const liczbaPasujacychSlow = slowaZZapytania.filter(slowo =>
+                    kierunekPoMyślniku.includes(slowo)
+                ).length;
+
+                console.log(`🔍 Sprawdzam "${kierunekZPliku}" | Pasujące słowa: ${liczbaPasujacychSlow}`);
+
+                if (liczbaPasujacychSlow > maksLiczbaSlow) {
+                    maksLiczbaSlow = liczbaPasujacychSlow;
+                    najlepszeDopasowanie = {
+                        brygada,
+                        linia: liniaZPliku
+                    };
+                }
+            }
+        }
+
+        if (najlepszeDopasowanie) {
+            console.log(`✅ Najlepsze dopasowanie:`, najlepszeDopasowanie);
+            return res.json(najlepszeDopasowanie);
+        }
+
+        console.warn('⚠️ Brak dopasowania – zwracam "Nieznana".');
+        res.json({
+            brygada: '',
+            linia: ''
+        });
+    });
+});
+
+
+
+
+app.get('/api/brygadaStrona', (req, res) => {
     const godzinaOdjazdu = req.query.godzina;
     const kierunek = req.query.kierunek;
     const wartoscdnia = req.query.dzien;
@@ -109,7 +183,6 @@ app.get('/api/brygada', (req, res) => {
         });
     });
 });
-
 
 
 

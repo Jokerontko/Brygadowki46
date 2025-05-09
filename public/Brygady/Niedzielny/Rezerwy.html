@@ -221,10 +221,29 @@
         async function init() {
             await fetchAndDisplayData();
             highlightActiveRows();
+            checkIfEmptyAndDisplayMessage();
             setInterval(highlightActiveRows, 45000);
         }
 
         window.addEventListener("DOMContentLoaded", init);
+
+
+
+
+
+        function checkIfEmptyAndDisplayMessage() {
+            const tableBody = document.getElementById('dataTableBody');
+            if (tableBody.querySelectorAll('tr').length === 0) {
+                const tr = document.createElement('tr');
+                const td = document.createElement('td');
+                td.setAttribute('colspan', '4'); // liczba kolumn w tabeli
+                td.textContent = 'Brak danych';
+                td.style.textAlign = 'center';
+                td.style.fontStyle = 'italic';
+                tr.appendChild(td);
+                tableBody.appendChild(tr);
+            }
+        }
 
     </script>
 

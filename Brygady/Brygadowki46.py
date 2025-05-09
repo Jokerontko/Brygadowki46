@@ -388,11 +388,11 @@ def StwórzGodzRozpGodzZak():
                     end_file_path = os.path.join(folder_path, 'Godz_Zak.txt')
 
                     # Zapisujemy najmniejszy czas do Godz_Rozp.txt
-                    with open(start_file_path, 'a', encoding='utf-8') as start_file:
+                    with open(start_file_path, 'w', encoding='utf-8') as start_file:
                         start_file.write(min_time + '\n')
 
                     # Zapisujemy największy czas do Godz_Zak.txt
-                    with open(end_file_path, 'a', encoding='utf-8') as end_file:
+                    with open(end_file_path, 'w', encoding='utf-8') as end_file:
                         end_file.write(max_time + '\n')
 
                     print(f"Zapisano do {start_file_path} i {end_file_path}.")
@@ -2097,20 +2097,39 @@ def time_difference_in_hours(start_time, end_time):
     difference = end_obj - start_obj
     return difference.total_seconds() / 3600
 
+import os
+import re
+import subprocess
+import time
+
 def UtworzGodzPodmiany():
     for folder in ["1", "2", "3", "4"]:
-        input_path = f"WYNIKI/Gotowe_brygady/{folder}/PodmianyStronaKierowców.txt"
+        input_path = f"WYNIKI/Gotowe_brygady/{folder}/PodmianyStronaKierowcow.txt"
         print(f"Sprawdzanie pliku: {input_path}")
         
         if not os.path.exists(input_path):
-            print(f"Plik {input_path} nie istnieje.")
-            continue
-        
+            wyborr = input(f"Plik {input_path} nie istnieje. Czy stworzyć plik? (tak/nie): ")
+            if wyborr.lower() == "tak":
+                os.makedirs(os.path.dirname(input_path), exist_ok=True)
+                with open(input_path, "w", encoding="utf-8") as f:
+                    f.write("")  # pusty plik
+
+                print("Otwieranie pliku w edytorze tekstowym. Wklej dane i zapisz plik, potem zamknij edytor.")
+                if os.name == 'nt':  # Windows
+                    subprocess.Popen(['notepad.exe', input_path])
+                else:  # Unix-like
+                    subprocess.call(['xdg-open', input_path])
+
+                input("Naciśnij Enter po zamknięciu edytora, aby kontynuować...")
+            else:
+                print(f"Pomijanie folderu {folder}, ponieważ plik nie został utworzony.")
+                continue
+
         with open(input_path, "r", encoding="utf-8") as file:
             lines = file.readlines()
-        
+
         print(f"Wczytano {len(lines)} linijek z pliku w folderze {folder}.")
-        
+
         for i, line in enumerate(lines):
             print(f"Przetwarzanie linii: {line.strip()}")
             match = re.match(r"(\S+)\t(\d{1,2}:\d{2}) - (\d{1,2}:\d{2})", line)
@@ -2163,60 +2182,68 @@ def UtworzGodzPodmiany():
 
 
 
+
+
+
+
+
+
+import os
+import re
+
 def parse_kursy_file(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
         lines = file.readlines()
-    
+
+    written_files = set()  # Śledzenie plików, które już zostały utworzone
+
     i = 0
     while i < len(lines):
         line = lines[i].strip()
-        
+
         if line.startswith("Folder:"):
-            # Pobranie numeru folderu
             folder_number = line.split(" ")[1]
-            
-            # Pobranie numeru linii
+
             i += 1
             match = re.search(r'\[(.*?)\]', lines[i])
             if match:
                 line_number = match.group(1)
             else:
                 continue
-            
-            # Przesunięcie do tabeli
+
             while i < len(lines) and not lines[i].startswith("route_id"):
                 i += 1
-            
-            # Przetwarzanie danych z tabeli
+
             i += 2  # Pominięcie linii z kreskami
             while i < len(lines) and lines[i].strip():
                 parts = lines[i].split("\t")
                 if len(parts) >= 6:
                     departure_time = parts[4]
                     route_id = parts[0]
-                    stop_name = parts[6].strip().replace("/", "_")  # Zmiana '/' na '_'
-                    
-                    # Sprawdzamy, czy linia jest ostatnia w rozkładzie
+                    stop_name = parts[6].strip().replace("/", "_")
+
                     if i + 1 < len(lines) and lines[i + 1].strip() == "":
-                        break  # Jeśli to ostatnia linia, nie zapisuj jej
-                    
-                    # Wyciągnięcie wartości x z file_path (np. "x" z "WYNIKI/Gotowe_brygady/x/Kursy.txt")
-                    folder_part = file_path.split("/")[2]  # Zakładając, że "x" jest w trzeciej części ścieżki
+                        break
+
+                    folder_part = file_path.split("/")[2]
                     stop_folder = f"../Przystanki/{folder_part}/{stop_name}"
-                    
-                    # Tworzenie folderu przystanku
                     os.makedirs(stop_folder, exist_ok=True)
-                    
-                    # Ścieżka do pliku linii
+
                     stop_file = os.path.join(stop_folder, f"{line_number}.txt")
-                    
-                    # Dopisywanie danych do pliku
+
+                    # Zerowanie pliku przy pierwszym użyciu
+                    if stop_file not in written_files:
+                        with open(stop_file, "w", encoding="utf-8") as f:
+                            pass  # Zeruje plik
+                        written_files.add(stop_file)
+
                     with open(stop_file, "a", encoding="utf-8") as f:
                         f.write(f"{departure_time}\t{folder_number}\t{route_id}\n")
-                
+
                 i += 1
         else:
             i += 1
+
     
     
     
@@ -2327,8 +2354,37 @@ def Wczytaj_Przystanki():
             f.write(name + "\n")
 
 
+def ZmienNazewnictwo():
+    base_path = 'WYNIKI/Gotowe_Brygady'
+    os.chdir(base_path)
     
-    
+    input("Zmieniam nazwy następująco: \n 1 > 4 \n 2 > 1 \n 3 > 2 \n 4 > 3 \n Kontynuować?")
+
+    # Krok 1: Zmiana oryginalnych folderów na tymczasowe nazwy
+    pierwsza_zamiana = {
+        "1": "to 4",
+        "2": "to 1",
+        "3": "to 2",
+        "4": "to 3",
+    }
+
+    for old_name, temp_name in pierwsza_zamiana.items():
+        if os.path.exists(old_name):
+            os.rename(old_name, temp_name)
+
+    # Krok 2: Zmiana tymczasowych folderów na nowe końcowe nazwy
+    druga_zamiana = {
+        "to 1": "1",
+        "to 2": "2",
+        "to 3": "3",
+        "to 4": "4",
+    }
+
+    for temp_name, final_name in druga_zamiana.items():
+        if os.path.exists(temp_name):
+            os.rename(temp_name, final_name)
+
+    print("Foldery zostały pomyślnie zmienione.")
 
     
     
@@ -2455,15 +2511,37 @@ def menu():
             Wczytaj_Przystanki()
             input("Gotowe.")
         elif wybor == "20":
+            clear_screen()
             WczytajBrygady()            
             WczytajNumeracje()
             NazwijBrygady()
+            clear_screen()
+            Czyzmienic = input("Czy chcesz zmienić nazwy folderów? t/n: ")
+            if Czyzmienic == "t":
+                ZmienNazewnictwo()
+            clear_screen()
+            czyrezerwa = input("Czy chcesz dodać rezerwe? t/n: ")
+            while czyrezerwa == 't':
+                DodajRezerwe()
+                RezerwaList()
+                czyrezerwa = input("Gotowe, czy chcesz dodać jeszcze jedną? t/n: ")
+            clear_screen()
+            czypodmiany = input("Czy chcesz aby system wygenerował automatycznie podmiany kierowców? t/n : ")
+            if czypodmiany == "t":
+                UtworzGodzPodmiany()
+                PodmianaList()
+                PodmianaBAZA()
             UtwórzGOTOWEtxt()
             StwórzLinietxt()            
             StwórzGodzRozpGodzZak()
-            CzyBIS() 
+            CzyBIS()
             ZaproponujBrygadyBIS()
             StwórzZbiorczyKursy()
+            parse_kursy_file("WYNIKI/Gotowe_brygady/1/Kursy.txt")
+            parse_kursy_file("WYNIKI/Gotowe_brygady/2/Kursy.txt")
+            parse_kursy_file("WYNIKI/Gotowe_brygady/3/Kursy.txt")
+            parse_kursy_file("WYNIKI/Gotowe_brygady/4/Kursy.txt")
+            Wczytaj_Przystanki()
             input("Gotowe.")            
 
 

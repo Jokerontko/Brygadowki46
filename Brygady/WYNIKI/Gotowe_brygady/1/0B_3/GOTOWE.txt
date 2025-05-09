@@ -1,0 +1,585 @@
+route_id	service_id	trip_id	arrival_time	departure_time	stop_headsign	stop_name
+-------------------------------------------------------------------------------
+1877	1	217394	16:48:00	16:48:00		Dworzec Główny PKP 03
+1877	1	217394	16:50:00	16:50:00		Pl. Kilińskiego 01
+1877	1	217394	16:50:00	16:50:00		Pl. Kilińskiego 01
+1877	1	217394	16:52:00	16:52:00		Pl. Wolności 03
+1877	1	217394	16:52:00	16:52:00		Pl. Wolności 03
+1877	1	217394	16:53:00	16:53:00		Piłsudskiego ZDZ 01 nż
+1877	1	217394	16:53:00	16:53:00		Piłsudskiego ZDZ 01 nż
+1877	1	217394	16:54:00	16:54:00		Rejtana / Lwowska 01
+1877	1	217394	16:54:00	16:54:00		Rejtana / Lwowska 01
+1877	1	217394	16:55:00	16:55:00		Rejtana / Kustronia 03 nż
+1877	1	217394	16:55:00	16:55:00		Rejtana / Kustronia 03 nż
+1877	1	217394	16:56:00	16:56:00		Rejtana uniwersytet 05
+1877	1	217394	16:56:00	16:56:00		Rejtana uniwersytet 05
+1877	1	217394	16:58:00	16:58:00		Rejtana / Kopisto 07
+1877	1	217394	16:58:00	16:58:00		Rejtana / Kopisto 07
+1877	1	217394	16:59:00	16:59:00		Rejtana / Popiełuszki 09
+1877	1	217394	16:59:00	16:59:00		Rejtana / Popiełuszki 09
+1877	1	217394	17:02:00	17:02:00		Powst. Warszawy / Rejtana 13
+1877	1	217394	17:02:00	17:02:00		Powst. Warszawy / Rejtana 13
+1877	1	217394	17:03:00	17:03:00		Powst. Warszawy szkoła 11
+1877	1	217394	17:03:00	17:03:00		Powst. Warszawy szkoła 11
+1877	1	217394	17:04:00	17:04:00		Powst. Warszawy dom studenta 09
+1877	1	217394	17:04:00	17:04:00		Powst. Warszawy dom studenta 09
+1877	1	217394	17:06:00	17:06:00		Powst. Warszawy stadion 05 nż
+1877	1	217394	17:06:00	17:06:00		Powst. Warszawy stadion 05 nż
+1877	1	217394	17:07:00	17:07:00		Powst. Warszawy / Hetmańska 03
+1877	1	217394	17:07:00	17:07:00		Powst. Warszawy / Hetmańska 03
+1877	1	217394	17:08:00	17:08:00		Powst. Warszawy politechnika 01
+1877	1	217394	17:08:00	17:08:00		Powst. Warszawy politechnika 01
+1877	1	217394	17:10:00	17:10:00		Dąbrowskiego / Chrobrego 07
+1877	1	217394	17:10:00	17:10:00		Dąbrowskiego / Chrobrego 07
+1877	1	217394	17:11:00	17:11:00		Dąbrowskiego KW. Policji 03
+1877	1	217394	17:11:00	17:11:00		Dąbrowskiego KW. Policji 03
+1877	1	217394	17:12:00	17:12:00		Dąbrowskiego park 01 nż
+1877	1	217394	17:12:00	17:12:00		Dąbrowskiego park 01 nż
+1877	1	217394	17:16:00	17:16:00		Lisa-Kuli 02
+1877	1	217394	17:16:00	17:16:00		Lisa-Kuli 02
+1877	1	217394	17:17:00	17:17:00		Cieplińskiego 01
+1877	1	217394	17:17:00	17:17:00		Cieplińskiego 01
+1877	1	217394	17:18:00	17:18:00		Piłsudskiego U. Wojewódzki 05
+1877	1	217394	17:18:00	17:18:00		Piłsudskiego U. Wojewódzki 05
+1877	1	217394	17:21:00	17:21:00		Dworzec Główny PKP 03
+1877	1	217394	17:21:00	17:21:00		Dworzec Główny PKP 03
+
+1877	1	217568	17:48:00	17:48:00		Dworzec Główny PKP 03
+1877	1	217568	17:48:00	17:48:00		Dworzec Główny PKP 03
+1877	1	217568	17:50:00	17:50:00		Pl. Kilińskiego 01
+1877	1	217568	17:50:00	17:50:00		Pl. Kilińskiego 01
+1877	1	217568	17:52:00	17:52:00		Pl. Wolności 03
+1877	1	217568	17:52:00	17:52:00		Pl. Wolności 03
+1877	1	217568	17:53:00	17:53:00		Piłsudskiego ZDZ 01 nż
+1877	1	217568	17:53:00	17:53:00		Piłsudskiego ZDZ 01 nż
+1877	1	217568	17:54:00	17:54:00		Rejtana / Lwowska 01
+1877	1	217568	17:54:00	17:54:00		Rejtana / Lwowska 01
+1877	1	217568	17:55:00	17:55:00		Rejtana / Kustronia 03 nż
+1877	1	217568	17:55:00	17:55:00		Rejtana / Kustronia 03 nż
+1877	1	217568	17:56:00	17:56:00		Rejtana uniwersytet 05
+1877	1	217568	17:56:00	17:56:00		Rejtana uniwersytet 05
+1877	1	217568	17:58:00	17:58:00		Rejtana / Kopisto 07
+1877	1	217568	17:58:00	17:58:00		Rejtana / Kopisto 07
+1877	1	217568	17:59:00	17:59:00		Rejtana / Popiełuszki 09
+1877	1	217568	17:59:00	17:59:00		Rejtana / Popiełuszki 09
+1877	1	217568	18:02:00	18:02:00		Powst. Warszawy / Rejtana 13
+1877	1	217568	18:02:00	18:02:00		Powst. Warszawy / Rejtana 13
+1877	1	217568	18:03:00	18:03:00		Powst. Warszawy szkoła 11
+1877	1	217568	18:03:00	18:03:00		Powst. Warszawy szkoła 11
+1877	1	217568	18:04:00	18:04:00		Powst. Warszawy dom studenta 09
+1877	1	217568	18:04:00	18:04:00		Powst. Warszawy dom studenta 09
+1877	1	217568	18:05:00	18:05:00		Powst. Warszawy stadion 05 nż
+1877	1	217568	18:05:00	18:05:00		Powst. Warszawy stadion 05 nż
+1877	1	217568	18:06:00	18:06:00		Powst. Warszawy / Hetmańska 03
+1877	1	217568	18:06:00	18:06:00		Powst. Warszawy / Hetmańska 03
+1877	1	217568	18:07:00	18:07:00		Powst. Warszawy politechnika 01
+1877	1	217568	18:07:00	18:07:00		Powst. Warszawy politechnika 01
+1877	1	217568	18:09:00	18:09:00		Dąbrowskiego / Chrobrego 07
+1877	1	217568	18:09:00	18:09:00		Dąbrowskiego / Chrobrego 07
+1877	1	217568	18:10:00	18:10:00		Dąbrowskiego KW. Policji 03
+1877	1	217568	18:10:00	18:10:00		Dąbrowskiego KW. Policji 03
+1877	1	217568	18:11:00	18:11:00		Dąbrowskiego park 01 nż
+1877	1	217568	18:11:00	18:11:00		Dąbrowskiego park 01 nż
+1877	1	217568	18:14:00	18:14:00		Lisa-Kuli 02
+1877	1	217568	18:14:00	18:14:00		Lisa-Kuli 02
+1877	1	217568	18:15:00	18:15:00		Cieplińskiego 01
+1877	1	217568	18:15:00	18:15:00		Cieplińskiego 01
+1877	1	217568	18:16:00	18:16:00		Piłsudskiego U. Wojewódzki 05
+1877	1	217568	18:16:00	18:16:00		Piłsudskiego U. Wojewódzki 05
+1877	1	217568	18:19:00	18:19:00		Dworzec Główny PKP 03
+1877	1	217568	18:19:00	18:19:00		Dworzec Główny PKP 03
+
+1877	1	217629	18:48:00	18:48:00		Dworzec Główny PKP 03
+1877	1	217629	18:48:00	18:48:00		Dworzec Główny PKP 03
+1877	1	217629	18:50:00	18:50:00		Pl. Kilińskiego 01
+1877	1	217629	18:50:00	18:50:00		Pl. Kilińskiego 01
+1877	1	217629	18:52:00	18:52:00		Pl. Wolności 03
+1877	1	217629	18:52:00	18:52:00		Pl. Wolności 03
+1877	1	217629	18:53:00	18:53:00		Piłsudskiego ZDZ 01 nż
+1877	1	217629	18:53:00	18:53:00		Piłsudskiego ZDZ 01 nż
+1877	1	217629	18:54:00	18:54:00		Rejtana / Lwowska 01
+1877	1	217629	18:54:00	18:54:00		Rejtana / Lwowska 01
+1877	1	217629	18:55:00	18:55:00		Rejtana / Kustronia 03 nż
+1877	1	217629	18:55:00	18:55:00		Rejtana / Kustronia 03 nż
+1877	1	217629	18:56:00	18:56:00		Rejtana uniwersytet 05
+1877	1	217629	18:56:00	18:56:00		Rejtana uniwersytet 05
+1877	1	217629	18:58:00	18:58:00		Rejtana / Kopisto 07
+1877	1	217629	18:58:00	18:58:00		Rejtana / Kopisto 07
+1877	1	217629	18:59:00	18:59:00		Rejtana / Popiełuszki 09
+1877	1	217629	18:59:00	18:59:00		Rejtana / Popiełuszki 09
+1877	1	217629	19:02:00	19:02:00		Powst. Warszawy / Rejtana 13
+1877	1	217629	19:02:00	19:02:00		Powst. Warszawy / Rejtana 13
+1877	1	217629	19:03:00	19:03:00		Powst. Warszawy szkoła 11
+1877	1	217629	19:03:00	19:03:00		Powst. Warszawy szkoła 11
+1877	1	217629	19:04:00	19:04:00		Powst. Warszawy dom studenta 09
+1877	1	217629	19:04:00	19:04:00		Powst. Warszawy dom studenta 09
+1877	1	217629	19:05:00	19:05:00		Powst. Warszawy stadion 05 nż
+1877	1	217629	19:05:00	19:05:00		Powst. Warszawy stadion 05 nż
+1877	1	217629	19:06:00	19:06:00		Powst. Warszawy / Hetmańska 03
+1877	1	217629	19:06:00	19:06:00		Powst. Warszawy / Hetmańska 03
+1877	1	217629	19:07:00	19:07:00		Powst. Warszawy politechnika 01
+1877	1	217629	19:07:00	19:07:00		Powst. Warszawy politechnika 01
+1877	1	217629	19:09:00	19:09:00		Dąbrowskiego / Chrobrego 07
+1877	1	217629	19:09:00	19:09:00		Dąbrowskiego / Chrobrego 07
+1877	1	217629	19:10:00	19:10:00		Dąbrowskiego KW. Policji 03
+1877	1	217629	19:10:00	19:10:00		Dąbrowskiego KW. Policji 03
+1877	1	217629	19:11:00	19:11:00		Dąbrowskiego park 01 nż
+1877	1	217629	19:11:00	19:11:00		Dąbrowskiego park 01 nż
+1877	1	217629	19:14:00	19:14:00		Lisa-Kuli 02
+1877	1	217629	19:14:00	19:14:00		Lisa-Kuli 02
+1877	1	217629	19:15:00	19:15:00		Cieplińskiego 01
+1877	1	217629	19:15:00	19:15:00		Cieplińskiego 01
+1877	1	217629	19:16:00	19:16:00		Piłsudskiego U. Wojewódzki 05
+1877	1	217629	19:16:00	19:16:00		Piłsudskiego U. Wojewódzki 05
+1877	1	217629	19:19:00	19:19:00		Dworzec Główny PKP 03
+1877	1	217629	19:19:00	19:19:00		Dworzec Główny PKP 03
+
+1877	1	217545	19:48:00	19:48:00		Dworzec Główny PKP 03
+1877	1	217545	19:48:00	19:48:00		Dworzec Główny PKP 03
+1877	1	217545	19:50:00	19:50:00		Pl. Kilińskiego 01
+1877	1	217545	19:50:00	19:50:00		Pl. Kilińskiego 01
+1877	1	217545	19:52:00	19:52:00		Pl. Wolności 03
+1877	1	217545	19:52:00	19:52:00		Pl. Wolności 03
+1877	1	217545	19:53:00	19:53:00		Piłsudskiego ZDZ 01 nż
+1877	1	217545	19:53:00	19:53:00		Piłsudskiego ZDZ 01 nż
+1877	1	217545	19:54:00	19:54:00		Rejtana / Lwowska 01
+1877	1	217545	19:54:00	19:54:00		Rejtana / Lwowska 01
+1877	1	217545	19:55:00	19:55:00		Rejtana / Kustronia 03 nż
+1877	1	217545	19:55:00	19:55:00		Rejtana / Kustronia 03 nż
+1877	1	217545	19:56:00	19:56:00		Rejtana uniwersytet 05
+1877	1	217545	19:56:00	19:56:00		Rejtana uniwersytet 05
+1877	1	217545	19:58:00	19:58:00		Rejtana / Kopisto 07
+1877	1	217545	19:58:00	19:58:00		Rejtana / Kopisto 07
+1877	1	217545	19:59:00	19:59:00		Rejtana / Popiełuszki 09
+1877	1	217545	19:59:00	19:59:00		Rejtana / Popiełuszki 09
+1877	1	217545	20:02:00	20:02:00		Powst. Warszawy / Rejtana 13
+1877	1	217545	20:02:00	20:02:00		Powst. Warszawy / Rejtana 13
+1877	1	217545	20:03:00	20:03:00		Powst. Warszawy szkoła 11
+1877	1	217545	20:03:00	20:03:00		Powst. Warszawy szkoła 11
+1877	1	217545	20:04:00	20:04:00		Powst. Warszawy dom studenta 09
+1877	1	217545	20:04:00	20:04:00		Powst. Warszawy dom studenta 09
+1877	1	217545	20:05:00	20:05:00		Powst. Warszawy stadion 05 nż
+1877	1	217545	20:05:00	20:05:00		Powst. Warszawy stadion 05 nż
+1877	1	217545	20:06:00	20:06:00		Powst. Warszawy / Hetmańska 03
+1877	1	217545	20:06:00	20:06:00		Powst. Warszawy / Hetmańska 03
+1877	1	217545	20:07:00	20:07:00		Powst. Warszawy politechnika 01
+1877	1	217545	20:07:00	20:07:00		Powst. Warszawy politechnika 01
+1877	1	217545	20:09:00	20:09:00		Dąbrowskiego / Chrobrego 07
+1877	1	217545	20:09:00	20:09:00		Dąbrowskiego / Chrobrego 07
+1877	1	217545	20:10:00	20:10:00		Dąbrowskiego KW. Policji 03
+1877	1	217545	20:10:00	20:10:00		Dąbrowskiego KW. Policji 03
+1877	1	217545	20:11:00	20:11:00		Dąbrowskiego park 01 nż
+1877	1	217545	20:11:00	20:11:00		Dąbrowskiego park 01 nż
+1877	1	217545	20:14:00	20:14:00		Lisa-Kuli 02
+1877	1	217545	20:14:00	20:14:00		Lisa-Kuli 02
+1877	1	217545	20:15:00	20:15:00		Cieplińskiego 01
+1877	1	217545	20:15:00	20:15:00		Cieplińskiego 01
+1877	1	217545	20:16:00	20:16:00		Piłsudskiego U. Wojewódzki 05
+1877	1	217545	20:16:00	20:16:00		Piłsudskiego U. Wojewódzki 05
+1877	1	217545	20:19:00	20:19:00		Dworzec Główny PKP 03
+1877	1	217545	20:19:00	20:19:00		Dworzec Główny PKP 03
+
+1877	1	216991	20:49:00	20:49:00		Dworzec Główny PKP 03
+1877	1	216991	20:49:00	20:49:00		Dworzec Główny PKP 03
+1877	1	216991	20:51:00	20:51:00		Pl. Kilińskiego 01
+1877	1	216991	20:51:00	20:51:00		Pl. Kilińskiego 01
+1877	1	216991	20:53:00	20:53:00		Pl. Wolności 03
+1877	1	216991	20:53:00	20:53:00		Pl. Wolności 03
+1877	1	216991	20:54:00	20:54:00		Piłsudskiego ZDZ 01 nż
+1877	1	216991	20:54:00	20:54:00		Piłsudskiego ZDZ 01 nż
+1877	1	216991	20:55:00	20:55:00		Rejtana / Lwowska 01
+1877	1	216991	20:55:00	20:55:00		Rejtana / Lwowska 01
+1877	1	216991	20:56:00	20:56:00		Rejtana / Kustronia 03 nż
+1877	1	216991	20:56:00	20:56:00		Rejtana / Kustronia 03 nż
+1877	1	216991	20:57:00	20:57:00		Rejtana uniwersytet 05
+1877	1	216991	20:57:00	20:57:00		Rejtana uniwersytet 05
+1877	1	216991	20:59:00	20:59:00		Rejtana / Kopisto 07
+1877	1	216991	20:59:00	20:59:00		Rejtana / Kopisto 07
+1877	1	216991	21:00:00	21:00:00		Rejtana / Popiełuszki 09
+1877	1	216991	21:00:00	21:00:00		Rejtana / Popiełuszki 09
+1877	1	216991	21:02:00	21:02:00		Powst. Warszawy / Rejtana 13
+1877	1	216991	21:02:00	21:02:00		Powst. Warszawy / Rejtana 13
+1877	1	216991	21:03:00	21:03:00		Powst. Warszawy szkoła 11
+1877	1	216991	21:03:00	21:03:00		Powst. Warszawy szkoła 11
+1877	1	216991	21:04:00	21:04:00		Powst. Warszawy dom studenta 09
+1877	1	216991	21:04:00	21:04:00		Powst. Warszawy dom studenta 09
+1877	1	216991	21:05:00	21:05:00		Powst. Warszawy stadion 05 nż
+1877	1	216991	21:05:00	21:05:00		Powst. Warszawy stadion 05 nż
+1877	1	216991	21:06:00	21:06:00		Powst. Warszawy / Hetmańska 03
+1877	1	216991	21:06:00	21:06:00		Powst. Warszawy / Hetmańska 03
+1877	1	216991	21:07:00	21:07:00		Powst. Warszawy politechnika 01
+1877	1	216991	21:07:00	21:07:00		Powst. Warszawy politechnika 01
+1877	1	216991	21:09:00	21:09:00		Dąbrowskiego / Chrobrego 07
+1877	1	216991	21:09:00	21:09:00		Dąbrowskiego / Chrobrego 07
+1877	1	216991	21:10:00	21:10:00		Dąbrowskiego KW. Policji 03
+1877	1	216991	21:10:00	21:10:00		Dąbrowskiego KW. Policji 03
+1877	1	216991	21:11:00	21:11:00		Dąbrowskiego park 01 nż
+1877	1	216991	21:11:00	21:11:00		Dąbrowskiego park 01 nż
+1877	1	216991	21:14:00	21:14:00		Lisa-Kuli 02
+1877	1	216991	21:14:00	21:14:00		Lisa-Kuli 02
+1877	1	216991	21:15:00	21:15:00		Cieplińskiego 01
+1877	1	216991	21:15:00	21:15:00		Cieplińskiego 01
+1877	1	216991	21:16:00	21:16:00		Piłsudskiego U. Wojewódzki 05
+1877	1	216991	21:16:00	21:16:00		Piłsudskiego U. Wojewódzki 05
+1877	1	216991	21:19:00	21:19:00		Dworzec Główny PKP 03
+1877	1	216991	21:19:00	21:19:00		Dworzec Główny PKP 03
+
+1877	1	216955	21:49:00	21:49:00		Dworzec Główny PKP 03
+1877	1	216955	21:49:00	21:49:00		Dworzec Główny PKP 03
+1877	1	216955	21:51:00	21:51:00		Pl. Kilińskiego 01
+1877	1	216955	21:51:00	21:51:00		Pl. Kilińskiego 01
+1877	1	216955	21:53:00	21:53:00		Pl. Wolności 03
+1877	1	216955	21:53:00	21:53:00		Pl. Wolności 03
+1877	1	216955	21:54:00	21:54:00		Piłsudskiego ZDZ 01 nż
+1877	1	216955	21:54:00	21:54:00		Piłsudskiego ZDZ 01 nż
+1877	1	216955	21:55:00	21:55:00		Rejtana / Lwowska 01
+1877	1	216955	21:55:00	21:55:00		Rejtana / Lwowska 01
+1877	1	216955	21:56:00	21:56:00		Rejtana / Kustronia 03 nż
+1877	1	216955	21:56:00	21:56:00		Rejtana / Kustronia 03 nż
+1877	1	216955	21:57:00	21:57:00		Rejtana uniwersytet 05
+1877	1	216955	21:57:00	21:57:00		Rejtana uniwersytet 05
+1877	1	216955	21:59:00	21:59:00		Rejtana / Kopisto 07
+1877	1	216955	21:59:00	21:59:00		Rejtana / Kopisto 07
+1877	1	216955	22:00:00	22:00:00		Rejtana / Popiełuszki 09
+1877	1	216955	22:00:00	22:00:00		Rejtana / Popiełuszki 09
+1877	1	216955	22:02:00	22:02:00		Powst. Warszawy / Rejtana 13
+1877	1	216955	22:02:00	22:02:00		Powst. Warszawy / Rejtana 13
+1877	1	216955	22:03:00	22:03:00		Powst. Warszawy szkoła 11
+1877	1	216955	22:03:00	22:03:00		Powst. Warszawy szkoła 11
+1877	1	216955	22:04:00	22:04:00		Powst. Warszawy dom studenta 09
+1877	1	216955	22:04:00	22:04:00		Powst. Warszawy dom studenta 09
+1877	1	216955	22:05:00	22:05:00		Powst. Warszawy stadion 05 nż
+1877	1	216955	22:05:00	22:05:00		Powst. Warszawy stadion 05 nż
+1877	1	216955	22:06:00	22:06:00		Powst. Warszawy / Hetmańska 03
+1877	1	216955	22:06:00	22:06:00		Powst. Warszawy / Hetmańska 03
+1877	1	216955	22:07:00	22:07:00		Powst. Warszawy politechnika 01
+1877	1	216955	22:07:00	22:07:00		Powst. Warszawy politechnika 01
+1877	1	216955	22:09:00	22:09:00		Dąbrowskiego / Chrobrego 07
+1877	1	216955	22:09:00	22:09:00		Dąbrowskiego / Chrobrego 07
+1877	1	216955	22:10:00	22:10:00		Dąbrowskiego KW. Policji 03
+1877	1	216955	22:10:00	22:10:00		Dąbrowskiego KW. Policji 03
+1877	1	216955	22:11:00	22:11:00		Dąbrowskiego park 01 nż
+1877	1	216955	22:11:00	22:11:00		Dąbrowskiego park 01 nż
+1877	1	216955	22:14:00	22:14:00		Lisa-Kuli 02
+1877	1	216955	22:14:00	22:14:00		Lisa-Kuli 02
+1877	1	216955	22:15:00	22:15:00		Cieplińskiego 01
+1877	1	216955	22:15:00	22:15:00		Cieplińskiego 01
+1877	1	216955	22:16:00	22:16:00		Piłsudskiego U. Wojewódzki 05
+1877	1	216955	22:16:00	22:16:00		Piłsudskiego U. Wojewódzki 05
+1877	1	216955	22:19:00	22:19:00		Dworzec Główny PKP 03
+1877	1	216955	22:19:00	22:19:00		Dworzec Główny PKP 03
+
+1877	1	217100	22:49:00	22:49:00		Dworzec Główny PKP 03
+1877	1	217100	22:49:00	22:49:00		Dworzec Główny PKP 03
+1877	1	217100	22:51:00	22:51:00		Pl. Kilińskiego 01
+1877	1	217100	22:51:00	22:51:00		Pl. Kilińskiego 01
+1877	1	217100	22:53:00	22:53:00		Pl. Wolności 03
+1877	1	217100	22:53:00	22:53:00		Pl. Wolności 03
+1877	1	217100	22:54:00	22:54:00		Piłsudskiego ZDZ 01 nż
+1877	1	217100	22:54:00	22:54:00		Piłsudskiego ZDZ 01 nż
+1877	1	217100	22:55:00	22:55:00		Rejtana / Lwowska 01
+1877	1	217100	22:55:00	22:55:00		Rejtana / Lwowska 01
+1877	1	217100	22:56:00	22:56:00		Rejtana / Kustronia 03 nż
+1877	1	217100	22:56:00	22:56:00		Rejtana / Kustronia 03 nż
+1877	1	217100	22:57:00	22:57:00		Rejtana uniwersytet 05
+1877	1	217100	22:57:00	22:57:00		Rejtana uniwersytet 05
+1877	1	217100	22:59:00	22:59:00		Rejtana / Kopisto 07
+1877	1	217100	22:59:00	22:59:00		Rejtana / Kopisto 07
+1877	1	217100	23:00:00	23:00:00		Rejtana / Popiełuszki 09
+1877	1	217100	23:00:00	23:00:00		Rejtana / Popiełuszki 09
+1877	1	217100	23:02:00	23:02:00		Powst. Warszawy / Rejtana 13
+1877	1	217100	23:02:00	23:02:00		Powst. Warszawy / Rejtana 13
+1877	1	217100	23:03:00	23:03:00		Powst. Warszawy szkoła 11
+1877	1	217100	23:03:00	23:03:00		Powst. Warszawy szkoła 11
+1877	1	217100	23:04:00	23:04:00		Powst. Warszawy dom studenta 09
+1877	1	217100	23:04:00	23:04:00		Powst. Warszawy dom studenta 09
+1877	1	217100	23:05:00	23:05:00		Powst. Warszawy stadion 05 nż
+1877	1	217100	23:05:00	23:05:00		Powst. Warszawy stadion 05 nż
+1877	1	217100	23:06:00	23:06:00		Powst. Warszawy / Hetmańska 03
+1877	1	217100	23:06:00	23:06:00		Powst. Warszawy / Hetmańska 03
+1877	1	217100	23:07:00	23:07:00		Powst. Warszawy politechnika 01
+1877	1	217100	23:07:00	23:07:00		Powst. Warszawy politechnika 01
+1877	1	217100	23:09:00	23:09:00		Dąbrowskiego / Chrobrego 07
+1877	1	217100	23:09:00	23:09:00		Dąbrowskiego / Chrobrego 07
+1877	1	217100	23:10:00	23:10:00		Dąbrowskiego KW. Policji 03
+1877	1	217100	23:10:00	23:10:00		Dąbrowskiego KW. Policji 03
+1877	1	217100	23:11:00	23:11:00		Dąbrowskiego park 01 nż
+1877	1	217100	23:11:00	23:11:00		Dąbrowskiego park 01 nż
+1877	1	217100	23:14:00	23:14:00		Lisa-Kuli 02
+1877	1	217100	23:14:00	23:14:00		Lisa-Kuli 02
+1877	1	217100	23:15:00	23:15:00		Cieplińskiego 01
+1877	1	217100	23:15:00	23:15:00		Cieplińskiego 01
+1877	1	217100	23:16:00	23:16:00		Piłsudskiego U. Wojewódzki 05
+1877	1	217100	23:16:00	23:16:00		Piłsudskiego U. Wojewódzki 05
+1877	1	217100	23:19:00	23:19:00		Dworzec Główny PKP 03
+1877	1	217100	23:19:00	23:19:00		Dworzec Główny PKP 03
+
+1877	1	217626	23:34:00	23:34:00		Dworzec Główny PKP 03
+1877	1	217626	23:34:00	23:34:00		Dworzec Główny PKP 03
+1877	1	217626	23:36:00	23:36:00		Pl. Kilińskiego 01
+1877	1	217626	23:36:00	23:36:00		Pl. Kilińskiego 01
+1877	1	217626	23:38:00	23:38:00		Pl. Wolności 03
+1877	1	217626	23:38:00	23:38:00		Pl. Wolności 03
+1877	1	217626	23:39:00	23:39:00		Piłsudskiego ZDZ 01 nż
+1877	1	217626	23:39:00	23:39:00		Piłsudskiego ZDZ 01 nż
+1877	1	217626	23:40:00	23:40:00		Rejtana / Lwowska 01
+1877	1	217626	23:40:00	23:40:00		Rejtana / Lwowska 01
+1877	1	217626	23:41:00	23:41:00		Rejtana / Kustronia 03 nż
+1877	1	217626	23:41:00	23:41:00		Rejtana / Kustronia 03 nż
+1877	1	217626	23:42:00	23:42:00		Rejtana uniwersytet 05
+1877	1	217626	23:42:00	23:42:00		Rejtana uniwersytet 05
+1877	1	217626	23:44:00	23:44:00		Rejtana / Kopisto 07
+1877	1	217626	23:44:00	23:44:00		Rejtana / Kopisto 07
+1877	1	217626	23:45:00	23:45:00		Rejtana / Popiełuszki 09
+1877	1	217626	23:45:00	23:45:00		Rejtana / Popiełuszki 09
+1877	1	217626	23:47:00	23:47:00		Powst. Warszawy / Rejtana 13
+1877	1	217626	23:47:00	23:47:00		Powst. Warszawy / Rejtana 13
+1877	1	217626	23:48:00	23:48:00		Powst. Warszawy szkoła 11
+1877	1	217626	23:48:00	23:48:00		Powst. Warszawy szkoła 11
+1877	1	217626	23:49:00	23:49:00		Powst. Warszawy dom studenta 09
+1877	1	217626	23:49:00	23:49:00		Powst. Warszawy dom studenta 09
+1877	1	217626	23:50:00	23:50:00		Powst. Warszawy stadion 05 nż
+1877	1	217626	23:50:00	23:50:00		Powst. Warszawy stadion 05 nż
+1877	1	217626	23:51:00	23:51:00		Powst. Warszawy / Hetmańska 03
+1877	1	217626	23:51:00	23:51:00		Powst. Warszawy / Hetmańska 03
+1877	1	217626	23:52:00	23:52:00		Powst. Warszawy politechnika 01
+1877	1	217626	23:52:00	23:52:00		Powst. Warszawy politechnika 01
+1877	1	217626	23:54:00	23:54:00		Dąbrowskiego / Chrobrego 07
+1877	1	217626	23:54:00	23:54:00		Dąbrowskiego / Chrobrego 07
+1877	1	217626	23:55:00	23:55:00		Dąbrowskiego KW. Policji 03
+1877	1	217626	23:55:00	23:55:00		Dąbrowskiego KW. Policji 03
+1877	1	217626	23:56:00	23:56:00		Dąbrowskiego park 01 nż
+1877	1	217626	23:56:00	23:56:00		Dąbrowskiego park 01 nż
+1877	1	217626	23:59:00	23:59:00		Lisa-Kuli 02
+1877	1	217626	23:59:00	23:59:00		Lisa-Kuli 02
+1877	1	217626	24:00:00	24:00:00		Cieplińskiego 01
+1877	1	217626	24:00:00	24:00:00		Cieplińskiego 01
+1877	1	217626	24:01:00	24:01:00		Piłsudskiego U. Wojewódzki 05
+1877	1	217626	24:01:00	24:01:00		Piłsudskiego U. Wojewódzki 05
+1877	1	217626	24:04:00	24:04:00		Dworzec Główny PKP 03
+1877	1	217626	24:04:00	24:04:00		Dworzec Główny PKP 03
+
+1877	1	217438	24:22:00	24:22:00		Dworzec Główny PKP 03
+1877	1	217438	24:22:00	24:22:00		Dworzec Główny PKP 03
+1877	1	217438	24:24:00	24:24:00		Pl. Kilińskiego 01
+1877	1	217438	24:24:00	24:24:00		Pl. Kilińskiego 01
+1877	1	217438	24:26:00	24:26:00		Pl. Wolności 03
+1877	1	217438	24:26:00	24:26:00		Pl. Wolności 03
+1877	1	217438	24:27:00	24:27:00		Piłsudskiego ZDZ 01 nż
+1877	1	217438	24:27:00	24:27:00		Rejtana / Lwowska 01
+1877	1	217438	24:27:00	24:27:00		Piłsudskiego ZDZ 01 nż
+1877	1	217438	24:27:00	24:27:00		Rejtana / Lwowska 01
+1877	1	217438	24:28:00	24:28:00		Rejtana / Kustronia 03 nż
+1877	1	217438	24:28:00	24:28:00		Rejtana / Kustronia 03 nż
+1877	1	217438	24:29:00	24:29:00		Rejtana uniwersytet 05
+1877	1	217438	24:29:00	24:29:00		Rejtana uniwersytet 05
+1877	1	217438	24:30:00	24:30:00		Rejtana / Kopisto 07
+1877	1	217438	24:30:00	24:30:00		Rejtana / Kopisto 07
+1877	1	217438	24:31:00	24:31:00		Rejtana / Popiełuszki 09
+1877	1	217438	24:31:00	24:31:00		Rejtana / Popiełuszki 09
+1877	1	217438	24:32:00	24:32:00		Powst. Warszawy / Rejtana 13
+1877	1	217438	24:32:00	24:32:00		Powst. Warszawy / Rejtana 13
+1877	1	217438	24:33:00	24:33:00		Powst. Warszawy szkoła 11
+1877	1	217438	24:33:00	24:33:00		Powst. Warszawy szkoła 11
+1877	1	217438	24:34:00	24:34:00		Powst. Warszawy dom studenta 09
+1877	1	217438	24:34:00	24:34:00		Powst. Warszawy dom studenta 09
+1877	1	217438	24:35:00	24:35:00		Powst. Warszawy stadion 05 nż
+1877	1	217438	24:35:00	24:35:00		Powst. Warszawy stadion 05 nż
+1877	1	217438	24:36:00	24:36:00		Powst. Warszawy / Hetmańska 03
+1877	1	217438	24:36:00	24:36:00		Powst. Warszawy / Hetmańska 03
+1877	1	217438	24:37:00	24:37:00		Powst. Warszawy politechnika 01
+1877	1	217438	24:37:00	24:37:00		Powst. Warszawy politechnika 01
+1877	1	217438	24:38:00	24:38:00		Dąbrowskiego / Chrobrego 07
+1877	1	217438	24:38:00	24:38:00		Dąbrowskiego / Chrobrego 07
+1877	1	217438	24:39:00	24:39:00		Dąbrowskiego KW. Policji 03
+1877	1	217438	24:39:00	24:39:00		Dąbrowskiego KW. Policji 03
+1877	1	217438	24:40:00	24:40:00		Dąbrowskiego park 01 nż
+1877	1	217438	24:40:00	24:40:00		Dąbrowskiego park 01 nż
+1877	1	217438	24:42:00	24:42:00		Lisa-Kuli 02
+1877	1	217438	24:42:00	24:42:00		Lisa-Kuli 02
+1877	1	217438	24:43:00	24:43:00		Cieplińskiego 01
+1877	1	217438	24:43:00	24:43:00		Cieplińskiego 01
+1877	1	217438	24:44:00	24:44:00		Piłsudskiego U. Wojewódzki 05
+1877	1	217438	24:44:00	24:44:00		Piłsudskiego U. Wojewódzki 05
+1877	1	217438	24:47:00	24:47:00		Dworzec Główny PKP 03
+1877	1	217438	24:47:00	24:47:00		Dworzec Główny PKP 03
+
+1877	1	217393	25:07:00	25:07:00		Dworzec Główny PKP 03
+1877	1	217393	25:07:00	25:07:00		Dworzec Główny PKP 03
+1877	1	217393	25:09:00	25:09:00		Pl. Kilińskiego 01
+1877	1	217393	25:09:00	25:09:00		Pl. Kilińskiego 01
+1877	1	217393	25:11:00	25:11:00		Pl. Wolności 03
+1877	1	217393	25:11:00	25:11:00		Pl. Wolności 03
+1877	1	217393	25:12:00	25:12:00		Piłsudskiego ZDZ 01 nż
+1877	1	217393	25:12:00	25:12:00		Rejtana / Lwowska 01
+1877	1	217393	25:12:00	25:12:00		Piłsudskiego ZDZ 01 nż
+1877	1	217393	25:12:00	25:12:00		Rejtana / Lwowska 01
+1877	1	217393	25:13:00	25:13:00		Rejtana / Kustronia 03 nż
+1877	1	217393	25:13:00	25:13:00		Rejtana / Kustronia 03 nż
+1877	1	217393	25:14:00	25:14:00		Rejtana uniwersytet 05
+1877	1	217393	25:14:00	25:14:00		Rejtana uniwersytet 05
+1877	1	217393	25:15:00	25:15:00		Rejtana / Kopisto 07
+1877	1	217393	25:15:00	25:15:00		Rejtana / Kopisto 07
+1877	1	217393	25:16:00	25:16:00		Rejtana / Popiełuszki 09
+1877	1	217393	25:16:00	25:16:00		Rejtana / Popiełuszki 09
+1877	1	217393	25:17:00	25:17:00		Powst. Warszawy / Rejtana 13
+1877	1	217393	25:17:00	25:17:00		Powst. Warszawy / Rejtana 13
+1877	1	217393	25:18:00	25:18:00		Powst. Warszawy szkoła 11
+1877	1	217393	25:18:00	25:18:00		Powst. Warszawy szkoła 11
+1877	1	217393	25:19:00	25:19:00		Powst. Warszawy dom studenta 09
+1877	1	217393	25:19:00	25:19:00		Powst. Warszawy dom studenta 09
+1877	1	217393	25:20:00	25:20:00		Powst. Warszawy stadion 05 nż
+1877	1	217393	25:20:00	25:20:00		Powst. Warszawy stadion 05 nż
+1877	1	217393	25:21:00	25:21:00		Powst. Warszawy / Hetmańska 03
+1877	1	217393	25:21:00	25:21:00		Powst. Warszawy / Hetmańska 03
+1877	1	217393	25:22:00	25:22:00		Powst. Warszawy politechnika 01
+1877	1	217393	25:22:00	25:22:00		Powst. Warszawy politechnika 01
+1877	1	217393	25:23:00	25:23:00		Dąbrowskiego / Chrobrego 07
+1877	1	217393	25:23:00	25:23:00		Dąbrowskiego / Chrobrego 07
+1877	1	217393	25:24:00	25:24:00		Dąbrowskiego KW. Policji 03
+1877	1	217393	25:24:00	25:24:00		Dąbrowskiego KW. Policji 03
+1877	1	217393	25:25:00	25:25:00		Dąbrowskiego park 01 nż
+1877	1	217393	25:25:00	25:25:00		Dąbrowskiego park 01 nż
+1877	1	217393	25:27:00	25:27:00		Lisa-Kuli 02
+1877	1	217393	25:27:00	25:27:00		Lisa-Kuli 02
+1877	1	217393	25:28:00	25:28:00		Cieplińskiego 01
+1877	1	217393	25:28:00	25:28:00		Cieplińskiego 01
+1877	1	217393	25:29:00	25:29:00		Piłsudskiego U. Wojewódzki 05
+1877	1	217393	25:29:00	25:29:00		Piłsudskiego U. Wojewódzki 05
+1877	1	217393	25:32:00	25:32:00		Dworzec Główny PKP 03
+1877	1	217393	25:32:00	25:32:00		Dworzec Główny PKP 03
+
+1877	1	217331	25:52:00	25:52:00		Dworzec Główny PKP 03
+1877	1	217331	25:52:00	25:52:00		Dworzec Główny PKP 03
+1877	1	217331	25:54:00	25:54:00		Pl. Kilińskiego 01
+1877	1	217331	25:54:00	25:54:00		Pl. Kilińskiego 01
+1877	1	217331	25:56:00	25:56:00		Pl. Wolności 03
+1877	1	217331	25:56:00	25:56:00		Pl. Wolności 03
+1877	1	217331	25:57:00	25:57:00		Piłsudskiego ZDZ 01 nż
+1877	1	217331	25:57:00	25:57:00		Rejtana / Lwowska 01
+1877	1	217331	25:57:00	25:57:00		Piłsudskiego ZDZ 01 nż
+1877	1	217331	25:57:00	25:57:00		Rejtana / Lwowska 01
+1877	1	217331	25:58:00	25:58:00		Rejtana / Kustronia 03 nż
+1877	1	217331	25:58:00	25:58:00		Rejtana / Kustronia 03 nż
+1877	1	217331	25:59:00	25:59:00		Rejtana uniwersytet 05
+1877	1	217331	25:59:00	25:59:00		Rejtana uniwersytet 05
+1877	1	217331	26:00:00	26:00:00		Rejtana / Kopisto 07
+1877	1	217331	26:00:00	26:00:00		Rejtana / Kopisto 07
+1877	1	217331	26:01:00	26:01:00		Rejtana / Popiełuszki 09
+1877	1	217331	26:01:00	26:01:00		Rejtana / Popiełuszki 09
+1877	1	217331	26:02:00	26:02:00		Powst. Warszawy / Rejtana 13
+1877	1	217331	26:02:00	26:02:00		Powst. Warszawy / Rejtana 13
+1877	1	217331	26:03:00	26:03:00		Powst. Warszawy szkoła 11
+1877	1	217331	26:03:00	26:03:00		Powst. Warszawy szkoła 11
+1877	1	217331	26:04:00	26:04:00		Powst. Warszawy dom studenta 09
+1877	1	217331	26:04:00	26:04:00		Powst. Warszawy dom studenta 09
+1877	1	217331	26:05:00	26:05:00		Powst. Warszawy stadion 05 nż
+1877	1	217331	26:05:00	26:05:00		Powst. Warszawy stadion 05 nż
+1877	1	217331	26:06:00	26:06:00		Powst. Warszawy / Hetmańska 03
+1877	1	217331	26:06:00	26:06:00		Powst. Warszawy / Hetmańska 03
+1877	1	217331	26:07:00	26:07:00		Powst. Warszawy politechnika 01
+1877	1	217331	26:07:00	26:07:00		Powst. Warszawy politechnika 01
+1877	1	217331	26:08:00	26:08:00		Dąbrowskiego / Chrobrego 07
+1877	1	217331	26:08:00	26:08:00		Dąbrowskiego / Chrobrego 07
+1877	1	217331	26:09:00	26:09:00		Dąbrowskiego KW. Policji 03
+1877	1	217331	26:09:00	26:09:00		Dąbrowskiego KW. Policji 03
+1877	1	217331	26:10:00	26:10:00		Dąbrowskiego park 01 nż
+1877	1	217331	26:10:00	26:10:00		Dąbrowskiego park 01 nż
+1877	1	217331	26:12:00	26:12:00		Lisa-Kuli 02
+1877	1	217331	26:12:00	26:12:00		Lisa-Kuli 02
+1877	1	217331	26:13:00	26:13:00		Cieplińskiego 01
+1877	1	217331	26:13:00	26:13:00		Cieplińskiego 01
+1877	1	217331	26:14:00	26:14:00		Piłsudskiego U. Wojewódzki 05
+1877	1	217331	26:14:00	26:14:00		Piłsudskiego U. Wojewódzki 05
+1877	1	217331	26:17:00	26:17:00		Dworzec Główny PKP 03
+1877	1	217331	26:17:00	26:17:00		Dworzec Główny PKP 03
+
+1877	1	217572	26:37:00	26:37:00		Dworzec Główny PKP 03
+1877	1	217572	26:37:00	26:37:00		Dworzec Główny PKP 03
+1877	1	217572	26:39:00	26:39:00		Pl. Kilińskiego 01
+1877	1	217572	26:39:00	26:39:00		Pl. Kilińskiego 01
+1877	1	217572	26:41:00	26:41:00		Pl. Wolności 03
+1877	1	217572	26:41:00	26:41:00		Pl. Wolności 03
+1877	1	217572	26:42:00	26:42:00		Piłsudskiego ZDZ 01 nż
+1877	1	217572	26:42:00	26:42:00		Rejtana / Lwowska 01
+1877	1	217572	26:42:00	26:42:00		Piłsudskiego ZDZ 01 nż
+1877	1	217572	26:42:00	26:42:00		Rejtana / Lwowska 01
+1877	1	217572	26:43:00	26:43:00		Rejtana / Kustronia 03 nż
+1877	1	217572	26:43:00	26:43:00		Rejtana / Kustronia 03 nż
+1877	1	217572	26:44:00	26:44:00		Rejtana uniwersytet 05
+1877	1	217572	26:44:00	26:44:00		Rejtana uniwersytet 05
+1877	1	217572	26:45:00	26:45:00		Rejtana / Kopisto 07
+1877	1	217572	26:45:00	26:45:00		Rejtana / Kopisto 07
+1877	1	217572	26:46:00	26:46:00		Rejtana / Popiełuszki 09
+1877	1	217572	26:46:00	26:46:00		Rejtana / Popiełuszki 09
+1877	1	217572	26:47:00	26:47:00		Powst. Warszawy / Rejtana 13
+1877	1	217572	26:47:00	26:47:00		Powst. Warszawy / Rejtana 13
+1877	1	217572	26:48:00	26:48:00		Powst. Warszawy szkoła 11
+1877	1	217572	26:48:00	26:48:00		Powst. Warszawy szkoła 11
+1877	1	217572	26:49:00	26:49:00		Powst. Warszawy dom studenta 09
+1877	1	217572	26:49:00	26:49:00		Powst. Warszawy dom studenta 09
+1877	1	217572	26:50:00	26:50:00		Powst. Warszawy stadion 05 nż
+1877	1	217572	26:50:00	26:50:00		Powst. Warszawy stadion 05 nż
+1877	1	217572	26:51:00	26:51:00		Powst. Warszawy / Hetmańska 03
+1877	1	217572	26:51:00	26:51:00		Powst. Warszawy / Hetmańska 03
+1877	1	217572	26:52:00	26:52:00		Powst. Warszawy politechnika 01
+1877	1	217572	26:52:00	26:52:00		Powst. Warszawy politechnika 01
+1877	1	217572	26:53:00	26:53:00		Dąbrowskiego / Chrobrego 07
+1877	1	217572	26:53:00	26:53:00		Dąbrowskiego / Chrobrego 07
+1877	1	217572	26:54:00	26:54:00		Dąbrowskiego KW. Policji 03
+1877	1	217572	26:54:00	26:54:00		Dąbrowskiego KW. Policji 03
+1877	1	217572	26:55:00	26:55:00		Dąbrowskiego park 01 nż
+1877	1	217572	26:55:00	26:55:00		Dąbrowskiego park 01 nż
+1877	1	217572	26:57:00	26:57:00		Lisa-Kuli 02
+1877	1	217572	26:57:00	26:57:00		Lisa-Kuli 02
+1877	1	217572	26:58:00	26:58:00		Cieplińskiego 01
+1877	1	217572	26:58:00	26:58:00		Cieplińskiego 01
+1877	1	217572	26:59:00	26:59:00		Piłsudskiego U. Wojewódzki 05
+1877	1	217572	26:59:00	26:59:00		Piłsudskiego U. Wojewódzki 05
+1877	1	217572	27:02:00	27:02:00		Dworzec Główny PKP 03
+1877	1	217572	27:02:00	27:02:00		Dworzec Główny PKP 03
+
+1877	1	216899	27:22:00	27:22:00		Dworzec Główny PKP 03
+1877	1	216899	27:22:00	27:22:00		Dworzec Główny PKP 03
+1877	1	216899	27:24:00	27:24:00		Pl. Kilińskiego 01
+1877	1	216899	27:24:00	27:24:00		Pl. Kilińskiego 01
+1877	1	216899	27:26:00	27:26:00		Pl. Wolności 03
+1877	1	216899	27:26:00	27:26:00		Pl. Wolności 03
+1877	1	216899	27:27:00	27:27:00		Piłsudskiego ZDZ 01 nż
+1877	1	216899	27:27:00	27:27:00		Rejtana / Lwowska 01
+1877	1	216899	27:27:00	27:27:00		Piłsudskiego ZDZ 01 nż
+1877	1	216899	27:27:00	27:27:00		Rejtana / Lwowska 01
+1877	1	216899	27:28:00	27:28:00		Rejtana / Kustronia 03 nż
+1877	1	216899	27:28:00	27:28:00		Rejtana / Kustronia 03 nż
+1877	1	216899	27:29:00	27:29:00		Rejtana uniwersytet 05
+1877	1	216899	27:29:00	27:29:00		Rejtana uniwersytet 05
+1877	1	216899	27:30:00	27:30:00		Rejtana / Kopisto 07
+1877	1	216899	27:30:00	27:30:00		Rejtana / Kopisto 07
+1877	1	216899	27:31:00	27:31:00		Rejtana / Popiełuszki 09
+1877	1	216899	27:31:00	27:31:00		Rejtana / Popiełuszki 09
+1877	1	216899	27:32:00	27:32:00		Powst. Warszawy / Rejtana 13
+1877	1	216899	27:32:00	27:32:00		Powst. Warszawy / Rejtana 13
+1877	1	216899	27:33:00	27:33:00		Powst. Warszawy szkoła 11
+1877	1	216899	27:33:00	27:33:00		Powst. Warszawy szkoła 11
+1877	1	216899	27:34:00	27:34:00		Powst. Warszawy dom studenta 09
+1877	1	216899	27:34:00	27:34:00		Powst. Warszawy dom studenta 09
+1877	1	216899	27:35:00	27:35:00		Powst. Warszawy stadion 05 nż
+1877	1	216899	27:35:00	27:35:00		Powst. Warszawy stadion 05 nż
+1877	1	216899	27:36:00	27:36:00		Powst. Warszawy / Hetmańska 03
+1877	1	216899	27:36:00	27:36:00		Powst. Warszawy / Hetmańska 03
+1877	1	216899	27:37:00	27:37:00		Powst. Warszawy politechnika 01
+1877	1	216899	27:37:00	27:37:00		Powst. Warszawy politechnika 01
+1877	1	216899	27:38:00	27:38:00		Dąbrowskiego / Chrobrego 07
+1877	1	216899	27:38:00	27:38:00		Dąbrowskiego / Chrobrego 07
+1877	1	216899	27:39:00	27:39:00		Dąbrowskiego KW. Policji 03
+1877	1	216899	27:39:00	27:39:00		Dąbrowskiego KW. Policji 03
+1877	1	216899	27:40:00	27:40:00		Dąbrowskiego park 01 nż
+1877	1	216899	27:40:00	27:40:00		Dąbrowskiego park 01 nż
+1877	1	216899	27:42:00	27:42:00		Lisa-Kuli 02
+1877	1	216899	27:42:00	27:42:00		Lisa-Kuli 02
+1877	1	216899	27:43:00	27:43:00		Cieplińskiego 01
+1877	1	216899	27:43:00	27:43:00		Cieplińskiego 01
+1877	1	216899	27:44:00	27:44:00		Piłsudskiego U. Wojewódzki 05
+1877	1	216899	27:44:00	27:44:00		Piłsudskiego U. Wojewódzki 05
+1877	1	216899	27:47:00	27:47:00		Dworzec Główny PKP 03
+1877	1	216899	27:47:00	27:47:00		Dworzec Główny PKP 03

@@ -1,556 +1,556 @@
 route_id	service_id	trip_id	arrival_time	departure_time	stop_headsign	stop_name
 -------------------------------------------------------------------------------
-1924	2	213324	05:09:00	05:09:00		Lwowska szpital pętla 02
-1924	2	213324	05:10:00	05:10:00		Lwowska szpital 05
-1924	2	213324	05:12:00	05:12:00		Lwowska cmentarz 03
-1924	2	213324	05:14:00	05:14:00		Mieszka I / Kustronia 02 nż
-1924	2	213324	05:15:00	05:15:00		Niepodległości / Mieszka I 03 nż
-1924	2	213324	05:16:00	05:16:00		Niepodległości dom dziecka 01 nż
-1924	2	213324	05:17:00	05:17:00		Krzyżanowskiego szkoła 02 nż
-1924	2	213324	05:19:00	05:19:00		Paderewskiego / Ossolińskich 01 nż
-1924	2	213324	05:20:00	05:20:00		Rejtana / Popiełuszki 09
-1924	2	213324	05:21:00	05:21:00		Powst. Warszawy / Rejtana 13
-1924	2	213324	05:22:00	05:22:00		Powst. Warszawy szkoła 11
-1924	2	213324	05:23:00	05:23:00		Powst. Warszawy dom studenta 09
-1924	2	213324	05:24:00	05:24:00		Powst. Warszawy stadion 05 nż
-1924	2	213324	05:25:00	05:25:00		Hetmańska stadion 07
-1924	2	213324	05:26:00	05:26:00		Hetmańska ZS. Mech. 05
-1924	2	213324	05:27:00	05:27:00		Hetmańska przychodnia 03
-1924	2	213324	05:28:00	05:28:00		Hetmańska podzamcze 01 nż
-1924	2	213324	05:30:00	05:30:00		Lisa-Kuli 02
-1924	2	213324	05:31:00	05:31:00		Cieplińskiego 01
-1924	2	213324	05:33:00	05:33:00		Piłsudskiego U. Marszałkowski 08
-1924	2	213324	05:35:00	05:35:00		Krakowska jedn. wojskowa 02
-1924	2	213324	05:37:00	05:37:00		Witosa / Solarza 07 nż
-1924	2	213324	05:38:00	05:38:00		Witosa / Wiktora 05 nż
-1924	2	213324	05:39:00	05:39:00		Wyspiańskiego stadion 01 nż
-1924	2	213324	05:40:00	05:40:00		Wita Stwosza / Wyspiańskiego 05 nż
-1924	2	213324	05:41:00	05:41:00		Wita Stwosza kościół 03
-1924	2	213324	05:42:00	05:42:00		Langiewicza / Wita Stwosza 04
-1924	2	213324	05:43:00	05:43:00		Staroniwska / Rzemieślnicza 02 nż
-1924	2	213324	05:44:00	05:44:00		Staroniwska szkoła 04 nż
-1924	2	213324	05:45:00	05:45:00		Staroniwska kościół 06 nż
-1924	2	213324	05:46:00	05:46:00		Staroniwska pętla 08 nż
-1924	2	213324	05:47:00	05:47:00		Staroniwska / Zielarska 14 nż
-1924	2	213324	05:48:00	05:48:00		Staroniwska / Kresowa 16 nż
-1924	2	213324	05:49:00	05:49:00		Kielanówka cegielnia 02 nż
-1924	2	213324	05:50:00	05:50:00		Kielanówka Kopiec 04 nż
-1924	2	213324	05:51:00	05:51:00		Kielanówka Ruch 06 nż
-1924	2	213324	05:52:00	05:52:00		Błękitne Wzgórze / Słoneczny Stok 02 nż
-1924	2	213324	05:53:00	05:53:00		Błękitne Wzgórze / Leśne Wzgórze 03 nż
+1924	1	213337	05:09:00	05:09:00		Lwowska szpital pętla 02
+1924	1	213337	05:10:00	05:10:00		Lwowska szpital 05
+1924	1	213337	05:12:00	05:12:00		Lwowska cmentarz 03
+1924	1	213337	05:14:00	05:14:00		Mieszka I / Kustronia 02 nż
+1924	1	213337	05:15:00	05:15:00		Niepodległości / Mieszka I 03 nż
+1924	1	213337	05:16:00	05:16:00		Niepodległości dom dziecka 01 nż
+1924	1	213337	05:17:00	05:17:00		Krzyżanowskiego szkoła 02 nż
+1924	1	213337	05:19:00	05:19:00		Paderewskiego / Ossolińskich 01 nż
+1924	1	213337	05:20:00	05:20:00		Rejtana / Popiełuszki 09
+1924	1	213337	05:21:00	05:21:00		Powst. Warszawy / Rejtana 13
+1924	1	213337	05:22:00	05:22:00		Powst. Warszawy szkoła 11
+1924	1	213337	05:23:00	05:23:00		Powst. Warszawy dom studenta 09
+1924	1	213337	05:24:00	05:24:00		Powst. Warszawy stadion 05 nż
+1924	1	213337	05:25:00	05:25:00		Hetmańska stadion 07
+1924	1	213337	05:26:00	05:26:00		Hetmańska ZS. Mech. 05
+1924	1	213337	05:27:00	05:27:00		Hetmańska przychodnia 03
+1924	1	213337	05:28:00	05:28:00		Hetmańska podzamcze 01 nż
+1924	1	213337	05:30:00	05:30:00		Lisa-Kuli 02
+1924	1	213337	05:31:00	05:31:00		Cieplińskiego 01
+1924	1	213337	05:33:00	05:33:00		Piłsudskiego U. Marszałkowski 08
+1924	1	213337	05:35:00	05:35:00		Krakowska jedn. wojskowa 02
+1924	1	213337	05:37:00	05:37:00		Witosa / Solarza 07 nż
+1924	1	213337	05:38:00	05:38:00		Witosa / Wiktora 05 nż
+1924	1	213337	05:39:00	05:39:00		Wyspiańskiego stadion 01 nż
+1924	1	213337	05:40:00	05:40:00		Wita Stwosza / Wyspiańskiego 05 nż
+1924	1	213337	05:41:00	05:41:00		Wita Stwosza kościół 03
+1924	1	213337	05:42:00	05:42:00		Langiewicza / Wita Stwosza 04
+1924	1	213337	05:43:00	05:43:00		Staroniwska / Rzemieślnicza 02 nż
+1924	1	213337	05:44:00	05:44:00		Staroniwska szkoła 04 nż
+1924	1	213337	05:45:00	05:45:00		Staroniwska kościół 06 nż
+1924	1	213337	05:46:00	05:46:00		Staroniwska pętla 08 nż
+1924	1	213337	05:47:00	05:47:00		Staroniwska / Zielarska 14 nż
+1924	1	213337	05:48:00	05:48:00		Staroniwska / Kresowa 16 nż
+1924	1	213337	05:49:00	05:49:00		Kielanówka cegielnia 02 nż
+1924	1	213337	05:50:00	05:50:00		Kielanówka Kopiec 04 nż
+1924	1	213337	05:51:00	05:51:00		Kielanówka Ruch 06 nż
+1924	1	213337	05:52:00	05:52:00		Błękitne Wzgórze / Słoneczny Stok 02 nż
+1924	1	213337	05:53:00	05:53:00		Błękitne Wzgórze / Leśne Wzgórze 03 nż
 
-1928	2	215605	06:21:00	06:21:00		Błękitne Wzgórze / Leśne Wzgórze 03 nż
-1928	2	215605	06:22:00	06:22:00		Kielanówka Słoneczny Stok 07 nż
-1928	2	215605	06:23:00	06:23:00		Kielanówka Ruch 05 nż
-1928	2	215605	06:24:00	06:24:00		Kielanówka Kopiec 03 nż
-1928	2	215605	06:25:00	06:25:00		Kielanówka cegielnia 01 nż
-1928	2	215605	06:26:00	06:26:00		Staroniwska / Kresowa 11 nż
-1928	2	215605	06:27:00	06:27:00		Staroniwska / Zielarska 09 nż
-1928	2	215605	06:28:00	06:28:00		Staroniwska pętla 12 nż
-1928	2	215605	06:29:00	06:29:00		Staroniwska kościół 05 nż
-1928	2	215605	06:30:00	06:30:00		Staroniwska szkoła 03 nż
-1928	2	215605	06:31:00	06:31:00		Staroniwska / Rzemieślnicza 01 nż
-1928	2	215605	06:32:00	06:32:00		Langiewicza / Wita Stwosza 05 nż
-1928	2	215605	06:33:00	06:33:00		Wita Stwosza / Langiewicza 02
-1928	2	215605	06:34:00	06:34:00		Wita Stwosza kościół 04
-1928	2	215605	06:35:00	06:35:00		Wita Stwosza / Wyspiańskiego 06 nż
-1928	2	215605	06:36:00	06:36:00		Wyspiańskiego stadion 02 nż
-1928	2	215605	06:37:00	06:37:00		Witosa / Wyspiańskiego 06 nż
-1928	2	215605	06:38:00	06:38:00		Witosa jedn. wojskowa 08 nż
-1928	2	215605	06:39:00	06:39:00		Krakowska jedn. wojskowa 01
-1928	2	215605	06:41:00	06:41:00		Piłsudskiego U. Marszałkowski 07
-1928	2	215605	06:42:00	06:42:00		Cieplińskiego 02
-1928	2	215605	06:43:00	06:43:00		Lisa-Kuli 01
-1928	2	215605	06:45:00	06:45:00		Hetmańska podzamcze 02 nż
-1928	2	215605	06:46:00	06:46:00		Hetmańska przychodnia 04
-1928	2	215605	06:47:00	06:47:00		Hetmańska ZS. Mech. 06
-1928	2	215605	06:49:00	06:49:00		Powst. Warszawy stadion 06
-1928	2	215605	06:50:00	06:50:00		Powst. Warszawy dom studenta 08
-1928	2	215605	06:51:00	06:51:00		Powst. Warszawy / Graniczna 10
-1928	2	215605	06:53:00	06:53:00		Rejtana / Armii Krajowej 12
-1928	2	215605	06:54:00	06:54:00		Rejtana / Paderewskiego 10
-1928	2	215605	06:56:00	06:56:00		Paderewskiego / Ossolińskich 02 nż
-1928	2	215605	06:57:00	06:57:00		Krzyżanowskiego szkoła 01 nż
-1928	2	215605	06:58:00	06:58:00		Niepodległości dom dziecka 04 nż
-1928	2	215605	06:59:00	06:59:00		Mieszka I / Kustronia 01 nż
-1928	2	215605	07:01:00	07:01:00		Lwowska cmentarz 04
-1928	2	215605	07:03:00	07:03:00		Lwowska szpital pętla 02
+1928	1	209045	06:21:00	06:21:00		Błękitne Wzgórze / Leśne Wzgórze 03 nż
+1928	1	209045	06:22:00	06:22:00		Kielanówka Słoneczny Stok 07 nż
+1928	1	209045	06:23:00	06:23:00		Kielanówka Ruch 05 nż
+1928	1	209045	06:24:00	06:24:00		Kielanówka Kopiec 03 nż
+1928	1	209045	06:25:00	06:25:00		Kielanówka cegielnia 01 nż
+1928	1	209045	06:26:00	06:26:00		Staroniwska / Kresowa 11 nż
+1928	1	209045	06:27:00	06:27:00		Staroniwska / Zielarska 09 nż
+1928	1	209045	06:28:00	06:28:00		Staroniwska pętla 12 nż
+1928	1	209045	06:29:00	06:29:00		Staroniwska kościół 05 nż
+1928	1	209045	06:30:00	06:30:00		Staroniwska szkoła 03 nż
+1928	1	209045	06:31:00	06:31:00		Staroniwska / Rzemieślnicza 01 nż
+1928	1	209045	06:32:00	06:32:00		Langiewicza / Wita Stwosza 05 nż
+1928	1	209045	06:33:00	06:33:00		Wita Stwosza / Langiewicza 02
+1928	1	209045	06:34:00	06:34:00		Wita Stwosza kościół 04
+1928	1	209045	06:35:00	06:35:00		Wita Stwosza / Wyspiańskiego 06 nż
+1928	1	209045	06:36:00	06:36:00		Wyspiańskiego stadion 02 nż
+1928	1	209045	06:37:00	06:37:00		Witosa / Wyspiańskiego 06 nż
+1928	1	209045	06:38:00	06:38:00		Witosa jedn. wojskowa 08 nż
+1928	1	209045	06:39:00	06:39:00		Krakowska jedn. wojskowa 01
+1928	1	209045	06:41:00	06:41:00		Piłsudskiego U. Marszałkowski 07
+1928	1	209045	06:42:00	06:42:00		Cieplińskiego 02
+1928	1	209045	06:43:00	06:43:00		Lisa-Kuli 01
+1928	1	209045	06:45:00	06:45:00		Hetmańska podzamcze 02 nż
+1928	1	209045	06:46:00	06:46:00		Hetmańska przychodnia 04
+1928	1	209045	06:47:00	06:47:00		Hetmańska ZS. Mech. 06
+1928	1	209045	06:49:00	06:49:00		Powst. Warszawy stadion 06
+1928	1	209045	06:51:00	06:51:00		Powst. Warszawy dom studenta 08
+1928	1	209045	06:52:00	06:52:00		Powst. Warszawy / Graniczna 10
+1928	1	209045	06:55:00	06:55:00		Rejtana / Armii Krajowej 12
+1928	1	209045	06:56:00	06:56:00		Rejtana / Paderewskiego 10
+1928	1	209045	06:58:00	06:58:00		Paderewskiego / Ossolińskich 02 nż
+1928	1	209045	06:59:00	06:59:00		Krzyżanowskiego szkoła 01 nż
+1928	1	209045	07:01:00	07:01:00		Niepodległości dom dziecka 04 nż
+1928	1	209045	07:02:00	07:02:00		Mieszka I / Kustronia 01 nż
+1928	1	209045	07:04:00	07:04:00		Lwowska cmentarz 04
+1928	1	209045	07:06:00	07:06:00		Lwowska szpital pętla 02
 
-1887	2	215513	07:24:00	07:24:00		Lwowska szpital pętla 02
-1887	2	215513	07:25:00	07:25:00		Lwowska szpital 05
-1887	2	215513	07:27:00	07:27:00		Lwowska cmentarz 03
-1887	2	215513	07:29:00	07:29:00		Mieszka I / Kustronia 02 nż
-1887	2	215513	07:30:00	07:30:00		Niepodległości / Mieszka I 03 nż
-1887	2	215513	07:31:00	07:31:00		Niepodległości dom dziecka 01 nż
-1887	2	215513	07:32:00	07:32:00		Krzyżanowskiego szkoła 02 nż
-1887	2	215513	07:34:00	07:34:00		Paderewskiego / Ossolińskich 01 nż
-1887	2	215513	07:35:00	07:35:00		Rejtana / Krzyżanowskiego 08
-1887	2	215513	07:36:00	07:36:00		Rejtana uniwersytet 06
-1887	2	215513	07:37:00	07:37:00		Rejtana cmentarz 04 nż
-1887	2	215513	07:38:00	07:38:00		Rejtana / Kustronia 02
-1887	2	215513	07:40:00	07:40:00		Piłsudskiego ZDZ 02
-1887	2	215513	07:41:00	07:41:00		Pl. Wolności 04
-1887	2	215513	07:44:00	07:44:00		Piłsudskiego U. Marszałkowski 08
-1887	2	215513	07:46:00	07:46:00		Krakowska jedn. wojskowa 02
-1887	2	215513	07:48:00	07:48:00		Witosa / Solarza 07 nż
-1887	2	215513	07:49:00	07:49:00		Witosa / Wiktora 05 nż
-1887	2	215513	07:51:00	07:51:00		Wyspiańskiego stadion 01 nż
-1887	2	215513	07:52:00	07:52:00		Wita Stwosza / Wyspiańskiego 05 nż
-1887	2	215513	07:53:00	07:53:00		Wita Stwosza kościół 03
-1887	2	215513	07:54:00	07:54:00		Langiewicza / Wita Stwosza 04
-1887	2	215513	07:55:00	07:55:00		Bat. Chłopskich / Staroniwska 05 nż
-1887	2	215513	07:56:00	07:56:00		Przemysłowa / Bat. Chłopskich 02 nż
-1887	2	215513	07:57:00	07:57:00		Przemysłowa / Magazynowa 04
-1887	2	215513	07:58:00	07:58:00		Przemysłowa U. Celny 05 nż
+1887	1	209834	07:24:00	07:24:00		Lwowska szpital pętla 02
+1887	1	209834	07:25:00	07:25:00		Lwowska szpital 05
+1887	1	209834	07:27:00	07:27:00		Lwowska cmentarz 03
+1887	1	209834	07:29:00	07:29:00		Mieszka I / Kustronia 02 nż
+1887	1	209834	07:30:00	07:30:00		Niepodległości / Mieszka I 03 nż
+1887	1	209834	07:31:00	07:31:00		Niepodległości dom dziecka 01 nż
+1887	1	209834	07:32:00	07:32:00		Krzyżanowskiego szkoła 02 nż
+1887	1	209834	07:34:00	07:34:00		Paderewskiego / Ossolińskich 01 nż
+1887	1	209834	07:35:00	07:35:00		Rejtana / Krzyżanowskiego 08
+1887	1	209834	07:37:00	07:37:00		Rejtana uniwersytet 06
+1887	1	209834	07:38:00	07:38:00		Rejtana cmentarz 04 nż
+1887	1	209834	07:39:00	07:39:00		Rejtana / Kustronia 02
+1887	1	209834	07:41:00	07:41:00		Piłsudskiego ZDZ 02
+1887	1	209834	07:42:00	07:42:00		Pl. Wolności 04
+1887	1	209834	07:45:00	07:45:00		Piłsudskiego U. Marszałkowski 08
+1887	1	209834	07:47:00	07:47:00		Krakowska jedn. wojskowa 02
+1887	1	209834	07:49:00	07:49:00		Witosa / Solarza 07 nż
+1887	1	209834	07:50:00	07:50:00		Witosa / Wiktora 05 nż
+1887	1	209834	07:52:00	07:52:00		Wyspiańskiego stadion 01 nż
+1887	1	209834	07:53:00	07:53:00		Wita Stwosza / Wyspiańskiego 05 nż
+1887	1	209834	07:54:00	07:54:00		Wita Stwosza kościół 03
+1887	1	209834	07:55:00	07:55:00		Langiewicza / Wita Stwosza 04
+1887	1	209834	07:57:00	07:57:00		Bat. Chłopskich / Staroniwska 05 nż
+1887	1	209834	07:58:00	07:58:00		Przemysłowa / Bat. Chłopskich 02 nż
+1887	1	209834	07:59:00	07:59:00		Przemysłowa / Magazynowa 04
+1887	1	209834	08:00:00	08:00:00		Przemysłowa U. Celny 05 nż
 
-1826	2	212973	08:13:00	08:13:00		Przemysłowa U. Celny 05 nż
-1826	2	212973	08:14:00	08:14:00		Przemysłowa / Architektów 03
-1826	2	212973	08:15:00	08:15:00		Przemysłowa / Bat. Chłopskich 01 nż
-1826	2	212973	08:16:00	08:16:00		Bat. Chłopskich / Langiewicza 04 nż
-1826	2	212973	08:17:00	08:17:00		Langiewicza / Wita Stwosza 05 nż
-1826	2	212973	08:18:00	08:18:00		Wita Stwosza / Langiewicza 02
-1826	2	212973	08:19:00	08:19:00		Wita Stwosza kościół 04
-1826	2	212973	08:20:00	08:20:00		Wita Stwosza / Wyspiańskiego 06 nż
-1826	2	212973	08:21:00	08:21:00		Wyspiańskiego stadion 02 nż
-1826	2	212973	08:22:00	08:22:00		Witosa / Wyspiańskiego 06 nż
-1826	2	212973	08:23:00	08:23:00		Witosa jedn. wojskowa 08 nż
-1826	2	212973	08:24:00	08:24:00		Krakowska jedn. wojskowa 01
-1826	2	212973	08:26:00	08:26:00		Piłsudskiego U. Wojewódzki 05
-1826	2	212973	08:27:00	08:27:00		Pl. Wolności 03
-1826	2	212973	08:28:00	08:28:00		Piłsudskiego ZDZ 01 nż
-1826	2	212973	08:29:00	08:29:00		Rejtana / Lwowska 01
-1826	2	212973	08:30:00	08:30:00		Rejtana / Kustronia 03 nż
-1826	2	212973	08:31:00	08:31:00		Rejtana uniwersytet 05
-1826	2	212973	08:33:00	08:33:00		Rejtana / Kopisto 07
-1826	2	212973	08:35:00	08:35:00		Paderewskiego / Ossolińskich 02 nż
-1826	2	212973	08:36:00	08:36:00		Krzyżanowskiego szkoła 01 nż
-1826	2	212973	08:38:00	08:38:00		Niepodległości dom dziecka 04 nż
-1826	2	212973	08:39:00	08:39:00		Mieszka I / Kustronia 01 nż
-1826	2	212973	08:41:00	08:41:00		Lwowska cmentarz 04
-1826	2	212973	08:43:00	08:43:00		Lwowska szpital pętla 02
+1826	1	208725	08:12:00	08:12:00		Przemysłowa U. Celny 05 nż
+1826	1	208725	08:13:00	08:13:00		Przemysłowa / Architektów 03
+1826	1	208725	08:14:00	08:14:00		Przemysłowa / Bat. Chłopskich 01 nż
+1826	1	208725	08:16:00	08:16:00		Bat. Chłopskich / Langiewicza 04 nż
+1826	1	208725	08:17:00	08:17:00		Langiewicza / Wita Stwosza 05 nż
+1826	1	208725	08:18:00	08:18:00		Wita Stwosza / Langiewicza 02
+1826	1	208725	08:19:00	08:19:00		Wita Stwosza kościół 04
+1826	1	208725	08:20:00	08:20:00		Wita Stwosza / Wyspiańskiego 06 nż
+1826	1	208725	08:21:00	08:21:00		Wyspiańskiego stadion 02 nż
+1826	1	208725	08:22:00	08:22:00		Witosa / Wyspiańskiego 06 nż
+1826	1	208725	08:23:00	08:23:00		Witosa jedn. wojskowa 08 nż
+1826	1	208725	08:24:00	08:24:00		Krakowska jedn. wojskowa 01
+1826	1	208725	08:27:00	08:27:00		Piłsudskiego U. Wojewódzki 05
+1826	1	208725	08:28:00	08:28:00		Pl. Wolności 03
+1826	1	208725	08:29:00	08:29:00		Piłsudskiego ZDZ 01 nż
+1826	1	208725	08:30:00	08:30:00		Rejtana / Lwowska 01
+1826	1	208725	08:31:00	08:31:00		Rejtana / Kustronia 03 nż
+1826	1	208725	08:32:00	08:32:00		Rejtana uniwersytet 05
+1826	1	208725	08:34:00	08:34:00		Rejtana / Kopisto 07
+1826	1	208725	08:37:00	08:37:00		Paderewskiego / Ossolińskich 02 nż
+1826	1	208725	08:38:00	08:38:00		Krzyżanowskiego szkoła 01 nż
+1826	1	208725	08:40:00	08:40:00		Niepodległości dom dziecka 04 nż
+1826	1	208725	08:41:00	08:41:00		Mieszka I / Kustronia 01 nż
+1826	1	208725	08:43:00	08:43:00		Lwowska cmentarz 04
+1826	1	208725	08:45:00	08:45:00		Lwowska szpital pętla 02
 
-1924	2	214596	09:09:00	09:09:00		Lwowska szpital pętla 02
-1924	2	214596	09:10:00	09:10:00		Lwowska szpital 05
-1924	2	214596	09:12:00	09:12:00		Lwowska cmentarz 03
-1924	2	214596	09:14:00	09:14:00		Mieszka I / Kustronia 02 nż
-1924	2	214596	09:15:00	09:15:00		Niepodległości / Mieszka I 03 nż
-1924	2	214596	09:16:00	09:16:00		Niepodległości dom dziecka 01 nż
-1924	2	214596	09:17:00	09:17:00		Krzyżanowskiego szkoła 02 nż
-1924	2	214596	09:19:00	09:19:00		Paderewskiego / Ossolińskich 01 nż
-1924	2	214596	09:20:00	09:20:00		Rejtana / Popiełuszki 09
-1924	2	214596	09:22:00	09:22:00		Powst. Warszawy / Rejtana 13
-1924	2	214596	09:23:00	09:23:00		Powst. Warszawy szkoła 11
-1924	2	214596	09:24:00	09:24:00		Powst. Warszawy dom studenta 09
-1924	2	214596	09:25:00	09:25:00		Powst. Warszawy stadion 05 nż
-1924	2	214596	09:26:00	09:26:00		Hetmańska stadion 07
-1924	2	214596	09:27:00	09:27:00		Hetmańska ZS. Mech. 05
-1924	2	214596	09:28:00	09:28:00		Hetmańska przychodnia 03
-1924	2	214596	09:29:00	09:29:00		Hetmańska podzamcze 01 nż
-1924	2	214596	09:32:00	09:32:00		Lisa-Kuli 02
-1924	2	214596	09:33:00	09:33:00		Cieplińskiego 01
-1924	2	214596	09:35:00	09:35:00		Piłsudskiego U. Marszałkowski 08
-1924	2	214596	09:37:00	09:37:00		Krakowska jedn. wojskowa 02
-1924	2	214596	09:39:00	09:39:00		Witosa / Solarza 07 nż
-1924	2	214596	09:40:00	09:40:00		Witosa / Wiktora 05 nż
-1924	2	214596	09:42:00	09:42:00		Wyspiańskiego stadion 01 nż
-1924	2	214596	09:43:00	09:43:00		Wita Stwosza / Wyspiańskiego 05 nż
-1924	2	214596	09:44:00	09:44:00		Wita Stwosza kościół 03
-1924	2	214596	09:45:00	09:45:00		Langiewicza / Wita Stwosza 04
-1924	2	214596	09:46:00	09:46:00		Staroniwska / Rzemieślnicza 02 nż
-1924	2	214596	09:47:00	09:47:00		Staroniwska szkoła 04 nż
-1924	2	214596	09:48:00	09:48:00		Staroniwska kościół 06 nż
-1924	2	214596	09:49:00	09:49:00		Staroniwska pętla 08 nż
-1924	2	214596	09:50:00	09:50:00		Staroniwska / Zielarska 14 nż
-1924	2	214596	09:51:00	09:51:00		Staroniwska / Kresowa 16 nż
-1924	2	214596	09:52:00	09:52:00		Kielanówka cegielnia 02 nż
-1924	2	214596	09:53:00	09:53:00		Kielanówka Kopiec 04 nż
-1924	2	214596	09:54:00	09:54:00		Kielanówka Ruch 06 nż
-1924	2	214596	09:55:00	09:55:00		Błękitne Wzgórze / Słoneczny Stok 02 nż
-1924	2	214596	09:56:00	09:56:00		Błękitne Wzgórze / Leśne Wzgórze 03 nż
+1924	1	210132	09:09:00	09:09:00		Lwowska szpital pętla 02
+1924	1	210132	09:10:00	09:10:00		Lwowska szpital 05
+1924	1	210132	09:12:00	09:12:00		Lwowska cmentarz 03
+1924	1	210132	09:14:00	09:14:00		Mieszka I / Kustronia 02 nż
+1924	1	210132	09:15:00	09:15:00		Niepodległości / Mieszka I 03 nż
+1924	1	210132	09:16:00	09:16:00		Niepodległości dom dziecka 01 nż
+1924	1	210132	09:17:00	09:17:00		Krzyżanowskiego szkoła 02 nż
+1924	1	210132	09:19:00	09:19:00		Paderewskiego / Ossolińskich 01 nż
+1924	1	210132	09:20:00	09:20:00		Rejtana / Popiełuszki 09
+1924	1	210132	09:23:00	09:23:00		Powst. Warszawy / Rejtana 13
+1924	1	210132	09:24:00	09:24:00		Powst. Warszawy szkoła 11
+1924	1	210132	09:25:00	09:25:00		Powst. Warszawy dom studenta 09
+1924	1	210132	09:26:00	09:26:00		Powst. Warszawy stadion 05 nż
+1924	1	210132	09:27:00	09:27:00		Hetmańska stadion 07
+1924	1	210132	09:28:00	09:28:00		Hetmańska ZS. Mech. 05
+1924	1	210132	09:29:00	09:29:00		Hetmańska przychodnia 03
+1924	1	210132	09:30:00	09:30:00		Hetmańska podzamcze 01 nż
+1924	1	210132	09:33:00	09:33:00		Lisa-Kuli 02
+1924	1	210132	09:34:00	09:34:00		Cieplińskiego 01
+1924	1	210132	09:36:00	09:36:00		Piłsudskiego U. Marszałkowski 08
+1924	1	210132	09:38:00	09:38:00		Krakowska jedn. wojskowa 02
+1924	1	210132	09:40:00	09:40:00		Witosa / Solarza 07 nż
+1924	1	210132	09:41:00	09:41:00		Witosa / Wiktora 05 nż
+1924	1	210132	09:43:00	09:43:00		Wyspiańskiego stadion 01 nż
+1924	1	210132	09:44:00	09:44:00		Wita Stwosza / Wyspiańskiego 05 nż
+1924	1	210132	09:45:00	09:45:00		Wita Stwosza kościół 03
+1924	1	210132	09:46:00	09:46:00		Langiewicza / Wita Stwosza 04
+1924	1	210132	09:48:00	09:48:00		Staroniwska / Rzemieślnicza 02 nż
+1924	1	210132	09:49:00	09:49:00		Staroniwska szkoła 04 nż
+1924	1	210132	09:50:00	09:50:00		Staroniwska kościół 06 nż
+1924	1	210132	09:51:00	09:51:00		Staroniwska pętla 08 nż
+1924	1	210132	09:52:00	09:52:00		Staroniwska / Zielarska 14 nż
+1924	1	210132	09:53:00	09:53:00		Staroniwska / Kresowa 16 nż
+1924	1	210132	09:54:00	09:54:00		Kielanówka cegielnia 02 nż
+1924	1	210132	09:55:00	09:55:00		Kielanówka Kopiec 04 nż
+1924	1	210132	09:56:00	09:56:00		Kielanówka Ruch 06 nż
+1924	1	210132	09:57:00	09:57:00		Błękitne Wzgórze / Słoneczny Stok 02 nż
+1924	1	210132	09:58:00	09:58:00		Błękitne Wzgórze / Leśne Wzgórze 03 nż
 
-1928	2	210766	10:21:00	10:21:00		Błękitne Wzgórze / Leśne Wzgórze 03 nż
-1928	2	210766	10:22:00	10:22:00		Kielanówka Słoneczny Stok 07 nż
-1928	2	210766	10:23:00	10:23:00		Kielanówka Ruch 05 nż
-1928	2	210766	10:24:00	10:24:00		Kielanówka Kopiec 03 nż
-1928	2	210766	10:25:00	10:25:00		Kielanówka cegielnia 01 nż
-1928	2	210766	10:26:00	10:26:00		Staroniwska / Kresowa 11 nż
-1928	2	210766	10:27:00	10:27:00		Staroniwska / Zielarska 09 nż
-1928	2	210766	10:28:00	10:28:00		Staroniwska pętla 12 nż
-1928	2	210766	10:29:00	10:29:00		Staroniwska kościół 05 nż
-1928	2	210766	10:30:00	10:30:00		Staroniwska szkoła 03 nż
-1928	2	210766	10:31:00	10:31:00		Staroniwska / Rzemieślnicza 01 nż
-1928	2	210766	10:32:00	10:32:00		Langiewicza / Wita Stwosza 05 nż
-1928	2	210766	10:33:00	10:33:00		Wita Stwosza / Langiewicza 02
-1928	2	210766	10:34:00	10:34:00		Wita Stwosza kościół 04
-1928	2	210766	10:35:00	10:35:00		Wita Stwosza / Wyspiańskiego 06 nż
-1928	2	210766	10:36:00	10:36:00		Wyspiańskiego stadion 02 nż
-1928	2	210766	10:37:00	10:37:00		Witosa / Wyspiańskiego 06 nż
-1928	2	210766	10:38:00	10:38:00		Witosa jedn. wojskowa 08 nż
-1928	2	210766	10:39:00	10:39:00		Krakowska jedn. wojskowa 01
-1928	2	210766	10:41:00	10:41:00		Piłsudskiego U. Marszałkowski 07
-1928	2	210766	10:42:00	10:42:00		Cieplińskiego 02
-1928	2	210766	10:43:00	10:43:00		Lisa-Kuli 01
-1928	2	210766	10:45:00	10:45:00		Hetmańska podzamcze 02 nż
-1928	2	210766	10:46:00	10:46:00		Hetmańska przychodnia 04
-1928	2	210766	10:47:00	10:47:00		Hetmańska ZS. Mech. 06
-1928	2	210766	10:49:00	10:49:00		Powst. Warszawy stadion 06
-1928	2	210766	10:51:00	10:51:00		Powst. Warszawy dom studenta 08
-1928	2	210766	10:52:00	10:52:00		Powst. Warszawy / Graniczna 10
-1928	2	210766	10:55:00	10:55:00		Rejtana / Armii Krajowej 12
-1928	2	210766	10:56:00	10:56:00		Rejtana / Paderewskiego 10
-1928	2	210766	10:58:00	10:58:00		Paderewskiego / Ossolińskich 02 nż
-1928	2	210766	10:59:00	10:59:00		Krzyżanowskiego szkoła 01 nż
-1928	2	210766	11:01:00	11:01:00		Niepodległości dom dziecka 04 nż
-1928	2	210766	11:02:00	11:02:00		Mieszka I / Kustronia 01 nż
-1928	2	210766	11:04:00	11:04:00		Lwowska cmentarz 04
-1928	2	210766	11:06:00	11:06:00		Lwowska szpital pętla 02
+1928	1	215421	10:20:00	10:20:00		Błękitne Wzgórze / Leśne Wzgórze 03 nż
+1928	1	215421	10:21:00	10:21:00		Kielanówka Słoneczny Stok 07 nż
+1928	1	215421	10:22:00	10:22:00		Kielanówka Ruch 05 nż
+1928	1	215421	10:23:00	10:23:00		Kielanówka Kopiec 03 nż
+1928	1	215421	10:24:00	10:24:00		Kielanówka cegielnia 01 nż
+1928	1	215421	10:25:00	10:25:00		Staroniwska / Kresowa 11 nż
+1928	1	215421	10:26:00	10:26:00		Staroniwska / Zielarska 09 nż
+1928	1	215421	10:27:00	10:27:00		Staroniwska pętla 12 nż
+1928	1	215421	10:28:00	10:28:00		Staroniwska kościół 05 nż
+1928	1	215421	10:29:00	10:29:00		Staroniwska szkoła 03 nż
+1928	1	215421	10:30:00	10:30:00		Staroniwska / Rzemieślnicza 01 nż
+1928	1	215421	10:31:00	10:31:00		Langiewicza / Wita Stwosza 05 nż
+1928	1	215421	10:32:00	10:32:00		Wita Stwosza / Langiewicza 02
+1928	1	215421	10:33:00	10:33:00		Wita Stwosza kościół 04
+1928	1	215421	10:34:00	10:34:00		Wita Stwosza / Wyspiańskiego 06 nż
+1928	1	215421	10:35:00	10:35:00		Wyspiańskiego stadion 02 nż
+1928	1	215421	10:36:00	10:36:00		Witosa / Wyspiańskiego 06 nż
+1928	1	215421	10:37:00	10:37:00		Witosa jedn. wojskowa 08 nż
+1928	1	215421	10:38:00	10:38:00		Krakowska jedn. wojskowa 01
+1928	1	215421	10:40:00	10:40:00		Piłsudskiego U. Marszałkowski 07
+1928	1	215421	10:41:00	10:41:00		Cieplińskiego 02
+1928	1	215421	10:42:00	10:42:00		Lisa-Kuli 01
+1928	1	215421	10:45:00	10:45:00		Hetmańska podzamcze 02 nż
+1928	1	215421	10:46:00	10:46:00		Hetmańska przychodnia 04
+1928	1	215421	10:47:00	10:47:00		Hetmańska ZS. Mech. 06
+1928	1	215421	10:51:00	10:51:00		Powst. Warszawy stadion 06
+1928	1	215421	10:54:00	10:54:00		Powst. Warszawy dom studenta 08
+1928	1	215421	10:55:00	10:55:00		Powst. Warszawy / Graniczna 10
+1928	1	215421	10:58:00	10:58:00		Rejtana / Armii Krajowej 12
+1928	1	215421	10:59:00	10:59:00		Rejtana / Paderewskiego 10
+1928	1	215421	11:01:00	11:01:00		Paderewskiego / Ossolińskich 02 nż
+1928	1	215421	11:02:00	11:02:00		Krzyżanowskiego szkoła 01 nż
+1928	1	215421	11:04:00	11:04:00		Niepodległości dom dziecka 04 nż
+1928	1	215421	11:06:00	11:06:00		Mieszka I / Kustronia 01 nż
+1928	1	215421	11:08:00	11:08:00		Lwowska cmentarz 04
+1928	1	215421	11:10:00	11:10:00		Lwowska szpital pętla 02
 
-1887	2	212517	11:24:00	11:24:00		Lwowska szpital pętla 02
-1887	2	212517	11:25:00	11:25:00		Lwowska szpital 05
-1887	2	212517	11:27:00	11:27:00		Lwowska cmentarz 03
-1887	2	212517	11:29:00	11:29:00		Mieszka I / Kustronia 02 nż
-1887	2	212517	11:30:00	11:30:00		Niepodległości / Mieszka I 03 nż
-1887	2	212517	11:31:00	11:31:00		Niepodległości dom dziecka 01 nż
-1887	2	212517	11:32:00	11:32:00		Krzyżanowskiego szkoła 02 nż
-1887	2	212517	11:34:00	11:34:00		Paderewskiego / Ossolińskich 01 nż
-1887	2	212517	11:35:00	11:35:00		Rejtana / Krzyżanowskiego 08
-1887	2	212517	11:36:00	11:36:00		Rejtana uniwersytet 06
-1887	2	212517	11:37:00	11:37:00		Rejtana cmentarz 04 nż
-1887	2	212517	11:38:00	11:38:00		Rejtana / Kustronia 02
-1887	2	212517	11:40:00	11:40:00		Piłsudskiego ZDZ 02
-1887	2	212517	11:41:00	11:41:00		Pl. Wolności 04
-1887	2	212517	11:44:00	11:44:00		Piłsudskiego U. Marszałkowski 08
-1887	2	212517	11:46:00	11:46:00		Krakowska jedn. wojskowa 02
-1887	2	212517	11:48:00	11:48:00		Witosa / Solarza 07 nż
-1887	2	212517	11:49:00	11:49:00		Witosa / Wiktora 05 nż
-1887	2	212517	11:51:00	11:51:00		Wyspiańskiego stadion 01 nż
-1887	2	212517	11:52:00	11:52:00		Wita Stwosza / Wyspiańskiego 05 nż
-1887	2	212517	11:53:00	11:53:00		Wita Stwosza kościół 03
-1887	2	212517	11:54:00	11:54:00		Langiewicza / Wita Stwosza 04
-1887	2	212517	11:55:00	11:55:00		Bat. Chłopskich / Staroniwska 05 nż
-1887	2	212517	11:56:00	11:56:00		Przemysłowa / Bat. Chłopskich 02 nż
-1887	2	212517	11:57:00	11:57:00		Przemysłowa / Magazynowa 04
-1887	2	212517	11:58:00	11:58:00		Przemysłowa U. Celny 05 nż
+1887	1	210696	11:23:00	11:23:00		Lwowska szpital pętla 02
+1887	1	210696	11:25:00	11:25:00		Lwowska szpital 05
+1887	1	210696	11:27:00	11:27:00		Lwowska cmentarz 03
+1887	1	210696	11:29:00	11:29:00		Mieszka I / Kustronia 02 nż
+1887	1	210696	11:30:00	11:30:00		Niepodległości / Mieszka I 03 nż
+1887	1	210696	11:31:00	11:31:00		Niepodległości dom dziecka 01 nż
+1887	1	210696	11:32:00	11:32:00		Krzyżanowskiego szkoła 02 nż
+1887	1	210696	11:34:00	11:34:00		Paderewskiego / Ossolińskich 01 nż
+1887	1	210696	11:35:00	11:35:00		Rejtana / Krzyżanowskiego 08
+1887	1	210696	11:37:00	11:37:00		Rejtana uniwersytet 06
+1887	1	210696	11:38:00	11:38:00		Rejtana cmentarz 04 nż
+1887	1	210696	11:39:00	11:39:00		Rejtana / Kustronia 02
+1887	1	210696	11:41:00	11:41:00		Piłsudskiego ZDZ 02
+1887	1	210696	11:42:00	11:42:00		Pl. Wolności 04
+1887	1	210696	11:45:00	11:45:00		Piłsudskiego U. Marszałkowski 08
+1887	1	210696	11:47:00	11:47:00		Krakowska jedn. wojskowa 02
+1887	1	210696	11:49:00	11:49:00		Witosa / Solarza 07 nż
+1887	1	210696	11:50:00	11:50:00		Witosa / Wiktora 05 nż
+1887	1	210696	11:52:00	11:52:00		Wyspiańskiego stadion 01 nż
+1887	1	210696	11:53:00	11:53:00		Wita Stwosza / Wyspiańskiego 05 nż
+1887	1	210696	11:54:00	11:54:00		Wita Stwosza kościół 03
+1887	1	210696	11:55:00	11:55:00		Langiewicza / Wita Stwosza 04
+1887	1	210696	11:57:00	11:57:00		Bat. Chłopskich / Staroniwska 05 nż
+1887	1	210696	11:58:00	11:58:00		Przemysłowa / Bat. Chłopskich 02 nż
+1887	1	210696	11:59:00	11:59:00		Przemysłowa / Magazynowa 04
+1887	1	210696	12:00:00	12:00:00		Przemysłowa U. Celny 05 nż
 
-1826	2	214053	12:13:00	12:13:00		Przemysłowa U. Celny 05 nż
-1826	2	214053	12:14:00	12:14:00		Przemysłowa / Architektów 03
-1826	2	214053	12:15:00	12:15:00		Przemysłowa / Bat. Chłopskich 01 nż
-1826	2	214053	12:16:00	12:16:00		Bat. Chłopskich / Langiewicza 04 nż
-1826	2	214053	12:17:00	12:17:00		Langiewicza / Wita Stwosza 05 nż
-1826	2	214053	12:18:00	12:18:00		Wita Stwosza / Langiewicza 02
-1826	2	214053	12:19:00	12:19:00		Wita Stwosza kościół 04
-1826	2	214053	12:20:00	12:20:00		Wita Stwosza / Wyspiańskiego 06 nż
-1826	2	214053	12:21:00	12:21:00		Wyspiańskiego stadion 02 nż
-1826	2	214053	12:22:00	12:22:00		Witosa / Wyspiańskiego 06 nż
-1826	2	214053	12:23:00	12:23:00		Witosa jedn. wojskowa 08 nż
-1826	2	214053	12:24:00	12:24:00		Krakowska jedn. wojskowa 01
-1826	2	214053	12:26:00	12:26:00		Piłsudskiego U. Wojewódzki 05
-1826	2	214053	12:27:00	12:27:00		Pl. Wolności 03
-1826	2	214053	12:28:00	12:28:00		Piłsudskiego ZDZ 01 nż
-1826	2	214053	12:29:00	12:29:00		Rejtana / Lwowska 01
-1826	2	214053	12:30:00	12:30:00		Rejtana / Kustronia 03 nż
-1826	2	214053	12:31:00	12:31:00		Rejtana uniwersytet 05
-1826	2	214053	12:33:00	12:33:00		Rejtana / Kopisto 07
-1826	2	214053	12:35:00	12:35:00		Paderewskiego / Ossolińskich 02 nż
-1826	2	214053	12:36:00	12:36:00		Krzyżanowskiego szkoła 01 nż
-1826	2	214053	12:38:00	12:38:00		Niepodległości dom dziecka 04 nż
-1826	2	214053	12:39:00	12:39:00		Mieszka I / Kustronia 01 nż
-1826	2	214053	12:41:00	12:41:00		Lwowska cmentarz 04
-1826	2	214053	12:43:00	12:43:00		Lwowska szpital pętla 02
+1826	1	215810	12:11:00	12:11:00		Przemysłowa U. Celny 05 nż
+1826	1	215810	12:12:00	12:12:00		Przemysłowa / Architektów 03
+1826	1	215810	12:13:00	12:13:00		Przemysłowa / Bat. Chłopskich 01 nż
+1826	1	215810	12:15:00	12:15:00		Bat. Chłopskich / Langiewicza 04 nż
+1826	1	215810	12:16:00	12:16:00		Langiewicza / Wita Stwosza 05 nż
+1826	1	215810	12:17:00	12:17:00		Wita Stwosza / Langiewicza 02
+1826	1	215810	12:18:00	12:18:00		Wita Stwosza kościół 04
+1826	1	215810	12:19:00	12:19:00		Wita Stwosza / Wyspiańskiego 06 nż
+1826	1	215810	12:20:00	12:20:00		Wyspiańskiego stadion 02 nż
+1826	1	215810	12:21:00	12:21:00		Witosa / Wyspiańskiego 06 nż
+1826	1	215810	12:22:00	12:22:00		Witosa jedn. wojskowa 08 nż
+1826	1	215810	12:23:00	12:23:00		Krakowska jedn. wojskowa 01
+1826	1	215810	12:26:00	12:26:00		Piłsudskiego U. Wojewódzki 05
+1826	1	215810	12:27:00	12:27:00		Pl. Wolności 03
+1826	1	215810	12:28:00	12:28:00		Piłsudskiego ZDZ 01 nż
+1826	1	215810	12:29:00	12:29:00		Rejtana / Lwowska 01
+1826	1	215810	12:30:00	12:30:00		Rejtana / Kustronia 03 nż
+1826	1	215810	12:31:00	12:31:00		Rejtana uniwersytet 05
+1826	1	215810	12:33:00	12:33:00		Rejtana / Kopisto 07
+1826	1	215810	12:36:00	12:36:00		Paderewskiego / Ossolińskich 02 nż
+1826	1	215810	12:37:00	12:37:00		Krzyżanowskiego szkoła 01 nż
+1826	1	215810	12:39:00	12:39:00		Niepodległości dom dziecka 04 nż
+1826	1	215810	12:41:00	12:41:00		Mieszka I / Kustronia 01 nż
+1826	1	215810	12:43:00	12:43:00		Lwowska cmentarz 04
+1826	1	215810	12:45:00	12:45:00		Lwowska szpital pętla 02
 
-1924	2	214439	13:09:00	13:09:00		Lwowska szpital pętla 02
-1924	2	214439	13:10:00	13:10:00		Lwowska szpital 05
-1924	2	214439	13:12:00	13:12:00		Lwowska cmentarz 03
-1924	2	214439	13:14:00	13:14:00		Mieszka I / Kustronia 02 nż
-1924	2	214439	13:15:00	13:15:00		Niepodległości / Mieszka I 03 nż
-1924	2	214439	13:16:00	13:16:00		Niepodległości dom dziecka 01 nż
-1924	2	214439	13:17:00	13:17:00		Krzyżanowskiego szkoła 02 nż
-1924	2	214439	13:19:00	13:19:00		Paderewskiego / Ossolińskich 01 nż
-1924	2	214439	13:20:00	13:20:00		Rejtana / Popiełuszki 09
-1924	2	214439	13:22:00	13:22:00		Powst. Warszawy / Rejtana 13
-1924	2	214439	13:23:00	13:23:00		Powst. Warszawy szkoła 11
-1924	2	214439	13:24:00	13:24:00		Powst. Warszawy dom studenta 09
-1924	2	214439	13:26:00	13:26:00		Powst. Warszawy stadion 05 nż
-1924	2	214439	13:27:00	13:27:00		Hetmańska stadion 07
-1924	2	214439	13:28:00	13:28:00		Hetmańska ZS. Mech. 05
-1924	2	214439	13:29:00	13:29:00		Hetmańska przychodnia 03
-1924	2	214439	13:30:00	13:30:00		Hetmańska podzamcze 01 nż
-1924	2	214439	13:33:00	13:33:00		Lisa-Kuli 02
-1924	2	214439	13:34:00	13:34:00		Cieplińskiego 01
-1924	2	214439	13:36:00	13:36:00		Piłsudskiego U. Marszałkowski 08
-1924	2	214439	13:38:00	13:38:00		Krakowska jedn. wojskowa 02
-1924	2	214439	13:40:00	13:40:00		Witosa / Solarza 07 nż
-1924	2	214439	13:41:00	13:41:00		Witosa / Wiktora 05 nż
-1924	2	214439	13:43:00	13:43:00		Wyspiańskiego stadion 01 nż
-1924	2	214439	13:44:00	13:44:00		Wita Stwosza / Wyspiańskiego 05 nż
-1924	2	214439	13:45:00	13:45:00		Wita Stwosza kościół 03
-1924	2	214439	13:46:00	13:46:00		Langiewicza / Wita Stwosza 04
-1924	2	214439	13:48:00	13:48:00		Staroniwska / Rzemieślnicza 02 nż
-1924	2	214439	13:49:00	13:49:00		Staroniwska szkoła 04 nż
-1924	2	214439	13:50:00	13:50:00		Staroniwska kościół 06 nż
-1924	2	214439	13:51:00	13:51:00		Staroniwska pętla 08 nż
-1924	2	214439	13:52:00	13:52:00		Staroniwska / Zielarska 14 nż
-1924	2	214439	13:53:00	13:53:00		Staroniwska / Kresowa 16 nż
-1924	2	214439	13:54:00	13:54:00		Kielanówka cegielnia 02 nż
-1924	2	214439	13:55:00	13:55:00		Kielanówka Kopiec 04 nż
-1924	2	214439	13:56:00	13:56:00		Kielanówka Ruch 06 nż
-1924	2	214439	13:57:00	13:57:00		Błękitne Wzgórze / Słoneczny Stok 02 nż
-1924	2	214439	13:58:00	13:58:00		Błękitne Wzgórze / Leśne Wzgórze 03 nż
+1924	1	208865	13:08:00	13:08:00		Lwowska szpital pętla 02
+1924	1	208865	13:10:00	13:10:00		Lwowska szpital 05
+1924	1	208865	13:12:00	13:12:00		Lwowska cmentarz 03
+1924	1	208865	13:14:00	13:14:00		Mieszka I / Kustronia 02 nż
+1924	1	208865	13:15:00	13:15:00		Niepodległości / Mieszka I 03 nż
+1924	1	208865	13:16:00	13:16:00		Niepodległości dom dziecka 01 nż
+1924	1	208865	13:17:00	13:17:00		Krzyżanowskiego szkoła 02 nż
+1924	1	208865	13:19:00	13:19:00		Paderewskiego / Ossolińskich 01 nż
+1924	1	208865	13:20:00	13:20:00		Rejtana / Popiełuszki 09
+1924	1	208865	13:23:00	13:23:00		Powst. Warszawy / Rejtana 13
+1924	1	208865	13:24:00	13:24:00		Powst. Warszawy szkoła 11
+1924	1	208865	13:25:00	13:25:00		Powst. Warszawy dom studenta 09
+1924	1	208865	13:27:00	13:27:00		Powst. Warszawy stadion 05 nż
+1924	1	208865	13:28:00	13:28:00		Hetmańska stadion 07
+1924	1	208865	13:29:00	13:29:00		Hetmańska ZS. Mech. 05
+1924	1	208865	13:30:00	13:30:00		Hetmańska przychodnia 03
+1924	1	208865	13:31:00	13:31:00		Hetmańska podzamcze 01 nż
+1924	1	208865	13:34:00	13:34:00		Lisa-Kuli 02
+1924	1	208865	13:35:00	13:35:00		Cieplińskiego 01
+1924	1	208865	13:37:00	13:37:00		Piłsudskiego U. Marszałkowski 08
+1924	1	208865	13:39:00	13:39:00		Krakowska jedn. wojskowa 02
+1924	1	208865	13:41:00	13:41:00		Witosa / Solarza 07 nż
+1924	1	208865	13:42:00	13:42:00		Witosa / Wiktora 05 nż
+1924	1	208865	13:44:00	13:44:00		Wyspiańskiego stadion 01 nż
+1924	1	208865	13:45:00	13:45:00		Wita Stwosza / Wyspiańskiego 05 nż
+1924	1	208865	13:46:00	13:46:00		Wita Stwosza kościół 03
+1924	1	208865	13:47:00	13:47:00		Langiewicza / Wita Stwosza 04
+1924	1	208865	13:49:00	13:49:00		Staroniwska / Rzemieślnicza 02 nż
+1924	1	208865	13:50:00	13:50:00		Staroniwska szkoła 04 nż
+1924	1	208865	13:51:00	13:51:00		Staroniwska kościół 06 nż
+1924	1	208865	13:52:00	13:52:00		Staroniwska pętla 08 nż
+1924	1	208865	13:53:00	13:53:00		Staroniwska / Zielarska 14 nż
+1924	1	208865	13:54:00	13:54:00		Staroniwska / Kresowa 16 nż
+1924	1	208865	13:55:00	13:55:00		Kielanówka cegielnia 02 nż
+1924	1	208865	13:56:00	13:56:00		Kielanówka Kopiec 04 nż
+1924	1	208865	13:57:00	13:57:00		Kielanówka Ruch 06 nż
+1924	1	208865	13:58:00	13:58:00		Błękitne Wzgórze / Słoneczny Stok 02 nż
+1924	1	208865	13:59:00	13:59:00		Błękitne Wzgórze / Leśne Wzgórze 03 nż
 
-1928	2	215306	14:20:00	14:20:00		Błękitne Wzgórze / Leśne Wzgórze 03 nż
-1928	2	215306	14:21:00	14:21:00		Kielanówka Słoneczny Stok 07 nż
-1928	2	215306	14:22:00	14:22:00		Kielanówka Ruch 05 nż
-1928	2	215306	14:23:00	14:23:00		Kielanówka Kopiec 03 nż
-1928	2	215306	14:24:00	14:24:00		Kielanówka cegielnia 01 nż
-1928	2	215306	14:25:00	14:25:00		Staroniwska / Kresowa 11 nż
-1928	2	215306	14:26:00	14:26:00		Staroniwska / Zielarska 09 nż
-1928	2	215306	14:27:00	14:27:00		Staroniwska pętla 12 nż
-1928	2	215306	14:28:00	14:28:00		Staroniwska kościół 05 nż
-1928	2	215306	14:29:00	14:29:00		Staroniwska szkoła 03 nż
-1928	2	215306	14:30:00	14:30:00		Staroniwska / Rzemieślnicza 01 nż
-1928	2	215306	14:31:00	14:31:00		Langiewicza / Wita Stwosza 05 nż
-1928	2	215306	14:32:00	14:32:00		Wita Stwosza / Langiewicza 02
-1928	2	215306	14:33:00	14:33:00		Wita Stwosza kościół 04
-1928	2	215306	14:34:00	14:34:00		Wita Stwosza / Wyspiańskiego 06 nż
-1928	2	215306	14:35:00	14:35:00		Wyspiańskiego stadion 02 nż
-1928	2	215306	14:36:00	14:36:00		Witosa / Wyspiańskiego 06 nż
-1928	2	215306	14:37:00	14:37:00		Witosa jedn. wojskowa 08 nż
-1928	2	215306	14:38:00	14:38:00		Krakowska jedn. wojskowa 01
-1928	2	215306	14:40:00	14:40:00		Piłsudskiego U. Marszałkowski 07
-1928	2	215306	14:41:00	14:41:00		Cieplińskiego 02
-1928	2	215306	14:42:00	14:42:00		Lisa-Kuli 01
-1928	2	215306	14:45:00	14:45:00		Hetmańska podzamcze 02 nż
-1928	2	215306	14:46:00	14:46:00		Hetmańska przychodnia 04
-1928	2	215306	14:47:00	14:47:00		Hetmańska ZS. Mech. 06
-1928	2	215306	14:49:00	14:49:00		Powst. Warszawy stadion 06
-1928	2	215306	14:51:00	14:51:00		Powst. Warszawy dom studenta 08
-1928	2	215306	14:52:00	14:52:00		Powst. Warszawy / Graniczna 10
-1928	2	215306	14:55:00	14:55:00		Rejtana / Armii Krajowej 12
-1928	2	215306	14:56:00	14:56:00		Rejtana / Paderewskiego 10
-1928	2	215306	14:58:00	14:58:00		Paderewskiego / Ossolińskich 02 nż
-1928	2	215306	14:59:00	14:59:00		Krzyżanowskiego szkoła 01 nż
-1928	2	215306	15:01:00	15:01:00		Niepodległości dom dziecka 04 nż
-1928	2	215306	15:02:00	15:02:00		Mieszka I / Kustronia 01 nż
-1928	2	215306	15:04:00	15:04:00		Lwowska cmentarz 04
-1928	2	215306	15:06:00	15:06:00		Lwowska szpital pętla 02
+1928	1	213216	14:20:00	14:20:00		Błękitne Wzgórze / Leśne Wzgórze 03 nż
+1928	1	213216	14:21:00	14:21:00		Kielanówka Słoneczny Stok 07 nż
+1928	1	213216	14:22:00	14:22:00		Kielanówka Ruch 05 nż
+1928	1	213216	14:23:00	14:23:00		Kielanówka Kopiec 03 nż
+1928	1	213216	14:24:00	14:24:00		Kielanówka cegielnia 01 nż
+1928	1	213216	14:25:00	14:25:00		Staroniwska / Kresowa 11 nż
+1928	1	213216	14:26:00	14:26:00		Staroniwska / Zielarska 09 nż
+1928	1	213216	14:27:00	14:27:00		Staroniwska pętla 12 nż
+1928	1	213216	14:28:00	14:28:00		Staroniwska kościół 05 nż
+1928	1	213216	14:29:00	14:29:00		Staroniwska szkoła 03 nż
+1928	1	213216	14:30:00	14:30:00		Staroniwska / Rzemieślnicza 01 nż
+1928	1	213216	14:31:00	14:31:00		Langiewicza / Wita Stwosza 05 nż
+1928	1	213216	14:32:00	14:32:00		Wita Stwosza / Langiewicza 02
+1928	1	213216	14:33:00	14:33:00		Wita Stwosza kościół 04
+1928	1	213216	14:34:00	14:34:00		Wita Stwosza / Wyspiańskiego 06 nż
+1928	1	213216	14:35:00	14:35:00		Wyspiańskiego stadion 02 nż
+1928	1	213216	14:36:00	14:36:00		Witosa / Wyspiańskiego 06 nż
+1928	1	213216	14:37:00	14:37:00		Witosa jedn. wojskowa 08 nż
+1928	1	213216	14:38:00	14:38:00		Krakowska jedn. wojskowa 01
+1928	1	213216	14:40:00	14:40:00		Piłsudskiego U. Marszałkowski 07
+1928	1	213216	14:41:00	14:41:00		Cieplińskiego 02
+1928	1	213216	14:42:00	14:42:00		Lisa-Kuli 01
+1928	1	213216	14:45:00	14:45:00		Hetmańska podzamcze 02 nż
+1928	1	213216	14:46:00	14:46:00		Hetmańska przychodnia 04
+1928	1	213216	14:47:00	14:47:00		Hetmańska ZS. Mech. 06
+1928	1	213216	14:49:00	14:49:00		Powst. Warszawy stadion 06
+1928	1	213216	14:52:00	14:52:00		Powst. Warszawy dom studenta 08
+1928	1	213216	14:53:00	14:53:00		Powst. Warszawy / Graniczna 10
+1928	1	213216	14:56:00	14:56:00		Rejtana / Armii Krajowej 12
+1928	1	213216	14:57:00	14:57:00		Rejtana / Paderewskiego 10
+1928	1	213216	14:59:00	14:59:00		Paderewskiego / Ossolińskich 02 nż
+1928	1	213216	15:00:00	15:00:00		Krzyżanowskiego szkoła 01 nż
+1928	1	213216	15:02:00	15:02:00		Niepodległości dom dziecka 04 nż
+1928	1	213216	15:03:00	15:03:00		Mieszka I / Kustronia 01 nż
+1928	1	213216	15:05:00	15:05:00		Lwowska cmentarz 04
+1928	1	213216	15:07:00	15:07:00		Lwowska szpital pętla 02
 
-1887	2	210850	15:24:00	15:24:00		Lwowska szpital pętla 02
-1887	2	210850	15:25:00	15:25:00		Lwowska szpital 05
-1887	2	210850	15:27:00	15:27:00		Lwowska cmentarz 03
-1887	2	210850	15:29:00	15:29:00		Mieszka I / Kustronia 02 nż
-1887	2	210850	15:30:00	15:30:00		Niepodległości / Mieszka I 03 nż
-1887	2	210850	15:31:00	15:31:00		Niepodległości dom dziecka 01 nż
-1887	2	210850	15:32:00	15:32:00		Krzyżanowskiego szkoła 02 nż
-1887	2	210850	15:34:00	15:34:00		Paderewskiego / Ossolińskich 01 nż
-1887	2	210850	15:35:00	15:35:00		Rejtana / Krzyżanowskiego 08
-1887	2	210850	15:36:00	15:36:00		Rejtana uniwersytet 06
-1887	2	210850	15:37:00	15:37:00		Rejtana cmentarz 04 nż
-1887	2	210850	15:38:00	15:38:00		Rejtana / Kustronia 02
-1887	2	210850	15:40:00	15:40:00		Piłsudskiego ZDZ 02
-1887	2	210850	15:41:00	15:41:00		Pl. Wolności 04
-1887	2	210850	15:44:00	15:44:00		Piłsudskiego U. Marszałkowski 08
-1887	2	210850	15:46:00	15:46:00		Krakowska jedn. wojskowa 02
-1887	2	210850	15:48:00	15:48:00		Witosa / Solarza 07 nż
-1887	2	210850	15:49:00	15:49:00		Witosa / Wiktora 05 nż
-1887	2	210850	15:51:00	15:51:00		Wyspiańskiego stadion 01 nż
-1887	2	210850	15:52:00	15:52:00		Wita Stwosza / Wyspiańskiego 05 nż
-1887	2	210850	15:53:00	15:53:00		Wita Stwosza kościół 03
-1887	2	210850	15:54:00	15:54:00		Langiewicza / Wita Stwosza 04
-1887	2	210850	15:55:00	15:55:00		Bat. Chłopskich / Staroniwska 05 nż
-1887	2	210850	15:56:00	15:56:00		Przemysłowa / Bat. Chłopskich 02 nż
-1887	2	210850	15:57:00	15:57:00		Przemysłowa / Magazynowa 04
-1887	2	210850	15:58:00	15:58:00		Przemysłowa U. Celny 05 nż
+1887	1	209455	15:24:00	15:24:00		Lwowska szpital pętla 02
+1887	1	209455	15:25:00	15:25:00		Lwowska szpital 05
+1887	1	209455	15:27:00	15:27:00		Lwowska cmentarz 03
+1887	1	209455	15:29:00	15:29:00		Mieszka I / Kustronia 02 nż
+1887	1	209455	15:30:00	15:30:00		Niepodległości / Mieszka I 03 nż
+1887	1	209455	15:31:00	15:31:00		Niepodległości dom dziecka 01 nż
+1887	1	209455	15:32:00	15:32:00		Krzyżanowskiego szkoła 02 nż
+1887	1	209455	15:34:00	15:34:00		Paderewskiego / Ossolińskich 01 nż
+1887	1	209455	15:35:00	15:35:00		Rejtana / Krzyżanowskiego 08
+1887	1	209455	15:37:00	15:37:00		Rejtana uniwersytet 06
+1887	1	209455	15:38:00	15:38:00		Rejtana cmentarz 04 nż
+1887	1	209455	15:39:00	15:39:00		Rejtana / Kustronia 02
+1887	1	209455	15:41:00	15:41:00		Piłsudskiego ZDZ 02
+1887	1	209455	15:42:00	15:42:00		Pl. Wolności 04
+1887	1	209455	15:45:00	15:45:00		Piłsudskiego U. Marszałkowski 08
+1887	1	209455	15:47:00	15:47:00		Krakowska jedn. wojskowa 02
+1887	1	209455	15:49:00	15:49:00		Witosa / Solarza 07 nż
+1887	1	209455	15:50:00	15:50:00		Witosa / Wiktora 05 nż
+1887	1	209455	15:52:00	15:52:00		Wyspiańskiego stadion 01 nż
+1887	1	209455	15:53:00	15:53:00		Wita Stwosza / Wyspiańskiego 05 nż
+1887	1	209455	15:54:00	15:54:00		Wita Stwosza kościół 03
+1887	1	209455	15:55:00	15:55:00		Langiewicza / Wita Stwosza 04
+1887	1	209455	15:57:00	15:57:00		Bat. Chłopskich / Staroniwska 05 nż
+1887	1	209455	15:58:00	15:58:00		Przemysłowa / Bat. Chłopskich 02 nż
+1887	1	209455	15:59:00	15:59:00		Przemysłowa / Magazynowa 04
+1887	1	209455	16:00:00	16:00:00		Przemysłowa U. Celny 05 nż
 
-1826	2	210419	16:12:00	16:12:00		Przemysłowa U. Celny 05 nż
-1826	2	210419	16:13:00	16:13:00		Przemysłowa / Architektów 03
-1826	2	210419	16:14:00	16:14:00		Przemysłowa / Bat. Chłopskich 01 nż
-1826	2	210419	16:15:00	16:15:00		Bat. Chłopskich / Langiewicza 04 nż
-1826	2	210419	16:16:00	16:16:00		Langiewicza / Wita Stwosza 05 nż
-1826	2	210419	16:17:00	16:17:00		Wita Stwosza / Langiewicza 02
-1826	2	210419	16:18:00	16:18:00		Wita Stwosza kościół 04
-1826	2	210419	16:19:00	16:19:00		Wita Stwosza / Wyspiańskiego 06 nż
-1826	2	210419	16:20:00	16:20:00		Wyspiańskiego stadion 02 nż
-1826	2	210419	16:21:00	16:21:00		Witosa / Wyspiańskiego 06 nż
-1826	2	210419	16:22:00	16:22:00		Witosa jedn. wojskowa 08 nż
-1826	2	210419	16:23:00	16:23:00		Krakowska jedn. wojskowa 01
-1826	2	210419	16:25:00	16:25:00		Piłsudskiego U. Wojewódzki 05
-1826	2	210419	16:26:00	16:26:00		Pl. Wolności 03
-1826	2	210419	16:27:00	16:27:00		Piłsudskiego ZDZ 01 nż
-1826	2	210419	16:28:00	16:28:00		Rejtana / Lwowska 01
-1826	2	210419	16:29:00	16:29:00		Rejtana / Kustronia 03 nż
-1826	2	210419	16:30:00	16:30:00		Rejtana uniwersytet 05
-1826	2	210419	16:32:00	16:32:00		Rejtana / Kopisto 07
-1826	2	210419	16:35:00	16:35:00		Paderewskiego / Ossolińskich 02 nż
-1826	2	210419	16:36:00	16:36:00		Krzyżanowskiego szkoła 01 nż
-1826	2	210419	16:38:00	16:38:00		Niepodległości dom dziecka 04 nż
-1826	2	210419	16:39:00	16:39:00		Mieszka I / Kustronia 01 nż
-1826	2	210419	16:41:00	16:41:00		Lwowska cmentarz 04
-1826	2	210419	16:43:00	16:43:00		Lwowska szpital pętla 02
+1826	1	210772	16:11:00	16:11:00		Przemysłowa U. Celny 05 nż
+1826	1	210772	16:12:00	16:12:00		Przemysłowa / Architektów 03
+1826	1	210772	16:13:00	16:13:00		Przemysłowa / Bat. Chłopskich 01 nż
+1826	1	210772	16:15:00	16:15:00		Bat. Chłopskich / Langiewicza 04 nż
+1826	1	210772	16:16:00	16:16:00		Langiewicza / Wita Stwosza 05 nż
+1826	1	210772	16:17:00	16:17:00		Wita Stwosza / Langiewicza 02
+1826	1	210772	16:18:00	16:18:00		Wita Stwosza kościół 04
+1826	1	210772	16:19:00	16:19:00		Wita Stwosza / Wyspiańskiego 06 nż
+1826	1	210772	16:20:00	16:20:00		Wyspiańskiego stadion 02 nż
+1826	1	210772	16:21:00	16:21:00		Witosa / Wyspiańskiego 06 nż
+1826	1	210772	16:22:00	16:22:00		Witosa jedn. wojskowa 08 nż
+1826	1	210772	16:23:00	16:23:00		Krakowska jedn. wojskowa 01
+1826	1	210772	16:26:00	16:26:00		Piłsudskiego U. Wojewódzki 05
+1826	1	210772	16:27:00	16:27:00		Pl. Wolności 03
+1826	1	210772	16:28:00	16:28:00		Piłsudskiego ZDZ 01 nż
+1826	1	210772	16:29:00	16:29:00		Rejtana / Lwowska 01
+1826	1	210772	16:30:00	16:30:00		Rejtana / Kustronia 03 nż
+1826	1	210772	16:31:00	16:31:00		Rejtana uniwersytet 05
+1826	1	210772	16:33:00	16:33:00		Rejtana / Kopisto 07
+1826	1	210772	16:36:00	16:36:00		Paderewskiego / Ossolińskich 02 nż
+1826	1	210772	16:37:00	16:37:00		Krzyżanowskiego szkoła 01 nż
+1826	1	210772	16:39:00	16:39:00		Niepodległości dom dziecka 04 nż
+1826	1	210772	16:40:00	16:40:00		Mieszka I / Kustronia 01 nż
+1826	1	210772	16:42:00	16:42:00		Lwowska cmentarz 04
+1826	1	210772	16:44:00	16:44:00		Lwowska szpital pętla 02
 
-1924	2	210546	17:09:00	17:09:00		Lwowska szpital pętla 02
-1924	2	210546	17:10:00	17:10:00		Lwowska szpital 05
-1924	2	210546	17:12:00	17:12:00		Lwowska cmentarz 03
-1924	2	210546	17:14:00	17:14:00		Mieszka I / Kustronia 02 nż
-1924	2	210546	17:15:00	17:15:00		Niepodległości / Mieszka I 03 nż
-1924	2	210546	17:16:00	17:16:00		Niepodległości dom dziecka 01 nż
-1924	2	210546	17:17:00	17:17:00		Krzyżanowskiego szkoła 02 nż
-1924	2	210546	17:19:00	17:19:00		Paderewskiego / Ossolińskich 01 nż
-1924	2	210546	17:20:00	17:20:00		Rejtana / Popiełuszki 09
-1924	2	210546	17:22:00	17:22:00		Powst. Warszawy / Rejtana 13
-1924	2	210546	17:23:00	17:23:00		Powst. Warszawy szkoła 11
-1924	2	210546	17:24:00	17:24:00		Powst. Warszawy dom studenta 09
-1924	2	210546	17:26:00	17:26:00		Powst. Warszawy stadion 05 nż
-1924	2	210546	17:27:00	17:27:00		Hetmańska stadion 07
-1924	2	210546	17:28:00	17:28:00		Hetmańska ZS. Mech. 05
-1924	2	210546	17:29:00	17:29:00		Hetmańska przychodnia 03
-1924	2	210546	17:30:00	17:30:00		Hetmańska podzamcze 01 nż
-1924	2	210546	17:33:00	17:33:00		Lisa-Kuli 02
-1924	2	210546	17:34:00	17:34:00		Cieplińskiego 01
-1924	2	210546	17:36:00	17:36:00		Piłsudskiego U. Marszałkowski 08
-1924	2	210546	17:38:00	17:38:00		Krakowska jedn. wojskowa 02
-1924	2	210546	17:40:00	17:40:00		Witosa / Solarza 07 nż
-1924	2	210546	17:41:00	17:41:00		Witosa / Wiktora 05 nż
-1924	2	210546	17:43:00	17:43:00		Wyspiańskiego stadion 01 nż
-1924	2	210546	17:44:00	17:44:00		Wita Stwosza / Wyspiańskiego 05 nż
-1924	2	210546	17:45:00	17:45:00		Wita Stwosza kościół 03
-1924	2	210546	17:46:00	17:46:00		Langiewicza / Wita Stwosza 04
-1924	2	210546	17:48:00	17:48:00		Staroniwska / Rzemieślnicza 02 nż
-1924	2	210546	17:49:00	17:49:00		Staroniwska szkoła 04 nż
-1924	2	210546	17:50:00	17:50:00		Staroniwska kościół 06 nż
-1924	2	210546	17:51:00	17:51:00		Staroniwska pętla 08 nż
-1924	2	210546	17:52:00	17:52:00		Staroniwska / Zielarska 14 nż
-1924	2	210546	17:53:00	17:53:00		Staroniwska / Kresowa 16 nż
-1924	2	210546	17:54:00	17:54:00		Kielanówka cegielnia 02 nż
-1924	2	210546	17:55:00	17:55:00		Kielanówka Kopiec 04 nż
-1924	2	210546	17:56:00	17:56:00		Kielanówka Ruch 06 nż
-1924	2	210546	17:57:00	17:57:00		Błękitne Wzgórze / Słoneczny Stok 02 nż
-1924	2	210546	17:58:00	17:58:00		Błękitne Wzgórze / Leśne Wzgórze 03 nż
+1924	1	208844	17:09:00	17:09:00		Lwowska szpital pętla 02
+1924	1	208844	17:10:00	17:10:00		Lwowska szpital 05
+1924	1	208844	17:12:00	17:12:00		Lwowska cmentarz 03
+1924	1	208844	17:14:00	17:14:00		Mieszka I / Kustronia 02 nż
+1924	1	208844	17:15:00	17:15:00		Niepodległości / Mieszka I 03 nż
+1924	1	208844	17:16:00	17:16:00		Niepodległości dom dziecka 01 nż
+1924	1	208844	17:17:00	17:17:00		Krzyżanowskiego szkoła 02 nż
+1924	1	208844	17:19:00	17:19:00		Paderewskiego / Ossolińskich 01 nż
+1924	1	208844	17:20:00	17:20:00		Rejtana / Popiełuszki 09
+1924	1	208844	17:23:00	17:23:00		Powst. Warszawy / Rejtana 13
+1924	1	208844	17:24:00	17:24:00		Powst. Warszawy szkoła 11
+1924	1	208844	17:25:00	17:25:00		Powst. Warszawy dom studenta 09
+1924	1	208844	17:27:00	17:27:00		Powst. Warszawy stadion 05 nż
+1924	1	208844	17:28:00	17:28:00		Hetmańska stadion 07
+1924	1	208844	17:29:00	17:29:00		Hetmańska ZS. Mech. 05
+1924	1	208844	17:30:00	17:30:00		Hetmańska przychodnia 03
+1924	1	208844	17:31:00	17:31:00		Hetmańska podzamcze 01 nż
+1924	1	208844	17:34:00	17:34:00		Lisa-Kuli 02
+1924	1	208844	17:35:00	17:35:00		Cieplińskiego 01
+1924	1	208844	17:37:00	17:37:00		Piłsudskiego U. Marszałkowski 08
+1924	1	208844	17:39:00	17:39:00		Krakowska jedn. wojskowa 02
+1924	1	208844	17:41:00	17:41:00		Witosa / Solarza 07 nż
+1924	1	208844	17:42:00	17:42:00		Witosa / Wiktora 05 nż
+1924	1	208844	17:44:00	17:44:00		Wyspiańskiego stadion 01 nż
+1924	1	208844	17:45:00	17:45:00		Wita Stwosza / Wyspiańskiego 05 nż
+1924	1	208844	17:46:00	17:46:00		Wita Stwosza kościół 03
+1924	1	208844	17:47:00	17:47:00		Langiewicza / Wita Stwosza 04
+1924	1	208844	17:48:00	17:48:00		Staroniwska / Rzemieślnicza 02 nż
+1924	1	208844	17:49:00	17:49:00		Staroniwska szkoła 04 nż
+1924	1	208844	17:50:00	17:50:00		Staroniwska kościół 06 nż
+1924	1	208844	17:51:00	17:51:00		Staroniwska pętla 08 nż
+1924	1	208844	17:52:00	17:52:00		Staroniwska / Zielarska 14 nż
+1924	1	208844	17:53:00	17:53:00		Staroniwska / Kresowa 16 nż
+1924	1	208844	17:54:00	17:54:00		Kielanówka cegielnia 02 nż
+1924	1	208844	17:55:00	17:55:00		Kielanówka Kopiec 04 nż
+1924	1	208844	17:56:00	17:56:00		Kielanówka Ruch 06 nż
+1924	1	208844	17:57:00	17:57:00		Błękitne Wzgórze / Słoneczny Stok 02 nż
+1924	1	208844	17:58:00	17:58:00		Błękitne Wzgórze / Leśne Wzgórze 03 nż
 
-1928	2	214558	18:20:00	18:20:00		Błękitne Wzgórze / Leśne Wzgórze 03 nż
-1928	2	214558	18:21:00	18:21:00		Kielanówka Słoneczny Stok 07 nż
-1928	2	214558	18:22:00	18:22:00		Kielanówka Ruch 05 nż
-1928	2	214558	18:23:00	18:23:00		Kielanówka Kopiec 03 nż
-1928	2	214558	18:24:00	18:24:00		Kielanówka cegielnia 01 nż
-1928	2	214558	18:25:00	18:25:00		Staroniwska / Kresowa 11 nż
-1928	2	214558	18:26:00	18:26:00		Staroniwska / Zielarska 09 nż
-1928	2	214558	18:27:00	18:27:00		Staroniwska pętla 12 nż
-1928	2	214558	18:28:00	18:28:00		Staroniwska kościół 05 nż
-1928	2	214558	18:29:00	18:29:00		Staroniwska szkoła 03 nż
-1928	2	214558	18:30:00	18:30:00		Staroniwska / Rzemieślnicza 01 nż
-1928	2	214558	18:31:00	18:31:00		Langiewicza / Wita Stwosza 05 nż
-1928	2	214558	18:32:00	18:32:00		Wita Stwosza / Langiewicza 02
-1928	2	214558	18:33:00	18:33:00		Wita Stwosza kościół 04
-1928	2	214558	18:34:00	18:34:00		Wita Stwosza / Wyspiańskiego 06 nż
-1928	2	214558	18:35:00	18:35:00		Wyspiańskiego stadion 02 nż
-1928	2	214558	18:36:00	18:36:00		Witosa / Wyspiańskiego 06 nż
-1928	2	214558	18:37:00	18:37:00		Witosa jedn. wojskowa 08 nż
-1928	2	214558	18:38:00	18:38:00		Krakowska jedn. wojskowa 01
-1928	2	214558	18:40:00	18:40:00		Piłsudskiego U. Marszałkowski 07
-1928	2	214558	18:41:00	18:41:00		Cieplińskiego 02
-1928	2	214558	18:42:00	18:42:00		Lisa-Kuli 01
-1928	2	214558	18:45:00	18:45:00		Hetmańska podzamcze 02 nż
-1928	2	214558	18:46:00	18:46:00		Hetmańska przychodnia 04
-1928	2	214558	18:47:00	18:47:00		Hetmańska ZS. Mech. 06
-1928	2	214558	18:49:00	18:49:00		Powst. Warszawy stadion 06
-1928	2	214558	18:51:00	18:51:00		Powst. Warszawy dom studenta 08
-1928	2	214558	18:52:00	18:52:00		Powst. Warszawy / Graniczna 10
-1928	2	214558	18:55:00	18:55:00		Rejtana / Armii Krajowej 12
-1928	2	214558	18:56:00	18:56:00		Rejtana / Paderewskiego 10
-1928	2	214558	18:58:00	18:58:00		Paderewskiego / Ossolińskich 02 nż
-1928	2	214558	18:59:00	18:59:00		Krzyżanowskiego szkoła 01 nż
-1928	2	214558	19:01:00	19:01:00		Niepodległości dom dziecka 04 nż
-1928	2	214558	19:02:00	19:02:00		Mieszka I / Kustronia 01 nż
-1928	2	214558	19:04:00	19:04:00		Lwowska cmentarz 04
-1928	2	214558	19:06:00	19:06:00		Lwowska szpital pętla 02
+1928	1	209156	18:20:00	18:20:00		Błękitne Wzgórze / Leśne Wzgórze 03 nż
+1928	1	209156	18:21:00	18:21:00		Kielanówka Słoneczny Stok 07 nż
+1928	1	209156	18:22:00	18:22:00		Kielanówka Ruch 05 nż
+1928	1	209156	18:23:00	18:23:00		Kielanówka Kopiec 03 nż
+1928	1	209156	18:24:00	18:24:00		Kielanówka cegielnia 01 nż
+1928	1	209156	18:25:00	18:25:00		Staroniwska / Kresowa 11 nż
+1928	1	209156	18:26:00	18:26:00		Staroniwska / Zielarska 09 nż
+1928	1	209156	18:27:00	18:27:00		Staroniwska pętla 12 nż
+1928	1	209156	18:28:00	18:28:00		Staroniwska kościół 05 nż
+1928	1	209156	18:29:00	18:29:00		Staroniwska szkoła 03 nż
+1928	1	209156	18:30:00	18:30:00		Staroniwska / Rzemieślnicza 01 nż
+1928	1	209156	18:31:00	18:31:00		Langiewicza / Wita Stwosza 05 nż
+1928	1	209156	18:32:00	18:32:00		Wita Stwosza / Langiewicza 02
+1928	1	209156	18:33:00	18:33:00		Wita Stwosza kościół 04
+1928	1	209156	18:34:00	18:34:00		Wita Stwosza / Wyspiańskiego 06 nż
+1928	1	209156	18:35:00	18:35:00		Wyspiańskiego stadion 02 nż
+1928	1	209156	18:36:00	18:36:00		Witosa / Wyspiańskiego 06 nż
+1928	1	209156	18:37:00	18:37:00		Witosa jedn. wojskowa 08 nż
+1928	1	209156	18:38:00	18:38:00		Krakowska jedn. wojskowa 01
+1928	1	209156	18:40:00	18:40:00		Piłsudskiego U. Marszałkowski 07
+1928	1	209156	18:41:00	18:41:00		Cieplińskiego 02
+1928	1	209156	18:42:00	18:42:00		Lisa-Kuli 01
+1928	1	209156	18:45:00	18:45:00		Hetmańska podzamcze 02 nż
+1928	1	209156	18:46:00	18:46:00		Hetmańska przychodnia 04
+1928	1	209156	18:47:00	18:47:00		Hetmańska ZS. Mech. 06
+1928	1	209156	18:49:00	18:49:00		Powst. Warszawy stadion 06
+1928	1	209156	18:52:00	18:52:00		Powst. Warszawy dom studenta 08
+1928	1	209156	18:53:00	18:53:00		Powst. Warszawy / Graniczna 10
+1928	1	209156	18:56:00	18:56:00		Rejtana / Armii Krajowej 12
+1928	1	209156	18:57:00	18:57:00		Rejtana / Paderewskiego 10
+1928	1	209156	18:59:00	18:59:00		Paderewskiego / Ossolińskich 02 nż
+1928	1	209156	19:00:00	19:00:00		Krzyżanowskiego szkoła 01 nż
+1928	1	209156	19:02:00	19:02:00		Niepodległości dom dziecka 04 nż
+1928	1	209156	19:03:00	19:03:00		Mieszka I / Kustronia 01 nż
+1928	1	209156	19:05:00	19:05:00		Lwowska cmentarz 04
+1928	1	209156	19:07:00	19:07:00		Lwowska szpital pętla 02
 
-1887	2	211829	19:24:00	19:24:00		Lwowska szpital pętla 02
-1887	2	211829	19:25:00	19:25:00		Lwowska szpital 05
-1887	2	211829	19:27:00	19:27:00		Lwowska cmentarz 03
-1887	2	211829	19:29:00	19:29:00		Mieszka I / Kustronia 02 nż
-1887	2	211829	19:30:00	19:30:00		Niepodległości / Mieszka I 03 nż
-1887	2	211829	19:31:00	19:31:00		Niepodległości dom dziecka 01 nż
-1887	2	211829	19:32:00	19:32:00		Krzyżanowskiego szkoła 02 nż
-1887	2	211829	19:34:00	19:34:00		Paderewskiego / Ossolińskich 01 nż
-1887	2	211829	19:35:00	19:35:00		Rejtana / Krzyżanowskiego 08
-1887	2	211829	19:36:00	19:36:00		Rejtana uniwersytet 06
-1887	2	211829	19:37:00	19:37:00		Rejtana cmentarz 04 nż
-1887	2	211829	19:38:00	19:38:00		Rejtana / Kustronia 02
-1887	2	211829	19:40:00	19:40:00		Piłsudskiego ZDZ 02
-1887	2	211829	19:41:00	19:41:00		Pl. Wolności 04
-1887	2	211829	19:43:00	19:43:00		Piłsudskiego U. Marszałkowski 08
-1887	2	211829	19:45:00	19:45:00		Krakowska jedn. wojskowa 02
-1887	2	211829	19:47:00	19:47:00		Witosa / Solarza 07 nż
-1887	2	211829	19:48:00	19:48:00		Witosa / Wiktora 05 nż
-1887	2	211829	19:50:00	19:50:00		Wyspiańskiego stadion 01 nż
-1887	2	211829	19:51:00	19:51:00		Wita Stwosza / Wyspiańskiego 05 nż
-1887	2	211829	19:52:00	19:52:00		Wita Stwosza kościół 03
-1887	2	211829	19:53:00	19:53:00		Langiewicza / Wita Stwosza 04
-1887	2	211829	19:54:00	19:54:00		Bat. Chłopskich / Staroniwska 05 nż
-1887	2	211829	19:55:00	19:55:00		Przemysłowa / Bat. Chłopskich 02 nż
-1887	2	211829	19:56:00	19:56:00		Przemysłowa / Magazynowa 04
-1887	2	211829	19:57:00	19:57:00		Przemysłowa U. Celny 05 nż
+1887	1	208830	19:24:00	19:24:00		Lwowska szpital pętla 02
+1887	1	208830	19:25:00	19:25:00		Lwowska szpital 05
+1887	1	208830	19:27:00	19:27:00		Lwowska cmentarz 03
+1887	1	208830	19:29:00	19:29:00		Mieszka I / Kustronia 02 nż
+1887	1	208830	19:30:00	19:30:00		Niepodległości / Mieszka I 03 nż
+1887	1	208830	19:31:00	19:31:00		Niepodległości dom dziecka 01 nż
+1887	1	208830	19:32:00	19:32:00		Krzyżanowskiego szkoła 02 nż
+1887	1	208830	19:34:00	19:34:00		Paderewskiego / Ossolińskich 01 nż
+1887	1	208830	19:35:00	19:35:00		Rejtana / Krzyżanowskiego 08
+1887	1	208830	19:36:00	19:36:00		Rejtana uniwersytet 06
+1887	1	208830	19:37:00	19:37:00		Rejtana cmentarz 04 nż
+1887	1	208830	19:38:00	19:38:00		Rejtana / Kustronia 02
+1887	1	208830	19:40:00	19:40:00		Piłsudskiego ZDZ 02
+1887	1	208830	19:41:00	19:41:00		Pl. Wolności 04
+1887	1	208830	19:44:00	19:44:00		Piłsudskiego U. Marszałkowski 08
+1887	1	208830	19:46:00	19:46:00		Krakowska jedn. wojskowa 02
+1887	1	208830	19:48:00	19:48:00		Witosa / Solarza 07 nż
+1887	1	208830	19:49:00	19:49:00		Witosa / Wiktora 05 nż
+1887	1	208830	19:51:00	19:51:00		Wyspiańskiego stadion 01 nż
+1887	1	208830	19:52:00	19:52:00		Wita Stwosza / Wyspiańskiego 05 nż
+1887	1	208830	19:53:00	19:53:00		Wita Stwosza kościół 03
+1887	1	208830	19:54:00	19:54:00		Langiewicza / Wita Stwosza 04
+1887	1	208830	19:55:00	19:55:00		Bat. Chłopskich / Staroniwska 05 nż
+1887	1	208830	19:56:00	19:56:00		Przemysłowa / Bat. Chłopskich 02 nż
+1887	1	208830	19:57:00	19:57:00		Przemysłowa / Magazynowa 04
+1887	1	208830	19:58:00	19:58:00		Przemysłowa U. Celny 05 nż
 
-1826	2	212965	20:13:00	20:13:00		Przemysłowa U. Celny 05 nż
-1826	2	212965	20:14:00	20:14:00		Przemysłowa / Architektów 03
-1826	2	212965	20:15:00	20:15:00		Przemysłowa / Bat. Chłopskich 01 nż
-1826	2	212965	20:16:00	20:16:00		Bat. Chłopskich / Langiewicza 04 nż
-1826	2	212965	20:17:00	20:17:00		Langiewicza / Wita Stwosza 05 nż
-1826	2	212965	20:18:00	20:18:00		Wita Stwosza / Langiewicza 02
-1826	2	212965	20:19:00	20:19:00		Wita Stwosza kościół 04
-1826	2	212965	20:20:00	20:20:00		Wita Stwosza / Wyspiańskiego 06 nż
-1826	2	212965	20:21:00	20:21:00		Wyspiańskiego stadion 02 nż
-1826	2	212965	20:22:00	20:22:00		Witosa / Wyspiańskiego 06 nż
-1826	2	212965	20:23:00	20:23:00		Witosa jedn. wojskowa 08 nż
-1826	2	212965	20:24:00	20:24:00		Krakowska jedn. wojskowa 01
-1826	2	212965	20:26:00	20:26:00		Piłsudskiego U. Wojewódzki 05
-1826	2	212965	20:27:00	20:27:00		Pl. Wolności 03
-1826	2	212965	20:28:00	20:28:00		Piłsudskiego ZDZ 01 nż
-1826	2	212965	20:29:00	20:29:00		Rejtana / Lwowska 01
-1826	2	212965	20:30:00	20:30:00		Rejtana / Kustronia 03 nż
-1826	2	212965	20:31:00	20:31:00		Rejtana uniwersytet 05
-1826	2	212965	20:33:00	20:33:00		Rejtana / Kopisto 07
-1826	2	212965	20:35:00	20:35:00		Paderewskiego / Ossolińskich 02 nż
-1826	2	212965	20:36:00	20:36:00		Krzyżanowskiego szkoła 01 nż
-1826	2	212965	20:37:00	20:37:00		Niepodległości dom dziecka 04 nż
-1826	2	212965	20:38:00	20:38:00		Mieszka I / Kustronia 01 nż
-1826	2	212965	20:40:00	20:40:00		Lwowska cmentarz 04
-1826	2	212965	20:42:00	20:42:00		Lwowska szpital pętla 02
+1826	1	210442	20:13:00	20:13:00		Przemysłowa U. Celny 05 nż
+1826	1	210442	20:14:00	20:14:00		Przemysłowa / Architektów 03
+1826	1	210442	20:15:00	20:15:00		Przemysłowa / Bat. Chłopskich 01 nż
+1826	1	210442	20:16:00	20:16:00		Bat. Chłopskich / Langiewicza 04 nż
+1826	1	210442	20:17:00	20:17:00		Langiewicza / Wita Stwosza 05 nż
+1826	1	210442	20:18:00	20:18:00		Wita Stwosza / Langiewicza 02
+1826	1	210442	20:19:00	20:19:00		Wita Stwosza kościół 04
+1826	1	210442	20:20:00	20:20:00		Wita Stwosza / Wyspiańskiego 06 nż
+1826	1	210442	20:21:00	20:21:00		Wyspiańskiego stadion 02 nż
+1826	1	210442	20:22:00	20:22:00		Witosa / Wyspiańskiego 06 nż
+1826	1	210442	20:23:00	20:23:00		Witosa jedn. wojskowa 08 nż
+1826	1	210442	20:24:00	20:24:00		Krakowska jedn. wojskowa 01
+1826	1	210442	20:26:00	20:26:00		Piłsudskiego U. Wojewódzki 05
+1826	1	210442	20:27:00	20:27:00		Pl. Wolności 03
+1826	1	210442	20:28:00	20:28:00		Piłsudskiego ZDZ 01 nż
+1826	1	210442	20:29:00	20:29:00		Rejtana / Lwowska 01
+1826	1	210442	20:30:00	20:30:00		Rejtana / Kustronia 03 nż
+1826	1	210442	20:31:00	20:31:00		Rejtana uniwersytet 05
+1826	1	210442	20:33:00	20:33:00		Rejtana / Kopisto 07
+1826	1	210442	20:35:00	20:35:00		Paderewskiego / Ossolińskich 02 nż
+1826	1	210442	20:36:00	20:36:00		Krzyżanowskiego szkoła 01 nż
+1826	1	210442	20:37:00	20:37:00		Niepodległości dom dziecka 04 nż
+1826	1	210442	20:38:00	20:38:00		Mieszka I / Kustronia 01 nż
+1826	1	210442	20:40:00	20:40:00		Lwowska cmentarz 04
+1826	1	210442	20:42:00	20:42:00		Lwowska szpital pętla 02
 
-1924	2	209661	21:09:00	21:09:00		Lwowska szpital pętla 02
-1924	2	209661	21:10:00	21:10:00		Lwowska szpital 05
-1924	2	209661	21:12:00	21:12:00		Lwowska cmentarz 03
-1924	2	209661	21:14:00	21:14:00		Mieszka I / Kustronia 02 nż
-1924	2	209661	21:15:00	21:15:00		Niepodległości / Mieszka I 03 nż
-1924	2	209661	21:16:00	21:16:00		Niepodległości dom dziecka 01 nż
-1924	2	209661	21:17:00	21:17:00		Krzyżanowskiego szkoła 02 nż
-1924	2	209661	21:19:00	21:19:00		Paderewskiego / Ossolińskich 01 nż
-1924	2	209661	21:20:00	21:20:00		Rejtana / Popiełuszki 09
-1924	2	209661	21:22:00	21:22:00		Powst. Warszawy / Rejtana 13
-1924	2	209661	21:23:00	21:23:00		Powst. Warszawy szkoła 11
-1924	2	209661	21:24:00	21:24:00		Powst. Warszawy dom studenta 09
-1924	2	209661	21:25:00	21:25:00		Powst. Warszawy stadion 05 nż
-1924	2	209661	21:26:00	21:26:00		Hetmańska stadion 07
-1924	2	209661	21:27:00	21:27:00		Hetmańska ZS. Mech. 05
-1924	2	209661	21:28:00	21:28:00		Hetmańska przychodnia 03
-1924	2	209661	21:29:00	21:29:00		Hetmańska podzamcze 01 nż
-1924	2	209661	21:31:00	21:31:00		Lisa-Kuli 02
-1924	2	209661	21:32:00	21:32:00		Cieplińskiego 01
-1924	2	209661	21:34:00	21:34:00		Piłsudskiego U. Marszałkowski 08
-1924	2	209661	21:36:00	21:36:00		Krakowska jedn. wojskowa 02
-1924	2	209661	21:38:00	21:38:00		Witosa / Solarza 07 nż
-1924	2	209661	21:39:00	21:39:00		Witosa / Wiktora 05 nż
-1924	2	209661	21:41:00	21:41:00		Wyspiańskiego stadion 01 nż
-1924	2	209661	21:42:00	21:42:00		Wita Stwosza / Wyspiańskiego 05 nż
-1924	2	209661	21:43:00	21:43:00		Wita Stwosza kościół 03
-1924	2	209661	21:44:00	21:44:00		Langiewicza / Wita Stwosza 04
-1924	2	209661	21:45:00	21:45:00		Staroniwska / Rzemieślnicza 02 nż
-1924	2	209661	21:46:00	21:46:00		Staroniwska szkoła 04 nż
-1924	2	209661	21:47:00	21:47:00		Staroniwska kościół 06 nż
-1924	2	209661	21:48:00	21:48:00		Staroniwska pętla 08 nż
-1924	2	209661	21:49:00	21:49:00		Staroniwska / Zielarska 14 nż
-1924	2	209661	21:50:00	21:50:00		Staroniwska / Kresowa 16 nż
-1924	2	209661	21:51:00	21:51:00		Kielanówka cegielnia 02 nż
-1924	2	209661	21:52:00	21:52:00		Kielanówka Kopiec 04 nż
-1924	2	209661	21:53:00	21:53:00		Kielanówka Ruch 06 nż
-1924	2	209661	21:54:00	21:54:00		Błękitne Wzgórze / Słoneczny Stok 02 nż
-1924	2	209661	21:55:00	21:55:00		Błękitne Wzgórze / Leśne Wzgórze 03 nż
+1924	1	213699	21:10:00	21:10:00		Lwowska szpital pętla 02
+1924	1	213699	21:11:00	21:11:00		Lwowska szpital 05
+1924	1	213699	21:12:00	21:12:00		Lwowska cmentarz 03
+1924	1	213699	21:14:00	21:14:00		Mieszka I / Kustronia 02 nż
+1924	1	213699	21:15:00	21:15:00		Niepodległości / Mieszka I 03 nż
+1924	1	213699	21:16:00	21:16:00		Niepodległości dom dziecka 01 nż
+1924	1	213699	21:17:00	21:17:00		Krzyżanowskiego szkoła 02 nż
+1924	1	213699	21:19:00	21:19:00		Paderewskiego / Ossolińskich 01 nż
+1924	1	213699	21:20:00	21:20:00		Rejtana / Popiełuszki 09
+1924	1	213699	21:22:00	21:22:00		Powst. Warszawy / Rejtana 13
+1924	1	213699	21:23:00	21:23:00		Powst. Warszawy szkoła 11
+1924	1	213699	21:24:00	21:24:00		Powst. Warszawy dom studenta 09
+1924	1	213699	21:25:00	21:25:00		Powst. Warszawy stadion 05 nż
+1924	1	213699	21:26:00	21:26:00		Hetmańska stadion 07
+1924	1	213699	21:27:00	21:27:00		Hetmańska ZS. Mech. 05
+1924	1	213699	21:28:00	21:28:00		Hetmańska przychodnia 03
+1924	1	213699	21:29:00	21:29:00		Hetmańska podzamcze 01 nż
+1924	1	213699	21:31:00	21:31:00		Lisa-Kuli 02
+1924	1	213699	21:32:00	21:32:00		Cieplińskiego 01
+1924	1	213699	21:34:00	21:34:00		Piłsudskiego U. Marszałkowski 08
+1924	1	213699	21:36:00	21:36:00		Krakowska jedn. wojskowa 02
+1924	1	213699	21:38:00	21:38:00		Witosa / Solarza 07 nż
+1924	1	213699	21:39:00	21:39:00		Witosa / Wiktora 05 nż
+1924	1	213699	21:41:00	21:41:00		Wyspiańskiego stadion 01 nż
+1924	1	213699	21:42:00	21:42:00		Wita Stwosza / Wyspiańskiego 05 nż
+1924	1	213699	21:43:00	21:43:00		Wita Stwosza kościół 03
+1924	1	213699	21:44:00	21:44:00		Langiewicza / Wita Stwosza 04
+1924	1	213699	21:45:00	21:45:00		Staroniwska / Rzemieślnicza 02 nż
+1924	1	213699	21:46:00	21:46:00		Staroniwska szkoła 04 nż
+1924	1	213699	21:47:00	21:47:00		Staroniwska kościół 06 nż
+1924	1	213699	21:48:00	21:48:00		Staroniwska pętla 08 nż
+1924	1	213699	21:49:00	21:49:00		Staroniwska / Zielarska 14 nż
+1924	1	213699	21:50:00	21:50:00		Staroniwska / Kresowa 16 nż
+1924	1	213699	21:51:00	21:51:00		Kielanówka cegielnia 02 nż
+1924	1	213699	21:52:00	21:52:00		Kielanówka Kopiec 04 nż
+1924	1	213699	21:53:00	21:53:00		Kielanówka Ruch 06 nż
+1924	1	213699	21:54:00	21:54:00		Błękitne Wzgórze / Słoneczny Stok 02 nż
+1924	1	213699	21:55:00	21:55:00		Błękitne Wzgórze / Leśne Wzgórze 03 nż
