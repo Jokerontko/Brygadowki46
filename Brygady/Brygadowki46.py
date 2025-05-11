@@ -2393,6 +2393,29 @@ def ZmienNazewnictwo():
     
     
     
+import shutil
+import os
+
+def ZaaktualizujPliki():
+    # Ścieżki folderów
+    base_path = "../public/Brygady/"
+    folders_to_delete = ["PowszedniWolny", "Sobotni", "Niedzielny"]
+    source_folder = os.path.join(base_path, "Powszedni")
+
+    # Usunięcie folderów docelowych
+    for folder_name in folders_to_delete:
+        target_path = os.path.join(base_path, folder_name)
+        if os.path.exists(target_path):
+            shutil.rmtree(target_path)
+            print(f"Usunięto folder: {target_path}")
+        else:
+            print(f"Folder nie istnieje: {target_path}")
+
+    # Skopiowanie folderu źródłowego pod nowe nazwy
+    for folder_name in folders_to_delete:
+        target_path = os.path.join(base_path, folder_name)
+        shutil.copytree(source_folder, target_path)
+        print(f"Skopiowano {source_folder} do {target_path}")
 
 
 
@@ -2430,6 +2453,7 @@ def menu():
         print("17 - TESTOWANKO utwórz liste podmian automatycznie")
         print("18. Utwórz plik Przystanki")
         print("19. Odczytaj przystanki (nazewnictwo itd)")
+        print("100. Zaaktualizuj foldery (usuń stare, wstaw zaaktualizowane)")
         print("")
         print("20. Brygady + Numeracja + Nazwanie + Linie + Godziny + GOTOWE.txt + Wyznacz bb + Wczytaj bb + Plik Zbiorczy Kursy")
         print("================================")
@@ -2542,9 +2566,9 @@ def menu():
             parse_kursy_file("WYNIKI/Gotowe_brygady/3/Kursy.txt")
             parse_kursy_file("WYNIKI/Gotowe_brygady/4/Kursy.txt")
             Wczytaj_Przystanki()
-            input("Gotowe.")            
-
-
+            input("Gotowe.")  
+        elif wybor == "100":
+            ZaaktualizujPliki()
         elif wybor == "90":
             NewsMenu()
         elif wybor == "91":

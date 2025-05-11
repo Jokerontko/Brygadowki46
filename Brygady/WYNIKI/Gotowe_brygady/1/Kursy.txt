@@ -32816,6 +32816,12 @@ route_id	service_id	trip_id	arrival_time	departure_time	stop_headsign	stop_name
 1976	2	215926	07:12:00	07:12:00		Hermanowa Czerwonki środek 51 nż
 1976	2	215926	07:14:00	07:14:00		Hermanowa Czerwonki pętla 53
 
+Folder: 58_1
+[Rez] Rezerwa
+route_id	service_id	trip_id	arrival_time	departure_time	stop_headsign	stop_name
+-------------------------------------------------------------------------------
+REZ	R	-	17:04:00	18:32:00		Rezerwa
+
 Folder: 58_2
 [58] Dworzec Lokalny - Hermanowa Czerwonki pętla 53 p. Hermanową pętla
 route_id	service_id	trip_id	arrival_time	departure_time	stop_headsign	stop_name
