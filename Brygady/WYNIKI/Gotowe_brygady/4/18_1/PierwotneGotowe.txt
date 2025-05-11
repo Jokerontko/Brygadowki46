@@ -1,0 +1,586 @@
+route_id	service_id	trip_id	arrival_time	departure_time	stop_headsign	stop_name
+-------------------------------------------------------------------------------
+1828	1	211398	05:10:00	05:10:00		Obr. Poczty Gdańskiej pętla 08
+1828	1	211398	05:11:00	05:11:00		Obr. Poczty Gdańskiej / Raginisa 01
+1828	1	211398	05:13:00	05:13:00		Wyzwolenia / Ofiar Katynia 09
+1828	1	211398	05:14:00	05:14:00		Wyzwolenia kościół 07
+1828	1	211398	05:15:00	05:15:00		Wyzwolenia / Okulickiego 05 nż
+1828	1	211398	05:15:00	05:15:00		Wyzwolenia / Ujejskiego 03 nż
+1828	1	211398	05:17:00	05:17:00		Wyzwolenia / Warszawska 01 nż
+1828	1	211398	05:18:00	05:18:00		Lubelska szpital 01
+1828	1	211398	05:19:00	05:19:00		Marszałkowska 01
+1828	1	211398	05:21:00	05:21:00		Cieplińskiego 02
+1828	1	211398	05:22:00	05:22:00		Lisa-Kuli 01
+1828	1	211398	05:24:00	05:24:00		Dąbrowskiego park 02 nż
+1828	1	211398	05:25:00	05:25:00		Dąbrowskiego KW. Policji 04
+1828	1	211398	05:26:00	05:26:00		Dąbrowskiego / Boh. Westerplatte 08
+1828	1	211398	05:27:00	05:27:00		Powst. Warszawy / Dąbrowskiego 02
+1828	1	211398	05:28:00	05:28:00		Powst. Warszawy politechnika 04
+1828	1	211398	05:29:00	05:29:00		Powst. Warszawy stadion 06
+1828	1	211398	05:30:00	05:30:00		Powst. Warszawy dom studenta 08
+1828	1	211398	05:31:00	05:31:00		Powst. Warszawy / Graniczna 10
+1828	1	211398	05:32:00	05:32:00		Powst. Warszawy / Sikorskiego 12 nż
+1828	1	211398	05:33:00	05:33:00		Sikorskiego katedra 04 nż
+1828	1	211398	05:34:00	05:34:00		Łukasiewicza / Sikorskiego 02 nż
+1828	1	211398	05:35:00	05:35:00		Łukasiewicza / Zimowit 04 nż
+1828	1	211398	05:36:00	05:36:00		Łukasiewicza / Gumińskich 06 nż
+1828	1	211398	05:37:00	05:37:00		Łukasiewicza pętla 08
+1828	1	211398	05:39:00	05:39:00		Kiepury / Herberta 02 nż
+1828	1	211398	05:40:00	05:40:00		Matysowska / Skalista 02 nż
+1828	1	211398	05:42:00	05:42:00		Matysowska szkoła 04 nż
+1828	1	211398	05:43:00	05:43:00		Matysowska górka 06 nż
+1828	1	211398	05:44:00	05:44:00		Matysowska / Pienińska 08 nż
+1828	1	211398	05:45:00	05:45:00		Pienińska pętla 03
+
+1944	1	211077	06:05:00	06:05:00		Pienińska pętla 03
+1944	1	211077	06:06:00	06:06:00		Pienińska / Matysowska 01 nż
+1944	1	211077	06:07:00	06:07:00		Matysowska / Św. Walentego 05 nż
+1944	1	211077	06:08:00	06:08:00		Matysowska górka 03 nż
+1944	1	211077	06:10:00	06:10:00		Matysowska szkoła 01 nż
+1944	1	211077	06:12:00	06:12:00		Kiepury / Wichrowa 03 nż
+1944	1	211077	06:13:00	06:13:00		Kiepury / Herberta 01 nż
+1944	1	211077	06:15:00	06:15:00		Łukasiewicza pętla 10
+1944	1	211077	06:16:00	06:16:00		Łukasiewicza / Sasanki 03 nż
+1944	1	211077	06:17:00	06:17:00		Łukasiewicza / Krokusowa 01 nż
+1944	1	211077	06:18:00	06:18:00		Sikorskiego katedra 01 nż
+1944	1	211077	06:20:00	06:20:00		Powst. Warszawy / Rejtana 13
+1944	1	211077	06:21:00	06:21:00		Powst. Warszawy szkoła 11
+1944	1	211077	06:22:00	06:22:00		Powst. Warszawy dom studenta 09
+1944	1	211077	06:23:00	06:23:00		Powst. Warszawy stadion 05 nż
+1944	1	211077	06:24:00	06:24:00		Powst. Warszawy / Hetmańska 03
+1944	1	211077	06:25:00	06:25:00		Powst. Warszawy politechnika 01
+1944	1	211077	06:27:00	06:27:00		Dąbrowskiego / Chrobrego 07
+1944	1	211077	06:28:00	06:28:00		Dąbrowskiego KW. Policji 03
+1944	1	211077	06:29:00	06:29:00		Dąbrowskiego park 01 nż
+1944	1	211077	06:31:00	06:31:00		Lisa-Kuli 02
+1944	1	211077	06:32:00	06:32:00		Cieplińskiego 01
+1944	1	211077	06:34:00	06:34:00		Marszałkowska 02
+1944	1	211077	06:35:00	06:35:00		Lubelska szpital 02
+1944	1	211077	06:37:00	06:37:00		Wyzwolenia / Lubelska 02 nż
+1944	1	211077	06:38:00	06:38:00		Wyzwolenia WORD 04 nż
+1944	1	211077	06:39:00	06:39:00		Wyzwolenia / Przy Torze 06 nż
+1944	1	211077	06:40:00	06:40:00		Wyzwolenia / Iranka-Osmeckiego 08
+1944	1	211077	06:41:00	06:41:00		Wyzwolenia / Brydaka 10
+1944	1	211077	06:42:00	06:42:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
+1944	1	211077	06:43:00	06:43:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
+1944	1	211077	06:44:00	06:44:00		Obr. Poczty Gdańskiej pętla 08
+
+1828	1	212081	07:10:00	07:10:00		Obr. Poczty Gdańskiej pętla 08
+1828	1	212081	07:11:00	07:11:00		Obr. Poczty Gdańskiej / Raginisa 01
+1828	1	212081	07:13:00	07:13:00		Wyzwolenia / Ofiar Katynia 09
+1828	1	212081	07:14:00	07:14:00		Wyzwolenia kościół 07
+1828	1	212081	07:15:00	07:15:00		Wyzwolenia / Okulickiego 05 nż
+1828	1	212081	07:16:00	07:16:00		Wyzwolenia / Ujejskiego 03 nż
+1828	1	212081	07:17:00	07:17:00		Wyzwolenia / Warszawska 01 nż
+1828	1	212081	07:18:00	07:18:00		Lubelska szpital 01
+1828	1	212081	07:19:00	07:19:00		Marszałkowska 01
+1828	1	212081	07:22:00	07:22:00		Cieplińskiego 02
+1828	1	212081	07:23:00	07:23:00		Lisa-Kuli 01
+1828	1	212081	07:25:00	07:25:00		Dąbrowskiego park 02 nż
+1828	1	212081	07:26:00	07:26:00		Dąbrowskiego KW. Policji 04
+1828	1	212081	07:27:00	07:27:00		Dąbrowskiego / Boh. Westerplatte 08
+1828	1	212081	07:30:00	07:30:00		Powst. Warszawy / Dąbrowskiego 02
+1828	1	212081	07:31:00	07:31:00		Powst. Warszawy politechnika 04
+1828	1	212081	07:32:00	07:32:00		Powst. Warszawy stadion 06
+1828	1	212081	07:34:00	07:34:00		Powst. Warszawy dom studenta 08
+1828	1	212081	07:35:00	07:35:00		Powst. Warszawy / Graniczna 10
+1828	1	212081	07:36:00	07:36:00		Powst. Warszawy / Sikorskiego 12 nż
+1828	1	212081	07:37:00	07:37:00		Sikorskiego katedra 04 nż
+1828	1	212081	07:38:00	07:38:00		Łukasiewicza / Sikorskiego 02 nż
+1828	1	212081	07:39:00	07:39:00		Łukasiewicza / Zimowit 04 nż
+1828	1	212081	07:40:00	07:40:00		Łukasiewicza / Gumińskich 06 nż
+1828	1	212081	07:41:00	07:41:00		Łukasiewicza pętla 08
+1828	1	212081	07:43:00	07:43:00		Kiepury / Herberta 02 nż
+1828	1	212081	07:44:00	07:44:00		Matysowska / Skalista 02 nż
+1828	1	212081	07:46:00	07:46:00		Matysowska szkoła 04 nż
+1828	1	212081	07:47:00	07:47:00		Matysowska górka 06 nż
+1828	1	212081	07:48:00	07:48:00		Matysowska / Pienińska 08 nż
+1828	1	212081	07:49:00	07:49:00		Pienińska pętla 03
+
+1944	1	210407	08:05:00	08:05:00		Pienińska pętla 03
+1944	1	210407	08:06:00	08:06:00		Pienińska / Matysowska 01 nż
+1944	1	210407	08:07:00	08:07:00		Matysowska / Św. Walentego 05 nż
+1944	1	210407	08:08:00	08:08:00		Matysowska górka 03 nż
+1944	1	210407	08:10:00	08:10:00		Matysowska szkoła 01 nż
+1944	1	210407	08:12:00	08:12:00		Kiepury / Wichrowa 03 nż
+1944	1	210407	08:13:00	08:13:00		Kiepury / Herberta 01 nż
+1944	1	210407	08:15:00	08:15:00		Łukasiewicza pętla 10
+1944	1	210407	08:16:00	08:16:00		Łukasiewicza / Sasanki 03 nż
+1944	1	210407	08:17:00	08:17:00		Łukasiewicza / Krokusowa 01 nż
+1944	1	210407	08:18:00	08:18:00		Sikorskiego katedra 01 nż
+1944	1	210407	08:20:00	08:20:00		Powst. Warszawy / Rejtana 13
+1944	1	210407	08:21:00	08:21:00		Powst. Warszawy szkoła 11
+1944	1	210407	08:22:00	08:22:00		Powst. Warszawy dom studenta 09
+1944	1	210407	08:23:00	08:23:00		Powst. Warszawy stadion 05 nż
+1944	1	210407	08:24:00	08:24:00		Powst. Warszawy / Hetmańska 03
+1944	1	210407	08:25:00	08:25:00		Powst. Warszawy politechnika 01
+1944	1	210407	08:27:00	08:27:00		Dąbrowskiego / Chrobrego 07
+1944	1	210407	08:28:00	08:28:00		Dąbrowskiego KW. Policji 03
+1944	1	210407	08:29:00	08:29:00		Dąbrowskiego park 01 nż
+1944	1	210407	08:33:00	08:33:00		Lisa-Kuli 02
+1944	1	210407	08:34:00	08:34:00		Cieplińskiego 01
+1944	1	210407	08:36:00	08:36:00		Marszałkowska 02
+1944	1	210407	08:37:00	08:37:00		Lubelska szpital 02
+1944	1	210407	08:39:00	08:39:00		Wyzwolenia / Lubelska 02 nż
+1944	1	210407	08:40:00	08:40:00		Wyzwolenia WORD 04 nż
+1944	1	210407	08:41:00	08:41:00		Wyzwolenia / Przy Torze 06 nż
+1944	1	210407	08:42:00	08:42:00		Wyzwolenia / Iranka-Osmeckiego 08
+1944	1	210407	08:43:00	08:43:00		Wyzwolenia / Brydaka 10
+1944	1	210407	08:44:00	08:44:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
+1944	1	210407	08:45:00	08:45:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
+1944	1	210407	08:46:00	08:46:00		Obr. Poczty Gdańskiej pętla 08
+
+1828	1	213321	09:10:00	09:10:00		Obr. Poczty Gdańskiej pętla 08
+1828	1	213321	09:11:00	09:11:00		Obr. Poczty Gdańskiej / Raginisa 01
+1828	1	213321	09:13:00	09:13:00		Wyzwolenia / Ofiar Katynia 09
+1828	1	213321	09:14:00	09:14:00		Wyzwolenia kościół 07
+1828	1	213321	09:15:00	09:15:00		Wyzwolenia / Okulickiego 05 nż
+1828	1	213321	09:16:00	09:16:00		Wyzwolenia / Ujejskiego 03 nż
+1828	1	213321	09:17:00	09:17:00		Wyzwolenia / Warszawska 01 nż
+1828	1	213321	09:18:00	09:18:00		Lubelska szpital 01
+1828	1	213321	09:19:00	09:19:00		Marszałkowska 01
+1828	1	213321	09:22:00	09:22:00		Cieplińskiego 02
+1828	1	213321	09:23:00	09:23:00		Lisa-Kuli 01
+1828	1	213321	09:25:00	09:25:00		Dąbrowskiego park 02 nż
+1828	1	213321	09:26:00	09:26:00		Dąbrowskiego KW. Policji 04
+1828	1	213321	09:27:00	09:27:00		Dąbrowskiego / Boh. Westerplatte 08
+1828	1	213321	09:30:00	09:30:00		Powst. Warszawy / Dąbrowskiego 02
+1828	1	213321	09:31:00	09:31:00		Powst. Warszawy politechnika 04
+1828	1	213321	09:32:00	09:32:00		Powst. Warszawy stadion 06
+1828	1	213321	09:34:00	09:34:00		Powst. Warszawy dom studenta 08
+1828	1	213321	09:35:00	09:35:00		Powst. Warszawy / Graniczna 10
+1828	1	213321	09:36:00	09:36:00		Powst. Warszawy / Sikorskiego 12 nż
+1828	1	213321	09:37:00	09:37:00		Sikorskiego katedra 04 nż
+1828	1	213321	09:38:00	09:38:00		Łukasiewicza / Sikorskiego 02 nż
+1828	1	213321	09:39:00	09:39:00		Łukasiewicza / Zimowit 04 nż
+1828	1	213321	09:40:00	09:40:00		Łukasiewicza / Gumińskich 06 nż
+1828	1	213321	09:41:00	09:41:00		Łukasiewicza pętla 08
+1828	1	213321	09:43:00	09:43:00		Kiepury / Herberta 02 nż
+1828	1	213321	09:44:00	09:44:00		Matysowska / Skalista 02 nż
+1828	1	213321	09:46:00	09:46:00		Matysowska szkoła 04 nż
+1828	1	213321	09:47:00	09:47:00		Matysowska górka 06 nż
+1828	1	213321	09:48:00	09:48:00		Matysowska / Pienińska 08 nż
+1828	1	213321	09:49:00	09:49:00		Pienińska pętla 03
+
+1944	1	210282	10:05:00	10:05:00		Pienińska pętla 03
+1944	1	210282	10:06:00	10:06:00		Pienińska / Matysowska 01 nż
+1944	1	210282	10:07:00	10:07:00		Matysowska / Św. Walentego 05 nż
+1944	1	210282	10:08:00	10:08:00		Matysowska górka 03 nż
+1944	1	210282	10:10:00	10:10:00		Matysowska szkoła 01 nż
+1944	1	210282	10:12:00	10:12:00		Kiepury / Wichrowa 03 nż
+1944	1	210282	10:13:00	10:13:00		Kiepury / Herberta 01 nż
+1944	1	210282	10:15:00	10:15:00		Łukasiewicza pętla 10
+1944	1	210282	10:16:00	10:16:00		Łukasiewicza / Sasanki 03 nż
+1944	1	210282	10:17:00	10:17:00		Łukasiewicza / Krokusowa 01 nż
+1944	1	210282	10:18:00	10:18:00		Sikorskiego katedra 01 nż
+1944	1	210282	10:20:00	10:20:00		Powst. Warszawy / Rejtana 13
+1944	1	210282	10:21:00	10:21:00		Powst. Warszawy szkoła 11
+1944	1	210282	10:22:00	10:22:00		Powst. Warszawy dom studenta 09
+1944	1	210282	10:23:00	10:23:00		Powst. Warszawy stadion 05 nż
+1944	1	210282	10:24:00	10:24:00		Powst. Warszawy / Hetmańska 03
+1944	1	210282	10:25:00	10:25:00		Powst. Warszawy politechnika 01
+1944	1	210282	10:27:00	10:27:00		Dąbrowskiego / Chrobrego 07
+1944	1	210282	10:28:00	10:28:00		Dąbrowskiego KW. Policji 03
+1944	1	210282	10:29:00	10:29:00		Dąbrowskiego park 01 nż
+1944	1	210282	10:33:00	10:33:00		Lisa-Kuli 02
+1944	1	210282	10:34:00	10:34:00		Cieplińskiego 01
+1944	1	210282	10:37:00	10:37:00		Marszałkowska 02
+1944	1	210282	10:38:00	10:38:00		Lubelska szpital 02
+1944	1	210282	10:40:00	10:40:00		Wyzwolenia / Lubelska 02 nż
+1944	1	210282	10:41:00	10:41:00		Wyzwolenia WORD 04 nż
+1944	1	210282	10:42:00	10:42:00		Wyzwolenia / Przy Torze 06 nż
+1944	1	210282	10:43:00	10:43:00		Wyzwolenia / Iranka-Osmeckiego 08
+1944	1	210282	10:44:00	10:44:00		Wyzwolenia / Brydaka 10
+1944	1	210282	10:45:00	10:45:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
+1944	1	210282	10:46:00	10:46:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
+1944	1	210282	10:47:00	10:47:00		Obr. Poczty Gdańskiej pętla 08
+
+1828	1	209914	11:10:00	11:10:00		Obr. Poczty Gdańskiej pętla 08
+1828	1	209914	11:11:00	11:11:00		Obr. Poczty Gdańskiej / Raginisa 01
+1828	1	209914	11:13:00	11:13:00		Wyzwolenia / Ofiar Katynia 09
+1828	1	209914	11:14:00	11:14:00		Wyzwolenia kościół 07
+1828	1	209914	11:15:00	11:15:00		Wyzwolenia / Okulickiego 05 nż
+1828	1	209914	11:16:00	11:16:00		Wyzwolenia / Ujejskiego 03 nż
+1828	1	209914	11:17:00	11:17:00		Wyzwolenia / Warszawska 01 nż
+1828	1	209914	11:18:00	11:18:00		Lubelska szpital 01
+1828	1	209914	11:19:00	11:19:00		Marszałkowska 01
+1828	1	209914	11:22:00	11:22:00		Cieplińskiego 02
+1828	1	209914	11:23:00	11:23:00		Lisa-Kuli 01
+1828	1	209914	11:26:00	11:26:00		Dąbrowskiego park 02 nż
+1828	1	209914	11:27:00	11:27:00		Dąbrowskiego KW. Policji 04
+1828	1	209914	11:28:00	11:28:00		Dąbrowskiego / Boh. Westerplatte 08
+1828	1	209914	11:31:00	11:31:00		Powst. Warszawy / Dąbrowskiego 02
+1828	1	209914	11:32:00	11:32:00		Powst. Warszawy politechnika 04
+1828	1	209914	11:33:00	11:33:00		Powst. Warszawy stadion 06
+1828	1	209914	11:36:00	11:36:00		Powst. Warszawy dom studenta 08
+1828	1	209914	11:37:00	11:37:00		Powst. Warszawy / Graniczna 10
+1828	1	209914	11:38:00	11:38:00		Powst. Warszawy / Sikorskiego 12 nż
+1828	1	209914	11:39:00	11:39:00		Sikorskiego katedra 04 nż
+1828	1	209914	11:40:00	11:40:00		Łukasiewicza / Sikorskiego 02 nż
+1828	1	209914	11:41:00	11:41:00		Łukasiewicza / Zimowit 04 nż
+1828	1	209914	11:42:00	11:42:00		Łukasiewicza / Gumińskich 06 nż
+1828	1	209914	11:43:00	11:43:00		Łukasiewicza pętla 08
+1828	1	209914	11:45:00	11:45:00		Kiepury / Herberta 02 nż
+1828	1	209914	11:46:00	11:46:00		Matysowska / Skalista 02 nż
+1828	1	209914	11:48:00	11:48:00		Matysowska szkoła 04 nż
+1828	1	209914	11:49:00	11:49:00		Matysowska górka 06 nż
+1828	1	209914	11:50:00	11:50:00		Matysowska / Pienińska 08 nż
+1828	1	209914	11:51:00	11:51:00		Pienińska pętla 03
+
+1944	1	210000	12:05:00	12:05:00		Pienińska pętla 03
+1944	1	210000	12:06:00	12:06:00		Pienińska / Matysowska 01 nż
+1944	1	210000	12:07:00	12:07:00		Matysowska / Św. Walentego 05 nż
+1944	1	210000	12:08:00	12:08:00		Matysowska górka 03 nż
+1944	1	210000	12:10:00	12:10:00		Matysowska szkoła 01 nż
+1944	1	210000	12:12:00	12:12:00		Kiepury / Wichrowa 03 nż
+1944	1	210000	12:13:00	12:13:00		Kiepury / Herberta 01 nż
+1944	1	210000	12:15:00	12:15:00		Łukasiewicza pętla 10
+1944	1	210000	12:16:00	12:16:00		Łukasiewicza / Sasanki 03 nż
+1944	1	210000	12:17:00	12:17:00		Łukasiewicza / Krokusowa 01 nż
+1944	1	210000	12:18:00	12:18:00		Sikorskiego katedra 01 nż
+1944	1	210000	12:21:00	12:21:00		Powst. Warszawy / Rejtana 13
+1944	1	210000	12:22:00	12:22:00		Powst. Warszawy szkoła 11
+1944	1	210000	12:23:00	12:23:00		Powst. Warszawy dom studenta 09
+1944	1	210000	12:25:00	12:25:00		Powst. Warszawy stadion 05 nż
+1944	1	210000	12:26:00	12:26:00		Powst. Warszawy / Hetmańska 03
+1944	1	210000	12:27:00	12:27:00		Powst. Warszawy politechnika 01
+1944	1	210000	12:29:00	12:29:00		Dąbrowskiego / Chrobrego 07
+1944	1	210000	12:30:00	12:30:00		Dąbrowskiego KW. Policji 03
+1944	1	210000	12:31:00	12:31:00		Dąbrowskiego park 01 nż
+1944	1	210000	12:35:00	12:35:00		Lisa-Kuli 02
+1944	1	210000	12:36:00	12:36:00		Cieplińskiego 01
+1944	1	210000	12:39:00	12:39:00		Marszałkowska 02
+1944	1	210000	12:40:00	12:40:00		Lubelska szpital 02
+1944	1	210000	12:42:00	12:42:00		Wyzwolenia / Lubelska 02 nż
+1944	1	210000	12:43:00	12:43:00		Wyzwolenia WORD 04 nż
+1944	1	210000	12:44:00	12:44:00		Wyzwolenia / Przy Torze 06 nż
+1944	1	210000	12:45:00	12:45:00		Wyzwolenia / Iranka-Osmeckiego 08
+1944	1	210000	12:46:00	12:46:00		Wyzwolenia / Brydaka 10
+1944	1	210000	12:47:00	12:47:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
+1944	1	210000	12:48:00	12:48:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
+1944	1	210000	12:49:00	12:49:00		Obr. Poczty Gdańskiej pętla 08
+
+1828	1	212475	13:10:00	13:10:00		Obr. Poczty Gdańskiej pętla 08
+1828	1	212475	13:11:00	13:11:00		Obr. Poczty Gdańskiej / Raginisa 01
+1828	1	212475	13:13:00	13:13:00		Wyzwolenia / Ofiar Katynia 09
+1828	1	212475	13:14:00	13:14:00		Wyzwolenia kościół 07
+1828	1	212475	13:15:00	13:15:00		Wyzwolenia / Okulickiego 05 nż
+1828	1	212475	13:16:00	13:16:00		Wyzwolenia / Ujejskiego 03 nż
+1828	1	212475	13:17:00	13:17:00		Wyzwolenia / Warszawska 01 nż
+1828	1	212475	13:18:00	13:18:00		Lubelska szpital 01
+1828	1	212475	13:19:00	13:19:00		Marszałkowska 01
+1828	1	212475	13:22:00	13:22:00		Cieplińskiego 02
+1828	1	212475	13:23:00	13:23:00		Lisa-Kuli 01
+1828	1	212475	13:26:00	13:26:00		Dąbrowskiego park 02 nż
+1828	1	212475	13:27:00	13:27:00		Dąbrowskiego KW. Policji 04
+1828	1	212475	13:28:00	13:28:00		Dąbrowskiego / Boh. Westerplatte 08
+1828	1	212475	13:31:00	13:31:00		Powst. Warszawy / Dąbrowskiego 02
+1828	1	212475	13:32:00	13:32:00		Powst. Warszawy politechnika 04
+1828	1	212475	13:33:00	13:33:00		Powst. Warszawy stadion 06
+1828	1	212475	13:36:00	13:36:00		Powst. Warszawy dom studenta 08
+1828	1	212475	13:37:00	13:37:00		Powst. Warszawy / Graniczna 10
+1828	1	212475	13:38:00	13:38:00		Powst. Warszawy / Sikorskiego 12 nż
+1828	1	212475	13:39:00	13:39:00		Sikorskiego katedra 04 nż
+1828	1	212475	13:40:00	13:40:00		Łukasiewicza / Sikorskiego 02 nż
+1828	1	212475	13:41:00	13:41:00		Łukasiewicza / Zimowit 04 nż
+1828	1	212475	13:42:00	13:42:00		Łukasiewicza / Gumińskich 06 nż
+1828	1	212475	13:43:00	13:43:00		Łukasiewicza pętla 08
+1828	1	212475	13:45:00	13:45:00		Kiepury / Herberta 02 nż
+1828	1	212475	13:46:00	13:46:00		Matysowska / Skalista 02 nż
+1828	1	212475	13:48:00	13:48:00		Matysowska szkoła 04 nż
+1828	1	212475	13:49:00	13:49:00		Matysowska górka 06 nż
+1828	1	212475	13:50:00	13:50:00		Matysowska / Pienińska 08 nż
+1828	1	212475	13:51:00	13:51:00		Pienińska pętla 03
+
+1944	1	214606	14:05:00	14:05:00		Pienińska pętla 03
+1944	1	214606	14:06:00	14:06:00		Pienińska / Matysowska 01 nż
+1944	1	214606	14:07:00	14:07:00		Matysowska / Św. Walentego 05 nż
+1944	1	214606	14:08:00	14:08:00		Matysowska górka 03 nż
+1944	1	214606	14:10:00	14:10:00		Matysowska szkoła 01 nż
+1944	1	214606	14:12:00	14:12:00		Kiepury / Wichrowa 03 nż
+1944	1	214606	14:13:00	14:13:00		Kiepury / Herberta 01 nż
+1944	1	214606	14:15:00	14:15:00		Łukasiewicza pętla 10
+1944	1	214606	14:16:00	14:16:00		Łukasiewicza / Sasanki 03 nż
+1944	1	214606	14:17:00	14:17:00		Łukasiewicza / Krokusowa 01 nż
+1944	1	214606	14:18:00	14:18:00		Sikorskiego katedra 01 nż
+1944	1	214606	14:21:00	14:21:00		Powst. Warszawy / Rejtana 13
+1944	1	214606	14:22:00	14:22:00		Powst. Warszawy szkoła 11
+1944	1	214606	14:23:00	14:23:00		Powst. Warszawy dom studenta 09
+1944	1	214606	14:25:00	14:25:00		Powst. Warszawy stadion 05 nż
+1944	1	214606	14:26:00	14:26:00		Powst. Warszawy / Hetmańska 03
+1944	1	214606	14:27:00	14:27:00		Powst. Warszawy politechnika 01
+1944	1	214606	14:29:00	14:29:00		Dąbrowskiego / Chrobrego 07
+1944	1	214606	14:30:00	14:30:00		Dąbrowskiego KW. Policji 03
+1944	1	214606	14:31:00	14:31:00		Dąbrowskiego park 01 nż
+1944	1	214606	14:35:00	14:35:00		Lisa-Kuli 02
+1944	1	214606	14:36:00	14:36:00		Cieplińskiego 01
+1944	1	214606	14:38:00	14:38:00		Marszałkowska 02
+1944	1	214606	14:39:00	14:39:00		Lubelska szpital 02
+1944	1	214606	14:41:00	14:41:00		Wyzwolenia / Lubelska 02 nż
+1944	1	214606	14:42:00	14:42:00		Wyzwolenia WORD 04 nż
+1944	1	214606	14:43:00	14:43:00		Wyzwolenia / Przy Torze 06 nż
+1944	1	214606	14:44:00	14:44:00		Wyzwolenia / Iranka-Osmeckiego 08
+1944	1	214606	14:45:00	14:45:00		Wyzwolenia / Brydaka 10
+1944	1	214606	14:46:00	14:46:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
+1944	1	214606	14:47:00	14:47:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
+1944	1	214606	14:48:00	14:48:00		Obr. Poczty Gdańskiej pętla 08
+
+1828	1	214368	15:10:00	15:10:00		Obr. Poczty Gdańskiej pętla 08
+1828	1	214368	15:11:00	15:11:00		Obr. Poczty Gdańskiej / Raginisa 01
+1828	1	214368	15:13:00	15:13:00		Wyzwolenia / Ofiar Katynia 09
+1828	1	214368	15:14:00	15:14:00		Wyzwolenia kościół 07
+1828	1	214368	15:15:00	15:15:00		Wyzwolenia / Okulickiego 05 nż
+1828	1	214368	15:16:00	15:16:00		Wyzwolenia / Ujejskiego 03 nż
+1828	1	214368	15:17:00	15:17:00		Wyzwolenia / Warszawska 01 nż
+1828	1	214368	15:18:00	15:18:00		Lubelska szpital 01
+1828	1	214368	15:19:00	15:19:00		Marszałkowska 01
+1828	1	214368	15:22:00	15:22:00		Cieplińskiego 02
+1828	1	214368	15:23:00	15:23:00		Lisa-Kuli 01
+1828	1	214368	15:26:00	15:26:00		Dąbrowskiego park 02 nż
+1828	1	214368	15:27:00	15:27:00		Dąbrowskiego KW. Policji 04
+1828	1	214368	15:28:00	15:28:00		Dąbrowskiego / Boh. Westerplatte 08
+1828	1	214368	15:31:00	15:31:00		Powst. Warszawy / Dąbrowskiego 02
+1828	1	214368	15:32:00	15:32:00		Powst. Warszawy politechnika 04
+1828	1	214368	15:33:00	15:33:00		Powst. Warszawy stadion 06
+1828	1	214368	15:36:00	15:36:00		Powst. Warszawy dom studenta 08
+1828	1	214368	15:37:00	15:37:00		Powst. Warszawy / Graniczna 10
+1828	1	214368	15:38:00	15:38:00		Powst. Warszawy / Sikorskiego 12 nż
+1828	1	214368	15:39:00	15:39:00		Sikorskiego katedra 04 nż
+1828	1	214368	15:40:00	15:40:00		Łukasiewicza / Sikorskiego 02 nż
+1828	1	214368	15:41:00	15:41:00		Łukasiewicza / Zimowit 04 nż
+1828	1	214368	15:42:00	15:42:00		Łukasiewicza / Gumińskich 06 nż
+1828	1	214368	15:43:00	15:43:00		Łukasiewicza pętla 08
+1828	1	214368	15:45:00	15:45:00		Kiepury / Herberta 02 nż
+1828	1	214368	15:46:00	15:46:00		Matysowska / Skalista 02 nż
+1828	1	214368	15:48:00	15:48:00		Matysowska szkoła 04 nż
+1828	1	214368	15:49:00	15:49:00		Matysowska górka 06 nż
+1828	1	214368	15:50:00	15:50:00		Matysowska / Pienińska 08 nż
+1828	1	214368	15:51:00	15:51:00		Pienińska pętla 03
+
+1944	1	215448	16:05:00	16:05:00		Pienińska pętla 03
+1944	1	215448	16:06:00	16:06:00		Pienińska / Matysowska 01 nż
+1944	1	215448	16:07:00	16:07:00		Matysowska / Św. Walentego 05 nż
+1944	1	215448	16:08:00	16:08:00		Matysowska górka 03 nż
+1944	1	215448	16:10:00	16:10:00		Matysowska szkoła 01 nż
+1944	1	215448	16:12:00	16:12:00		Kiepury / Wichrowa 03 nż
+1944	1	215448	16:13:00	16:13:00		Kiepury / Herberta 01 nż
+1944	1	215448	16:15:00	16:15:00		Łukasiewicza pętla 10
+1944	1	215448	16:16:00	16:16:00		Łukasiewicza / Sasanki 03 nż
+1944	1	215448	16:17:00	16:17:00		Łukasiewicza / Krokusowa 01 nż
+1944	1	215448	16:18:00	16:18:00		Sikorskiego katedra 01 nż
+1944	1	215448	16:21:00	16:21:00		Powst. Warszawy / Rejtana 13
+1944	1	215448	16:22:00	16:22:00		Powst. Warszawy szkoła 11
+1944	1	215448	16:23:00	16:23:00		Powst. Warszawy dom studenta 09
+1944	1	215448	16:25:00	16:25:00		Powst. Warszawy stadion 05 nż
+1944	1	215448	16:26:00	16:26:00		Powst. Warszawy / Hetmańska 03
+1944	1	215448	16:27:00	16:27:00		Powst. Warszawy politechnika 01
+1944	1	215448	16:29:00	16:29:00		Dąbrowskiego / Chrobrego 07
+1944	1	215448	16:30:00	16:30:00		Dąbrowskiego KW. Policji 03
+1944	1	215448	16:31:00	16:31:00		Dąbrowskiego park 01 nż
+1944	1	215448	16:35:00	16:35:00		Lisa-Kuli 02
+1944	1	215448	16:36:00	16:36:00		Cieplińskiego 01
+1944	1	215448	16:38:00	16:38:00		Marszałkowska 02
+1944	1	215448	16:39:00	16:39:00		Lubelska szpital 02
+1944	1	215448	16:41:00	16:41:00		Wyzwolenia / Lubelska 02 nż
+1944	1	215448	16:42:00	16:42:00		Wyzwolenia WORD 04 nż
+1944	1	215448	16:43:00	16:43:00		Wyzwolenia / Przy Torze 06 nż
+1944	1	215448	16:44:00	16:44:00		Wyzwolenia / Iranka-Osmeckiego 08
+1944	1	215448	16:45:00	16:45:00		Wyzwolenia / Brydaka 10
+1944	1	215448	16:46:00	16:46:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
+1944	1	215448	16:47:00	16:47:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
+1944	1	215448	16:48:00	16:48:00		Obr. Poczty Gdańskiej pętla 08
+
+1828	1	212151	17:10:00	17:10:00		Obr. Poczty Gdańskiej pętla 08
+1828	1	212151	17:11:00	17:11:00		Obr. Poczty Gdańskiej / Raginisa 01
+1828	1	212151	17:13:00	17:13:00		Wyzwolenia / Ofiar Katynia 09
+1828	1	212151	17:14:00	17:14:00		Wyzwolenia kościół 07
+1828	1	212151	17:15:00	17:15:00		Wyzwolenia / Okulickiego 05 nż
+1828	1	212151	17:16:00	17:16:00		Wyzwolenia / Ujejskiego 03 nż
+1828	1	212151	17:17:00	17:17:00		Wyzwolenia / Warszawska 01 nż
+1828	1	212151	17:18:00	17:18:00		Lubelska szpital 01
+1828	1	212151	17:19:00	17:19:00		Marszałkowska 01
+1828	1	212151	17:22:00	17:22:00		Cieplińskiego 02
+1828	1	212151	17:23:00	17:23:00		Lisa-Kuli 01
+1828	1	212151	17:26:00	17:26:00		Dąbrowskiego park 02 nż
+1828	1	212151	17:27:00	17:27:00		Dąbrowskiego KW. Policji 04
+1828	1	212151	17:28:00	17:28:00		Dąbrowskiego / Boh. Westerplatte 08
+1828	1	212151	17:31:00	17:31:00		Powst. Warszawy / Dąbrowskiego 02
+1828	1	212151	17:32:00	17:32:00		Powst. Warszawy politechnika 04
+1828	1	212151	17:33:00	17:33:00		Powst. Warszawy stadion 06
+1828	1	212151	17:36:00	17:36:00		Powst. Warszawy dom studenta 08
+1828	1	212151	17:37:00	17:37:00		Powst. Warszawy / Graniczna 10
+1828	1	212151	17:38:00	17:38:00		Powst. Warszawy / Sikorskiego 12 nż
+1828	1	212151	17:39:00	17:39:00		Sikorskiego katedra 04 nż
+1828	1	212151	17:40:00	17:40:00		Łukasiewicza / Sikorskiego 02 nż
+1828	1	212151	17:41:00	17:41:00		Łukasiewicza / Zimowit 04 nż
+1828	1	212151	17:42:00	17:42:00		Łukasiewicza / Gumińskich 06 nż
+1828	1	212151	17:43:00	17:43:00		Łukasiewicza pętla 08
+1828	1	212151	17:45:00	17:45:00		Kiepury / Herberta 02 nż
+1828	1	212151	17:46:00	17:46:00		Matysowska / Skalista 02 nż
+1828	1	212151	17:48:00	17:48:00		Matysowska szkoła 04 nż
+1828	1	212151	17:49:00	17:49:00		Matysowska górka 06 nż
+1828	1	212151	17:50:00	17:50:00		Matysowska / Pienińska 08 nż
+1828	1	212151	17:51:00	17:51:00		Pienińska pętla 03
+
+1944	1	215054	18:05:00	18:05:00		Pienińska pętla 03
+1944	1	215054	18:06:00	18:06:00		Pienińska / Matysowska 01 nż
+1944	1	215054	18:07:00	18:07:00		Matysowska / Św. Walentego 05 nż
+1944	1	215054	18:08:00	18:08:00		Matysowska górka 03 nż
+1944	1	215054	18:10:00	18:10:00		Matysowska szkoła 01 nż
+1944	1	215054	18:12:00	18:12:00		Kiepury / Wichrowa 03 nż
+1944	1	215054	18:13:00	18:13:00		Kiepury / Herberta 01 nż
+1944	1	215054	18:15:00	18:15:00		Łukasiewicza pętla 10
+1944	1	215054	18:16:00	18:16:00		Łukasiewicza / Sasanki 03 nż
+1944	1	215054	18:17:00	18:17:00		Łukasiewicza / Krokusowa 01 nż
+1944	1	215054	18:18:00	18:18:00		Sikorskiego katedra 01 nż
+1944	1	215054	18:21:00	18:21:00		Powst. Warszawy / Rejtana 13
+1944	1	215054	18:22:00	18:22:00		Powst. Warszawy szkoła 11
+1944	1	215054	18:23:00	18:23:00		Powst. Warszawy dom studenta 09
+1944	1	215054	18:24:00	18:24:00		Powst. Warszawy stadion 05 nż
+1944	1	215054	18:25:00	18:25:00		Powst. Warszawy / Hetmańska 03
+1944	1	215054	18:26:00	18:26:00		Powst. Warszawy politechnika 01
+1944	1	215054	18:28:00	18:28:00		Dąbrowskiego / Chrobrego 07
+1944	1	215054	18:29:00	18:29:00		Dąbrowskiego KW. Policji 03
+1944	1	215054	18:30:00	18:30:00		Dąbrowskiego park 01 nż
+1944	1	215054	18:33:00	18:33:00		Lisa-Kuli 02
+1944	1	215054	18:34:00	18:34:00		Cieplińskiego 01
+1944	1	215054	18:36:00	18:36:00		Marszałkowska 02
+1944	1	215054	18:37:00	18:37:00		Lubelska szpital 02
+1944	1	215054	18:39:00	18:39:00		Wyzwolenia / Lubelska 02 nż
+1944	1	215054	18:40:00	18:40:00		Wyzwolenia WORD 04 nż
+1944	1	215054	18:41:00	18:41:00		Wyzwolenia / Przy Torze 06 nż
+1944	1	215054	18:42:00	18:42:00		Wyzwolenia / Iranka-Osmeckiego 08
+1944	1	215054	18:43:00	18:43:00		Wyzwolenia / Brydaka 10
+1944	1	215054	18:44:00	18:44:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
+1944	1	215054	18:45:00	18:45:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
+1944	1	215054	18:46:00	18:46:00		Obr. Poczty Gdańskiej pętla 08
+
+1828	1	215150	19:10:00	19:10:00		Obr. Poczty Gdańskiej pętla 08
+1828	1	215150	19:11:00	19:11:00		Obr. Poczty Gdańskiej / Raginisa 01
+1828	1	215150	19:13:00	19:13:00		Wyzwolenia / Ofiar Katynia 09
+1828	1	215150	19:14:00	19:14:00		Wyzwolenia kościół 07
+1828	1	215150	19:15:00	19:15:00		Wyzwolenia / Okulickiego 05 nż
+1828	1	215150	19:16:00	19:16:00		Wyzwolenia / Ujejskiego 03 nż
+1828	1	215150	19:17:00	19:17:00		Wyzwolenia / Warszawska 01 nż
+1828	1	215150	19:18:00	19:18:00		Lubelska szpital 01
+1828	1	215150	19:19:00	19:19:00		Marszałkowska 01
+1828	1	215150	19:22:00	19:22:00		Cieplińskiego 02
+1828	1	215150	19:23:00	19:23:00		Lisa-Kuli 01
+1828	1	215150	19:25:00	19:25:00		Dąbrowskiego park 02 nż
+1828	1	215150	19:26:00	19:26:00		Dąbrowskiego KW. Policji 04
+1828	1	215150	19:27:00	19:27:00		Dąbrowskiego / Boh. Westerplatte 08
+1828	1	215150	19:30:00	19:30:00		Powst. Warszawy / Dąbrowskiego 02
+1828	1	215150	19:31:00	19:31:00		Powst. Warszawy politechnika 04
+1828	1	215150	19:32:00	19:32:00		Powst. Warszawy stadion 06
+1828	1	215150	19:35:00	19:35:00		Powst. Warszawy dom studenta 08
+1828	1	215150	19:36:00	19:36:00		Powst. Warszawy / Graniczna 10
+1828	1	215150	19:37:00	19:37:00		Powst. Warszawy / Sikorskiego 12 nż
+1828	1	215150	19:38:00	19:38:00		Sikorskiego katedra 04 nż
+1828	1	215150	19:39:00	19:39:00		Łukasiewicza / Sikorskiego 02 nż
+1828	1	215150	19:40:00	19:40:00		Łukasiewicza / Zimowit 04 nż
+1828	1	215150	19:41:00	19:41:00		Łukasiewicza / Gumińskich 06 nż
+1828	1	215150	19:42:00	19:42:00		Łukasiewicza pętla 08
+1828	1	215150	19:44:00	19:44:00		Kiepury / Herberta 02 nż
+1828	1	215150	19:45:00	19:45:00		Matysowska / Skalista 02 nż
+1828	1	215150	19:47:00	19:47:00		Matysowska szkoła 04 nż
+1828	1	215150	19:48:00	19:48:00		Matysowska górka 06 nż
+1828	1	215150	19:49:00	19:49:00		Matysowska / Pienińska 08 nż
+1828	1	215150	19:50:00	19:50:00		Pienińska pętla 03
+
+1944	1	210933	20:05:00	20:05:00		Pienińska pętla 03
+1944	1	210933	20:06:00	20:06:00		Pienińska / Matysowska 01 nż
+1944	1	210933	20:07:00	20:07:00		Matysowska / Św. Walentego 05 nż
+1944	1	210933	20:08:00	20:08:00		Matysowska górka 03 nż
+1944	1	210933	20:10:00	20:10:00		Matysowska szkoła 01 nż
+1944	1	210933	20:12:00	20:12:00		Kiepury / Wichrowa 03 nż
+1944	1	210933	20:13:00	20:13:00		Kiepury / Herberta 01 nż
+1944	1	210933	20:15:00	20:15:00		Łukasiewicza pętla 10
+1944	1	210933	20:16:00	20:16:00		Łukasiewicza / Sasanki 03 nż
+1944	1	210933	20:17:00	20:17:00		Łukasiewicza / Krokusowa 01 nż
+1944	1	210933	20:18:00	20:18:00		Sikorskiego katedra 01 nż
+1944	1	210933	20:21:00	20:21:00		Powst. Warszawy / Rejtana 13
+1944	1	210933	20:22:00	20:22:00		Powst. Warszawy szkoła 11
+1944	1	210933	20:23:00	20:23:00		Powst. Warszawy dom studenta 09
+1944	1	210933	20:24:00	20:24:00		Powst. Warszawy stadion 05 nż
+1944	1	210933	20:25:00	20:25:00		Powst. Warszawy / Hetmańska 03
+1944	1	210933	20:26:00	20:26:00		Powst. Warszawy politechnika 01
+1944	1	210933	20:28:00	20:28:00		Dąbrowskiego / Chrobrego 07
+1944	1	210933	20:29:00	20:29:00		Dąbrowskiego KW. Policji 03
+1944	1	210933	20:30:00	20:30:00		Dąbrowskiego park 01 nż
+1944	1	210933	20:33:00	20:33:00		Lisa-Kuli 02
+1944	1	210933	20:34:00	20:34:00		Cieplińskiego 01
+1944	1	210933	20:36:00	20:36:00		Marszałkowska 02
+1944	1	210933	20:37:00	20:37:00		Lubelska szpital 02
+1944	1	210933	20:39:00	20:39:00		Wyzwolenia / Lubelska 02 nż
+1944	1	210933	20:40:00	20:40:00		Wyzwolenia WORD 04 nż
+1944	1	210933	20:40:00	20:40:00		Wyzwolenia / Przy Torze 06 nż
+1944	1	210933	20:41:00	20:41:00		Wyzwolenia / Iranka-Osmeckiego 08
+1944	1	210933	20:42:00	20:42:00		Wyzwolenia / Brydaka 10
+1944	1	210933	20:43:00	20:43:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
+1944	1	210933	20:44:00	20:44:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
+1944	1	210933	20:45:00	20:45:00		Obr. Poczty Gdańskiej pętla 08
+
+1828	1	211332	21:10:00	21:10:00		Obr. Poczty Gdańskiej pętla 08
+1828	1	211332	21:11:00	21:11:00		Obr. Poczty Gdańskiej / Raginisa 01
+1828	1	211332	21:12:00	21:12:00		Wyzwolenia / Ofiar Katynia 09
+1828	1	211332	21:13:00	21:13:00		Wyzwolenia kościół 07
+1828	1	211332	21:14:00	21:14:00		Wyzwolenia / Okulickiego 05 nż
+1828	1	211332	21:14:00	21:14:00		Wyzwolenia / Ujejskiego 03 nż
+1828	1	211332	21:16:00	21:16:00		Wyzwolenia / Warszawska 01 nż
+1828	1	211332	21:17:00	21:17:00		Lubelska szpital 01
+1828	1	211332	21:18:00	21:18:00		Marszałkowska 01
+1828	1	211332	21:21:00	21:21:00		Cieplińskiego 02
+1828	1	211332	21:22:00	21:22:00		Lisa-Kuli 01
+1828	1	211332	21:24:00	21:24:00		Dąbrowskiego park 02 nż
+1828	1	211332	21:25:00	21:25:00		Dąbrowskiego KW. Policji 04
+1828	1	211332	21:26:00	21:26:00		Dąbrowskiego / Boh. Westerplatte 08
+1828	1	211332	21:28:00	21:28:00		Powst. Warszawy / Dąbrowskiego 02
+1828	1	211332	21:29:00	21:29:00		Powst. Warszawy politechnika 04
+1828	1	211332	21:30:00	21:30:00		Powst. Warszawy stadion 06
+1828	1	211332	21:32:00	21:32:00		Powst. Warszawy dom studenta 08
+1828	1	211332	21:33:00	21:33:00		Powst. Warszawy / Graniczna 10
+1828	1	211332	21:34:00	21:34:00		Powst. Warszawy / Sikorskiego 12 nż
+1828	1	211332	21:35:00	21:35:00		Sikorskiego katedra 04 nż
+1828	1	211332	21:36:00	21:36:00		Łukasiewicza / Sikorskiego 02 nż
+1828	1	211332	21:37:00	21:37:00		Łukasiewicza / Zimowit 04 nż
+1828	1	211332	21:38:00	21:38:00		Łukasiewicza / Gumińskich 06 nż
+1828	1	211332	21:39:00	21:39:00		Łukasiewicza pętla 08
+1828	1	211332	21:41:00	21:41:00		Kiepury / Herberta 02 nż
+1828	1	211332	21:42:00	21:42:00		Matysowska / Skalista 02 nż
+1828	1	211332	21:44:00	21:44:00		Matysowska szkoła 04 nż
+1828	1	211332	21:45:00	21:45:00		Matysowska górka 06 nż
+1828	1	211332	21:46:00	21:46:00		Matysowska / Pienińska 08 nż
+1828	1	211332	21:47:00	21:47:00		Pienińska pętla 03
+
+1944	1	215055	22:05:00	22:05:00		Pienińska pętla 03
+1944	1	215055	22:06:00	22:06:00		Pienińska / Matysowska 01 nż
+1944	1	215055	22:07:00	22:07:00		Matysowska / Św. Walentego 05 nż
+1944	1	215055	22:08:00	22:08:00		Matysowska górka 03 nż
+1944	1	215055	22:10:00	22:10:00		Matysowska szkoła 01 nż
+1944	1	215055	22:12:00	22:12:00		Kiepury / Wichrowa 03 nż
+1944	1	215055	22:13:00	22:13:00		Kiepury / Herberta 01 nż
+1944	1	215055	22:15:00	22:15:00		Łukasiewicza pętla 10
+1944	1	215055	22:16:00	22:16:00		Łukasiewicza / Sasanki 03 nż
+1944	1	215055	22:17:00	22:17:00		Łukasiewicza / Krokusowa 01 nż
+1944	1	215055	22:18:00	22:18:00		Sikorskiego katedra 01 nż
+1944	1	215055	22:20:00	22:20:00		Powst. Warszawy / Rejtana 13
+1944	1	215055	22:21:00	22:21:00		Powst. Warszawy szkoła 11
+1944	1	215055	22:22:00	22:22:00		Powst. Warszawy dom studenta 09
+1944	1	215055	22:23:00	22:23:00		Powst. Warszawy stadion 05 nż
+1944	1	215055	22:24:00	22:24:00		Powst. Warszawy / Hetmańska 03
+1944	1	215055	22:25:00	22:25:00		Powst. Warszawy politechnika 01
+1944	1	215055	22:27:00	22:27:00		Dąbrowskiego / Chrobrego 07
+1944	1	215055	22:28:00	22:28:00		Dąbrowskiego KW. Policji 03
+1944	1	215055	22:29:00	22:29:00		Dąbrowskiego park 01 nż
+1944	1	215055	22:32:00	22:32:00		Lisa-Kuli 02
+1944	1	215055	22:33:00	22:33:00		Cieplińskiego 01
+1944	1	215055	22:35:00	22:35:00		Marszałkowska 02
+1944	1	215055	22:36:00	22:36:00		Lubelska szpital 02
+1944	1	215055	22:38:00	22:38:00		Wyzwolenia / Lubelska 02 nż
+1944	1	215055	22:39:00	22:39:00		Wyzwolenia WORD 04 nż
+1944	1	215055	22:39:00	22:39:00		Wyzwolenia / Przy Torze 06 nż
+1944	1	215055	22:40:00	22:40:00		Wyzwolenia / Iranka-Osmeckiego 08
+1944	1	215055	22:41:00	22:41:00		Wyzwolenia / Brydaka 10
+1944	1	215055	22:42:00	22:42:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
+1944	1	215055	22:43:00	22:43:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
+1944	1	215055	22:44:00	22:44:00		Obr. Poczty Gdańskiej pętla 08

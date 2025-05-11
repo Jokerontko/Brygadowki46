@@ -2526,12 +2526,12 @@ def menu():
                 RezerwaList()
                 czyrezerwa = input("Gotowe, czy chcesz dodać jeszcze jedną? t/n: ")
             clear_screen()
+            UtwórzGOTOWEtxt()
             czypodmiany = input("Czy chcesz aby system wygenerował automatycznie podmiany kierowców? t/n : ")
             if czypodmiany == "t":
                 UtworzGodzPodmiany()
                 PodmianaList()
                 PodmianaBAZA()
-            UtwórzGOTOWEtxt()
             StwórzLinietxt()            
             StwórzGodzRozpGodzZak()
             CzyBIS()

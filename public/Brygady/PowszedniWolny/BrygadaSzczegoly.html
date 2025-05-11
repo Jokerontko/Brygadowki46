@@ -182,39 +182,47 @@
             let tableBody = document.querySelector("#dane-tabeli");
             let lp = 1;
 
-            // Pomijamy pierwsze 3 linie
             for (let i = 3; i < lines.length; i++) {
                 const line = lines[i].trim();
-                if (line) { // Tylko przetwarzamy niepuste linie
-                    const parts = line.split("\t"); // Splitujemy przez tabulator
+                if (line) {
+                    const parts = line.split("\t");
 
-                    // Zakładając, że dane znajdują się w określonych kolumnach
-                    const stopName = parts[6] || "N/A"; // Kolumna dla nazwy przystanku
-                    let departureTime = parts[3] || "N/A"; // Kolumna dla godziny odjazdu
-                    const km = "N/A"; // Zgodnie z instrukcją, Km to "N/A"
+                    const stopName = parts[6] || "N/A";
+                    let arrivalTime = parts[3] || "N/A";
+                    let depTime = parts[4] || "N/A";
 
-                    // Sprawdzanie, czy godzina przekracza 23:59 i odjęcie 24 godzin
-                    if (departureTime !== "N/A") {
-                        let timeParts = departureTime.split(":");
-                        if (timeParts.length >= 2) {
-                            let hours = parseInt(timeParts[0], 10);
-                            let minutes = parseInt(timeParts[1], 10);
+                    let arrivalDisplay = arrivalTime;
+                    let departureTime = depTime;
+                    let departureDisplay = depTime;
 
-                            // Jeśli godzina przekracza 23:59, odejmij 24 godziny
-                            if (hours >= 24) {
-                                hours -= 24;
-                            }
+                    const km = "N/A";
 
-                            // Formatowanie godziny w formacie HH:MM
-                            departureTime = `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}`;
+                    // Funkcja korekcji godziny jeśli > 24:00
+                    function correctTime(timeStr) {
+                        if (timeStr !== "N/A" && timeStr.includes(":")) {
+                            let [h, m] = timeStr.split(":");
+                            let hours = parseInt(h, 10);
+                            let minutes = parseInt(m, 10);
+                            if (hours >= 24) hours -= 24;
+                            return `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}`;
                         }
+                        return timeStr;
+                    }
+
+                    // Korekta godzin
+                    departureTime = correctTime(depTime);
+                    departureDisplay = departureTime;
+
+                    if (arrivalTime !== depTime) {
+                        arrivalDisplay = correctTime(arrivalTime);
+                        departureDisplay = `p. ${arrivalDisplay} <br> o. ${departureTime}`;
                     }
 
                     let row = document.createElement("tr");
                     row.innerHTML = `
    <td>${lp++}</td>
    <td>${stopName}</td>
-   <td>${departureTime}</td>
+   <td>${departureDisplay}</td>
    <td>${km}</td>
 `;
 
@@ -222,6 +230,8 @@
                 }
             }
         }
+
+
 
 
         // Sprawdza, czy aktualny czas jest równy docelowemu

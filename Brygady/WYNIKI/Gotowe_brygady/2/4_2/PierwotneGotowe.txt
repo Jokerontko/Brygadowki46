@@ -1,466 +1,429 @@
 route_id	service_id	trip_id	arrival_time	departure_time	stop_headsign	stop_name
 -------------------------------------------------------------------------------
-1865	2	217420	05:23:00	05:23:00		Lubelska Zajezdnia MPK
-1865	2	217420	05:24:00	05:24:00		Lubelska MPK 13 nż
-1865	2	217420	05:25:00	05:25:00		Lubelska Ogrody Hiszpańskie 11 nż
-1865	2	217420	05:26:00	05:26:00		Lubelska Os. Ogrody 09 nż
-1865	2	217420	05:27:00	05:27:00		Krogulskiego / Gromskiego 02 nż
-1865	2	217420	05:28:00	05:28:00		Borowa 02 nż
-1865	2	217420	05:29:00	05:29:00		Borowa / Żywiczna 04 nż
-1865	2	217420	05:30:00	05:30:00		Warszawska / Borowa 07 nż
-1865	2	217420	05:32:00	05:32:00		Warszawska / Staromiejska 05 nż
-1865	2	217420	05:33:00	05:33:00		Warszawska ZS. Samoch. 03 nż
-1865	2	217420	05:34:00	05:34:00		Warszawska / Wyzwolenia 01 nż
-1865	2	217420	05:35:00	05:35:00		Marszałkowska 01
-1865	2	217420	05:38:00	05:38:00		Piłsudskiego U. Wojewódzki 05
-1865	2	217420	05:39:00	05:39:00		Pl. Wolności 03
-1865	2	217420	05:40:00	05:40:00		Piłsudskiego ZDZ 01 nż
-1865	2	217420	05:42:00	05:42:00		Lwowska jedn. wojskowa 02
-1865	2	217420	05:43:00	05:43:00		Lwowska cmentarz 04
-1865	2	217420	05:45:00	05:45:00		Lwowska szpital 06
-1865	2	217420	05:47:00	05:47:00		Lwowska / Olbrachta 08 nż
-1865	2	217420	05:48:00	05:48:00		Lwowska / Kr. Marysieńki 10 nż
-1865	2	217420	05:49:00	05:49:00		Lwowska granica 12 nż
-1865	2	217420	05:51:00	05:51:00		Krasne Auchan 01
+1865	3	216514	05:23:00	05:23:00		Lubelska Zajezdnia MPK
+1865	3	216514	05:24:00	05:24:00		Lubelska MPK 13 nż
+1865	3	216514	05:25:00	05:25:00		Lubelska Ogrody Hiszpańskie 11 nż
+1865	3	216514	05:26:00	05:26:00		Lubelska Os. Ogrody 09 nż
+1865	3	216514	05:27:00	05:27:00		Krogulskiego / Gromskiego 02 nż
+1865	3	216514	05:28:00	05:28:00		Borowa 02 nż
+1865	3	216514	05:29:00	05:29:00		Borowa / Żywiczna 04 nż
+1865	3	216514	05:30:00	05:30:00		Warszawska / Borowa 07 nż
+1865	3	216514	05:32:00	05:32:00		Warszawska / Staromiejska 05 nż
+1865	3	216514	05:33:00	05:33:00		Warszawska ZS. Samoch. 03 nż
+1865	3	216514	05:34:00	05:34:00		Warszawska / Wyzwolenia 01 nż
+1865	3	216514	05:35:00	05:35:00		Marszałkowska 01
+1865	3	216514	05:38:00	05:38:00		Piłsudskiego U. Wojewódzki 05
+1865	3	216514	05:39:00	05:39:00		Pl. Wolności 03
+1865	3	216514	05:40:00	05:40:00		Piłsudskiego ZDZ 01 nż
+1865	3	216514	05:42:00	05:42:00		Lwowska jedn. wojskowa 02
+1865	3	216514	05:43:00	05:43:00		Lwowska cmentarz 04
+1865	3	216514	05:45:00	05:45:00		Lwowska szpital 06
+1865	3	216514	05:47:00	05:47:00		Lwowska / Olbrachta 08 nż
+1865	3	216514	05:48:00	05:48:00		Lwowska / Kr. Marysieńki 10 nż
+1865	3	216514	05:49:00	05:49:00		Lwowska granica 12 nż
+1865	3	216514	05:51:00	05:51:00		Krasne Auchan 01
 
-1866	2	217267	06:01:00	06:01:00		Krasne Auchan 01
-1866	2	217267	06:05:00	06:05:00		Lwowska granica 11 nż
-1866	2	217267	06:06:00	06:06:00		Lwowska / Bałtycka 09 nż
-1866	2	217267	06:07:00	06:07:00		Lwowska / Cienista 07 nż
-1866	2	217267	06:09:00	06:09:00		Lwowska szpital 05
-1866	2	217267	06:10:00	06:10:00		Lwowska cmentarz 03
-1866	2	217267	06:11:00	06:11:00		Lwowska jedn. wojskowa 01
-1866	2	217267	06:13:00	06:13:00		Piłsudskiego ZDZ 02
-1866	2	217267	06:14:00	06:14:00		Pl. Wolności 04
-1866	2	217267	06:15:00	06:15:00		Piłsudskiego U. Wojewódzki 06
-1866	2	217267	06:18:00	06:18:00		Marszałkowska 02
-1866	2	217267	06:20:00	06:20:00		Warszawska / Wyzwolenia 02 nż
-1866	2	217267	06:21:00	06:21:00		Warszawska ZS. Samoch. 04 nż
-1866	2	217267	06:22:00	06:22:00		Warszawska / Staromiejska 06 nż
-1866	2	217267	06:24:00	06:24:00		Warszawska / Borowa 08 nż
-1866	2	217267	06:25:00	06:25:00		Borowa 01 nż
-1866	2	217267	06:27:00	06:27:00		Krogulskiego / Welca 03 nż
-1866	2	217267	06:28:00	06:28:00		Krogulskiego / Gromskiego 01 nż
-1866	2	217267	06:29:00	06:29:00		Lubelska Os. Ogrody 10 nż
-1866	2	217267	06:30:00	06:30:00		Lubelska Ogrody Hiszpańskie 12 nż
-1866	2	217267	06:31:00	06:31:00		Lubelska MPK 14 nż
-1866	2	217267	06:32:00	06:32:00		Lubelska Zajezdnia MPK
+1866	3	216638	06:01:00	06:01:00		Krasne Auchan 01
+1866	3	216638	06:05:00	06:05:00		Lwowska granica 11 nż
+1866	3	216638	06:06:00	06:06:00		Lwowska / Bałtycka 09 nż
+1866	3	216638	06:07:00	06:07:00		Lwowska / Cienista 07 nż
+1866	3	216638	06:09:00	06:09:00		Lwowska szpital 05
+1866	3	216638	06:10:00	06:10:00		Lwowska cmentarz 03
+1866	3	216638	06:11:00	06:11:00		Lwowska jedn. wojskowa 01
+1866	3	216638	06:13:00	06:13:00		Piłsudskiego ZDZ 02
+1866	3	216638	06:14:00	06:14:00		Pl. Wolności 04
+1866	3	216638	06:15:00	06:15:00		Piłsudskiego U. Wojewódzki 06
+1866	3	216638	06:18:00	06:18:00		Marszałkowska 02
+1866	3	216638	06:20:00	06:20:00		Warszawska / Wyzwolenia 02 nż
+1866	3	216638	06:21:00	06:21:00		Warszawska ZS. Samoch. 04 nż
+1866	3	216638	06:22:00	06:22:00		Warszawska / Staromiejska 06 nż
+1866	3	216638	06:24:00	06:24:00		Warszawska / Borowa 08 nż
+1866	3	216638	06:25:00	06:25:00		Borowa 01 nż
+1866	3	216638	06:27:00	06:27:00		Krogulskiego / Welca 03 nż
+1866	3	216638	06:28:00	06:28:00		Krogulskiego / Gromskiego 01 nż
+1866	3	216638	06:29:00	06:29:00		Lubelska Os. Ogrody 10 nż
+1866	3	216638	06:30:00	06:30:00		Lubelska Ogrody Hiszpańskie 12 nż
+1866	3	216638	06:31:00	06:31:00		Lubelska MPK 14 nż
+1866	3	216638	06:32:00	06:32:00		Lubelska Zajezdnia MPK
 
-1865	2	217597	06:49:00	06:49:00		Lubelska Zajezdnia MPK
-1865	2	217597	06:50:00	06:50:00		Lubelska MPK 13 nż
-1865	2	217597	06:51:00	06:51:00		Lubelska Ogrody Hiszpańskie 11 nż
-1865	2	217597	06:52:00	06:52:00		Lubelska Os. Ogrody 09 nż
-1865	2	217597	06:53:00	06:53:00		Krogulskiego / Gromskiego 02 nż
-1865	2	217597	06:54:00	06:54:00		Borowa 02 nż
-1865	2	217597	06:55:00	06:55:00		Borowa / Żywiczna 04 nż
-1865	2	217597	06:57:00	06:57:00		Warszawska / Borowa 07 nż
-1865	2	217597	06:59:00	06:59:00		Warszawska / Staromiejska 05 nż
-1865	2	217597	07:00:00	07:00:00		Warszawska ZS. Samoch. 03 nż
-1865	2	217597	07:01:00	07:01:00		Warszawska / Wyzwolenia 01 nż
-1865	2	217597	07:04:00	07:04:00		Marszałkowska 01
-1865	2	217597	07:08:00	07:08:00		Piłsudskiego U. Wojewódzki 05
-1865	2	217597	07:09:00	07:09:00		Pl. Wolności 03
-1865	2	217597	07:10:00	07:10:00		Piłsudskiego ZDZ 01 nż
-1865	2	217597	07:12:00	07:12:00		Lwowska jedn. wojskowa 02
-1865	2	217597	07:14:00	07:14:00		Lwowska cmentarz 04
-1865	2	217597	07:16:00	07:16:00		Lwowska szpital 06
-1865	2	217597	07:18:00	07:18:00		Lwowska / Olbrachta 08 nż
-1865	2	217597	07:19:00	07:19:00		Lwowska / Kr. Marysieńki 10 nż
-1865	2	217597	07:20:00	07:20:00		Lwowska granica 12 nż
-1865	2	217597	07:22:00	07:22:00		Krasne Auchan 01
+1865	3	216407	06:49:00	06:49:00		Lubelska Zajezdnia MPK
+1865	3	216407	06:50:00	06:50:00		Lubelska MPK 13 nż
+1865	3	216407	06:51:00	06:51:00		Lubelska Ogrody Hiszpańskie 11 nż
+1865	3	216407	06:52:00	06:52:00		Lubelska Os. Ogrody 09 nż
+1865	3	216407	06:53:00	06:53:00		Krogulskiego / Gromskiego 02 nż
+1865	3	216407	06:54:00	06:54:00		Borowa 02 nż
+1865	3	216407	06:55:00	06:55:00		Borowa / Żywiczna 04 nż
+1865	3	216407	06:57:00	06:57:00		Warszawska / Borowa 07 nż
+1865	3	216407	06:59:00	06:59:00		Warszawska / Staromiejska 05 nż
+1865	3	216407	07:00:00	07:00:00		Warszawska ZS. Samoch. 03 nż
+1865	3	216407	07:01:00	07:01:00		Warszawska / Wyzwolenia 01 nż
+1865	3	216407	07:04:00	07:04:00		Marszałkowska 01
+1865	3	216407	07:08:00	07:08:00		Piłsudskiego U. Wojewódzki 05
+1865	3	216407	07:09:00	07:09:00		Pl. Wolności 03
+1865	3	216407	07:10:00	07:10:00		Piłsudskiego ZDZ 01 nż
+1865	3	216407	07:12:00	07:12:00		Lwowska jedn. wojskowa 02
+1865	3	216407	07:14:00	07:14:00		Lwowska cmentarz 04
+1865	3	216407	07:16:00	07:16:00		Lwowska szpital 06
+1865	3	216407	07:18:00	07:18:00		Lwowska / Olbrachta 08 nż
+1865	3	216407	07:19:00	07:19:00		Lwowska / Kr. Marysieńki 10 nż
+1865	3	216407	07:20:00	07:20:00		Lwowska granica 12 nż
+1865	3	216407	07:22:00	07:22:00		Krasne Auchan 01
 
-1866	2	217598	07:54:00	07:54:00		Krasne Auchan 01
-1866	2	217598	07:58:00	07:58:00		Lwowska granica 11 nż
-1866	2	217598	07:59:00	07:59:00		Lwowska / Bałtycka 09 nż
-1866	2	217598	08:01:00	08:01:00		Lwowska / Cienista 07 nż
-1866	2	217598	08:05:00	08:05:00		Lwowska szpital 05
-1866	2	217598	08:10:00	08:10:00		Lwowska cmentarz 03
-1866	2	217598	08:11:00	08:11:00		Lwowska jedn. wojskowa 01
-1866	2	217598	08:13:00	08:13:00		Piłsudskiego ZDZ 02
-1866	2	217598	08:15:00	08:15:00		Pl. Wolności 04
-1866	2	217598	08:16:00	08:16:00		Piłsudskiego U. Wojewódzki 06
-1866	2	217598	08:20:00	08:20:00		Marszałkowska 02
-1866	2	217598	08:21:00	08:21:00		Warszawska / Wyzwolenia 02 nż
-1866	2	217598	08:22:00	08:22:00		Warszawska ZS. Samoch. 04 nż
-1866	2	217598	08:23:00	08:23:00		Warszawska / Staromiejska 06 nż
-1866	2	217598	08:25:00	08:25:00		Warszawska / Borowa 08 nż
-1866	2	217598	08:26:00	08:26:00		Borowa 01 nż
-1866	2	217598	08:28:00	08:28:00		Krogulskiego / Welca 03 nż
-1866	2	217598	08:29:00	08:29:00		Krogulskiego / Gromskiego 01 nż
-1866	2	217598	08:30:00	08:30:00		Lubelska Os. Ogrody 10 nż
-1866	2	217598	08:31:00	08:31:00		Lubelska Ogrody Hiszpańskie 12 nż
-1866	2	217598	08:32:00	08:32:00		Lubelska MPK 14 nż
-1866	2	217598	08:33:00	08:33:00		Lubelska Zajezdnia MPK
+1866	3	216712	07:54:00	07:54:00		Krasne Auchan 01
+1866	3	216712	07:58:00	07:58:00		Lwowska granica 11 nż
+1866	3	216712	07:59:00	07:59:00		Lwowska / Bałtycka 09 nż
+1866	3	216712	08:01:00	08:01:00		Lwowska / Cienista 07 nż
+1866	3	216712	08:05:00	08:05:00		Lwowska szpital 05
+1866	3	216712	08:10:00	08:10:00		Lwowska cmentarz 03
+1866	3	216712	08:11:00	08:11:00		Lwowska jedn. wojskowa 01
+1866	3	216712	08:13:00	08:13:00		Piłsudskiego ZDZ 02
+1866	3	216712	08:15:00	08:15:00		Pl. Wolności 04
+1866	3	216712	08:16:00	08:16:00		Piłsudskiego U. Wojewódzki 06
+1866	3	216712	08:20:00	08:20:00		Marszałkowska 02
+1866	3	216712	08:21:00	08:21:00		Warszawska / Wyzwolenia 02 nż
+1866	3	216712	08:22:00	08:22:00		Warszawska ZS. Samoch. 04 nż
+1866	3	216712	08:23:00	08:23:00		Warszawska / Staromiejska 06 nż
+1866	3	216712	08:25:00	08:25:00		Warszawska / Borowa 08 nż
+1866	3	216712	08:26:00	08:26:00		Borowa 01 nż
+1866	3	216712	08:28:00	08:28:00		Krogulskiego / Welca 03 nż
+1866	3	216712	08:29:00	08:29:00		Krogulskiego / Gromskiego 01 nż
+1866	3	216712	08:30:00	08:30:00		Lubelska Os. Ogrody 10 nż
+1866	3	216712	08:31:00	08:31:00		Lubelska Ogrody Hiszpańskie 12 nż
+1866	3	216712	08:32:00	08:32:00		Lubelska MPK 14 nż
+1866	3	216712	08:33:00	08:33:00		Lubelska Zajezdnia MPK
 
-1967	2	217178	08:49:00	08:49:00		Lubelska Zajezdnia MPK
-1967	2	217178	08:50:00	08:50:00		Lubelska MPK 13 nż
-1967	2	217178	08:51:00	08:51:00		Lubelska Ogrody Hiszpańskie 11 nż
-1967	2	217178	08:52:00	08:52:00		Lubelska Os. Ogrody 09 nż
-1967	2	217178	08:53:00	08:53:00		Krogulskiego / Gromskiego 02 nż
-1967	2	217178	08:54:00	08:54:00		Borowa 02 nż
-1967	2	217178	08:55:00	08:55:00		Borowa / Żywiczna 04 nż
-1967	2	217178	08:57:00	08:57:00		Warszawska / Borowa 07 nż
-1967	2	217178	08:59:00	08:59:00		Warszawska / Staromiejska 05 nż
-1967	2	217178	09:00:00	09:00:00		Warszawska ZS. Samoch. 03 nż
-1967	2	217178	09:01:00	09:01:00		Warszawska / Wyzwolenia 01 nż
-1967	2	217178	09:04:00	09:04:00		Marszałkowska 01
-1967	2	217178	09:08:00	09:08:00		Piłsudskiego U. Wojewódzki 05
-1967	2	217178	09:09:00	09:09:00		Pl. Wolności 03
-1967	2	217178	09:10:00	09:10:00		Piłsudskiego ZDZ 01 nż
-1967	2	217178	09:12:00	09:12:00		Lwowska jedn. wojskowa 02
-1967	2	217178	09:14:00	09:14:00		Lwowska cmentarz 04
-1967	2	217178	09:16:00	09:16:00		Lwowska szpital 06
-1967	2	217178	09:18:00	09:18:00		Cienista / Lwowska 02 nż
-1967	2	217178	09:19:00	09:19:00		Cienista cmentarz 04
-1967	2	217178	09:20:00	09:20:00		Lwowska / Olbrachta 08 nż
-1967	2	217178	09:21:00	09:21:00		Lwowska / Kr. Marysieńki 10 nż
-1967	2	217178	09:22:00	09:22:00		Lwowska granica 12 nż
-1967	2	217178	09:24:00	09:24:00		Krasne Auchan 01
+1967	3	216584	08:49:00	08:49:00		Lubelska Zajezdnia MPK
+1967	3	216584	08:50:00	08:50:00		Lubelska MPK 13 nż
+1967	3	216584	08:51:00	08:51:00		Lubelska Ogrody Hiszpańskie 11 nż
+1967	3	216584	08:52:00	08:52:00		Lubelska Os. Ogrody 09 nż
+1967	3	216584	08:53:00	08:53:00		Krogulskiego / Gromskiego 02 nż
+1967	3	216584	08:54:00	08:54:00		Borowa 02 nż
+1967	3	216584	08:55:00	08:55:00		Borowa / Żywiczna 04 nż
+1967	3	216584	08:57:00	08:57:00		Warszawska / Borowa 07 nż
+1967	3	216584	08:59:00	08:59:00		Warszawska / Staromiejska 05 nż
+1967	3	216584	09:00:00	09:00:00		Warszawska ZS. Samoch. 03 nż
+1967	3	216584	09:01:00	09:01:00		Warszawska / Wyzwolenia 01 nż
+1967	3	216584	09:04:00	09:04:00		Marszałkowska 01
+1967	3	216584	09:08:00	09:08:00		Piłsudskiego U. Wojewódzki 05
+1967	3	216584	09:09:00	09:09:00		Pl. Wolności 03
+1967	3	216584	09:10:00	09:10:00		Piłsudskiego ZDZ 01 nż
+1967	3	216584	09:12:00	09:12:00		Lwowska jedn. wojskowa 02
+1967	3	216584	09:14:00	09:14:00		Lwowska cmentarz 04
+1967	3	216584	09:16:00	09:16:00		Lwowska szpital 06
+1967	3	216584	09:18:00	09:18:00		Cienista / Lwowska 02 nż
+1967	3	216584	09:19:00	09:19:00		Cienista cmentarz 04
+1967	3	216584	09:20:00	09:20:00		Lwowska / Olbrachta 08 nż
+1967	3	216584	09:21:00	09:21:00		Lwowska / Kr. Marysieńki 10 nż
+1967	3	216584	09:22:00	09:22:00		Lwowska granica 12 nż
+1967	3	216584	09:24:00	09:24:00		Krasne Auchan 01
 
-1871	2	217348	09:57:00	09:57:00		Krasne Auchan 01
-1871	2	217348	10:01:00	10:01:00		Lwowska granica 11 nż
-1871	2	217348	10:02:00	10:02:00		Lwowska / Bałtycka 09 nż
-1871	2	217348	10:03:00	10:03:00		Cienista / Lwowska 02 nż
-1871	2	217348	10:04:00	10:04:00		Cienista cmentarz 01
-1871	2	217348	10:05:00	10:05:00		Lwowska / Cienista 07 nż
-1871	2	217348	10:07:00	10:07:00		Lwowska szpital 05
-1871	2	217348	10:10:00	10:10:00		Lwowska cmentarz 03
-1871	2	217348	10:11:00	10:11:00		Lwowska jedn. wojskowa 01
-1871	2	217348	10:13:00	10:13:00		Piłsudskiego ZDZ 02
-1871	2	217348	10:15:00	10:15:00		Pl. Wolności 04
-1871	2	217348	10:16:00	10:16:00		Piłsudskiego U. Wojewódzki 06
-1871	2	217348	10:20:00	10:20:00		Marszałkowska 02
-1871	2	217348	10:21:00	10:21:00		Warszawska / Wyzwolenia 02 nż
-1871	2	217348	10:22:00	10:22:00		Warszawska ZS. Samoch. 04 nż
-1871	2	217348	10:23:00	10:23:00		Warszawska / Staromiejska 06 nż
-1871	2	217348	10:25:00	10:25:00		Warszawska / Borowa 08 nż
-1871	2	217348	10:26:00	10:26:00		Borowa 01 nż
-1871	2	217348	10:28:00	10:28:00		Krogulskiego / Welca 03 nż
-1871	2	217348	10:29:00	10:29:00		Krogulskiego / Gromskiego 01 nż
-1871	2	217348	10:30:00	10:30:00		Lubelska Os. Ogrody 10 nż
-1871	2	217348	10:31:00	10:31:00		Lubelska Ogrody Hiszpańskie 12 nż
-1871	2	217348	10:32:00	10:32:00		Lubelska MPK 14 nż
-1871	2	217348	10:33:00	10:33:00		Lubelska Zajezdnia MPK
+1871	3	216450	09:57:00	09:57:00		Krasne Auchan 01
+1871	3	216450	10:01:00	10:01:00		Lwowska granica 11 nż
+1871	3	216450	10:02:00	10:02:00		Lwowska / Bałtycka 09 nż
+1871	3	216450	10:03:00	10:03:00		Cienista / Lwowska 02 nż
+1871	3	216450	10:04:00	10:04:00		Cienista cmentarz 01
+1871	3	216450	10:05:00	10:05:00		Lwowska / Cienista 07 nż
+1871	3	216450	10:07:00	10:07:00		Lwowska szpital 05
+1871	3	216450	10:10:00	10:10:00		Lwowska cmentarz 03
+1871	3	216450	10:11:00	10:11:00		Lwowska jedn. wojskowa 01
+1871	3	216450	10:13:00	10:13:00		Piłsudskiego ZDZ 02
+1871	3	216450	10:15:00	10:15:00		Pl. Wolności 04
+1871	3	216450	10:16:00	10:16:00		Piłsudskiego U. Wojewódzki 06
+1871	3	216450	10:20:00	10:20:00		Marszałkowska 02
+1871	3	216450	10:21:00	10:21:00		Warszawska / Wyzwolenia 02 nż
+1871	3	216450	10:22:00	10:22:00		Warszawska ZS. Samoch. 04 nż
+1871	3	216450	10:23:00	10:23:00		Warszawska / Staromiejska 06 nż
+1871	3	216450	10:25:00	10:25:00		Warszawska / Borowa 08 nż
+1871	3	216450	10:26:00	10:26:00		Borowa 01 nż
+1871	3	216450	10:28:00	10:28:00		Krogulskiego / Welca 03 nż
+1871	3	216450	10:29:00	10:29:00		Krogulskiego / Gromskiego 01 nż
+1871	3	216450	10:30:00	10:30:00		Lubelska Os. Ogrody 10 nż
+1871	3	216450	10:31:00	10:31:00		Lubelska Ogrody Hiszpańskie 12 nż
+1871	3	216450	10:32:00	10:32:00		Lubelska MPK 14 nż
+1871	3	216450	10:33:00	10:33:00		Lubelska Zajezdnia MPK
 
-1967	2	217001	10:49:00	10:49:00		Lubelska Zajezdnia MPK
-1967	2	217001	10:50:00	10:50:00		Lubelska MPK 13 nż
-1967	2	217001	10:51:00	10:51:00		Lubelska Ogrody Hiszpańskie 11 nż
-1967	2	217001	10:52:00	10:52:00		Lubelska Os. Ogrody 09 nż
-1967	2	217001	10:53:00	10:53:00		Krogulskiego / Gromskiego 02 nż
-1967	2	217001	10:54:00	10:54:00		Borowa 02 nż
-1967	2	217001	10:55:00	10:55:00		Borowa / Żywiczna 04 nż
-1967	2	217001	10:57:00	10:57:00		Warszawska / Borowa 07 nż
-1967	2	217001	10:59:00	10:59:00		Warszawska / Staromiejska 05 nż
-1967	2	217001	11:00:00	11:00:00		Warszawska ZS. Samoch. 03 nż
-1967	2	217001	11:01:00	11:01:00		Warszawska / Wyzwolenia 01 nż
-1967	2	217001	11:04:00	11:04:00		Marszałkowska 01
-1967	2	217001	11:08:00	11:08:00		Piłsudskiego U. Wojewódzki 05
-1967	2	217001	11:09:00	11:09:00		Pl. Wolności 03
-1967	2	217001	11:10:00	11:10:00		Piłsudskiego ZDZ 01 nż
-1967	2	217001	11:12:00	11:12:00		Lwowska jedn. wojskowa 02
-1967	2	217001	11:14:00	11:14:00		Lwowska cmentarz 04
-1967	2	217001	11:16:00	11:16:00		Lwowska szpital 06
-1967	2	217001	11:18:00	11:18:00		Cienista / Lwowska 02 nż
-1967	2	217001	11:19:00	11:19:00		Cienista cmentarz 04
-1967	2	217001	11:20:00	11:20:00		Lwowska / Olbrachta 08 nż
-1967	2	217001	11:21:00	11:21:00		Lwowska / Kr. Marysieńki 10 nż
-1967	2	217001	11:22:00	11:22:00		Lwowska granica 12 nż
-1967	2	217001	11:24:00	11:24:00		Krasne Auchan 01
+1967	3	216384	10:49:00	10:49:00		Lubelska Zajezdnia MPK
+1967	3	216384	10:50:00	10:50:00		Lubelska MPK 13 nż
+1967	3	216384	10:51:00	10:51:00		Lubelska Ogrody Hiszpańskie 11 nż
+1967	3	216384	10:52:00	10:52:00		Lubelska Os. Ogrody 09 nż
+1967	3	216384	10:53:00	10:53:00		Krogulskiego / Gromskiego 02 nż
+1967	3	216384	10:54:00	10:54:00		Borowa 02 nż
+1967	3	216384	10:55:00	10:55:00		Borowa / Żywiczna 04 nż
+1967	3	216384	10:57:00	10:57:00		Warszawska / Borowa 07 nż
+1967	3	216384	10:59:00	10:59:00		Warszawska / Staromiejska 05 nż
+1967	3	216384	11:00:00	11:00:00		Warszawska ZS. Samoch. 03 nż
+1967	3	216384	11:01:00	11:01:00		Warszawska / Wyzwolenia 01 nż
+1967	3	216384	11:04:00	11:04:00		Marszałkowska 01
+1967	3	216384	11:08:00	11:08:00		Piłsudskiego U. Wojewódzki 05
+1967	3	216384	11:09:00	11:09:00		Pl. Wolności 03
+1967	3	216384	11:10:00	11:10:00		Piłsudskiego ZDZ 01 nż
+1967	3	216384	11:12:00	11:12:00		Lwowska jedn. wojskowa 02
+1967	3	216384	11:14:00	11:14:00		Lwowska cmentarz 04
+1967	3	216384	11:16:00	11:16:00		Lwowska szpital 06
+1967	3	216384	11:18:00	11:18:00		Cienista / Lwowska 02 nż
+1967	3	216384	11:19:00	11:19:00		Cienista cmentarz 04
+1967	3	216384	11:20:00	11:20:00		Lwowska / Olbrachta 08 nż
+1967	3	216384	11:21:00	11:21:00		Lwowska / Kr. Marysieńki 10 nż
+1967	3	216384	11:22:00	11:22:00		Lwowska granica 12 nż
+1967	3	216384	11:24:00	11:24:00		Krasne Auchan 01
 
-1871	2	216987	11:57:00	11:57:00		Krasne Auchan 01
-1871	2	216987	12:01:00	12:01:00		Lwowska granica 11 nż
-1871	2	216987	12:02:00	12:02:00		Lwowska / Bałtycka 09 nż
-1871	2	216987	12:03:00	12:03:00		Cienista / Lwowska 02 nż
-1871	2	216987	12:04:00	12:04:00		Cienista cmentarz 01
-1871	2	216987	12:05:00	12:05:00		Lwowska / Cienista 07 nż
-1871	2	216987	12:07:00	12:07:00		Lwowska szpital 05
-1871	2	216987	12:10:00	12:10:00		Lwowska cmentarz 03
-1871	2	216987	12:11:00	12:11:00		Lwowska jedn. wojskowa 01
-1871	2	216987	12:13:00	12:13:00		Piłsudskiego ZDZ 02
-1871	2	216987	12:15:00	12:15:00		Pl. Wolności 04
-1871	2	216987	12:16:00	12:16:00		Piłsudskiego U. Wojewódzki 06
-1871	2	216987	12:20:00	12:20:00		Marszałkowska 02
-1871	2	216987	12:21:00	12:21:00		Warszawska / Wyzwolenia 02 nż
-1871	2	216987	12:22:00	12:22:00		Warszawska ZS. Samoch. 04 nż
-1871	2	216987	12:23:00	12:23:00		Warszawska / Staromiejska 06 nż
-1871	2	216987	12:25:00	12:25:00		Warszawska / Borowa 08 nż
-1871	2	216987	12:26:00	12:26:00		Borowa 01 nż
-1871	2	216987	12:28:00	12:28:00		Krogulskiego / Welca 03 nż
-1871	2	216987	12:29:00	12:29:00		Krogulskiego / Gromskiego 01 nż
-1871	2	216987	12:30:00	12:30:00		Lubelska Os. Ogrody 10 nż
-1871	2	216987	12:31:00	12:31:00		Lubelska Ogrody Hiszpańskie 12 nż
-1871	2	216987	12:32:00	12:32:00		Lubelska MPK 14 nż
-1871	2	216987	12:33:00	12:33:00		Lubelska Zajezdnia MPK
+1871	3	216819	11:57:00	11:57:00		Krasne Auchan 01
+1871	3	216819	12:01:00	12:01:00		Lwowska granica 11 nż
+1871	3	216819	12:02:00	12:02:00		Lwowska / Bałtycka 09 nż
+1871	3	216819	12:03:00	12:03:00		Cienista / Lwowska 02 nż
+1871	3	216819	12:04:00	12:04:00		Cienista cmentarz 01
+1871	3	216819	12:05:00	12:05:00		Lwowska / Cienista 07 nż
+1871	3	216819	12:07:00	12:07:00		Lwowska szpital 05
+1871	3	216819	12:10:00	12:10:00		Lwowska cmentarz 03
+1871	3	216819	12:11:00	12:11:00		Lwowska jedn. wojskowa 01
+1871	3	216819	12:13:00	12:13:00		Piłsudskiego ZDZ 02
+1871	3	216819	12:15:00	12:15:00		Pl. Wolności 04
+1871	3	216819	12:16:00	12:16:00		Piłsudskiego U. Wojewódzki 06
+1871	3	216819	12:20:00	12:20:00		Marszałkowska 02
+1871	3	216819	12:21:00	12:21:00		Warszawska / Wyzwolenia 02 nż
+1871	3	216819	12:22:00	12:22:00		Warszawska ZS. Samoch. 04 nż
+1871	3	216819	12:23:00	12:23:00		Warszawska / Staromiejska 06 nż
+1871	3	216819	12:25:00	12:25:00		Warszawska / Borowa 08 nż
+1871	3	216819	12:26:00	12:26:00		Borowa 01 nż
+1871	3	216819	12:28:00	12:28:00		Krogulskiego / Welca 03 nż
+1871	3	216819	12:29:00	12:29:00		Krogulskiego / Gromskiego 01 nż
+1871	3	216819	12:30:00	12:30:00		Lubelska Os. Ogrody 10 nż
+1871	3	216819	12:31:00	12:31:00		Lubelska Ogrody Hiszpańskie 12 nż
+1871	3	216819	12:32:00	12:32:00		Lubelska MPK 14 nż
+1871	3	216819	12:33:00	12:33:00		Lubelska Zajezdnia MPK
 
-1967	2	216923	12:49:00	12:49:00		Lubelska Zajezdnia MPK
-1967	2	216923	12:50:00	12:50:00		Lubelska MPK 13 nż
-1967	2	216923	12:51:00	12:51:00		Lubelska Ogrody Hiszpańskie 11 nż
-1967	2	216923	12:52:00	12:52:00		Lubelska Os. Ogrody 09 nż
-1967	2	216923	12:53:00	12:53:00		Krogulskiego / Gromskiego 02 nż
-1967	2	216923	12:54:00	12:54:00		Borowa 02 nż
-1967	2	216923	12:55:00	12:55:00		Borowa / Żywiczna 04 nż
-1967	2	216923	12:57:00	12:57:00		Warszawska / Borowa 07 nż
-1967	2	216923	12:59:00	12:59:00		Warszawska / Staromiejska 05 nż
-1967	2	216923	13:00:00	13:00:00		Warszawska ZS. Samoch. 03 nż
-1967	2	216923	13:01:00	13:01:00		Warszawska / Wyzwolenia 01 nż
-1967	2	216923	13:04:00	13:04:00		Marszałkowska 01
-1967	2	216923	13:08:00	13:08:00		Piłsudskiego U. Wojewódzki 05
-1967	2	216923	13:09:00	13:09:00		Pl. Wolności 03
-1967	2	216923	13:10:00	13:10:00		Piłsudskiego ZDZ 01 nż
-1967	2	216923	13:13:00	13:13:00		Lwowska jedn. wojskowa 02
-1967	2	216923	13:16:00	13:16:00		Lwowska cmentarz 04
-1967	2	216923	13:18:00	13:18:00		Lwowska szpital 06
-1967	2	216923	13:20:00	13:20:00		Cienista / Lwowska 02 nż
-1967	2	216923	13:21:00	13:21:00		Cienista cmentarz 04
-1967	2	216923	13:22:00	13:22:00		Lwowska / Olbrachta 08 nż
-1967	2	216923	13:23:00	13:23:00		Lwowska / Kr. Marysieńki 10 nż
-1967	2	216923	13:24:00	13:24:00		Lwowska granica 12 nż
-1967	2	216923	13:26:00	13:26:00		Krasne Auchan 01
+1967	3	216741	12:49:00	12:49:00		Lubelska Zajezdnia MPK
+1967	3	216741	12:50:00	12:50:00		Lubelska MPK 13 nż
+1967	3	216741	12:51:00	12:51:00		Lubelska Ogrody Hiszpańskie 11 nż
+1967	3	216741	12:52:00	12:52:00		Lubelska Os. Ogrody 09 nż
+1967	3	216741	12:53:00	12:53:00		Krogulskiego / Gromskiego 02 nż
+1967	3	216741	12:54:00	12:54:00		Borowa 02 nż
+1967	3	216741	12:55:00	12:55:00		Borowa / Żywiczna 04 nż
+1967	3	216741	12:57:00	12:57:00		Warszawska / Borowa 07 nż
+1967	3	216741	12:59:00	12:59:00		Warszawska / Staromiejska 05 nż
+1967	3	216741	13:00:00	13:00:00		Warszawska ZS. Samoch. 03 nż
+1967	3	216741	13:01:00	13:01:00		Warszawska / Wyzwolenia 01 nż
+1967	3	216741	13:04:00	13:04:00		Marszałkowska 01
+1967	3	216741	13:08:00	13:08:00		Piłsudskiego U. Wojewódzki 05
+1967	3	216741	13:09:00	13:09:00		Pl. Wolności 03
+1967	3	216741	13:10:00	13:10:00		Piłsudskiego ZDZ 01 nż
+1967	3	216741	13:13:00	13:13:00		Lwowska jedn. wojskowa 02
+1967	3	216741	13:16:00	13:16:00		Lwowska cmentarz 04
+1967	3	216741	13:18:00	13:18:00		Lwowska szpital 06
+1967	3	216741	13:20:00	13:20:00		Cienista / Lwowska 02 nż
+1967	3	216741	13:21:00	13:21:00		Cienista cmentarz 04
+1967	3	216741	13:22:00	13:22:00		Lwowska / Olbrachta 08 nż
+1967	3	216741	13:23:00	13:23:00		Lwowska / Kr. Marysieńki 10 nż
+1967	3	216741	13:24:00	13:24:00		Lwowska granica 12 nż
+1967	3	216741	13:26:00	13:26:00		Krasne Auchan 01
 
-1871	2	217354	13:57:00	13:57:00		Krasne Auchan 01
-1871	2	217354	14:01:00	14:01:00		Lwowska granica 11 nż
-1871	2	217354	14:02:00	14:02:00		Lwowska / Bałtycka 09 nż
-1871	2	217354	14:03:00	14:03:00		Cienista / Lwowska 02 nż
-1871	2	217354	14:04:00	14:04:00		Cienista cmentarz 01
-1871	2	217354	14:05:00	14:05:00		Lwowska / Cienista 07 nż
-1871	2	217354	14:07:00	14:07:00		Lwowska szpital 05
-1871	2	217354	14:10:00	14:10:00		Lwowska cmentarz 03
-1871	2	217354	14:11:00	14:11:00		Lwowska jedn. wojskowa 01
-1871	2	217354	14:13:00	14:13:00		Piłsudskiego ZDZ 02
-1871	2	217354	14:15:00	14:15:00		Pl. Wolności 04
-1871	2	217354	14:16:00	14:16:00		Piłsudskiego U. Wojewódzki 06
-1871	2	217354	14:20:00	14:20:00		Marszałkowska 02
-1871	2	217354	14:21:00	14:21:00		Warszawska / Wyzwolenia 02 nż
-1871	2	217354	14:22:00	14:22:00		Warszawska ZS. Samoch. 04 nż
-1871	2	217354	14:23:00	14:23:00		Warszawska / Staromiejska 06 nż
-1871	2	217354	14:25:00	14:25:00		Warszawska / Borowa 08 nż
-1871	2	217354	14:26:00	14:26:00		Borowa 01 nż
-1871	2	217354	14:28:00	14:28:00		Krogulskiego / Welca 03 nż
-1871	2	217354	14:29:00	14:29:00		Krogulskiego / Gromskiego 01 nż
-1871	2	217354	14:30:00	14:30:00		Lubelska Os. Ogrody 10 nż
-1871	2	217354	14:31:00	14:31:00		Lubelska Ogrody Hiszpańskie 12 nż
-1871	2	217354	14:32:00	14:32:00		Lubelska MPK 14 nż
-1871	2	217354	14:33:00	14:33:00		Lubelska Zajezdnia MPK
+1871	3	216651	13:57:00	13:57:00		Krasne Auchan 01
+1871	3	216651	14:01:00	14:01:00		Lwowska granica 11 nż
+1871	3	216651	14:02:00	14:02:00		Lwowska / Bałtycka 09 nż
+1871	3	216651	14:03:00	14:03:00		Cienista / Lwowska 02 nż
+1871	3	216651	14:04:00	14:04:00		Cienista cmentarz 01
+1871	3	216651	14:05:00	14:05:00		Lwowska / Cienista 07 nż
+1871	3	216651	14:07:00	14:07:00		Lwowska szpital 05
+1871	3	216651	14:10:00	14:10:00		Lwowska cmentarz 03
+1871	3	216651	14:11:00	14:11:00		Lwowska jedn. wojskowa 01
+1871	3	216651	14:13:00	14:13:00		Piłsudskiego ZDZ 02
+1871	3	216651	14:15:00	14:15:00		Pl. Wolności 04
+1871	3	216651	14:16:00	14:16:00		Piłsudskiego U. Wojewódzki 06
+1871	3	216651	14:20:00	14:20:00		Marszałkowska 02
+1871	3	216651	14:21:00	14:21:00		Warszawska / Wyzwolenia 02 nż
+1871	3	216651	14:22:00	14:22:00		Warszawska ZS. Samoch. 04 nż
+1871	3	216651	14:23:00	14:23:00		Warszawska / Staromiejska 06 nż
+1871	3	216651	14:25:00	14:25:00		Warszawska / Borowa 08 nż
+1871	3	216651	14:26:00	14:26:00		Borowa 01 nż
+1871	3	216651	14:28:00	14:28:00		Krogulskiego / Welca 03 nż
+1871	3	216651	14:29:00	14:29:00		Krogulskiego / Gromskiego 01 nż
+1871	3	216651	14:30:00	14:30:00		Lubelska Os. Ogrody 10 nż
+1871	3	216651	14:31:00	14:31:00		Lubelska Ogrody Hiszpańskie 12 nż
+1871	3	216651	14:32:00	14:32:00		Lubelska MPK 14 nż
+1871	3	216651	14:33:00	14:33:00		Lubelska Zajezdnia MPK
 
-1865	2	217055	14:46:00	14:46:00		Lubelska Zajezdnia MPK
-1865	2	217055	14:47:00	14:47:00		Lubelska MPK 13 nż
-1865	2	217055	14:48:00	14:48:00		Lubelska Ogrody Hiszpańskie 11 nż
-1865	2	217055	14:49:00	14:49:00		Lubelska Os. Ogrody 09 nż
-1865	2	217055	14:50:00	14:50:00		Krogulskiego / Gromskiego 02 nż
-1865	2	217055	14:51:00	14:51:00		Borowa 02 nż
-1865	2	217055	14:52:00	14:52:00		Borowa / Żywiczna 04 nż
-1865	2	217055	14:54:00	14:54:00		Warszawska / Borowa 07 nż
-1865	2	217055	14:56:00	14:56:00		Warszawska / Staromiejska 05 nż
-1865	2	217055	14:57:00	14:57:00		Warszawska ZS. Samoch. 03 nż
-1865	2	217055	14:58:00	14:58:00		Warszawska / Wyzwolenia 01 nż
-1865	2	217055	15:02:00	15:02:00		Marszałkowska 01
-1865	2	217055	15:07:00	15:07:00		Piłsudskiego U. Wojewódzki 05
-1865	2	217055	15:09:00	15:09:00		Pl. Wolności 03
-1865	2	217055	15:10:00	15:10:00		Piłsudskiego ZDZ 01 nż
-1865	2	217055	15:13:00	15:13:00		Lwowska jedn. wojskowa 02
-1865	2	217055	15:21:00	15:21:00		Lwowska cmentarz 04
-1865	2	217055	15:25:00	15:25:00		Lwowska szpital 06
-1865	2	217055	15:27:00	15:27:00		Lwowska / Olbrachta 08 nż
-1865	2	217055	15:28:00	15:28:00		Lwowska / Kr. Marysieńki 10 nż
-1865	2	217055	15:29:00	15:29:00		Lwowska granica 12 nż
-1865	2	217055	15:31:00	15:31:00		Krasne Auchan 01
+1865	3	216732	14:46:00	14:46:00		Lubelska Zajezdnia MPK
+1865	3	216732	14:47:00	14:47:00		Lubelska MPK 13 nż
+1865	3	216732	14:48:00	14:48:00		Lubelska Ogrody Hiszpańskie 11 nż
+1865	3	216732	14:49:00	14:49:00		Lubelska Os. Ogrody 09 nż
+1865	3	216732	14:50:00	14:50:00		Krogulskiego / Gromskiego 02 nż
+1865	3	216732	14:51:00	14:51:00		Borowa 02 nż
+1865	3	216732	14:52:00	14:52:00		Borowa / Żywiczna 04 nż
+1865	3	216732	14:54:00	14:54:00		Warszawska / Borowa 07 nż
+1865	3	216732	14:56:00	14:56:00		Warszawska / Staromiejska 05 nż
+1865	3	216732	14:57:00	14:57:00		Warszawska ZS. Samoch. 03 nż
+1865	3	216732	14:58:00	14:58:00		Warszawska / Wyzwolenia 01 nż
+1865	3	216732	15:02:00	15:02:00		Marszałkowska 01
+1865	3	216732	15:07:00	15:07:00		Piłsudskiego U. Wojewódzki 05
+1865	3	216732	15:09:00	15:09:00		Pl. Wolności 03
+1865	3	216732	15:10:00	15:10:00		Piłsudskiego ZDZ 01 nż
+1865	3	216732	15:13:00	15:13:00		Lwowska jedn. wojskowa 02
+1865	3	216732	15:21:00	15:21:00		Lwowska cmentarz 04
+1865	3	216732	15:25:00	15:25:00		Lwowska szpital 06
+1865	3	216732	15:27:00	15:27:00		Lwowska / Olbrachta 08 nż
+1865	3	216732	15:28:00	15:28:00		Lwowska / Kr. Marysieńki 10 nż
+1865	3	216732	15:29:00	15:29:00		Lwowska granica 12 nż
+1865	3	216732	15:31:00	15:31:00		Krasne Auchan 01
 
-1871	2	216937	15:57:00	15:57:00		Krasne Auchan 01
-1871	2	216937	16:01:00	16:01:00		Lwowska granica 11 nż
-1871	2	216937	16:02:00	16:02:00		Lwowska / Bałtycka 09 nż
-1871	2	216937	16:03:00	16:03:00		Cienista / Lwowska 02 nż
-1871	2	216937	16:04:00	16:04:00		Cienista cmentarz 01
-1871	2	216937	16:05:00	16:05:00		Lwowska / Cienista 07 nż
-1871	2	216937	16:07:00	16:07:00		Lwowska szpital 05
-1871	2	216937	16:10:00	16:10:00		Lwowska cmentarz 03
-1871	2	216937	16:11:00	16:11:00		Lwowska jedn. wojskowa 01
-1871	2	216937	16:14:00	16:14:00		Piłsudskiego ZDZ 02
-1871	2	216937	16:17:00	16:17:00		Pl. Wolności 04
-1871	2	216937	16:20:00	16:20:00		Piłsudskiego U. Wojewódzki 06
-1871	2	216937	16:24:00	16:24:00		Marszałkowska 02
-1871	2	216937	16:26:00	16:26:00		Warszawska / Wyzwolenia 02 nż
-1871	2	216937	16:27:00	16:27:00		Warszawska ZS. Samoch. 04 nż
-1871	2	216937	16:28:00	16:28:00		Warszawska / Staromiejska 06 nż
-1871	2	216937	16:30:00	16:30:00		Warszawska / Borowa 08 nż
-1871	2	216937	16:31:00	16:31:00		Borowa 01 nż
-1871	2	216937	16:33:00	16:33:00		Krogulskiego / Welca 03 nż
-1871	2	216937	16:34:00	16:34:00		Krogulskiego / Gromskiego 01 nż
-1871	2	216937	16:35:00	16:35:00		Lubelska Os. Ogrody 10 nż
-1871	2	216937	16:36:00	16:36:00		Lubelska Ogrody Hiszpańskie 12 nż
-1871	2	216937	16:37:00	16:37:00		Lubelska MPK 14 nż
-1871	2	216937	16:38:00	16:38:00		Lubelska Zajezdnia MPK
+1871	3	216529	15:57:00	15:57:00		Krasne Auchan 01
+1871	3	216529	16:01:00	16:01:00		Lwowska granica 11 nż
+1871	3	216529	16:02:00	16:02:00		Lwowska / Bałtycka 09 nż
+1871	3	216529	16:03:00	16:03:00		Cienista / Lwowska 02 nż
+1871	3	216529	16:04:00	16:04:00		Cienista cmentarz 01
+1871	3	216529	16:05:00	16:05:00		Lwowska / Cienista 07 nż
+1871	3	216529	16:07:00	16:07:00		Lwowska szpital 05
+1871	3	216529	16:10:00	16:10:00		Lwowska cmentarz 03
+1871	3	216529	16:11:00	16:11:00		Lwowska jedn. wojskowa 01
+1871	3	216529	16:14:00	16:14:00		Piłsudskiego ZDZ 02
+1871	3	216529	16:17:00	16:17:00		Pl. Wolności 04
+1871	3	216529	16:20:00	16:20:00		Piłsudskiego U. Wojewódzki 06
+1871	3	216529	16:24:00	16:24:00		Marszałkowska 02
+1871	3	216529	16:26:00	16:26:00		Warszawska / Wyzwolenia 02 nż
+1871	3	216529	16:27:00	16:27:00		Warszawska ZS. Samoch. 04 nż
+1871	3	216529	16:28:00	16:28:00		Warszawska / Staromiejska 06 nż
+1871	3	216529	16:30:00	16:30:00		Warszawska / Borowa 08 nż
+1871	3	216529	16:31:00	16:31:00		Borowa 01 nż
+1871	3	216529	16:33:00	16:33:00		Krogulskiego / Welca 03 nż
+1871	3	216529	16:34:00	16:34:00		Krogulskiego / Gromskiego 01 nż
+1871	3	216529	16:35:00	16:35:00		Lubelska Os. Ogrody 10 nż
+1871	3	216529	16:36:00	16:36:00		Lubelska Ogrody Hiszpańskie 12 nż
+1871	3	216529	16:37:00	16:37:00		Lubelska MPK 14 nż
+1871	3	216529	16:38:00	16:38:00		Lubelska Zajezdnia MPK
 
-1865	2	217316	16:50:00	16:50:00		Lubelska Zajezdnia MPK
-1865	2	217316	16:51:00	16:51:00		Lubelska MPK 13 nż
-1865	2	217316	16:52:00	16:52:00		Lubelska Ogrody Hiszpańskie 11 nż
-1865	2	217316	16:53:00	16:53:00		Lubelska Os. Ogrody 09 nż
-1865	2	217316	16:54:00	16:54:00		Krogulskiego / Gromskiego 02 nż
-1865	2	217316	16:55:00	16:55:00		Borowa 02 nż
-1865	2	217316	16:56:00	16:56:00		Borowa / Żywiczna 04 nż
-1865	2	217316	16:58:00	16:58:00		Warszawska / Borowa 07 nż
-1865	2	217316	17:00:00	17:00:00		Warszawska / Staromiejska 05 nż
-1865	2	217316	17:01:00	17:01:00		Warszawska ZS. Samoch. 03 nż
-1865	2	217316	17:02:00	17:02:00		Warszawska / Wyzwolenia 01 nż
-1865	2	217316	17:04:00	17:04:00		Marszałkowska 01
-1865	2	217316	17:08:00	17:08:00		Piłsudskiego U. Wojewódzki 05
-1865	2	217316	17:09:00	17:09:00		Pl. Wolności 03
-1865	2	217316	17:10:00	17:10:00		Piłsudskiego ZDZ 01 nż
-1865	2	217316	17:13:00	17:13:00		Lwowska jedn. wojskowa 02
-1865	2	217316	17:16:00	17:16:00		Lwowska cmentarz 04
-1865	2	217316	17:18:00	17:18:00		Lwowska szpital 06
-1865	2	217316	17:20:00	17:20:00		Lwowska / Olbrachta 08 nż
-1865	2	217316	17:21:00	17:21:00		Lwowska / Kr. Marysieńki 10 nż
-1865	2	217316	17:22:00	17:22:00		Lwowska granica 12 nż
-1865	2	217316	17:24:00	17:24:00		Krasne Auchan 01
+1865	3	216612	16:50:00	16:50:00		Lubelska Zajezdnia MPK
+1865	3	216612	16:51:00	16:51:00		Lubelska MPK 13 nż
+1865	3	216612	16:52:00	16:52:00		Lubelska Ogrody Hiszpańskie 11 nż
+1865	3	216612	16:53:00	16:53:00		Lubelska Os. Ogrody 09 nż
+1865	3	216612	16:54:00	16:54:00		Krogulskiego / Gromskiego 02 nż
+1865	3	216612	16:55:00	16:55:00		Borowa 02 nż
+1865	3	216612	16:56:00	16:56:00		Borowa / Żywiczna 04 nż
+1865	3	216612	16:58:00	16:58:00		Warszawska / Borowa 07 nż
+1865	3	216612	17:00:00	17:00:00		Warszawska / Staromiejska 05 nż
+1865	3	216612	17:01:00	17:01:00		Warszawska ZS. Samoch. 03 nż
+1865	3	216612	17:02:00	17:02:00		Warszawska / Wyzwolenia 01 nż
+1865	3	216612	17:04:00	17:04:00		Marszałkowska 01
+1865	3	216612	17:08:00	17:08:00		Piłsudskiego U. Wojewódzki 05
+1865	3	216612	17:09:00	17:09:00		Pl. Wolności 03
+1865	3	216612	17:10:00	17:10:00		Piłsudskiego ZDZ 01 nż
+1865	3	216612	17:13:00	17:13:00		Lwowska jedn. wojskowa 02
+1865	3	216612	17:16:00	17:16:00		Lwowska cmentarz 04
+1865	3	216612	17:18:00	17:18:00		Lwowska szpital 06
+1865	3	216612	17:20:00	17:20:00		Lwowska / Olbrachta 08 nż
+1865	3	216612	17:21:00	17:21:00		Lwowska / Kr. Marysieńki 10 nż
+1865	3	216612	17:22:00	17:22:00		Lwowska granica 12 nż
+1865	3	216612	17:24:00	17:24:00		Krasne Auchan 01
 
-1866	2	217335	17:58:00	17:58:00		Krasne Auchan 01
-1866	2	217335	18:02:00	18:02:00		Lwowska granica 11 nż
-1866	2	217335	18:03:00	18:03:00		Lwowska / Bałtycka 09 nż
-1866	2	217335	18:05:00	18:05:00		Lwowska / Cienista 07 nż
-1866	2	217335	18:07:00	18:07:00		Lwowska szpital 05
-1866	2	217335	18:10:00	18:10:00		Lwowska cmentarz 03
-1866	2	217335	18:11:00	18:11:00		Lwowska jedn. wojskowa 01
-1866	2	217335	18:13:00	18:13:00		Piłsudskiego ZDZ 02
-1866	2	217335	18:15:00	18:15:00		Pl. Wolności 04
-1866	2	217335	18:16:00	18:16:00		Piłsudskiego U. Wojewódzki 06
-1866	2	217335	18:19:00	18:19:00		Marszałkowska 02
-1866	2	217335	18:20:00	18:20:00		Warszawska / Wyzwolenia 02 nż
-1866	2	217335	18:21:00	18:21:00		Warszawska ZS. Samoch. 04 nż
-1866	2	217335	18:22:00	18:22:00		Warszawska / Staromiejska 06 nż
-1866	2	217335	18:24:00	18:24:00		Warszawska / Borowa 08 nż
-1866	2	217335	18:25:00	18:25:00		Borowa 01 nż
-1866	2	217335	18:27:00	18:27:00		Krogulskiego / Welca 03 nż
-1866	2	217335	18:28:00	18:28:00		Krogulskiego / Gromskiego 01 nż
-1866	2	217335	18:29:00	18:29:00		Lubelska Os. Ogrody 10 nż
-1866	2	217335	18:30:00	18:30:00		Lubelska Ogrody Hiszpańskie 12 nż
-1866	2	217335	18:31:00	18:31:00		Lubelska MPK 14 nż
-1866	2	217335	18:32:00	18:32:00		Lubelska Zajezdnia MPK
+1866	3	216628	17:58:00	17:58:00		Krasne Auchan 01
+1866	3	216628	18:02:00	18:02:00		Lwowska granica 11 nż
+1866	3	216628	18:03:00	18:03:00		Lwowska / Bałtycka 09 nż
+1866	3	216628	18:05:00	18:05:00		Lwowska / Cienista 07 nż
+1866	3	216628	18:07:00	18:07:00		Lwowska szpital 05
+1866	3	216628	18:10:00	18:10:00		Lwowska cmentarz 03
+1866	3	216628	18:11:00	18:11:00		Lwowska jedn. wojskowa 01
+1866	3	216628	18:13:00	18:13:00		Piłsudskiego ZDZ 02
+1866	3	216628	18:15:00	18:15:00		Pl. Wolności 04
+1866	3	216628	18:16:00	18:16:00		Piłsudskiego U. Wojewódzki 06
+1866	3	216628	18:19:00	18:19:00		Marszałkowska 02
+1866	3	216628	18:20:00	18:20:00		Warszawska / Wyzwolenia 02 nż
+1866	3	216628	18:21:00	18:21:00		Warszawska ZS. Samoch. 04 nż
+1866	3	216628	18:22:00	18:22:00		Warszawska / Staromiejska 06 nż
+1866	3	216628	18:24:00	18:24:00		Warszawska / Borowa 08 nż
+1866	3	216628	18:25:00	18:25:00		Borowa 01 nż
+1866	3	216628	18:27:00	18:27:00		Krogulskiego / Welca 03 nż
+1866	3	216628	18:28:00	18:28:00		Krogulskiego / Gromskiego 01 nż
+1866	3	216628	18:29:00	18:29:00		Lubelska Os. Ogrody 10 nż
+1866	3	216628	18:30:00	18:30:00		Lubelska Ogrody Hiszpańskie 12 nż
+1866	3	216628	18:31:00	18:31:00		Lubelska MPK 14 nż
+1866	3	216628	18:32:00	18:32:00		Lubelska Zajezdnia MPK
 
-1865	2	217134	18:52:00	18:52:00		Lubelska Zajezdnia MPK
-1865	2	217134	18:53:00	18:53:00		Lubelska MPK 13 nż
-1865	2	217134	18:54:00	18:54:00		Lubelska Ogrody Hiszpańskie 11 nż
-1865	2	217134	18:55:00	18:55:00		Lubelska Os. Ogrody 09 nż
-1865	2	217134	18:56:00	18:56:00		Krogulskiego / Gromskiego 02 nż
-1865	2	217134	18:57:00	18:57:00		Borowa 02 nż
-1865	2	217134	18:58:00	18:58:00		Borowa / Żywiczna 04 nż
-1865	2	217134	19:00:00	19:00:00		Warszawska / Borowa 07 nż
-1865	2	217134	19:02:00	19:02:00		Warszawska / Staromiejska 05 nż
-1865	2	217134	19:03:00	19:03:00		Warszawska ZS. Samoch. 03 nż
-1865	2	217134	19:04:00	19:04:00		Warszawska / Wyzwolenia 01 nż
-1865	2	217134	19:05:00	19:05:00		Marszałkowska 01
-1865	2	217134	19:08:00	19:08:00		Piłsudskiego U. Wojewódzki 05
-1865	2	217134	19:09:00	19:09:00		Pl. Wolności 03
-1865	2	217134	19:10:00	19:10:00		Piłsudskiego ZDZ 01 nż
-1865	2	217134	19:12:00	19:12:00		Lwowska jedn. wojskowa 02
-1865	2	217134	19:14:00	19:14:00		Lwowska cmentarz 04
-1865	2	217134	19:15:00	19:15:00		Lwowska szpital 06
-1865	2	217134	19:17:00	19:17:00		Lwowska / Olbrachta 08 nż
-1865	2	217134	19:18:00	19:18:00		Lwowska / Kr. Marysieńki 10 nż
-1865	2	217134	19:19:00	19:19:00		Lwowska granica 12 nż
-1865	2	217134	19:21:00	19:21:00		Krasne Auchan 01
+1865	3	216685	18:52:00	18:52:00		Lubelska Zajezdnia MPK
+1865	3	216685	18:53:00	18:53:00		Lubelska MPK 13 nż
+1865	3	216685	18:54:00	18:54:00		Lubelska Ogrody Hiszpańskie 11 nż
+1865	3	216685	18:55:00	18:55:00		Lubelska Os. Ogrody 09 nż
+1865	3	216685	18:56:00	18:56:00		Krogulskiego / Gromskiego 02 nż
+1865	3	216685	18:57:00	18:57:00		Borowa 02 nż
+1865	3	216685	18:58:00	18:58:00		Borowa / Żywiczna 04 nż
+1865	3	216685	19:00:00	19:00:00		Warszawska / Borowa 07 nż
+1865	3	216685	19:02:00	19:02:00		Warszawska / Staromiejska 05 nż
+1865	3	216685	19:03:00	19:03:00		Warszawska ZS. Samoch. 03 nż
+1865	3	216685	19:04:00	19:04:00		Warszawska / Wyzwolenia 01 nż
+1865	3	216685	19:05:00	19:05:00		Marszałkowska 01
+1865	3	216685	19:08:00	19:08:00		Piłsudskiego U. Wojewódzki 05
+1865	3	216685	19:09:00	19:09:00		Pl. Wolności 03
+1865	3	216685	19:10:00	19:10:00		Piłsudskiego ZDZ 01 nż
+1865	3	216685	19:12:00	19:12:00		Lwowska jedn. wojskowa 02
+1865	3	216685	19:14:00	19:14:00		Lwowska cmentarz 04
+1865	3	216685	19:15:00	19:15:00		Lwowska szpital 06
+1865	3	216685	19:17:00	19:17:00		Lwowska / Olbrachta 08 nż
+1865	3	216685	19:18:00	19:18:00		Lwowska / Kr. Marysieńki 10 nż
+1865	3	216685	19:19:00	19:19:00		Lwowska granica 12 nż
+1865	3	216685	19:21:00	19:21:00		Krasne Auchan 01
 
-1866	2	217211	19:31:00	19:31:00		Krasne Auchan 01
-1866	2	217211	19:35:00	19:35:00		Lwowska granica 11 nż
-1866	2	217211	19:36:00	19:36:00		Lwowska / Bałtycka 09 nż
-1866	2	217211	19:37:00	19:37:00		Lwowska / Cienista 07 nż
-1866	2	217211	19:39:00	19:39:00		Lwowska szpital 05
-1866	2	217211	19:40:00	19:40:00		Lwowska cmentarz 03
-1866	2	217211	19:41:00	19:41:00		Lwowska jedn. wojskowa 01
-1866	2	217211	19:43:00	19:43:00		Piłsudskiego ZDZ 02
-1866	2	217211	19:44:00	19:44:00		Pl. Wolności 04
-1866	2	217211	19:45:00	19:45:00		Piłsudskiego U. Wojewódzki 06
-1866	2	217211	19:48:00	19:48:00		Marszałkowska 02
-1866	2	217211	19:49:00	19:49:00		Warszawska / Wyzwolenia 02 nż
-1866	2	217211	19:50:00	19:50:00		Warszawska ZS. Samoch. 04 nż
-1866	2	217211	19:51:00	19:51:00		Warszawska / Staromiejska 06 nż
-1866	2	217211	19:53:00	19:53:00		Warszawska / Borowa 08 nż
-1866	2	217211	19:54:00	19:54:00		Borowa 01 nż
-1866	2	217211	19:56:00	19:56:00		Krogulskiego / Welca 03 nż
-1866	2	217211	19:57:00	19:57:00		Krogulskiego / Gromskiego 01 nż
-1866	2	217211	19:58:00	19:58:00		Lubelska Os. Ogrody 10 nż
-1866	2	217211	19:59:00	19:59:00		Lubelska Ogrody Hiszpańskie 12 nż
-1866	2	217211	20:00:00	20:00:00		Lubelska MPK 14 nż
-1866	2	217211	20:01:00	20:01:00		Lubelska Zajezdnia MPK
+1866	3	216333	19:31:00	19:31:00		Krasne Auchan 01
+1866	3	216333	19:35:00	19:35:00		Lwowska granica 11 nż
+1866	3	216333	19:36:00	19:36:00		Lwowska / Bałtycka 09 nż
+1866	3	216333	19:37:00	19:37:00		Lwowska / Cienista 07 nż
+1866	3	216333	19:39:00	19:39:00		Lwowska szpital 05
+1866	3	216333	19:40:00	19:40:00		Lwowska cmentarz 03
+1866	3	216333	19:41:00	19:41:00		Lwowska jedn. wojskowa 01
+1866	3	216333	19:43:00	19:43:00		Piłsudskiego ZDZ 02
+1866	3	216333	19:44:00	19:44:00		Pl. Wolności 04
+1866	3	216333	19:45:00	19:45:00		Piłsudskiego U. Wojewódzki 06
+1866	3	216333	19:48:00	19:48:00		Marszałkowska 02
+1866	3	216333	19:49:00	19:49:00		Warszawska / Wyzwolenia 02 nż
+1866	3	216333	19:50:00	19:50:00		Warszawska ZS. Samoch. 04 nż
+1866	3	216333	19:51:00	19:51:00		Warszawska / Staromiejska 06 nż
+1866	3	216333	19:53:00	19:53:00		Warszawska / Borowa 08 nż
+1866	3	216333	19:54:00	19:54:00		Borowa 01 nż
+1866	3	216333	19:56:00	19:56:00		Krogulskiego / Welca 03 nż
+1866	3	216333	19:57:00	19:57:00		Krogulskiego / Gromskiego 01 nż
+1866	3	216333	19:58:00	19:58:00		Lubelska Os. Ogrody 10 nż
+1866	3	216333	19:59:00	19:59:00		Lubelska Ogrody Hiszpańskie 12 nż
+1866	3	216333	20:00:00	20:00:00		Lubelska MPK 14 nż
+1866	3	216333	20:01:00	20:01:00		Lubelska Zajezdnia MPK
 
-1865	2	217236	20:22:00	20:22:00		Lubelska Zajezdnia MPK
-1865	2	217236	20:23:00	20:23:00		Lubelska MPK 13 nż
-1865	2	217236	20:24:00	20:24:00		Lubelska Ogrody Hiszpańskie 11 nż
-1865	2	217236	20:25:00	20:25:00		Lubelska Os. Ogrody 09 nż
-1865	2	217236	20:26:00	20:26:00		Krogulskiego / Gromskiego 02 nż
-1865	2	217236	20:27:00	20:27:00		Borowa 02 nż
-1865	2	217236	20:28:00	20:28:00		Borowa / Żywiczna 04 nż
-1865	2	217236	20:30:00	20:30:00		Warszawska / Borowa 07 nż
-1865	2	217236	20:32:00	20:32:00		Warszawska / Staromiejska 05 nż
-1865	2	217236	20:33:00	20:33:00		Warszawska ZS. Samoch. 03 nż
-1865	2	217236	20:34:00	20:34:00		Warszawska / Wyzwolenia 01 nż
-1865	2	217236	20:35:00	20:35:00		Marszałkowska 01
-1865	2	217236	20:38:00	20:38:00		Piłsudskiego U. Wojewódzki 05
-1865	2	217236	20:39:00	20:39:00		Pl. Wolności 03
-1865	2	217236	20:40:00	20:40:00		Piłsudskiego ZDZ 01 nż
-1865	2	217236	20:42:00	20:42:00		Lwowska jedn. wojskowa 02
-1865	2	217236	20:44:00	20:44:00		Lwowska cmentarz 04
-1865	2	217236	20:45:00	20:45:00		Lwowska szpital 06
-1865	2	217236	20:47:00	20:47:00		Lwowska / Olbrachta 08 nż
-1865	2	217236	20:48:00	20:48:00		Lwowska / Kr. Marysieńki 10 nż
-1865	2	217236	20:49:00	20:49:00		Lwowska granica 12 nż
-1865	2	217236	20:51:00	20:51:00		Krasne Auchan 01
+1865	3	216734	20:22:00	20:22:00		Lubelska Zajezdnia MPK
+1865	3	216734	20:23:00	20:23:00		Lubelska MPK 13 nż
+1865	3	216734	20:24:00	20:24:00		Lubelska Ogrody Hiszpańskie 11 nż
+1865	3	216734	20:25:00	20:25:00		Lubelska Os. Ogrody 09 nż
+1865	3	216734	20:26:00	20:26:00		Krogulskiego / Gromskiego 02 nż
+1865	3	216734	20:27:00	20:27:00		Borowa 02 nż
+1865	3	216734	20:28:00	20:28:00		Borowa / Żywiczna 04 nż
+1865	3	216734	20:30:00	20:30:00		Warszawska / Borowa 07 nż
+1865	3	216734	20:32:00	20:32:00		Warszawska / Staromiejska 05 nż
+1865	3	216734	20:33:00	20:33:00		Warszawska ZS. Samoch. 03 nż
+1865	3	216734	20:34:00	20:34:00		Warszawska / Wyzwolenia 01 nż
+1865	3	216734	20:35:00	20:35:00		Marszałkowska 01
+1865	3	216734	20:38:00	20:38:00		Piłsudskiego U. Wojewódzki 05
+1865	3	216734	20:39:00	20:39:00		Pl. Wolności 03
+1865	3	216734	20:40:00	20:40:00		Piłsudskiego ZDZ 01 nż
+1865	3	216734	20:42:00	20:42:00		Lwowska jedn. wojskowa 02
+1865	3	216734	20:44:00	20:44:00		Lwowska cmentarz 04
+1865	3	216734	20:45:00	20:45:00		Lwowska szpital 06
+1865	3	216734	20:47:00	20:47:00		Lwowska / Olbrachta 08 nż
+1865	3	216734	20:48:00	20:48:00		Lwowska / Kr. Marysieńki 10 nż
+1865	3	216734	20:49:00	20:49:00		Lwowska granica 12 nż
+1865	3	216734	20:51:00	20:51:00		Krasne Auchan 01
 
-1866	2	216977	21:02:00	21:02:00		Krasne Auchan 01
-1866	2	216977	21:06:00	21:06:00		Lwowska granica 11 nż
-1866	2	216977	21:07:00	21:07:00		Lwowska / Bałtycka 09 nż
-1866	2	216977	21:08:00	21:08:00		Lwowska / Cienista 07 nż
-1866	2	216977	21:09:00	21:09:00		Lwowska szpital 05
-1866	2	216977	21:10:00	21:10:00		Lwowska cmentarz 03
-1866	2	216977	21:11:00	21:11:00		Lwowska jedn. wojskowa 01
-1866	2	216977	21:13:00	21:13:00		Piłsudskiego ZDZ 02
-1866	2	216977	21:14:00	21:14:00		Pl. Wolności 04
-1866	2	216977	21:15:00	21:15:00		Piłsudskiego U. Wojewódzki 06
-1866	2	216977	21:17:00	21:17:00		Marszałkowska 02
-1866	2	216977	21:18:00	21:18:00		Warszawska / Wyzwolenia 02 nż
-1866	2	216977	21:19:00	21:19:00		Warszawska ZS. Samoch. 04 nż
-1866	2	216977	21:20:00	21:20:00		Warszawska / Staromiejska 06 nż
-1866	2	216977	21:22:00	21:22:00		Warszawska / Borowa 08 nż
-1866	2	216977	21:23:00	21:23:00		Borowa 01 nż
-1866	2	216977	21:25:00	21:25:00		Krogulskiego / Welca 03 nż
-1866	2	216977	21:26:00	21:26:00		Krogulskiego / Gromskiego 01 nż
-1866	2	216977	21:27:00	21:27:00		Lubelska Os. Ogrody 10 nż
-1866	2	216977	21:28:00	21:28:00		Lubelska Ogrody Hiszpańskie 12 nż
-1866	2	216977	21:29:00	21:29:00		Lubelska MPK 14 nż
-1866	2	216977	21:30:00	21:30:00		Lubelska Zajezdnia MPK
-
-1894	2	217560	22:20:00	22:20:00		Bardowskiego 02
-1894	2	217560	22:22:00	22:22:00		Piłsudskiego ZDZ 01 nż
-1894	2	217560	22:23:00	22:23:00		Rejtana / Lwowska 01
-1894	2	217560	22:24:00	22:24:00		Rejtana / Kustronia 03 nż
-1894	2	217560	22:25:00	22:25:00		Rejtana uniwersytet 05
-1894	2	217560	22:27:00	22:27:00		Rejtana / Kopisto 07
-1894	2	217560	22:28:00	22:28:00		Rejtana / Popiełuszki 09
-1894	2	217560	22:30:00	22:30:00		Powst. Warszawy / Rejtana 13
-1894	2	217560	22:31:00	22:31:00		Powst. Warszawy szkoła 11
-1894	2	217560	22:32:00	22:32:00		Powst. Warszawy dom studenta 09
-1894	2	217560	22:33:00	22:33:00		Powst. Warszawy stadion 05 nż
-1894	2	217560	22:34:00	22:34:00		Powst. Warszawy / Hetmańska 03
-1894	2	217560	22:35:00	22:35:00		Powst. Warszawy politechnika 01
-1894	2	217560	22:36:00	22:36:00		Bat. Chłopskich / Dąbrowskiego 02 nż
-1894	2	217560	22:37:00	22:37:00		Przemysłowa / Bat. Chłopskich 02 nż
-1894	2	217560	22:38:00	22:38:00		Przemysłowa / Magazynowa 04
-1894	2	217560	22:40:00	22:40:00		Przemysłowa U. Celny 05 nż
-
-1963	2	217097	23:10:00	23:10:00		Przemysłowa U. Celny 05 nż
-1963	2	217097	23:11:00	23:11:00		Przemysłowa / Architektów 03
-1963	2	217097	23:12:00	23:12:00		Przemysłowa / Bat. Chłopskich 01 nż
-1963	2	217097	23:13:00	23:13:00		Bat. Chłopskich / Przemysłowa 03 nż
-1963	2	217097	23:14:00	23:14:00		Bat. Chłopskich / Podkarpacka 01 nż
-1963	2	217097	23:16:00	23:16:00		Powst. Warszawy / Dąbrowskiego 02
-1963	2	217097	23:17:00	23:17:00		Powst. Warszawy politechnika 04
-1963	2	217097	23:18:00	23:18:00		Powst. Warszawy stadion 06
-1963	2	217097	23:20:00	23:20:00		Powst. Warszawy dom studenta 08
-1963	2	217097	23:21:00	23:21:00		Powst. Warszawy / Graniczna 10
-1963	2	217097	23:23:00	23:23:00		Rejtana / Armii Krajowej 12
-1963	2	217097	23:24:00	23:24:00		Rejtana / Paderewskiego 10
-1963	2	217097	23:25:00	23:25:00		Rejtana / Krzyżanowskiego 08
-1963	2	217097	23:26:00	23:26:00		Rejtana uniwersytet 06
-1963	2	217097	23:27:00	23:27:00		Rejtana cmentarz 04 nż
-1963	2	217097	23:28:00	23:28:00		Rejtana / Kustronia 02
-1963	2	217097	23:30:00	23:30:00		Piłsudskiego ZDZ 02
-1963	2	217097	23:31:00	23:31:00		Pl. Wolności 04
+1866	3	216507	21:02:00	21:02:00		Krasne Auchan 01
+1866	3	216507	21:06:00	21:06:00		Lwowska granica 11 nż
+1866	3	216507	21:07:00	21:07:00		Lwowska / Bałtycka 09 nż
+1866	3	216507	21:08:00	21:08:00		Lwowska / Cienista 07 nż
+1866	3	216507	21:09:00	21:09:00		Lwowska szpital 05
+1866	3	216507	21:10:00	21:10:00		Lwowska cmentarz 03
+1866	3	216507	21:11:00	21:11:00		Lwowska jedn. wojskowa 01
+1866	3	216507	21:13:00	21:13:00		Piłsudskiego ZDZ 02
+1866	3	216507	21:14:00	21:14:00		Pl. Wolności 04
+1866	3	216507	21:15:00	21:15:00		Piłsudskiego U. Wojewódzki 06
+1866	3	216507	21:17:00	21:17:00		Marszałkowska 02
+1866	3	216507	21:18:00	21:18:00		Warszawska / Wyzwolenia 02 nż
+1866	3	216507	21:19:00	21:19:00		Warszawska ZS. Samoch. 04 nż
+1866	3	216507	21:20:00	21:20:00		Warszawska / Staromiejska 06 nż
+1866	3	216507	21:22:00	21:22:00		Warszawska / Borowa 08 nż
+1866	3	216507	21:23:00	21:23:00		Borowa 01 nż
+1866	3	216507	21:25:00	21:25:00		Krogulskiego / Welca 03 nż
+1866	3	216507	21:26:00	21:26:00		Krogulskiego / Gromskiego 01 nż
+1866	3	216507	21:27:00	21:27:00		Lubelska Os. Ogrody 10 nż
+1866	3	216507	21:28:00	21:28:00		Lubelska Ogrody Hiszpańskie 12 nż
+1866	3	216507	21:29:00	21:29:00		Lubelska MPK 14 nż
+1866	3	216507	21:30:00	21:30:00		Lubelska Zajezdnia MPK

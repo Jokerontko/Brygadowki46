@@ -695,7 +695,7 @@
         let activeDelaySort = '';
         let activeLineFilter = '';
         let activeBusNumberFilter = '';
-        let wartoscdnia = ""; // domyślnie np. "Powszedni"
+        let wartoscdnia = "2"; // domyślnie np. "Powszedni"
 
 
 
@@ -761,7 +761,7 @@
         }
 
         function LoadBrygada(godzinaOdjazdu, kierunek, dzien, callback) {
-            fetch(`/api/brygada?godzina=${encodeURIComponent(godzinaOdjazdu)}&kierunek=${encodeURIComponent(kierunek)}&dzien=${encodeURIComponent(dzien)}`)
+            fetch(`/api/brygadaStrona?godzina=${encodeURIComponent(godzinaOdjazdu)}&kierunek=${encodeURIComponent(kierunek)}&dzien=${encodeURIComponent(dzien)}`)
 
                 .then(response => response.json())
                 .then(data => {
@@ -878,7 +878,8 @@
                         const cellLinie = row.cells[4];
 
                         // Funkcja LoadBrygada, która zwraca brygadę i linię
-                        LoadBrygada(godzinaOdjazdu, kierunek, activeDzien, function(brygada, linia) {
+                        LoadBrygada(godzinaOdjazdu, kierunek, dzien, function(brygada, linia) {
+
 
                             // Sprawdzamy, czy brygada zawiera "Folder:" i usuwamy go
                             if (brygada.includes("Folder:")) {

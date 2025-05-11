@@ -1,1075 +1,774 @@
 route_id	service_id	trip_id	arrival_time	departure_time	stop_headsign	stop_name
 -------------------------------------------------------------------------------
-1937	2	216998	05:34:00	05:34:00		Dworzec Główny PKP 01
-1937	2	216998	05:36:00	05:36:00		Piłsudskiego U. Wojewódzki 06
-1937	2	216998	05:36:00	05:36:00		Piłsudskiego U. Wojewódzki 06
-1937	2	216998	05:38:00	05:38:00		Cieplińskiego 02
-1937	2	216998	05:38:00	05:38:00		Cieplińskiego 02
-1937	2	216998	05:39:00	05:39:00		Lisa-Kuli 01
-1937	2	216998	05:39:00	05:39:00		Lisa-Kuli 01
-1937	2	216998	05:41:00	05:41:00		Dąbrowskiego park 02 nż
-1937	2	216998	05:41:00	05:41:00		Dąbrowskiego park 02 nż
-1937	2	216998	05:42:00	05:42:00		Dąbrowskiego KW. Policji 04
-1937	2	216998	05:42:00	05:42:00		Dąbrowskiego KW. Policji 04
-1937	2	216998	05:43:00	05:43:00		Dąbrowskiego / Boh. Westerplatte 08
-1937	2	216998	05:43:00	05:43:00		Dąbrowskiego / Boh. Westerplatte 08
-1937	2	216998	05:45:00	05:45:00		Powst. Warszawy / Dąbrowskiego 02
-1937	2	216998	05:45:00	05:45:00		Powst. Warszawy / Dąbrowskiego 02
-1937	2	216998	05:46:00	05:46:00		Powst. Warszawy politechnika 04
-1937	2	216998	05:46:00	05:46:00		Powst. Warszawy politechnika 04
-1937	2	216998	05:47:00	05:47:00		Powst. Warszawy stadion 06
-1937	2	216998	05:47:00	05:47:00		Powst. Warszawy stadion 06
-1937	2	216998	05:49:00	05:49:00		Powst. Warszawy dom studenta 08
-1937	2	216998	05:49:00	05:49:00		Powst. Warszawy dom studenta 08
-1937	2	216998	05:50:00	05:50:00		Powst. Warszawy / Graniczna 10
-1937	2	216998	05:50:00	05:50:00		Powst. Warszawy / Graniczna 10
-1937	2	216998	05:52:00	05:52:00		Rejtana / Armii Krajowej 12
-1937	2	216998	05:52:00	05:52:00		Rejtana / Armii Krajowej 12
-1937	2	216998	05:53:00	05:53:00		Rejtana / Paderewskiego 10
-1937	2	216998	05:53:00	05:53:00		Rejtana / Paderewskiego 10
-1937	2	216998	05:54:00	05:54:00		Rejtana / Krzyżanowskiego 08
-1937	2	216998	05:54:00	05:54:00		Rejtana / Krzyżanowskiego 08
-1937	2	216998	05:55:00	05:55:00		Rejtana uniwersytet 06
-1937	2	216998	05:55:00	05:55:00		Rejtana uniwersytet 06
-1937	2	216998	05:56:00	05:56:00		Rejtana cmentarz 04 nż
-1937	2	216998	05:56:00	05:56:00		Rejtana cmentarz 04 nż
-1937	2	216998	05:57:00	05:57:00		Rejtana / Kustronia 02
-1937	2	216998	05:57:00	05:57:00		Rejtana / Kustronia 02
-1937	2	216998	05:59:00	05:59:00		Piłsudskiego ZDZ 02
-1937	2	216998	05:59:00	05:59:00		Piłsudskiego ZDZ 02
-1937	2	216998	06:00:00	06:00:00		Pl. Wolności 04
-1937	2	216998	06:00:00	06:00:00		Pl. Wolności 04
-1937	2	216998	06:02:00	06:02:00		Dworzec Główny PKP 01
-1937	2	216998	06:02:00	06:02:00		Dworzec Główny PKP 01
+1937	3	210393	05:34:00	05:34:00		Dworzec Główny PKP 01
+1937	3	210393	05:36:00	05:36:00		Piłsudskiego U. Wojewódzki 06
+1937	3	210393	05:36:00	05:36:00		Piłsudskiego U. Wojewódzki 06
+1937	3	210393	05:38:00	05:38:00		Cieplińskiego 02
+1937	3	210393	05:38:00	05:38:00		Cieplińskiego 02
+1937	3	210393	05:39:00	05:39:00		Lisa-Kuli 01
+1937	3	210393	05:39:00	05:39:00		Lisa-Kuli 01
+1937	3	210393	05:41:00	05:41:00		Dąbrowskiego park 02 nż
+1937	3	210393	05:41:00	05:41:00		Dąbrowskiego park 02 nż
+1937	3	210393	05:42:00	05:42:00		Dąbrowskiego KW. Policji 04
+1937	3	210393	05:42:00	05:42:00		Dąbrowskiego KW. Policji 04
+1937	3	210393	05:43:00	05:43:00		Dąbrowskiego / Boh. Westerplatte 08
+1937	3	210393	05:43:00	05:43:00		Dąbrowskiego / Boh. Westerplatte 08
+1937	3	210393	05:45:00	05:45:00		Powst. Warszawy / Dąbrowskiego 02
+1937	3	210393	05:45:00	05:45:00		Powst. Warszawy / Dąbrowskiego 02
+1937	3	210393	05:46:00	05:46:00		Powst. Warszawy politechnika 04
+1937	3	210393	05:46:00	05:46:00		Powst. Warszawy politechnika 04
+1937	3	210393	05:47:00	05:47:00		Powst. Warszawy stadion 06
+1937	3	210393	05:47:00	05:47:00		Powst. Warszawy stadion 06
+1937	3	210393	05:49:00	05:49:00		Powst. Warszawy dom studenta 08
+1937	3	210393	05:49:00	05:49:00		Powst. Warszawy dom studenta 08
+1937	3	210393	05:50:00	05:50:00		Powst. Warszawy / Graniczna 10
+1937	3	210393	05:50:00	05:50:00		Powst. Warszawy / Graniczna 10
+1937	3	210393	05:52:00	05:52:00		Rejtana / Armii Krajowej 12
+1937	3	210393	05:52:00	05:52:00		Rejtana / Armii Krajowej 12
+1937	3	210393	05:53:00	05:53:00		Rejtana / Paderewskiego 10
+1937	3	210393	05:53:00	05:53:00		Rejtana / Paderewskiego 10
+1937	3	210393	05:54:00	05:54:00		Rejtana / Krzyżanowskiego 08
+1937	3	210393	05:54:00	05:54:00		Rejtana / Krzyżanowskiego 08
+1937	3	210393	05:55:00	05:55:00		Rejtana uniwersytet 06
+1937	3	210393	05:55:00	05:55:00		Rejtana uniwersytet 06
+1937	3	210393	05:56:00	05:56:00		Rejtana cmentarz 04 nż
+1937	3	210393	05:56:00	05:56:00		Rejtana cmentarz 04 nż
+1937	3	210393	05:57:00	05:57:00		Rejtana / Kustronia 02
+1937	3	210393	05:57:00	05:57:00		Rejtana / Kustronia 02
+1937	3	210393	05:59:00	05:59:00		Piłsudskiego ZDZ 02
+1937	3	210393	05:59:00	05:59:00		Piłsudskiego ZDZ 02
+1937	3	210393	06:00:00	06:00:00		Pl. Wolności 04
+1937	3	210393	06:00:00	06:00:00		Pl. Wolności 04
+1937	3	210393	06:02:00	06:02:00		Dworzec Główny PKP 01
+1937	3	210393	06:02:00	06:02:00		Dworzec Główny PKP 01
 
-1937	2	217005	06:21:00	06:21:00		Dworzec Główny PKP 01
-1937	2	217005	06:21:00	06:21:00		Dworzec Główny PKP 01
-1937	2	217005	06:23:00	06:23:00		Piłsudskiego U. Wojewódzki 06
-1937	2	217005	06:23:00	06:23:00		Piłsudskiego U. Wojewódzki 06
-1937	2	217005	06:26:00	06:26:00		Cieplińskiego 02
-1937	2	217005	06:26:00	06:26:00		Cieplińskiego 02
-1937	2	217005	06:27:00	06:27:00		Lisa-Kuli 01
-1937	2	217005	06:27:00	06:27:00		Lisa-Kuli 01
-1937	2	217005	06:30:00	06:30:00		Dąbrowskiego park 02 nż
-1937	2	217005	06:30:00	06:30:00		Dąbrowskiego park 02 nż
-1937	2	217005	06:31:00	06:31:00		Dąbrowskiego KW. Policji 04
-1937	2	217005	06:31:00	06:31:00		Dąbrowskiego KW. Policji 04
-1937	2	217005	06:32:00	06:32:00		Dąbrowskiego / Boh. Westerplatte 08
-1937	2	217005	06:32:00	06:32:00		Dąbrowskiego / Boh. Westerplatte 08
-1937	2	217005	06:35:00	06:35:00		Powst. Warszawy / Dąbrowskiego 02
-1937	2	217005	06:35:00	06:35:00		Powst. Warszawy / Dąbrowskiego 02
-1937	2	217005	06:36:00	06:36:00		Powst. Warszawy politechnika 04
-1937	2	217005	06:36:00	06:36:00		Powst. Warszawy politechnika 04
-1937	2	217005	06:39:00	06:39:00		Powst. Warszawy stadion 06
-1937	2	217005	06:39:00	06:39:00		Powst. Warszawy stadion 06
-1937	2	217005	06:41:00	06:41:00		Powst. Warszawy dom studenta 08
-1937	2	217005	06:41:00	06:41:00		Powst. Warszawy dom studenta 08
-1937	2	217005	06:42:00	06:42:00		Powst. Warszawy / Graniczna 10
-1937	2	217005	06:42:00	06:42:00		Powst. Warszawy / Graniczna 10
-1937	2	217005	06:45:00	06:45:00		Rejtana / Armii Krajowej 12
-1937	2	217005	06:45:00	06:45:00		Rejtana / Armii Krajowej 12
-1937	2	217005	06:46:00	06:46:00		Rejtana / Paderewskiego 10
-1937	2	217005	06:46:00	06:46:00		Rejtana / Paderewskiego 10
-1937	2	217005	06:47:00	06:47:00		Rejtana / Krzyżanowskiego 08
-1937	2	217005	06:47:00	06:47:00		Rejtana / Krzyżanowskiego 08
-1937	2	217005	06:49:00	06:49:00		Rejtana uniwersytet 06
-1937	2	217005	06:49:00	06:49:00		Rejtana uniwersytet 06
-1937	2	217005	06:50:00	06:50:00		Rejtana cmentarz 04 nż
-1937	2	217005	06:50:00	06:50:00		Rejtana cmentarz 04 nż
-1937	2	217005	06:51:00	06:51:00		Rejtana / Kustronia 02
-1937	2	217005	06:51:00	06:51:00		Rejtana / Kustronia 02
-1937	2	217005	06:54:00	06:54:00		Piłsudskiego ZDZ 02
-1937	2	217005	06:54:00	06:54:00		Piłsudskiego ZDZ 02
-1937	2	217005	06:56:00	06:56:00		Pl. Wolności 04
-1937	2	217005	06:56:00	06:56:00		Pl. Wolności 04
-1937	2	217005	06:58:00	06:58:00		Dworzec Główny PKP 01
-1937	2	217005	06:58:00	06:58:00		Dworzec Główny PKP 01
+1937	3	211881	06:21:00	06:21:00		Dworzec Główny PKP 01
+1937	3	211881	06:21:00	06:21:00		Dworzec Główny PKP 01
+1937	3	211881	06:23:00	06:23:00		Piłsudskiego U. Wojewódzki 06
+1937	3	211881	06:23:00	06:23:00		Piłsudskiego U. Wojewódzki 06
+1937	3	211881	06:26:00	06:26:00		Cieplińskiego 02
+1937	3	211881	06:26:00	06:26:00		Cieplińskiego 02
+1937	3	211881	06:27:00	06:27:00		Lisa-Kuli 01
+1937	3	211881	06:27:00	06:27:00		Lisa-Kuli 01
+1937	3	211881	06:30:00	06:30:00		Dąbrowskiego park 02 nż
+1937	3	211881	06:30:00	06:30:00		Dąbrowskiego park 02 nż
+1937	3	211881	06:31:00	06:31:00		Dąbrowskiego KW. Policji 04
+1937	3	211881	06:31:00	06:31:00		Dąbrowskiego KW. Policji 04
+1937	3	211881	06:32:00	06:32:00		Dąbrowskiego / Boh. Westerplatte 08
+1937	3	211881	06:32:00	06:32:00		Dąbrowskiego / Boh. Westerplatte 08
+1937	3	211881	06:35:00	06:35:00		Powst. Warszawy / Dąbrowskiego 02
+1937	3	211881	06:35:00	06:35:00		Powst. Warszawy / Dąbrowskiego 02
+1937	3	211881	06:36:00	06:36:00		Powst. Warszawy politechnika 04
+1937	3	211881	06:36:00	06:36:00		Powst. Warszawy politechnika 04
+1937	3	211881	06:39:00	06:39:00		Powst. Warszawy stadion 06
+1937	3	211881	06:39:00	06:39:00		Powst. Warszawy stadion 06
+1937	3	211881	06:41:00	06:41:00		Powst. Warszawy dom studenta 08
+1937	3	211881	06:41:00	06:41:00		Powst. Warszawy dom studenta 08
+1937	3	211881	06:42:00	06:42:00		Powst. Warszawy / Graniczna 10
+1937	3	211881	06:42:00	06:42:00		Powst. Warszawy / Graniczna 10
+1937	3	211881	06:45:00	06:45:00		Rejtana / Armii Krajowej 12
+1937	3	211881	06:45:00	06:45:00		Rejtana / Armii Krajowej 12
+1937	3	211881	06:46:00	06:46:00		Rejtana / Paderewskiego 10
+1937	3	211881	06:46:00	06:46:00		Rejtana / Paderewskiego 10
+1937	3	211881	06:47:00	06:47:00		Rejtana / Krzyżanowskiego 08
+1937	3	211881	06:47:00	06:47:00		Rejtana / Krzyżanowskiego 08
+1937	3	211881	06:49:00	06:49:00		Rejtana uniwersytet 06
+1937	3	211881	06:49:00	06:49:00		Rejtana uniwersytet 06
+1937	3	211881	06:50:00	06:50:00		Rejtana cmentarz 04 nż
+1937	3	211881	06:50:00	06:50:00		Rejtana cmentarz 04 nż
+1937	3	211881	06:51:00	06:51:00		Rejtana / Kustronia 02
+1937	3	211881	06:51:00	06:51:00		Rejtana / Kustronia 02
+1937	3	211881	06:54:00	06:54:00		Piłsudskiego ZDZ 02
+1937	3	211881	06:54:00	06:54:00		Piłsudskiego ZDZ 02
+1937	3	211881	06:56:00	06:56:00		Pl. Wolności 04
+1937	3	211881	06:56:00	06:56:00		Pl. Wolności 04
+1937	3	211881	06:58:00	06:58:00		Dworzec Główny PKP 01
+1937	3	211881	06:58:00	06:58:00		Dworzec Główny PKP 01
 
-1937	2	216959	07:10:00	07:10:00		Dworzec Główny PKP 01
-1937	2	216959	07:10:00	07:10:00		Dworzec Główny PKP 01
-1937	2	216959	07:12:00	07:12:00		Piłsudskiego U. Wojewódzki 06
-1937	2	216959	07:12:00	07:12:00		Piłsudskiego U. Wojewódzki 06
-1937	2	216959	07:15:00	07:15:00		Cieplińskiego 02
-1937	2	216959	07:15:00	07:15:00		Cieplińskiego 02
-1937	2	216959	07:16:00	07:16:00		Lisa-Kuli 01
-1937	2	216959	07:16:00	07:16:00		Lisa-Kuli 01
-1937	2	216959	07:19:00	07:19:00		Dąbrowskiego park 02 nż
-1937	2	216959	07:19:00	07:19:00		Dąbrowskiego park 02 nż
-1937	2	216959	07:20:00	07:20:00		Dąbrowskiego KW. Policji 04
-1937	2	216959	07:20:00	07:20:00		Dąbrowskiego KW. Policji 04
-1937	2	216959	07:21:00	07:21:00		Dąbrowskiego / Boh. Westerplatte 08
-1937	2	216959	07:21:00	07:21:00		Dąbrowskiego / Boh. Westerplatte 08
-1937	2	216959	07:24:00	07:24:00		Powst. Warszawy / Dąbrowskiego 02
-1937	2	216959	07:24:00	07:24:00		Powst. Warszawy / Dąbrowskiego 02
-1937	2	216959	07:25:00	07:25:00		Powst. Warszawy politechnika 04
-1937	2	216959	07:25:00	07:25:00		Powst. Warszawy politechnika 04
-1937	2	216959	07:28:00	07:28:00		Powst. Warszawy stadion 06
-1937	2	216959	07:28:00	07:28:00		Powst. Warszawy stadion 06
-1937	2	216959	07:30:00	07:30:00		Powst. Warszawy dom studenta 08
-1937	2	216959	07:30:00	07:30:00		Powst. Warszawy dom studenta 08
-1937	2	216959	07:31:00	07:31:00		Powst. Warszawy / Graniczna 10
-1937	2	216959	07:31:00	07:31:00		Powst. Warszawy / Graniczna 10
-1937	2	216959	07:34:00	07:34:00		Rejtana / Armii Krajowej 12
-1937	2	216959	07:34:00	07:34:00		Rejtana / Armii Krajowej 12
-1937	2	216959	07:35:00	07:35:00		Rejtana / Paderewskiego 10
-1937	2	216959	07:35:00	07:35:00		Rejtana / Paderewskiego 10
-1937	2	216959	07:36:00	07:36:00		Rejtana / Krzyżanowskiego 08
-1937	2	216959	07:36:00	07:36:00		Rejtana / Krzyżanowskiego 08
-1937	2	216959	07:38:00	07:38:00		Rejtana uniwersytet 06
-1937	2	216959	07:38:00	07:38:00		Rejtana uniwersytet 06
-1937	2	216959	07:39:00	07:39:00		Rejtana cmentarz 04 nż
-1937	2	216959	07:39:00	07:39:00		Rejtana cmentarz 04 nż
-1937	2	216959	07:40:00	07:40:00		Rejtana / Kustronia 02
-1937	2	216959	07:40:00	07:40:00		Rejtana / Kustronia 02
-1937	2	216959	07:43:00	07:43:00		Piłsudskiego ZDZ 02
-1937	2	216959	07:43:00	07:43:00		Piłsudskiego ZDZ 02
-1937	2	216959	07:45:00	07:45:00		Pl. Wolności 04
-1937	2	216959	07:45:00	07:45:00		Pl. Wolności 04
-1937	2	216959	07:47:00	07:47:00		Dworzec Główny PKP 01
-1937	2	216959	07:47:00	07:47:00		Dworzec Główny PKP 01
+1937	3	213005	07:10:00	07:10:00		Dworzec Główny PKP 01
+1937	3	213005	07:10:00	07:10:00		Dworzec Główny PKP 01
+1937	3	213005	07:12:00	07:12:00		Piłsudskiego U. Wojewódzki 06
+1937	3	213005	07:12:00	07:12:00		Piłsudskiego U. Wojewódzki 06
+1937	3	213005	07:15:00	07:15:00		Cieplińskiego 02
+1937	3	213005	07:15:00	07:15:00		Cieplińskiego 02
+1937	3	213005	07:16:00	07:16:00		Lisa-Kuli 01
+1937	3	213005	07:16:00	07:16:00		Lisa-Kuli 01
+1937	3	213005	07:19:00	07:19:00		Dąbrowskiego park 02 nż
+1937	3	213005	07:19:00	07:19:00		Dąbrowskiego park 02 nż
+1937	3	213005	07:20:00	07:20:00		Dąbrowskiego KW. Policji 04
+1937	3	213005	07:20:00	07:20:00		Dąbrowskiego KW. Policji 04
+1937	3	213005	07:21:00	07:21:00		Dąbrowskiego / Boh. Westerplatte 08
+1937	3	213005	07:21:00	07:21:00		Dąbrowskiego / Boh. Westerplatte 08
+1937	3	213005	07:24:00	07:24:00		Powst. Warszawy / Dąbrowskiego 02
+1937	3	213005	07:24:00	07:24:00		Powst. Warszawy / Dąbrowskiego 02
+1937	3	213005	07:25:00	07:25:00		Powst. Warszawy politechnika 04
+1937	3	213005	07:25:00	07:25:00		Powst. Warszawy politechnika 04
+1937	3	213005	07:28:00	07:28:00		Powst. Warszawy stadion 06
+1937	3	213005	07:28:00	07:28:00		Powst. Warszawy stadion 06
+1937	3	213005	07:30:00	07:30:00		Powst. Warszawy dom studenta 08
+1937	3	213005	07:30:00	07:30:00		Powst. Warszawy dom studenta 08
+1937	3	213005	07:31:00	07:31:00		Powst. Warszawy / Graniczna 10
+1937	3	213005	07:31:00	07:31:00		Powst. Warszawy / Graniczna 10
+1937	3	213005	07:34:00	07:34:00		Rejtana / Armii Krajowej 12
+1937	3	213005	07:34:00	07:34:00		Rejtana / Armii Krajowej 12
+1937	3	213005	07:35:00	07:35:00		Rejtana / Paderewskiego 10
+1937	3	213005	07:35:00	07:35:00		Rejtana / Paderewskiego 10
+1937	3	213005	07:36:00	07:36:00		Rejtana / Krzyżanowskiego 08
+1937	3	213005	07:36:00	07:36:00		Rejtana / Krzyżanowskiego 08
+1937	3	213005	07:38:00	07:38:00		Rejtana uniwersytet 06
+1937	3	213005	07:38:00	07:38:00		Rejtana uniwersytet 06
+1937	3	213005	07:39:00	07:39:00		Rejtana cmentarz 04 nż
+1937	3	213005	07:39:00	07:39:00		Rejtana cmentarz 04 nż
+1937	3	213005	07:40:00	07:40:00		Rejtana / Kustronia 02
+1937	3	213005	07:40:00	07:40:00		Rejtana / Kustronia 02
+1937	3	213005	07:43:00	07:43:00		Piłsudskiego ZDZ 02
+1937	3	213005	07:43:00	07:43:00		Piłsudskiego ZDZ 02
+1937	3	213005	07:45:00	07:45:00		Pl. Wolności 04
+1937	3	213005	07:45:00	07:45:00		Pl. Wolności 04
+1937	3	213005	07:47:00	07:47:00		Dworzec Główny PKP 01
+1937	3	213005	07:47:00	07:47:00		Dworzec Główny PKP 01
 
-1937	2	217194	08:09:00	08:09:00		Dworzec Główny PKP 01
-1937	2	217194	08:09:00	08:09:00		Dworzec Główny PKP 01
-1937	2	217194	08:11:00	08:11:00		Piłsudskiego U. Wojewódzki 06
-1937	2	217194	08:11:00	08:11:00		Piłsudskiego U. Wojewódzki 06
-1937	2	217194	08:14:00	08:14:00		Cieplińskiego 02
-1937	2	217194	08:14:00	08:14:00		Cieplińskiego 02
-1937	2	217194	08:15:00	08:15:00		Lisa-Kuli 01
-1937	2	217194	08:15:00	08:15:00		Lisa-Kuli 01
-1937	2	217194	08:18:00	08:18:00		Dąbrowskiego park 02 nż
-1937	2	217194	08:18:00	08:18:00		Dąbrowskiego park 02 nż
-1937	2	217194	08:19:00	08:19:00		Dąbrowskiego KW. Policji 04
-1937	2	217194	08:19:00	08:19:00		Dąbrowskiego KW. Policji 04
-1937	2	217194	08:20:00	08:20:00		Dąbrowskiego / Boh. Westerplatte 08
-1937	2	217194	08:20:00	08:20:00		Dąbrowskiego / Boh. Westerplatte 08
-1937	2	217194	08:23:00	08:23:00		Powst. Warszawy / Dąbrowskiego 02
-1937	2	217194	08:23:00	08:23:00		Powst. Warszawy / Dąbrowskiego 02
-1937	2	217194	08:24:00	08:24:00		Powst. Warszawy politechnika 04
-1937	2	217194	08:24:00	08:24:00		Powst. Warszawy politechnika 04
-1937	2	217194	08:26:00	08:26:00		Powst. Warszawy stadion 06
-1937	2	217194	08:26:00	08:26:00		Powst. Warszawy stadion 06
-1937	2	217194	08:28:00	08:28:00		Powst. Warszawy dom studenta 08
-1937	2	217194	08:28:00	08:28:00		Powst. Warszawy dom studenta 08
-1937	2	217194	08:29:00	08:29:00		Powst. Warszawy / Graniczna 10
-1937	2	217194	08:29:00	08:29:00		Powst. Warszawy / Graniczna 10
-1937	2	217194	08:32:00	08:32:00		Rejtana / Armii Krajowej 12
-1937	2	217194	08:32:00	08:32:00		Rejtana / Armii Krajowej 12
-1937	2	217194	08:33:00	08:33:00		Rejtana / Paderewskiego 10
-1937	2	217194	08:33:00	08:33:00		Rejtana / Paderewskiego 10
-1937	2	217194	08:34:00	08:34:00		Rejtana / Krzyżanowskiego 08
-1937	2	217194	08:34:00	08:34:00		Rejtana / Krzyżanowskiego 08
-1937	2	217194	08:36:00	08:36:00		Rejtana uniwersytet 06
-1937	2	217194	08:36:00	08:36:00		Rejtana uniwersytet 06
-1937	2	217194	08:37:00	08:37:00		Rejtana cmentarz 04 nż
-1937	2	217194	08:37:00	08:37:00		Rejtana cmentarz 04 nż
-1937	2	217194	08:38:00	08:38:00		Rejtana / Kustronia 02
-1937	2	217194	08:38:00	08:38:00		Rejtana / Kustronia 02
-1937	2	217194	08:40:00	08:40:00		Piłsudskiego ZDZ 02
-1937	2	217194	08:40:00	08:40:00		Piłsudskiego ZDZ 02
-1937	2	217194	08:42:00	08:42:00		Pl. Wolności 04
-1937	2	217194	08:42:00	08:42:00		Pl. Wolności 04
-1937	2	217194	08:44:00	08:44:00		Dworzec Główny PKP 01
-1937	2	217194	08:44:00	08:44:00		Dworzec Główny PKP 01
+1937	3	209152	08:09:00	08:09:00		Dworzec Główny PKP 01
+1937	3	209152	08:09:00	08:09:00		Dworzec Główny PKP 01
+1937	3	209152	08:11:00	08:11:00		Piłsudskiego U. Wojewódzki 06
+1937	3	209152	08:11:00	08:11:00		Piłsudskiego U. Wojewódzki 06
+1937	3	209152	08:14:00	08:14:00		Cieplińskiego 02
+1937	3	209152	08:14:00	08:14:00		Cieplińskiego 02
+1937	3	209152	08:15:00	08:15:00		Lisa-Kuli 01
+1937	3	209152	08:15:00	08:15:00		Lisa-Kuli 01
+1937	3	209152	08:18:00	08:18:00		Dąbrowskiego park 02 nż
+1937	3	209152	08:18:00	08:18:00		Dąbrowskiego park 02 nż
+1937	3	209152	08:19:00	08:19:00		Dąbrowskiego KW. Policji 04
+1937	3	209152	08:19:00	08:19:00		Dąbrowskiego KW. Policji 04
+1937	3	209152	08:20:00	08:20:00		Dąbrowskiego / Boh. Westerplatte 08
+1937	3	209152	08:20:00	08:20:00		Dąbrowskiego / Boh. Westerplatte 08
+1937	3	209152	08:23:00	08:23:00		Powst. Warszawy / Dąbrowskiego 02
+1937	3	209152	08:23:00	08:23:00		Powst. Warszawy / Dąbrowskiego 02
+1937	3	209152	08:24:00	08:24:00		Powst. Warszawy politechnika 04
+1937	3	209152	08:24:00	08:24:00		Powst. Warszawy politechnika 04
+1937	3	209152	08:26:00	08:26:00		Powst. Warszawy stadion 06
+1937	3	209152	08:26:00	08:26:00		Powst. Warszawy stadion 06
+1937	3	209152	08:28:00	08:28:00		Powst. Warszawy dom studenta 08
+1937	3	209152	08:28:00	08:28:00		Powst. Warszawy dom studenta 08
+1937	3	209152	08:29:00	08:29:00		Powst. Warszawy / Graniczna 10
+1937	3	209152	08:29:00	08:29:00		Powst. Warszawy / Graniczna 10
+1937	3	209152	08:32:00	08:32:00		Rejtana / Armii Krajowej 12
+1937	3	209152	08:32:00	08:32:00		Rejtana / Armii Krajowej 12
+1937	3	209152	08:33:00	08:33:00		Rejtana / Paderewskiego 10
+1937	3	209152	08:33:00	08:33:00		Rejtana / Paderewskiego 10
+1937	3	209152	08:34:00	08:34:00		Rejtana / Krzyżanowskiego 08
+1937	3	209152	08:34:00	08:34:00		Rejtana / Krzyżanowskiego 08
+1937	3	209152	08:36:00	08:36:00		Rejtana uniwersytet 06
+1937	3	209152	08:36:00	08:36:00		Rejtana uniwersytet 06
+1937	3	209152	08:37:00	08:37:00		Rejtana cmentarz 04 nż
+1937	3	209152	08:37:00	08:37:00		Rejtana cmentarz 04 nż
+1937	3	209152	08:38:00	08:38:00		Rejtana / Kustronia 02
+1937	3	209152	08:38:00	08:38:00		Rejtana / Kustronia 02
+1937	3	209152	08:40:00	08:40:00		Piłsudskiego ZDZ 02
+1937	3	209152	08:40:00	08:40:00		Piłsudskiego ZDZ 02
+1937	3	209152	08:42:00	08:42:00		Pl. Wolności 04
+1937	3	209152	08:42:00	08:42:00		Pl. Wolności 04
+1937	3	209152	08:44:00	08:44:00		Dworzec Główny PKP 01
+1937	3	209152	08:44:00	08:44:00		Dworzec Główny PKP 01
 
-1937	2	217550	09:08:00	09:08:00		Dworzec Główny PKP 01
-1937	2	217550	09:08:00	09:08:00		Dworzec Główny PKP 01
-1937	2	217550	09:10:00	09:10:00		Piłsudskiego U. Wojewódzki 06
-1937	2	217550	09:10:00	09:10:00		Piłsudskiego U. Wojewódzki 06
-1937	2	217550	09:13:00	09:13:00		Cieplińskiego 02
-1937	2	217550	09:13:00	09:13:00		Cieplińskiego 02
-1937	2	217550	09:14:00	09:14:00		Lisa-Kuli 01
-1937	2	217550	09:14:00	09:14:00		Lisa-Kuli 01
-1937	2	217550	09:17:00	09:17:00		Dąbrowskiego park 02 nż
-1937	2	217550	09:17:00	09:17:00		Dąbrowskiego park 02 nż
-1937	2	217550	09:18:00	09:18:00		Dąbrowskiego KW. Policji 04
-1937	2	217550	09:18:00	09:18:00		Dąbrowskiego KW. Policji 04
-1937	2	217550	09:19:00	09:19:00		Dąbrowskiego / Boh. Westerplatte 08
-1937	2	217550	09:19:00	09:19:00		Dąbrowskiego / Boh. Westerplatte 08
-1937	2	217550	09:22:00	09:22:00		Powst. Warszawy / Dąbrowskiego 02
-1937	2	217550	09:22:00	09:22:00		Powst. Warszawy / Dąbrowskiego 02
-1937	2	217550	09:23:00	09:23:00		Powst. Warszawy politechnika 04
-1937	2	217550	09:23:00	09:23:00		Powst. Warszawy politechnika 04
-1937	2	217550	09:25:00	09:25:00		Powst. Warszawy stadion 06
-1937	2	217550	09:25:00	09:25:00		Powst. Warszawy stadion 06
-1937	2	217550	09:27:00	09:27:00		Powst. Warszawy dom studenta 08
-1937	2	217550	09:27:00	09:27:00		Powst. Warszawy dom studenta 08
-1937	2	217550	09:28:00	09:28:00		Powst. Warszawy / Graniczna 10
-1937	2	217550	09:28:00	09:28:00		Powst. Warszawy / Graniczna 10
-1937	2	217550	09:31:00	09:31:00		Rejtana / Armii Krajowej 12
-1937	2	217550	09:31:00	09:31:00		Rejtana / Armii Krajowej 12
-1937	2	217550	09:32:00	09:32:00		Rejtana / Paderewskiego 10
-1937	2	217550	09:32:00	09:32:00		Rejtana / Paderewskiego 10
-1937	2	217550	09:33:00	09:33:00		Rejtana / Krzyżanowskiego 08
-1937	2	217550	09:33:00	09:33:00		Rejtana / Krzyżanowskiego 08
-1937	2	217550	09:35:00	09:35:00		Rejtana uniwersytet 06
-1937	2	217550	09:35:00	09:35:00		Rejtana uniwersytet 06
-1937	2	217550	09:36:00	09:36:00		Rejtana cmentarz 04 nż
-1937	2	217550	09:36:00	09:36:00		Rejtana cmentarz 04 nż
-1937	2	217550	09:37:00	09:37:00		Rejtana / Kustronia 02
-1937	2	217550	09:37:00	09:37:00		Rejtana / Kustronia 02
-1937	2	217550	09:39:00	09:39:00		Piłsudskiego ZDZ 02
-1937	2	217550	09:39:00	09:39:00		Piłsudskiego ZDZ 02
-1937	2	217550	09:41:00	09:41:00		Pl. Wolności 04
-1937	2	217550	09:41:00	09:41:00		Pl. Wolności 04
-1937	2	217550	09:43:00	09:43:00		Dworzec Główny PKP 01
-1937	2	217550	09:43:00	09:43:00		Dworzec Główny PKP 01
+1937	3	210116	09:08:00	09:08:00		Dworzec Główny PKP 01
+1937	3	210116	09:08:00	09:08:00		Dworzec Główny PKP 01
+1937	3	210116	09:10:00	09:10:00		Piłsudskiego U. Wojewódzki 06
+1937	3	210116	09:10:00	09:10:00		Piłsudskiego U. Wojewódzki 06
+1937	3	210116	09:13:00	09:13:00		Cieplińskiego 02
+1937	3	210116	09:13:00	09:13:00		Cieplińskiego 02
+1937	3	210116	09:14:00	09:14:00		Lisa-Kuli 01
+1937	3	210116	09:14:00	09:14:00		Lisa-Kuli 01
+1937	3	210116	09:17:00	09:17:00		Dąbrowskiego park 02 nż
+1937	3	210116	09:17:00	09:17:00		Dąbrowskiego park 02 nż
+1937	3	210116	09:18:00	09:18:00		Dąbrowskiego KW. Policji 04
+1937	3	210116	09:18:00	09:18:00		Dąbrowskiego KW. Policji 04
+1937	3	210116	09:19:00	09:19:00		Dąbrowskiego / Boh. Westerplatte 08
+1937	3	210116	09:19:00	09:19:00		Dąbrowskiego / Boh. Westerplatte 08
+1937	3	210116	09:22:00	09:22:00		Powst. Warszawy / Dąbrowskiego 02
+1937	3	210116	09:22:00	09:22:00		Powst. Warszawy / Dąbrowskiego 02
+1937	3	210116	09:23:00	09:23:00		Powst. Warszawy politechnika 04
+1937	3	210116	09:23:00	09:23:00		Powst. Warszawy politechnika 04
+1937	3	210116	09:25:00	09:25:00		Powst. Warszawy stadion 06
+1937	3	210116	09:25:00	09:25:00		Powst. Warszawy stadion 06
+1937	3	210116	09:27:00	09:27:00		Powst. Warszawy dom studenta 08
+1937	3	210116	09:27:00	09:27:00		Powst. Warszawy dom studenta 08
+1937	3	210116	09:28:00	09:28:00		Powst. Warszawy / Graniczna 10
+1937	3	210116	09:28:00	09:28:00		Powst. Warszawy / Graniczna 10
+1937	3	210116	09:31:00	09:31:00		Rejtana / Armii Krajowej 12
+1937	3	210116	09:31:00	09:31:00		Rejtana / Armii Krajowej 12
+1937	3	210116	09:32:00	09:32:00		Rejtana / Paderewskiego 10
+1937	3	210116	09:32:00	09:32:00		Rejtana / Paderewskiego 10
+1937	3	210116	09:33:00	09:33:00		Rejtana / Krzyżanowskiego 08
+1937	3	210116	09:33:00	09:33:00		Rejtana / Krzyżanowskiego 08
+1937	3	210116	09:35:00	09:35:00		Rejtana uniwersytet 06
+1937	3	210116	09:35:00	09:35:00		Rejtana uniwersytet 06
+1937	3	210116	09:36:00	09:36:00		Rejtana cmentarz 04 nż
+1937	3	210116	09:36:00	09:36:00		Rejtana cmentarz 04 nż
+1937	3	210116	09:37:00	09:37:00		Rejtana / Kustronia 02
+1937	3	210116	09:37:00	09:37:00		Rejtana / Kustronia 02
+1937	3	210116	09:39:00	09:39:00		Piłsudskiego ZDZ 02
+1937	3	210116	09:39:00	09:39:00		Piłsudskiego ZDZ 02
+1937	3	210116	09:41:00	09:41:00		Pl. Wolności 04
+1937	3	210116	09:41:00	09:41:00		Pl. Wolności 04
+1937	3	210116	09:43:00	09:43:00		Dworzec Główny PKP 01
+1937	3	210116	09:43:00	09:43:00		Dworzec Główny PKP 01
 
-1937	2	217594	10:08:00	10:08:00		Dworzec Główny PKP 01
-1937	2	217594	10:08:00	10:08:00		Dworzec Główny PKP 01
-1937	2	217594	10:10:00	10:10:00		Piłsudskiego U. Wojewódzki 06
-1937	2	217594	10:10:00	10:10:00		Piłsudskiego U. Wojewódzki 06
-1937	2	217594	10:13:00	10:13:00		Cieplińskiego 02
-1937	2	217594	10:13:00	10:13:00		Cieplińskiego 02
-1937	2	217594	10:14:00	10:14:00		Lisa-Kuli 01
-1937	2	217594	10:14:00	10:14:00		Lisa-Kuli 01
-1937	2	217594	10:17:00	10:17:00		Dąbrowskiego park 02 nż
-1937	2	217594	10:17:00	10:17:00		Dąbrowskiego park 02 nż
-1937	2	217594	10:18:00	10:18:00		Dąbrowskiego KW. Policji 04
-1937	2	217594	10:18:00	10:18:00		Dąbrowskiego KW. Policji 04
-1937	2	217594	10:19:00	10:19:00		Dąbrowskiego / Boh. Westerplatte 08
-1937	2	217594	10:19:00	10:19:00		Dąbrowskiego / Boh. Westerplatte 08
-1937	2	217594	10:22:00	10:22:00		Powst. Warszawy / Dąbrowskiego 02
-1937	2	217594	10:22:00	10:22:00		Powst. Warszawy / Dąbrowskiego 02
-1937	2	217594	10:23:00	10:23:00		Powst. Warszawy politechnika 04
-1937	2	217594	10:23:00	10:23:00		Powst. Warszawy politechnika 04
-1937	2	217594	10:25:00	10:25:00		Powst. Warszawy stadion 06
-1937	2	217594	10:25:00	10:25:00		Powst. Warszawy stadion 06
-1937	2	217594	10:27:00	10:27:00		Powst. Warszawy dom studenta 08
-1937	2	217594	10:27:00	10:27:00		Powst. Warszawy dom studenta 08
-1937	2	217594	10:28:00	10:28:00		Powst. Warszawy / Graniczna 10
-1937	2	217594	10:28:00	10:28:00		Powst. Warszawy / Graniczna 10
-1937	2	217594	10:31:00	10:31:00		Rejtana / Armii Krajowej 12
-1937	2	217594	10:31:00	10:31:00		Rejtana / Armii Krajowej 12
-1937	2	217594	10:32:00	10:32:00		Rejtana / Paderewskiego 10
-1937	2	217594	10:32:00	10:32:00		Rejtana / Paderewskiego 10
-1937	2	217594	10:33:00	10:33:00		Rejtana / Krzyżanowskiego 08
-1937	2	217594	10:33:00	10:33:00		Rejtana / Krzyżanowskiego 08
-1937	2	217594	10:35:00	10:35:00		Rejtana uniwersytet 06
-1937	2	217594	10:35:00	10:35:00		Rejtana uniwersytet 06
-1937	2	217594	10:36:00	10:36:00		Rejtana cmentarz 04 nż
-1937	2	217594	10:36:00	10:36:00		Rejtana cmentarz 04 nż
-1937	2	217594	10:37:00	10:37:00		Rejtana / Kustronia 02
-1937	2	217594	10:37:00	10:37:00		Rejtana / Kustronia 02
-1937	2	217594	10:39:00	10:39:00		Piłsudskiego ZDZ 02
-1937	2	217594	10:39:00	10:39:00		Piłsudskiego ZDZ 02
-1937	2	217594	10:41:00	10:41:00		Pl. Wolności 04
-1937	2	217594	10:41:00	10:41:00		Pl. Wolności 04
-1937	2	217594	10:43:00	10:43:00		Dworzec Główny PKP 01
-1937	2	217594	10:43:00	10:43:00		Dworzec Główny PKP 01
+1937	3	215841	10:08:00	10:08:00		Dworzec Główny PKP 01
+1937	3	215841	10:08:00	10:08:00		Dworzec Główny PKP 01
+1937	3	215841	10:10:00	10:10:00		Piłsudskiego U. Wojewódzki 06
+1937	3	215841	10:10:00	10:10:00		Piłsudskiego U. Wojewódzki 06
+1937	3	215841	10:13:00	10:13:00		Cieplińskiego 02
+1937	3	215841	10:13:00	10:13:00		Cieplińskiego 02
+1937	3	215841	10:14:00	10:14:00		Lisa-Kuli 01
+1937	3	215841	10:14:00	10:14:00		Lisa-Kuli 01
+1937	3	215841	10:17:00	10:17:00		Dąbrowskiego park 02 nż
+1937	3	215841	10:17:00	10:17:00		Dąbrowskiego park 02 nż
+1937	3	215841	10:18:00	10:18:00		Dąbrowskiego KW. Policji 04
+1937	3	215841	10:18:00	10:18:00		Dąbrowskiego KW. Policji 04
+1937	3	215841	10:19:00	10:19:00		Dąbrowskiego / Boh. Westerplatte 08
+1937	3	215841	10:19:00	10:19:00		Dąbrowskiego / Boh. Westerplatte 08
+1937	3	215841	10:22:00	10:22:00		Powst. Warszawy / Dąbrowskiego 02
+1937	3	215841	10:22:00	10:22:00		Powst. Warszawy / Dąbrowskiego 02
+1937	3	215841	10:23:00	10:23:00		Powst. Warszawy politechnika 04
+1937	3	215841	10:23:00	10:23:00		Powst. Warszawy politechnika 04
+1937	3	215841	10:25:00	10:25:00		Powst. Warszawy stadion 06
+1937	3	215841	10:25:00	10:25:00		Powst. Warszawy stadion 06
+1937	3	215841	10:27:00	10:27:00		Powst. Warszawy dom studenta 08
+1937	3	215841	10:27:00	10:27:00		Powst. Warszawy dom studenta 08
+1937	3	215841	10:28:00	10:28:00		Powst. Warszawy / Graniczna 10
+1937	3	215841	10:28:00	10:28:00		Powst. Warszawy / Graniczna 10
+1937	3	215841	10:31:00	10:31:00		Rejtana / Armii Krajowej 12
+1937	3	215841	10:31:00	10:31:00		Rejtana / Armii Krajowej 12
+1937	3	215841	10:32:00	10:32:00		Rejtana / Paderewskiego 10
+1937	3	215841	10:32:00	10:32:00		Rejtana / Paderewskiego 10
+1937	3	215841	10:33:00	10:33:00		Rejtana / Krzyżanowskiego 08
+1937	3	215841	10:33:00	10:33:00		Rejtana / Krzyżanowskiego 08
+1937	3	215841	10:35:00	10:35:00		Rejtana uniwersytet 06
+1937	3	215841	10:35:00	10:35:00		Rejtana uniwersytet 06
+1937	3	215841	10:36:00	10:36:00		Rejtana cmentarz 04 nż
+1937	3	215841	10:36:00	10:36:00		Rejtana cmentarz 04 nż
+1937	3	215841	10:37:00	10:37:00		Rejtana / Kustronia 02
+1937	3	215841	10:37:00	10:37:00		Rejtana / Kustronia 02
+1937	3	215841	10:39:00	10:39:00		Piłsudskiego ZDZ 02
+1937	3	215841	10:39:00	10:39:00		Piłsudskiego ZDZ 02
+1937	3	215841	10:41:00	10:41:00		Pl. Wolności 04
+1937	3	215841	10:41:00	10:41:00		Pl. Wolności 04
+1937	3	215841	10:43:00	10:43:00		Dworzec Główny PKP 01
+1937	3	215841	10:43:00	10:43:00		Dworzec Główny PKP 01
 
-1937	2	217501	11:08:00	11:08:00		Dworzec Główny PKP 01
-1937	2	217501	11:08:00	11:08:00		Dworzec Główny PKP 01
-1937	2	217501	11:10:00	11:10:00		Piłsudskiego U. Wojewódzki 06
-1937	2	217501	11:10:00	11:10:00		Piłsudskiego U. Wojewódzki 06
-1937	2	217501	11:13:00	11:13:00		Cieplińskiego 02
-1937	2	217501	11:13:00	11:13:00		Cieplińskiego 02
-1937	2	217501	11:14:00	11:14:00		Lisa-Kuli 01
-1937	2	217501	11:14:00	11:14:00		Lisa-Kuli 01
-1937	2	217501	11:17:00	11:17:00		Dąbrowskiego park 02 nż
-1937	2	217501	11:17:00	11:17:00		Dąbrowskiego park 02 nż
-1937	2	217501	11:18:00	11:18:00		Dąbrowskiego KW. Policji 04
-1937	2	217501	11:18:00	11:18:00		Dąbrowskiego KW. Policji 04
-1937	2	217501	11:19:00	11:19:00		Dąbrowskiego / Boh. Westerplatte 08
-1937	2	217501	11:19:00	11:19:00		Dąbrowskiego / Boh. Westerplatte 08
-1937	2	217501	11:23:00	11:23:00		Powst. Warszawy / Dąbrowskiego 02
-1937	2	217501	11:23:00	11:23:00		Powst. Warszawy / Dąbrowskiego 02
-1937	2	217501	11:24:00	11:24:00		Powst. Warszawy politechnika 04
-1937	2	217501	11:24:00	11:24:00		Powst. Warszawy politechnika 04
-1937	2	217501	11:27:00	11:27:00		Powst. Warszawy stadion 06
-1937	2	217501	11:27:00	11:27:00		Powst. Warszawy stadion 06
-1937	2	217501	11:30:00	11:30:00		Powst. Warszawy dom studenta 08
-1937	2	217501	11:30:00	11:30:00		Powst. Warszawy dom studenta 08
-1937	2	217501	11:31:00	11:31:00		Powst. Warszawy / Graniczna 10
-1937	2	217501	11:31:00	11:31:00		Powst. Warszawy / Graniczna 10
-1937	2	217501	11:35:00	11:35:00		Rejtana / Armii Krajowej 12
-1937	2	217501	11:35:00	11:35:00		Rejtana / Armii Krajowej 12
-1937	2	217501	11:36:00	11:36:00		Rejtana / Paderewskiego 10
-1937	2	217501	11:36:00	11:36:00		Rejtana / Paderewskiego 10
-1937	2	217501	11:37:00	11:37:00		Rejtana / Krzyżanowskiego 08
-1937	2	217501	11:37:00	11:37:00		Rejtana / Krzyżanowskiego 08
-1937	2	217501	11:39:00	11:39:00		Rejtana uniwersytet 06
-1937	2	217501	11:39:00	11:39:00		Rejtana uniwersytet 06
-1937	2	217501	11:40:00	11:40:00		Rejtana cmentarz 04 nż
-1937	2	217501	11:40:00	11:40:00		Rejtana cmentarz 04 nż
-1937	2	217501	11:41:00	11:41:00		Rejtana / Kustronia 02
-1937	2	217501	11:41:00	11:41:00		Rejtana / Kustronia 02
-1937	2	217501	11:43:00	11:43:00		Piłsudskiego ZDZ 02
-1937	2	217501	11:43:00	11:43:00		Piłsudskiego ZDZ 02
-1937	2	217501	11:45:00	11:45:00		Pl. Wolności 04
-1937	2	217501	11:45:00	11:45:00		Pl. Wolności 04
-1937	2	217501	11:47:00	11:47:00		Dworzec Główny PKP 01
-1937	2	217501	11:47:00	11:47:00		Dworzec Główny PKP 01
+1937	3	214576	11:08:00	11:08:00		Dworzec Główny PKP 01
+1937	3	214576	11:08:00	11:08:00		Dworzec Główny PKP 01
+1937	3	214576	11:10:00	11:10:00		Piłsudskiego U. Wojewódzki 06
+1937	3	214576	11:10:00	11:10:00		Piłsudskiego U. Wojewódzki 06
+1937	3	214576	11:13:00	11:13:00		Cieplińskiego 02
+1937	3	214576	11:13:00	11:13:00		Cieplińskiego 02
+1937	3	214576	11:14:00	11:14:00		Lisa-Kuli 01
+1937	3	214576	11:14:00	11:14:00		Lisa-Kuli 01
+1937	3	214576	11:17:00	11:17:00		Dąbrowskiego park 02 nż
+1937	3	214576	11:17:00	11:17:00		Dąbrowskiego park 02 nż
+1937	3	214576	11:18:00	11:18:00		Dąbrowskiego KW. Policji 04
+1937	3	214576	11:18:00	11:18:00		Dąbrowskiego KW. Policji 04
+1937	3	214576	11:19:00	11:19:00		Dąbrowskiego / Boh. Westerplatte 08
+1937	3	214576	11:19:00	11:19:00		Dąbrowskiego / Boh. Westerplatte 08
+1937	3	214576	11:23:00	11:23:00		Powst. Warszawy / Dąbrowskiego 02
+1937	3	214576	11:23:00	11:23:00		Powst. Warszawy / Dąbrowskiego 02
+1937	3	214576	11:24:00	11:24:00		Powst. Warszawy politechnika 04
+1937	3	214576	11:24:00	11:24:00		Powst. Warszawy politechnika 04
+1937	3	214576	11:27:00	11:27:00		Powst. Warszawy stadion 06
+1937	3	214576	11:27:00	11:27:00		Powst. Warszawy stadion 06
+1937	3	214576	11:30:00	11:30:00		Powst. Warszawy dom studenta 08
+1937	3	214576	11:30:00	11:30:00		Powst. Warszawy dom studenta 08
+1937	3	214576	11:31:00	11:31:00		Powst. Warszawy / Graniczna 10
+1937	3	214576	11:31:00	11:31:00		Powst. Warszawy / Graniczna 10
+1937	3	214576	11:35:00	11:35:00		Rejtana / Armii Krajowej 12
+1937	3	214576	11:35:00	11:35:00		Rejtana / Armii Krajowej 12
+1937	3	214576	11:36:00	11:36:00		Rejtana / Paderewskiego 10
+1937	3	214576	11:36:00	11:36:00		Rejtana / Paderewskiego 10
+1937	3	214576	11:37:00	11:37:00		Rejtana / Krzyżanowskiego 08
+1937	3	214576	11:37:00	11:37:00		Rejtana / Krzyżanowskiego 08
+1937	3	214576	11:39:00	11:39:00		Rejtana uniwersytet 06
+1937	3	214576	11:39:00	11:39:00		Rejtana uniwersytet 06
+1937	3	214576	11:40:00	11:40:00		Rejtana cmentarz 04 nż
+1937	3	214576	11:40:00	11:40:00		Rejtana cmentarz 04 nż
+1937	3	214576	11:41:00	11:41:00		Rejtana / Kustronia 02
+1937	3	214576	11:41:00	11:41:00		Rejtana / Kustronia 02
+1937	3	214576	11:43:00	11:43:00		Piłsudskiego ZDZ 02
+1937	3	214576	11:43:00	11:43:00		Piłsudskiego ZDZ 02
+1937	3	214576	11:45:00	11:45:00		Pl. Wolności 04
+1937	3	214576	11:45:00	11:45:00		Pl. Wolności 04
+1937	3	214576	11:47:00	11:47:00		Dworzec Główny PKP 01
+1937	3	214576	11:47:00	11:47:00		Dworzec Główny PKP 01
 
-1937	2	217131	12:09:00	12:09:00		Dworzec Główny PKP 01
-1937	2	217131	12:09:00	12:09:00		Dworzec Główny PKP 01
-1937	2	217131	12:11:00	12:11:00		Piłsudskiego U. Wojewódzki 06
-1937	2	217131	12:11:00	12:11:00		Piłsudskiego U. Wojewódzki 06
-1937	2	217131	12:14:00	12:14:00		Cieplińskiego 02
-1937	2	217131	12:14:00	12:14:00		Cieplińskiego 02
-1937	2	217131	12:15:00	12:15:00		Lisa-Kuli 01
-1937	2	217131	12:15:00	12:15:00		Lisa-Kuli 01
-1937	2	217131	12:18:00	12:18:00		Dąbrowskiego park 02 nż
-1937	2	217131	12:18:00	12:18:00		Dąbrowskiego park 02 nż
-1937	2	217131	12:19:00	12:19:00		Dąbrowskiego KW. Policji 04
-1937	2	217131	12:19:00	12:19:00		Dąbrowskiego KW. Policji 04
-1937	2	217131	12:20:00	12:20:00		Dąbrowskiego / Boh. Westerplatte 08
-1937	2	217131	12:20:00	12:20:00		Dąbrowskiego / Boh. Westerplatte 08
-1937	2	217131	12:24:00	12:24:00		Powst. Warszawy / Dąbrowskiego 02
-1937	2	217131	12:24:00	12:24:00		Powst. Warszawy / Dąbrowskiego 02
-1937	2	217131	12:25:00	12:25:00		Powst. Warszawy politechnika 04
-1937	2	217131	12:25:00	12:25:00		Powst. Warszawy politechnika 04
-1937	2	217131	12:28:00	12:28:00		Powst. Warszawy stadion 06
-1937	2	217131	12:28:00	12:28:00		Powst. Warszawy stadion 06
-1937	2	217131	12:31:00	12:31:00		Powst. Warszawy dom studenta 08
-1937	2	217131	12:31:00	12:31:00		Powst. Warszawy dom studenta 08
-1937	2	217131	12:32:00	12:32:00		Powst. Warszawy / Graniczna 10
-1937	2	217131	12:32:00	12:32:00		Powst. Warszawy / Graniczna 10
-1937	2	217131	12:36:00	12:36:00		Rejtana / Armii Krajowej 12
-1937	2	217131	12:36:00	12:36:00		Rejtana / Armii Krajowej 12
-1937	2	217131	12:37:00	12:37:00		Rejtana / Paderewskiego 10
-1937	2	217131	12:37:00	12:37:00		Rejtana / Paderewskiego 10
-1937	2	217131	12:38:00	12:38:00		Rejtana / Krzyżanowskiego 08
-1937	2	217131	12:38:00	12:38:00		Rejtana / Krzyżanowskiego 08
-1937	2	217131	12:40:00	12:40:00		Rejtana uniwersytet 06
-1937	2	217131	12:40:00	12:40:00		Rejtana uniwersytet 06
-1937	2	217131	12:41:00	12:41:00		Rejtana cmentarz 04 nż
-1937	2	217131	12:41:00	12:41:00		Rejtana cmentarz 04 nż
-1937	2	217131	12:42:00	12:42:00		Rejtana / Kustronia 02
-1937	2	217131	12:42:00	12:42:00		Rejtana / Kustronia 02
-1937	2	217131	12:44:00	12:44:00		Piłsudskiego ZDZ 02
-1937	2	217131	12:44:00	12:44:00		Piłsudskiego ZDZ 02
-1937	2	217131	12:46:00	12:46:00		Pl. Wolności 04
-1937	2	217131	12:46:00	12:46:00		Pl. Wolności 04
-1937	2	217131	12:48:00	12:48:00		Dworzec Główny PKP 01
-1937	2	217131	12:48:00	12:48:00		Dworzec Główny PKP 01
+1937	3	213148	12:09:00	12:09:00		Dworzec Główny PKP 01
+1937	3	213148	12:09:00	12:09:00		Dworzec Główny PKP 01
+1937	3	213148	12:11:00	12:11:00		Piłsudskiego U. Wojewódzki 06
+1937	3	213148	12:11:00	12:11:00		Piłsudskiego U. Wojewódzki 06
+1937	3	213148	12:14:00	12:14:00		Cieplińskiego 02
+1937	3	213148	12:14:00	12:14:00		Cieplińskiego 02
+1937	3	213148	12:15:00	12:15:00		Lisa-Kuli 01
+1937	3	213148	12:15:00	12:15:00		Lisa-Kuli 01
+1937	3	213148	12:18:00	12:18:00		Dąbrowskiego park 02 nż
+1937	3	213148	12:18:00	12:18:00		Dąbrowskiego park 02 nż
+1937	3	213148	12:19:00	12:19:00		Dąbrowskiego KW. Policji 04
+1937	3	213148	12:19:00	12:19:00		Dąbrowskiego KW. Policji 04
+1937	3	213148	12:20:00	12:20:00		Dąbrowskiego / Boh. Westerplatte 08
+1937	3	213148	12:20:00	12:20:00		Dąbrowskiego / Boh. Westerplatte 08
+1937	3	213148	12:24:00	12:24:00		Powst. Warszawy / Dąbrowskiego 02
+1937	3	213148	12:24:00	12:24:00		Powst. Warszawy / Dąbrowskiego 02
+1937	3	213148	12:25:00	12:25:00		Powst. Warszawy politechnika 04
+1937	3	213148	12:25:00	12:25:00		Powst. Warszawy politechnika 04
+1937	3	213148	12:28:00	12:28:00		Powst. Warszawy stadion 06
+1937	3	213148	12:28:00	12:28:00		Powst. Warszawy stadion 06
+1937	3	213148	12:31:00	12:31:00		Powst. Warszawy dom studenta 08
+1937	3	213148	12:31:00	12:31:00		Powst. Warszawy dom studenta 08
+1937	3	213148	12:32:00	12:32:00		Powst. Warszawy / Graniczna 10
+1937	3	213148	12:32:00	12:32:00		Powst. Warszawy / Graniczna 10
+1937	3	213148	12:36:00	12:36:00		Rejtana / Armii Krajowej 12
+1937	3	213148	12:36:00	12:36:00		Rejtana / Armii Krajowej 12
+1937	3	213148	12:37:00	12:37:00		Rejtana / Paderewskiego 10
+1937	3	213148	12:37:00	12:37:00		Rejtana / Paderewskiego 10
+1937	3	213148	12:38:00	12:38:00		Rejtana / Krzyżanowskiego 08
+1937	3	213148	12:38:00	12:38:00		Rejtana / Krzyżanowskiego 08
+1937	3	213148	12:40:00	12:40:00		Rejtana uniwersytet 06
+1937	3	213148	12:40:00	12:40:00		Rejtana uniwersytet 06
+1937	3	213148	12:41:00	12:41:00		Rejtana cmentarz 04 nż
+1937	3	213148	12:41:00	12:41:00		Rejtana cmentarz 04 nż
+1937	3	213148	12:42:00	12:42:00		Rejtana / Kustronia 02
+1937	3	213148	12:42:00	12:42:00		Rejtana / Kustronia 02
+1937	3	213148	12:44:00	12:44:00		Piłsudskiego ZDZ 02
+1937	3	213148	12:44:00	12:44:00		Piłsudskiego ZDZ 02
+1937	3	213148	12:46:00	12:46:00		Pl. Wolności 04
+1937	3	213148	12:46:00	12:46:00		Pl. Wolności 04
+1937	3	213148	12:48:00	12:48:00		Dworzec Główny PKP 01
+1937	3	213148	12:48:00	12:48:00		Dworzec Główny PKP 01
 
-1937	2	217373	13:09:00	13:09:00		Dworzec Główny PKP 01
-1937	2	217373	13:09:00	13:09:00		Dworzec Główny PKP 01
-1937	2	217373	13:11:00	13:11:00		Piłsudskiego U. Wojewódzki 06
-1937	2	217373	13:11:00	13:11:00		Piłsudskiego U. Wojewódzki 06
-1937	2	217373	13:14:00	13:14:00		Cieplińskiego 02
-1937	2	217373	13:14:00	13:14:00		Cieplińskiego 02
-1937	2	217373	13:15:00	13:15:00		Lisa-Kuli 01
-1937	2	217373	13:15:00	13:15:00		Lisa-Kuli 01
-1937	2	217373	13:18:00	13:18:00		Dąbrowskiego park 02 nż
-1937	2	217373	13:18:00	13:18:00		Dąbrowskiego park 02 nż
-1937	2	217373	13:19:00	13:19:00		Dąbrowskiego KW. Policji 04
-1937	2	217373	13:19:00	13:19:00		Dąbrowskiego KW. Policji 04
-1937	2	217373	13:20:00	13:20:00		Dąbrowskiego / Boh. Westerplatte 08
-1937	2	217373	13:20:00	13:20:00		Dąbrowskiego / Boh. Westerplatte 08
-1937	2	217373	13:24:00	13:24:00		Powst. Warszawy / Dąbrowskiego 02
-1937	2	217373	13:24:00	13:24:00		Powst. Warszawy / Dąbrowskiego 02
-1937	2	217373	13:25:00	13:25:00		Powst. Warszawy politechnika 04
-1937	2	217373	13:25:00	13:25:00		Powst. Warszawy politechnika 04
-1937	2	217373	13:28:00	13:28:00		Powst. Warszawy stadion 06
-1937	2	217373	13:28:00	13:28:00		Powst. Warszawy stadion 06
-1937	2	217373	13:31:00	13:31:00		Powst. Warszawy dom studenta 08
-1937	2	217373	13:31:00	13:31:00		Powst. Warszawy dom studenta 08
-1937	2	217373	13:32:00	13:32:00		Powst. Warszawy / Graniczna 10
-1937	2	217373	13:32:00	13:32:00		Powst. Warszawy / Graniczna 10
-1937	2	217373	13:36:00	13:36:00		Rejtana / Armii Krajowej 12
-1937	2	217373	13:36:00	13:36:00		Rejtana / Armii Krajowej 12
-1937	2	217373	13:37:00	13:37:00		Rejtana / Paderewskiego 10
-1937	2	217373	13:37:00	13:37:00		Rejtana / Paderewskiego 10
-1937	2	217373	13:38:00	13:38:00		Rejtana / Krzyżanowskiego 08
-1937	2	217373	13:38:00	13:38:00		Rejtana / Krzyżanowskiego 08
-1937	2	217373	13:40:00	13:40:00		Rejtana uniwersytet 06
-1937	2	217373	13:40:00	13:40:00		Rejtana uniwersytet 06
-1937	2	217373	13:41:00	13:41:00		Rejtana cmentarz 04 nż
-1937	2	217373	13:41:00	13:41:00		Rejtana cmentarz 04 nż
-1937	2	217373	13:42:00	13:42:00		Rejtana / Kustronia 02
-1937	2	217373	13:42:00	13:42:00		Rejtana / Kustronia 02
-1937	2	217373	13:44:00	13:44:00		Piłsudskiego ZDZ 02
-1937	2	217373	13:44:00	13:44:00		Piłsudskiego ZDZ 02
-1937	2	217373	13:46:00	13:46:00		Pl. Wolności 04
-1937	2	217373	13:46:00	13:46:00		Pl. Wolności 04
-1937	2	217373	13:48:00	13:48:00		Dworzec Główny PKP 01
-1937	2	217373	13:48:00	13:48:00		Dworzec Główny PKP 01
+1937	3	212610	13:09:00	13:09:00		Dworzec Główny PKP 01
+1937	3	212610	13:09:00	13:09:00		Dworzec Główny PKP 01
+1937	3	212610	13:11:00	13:11:00		Piłsudskiego U. Wojewódzki 06
+1937	3	212610	13:11:00	13:11:00		Piłsudskiego U. Wojewódzki 06
+1937	3	212610	13:14:00	13:14:00		Cieplińskiego 02
+1937	3	212610	13:14:00	13:14:00		Cieplińskiego 02
+1937	3	212610	13:15:00	13:15:00		Lisa-Kuli 01
+1937	3	212610	13:15:00	13:15:00		Lisa-Kuli 01
+1937	3	212610	13:18:00	13:18:00		Dąbrowskiego park 02 nż
+1937	3	212610	13:18:00	13:18:00		Dąbrowskiego park 02 nż
+1937	3	212610	13:19:00	13:19:00		Dąbrowskiego KW. Policji 04
+1937	3	212610	13:19:00	13:19:00		Dąbrowskiego KW. Policji 04
+1937	3	212610	13:20:00	13:20:00		Dąbrowskiego / Boh. Westerplatte 08
+1937	3	212610	13:20:00	13:20:00		Dąbrowskiego / Boh. Westerplatte 08
+1937	3	212610	13:24:00	13:24:00		Powst. Warszawy / Dąbrowskiego 02
+1937	3	212610	13:24:00	13:24:00		Powst. Warszawy / Dąbrowskiego 02
+1937	3	212610	13:25:00	13:25:00		Powst. Warszawy politechnika 04
+1937	3	212610	13:25:00	13:25:00		Powst. Warszawy politechnika 04
+1937	3	212610	13:28:00	13:28:00		Powst. Warszawy stadion 06
+1937	3	212610	13:28:00	13:28:00		Powst. Warszawy stadion 06
+1937	3	212610	13:31:00	13:31:00		Powst. Warszawy dom studenta 08
+1937	3	212610	13:31:00	13:31:00		Powst. Warszawy dom studenta 08
+1937	3	212610	13:32:00	13:32:00		Powst. Warszawy / Graniczna 10
+1937	3	212610	13:32:00	13:32:00		Powst. Warszawy / Graniczna 10
+1937	3	212610	13:36:00	13:36:00		Rejtana / Armii Krajowej 12
+1937	3	212610	13:36:00	13:36:00		Rejtana / Armii Krajowej 12
+1937	3	212610	13:37:00	13:37:00		Rejtana / Paderewskiego 10
+1937	3	212610	13:37:00	13:37:00		Rejtana / Paderewskiego 10
+1937	3	212610	13:38:00	13:38:00		Rejtana / Krzyżanowskiego 08
+1937	3	212610	13:38:00	13:38:00		Rejtana / Krzyżanowskiego 08
+1937	3	212610	13:40:00	13:40:00		Rejtana uniwersytet 06
+1937	3	212610	13:40:00	13:40:00		Rejtana uniwersytet 06
+1937	3	212610	13:41:00	13:41:00		Rejtana cmentarz 04 nż
+1937	3	212610	13:41:00	13:41:00		Rejtana cmentarz 04 nż
+1937	3	212610	13:42:00	13:42:00		Rejtana / Kustronia 02
+1937	3	212610	13:42:00	13:42:00		Rejtana / Kustronia 02
+1937	3	212610	13:44:00	13:44:00		Piłsudskiego ZDZ 02
+1937	3	212610	13:44:00	13:44:00		Piłsudskiego ZDZ 02
+1937	3	212610	13:46:00	13:46:00		Pl. Wolności 04
+1937	3	212610	13:46:00	13:46:00		Pl. Wolności 04
+1937	3	212610	13:48:00	13:48:00		Dworzec Główny PKP 01
+1937	3	212610	13:48:00	13:48:00		Dworzec Główny PKP 01
 
-1937	2	217185	14:09:00	14:09:00		Dworzec Główny PKP 01
-1937	2	217185	14:09:00	14:09:00		Dworzec Główny PKP 01
-1937	2	217185	14:11:00	14:11:00		Piłsudskiego U. Wojewódzki 06
-1937	2	217185	14:11:00	14:11:00		Piłsudskiego U. Wojewódzki 06
-1937	2	217185	14:14:00	14:14:00		Cieplińskiego 02
-1937	2	217185	14:14:00	14:14:00		Cieplińskiego 02
-1937	2	217185	14:15:00	14:15:00		Lisa-Kuli 01
-1937	2	217185	14:15:00	14:15:00		Lisa-Kuli 01
-1937	2	217185	14:18:00	14:18:00		Dąbrowskiego park 02 nż
-1937	2	217185	14:18:00	14:18:00		Dąbrowskiego park 02 nż
-1937	2	217185	14:19:00	14:19:00		Dąbrowskiego KW. Policji 04
-1937	2	217185	14:19:00	14:19:00		Dąbrowskiego KW. Policji 04
-1937	2	217185	14:20:00	14:20:00		Dąbrowskiego / Boh. Westerplatte 08
-1937	2	217185	14:20:00	14:20:00		Dąbrowskiego / Boh. Westerplatte 08
-1937	2	217185	14:24:00	14:24:00		Powst. Warszawy / Dąbrowskiego 02
-1937	2	217185	14:24:00	14:24:00		Powst. Warszawy / Dąbrowskiego 02
-1937	2	217185	14:25:00	14:25:00		Powst. Warszawy politechnika 04
-1937	2	217185	14:25:00	14:25:00		Powst. Warszawy politechnika 04
-1937	2	217185	14:28:00	14:28:00		Powst. Warszawy stadion 06
-1937	2	217185	14:28:00	14:28:00		Powst. Warszawy stadion 06
-1937	2	217185	14:31:00	14:31:00		Powst. Warszawy dom studenta 08
-1937	2	217185	14:31:00	14:31:00		Powst. Warszawy dom studenta 08
-1937	2	217185	14:32:00	14:32:00		Powst. Warszawy / Graniczna 10
-1937	2	217185	14:32:00	14:32:00		Powst. Warszawy / Graniczna 10
-1937	2	217185	14:36:00	14:36:00		Rejtana / Armii Krajowej 12
-1937	2	217185	14:36:00	14:36:00		Rejtana / Armii Krajowej 12
-1937	2	217185	14:37:00	14:37:00		Rejtana / Paderewskiego 10
-1937	2	217185	14:37:00	14:37:00		Rejtana / Paderewskiego 10
-1937	2	217185	14:38:00	14:38:00		Rejtana / Krzyżanowskiego 08
-1937	2	217185	14:38:00	14:38:00		Rejtana / Krzyżanowskiego 08
-1937	2	217185	14:40:00	14:40:00		Rejtana uniwersytet 06
-1937	2	217185	14:40:00	14:40:00		Rejtana uniwersytet 06
-1937	2	217185	14:41:00	14:41:00		Rejtana cmentarz 04 nż
-1937	2	217185	14:41:00	14:41:00		Rejtana cmentarz 04 nż
-1937	2	217185	14:42:00	14:42:00		Rejtana / Kustronia 02
-1937	2	217185	14:42:00	14:42:00		Rejtana / Kustronia 02
-1937	2	217185	14:45:00	14:45:00		Piłsudskiego ZDZ 02
-1937	2	217185	14:45:00	14:45:00		Piłsudskiego ZDZ 02
-1937	2	217185	14:48:00	14:48:00		Pl. Wolności 04
-1937	2	217185	14:48:00	14:48:00		Pl. Wolności 04
-1937	2	217185	14:50:00	14:50:00		Dworzec Główny PKP 01
-1937	2	217185	14:50:00	14:50:00		Dworzec Główny PKP 01
+1937	3	212685	14:09:00	14:09:00		Dworzec Główny PKP 01
+1937	3	212685	14:09:00	14:09:00		Dworzec Główny PKP 01
+1937	3	212685	14:11:00	14:11:00		Piłsudskiego U. Wojewódzki 06
+1937	3	212685	14:11:00	14:11:00		Piłsudskiego U. Wojewódzki 06
+1937	3	212685	14:14:00	14:14:00		Cieplińskiego 02
+1937	3	212685	14:14:00	14:14:00		Cieplińskiego 02
+1937	3	212685	14:15:00	14:15:00		Lisa-Kuli 01
+1937	3	212685	14:15:00	14:15:00		Lisa-Kuli 01
+1937	3	212685	14:18:00	14:18:00		Dąbrowskiego park 02 nż
+1937	3	212685	14:18:00	14:18:00		Dąbrowskiego park 02 nż
+1937	3	212685	14:19:00	14:19:00		Dąbrowskiego KW. Policji 04
+1937	3	212685	14:19:00	14:19:00		Dąbrowskiego KW. Policji 04
+1937	3	212685	14:20:00	14:20:00		Dąbrowskiego / Boh. Westerplatte 08
+1937	3	212685	14:20:00	14:20:00		Dąbrowskiego / Boh. Westerplatte 08
+1937	3	212685	14:24:00	14:24:00		Powst. Warszawy / Dąbrowskiego 02
+1937	3	212685	14:24:00	14:24:00		Powst. Warszawy / Dąbrowskiego 02
+1937	3	212685	14:25:00	14:25:00		Powst. Warszawy politechnika 04
+1937	3	212685	14:25:00	14:25:00		Powst. Warszawy politechnika 04
+1937	3	212685	14:28:00	14:28:00		Powst. Warszawy stadion 06
+1937	3	212685	14:28:00	14:28:00		Powst. Warszawy stadion 06
+1937	3	212685	14:31:00	14:31:00		Powst. Warszawy dom studenta 08
+1937	3	212685	14:31:00	14:31:00		Powst. Warszawy dom studenta 08
+1937	3	212685	14:32:00	14:32:00		Powst. Warszawy / Graniczna 10
+1937	3	212685	14:32:00	14:32:00		Powst. Warszawy / Graniczna 10
+1937	3	212685	14:36:00	14:36:00		Rejtana / Armii Krajowej 12
+1937	3	212685	14:36:00	14:36:00		Rejtana / Armii Krajowej 12
+1937	3	212685	14:37:00	14:37:00		Rejtana / Paderewskiego 10
+1937	3	212685	14:37:00	14:37:00		Rejtana / Paderewskiego 10
+1937	3	212685	14:38:00	14:38:00		Rejtana / Krzyżanowskiego 08
+1937	3	212685	14:38:00	14:38:00		Rejtana / Krzyżanowskiego 08
+1937	3	212685	14:40:00	14:40:00		Rejtana uniwersytet 06
+1937	3	212685	14:40:00	14:40:00		Rejtana uniwersytet 06
+1937	3	212685	14:41:00	14:41:00		Rejtana cmentarz 04 nż
+1937	3	212685	14:41:00	14:41:00		Rejtana cmentarz 04 nż
+1937	3	212685	14:42:00	14:42:00		Rejtana / Kustronia 02
+1937	3	212685	14:42:00	14:42:00		Rejtana / Kustronia 02
+1937	3	212685	14:45:00	14:45:00		Piłsudskiego ZDZ 02
+1937	3	212685	14:45:00	14:45:00		Piłsudskiego ZDZ 02
+1937	3	212685	14:48:00	14:48:00		Pl. Wolności 04
+1937	3	212685	14:48:00	14:48:00		Pl. Wolności 04
+1937	3	212685	14:50:00	14:50:00		Dworzec Główny PKP 01
+1937	3	212685	14:50:00	14:50:00		Dworzec Główny PKP 01
 
-1937	2	217153	15:09:00	15:09:00		Dworzec Główny PKP 01
-1937	2	217153	15:09:00	15:09:00		Dworzec Główny PKP 01
-1937	2	217153	15:12:00	15:12:00		Piłsudskiego U. Wojewódzki 06
-1937	2	217153	15:12:00	15:12:00		Piłsudskiego U. Wojewódzki 06
-1937	2	217153	15:15:00	15:15:00		Cieplińskiego 02
-1937	2	217153	15:15:00	15:15:00		Cieplińskiego 02
-1937	2	217153	15:16:00	15:16:00		Lisa-Kuli 01
-1937	2	217153	15:16:00	15:16:00		Lisa-Kuli 01
-1937	2	217153	15:20:00	15:20:00		Dąbrowskiego park 02 nż
-1937	2	217153	15:20:00	15:20:00		Dąbrowskiego park 02 nż
-1937	2	217153	15:21:00	15:21:00		Dąbrowskiego KW. Policji 04
-1937	2	217153	15:21:00	15:21:00		Dąbrowskiego KW. Policji 04
-1937	2	217153	15:22:00	15:22:00		Dąbrowskiego / Boh. Westerplatte 08
-1937	2	217153	15:22:00	15:22:00		Dąbrowskiego / Boh. Westerplatte 08
-1937	2	217153	15:27:00	15:27:00		Powst. Warszawy / Dąbrowskiego 02
-1937	2	217153	15:27:00	15:27:00		Powst. Warszawy / Dąbrowskiego 02
-1937	2	217153	15:32:00	15:32:00		Powst. Warszawy politechnika 04
-1937	2	217153	15:32:00	15:32:00		Powst. Warszawy politechnika 04
-1937	2	217153	15:43:00	15:43:00		Powst. Warszawy stadion 06
-1937	2	217153	15:43:00	15:43:00		Powst. Warszawy stadion 06
-1937	2	217153	15:47:00	15:47:00		Powst. Warszawy dom studenta 08
-1937	2	217153	15:47:00	15:47:00		Powst. Warszawy dom studenta 08
-1937	2	217153	15:48:00	15:48:00		Powst. Warszawy / Graniczna 10
-1937	2	217153	15:48:00	15:48:00		Powst. Warszawy / Graniczna 10
-1937	2	217153	15:52:00	15:52:00		Rejtana / Armii Krajowej 12
-1937	2	217153	15:52:00	15:52:00		Rejtana / Armii Krajowej 12
-1937	2	217153	15:53:00	15:53:00		Rejtana / Paderewskiego 10
-1937	2	217153	15:53:00	15:53:00		Rejtana / Paderewskiego 10
-1937	2	217153	15:54:00	15:54:00		Rejtana / Krzyżanowskiego 08
-1937	2	217153	15:54:00	15:54:00		Rejtana / Krzyżanowskiego 08
-1937	2	217153	15:56:00	15:56:00		Rejtana uniwersytet 06
-1937	2	217153	15:56:00	15:56:00		Rejtana uniwersytet 06
-1937	2	217153	15:57:00	15:57:00		Rejtana cmentarz 04 nż
-1937	2	217153	15:57:00	15:57:00		Rejtana cmentarz 04 nż
-1937	2	217153	15:58:00	15:58:00		Rejtana / Kustronia 02
-1937	2	217153	15:58:00	15:58:00		Rejtana / Kustronia 02
-1937	2	217153	16:01:00	16:01:00		Piłsudskiego ZDZ 02
-1937	2	217153	16:01:00	16:01:00		Piłsudskiego ZDZ 02
-1937	2	217153	16:04:00	16:04:00		Pl. Wolności 04
-1937	2	217153	16:04:00	16:04:00		Pl. Wolności 04
-1937	2	217153	16:06:00	16:06:00		Dworzec Główny PKP 01
-1937	2	217153	16:06:00	16:06:00		Dworzec Główny PKP 01
+1937	3	211411	15:09:00	15:09:00		Dworzec Główny PKP 01
+1937	3	211411	15:09:00	15:09:00		Dworzec Główny PKP 01
+1937	3	211411	15:12:00	15:12:00		Piłsudskiego U. Wojewódzki 06
+1937	3	211411	15:12:00	15:12:00		Piłsudskiego U. Wojewódzki 06
+1937	3	211411	15:15:00	15:15:00		Cieplińskiego 02
+1937	3	211411	15:15:00	15:15:00		Cieplińskiego 02
+1937	3	211411	15:16:00	15:16:00		Lisa-Kuli 01
+1937	3	211411	15:16:00	15:16:00		Lisa-Kuli 01
+1937	3	211411	15:20:00	15:20:00		Dąbrowskiego park 02 nż
+1937	3	211411	15:20:00	15:20:00		Dąbrowskiego park 02 nż
+1937	3	211411	15:21:00	15:21:00		Dąbrowskiego KW. Policji 04
+1937	3	211411	15:21:00	15:21:00		Dąbrowskiego KW. Policji 04
+1937	3	211411	15:22:00	15:22:00		Dąbrowskiego / Boh. Westerplatte 08
+1937	3	211411	15:22:00	15:22:00		Dąbrowskiego / Boh. Westerplatte 08
+1937	3	211411	15:27:00	15:27:00		Powst. Warszawy / Dąbrowskiego 02
+1937	3	211411	15:27:00	15:27:00		Powst. Warszawy / Dąbrowskiego 02
+1937	3	211411	15:32:00	15:32:00		Powst. Warszawy politechnika 04
+1937	3	211411	15:32:00	15:32:00		Powst. Warszawy politechnika 04
+1937	3	211411	15:43:00	15:43:00		Powst. Warszawy stadion 06
+1937	3	211411	15:43:00	15:43:00		Powst. Warszawy stadion 06
+1937	3	211411	15:47:00	15:47:00		Powst. Warszawy dom studenta 08
+1937	3	211411	15:47:00	15:47:00		Powst. Warszawy dom studenta 08
+1937	3	211411	15:48:00	15:48:00		Powst. Warszawy / Graniczna 10
+1937	3	211411	15:48:00	15:48:00		Powst. Warszawy / Graniczna 10
+1937	3	211411	15:52:00	15:52:00		Rejtana / Armii Krajowej 12
+1937	3	211411	15:52:00	15:52:00		Rejtana / Armii Krajowej 12
+1937	3	211411	15:53:00	15:53:00		Rejtana / Paderewskiego 10
+1937	3	211411	15:53:00	15:53:00		Rejtana / Paderewskiego 10
+1937	3	211411	15:54:00	15:54:00		Rejtana / Krzyżanowskiego 08
+1937	3	211411	15:54:00	15:54:00		Rejtana / Krzyżanowskiego 08
+1937	3	211411	15:56:00	15:56:00		Rejtana uniwersytet 06
+1937	3	211411	15:56:00	15:56:00		Rejtana uniwersytet 06
+1937	3	211411	15:57:00	15:57:00		Rejtana cmentarz 04 nż
+1937	3	211411	15:57:00	15:57:00		Rejtana cmentarz 04 nż
+1937	3	211411	15:58:00	15:58:00		Rejtana / Kustronia 02
+1937	3	211411	15:58:00	15:58:00		Rejtana / Kustronia 02
+1937	3	211411	16:01:00	16:01:00		Piłsudskiego ZDZ 02
+1937	3	211411	16:01:00	16:01:00		Piłsudskiego ZDZ 02
+1937	3	211411	16:04:00	16:04:00		Pl. Wolności 04
+1937	3	211411	16:04:00	16:04:00		Pl. Wolności 04
+1937	3	211411	16:06:00	16:06:00		Dworzec Główny PKP 01
+1937	3	211411	16:06:00	16:06:00		Dworzec Główny PKP 01
 
-1937	2	217607	16:20:00	16:20:00		Dworzec Główny PKP 01
-1937	2	217607	16:20:00	16:20:00		Dworzec Główny PKP 01
-1937	2	217607	16:23:00	16:23:00		Piłsudskiego U. Wojewódzki 06
-1937	2	217607	16:23:00	16:23:00		Piłsudskiego U. Wojewódzki 06
-1937	2	217607	16:26:00	16:26:00		Cieplińskiego 02
-1937	2	217607	16:26:00	16:26:00		Cieplińskiego 02
-1937	2	217607	16:27:00	16:27:00		Lisa-Kuli 01
-1937	2	217607	16:27:00	16:27:00		Lisa-Kuli 01
-1937	2	217607	16:31:00	16:31:00		Dąbrowskiego park 02 nż
-1937	2	217607	16:31:00	16:31:00		Dąbrowskiego park 02 nż
-1937	2	217607	16:32:00	16:32:00		Dąbrowskiego KW. Policji 04
-1937	2	217607	16:32:00	16:32:00		Dąbrowskiego KW. Policji 04
-1937	2	217607	16:33:00	16:33:00		Dąbrowskiego / Boh. Westerplatte 08
-1937	2	217607	16:33:00	16:33:00		Dąbrowskiego / Boh. Westerplatte 08
-1937	2	217607	16:36:00	16:36:00		Powst. Warszawy / Dąbrowskiego 02
-1937	2	217607	16:36:00	16:36:00		Powst. Warszawy / Dąbrowskiego 02
-1937	2	217607	16:38:00	16:38:00		Powst. Warszawy politechnika 04
-1937	2	217607	16:38:00	16:38:00		Powst. Warszawy politechnika 04
-1937	2	217607	16:41:00	16:41:00		Powst. Warszawy stadion 06
-1937	2	217607	16:41:00	16:41:00		Powst. Warszawy stadion 06
-1937	2	217607	16:43:00	16:43:00		Powst. Warszawy dom studenta 08
-1937	2	217607	16:43:00	16:43:00		Powst. Warszawy dom studenta 08
-1937	2	217607	16:44:00	16:44:00		Powst. Warszawy / Graniczna 10
-1937	2	217607	16:44:00	16:44:00		Powst. Warszawy / Graniczna 10
-1937	2	217607	16:48:00	16:48:00		Rejtana / Armii Krajowej 12
-1937	2	217607	16:48:00	16:48:00		Rejtana / Armii Krajowej 12
-1937	2	217607	16:49:00	16:49:00		Rejtana / Paderewskiego 10
-1937	2	217607	16:49:00	16:49:00		Rejtana / Paderewskiego 10
-1937	2	217607	16:50:00	16:50:00		Rejtana / Krzyżanowskiego 08
-1937	2	217607	16:50:00	16:50:00		Rejtana / Krzyżanowskiego 08
-1937	2	217607	16:52:00	16:52:00		Rejtana uniwersytet 06
-1937	2	217607	16:52:00	16:52:00		Rejtana uniwersytet 06
-1937	2	217607	16:53:00	16:53:00		Rejtana cmentarz 04 nż
-1937	2	217607	16:53:00	16:53:00		Rejtana cmentarz 04 nż
-1937	2	217607	16:54:00	16:54:00		Rejtana / Kustronia 02
-1937	2	217607	16:54:00	16:54:00		Rejtana / Kustronia 02
-1937	2	217607	16:56:00	16:56:00		Piłsudskiego ZDZ 02
-1937	2	217607	16:56:00	16:56:00		Piłsudskiego ZDZ 02
-1937	2	217607	16:58:00	16:58:00		Pl. Wolności 04
-1937	2	217607	16:58:00	16:58:00		Pl. Wolności 04
-1937	2	217607	17:00:00	17:00:00		Dworzec Główny PKP 01
-1937	2	217607	17:00:00	17:00:00		Dworzec Główny PKP 01
+1937	3	214003	16:26:00	16:26:00		Dworzec Główny PKP 01
+1937	3	214003	16:26:00	16:26:00		Dworzec Główny PKP 01
+1937	3	214003	16:29:00	16:29:00		Piłsudskiego U. Wojewódzki 06
+1937	3	214003	16:29:00	16:29:00		Piłsudskiego U. Wojewódzki 06
+1937	3	214003	16:32:00	16:32:00		Cieplińskiego 02
+1937	3	214003	16:32:00	16:32:00		Cieplińskiego 02
+1937	3	214003	16:33:00	16:33:00		Lisa-Kuli 01
+1937	3	214003	16:33:00	16:33:00		Lisa-Kuli 01
+1937	3	214003	16:36:00	16:36:00		Dąbrowskiego park 02 nż
+1937	3	214003	16:36:00	16:36:00		Dąbrowskiego park 02 nż
+1937	3	214003	16:37:00	16:37:00		Dąbrowskiego KW. Policji 04
+1937	3	214003	16:37:00	16:37:00		Dąbrowskiego KW. Policji 04
+1937	3	214003	16:38:00	16:38:00		Dąbrowskiego / Boh. Westerplatte 08
+1937	3	214003	16:38:00	16:38:00		Dąbrowskiego / Boh. Westerplatte 08
+1937	3	214003	16:41:00	16:41:00		Powst. Warszawy / Dąbrowskiego 02
+1937	3	214003	16:41:00	16:41:00		Powst. Warszawy / Dąbrowskiego 02
+1937	3	214003	16:43:00	16:43:00		Powst. Warszawy politechnika 04
+1937	3	214003	16:43:00	16:43:00		Powst. Warszawy politechnika 04
+1937	3	214003	16:46:00	16:46:00		Powst. Warszawy stadion 06
+1937	3	214003	16:46:00	16:46:00		Powst. Warszawy stadion 06
+1937	3	214003	16:48:00	16:48:00		Powst. Warszawy dom studenta 08
+1937	3	214003	16:48:00	16:48:00		Powst. Warszawy dom studenta 08
+1937	3	214003	16:49:00	16:49:00		Powst. Warszawy / Graniczna 10
+1937	3	214003	16:49:00	16:49:00		Powst. Warszawy / Graniczna 10
+1937	3	214003	16:53:00	16:53:00		Rejtana / Armii Krajowej 12
+1937	3	214003	16:53:00	16:53:00		Rejtana / Armii Krajowej 12
+1937	3	214003	16:54:00	16:54:00		Rejtana / Paderewskiego 10
+1937	3	214003	16:54:00	16:54:00		Rejtana / Paderewskiego 10
+1937	3	214003	16:55:00	16:55:00		Rejtana / Krzyżanowskiego 08
+1937	3	214003	16:55:00	16:55:00		Rejtana / Krzyżanowskiego 08
+1937	3	214003	16:57:00	16:57:00		Rejtana uniwersytet 06
+1937	3	214003	16:57:00	16:57:00		Rejtana uniwersytet 06
+1937	3	214003	16:58:00	16:58:00		Rejtana cmentarz 04 nż
+1937	3	214003	16:58:00	16:58:00		Rejtana cmentarz 04 nż
+1937	3	214003	16:59:00	16:59:00		Rejtana / Kustronia 02
+1937	3	214003	16:59:00	16:59:00		Rejtana / Kustronia 02
+1937	3	214003	17:01:00	17:01:00		Piłsudskiego ZDZ 02
+1937	3	214003	17:01:00	17:01:00		Piłsudskiego ZDZ 02
+1937	3	214003	17:03:00	17:03:00		Pl. Wolności 04
+1937	3	214003	17:03:00	17:03:00		Pl. Wolności 04
+1937	3	214003	17:05:00	17:05:00		Dworzec Główny PKP 01
+1937	3	214003	17:05:00	17:05:00		Dworzec Główny PKP 01
 
-1937	2	217496	17:36:00	17:36:00		Dworzec Główny PKP 01
-1937	2	217496	17:36:00	17:36:00		Dworzec Główny PKP 01
-1937	2	217496	17:38:00	17:38:00		Piłsudskiego U. Wojewódzki 06
-1937	2	217496	17:38:00	17:38:00		Piłsudskiego U. Wojewódzki 06
-1937	2	217496	17:41:00	17:41:00		Cieplińskiego 02
-1937	2	217496	17:41:00	17:41:00		Cieplińskiego 02
-1937	2	217496	17:42:00	17:42:00		Lisa-Kuli 01
-1937	2	217496	17:42:00	17:42:00		Lisa-Kuli 01
-1937	2	217496	17:45:00	17:45:00		Dąbrowskiego park 02 nż
-1937	2	217496	17:45:00	17:45:00		Dąbrowskiego park 02 nż
-1937	2	217496	17:46:00	17:46:00		Dąbrowskiego KW. Policji 04
-1937	2	217496	17:46:00	17:46:00		Dąbrowskiego KW. Policji 04
-1937	2	217496	17:47:00	17:47:00		Dąbrowskiego / Boh. Westerplatte 08
-1937	2	217496	17:47:00	17:47:00		Dąbrowskiego / Boh. Westerplatte 08
-1937	2	217496	17:50:00	17:50:00		Powst. Warszawy / Dąbrowskiego 02
-1937	2	217496	17:50:00	17:50:00		Powst. Warszawy / Dąbrowskiego 02
-1937	2	217496	17:52:00	17:52:00		Powst. Warszawy politechnika 04
-1937	2	217496	17:52:00	17:52:00		Powst. Warszawy politechnika 04
-1937	2	217496	17:55:00	17:55:00		Powst. Warszawy stadion 06
-1937	2	217496	17:55:00	17:55:00		Powst. Warszawy stadion 06
-1937	2	217496	17:57:00	17:57:00		Powst. Warszawy dom studenta 08
-1937	2	217496	17:57:00	17:57:00		Powst. Warszawy dom studenta 08
-1937	2	217496	17:58:00	17:58:00		Powst. Warszawy / Graniczna 10
-1937	2	217496	17:58:00	17:58:00		Powst. Warszawy / Graniczna 10
-1937	2	217496	18:02:00	18:02:00		Rejtana / Armii Krajowej 12
-1937	2	217496	18:02:00	18:02:00		Rejtana / Armii Krajowej 12
-1937	2	217496	18:03:00	18:03:00		Rejtana / Paderewskiego 10
-1937	2	217496	18:03:00	18:03:00		Rejtana / Paderewskiego 10
-1937	2	217496	18:04:00	18:04:00		Rejtana / Krzyżanowskiego 08
-1937	2	217496	18:04:00	18:04:00		Rejtana / Krzyżanowskiego 08
-1937	2	217496	18:06:00	18:06:00		Rejtana uniwersytet 06
-1937	2	217496	18:06:00	18:06:00		Rejtana uniwersytet 06
-1937	2	217496	18:07:00	18:07:00		Rejtana cmentarz 04 nż
-1937	2	217496	18:07:00	18:07:00		Rejtana cmentarz 04 nż
-1937	2	217496	18:08:00	18:08:00		Rejtana / Kustronia 02
-1937	2	217496	18:08:00	18:08:00		Rejtana / Kustronia 02
-1937	2	217496	18:10:00	18:10:00		Piłsudskiego ZDZ 02
-1937	2	217496	18:10:00	18:10:00		Piłsudskiego ZDZ 02
-1937	2	217496	18:12:00	18:12:00		Pl. Wolności 04
-1937	2	217496	18:12:00	18:12:00		Pl. Wolności 04
-1937	2	217496	18:14:00	18:14:00		Dworzec Główny PKP 01
-1937	2	217496	18:14:00	18:14:00		Dworzec Główny PKP 01
+1937	3	210290	17:25:00	17:25:00		Dworzec Główny PKP 01
+1937	3	210290	17:25:00	17:25:00		Dworzec Główny PKP 01
+1937	3	210290	17:27:00	17:27:00		Piłsudskiego U. Wojewódzki 06
+1937	3	210290	17:27:00	17:27:00		Piłsudskiego U. Wojewódzki 06
+1937	3	210290	17:30:00	17:30:00		Cieplińskiego 02
+1937	3	210290	17:30:00	17:30:00		Cieplińskiego 02
+1937	3	210290	17:31:00	17:31:00		Lisa-Kuli 01
+1937	3	210290	17:31:00	17:31:00		Lisa-Kuli 01
+1937	3	210290	17:34:00	17:34:00		Dąbrowskiego park 02 nż
+1937	3	210290	17:34:00	17:34:00		Dąbrowskiego park 02 nż
+1937	3	210290	17:35:00	17:35:00		Dąbrowskiego KW. Policji 04
+1937	3	210290	17:35:00	17:35:00		Dąbrowskiego KW. Policji 04
+1937	3	210290	17:36:00	17:36:00		Dąbrowskiego / Boh. Westerplatte 08
+1937	3	210290	17:36:00	17:36:00		Dąbrowskiego / Boh. Westerplatte 08
+1937	3	210290	17:39:00	17:39:00		Powst. Warszawy / Dąbrowskiego 02
+1937	3	210290	17:39:00	17:39:00		Powst. Warszawy / Dąbrowskiego 02
+1937	3	210290	17:41:00	17:41:00		Powst. Warszawy politechnika 04
+1937	3	210290	17:41:00	17:41:00		Powst. Warszawy politechnika 04
+1937	3	210290	17:44:00	17:44:00		Powst. Warszawy stadion 06
+1937	3	210290	17:44:00	17:44:00		Powst. Warszawy stadion 06
+1937	3	210290	17:46:00	17:46:00		Powst. Warszawy dom studenta 08
+1937	3	210290	17:46:00	17:46:00		Powst. Warszawy dom studenta 08
+1937	3	210290	17:47:00	17:47:00		Powst. Warszawy / Graniczna 10
+1937	3	210290	17:47:00	17:47:00		Powst. Warszawy / Graniczna 10
+1937	3	210290	17:51:00	17:51:00		Rejtana / Armii Krajowej 12
+1937	3	210290	17:51:00	17:51:00		Rejtana / Armii Krajowej 12
+1937	3	210290	17:52:00	17:52:00		Rejtana / Paderewskiego 10
+1937	3	210290	17:52:00	17:52:00		Rejtana / Paderewskiego 10
+1937	3	210290	17:53:00	17:53:00		Rejtana / Krzyżanowskiego 08
+1937	3	210290	17:53:00	17:53:00		Rejtana / Krzyżanowskiego 08
+1937	3	210290	17:55:00	17:55:00		Rejtana uniwersytet 06
+1937	3	210290	17:55:00	17:55:00		Rejtana uniwersytet 06
+1937	3	210290	17:56:00	17:56:00		Rejtana cmentarz 04 nż
+1937	3	210290	17:56:00	17:56:00		Rejtana cmentarz 04 nż
+1937	3	210290	17:57:00	17:57:00		Rejtana / Kustronia 02
+1937	3	210290	17:57:00	17:57:00		Rejtana / Kustronia 02
+1937	3	210290	17:59:00	17:59:00		Piłsudskiego ZDZ 02
+1937	3	210290	17:59:00	17:59:00		Piłsudskiego ZDZ 02
+1937	3	210290	18:01:00	18:01:00		Pl. Wolności 04
+1937	3	210290	18:01:00	18:01:00		Pl. Wolności 04
+1937	3	210290	18:03:00	18:03:00		Dworzec Główny PKP 01
+1937	3	210290	18:03:00	18:03:00		Dworzec Główny PKP 01
 
-1937	2	217416	18:36:00	18:36:00		Dworzec Główny PKP 01
-1937	2	217416	18:36:00	18:36:00		Dworzec Główny PKP 01
-1937	2	217416	18:38:00	18:38:00		Piłsudskiego U. Wojewódzki 06
-1937	2	217416	18:38:00	18:38:00		Piłsudskiego U. Wojewódzki 06
-1937	2	217416	18:41:00	18:41:00		Cieplińskiego 02
-1937	2	217416	18:41:00	18:41:00		Cieplińskiego 02
-1937	2	217416	18:42:00	18:42:00		Lisa-Kuli 01
-1937	2	217416	18:42:00	18:42:00		Lisa-Kuli 01
-1937	2	217416	18:45:00	18:45:00		Dąbrowskiego park 02 nż
-1937	2	217416	18:45:00	18:45:00		Dąbrowskiego park 02 nż
-1937	2	217416	18:46:00	18:46:00		Dąbrowskiego KW. Policji 04
-1937	2	217416	18:46:00	18:46:00		Dąbrowskiego KW. Policji 04
-1937	2	217416	18:47:00	18:47:00		Dąbrowskiego / Boh. Westerplatte 08
-1937	2	217416	18:47:00	18:47:00		Dąbrowskiego / Boh. Westerplatte 08
-1937	2	217416	18:50:00	18:50:00		Powst. Warszawy / Dąbrowskiego 02
-1937	2	217416	18:50:00	18:50:00		Powst. Warszawy / Dąbrowskiego 02
-1937	2	217416	18:52:00	18:52:00		Powst. Warszawy politechnika 04
-1937	2	217416	18:52:00	18:52:00		Powst. Warszawy politechnika 04
-1937	2	217416	18:55:00	18:55:00		Powst. Warszawy stadion 06
-1937	2	217416	18:55:00	18:55:00		Powst. Warszawy stadion 06
-1937	2	217416	18:57:00	18:57:00		Powst. Warszawy dom studenta 08
-1937	2	217416	18:57:00	18:57:00		Powst. Warszawy dom studenta 08
-1937	2	217416	18:58:00	18:58:00		Powst. Warszawy / Graniczna 10
-1937	2	217416	18:58:00	18:58:00		Powst. Warszawy / Graniczna 10
-1937	2	217416	19:02:00	19:02:00		Rejtana / Armii Krajowej 12
-1937	2	217416	19:02:00	19:02:00		Rejtana / Armii Krajowej 12
-1937	2	217416	19:03:00	19:03:00		Rejtana / Paderewskiego 10
-1937	2	217416	19:03:00	19:03:00		Rejtana / Paderewskiego 10
-1937	2	217416	19:04:00	19:04:00		Rejtana / Krzyżanowskiego 08
-1937	2	217416	19:04:00	19:04:00		Rejtana / Krzyżanowskiego 08
-1937	2	217416	19:06:00	19:06:00		Rejtana uniwersytet 06
-1937	2	217416	19:06:00	19:06:00		Rejtana uniwersytet 06
-1937	2	217416	19:07:00	19:07:00		Rejtana cmentarz 04 nż
-1937	2	217416	19:07:00	19:07:00		Rejtana cmentarz 04 nż
-1937	2	217416	19:08:00	19:08:00		Rejtana / Kustronia 02
-1937	2	217416	19:08:00	19:08:00		Rejtana / Kustronia 02
-1937	2	217416	19:10:00	19:10:00		Piłsudskiego ZDZ 02
-1937	2	217416	19:10:00	19:10:00		Piłsudskiego ZDZ 02
-1937	2	217416	19:11:00	19:11:00		Pl. Wolności 04
-1937	2	217416	19:11:00	19:11:00		Pl. Wolności 04
-1937	2	217416	19:13:00	19:13:00		Dworzec Główny PKP 01
-1937	2	217416	19:13:00	19:13:00		Dworzec Główny PKP 01
+1937	3	211686	18:25:00	18:25:00		Dworzec Główny PKP 01
+1937	3	211686	18:25:00	18:25:00		Dworzec Główny PKP 01
+1937	3	211686	18:27:00	18:27:00		Piłsudskiego U. Wojewódzki 06
+1937	3	211686	18:27:00	18:27:00		Piłsudskiego U. Wojewódzki 06
+1937	3	211686	18:30:00	18:30:00		Cieplińskiego 02
+1937	3	211686	18:30:00	18:30:00		Cieplińskiego 02
+1937	3	211686	18:31:00	18:31:00		Lisa-Kuli 01
+1937	3	211686	18:31:00	18:31:00		Lisa-Kuli 01
+1937	3	211686	18:34:00	18:34:00		Dąbrowskiego park 02 nż
+1937	3	211686	18:34:00	18:34:00		Dąbrowskiego park 02 nż
+1937	3	211686	18:35:00	18:35:00		Dąbrowskiego KW. Policji 04
+1937	3	211686	18:35:00	18:35:00		Dąbrowskiego KW. Policji 04
+1937	3	211686	18:36:00	18:36:00		Dąbrowskiego / Boh. Westerplatte 08
+1937	3	211686	18:36:00	18:36:00		Dąbrowskiego / Boh. Westerplatte 08
+1937	3	211686	18:39:00	18:39:00		Powst. Warszawy / Dąbrowskiego 02
+1937	3	211686	18:39:00	18:39:00		Powst. Warszawy / Dąbrowskiego 02
+1937	3	211686	18:41:00	18:41:00		Powst. Warszawy politechnika 04
+1937	3	211686	18:41:00	18:41:00		Powst. Warszawy politechnika 04
+1937	3	211686	18:44:00	18:44:00		Powst. Warszawy stadion 06
+1937	3	211686	18:44:00	18:44:00		Powst. Warszawy stadion 06
+1937	3	211686	18:46:00	18:46:00		Powst. Warszawy dom studenta 08
+1937	3	211686	18:46:00	18:46:00		Powst. Warszawy dom studenta 08
+1937	3	211686	18:47:00	18:47:00		Powst. Warszawy / Graniczna 10
+1937	3	211686	18:47:00	18:47:00		Powst. Warszawy / Graniczna 10
+1937	3	211686	18:51:00	18:51:00		Rejtana / Armii Krajowej 12
+1937	3	211686	18:51:00	18:51:00		Rejtana / Armii Krajowej 12
+1937	3	211686	18:52:00	18:52:00		Rejtana / Paderewskiego 10
+1937	3	211686	18:52:00	18:52:00		Rejtana / Paderewskiego 10
+1937	3	211686	18:53:00	18:53:00		Rejtana / Krzyżanowskiego 08
+1937	3	211686	18:53:00	18:53:00		Rejtana / Krzyżanowskiego 08
+1937	3	211686	18:55:00	18:55:00		Rejtana uniwersytet 06
+1937	3	211686	18:55:00	18:55:00		Rejtana uniwersytet 06
+1937	3	211686	18:56:00	18:56:00		Rejtana cmentarz 04 nż
+1937	3	211686	18:56:00	18:56:00		Rejtana cmentarz 04 nż
+1937	3	211686	18:57:00	18:57:00		Rejtana / Kustronia 02
+1937	3	211686	18:57:00	18:57:00		Rejtana / Kustronia 02
+1937	3	211686	18:59:00	18:59:00		Piłsudskiego ZDZ 02
+1937	3	211686	18:59:00	18:59:00		Piłsudskiego ZDZ 02
+1937	3	211686	19:01:00	19:01:00		Pl. Wolności 04
+1937	3	211686	19:01:00	19:01:00		Pl. Wolności 04
+1937	3	211686	19:03:00	19:03:00		Dworzec Główny PKP 01
+1937	3	211686	19:03:00	19:03:00		Dworzec Główny PKP 01
 
-1937	2	217000	19:37:00	19:37:00		Dworzec Główny PKP 01
-1937	2	217000	19:37:00	19:37:00		Dworzec Główny PKP 01
-1937	2	217000	19:39:00	19:39:00		Piłsudskiego U. Wojewódzki 06
-1937	2	217000	19:39:00	19:39:00		Piłsudskiego U. Wojewódzki 06
-1937	2	217000	19:41:00	19:41:00		Cieplińskiego 02
-1937	2	217000	19:41:00	19:41:00		Cieplińskiego 02
-1937	2	217000	19:42:00	19:42:00		Lisa-Kuli 01
-1937	2	217000	19:42:00	19:42:00		Lisa-Kuli 01
-1937	2	217000	19:44:00	19:44:00		Dąbrowskiego park 02 nż
-1937	2	217000	19:44:00	19:44:00		Dąbrowskiego park 02 nż
-1937	2	217000	19:45:00	19:45:00		Dąbrowskiego KW. Policji 04
-1937	2	217000	19:45:00	19:45:00		Dąbrowskiego KW. Policji 04
-1937	2	217000	19:46:00	19:46:00		Dąbrowskiego / Boh. Westerplatte 08
-1937	2	217000	19:46:00	19:46:00		Dąbrowskiego / Boh. Westerplatte 08
-1937	2	217000	19:48:00	19:48:00		Powst. Warszawy / Dąbrowskiego 02
-1937	2	217000	19:48:00	19:48:00		Powst. Warszawy / Dąbrowskiego 02
-1937	2	217000	19:49:00	19:49:00		Powst. Warszawy politechnika 04
-1937	2	217000	19:49:00	19:49:00		Powst. Warszawy politechnika 04
-1937	2	217000	19:51:00	19:51:00		Powst. Warszawy stadion 06
-1937	2	217000	19:51:00	19:51:00		Powst. Warszawy stadion 06
-1937	2	217000	19:53:00	19:53:00		Powst. Warszawy dom studenta 08
-1937	2	217000	19:53:00	19:53:00		Powst. Warszawy dom studenta 08
-1937	2	217000	19:54:00	19:54:00		Powst. Warszawy / Graniczna 10
-1937	2	217000	19:54:00	19:54:00		Powst. Warszawy / Graniczna 10
-1937	2	217000	19:57:00	19:57:00		Rejtana / Armii Krajowej 12
-1937	2	217000	19:57:00	19:57:00		Rejtana / Armii Krajowej 12
-1937	2	217000	19:58:00	19:58:00		Rejtana / Paderewskiego 10
-1937	2	217000	19:58:00	19:58:00		Rejtana / Paderewskiego 10
-1937	2	217000	19:59:00	19:59:00		Rejtana / Krzyżanowskiego 08
-1937	2	217000	19:59:00	19:59:00		Rejtana / Krzyżanowskiego 08
-1937	2	217000	20:01:00	20:01:00		Rejtana uniwersytet 06
-1937	2	217000	20:01:00	20:01:00		Rejtana uniwersytet 06
-1937	2	217000	20:02:00	20:02:00		Rejtana cmentarz 04 nż
-1937	2	217000	20:02:00	20:02:00		Rejtana cmentarz 04 nż
-1937	2	217000	20:03:00	20:03:00		Rejtana / Kustronia 02
-1937	2	217000	20:03:00	20:03:00		Rejtana / Kustronia 02
-1937	2	217000	20:05:00	20:05:00		Piłsudskiego ZDZ 02
-1937	2	217000	20:05:00	20:05:00		Piłsudskiego ZDZ 02
-1937	2	217000	20:06:00	20:06:00		Pl. Wolności 04
-1937	2	217000	20:06:00	20:06:00		Pl. Wolności 04
-1937	2	217000	20:08:00	20:08:00		Dworzec Główny PKP 01
-1937	2	217000	20:08:00	20:08:00		Dworzec Główny PKP 01
+1937	3	212713	19:28:00	19:28:00		Dworzec Główny PKP 01
+1937	3	212713	19:28:00	19:28:00		Dworzec Główny PKP 01
+1937	3	212713	19:30:00	19:30:00		Piłsudskiego U. Wojewódzki 06
+1937	3	212713	19:30:00	19:30:00		Piłsudskiego U. Wojewódzki 06
+1937	3	212713	19:32:00	19:32:00		Cieplińskiego 02
+1937	3	212713	19:32:00	19:32:00		Cieplińskiego 02
+1937	3	212713	19:33:00	19:33:00		Lisa-Kuli 01
+1937	3	212713	19:33:00	19:33:00		Lisa-Kuli 01
+1937	3	212713	19:35:00	19:35:00		Dąbrowskiego park 02 nż
+1937	3	212713	19:35:00	19:35:00		Dąbrowskiego park 02 nż
+1937	3	212713	19:36:00	19:36:00		Dąbrowskiego KW. Policji 04
+1937	3	212713	19:36:00	19:36:00		Dąbrowskiego KW. Policji 04
+1937	3	212713	19:37:00	19:37:00		Dąbrowskiego / Boh. Westerplatte 08
+1937	3	212713	19:37:00	19:37:00		Dąbrowskiego / Boh. Westerplatte 08
+1937	3	212713	19:39:00	19:39:00		Powst. Warszawy / Dąbrowskiego 02
+1937	3	212713	19:39:00	19:39:00		Powst. Warszawy / Dąbrowskiego 02
+1937	3	212713	19:40:00	19:40:00		Powst. Warszawy politechnika 04
+1937	3	212713	19:40:00	19:40:00		Powst. Warszawy politechnika 04
+1937	3	212713	19:42:00	19:42:00		Powst. Warszawy stadion 06
+1937	3	212713	19:42:00	19:42:00		Powst. Warszawy stadion 06
+1937	3	212713	19:44:00	19:44:00		Powst. Warszawy dom studenta 08
+1937	3	212713	19:44:00	19:44:00		Powst. Warszawy dom studenta 08
+1937	3	212713	19:45:00	19:45:00		Powst. Warszawy / Graniczna 10
+1937	3	212713	19:45:00	19:45:00		Powst. Warszawy / Graniczna 10
+1937	3	212713	19:48:00	19:48:00		Rejtana / Armii Krajowej 12
+1937	3	212713	19:48:00	19:48:00		Rejtana / Armii Krajowej 12
+1937	3	212713	19:49:00	19:49:00		Rejtana / Paderewskiego 10
+1937	3	212713	19:49:00	19:49:00		Rejtana / Paderewskiego 10
+1937	3	212713	19:50:00	19:50:00		Rejtana / Krzyżanowskiego 08
+1937	3	212713	19:50:00	19:50:00		Rejtana / Krzyżanowskiego 08
+1937	3	212713	19:52:00	19:52:00		Rejtana uniwersytet 06
+1937	3	212713	19:52:00	19:52:00		Rejtana uniwersytet 06
+1937	3	212713	19:53:00	19:53:00		Rejtana cmentarz 04 nż
+1937	3	212713	19:53:00	19:53:00		Rejtana cmentarz 04 nż
+1937	3	212713	19:54:00	19:54:00		Rejtana / Kustronia 02
+1937	3	212713	19:54:00	19:54:00		Rejtana / Kustronia 02
+1937	3	212713	19:56:00	19:56:00		Piłsudskiego ZDZ 02
+1937	3	212713	19:56:00	19:56:00		Piłsudskiego ZDZ 02
+1937	3	212713	19:57:00	19:57:00		Pl. Wolności 04
+1937	3	212713	19:57:00	19:57:00		Pl. Wolności 04
+1937	3	212713	19:59:00	19:59:00		Dworzec Główny PKP 01
+1937	3	212713	19:59:00	19:59:00		Dworzec Główny PKP 01
 
-1937	2	217115	20:37:00	20:37:00		Dworzec Główny PKP 01
-1937	2	217115	20:37:00	20:37:00		Dworzec Główny PKP 01
-1937	2	217115	20:39:00	20:39:00		Piłsudskiego U. Wojewódzki 06
-1937	2	217115	20:39:00	20:39:00		Piłsudskiego U. Wojewódzki 06
-1937	2	217115	20:41:00	20:41:00		Cieplińskiego 02
-1937	2	217115	20:41:00	20:41:00		Cieplińskiego 02
-1937	2	217115	20:42:00	20:42:00		Lisa-Kuli 01
-1937	2	217115	20:42:00	20:42:00		Lisa-Kuli 01
-1937	2	217115	20:44:00	20:44:00		Dąbrowskiego park 02 nż
-1937	2	217115	20:44:00	20:44:00		Dąbrowskiego park 02 nż
-1937	2	217115	20:45:00	20:45:00		Dąbrowskiego KW. Policji 04
-1937	2	217115	20:45:00	20:45:00		Dąbrowskiego KW. Policji 04
-1937	2	217115	20:46:00	20:46:00		Dąbrowskiego / Boh. Westerplatte 08
-1937	2	217115	20:46:00	20:46:00		Dąbrowskiego / Boh. Westerplatte 08
-1937	2	217115	20:48:00	20:48:00		Powst. Warszawy / Dąbrowskiego 02
-1937	2	217115	20:48:00	20:48:00		Powst. Warszawy / Dąbrowskiego 02
-1937	2	217115	20:49:00	20:49:00		Powst. Warszawy politechnika 04
-1937	2	217115	20:49:00	20:49:00		Powst. Warszawy politechnika 04
-1937	2	217115	20:51:00	20:51:00		Powst. Warszawy stadion 06
-1937	2	217115	20:51:00	20:51:00		Powst. Warszawy stadion 06
-1937	2	217115	20:53:00	20:53:00		Powst. Warszawy dom studenta 08
-1937	2	217115	20:53:00	20:53:00		Powst. Warszawy dom studenta 08
-1937	2	217115	20:54:00	20:54:00		Powst. Warszawy / Graniczna 10
-1937	2	217115	20:54:00	20:54:00		Powst. Warszawy / Graniczna 10
-1937	2	217115	20:57:00	20:57:00		Rejtana / Armii Krajowej 12
-1937	2	217115	20:57:00	20:57:00		Rejtana / Armii Krajowej 12
-1937	2	217115	20:58:00	20:58:00		Rejtana / Paderewskiego 10
-1937	2	217115	20:58:00	20:58:00		Rejtana / Paderewskiego 10
-1937	2	217115	20:59:00	20:59:00		Rejtana / Krzyżanowskiego 08
-1937	2	217115	20:59:00	20:59:00		Rejtana / Krzyżanowskiego 08
-1937	2	217115	21:01:00	21:01:00		Rejtana uniwersytet 06
-1937	2	217115	21:01:00	21:01:00		Rejtana uniwersytet 06
-1937	2	217115	21:02:00	21:02:00		Rejtana cmentarz 04 nż
-1937	2	217115	21:02:00	21:02:00		Rejtana cmentarz 04 nż
-1937	2	217115	21:03:00	21:03:00		Rejtana / Kustronia 02
-1937	2	217115	21:03:00	21:03:00		Rejtana / Kustronia 02
-1937	2	217115	21:05:00	21:05:00		Piłsudskiego ZDZ 02
-1937	2	217115	21:05:00	21:05:00		Piłsudskiego ZDZ 02
-1937	2	217115	21:06:00	21:06:00		Pl. Wolności 04
-1937	2	217115	21:06:00	21:06:00		Pl. Wolności 04
-1937	2	217115	21:08:00	21:08:00		Dworzec Główny PKP 01
-1937	2	217115	21:08:00	21:08:00		Dworzec Główny PKP 01
+1937	3	214705	20:28:00	20:28:00		Dworzec Główny PKP 01
+1937	3	214705	20:28:00	20:28:00		Dworzec Główny PKP 01
+1937	3	214705	20:30:00	20:30:00		Piłsudskiego U. Wojewódzki 06
+1937	3	214705	20:30:00	20:30:00		Piłsudskiego U. Wojewódzki 06
+1937	3	214705	20:32:00	20:32:00		Cieplińskiego 02
+1937	3	214705	20:32:00	20:32:00		Cieplińskiego 02
+1937	3	214705	20:33:00	20:33:00		Lisa-Kuli 01
+1937	3	214705	20:33:00	20:33:00		Lisa-Kuli 01
+1937	3	214705	20:35:00	20:35:00		Dąbrowskiego park 02 nż
+1937	3	214705	20:35:00	20:35:00		Dąbrowskiego park 02 nż
+1937	3	214705	20:36:00	20:36:00		Dąbrowskiego KW. Policji 04
+1937	3	214705	20:36:00	20:36:00		Dąbrowskiego KW. Policji 04
+1937	3	214705	20:37:00	20:37:00		Dąbrowskiego / Boh. Westerplatte 08
+1937	3	214705	20:37:00	20:37:00		Dąbrowskiego / Boh. Westerplatte 08
+1937	3	214705	20:39:00	20:39:00		Powst. Warszawy / Dąbrowskiego 02
+1937	3	214705	20:39:00	20:39:00		Powst. Warszawy / Dąbrowskiego 02
+1937	3	214705	20:40:00	20:40:00		Powst. Warszawy politechnika 04
+1937	3	214705	20:40:00	20:40:00		Powst. Warszawy politechnika 04
+1937	3	214705	20:42:00	20:42:00		Powst. Warszawy stadion 06
+1937	3	214705	20:42:00	20:42:00		Powst. Warszawy stadion 06
+1937	3	214705	20:44:00	20:44:00		Powst. Warszawy dom studenta 08
+1937	3	214705	20:44:00	20:44:00		Powst. Warszawy dom studenta 08
+1937	3	214705	20:45:00	20:45:00		Powst. Warszawy / Graniczna 10
+1937	3	214705	20:45:00	20:45:00		Powst. Warszawy / Graniczna 10
+1937	3	214705	20:48:00	20:48:00		Rejtana / Armii Krajowej 12
+1937	3	214705	20:48:00	20:48:00		Rejtana / Armii Krajowej 12
+1937	3	214705	20:49:00	20:49:00		Rejtana / Paderewskiego 10
+1937	3	214705	20:49:00	20:49:00		Rejtana / Paderewskiego 10
+1937	3	214705	20:50:00	20:50:00		Rejtana / Krzyżanowskiego 08
+1937	3	214705	20:50:00	20:50:00		Rejtana / Krzyżanowskiego 08
+1937	3	214705	20:52:00	20:52:00		Rejtana uniwersytet 06
+1937	3	214705	20:52:00	20:52:00		Rejtana uniwersytet 06
+1937	3	214705	20:53:00	20:53:00		Rejtana cmentarz 04 nż
+1937	3	214705	20:53:00	20:53:00		Rejtana cmentarz 04 nż
+1937	3	214705	20:54:00	20:54:00		Rejtana / Kustronia 02
+1937	3	214705	20:54:00	20:54:00		Rejtana / Kustronia 02
+1937	3	214705	20:56:00	20:56:00		Piłsudskiego ZDZ 02
+1937	3	214705	20:56:00	20:56:00		Piłsudskiego ZDZ 02
+1937	3	214705	20:57:00	20:57:00		Pl. Wolności 04
+1937	3	214705	20:57:00	20:57:00		Pl. Wolności 04
+1937	3	214705	20:59:00	20:59:00		Dworzec Główny PKP 01
+1937	3	214705	20:59:00	20:59:00		Dworzec Główny PKP 01
 
-1937	2	217529	21:37:00	21:37:00		Dworzec Główny PKP 01
-1937	2	217529	21:37:00	21:37:00		Dworzec Główny PKP 01
-1937	2	217529	21:38:00	21:38:00		Piłsudskiego U. Wojewódzki 06
-1937	2	217529	21:38:00	21:38:00		Piłsudskiego U. Wojewódzki 06
-1937	2	217529	21:40:00	21:40:00		Cieplińskiego 02
-1937	2	217529	21:40:00	21:40:00		Cieplińskiego 02
-1937	2	217529	21:41:00	21:41:00		Lisa-Kuli 01
-1937	2	217529	21:41:00	21:41:00		Lisa-Kuli 01
-1937	2	217529	21:43:00	21:43:00		Dąbrowskiego park 02 nż
-1937	2	217529	21:43:00	21:43:00		Dąbrowskiego park 02 nż
-1937	2	217529	21:44:00	21:44:00		Dąbrowskiego KW. Policji 04
-1937	2	217529	21:44:00	21:44:00		Dąbrowskiego KW. Policji 04
-1937	2	217529	21:45:00	21:45:00		Dąbrowskiego / Boh. Westerplatte 08
-1937	2	217529	21:45:00	21:45:00		Dąbrowskiego / Boh. Westerplatte 08
-1937	2	217529	21:47:00	21:47:00		Powst. Warszawy / Dąbrowskiego 02
-1937	2	217529	21:47:00	21:47:00		Powst. Warszawy / Dąbrowskiego 02
-1937	2	217529	21:48:00	21:48:00		Powst. Warszawy politechnika 04
-1937	2	217529	21:48:00	21:48:00		Powst. Warszawy politechnika 04
-1937	2	217529	21:49:00	21:49:00		Powst. Warszawy stadion 06
-1937	2	217529	21:49:00	21:49:00		Powst. Warszawy stadion 06
-1937	2	217529	21:51:00	21:51:00		Powst. Warszawy dom studenta 08
-1937	2	217529	21:51:00	21:51:00		Powst. Warszawy dom studenta 08
-1937	2	217529	21:52:00	21:52:00		Powst. Warszawy / Graniczna 10
-1937	2	217529	21:52:00	21:52:00		Powst. Warszawy / Graniczna 10
-1937	2	217529	21:54:00	21:54:00		Rejtana / Armii Krajowej 12
-1937	2	217529	21:54:00	21:54:00		Rejtana / Armii Krajowej 12
-1937	2	217529	21:55:00	21:55:00		Rejtana / Paderewskiego 10
-1937	2	217529	21:55:00	21:55:00		Rejtana / Paderewskiego 10
-1937	2	217529	21:56:00	21:56:00		Rejtana / Krzyżanowskiego 08
-1937	2	217529	21:56:00	21:56:00		Rejtana / Krzyżanowskiego 08
-1937	2	217529	21:57:00	21:57:00		Rejtana uniwersytet 06
-1937	2	217529	21:57:00	21:57:00		Rejtana uniwersytet 06
-1937	2	217529	21:58:00	21:58:00		Rejtana cmentarz 04 nż
-1937	2	217529	21:58:00	21:58:00		Rejtana cmentarz 04 nż
-1937	2	217529	21:59:00	21:59:00		Rejtana / Kustronia 02
-1937	2	217529	21:59:00	21:59:00		Rejtana / Kustronia 02
-1937	2	217529	22:01:00	22:01:00		Piłsudskiego ZDZ 02
-1937	2	217529	22:01:00	22:01:00		Piłsudskiego ZDZ 02
-1937	2	217529	22:02:00	22:02:00		Pl. Wolności 04
-1937	2	217529	22:02:00	22:02:00		Pl. Wolności 04
-1937	2	217529	22:04:00	22:04:00		Dworzec Główny PKP 01
-1937	2	217529	22:04:00	22:04:00		Dworzec Główny PKP 01
+1937	3	208758	21:28:00	21:28:00		Dworzec Główny PKP 01
+1937	3	208758	21:28:00	21:28:00		Dworzec Główny PKP 01
+1937	3	208758	21:29:00	21:29:00		Piłsudskiego U. Wojewódzki 06
+1937	3	208758	21:29:00	21:29:00		Piłsudskiego U. Wojewódzki 06
+1937	3	208758	21:31:00	21:31:00		Cieplińskiego 02
+1937	3	208758	21:31:00	21:31:00		Cieplińskiego 02
+1937	3	208758	21:32:00	21:32:00		Lisa-Kuli 01
+1937	3	208758	21:32:00	21:32:00		Lisa-Kuli 01
+1937	3	208758	21:34:00	21:34:00		Dąbrowskiego park 02 nż
+1937	3	208758	21:34:00	21:34:00		Dąbrowskiego park 02 nż
+1937	3	208758	21:35:00	21:35:00		Dąbrowskiego KW. Policji 04
+1937	3	208758	21:35:00	21:35:00		Dąbrowskiego KW. Policji 04
+1937	3	208758	21:36:00	21:36:00		Dąbrowskiego / Boh. Westerplatte 08
+1937	3	208758	21:36:00	21:36:00		Dąbrowskiego / Boh. Westerplatte 08
+1937	3	208758	21:38:00	21:38:00		Powst. Warszawy / Dąbrowskiego 02
+1937	3	208758	21:38:00	21:38:00		Powst. Warszawy / Dąbrowskiego 02
+1937	3	208758	21:39:00	21:39:00		Powst. Warszawy politechnika 04
+1937	3	208758	21:39:00	21:39:00		Powst. Warszawy politechnika 04
+1937	3	208758	21:40:00	21:40:00		Powst. Warszawy stadion 06
+1937	3	208758	21:40:00	21:40:00		Powst. Warszawy stadion 06
+1937	3	208758	21:42:00	21:42:00		Powst. Warszawy dom studenta 08
+1937	3	208758	21:42:00	21:42:00		Powst. Warszawy dom studenta 08
+1937	3	208758	21:43:00	21:43:00		Powst. Warszawy / Graniczna 10
+1937	3	208758	21:43:00	21:43:00		Powst. Warszawy / Graniczna 10
+1937	3	208758	21:45:00	21:45:00		Rejtana / Armii Krajowej 12
+1937	3	208758	21:45:00	21:45:00		Rejtana / Armii Krajowej 12
+1937	3	208758	21:46:00	21:46:00		Rejtana / Paderewskiego 10
+1937	3	208758	21:46:00	21:46:00		Rejtana / Paderewskiego 10
+1937	3	208758	21:47:00	21:47:00		Rejtana / Krzyżanowskiego 08
+1937	3	208758	21:47:00	21:47:00		Rejtana / Krzyżanowskiego 08
+1937	3	208758	21:48:00	21:48:00		Rejtana uniwersytet 06
+1937	3	208758	21:48:00	21:48:00		Rejtana uniwersytet 06
+1937	3	208758	21:49:00	21:49:00		Rejtana cmentarz 04 nż
+1937	3	208758	21:49:00	21:49:00		Rejtana cmentarz 04 nż
+1937	3	208758	21:50:00	21:50:00		Rejtana / Kustronia 02
+1937	3	208758	21:50:00	21:50:00		Rejtana / Kustronia 02
+1937	3	208758	21:52:00	21:52:00		Piłsudskiego ZDZ 02
+1937	3	208758	21:52:00	21:52:00		Piłsudskiego ZDZ 02
+1937	3	208758	21:53:00	21:53:00		Pl. Wolności 04
+1937	3	208758	21:53:00	21:53:00		Pl. Wolności 04
+1937	3	208758	21:55:00	21:55:00		Dworzec Główny PKP 01
+1937	3	208758	21:55:00	21:55:00		Dworzec Główny PKP 01
 
-1937	2	217024	22:22:00	22:22:00		Dworzec Główny PKP 01
-1937	2	217024	22:22:00	22:22:00		Dworzec Główny PKP 01
-1937	2	217024	22:23:00	22:23:00		Piłsudskiego U. Wojewódzki 06
-1937	2	217024	22:23:00	22:23:00		Piłsudskiego U. Wojewódzki 06
-1937	2	217024	22:25:00	22:25:00		Cieplińskiego 02
-1937	2	217024	22:25:00	22:25:00		Cieplińskiego 02
-1937	2	217024	22:26:00	22:26:00		Lisa-Kuli 01
-1937	2	217024	22:26:00	22:26:00		Lisa-Kuli 01
-1937	2	217024	22:28:00	22:28:00		Dąbrowskiego park 02 nż
-1937	2	217024	22:28:00	22:28:00		Dąbrowskiego park 02 nż
-1937	2	217024	22:29:00	22:29:00		Dąbrowskiego KW. Policji 04
-1937	2	217024	22:29:00	22:29:00		Dąbrowskiego KW. Policji 04
-1937	2	217024	22:30:00	22:30:00		Dąbrowskiego / Boh. Westerplatte 08
-1937	2	217024	22:30:00	22:30:00		Dąbrowskiego / Boh. Westerplatte 08
-1937	2	217024	22:32:00	22:32:00		Powst. Warszawy / Dąbrowskiego 02
-1937	2	217024	22:32:00	22:32:00		Powst. Warszawy / Dąbrowskiego 02
-1937	2	217024	22:33:00	22:33:00		Powst. Warszawy politechnika 04
-1937	2	217024	22:33:00	22:33:00		Powst. Warszawy politechnika 04
-1937	2	217024	22:34:00	22:34:00		Powst. Warszawy stadion 06
-1937	2	217024	22:34:00	22:34:00		Powst. Warszawy stadion 06
-1937	2	217024	22:36:00	22:36:00		Powst. Warszawy dom studenta 08
-1937	2	217024	22:36:00	22:36:00		Powst. Warszawy dom studenta 08
-1937	2	217024	22:37:00	22:37:00		Powst. Warszawy / Graniczna 10
-1937	2	217024	22:37:00	22:37:00		Powst. Warszawy / Graniczna 10
-1937	2	217024	22:39:00	22:39:00		Rejtana / Armii Krajowej 12
-1937	2	217024	22:39:00	22:39:00		Rejtana / Armii Krajowej 12
-1937	2	217024	22:40:00	22:40:00		Rejtana / Paderewskiego 10
-1937	2	217024	22:40:00	22:40:00		Rejtana / Paderewskiego 10
-1937	2	217024	22:41:00	22:41:00		Rejtana / Krzyżanowskiego 08
-1937	2	217024	22:41:00	22:41:00		Rejtana / Krzyżanowskiego 08
-1937	2	217024	22:42:00	22:42:00		Rejtana uniwersytet 06
-1937	2	217024	22:42:00	22:42:00		Rejtana uniwersytet 06
-1937	2	217024	22:43:00	22:43:00		Rejtana cmentarz 04 nż
-1937	2	217024	22:43:00	22:43:00		Rejtana cmentarz 04 nż
-1937	2	217024	22:44:00	22:44:00		Rejtana / Kustronia 02
-1937	2	217024	22:44:00	22:44:00		Rejtana / Kustronia 02
-1937	2	217024	22:46:00	22:46:00		Piłsudskiego ZDZ 02
-1937	2	217024	22:46:00	22:46:00		Piłsudskiego ZDZ 02
-1937	2	217024	22:47:00	22:47:00		Pl. Wolności 04
-1937	2	217024	22:47:00	22:47:00		Pl. Wolności 04
-1937	2	217024	22:49:00	22:49:00		Dworzec Główny PKP 01
-1937	2	217024	22:49:00	22:49:00		Dworzec Główny PKP 01
-
-1937	2	217437	23:07:00	23:07:00		Dworzec Główny PKP 01
-1937	2	217437	23:07:00	23:07:00		Dworzec Główny PKP 01
-1937	2	217437	23:08:00	23:08:00		Piłsudskiego U. Wojewódzki 06
-1937	2	217437	23:08:00	23:08:00		Piłsudskiego U. Wojewódzki 06
-1937	2	217437	23:10:00	23:10:00		Cieplińskiego 02
-1937	2	217437	23:10:00	23:10:00		Cieplińskiego 02
-1937	2	217437	23:11:00	23:11:00		Lisa-Kuli 01
-1937	2	217437	23:11:00	23:11:00		Lisa-Kuli 01
-1937	2	217437	23:13:00	23:13:00		Dąbrowskiego park 02 nż
-1937	2	217437	23:13:00	23:13:00		Dąbrowskiego park 02 nż
-1937	2	217437	23:14:00	23:14:00		Dąbrowskiego KW. Policji 04
-1937	2	217437	23:14:00	23:14:00		Dąbrowskiego KW. Policji 04
-1937	2	217437	23:15:00	23:15:00		Dąbrowskiego / Boh. Westerplatte 08
-1937	2	217437	23:15:00	23:15:00		Dąbrowskiego / Boh. Westerplatte 08
-1937	2	217437	23:17:00	23:17:00		Powst. Warszawy / Dąbrowskiego 02
-1937	2	217437	23:17:00	23:17:00		Powst. Warszawy / Dąbrowskiego 02
-1937	2	217437	23:18:00	23:18:00		Powst. Warszawy politechnika 04
-1937	2	217437	23:18:00	23:18:00		Powst. Warszawy politechnika 04
-1937	2	217437	23:19:00	23:19:00		Powst. Warszawy stadion 06
-1937	2	217437	23:19:00	23:19:00		Powst. Warszawy stadion 06
-1937	2	217437	23:21:00	23:21:00		Powst. Warszawy dom studenta 08
-1937	2	217437	23:21:00	23:21:00		Powst. Warszawy dom studenta 08
-1937	2	217437	23:22:00	23:22:00		Powst. Warszawy / Graniczna 10
-1937	2	217437	23:22:00	23:22:00		Powst. Warszawy / Graniczna 10
-1937	2	217437	23:24:00	23:24:00		Rejtana / Armii Krajowej 12
-1937	2	217437	23:24:00	23:24:00		Rejtana / Armii Krajowej 12
-1937	2	217437	23:25:00	23:25:00		Rejtana / Paderewskiego 10
-1937	2	217437	23:25:00	23:25:00		Rejtana / Paderewskiego 10
-1937	2	217437	23:26:00	23:26:00		Rejtana / Krzyżanowskiego 08
-1937	2	217437	23:26:00	23:26:00		Rejtana / Krzyżanowskiego 08
-1937	2	217437	23:27:00	23:27:00		Rejtana uniwersytet 06
-1937	2	217437	23:27:00	23:27:00		Rejtana uniwersytet 06
-1937	2	217437	23:28:00	23:28:00		Rejtana cmentarz 04 nż
-1937	2	217437	23:28:00	23:28:00		Rejtana cmentarz 04 nż
-1937	2	217437	23:29:00	23:29:00		Rejtana / Kustronia 02
-1937	2	217437	23:29:00	23:29:00		Rejtana / Kustronia 02
-1937	2	217437	23:31:00	23:31:00		Piłsudskiego ZDZ 02
-1937	2	217437	23:31:00	23:31:00		Piłsudskiego ZDZ 02
-1937	2	217437	23:32:00	23:32:00		Pl. Wolności 04
-1937	2	217437	23:32:00	23:32:00		Pl. Wolności 04
-1937	2	217437	23:34:00	23:34:00		Dworzec Główny PKP 01
-1937	2	217437	23:34:00	23:34:00		Dworzec Główny PKP 01
-
-1937	2	217526	23:52:00	23:52:00		Dworzec Główny PKP 01
-1937	2	217526	23:52:00	23:52:00		Dworzec Główny PKP 01
-1937	2	217526	23:53:00	23:53:00		Piłsudskiego U. Wojewódzki 06
-1937	2	217526	23:53:00	23:53:00		Piłsudskiego U. Wojewódzki 06
-1937	2	217526	23:55:00	23:55:00		Cieplińskiego 02
-1937	2	217526	23:55:00	23:55:00		Cieplińskiego 02
-1937	2	217526	23:56:00	23:56:00		Lisa-Kuli 01
-1937	2	217526	23:56:00	23:56:00		Lisa-Kuli 01
-1937	2	217526	23:58:00	23:58:00		Dąbrowskiego park 02 nż
-1937	2	217526	23:58:00	23:58:00		Dąbrowskiego park 02 nż
-1937	2	217526	23:59:00	23:59:00		Dąbrowskiego KW. Policji 04
-1937	2	217526	23:59:00	23:59:00		Dąbrowskiego KW. Policji 04
-1937	2	217526	24:00:00	24:00:00		Dąbrowskiego / Boh. Westerplatte 08
-1937	2	217526	24:00:00	24:00:00		Dąbrowskiego / Boh. Westerplatte 08
-1937	2	217526	24:01:00	24:01:00		Powst. Warszawy / Dąbrowskiego 02
-1937	2	217526	24:01:00	24:01:00		Powst. Warszawy / Dąbrowskiego 02
-1937	2	217526	24:02:00	24:02:00		Powst. Warszawy politechnika 04
-1937	2	217526	24:02:00	24:02:00		Powst. Warszawy politechnika 04
-1937	2	217526	24:03:00	24:03:00		Powst. Warszawy stadion 06
-1937	2	217526	24:03:00	24:03:00		Powst. Warszawy stadion 06
-1937	2	217526	24:04:00	24:04:00		Powst. Warszawy dom studenta 08
-1937	2	217526	24:04:00	24:04:00		Powst. Warszawy dom studenta 08
-1937	2	217526	24:05:00	24:05:00		Powst. Warszawy / Graniczna 10
-1937	2	217526	24:05:00	24:05:00		Powst. Warszawy / Graniczna 10
-1937	2	217526	24:06:00	24:06:00		Rejtana / Armii Krajowej 12
-1937	2	217526	24:06:00	24:06:00		Rejtana / Armii Krajowej 12
-1937	2	217526	24:07:00	24:07:00		Rejtana / Paderewskiego 10
-1937	2	217526	24:07:00	24:07:00		Rejtana / Paderewskiego 10
-1937	2	217526	24:08:00	24:08:00		Rejtana / Krzyżanowskiego 08
-1937	2	217526	24:08:00	24:08:00		Rejtana / Krzyżanowskiego 08
-1937	2	217526	24:09:00	24:09:00		Rejtana uniwersytet 06
-1937	2	217526	24:09:00	24:09:00		Rejtana uniwersytet 06
-1937	2	217526	24:10:00	24:10:00		Rejtana cmentarz 04 nż
-1937	2	217526	24:10:00	24:10:00		Rejtana cmentarz 04 nż
-1937	2	217526	24:11:00	24:11:00		Rejtana / Kustronia 02
-1937	2	217526	24:11:00	24:11:00		Rejtana / Kustronia 02
-1937	2	217526	24:13:00	24:13:00		Piłsudskiego ZDZ 02
-1937	2	217526	24:13:00	24:13:00		Piłsudskiego ZDZ 02
-1937	2	217526	24:14:00	24:14:00		Pl. Wolności 04
-1937	2	217526	24:14:00	24:14:00		Pl. Wolności 04
-1937	2	217526	24:16:00	24:16:00		Dworzec Główny PKP 01
-1937	2	217526	24:16:00	24:16:00		Dworzec Główny PKP 01
-
-1937	2	217238	24:37:00	24:37:00		Dworzec Główny PKP 01
-1937	2	217238	24:37:00	24:37:00		Dworzec Główny PKP 01
-1937	2	217238	24:38:00	24:38:00		Piłsudskiego U. Wojewódzki 06
-1937	2	217238	24:38:00	24:38:00		Piłsudskiego U. Wojewódzki 06
-1937	2	217238	24:40:00	24:40:00		Cieplińskiego 02
-1937	2	217238	24:40:00	24:40:00		Cieplińskiego 02
-1937	2	217238	24:41:00	24:41:00		Lisa-Kuli 01
-1937	2	217238	24:41:00	24:41:00		Lisa-Kuli 01
-1937	2	217238	24:43:00	24:43:00		Dąbrowskiego park 02 nż
-1937	2	217238	24:43:00	24:43:00		Dąbrowskiego park 02 nż
-1937	2	217238	24:44:00	24:44:00		Dąbrowskiego KW. Policji 04
-1937	2	217238	24:44:00	24:44:00		Dąbrowskiego KW. Policji 04
-1937	2	217238	24:45:00	24:45:00		Dąbrowskiego / Boh. Westerplatte 08
-1937	2	217238	24:45:00	24:45:00		Dąbrowskiego / Boh. Westerplatte 08
-1937	2	217238	24:46:00	24:46:00		Powst. Warszawy / Dąbrowskiego 02
-1937	2	217238	24:46:00	24:46:00		Powst. Warszawy / Dąbrowskiego 02
-1937	2	217238	24:47:00	24:47:00		Powst. Warszawy politechnika 04
-1937	2	217238	24:47:00	24:47:00		Powst. Warszawy politechnika 04
-1937	2	217238	24:48:00	24:48:00		Powst. Warszawy stadion 06
-1937	2	217238	24:48:00	24:48:00		Powst. Warszawy stadion 06
-1937	2	217238	24:49:00	24:49:00		Powst. Warszawy dom studenta 08
-1937	2	217238	24:49:00	24:49:00		Powst. Warszawy dom studenta 08
-1937	2	217238	24:50:00	24:50:00		Powst. Warszawy / Graniczna 10
-1937	2	217238	24:50:00	24:50:00		Powst. Warszawy / Graniczna 10
-1937	2	217238	24:51:00	24:51:00		Rejtana / Armii Krajowej 12
-1937	2	217238	24:51:00	24:51:00		Rejtana / Armii Krajowej 12
-1937	2	217238	24:52:00	24:52:00		Rejtana / Paderewskiego 10
-1937	2	217238	24:52:00	24:52:00		Rejtana / Paderewskiego 10
-1937	2	217238	24:53:00	24:53:00		Rejtana / Krzyżanowskiego 08
-1937	2	217238	24:53:00	24:53:00		Rejtana / Krzyżanowskiego 08
-1937	2	217238	24:54:00	24:54:00		Rejtana uniwersytet 06
-1937	2	217238	24:54:00	24:54:00		Rejtana uniwersytet 06
-1937	2	217238	24:55:00	24:55:00		Rejtana cmentarz 04 nż
-1937	2	217238	24:55:00	24:55:00		Rejtana cmentarz 04 nż
-1937	2	217238	24:56:00	24:56:00		Rejtana / Kustronia 02
-1937	2	217238	24:56:00	24:56:00		Rejtana / Kustronia 02
-1937	2	217238	24:58:00	24:58:00		Piłsudskiego ZDZ 02
-1937	2	217238	24:58:00	24:58:00		Piłsudskiego ZDZ 02
-1937	2	217238	24:59:00	24:59:00		Pl. Wolności 04
-1937	2	217238	24:59:00	24:59:00		Pl. Wolności 04
-1937	2	217238	25:01:00	25:01:00		Dworzec Główny PKP 01
-1937	2	217238	25:01:00	25:01:00		Dworzec Główny PKP 01
-
-1937	2	217554	25:22:00	25:22:00		Dworzec Główny PKP 01
-1937	2	217554	25:22:00	25:22:00		Dworzec Główny PKP 01
-1937	2	217554	25:23:00	25:23:00		Piłsudskiego U. Wojewódzki 06
-1937	2	217554	25:23:00	25:23:00		Piłsudskiego U. Wojewódzki 06
-1937	2	217554	25:25:00	25:25:00		Cieplińskiego 02
-1937	2	217554	25:25:00	25:25:00		Cieplińskiego 02
-1937	2	217554	25:26:00	25:26:00		Lisa-Kuli 01
-1937	2	217554	25:26:00	25:26:00		Lisa-Kuli 01
-1937	2	217554	25:28:00	25:28:00		Dąbrowskiego park 02 nż
-1937	2	217554	25:28:00	25:28:00		Dąbrowskiego park 02 nż
-1937	2	217554	25:29:00	25:29:00		Dąbrowskiego KW. Policji 04
-1937	2	217554	25:29:00	25:29:00		Dąbrowskiego KW. Policji 04
-1937	2	217554	25:30:00	25:30:00		Dąbrowskiego / Boh. Westerplatte 08
-1937	2	217554	25:30:00	25:30:00		Dąbrowskiego / Boh. Westerplatte 08
-1937	2	217554	25:31:00	25:31:00		Powst. Warszawy / Dąbrowskiego 02
-1937	2	217554	25:31:00	25:31:00		Powst. Warszawy / Dąbrowskiego 02
-1937	2	217554	25:32:00	25:32:00		Powst. Warszawy politechnika 04
-1937	2	217554	25:32:00	25:32:00		Powst. Warszawy politechnika 04
-1937	2	217554	25:33:00	25:33:00		Powst. Warszawy stadion 06
-1937	2	217554	25:33:00	25:33:00		Powst. Warszawy stadion 06
-1937	2	217554	25:34:00	25:34:00		Powst. Warszawy dom studenta 08
-1937	2	217554	25:34:00	25:34:00		Powst. Warszawy dom studenta 08
-1937	2	217554	25:35:00	25:35:00		Powst. Warszawy / Graniczna 10
-1937	2	217554	25:35:00	25:35:00		Powst. Warszawy / Graniczna 10
-1937	2	217554	25:36:00	25:36:00		Rejtana / Armii Krajowej 12
-1937	2	217554	25:36:00	25:36:00		Rejtana / Armii Krajowej 12
-1937	2	217554	25:37:00	25:37:00		Rejtana / Paderewskiego 10
-1937	2	217554	25:37:00	25:37:00		Rejtana / Paderewskiego 10
-1937	2	217554	25:38:00	25:38:00		Rejtana / Krzyżanowskiego 08
-1937	2	217554	25:38:00	25:38:00		Rejtana / Krzyżanowskiego 08
-1937	2	217554	25:39:00	25:39:00		Rejtana uniwersytet 06
-1937	2	217554	25:39:00	25:39:00		Rejtana uniwersytet 06
-1937	2	217554	25:40:00	25:40:00		Rejtana cmentarz 04 nż
-1937	2	217554	25:40:00	25:40:00		Rejtana cmentarz 04 nż
-1937	2	217554	25:41:00	25:41:00		Rejtana / Kustronia 02
-1937	2	217554	25:41:00	25:41:00		Rejtana / Kustronia 02
-1937	2	217554	25:43:00	25:43:00		Piłsudskiego ZDZ 02
-1937	2	217554	25:43:00	25:43:00		Piłsudskiego ZDZ 02
-1937	2	217554	25:44:00	25:44:00		Pl. Wolności 04
-1937	2	217554	25:44:00	25:44:00		Pl. Wolności 04
-1937	2	217554	25:46:00	25:46:00		Dworzec Główny PKP 01
-1937	2	217554	25:46:00	25:46:00		Dworzec Główny PKP 01
-
-1937	2	217465	26:07:00	26:07:00		Dworzec Główny PKP 01
-1937	2	217465	26:07:00	26:07:00		Dworzec Główny PKP 01
-1937	2	217465	26:08:00	26:08:00		Piłsudskiego U. Wojewódzki 06
-1937	2	217465	26:08:00	26:08:00		Piłsudskiego U. Wojewódzki 06
-1937	2	217465	26:10:00	26:10:00		Cieplińskiego 02
-1937	2	217465	26:10:00	26:10:00		Cieplińskiego 02
-1937	2	217465	26:11:00	26:11:00		Lisa-Kuli 01
-1937	2	217465	26:11:00	26:11:00		Lisa-Kuli 01
-1937	2	217465	26:13:00	26:13:00		Dąbrowskiego park 02 nż
-1937	2	217465	26:13:00	26:13:00		Dąbrowskiego park 02 nż
-1937	2	217465	26:14:00	26:14:00		Dąbrowskiego KW. Policji 04
-1937	2	217465	26:14:00	26:14:00		Dąbrowskiego KW. Policji 04
-1937	2	217465	26:15:00	26:15:00		Dąbrowskiego / Boh. Westerplatte 08
-1937	2	217465	26:15:00	26:15:00		Dąbrowskiego / Boh. Westerplatte 08
-1937	2	217465	26:16:00	26:16:00		Powst. Warszawy / Dąbrowskiego 02
-1937	2	217465	26:16:00	26:16:00		Powst. Warszawy / Dąbrowskiego 02
-1937	2	217465	26:17:00	26:17:00		Powst. Warszawy politechnika 04
-1937	2	217465	26:17:00	26:17:00		Powst. Warszawy politechnika 04
-1937	2	217465	26:18:00	26:18:00		Powst. Warszawy stadion 06
-1937	2	217465	26:18:00	26:18:00		Powst. Warszawy stadion 06
-1937	2	217465	26:19:00	26:19:00		Powst. Warszawy dom studenta 08
-1937	2	217465	26:19:00	26:19:00		Powst. Warszawy dom studenta 08
-1937	2	217465	26:20:00	26:20:00		Powst. Warszawy / Graniczna 10
-1937	2	217465	26:20:00	26:20:00		Powst. Warszawy / Graniczna 10
-1937	2	217465	26:21:00	26:21:00		Rejtana / Armii Krajowej 12
-1937	2	217465	26:21:00	26:21:00		Rejtana / Armii Krajowej 12
-1937	2	217465	26:22:00	26:22:00		Rejtana / Paderewskiego 10
-1937	2	217465	26:22:00	26:22:00		Rejtana / Paderewskiego 10
-1937	2	217465	26:23:00	26:23:00		Rejtana / Krzyżanowskiego 08
-1937	2	217465	26:23:00	26:23:00		Rejtana / Krzyżanowskiego 08
-1937	2	217465	26:24:00	26:24:00		Rejtana uniwersytet 06
-1937	2	217465	26:24:00	26:24:00		Rejtana uniwersytet 06
-1937	2	217465	26:25:00	26:25:00		Rejtana cmentarz 04 nż
-1937	2	217465	26:25:00	26:25:00		Rejtana cmentarz 04 nż
-1937	2	217465	26:26:00	26:26:00		Rejtana / Kustronia 02
-1937	2	217465	26:26:00	26:26:00		Rejtana / Kustronia 02
-1937	2	217465	26:28:00	26:28:00		Piłsudskiego ZDZ 02
-1937	2	217465	26:28:00	26:28:00		Piłsudskiego ZDZ 02
-1937	2	217465	26:29:00	26:29:00		Pl. Wolności 04
-1937	2	217465	26:29:00	26:29:00		Pl. Wolności 04
-1937	2	217465	26:31:00	26:31:00		Dworzec Główny PKP 01
-1937	2	217465	26:31:00	26:31:00		Dworzec Główny PKP 01
-
-1937	2	217521	26:52:00	26:52:00		Dworzec Główny PKP 01
-1937	2	217521	26:52:00	26:52:00		Dworzec Główny PKP 01
-1937	2	217521	26:53:00	26:53:00		Piłsudskiego U. Wojewódzki 06
-1937	2	217521	26:53:00	26:53:00		Piłsudskiego U. Wojewódzki 06
-1937	2	217521	26:55:00	26:55:00		Cieplińskiego 02
-1937	2	217521	26:55:00	26:55:00		Cieplińskiego 02
-1937	2	217521	26:56:00	26:56:00		Lisa-Kuli 01
-1937	2	217521	26:56:00	26:56:00		Lisa-Kuli 01
-1937	2	217521	26:58:00	26:58:00		Dąbrowskiego park 02 nż
-1937	2	217521	26:58:00	26:58:00		Dąbrowskiego park 02 nż
-1937	2	217521	26:59:00	26:59:00		Dąbrowskiego KW. Policji 04
-1937	2	217521	26:59:00	26:59:00		Dąbrowskiego KW. Policji 04
-1937	2	217521	27:00:00	27:00:00		Dąbrowskiego / Boh. Westerplatte 08
-1937	2	217521	27:00:00	27:00:00		Dąbrowskiego / Boh. Westerplatte 08
-1937	2	217521	27:01:00	27:01:00		Powst. Warszawy / Dąbrowskiego 02
-1937	2	217521	27:01:00	27:01:00		Powst. Warszawy / Dąbrowskiego 02
-1937	2	217521	27:02:00	27:02:00		Powst. Warszawy politechnika 04
-1937	2	217521	27:02:00	27:02:00		Powst. Warszawy politechnika 04
-1937	2	217521	27:03:00	27:03:00		Powst. Warszawy stadion 06
-1937	2	217521	27:03:00	27:03:00		Powst. Warszawy stadion 06
-1937	2	217521	27:04:00	27:04:00		Powst. Warszawy dom studenta 08
-1937	2	217521	27:04:00	27:04:00		Powst. Warszawy dom studenta 08
-1937	2	217521	27:05:00	27:05:00		Powst. Warszawy / Graniczna 10
-1937	2	217521	27:05:00	27:05:00		Powst. Warszawy / Graniczna 10
-1937	2	217521	27:06:00	27:06:00		Rejtana / Armii Krajowej 12
-1937	2	217521	27:06:00	27:06:00		Rejtana / Armii Krajowej 12
-1937	2	217521	27:07:00	27:07:00		Rejtana / Paderewskiego 10
-1937	2	217521	27:07:00	27:07:00		Rejtana / Paderewskiego 10
-1937	2	217521	27:08:00	27:08:00		Rejtana / Krzyżanowskiego 08
-1937	2	217521	27:08:00	27:08:00		Rejtana / Krzyżanowskiego 08
-1937	2	217521	27:09:00	27:09:00		Rejtana uniwersytet 06
-1937	2	217521	27:09:00	27:09:00		Rejtana uniwersytet 06
-1937	2	217521	27:10:00	27:10:00		Rejtana cmentarz 04 nż
-1937	2	217521	27:10:00	27:10:00		Rejtana cmentarz 04 nż
-1937	2	217521	27:11:00	27:11:00		Rejtana / Kustronia 02
-1937	2	217521	27:11:00	27:11:00		Rejtana / Kustronia 02
-1937	2	217521	27:13:00	27:13:00		Piłsudskiego ZDZ 02
-1937	2	217521	27:13:00	27:13:00		Piłsudskiego ZDZ 02
-1937	2	217521	27:14:00	27:14:00		Pl. Wolności 04
-1937	2	217521	27:14:00	27:14:00		Pl. Wolności 04
-1937	2	217521	27:16:00	27:16:00		Dworzec Główny PKP 01
-1937	2	217521	27:16:00	27:16:00		Dworzec Główny PKP 01
-
-1937	2	217164	27:37:00	27:37:00		Dworzec Główny PKP 01
-1937	2	217164	27:37:00	27:37:00		Dworzec Główny PKP 01
-1937	2	217164	27:38:00	27:38:00		Piłsudskiego U. Wojewódzki 06
-1937	2	217164	27:38:00	27:38:00		Piłsudskiego U. Wojewódzki 06
-1937	2	217164	27:40:00	27:40:00		Cieplińskiego 02
-1937	2	217164	27:40:00	27:40:00		Cieplińskiego 02
-1937	2	217164	27:41:00	27:41:00		Lisa-Kuli 01
-1937	2	217164	27:41:00	27:41:00		Lisa-Kuli 01
-1937	2	217164	27:43:00	27:43:00		Dąbrowskiego park 02 nż
-1937	2	217164	27:43:00	27:43:00		Dąbrowskiego park 02 nż
-1937	2	217164	27:44:00	27:44:00		Dąbrowskiego KW. Policji 04
-1937	2	217164	27:44:00	27:44:00		Dąbrowskiego KW. Policji 04
-1937	2	217164	27:45:00	27:45:00		Dąbrowskiego / Boh. Westerplatte 08
-1937	2	217164	27:45:00	27:45:00		Dąbrowskiego / Boh. Westerplatte 08
-1937	2	217164	27:46:00	27:46:00		Powst. Warszawy / Dąbrowskiego 02
-1937	2	217164	27:46:00	27:46:00		Powst. Warszawy / Dąbrowskiego 02
-1937	2	217164	27:47:00	27:47:00		Powst. Warszawy politechnika 04
-1937	2	217164	27:47:00	27:47:00		Powst. Warszawy politechnika 04
-1937	2	217164	27:48:00	27:48:00		Powst. Warszawy stadion 06
-1937	2	217164	27:48:00	27:48:00		Powst. Warszawy stadion 06
-1937	2	217164	27:49:00	27:49:00		Powst. Warszawy dom studenta 08
-1937	2	217164	27:49:00	27:49:00		Powst. Warszawy dom studenta 08
-1937	2	217164	27:50:00	27:50:00		Powst. Warszawy / Graniczna 10
-1937	2	217164	27:50:00	27:50:00		Powst. Warszawy / Graniczna 10
-1937	2	217164	27:51:00	27:51:00		Rejtana / Armii Krajowej 12
-1937	2	217164	27:51:00	27:51:00		Rejtana / Armii Krajowej 12
-1937	2	217164	27:52:00	27:52:00		Rejtana / Paderewskiego 10
-1937	2	217164	27:52:00	27:52:00		Rejtana / Paderewskiego 10
-1937	2	217164	27:53:00	27:53:00		Rejtana / Krzyżanowskiego 08
-1937	2	217164	27:53:00	27:53:00		Rejtana / Krzyżanowskiego 08
-1937	2	217164	27:54:00	27:54:00		Rejtana uniwersytet 06
-1937	2	217164	27:54:00	27:54:00		Rejtana uniwersytet 06
-1937	2	217164	27:55:00	27:55:00		Rejtana cmentarz 04 nż
-1937	2	217164	27:55:00	27:55:00		Rejtana cmentarz 04 nż
-1937	2	217164	27:56:00	27:56:00		Rejtana / Kustronia 02
-1937	2	217164	27:56:00	27:56:00		Rejtana / Kustronia 02
-1937	2	217164	27:58:00	27:58:00		Piłsudskiego ZDZ 02
-1937	2	217164	27:58:00	27:58:00		Piłsudskiego ZDZ 02
-1937	2	217164	27:59:00	27:59:00		Pl. Wolności 04
-1937	2	217164	27:59:00	27:59:00		Pl. Wolności 04
-1937	2	217164	28:01:00	28:01:00		Dworzec Główny PKP 01
-1937	2	217164	28:01:00	28:01:00		Dworzec Główny PKP 01
+1937	3	213759	22:28:00	22:28:00		Dworzec Główny PKP 01
+1937	3	213759	22:28:00	22:28:00		Dworzec Główny PKP 01
+1937	3	213759	22:29:00	22:29:00		Piłsudskiego U. Wojewódzki 06
+1937	3	213759	22:29:00	22:29:00		Piłsudskiego U. Wojewódzki 06
+1937	3	213759	22:31:00	22:31:00		Cieplińskiego 02
+1937	3	213759	22:31:00	22:31:00		Cieplińskiego 02
+1937	3	213759	22:32:00	22:32:00		Lisa-Kuli 01
+1937	3	213759	22:32:00	22:32:00		Lisa-Kuli 01
+1937	3	213759	22:34:00	22:34:00		Dąbrowskiego park 02 nż
+1937	3	213759	22:34:00	22:34:00		Dąbrowskiego park 02 nż
+1937	3	213759	22:35:00	22:35:00		Dąbrowskiego KW. Policji 04
+1937	3	213759	22:35:00	22:35:00		Dąbrowskiego KW. Policji 04
+1937	3	213759	22:36:00	22:36:00		Dąbrowskiego / Boh. Westerplatte 08
+1937	3	213759	22:36:00	22:36:00		Dąbrowskiego / Boh. Westerplatte 08
+1937	3	213759	22:38:00	22:38:00		Powst. Warszawy / Dąbrowskiego 02
+1937	3	213759	22:38:00	22:38:00		Powst. Warszawy / Dąbrowskiego 02
+1937	3	213759	22:39:00	22:39:00		Powst. Warszawy politechnika 04
+1937	3	213759	22:39:00	22:39:00		Powst. Warszawy politechnika 04
+1937	3	213759	22:40:00	22:40:00		Powst. Warszawy stadion 06
+1937	3	213759	22:40:00	22:40:00		Powst. Warszawy stadion 06
+1937	3	213759	22:42:00	22:42:00		Powst. Warszawy dom studenta 08
+1937	3	213759	22:42:00	22:42:00		Powst. Warszawy dom studenta 08
+1937	3	213759	22:43:00	22:43:00		Powst. Warszawy / Graniczna 10
+1937	3	213759	22:43:00	22:43:00		Powst. Warszawy / Graniczna 10
+1937	3	213759	22:45:00	22:45:00		Rejtana / Armii Krajowej 12
+1937	3	213759	22:45:00	22:45:00		Rejtana / Armii Krajowej 12
+1937	3	213759	22:46:00	22:46:00		Rejtana / Paderewskiego 10
+1937	3	213759	22:46:00	22:46:00		Rejtana / Paderewskiego 10
+1937	3	213759	22:47:00	22:47:00		Rejtana / Krzyżanowskiego 08
+1937	3	213759	22:47:00	22:47:00		Rejtana / Krzyżanowskiego 08
+1937	3	213759	22:48:00	22:48:00		Rejtana uniwersytet 06
+1937	3	213759	22:48:00	22:48:00		Rejtana uniwersytet 06
+1937	3	213759	22:49:00	22:49:00		Rejtana cmentarz 04 nż
+1937	3	213759	22:49:00	22:49:00		Rejtana cmentarz 04 nż
+1937	3	213759	22:50:00	22:50:00		Rejtana / Kustronia 02
+1937	3	213759	22:50:00	22:50:00		Rejtana / Kustronia 02
+1937	3	213759	22:52:00	22:52:00		Piłsudskiego ZDZ 02
+1937	3	213759	22:52:00	22:52:00		Piłsudskiego ZDZ 02
+1937	3	213759	22:53:00	22:53:00		Pl. Wolności 04
+1937	3	213759	22:53:00	22:53:00		Pl. Wolności 04
+1937	3	213759	22:55:00	22:55:00		Dworzec Główny PKP 01
+1937	3	213759	22:55:00	22:55:00		Dworzec Główny PKP 01
