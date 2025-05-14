@@ -122,7 +122,7 @@
 
         // Funkcja do sprawdzenia, czy użytkownik jest zalogowany
         function checkLogin() {
-            const user = JSON.parse(sessionStorage.getItem('user'));
+            const user = JSON.parse(localStorage.getItem('user'));
 
             // Jeśli nie ma użytkownika w sessionStorage, przekieruj na stronę logowania
             if (!user) {
@@ -136,7 +136,7 @@
         // Dodaj funkcję wylogowania
         document.getElementById('logout').addEventListener('click', function() {
             // Wyczyść sessionStorage
-            sessionStorage.clear();
+            localStorage.clear();
 
             // Przekieruj na stronę logowania
             window.location.href = '../../index.html';

@@ -289,7 +289,7 @@
         });
 
         function checkLogin() {
-            const user = JSON.parse(sessionStorage.getItem('user'));
+            const user = JSON.parse(localStorage.getItem('user'));
 
             if (!user) {
                 window.location.href = '../../zoltakartka.html';
@@ -367,7 +367,7 @@
         }
 
         document.getElementById('logout').addEventListener('click', function() {
-            sessionStorage.clear();
+            localStorage.clear();
             window.location.href = '../../index.html';
         });
 
@@ -961,34 +961,28 @@
                 }
             }
 
-            // SVG ikona z klasą blink
-
             const svgIkonaOFF = `
-    <svg xmlns="http://www.w3.org/2000/svg" height="16" viewBox="0 0 24 24" width="16" style="fill:red;">
-        <path d="m1 9 2 2c4.97-4.97 13.03-4.97 18 0l2-2C16.93 2.93 7.08 2.93 1 9zm8 8 3 3 3-3c-1.65-1.66-4.34-1.66-6 0zm-4-4 2 2c2.76-2.76 7.24-2.76 10 0l2-2C15.14 9.14 8.87 9.14 5 13z"></path>
-    </svg>
+<svg xmlns="http://www.w3.org/2000/svg" height="16" viewBox="0 0 24 24" width="16" style="fill:red;">
+    <path d="m1 9 2 2c4.97-4.97 13.03-4.97 18 0l2-2C16.93 2.93 7.08 2.93 1 9zm8 8 3 3 3-3c-1.65-1.66-4.34-1.66-6 0zm-4-4 2 2c2.76-2.76 7.24-2.76 10 0l2-2C15.14 9.14 8.87 9.14 5 13z"></path>
+</svg>
 `;
 
             const svgIkonaLOST = `
-    <svg xmlns="http://www.w3.org/2000/svg" height="16" viewBox="0 0 24 24" width="16" style="fill:yellow;">
-        <path d="m1 9 2 2c4.97-4.97 13.03-4.97 18 0l2-2C16.93 2.93 7.08 2.93 1 9zm8 8 3 3 3-3c-1.65-1.66-4.34-1.66-6 0zm-4-4 2 2c2.76-2.76 7.24-2.76 10 0l2-2C15.14 9.14 8.87 9.14 5 13z"></path>
-    </svg>
+<svg xmlns="http://www.w3.org/2000/svg" height="16" viewBox="0 0 24 24" width="16" style="fill:yellow;">
+    <path d="m1 9 2 2c4.97-4.97 13.03-4.97 18 0l2-2C16.93 2.93 7.08 2.93 1 9zm8 8 3 3 3-3c-1.65-1.66-4.34-1.66-6 0zm-4-4 2 2c2.76-2.76 7.24-2.76 10 0l2-2C15.14 9.14 8.87 9.14 5 13z"></path>
+</svg>
 `;
 
             const svgIkona = `
-        <svg xmlns="http://www.w3.org/2000/svg" height="16" viewBox="0 0 24 24" width="16" class="svg-blink">
-            <path d="m1 9 2 2c4.97-4.97 13.03-4.97 18 0l2-2C16.93 2.93 7.08 2.93 1 9zm8 8 3 3 3-3c-1.65-1.66-4.34-1.66-6 0zm-4-4 2 2c2.76-2.76 7.24-2.76 10 0l2-2C15.14 9.14 8.87 9.14 5 13z"></path>
-        </svg>
-    `;
+<svg xmlns="http://www.w3.org/2000/svg" height="16" viewBox="0 0 24 24" width="16" class="svg-blink">
+    <path d="m1 9 2 2c4.97-4.97 13.03-4.97 18 0l2-2C16.93 2.93 7.08 2.93 1 9zm8 8 3 3 3-3c-1.65-1.66-4.34-1.66-6 0zm-4-4 2 2c2.76-2.76 7.24-2.76 10 0l2-2C15.14 9.14 8.87 9.14 5 13z"></path>
+</svg>
+`;
 
-
-
-            // Iterujemy po pierwszej tabeli i uzupełniamy kolumnę LIVE
             for (const row of pierwszaTabela.rows) {
                 const brygada = row.cells[0].textContent.trim();
                 const numerAutobusu = mapaBrygadaNumer[brygada];
 
-                // Wyśrodkowanie zawartości komórki
                 const komorkaLive = row.cells[5];
                 const obecnaZawartosc = komorkaLive.textContent.trim();
 
@@ -999,59 +993,64 @@
                 const aktualnyStan = komorkaLive.getAttribute('data-live-state');
                 const licznikId = komorkaLive.getAttribute('data-timer-id');
 
-                // Jeśli jest nowy numer – nadpisujemy
                 if (numerAutobusu && numerAutobusu !== "null" && numerAutobusu !== "") {
                     komorkaLive.innerHTML = `
-        <div style="position: relative; display: inline-block; color: white;">
-            ${numerAutobusu}
-            <div style="position: absolute; top: -10px; right: -15px;">
-                ${svgIkona}
-            </div>
-        </div>`;
+<div style="position: relative; display: inline-block; color: white;">
+    ${numerAutobusu}
+    <div style="position: absolute; top: -10px; right: -15px;">
+        ${svgIkona}
+    </div>
+</div>`;
                     komorkaLive.removeAttribute('data-live-state');
                     komorkaLive.removeAttribute('data-timer-id');
                 } else if (regexNumeru.test(obecnaZawartosc)) {
-                    // Brak aktualizacji – tylko jeśli nie zostało wcześniej oznaczone
                     if (aktualnyStan !== 'yellow') {
+                        const now = new Date();
+                        const godzinaStartu = now.toTimeString().split(' ')[0]; // HH:MM:SS
                         const nowyLicznikId = `live-timer-${Math.floor(Math.random() * 1000000)}`;
+
                         komorkaLive.setAttribute('data-live-state', 'yellow');
                         komorkaLive.setAttribute('data-timer-id', nowyLicznikId);
 
                         komorkaLive.innerHTML = `
-            <div style="position: relative; display: inline-block;" class="live-stan-yellow">
-                ${obecnaZawartosc}
-                <div style="position: absolute; top: -10px; right: -15px;">
-                    ${svgIkonaLOST}
-                </div>
-                <div id="${nowyLicznikId}" class="live-timer">0s</div>
-            </div>`;
+<div style="position: relative; display: inline-block;" class="live-stan-yellow godzina-${godzinaStartu.replace(/:/g, '')}">
+    ${obecnaZawartosc}
+    <div style="position: absolute; top: -10px; right: -15px;">
+        ${svgIkonaLOST}
+    </div>
+    <div id="${nowyLicznikId}" class="live-timer">0s</div>
+</div>`;
 
-                        let seconds = 0;
-                        setInterval(() => {
+                        const interval = setInterval(() => {
                             const el = document.getElementById(nowyLicznikId);
                             if (el) {
-                                seconds++;
-                                el.textContent = `(${seconds} s.)`;
+                                const cell = el.closest('td');
+                                const wrapperDiv = el.closest('div[class*="godzina-"]');
+                                const match = [...wrapperDiv.classList].find(cls => cls.startsWith('godzina-'));
+                                if (match) {
+                                    const czasString = match.replace('godzina-', '');
+                                    const h = parseInt(czasString.slice(0, 2), 10);
+                                    const m = parseInt(czasString.slice(2, 4), 10);
+                                    const s = parseInt(czasString.slice(4, 6), 10);
+                                    const startTime = new Date();
+                                    startTime.setHours(h, m, s, 0);
+                                    const nowTime = new Date();
+                                    let seconds = Math.floor((nowTime - startTime) / 1000);
+                                    if (seconds < 0) seconds += 86400;
+                                    el.textContent = `(${seconds} s.)`;
+                                }
+                            } else {
+                                clearInterval(interval);
                             }
                         }, 1000);
                     }
-                    // Jeśli już żółte – nie ruszamy
                 } else {
-                    // Brak numeru – pokazujemy OFF tylko jeśli nie jest już w trybie żółtym
                     if (aktualnyStan !== 'yellow') {
                         komorkaLive.innerHTML = `${svgIkonaOFF}`;
                         komorkaLive.removeAttribute('data-live-state');
                         komorkaLive.removeAttribute('data-timer-id');
                     }
                 }
-
-
-
-
-
-
-
-
             }
         }
 

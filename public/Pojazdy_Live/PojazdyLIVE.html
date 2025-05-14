@@ -254,6 +254,7 @@
     <div id="filtrowanie" style="width: 70%;">
 
     </div>
+    <h3 style="margin: 0px; color: orange;">Pamiętaj o wyborze rozkładu!</h3>
     <button id="dodajPojazd" style="display: none;">Dodaj pojazd</button>
 
 
@@ -304,7 +305,7 @@
         const user = JSON.parse(sessionStorage.getItem('user'));
 
         function checkLogin() {
-            const user = JSON.parse(sessionStorage.getItem('user'));
+            const user = JSON.parse(localStorage.getItem('user'));
             if (!user) {
                 window.location.href = '../zoltakartka.html';
             }
@@ -316,7 +317,7 @@
 
 
         document.getElementById('logout').addEventListener('click', function() {
-            sessionStorage.clear();
+            localStorage.clear();
             window.location.href = '../index.html';
         });
 
@@ -492,6 +493,7 @@
             if (!dzienSelect) {
                 dzienSelect = document.createElement('select');
                 dzienSelect.id = 'dzienSelect';
+                dzienSelect.style.color = "orange";
                 dzienSelect.style.marginLeft = '10px';
                 dzienSelect.style.maxWidth = '100%';
 
@@ -586,6 +588,7 @@
             return sign * (minutes * 60 + seconds);
         }
 
+        /*
         function LoadBrygada(godzinaOdjazdu, kierunek, dzien, linia, callback) {
             fetch(`/api/brygada?godzina=${encodeURIComponent(godzinaOdjazdu)}&kierunek=${encodeURIComponent(kierunek)}&dzien=${encodeURIComponent(dzien)}&nr=${encodeURIComponent(linia)}`)
 
@@ -602,12 +605,12 @@
                     callback('Błąd');
                 });
         }
+        */
 
 
 
         function loadAndRenderTable(dzien) {
             dzien = dzien || (document.getElementById('dzienSelect')?.value || activeDzien);
-
 
             const scrollTop = window.scrollY;
             const activeElement = document.activeElement;
@@ -634,6 +637,7 @@
 
                     vehicles.forEach(v => {
                         const nb = v.getAttribute("nb");
+                        const brygada = v.getAttribute("kwi");
                         let nr = v.getAttribute("nr") || '';
                         const nnr = v.getAttribute("nnr") || '';
 
@@ -672,9 +676,6 @@
                                 nr = `<span style="color: gray">${nnr}</span>`;
                             }
 
-
-
-
                             const now = new Date();
                             now.setSeconds(now.getSeconds() + totalSeconds);
 
@@ -694,7 +695,6 @@
                         const matched = modelMap.find(entry => !entry.isCategory && entry.entries.includes(nbNum));
                         const model = matched ? matched.model : 'N/A';
 
-                        // Jeśli kierunek zawiera "p.", to umieszczamy resztę w <span>
                         let formattedOp = op;
                         const pIndex = op.toLowerCase().indexOf("p.");
                         if (pIndex !== -1) {
@@ -705,67 +705,31 @@
 
                         const row = document.createElement("tr");
                         row.innerHTML = `
-    <td>${nb}</td>
-    <td style="display: none;">${model}</td>
-    <td>${formattedTimeReal}</td>
-    <td>${nr}</td>
-    <td>${formattedOp}</td>
-    <td style="display: none;">${nop}</td>
-    <td>${p}</td>
+<td>${nb}</td>
+<td style="display: none;">${model}</td>
+<td>${brygada}</td>
+<td>${formattedTimeReal}</td>
+<td>${nr}</td>
+<td>${formattedOp}</td>
+<td style="display: none;">${nop}</td>
+<td>${p}</td>
 `;
 
                         tbody.appendChild(row);
 
-                        const godzinaOdjazdu = row.cells[6].textContent.trim();
-                        const kierunek = row.cells[4].textContent.trim();
-                        const linia = row.cells[3].textContent.trim(); // nr
-
-                        const cellBrygada = row.insertCell(2);
+                        // const cellBrygada = row.insertCell(2);
                         const cellLinie = row.cells[4];
 
-                        // Funkcja LoadBrygada, która zwraca brygadę i linię
-                        LoadBrygada(godzinaOdjazdu, kierunek, activeDzien, linia, function(brygada, linia) {
+                        if (cellLinie.textContent.trim() === "") {
+                            cellLinie.textContent = linia;
+                            cellLinie.style.color = 'grey';
 
+                            const cellKierunek = row.cells[5];
+                            cellKierunek.style.color = 'grey';
 
-                            // Sprawdzamy, czy brygada zawiera "Folder:" i usuwamy go
-                            if (brygada.includes("Folder:")) {
-                                brygada = brygada.replace("Folder:", "").trim(); // Usuwamy "Folder:" i przycinamy nadmiarowe spacje
-                            }
-
-                            // Zamiana "_" na "/"
-                            brygada = brygada.replace(/_/g, "/");
-
-                            // Ustawienie brygady w komórce
-                            if (cellBrygada.textContent.trim() !== brygada) {
-                                cellBrygada.textContent = brygada;
-                            }
-
-
-                            // Sprawdzamy, czy komórka "linie" zawiera jakąkolwiek wartość (nie jest pusta)
-                            if (cellLinie.textContent.trim() === "") {
-                                // Nadpisanie wartości linii, jeśli komórka nie jest pusta
-                                cellLinie.textContent = linia;
-                                // Zmiana koloru na różowy
-                                cellLinie.style.color = 'grey';
-
-                                // Zmiana koloru również w kolumnie Kierunek
-                                const cellKierunek = row.cells[5];
-                                cellKierunek.style.color = 'grey';
-
-                                const cellOpoznienie = row.cells[3];
-                                cellOpoznienie.style.color = 'white';
-                            }
-
-                        });
-
-
-
-
-
-
-
-
-
+                            const cellOpoznienie = row.cells[3];
+                            cellOpoznienie.style.color = 'white';
+                        }
                     });
 
                     applyFilters();
@@ -782,6 +746,7 @@
                     console.error('Błąd przy pobieraniu danych:', error);
                 });
         }
+
 
         fetch('ModeleAutobusow.txt')
             .then(response => response.text())

@@ -143,7 +143,21 @@
     </table>
 
     <script>
+        function checkLogin() {
+            const user = JSON.parse(localStorage.getItem('user'));
+
+            if (!user) {
+                window.location.href = '../../zoltakartka.html';
+            }
+        }
+
+        document.getElementById('logout').addEventListener('click', function() {
+            localStorage.clear();
+            window.location.href = '../../index.html';
+        });
+
         async function fetchAndDisplayData() {
+            checkLogin();
             try {
                 function getFolderName() {
                     const path = window.location.pathname;
