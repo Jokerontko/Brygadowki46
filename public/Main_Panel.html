@@ -17,9 +17,10 @@
             color: white;
         }
 
-        h1 {
+        h1,
+        h3 {
             font-size: 2rem;
-            margin: 40px 20px 20px;
+            margin: 40px 20px -10px;
 
         }
 
@@ -302,19 +303,22 @@
 
 
 <body>
+
     <header>
+        <a href="Wybor_Miasta.html" class="menu" style="border-color: orange; display: none;" id="adminpanel">Wybór Miasta</a>
         <a href="Main_Panel.html" class="menu">Panel Główny</a>
         <a href="Przystanki/listaprzystankow.html" class="menu">Przystanki</a>
         <a href="Brygady/ChooseDay.html" class="menu">Brygady</a>
         <a href="Brygady/Kursy/Kursy.html" class="menu">Kursy</a>
         <a href="Pojazdy_Live/PojazdyLIVE.html" class="menu">Pojazdy LIVE</a>
-        <a href="Pojazdy_Live/MYBUSTEST.html" id="adminpanel" class="hidden">Admin</a>
         <a href="#" class="menu exit" id="logout">Opuść Panel</a>
-        <hr>
+
+
+
     </header>
-    <center>
-        <h1 id="welcome-message"></h1>
-    </center>
+    <hr>
+    <h1 id="welcome-message"></h1><br>
+    <h3 style="font-size: 20px; margin-top: 0px;" id="choosedcity">Miasto: </h3>
     <div class="flex-container">
         <div id="callendar">
             <center>
@@ -400,10 +404,15 @@
             // Wstaw powitanie z imieniem użytkownika do nagłówka H1
             document.getElementById('welcome-message').textContent = `${greeting}, ${user.name}!`;
 
-            if (user.name === "#Marek") {
-                document.getElementById('adminpanel').classList.remove('hidden');
-                document.getElementById('adminpanel').classList.add('menuadmin');
+            const zapisaneMiasto = localStorage.getItem('Miasto');
+            if (zapisaneMiasto) {
+                document.getElementById('choosedcity').textContent = 'Miasto: ' + zapisaneMiasto + '.';
             }
+            if (user.name === "#Marek") {
+                const adminPanel = document.getElementById('adminpanel');
+                adminPanel.style.display = ''; // usuwa inline display:none, więc element stanie się widoczny (jeśli nie jest ukryty w CSS)
+            }
+
         }
 
 
@@ -492,6 +501,11 @@
             if (!user) {
                 window.location.href = 'zoltakartka.html';
             }
+            /*
+                        if (!localStorage.getItem('Miasto')) {
+                            window.location.href = 'Wybor_Miasta.html';
+                        }
+            */
         }
 
         window.onload = async function() {
@@ -500,10 +514,7 @@
         };
 
 
-        document.getElementById('logout').addEventListener('click', function() {
-            localStorage.clear();
-            window.location.href = 'index.html';
-        });
+
 
 
 
@@ -742,6 +753,101 @@
                     console.error("Błąd wczytywania pliku: ", error);
                     document.getElementById("schedule-table").innerHTML = "<tr><td colspan='2'>Błąd ładowania</td></tr>";
                 });
+        });
+
+        /*
+        ======================================================================================================
+         */
+
+        document.addEventListener("DOMContentLoaded", async () => {
+            const miasto = localStorage.getItem("Miasto");
+            if (!miasto) return;
+
+            const header = document.querySelector("header");
+            if (!header) return;
+
+            async function fetchTextFile(path) {
+                const response = await fetch(path);
+                return await response.text();
+            }
+
+            function parseMiasta(txt, szukaneMiasto) {
+                txt = txt.replace(/\r/g, '');
+                const bloki = txt.split('\n\n');
+                for (const blok of bloki) {
+                    const linie = blok.trim().split('\n');
+                    if (linie[0].trim() === szukaneMiasto) {
+                        const widoczneMenu = {};
+                        for (let i = 2; i < linie.length; i++) {
+                            const [klucz, wartosc] = linie[i].split(':').map(s => s.trim());
+                            widoczneMenu[klucz] = (wartosc.toUpperCase() === 'TAK');
+                        }
+                        return widoczneMenu;
+                    }
+                }
+                return {};
+            }
+
+            function normalizeKey(s) {
+                return s.toLowerCase().trim();
+            }
+
+            try {
+                const miastaText = await fetchTextFile("miasta.txt");
+                const doDodania = parseMiasta(miastaText, miasto);
+
+                const doDodaniaNormalized = {};
+                for (const key in doDodania) {
+                    doDodaniaNormalized[normalizeKey(key)] = doDodania[key];
+                }
+
+                const zawszeAktywne = [
+                    "wybór miasta",
+                    "panel główny",
+                    "opuść panel"
+                ];
+
+                const linki = header.querySelectorAll("a.menu");
+                linki.forEach(link => {
+                    const tekst = link.textContent.trim();
+                    const normTekst = normalizeKey(tekst);
+
+                    if (zawszeAktywne.includes(normTekst)) {
+                        link.style.color = "";
+                        link.style.pointerEvents = "";
+                        link.style.opacity = "";
+                        return;
+                    }
+
+                    if (normTekst in doDodaniaNormalized) {
+                        if (doDodaniaNormalized[normTekst]) {
+                            link.style.color = "";
+                            link.style.pointerEvents = "";
+                            link.style.opacity = "";
+                        } else {
+                            link.style.color = "gray";
+                            link.style.pointerEvents = "none";
+                            link.style.opacity = "0.5";
+                        }
+                    } else {
+                        link.style.color = "gray";
+                        link.style.pointerEvents = "none";
+                        link.style.opacity = "0.5";
+                    }
+                });
+
+                const logoutBtn = document.getElementById('logout');
+                if (logoutBtn) {
+                    logoutBtn.addEventListener('click', function() {
+                        const miasto = localStorage.getItem('Miasto');
+                        localStorage.clear();
+                        localStorage.setItem('Miasto', miasto);
+                        window.location.href = 'index.html';
+                    });
+                }
+            } catch (error) {
+                console.error("Błąd podczas ładowania danych:", error);
+            }
         });
 
     </script>

@@ -251,10 +251,10 @@
     <h1>Pojazdy LIVE</h1>
     <p style="margin: 0px 0px 15px 0px;">Dostęp testowy</p>
 
-    <div id="filtrowanie" style="width: 70%;">
+    <div id="filtrowanie" style="width: 70%; text-align: center;">
 
     </div>
-    <h3 style="margin: 0px; color: orange;">Pamiętaj o wyborze rozkładu!</h3>
+    <p style="margin: 0px; color: orange; text-align: center;">Strona pobiera typ rozkładu z kalendarza i aktualizuje go po każdym odświeżeniu strony. Co to oznacza w praktyce? W nocy z piątku na sobotę po północy po wybraniu np. brygady N1/1,<br> to strona przeniesie na brygadę N1/1 ale dla dnia Sobotniego, a nie powszedniego. W takiej sytuacji po prostu trzeba ręcznie wybrać rozkład na górze strony.</p>
     <button id="dodajPojazd" style="display: none;">Dodaj pojazd</button>
 
 
@@ -329,7 +329,10 @@
         let activeLineFilter = '';
         let activeBusNumberFilter = '';
         let wartoscdnia = ""; // domyślnie np. "Powszedni"
-        let activeDzien = "2"; // Domyślnie Powszedni
+        let activeDzien = "";
+
+
+
 
 
         function parseModelFile(text) {
@@ -732,6 +735,21 @@
                         }
                     });
 
+                    // Sprawdzenie, czy są jakieś wiersze
+                    if (tbody.children.length === 0) {
+                        const tr = document.createElement("tr");
+                        const td = document.createElement("td");
+                        td.setAttribute("colspan", "8"); // dopasuj liczbę kolumn do swojej tabeli
+                        td.style.textAlign = "center";
+                        td.style.fontStyle = "italic";
+                        td.innerHTML = `Hm, dziwne. Albo system wywaliło albo jest problem z mojej strony. <br> Zgłoś mi ten kod:  <b>[ERROR 27: Rows didn't find]</b> a ja postaram się to ogarnąć`;
+
+
+                        tr.appendChild(td);
+                        tbody.appendChild(tr);
+                    }
+
+
                     applyFilters();
 
                     if (wasFocused) {
@@ -748,29 +766,69 @@
         }
 
 
-        fetch('ModeleAutobusow.txt')
-            .then(response => response.text())
-            .then(text => {
-                checkLogin();
-                parseModelFile(text);
-                loadAndRenderTable();
-                setInterval(() => {
+        document.addEventListener("DOMContentLoaded", async function() {
+            const activeDzien = await getScheduleType(); // poczekaj na typ rozkładu
+            sessionStorage.setItem('activeDzien', activeDzien); // zapisz do sessionStorage
+            console.log("Ustalony typ rozkładu:", activeDzien);
+
+            // Załaduj ModeleAutobusow.txt dopiero po ustaleniu activeDzien
+            fetch('ModeleAutobusow.txt')
+                .then(response => response.text())
+                .then(text => {
+                    checkLogin();
+                    parseModelFile(text);
                     loadAndRenderTable();
-                    aktualizujUlubione();
-                }, 20000);
-            })
-            .catch(err => console.error('Błąd ładowania pliku modeli:', err));
+                    setInterval(() => {
+                        loadAndRenderTable();
+                        aktualizujUlubione();
+                    }, 20000);
+                })
+                .catch(err => console.error('Błąd ładowania pliku modeli:', err));
+        });
 
-        function sprawdzDostepnosc() {
-            console.log("Sprawdzanie dostępności...");
+        async function getScheduleType() {
+            const today = new Date();
+            const day = String(today.getDate()).padStart(2, '0');
+            const month = String(today.getMonth() + 1).padStart(2, '0');
+            const shortToday = `${day}.${month}.`;
+
+            try {
+                const response = await fetch("../Brygady/Callendar.txt");
+                const text = await response.text();
+
+                const lines = text.split("\n");
+                const scheduleData = {};
+                for (let line of lines) {
+                    const parts = line.split("\t");
+                    if (parts.length >= 2) {
+                        const dateParts = parts[0].trim().split(".");
+                        if (dateParts.length === 3) {
+                            const shortDate = `${dateParts[0]}.${dateParts[1]}.`;
+                            const typRozkladu = parts[1].trim(); // tylko druga kolumna – typ rozkładu
+                            scheduleData[shortDate] = typRozkladu;
+                        }
+                    }
+                }
+
+                const dzisiejszyRozklad = scheduleData[shortToday];
+                console.log("Dzisiejszy typ rozkładu:", dzisiejszyRozklad);
+
+                switch (dzisiejszyRozklad) {
+                    case "Rozkład Niedzielny":
+                        return "1";
+                    case "Rozkład Szkolny":
+                        return "2";
+                    case "Rozkład Powszedni Wolny":
+                        return "3";
+                    case "Rozkład Sobotni":
+                        return "4";
+                }
+
+            } catch (error) {
+                console.error("Błąd podczas przetwarzania Callendar.txt:", error);
+
+            }
         }
-
-
-
-
-
-
-
 
 
         document.getElementById("wykazstrony").addEventListener("click", async function(e) {
@@ -781,10 +839,8 @@
                 const modifiedBrygada = brygada.replace(/\//g, '_');
                 sessionStorage.setItem('brygadaTitle', modifiedBrygada);
 
-                // Pobierz activeDzien z sessionStorage
                 const activeDzien = sessionStorage.getItem('activeDzien') || '2';
 
-                // Określ JakiTYPdnia
                 let JakiTYPdnia = "Powszedni";
                 let rodzajDniaForFile = 2;
                 switch (activeDzien) {
@@ -804,7 +860,6 @@
 
                 const filePath = `../../../Brygady/WYNIKI/Gotowe_brygady/${rodzajDniaForFile}/Brygady_BIS.txt`;
                 sessionStorage.setItem('ChoosedTypeOfDay', rodzajDniaForFile);
-
 
                 try {
                     const response = await fetch(filePath);
@@ -849,7 +904,6 @@
                     console.error('Błąd podczas pobierania lub przetwarzania pliku:', error);
                 }
 
-                // Przekierowanie
                 window.location.href = `../Brygady/${JakiTYPdnia}/brygada.html`;
             }
         });

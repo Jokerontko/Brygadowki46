@@ -120,13 +120,15 @@
 <body>
     <header>
         <a href="../../Main_Panel.html" class="menu">Panel Główny</a>
+        <a href="../../Przystanki/listaprzystankow.html" class="menu">Przystanki</a>
         <a href="../ChooseDay.html" class="menu">Brygady</a>
         <a href="../../Brygady/Kursy/Kursy.html" class="menu">Kursy</a>
         <a href="../../Pojazdy_Live/PojazdyLIVE.html" class="menu">Pojazdy LIVE</a>
         <a href="#" class="menu exit" id="logout">Opuść Panel</a>
         <hr>
     </header>
-    <h2>Lista rezerw</h2>
+    <h1 style="margin-bottom: 5px;">Lista rezerw</h1>
+    <h4></h4><br>
 
     <table>
         <thead>
@@ -154,6 +156,20 @@
         document.getElementById('logout').addEventListener('click', function() {
             localStorage.clear();
             window.location.href = '../../index.html';
+        });
+
+        document.addEventListener("DOMContentLoaded", function() {
+            // Funkcja do pobrania nazwy folderu
+            function getFolderName() {
+                // Użyj lokalizacji do uzyskania ścieżki
+                const path = window.location.pathname;
+                const folderName = path.substring(0, path.lastIndexOf('/')).split('/').pop();
+                return folderName;
+            }
+
+            // Uzupełnij tytuł o nazwę folderu
+            const folderName = getFolderName();
+            document.querySelector('h4').innerHTML = `Rozkład ${folderName}`;
         });
 
         async function fetchAndDisplayData() {

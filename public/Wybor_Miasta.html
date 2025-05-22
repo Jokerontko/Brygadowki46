@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>Strona Główna</title>
+    <link rel="stylesheet" href="style_css/headermenu.css">
+    <link rel="icon" type="image/x-icon" href="Photos/favicon.png">
+    <style>
+        body {
+            background: rgb(50, 50, 50);
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin: 40px 20px 20px;
+
+        }
+
+        .button-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            max-width: 400px;
+            margin-bottom: 20px;
+        }
+
+        .choose,
+        .chooseextra-open,
+        .chooseextra-close {
+            text-decoration: none;
+            color: white;
+            border-radius: 10px;
+            padding: 10px;
+            transition: all 0.3s ease;
+            font-size: 1rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+
+        .choose:hover,
+        .chooseextra-open:hover,
+        .chooseextra-close:hover {
+            background-color: orange;
+            transform: scale(1.05);
+        }
+
+        .NEWSsmallleters {
+            color: gray;
+        }
+
+        article {
+            border: 3px solid orange;
+            border-radius: 10px;
+            max-width: 60vw;
+            margin-bottom: 20px;
+        }
+
+        .content p {
+            font-size: 1rem;
+            margin: 25px;
+        }
+
+        img {
+            width: 70%;
+            max-width: 700px;
+            border-radius: 5px;
+        }
+
+        hr.line {
+            border: none;
+            border-top: 2px dotted white;
+            width: 80vw;
+            /* Zmieniono z 100% na 100vw */
+            margin: 0;
+            /* Usunięto marginesy */
+            position: relative;
+            /* Może być przydatne, aby uniknąć problemów z pozycjonowaniem */
+            left: 50%;
+            /* Ustawienie na środek */
+            transform: translateX(-50%);
+            /* Przesunięcie w lewo o 50% szerokości, aby centrować */
+        }
+
+
+        .NothingToFind {
+            color: grey;
+            display: center;
+            display: flex;
+            display: grid;
+        }
+
+        .NEWScategory {
+            border: 3px solid orange;
+            padding: 10px;
+            border-radius: 0px 10px 0px 10px;
+            display: block;
+            width: auto;
+            position: absolute;
+            text-align: center;
+            right: -1px;
+            /* Wyrównuje do prawej strony */
+            top: -20px;
+            /* Dopasuj do odpowiedniej wysokości */
+            font-size: 22px;
+            background-color: orange;
+        }
+
+
+        .NEWStitle {
+            padding: 7px;
+            border-radius: 5px 5px;
+            display: block;
+            width: auto;
+            position: absolute;
+            text-align: center;
+            left: 10px;
+            /* Wyrównuje do prawej strony */
+            top: 40px;
+            /* Dopasuj do odpowiedniej wysokości */
+        }
+
+        .smallletters {
+            font-size: 10px;
+            color: grey;
+            text-align: center;
+            margin-bottom: 10px;
+            display: block;
+
+
+        }
+
+        .image {
+            max-width: 30vw;
+            max-height: 30vw;
+            margin: auto;
+            display: block;
+            margin-bottom: -10px;
+            margin-top: -20px;
+        }
+
+        .ShowPhoto {
+            text-decoration: none;
+            color: white;
+            border: 1.5px solid;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 5px 5px 5px;
+            width: auto;
+
+        }
+
+        .hidden {
+            display: none;
+
+        }
+
+        #date {
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+        }
+
+        #NrOfDay {
+            font-size: 90px;
+        }
+
+        #Name_day {
+            color: gray;
+        }
+
+        #Type_of_rozklad {
+            color: orange;
+        }
+
+        @media (min-width: 774px) {
+            .flex-container {
+                display: flex;
+                flex-direction: row;
+                margin: 30px;
+            }
+
+            #callendar {
+                align-items: center;
+                /* Wyśrodkowanie pionowe */
+                justify-content: center;
+                /* Wyśrodkowanie poziome */
+                border: 2px solid;
+                padding: 15px;
+                width: 250px;
+                height: 350px;
+            }
+        }
+
+        .callendar2 {
+            align-items: center;
+            /* Wyśrodkowanie pionowe */
+            justify-content: center;
+            /* Wyśrodkowanie poziome */
+            border: 2px solid;
+            padding: 15px;
+            width: 250px;
+            height: 350px;
+        }
+
+
+        @media (max-width: 774px) {
+
+            .flex-container {
+                margin: 20px;
+            }
+
+            .NewsSection {
+                margin-top: 20px;
+                padding: 20px;
+            }
+
+            .NEWSTytul {
+                color: rgb(50, 50, 50);
+            }
+
+            #callendar {
+                margin: auto;
+                border: 2px solid;
+                padding: 15px;
+                width: 250px;
+                height: 300px;
+            }
+
+        }
+
+        #news-articles {
+            margin-left: 5vw;
+            margin-right: 5vw;
+            min-width: 200px;
+        }
+
+        .NEWSTable {
+            padding: 20px;
+
+        }
+
+        .NEWSup {
+            line-height: 0.7;
+        }
+
+        h3 del {
+            color: gray;
+            text-decoration-color: white;
+        }
+
+        h3 strong {
+            color: red;
+        }
+
+        h3 orange {
+            color: orange;
+        }
+
+        .NewsSection {
+            position: relative;
+            margin-left: 30px;
+            margin-right: 20px;
+            padding: 20px;
+            right: 0;
+            left: 0;
+            max-width: 100%;
+            align-content: center;
+            background-color: rgb(45, 45, 45);
+            border: 2px solid white;
+            border-radius: 3px;
+            min-width: 70%;
+
+
+        }
+
+        .NEWSbutton {
+            display: inline-block;
+            text-decoration: none;
+            color: white;
+            border: 1.5px solid;
+            border-radius: 5px;
+            padding: 10px 20px;
+            margin: 5px 5px 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .NEWSbutton:hover {
+            border-color: orange;
+            background-color: rgba(255, 165, 0, 0.2);
+            color: white;
+
+        }
+
+    </style>
+</head>
+
+
+<body>
+    <header>
+        <a href="Main_Panel.html" class="menu">Panel Główny</a>
+        <a href="Przystanki/listaprzystankow.html" class="menu">Przystanki</a>
+        <a href="Brygady/ChooseDay.html" class="menu">Brygady</a>
+        <a href="Brygady/Kursy/Kursy.html" class="menu">Kursy</a>
+        <a href="Pojazdy_Live/PojazdyLIVE.html" class="menu">Pojazdy LIVE</a>
+        <a href="Pojazdy_Live/MYBUSTEST.html" id="adminpanel" class="hidden">Admin</a>
+        <a href="#" class="menu exit" id="logout">Opuść Panel</a>
+        <hr>
+    </header>
+
+    <div style="text-align: center;">
+        <h1 style="margin-top: 50px;">Wybierz miasto</h1>
+        <div id="miasta-container"></div>
+    </div>
+
+    <script>
+        async function wczytajMiasta() {
+            try {
+                const response = await fetch('miasta.txt');
+                const text = await response.text();
+
+                const blokiMiast = text.trim().split(/\n\s*\n/); // podział po pustych liniach
+
+                const container = document.getElementById('miasta-container');
+                container.innerHTML = ''; // wyczyść kontener
+
+                blokiMiast.forEach(blok => {
+                    const linie = blok.trim().split('\n').filter(x => x);
+                    if (linie.length < 2) return;
+
+                    const nazwaMiasta = linie[0].replace(/^\$/, '').trim();
+                    const activeStatus = linie[1].replace(/^\$/, '').trim().toUpperCase();
+                    const wartosci = linie.slice(2); // bez nazwy i statusu
+
+                    const link = document.createElement('a');
+                    link.href = "Main_Panel.html";
+                    link.className = "menu miasto";
+                    link.style.display = "inline-block";
+                    link.style.width = "300px";
+                    link.style.marginBottom = "30px";
+                    link.style.textAlign = "left";
+                    link.style.padding = "10px";
+                    link.style.border = "2px solid white";
+                    link.style.borderRadius = "10px";
+
+                    // Nieaktywne miasto – wyszarzenie i brak klikalności
+                    if (activeStatus === 'DISABLED') {
+                        link.style.borderColor = 'gray';
+                        link.style.pointerEvents = 'none';
+                        link.style.opacity = '0.5';
+                        link.style.cursor = 'not-allowed';
+                        link.title = "Miasto nieaktywne";
+                    }
+
+                    // Główna nazwa miasta
+                    const naglowek = document.createElement('div');
+                    naglowek.textContent = nazwaMiasta;
+                    naglowek.style.marginBottom = "5px";
+                    naglowek.style.textAlign = "center";
+                    naglowek.style.fontSize = "150%";
+                    naglowek.style.fontWeight = "bold";
+                    link.appendChild(naglowek);
+
+                    // Dodaj parametry
+                    wartosci.forEach(wartosc => {
+                        const div = document.createElement('div');
+                        div.style.fontSize = '15px';
+
+                        // Zamień TAK/NIE na kolorowe wersje
+                        const html = wartosc
+                            .replace(/TAK/g, '<span style="color: green;">TAK</span>')
+                            .replace(/NIE/g, '<span style="color: red;">NIE</span>');
+
+                        div.innerHTML = html;
+                        link.appendChild(div);
+                    });
+
+                    // Kliknięcie zapisuje miasto – tylko jeśli aktywne
+                    if (activeStatus === 'ACTIVE') {
+                        link.addEventListener('click', () => {
+                            localStorage.setItem('Miasto', nazwaMiasta);
+                        });
+                    }
+
+                    container.appendChild(link);
+                    container.appendChild(document.createElement('br'));
+                });
+
+            } catch (err) {
+                console.error('Błąd przy wczytywaniu pliku miasta.txt:', err);
+            }
+        }
+
+        wczytajMiasta();
+
+    </script>
+
+
+
+</body>
+
+
+</html>
