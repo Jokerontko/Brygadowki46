@@ -29,8 +29,9 @@
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 20px;
-            max-width: 400px;
+            max-width: 500px;
             margin-bottom: 20px;
+            text-align: center;
         }
 
         .choose {
@@ -101,13 +102,169 @@
     <h1>WYBIERZ TYP DNIA</h1>
 
     <div class="button-container">
-        <a href="szczegoly.html" class="choose" id="roboczy">Roboczy</a>
-        <a href="szczegoly.html" class="choose" id="roboczy-wolny">Roboczy Wolny</a>
-        <a href="szczegoly.html" class="choose" id="sobota">Sobota</a>
-        <a href="szczegoly.html" class="choose" id="niedziela">Niedziela</a>
+
     </div>
 
     <script>
+        document.addEventListener("DOMContentLoaded", async () => {
+            const miasto = localStorage.getItem("Miasto");
+            if (!miasto) return;
+
+            const header = document.querySelector("header");
+            if (!header) return;
+
+            async function fetchTextFile(path) {
+                const response = await fetch(path);
+                return await response.text();
+            }
+
+            function parseMiasta(txt, szukaneMiasto) {
+                txt = txt.replace(/\r/g, '');
+                const bloki = txt.split('\n\n');
+                for (const blok of bloki) {
+                    const linie = blok.trim().split('\n');
+                    if (linie[0].trim() === szukaneMiasto) {
+                        const widoczneMenu = {};
+                        for (let i = 2; i < linie.length; i++) {
+                            const [klucz, wartosc] = linie[i].split(':').map(s => s.trim());
+                            widoczneMenu[klucz] = (wartosc.toUpperCase() === 'TAK');
+                        }
+                        return widoczneMenu;
+                    }
+                }
+                return {};
+            }
+
+            function normalizeKey(s) {
+                return s.toLowerCase().trim();
+            }
+
+            try {
+                const miastaText = await fetchTextFile("../../miasta.txt");
+                const doDodania = parseMiasta(miastaText, miasto);
+
+                const doDodaniaNormalized = {};
+                for (const key in doDodania) {
+                    doDodaniaNormalized[normalizeKey(key)] = doDodania[key];
+                }
+
+                const zawszeAktywne = [
+                    "wybór miasta",
+                    "panel główny",
+                    "opuść panel"
+                ];
+
+                const linki = header.querySelectorAll("a.menu");
+                linki.forEach(link => {
+                    const tekst = link.textContent.trim();
+                    const normTekst = normalizeKey(tekst);
+
+                    if (zawszeAktywne.includes(normTekst)) {
+                        link.style.color = "";
+                        link.style.pointerEvents = "";
+                        link.style.opacity = "";
+                        return;
+                    }
+
+                    if (normTekst in doDodaniaNormalized) {
+                        if (doDodaniaNormalized[normTekst]) {
+                            link.style.color = "";
+                            link.style.pointerEvents = "";
+                            link.style.opacity = "";
+                        } else {
+                            link.style.color = "gray";
+                            link.style.pointerEvents = "none";
+                            link.style.opacity = "0.5";
+                        }
+                    } else {
+                        link.style.color = "gray";
+                        link.style.pointerEvents = "none";
+                        link.style.opacity = "0.5";
+                    }
+                });
+
+                const logoutBtn = document.getElementById('logout');
+                if (logoutBtn) {
+                    logoutBtn.addEventListener('click', function() {
+                        const miasto = localStorage.getItem('Miasto');
+                        localStorage.clear();
+                        localStorage.setItem('Miasto', miasto);
+                        window.location.href = 'index.html';
+                    });
+                }
+            } catch (error) {
+                console.error("Błąd podczas ładowania danych:", error);
+            }
+        });
+
+
+
+
+
+
+
+
+
+        async function generateButtons() {
+            const miasto = localStorage.getItem('Miasto') || 'Rzeszów';
+            const container = document.querySelector('.button-container');
+
+            try {
+                const response = await fetch(`/api/brygady-folders?miasto=${encodeURIComponent(miasto)}`);
+
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}`);
+                }
+
+                const folders = await response.json();
+                console.log('Odpowiedź z serwera:', folders);
+
+                if (!Array.isArray(folders)) {
+                    throw new Error('Nieprawidłowy format odpowiedzi');
+                }
+
+                const nameMap = {
+                    'Powszedni': 'Powszedni',
+                    'PowszedniWolny': 'Powszedni Wolny',
+                    'Sobotni': 'Sobotni',
+                    'Niedzielny': 'Niedzielny'
+                };
+
+                const desiredOrder = ['Powszedni', 'PowszedniWolny', 'Sobotni', 'Niedzielny'];
+                folders.sort((a, b) => {
+                    const indexA = desiredOrder.indexOf(a);
+                    const indexB = desiredOrder.indexOf(b);
+                    return indexA - indexB;
+                });
+
+                container.innerHTML = '';
+
+                folders.forEach(folder => {
+                    const displayName = nameMap[folder] || folder;
+                    const a = document.createElement('a');
+                    a.href = `szczegoly.html`;
+                    a.className = 'choose';
+                    a.textContent = displayName;
+
+                    // 🎯 Zapis do sessionStorage i localStorage
+                    a.addEventListener('click', function() {
+                        sessionStorage.setItem("ChoosedTypeOfRozklad", folder);
+                        localStorage.setItem("ChoosedTypeOfRozklad", folder);
+                        setWybranyTypDnia(folder);
+                    });
+
+                    container.appendChild(a);
+                });
+            } catch (error) {
+                console.error('Błąd podczas generowania przycisków:', error);
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', generateButtons);
+
+
+
+        let Miasto = localStorage.getItem("Miasto");
         // Sprawdzenie, czy trwa przerwa techniczna
         fetch('/check-maintenance')
             .then(response => response.json())
@@ -145,50 +302,125 @@
         // Funkcja do ustawiania Wybranego Typu Dnia
         function setWybranyTypDnia(value) {
             sessionStorage.setItem('WybranyTypDnia', value);
-            setWybranyRodzajDnia(value); // Wywołanie funkcji ustawiającej WybranyRodzajDnia
-            // Opcjonalnie możesz przekierować do innej strony po kliknięciu
-            // window.location.href = "następna_strona.html";
+            setWybranyRodzajDnia(value); // Wywołanie funkcji ustawiającej
         }
 
         // Funkcja do ustawiania Wybranego Rodzaju Dnia
         function setWybranyRodzajDnia(value) {
             let rodzajDnia;
 
-            switch (value) {
-                case 1:
-                    rodzajDnia = 'Niedzielny';
-                    break;
-                case 2:
-                    rodzajDnia = 'Powszedni';
-                    break;
-                case 3:
-                    rodzajDnia = 'PowszedniWolny';
-                    break;
-                case 4:
-                    rodzajDnia = 'Sobotni';
-                    break;
-                default:
-                    rodzajDnia = 'Nieznany';
-            }
-
             sessionStorage.setItem('WybranyRodzajDnia', rodzajDnia);
         }
 
         // Dodaj nasłuchiwacze zdarzeń do przycisków
         document.getElementById('roboczy').addEventListener('click', function() {
-            setWybranyTypDnia(2);
+            setWybranyTypDnia("Powszedni");
         });
 
         document.getElementById('roboczy-wolny').addEventListener('click', function() {
-            setWybranyTypDnia(3);
+            setWybranyTypDnia("Powszedni_Wolny");
         });
 
         document.getElementById('sobota').addEventListener('click', function() {
-            setWybranyTypDnia(4);
+            setWybranyTypDnia("Sobotni");
         });
 
         document.getElementById('niedziela').addEventListener('click', function() {
-            setWybranyTypDnia(1);
+            setWybranyTypDnia("Niedzielny");
+        });
+
+        /*
+         */
+
+        document.addEventListener("DOMContentLoaded", async () => {
+            const miasto = localStorage.getItem("Miasto");
+            if (!miasto) return;
+
+            const header = document.querySelector("header");
+            if (!header) return;
+
+            async function fetchTextFile(path) {
+                const response = await fetch(path);
+                return await response.text();
+            }
+
+            function parseMiasta(txt, szukaneMiasto) {
+                txt = txt.replace(/\r/g, '');
+                const bloki = txt.split('\n\n');
+                for (const blok of bloki) {
+                    const linie = blok.trim().split('\n');
+                    if (linie[0].trim() === szukaneMiasto) {
+                        const widoczneMenu = {};
+                        for (let i = 2; i < linie.length; i++) {
+                            const [klucz, wartosc] = linie[i].split(':').map(s => s.trim());
+                            widoczneMenu[klucz] = (wartosc.toUpperCase() === 'TAK');
+                        }
+                        return widoczneMenu;
+                    }
+                }
+                return {};
+            }
+
+            function normalizeKey(s) {
+                return s.toLowerCase().trim();
+            }
+
+            try {
+                const miastaText = await fetchTextFile("../../miasta.txt");
+                const doDodania = parseMiasta(miastaText, miasto);
+
+                const doDodaniaNormalized = {};
+                for (const key in doDodania) {
+                    doDodaniaNormalized[normalizeKey(key)] = doDodania[key];
+                }
+
+                const zawszeAktywne = [
+                    "wybór miasta",
+                    "panel główny",
+                    "opuść panel"
+                ];
+
+                const linki = header.querySelectorAll("a.menu");
+                linki.forEach(link => {
+                    const tekst = link.textContent.trim();
+                    const normTekst = normalizeKey(tekst);
+
+                    if (zawszeAktywne.includes(normTekst)) {
+                        link.style.color = "";
+                        link.style.pointerEvents = "";
+                        link.style.opacity = "";
+                        return;
+                    }
+
+                    if (normTekst in doDodaniaNormalized) {
+                        if (doDodaniaNormalized[normTekst]) {
+                            link.style.color = "";
+                            link.style.pointerEvents = "";
+                            link.style.opacity = "";
+                        } else {
+                            link.style.color = "gray";
+                            link.style.pointerEvents = "none";
+                            link.style.opacity = "0.5";
+                        }
+                    } else {
+                        link.style.color = "gray";
+                        link.style.pointerEvents = "none";
+                        link.style.opacity = "0.5";
+                    }
+                });
+
+                const logoutBtn = document.getElementById('logout');
+                if (logoutBtn) {
+                    logoutBtn.addEventListener('click', function() {
+                        const miasto = localStorage.getItem('Miasto');
+                        localStorage.clear();
+                        localStorage.setItem('Miasto', miasto);
+                        window.location.href = 'index.html';
+                    });
+                }
+            } catch (error) {
+                console.error("Błąd podczas ładowania danych:", error);
+            }
         });
 
     </script>

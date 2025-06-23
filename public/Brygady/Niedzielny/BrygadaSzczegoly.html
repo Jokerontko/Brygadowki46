@@ -97,20 +97,22 @@
 
     <h1 id="brygadaTitle">Szczegóły kursu</h1>
     <p id="valuetripid">Tutaj_wartosc_tripid</p>
-
-    <table id="rozkładTable">
-        <thead>
-            <tr>
-                <th>Lp</th>
-                <th>Przystanek</th>
-                <th>Godzina</th>
-                <th>Km</th>
-            </tr>
-        </thead>
-        <tbody id="dane-tabeli">
-            <!-- Rows will be added dynamically -->
-        </tbody>
-    </table>
+    <p id="PojazdLIVE">Pojazd offline</p>
+    <dir>
+        <table id="rozkładTable">
+            <thead>
+                <tr>
+                    <th>Lp</th>
+                    <th>Przystanek</th>
+                    <th>Godzina</th>
+                    <th>Km</th>
+                </tr>
+            </thead>
+            <tbody id="dane-tabeli">
+                <!-- Rows will be added dynamically -->
+            </tbody>
+        </table>
+    </dir>
     <br>
     <a href="brygada.html" class="menu">Wróć do brygady</a>
     <br><br>
@@ -119,12 +121,13 @@
             <tr>
                 <th>Numer Autobusu</th>
                 <th>Brygada</th>
-                <th style="display: none;">Model Autobusu</th>
-                <th>Opóźnienie</th>
-                <th>Numer Linii</th>
+                <th>Linia</th>
                 <th>Kierunek</th>
-                <th style="display: none;">Następny kierunek</th>
-                <th>Godzina odjazdu</th>
+                <th>Godz. <br> Odjazdu</th>
+                <th>Numer<br>Przystanku</th>
+                <th>Opóźnienie</th>
+                <th>Dystans</th>
+                <th>Przebył</th>
             </tr>
         </thead>
         <tbody id="dane-wykaz">
@@ -134,6 +137,7 @@
 
 
     <script>
+        let Miasto = localStorage.getItem('Miasto');
         // Sprawdzanie, czy użytkownik jest zalogowany
         function checkLogin() {
             const user = JSON.parse(localStorage.getItem('user'));
@@ -162,8 +166,27 @@
         // Pobranie pliku na podstawie TripIdValue
         async function fetchFile(tripId) {
             const brygadaTitle = sessionStorage.getItem('brygadaTitle');
-            const typeofday = sessionStorage.getItem('ChoosedTypeOfDay');
-            const filePath = `../../../Brygady/WYNIKI/Gotowe_brygady/${typeofday}/${brygadaTitle}/${tripId}.txt`;
+            const rozklad = localStorage.getItem("ChoosedTypeOfRozklad");
+            // Inicjalizacja zmiennej brygadaNumber na podstawie folderu
+            let brygadaNumber;
+
+            switch (folderName) {
+                case 'Niedzielny':
+                    brygadaNumber = 'Niedzielny';
+                    break;
+                case 'Powszedni':
+                    brygadaNumber = 'Powszedni';
+                    break;
+                case 'Powszedni_Wolny':
+                    brygadaNumber = 'Powszedni_Wolny';
+                    break;
+                case 'Sobotni':
+                    brygadaNumber = 'Sobotni';
+                    break;
+                default:
+                    brygadaNumber = '2'; // Domyślna wartość, jeśli folder nie pasuje do żadnego przypadku
+            }
+            const filePath = `../../../Brygady/${Miasto}/WYNIKI/Gotowe_brygady/${rozklad}/${brygadaTitle}/${tripId}.txt`;
             try {
                 const response = await fetch(filePath);
                 if (!response.ok) {
@@ -240,7 +263,6 @@
             const currentHours = currentTime.getHours();
             const currentMinutes = currentTime.getMinutes();
             const currentFormattedTime = `${String(currentHours).padStart(2, '0')}:${String(currentMinutes).padStart(2, '0')}`;
-
             return currentFormattedTime === targetTime;
         }
 
@@ -267,17 +289,40 @@
                     return;
                 }
 
-                if (isCurrentTimeEqualToTarget(targetTime)) {
-                    row.style.backgroundColor = "rgba(96, 96, 96)";
-                    rowHighlighted = true;
+                const currentDate = new Date();
+                const currentTimeStr = `${String(currentDate.getHours()).padStart(2, '0')}:${String(currentDate.getMinutes()).padStart(2, '0')}`;
+
+                // Obsługa formatu: "p. hh:mm\no. hh:mm"
+                const pMatch = targetTime.match(/p\.\s*(\d{2}:\d{2})/);
+                const oMatch = targetTime.match(/o\.\s*(\d{2}:\d{2})/);
+
+                if (pMatch && oMatch) {
+                    const startStr = pMatch[1];
+                    const endStr = oMatch[1];
+
+                    const inRange =
+                        (startStr <= endStr && currentTimeStr >= startStr && currentTimeStr <= endStr) ||
+                        (startStr > endStr && (currentTimeStr >= startStr || currentTimeStr <= endStr));
+
+                    if (inRange) {
+                        row.style.backgroundColor = "rgba(96, 96, 96)";
+                        rowHighlighted = true;
+                        return;
+                    }
                 } else {
+                    // Standardowy przypadek porównania do jednej godziny
+                    if (isCurrentTimeEqualToTarget(targetTime)) {
+                        row.style.backgroundColor = "rgba(96, 96, 96)";
+                        rowHighlighted = true;
+                        return;
+                    }
+
+                    // Szukanie najbliższego przeszłego czasu
                     const [targetHours, targetMinutes] = targetTime.split(":").map(Number);
                     const targetDate = new Date();
                     targetDate.setHours(targetHours, targetMinutes, 0, 0);
 
-                    const currentDate = new Date();
                     const timeDiff = currentDate - targetDate;
-
                     if (timeDiff > 0 && timeDiff < closestTimeDiff) {
                         closestTimeDiff = timeDiff;
                         closestRow = row;
@@ -293,16 +338,18 @@
 
                 const hejRow = document.createElement("tr");
                 hejRow.innerHTML = `
-        <td class="blink" style="text-align: center; background-color: rgba(66, 66, 66); font-size: 12px; padding: 5px;"></td>
-        <td class="blink" style="text-align: center; background-color: rgba(66, 66, 66); font-size: 12px; padding: 5px;">
-            Pojazd jest w drodze na przystanek <br> <strong> ${nextstop} </strong>
-        </td>
-        <td class="blink" style="text-align: center; background-color: rgba(66, 66, 66); font-size: 12px; padding: 5px;"></td>
-        <td class="blink" style="text-align: center; background-color: rgba(66, 66, 66); font-size: 12px; padding: 5px;"></td>
+            <td class="blink" style="text-align: center; background-color: rgba(66, 66, 66); font-size: 12px; padding: 5px;"></td>
+            <td class="blink" style="text-align: center; background-color: rgba(66, 66, 66); font-size: 12px; padding: 5px;">
+                Pojazd jest w drodze na przystanek <br> <strong> ${nextstop} </strong> <br> ${dw} / ${dp}
+            </td>
+            <td class="blink" style="text-align: center; background-color: rgba(66, 66, 66); font-size: 12px; padding: 5px;"></td>
+            <td class="blink" style="text-align: center; background-color: rgba(66, 66, 66); font-size: 12px; padding: 5px;"></td>
         `;
                 closestRow.insertAdjacentElement('afterend', hejRow);
             }
         }
+
+
 
         //---------------------------------------------------------------------------------------------------------------------------------
 
@@ -311,100 +358,12 @@
 
 
 
-
-
-
-        let modelMap = [];
-        let activeFilter = null;
-        let activeDelaySort = '';
-        let activeLineFilter = '';
-        let activeBusNumberFilter = '';
-        let wartoscdnia = "2"; // domyślnie np. "Powszedni"
-
-
-
-        function parseModelFile(text) {
-            modelMap = [];
-            const lines = text.trim().split('\n');
-
-            for (const line of lines) {
-                const trimmed = line.trim();
-                if (/^-{3,}.*-{3,}$/.test(trimmed)) {
-                    modelMap.push({
-                        model: trimmed,
-                        entries: [],
-                        display: '',
-                        count: 0,
-                        isCategory: true
-                    });
-                    continue;
-                }
-
-                const [rangePart, model] = trimmed.split('\t').map(s => s.trim());
-                const entries = [];
-
-                if (rangePart.includes(',')) {
-                    entries.push(...rangePart.split(',').map(num => parseInt(num.trim(), 10)));
-                } else if (rangePart.includes('-')) {
-                    const [from, to] = rangePart.split('-').map(s => parseInt(s.trim(), 10));
-                    for (let i = from; i <= to; i++) {
-                        entries.push(i);
-                    }
-                } else if (!isNaN(rangePart)) {
-                    entries.push(parseInt(rangePart, 10));
-                }
-                modelMap.push({
-                    model,
-                    entries,
-                    display: rangePart,
-                    count: 0,
-                    isCategory: false
-                });
-            }
-        }
-
-        function updateModelCounts(vehicles) {
-            modelMap.forEach(m => m.count = 0);
-            for (const v of vehicles) {
-                const nb = parseInt(v.getAttribute("nb"), 10);
-                const matched = modelMap.find(entry => !entry.isCategory && entry.entries.includes(nb));
-                if (matched) matched.count++;
-            }
-        }
-
-
-
-        function parseDelay(text) {
-            const match = text.match(/([-+])(\d{2}):(\d{2})/);
-            if (!match) return 0;
-            const sign = match[1] === '+' ? 1 : -1;
-            const minutes = parseInt(match[2], 10);
-            const seconds = parseInt(match[3], 10);
-            return sign * (minutes * 60 + seconds);
-        }
-
-        function LoadBrygada(godzinaOdjazdu, kierunek, dzien, linia, callback) {
-            fetch(`/api/brygada?godzina=${encodeURIComponent(godzinaOdjazdu)}&kierunek=${encodeURIComponent(kierunek)}&dzien=${encodeURIComponent(dzien)}&nr=${encodeURIComponent(linia)}`)
-                .then(response => response.json())
-                .then(data => {
-                    console.log('Dane otrzymane od serwera:', data);
-                    callback(data.brygada, data.linia);
-                })
-                .catch(error => {
-                    console.error('Błąd przy pobieraniu danych:', error);
-                    callback('Błąd');
-                });
-        }
-
+        let brygada = sessionStorage.getItem("selectedBrygada");
 
 
 
         function loadAndRenderTable(dzien) {
             dzien = dzien || (document.getElementById('dzienSelect')?.value || activeDzien);
-
-            const scrollTop = window.scrollY;
-            const activeElement = document.activeElement;
-            const wasFocused = activeElement?.tagName === 'SELECT' || activeElement?.tagName === 'INPUT';
 
             fetch('/api/vehicles')
                 .then(response => response.text())
@@ -413,330 +372,105 @@
                     const xmlDoc = parser.parseFromString(xmlString, "text/xml");
                     const vehicles = Array.from(xmlDoc.getElementsByTagName("V"));
 
-                    vehicles.sort((a, b) => {
-                        const nbA = parseInt(a.getAttribute("nb")) || 0;
-                        const nbB = parseInt(b.getAttribute("nb")) || 0;
-                        return nbA - nbB;
-                    });
-
-                    updateModelCounts(vehicles);
-
                     const tbody = document.getElementById("dane-wykaz");
                     tbody.innerHTML = "";
 
+                    const rozkladTbody = document.getElementById("dane-tabeli");
+
+                    // Najpierw wyczyść podświetlenia w rozkładzie i usuń istniejący wiersz blink
+                    const allRozkladRows = rozkladTbody.querySelectorAll("tr");
+                    allRozkladRows.forEach(row => {
+                        row.style.backgroundColor = "";
+                    });
+                    const existingBlinkRow = rozkladTbody.querySelector("tr.blink");
+                    if (existingBlinkRow) {
+                        existingBlinkRow.remove();
+                    }
+
+                    const firstRow = rozkladTbody.querySelector("tr");
+                    const godzinaZRozkladu = firstRow?.children[2]?.textContent?.trim() || '';
+
                     vehicles.forEach(v => {
-                        const nb = v.getAttribute("nb");
-                        let nr = v.getAttribute("nr") || '';
-                        const nnr = v.getAttribute("nnr") || '';
-                        const pprzystanek = v.getAttribute("lp") || '';
-                        let op = v.getAttribute("op") || '';
-                        const nop = v.getAttribute("nop") || '';
-                        let p = v.getAttribute("p") || '';
+                        const nb = v.getAttribute("nb") || '';
+                        const kwi = v.getAttribute("kwi") || '';
+                        const nr = v.getAttribute("nr") || '';
+                        const op = v.getAttribute("op") || '';
+                        const p = v.getAttribute("p") || '';
+                        const lp = v.getAttribute("lp") || '';
+                        const dp = v.getAttribute("dp") || '';
+                        const dw = parseInt(v.getAttribute("dw") || '0', 10);
+
                         const o = parseInt(v.getAttribute("o"), 10);
                         const isDelayed = o < 0;
                         const absO = Math.abs(o);
                         const minutes = Math.floor(absO / 60);
                         const seconds = absO % 60;
-                        const formattedDelay = `${isDelayed ? '-' : '+' }${String(minutes).padStart(2, '0' )}:${String(seconds).padStart(2, '0' )}`;
-                        const totalSeconds = (isDelayed ? -1 : 1) * (minutes * 60 + seconds);
-                        let color = "#ffffff";
-                        if (totalSeconds >= 1) {
-                            color = "#0e8616";
-                        } else if (totalSeconds < 0 && totalSeconds >= -300) {
-                            color = "#ffbb00";
-                        } else if (totalSeconds < -300 && totalSeconds >= -600) {
-                            color = "#ff8000";
-                        } else if (totalSeconds < -600 && totalSeconds >= -1200) {
-                            color = "#ff0000";
-                        } else if (totalSeconds < -1200) {
-                            color = "#a80000";
-                        }
-                        const formattedTimeReal = `<span style="color: ${color}">${formattedDelay}</span>`;
-
-                        if ((!nr || nr.trim() === '') && (!op || op.trim() === '') && (!p || p.trim() === '')) {
-                            if (nop && nop.trim() !== '') {
-                                op = `<span style="color: gray">${nop}</span>`;
-                            }
-                            if (nnr && nnr.trim() !== '') {
-                                nr = `<span style="color: gray">${nnr}</span>`;
-                            }
-
-                            const now = new Date();
-                            now.setSeconds(now.getSeconds() + totalSeconds);
-
-                            if (now.getSeconds() >= 0 && now.getSeconds() < 30) {
-                                now.setSeconds(0);
-                            } else if (now.getSeconds() >= 30 && now.getSeconds() < 60) {
-                                now.setMinutes(now.getMinutes() + 1);
-                                now.setSeconds(0);
-                            }
-                            const hours = now.getHours().toString().padStart(2, '0');
-                            const mins = now.getMinutes().toString().padStart(2, '0');
-                            p = `${hours}:${mins}`;
-                        }
-                        const nbNum = parseInt(nb, 10);
-                        const matched = modelMap.find(entry => !entry.isCategory && entry.entries.includes(nbNum));
-                        const model = matched ? matched.model : 'N/A';
-
-                        let formattedOp = op;
-                        const pIndex = (typeof op === 'string') ? op.toLowerCase().indexOf("p.") : -1;
-                        if (pIndex !== -1) {
-                            const before = op.slice(0, pIndex).trim();
-                            const after = op.slice(pIndex).trim();
-                            formattedOp = `${before} <br> <span>${after}</span>`;
-                        }
+                        const formattedDelay = `${isDelayed ? '-' : '+'}${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
 
                         const row = document.createElement("tr");
                         row.innerHTML = `
-                                    <td>${nb}</td>
-                                    <td style="display: none;">${model}</td>
-                                    <td>${formattedTimeReal}</td>
-                                    <td>${nr}</td>
-                                    <td>${formattedOp}</td>
-                                    <td style="display: none;">${nop}</td>
-                                    <td>${p}</td>
-                                    <td>${pprzystanek}</td>
-                                    `;
-
+                    <td>${nb}</td>
+                    <td>${kwi}</td>
+                    <td>${nr}</td>
+                    <td>${op}</td>
+                    <td>${p}</td>
+                    <td>${lp}</td>
+                    <td>${formattedDelay}</td>
+                    <td>${dp}</td>
+                    <td>${dw}</td>
+                `;
                         tbody.appendChild(row);
 
-                        const godzinaOdjazdu = row.cells[6].textContent.trim();
-                        const kierunek = row.cells[4].textContent.trim();
-                        const linia = row.cells[3].textContent.trim();
+                        // Sprawdzenie brygady
+                        if (kwi.trim() === brygada.trim()) {
+                            console.log("znaleziono");
 
-                        const cellBrygada = row.insertCell(2);
-                        const cellLinie = row.cells[4];
 
-                        LoadBrygada(godzinaOdjazdu, kierunek, activeDzien, linia, function(brygada, linia) {
-                            if (brygada.includes("Folder:")) {
-                                brygada = brygada.replace("Folder:", "").trim();
+                            // Sprawdzenie godziny i podświetlenie / dodanie pulsującego wiersza
+                            if (p.trim() === godzinaZRozkladu) {
+                                document.getElementById('PojazdLIVE').textContent = 'Pojazd LIVE!';
+
+                                const lpIndex = parseInt(lp.trim(), 10);
+                                if (!isNaN(lpIndex) && lpIndex > 0) {
+                                    const rozkladRows = rozkladTbody.querySelectorAll("tr");
+                                    const rozkladRow = rozkladRows[lpIndex - 1];
+                                    const nextRow = rozkladRows[lpIndex]; // wiersz poniżej
+
+                                    let nextstop = 'Nieznany';
+                                    if (nextRow && nextRow.children[1]) {
+                                        nextstop = nextRow.children[1].textContent.trim();
+                                    }
+
+                                    if (dw > 20) {
+                                        // Wstaw pulsujący wiersz pod rozkladRow
+                                        const blinkRow = document.createElement("tr");
+                                        blinkRow.classList.add("blink");
+                                        blinkRow.innerHTML = `
+        <td class="blink" style="text-align: center; background-color: rgba(66, 66, 66); font-size: 12px; padding: 5px;"></td>
+        <td class="blink" style="text-align: center; background-color: rgba(66, 66, 66); font-size: 12px; padding: 5px;">
+            Pojazd jest w drodze na przystanek <br> <strong>${nextstop}</strong><br>
+            (${dw} / ${dp}m)
+        </td>
+        <td class="blink" style="text-align: center; background-color: rgba(66, 66, 66); font-size: 12px; padding: 5px;"></td>
+        <td class="blink" style="text-align: center; background-color: rgba(66, 66, 66); font-size: 12px; padding: 5px;"></td>
+    `;
+                                        if (rozkladRow && rozkladRow.parentNode) {
+                                            rozkladRow.parentNode.insertBefore(blinkRow, rozkladRow.nextSibling);
+                                        }
+                                    } else {
+                                        // Podświetl rozkladRow na czerwono
+                                        if (rozkladRow) {
+                                            rozkladRow.style.backgroundColor = "grey";
+                                        }
+                                    }
+                                }
                             }
-                            brygada = brygada.replace(/_/g, "/");
-                            if (cellBrygada.textContent.trim() !== brygada) {
-                                cellBrygada.textContent = brygada;
-                            }
-
-                            if (cellLinie.textContent.trim() === "") {
-                                cellLinie.textContent = linia;
-                                cellLinie.style.color = 'grey';
-                                const cellKierunek = row.cells[5];
-                                cellKierunek.style.color = 'grey';
-                                const cellOpoznienie = row.cells[3];
-                                cellOpoznienie.style.color = 'white';
-                            }
-                        });
-                    });
-
-
-
-
-
-
-                    if (wasFocused) {
-                        activeElement?.focus();
-                    }
-
-                    window.scrollTo({
-                        top: scrollTop
+                        }
                     });
                 })
                 .catch(error => {
                     console.error('Błąd przy pobieraniu danych:', error);
                 });
-        }
-
-
-
-
-
-        function sprawdzDostepnosc() {
-            console.log("Sprawdzanie dostępności...");
-
-        }
-
-        // Funkcja sprawdzająca opóźnienie na podstawie brygady
-        function sprawdzopoznienie() {
-            const brygadaTitle = sessionStorage.getItem("brygadaTitle");
-            console.log("Brygada z sessionStorage:", brygadaTitle);
-
-            let opoznienie = null; // Tu zapisujemy opóźnienie, żeby później użyć
-            let formattedBrygada = null;
-
-            if (brygadaTitle && brygadaTitle !== "n/a") {
-                formattedBrygada = brygadaTitle.replace("_", "/");
-                console.log("Brygada po zamianie _ na /:", formattedBrygada);
-
-                const table = document.getElementById("wykazstrony");
-                const rows = table.getElementsByTagName("tr");
-
-                let found = false;
-
-                for (let i = 1; i < rows.length; i++) {
-                    const cells = rows[i].getElementsByTagName("td");
-                    if (cells.length >= 5) {
-                        const brygadaCellText = cells[2].textContent.trim();
-                        if (brygadaCellText === formattedBrygada) {
-                            opoznienie = cells[3].textContent.trim(); // <-- poprawnie przypisane opóźnienie
-                            console.log("Opóźnienie dla brygady", formattedBrygada, "to:", opoznienie);
-                            found = true;
-                            break;
-                        }
-                    }
-                }
-
-                if (!found) {
-                    console.log("Brygada " + formattedBrygada + " nie została znaleziona w tabeli.");
-                }
-            } else {
-                console.log("Nie znaleziono brygady w sessionStorage lub jest ustawiona na 'n/a'");
-            }
-
-            const rozkladTable = document.getElementById("rozkładTable");
-            const rozkladRows = rozkladTable.getElementsByTagName("tr");
-
-            let minGodzina = null;
-            let maxGodzina = null;
-
-            for (let i = 1; i < rozkladRows.length; i++) {
-                const cells = rozkladRows[i].getElementsByTagName("td");
-                if (cells.length >= 3) {
-                    const godzina = cells[2].textContent.trim();
-                    const godzinaParts = godzina.split(":");
-                    if (godzinaParts.length === 2) {
-                        const godzinaMin = parseInt(godzinaParts[0], 10);
-                        const godzinaSec = parseInt(godzinaParts[1], 10);
-
-                        if (!isNaN(godzinaMin) && !isNaN(godzinaSec)) {
-                            const totalMinutes = godzinaMin * 60 + godzinaSec;
-
-                            if (minGodzina === null || totalMinutes < minGodzina) {
-                                minGodzina = totalMinutes;
-                            }
-
-                            if (maxGodzina === null || totalMinutes > maxGodzina) {
-                                maxGodzina = totalMinutes;
-                            }
-                        }
-                    }
-                }
-            }
-
-            if (minGodzina !== null) {
-                const minGodzinaH = Math.floor(minGodzina / 60);
-                const minGodzinaM = minGodzina % 60;
-                console.log("Min Godzina:", minGodzinaH.toString().padStart(2, "0") + ":" + minGodzinaM.toString().padStart(2, "0"));
-            } else {
-                console.log("Nie znaleziono minimalnej godziny.");
-            }
-
-            if (maxGodzina !== null) {
-                const maxGodzinaH = Math.floor(maxGodzina / 60);
-                const maxGodzinaM = maxGodzina % 60;
-                console.log("Max Godzina:", maxGodzinaH.toString().padStart(2, "0") + ":" + maxGodzinaM.toString().padStart(2, "0"));
-            } else {
-                console.log("Nie znaleziono maksymalnej godziny.");
-            }
-
-            const currentTime = new Date();
-            const currentHour = currentTime.getHours();
-            const currentMinute = currentTime.getMinutes();
-            const currentTotalMinutes = currentHour * 60 + currentMinute;
-
-            console.log("Aktualna godzina:", currentHour.toString().padStart(2, "0") + ":" + currentMinute.toString().padStart(2, "0"));
-
-            // Obliczanie nowej godziny na podstawie opóźnienia
-            let newTime = currentTotalMinutes;
-
-            if (opoznienie) {
-                const znak = opoznienie.charAt(0);
-                const czas = opoznienie.substring(1).trim();
-
-                const parts = czas.split(":");
-                if (parts.length === 2) {
-                    const minuty = parseInt(parts[0], 10);
-                    const sekundy = parseInt(parts[1], 10);
-                    const opoznienieTotal = Math.round((minuty * 60 + sekundy) / 60);
-
-                    if (!isNaN(opoznienieTotal)) {
-                        if (znak === "-") {
-                            newTime -= opoznienieTotal; // autobus wcześniej
-                        } else if (znak === "+") {
-                            newTime += opoznienieTotal; // autobus później
-                        }
-                    }
-                }
-            }
-
-            console.log("Nowa godzina po uwzględnieniu opóźnienia:", Math.floor(newTime / 60).toString().padStart(2, "0") + ":" + (newTime % 60).toString().padStart(2, "0"));
-
-            if (newTime >= minGodzina && newTime <= maxGodzina) {
-                const table = document.getElementById("wykazstrony");
-                const rows = table.getElementsByTagName("tr");
-
-                let przystanek = null;
-
-                for (let i = 1; i < rows.length; i++) {
-                    const cells = rows[i].getElementsByTagName("td");
-                    if (cells.length >= 8) {
-                        const brygadaCellText = cells[2].textContent.trim();
-                        if (brygadaCellText === formattedBrygada) {
-                            przystanek = cells[8].textContent.trim();
-                            console.log("Numer przystanku dla tej brygady to:", przystanek);
-                            break;
-                        }
-                    }
-                }
-
-                // Teraz przeszukujemy tabelę rozkładu
-                if (przystanek) {
-                    const rozkladRows = document.getElementById("rozkładTable").getElementsByTagName("tr");
-                    for (let i = 1; i < rozkladRows.length; i++) {
-                        const cells = rozkladRows[i].getElementsByTagName("td");
-                        if (cells.length >= 1) {
-                            const lpValue = cells[0].textContent.trim().replace(".", ""); // Usuwamy kropkę
-                            if (lpValue === przystanek) {
-                                const plannedTime = cells[2]?.textContent.trim();
-                                const nowHour = Math.floor(newTime / 60).toString().padStart(2, "0");
-                                const nowMinute = (newTime % 60).toString().padStart(2, "0");
-                                const adjustedTime = `${nowHour}:${nowMinute}`;
-
-                                // Porównaj godzinę planowaną z obliczoną
-                                if (plannedTime && plannedTime !== adjustedTime) {
-                                    const hejRow = document.createElement("tr");
-                                    hejRow.innerHTML = `
-        <td class="blink" style="text-align: center; background-color: rgba(66, 66, 66); font-size: 12px; padding: 5px;"></td>
-        <td class="blink" style="text-align: center; background-color: rgba(66, 66, 66); font-size: 12px; padding: 5px;">
-            Pojazd JEDZIE w drodze na przystanek <br> <strong>${cells[1].textContent.trim()}</strong>
-        </td>
-        <td class="blink" style="text-align: center; background-color: rgba(66, 66, 66); font-size: 12px; padding: 5px;"></td>
-        <td class="blink" style="text-align: center; background-color: rgba(66, 66, 66); font-size: 12px; padding: 5px;"></td>
-        `;
-
-                                    rozkladRows[i].after(hejRow); // dodajemy wiersz zaraz po bieżącym
-                                }
-
-                                // Usuwamy istniejący SVG, jeśli jest
-                                const existingSvg = cells[1].querySelector("svg");
-                                if (existingSvg) {
-                                    existingSvg.remove();
-                                }
-
-                                // Dodajemy nowe SVG obok tekstu
-                                const svgIkona = `
-    <svg xmlns="http://www.w3.org/2000/svg" height="16" viewBox="0 0 24 24" width="16" class="svg-blink">
-        <path d="m1 9 2 2c4.97-4.97 13.03-4.97 18 0l2-2C16.93 2.93 7.08 2.93 1 9zm8 8 3 3 3-3c-1.65-1.66-4.34-1.66-6 0zm-4-4 2 2c2.76-2.76 7.24-2.76 10 0l2-2C15.14 9.14 8.87 9.14 5 13z"></path>
-    </svg>
-    `;
-                                cells[1].innerHTML += svgIkona;
-
-                                console.log("Znaleziono numer przystanku i dodano ikonę oraz (opcjonalnie) wiersz powiadomienia.");
-                                break;
-                            }
-
-                        }
-                    }
-                }
-            }
         }
 
 
@@ -779,7 +513,12 @@
         sessionStorage.setItem("ChoosedTypeOfDay", brygadaNumber)
         let activeDzien = brygadaNumber;
 
-
+        function wstawError() {
+            let tableBody = document.querySelector("#dane-tabeli");
+            let errorRow = document.createElement("tr");
+            errorRow.innerHTML = `<td colspan="4" style="text-align: center;">Brak danych</td>`;
+            tableBody.appendChild(errorRow);
+        }
 
 
         async function init() {
@@ -790,19 +529,113 @@
                 await processFileData(lines);
                 loadAndRenderTable();
             } else {
+                wstawError();
                 console.error("Nie udało się wczytać pliku.");
             }
-            checkCurrentTimeAgainstTable();
+            //checkCurrentTimeAgainstTable();
             setInterval(function() {
                 loadAndRenderTable();
-                sprawdzopoznienie();
-                checkCurrentTimeAgainstTable();
+                //checkCurrentTimeAgainstTable();
             }, 3000); // Obie funkcje wywoływane raz na sekundę
 
 
         }
 
         window.onload = init;
+
+        /*
+         */
+
+        document.addEventListener("DOMContentLoaded", async () => {
+            const miasto = localStorage.getItem("Miasto");
+            if (!miasto) return;
+
+            const header = document.querySelector("header");
+            if (!header) return;
+
+            async function fetchTextFile(path) {
+                const response = await fetch(path);
+                return await response.text();
+            }
+
+            function parseMiasta(txt, szukaneMiasto) {
+                txt = txt.replace(/\r/g, '');
+                const bloki = txt.split('\n\n');
+                for (const blok of bloki) {
+                    const linie = blok.trim().split('\n');
+                    if (linie[0].trim() === szukaneMiasto) {
+                        const widoczneMenu = {};
+                        for (let i = 2; i < linie.length; i++) {
+                            const [klucz, wartosc] = linie[i].split(':').map(s => s.trim());
+                            widoczneMenu[klucz] = (wartosc.toUpperCase() === 'TAK');
+                        }
+                        return widoczneMenu;
+                    }
+                }
+                return {};
+            }
+
+            function normalizeKey(s) {
+                return s.toLowerCase().trim();
+            }
+
+            try {
+                const miastaText = await fetchTextFile("../../miasta.txt");
+                const doDodania = parseMiasta(miastaText, miasto);
+
+                const doDodaniaNormalized = {};
+                for (const key in doDodania) {
+                    doDodaniaNormalized[normalizeKey(key)] = doDodania[key];
+                }
+
+                const zawszeAktywne = [
+                    "wybór miasta",
+                    "panel główny",
+                    "opuść panel"
+                ];
+
+                const linki = header.querySelectorAll("a.menu");
+                linki.forEach(link => {
+                    const tekst = link.textContent.trim();
+                    const normTekst = normalizeKey(tekst);
+
+                    if (zawszeAktywne.includes(normTekst)) {
+                        link.style.color = "";
+                        link.style.pointerEvents = "";
+                        link.style.opacity = "";
+                        return;
+                    }
+
+                    if (normTekst in doDodaniaNormalized) {
+                        if (doDodaniaNormalized[normTekst]) {
+                            link.style.color = "";
+                            link.style.pointerEvents = "";
+                            link.style.opacity = "";
+                        } else {
+                            link.style.color = "gray";
+                            link.style.pointerEvents = "none";
+                            link.style.opacity = "0.5";
+                        }
+                    } else {
+                        link.style.color = "gray";
+                        link.style.pointerEvents = "none";
+                        link.style.opacity = "0.5";
+                    }
+                });
+
+                const logoutBtn = document.getElementById('logout');
+                if (logoutBtn) {
+                    logoutBtn.addEventListener('click', function() {
+                        const miasto = localStorage.getItem('Miasto');
+                        localStorage.clear();
+                        localStorage.setItem('Miasto', miasto);
+                        window.location.href = 'index.html';
+                    });
+                }
+            } catch (error) {
+                console.error("Błąd podczas ładowania danych:", error);
+            }
+        });
 
     </script>
 </body>

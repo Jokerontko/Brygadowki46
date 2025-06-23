@@ -26,11 +26,20 @@
 
         }
 
-        .button-container {
+        .button-container.grid {
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 20px;
-            max-width: 400px;
+            width: 450px;
+            margin-bottom: 20px;
+        }
+
+        .button-container.column {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            width: 250px;
+            /* możesz dopasować */
             margin-bottom: 20px;
         }
 
@@ -135,10 +144,7 @@
     <h1>WYBIERZ TYP DNIA</h1>
 
     <div class="button-container">
-        <a href="Powszedni/listabrygad.html" class="choose-open">Roboczy</a>
-        <a href="PowszedniWolny/listabrygad.html" class="choose-open">Roboczy Wolny</a>
-        <a href="Sobotni/listabrygad.html" class="choose-open">Sobota</a>
-        <a href="Niedzielny/listabrygad.html" class="choose-open">Niedziela</a>
+
     </div>
     <a href="##" class="chooseextra-close">Zaplanowane zmiany rozkładów</a>
 
@@ -161,6 +167,77 @@
 
 
     <script>
+        let miasto = localStorage.getItem('Miasto');
+        async function generateButtons() {
+
+            const container = document.querySelector('.button-container');
+
+            try {
+                const response = await fetch(`/api/brygady-folders?miasto=${encodeURIComponent(miasto)}`);
+
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}`);
+                }
+
+                const folders = await response.json();
+                console.log('Odpowiedź z serwera:', folders);
+
+                if (!Array.isArray(folders)) {
+                    throw new Error('Nieprawidłowy format odpowiedzi');
+                }
+
+                const nameMap = {
+                    'Powszedni': 'Powszedni',
+                    'PowszedniWolny': 'Powszedni Wolny',
+                    'Sobotni': 'Sobotni',
+                    'Niedzielny': 'Niedzielny'
+                };
+
+                // Sortowanie według kolejności desiredOrder
+                const desiredOrder = ['Powszedni', 'PowszedniWolny', 'Sobotni', 'Niedzielny'];
+                folders.sort((a, b) => {
+                    const indexA = desiredOrder.indexOf(a);
+                    const indexB = desiredOrder.indexOf(b);
+                    return indexA - indexB;
+                });
+
+                container.innerHTML = '';
+
+                folders.forEach(folder => {
+                    const displayName = nameMap[folder] || folder;
+                    const a = document.createElement('a');
+                    a.href = `Niedzielny/listabrygad.html`;
+                    a.className = 'choose-open';
+                    a.textContent = displayName;
+
+                    a.addEventListener('click', function() {
+                        localStorage.setItem("ChoosedTypeOfRozklad", folder);
+                    });
+
+                    container.appendChild(a);
+                });
+
+                // Sprawdzenie liczby przycisków i nadanie klasy dla stylu
+                if (folders.length % 2 === 0) {
+                    container.classList.add('grid');
+                    container.classList.remove('column');
+                } else {
+                    container.classList.add('column');
+                    container.classList.remove('grid');
+                }
+
+            } catch (error) {
+                console.error('Błąd podczas generowania przycisków:', error);
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', generateButtons);
+
+
+
+
+
+
         // Sprawdzenie, czy trwa przerwa techniczna
         fetch('/check-maintenance')
             .then(response => response.json())
@@ -195,16 +272,6 @@
             window.location.href = '../index.html';
         });
 
-        document.querySelectorAll('.choose-open').forEach(function(link) {
-            link.addEventListener('click', function(event) {
-                // Zapisanie wartości typu dnia do sessionStorage
-                sessionStorage.setItem('ChoosedTypeOfDay', event.target.getAttribute('data-day-type'));
-            });
-        });
-
-
-
-
 
 
         document.addEventListener("DOMContentLoaded", function() {
@@ -217,8 +284,7 @@
                 const month = String(futureDate.getMonth() + 1).padStart(2, '0');
                 dates.push(`${day}.${month}.`);
             }
-
-            fetch("Callendar.txt")
+            fetch(`../../Brygady/${miasto}/WYNIKI/Gotowe_brygady/Callendar.txt`)
                 .then(response => response.text())
                 .then(text => {
                     const lines = text.split("\n");
@@ -250,6 +316,106 @@
                     console.error("Błąd wczytywania pliku: ", error);
                     document.getElementById("schedule-table").innerHTML = "<tr><td colspan='2'>Błąd ładowania</td></tr>";
                 });
+        });
+
+
+
+
+
+
+
+        /*
+         */
+
+        document.addEventListener("DOMContentLoaded", async () => {
+            const miasto = localStorage.getItem("Miasto");
+            if (!miasto) return;
+
+            const header = document.querySelector("header");
+            if (!header) return;
+
+            async function fetchTextFile(path) {
+                const response = await fetch(path);
+                return await response.text();
+            }
+
+            function parseMiasta(txt, szukaneMiasto) {
+                txt = txt.replace(/\r/g, '');
+                const bloki = txt.split('\n\n');
+                for (const blok of bloki) {
+                    const linie = blok.trim().split('\n');
+                    if (linie[0].trim() === szukaneMiasto) {
+                        const widoczneMenu = {};
+                        for (let i = 2; i < linie.length; i++) {
+                            const [klucz, wartosc] = linie[i].split(':').map(s => s.trim());
+                            widoczneMenu[klucz] = (wartosc.toUpperCase() === 'TAK');
+                        }
+                        return widoczneMenu;
+                    }
+                }
+                return {};
+            }
+
+            function normalizeKey(s) {
+                return s.toLowerCase().trim();
+            }
+
+            try {
+                const miastaText = await fetchTextFile("../miasta.txt");
+                const doDodania = parseMiasta(miastaText, miasto);
+
+                const doDodaniaNormalized = {};
+                for (const key in doDodania) {
+                    doDodaniaNormalized[normalizeKey(key)] = doDodania[key];
+                }
+
+                const zawszeAktywne = [
+                    "wybór miasta",
+                    "panel główny",
+                    "opuść panel"
+                ];
+
+                const linki = header.querySelectorAll("a.menu");
+                linki.forEach(link => {
+                    const tekst = link.textContent.trim();
+                    const normTekst = normalizeKey(tekst);
+
+                    if (zawszeAktywne.includes(normTekst)) {
+                        link.style.color = "";
+                        link.style.pointerEvents = "";
+                        link.style.opacity = "";
+                        return;
+                    }
+
+                    if (normTekst in doDodaniaNormalized) {
+                        if (doDodaniaNormalized[normTekst]) {
+                            link.style.color = "";
+                            link.style.pointerEvents = "";
+                            link.style.opacity = "";
+                        } else {
+                            link.style.color = "gray";
+                            link.style.pointerEvents = "none";
+                            link.style.opacity = "0.5";
+                        }
+                    } else {
+                        link.style.color = "gray";
+                        link.style.pointerEvents = "none";
+                        link.style.opacity = "0.5";
+                    }
+                });
+
+                const logoutBtn = document.getElementById('logout');
+                if (logoutBtn) {
+                    logoutBtn.addEventListener('click', function() {
+                        const miasto = localStorage.getItem('Miasto');
+                        localStorage.clear();
+                        localStorage.setItem('Miasto', miasto);
+                        window.location.href = 'index.html';
+                    });
+                }
+            } catch (error) {
+                console.error("Błąd podczas ładowania danych:", error);
+            }
         });
 
     </script>

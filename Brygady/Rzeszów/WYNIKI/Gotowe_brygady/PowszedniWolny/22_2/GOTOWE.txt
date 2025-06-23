@@ -1,0 +1,288 @@
+route_id	service_id	trip_id	arrival_time	departure_time	stop_headsign	stop_name
+-------------------------------------------------------------------------------
+1476	5	216336	05:50:00	05:50:00		Bardowskiego 01
+1476	5	216336	05:51:00	05:51:00		Pl. Wolności 04
+1476	5	216336	05:51:00	05:51:00		Pl. Wolności 04
+1476	5	216336	05:53:00	05:53:00		Piłsudskiego U. Marszałkowski 08
+1476	5	216336	05:53:00	05:53:00		Piłsudskiego U. Marszałkowski 08
+1476	5	216336	05:55:00	05:55:00		Krakowska jedn. wojskowa 02
+1476	5	216336	05:55:00	05:55:00		Krakowska jedn. wojskowa 02
+1476	5	216336	05:56:00	05:56:00		Krakowska szpital 04
+1476	5	216336	05:56:00	05:56:00		Krakowska szpital 04
+1476	5	216336	05:57:00	05:57:00		Krakowska galeria 06
+1476	5	216336	05:57:00	05:57:00		Krakowska galeria 06
+1476	5	216336	05:58:00	05:58:00		Krakowska / Wyzwolenia 08 nż
+1476	5	216336	05:58:00	05:58:00		Krakowska / Wyzwolenia 08 nż
+1476	5	216336	05:59:00	05:59:00		Krakowska cmentarz 10 nż
+1476	5	216336	05:59:00	05:59:00		Krakowska cmentarz 10 nż
+1476	5	216336	06:01:00	06:01:00		Krakowska / Ceramiczna 12
+1476	5	216336	06:01:00	06:01:00		Krakowska / Ceramiczna 12
+1476	5	216336	06:02:00	06:02:00		Krakowska / Dworzysko 14 nż
+1476	5	216336	06:02:00	06:02:00		Krakowska / Dworzysko 14 nż
+1476	5	216336	06:04:00	06:04:00		Krakowska granica 16 nż
+1476	5	216336	06:04:00	06:04:00		Krakowska granica 16 nż
+1476	5	216336	06:05:00	06:05:00		Świlcza Nowy Dwór 71 nż
+1476	5	216336	06:05:00	06:05:00		Świlcza Nowy Dwór 71 nż
+1476	5	216336	06:07:00	06:07:00		Świlcza osiedle 73 nż
+1476	5	216336	06:07:00	06:07:00		Świlcza osiedle 73 nż
+1476	5	216336	06:08:00	06:08:00		Świlcza 75 nż
+1476	5	216336	06:08:00	06:08:00		Świlcza 75 nż
+1476	5	216336	06:11:00	06:11:00		Trzciana Woliczka 77 nż
+1476	5	216336	06:11:00	06:11:00		Trzciana Woliczka 77 nż
+1476	5	216336	06:14:00	06:14:00		Trzciana Gminny Ośrodek Kultury 01 nż
+1476	5	216336	06:14:00	06:14:00		Trzciana Gminny Ośrodek Kultury 01 nż
+1476	5	216336	06:15:00	06:15:00		Trzciana sklep 03 nż
+1476	5	216336	06:15:00	06:15:00		Trzciana sklep 03 nż
+1476	5	216336	06:17:00	06:17:00		Trzciana pętla 05
+1476	5	216336	06:17:00	06:17:00		Trzciana pętla 05
+
+1480	5	216500	06:26:00	06:26:00		Trzciana pętla 05
+1480	5	216500	06:26:00	06:26:00		Trzciana pętla 05
+1480	5	216500	06:27:00	06:27:00		Trzciana sklep 02 nż
+1480	5	216500	06:27:00	06:27:00		Trzciana sklep 02 nż
+1480	5	216500	06:29:00	06:29:00		Trzciana Gminny Ośrodek Kultury 02 nż
+1480	5	216500	06:29:00	06:29:00		Trzciana Gminny Ośrodek Kultury 02 nż
+1480	5	216500	06:31:00	06:31:00		Trzciana Woliczka 56 nż
+1480	5	216500	06:31:00	06:31:00		Trzciana Woliczka 56 nż
+1480	5	216500	06:34:00	06:34:00		Świlcza 58
+1480	5	216500	06:34:00	06:34:00		Świlcza 58
+1480	5	216500	06:36:00	06:36:00		Świlcza osiedle 60 nż
+1480	5	216500	06:36:00	06:36:00		Świlcza osiedle 60 nż
+1480	5	216500	06:38:00	06:38:00		Świlcza Nowy Dwór 62 nż
+1480	5	216500	06:38:00	06:38:00		Świlcza Nowy Dwór 62 nż
+1480	5	216500	06:39:00	06:39:00		Krakowska granica 15 nż
+1480	5	216500	06:39:00	06:39:00		Krakowska granica 15 nż
+1480	5	216500	06:40:00	06:40:00		Krakowska / Dworzysko 13 nż
+1480	5	216500	06:40:00	06:40:00		Krakowska / Dworzysko 13 nż
+1480	5	216500	06:42:00	06:42:00		Krakowska / Ustrzycka 11
+1480	5	216500	06:42:00	06:42:00		Krakowska / Ustrzycka 11
+1480	5	216500	06:43:00	06:43:00		Krakowska cmentarz 09 nż
+1480	5	216500	06:43:00	06:43:00		Krakowska cmentarz 09 nż
+1480	5	216500	06:45:00	06:45:00		Krakowska / Mielecka 07 nż
+1480	5	216500	06:45:00	06:45:00		Krakowska / Mielecka 07 nż
+1480	5	216500	06:46:00	06:46:00		Krakowska galeria 05
+1480	5	216500	06:46:00	06:46:00		Krakowska galeria 05
+1480	5	216500	06:47:00	06:47:00		Krakowska szpital 03
+1480	5	216500	06:47:00	06:47:00		Krakowska szpital 03
+1480	5	216500	06:49:00	06:49:00		Krakowska jedn. wojskowa 01
+1480	5	216500	06:49:00	06:49:00		Krakowska jedn. wojskowa 01
+1480	5	216500	06:51:00	06:51:00		Piłsudskiego U. Wojewódzki 05
+1480	5	216500	06:51:00	06:51:00		Piłsudskiego U. Wojewódzki 05
+1480	5	216500	06:54:00	06:54:00		Bardowskiego 04
+1480	5	216500	06:54:00	06:54:00		Bardowskiego 04
+
+1476	5	216243	07:25:00	07:25:00		Bardowskiego 01
+1476	5	216243	07:25:00	07:25:00		Bardowskiego 01
+1476	5	216243	07:27:00	07:27:00		Pl. Wolności 04
+1476	5	216243	07:27:00	07:27:00		Pl. Wolności 04
+1476	5	216243	07:29:00	07:29:00		Piłsudskiego U. Marszałkowski 08
+1476	5	216243	07:29:00	07:29:00		Piłsudskiego U. Marszałkowski 08
+1476	5	216243	07:31:00	07:31:00		Krakowska jedn. wojskowa 02
+1476	5	216243	07:31:00	07:31:00		Krakowska jedn. wojskowa 02
+1476	5	216243	07:32:00	07:32:00		Krakowska szpital 04
+1476	5	216243	07:32:00	07:32:00		Krakowska szpital 04
+1476	5	216243	07:33:00	07:33:00		Krakowska galeria 06
+1476	5	216243	07:33:00	07:33:00		Krakowska galeria 06
+1476	5	216243	07:34:00	07:34:00		Krakowska / Wyzwolenia 08 nż
+1476	5	216243	07:34:00	07:34:00		Krakowska / Wyzwolenia 08 nż
+1476	5	216243	07:35:00	07:35:00		Krakowska cmentarz 10 nż
+1476	5	216243	07:35:00	07:35:00		Krakowska cmentarz 10 nż
+1476	5	216243	07:37:00	07:37:00		Krakowska / Ceramiczna 12
+1476	5	216243	07:37:00	07:37:00		Krakowska / Ceramiczna 12
+1476	5	216243	07:38:00	07:38:00		Krakowska / Dworzysko 14 nż
+1476	5	216243	07:38:00	07:38:00		Krakowska / Dworzysko 14 nż
+1476	5	216243	07:40:00	07:40:00		Krakowska granica 16 nż
+1476	5	216243	07:40:00	07:40:00		Krakowska granica 16 nż
+1476	5	216243	07:41:00	07:41:00		Świlcza Nowy Dwór 71 nż
+1476	5	216243	07:41:00	07:41:00		Świlcza Nowy Dwór 71 nż
+1476	5	216243	07:43:00	07:43:00		Świlcza osiedle 73 nż
+1476	5	216243	07:43:00	07:43:00		Świlcza osiedle 73 nż
+1476	5	216243	07:44:00	07:44:00		Świlcza 75 nż
+1476	5	216243	07:44:00	07:44:00		Świlcza 75 nż
+1476	5	216243	07:47:00	07:47:00		Trzciana Woliczka 77 nż
+1476	5	216243	07:47:00	07:47:00		Trzciana Woliczka 77 nż
+1476	5	216243	07:50:00	07:50:00		Trzciana Gminny Ośrodek Kultury 01 nż
+1476	5	216243	07:50:00	07:50:00		Trzciana Gminny Ośrodek Kultury 01 nż
+1476	5	216243	07:51:00	07:51:00		Trzciana sklep 03 nż
+1476	5	216243	07:51:00	07:51:00		Trzciana sklep 03 nż
+1476	5	216243	07:53:00	07:53:00		Trzciana pętla 05
+1476	5	216243	07:53:00	07:53:00		Trzciana pętla 05
+
+1480	5	216511	08:01:00	08:01:00		Trzciana pętla 05
+1480	5	216511	08:01:00	08:01:00		Trzciana pętla 05
+1480	5	216511	08:02:00	08:02:00		Trzciana sklep 02 nż
+1480	5	216511	08:02:00	08:02:00		Trzciana sklep 02 nż
+1480	5	216511	08:04:00	08:04:00		Trzciana Gminny Ośrodek Kultury 02 nż
+1480	5	216511	08:04:00	08:04:00		Trzciana Gminny Ośrodek Kultury 02 nż
+1480	5	216511	08:06:00	08:06:00		Trzciana Woliczka 56 nż
+1480	5	216511	08:06:00	08:06:00		Trzciana Woliczka 56 nż
+1480	5	216511	08:09:00	08:09:00		Świlcza 58
+1480	5	216511	08:09:00	08:09:00		Świlcza 58
+1480	5	216511	08:11:00	08:11:00		Świlcza osiedle 60 nż
+1480	5	216511	08:11:00	08:11:00		Świlcza osiedle 60 nż
+1480	5	216511	08:13:00	08:13:00		Świlcza Nowy Dwór 62 nż
+1480	5	216511	08:13:00	08:13:00		Świlcza Nowy Dwór 62 nż
+1480	5	216511	08:14:00	08:14:00		Krakowska granica 15 nż
+1480	5	216511	08:14:00	08:14:00		Krakowska granica 15 nż
+1480	5	216511	08:15:00	08:15:00		Krakowska / Dworzysko 13 nż
+1480	5	216511	08:15:00	08:15:00		Krakowska / Dworzysko 13 nż
+1480	5	216511	08:17:00	08:17:00		Krakowska / Ustrzycka 11
+1480	5	216511	08:17:00	08:17:00		Krakowska / Ustrzycka 11
+1480	5	216511	08:18:00	08:18:00		Krakowska cmentarz 09 nż
+1480	5	216511	08:18:00	08:18:00		Krakowska cmentarz 09 nż
+1480	5	216511	08:20:00	08:20:00		Krakowska / Mielecka 07 nż
+1480	5	216511	08:20:00	08:20:00		Krakowska / Mielecka 07 nż
+1480	5	216511	08:21:00	08:21:00		Krakowska galeria 05
+1480	5	216511	08:21:00	08:21:00		Krakowska galeria 05
+1480	5	216511	08:22:00	08:22:00		Krakowska szpital 03
+1480	5	216511	08:22:00	08:22:00		Krakowska szpital 03
+1480	5	216511	08:24:00	08:24:00		Krakowska jedn. wojskowa 01
+1480	5	216511	08:24:00	08:24:00		Krakowska jedn. wojskowa 01
+1480	5	216511	08:27:00	08:27:00		Piłsudskiego U. Wojewódzki 05
+1480	5	216511	08:27:00	08:27:00		Piłsudskiego U. Wojewódzki 05
+1480	5	216511	08:30:00	08:30:00		Bardowskiego 04
+1480	5	216511	08:30:00	08:30:00		Bardowskiego 04
+
+1476	5	216491	14:20:00	14:20:00		Bardowskiego 01
+1476	5	216491	14:20:00	14:20:00		Bardowskiego 01
+1476	5	216491	14:22:00	14:22:00		Pl. Wolności 04
+1476	5	216491	14:22:00	14:22:00		Pl. Wolności 04
+1476	5	216491	14:25:00	14:25:00		Piłsudskiego U. Marszałkowski 08
+1476	5	216491	14:25:00	14:25:00		Piłsudskiego U. Marszałkowski 08
+1476	5	216491	14:27:00	14:27:00		Krakowska jedn. wojskowa 02
+1476	5	216491	14:27:00	14:27:00		Krakowska jedn. wojskowa 02
+1476	5	216491	14:28:00	14:28:00		Krakowska szpital 04
+1476	5	216491	14:28:00	14:28:00		Krakowska szpital 04
+1476	5	216491	14:29:00	14:29:00		Krakowska galeria 06
+1476	5	216491	14:29:00	14:29:00		Krakowska galeria 06
+1476	5	216491	14:30:00	14:30:00		Krakowska / Wyzwolenia 08 nż
+1476	5	216491	14:30:00	14:30:00		Krakowska / Wyzwolenia 08 nż
+1476	5	216491	14:32:00	14:32:00		Krakowska cmentarz 10 nż
+1476	5	216491	14:32:00	14:32:00		Krakowska cmentarz 10 nż
+1476	5	216491	14:34:00	14:34:00		Krakowska / Ceramiczna 12
+1476	5	216491	14:34:00	14:34:00		Krakowska / Ceramiczna 12
+1476	5	216491	14:35:00	14:35:00		Krakowska / Dworzysko 14 nż
+1476	5	216491	14:35:00	14:35:00		Krakowska / Dworzysko 14 nż
+1476	5	216491	14:37:00	14:37:00		Krakowska granica 16 nż
+1476	5	216491	14:37:00	14:37:00		Krakowska granica 16 nż
+1476	5	216491	14:38:00	14:38:00		Świlcza Nowy Dwór 71 nż
+1476	5	216491	14:38:00	14:38:00		Świlcza Nowy Dwór 71 nż
+1476	5	216491	14:40:00	14:40:00		Świlcza osiedle 73 nż
+1476	5	216491	14:40:00	14:40:00		Świlcza osiedle 73 nż
+1476	5	216491	14:41:00	14:41:00		Świlcza 75 nż
+1476	5	216491	14:41:00	14:41:00		Świlcza 75 nż
+1476	5	216491	14:44:00	14:44:00		Trzciana Woliczka 77 nż
+1476	5	216491	14:44:00	14:44:00		Trzciana Woliczka 77 nż
+1476	5	216491	14:47:00	14:47:00		Trzciana Gminny Ośrodek Kultury 01 nż
+1476	5	216491	14:47:00	14:47:00		Trzciana Gminny Ośrodek Kultury 01 nż
+1476	5	216491	14:48:00	14:48:00		Trzciana sklep 03 nż
+1476	5	216491	14:48:00	14:48:00		Trzciana sklep 03 nż
+1476	5	216491	14:50:00	14:50:00		Trzciana pętla 05
+1476	5	216491	14:50:00	14:50:00		Trzciana pętla 05
+
+1480	5	216574	15:12:00	15:12:00		Trzciana pętla 05
+1480	5	216574	15:12:00	15:12:00		Trzciana pętla 05
+1480	5	216574	15:13:00	15:13:00		Trzciana sklep 02 nż
+1480	5	216574	15:13:00	15:13:00		Trzciana sklep 02 nż
+1480	5	216574	15:15:00	15:15:00		Trzciana Gminny Ośrodek Kultury 02 nż
+1480	5	216574	15:15:00	15:15:00		Trzciana Gminny Ośrodek Kultury 02 nż
+1480	5	216574	15:17:00	15:17:00		Trzciana Woliczka 56 nż
+1480	5	216574	15:17:00	15:17:00		Trzciana Woliczka 56 nż
+1480	5	216574	15:20:00	15:20:00		Świlcza 58
+1480	5	216574	15:20:00	15:20:00		Świlcza 58
+1480	5	216574	15:22:00	15:22:00		Świlcza osiedle 60 nż
+1480	5	216574	15:22:00	15:22:00		Świlcza osiedle 60 nż
+1480	5	216574	15:24:00	15:24:00		Świlcza Nowy Dwór 62 nż
+1480	5	216574	15:24:00	15:24:00		Świlcza Nowy Dwór 62 nż
+1480	5	216574	15:25:00	15:25:00		Krakowska granica 15 nż
+1480	5	216574	15:25:00	15:25:00		Krakowska granica 15 nż
+1480	5	216574	15:26:00	15:26:00		Krakowska / Dworzysko 13 nż
+1480	5	216574	15:26:00	15:26:00		Krakowska / Dworzysko 13 nż
+1480	5	216574	15:28:00	15:28:00		Krakowska / Ustrzycka 11
+1480	5	216574	15:28:00	15:28:00		Krakowska / Ustrzycka 11
+1480	5	216574	15:29:00	15:29:00		Krakowska cmentarz 09 nż
+1480	5	216574	15:29:00	15:29:00		Krakowska cmentarz 09 nż
+1480	5	216574	15:31:00	15:31:00		Krakowska / Mielecka 07 nż
+1480	5	216574	15:31:00	15:31:00		Krakowska / Mielecka 07 nż
+1480	5	216574	15:32:00	15:32:00		Krakowska galeria 05
+1480	5	216574	15:32:00	15:32:00		Krakowska galeria 05
+1480	5	216574	15:33:00	15:33:00		Krakowska szpital 03
+1480	5	216574	15:33:00	15:33:00		Krakowska szpital 03
+1480	5	216574	15:35:00	15:35:00		Krakowska jedn. wojskowa 01
+1480	5	216574	15:35:00	15:35:00		Krakowska jedn. wojskowa 01
+1480	5	216574	15:38:00	15:38:00		Piłsudskiego U. Wojewódzki 05
+1480	5	216574	15:38:00	15:38:00		Piłsudskiego U. Wojewódzki 05
+1480	5	216574	15:42:00	15:42:00		Bardowskiego 04
+1480	5	216574	15:42:00	15:42:00		Bardowskiego 04
+
+1476	5	216811	16:00:00	16:00:00		Bardowskiego 01
+1476	5	216811	16:00:00	16:00:00		Bardowskiego 01
+1476	5	216811	16:03:00	16:03:00		Pl. Wolności 04
+1476	5	216811	16:03:00	16:03:00		Pl. Wolności 04
+1476	5	216811	16:09:00	16:09:00		Piłsudskiego U. Marszałkowski 08
+1476	5	216811	16:09:00	16:09:00		Piłsudskiego U. Marszałkowski 08
+1476	5	216811	16:11:00	16:11:00		Krakowska jedn. wojskowa 02
+1476	5	216811	16:11:00	16:11:00		Krakowska jedn. wojskowa 02
+1476	5	216811	16:13:00	16:13:00		Krakowska szpital 04
+1476	5	216811	16:13:00	16:13:00		Krakowska szpital 04
+1476	5	216811	16:14:00	16:14:00		Krakowska galeria 06
+1476	5	216811	16:14:00	16:14:00		Krakowska galeria 06
+1476	5	216811	16:15:00	16:15:00		Krakowska / Wyzwolenia 08 nż
+1476	5	216811	16:15:00	16:15:00		Krakowska / Wyzwolenia 08 nż
+1476	5	216811	16:17:00	16:17:00		Krakowska cmentarz 10 nż
+1476	5	216811	16:17:00	16:17:00		Krakowska cmentarz 10 nż
+1476	5	216811	16:19:00	16:19:00		Krakowska / Ceramiczna 12
+1476	5	216811	16:19:00	16:19:00		Krakowska / Ceramiczna 12
+1476	5	216811	16:20:00	16:20:00		Krakowska / Dworzysko 14 nż
+1476	5	216811	16:20:00	16:20:00		Krakowska / Dworzysko 14 nż
+1476	5	216811	16:22:00	16:22:00		Krakowska granica 16 nż
+1476	5	216811	16:22:00	16:22:00		Krakowska granica 16 nż
+1476	5	216811	16:23:00	16:23:00		Świlcza Nowy Dwór 71 nż
+1476	5	216811	16:23:00	16:23:00		Świlcza Nowy Dwór 71 nż
+1476	5	216811	16:25:00	16:25:00		Świlcza osiedle 73 nż
+1476	5	216811	16:25:00	16:25:00		Świlcza osiedle 73 nż
+1476	5	216811	16:26:00	16:26:00		Świlcza 75 nż
+1476	5	216811	16:26:00	16:26:00		Świlcza 75 nż
+1476	5	216811	16:29:00	16:29:00		Trzciana Woliczka 77 nż
+1476	5	216811	16:29:00	16:29:00		Trzciana Woliczka 77 nż
+1476	5	216811	16:32:00	16:32:00		Trzciana Gminny Ośrodek Kultury 01 nż
+1476	5	216811	16:32:00	16:32:00		Trzciana Gminny Ośrodek Kultury 01 nż
+1476	5	216811	16:33:00	16:33:00		Trzciana sklep 03 nż
+1476	5	216811	16:33:00	16:33:00		Trzciana sklep 03 nż
+1476	5	216811	16:35:00	16:35:00		Trzciana pętla 05
+1476	5	216811	16:35:00	16:35:00		Trzciana pętla 05
+
+1480	5	216249	16:42:00	16:42:00		Trzciana pętla 05
+1480	5	216249	16:42:00	16:42:00		Trzciana pętla 05
+1480	5	216249	16:43:00	16:43:00		Trzciana sklep 02 nż
+1480	5	216249	16:43:00	16:43:00		Trzciana sklep 02 nż
+1480	5	216249	16:45:00	16:45:00		Trzciana Gminny Ośrodek Kultury 02 nż
+1480	5	216249	16:45:00	16:45:00		Trzciana Gminny Ośrodek Kultury 02 nż
+1480	5	216249	16:47:00	16:47:00		Trzciana Woliczka 56 nż
+1480	5	216249	16:47:00	16:47:00		Trzciana Woliczka 56 nż
+1480	5	216249	16:50:00	16:50:00		Świlcza 58
+1480	5	216249	16:50:00	16:50:00		Świlcza 58
+1480	5	216249	16:52:00	16:52:00		Świlcza osiedle 60 nż
+1480	5	216249	16:52:00	16:52:00		Świlcza osiedle 60 nż
+1480	5	216249	16:54:00	16:54:00		Świlcza Nowy Dwór 62 nż
+1480	5	216249	16:54:00	16:54:00		Świlcza Nowy Dwór 62 nż
+1480	5	216249	16:55:00	16:55:00		Krakowska granica 15 nż
+1480	5	216249	16:55:00	16:55:00		Krakowska granica 15 nż
+1480	5	216249	16:56:00	16:56:00		Krakowska / Dworzysko 13 nż
+1480	5	216249	16:56:00	16:56:00		Krakowska / Dworzysko 13 nż
+1480	5	216249	16:58:00	16:58:00		Krakowska / Ustrzycka 11
+1480	5	216249	16:58:00	16:58:00		Krakowska / Ustrzycka 11
+1480	5	216249	16:59:00	16:59:00		Krakowska cmentarz 09 nż
+1480	5	216249	16:59:00	16:59:00		Krakowska cmentarz 09 nż
+1480	5	216249	17:01:00	17:01:00		Krakowska / Mielecka 07 nż
+1480	5	216249	17:01:00	17:01:00		Krakowska / Mielecka 07 nż
+1480	5	216249	17:02:00	17:02:00		Krakowska galeria 05
+1480	5	216249	17:02:00	17:02:00		Krakowska galeria 05
+1480	5	216249	17:03:00	17:03:00		Krakowska szpital 03
+1480	5	216249	17:03:00	17:03:00		Krakowska szpital 03
+1480	5	216249	17:05:00	17:05:00		Krakowska jedn. wojskowa 01
+1480	5	216249	17:05:00	17:05:00		Krakowska jedn. wojskowa 01
+1480	5	216249	17:08:00	17:08:00		Piłsudskiego U. Wojewódzki 05
+1480	5	216249	17:08:00	17:08:00		Piłsudskiego U. Wojewódzki 05
+1480	5	216249	17:11:00	17:11:00		Bardowskiego 04
+1480	5	216249	17:11:00	17:11:00		Bardowskiego 04

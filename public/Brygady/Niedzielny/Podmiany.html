@@ -170,6 +170,9 @@
     </table>
 
     <script>
+        let Miasto = localStorage.getItem("Miasto");
+        let choosedtypeofrozklad = localStorage.getItem("ChoosedTypeOfRozklad");
+
         function checkLogin() {
             const user = JSON.parse(localStorage.getItem('user'));
 
@@ -193,7 +196,7 @@
             }
 
             // Uzupełnij tytuł o nazwę folderu
-            const folderName = getFolderName();
+            const folderName = choosedtypeofrozklad;
             document.querySelector('h4').innerHTML = `Rozkład ${folderName}`;
         });
 
@@ -231,21 +234,13 @@
                     const path = window.location.pathname;
                     return path.substring(0, path.lastIndexOf('/')).split('/').pop();
                 }
-
+                const folder = choosedtypeofrozklad;
                 const folderName = getFolderName();
-                let filePath = '';
+                const filePath = `../../Brygady/${Miasto}/WYNIKI/Gotowe_brygady/${choosedtypeofrozklad}/Podmiana_list.txt`;
 
-                const folderPaths = {
-                    'Niedzielny': '../../Brygady/WYNIKI/Gotowe_brygady/1/Podmiana_list.txt',
-                    'Powszedni': '../../Brygady/WYNIKI/Gotowe_brygady/2/Podmiana_list.txt',
-                    'PowszedniWolny': '../../Brygady/WYNIKI/Gotowe_brygady/3/Podmiana_list.txt',
-                    'Sobotni': '../../Brygady/WYNIKI/Gotowe_brygady/4/Podmiana_list.txt'
-                };
 
-                if (!(folderName in folderPaths)) {
-                    throw new Error('Nieznana nazwa folderu');
-                }
-                filePath = folderPaths[folderName];
+                const folderPaths = `../../Brygady/${Miasto}/WYNIKI/Gotowe_brygady/${choosedtypeofrozklad}/Podmiana_list.txt`;
+
 
                 const response = await fetch(filePath);
                 const data = await response.text();
@@ -281,23 +276,23 @@
                                 let rodzajDniaForFile = originalRodzajDnia;
                                 switch (originalRodzajDnia) {
                                     case 'Powszedni':
-                                        rodzajDniaForFile = 2;
+                                        rodzajDniaForFile = "Powszedni";
                                         break;
-                                    case 'PowszedniWolny':
-                                        rodzajDniaForFile = 3;
+                                    case 'Powszedni_Wolny':
+                                        rodzajDniaForFile = "Powszedni_Wolny";
                                         break;
                                     case 'Sobotni':
-                                        rodzajDniaForFile = 4;
+                                        rodzajDniaForFile = "Sobotni";
                                         break;
                                     case 'Niedzielny':
-                                        rodzajDniaForFile = 1;
+                                        rodzajDniaForFile = "Niedzielny";
                                         break;
                                     default:
                                         console.error('Nieznany rodzaj dnia:', originalRodzajDnia);
                                         return;
                                 }
 
-                                const filePath = `../../../Brygady/WYNIKI/Gotowe_brygady/${rodzajDniaForFile}/Brygady_BIS.txt`;
+                                const filePath = `../../../Brygady/${Miasto}/WYNIKI/Gotowe_brygady/${rodzajDniaForFile}/Brygady_BIS.txt`;
 
                                 try {
                                     // Pobieramy dane z pliku
@@ -400,19 +395,12 @@
                 }
 
                 const folderName = getFolderName();
-                let filePath = '';
+                const filePath = `../../Brygady/${Miasto}/WYNIKI/Gotowe_brygady/${choosedtypeofrozklad}/PodmianaBAZA_list.txt`;
 
-                const folderPaths = {
-                    'Niedzielny': '../../Brygady/WYNIKI/Gotowe_brygady/1/PodmianaBAZA_list.txt',
-                    'Powszedni': '../../Brygady/WYNIKI/Gotowe_brygady/2/PodmianaBAZA_list.txt',
-                    'PowszedniWolny': '../../Brygady/WYNIKI/Gotowe_brygady/3/PodmianaBAZA_list.txt',
-                    'Sobotni': '../../Brygady/WYNIKI/Gotowe_brygady/4/PodmianaBAZA_list.txt'
-                };
 
-                if (!(folderName in folderPaths)) {
-                    throw new Error('Nieznana nazwa folderu');
-                }
-                filePath = folderPaths[folderName];
+                const folderPaths = `../../Brygady/${Miasto}/WYNIKI/Gotowe_brygady/${choosedtypeofrozklad}/PodmianaBAZA_list.txt`;
+
+
 
                 const response = await fetch(filePath);
                 const data = await response.text();
@@ -461,7 +449,7 @@
                                         return;
                                 }
 
-                                const filePath = `../../../Brygady/WYNIKI/Gotowe_brygady/${rodzajDniaForFile}/Brygady_BIS.txt`;
+                                const filePath = `../../../Brygady/${Miasto}/WYNIKI/Gotowe_brygady/${rodzajDniaForFile}/Brygady_BIS.txt`;
 
                                 try {
                                     // Pobieramy dane z pliku
@@ -601,6 +589,100 @@
                 }
             });
         }
+
+        /*
+         */
+
+        document.addEventListener("DOMContentLoaded", async () => {
+            const miasto = localStorage.getItem("Miasto");
+            if (!miasto) return;
+
+            const header = document.querySelector("header");
+            if (!header) return;
+
+            async function fetchTextFile(path) {
+                const response = await fetch(path);
+                return await response.text();
+            }
+
+            function parseMiasta(txt, szukaneMiasto) {
+                txt = txt.replace(/\r/g, '');
+                const bloki = txt.split('\n\n');
+                for (const blok of bloki) {
+                    const linie = blok.trim().split('\n');
+                    if (linie[0].trim() === szukaneMiasto) {
+                        const widoczneMenu = {};
+                        for (let i = 2; i < linie.length; i++) {
+                            const [klucz, wartosc] = linie[i].split(':').map(s => s.trim());
+                            widoczneMenu[klucz] = (wartosc.toUpperCase() === 'TAK');
+                        }
+                        return widoczneMenu;
+                    }
+                }
+                return {};
+            }
+
+            function normalizeKey(s) {
+                return s.toLowerCase().trim();
+            }
+
+            try {
+                const miastaText = await fetchTextFile("../../miasta.txt");
+                const doDodania = parseMiasta(miastaText, miasto);
+
+                const doDodaniaNormalized = {};
+                for (const key in doDodania) {
+                    doDodaniaNormalized[normalizeKey(key)] = doDodania[key];
+                }
+
+                const zawszeAktywne = [
+                    "wybór miasta",
+                    "panel główny",
+                    "opuść panel"
+                ];
+
+                const linki = header.querySelectorAll("a.menu");
+                linki.forEach(link => {
+                    const tekst = link.textContent.trim();
+                    const normTekst = normalizeKey(tekst);
+
+                    if (zawszeAktywne.includes(normTekst)) {
+                        link.style.color = "";
+                        link.style.pointerEvents = "";
+                        link.style.opacity = "";
+                        return;
+                    }
+
+                    if (normTekst in doDodaniaNormalized) {
+                        if (doDodaniaNormalized[normTekst]) {
+                            link.style.color = "";
+                            link.style.pointerEvents = "";
+                            link.style.opacity = "";
+                        } else {
+                            link.style.color = "gray";
+                            link.style.pointerEvents = "none";
+                            link.style.opacity = "0.5";
+                        }
+                    } else {
+                        link.style.color = "gray";
+                        link.style.pointerEvents = "none";
+                        link.style.opacity = "0.5";
+                    }
+                });
+
+                const logoutBtn = document.getElementById('logout');
+                if (logoutBtn) {
+                    logoutBtn.addEventListener('click', function() {
+                        const miasto = localStorage.getItem('Miasto');
+                        localStorage.clear();
+                        localStorage.setItem('Miasto', miasto);
+                        window.location.href = 'index.html';
+                    });
+                }
+            } catch (error) {
+                console.error("Błąd podczas ładowania danych:", error);
+            }
+        });
 
     </script>
 

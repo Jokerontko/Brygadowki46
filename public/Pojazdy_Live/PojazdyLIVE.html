@@ -8,7 +8,7 @@
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="0">
-    <title>Szczegóły kursu</title>
+    <title>Pojazdy LIVE</title>
     <style>
         body {
             background: rgb(50, 50, 50);
@@ -301,6 +301,7 @@
 
 
     <script>
+        let miasto = localStorage.getItem("Miasto");
         // Pobierz dane użytkownika z sessionStorage
         const user = JSON.parse(sessionStorage.getItem('user'));
 
@@ -786,6 +787,9 @@
                 .catch(err => console.error('Błąd ładowania pliku modeli:', err));
         });
 
+
+        let JAKIROZKŁAD = "";
+        let jakirodzajdobrygadbis = "";
         async function getScheduleType() {
             const today = new Date();
             const day = String(today.getDate()).padStart(2, '0');
@@ -793,7 +797,7 @@
             const shortToday = `${day}.${month}.`;
 
             try {
-                const response = await fetch("../Brygady/Callendar.txt");
+                const response = await fetch(`../../Brygady/${miasto}/WYNIKI/Gotowe_brygady/Callendar.txt`);
                 const text = await response.text();
 
                 const lines = text.split("\n");
@@ -812,15 +816,24 @@
 
                 const dzisiejszyRozklad = scheduleData[shortToday];
                 console.log("Dzisiejszy typ rozkładu:", dzisiejszyRozklad);
+                JAKIROZKLAD = dzisiejszyRozklad;
 
                 switch (dzisiejszyRozklad) {
                     case "Rozkład Niedzielny":
+                        localStorage.setItem("ChoosedTypeOfRozklad", "Niedzielny");
+                        jakirodzajdobrygadbis = "Niedzielny";
                         return "1";
                     case "Rozkład Szkolny":
+                        localStorage.setItem("ChoosedTypeOfRozklad", "Powszedni");
+                        jakirodzajdobrygadbis = "Powszedni";
                         return "2";
                     case "Rozkład Powszedni Wolny":
+                        localStorage.setItem("ChoosedTypeOfRozklad", "Powszedni Wolny");
+                        jakirodzajdobrygadbis = "PowszedniWolny";
                         return "3";
                     case "Rozkład Sobotni":
+                        localStorage.setItem("ChoosedTypeOfRozklad", "Sobotni");
+                        jakirodzajdobrygadbis = "Sobotni";
                         return "4";
                 }
 
@@ -832,6 +845,8 @@
 
 
         document.getElementById("wykazstrony").addEventListener("click", async function(e) {
+
+
             const cell = e.target;
             if (cell.tagName === "TD" && cell.cellIndex === 2) {
                 const row = cell.parentElement;
@@ -839,9 +854,9 @@
                 const modifiedBrygada = brygada.replace(/\//g, '_');
                 sessionStorage.setItem('brygadaTitle', modifiedBrygada);
 
-                const activeDzien = sessionStorage.getItem('activeDzien') || '2';
+                const activeDzien = localStorage.getItem('activeDzien');
 
-                let JakiTYPdnia = "Powszedni";
+                const JakiTYPdnia = "Niedzielny";
                 let rodzajDniaForFile = 2;
                 switch (activeDzien) {
                     case "1":
@@ -858,7 +873,7 @@
                         break;
                 }
 
-                const filePath = `../../../Brygady/WYNIKI/Gotowe_brygady/${rodzajDniaForFile}/Brygady_BIS.txt`;
+                const filePath = `../../Brygady/${miasto}/WYNIKI/Gotowe_brygady/${jakirodzajdobrygadbis}/Brygady_BIS.txt`;
                 sessionStorage.setItem('ChoosedTypeOfDay', rodzajDniaForFile);
 
                 try {
@@ -903,6 +918,7 @@
                 } catch (error) {
                     console.error('Błąd podczas pobierania lub przetwarzania pliku:', error);
                 }
+
 
                 window.location.href = `../Brygady/${JakiTYPdnia}/brygada.html`;
             }
@@ -1109,6 +1125,101 @@
                 }
             }
         }
+
+
+        /*
+         */
+
+        document.addEventListener("DOMContentLoaded", async () => {
+            const miasto = localStorage.getItem("Miasto");
+            if (!miasto) return;
+
+            const header = document.querySelector("header");
+            if (!header) return;
+
+            async function fetchTextFile(path) {
+                const response = await fetch(path);
+                return await response.text();
+            }
+
+            function parseMiasta(txt, szukaneMiasto) {
+                txt = txt.replace(/\r/g, '');
+                const bloki = txt.split('\n\n');
+                for (const blok of bloki) {
+                    const linie = blok.trim().split('\n');
+                    if (linie[0].trim() === szukaneMiasto) {
+                        const widoczneMenu = {};
+                        for (let i = 2; i < linie.length; i++) {
+                            const [klucz, wartosc] = linie[i].split(':').map(s => s.trim());
+                            widoczneMenu[klucz] = (wartosc.toUpperCase() === 'TAK');
+                        }
+                        return widoczneMenu;
+                    }
+                }
+                return {};
+            }
+
+            function normalizeKey(s) {
+                return s.toLowerCase().trim();
+            }
+
+            try {
+                const miastaText = await fetchTextFile("../../miasta.txt");
+                const doDodania = parseMiasta(miastaText, miasto);
+
+                const doDodaniaNormalized = {};
+                for (const key in doDodania) {
+                    doDodaniaNormalized[normalizeKey(key)] = doDodania[key];
+                }
+
+                const zawszeAktywne = [
+                    "wybór miasta",
+                    "panel główny",
+                    "opuść panel"
+                ];
+
+                const linki = header.querySelectorAll("a.menu");
+                linki.forEach(link => {
+                    const tekst = link.textContent.trim();
+                    const normTekst = normalizeKey(tekst);
+
+                    if (zawszeAktywne.includes(normTekst)) {
+                        link.style.color = "";
+                        link.style.pointerEvents = "";
+                        link.style.opacity = "";
+                        return;
+                    }
+
+                    if (normTekst in doDodaniaNormalized) {
+                        if (doDodaniaNormalized[normTekst]) {
+                            link.style.color = "";
+                            link.style.pointerEvents = "";
+                            link.style.opacity = "";
+                        } else {
+                            link.style.color = "gray";
+                            link.style.pointerEvents = "none";
+                            link.style.opacity = "0.5";
+                        }
+                    } else {
+                        link.style.color = "gray";
+                        link.style.pointerEvents = "none";
+                        link.style.opacity = "0.5";
+                    }
+                });
+
+                const logoutBtn = document.getElementById('logout');
+                if (logoutBtn) {
+                    logoutBtn.addEventListener('click', function() {
+                        const miasto = localStorage.getItem('Miasto');
+                        localStorage.clear();
+                        localStorage.setItem('Miasto', miasto);
+                        window.location.href = 'index.html';
+                    });
+                }
+            } catch (error) {
+                console.error("Błąd podczas ładowania danych:", error);
+            }
+        });
 
     </script>
 

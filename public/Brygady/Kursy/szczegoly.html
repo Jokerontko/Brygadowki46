@@ -137,6 +137,7 @@
     </table>
 
     <script>
+        let Miasto = localStorage.getItem("Miasto");
         // Funkcja do pobrania wartości Wybranego Typu Dnia i Rodzaju Dnia
         function getWybranyDzien() {
             const typDnia = sessionStorage.getItem('WybranyTypDnia');
@@ -191,34 +192,41 @@
             td.textContent = brygada;
 
             td.addEventListener('click', async function() {
+                const Miasto = localStorage.getItem("Miasto");
                 // Zmieniamy '/' na '_' w brygadzie
                 const modifiedBrygada = brygada.replace(/\//g, '_');
                 sessionStorage.setItem('brygadaTitle', modifiedBrygada);
 
                 // Pobieramy rodzaj dnia
-                const originalRodzajDnia = sessionStorage.getItem('WybranyRodzajDnia');
+                const rodzajDniaForFile = sessionStorage.getItem('ChoosedTypeOfRozklad');
 
-                // Zmieniamy rodzaj dnia na odpowiadającą wartość liczbową tylko przy tworzeniu ścieżki pliku
-                let rodzajDniaForFile = originalRodzajDnia;
-                switch (originalRodzajDnia) {
-                    case 'Powszedni':
-                        rodzajDniaForFile = 2;
-                        break;
-                    case 'PowszedniWolny':
-                        rodzajDniaForFile = 3;
-                        break;
-                    case 'Sobotni':
-                        rodzajDniaForFile = 4;
-                        break;
-                    case 'Niedzielny':
-                        rodzajDniaForFile = 1;
-                        break;
-                    default:
-                        console.error('Nieznany rodzaj dnia:', originalRodzajDnia);
-                        return;
+                if (!rodzajDniaForFile) {
+                    console.error('Brak wartości ChoosedTypeOfRozklad w sessionStorage');
+                    return;
                 }
 
-                const filePath = `../../../Brygady/WYNIKI/Gotowe_brygady/${rodzajDniaForFile}/Brygady_BIS.txt`;
+                /*
+                                // Zmieniamy rodzaj dnia na odpowiadającą wartość liczbową tylko przy tworzeniu ścieżki pliku
+                                let rodzajDniaForFile = originalRodzajDnia;
+                                switch (originalRodzajDnia) {
+                                    case 'Powszedni':
+                                        rodzajDniaForFile = "Powszedni";
+                                        break;
+                                    case 'Powszedni_Wolny':
+                                        rodzajDniaForFile = "Powszedni_Wolny";
+                                        break;
+                                    case 'Sobotni':
+                                        rodzajDniaForFile = "Sobotni";
+                                        break;
+                                    case 'Niedzielny':
+                                        rodzajDniaForFile = "Niedzielny";
+                                        break;
+                                    default:
+                                        console.error('Nieznany rodzaj dnia:', originalRodzajDnia);
+                                        return;
+                                }
+                */
+                const filePath = `../../../Brygady/${Miasto}/WYNIKI/Gotowe_brygady/${rodzajDniaForFile}/Brygady_BIS.txt`;
 
                 try {
                     // Pobierz dane z pliku
@@ -275,7 +283,7 @@
                 }
 
                 // Przekierowanie na stronę
-                window.location.href = `../${originalRodzajDnia}/brygada.html`;
+                window.location.href = `../Niedzielny/brygada.html`;
             });
 
             td.style.cursor = 'pointer';
@@ -295,7 +303,7 @@
         // Fetch the 'Kursy_filtered_sorted.txt' file
         async function fetchKursyFile() {
             const wybranyTypDnia = sessionStorage.getItem('WybranyTypDnia');
-            const response = await fetch(`../../../Brygady/WYNIKI/Gotowe_brygady/${wybranyTypDnia}/Kursy_filtered_sorted.txt`);
+            const response = await fetch(`../../../Brygady/${Miasto}/WYNIKI/Gotowe_brygady/${wybranyTypDnia}/Kursy_filtered_sorted.txt`);
             const data = await response.text();
 
             const schedules = data.trim().split(/\n\s*\n/);
@@ -430,6 +438,100 @@
             loadBrygadaTitle();
             fetchKursyFile();
 
+        });
+
+        /*
+         */
+
+        document.addEventListener("DOMContentLoaded", async () => {
+            const miasto = localStorage.getItem("Miasto");
+            if (!miasto) return;
+
+            const header = document.querySelector("header");
+            if (!header) return;
+
+            async function fetchTextFile(path) {
+                const response = await fetch(path);
+                return await response.text();
+            }
+
+            function parseMiasta(txt, szukaneMiasto) {
+                txt = txt.replace(/\r/g, '');
+                const bloki = txt.split('\n\n');
+                for (const blok of bloki) {
+                    const linie = blok.trim().split('\n');
+                    if (linie[0].trim() === szukaneMiasto) {
+                        const widoczneMenu = {};
+                        for (let i = 2; i < linie.length; i++) {
+                            const [klucz, wartosc] = linie[i].split(':').map(s => s.trim());
+                            widoczneMenu[klucz] = (wartosc.toUpperCase() === 'TAK');
+                        }
+                        return widoczneMenu;
+                    }
+                }
+                return {};
+            }
+
+            function normalizeKey(s) {
+                return s.toLowerCase().trim();
+            }
+
+            try {
+                const miastaText = await fetchTextFile("../../miasta.txt");
+                const doDodania = parseMiasta(miastaText, miasto);
+
+                const doDodaniaNormalized = {};
+                for (const key in doDodania) {
+                    doDodaniaNormalized[normalizeKey(key)] = doDodania[key];
+                }
+
+                const zawszeAktywne = [
+                    "wybór miasta",
+                    "panel główny",
+                    "opuść panel"
+                ];
+
+                const linki = header.querySelectorAll("a.menu");
+                linki.forEach(link => {
+                    const tekst = link.textContent.trim();
+                    const normTekst = normalizeKey(tekst);
+
+                    if (zawszeAktywne.includes(normTekst)) {
+                        link.style.color = "";
+                        link.style.pointerEvents = "";
+                        link.style.opacity = "";
+                        return;
+                    }
+
+                    if (normTekst in doDodaniaNormalized) {
+                        if (doDodaniaNormalized[normTekst]) {
+                            link.style.color = "";
+                            link.style.pointerEvents = "";
+                            link.style.opacity = "";
+                        } else {
+                            link.style.color = "gray";
+                            link.style.pointerEvents = "none";
+                            link.style.opacity = "0.5";
+                        }
+                    } else {
+                        link.style.color = "gray";
+                        link.style.pointerEvents = "none";
+                        link.style.opacity = "0.5";
+                    }
+                });
+
+                const logoutBtn = document.getElementById('logout');
+                if (logoutBtn) {
+                    logoutBtn.addEventListener('click', function() {
+                        const miasto = localStorage.getItem('Miasto');
+                        localStorage.clear();
+                        localStorage.setItem('Miasto', miasto);
+                        window.location.href = 'index.html';
+                    });
+                }
+            } catch (error) {
+                console.error("Błąd podczas ładowania danych:", error);
+            }
         });
 
     </script>

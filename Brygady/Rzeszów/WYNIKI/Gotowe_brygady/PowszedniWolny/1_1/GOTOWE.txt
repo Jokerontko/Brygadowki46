@@ -1,0 +1,451 @@
+route_id	service_id	trip_id	arrival_time	departure_time	stop_headsign	stop_name
+-------------------------------------------------------------------------------
+1947	5	210205	10:44:00	10:44:00		Piłsudskiego U. Marszałkowski 08
+1947	5	210205	10:46:00	10:46:00		Krakowska jedn. wojskowa 02
+1947	5	210205	10:46:00	10:46:00		Krakowska jedn. wojskowa 02
+1947	5	210205	10:47:00	10:47:00		Krakowska szpital 04
+1947	5	210205	10:47:00	10:47:00		Krakowska szpital 04
+1947	5	210205	10:48:00	10:48:00		Krakowska galeria 06
+1947	5	210205	10:48:00	10:48:00		Krakowska galeria 06
+1947	5	210205	10:49:00	10:49:00		Krakowska / Wyzwolenia 08 nż
+1947	5	210205	10:49:00	10:49:00		Krakowska / Wyzwolenia 08 nż
+1947	5	210205	10:50:00	10:50:00		Krakowska cmentarz 10 nż
+1947	5	210205	10:50:00	10:50:00		Krakowska cmentarz 10 nż
+1947	5	210205	10:52:00	10:52:00		Krakowska / Ceramiczna 12
+1947	5	210205	10:52:00	10:52:00		Krakowska / Ceramiczna 12
+1947	5	210205	10:53:00	10:53:00		Krakowska / Dworzysko 14 nż
+1947	5	210205	10:53:00	10:53:00		Krakowska / Dworzysko 14 nż
+1947	5	210205	10:55:00	10:55:00		Krakowska granica 16 nż
+1947	5	210205	10:55:00	10:55:00		Krakowska granica 16 nż
+1947	5	210205	10:57:00	10:57:00		Krakowska granica 15 nż
+1947	5	210205	10:57:00	10:57:00		Krakowska granica 15 nż
+
+1821	5	212477	11:01:00	11:01:00		Krakowska granica 15 nż
+1821	5	212477	11:01:00	11:01:00		Krakowska granica 15 nż
+1821	5	212477	11:02:00	11:02:00		Krakowska / Dworzysko 13 nż
+1821	5	212477	11:02:00	11:02:00		Krakowska / Dworzysko 13 nż
+1821	5	212477	11:04:00	11:04:00		Krakowska / Ustrzycka 11
+1821	5	212477	11:04:00	11:04:00		Krakowska / Ustrzycka 11
+1821	5	212477	11:05:00	11:05:00		Krakowska cmentarz 09 nż
+1821	5	212477	11:05:00	11:05:00		Krakowska cmentarz 09 nż
+1821	5	212477	11:07:00	11:07:00		Krakowska / Mielecka 07 nż
+1821	5	212477	11:07:00	11:07:00		Krakowska / Mielecka 07 nż
+1821	5	212477	11:08:00	11:08:00		Krakowska galeria 05
+1821	5	212477	11:08:00	11:08:00		Krakowska galeria 05
+1821	5	212477	11:09:00	11:09:00		Krakowska szpital 03
+1821	5	212477	11:09:00	11:09:00		Krakowska szpital 03
+1821	5	212477	11:11:00	11:11:00		Krakowska jedn. wojskowa 01
+1821	5	212477	11:11:00	11:11:00		Krakowska jedn. wojskowa 01
+1821	5	212477	11:14:00	11:14:00		Piłsudskiego U. Wojewódzki 05
+1821	5	212477	11:14:00	11:14:00		Piłsudskiego U. Wojewódzki 05
+1821	5	212477	11:15:00	11:15:00		Pl. Wolności 03
+1821	5	212477	11:15:00	11:15:00		Pl. Wolności 03
+1821	5	212477	11:16:00	11:16:00		Piłsudskiego ZDZ 01 nż
+1821	5	212477	11:16:00	11:16:00		Piłsudskiego ZDZ 01 nż
+1821	5	212477	11:18:00	11:18:00		Lwowska jedn. wojskowa 02
+1821	5	212477	11:18:00	11:18:00		Lwowska jedn. wojskowa 02
+1821	5	212477	11:20:00	11:20:00		Lwowska cmentarz 04
+1821	5	212477	11:20:00	11:20:00		Lwowska cmentarz 04
+1821	5	212477	11:22:00	11:22:00		Żołnierzy I Armii WP 02
+1821	5	212477	11:22:00	11:22:00		Żołnierzy I Armii WP 02
+1821	5	212477	11:24:00	11:24:00		Konf. Barskich / Traugutta 02 nż
+1821	5	212477	11:24:00	11:24:00		Konf. Barskich / Traugutta 02 nż
+1821	5	212477	11:25:00	11:25:00		Załęska / Konf. Barskich 02 nż
+1821	5	212477	11:25:00	11:25:00		Załęska / Konf. Barskich 02 nż
+1821	5	212477	11:26:00	11:26:00		Sieciecha / Załęska 01 nż
+1821	5	212477	11:26:00	11:26:00		Sieciecha / Załęska 01 nż
+1821	5	212477	11:29:00	11:29:00		Rzecha / Załęska 02 nż
+1821	5	212477	11:29:00	11:29:00		Rzecha / Załęska 02 nż
+1821	5	212477	11:30:00	11:30:00		Rzecha / Spółdzielcza 04 nż
+1821	5	212477	11:30:00	11:30:00		Rzecha / Spółdzielcza 04 nż
+1821	5	212477	11:31:00	11:31:00		Ciepłownicza / Rzecha 02 nż
+1821	5	212477	11:31:00	11:31:00		Ciepłownicza / Rzecha 02 nż
+1821	5	212477	11:32:00	11:32:00		Ciepłownicza MPGK 04 nż
+1821	5	212477	11:32:00	11:32:00		Ciepłownicza MPGK 04 nż
+1821	5	212477	11:33:00	11:33:00		Ciepłownicza elektrociepłownia 06 nż
+1821	5	212477	11:33:00	11:33:00		Ciepłownicza elektrociepłownia 06 nż
+
+1888	5	209919	12:03:00	12:03:00		Ciepłownicza elektrociepłownia 06 nż
+1888	5	209919	12:03:00	12:03:00		Ciepłownicza elektrociepłownia 06 nż
+1888	5	209919	12:04:00	12:04:00		Ciepłownicza MPGK 01 nż
+1888	5	209919	12:04:00	12:04:00		Ciepłownicza MPGK 01 nż
+1888	5	209919	12:05:00	12:05:00		Rzecha / Ciepłownicza 03 nż
+1888	5	209919	12:05:00	12:05:00		Rzecha / Ciepłownicza 03 nż
+1888	5	209919	12:07:00	12:07:00		Rzecha / Załęska 01 nż
+1888	5	209919	12:07:00	12:07:00		Rzecha / Załęska 01 nż
+1888	5	209919	12:10:00	12:10:00		Sieciecha / Załęska 02 nż
+1888	5	209919	12:10:00	12:10:00		Sieciecha / Załęska 02 nż
+1888	5	209919	12:11:00	12:11:00		Załęska / Konf. Barskich 01 nż
+1888	5	209919	12:11:00	12:11:00		Załęska / Konf. Barskich 01 nż
+1888	5	209919	12:12:00	12:12:00		Konf. Barskich / Traugutta 01 nż
+1888	5	209919	12:12:00	12:12:00		Konf. Barskich / Traugutta 01 nż
+1888	5	209919	12:16:00	12:16:00		Lwowska cmentarz 03
+1888	5	209919	12:16:00	12:16:00		Lwowska cmentarz 03
+1888	5	209919	12:17:00	12:17:00		Lwowska jedn. wojskowa 01
+1888	5	209919	12:17:00	12:17:00		Lwowska jedn. wojskowa 01
+1888	5	209919	12:19:00	12:19:00		Piłsudskiego ZDZ 02
+1888	5	209919	12:19:00	12:19:00		Piłsudskiego ZDZ 02
+1888	5	209919	12:21:00	12:21:00		Pl. Wolności 04
+1888	5	209919	12:21:00	12:21:00		Pl. Wolności 04
+1888	5	209919	12:24:00	12:24:00		Piłsudskiego U. Marszałkowski 08
+1888	5	209919	12:24:00	12:24:00		Piłsudskiego U. Marszałkowski 08
+1888	5	209919	12:26:00	12:26:00		Krakowska jedn. wojskowa 02
+1888	5	209919	12:26:00	12:26:00		Krakowska jedn. wojskowa 02
+1888	5	209919	12:27:00	12:27:00		Krakowska szpital 04
+1888	5	209919	12:27:00	12:27:00		Krakowska szpital 04
+1888	5	209919	12:28:00	12:28:00		Krakowska galeria 06
+1888	5	209919	12:28:00	12:28:00		Krakowska galeria 06
+1888	5	209919	12:29:00	12:29:00		Krakowska / Wyzwolenia 08 nż
+1888	5	209919	12:29:00	12:29:00		Krakowska / Wyzwolenia 08 nż
+1888	5	209919	12:31:00	12:31:00		Krakowska cmentarz 10 nż
+1888	5	209919	12:31:00	12:31:00		Krakowska cmentarz 10 nż
+1888	5	209919	12:33:00	12:33:00		Krakowska / Ceramiczna 12
+1888	5	209919	12:33:00	12:33:00		Krakowska / Ceramiczna 12
+1888	5	209919	12:34:00	12:34:00		Krakowska / Dworzysko 14 nż
+1888	5	209919	12:34:00	12:34:00		Krakowska / Dworzysko 14 nż
+1888	5	209919	12:36:00	12:36:00		Krakowska granica 16 nż
+1888	5	209919	12:36:00	12:36:00		Krakowska granica 16 nż
+1888	5	209919	12:38:00	12:38:00		Krakowska granica 15 nż
+1888	5	209919	12:38:00	12:38:00		Krakowska granica 15 nż
+
+1893	5	214308	13:01:00	13:01:00		Krakowska granica 15 nż
+1893	5	214308	13:01:00	13:01:00		Krakowska granica 15 nż
+1893	5	214308	13:02:00	13:02:00		Krakowska / Dworzysko 13 nż
+1893	5	214308	13:02:00	13:02:00		Krakowska / Dworzysko 13 nż
+1893	5	214308	13:04:00	13:04:00		Krakowska / Ustrzycka 11
+1893	5	214308	13:04:00	13:04:00		Krakowska / Ustrzycka 11
+1893	5	214308	13:05:00	13:05:00		Krakowska cmentarz 09 nż
+1893	5	214308	13:05:00	13:05:00		Krakowska cmentarz 09 nż
+1893	5	214308	13:07:00	13:07:00		Krakowska / Mielecka 07 nż
+1893	5	214308	13:07:00	13:07:00		Krakowska / Mielecka 07 nż
+1893	5	214308	13:08:00	13:08:00		Krakowska galeria 05
+1893	5	214308	13:08:00	13:08:00		Krakowska galeria 05
+1893	5	214308	13:09:00	13:09:00		Krakowska szpital 03
+1893	5	214308	13:09:00	13:09:00		Krakowska szpital 03
+1893	5	214308	13:11:00	13:11:00		Krakowska jedn. wojskowa 01
+1893	5	214308	13:11:00	13:11:00		Krakowska jedn. wojskowa 01
+1893	5	214308	13:14:00	13:14:00		Piłsudskiego U. Wojewódzki 05
+1893	5	214308	13:14:00	13:14:00		Piłsudskiego U. Wojewódzki 05
+1893	5	214308	13:15:00	13:15:00		Pl. Wolności 03
+1893	5	214308	13:15:00	13:15:00		Pl. Wolności 03
+1893	5	214308	13:16:00	13:16:00		Piłsudskiego ZDZ 01 nż
+1893	5	214308	13:16:00	13:16:00		Piłsudskiego ZDZ 01 nż
+1893	5	214308	13:18:00	13:18:00		Lwowska jedn. wojskowa 02
+1893	5	214308	13:18:00	13:18:00		Lwowska jedn. wojskowa 02
+1893	5	214308	13:20:00	13:20:00		Lwowska cmentarz 04
+1893	5	214308	13:20:00	13:20:00		Lwowska cmentarz 04
+1893	5	214308	13:22:00	13:22:00		Żołnierzy I Armii WP 02
+1893	5	214308	13:22:00	13:22:00		Żołnierzy I Armii WP 02
+1893	5	214308	13:24:00	13:24:00		Konf. Barskich / Traugutta 02 nż
+1893	5	214308	13:24:00	13:24:00		Konf. Barskich / Traugutta 02 nż
+1893	5	214308	13:25:00	13:25:00		Załęska / Konf. Barskich 02 nż
+1893	5	214308	13:25:00	13:25:00		Załęska / Konf. Barskich 02 nż
+1893	5	214308	13:26:00	13:26:00		Sieciecha / Załęska 01 nż
+1893	5	214308	13:26:00	13:26:00		Sieciecha / Załęska 01 nż
+1893	5	214308	13:29:00	13:29:00		Rzecha / Załęska 02 nż
+1893	5	214308	13:29:00	13:29:00		Rzecha / Załęska 02 nż
+1893	5	214308	13:30:00	13:30:00		Rzecha / Spółdzielcza 04 nż
+1893	5	214308	13:30:00	13:30:00		Rzecha / Spółdzielcza 04 nż
+1893	5	214308	13:31:00	13:31:00		Ciepłownicza / Rzecha 02 nż
+1893	5	214308	13:31:00	13:31:00		Ciepłownicza / Rzecha 02 nż
+1893	5	214308	13:32:00	13:32:00		Ciepłownicza MPGK 04 nż
+1893	5	214308	13:32:00	13:32:00		Ciepłownicza MPGK 04 nż
+1893	5	214308	13:33:00	13:33:00		Ciepłownicza elektrociepłownia 06 nż
+1893	5	214308	13:33:00	13:33:00		Ciepłownicza elektrociepłownia 06 nż
+1893	5	214308	13:34:00	13:34:00		Ciepłownicza MPGK 01 nż
+1893	5	214308	13:34:00	13:34:00		Ciepłownicza MPGK 01 nż
+1893	5	214308	13:35:00	13:35:00		Rzecha / Ciepłownicza 03 nż
+1893	5	214308	13:35:00	13:35:00		Rzecha / Ciepłownicza 03 nż
+1893	5	214308	13:37:00	13:37:00		Załęska / Rzecha 04 nż
+1893	5	214308	13:37:00	13:37:00		Załęska / Rzecha 04 nż
+1893	5	214308	13:38:00	13:38:00		Załęska zakład karny 06 nż
+1893	5	214308	13:38:00	13:38:00		Załęska zakład karny 06 nż
+1893	5	214308	13:39:00	13:39:00		Załęska / Spichlerzowa 10 nż
+1893	5	214308	13:39:00	13:39:00		Załęska / Spichlerzowa 10 nż
+1893	5	214308	13:40:00	13:40:00		Spichlerzowa / Załęska 02 nż
+1893	5	214308	13:40:00	13:40:00		Spichlerzowa / Załęska 02 nż
+1893	5	214308	13:42:00	13:42:00		Spichlerzowa pętla 04 nż
+1893	5	214308	13:42:00	13:42:00		Spichlerzowa pętla 04 nż
+
+1927	5	211547	14:04:00	14:04:00		Spichlerzowa pętla 04 nż
+1927	5	211547	14:04:00	14:04:00		Spichlerzowa pętla 04 nż
+1927	5	211547	14:05:00	14:05:00		Spichlerzowa / Załęska 01 nż
+1927	5	211547	14:05:00	14:05:00		Spichlerzowa / Załęska 01 nż
+1927	5	211547	14:06:00	14:06:00		Załęska / Spichlerzowa 09 nż
+1927	5	211547	14:06:00	14:06:00		Załęska / Spichlerzowa 09 nż
+1927	5	211547	14:07:00	14:07:00		Załęska zakład karny 07 nż
+1927	5	211547	14:07:00	14:07:00		Załęska zakład karny 07 nż
+1927	5	211547	14:08:00	14:08:00		Załęska / Rzecha 05 nż
+1927	5	211547	14:08:00	14:08:00		Załęska / Rzecha 05 nż
+1927	5	211547	14:09:00	14:09:00		Rzecha / Spółdzielcza 04 nż
+1927	5	211547	14:09:00	14:09:00		Rzecha / Spółdzielcza 04 nż
+1927	5	211547	14:10:00	14:10:00		Ciepłownicza / Rzecha 02 nż
+1927	5	211547	14:10:00	14:10:00		Ciepłownicza / Rzecha 02 nż
+1927	5	211547	14:11:00	14:11:00		Ciepłownicza MPGK 04 nż
+1927	5	211547	14:11:00	14:11:00		Ciepłownicza MPGK 04 nż
+1927	5	211547	14:12:00	14:12:00		Ciepłownicza elektrociepłownia 06 nż
+1927	5	211547	14:12:00	14:12:00		Ciepłownicza elektrociepłownia 06 nż
+1927	5	211547	14:13:00	14:13:00		Ciepłownicza MPGK 01 nż
+1927	5	211547	14:13:00	14:13:00		Ciepłownicza MPGK 01 nż
+1927	5	211547	14:14:00	14:14:00		Rzecha / Ciepłownicza 03 nż
+1927	5	211547	14:14:00	14:14:00		Rzecha / Ciepłownicza 03 nż
+1927	5	211547	14:16:00	14:16:00		Rzecha / Załęska 01 nż
+1927	5	211547	14:16:00	14:16:00		Rzecha / Załęska 01 nż
+1927	5	211547	14:19:00	14:19:00		Sieciecha / Załęska 02 nż
+1927	5	211547	14:19:00	14:19:00		Sieciecha / Załęska 02 nż
+1927	5	211547	14:20:00	14:20:00		Załęska / Konf. Barskich 01 nż
+1927	5	211547	14:20:00	14:20:00		Załęska / Konf. Barskich 01 nż
+1927	5	211547	14:21:00	14:21:00		Konf. Barskich / Traugutta 01 nż
+1927	5	211547	14:21:00	14:21:00		Konf. Barskich / Traugutta 01 nż
+1927	5	211547	14:25:00	14:25:00		Lwowska cmentarz 03
+1927	5	211547	14:25:00	14:25:00		Lwowska cmentarz 03
+1927	5	211547	14:26:00	14:26:00		Lwowska jedn. wojskowa 01
+1927	5	211547	14:26:00	14:26:00		Lwowska jedn. wojskowa 01
+1927	5	211547	14:28:00	14:28:00		Piłsudskiego ZDZ 02
+1927	5	211547	14:28:00	14:28:00		Piłsudskiego ZDZ 02
+1927	5	211547	14:30:00	14:30:00		Pl. Wolności 04
+1927	5	211547	14:30:00	14:30:00		Pl. Wolności 04
+1927	5	211547	14:36:00	14:36:00		Piłsudskiego U. Marszałkowski 08
+1927	5	211547	14:36:00	14:36:00		Piłsudskiego U. Marszałkowski 08
+1927	5	211547	14:38:00	14:38:00		Krakowska jedn. wojskowa 02
+1927	5	211547	14:38:00	14:38:00		Krakowska jedn. wojskowa 02
+1927	5	211547	14:40:00	14:40:00		Krakowska szpital 04
+1927	5	211547	14:40:00	14:40:00		Krakowska szpital 04
+1927	5	211547	14:41:00	14:41:00		Krakowska galeria 06
+1927	5	211547	14:41:00	14:41:00		Krakowska galeria 06
+1927	5	211547	14:42:00	14:42:00		Krakowska / Wyzwolenia 08 nż
+1927	5	211547	14:42:00	14:42:00		Krakowska / Wyzwolenia 08 nż
+1927	5	211547	14:44:00	14:44:00		Krakowska cmentarz 10 nż
+1927	5	211547	14:44:00	14:44:00		Krakowska cmentarz 10 nż
+1927	5	211547	14:46:00	14:46:00		Krakowska / Ceramiczna 12
+1927	5	211547	14:46:00	14:46:00		Krakowska / Ceramiczna 12
+1927	5	211547	14:47:00	14:47:00		Krakowska / Dworzysko 14 nż
+1927	5	211547	14:47:00	14:47:00		Krakowska / Dworzysko 14 nż
+1927	5	211547	14:49:00	14:49:00		Krakowska granica 16 nż
+1927	5	211547	14:49:00	14:49:00		Krakowska granica 16 nż
+1927	5	211547	14:51:00	14:51:00		Krakowska granica 15 nż
+1927	5	211547	14:51:00	14:51:00		Krakowska granica 15 nż
+
+1893	5	214914	15:00:00	15:00:00		Krakowska granica 15 nż
+1893	5	214914	15:00:00	15:00:00		Krakowska granica 15 nż
+1893	5	214914	15:01:00	15:01:00		Krakowska / Dworzysko 13 nż
+1893	5	214914	15:01:00	15:01:00		Krakowska / Dworzysko 13 nż
+1893	5	214914	15:03:00	15:03:00		Krakowska / Ustrzycka 11
+1893	5	214914	15:03:00	15:03:00		Krakowska / Ustrzycka 11
+1893	5	214914	15:04:00	15:04:00		Krakowska cmentarz 09 nż
+1893	5	214914	15:04:00	15:04:00		Krakowska cmentarz 09 nż
+1893	5	214914	15:06:00	15:06:00		Krakowska / Mielecka 07 nż
+1893	5	214914	15:06:00	15:06:00		Krakowska / Mielecka 07 nż
+1893	5	214914	15:07:00	15:07:00		Krakowska galeria 05
+1893	5	214914	15:07:00	15:07:00		Krakowska galeria 05
+1893	5	214914	15:08:00	15:08:00		Krakowska szpital 03
+1893	5	214914	15:08:00	15:08:00		Krakowska szpital 03
+1893	5	214914	15:10:00	15:10:00		Krakowska jedn. wojskowa 01
+1893	5	214914	15:10:00	15:10:00		Krakowska jedn. wojskowa 01
+1893	5	214914	15:13:00	15:13:00		Piłsudskiego U. Wojewódzki 05
+1893	5	214914	15:13:00	15:13:00		Piłsudskiego U. Wojewódzki 05
+1893	5	214914	15:15:00	15:15:00		Pl. Wolności 03
+1893	5	214914	15:15:00	15:15:00		Pl. Wolności 03
+1893	5	214914	15:16:00	15:16:00		Piłsudskiego ZDZ 01 nż
+1893	5	214914	15:16:00	15:16:00		Piłsudskiego ZDZ 01 nż
+1893	5	214914	15:19:00	15:19:00		Lwowska jedn. wojskowa 02
+1893	5	214914	15:19:00	15:19:00		Lwowska jedn. wojskowa 02
+1893	5	214914	15:26:00	15:26:00		Lwowska cmentarz 04
+1893	5	214914	15:26:00	15:26:00		Lwowska cmentarz 04
+1893	5	214914	15:30:00	15:30:00		Żołnierzy I Armii WP 02
+1893	5	214914	15:30:00	15:30:00		Żołnierzy I Armii WP 02
+1893	5	214914	15:32:00	15:32:00		Konf. Barskich / Traugutta 02 nż
+1893	5	214914	15:32:00	15:32:00		Konf. Barskich / Traugutta 02 nż
+1893	5	214914	15:33:00	15:33:00		Załęska / Konf. Barskich 02 nż
+1893	5	214914	15:33:00	15:33:00		Załęska / Konf. Barskich 02 nż
+1893	5	214914	15:34:00	15:34:00		Sieciecha / Załęska 01 nż
+1893	5	214914	15:34:00	15:34:00		Sieciecha / Załęska 01 nż
+1893	5	214914	15:38:00	15:38:00		Rzecha / Załęska 02 nż
+1893	5	214914	15:38:00	15:38:00		Rzecha / Załęska 02 nż
+1893	5	214914	15:39:00	15:39:00		Rzecha / Spółdzielcza 04 nż
+1893	5	214914	15:39:00	15:39:00		Rzecha / Spółdzielcza 04 nż
+1893	5	214914	15:40:00	15:40:00		Ciepłownicza / Rzecha 02 nż
+1893	5	214914	15:40:00	15:40:00		Ciepłownicza / Rzecha 02 nż
+1893	5	214914	15:41:00	15:41:00		Ciepłownicza MPGK 04 nż
+1893	5	214914	15:41:00	15:41:00		Ciepłownicza MPGK 04 nż
+1893	5	214914	15:42:00	15:42:00		Ciepłownicza elektrociepłownia 06 nż
+1893	5	214914	15:42:00	15:42:00		Ciepłownicza elektrociepłownia 06 nż
+1893	5	214914	15:43:00	15:43:00		Ciepłownicza MPGK 01 nż
+1893	5	214914	15:43:00	15:43:00		Ciepłownicza MPGK 01 nż
+1893	5	214914	15:45:00	15:45:00		Rzecha / Ciepłownicza 03 nż
+1893	5	214914	15:45:00	15:45:00		Rzecha / Ciepłownicza 03 nż
+1893	5	214914	15:48:00	15:48:00		Załęska / Rzecha 04 nż
+1893	5	214914	15:48:00	15:48:00		Załęska / Rzecha 04 nż
+1893	5	214914	15:49:00	15:49:00		Załęska zakład karny 06 nż
+1893	5	214914	15:49:00	15:49:00		Załęska zakład karny 06 nż
+1893	5	214914	15:50:00	15:50:00		Załęska / Spichlerzowa 10 nż
+1893	5	214914	15:50:00	15:50:00		Załęska / Spichlerzowa 10 nż
+1893	5	214914	15:51:00	15:51:00		Spichlerzowa / Załęska 02 nż
+1893	5	214914	15:51:00	15:51:00		Spichlerzowa / Załęska 02 nż
+1893	5	214914	15:53:00	15:53:00		Spichlerzowa pętla 04 nż
+1893	5	214914	15:53:00	15:53:00		Spichlerzowa pętla 04 nż
+
+1927	5	215774	16:27:00	16:27:00		Spichlerzowa pętla 04 nż
+1927	5	215774	16:27:00	16:27:00		Spichlerzowa pętla 04 nż
+1927	5	215774	16:28:00	16:28:00		Spichlerzowa / Załęska 01 nż
+1927	5	215774	16:28:00	16:28:00		Spichlerzowa / Załęska 01 nż
+1927	5	215774	16:29:00	16:29:00		Załęska / Spichlerzowa 09 nż
+1927	5	215774	16:29:00	16:29:00		Załęska / Spichlerzowa 09 nż
+1927	5	215774	16:30:00	16:30:00		Załęska zakład karny 07 nż
+1927	5	215774	16:30:00	16:30:00		Załęska zakład karny 07 nż
+1927	5	215774	16:31:00	16:31:00		Załęska / Rzecha 05 nż
+1927	5	215774	16:31:00	16:31:00		Załęska / Rzecha 05 nż
+1927	5	215774	16:32:00	16:32:00		Rzecha / Spółdzielcza 04 nż
+1927	5	215774	16:32:00	16:32:00		Rzecha / Spółdzielcza 04 nż
+1927	5	215774	16:33:00	16:33:00		Ciepłownicza / Rzecha 02 nż
+1927	5	215774	16:33:00	16:33:00		Ciepłownicza / Rzecha 02 nż
+1927	5	215774	16:34:00	16:34:00		Ciepłownicza MPGK 04 nż
+1927	5	215774	16:34:00	16:34:00		Ciepłownicza MPGK 04 nż
+1927	5	215774	16:35:00	16:35:00		Ciepłownicza elektrociepłownia 06 nż
+1927	5	215774	16:35:00	16:35:00		Ciepłownicza elektrociepłownia 06 nż
+1927	5	215774	16:36:00	16:36:00		Ciepłownicza MPGK 01 nż
+1927	5	215774	16:36:00	16:36:00		Ciepłownicza MPGK 01 nż
+1927	5	215774	16:37:00	16:37:00		Rzecha / Ciepłownicza 03 nż
+1927	5	215774	16:37:00	16:37:00		Rzecha / Ciepłownicza 03 nż
+1927	5	215774	16:39:00	16:39:00		Rzecha / Załęska 01 nż
+1927	5	215774	16:39:00	16:39:00		Rzecha / Załęska 01 nż
+1927	5	215774	16:41:00	16:41:00		Sieciecha / Załęska 02 nż
+1927	5	215774	16:41:00	16:41:00		Sieciecha / Załęska 02 nż
+1927	5	215774	16:42:00	16:42:00		Załęska / Konf. Barskich 01 nż
+1927	5	215774	16:42:00	16:42:00		Załęska / Konf. Barskich 01 nż
+1927	5	215774	16:43:00	16:43:00		Konf. Barskich / Traugutta 01 nż
+1927	5	215774	16:43:00	16:43:00		Konf. Barskich / Traugutta 01 nż
+1927	5	215774	16:46:00	16:46:00		Lwowska cmentarz 03
+1927	5	215774	16:46:00	16:46:00		Lwowska cmentarz 03
+1927	5	215774	16:47:00	16:47:00		Lwowska jedn. wojskowa 01
+1927	5	215774	16:47:00	16:47:00		Lwowska jedn. wojskowa 01
+1927	5	215774	16:49:00	16:49:00		Piłsudskiego ZDZ 02
+1927	5	215774	16:49:00	16:49:00		Piłsudskiego ZDZ 02
+1927	5	215774	16:51:00	16:51:00		Pl. Wolności 04
+1927	5	215774	16:51:00	16:51:00		Pl. Wolności 04
+1927	5	215774	16:54:00	16:54:00		Piłsudskiego U. Marszałkowski 08
+1927	5	215774	16:54:00	16:54:00		Piłsudskiego U. Marszałkowski 08
+1927	5	215774	16:56:00	16:56:00		Krakowska jedn. wojskowa 02
+1927	5	215774	16:56:00	16:56:00		Krakowska jedn. wojskowa 02
+1927	5	215774	16:58:00	16:58:00		Krakowska szpital 04
+1927	5	215774	16:58:00	16:58:00		Krakowska szpital 04
+1927	5	215774	16:59:00	16:59:00		Krakowska galeria 06
+1927	5	215774	16:59:00	16:59:00		Krakowska galeria 06
+1927	5	215774	17:00:00	17:00:00		Krakowska / Wyzwolenia 08 nż
+1927	5	215774	17:00:00	17:00:00		Krakowska / Wyzwolenia 08 nż
+1927	5	215774	17:01:00	17:01:00		Krakowska cmentarz 10 nż
+1927	5	215774	17:01:00	17:01:00		Krakowska cmentarz 10 nż
+1927	5	215774	17:03:00	17:03:00		Krakowska / Ceramiczna 12
+1927	5	215774	17:03:00	17:03:00		Krakowska / Ceramiczna 12
+1927	5	215774	17:04:00	17:04:00		Krakowska / Dworzysko 14 nż
+1927	5	215774	17:04:00	17:04:00		Krakowska / Dworzysko 14 nż
+1927	5	215774	17:06:00	17:06:00		Krakowska granica 16 nż
+1927	5	215774	17:06:00	17:06:00		Krakowska granica 16 nż
+1927	5	215774	17:08:00	17:08:00		Krakowska granica 15 nż
+1927	5	215774	17:08:00	17:08:00		Krakowska granica 15 nż
+
+1962	5	212752	17:31:00	17:31:00		Krakowska granica 15 nż
+1962	5	212752	17:31:00	17:31:00		Krakowska granica 15 nż
+1962	5	212752	17:32:00	17:32:00		Krakowska / Dworzysko 13 nż
+1962	5	212752	17:32:00	17:32:00		Krakowska / Dworzysko 13 nż
+1962	5	212752	17:34:00	17:34:00		Krakowska / Ustrzycka 11
+1962	5	212752	17:34:00	17:34:00		Krakowska / Ustrzycka 11
+1962	5	212752	17:35:00	17:35:00		Krakowska cmentarz 09 nż
+1962	5	212752	17:35:00	17:35:00		Krakowska cmentarz 09 nż
+1962	5	212752	17:37:00	17:37:00		Krakowska / Mielecka 07 nż
+1962	5	212752	17:37:00	17:37:00		Krakowska / Mielecka 07 nż
+1962	5	212752	17:38:00	17:38:00		Krakowska galeria 05
+1962	5	212752	17:38:00	17:38:00		Krakowska galeria 05
+1962	5	212752	17:39:00	17:39:00		Krakowska szpital 03
+1962	5	212752	17:39:00	17:39:00		Krakowska szpital 03
+1962	5	212752	17:41:00	17:41:00		Krakowska jedn. wojskowa 01
+1962	5	212752	17:41:00	17:41:00		Krakowska jedn. wojskowa 01
+1962	5	212752	17:44:00	17:44:00		Piłsudskiego U. Wojewódzki 05
+1962	5	212752	17:44:00	17:44:00		Piłsudskiego U. Wojewódzki 05
+1962	5	212752	17:45:00	17:45:00		Pl. Wolności 03
+1962	5	212752	17:45:00	17:45:00		Pl. Wolności 03
+1962	5	212752	17:46:00	17:46:00		Piłsudskiego ZDZ 01 nż
+1962	5	212752	17:46:00	17:46:00		Piłsudskiego ZDZ 01 nż
+1962	5	212752	17:48:00	17:48:00		Lwowska jedn. wojskowa 02
+1962	5	212752	17:48:00	17:48:00		Lwowska jedn. wojskowa 02
+1962	5	212752	17:51:00	17:51:00		Lwowska cmentarz 04
+1962	5	212752	17:51:00	17:51:00		Lwowska cmentarz 04
+1962	5	212752	17:53:00	17:53:00		Żołnierzy I Armii WP 02
+1962	5	212752	17:53:00	17:53:00		Żołnierzy I Armii WP 02
+1962	5	212752	17:55:00	17:55:00		Konf. Barskich / Traugutta 02 nż
+1962	5	212752	17:55:00	17:55:00		Konf. Barskich / Traugutta 02 nż
+1962	5	212752	17:56:00	17:56:00		Załęska / Konf. Barskich 02 nż
+1962	5	212752	17:56:00	17:56:00		Załęska / Konf. Barskich 02 nż
+1962	5	212752	17:57:00	17:57:00		Sieciecha / Załęska 01 nż
+1962	5	212752	17:57:00	17:57:00		Sieciecha / Załęska 01 nż
+1962	5	212752	18:00:00	18:00:00		Rzecha / Załęska 02 nż
+1962	5	212752	18:00:00	18:00:00		Rzecha / Załęska 02 nż
+1962	5	212752	18:01:00	18:01:00		Załęska / Rzecha 04 nż
+1962	5	212752	18:01:00	18:01:00		Załęska / Rzecha 04 nż
+1962	5	212752	18:02:00	18:02:00		Załęska zakład karny 06 nż
+1962	5	212752	18:02:00	18:02:00		Załęska zakład karny 06 nż
+1962	5	212752	18:03:00	18:03:00		Załęska / Spichlerzowa 10 nż
+1962	5	212752	18:03:00	18:03:00		Załęska / Spichlerzowa 10 nż
+1962	5	212752	18:04:00	18:04:00		Spichlerzowa / Załęska 02 nż
+1962	5	212752	18:04:00	18:04:00		Spichlerzowa / Załęska 02 nż
+1962	5	212752	18:06:00	18:06:00		Spichlerzowa pętla 04 nż
+1962	5	212752	18:06:00	18:06:00		Spichlerzowa pętla 04 nż
+
+1927	5	209210	18:27:00	18:27:00		Spichlerzowa pętla 04 nż
+1927	5	209210	18:27:00	18:27:00		Spichlerzowa pętla 04 nż
+1927	5	209210	18:28:00	18:28:00		Spichlerzowa / Załęska 01 nż
+1927	5	209210	18:28:00	18:28:00		Spichlerzowa / Załęska 01 nż
+1927	5	209210	18:29:00	18:29:00		Załęska / Spichlerzowa 09 nż
+1927	5	209210	18:29:00	18:29:00		Załęska / Spichlerzowa 09 nż
+1927	5	209210	18:30:00	18:30:00		Załęska zakład karny 07 nż
+1927	5	209210	18:30:00	18:30:00		Załęska zakład karny 07 nż
+1927	5	209210	18:31:00	18:31:00		Załęska / Rzecha 05 nż
+1927	5	209210	18:31:00	18:31:00		Załęska / Rzecha 05 nż
+1927	5	209210	18:32:00	18:32:00		Rzecha / Spółdzielcza 04 nż
+1927	5	209210	18:32:00	18:32:00		Rzecha / Spółdzielcza 04 nż
+1927	5	209210	18:33:00	18:33:00		Ciepłownicza / Rzecha 02 nż
+1927	5	209210	18:33:00	18:33:00		Ciepłownicza / Rzecha 02 nż
+1927	5	209210	18:34:00	18:34:00		Ciepłownicza MPGK 04 nż
+1927	5	209210	18:34:00	18:34:00		Ciepłownicza MPGK 04 nż
+1927	5	209210	18:35:00	18:35:00		Ciepłownicza elektrociepłownia 06 nż
+1927	5	209210	18:35:00	18:35:00		Ciepłownicza elektrociepłownia 06 nż
+1927	5	209210	18:36:00	18:36:00		Ciepłownicza MPGK 01 nż
+1927	5	209210	18:36:00	18:36:00		Ciepłownicza MPGK 01 nż
+1927	5	209210	18:37:00	18:37:00		Rzecha / Ciepłownicza 03 nż
+1927	5	209210	18:37:00	18:37:00		Rzecha / Ciepłownicza 03 nż
+1927	5	209210	18:39:00	18:39:00		Rzecha / Załęska 01 nż
+1927	5	209210	18:39:00	18:39:00		Rzecha / Załęska 01 nż
+1927	5	209210	18:41:00	18:41:00		Sieciecha / Załęska 02 nż
+1927	5	209210	18:41:00	18:41:00		Sieciecha / Załęska 02 nż
+1927	5	209210	18:42:00	18:42:00		Załęska / Konf. Barskich 01 nż
+1927	5	209210	18:42:00	18:42:00		Załęska / Konf. Barskich 01 nż
+1927	5	209210	18:43:00	18:43:00		Konf. Barskich / Traugutta 01 nż
+1927	5	209210	18:43:00	18:43:00		Konf. Barskich / Traugutta 01 nż
+1927	5	209210	18:46:00	18:46:00		Lwowska cmentarz 03
+1927	5	209210	18:46:00	18:46:00		Lwowska cmentarz 03
+1927	5	209210	18:47:00	18:47:00		Lwowska jedn. wojskowa 01
+1927	5	209210	18:47:00	18:47:00		Lwowska jedn. wojskowa 01
+1927	5	209210	18:49:00	18:49:00		Piłsudskiego ZDZ 02
+1927	5	209210	18:49:00	18:49:00		Piłsudskiego ZDZ 02
+1927	5	209210	18:51:00	18:51:00		Pl. Wolności 04
+1927	5	209210	18:51:00	18:51:00		Pl. Wolności 04
+1927	5	209210	18:54:00	18:54:00		Piłsudskiego U. Marszałkowski 08
+1927	5	209210	18:54:00	18:54:00		Piłsudskiego U. Marszałkowski 08
+1927	5	209210	18:56:00	18:56:00		Krakowska jedn. wojskowa 02
+1927	5	209210	18:56:00	18:56:00		Krakowska jedn. wojskowa 02
+1927	5	209210	18:58:00	18:58:00		Krakowska szpital 04
+1927	5	209210	18:58:00	18:58:00		Krakowska szpital 04
+1927	5	209210	18:59:00	18:59:00		Krakowska galeria 06
+1927	5	209210	18:59:00	18:59:00		Krakowska galeria 06
+1927	5	209210	19:00:00	19:00:00		Krakowska / Wyzwolenia 08 nż
+1927	5	209210	19:00:00	19:00:00		Krakowska / Wyzwolenia 08 nż
+1927	5	209210	19:01:00	19:01:00		Krakowska cmentarz 10 nż
+1927	5	209210	19:01:00	19:01:00		Krakowska cmentarz 10 nż
+1927	5	209210	19:02:00	19:02:00		Krakowska / Ceramiczna 12
+1927	5	209210	19:02:00	19:02:00		Krakowska / Ceramiczna 12
+1927	5	209210	19:03:00	19:03:00		Krakowska / Dworzysko 14 nż
+1927	5	209210	19:03:00	19:03:00		Krakowska / Dworzysko 14 nż
+1927	5	209210	19:05:00	19:05:00		Krakowska granica 16 nż
+1927	5	209210	19:05:00	19:05:00		Krakowska granica 16 nż
+1927	5	209210	19:07:00	19:07:00		Krakowska granica 15 nż
+1927	5	209210	19:07:00	19:07:00		Krakowska granica 15 nż

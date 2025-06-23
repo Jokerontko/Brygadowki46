@@ -40,9 +40,10 @@
         td {
             text-align: center;
             padding: 10px;
-            border: 1px solid #ccc;
+            border: 1.5px solid #ccc;
             font-size: 17px;
         }
+
 
         thead {
             background-color: rgba(163, 120, 0);
@@ -204,7 +205,7 @@
 
     <h1 id="brygadaTitle">Brygada</h1>
     <h3 id="pojazdlive" style="margin: -5px 0px 8px 0px;">Autobus zalogowany do brygady: ...</h3>
-    <h3 id="brygadaType">Typ</h3>
+    <h3 id="brygadaType"></h3>
 
     <div class="buttons">
         <a href="#" class="menu" id="highlightButton">Wyróżnij linie</a>
@@ -254,35 +255,38 @@
     </table>
     <br>
 
+    <dir>
+        <table id="rozkładTable">
+            <thead>
+                <tr>
+                    <th>Lp</th>
+                    <th>Linia</th>
+                    <th>Początek</th>
+                    <th>Kierunek</th>
+                    <th>Godz. Rozp.</th>
+                    <th>Godz. Zak.</th>
+                    <th>Czas trwania</th>
+                    <th style="display: none;">Km</th>
+                    <th class="hide">Kod Trasy</th>
+                    <th class="hide">Kod Linii</th>
+                </tr>
+            </thead>
+            <tbody id="dane-tabeli">
+                <!-- Rows will be added dynamically -->
+            </tbody>
+        </table>
+        <p class="top" style="margin-top: 5px; ">Brygada ważna od <span id="waznyOd">ładowanie...</span></p>
 
-
-    <table id="rozkładTable">
-        <thead>
-            <tr>
-                <th>Lp</th>
-                <th>Linia</th>
-                <th>Początek</th>
-                <th>Kierunek</th>
-                <th>Godz. Rozp.</th>
-                <th>Godz. Zak.</th>
-                <th>Czas trwania</th>
-                <th style="display: none;">Km</th>
-                <th class="hide">Kod Trasy</th>
-                <th class="hide">Kod Linii</th>
-            </tr>
-        </thead>
-        <tbody id="dane-tabeli">
-            <!-- Rows will be added dynamically -->
-        </tbody>
-    </table>
-
-
+    </dir>
 
     <!--<button onclick="drukujRozklad()">Drukuj rozkład</button>-->
 
     <p>Strona odświeża się automatycznie co 180 sekund.</p>
 
     <script>
+        let ChoosedTypeOfRozklad = localStorage.getItem("ChoosedTypeOfRozklad");
+        let Miasto = localStorage.getItem('Miasto');
+
         // Check if the user is logged in, otherwise redirect
         function checkLogin() {
             const user = JSON.parse(localStorage.getItem('user'));
@@ -302,15 +306,37 @@
             }
         }
 
-        // Set the type for the brigade
         function loadBrygadaType() {
             const brygadaType = sessionStorage.getItem('BrygadaType');
+            console.log('loadBrygadaType, brygadaType:', brygadaType);
+
+            const tbody = document.getElementById('dane-wykaz');
+            if (!tbody) {
+                console.error('Nie znaleziono elementu tbody o id "dane-wykaz"');
+                return;
+            }
+
             if (brygadaType) {
-                document.getElementById('brygadaType').innerText = `${brygadaType}`;
+                document.getElementById('brygadaType').innerText = brygadaType;
             } else {
                 console.error("Nie znaleziono brygadaTitle w sessionStorage.");
+
+                // Wyczyść istniejące wiersze
+                tbody.innerHTML = '';
+
+                // Stwórz scalony wiersz z komunikatem
+                const row = document.createElement('tr');
+                const cell = document.createElement('td');
+                cell.setAttribute('colspan', '5');
+                cell.style.textAlign = 'center';
+                cell.style.fontStyle = 'italic';
+                cell.textContent = 'Brak danych o typie brygady.';
+
+                row.appendChild(cell);
+                tbody.appendChild(row);
             }
         }
+
 
         // Logout logic
         document.getElementById('logout').addEventListener('click', function() {
@@ -326,7 +352,8 @@
                 return null;
             }
 
-            let filePath = `../../../Brygady/WYNIKI/Gotowe_brygady/${brygadaNumber}/${brygadaTitle}/GOTOWE.txt`;
+
+            let filePath = `../../../Brygady/${Miasto}/WYNIKI/Gotowe_brygady/${ChoosedTypeOfRozklad}/${brygadaTitle}/GOTOWE.txt`;
             try {
                 const response = await fetch(filePath);
                 if (!response.ok) {
@@ -342,7 +369,8 @@
 
         // Fetch the 'Kierunki.txt' file
         async function fetchKierunkiFile() {
-            const filePath = "../../../Brygady/WYNIKI/Kierunki.txt";
+            const filePath = `../../../Brygady/${Miasto}/WYNIKI/Kierunki.txt`;
+
             try {
                 const response = await fetch(filePath);
                 if (!response.ok) {
@@ -733,16 +761,16 @@
 
         switch (folderName) {
             case 'Niedzielny':
-                brygadaNumber = '1';
+                brygadaNumber = 'Niedzielny';
                 break;
             case 'Powszedni':
-                brygadaNumber = '2';
+                brygadaNumber = 'Powszedni';
                 break;
-            case 'PowszedniWolny':
-                brygadaNumber = '3';
+            case 'Powszedni_Wolny':
+                brygadaNumber = 'Powszedni_Wolny';
                 break;
             case 'Sobotni':
-                brygadaNumber = '4';
+                brygadaNumber = 'Sobotni';
                 break;
             default:
                 brygadaNumber = '2'; // Domyślna wartość, jeśli folder nie pasuje do żadnego przypadku
@@ -833,6 +861,7 @@
 
             if (!tabelaWykaz || !tabelaRozklad) {
                 console.error("Nie znaleziono jednej z wymaganych tabel.");
+                addErrorRow(tabelaWykaz);
                 return;
             }
 
@@ -843,6 +872,7 @@
 
             if (!godzRozp || !godzZak) {
                 console.error("Nie znaleziono wartości w kolumnach 'Godz. Rozp.' lub 'Godz. Zak.' w tabeli rozkładTable.");
+                addErrorRow(tabelaWykaz);
                 return;
             }
 
@@ -863,6 +893,7 @@
 
                     if (!ZakonczenieA || !RozpoczecieB) {
                         console.error("Brak wartości dla ZakonczenieA lub RozpoczecieB w sessionStorage.");
+                        addErrorRow(tabelaWykaz);
                         return;
                     }
 
@@ -873,15 +904,12 @@
                     tabelaWykaz.appendChild(createRow("B", RozpoczecieB, godzZak, roznicaB));
                 }
             } else if (brygadaType === "Brygada Szczytowa") {
-
-                const godzRozp = findFirstAvailableStartTime(tabelaRozklad);
-                const godzZak = findLatestEndTime(tabelaRozklad);
                 const ZakPrzedPrzerwa = sessionStorage.getItem("NajdluzszaPrzerwa_GodzZak");
                 const RozpPoPrzerwa = sessionStorage.getItem("godz_rozp_przerwa");
 
-
                 if (!godzRozp || !godzZak || !ZakPrzedPrzerwa || !RozpPoPrzerwa) {
                     console.error("Brak wartości w sessionStorage dla jednej z wymaganych zmiennych.");
+                    addErrorRow(tabelaWykaz);
                     return;
                 }
                 const roznicaA = calculateTimeDifference(godzRozp, ZakPrzedPrzerwa);
@@ -889,8 +917,26 @@
 
                 tabelaWykaz.appendChild(createRow("A", godzRozp, ZakPrzedPrzerwa, roznicaA));
                 tabelaWykaz.appendChild(createRow("B", RozpPoPrzerwa, godzZak, roznicaB));
+            } else {
+                // Jeżeli brygadaType jest nieznany, też dodajemy wiersz błędu
+                console.error("Nieznany typ brygady:", brygadaType);
+                addErrorRow(tabelaWykaz);
             }
         }
+
+        function addErrorRow(tabelaWykaz) {
+            if (!tabelaWykaz) return; // Jeśli tabela nie istnieje, nie robimy nic
+
+            const row = document.createElement("tr");
+            const cell = document.createElement("td");
+            cell.colSpan = 5; // scalamy wszystkie kolumny
+            cell.style.textAlign = "center";
+            cell.textContent = "Brak danych";
+            row.appendChild(cell);
+
+            tabelaWykaz.appendChild(row);
+        }
+
 
         function createRow(label, godzRozp, godzZak, roznica) {
             const row = document.createElement("tr");
@@ -1005,16 +1051,16 @@
                 let brygadaNumber;
                 switch (folderName) {
                     case 'Niedzielny':
-                        brygadaNumber = '1';
+                        brygadaNumber = 'Niedzielny';
                         break;
                     case 'Powszedni':
-                        brygadaNumber = '2';
+                        brygadaNumber = 'Powszedni';
                         break;
                     case 'PowszedniWolny':
-                        brygadaNumber = '3';
+                        brygadaNumber = 'Powszedni_Wolny';
                         break;
                     case 'Sobotni':
-                        brygadaNumber = '4';
+                        brygadaNumber = 'Sobotni';
                         break;
                     default:
                         brygadaNumber = '2';
@@ -1026,7 +1072,7 @@
                     return;
                 }
 
-                const basePath = `../../../Brygady/WYNIKI/Gotowe_brygady/${brygadaNumber}/${brygadaTitle}`;
+                const basePath = `../../../Brygady/${Miasto}/WYNIKI/Gotowe_brygady/${ChoosedTypeOfRozklad}/${brygadaTitle}`;
                 const podmianaPath = `${basePath}/podmiana.txt`;
                 console.log("Ścieżka do pliku:", podmianaPath);
 
@@ -1127,24 +1173,28 @@
                 let currentTime = currentRow.cells[4]?.textContent;
                 let nextTime = nextRow.cells[4]?.textContent;
 
-                if (!nextTime) {
-                    const thirdRow = tableRows[i + 2];
-                    nextTime = thirdRow ? thirdRow.cells[4]?.textContent : null;
+                if (!nextTime && tableRows[i + 2]) {
+                    nextTime = tableRows[i + 2].cells[4]?.textContent;
                 }
 
                 if (currentTime && nextTime && isBetween(godzinaZakonczenieA, currentTime, nextTime)) {
-                    // Pierwszy wiersz - bez zmian
-                    const extraRow = document.createElement("tr");
-                    extraRow.innerHTML =
-                        `<td colspan="9" id="PodmianaWIERSZ" style="background-color: rgb(163, 120, 0);">
+
+                    // ❗ Warunek: dodaj "Zjazd do zajezdni" tylko jeśli currentRow.kierunek != "Lubelska Zajezdnia MPK"
+                    const currentRowKierunek = currentRow.cells[3]?.textContent?.trim();
+                    const shouldAddZjazd = currentRowKierunek !== "Lubelska Zajezdnia MPK";
+                    if (shouldAddZjazd) {
+                        const extraRow = document.createElement("tr");
+                        extraRow.innerHTML =
+                            `<td colspan="9" id="PodmianaWIERSZ" style="background-color: rgb(163, 120, 0);">
             Zjazd Do Zajezdni 
         </td>`;
-                    tableBody.insertBefore(extraRow, nextRow); // Insert before the next row
+                        tableBody.insertBefore(extraRow, nextRow);
+                    }
 
                     // Wiersz podmiany - bez zmian
                     const newRow = document.createElement("tr");
                     newRow.innerHTML =
-                        `<td colspan="9" style="text-align: center; font-size: 15px; padding: 3px; " id="PodmianaBAZA">
+                        `<td colspan="9" style="text-align: center; font-size: 15px; padding: 3px;" id="PodmianaBAZA">
             <strong> Podmiana: ${przystanekZakonczenieA} </strong><br>
             Zakończenie A: <strong> ${godzinaZakonczenieA} </strong> | Rozpoczęcie B: <strong> ${godzinaRozpoczeciaB} </strong>
         </td>`;
@@ -1153,19 +1203,23 @@
                     sessionStorage.setItem("godzinaZakonczenieA", godzinaZakonczenieA);
                     sessionStorage.setItem("godzinaRozpoczeciaB", godzinaRozpoczeciaB);
 
-                    // Drugi wiersz "Zjazd do zajezdni" - dodatkowy, pod podmianą
-                    const extraRow2 = document.createElement("tr");
-                    extraRow2.innerHTML =
-                        `<td colspan="9" id="PodmianaWIERSZ_DODATKOWY" style="background-color: rgb(163, 120, 0);">
+                    // ❗ Warunek: dodaj "Wyjazd na linię" tylko jeśli nextRow.początek != "Lubelska Zajezdnia MPK"
+                    const nextRowPoczatek = nextRow.cells[2]?.textContent?.trim();
+                    const shouldAddWyjazd = nextRowPoczatek !== "Lubelska Zajezdnia MPK";
+                    if (shouldAddWyjazd) {
+                        const extraRow2 = document.createElement("tr");
+                        extraRow2.innerHTML =
+                            `<td colspan="9" id="PodmianaWIERSZ_DODATKOWY" style="background-color: rgb(163, 120, 0);">
             Wyjazd na linię 
         </td>`;
-                    tableBody.insertBefore(extraRow2, nextRow);
+                        tableBody.insertBefore(extraRow2, nextRow);
+                    }
 
                     break;
                 }
-
             }
         }
+
 
 
 
@@ -1300,7 +1354,7 @@
         function PrzejazdTechniczny() {
             const tableBody = document.querySelector("#rozkładTable tbody");
             // Przejazd Techniczny
-            const exceptions = ["Głogów Młp. Leniar I  nż", "Głogów Młp. Leniar I  nż", "Langiewicza / Wita Stwosza", "Wita Stwosza pętla", "Ustrzycka  nż", "Ustrzycka / Magórska "];
+            const exceptions = ["Głogów Młp. Leniar I  nż", "Głogów Młp. Leniar I  nż", "Langiewicza / Wita Stwosza", "Wita Stwosza pętla", "Ustrzycka  nż", "Ustrzycka / Magórska ", "Ogrodowa bloki", "Kwiatkowskiego urząd miasta"];
             let rowCount = tableBody.rows.length; // Zapisz początkową liczbę wierszy w tabeli
 
             for (let i = 0; i < rowCount - 1; i++) {
@@ -1632,7 +1686,7 @@
 
         async function fetchKierunki(kodTrasy, row) {
             try {
-                const response = await fetch("../../../Brygady/WYNIKI/Kierunki.txt");
+                const response = await fetch(`../../../Brygady/${Miasto}/WYNIKI/Kierunki.txt`);
                 const data = await response.text();
 
                 // Podziel zawartość pliku na linie
@@ -1867,6 +1921,8 @@
             checkLogin();
             loadBrygadaTitle();
             loadBrygadaType();
+            fetchDate();
+
 
 
             let lines = await fetchGOTOWEFile();
@@ -1892,6 +1948,7 @@
                 usunZakazaneSlowaICyfry();
                 sprawdzTekstPoP();
                 loadAndRenderTable();
+                loadBrygadaType();
                 setTimeout(() => {
                     sprawdzBrygadeWTabeli();
                 }, 500);
@@ -1912,6 +1969,8 @@
 
             } else {
                 console.error("Nie udało się wczytać GOTOWE.txt.");
+                window.location.href = 'zoltakartka.html';
+
             }
         }
 
@@ -2015,24 +2074,9 @@
             const folderName = pathParts[pathParts.length - 2]; // -2, bo ostatni element to nazwa pliku
 
             // Inicjalizacja zmiennej brygadaNumber na podstawie folderu
-            let dzien;
+            let dzien = ChoosedTypeOfRozklad;
 
-            switch (folderName) {
-                case 'Niedzielny':
-                    dzien = '1';
-                    break;
-                case 'Powszedni':
-                    dzien = '2';
-                    break;
-                case 'PowszedniWolny':
-                    dzien = '3';
-                    break;
-                case 'Sobotni':
-                    dzien = '4';
-                    break;
-                default:
-                    dzien = '2'; // Domyślna wartość, jeśli folder nie pasuje do żadnego przypadku
-            }
+
 
 
             const scrollTop = window.scrollY;
@@ -2229,6 +2273,158 @@
                 console.log("Nie ma");
                 naglowek.innerHTML = 'Autobus zalogowany do brygady: <span style="color: grey;">brak</span>';
 
+            }
+        }
+
+        /*
+         */
+
+        document.addEventListener("DOMContentLoaded", async () => {
+            const miasto = localStorage.getItem("Miasto");
+            if (!miasto) return;
+
+            const header = document.querySelector("header");
+            if (!header) return;
+
+            async function fetchTextFile(path) {
+                const response = await fetch(path);
+                return await response.text();
+            }
+
+            function parseMiasta(txt, szukaneMiasto) {
+                txt = txt.replace(/\r/g, '');
+                const bloki = txt.split('\n\n');
+                for (const blok of bloki) {
+                    const linie = blok.trim().split('\n');
+                    if (linie[0].trim() === szukaneMiasto) {
+                        const widoczneMenu = {};
+                        for (let i = 2; i < linie.length; i++) {
+                            const [klucz, wartosc] = linie[i].split(':').map(s => s.trim());
+                            widoczneMenu[klucz] = (wartosc.toUpperCase() === 'TAK');
+                        }
+                        return widoczneMenu;
+                    }
+                }
+                return {};
+            }
+
+            function normalizeKey(s) {
+                return s.toLowerCase().trim();
+            }
+
+            try {
+                const miastaText = await fetchTextFile("../../miasta.txt");
+                const doDodania = parseMiasta(miastaText, miasto);
+
+                const doDodaniaNormalized = {};
+                for (const key in doDodania) {
+                    doDodaniaNormalized[normalizeKey(key)] = doDodania[key];
+                }
+
+                const zawszeAktywne = [
+                    "wybór miasta",
+                    "panel główny",
+                    "opuść panel"
+                ];
+
+                const linki = header.querySelectorAll("a.menu");
+                linki.forEach(link => {
+                    const tekst = link.textContent.trim();
+                    const normTekst = normalizeKey(tekst);
+
+                    if (zawszeAktywne.includes(normTekst)) {
+                        link.style.color = "";
+                        link.style.pointerEvents = "";
+                        link.style.opacity = "";
+                        return;
+                    }
+
+                    if (normTekst in doDodaniaNormalized) {
+                        if (doDodaniaNormalized[normTekst]) {
+                            link.style.color = "";
+                            link.style.pointerEvents = "";
+                            link.style.opacity = "";
+                        } else {
+                            link.style.color = "gray";
+                            link.style.pointerEvents = "none";
+                            link.style.opacity = "0.5";
+                        }
+                    } else {
+                        link.style.color = "gray";
+                        link.style.pointerEvents = "none";
+                        link.style.opacity = "0.5";
+                    }
+                });
+
+                const logoutBtn = document.getElementById('logout');
+                if (logoutBtn) {
+                    logoutBtn.addEventListener('click', function() {
+                        const miasto = localStorage.getItem('Miasto');
+                        localStorage.clear();
+                        localStorage.setItem('Miasto', miasto);
+                        window.location.href = 'index.html';
+                    });
+                }
+            } catch (error) {
+                console.error("Błąd podczas ładowania danych:", error);
+            }
+        });
+
+        /*
+         */
+
+        document.addEventListener("DOMContentLoaded", async () => {
+            const miasto = localStorage.getItem("Miasto");
+            if (!miasto) return;
+
+            // Prosta funkcja fetch i odczyt pliku tekstowego
+            async function fetchTextFile(path) {
+                const response = await fetch(path);
+                return await response.text();
+            }
+
+            // Parsowanie pliku miasta.txt, szuka sekcji po nazwie miasta i zwraca klucz 'Pojazdy LIVE' jako bool
+            function parseMiasta(txt, szukaneMiasto) {
+                txt = txt.replace(/\r/g, '');
+                const bloki = txt.split('\n\n');
+                for (const blok of bloki) {
+                    const linie = blok.trim().split('\n');
+                    if (linie[0].trim() === szukaneMiasto) {
+                        for (let i = 2; i < linie.length; i++) {
+                            const [klucz, wartosc] = linie[i].split(':').map(s => s.trim());
+                            if (klucz.toLowerCase() === "pojazdy live") {
+                                return wartosc.toUpperCase() === 'TAK';
+                            }
+                        }
+                    }
+                }
+                return true; // domyślnie pokazuj
+            }
+
+            try {
+                const miastaText = await fetchTextFile("../../miasta.txt");
+                const pojazdyLiveAktywne = parseMiasta(miastaText, miasto);
+
+                if (!pojazdyLiveAktywne) {
+                    const h3 = document.getElementById("pojazdlive");
+                    if (h3) h3.style.display = "none";
+                }
+            } catch (error) {
+                console.error("Błąd podczas ładowania danych:", error);
+            }
+        });
+
+        async function fetchDate() {
+            try {
+                const response = await fetch(`../../../Brygady/${Miasto}/WYNIKI/Gotowe_brygady/wazny_od.txt`);
+                if (!response.ok) {
+                    throw new Error('Błąd podczas ładowania daty');
+                }
+                const dateText = await response.text();
+                document.getElementById('waznyOd').textContent = dateText.trim();
+            } catch (error) {
+                console.error('Błąd:', error);
+                document.getElementById('waznyOd').textContent = 'Błąd ładowania daty';
             }
         }
 

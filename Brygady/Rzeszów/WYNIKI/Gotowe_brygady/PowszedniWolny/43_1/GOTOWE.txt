@@ -1,0 +1,810 @@
+route_id	service_id	trip_id	arrival_time	departure_time	stop_headsign	stop_name
+-------------------------------------------------------------------------------
+1966	5	216254	05:25:00	05:25:00		Dworaka targ 01
+1966	5	216254	05:29:00	05:29:00		Rejtana / Kustronia 03 nż
+1966	5	216254	05:29:00	05:29:00		Rejtana / Kustronia 03 nż
+1966	5	216254	05:30:00	05:30:00		Rejtana uniwersytet 05
+1966	5	216254	05:30:00	05:30:00		Rejtana uniwersytet 05
+1966	5	216254	05:31:00	05:31:00		Rejtana / Kopisto 07
+1966	5	216254	05:31:00	05:31:00		Rejtana / Kopisto 07
+1966	5	216254	05:32:00	05:32:00		Rejtana / Popiełuszki 09
+1966	5	216254	05:32:00	05:32:00		Rejtana / Popiełuszki 09
+1966	5	216254	05:33:00	05:33:00		Powst. Warszawy / Rejtana 13
+1966	5	216254	05:33:00	05:33:00		Powst. Warszawy / Rejtana 13
+1966	5	216254	05:34:00	05:34:00		Powst. Warszawy szkoła 11
+1966	5	216254	05:34:00	05:34:00		Powst. Warszawy szkoła 11
+1966	5	216254	05:35:00	05:35:00		Powst. Warszawy dom studenta 09
+1966	5	216254	05:35:00	05:35:00		Powst. Warszawy dom studenta 09
+1966	5	216254	05:36:00	05:36:00		Powst. Warszawy stadion 05 nż
+1966	5	216254	05:36:00	05:36:00		Powst. Warszawy stadion 05 nż
+1966	5	216254	05:37:00	05:37:00		Powst. Warszawy / Hetmańska 03
+1966	5	216254	05:37:00	05:37:00		Powst. Warszawy / Hetmańska 03
+1966	5	216254	05:38:00	05:38:00		Powst. Warszawy politechnika 01
+1966	5	216254	05:38:00	05:38:00		Powst. Warszawy politechnika 01
+1966	5	216254	05:40:00	05:40:00		Podkarpacka politechnika 02
+1966	5	216254	05:40:00	05:40:00		Podkarpacka politechnika 02
+1966	5	216254	05:41:00	05:41:00		Podkarpacka / Matuszczaka 04
+1966	5	216254	05:41:00	05:41:00		Podkarpacka / Matuszczaka 04
+1966	5	216254	05:42:00	05:42:00		Podkarpacka / Wetlińska 06 nż
+1966	5	216254	05:42:00	05:42:00		Podkarpacka / Wetlińska 06 nż
+1966	5	216254	05:45:00	05:45:00		Zawiszy Czarnego 03 nż
+1966	5	216254	05:45:00	05:45:00		Zawiszy Czarnego 03 nż
+1966	5	216254	05:46:00	05:46:00		Zawiszy Czarnego / Podgórska 01 nż
+1966	5	216254	05:46:00	05:46:00		Zawiszy Czarnego / Podgórska 01 nż
+1966	5	216254	05:47:00	05:47:00		Architektów 01
+1966	5	216254	05:47:00	05:47:00		Architektów 01
+1966	5	216254	05:49:00	05:49:00		Przemysłowa U. Celny 06 nż
+1966	5	216254	05:49:00	05:49:00		Przemysłowa U. Celny 06 nż
+1966	5	216254	05:50:00	05:50:00		Przemysłowa / Żołnierzy 9 DP 08 nż
+1966	5	216254	05:50:00	05:50:00		Przemysłowa / Żołnierzy 9 DP 08 nż
+1966	5	216254	05:51:00	05:51:00		Żołnierzy 9 DP / Świętokrzyska 04 nż
+1966	5	216254	05:51:00	05:51:00		Żołnierzy 9 DP / Świętokrzyska 04 nż
+1966	5	216254	05:52:00	05:52:00		Żołnierzy 9 DP bloki 06 nż
+1966	5	216254	05:52:00	05:52:00		Żołnierzy 9 DP bloki 06 nż
+
+1926	5	216810	05:56:00	05:56:00		Żołnierzy 9 DP bloki 06 nż
+1926	5	216810	05:56:00	05:56:00		Żołnierzy 9 DP bloki 06 nż
+1926	5	216810	05:57:00	05:57:00		Świętokrzyska cmentarz 01 nż
+1926	5	216810	05:57:00	05:57:00		Świętokrzyska cmentarz 01 nż
+1926	5	216810	05:58:00	05:58:00		Przemysłowa / Żołnierzy 9 DP 07 nż
+1926	5	216810	05:58:00	05:58:00		Przemysłowa / Żołnierzy 9 DP 07 nż
+1926	5	216810	05:59:00	05:59:00		Przemysłowa U. Celny 05 nż
+1926	5	216810	05:59:00	05:59:00		Przemysłowa U. Celny 05 nż
+1926	5	216810	06:01:00	06:01:00		Architektów 02
+1926	5	216810	06:01:00	06:01:00		Architektów 02
+1926	5	216810	06:03:00	06:03:00		Zawiszy Czarnego / Podgórska 02 nż
+1926	5	216810	06:03:00	06:03:00		Zawiszy Czarnego / Podgórska 02 nż
+1926	5	216810	06:04:00	06:04:00		Zawiszy Czarnego 04 nż
+1926	5	216810	06:04:00	06:04:00		Zawiszy Czarnego 04 nż
+1926	5	216810	06:05:00	06:05:00		Żołnierzy 9 DP 01 nż
+1926	5	216810	06:05:00	06:05:00		Żołnierzy 9 DP 01 nż
+1926	5	216810	06:07:00	06:07:00		Podkarpacka / Wetlińska 05 nż
+1926	5	216810	06:07:00	06:07:00		Podkarpacka / Wetlińska 05 nż
+1926	5	216810	06:08:00	06:08:00		Podkarpacka / Matuszczaka 03
+1926	5	216810	06:08:00	06:08:00		Podkarpacka / Matuszczaka 03
+1926	5	216810	06:10:00	06:10:00		Podkarpacka politechnika 01
+1926	5	216810	06:10:00	06:10:00		Podkarpacka politechnika 01
+1926	5	216810	06:11:00	06:11:00		Powst. Warszawy / Dąbrowskiego 02
+1926	5	216810	06:11:00	06:11:00		Powst. Warszawy / Dąbrowskiego 02
+1926	5	216810	06:12:00	06:12:00		Powst. Warszawy politechnika 04
+1926	5	216810	06:12:00	06:12:00		Powst. Warszawy politechnika 04
+1926	5	216810	06:13:00	06:13:00		Powst. Warszawy stadion 06
+1926	5	216810	06:13:00	06:13:00		Powst. Warszawy stadion 06
+1926	5	216810	06:15:00	06:15:00		Powst. Warszawy dom studenta 08
+1926	5	216810	06:15:00	06:15:00		Powst. Warszawy dom studenta 08
+1926	5	216810	06:16:00	06:16:00		Powst. Warszawy / Graniczna 10
+1926	5	216810	06:16:00	06:16:00		Powst. Warszawy / Graniczna 10
+1926	5	216810	06:19:00	06:19:00		Rejtana / Armii Krajowej 12
+1926	5	216810	06:19:00	06:19:00		Rejtana / Armii Krajowej 12
+1926	5	216810	06:20:00	06:20:00		Rejtana / Paderewskiego 10
+1926	5	216810	06:20:00	06:20:00		Rejtana / Paderewskiego 10
+1926	5	216810	06:21:00	06:21:00		Rejtana / Krzyżanowskiego 08
+1926	5	216810	06:21:00	06:21:00		Rejtana / Krzyżanowskiego 08
+1926	5	216810	06:23:00	06:23:00		Rejtana uniwersytet 06
+1926	5	216810	06:23:00	06:23:00		Rejtana uniwersytet 06
+1926	5	216810	06:24:00	06:24:00		Rejtana cmentarz 04 nż
+1926	5	216810	06:24:00	06:24:00		Rejtana cmentarz 04 nż
+1926	5	216810	06:25:00	06:25:00		Rejtana / Kustronia 02
+1926	5	216810	06:25:00	06:25:00		Rejtana / Kustronia 02
+1926	5	216810	06:27:00	06:27:00		Dworaka targ 01
+1926	5	216810	06:27:00	06:27:00		Dworaka targ 01
+
+1966	5	216543	06:43:00	06:43:00		Dworaka targ 01
+1966	5	216543	06:43:00	06:43:00		Dworaka targ 01
+1966	5	216543	06:47:00	06:47:00		Rejtana / Kustronia 03 nż
+1966	5	216543	06:47:00	06:47:00		Rejtana / Kustronia 03 nż
+1966	5	216543	06:48:00	06:48:00		Rejtana uniwersytet 05
+1966	5	216543	06:48:00	06:48:00		Rejtana uniwersytet 05
+1966	5	216543	06:50:00	06:50:00		Rejtana / Kopisto 07
+1966	5	216543	06:50:00	06:50:00		Rejtana / Kopisto 07
+1966	5	216543	06:51:00	06:51:00		Rejtana / Popiełuszki 09
+1966	5	216543	06:51:00	06:51:00		Rejtana / Popiełuszki 09
+1966	5	216543	06:54:00	06:54:00		Powst. Warszawy / Rejtana 13
+1966	5	216543	06:54:00	06:54:00		Powst. Warszawy / Rejtana 13
+1966	5	216543	06:55:00	06:55:00		Powst. Warszawy szkoła 11
+1966	5	216543	06:55:00	06:55:00		Powst. Warszawy szkoła 11
+1966	5	216543	06:56:00	06:56:00		Powst. Warszawy dom studenta 09
+1966	5	216543	06:56:00	06:56:00		Powst. Warszawy dom studenta 09
+1966	5	216543	06:58:00	06:58:00		Powst. Warszawy stadion 05 nż
+1966	5	216543	06:58:00	06:58:00		Powst. Warszawy stadion 05 nż
+1966	5	216543	06:59:00	06:59:00		Powst. Warszawy / Hetmańska 03
+1966	5	216543	06:59:00	06:59:00		Powst. Warszawy / Hetmańska 03
+1966	5	216543	07:00:00	07:00:00		Powst. Warszawy politechnika 01
+1966	5	216543	07:00:00	07:00:00		Powst. Warszawy politechnika 01
+1966	5	216543	07:03:00	07:03:00		Podkarpacka politechnika 02
+1966	5	216543	07:03:00	07:03:00		Podkarpacka politechnika 02
+1966	5	216543	07:04:00	07:04:00		Podkarpacka / Matuszczaka 04
+1966	5	216543	07:04:00	07:04:00		Podkarpacka / Matuszczaka 04
+1966	5	216543	07:05:00	07:05:00		Podkarpacka / Wetlińska 06 nż
+1966	5	216543	07:05:00	07:05:00		Podkarpacka / Wetlińska 06 nż
+1966	5	216543	07:08:00	07:08:00		Zawiszy Czarnego 03 nż
+1966	5	216543	07:08:00	07:08:00		Zawiszy Czarnego 03 nż
+1966	5	216543	07:09:00	07:09:00		Zawiszy Czarnego / Podgórska 01 nż
+1966	5	216543	07:09:00	07:09:00		Zawiszy Czarnego / Podgórska 01 nż
+1966	5	216543	07:10:00	07:10:00		Architektów 01
+1966	5	216543	07:10:00	07:10:00		Architektów 01
+1966	5	216543	07:13:00	07:13:00		Przemysłowa U. Celny 06 nż
+1966	5	216543	07:13:00	07:13:00		Przemysłowa U. Celny 06 nż
+1966	5	216543	07:14:00	07:14:00		Przemysłowa / Żołnierzy 9 DP 08 nż
+1966	5	216543	07:14:00	07:14:00		Przemysłowa / Żołnierzy 9 DP 08 nż
+1966	5	216543	07:15:00	07:15:00		Żołnierzy 9 DP / Świętokrzyska 04 nż
+1966	5	216543	07:15:00	07:15:00		Żołnierzy 9 DP / Świętokrzyska 04 nż
+1966	5	216543	07:16:00	07:16:00		Żołnierzy 9 DP bloki 06 nż
+1966	5	216543	07:16:00	07:16:00		Żołnierzy 9 DP bloki 06 nż
+
+1926	5	216675	07:24:00	07:24:00		Żołnierzy 9 DP bloki 06 nż
+1926	5	216675	07:24:00	07:24:00		Żołnierzy 9 DP bloki 06 nż
+1926	5	216675	07:25:00	07:25:00		Świętokrzyska cmentarz 01 nż
+1926	5	216675	07:25:00	07:25:00		Świętokrzyska cmentarz 01 nż
+1926	5	216675	07:26:00	07:26:00		Przemysłowa / Żołnierzy 9 DP 07 nż
+1926	5	216675	07:26:00	07:26:00		Przemysłowa / Żołnierzy 9 DP 07 nż
+1926	5	216675	07:28:00	07:28:00		Przemysłowa U. Celny 05 nż
+1926	5	216675	07:28:00	07:28:00		Przemysłowa U. Celny 05 nż
+1926	5	216675	07:30:00	07:30:00		Architektów 02
+1926	5	216675	07:30:00	07:30:00		Architektów 02
+1926	5	216675	07:32:00	07:32:00		Zawiszy Czarnego / Podgórska 02 nż
+1926	5	216675	07:32:00	07:32:00		Zawiszy Czarnego / Podgórska 02 nż
+1926	5	216675	07:33:00	07:33:00		Zawiszy Czarnego 04 nż
+1926	5	216675	07:33:00	07:33:00		Zawiszy Czarnego 04 nż
+1926	5	216675	07:34:00	07:34:00		Żołnierzy 9 DP 01 nż
+1926	5	216675	07:34:00	07:34:00		Żołnierzy 9 DP 01 nż
+1926	5	216675	07:36:00	07:36:00		Podkarpacka / Wetlińska 05 nż
+1926	5	216675	07:36:00	07:36:00		Podkarpacka / Wetlińska 05 nż
+1926	5	216675	07:37:00	07:37:00		Podkarpacka / Matuszczaka 03
+1926	5	216675	07:37:00	07:37:00		Podkarpacka / Matuszczaka 03
+1926	5	216675	07:39:00	07:39:00		Podkarpacka politechnika 01
+1926	5	216675	07:39:00	07:39:00		Podkarpacka politechnika 01
+1926	5	216675	07:40:00	07:40:00		Powst. Warszawy / Dąbrowskiego 02
+1926	5	216675	07:40:00	07:40:00		Powst. Warszawy / Dąbrowskiego 02
+1926	5	216675	07:41:00	07:41:00		Powst. Warszawy politechnika 04
+1926	5	216675	07:41:00	07:41:00		Powst. Warszawy politechnika 04
+1926	5	216675	07:43:00	07:43:00		Powst. Warszawy stadion 06
+1926	5	216675	07:43:00	07:43:00		Powst. Warszawy stadion 06
+1926	5	216675	07:45:00	07:45:00		Powst. Warszawy dom studenta 08
+1926	5	216675	07:45:00	07:45:00		Powst. Warszawy dom studenta 08
+1926	5	216675	07:46:00	07:46:00		Powst. Warszawy / Graniczna 10
+1926	5	216675	07:46:00	07:46:00		Powst. Warszawy / Graniczna 10
+1926	5	216675	07:49:00	07:49:00		Rejtana / Armii Krajowej 12
+1926	5	216675	07:49:00	07:49:00		Rejtana / Armii Krajowej 12
+1926	5	216675	07:50:00	07:50:00		Rejtana / Paderewskiego 10
+1926	5	216675	07:50:00	07:50:00		Rejtana / Paderewskiego 10
+1926	5	216675	07:51:00	07:51:00		Rejtana / Krzyżanowskiego 08
+1926	5	216675	07:51:00	07:51:00		Rejtana / Krzyżanowskiego 08
+1926	5	216675	07:53:00	07:53:00		Rejtana uniwersytet 06
+1926	5	216675	07:53:00	07:53:00		Rejtana uniwersytet 06
+1926	5	216675	07:54:00	07:54:00		Rejtana cmentarz 04 nż
+1926	5	216675	07:54:00	07:54:00		Rejtana cmentarz 04 nż
+1926	5	216675	07:55:00	07:55:00		Rejtana / Kustronia 02
+1926	5	216675	07:55:00	07:55:00		Rejtana / Kustronia 02
+1926	5	216675	07:57:00	07:57:00		Dworaka targ 01
+1926	5	216675	07:57:00	07:57:00		Dworaka targ 01
+
+1966	5	216817	08:12:00	08:12:00		Dworaka targ 01
+1966	5	216817	08:12:00	08:12:00		Dworaka targ 01
+1966	5	216817	08:16:00	08:16:00		Rejtana / Kustronia 03 nż
+1966	5	216817	08:16:00	08:16:00		Rejtana / Kustronia 03 nż
+1966	5	216817	08:17:00	08:17:00		Rejtana uniwersytet 05
+1966	5	216817	08:17:00	08:17:00		Rejtana uniwersytet 05
+1966	5	216817	08:19:00	08:19:00		Rejtana / Kopisto 07
+1966	5	216817	08:19:00	08:19:00		Rejtana / Kopisto 07
+1966	5	216817	08:20:00	08:20:00		Rejtana / Popiełuszki 09
+1966	5	216817	08:20:00	08:20:00		Rejtana / Popiełuszki 09
+1966	5	216817	08:23:00	08:23:00		Powst. Warszawy / Rejtana 13
+1966	5	216817	08:23:00	08:23:00		Powst. Warszawy / Rejtana 13
+1966	5	216817	08:24:00	08:24:00		Powst. Warszawy szkoła 11
+1966	5	216817	08:24:00	08:24:00		Powst. Warszawy szkoła 11
+1966	5	216817	08:25:00	08:25:00		Powst. Warszawy dom studenta 09
+1966	5	216817	08:25:00	08:25:00		Powst. Warszawy dom studenta 09
+1966	5	216817	08:27:00	08:27:00		Powst. Warszawy stadion 05 nż
+1966	5	216817	08:27:00	08:27:00		Powst. Warszawy stadion 05 nż
+1966	5	216817	08:28:00	08:28:00		Powst. Warszawy / Hetmańska 03
+1966	5	216817	08:28:00	08:28:00		Powst. Warszawy / Hetmańska 03
+1966	5	216817	08:29:00	08:29:00		Powst. Warszawy politechnika 01
+1966	5	216817	08:29:00	08:29:00		Powst. Warszawy politechnika 01
+1966	5	216817	08:32:00	08:32:00		Podkarpacka politechnika 02
+1966	5	216817	08:32:00	08:32:00		Podkarpacka politechnika 02
+1966	5	216817	08:33:00	08:33:00		Podkarpacka / Matuszczaka 04
+1966	5	216817	08:33:00	08:33:00		Podkarpacka / Matuszczaka 04
+1966	5	216817	08:34:00	08:34:00		Podkarpacka / Wetlińska 06 nż
+1966	5	216817	08:34:00	08:34:00		Podkarpacka / Wetlińska 06 nż
+1966	5	216817	08:37:00	08:37:00		Zawiszy Czarnego 03 nż
+1966	5	216817	08:37:00	08:37:00		Zawiszy Czarnego 03 nż
+1966	5	216817	08:38:00	08:38:00		Zawiszy Czarnego / Podgórska 01 nż
+1966	5	216817	08:38:00	08:38:00		Zawiszy Czarnego / Podgórska 01 nż
+1966	5	216817	08:39:00	08:39:00		Architektów 01
+1966	5	216817	08:39:00	08:39:00		Architektów 01
+1966	5	216817	08:41:00	08:41:00		Przemysłowa U. Celny 06 nż
+1966	5	216817	08:41:00	08:41:00		Przemysłowa U. Celny 06 nż
+1966	5	216817	08:42:00	08:42:00		Przemysłowa / Żołnierzy 9 DP 08 nż
+1966	5	216817	08:42:00	08:42:00		Przemysłowa / Żołnierzy 9 DP 08 nż
+1966	5	216817	08:43:00	08:43:00		Żołnierzy 9 DP / Świętokrzyska 04 nż
+1966	5	216817	08:43:00	08:43:00		Żołnierzy 9 DP / Świętokrzyska 04 nż
+1966	5	216817	08:44:00	08:44:00		Żołnierzy 9 DP bloki 06 nż
+1966	5	216817	08:44:00	08:44:00		Żołnierzy 9 DP bloki 06 nż
+
+1926	5	216512	08:54:00	08:54:00		Żołnierzy 9 DP bloki 06 nż
+1926	5	216512	08:54:00	08:54:00		Żołnierzy 9 DP bloki 06 nż
+1926	5	216512	08:55:00	08:55:00		Świętokrzyska cmentarz 01 nż
+1926	5	216512	08:55:00	08:55:00		Świętokrzyska cmentarz 01 nż
+1926	5	216512	08:56:00	08:56:00		Przemysłowa / Żołnierzy 9 DP 07 nż
+1926	5	216512	08:56:00	08:56:00		Przemysłowa / Żołnierzy 9 DP 07 nż
+1926	5	216512	08:58:00	08:58:00		Przemysłowa U. Celny 05 nż
+1926	5	216512	08:58:00	08:58:00		Przemysłowa U. Celny 05 nż
+1926	5	216512	09:00:00	09:00:00		Architektów 02
+1926	5	216512	09:00:00	09:00:00		Architektów 02
+1926	5	216512	09:02:00	09:02:00		Zawiszy Czarnego / Podgórska 02 nż
+1926	5	216512	09:02:00	09:02:00		Zawiszy Czarnego / Podgórska 02 nż
+1926	5	216512	09:03:00	09:03:00		Zawiszy Czarnego 04 nż
+1926	5	216512	09:03:00	09:03:00		Zawiszy Czarnego 04 nż
+1926	5	216512	09:04:00	09:04:00		Żołnierzy 9 DP 01 nż
+1926	5	216512	09:04:00	09:04:00		Żołnierzy 9 DP 01 nż
+1926	5	216512	09:06:00	09:06:00		Podkarpacka / Wetlińska 05 nż
+1926	5	216512	09:06:00	09:06:00		Podkarpacka / Wetlińska 05 nż
+1926	5	216512	09:07:00	09:07:00		Podkarpacka / Matuszczaka 03
+1926	5	216512	09:07:00	09:07:00		Podkarpacka / Matuszczaka 03
+1926	5	216512	09:09:00	09:09:00		Podkarpacka politechnika 01
+1926	5	216512	09:09:00	09:09:00		Podkarpacka politechnika 01
+1926	5	216512	09:10:00	09:10:00		Powst. Warszawy / Dąbrowskiego 02
+1926	5	216512	09:10:00	09:10:00		Powst. Warszawy / Dąbrowskiego 02
+1926	5	216512	09:11:00	09:11:00		Powst. Warszawy politechnika 04
+1926	5	216512	09:11:00	09:11:00		Powst. Warszawy politechnika 04
+1926	5	216512	09:13:00	09:13:00		Powst. Warszawy stadion 06
+1926	5	216512	09:13:00	09:13:00		Powst. Warszawy stadion 06
+1926	5	216512	09:15:00	09:15:00		Powst. Warszawy dom studenta 08
+1926	5	216512	09:15:00	09:15:00		Powst. Warszawy dom studenta 08
+1926	5	216512	09:16:00	09:16:00		Powst. Warszawy / Graniczna 10
+1926	5	216512	09:16:00	09:16:00		Powst. Warszawy / Graniczna 10
+1926	5	216512	09:19:00	09:19:00		Rejtana / Armii Krajowej 12
+1926	5	216512	09:19:00	09:19:00		Rejtana / Armii Krajowej 12
+1926	5	216512	09:20:00	09:20:00		Rejtana / Paderewskiego 10
+1926	5	216512	09:20:00	09:20:00		Rejtana / Paderewskiego 10
+1926	5	216512	09:21:00	09:21:00		Rejtana / Krzyżanowskiego 08
+1926	5	216512	09:21:00	09:21:00		Rejtana / Krzyżanowskiego 08
+1926	5	216512	09:23:00	09:23:00		Rejtana uniwersytet 06
+1926	5	216512	09:23:00	09:23:00		Rejtana uniwersytet 06
+1926	5	216512	09:24:00	09:24:00		Rejtana cmentarz 04 nż
+1926	5	216512	09:24:00	09:24:00		Rejtana cmentarz 04 nż
+1926	5	216512	09:25:00	09:25:00		Rejtana / Kustronia 02
+1926	5	216512	09:25:00	09:25:00		Rejtana / Kustronia 02
+1926	5	216512	09:27:00	09:27:00		Dworaka targ 01
+1926	5	216512	09:27:00	09:27:00		Dworaka targ 01
+
+1966	5	216439	09:43:00	09:43:00		Dworaka targ 01
+1966	5	216439	09:43:00	09:43:00		Dworaka targ 01
+1966	5	216439	09:47:00	09:47:00		Rejtana / Kustronia 03 nż
+1966	5	216439	09:47:00	09:47:00		Rejtana / Kustronia 03 nż
+1966	5	216439	09:48:00	09:48:00		Rejtana uniwersytet 05
+1966	5	216439	09:48:00	09:48:00		Rejtana uniwersytet 05
+1966	5	216439	09:50:00	09:50:00		Rejtana / Kopisto 07
+1966	5	216439	09:50:00	09:50:00		Rejtana / Kopisto 07
+1966	5	216439	09:51:00	09:51:00		Rejtana / Popiełuszki 09
+1966	5	216439	09:51:00	09:51:00		Rejtana / Popiełuszki 09
+1966	5	216439	09:54:00	09:54:00		Powst. Warszawy / Rejtana 13
+1966	5	216439	09:54:00	09:54:00		Powst. Warszawy / Rejtana 13
+1966	5	216439	09:55:00	09:55:00		Powst. Warszawy szkoła 11
+1966	5	216439	09:55:00	09:55:00		Powst. Warszawy szkoła 11
+1966	5	216439	09:56:00	09:56:00		Powst. Warszawy dom studenta 09
+1966	5	216439	09:56:00	09:56:00		Powst. Warszawy dom studenta 09
+1966	5	216439	09:58:00	09:58:00		Powst. Warszawy stadion 05 nż
+1966	5	216439	09:58:00	09:58:00		Powst. Warszawy stadion 05 nż
+1966	5	216439	09:59:00	09:59:00		Powst. Warszawy / Hetmańska 03
+1966	5	216439	09:59:00	09:59:00		Powst. Warszawy / Hetmańska 03
+1966	5	216439	10:00:00	10:00:00		Powst. Warszawy politechnika 01
+1966	5	216439	10:00:00	10:00:00		Powst. Warszawy politechnika 01
+1966	5	216439	10:03:00	10:03:00		Podkarpacka politechnika 02
+1966	5	216439	10:03:00	10:03:00		Podkarpacka politechnika 02
+1966	5	216439	10:04:00	10:04:00		Podkarpacka / Matuszczaka 04
+1966	5	216439	10:04:00	10:04:00		Podkarpacka / Matuszczaka 04
+1966	5	216439	10:05:00	10:05:00		Podkarpacka / Wetlińska 06 nż
+1966	5	216439	10:05:00	10:05:00		Podkarpacka / Wetlińska 06 nż
+1966	5	216439	10:08:00	10:08:00		Zawiszy Czarnego 03 nż
+1966	5	216439	10:08:00	10:08:00		Zawiszy Czarnego 03 nż
+1966	5	216439	10:09:00	10:09:00		Zawiszy Czarnego / Podgórska 01 nż
+1966	5	216439	10:09:00	10:09:00		Zawiszy Czarnego / Podgórska 01 nż
+1966	5	216439	10:10:00	10:10:00		Architektów 01
+1966	5	216439	10:10:00	10:10:00		Architektów 01
+1966	5	216439	10:12:00	10:12:00		Przemysłowa U. Celny 06 nż
+1966	5	216439	10:12:00	10:12:00		Przemysłowa U. Celny 06 nż
+1966	5	216439	10:13:00	10:13:00		Przemysłowa / Żołnierzy 9 DP 08 nż
+1966	5	216439	10:13:00	10:13:00		Przemysłowa / Żołnierzy 9 DP 08 nż
+1966	5	216439	10:14:00	10:14:00		Żołnierzy 9 DP / Świętokrzyska 04 nż
+1966	5	216439	10:14:00	10:14:00		Żołnierzy 9 DP / Świętokrzyska 04 nż
+1966	5	216439	10:15:00	10:15:00		Żołnierzy 9 DP bloki 06 nż
+1966	5	216439	10:15:00	10:15:00		Żołnierzy 9 DP bloki 06 nż
+
+1926	5	216678	10:24:00	10:24:00		Żołnierzy 9 DP bloki 06 nż
+1926	5	216678	10:24:00	10:24:00		Żołnierzy 9 DP bloki 06 nż
+1926	5	216678	10:25:00	10:25:00		Świętokrzyska cmentarz 01 nż
+1926	5	216678	10:25:00	10:25:00		Świętokrzyska cmentarz 01 nż
+1926	5	216678	10:26:00	10:26:00		Przemysłowa / Żołnierzy 9 DP 07 nż
+1926	5	216678	10:26:00	10:26:00		Przemysłowa / Żołnierzy 9 DP 07 nż
+1926	5	216678	10:28:00	10:28:00		Przemysłowa U. Celny 05 nż
+1926	5	216678	10:28:00	10:28:00		Przemysłowa U. Celny 05 nż
+1926	5	216678	10:30:00	10:30:00		Architektów 02
+1926	5	216678	10:30:00	10:30:00		Architektów 02
+1926	5	216678	10:32:00	10:32:00		Zawiszy Czarnego / Podgórska 02 nż
+1926	5	216678	10:32:00	10:32:00		Zawiszy Czarnego / Podgórska 02 nż
+1926	5	216678	10:33:00	10:33:00		Zawiszy Czarnego 04 nż
+1926	5	216678	10:33:00	10:33:00		Zawiszy Czarnego 04 nż
+1926	5	216678	10:34:00	10:34:00		Żołnierzy 9 DP 01 nż
+1926	5	216678	10:34:00	10:34:00		Żołnierzy 9 DP 01 nż
+1926	5	216678	10:36:00	10:36:00		Podkarpacka / Wetlińska 05 nż
+1926	5	216678	10:36:00	10:36:00		Podkarpacka / Wetlińska 05 nż
+1926	5	216678	10:37:00	10:37:00		Podkarpacka / Matuszczaka 03
+1926	5	216678	10:37:00	10:37:00		Podkarpacka / Matuszczaka 03
+1926	5	216678	10:39:00	10:39:00		Podkarpacka politechnika 01
+1926	5	216678	10:39:00	10:39:00		Podkarpacka politechnika 01
+1926	5	216678	10:40:00	10:40:00		Powst. Warszawy / Dąbrowskiego 02
+1926	5	216678	10:40:00	10:40:00		Powst. Warszawy / Dąbrowskiego 02
+1926	5	216678	10:41:00	10:41:00		Powst. Warszawy politechnika 04
+1926	5	216678	10:41:00	10:41:00		Powst. Warszawy politechnika 04
+1926	5	216678	10:43:00	10:43:00		Powst. Warszawy stadion 06
+1926	5	216678	10:43:00	10:43:00		Powst. Warszawy stadion 06
+1926	5	216678	10:45:00	10:45:00		Powst. Warszawy dom studenta 08
+1926	5	216678	10:45:00	10:45:00		Powst. Warszawy dom studenta 08
+1926	5	216678	10:46:00	10:46:00		Powst. Warszawy / Graniczna 10
+1926	5	216678	10:46:00	10:46:00		Powst. Warszawy / Graniczna 10
+1926	5	216678	10:49:00	10:49:00		Rejtana / Armii Krajowej 12
+1926	5	216678	10:49:00	10:49:00		Rejtana / Armii Krajowej 12
+1926	5	216678	10:50:00	10:50:00		Rejtana / Paderewskiego 10
+1926	5	216678	10:50:00	10:50:00		Rejtana / Paderewskiego 10
+1926	5	216678	10:51:00	10:51:00		Rejtana / Krzyżanowskiego 08
+1926	5	216678	10:51:00	10:51:00		Rejtana / Krzyżanowskiego 08
+1926	5	216678	10:53:00	10:53:00		Rejtana uniwersytet 06
+1926	5	216678	10:53:00	10:53:00		Rejtana uniwersytet 06
+1926	5	216678	10:54:00	10:54:00		Rejtana cmentarz 04 nż
+1926	5	216678	10:54:00	10:54:00		Rejtana cmentarz 04 nż
+1926	5	216678	10:55:00	10:55:00		Rejtana / Kustronia 02
+1926	5	216678	10:55:00	10:55:00		Rejtana / Kustronia 02
+1926	5	216678	10:57:00	10:57:00		Dworaka targ 01
+1926	5	216678	10:57:00	10:57:00		Dworaka targ 01
+
+1966	5	216571	11:13:00	11:13:00		Dworaka targ 01
+1966	5	216571	11:13:00	11:13:00		Dworaka targ 01
+1966	5	216571	11:17:00	11:17:00		Rejtana / Kustronia 03 nż
+1966	5	216571	11:17:00	11:17:00		Rejtana / Kustronia 03 nż
+1966	5	216571	11:18:00	11:18:00		Rejtana uniwersytet 05
+1966	5	216571	11:18:00	11:18:00		Rejtana uniwersytet 05
+1966	5	216571	11:20:00	11:20:00		Rejtana / Kopisto 07
+1966	5	216571	11:20:00	11:20:00		Rejtana / Kopisto 07
+1966	5	216571	11:21:00	11:21:00		Rejtana / Popiełuszki 09
+1966	5	216571	11:21:00	11:21:00		Rejtana / Popiełuszki 09
+1966	5	216571	11:24:00	11:24:00		Powst. Warszawy / Rejtana 13
+1966	5	216571	11:24:00	11:24:00		Powst. Warszawy / Rejtana 13
+1966	5	216571	11:25:00	11:25:00		Powst. Warszawy szkoła 11
+1966	5	216571	11:25:00	11:25:00		Powst. Warszawy szkoła 11
+1966	5	216571	11:26:00	11:26:00		Powst. Warszawy dom studenta 09
+1966	5	216571	11:26:00	11:26:00		Powst. Warszawy dom studenta 09
+1966	5	216571	11:28:00	11:28:00		Powst. Warszawy stadion 05 nż
+1966	5	216571	11:28:00	11:28:00		Powst. Warszawy stadion 05 nż
+1966	5	216571	11:29:00	11:29:00		Powst. Warszawy / Hetmańska 03
+1966	5	216571	11:29:00	11:29:00		Powst. Warszawy / Hetmańska 03
+1966	5	216571	11:30:00	11:30:00		Powst. Warszawy politechnika 01
+1966	5	216571	11:30:00	11:30:00		Powst. Warszawy politechnika 01
+1966	5	216571	11:33:00	11:33:00		Podkarpacka politechnika 02
+1966	5	216571	11:33:00	11:33:00		Podkarpacka politechnika 02
+1966	5	216571	11:34:00	11:34:00		Podkarpacka / Matuszczaka 04
+1966	5	216571	11:34:00	11:34:00		Podkarpacka / Matuszczaka 04
+1966	5	216571	11:35:00	11:35:00		Podkarpacka / Wetlińska 06 nż
+1966	5	216571	11:35:00	11:35:00		Podkarpacka / Wetlińska 06 nż
+1966	5	216571	11:38:00	11:38:00		Zawiszy Czarnego 03 nż
+1966	5	216571	11:38:00	11:38:00		Zawiszy Czarnego 03 nż
+1966	5	216571	11:39:00	11:39:00		Zawiszy Czarnego / Podgórska 01 nż
+1966	5	216571	11:39:00	11:39:00		Zawiszy Czarnego / Podgórska 01 nż
+1966	5	216571	11:40:00	11:40:00		Architektów 01
+1966	5	216571	11:40:00	11:40:00		Architektów 01
+1966	5	216571	11:42:00	11:42:00		Przemysłowa U. Celny 06 nż
+1966	5	216571	11:42:00	11:42:00		Przemysłowa U. Celny 06 nż
+1966	5	216571	11:43:00	11:43:00		Przemysłowa / Żołnierzy 9 DP 08 nż
+1966	5	216571	11:43:00	11:43:00		Przemysłowa / Żołnierzy 9 DP 08 nż
+1966	5	216571	11:44:00	11:44:00		Żołnierzy 9 DP / Świętokrzyska 04 nż
+1966	5	216571	11:44:00	11:44:00		Żołnierzy 9 DP / Świętokrzyska 04 nż
+1966	5	216571	11:45:00	11:45:00		Żołnierzy 9 DP bloki 06 nż
+1966	5	216571	11:45:00	11:45:00		Żołnierzy 9 DP bloki 06 nż
+
+1926	5	216260	11:56:00	11:56:00		Żołnierzy 9 DP bloki 06 nż
+1926	5	216260	11:56:00	11:56:00		Żołnierzy 9 DP bloki 06 nż
+1926	5	216260	11:57:00	11:57:00		Świętokrzyska cmentarz 01 nż
+1926	5	216260	11:57:00	11:57:00		Świętokrzyska cmentarz 01 nż
+1926	5	216260	11:58:00	11:58:00		Przemysłowa / Żołnierzy 9 DP 07 nż
+1926	5	216260	11:58:00	11:58:00		Przemysłowa / Żołnierzy 9 DP 07 nż
+1926	5	216260	12:00:00	12:00:00		Przemysłowa U. Celny 05 nż
+1926	5	216260	12:00:00	12:00:00		Przemysłowa U. Celny 05 nż
+1926	5	216260	12:02:00	12:02:00		Architektów 02
+1926	5	216260	12:02:00	12:02:00		Architektów 02
+1926	5	216260	12:04:00	12:04:00		Zawiszy Czarnego / Podgórska 02 nż
+1926	5	216260	12:04:00	12:04:00		Zawiszy Czarnego / Podgórska 02 nż
+1926	5	216260	12:05:00	12:05:00		Zawiszy Czarnego 04 nż
+1926	5	216260	12:05:00	12:05:00		Zawiszy Czarnego 04 nż
+1926	5	216260	12:06:00	12:06:00		Żołnierzy 9 DP 01 nż
+1926	5	216260	12:06:00	12:06:00		Żołnierzy 9 DP 01 nż
+1926	5	216260	12:08:00	12:08:00		Podkarpacka / Wetlińska 05 nż
+1926	5	216260	12:08:00	12:08:00		Podkarpacka / Wetlińska 05 nż
+1926	5	216260	12:09:00	12:09:00		Podkarpacka / Matuszczaka 03
+1926	5	216260	12:09:00	12:09:00		Podkarpacka / Matuszczaka 03
+1926	5	216260	12:11:00	12:11:00		Podkarpacka politechnika 01
+1926	5	216260	12:11:00	12:11:00		Podkarpacka politechnika 01
+1926	5	216260	12:12:00	12:12:00		Powst. Warszawy / Dąbrowskiego 02
+1926	5	216260	12:12:00	12:12:00		Powst. Warszawy / Dąbrowskiego 02
+1926	5	216260	12:13:00	12:13:00		Powst. Warszawy politechnika 04
+1926	5	216260	12:13:00	12:13:00		Powst. Warszawy politechnika 04
+1926	5	216260	12:15:00	12:15:00		Powst. Warszawy stadion 06
+1926	5	216260	12:15:00	12:15:00		Powst. Warszawy stadion 06
+1926	5	216260	12:18:00	12:18:00		Powst. Warszawy dom studenta 08
+1926	5	216260	12:18:00	12:18:00		Powst. Warszawy dom studenta 08
+1926	5	216260	12:19:00	12:19:00		Powst. Warszawy / Graniczna 10
+1926	5	216260	12:19:00	12:19:00		Powst. Warszawy / Graniczna 10
+1926	5	216260	12:23:00	12:23:00		Rejtana / Armii Krajowej 12
+1926	5	216260	12:23:00	12:23:00		Rejtana / Armii Krajowej 12
+1926	5	216260	12:24:00	12:24:00		Rejtana / Paderewskiego 10
+1926	5	216260	12:24:00	12:24:00		Rejtana / Paderewskiego 10
+1926	5	216260	12:25:00	12:25:00		Rejtana / Krzyżanowskiego 08
+1926	5	216260	12:25:00	12:25:00		Rejtana / Krzyżanowskiego 08
+1926	5	216260	12:27:00	12:27:00		Rejtana uniwersytet 06
+1926	5	216260	12:27:00	12:27:00		Rejtana uniwersytet 06
+1926	5	216260	12:28:00	12:28:00		Rejtana cmentarz 04 nż
+1926	5	216260	12:28:00	12:28:00		Rejtana cmentarz 04 nż
+1926	5	216260	12:29:00	12:29:00		Rejtana / Kustronia 02
+1926	5	216260	12:29:00	12:29:00		Rejtana / Kustronia 02
+1926	5	216260	12:31:00	12:31:00		Dworaka targ 01
+1926	5	216260	12:31:00	12:31:00		Dworaka targ 01
+
+1966	5	216448	12:43:00	12:43:00		Dworaka targ 01
+1966	5	216448	12:43:00	12:43:00		Dworaka targ 01
+1966	5	216448	12:47:00	12:47:00		Rejtana / Kustronia 03 nż
+1966	5	216448	12:47:00	12:47:00		Rejtana / Kustronia 03 nż
+1966	5	216448	12:48:00	12:48:00		Rejtana uniwersytet 05
+1966	5	216448	12:48:00	12:48:00		Rejtana uniwersytet 05
+1966	5	216448	12:50:00	12:50:00		Rejtana / Kopisto 07
+1966	5	216448	12:50:00	12:50:00		Rejtana / Kopisto 07
+1966	5	216448	12:51:00	12:51:00		Rejtana / Popiełuszki 09
+1966	5	216448	12:51:00	12:51:00		Rejtana / Popiełuszki 09
+1966	5	216448	12:54:00	12:54:00		Powst. Warszawy / Rejtana 13
+1966	5	216448	12:54:00	12:54:00		Powst. Warszawy / Rejtana 13
+1966	5	216448	12:55:00	12:55:00		Powst. Warszawy szkoła 11
+1966	5	216448	12:55:00	12:55:00		Powst. Warszawy szkoła 11
+1966	5	216448	12:56:00	12:56:00		Powst. Warszawy dom studenta 09
+1966	5	216448	12:56:00	12:56:00		Powst. Warszawy dom studenta 09
+1966	5	216448	12:58:00	12:58:00		Powst. Warszawy stadion 05 nż
+1966	5	216448	12:58:00	12:58:00		Powst. Warszawy stadion 05 nż
+1966	5	216448	12:59:00	12:59:00		Powst. Warszawy / Hetmańska 03
+1966	5	216448	12:59:00	12:59:00		Powst. Warszawy / Hetmańska 03
+1966	5	216448	13:00:00	13:00:00		Powst. Warszawy politechnika 01
+1966	5	216448	13:00:00	13:00:00		Powst. Warszawy politechnika 01
+1966	5	216448	13:03:00	13:03:00		Podkarpacka politechnika 02
+1966	5	216448	13:03:00	13:03:00		Podkarpacka politechnika 02
+1966	5	216448	13:04:00	13:04:00		Podkarpacka / Matuszczaka 04
+1966	5	216448	13:04:00	13:04:00		Podkarpacka / Matuszczaka 04
+1966	5	216448	13:05:00	13:05:00		Podkarpacka / Wetlińska 06 nż
+1966	5	216448	13:05:00	13:05:00		Podkarpacka / Wetlińska 06 nż
+1966	5	216448	13:08:00	13:08:00		Zawiszy Czarnego 03 nż
+1966	5	216448	13:08:00	13:08:00		Zawiszy Czarnego 03 nż
+1966	5	216448	13:09:00	13:09:00		Zawiszy Czarnego / Podgórska 01 nż
+1966	5	216448	13:09:00	13:09:00		Zawiszy Czarnego / Podgórska 01 nż
+1966	5	216448	13:10:00	13:10:00		Architektów 01
+1966	5	216448	13:10:00	13:10:00		Architektów 01
+1966	5	216448	13:12:00	13:12:00		Przemysłowa U. Celny 06 nż
+1966	5	216448	13:12:00	13:12:00		Przemysłowa U. Celny 06 nż
+1966	5	216448	13:13:00	13:13:00		Przemysłowa / Żołnierzy 9 DP 08 nż
+1966	5	216448	13:13:00	13:13:00		Przemysłowa / Żołnierzy 9 DP 08 nż
+1966	5	216448	13:14:00	13:14:00		Żołnierzy 9 DP / Świętokrzyska 04 nż
+1966	5	216448	13:14:00	13:14:00		Żołnierzy 9 DP / Świętokrzyska 04 nż
+1966	5	216448	13:15:00	13:15:00		Żołnierzy 9 DP bloki 06 nż
+1966	5	216448	13:15:00	13:15:00		Żołnierzy 9 DP bloki 06 nż
+
+1926	5	216483	13:26:00	13:26:00		Żołnierzy 9 DP bloki 06 nż
+1926	5	216483	13:26:00	13:26:00		Żołnierzy 9 DP bloki 06 nż
+1926	5	216483	13:27:00	13:27:00		Świętokrzyska cmentarz 01 nż
+1926	5	216483	13:27:00	13:27:00		Świętokrzyska cmentarz 01 nż
+1926	5	216483	13:28:00	13:28:00		Przemysłowa / Żołnierzy 9 DP 07 nż
+1926	5	216483	13:28:00	13:28:00		Przemysłowa / Żołnierzy 9 DP 07 nż
+1926	5	216483	13:30:00	13:30:00		Przemysłowa U. Celny 05 nż
+1926	5	216483	13:30:00	13:30:00		Przemysłowa U. Celny 05 nż
+1926	5	216483	13:32:00	13:32:00		Architektów 02
+1926	5	216483	13:32:00	13:32:00		Architektów 02
+1926	5	216483	13:34:00	13:34:00		Zawiszy Czarnego / Podgórska 02 nż
+1926	5	216483	13:34:00	13:34:00		Zawiszy Czarnego / Podgórska 02 nż
+1926	5	216483	13:35:00	13:35:00		Zawiszy Czarnego 04 nż
+1926	5	216483	13:35:00	13:35:00		Zawiszy Czarnego 04 nż
+1926	5	216483	13:36:00	13:36:00		Żołnierzy 9 DP 01 nż
+1926	5	216483	13:36:00	13:36:00		Żołnierzy 9 DP 01 nż
+1926	5	216483	13:38:00	13:38:00		Podkarpacka / Wetlińska 05 nż
+1926	5	216483	13:38:00	13:38:00		Podkarpacka / Wetlińska 05 nż
+1926	5	216483	13:39:00	13:39:00		Podkarpacka / Matuszczaka 03
+1926	5	216483	13:39:00	13:39:00		Podkarpacka / Matuszczaka 03
+1926	5	216483	13:41:00	13:41:00		Podkarpacka politechnika 01
+1926	5	216483	13:41:00	13:41:00		Podkarpacka politechnika 01
+1926	5	216483	13:42:00	13:42:00		Powst. Warszawy / Dąbrowskiego 02
+1926	5	216483	13:42:00	13:42:00		Powst. Warszawy / Dąbrowskiego 02
+1926	5	216483	13:43:00	13:43:00		Powst. Warszawy politechnika 04
+1926	5	216483	13:43:00	13:43:00		Powst. Warszawy politechnika 04
+1926	5	216483	13:45:00	13:45:00		Powst. Warszawy stadion 06
+1926	5	216483	13:45:00	13:45:00		Powst. Warszawy stadion 06
+1926	5	216483	13:48:00	13:48:00		Powst. Warszawy dom studenta 08
+1926	5	216483	13:48:00	13:48:00		Powst. Warszawy dom studenta 08
+1926	5	216483	13:49:00	13:49:00		Powst. Warszawy / Graniczna 10
+1926	5	216483	13:49:00	13:49:00		Powst. Warszawy / Graniczna 10
+1926	5	216483	13:53:00	13:53:00		Rejtana / Armii Krajowej 12
+1926	5	216483	13:53:00	13:53:00		Rejtana / Armii Krajowej 12
+1926	5	216483	13:54:00	13:54:00		Rejtana / Paderewskiego 10
+1926	5	216483	13:54:00	13:54:00		Rejtana / Paderewskiego 10
+1926	5	216483	13:55:00	13:55:00		Rejtana / Krzyżanowskiego 08
+1926	5	216483	13:55:00	13:55:00		Rejtana / Krzyżanowskiego 08
+1926	5	216483	13:57:00	13:57:00		Rejtana uniwersytet 06
+1926	5	216483	13:57:00	13:57:00		Rejtana uniwersytet 06
+1926	5	216483	13:58:00	13:58:00		Rejtana cmentarz 04 nż
+1926	5	216483	13:58:00	13:58:00		Rejtana cmentarz 04 nż
+1926	5	216483	13:59:00	13:59:00		Rejtana / Kustronia 02
+1926	5	216483	13:59:00	13:59:00		Rejtana / Kustronia 02
+1926	5	216483	14:01:00	14:01:00		Dworaka targ 01
+1926	5	216483	14:01:00	14:01:00		Dworaka targ 01
+
+1966	5	216318	14:13:00	14:13:00		Dworaka targ 01
+1966	5	216318	14:13:00	14:13:00		Dworaka targ 01
+1966	5	216318	14:17:00	14:17:00		Rejtana / Kustronia 03 nż
+1966	5	216318	14:17:00	14:17:00		Rejtana / Kustronia 03 nż
+1966	5	216318	14:18:00	14:18:00		Rejtana uniwersytet 05
+1966	5	216318	14:18:00	14:18:00		Rejtana uniwersytet 05
+1966	5	216318	14:20:00	14:20:00		Rejtana / Kopisto 07
+1966	5	216318	14:20:00	14:20:00		Rejtana / Kopisto 07
+1966	5	216318	14:21:00	14:21:00		Rejtana / Popiełuszki 09
+1966	5	216318	14:21:00	14:21:00		Rejtana / Popiełuszki 09
+1966	5	216318	14:24:00	14:24:00		Powst. Warszawy / Rejtana 13
+1966	5	216318	14:24:00	14:24:00		Powst. Warszawy / Rejtana 13
+1966	5	216318	14:25:00	14:25:00		Powst. Warszawy szkoła 11
+1966	5	216318	14:25:00	14:25:00		Powst. Warszawy szkoła 11
+1966	5	216318	14:26:00	14:26:00		Powst. Warszawy dom studenta 09
+1966	5	216318	14:26:00	14:26:00		Powst. Warszawy dom studenta 09
+1966	5	216318	14:28:00	14:28:00		Powst. Warszawy stadion 05 nż
+1966	5	216318	14:28:00	14:28:00		Powst. Warszawy stadion 05 nż
+1966	5	216318	14:29:00	14:29:00		Powst. Warszawy / Hetmańska 03
+1966	5	216318	14:29:00	14:29:00		Powst. Warszawy / Hetmańska 03
+1966	5	216318	14:30:00	14:30:00		Powst. Warszawy politechnika 01
+1966	5	216318	14:30:00	14:30:00		Powst. Warszawy politechnika 01
+1966	5	216318	14:33:00	14:33:00		Podkarpacka politechnika 02
+1966	5	216318	14:33:00	14:33:00		Podkarpacka politechnika 02
+1966	5	216318	14:34:00	14:34:00		Podkarpacka / Matuszczaka 04
+1966	5	216318	14:34:00	14:34:00		Podkarpacka / Matuszczaka 04
+1966	5	216318	14:35:00	14:35:00		Podkarpacka / Wetlińska 06 nż
+1966	5	216318	14:35:00	14:35:00		Podkarpacka / Wetlińska 06 nż
+1966	5	216318	14:38:00	14:38:00		Zawiszy Czarnego 03 nż
+1966	5	216318	14:38:00	14:38:00		Zawiszy Czarnego 03 nż
+1966	5	216318	14:39:00	14:39:00		Zawiszy Czarnego / Podgórska 01 nż
+1966	5	216318	14:39:00	14:39:00		Zawiszy Czarnego / Podgórska 01 nż
+1966	5	216318	14:40:00	14:40:00		Architektów 01
+1966	5	216318	14:40:00	14:40:00		Architektów 01
+1966	5	216318	14:43:00	14:43:00		Przemysłowa U. Celny 06 nż
+1966	5	216318	14:43:00	14:43:00		Przemysłowa U. Celny 06 nż
+1966	5	216318	14:44:00	14:44:00		Przemysłowa / Żołnierzy 9 DP 08 nż
+1966	5	216318	14:44:00	14:44:00		Przemysłowa / Żołnierzy 9 DP 08 nż
+1966	5	216318	14:46:00	14:46:00		Żołnierzy 9 DP / Świętokrzyska 04 nż
+1966	5	216318	14:46:00	14:46:00		Żołnierzy 9 DP / Świętokrzyska 04 nż
+1966	5	216318	14:47:00	14:47:00		Żołnierzy 9 DP bloki 06 nż
+1966	5	216318	14:47:00	14:47:00		Żołnierzy 9 DP bloki 06 nż
+
+1926	5	216525	14:57:00	14:57:00		Żołnierzy 9 DP bloki 06 nż
+1926	5	216525	14:57:00	14:57:00		Żołnierzy 9 DP bloki 06 nż
+1926	5	216525	14:58:00	14:58:00		Świętokrzyska cmentarz 01 nż
+1926	5	216525	14:58:00	14:58:00		Świętokrzyska cmentarz 01 nż
+1926	5	216525	14:59:00	14:59:00		Przemysłowa / Żołnierzy 9 DP 07 nż
+1926	5	216525	14:59:00	14:59:00		Przemysłowa / Żołnierzy 9 DP 07 nż
+1926	5	216525	15:01:00	15:01:00		Przemysłowa U. Celny 05 nż
+1926	5	216525	15:01:00	15:01:00		Przemysłowa U. Celny 05 nż
+1926	5	216525	15:03:00	15:03:00		Architektów 02
+1926	5	216525	15:03:00	15:03:00		Architektów 02
+1926	5	216525	15:05:00	15:05:00		Zawiszy Czarnego / Podgórska 02 nż
+1926	5	216525	15:05:00	15:05:00		Zawiszy Czarnego / Podgórska 02 nż
+1926	5	216525	15:06:00	15:06:00		Zawiszy Czarnego 04 nż
+1926	5	216525	15:06:00	15:06:00		Zawiszy Czarnego 04 nż
+1926	5	216525	15:07:00	15:07:00		Żołnierzy 9 DP 01 nż
+1926	5	216525	15:07:00	15:07:00		Żołnierzy 9 DP 01 nż
+1926	5	216525	15:09:00	15:09:00		Podkarpacka / Wetlińska 05 nż
+1926	5	216525	15:09:00	15:09:00		Podkarpacka / Wetlińska 05 nż
+1926	5	216525	15:10:00	15:10:00		Podkarpacka / Matuszczaka 03
+1926	5	216525	15:10:00	15:10:00		Podkarpacka / Matuszczaka 03
+1926	5	216525	15:12:00	15:12:00		Podkarpacka politechnika 01
+1926	5	216525	15:12:00	15:12:00		Podkarpacka politechnika 01
+1926	5	216525	15:14:00	15:14:00		Powst. Warszawy / Dąbrowskiego 02
+1926	5	216525	15:14:00	15:14:00		Powst. Warszawy / Dąbrowskiego 02
+1926	5	216525	15:16:00	15:16:00		Powst. Warszawy politechnika 04
+1926	5	216525	15:16:00	15:16:00		Powst. Warszawy politechnika 04
+1926	5	216525	15:22:00	15:22:00		Powst. Warszawy stadion 06
+1926	5	216525	15:22:00	15:22:00		Powst. Warszawy stadion 06
+1926	5	216525	15:25:00	15:25:00		Powst. Warszawy dom studenta 08
+1926	5	216525	15:25:00	15:25:00		Powst. Warszawy dom studenta 08
+1926	5	216525	15:26:00	15:26:00		Powst. Warszawy / Graniczna 10
+1926	5	216525	15:26:00	15:26:00		Powst. Warszawy / Graniczna 10
+1926	5	216525	15:30:00	15:30:00		Rejtana / Armii Krajowej 12
+1926	5	216525	15:30:00	15:30:00		Rejtana / Armii Krajowej 12
+1926	5	216525	15:31:00	15:31:00		Rejtana / Paderewskiego 10
+1926	5	216525	15:31:00	15:31:00		Rejtana / Paderewskiego 10
+1926	5	216525	15:32:00	15:32:00		Rejtana / Krzyżanowskiego 08
+1926	5	216525	15:32:00	15:32:00		Rejtana / Krzyżanowskiego 08
+1926	5	216525	15:34:00	15:34:00		Rejtana uniwersytet 06
+1926	5	216525	15:34:00	15:34:00		Rejtana uniwersytet 06
+1926	5	216525	15:35:00	15:35:00		Rejtana cmentarz 04 nż
+1926	5	216525	15:35:00	15:35:00		Rejtana cmentarz 04 nż
+1926	5	216525	15:36:00	15:36:00		Rejtana / Kustronia 02
+1926	5	216525	15:36:00	15:36:00		Rejtana / Kustronia 02
+1926	5	216525	15:38:00	15:38:00		Dworaka targ 01
+1926	5	216525	15:38:00	15:38:00		Dworaka targ 01
+
+1966	5	216488	16:15:00	16:15:00		Dworaka targ 01
+1966	5	216488	16:15:00	16:15:00		Dworaka targ 01
+1966	5	216488	16:19:00	16:19:00		Rejtana / Kustronia 03 nż
+1966	5	216488	16:19:00	16:19:00		Rejtana / Kustronia 03 nż
+1966	5	216488	16:20:00	16:20:00		Rejtana uniwersytet 05
+1966	5	216488	16:20:00	16:20:00		Rejtana uniwersytet 05
+1966	5	216488	16:22:00	16:22:00		Rejtana / Kopisto 07
+1966	5	216488	16:22:00	16:22:00		Rejtana / Kopisto 07
+1966	5	216488	16:24:00	16:24:00		Rejtana / Popiełuszki 09
+1966	5	216488	16:24:00	16:24:00		Rejtana / Popiełuszki 09
+1966	5	216488	16:27:00	16:27:00		Powst. Warszawy / Rejtana 13
+1966	5	216488	16:27:00	16:27:00		Powst. Warszawy / Rejtana 13
+1966	5	216488	16:28:00	16:28:00		Powst. Warszawy szkoła 11
+1966	5	216488	16:28:00	16:28:00		Powst. Warszawy szkoła 11
+1966	5	216488	16:29:00	16:29:00		Powst. Warszawy dom studenta 09
+1966	5	216488	16:29:00	16:29:00		Powst. Warszawy dom studenta 09
+1966	5	216488	16:31:00	16:31:00		Powst. Warszawy stadion 05 nż
+1966	5	216488	16:31:00	16:31:00		Powst. Warszawy stadion 05 nż
+1966	5	216488	16:32:00	16:32:00		Powst. Warszawy / Hetmańska 03
+1966	5	216488	16:32:00	16:32:00		Powst. Warszawy / Hetmańska 03
+1966	5	216488	16:33:00	16:33:00		Powst. Warszawy politechnika 01
+1966	5	216488	16:33:00	16:33:00		Powst. Warszawy politechnika 01
+1966	5	216488	16:36:00	16:36:00		Podkarpacka politechnika 02
+1966	5	216488	16:36:00	16:36:00		Podkarpacka politechnika 02
+1966	5	216488	16:37:00	16:37:00		Podkarpacka / Matuszczaka 04
+1966	5	216488	16:37:00	16:37:00		Podkarpacka / Matuszczaka 04
+1966	5	216488	16:38:00	16:38:00		Podkarpacka / Wetlińska 06 nż
+1966	5	216488	16:38:00	16:38:00		Podkarpacka / Wetlińska 06 nż
+1966	5	216488	16:41:00	16:41:00		Zawiszy Czarnego 03 nż
+1966	5	216488	16:41:00	16:41:00		Zawiszy Czarnego 03 nż
+1966	5	216488	16:42:00	16:42:00		Zawiszy Czarnego / Podgórska 01 nż
+1966	5	216488	16:42:00	16:42:00		Zawiszy Czarnego / Podgórska 01 nż
+1966	5	216488	16:43:00	16:43:00		Architektów 01
+1966	5	216488	16:43:00	16:43:00		Architektów 01
+1966	5	216488	16:46:00	16:46:00		Przemysłowa U. Celny 06 nż
+1966	5	216488	16:46:00	16:46:00		Przemysłowa U. Celny 06 nż
+1966	5	216488	16:47:00	16:47:00		Przemysłowa / Żołnierzy 9 DP 08 nż
+1966	5	216488	16:47:00	16:47:00		Przemysłowa / Żołnierzy 9 DP 08 nż
+1966	5	216488	16:48:00	16:48:00		Żołnierzy 9 DP / Świętokrzyska 04 nż
+1966	5	216488	16:48:00	16:48:00		Żołnierzy 9 DP / Świętokrzyska 04 nż
+1966	5	216488	16:49:00	16:49:00		Żołnierzy 9 DP bloki 06 nż
+1966	5	216488	16:49:00	16:49:00		Żołnierzy 9 DP bloki 06 nż
+
+1926	5	216348	16:59:00	16:59:00		Żołnierzy 9 DP bloki 06 nż
+1926	5	216348	16:59:00	16:59:00		Żołnierzy 9 DP bloki 06 nż
+1926	5	216348	17:00:00	17:00:00		Świętokrzyska cmentarz 01 nż
+1926	5	216348	17:00:00	17:00:00		Świętokrzyska cmentarz 01 nż
+1926	5	216348	17:01:00	17:01:00		Przemysłowa / Żołnierzy 9 DP 07 nż
+1926	5	216348	17:01:00	17:01:00		Przemysłowa / Żołnierzy 9 DP 07 nż
+1926	5	216348	17:02:00	17:02:00		Przemysłowa U. Celny 05 nż
+1926	5	216348	17:02:00	17:02:00		Przemysłowa U. Celny 05 nż
+1926	5	216348	17:04:00	17:04:00		Architektów 02
+1926	5	216348	17:04:00	17:04:00		Architektów 02
+1926	5	216348	17:06:00	17:06:00		Zawiszy Czarnego / Podgórska 02 nż
+1926	5	216348	17:06:00	17:06:00		Zawiszy Czarnego / Podgórska 02 nż
+1926	5	216348	17:07:00	17:07:00		Zawiszy Czarnego 04 nż
+1926	5	216348	17:07:00	17:07:00		Zawiszy Czarnego 04 nż
+1926	5	216348	17:08:00	17:08:00		Żołnierzy 9 DP 01 nż
+1926	5	216348	17:08:00	17:08:00		Żołnierzy 9 DP 01 nż
+1926	5	216348	17:10:00	17:10:00		Podkarpacka / Wetlińska 05 nż
+1926	5	216348	17:10:00	17:10:00		Podkarpacka / Wetlińska 05 nż
+1926	5	216348	17:11:00	17:11:00		Podkarpacka / Matuszczaka 03
+1926	5	216348	17:11:00	17:11:00		Podkarpacka / Matuszczaka 03
+1926	5	216348	17:13:00	17:13:00		Podkarpacka politechnika 01
+1926	5	216348	17:13:00	17:13:00		Podkarpacka politechnika 01
+1926	5	216348	17:14:00	17:14:00		Powst. Warszawy / Dąbrowskiego 02
+1926	5	216348	17:14:00	17:14:00		Powst. Warszawy / Dąbrowskiego 02
+1926	5	216348	17:15:00	17:15:00		Powst. Warszawy politechnika 04
+1926	5	216348	17:15:00	17:15:00		Powst. Warszawy politechnika 04
+1926	5	216348	17:17:00	17:17:00		Powst. Warszawy stadion 06
+1926	5	216348	17:17:00	17:17:00		Powst. Warszawy stadion 06
+1926	5	216348	17:20:00	17:20:00		Powst. Warszawy dom studenta 08
+1926	5	216348	17:20:00	17:20:00		Powst. Warszawy dom studenta 08
+1926	5	216348	17:21:00	17:21:00		Powst. Warszawy / Graniczna 10
+1926	5	216348	17:21:00	17:21:00		Powst. Warszawy / Graniczna 10
+1926	5	216348	17:25:00	17:25:00		Rejtana / Armii Krajowej 12
+1926	5	216348	17:25:00	17:25:00		Rejtana / Armii Krajowej 12
+1926	5	216348	17:26:00	17:26:00		Rejtana / Paderewskiego 10
+1926	5	216348	17:26:00	17:26:00		Rejtana / Paderewskiego 10
+1926	5	216348	17:27:00	17:27:00		Rejtana / Krzyżanowskiego 08
+1926	5	216348	17:27:00	17:27:00		Rejtana / Krzyżanowskiego 08
+1926	5	216348	17:29:00	17:29:00		Rejtana uniwersytet 06
+1926	5	216348	17:29:00	17:29:00		Rejtana uniwersytet 06
+1926	5	216348	17:30:00	17:30:00		Rejtana cmentarz 04 nż
+1926	5	216348	17:30:00	17:30:00		Rejtana cmentarz 04 nż
+1926	5	216348	17:31:00	17:31:00		Rejtana / Kustronia 02
+1926	5	216348	17:31:00	17:31:00		Rejtana / Kustronia 02
+1926	5	216348	17:33:00	17:33:00		Dworaka targ 01
+1926	5	216348	17:33:00	17:33:00		Dworaka targ 01
+
+1966	5	216266	17:49:00	17:49:00		Dworaka targ 01
+1966	5	216266	17:49:00	17:49:00		Dworaka targ 01
+1966	5	216266	17:53:00	17:53:00		Rejtana / Kustronia 03 nż
+1966	5	216266	17:53:00	17:53:00		Rejtana / Kustronia 03 nż
+1966	5	216266	17:54:00	17:54:00		Rejtana uniwersytet 05
+1966	5	216266	17:54:00	17:54:00		Rejtana uniwersytet 05
+1966	5	216266	17:56:00	17:56:00		Rejtana / Kopisto 07
+1966	5	216266	17:56:00	17:56:00		Rejtana / Kopisto 07
+1966	5	216266	17:57:00	17:57:00		Rejtana / Popiełuszki 09
+1966	5	216266	17:57:00	17:57:00		Rejtana / Popiełuszki 09
+1966	5	216266	18:00:00	18:00:00		Powst. Warszawy / Rejtana 13
+1966	5	216266	18:00:00	18:00:00		Powst. Warszawy / Rejtana 13
+1966	5	216266	18:01:00	18:01:00		Powst. Warszawy szkoła 11
+1966	5	216266	18:01:00	18:01:00		Powst. Warszawy szkoła 11
+1966	5	216266	18:02:00	18:02:00		Powst. Warszawy dom studenta 09
+1966	5	216266	18:02:00	18:02:00		Powst. Warszawy dom studenta 09
+1966	5	216266	18:04:00	18:04:00		Powst. Warszawy stadion 05 nż
+1966	5	216266	18:04:00	18:04:00		Powst. Warszawy stadion 05 nż
+1966	5	216266	18:05:00	18:05:00		Powst. Warszawy / Hetmańska 03
+1966	5	216266	18:05:00	18:05:00		Powst. Warszawy / Hetmańska 03
+1966	5	216266	18:06:00	18:06:00		Powst. Warszawy politechnika 01
+1966	5	216266	18:06:00	18:06:00		Powst. Warszawy politechnika 01
+1966	5	216266	18:09:00	18:09:00		Podkarpacka politechnika 02
+1966	5	216266	18:09:00	18:09:00		Podkarpacka politechnika 02
+1966	5	216266	18:10:00	18:10:00		Podkarpacka / Matuszczaka 04
+1966	5	216266	18:10:00	18:10:00		Podkarpacka / Matuszczaka 04
+1966	5	216266	18:11:00	18:11:00		Podkarpacka / Wetlińska 06 nż
+1966	5	216266	18:11:00	18:11:00		Podkarpacka / Wetlińska 06 nż
+1966	5	216266	18:14:00	18:14:00		Zawiszy Czarnego 03 nż
+1966	5	216266	18:14:00	18:14:00		Zawiszy Czarnego 03 nż
+1966	5	216266	18:15:00	18:15:00		Zawiszy Czarnego / Podgórska 01 nż
+1966	5	216266	18:15:00	18:15:00		Zawiszy Czarnego / Podgórska 01 nż
+1966	5	216266	18:16:00	18:16:00		Architektów 01
+1966	5	216266	18:16:00	18:16:00		Architektów 01
+1966	5	216266	18:19:00	18:19:00		Przemysłowa U. Celny 06 nż
+1966	5	216266	18:19:00	18:19:00		Przemysłowa U. Celny 06 nż
+1966	5	216266	18:20:00	18:20:00		Przemysłowa / Żołnierzy 9 DP 08 nż
+1966	5	216266	18:20:00	18:20:00		Przemysłowa / Żołnierzy 9 DP 08 nż
+1966	5	216266	18:21:00	18:21:00		Żołnierzy 9 DP / Świętokrzyska 04 nż
+1966	5	216266	18:21:00	18:21:00		Żołnierzy 9 DP / Świętokrzyska 04 nż
+1966	5	216266	18:22:00	18:22:00		Żołnierzy 9 DP bloki 06 nż
+1966	5	216266	18:22:00	18:22:00		Żołnierzy 9 DP bloki 06 nż
+
+1926	5	216278	18:32:00	18:32:00		Żołnierzy 9 DP bloki 06 nż
+1926	5	216278	18:32:00	18:32:00		Żołnierzy 9 DP bloki 06 nż
+1926	5	216278	18:33:00	18:33:00		Świętokrzyska cmentarz 01 nż
+1926	5	216278	18:33:00	18:33:00		Świętokrzyska cmentarz 01 nż
+1926	5	216278	18:34:00	18:34:00		Przemysłowa / Żołnierzy 9 DP 07 nż
+1926	5	216278	18:34:00	18:34:00		Przemysłowa / Żołnierzy 9 DP 07 nż
+1926	5	216278	18:35:00	18:35:00		Przemysłowa U. Celny 05 nż
+1926	5	216278	18:35:00	18:35:00		Przemysłowa U. Celny 05 nż
+1926	5	216278	18:37:00	18:37:00		Architektów 02
+1926	5	216278	18:37:00	18:37:00		Architektów 02
+1926	5	216278	18:39:00	18:39:00		Zawiszy Czarnego / Podgórska 02 nż
+1926	5	216278	18:39:00	18:39:00		Zawiszy Czarnego / Podgórska 02 nż
+1926	5	216278	18:40:00	18:40:00		Zawiszy Czarnego 04 nż
+1926	5	216278	18:40:00	18:40:00		Zawiszy Czarnego 04 nż
+1926	5	216278	18:41:00	18:41:00		Żołnierzy 9 DP 01 nż
+1926	5	216278	18:41:00	18:41:00		Żołnierzy 9 DP 01 nż
+1926	5	216278	18:43:00	18:43:00		Podkarpacka / Wetlińska 05 nż
+1926	5	216278	18:43:00	18:43:00		Podkarpacka / Wetlińska 05 nż
+1926	5	216278	18:44:00	18:44:00		Podkarpacka / Matuszczaka 03
+1926	5	216278	18:44:00	18:44:00		Podkarpacka / Matuszczaka 03
+1926	5	216278	18:46:00	18:46:00		Podkarpacka politechnika 01
+1926	5	216278	18:46:00	18:46:00		Podkarpacka politechnika 01
+1926	5	216278	18:47:00	18:47:00		Powst. Warszawy / Dąbrowskiego 02
+1926	5	216278	18:47:00	18:47:00		Powst. Warszawy / Dąbrowskiego 02
+1926	5	216278	18:48:00	18:48:00		Powst. Warszawy politechnika 04
+1926	5	216278	18:48:00	18:48:00		Powst. Warszawy politechnika 04
+1926	5	216278	18:50:00	18:50:00		Powst. Warszawy stadion 06
+1926	5	216278	18:50:00	18:50:00		Powst. Warszawy stadion 06
+1926	5	216278	18:53:00	18:53:00		Powst. Warszawy dom studenta 08
+1926	5	216278	18:53:00	18:53:00		Powst. Warszawy dom studenta 08
+1926	5	216278	18:54:00	18:54:00		Powst. Warszawy / Graniczna 10
+1926	5	216278	18:54:00	18:54:00		Powst. Warszawy / Graniczna 10
+1926	5	216278	18:58:00	18:58:00		Rejtana / Armii Krajowej 12
+1926	5	216278	18:58:00	18:58:00		Rejtana / Armii Krajowej 12
+1926	5	216278	18:59:00	18:59:00		Rejtana / Paderewskiego 10
+1926	5	216278	18:59:00	18:59:00		Rejtana / Paderewskiego 10
+1926	5	216278	19:00:00	19:00:00		Rejtana / Krzyżanowskiego 08
+1926	5	216278	19:00:00	19:00:00		Rejtana / Krzyżanowskiego 08
+1926	5	216278	19:01:00	19:01:00		Rejtana uniwersytet 06
+1926	5	216278	19:01:00	19:01:00		Rejtana uniwersytet 06
+1926	5	216278	19:02:00	19:02:00		Rejtana cmentarz 04 nż
+1926	5	216278	19:02:00	19:02:00		Rejtana cmentarz 04 nż
+1926	5	216278	19:03:00	19:03:00		Rejtana / Kustronia 02
+1926	5	216278	19:03:00	19:03:00		Rejtana / Kustronia 02
+1926	5	216278	19:05:00	19:05:00		Dworaka targ 01
+1926	5	216278	19:05:00	19:05:00		Dworaka targ 01

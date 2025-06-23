@@ -305,7 +305,7 @@
 <body>
 
     <header>
-        <a href="Wybor_Miasta.html" class="menu" style="border-color: orange; display: none;" id="adminpanel">Wybór Miasta</a>
+        <a href="Wybor_Miasta.html" class="menu" style="border-color: orange;">Wybór Miasta</a>
         <a href="Main_Panel.html" class="menu">Panel Główny</a>
         <a href="Przystanki/listaprzystankow.html" class="menu">Przystanki</a>
         <a href="Brygady/ChooseDay.html" class="menu">Brygady</a>
@@ -386,6 +386,7 @@
     <script>
         // Pobierz dane użytkownika z sessionStorage
         const user = JSON.parse(localStorage.getItem('user'));
+        let miasto = localStorage.getItem("Miasto");
 
         if (user) {
             // Pobierz bieżącą godzinę
@@ -408,10 +409,12 @@
             if (zapisaneMiasto) {
                 document.getElementById('choosedcity').textContent = 'Miasto: ' + zapisaneMiasto + '.';
             }
+            /*
             if (user.name === "#Marek") {
                 const adminPanel = document.getElementById('adminpanel');
                 adminPanel.style.display = ''; // usuwa inline display:none, więc element stanie się widoczny (jeśli nie jest ukryty w CSS)
             }
+            */
 
         }
 
@@ -501,11 +504,11 @@
             if (!user) {
                 window.location.href = 'zoltakartka.html';
             }
-            /*
-                        if (!localStorage.getItem('Miasto')) {
-                            window.location.href = 'Wybor_Miasta.html';
-                        }
-            */
+
+            if (!localStorage.getItem('Miasto')) {
+                window.location.href = 'Wybor_Miasta.html';
+            }
+
         }
 
         window.onload = async function() {
@@ -544,7 +547,7 @@
         document.getElementById("DayWeekType").textContent = dayOfWeek;
 
         // Funkcja do pobierania typu rozkładu i notatki z pliku Callendar.txt
-        fetch("/Brygady/Callendar.txt")
+        fetch(`../Brygady/${miasto}/WYNIKI/Gotowe_brygady/Callendar.txt`)
             .then(response => response.text())
             .then(data => {
                 // Przeszukaj dane, aby znaleźć odpowiedni wpis
@@ -634,15 +637,15 @@
 
             switch (linkText) {
                 case "Rozkład Szkolny":
-                    targetUrl = "Brygady/Powszedni/listabrygad.html";
+                    targetUrl = "Brygady/Niedzielny/listabrygad.html";
                     choosedTypeOfDay = "Roboczy";
                     break;
                 case "Rozkład Powszedni Wolny":
-                    targetUrl = "Brygady/PowszedniWolny/listabrygad.html";
+                    targetUrl = "Brygady/Niedzielny/listabrygad.html";
                     choosedTypeOfDay = "Roboczy Wolny";
                     break;
                 case "Rozkład Sobotni":
-                    targetUrl = "Brygady/Sobotni/listabrygad.html";
+                    targetUrl = "Brygady/Niedzielny/listabrygad.html";
                     choosedTypeOfDay = "Sobota";
                     break;
                 case "Rozkład Niedzielny":
@@ -655,7 +658,7 @@
             }
 
             // Zapisanie wartości w sessionStorage
-            sessionStorage.setItem("ChoosedTypeOfDay", choosedTypeOfDay);
+            localStorage.setItem("ChoosedTypeOfDay", choosedTypeOfDay);
 
             // Przekierowanie na docelowy URL
             window.location.href = targetUrl;

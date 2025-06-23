@@ -258,9 +258,12 @@
     </table>
 
     <script>
+        sessionStorage.clear("BrygadaType");
+        let brygadaNumber = localStorage.getItem("ChoosedTypeOfRozklad") || "Brak danych";
+        let miasto = localStorage.getItem("Miasto");
         async function fetchDate() {
             try {
-                const response = await fetch('../wazny_od.txt');
+                const response = await fetch(`../../../Brygady/${miasto}/WYNIKI/Gotowe_brygady/wazny_od.txt`);
                 if (!response.ok) {
                     throw new Error('Błąd podczas ładowania daty');
                 }
@@ -275,17 +278,8 @@
 
 
         document.addEventListener("DOMContentLoaded", function() {
-            // Funkcja do pobrania nazwy folderu
-            function getFolderName() {
-                // Użyj lokalizacji do uzyskania ścieżki
-                const path = window.location.pathname;
-                const folderName = path.substring(0, path.lastIndexOf('/')).split('/').pop();
-                return folderName;
-            }
 
-            // Uzupełnij tytuł o nazwę folderu
-            const folderName = getFolderName();
-            document.querySelector('h1').innerHTML = `Rozkład ${folderName}`;
+            document.querySelector('h1').innerHTML = `Rozkład ${brygadaNumber}`;
         });
 
         function checkLogin() {
@@ -314,21 +308,34 @@
 
         async function loadData() {
             try {
-                const response = await fetch(`/api/data?brygada=${brygadaNumber}`); // Wysyłamy numer brygady w zapytaniu
+                const Miasto = localStorage.getItem('Miasto'); // Pobierz 'Miasto' z localStorage
+                const response = await fetch(`/api/data?brygada=${brygadaNumber}&miasto=${encodeURIComponent(Miasto)}`);
                 const data = await response.json();
 
                 data.sort((a, b) => {
-                    // Zakładając, że wartości brygady to daty w formacie "mm/dd"
-                    const [monthA, dayA] = a.brygada.split('/').map(Number); // Rozdzielamy na miesiąc i dzień
-                    const [monthB, dayB] = b.brygada.split('/').map(Number); // Rozdzielamy na miesiąc i dzień
+                    const parseBrygada = (brygada) => {
+                        // Jeśli brygada to same litery (np. "Rez", "N", "X"), wrzucamy je na koniec
+                        if (/^[A-Za-z]+$/.test(brygada)) {
+                            return [Infinity, '', Infinity]; // największe wartości, by były na końcu
+                        }
 
-                    // Porównujemy miesiące, jeśli miesiące są równe, porównujemy dni
-                    if (monthA === monthB) {
-                        return dayA - dayB;
-                    } else {
-                        return monthA - monthB;
-                    }
+                        // Standardowy format np. "10N/01" lub "1N/02"
+                        const match = brygada.match(/^(\d+)([A-Z]?)[/](\d+)$/);
+                        if (!match) return [Infinity, '', Infinity]; // fallback na niepasujące
+
+                        const [, main, letter, sub] = match;
+                        return [parseInt(main), letter, parseInt(sub)];
+                    };
+
+                    const [mainA, letterA, subA] = parseBrygada(a.brygada);
+                    const [mainB, letterB, subB] = parseBrygada(b.brygada);
+
+                    if (mainA !== mainB) return mainA - mainB;
+                    if (letterA !== letterB) return letterA.localeCompare(letterB);
+                    return subA - subB;
                 });
+
+
 
                 const tableBody = document.getElementById('dataTableBody');
 
@@ -383,58 +390,27 @@
         function filterTable() {
             const linieFilter = document.getElementById('filterLinie').value.toLowerCase();
             const brygadaFilter = document.getElementById('filterBrygada').value.toLowerCase();
-            const row = document.querySelectorAll('#dataTableBody tr');
+            const rows = document.querySelectorAll('#dataTableBody tr');
 
             rows.forEach(row => {
                 const linie = row.children[1].textContent.toLowerCase();
                 const brygada = row.children[0].textContent.toLowerCase();
-
-                // Zmiana z includes na startsWith dla brygady
                 const showRow = linie.includes(linieFilter) && brygada.startsWith(brygadaFilter);
                 row.style.display = showRow ? '' : 'none';
             });
         }
 
-        // Pobranie pełnej ścieżki do pliku
-        const fullPath = window.location.pathname;
+        // Pobranie typu rozkładu z localStorage
 
-        // Podzielenie ścieżki na części na podstawie "/"
-        const pathParts = fullPath.split('/');
-
-        // Pobranie nazwy folderu (zakładamy, że folder jest bezpośrednio nad plikiem)
-        const folderName = pathParts[pathParts.length - 2]; // -2, bo ostatni element to nazwa pliku
-
-        // Inicjalizacja zmiennej brygadaNumber na podstawie folderu
-        let brygadaNumber;
-
-        switch (folderName) {
-            case 'Niedzielny':
-                brygadaNumber = '1';
-                break;
-            case 'Powszedni':
-                brygadaNumber = '2';
-                break;
-            case 'PowszedniWolny':
-                brygadaNumber = '3';
-                break;
-            case 'Sobotni':
-                brygadaNumber = '4';
-                break;
-            default:
-                brygadaNumber = '2'; // Domyślna wartość, jeśli folder nie pasuje do żadnego przypadku
-        }
-
-        sessionStorage.setItem("ChoosedTypeOfDay", brygadaNumber)
         let activeDzien = brygadaNumber;
-
-
-
 
         async function checkBrygadaStatus() {
             const rows = document.querySelectorAll('#dataTableBody tr');
 
             try {
-                const response = await fetch(`../../../Brygady/WYNIKI/Gotowe_brygady/${brygadaNumber}/Brygady_BIS.txt`);
+                let Miasto = localStorage.getItem('Miasto');
+
+                const response = await fetch(`../../../Brygady/${Miasto}/WYNIKI/Gotowe_brygady/${brygadaNumber}/Brygady_BIS.txt`);
                 if (!response.ok) {
                     console.error("Błąd podczas ładowania pliku Brygady_BIS.txt");
                     return;
@@ -455,49 +431,62 @@
                 rows.forEach(row => {
                     const brygadaCell = row.querySelector('td:first-child a');
                     const brygada = brygadaCell.textContent.trim();
-                    sessionStorage.setItem('BrygadaType', 'Brak Tła');
+
                     if (brygadaStatusMap[brygada]) {
                         const status = brygadaStatusMap[brygada];
+                        sessionStorage.setItem('BrygadaType', 'Brak Tła'); // reset dla tego wiersza, opcjonalne
+
                         if (status === 'B') {
                             brygadaCell.style.backgroundColor = 'purple';
                             brygadaCell.style.color = 'white';
+                            sessionStorage.setItem('BrygadaType', 'Brygada Szczytowa');
                         } else if (status === 'JZ') {
                             brygadaCell.style.backgroundColor = 'grey';
                             brygadaCell.style.color = 'white';
+                            sessionStorage.setItem('BrygadaType', 'Brygada Jednozmianowa');
                         } else if (status === 'X') {
                             brygadaCell.style.backgroundColor = 'rgba(163, 120, 0)';
                             brygadaCell.style.color = 'white';
                         } else if (status === 'JZN') {
                             brygadaCell.style.backgroundColor = 'black';
                             brygadaCell.style.color = 'white';
+                            sessionStorage.setItem('BrygadaType', 'Brygada Nocna Jednozmianowa');
                         } else if (status === 'TRZEBA_RECZNIE_SPRAWDZIC') {
                             brygadaCell.classList.add('blink');
+                        } else {
+                            brygadaCell.style.backgroundColor = 'grey';
+                            brygadaCell.style.color = 'white';
                         }
-                        // Dodanie marginesów, aby zwiększyć obszar tła
-                        brygadaCell.style.padding = '2px 5px';
-                        brygadaCell.style.borderRadius = '4px'; // Zaokrąglenie rogów dla estetyki
 
-                        // Dodanie nasłuchiwacza kliknięcia na komórkę
+                        brygadaCell.style.padding = '2px 5px';
+                        brygadaCell.style.borderRadius = '4px';
+
                         brygadaCell.addEventListener('click', function() {
                             sessionStorage.setItem('BrygadaType', 'Brygada Dwuzmianowa');
                             const backgroundColor = brygadaCell.style.backgroundColor;
-                            if (backgroundColor === 'purple') { // BISÓWKA
+                            if (backgroundColor === 'purple') {
                                 sessionStorage.setItem('BrygadaType', 'Brygada Szczytowa');
-                            } else if (backgroundColor === 'grey') { // 1 ZMIANÓWKA
+                            } else if (backgroundColor === 'grey') {
                                 sessionStorage.setItem('BrygadaType', 'Brygada Jednozmianowa');
-                            } else if (backgroundColor === 'black') { // NOCNY
+                            } else if (backgroundColor === 'black') {
                                 sessionStorage.setItem('BrygadaType', 'Brygada Nocna Jednozmianowa');
-                            } else if (backgroundColor === 'rgba(0, 0, 1)') { // NOCNY
+                            } else if (backgroundColor === 'rgba(0, 0, 1)') {
                                 sessionStorage.setItem('BrygadaType', 'Brygada Nocna Dwuzmianowa');
                             }
-
                         });
+
+                    } else {
+                        // Gdy brak dopasowania - ustaw "N/A"
+                        sessionStorage.setItem('BrygadaType', 'N/A');
+                        brygadaCell.style.backgroundColor = ''; // opcjonalnie reset stylu
+                        brygadaCell.style.color = '';
                     }
                 });
             } catch (error) {
                 console.error("Błąd:", error);
             }
         }
+
 
 
 
@@ -532,7 +521,7 @@
                 // Sprawdzamy, czy którykolwiek numer linii pasuje do filtra
                 const matchesLinie = linieFilter ? linieArray.some(linia => linia === linieFilter) : true;
 
-                // Porównanie dla brygady (zaczyna się od wprowadzonego tekstu)
+                // Porównanie dla brygady (zaczyna się od wprowadzonego tekstu) 
                 const matchesBrygada = brygada.startsWith(brygadaFilter);
 
                 let matchesColor = true; // Domyślnie ustawiamy, że kolor nie jest brany pod uwagę
@@ -1041,12 +1030,150 @@
             }
         }
 
+        /*
+         */
+
+        document.addEventListener("DOMContentLoaded", async () => {
+            const miasto = localStorage.getItem("Miasto");
+            if (!miasto) return;
+
+            const header = document.querySelector("header");
+            if (!header) return;
+
+            async function fetchTextFile(path) {
+                const response = await fetch(path);
+                return await response.text();
+            }
+
+            function parseMiasta(txt, szukaneMiasto) {
+                txt = txt.replace(/\r/g, '');
+                const bloki = txt.split('\n\n');
+                for (const blok of bloki) {
+                    const linie = blok.trim().split('\n');
+                    if (linie[0].trim() === szukaneMiasto) {
+                        const widoczneMenu = {};
+                        for (let i = 2; i < linie.length; i++) {
+                            const [klucz, wartosc] = linie[i].split(':').map(s => s.trim());
+                            widoczneMenu[klucz] = (wartosc.toUpperCase() === 'TAK');
+                        }
+                        return widoczneMenu;
+                    }
+                }
+                return {};
+            }
+
+            function normalizeKey(s) {
+                return s.toLowerCase().trim();
+            }
+
+            try {
+                const miastaText = await fetchTextFile("../../miasta.txt");
+                const doDodania = parseMiasta(miastaText, miasto);
+
+                const doDodaniaNormalized = {};
+                for (const key in doDodania) {
+                    doDodaniaNormalized[normalizeKey(key)] = doDodania[key];
+                }
+
+                const zawszeAktywne = [
+                    "wybór miasta",
+                    "panel główny",
+                    "opuść panel"
+                ];
+
+                const linki = header.querySelectorAll("a.menu");
+                linki.forEach(link => {
+                    const tekst = link.textContent.trim();
+                    const normTekst = normalizeKey(tekst);
+
+                    if (zawszeAktywne.includes(normTekst)) {
+                        link.style.color = "";
+                        link.style.pointerEvents = "";
+                        link.style.opacity = "";
+                        return;
+                    }
+
+                    if (normTekst in doDodaniaNormalized) {
+                        if (doDodaniaNormalized[normTekst]) {
+                            link.style.color = "";
+                            link.style.pointerEvents = "";
+                            link.style.opacity = "";
+                        } else {
+                            link.style.color = "gray";
+                            link.style.pointerEvents = "none";
+                            link.style.opacity = "0.5";
+                        }
+                    } else {
+                        link.style.color = "gray";
+                        link.style.pointerEvents = "none";
+                        link.style.opacity = "0.5";
+                    }
+                });
+
+                // >>> Ukryj kolumnę "Autobus LIVE", jeśli Pojazdy LIVE = NIE
+                if (!doDodaniaNormalized["pojazdy live"]) {
+                    const tabela = document.getElementById("PierwszaTabela");
+                    if (tabela) {
+                        // Ukryj nagłówek kolumny
+                        const thList = tabela.querySelectorAll("thead th");
+                        thList.forEach(th => {
+                            if (th.textContent.trim().replace(/\s+/g, ' ') === "Autobus LIVE") {
+                                th.style.display = "none";
+                            }
+                        });
+
+                        // Ukryj istniejące komórki tej kolumny w każdym wierszu
+                        const dataTableBody = document.getElementById("dataTableBody");
+                        if (dataTableBody) {
+                            const wiersze = dataTableBody.querySelectorAll("tr");
+                            wiersze.forEach(tr => {
+                                const komorki = tr.querySelectorAll("td");
+                                if (komorki.length >= 6) {
+                                    komorki[5].style.display = "none";
+                                }
+                            });
+
+                            // Obserwator do ukrywania komórek w nowych wierszach
+                            const observer = new MutationObserver(mutations => {
+                                mutations.forEach(mutation => {
+                                    mutation.addedNodes.forEach(node => {
+                                        if (node.nodeType === 1 && node.tagName === "TR") {
+                                            const komorki = node.querySelectorAll("td");
+                                            if (komorki.length >= 6) {
+                                                komorki[5].style.display = "none";
+                                            }
+                                        }
+                                    });
+                                });
+                            });
+
+                            observer.observe(dataTableBody, {
+                                childList: true
+                            });
+                        }
+
+                    }
+                }
+
+                const logoutBtn = document.getElementById('logout');
+                if (logoutBtn) {
+                    logoutBtn.addEventListener('click', function() {
+                        const miasto = localStorage.getItem('Miasto');
+                        localStorage.clear();
+                        localStorage.setItem('Miasto', miasto);
+                        window.location.href = 'index.html';
+                    });
+                }
+            } catch (error) {
+                console.error("Błąd podczas ładowania danych:", error);
+            }
+        });
+
     </script>
 
     <p>
         <center>
-            Rozkłady na dzień dzisiejszy posiadają godziny rozpoczęcia oraz zakończenia <strong>PIERWSZYCH KURSÓW LINIOWYCH zawartych w brygadzie.</strong> <br>
-            W przyszłości planuję to zmienić.<br>
+            Rozkłady na dzień dzisiejszy nie uwzględniają czasu potrzebnego na przygotowanie i zakończenie pracy kierowcy. <br> Godziny rozpoczęcia i zakończenia pracy ustalane są na podstawie kursów liniowych przypisanych do danej brygady. <br><br>
         </center>
     </p>
 

@@ -1,0 +1,751 @@
+route_id	service_id	trip_id	arrival_time	departure_time	stop_headsign	stop_name
+-------------------------------------------------------------------------------
+1864	5	215681	05:43:00	05:43:00		Wita Stwosza / Langiewicza 02
+1864	5	215681	05:44:00	05:44:00		Wita Stwosza kościół 04
+1864	5	215681	05:44:00	05:44:00		Wita Stwosza kościół 04
+1864	5	215681	05:45:00	05:45:00		Wita Stwosza / Wyspiańskiego 06 nż
+1864	5	215681	05:45:00	05:45:00		Wita Stwosza / Wyspiańskiego 06 nż
+1864	5	215681	05:46:00	05:46:00		Wyspiańskiego stadion 02 nż
+1864	5	215681	05:46:00	05:46:00		Wyspiańskiego stadion 02 nż
+1864	5	215681	05:47:00	05:47:00		Witosa / Wyspiańskiego 06 nż
+1864	5	215681	05:47:00	05:47:00		Witosa / Wyspiańskiego 06 nż
+1864	5	215681	05:48:00	05:48:00		Witosa jedn. wojskowa 08 nż
+1864	5	215681	05:48:00	05:48:00		Witosa jedn. wojskowa 08 nż
+1864	5	215681	05:50:00	05:50:00		Krakowska jedn. wojskowa 01
+1864	5	215681	05:50:00	05:50:00		Krakowska jedn. wojskowa 01
+1864	5	215681	05:52:00	05:52:00		Piłsudskiego U. Wojewódzki 05
+1864	5	215681	05:52:00	05:52:00		Piłsudskiego U. Wojewódzki 05
+1864	5	215681	05:53:00	05:53:00		Pl. Wolności 03
+1864	5	215681	05:53:00	05:53:00		Pl. Wolności 03
+1864	5	215681	05:54:00	05:54:00		Piłsudskiego ZDZ 01 nż
+1864	5	215681	05:54:00	05:54:00		Piłsudskiego ZDZ 01 nż
+1864	5	215681	05:55:00	05:55:00		Rejtana / Lwowska 01
+1864	5	215681	05:55:00	05:55:00		Rejtana / Lwowska 01
+1864	5	215681	05:56:00	05:56:00		Rejtana / Kustronia 03 nż
+1864	5	215681	05:56:00	05:56:00		Rejtana / Kustronia 03 nż
+1864	5	215681	05:57:00	05:57:00		Rejtana uniwersytet 05
+1864	5	215681	05:57:00	05:57:00		Rejtana uniwersytet 05
+1864	5	215681	05:58:00	05:58:00		Rejtana / Kopisto 07
+1864	5	215681	05:58:00	05:58:00		Rejtana / Kopisto 07
+1864	5	215681	06:00:00	06:00:00		Paderewskiego / Ossolińskich 02 nż
+1864	5	215681	06:00:00	06:00:00		Paderewskiego / Ossolińskich 02 nż
+1864	5	215681	06:01:00	06:01:00		Krzyżanowskiego szkoła 01 nż
+1864	5	215681	06:01:00	06:01:00		Krzyżanowskiego szkoła 01 nż
+1864	5	215681	06:02:00	06:02:00		Niepodległości dom dziecka 04 nż
+1864	5	215681	06:02:00	06:02:00		Niepodległości dom dziecka 04 nż
+1864	5	215681	06:04:00	06:04:00		Mieszka I / Kustronia 01 nż
+1864	5	215681	06:04:00	06:04:00		Mieszka I / Kustronia 01 nż
+1864	5	215681	06:06:00	06:06:00		Lwowska cmentarz 04
+1864	5	215681	06:06:00	06:06:00		Lwowska cmentarz 04
+1864	5	215681	06:08:00	06:08:00		Lwowska szpital pętla 02
+1864	5	215681	06:08:00	06:08:00		Lwowska szpital pętla 02
+
+1887	5	210594	06:15:00	06:15:00		Lwowska szpital pętla 02
+1887	5	210594	06:15:00	06:15:00		Lwowska szpital pętla 02
+1887	5	210594	06:18:00	06:18:00		Lwowska szpital 05
+1887	5	210594	06:18:00	06:18:00		Lwowska szpital 05
+1887	5	210594	06:21:00	06:21:00		Lwowska cmentarz 03
+1887	5	210594	06:21:00	06:21:00		Lwowska cmentarz 03
+1887	5	210594	06:23:00	06:23:00		Mieszka I / Kustronia 02 nż
+1887	5	210594	06:23:00	06:23:00		Mieszka I / Kustronia 02 nż
+1887	5	210594	06:25:00	06:25:00		Niepodległości / Mieszka I 03 nż
+1887	5	210594	06:25:00	06:25:00		Niepodległości / Mieszka I 03 nż
+1887	5	210594	06:26:00	06:26:00		Niepodległości dom dziecka 01 nż
+1887	5	210594	06:26:00	06:26:00		Niepodległości dom dziecka 01 nż
+1887	5	210594	06:27:00	06:27:00		Krzyżanowskiego szkoła 02 nż
+1887	5	210594	06:27:00	06:27:00		Krzyżanowskiego szkoła 02 nż
+1887	5	210594	06:29:00	06:29:00		Paderewskiego / Ossolińskich 01 nż
+1887	5	210594	06:29:00	06:29:00		Paderewskiego / Ossolińskich 01 nż
+1887	5	210594	06:31:00	06:31:00		Rejtana / Krzyżanowskiego 08
+1887	5	210594	06:31:00	06:31:00		Rejtana / Krzyżanowskiego 08
+1887	5	210594	06:33:00	06:33:00		Rejtana uniwersytet 06
+1887	5	210594	06:33:00	06:33:00		Rejtana uniwersytet 06
+1887	5	210594	06:34:00	06:34:00		Rejtana cmentarz 04 nż
+1887	5	210594	06:34:00	06:34:00		Rejtana cmentarz 04 nż
+1887	5	210594	06:35:00	06:35:00		Rejtana / Kustronia 02
+1887	5	210594	06:35:00	06:35:00		Rejtana / Kustronia 02
+1887	5	210594	06:37:00	06:37:00		Piłsudskiego ZDZ 02
+1887	5	210594	06:37:00	06:37:00		Piłsudskiego ZDZ 02
+1887	5	210594	06:39:00	06:39:00		Pl. Wolności 04
+1887	5	210594	06:39:00	06:39:00		Pl. Wolności 04
+1887	5	210594	06:41:00	06:41:00		Piłsudskiego U. Marszałkowski 08
+1887	5	210594	06:41:00	06:41:00		Piłsudskiego U. Marszałkowski 08
+1887	5	210594	06:43:00	06:43:00		Krakowska jedn. wojskowa 02
+1887	5	210594	06:43:00	06:43:00		Krakowska jedn. wojskowa 02
+1887	5	210594	06:45:00	06:45:00		Witosa / Solarza 07 nż
+1887	5	210594	06:45:00	06:45:00		Witosa / Solarza 07 nż
+1887	5	210594	06:46:00	06:46:00		Witosa / Wiktora 05 nż
+1887	5	210594	06:46:00	06:46:00		Witosa / Wiktora 05 nż
+1887	5	210594	06:48:00	06:48:00		Wyspiańskiego stadion 01 nż
+1887	5	210594	06:48:00	06:48:00		Wyspiańskiego stadion 01 nż
+1887	5	210594	06:49:00	06:49:00		Wita Stwosza / Wyspiańskiego 05 nż
+1887	5	210594	06:49:00	06:49:00		Wita Stwosza / Wyspiańskiego 05 nż
+1887	5	210594	06:50:00	06:50:00		Wita Stwosza kościół 03
+1887	5	210594	06:50:00	06:50:00		Wita Stwosza kościół 03
+1887	5	210594	06:51:00	06:51:00		Langiewicza / Wita Stwosza 04
+1887	5	210594	06:51:00	06:51:00		Langiewicza / Wita Stwosza 04
+1887	5	210594	06:53:00	06:53:00		Bat. Chłopskich / Staroniwska 05 nż
+1887	5	210594	06:53:00	06:53:00		Bat. Chłopskich / Staroniwska 05 nż
+1887	5	210594	06:54:00	06:54:00		Przemysłowa / Bat. Chłopskich 02 nż
+1887	5	210594	06:54:00	06:54:00		Przemysłowa / Bat. Chłopskich 02 nż
+1887	5	210594	06:55:00	06:55:00		Przemysłowa / Magazynowa 04
+1887	5	210594	06:55:00	06:55:00		Przemysłowa / Magazynowa 04
+1887	5	210594	06:57:00	06:57:00		Przemysłowa U. Celny 05 nż
+1887	5	210594	06:57:00	06:57:00		Przemysłowa U. Celny 05 nż
+
+1826	5	212161	07:04:00	07:04:00		Przemysłowa U. Celny 05 nż
+1826	5	212161	07:04:00	07:04:00		Przemysłowa U. Celny 05 nż
+1826	5	212161	07:05:00	07:05:00		Przemysłowa / Architektów 03
+1826	5	212161	07:05:00	07:05:00		Przemysłowa / Architektów 03
+1826	5	212161	07:06:00	07:06:00		Przemysłowa / Bat. Chłopskich 01 nż
+1826	5	212161	07:06:00	07:06:00		Przemysłowa / Bat. Chłopskich 01 nż
+1826	5	212161	07:09:00	07:09:00		Bat. Chłopskich / Langiewicza 04 nż
+1826	5	212161	07:09:00	07:09:00		Bat. Chłopskich / Langiewicza 04 nż
+1826	5	212161	07:10:00	07:10:00		Langiewicza / Wita Stwosza 05 nż
+1826	5	212161	07:10:00	07:10:00		Langiewicza / Wita Stwosza 05 nż
+1826	5	212161	07:11:00	07:11:00		Wita Stwosza / Langiewicza 02
+1826	5	212161	07:11:00	07:11:00		Wita Stwosza / Langiewicza 02
+1826	5	212161	07:12:00	07:12:00		Wita Stwosza kościół 04
+1826	5	212161	07:12:00	07:12:00		Wita Stwosza kościół 04
+1826	5	212161	07:13:00	07:13:00		Wita Stwosza / Wyspiańskiego 06 nż
+1826	5	212161	07:13:00	07:13:00		Wita Stwosza / Wyspiańskiego 06 nż
+1826	5	212161	07:14:00	07:14:00		Wyspiańskiego stadion 02 nż
+1826	5	212161	07:14:00	07:14:00		Wyspiańskiego stadion 02 nż
+1826	5	212161	07:15:00	07:15:00		Witosa / Wyspiańskiego 06 nż
+1826	5	212161	07:15:00	07:15:00		Witosa / Wyspiańskiego 06 nż
+1826	5	212161	07:16:00	07:16:00		Witosa jedn. wojskowa 08 nż
+1826	5	212161	07:16:00	07:16:00		Witosa jedn. wojskowa 08 nż
+1826	5	212161	07:18:00	07:18:00		Krakowska jedn. wojskowa 01
+1826	5	212161	07:18:00	07:18:00		Krakowska jedn. wojskowa 01
+1826	5	212161	07:20:00	07:20:00		Piłsudskiego U. Wojewódzki 05
+1826	5	212161	07:20:00	07:20:00		Piłsudskiego U. Wojewódzki 05
+1826	5	212161	07:21:00	07:21:00		Pl. Wolności 03
+1826	5	212161	07:21:00	07:21:00		Pl. Wolności 03
+1826	5	212161	07:22:00	07:22:00		Piłsudskiego ZDZ 01 nż
+1826	5	212161	07:22:00	07:22:00		Piłsudskiego ZDZ 01 nż
+1826	5	212161	07:24:00	07:24:00		Rejtana / Lwowska 01
+1826	5	212161	07:24:00	07:24:00		Rejtana / Lwowska 01
+1826	5	212161	07:25:00	07:25:00		Rejtana / Kustronia 03 nż
+1826	5	212161	07:25:00	07:25:00		Rejtana / Kustronia 03 nż
+1826	5	212161	07:26:00	07:26:00		Rejtana uniwersytet 05
+1826	5	212161	07:26:00	07:26:00		Rejtana uniwersytet 05
+1826	5	212161	07:28:00	07:28:00		Rejtana / Kopisto 07
+1826	5	212161	07:28:00	07:28:00		Rejtana / Kopisto 07
+1826	5	212161	07:31:00	07:31:00		Paderewskiego / Ossolińskich 02 nż
+1826	5	212161	07:31:00	07:31:00		Paderewskiego / Ossolińskich 02 nż
+1826	5	212161	07:32:00	07:32:00		Krzyżanowskiego szkoła 01 nż
+1826	5	212161	07:32:00	07:32:00		Krzyżanowskiego szkoła 01 nż
+1826	5	212161	07:33:00	07:33:00		Niepodległości dom dziecka 04 nż
+1826	5	212161	07:33:00	07:33:00		Niepodległości dom dziecka 04 nż
+1826	5	212161	07:35:00	07:35:00		Mieszka I / Kustronia 01 nż
+1826	5	212161	07:35:00	07:35:00		Mieszka I / Kustronia 01 nż
+1826	5	212161	07:37:00	07:37:00		Lwowska cmentarz 04
+1826	5	212161	07:37:00	07:37:00		Lwowska cmentarz 04
+1826	5	212161	07:39:00	07:39:00		Lwowska szpital pętla 02
+1826	5	212161	07:39:00	07:39:00		Lwowska szpital pętla 02
+
+1887	5	211079	08:15:00	08:15:00		Lwowska szpital pętla 02
+1887	5	211079	08:15:00	08:15:00		Lwowska szpital pętla 02
+1887	5	211079	08:18:00	08:18:00		Lwowska szpital 05
+1887	5	211079	08:18:00	08:18:00		Lwowska szpital 05
+1887	5	211079	08:20:00	08:20:00		Lwowska cmentarz 03
+1887	5	211079	08:20:00	08:20:00		Lwowska cmentarz 03
+1887	5	211079	08:22:00	08:22:00		Mieszka I / Kustronia 02 nż
+1887	5	211079	08:22:00	08:22:00		Mieszka I / Kustronia 02 nż
+1887	5	211079	08:24:00	08:24:00		Niepodległości / Mieszka I 03 nż
+1887	5	211079	08:24:00	08:24:00		Niepodległości / Mieszka I 03 nż
+1887	5	211079	08:25:00	08:25:00		Niepodległości dom dziecka 01 nż
+1887	5	211079	08:25:00	08:25:00		Niepodległości dom dziecka 01 nż
+1887	5	211079	08:26:00	08:26:00		Krzyżanowskiego szkoła 02 nż
+1887	5	211079	08:26:00	08:26:00		Krzyżanowskiego szkoła 02 nż
+1887	5	211079	08:28:00	08:28:00		Paderewskiego / Ossolińskich 01 nż
+1887	5	211079	08:28:00	08:28:00		Paderewskiego / Ossolińskich 01 nż
+1887	5	211079	08:30:00	08:30:00		Rejtana / Krzyżanowskiego 08
+1887	5	211079	08:30:00	08:30:00		Rejtana / Krzyżanowskiego 08
+1887	5	211079	08:32:00	08:32:00		Rejtana uniwersytet 06
+1887	5	211079	08:32:00	08:32:00		Rejtana uniwersytet 06
+1887	5	211079	08:33:00	08:33:00		Rejtana cmentarz 04 nż
+1887	5	211079	08:33:00	08:33:00		Rejtana cmentarz 04 nż
+1887	5	211079	08:34:00	08:34:00		Rejtana / Kustronia 02
+1887	5	211079	08:34:00	08:34:00		Rejtana / Kustronia 02
+1887	5	211079	08:36:00	08:36:00		Piłsudskiego ZDZ 02
+1887	5	211079	08:36:00	08:36:00		Piłsudskiego ZDZ 02
+1887	5	211079	08:38:00	08:38:00		Pl. Wolności 04
+1887	5	211079	08:38:00	08:38:00		Pl. Wolności 04
+1887	5	211079	08:41:00	08:41:00		Piłsudskiego U. Marszałkowski 08
+1887	5	211079	08:41:00	08:41:00		Piłsudskiego U. Marszałkowski 08
+1887	5	211079	08:43:00	08:43:00		Krakowska jedn. wojskowa 02
+1887	5	211079	08:43:00	08:43:00		Krakowska jedn. wojskowa 02
+1887	5	211079	08:45:00	08:45:00		Witosa / Solarza 07 nż
+1887	5	211079	08:45:00	08:45:00		Witosa / Solarza 07 nż
+1887	5	211079	08:46:00	08:46:00		Witosa / Wiktora 05 nż
+1887	5	211079	08:46:00	08:46:00		Witosa / Wiktora 05 nż
+1887	5	211079	08:48:00	08:48:00		Wyspiańskiego stadion 01 nż
+1887	5	211079	08:48:00	08:48:00		Wyspiańskiego stadion 01 nż
+1887	5	211079	08:49:00	08:49:00		Wita Stwosza / Wyspiańskiego 05 nż
+1887	5	211079	08:49:00	08:49:00		Wita Stwosza / Wyspiańskiego 05 nż
+1887	5	211079	08:50:00	08:50:00		Wita Stwosza kościół 03
+1887	5	211079	08:50:00	08:50:00		Wita Stwosza kościół 03
+1887	5	211079	08:51:00	08:51:00		Langiewicza / Wita Stwosza 04
+1887	5	211079	08:51:00	08:51:00		Langiewicza / Wita Stwosza 04
+1887	5	211079	08:53:00	08:53:00		Bat. Chłopskich / Staroniwska 05 nż
+1887	5	211079	08:53:00	08:53:00		Bat. Chłopskich / Staroniwska 05 nż
+1887	5	211079	08:54:00	08:54:00		Przemysłowa / Bat. Chłopskich 02 nż
+1887	5	211079	08:54:00	08:54:00		Przemysłowa / Bat. Chłopskich 02 nż
+1887	5	211079	08:55:00	08:55:00		Przemysłowa / Magazynowa 04
+1887	5	211079	08:55:00	08:55:00		Przemysłowa / Magazynowa 04
+1887	5	211079	08:57:00	08:57:00		Przemysłowa U. Celny 05 nż
+1887	5	211079	08:57:00	08:57:00		Przemysłowa U. Celny 05 nż
+
+1826	5	216011	09:05:00	09:05:00		Przemysłowa U. Celny 05 nż
+1826	5	216011	09:05:00	09:05:00		Przemysłowa U. Celny 05 nż
+1826	5	216011	09:06:00	09:06:00		Przemysłowa / Architektów 03
+1826	5	216011	09:06:00	09:06:00		Przemysłowa / Architektów 03
+1826	5	216011	09:07:00	09:07:00		Przemysłowa / Bat. Chłopskich 01 nż
+1826	5	216011	09:07:00	09:07:00		Przemysłowa / Bat. Chłopskich 01 nż
+1826	5	216011	09:09:00	09:09:00		Bat. Chłopskich / Langiewicza 04 nż
+1826	5	216011	09:09:00	09:09:00		Bat. Chłopskich / Langiewicza 04 nż
+1826	5	216011	09:10:00	09:10:00		Langiewicza / Wita Stwosza 05 nż
+1826	5	216011	09:10:00	09:10:00		Langiewicza / Wita Stwosza 05 nż
+1826	5	216011	09:11:00	09:11:00		Wita Stwosza / Langiewicza 02
+1826	5	216011	09:11:00	09:11:00		Wita Stwosza / Langiewicza 02
+1826	5	216011	09:12:00	09:12:00		Wita Stwosza kościół 04
+1826	5	216011	09:12:00	09:12:00		Wita Stwosza kościół 04
+1826	5	216011	09:13:00	09:13:00		Wita Stwosza / Wyspiańskiego 06 nż
+1826	5	216011	09:13:00	09:13:00		Wita Stwosza / Wyspiańskiego 06 nż
+1826	5	216011	09:14:00	09:14:00		Wyspiańskiego stadion 02 nż
+1826	5	216011	09:14:00	09:14:00		Wyspiańskiego stadion 02 nż
+1826	5	216011	09:15:00	09:15:00		Witosa / Wyspiańskiego 06 nż
+1826	5	216011	09:15:00	09:15:00		Witosa / Wyspiańskiego 06 nż
+1826	5	216011	09:16:00	09:16:00		Witosa jedn. wojskowa 08 nż
+1826	5	216011	09:16:00	09:16:00		Witosa jedn. wojskowa 08 nż
+1826	5	216011	09:18:00	09:18:00		Krakowska jedn. wojskowa 01
+1826	5	216011	09:18:00	09:18:00		Krakowska jedn. wojskowa 01
+1826	5	216011	09:21:00	09:21:00		Piłsudskiego U. Wojewódzki 05
+1826	5	216011	09:21:00	09:21:00		Piłsudskiego U. Wojewódzki 05
+1826	5	216011	09:22:00	09:22:00		Pl. Wolności 03
+1826	5	216011	09:22:00	09:22:00		Pl. Wolności 03
+1826	5	216011	09:23:00	09:23:00		Piłsudskiego ZDZ 01 nż
+1826	5	216011	09:23:00	09:23:00		Piłsudskiego ZDZ 01 nż
+1826	5	216011	09:25:00	09:25:00		Rejtana / Lwowska 01
+1826	5	216011	09:25:00	09:25:00		Rejtana / Lwowska 01
+1826	5	216011	09:26:00	09:26:00		Rejtana / Kustronia 03 nż
+1826	5	216011	09:26:00	09:26:00		Rejtana / Kustronia 03 nż
+1826	5	216011	09:27:00	09:27:00		Rejtana uniwersytet 05
+1826	5	216011	09:27:00	09:27:00		Rejtana uniwersytet 05
+1826	5	216011	09:29:00	09:29:00		Rejtana / Kopisto 07
+1826	5	216011	09:29:00	09:29:00		Rejtana / Kopisto 07
+1826	5	216011	09:32:00	09:32:00		Paderewskiego / Ossolińskich 02 nż
+1826	5	216011	09:32:00	09:32:00		Paderewskiego / Ossolińskich 02 nż
+1826	5	216011	09:33:00	09:33:00		Krzyżanowskiego szkoła 01 nż
+1826	5	216011	09:33:00	09:33:00		Krzyżanowskiego szkoła 01 nż
+1826	5	216011	09:34:00	09:34:00		Niepodległości dom dziecka 04 nż
+1826	5	216011	09:34:00	09:34:00		Niepodległości dom dziecka 04 nż
+1826	5	216011	09:36:00	09:36:00		Mieszka I / Kustronia 01 nż
+1826	5	216011	09:36:00	09:36:00		Mieszka I / Kustronia 01 nż
+1826	5	216011	09:38:00	09:38:00		Lwowska cmentarz 04
+1826	5	216011	09:38:00	09:38:00		Lwowska cmentarz 04
+1826	5	216011	09:40:00	09:40:00		Lwowska szpital pętla 02
+1826	5	216011	09:40:00	09:40:00		Lwowska szpital pętla 02
+
+1887	5	212813	10:16:00	10:16:00		Lwowska szpital pętla 02
+1887	5	212813	10:16:00	10:16:00		Lwowska szpital pętla 02
+1887	5	212813	10:19:00	10:19:00		Lwowska szpital 05
+1887	5	212813	10:19:00	10:19:00		Lwowska szpital 05
+1887	5	212813	10:21:00	10:21:00		Lwowska cmentarz 03
+1887	5	212813	10:21:00	10:21:00		Lwowska cmentarz 03
+1887	5	212813	10:23:00	10:23:00		Mieszka I / Kustronia 02 nż
+1887	5	212813	10:23:00	10:23:00		Mieszka I / Kustronia 02 nż
+1887	5	212813	10:25:00	10:25:00		Niepodległości / Mieszka I 03 nż
+1887	5	212813	10:25:00	10:25:00		Niepodległości / Mieszka I 03 nż
+1887	5	212813	10:26:00	10:26:00		Niepodległości dom dziecka 01 nż
+1887	5	212813	10:26:00	10:26:00		Niepodległości dom dziecka 01 nż
+1887	5	212813	10:27:00	10:27:00		Krzyżanowskiego szkoła 02 nż
+1887	5	212813	10:27:00	10:27:00		Krzyżanowskiego szkoła 02 nż
+1887	5	212813	10:29:00	10:29:00		Paderewskiego / Ossolińskich 01 nż
+1887	5	212813	10:29:00	10:29:00		Paderewskiego / Ossolińskich 01 nż
+1887	5	212813	10:31:00	10:31:00		Rejtana / Krzyżanowskiego 08
+1887	5	212813	10:31:00	10:31:00		Rejtana / Krzyżanowskiego 08
+1887	5	212813	10:33:00	10:33:00		Rejtana uniwersytet 06
+1887	5	212813	10:33:00	10:33:00		Rejtana uniwersytet 06
+1887	5	212813	10:34:00	10:34:00		Rejtana cmentarz 04 nż
+1887	5	212813	10:34:00	10:34:00		Rejtana cmentarz 04 nż
+1887	5	212813	10:35:00	10:35:00		Rejtana / Kustronia 02
+1887	5	212813	10:35:00	10:35:00		Rejtana / Kustronia 02
+1887	5	212813	10:37:00	10:37:00		Piłsudskiego ZDZ 02
+1887	5	212813	10:37:00	10:37:00		Piłsudskiego ZDZ 02
+1887	5	212813	10:39:00	10:39:00		Pl. Wolności 04
+1887	5	212813	10:39:00	10:39:00		Pl. Wolności 04
+1887	5	212813	10:42:00	10:42:00		Piłsudskiego U. Marszałkowski 08
+1887	5	212813	10:42:00	10:42:00		Piłsudskiego U. Marszałkowski 08
+1887	5	212813	10:44:00	10:44:00		Krakowska jedn. wojskowa 02
+1887	5	212813	10:44:00	10:44:00		Krakowska jedn. wojskowa 02
+1887	5	212813	10:46:00	10:46:00		Witosa / Solarza 07 nż
+1887	5	212813	10:46:00	10:46:00		Witosa / Solarza 07 nż
+1887	5	212813	10:47:00	10:47:00		Witosa / Wiktora 05 nż
+1887	5	212813	10:47:00	10:47:00		Witosa / Wiktora 05 nż
+1887	5	212813	10:49:00	10:49:00		Wyspiańskiego stadion 01 nż
+1887	5	212813	10:49:00	10:49:00		Wyspiańskiego stadion 01 nż
+1887	5	212813	10:50:00	10:50:00		Wita Stwosza / Wyspiańskiego 05 nż
+1887	5	212813	10:50:00	10:50:00		Wita Stwosza / Wyspiańskiego 05 nż
+1887	5	212813	10:51:00	10:51:00		Wita Stwosza kościół 03
+1887	5	212813	10:51:00	10:51:00		Wita Stwosza kościół 03
+1887	5	212813	10:52:00	10:52:00		Langiewicza / Wita Stwosza 04
+1887	5	212813	10:52:00	10:52:00		Langiewicza / Wita Stwosza 04
+1887	5	212813	10:54:00	10:54:00		Bat. Chłopskich / Staroniwska 05 nż
+1887	5	212813	10:54:00	10:54:00		Bat. Chłopskich / Staroniwska 05 nż
+1887	5	212813	10:55:00	10:55:00		Przemysłowa / Bat. Chłopskich 02 nż
+1887	5	212813	10:55:00	10:55:00		Przemysłowa / Bat. Chłopskich 02 nż
+1887	5	212813	10:56:00	10:56:00		Przemysłowa / Magazynowa 04
+1887	5	212813	10:56:00	10:56:00		Przemysłowa / Magazynowa 04
+1887	5	212813	10:58:00	10:58:00		Przemysłowa U. Celny 05 nż
+1887	5	212813	10:58:00	10:58:00		Przemysłowa U. Celny 05 nż
+
+1826	5	211830	11:04:00	11:04:00		Przemysłowa U. Celny 05 nż
+1826	5	211830	11:04:00	11:04:00		Przemysłowa U. Celny 05 nż
+1826	5	211830	11:05:00	11:05:00		Przemysłowa / Architektów 03
+1826	5	211830	11:05:00	11:05:00		Przemysłowa / Architektów 03
+1826	5	211830	11:06:00	11:06:00		Przemysłowa / Bat. Chłopskich 01 nż
+1826	5	211830	11:06:00	11:06:00		Przemysłowa / Bat. Chłopskich 01 nż
+1826	5	211830	11:08:00	11:08:00		Bat. Chłopskich / Langiewicza 04 nż
+1826	5	211830	11:08:00	11:08:00		Bat. Chłopskich / Langiewicza 04 nż
+1826	5	211830	11:09:00	11:09:00		Langiewicza / Wita Stwosza 05 nż
+1826	5	211830	11:09:00	11:09:00		Langiewicza / Wita Stwosza 05 nż
+1826	5	211830	11:10:00	11:10:00		Wita Stwosza / Langiewicza 02
+1826	5	211830	11:10:00	11:10:00		Wita Stwosza / Langiewicza 02
+1826	5	211830	11:11:00	11:11:00		Wita Stwosza kościół 04
+1826	5	211830	11:11:00	11:11:00		Wita Stwosza kościół 04
+1826	5	211830	11:12:00	11:12:00		Wita Stwosza / Wyspiańskiego 06 nż
+1826	5	211830	11:12:00	11:12:00		Wita Stwosza / Wyspiańskiego 06 nż
+1826	5	211830	11:13:00	11:13:00		Wyspiańskiego stadion 02 nż
+1826	5	211830	11:13:00	11:13:00		Wyspiańskiego stadion 02 nż
+1826	5	211830	11:14:00	11:14:00		Witosa / Wyspiańskiego 06 nż
+1826	5	211830	11:14:00	11:14:00		Witosa / Wyspiańskiego 06 nż
+1826	5	211830	11:15:00	11:15:00		Witosa jedn. wojskowa 08 nż
+1826	5	211830	11:15:00	11:15:00		Witosa jedn. wojskowa 08 nż
+1826	5	211830	11:17:00	11:17:00		Krakowska jedn. wojskowa 01
+1826	5	211830	11:17:00	11:17:00		Krakowska jedn. wojskowa 01
+1826	5	211830	11:20:00	11:20:00		Piłsudskiego U. Wojewódzki 05
+1826	5	211830	11:20:00	11:20:00		Piłsudskiego U. Wojewódzki 05
+1826	5	211830	11:21:00	11:21:00		Pl. Wolności 03
+1826	5	211830	11:21:00	11:21:00		Pl. Wolności 03
+1826	5	211830	11:22:00	11:22:00		Piłsudskiego ZDZ 01 nż
+1826	5	211830	11:22:00	11:22:00		Piłsudskiego ZDZ 01 nż
+1826	5	211830	11:24:00	11:24:00		Rejtana / Lwowska 01
+1826	5	211830	11:24:00	11:24:00		Rejtana / Lwowska 01
+1826	5	211830	11:25:00	11:25:00		Rejtana / Kustronia 03 nż
+1826	5	211830	11:25:00	11:25:00		Rejtana / Kustronia 03 nż
+1826	5	211830	11:26:00	11:26:00		Rejtana uniwersytet 05
+1826	5	211830	11:26:00	11:26:00		Rejtana uniwersytet 05
+1826	5	211830	11:28:00	11:28:00		Rejtana / Kopisto 07
+1826	5	211830	11:28:00	11:28:00		Rejtana / Kopisto 07
+1826	5	211830	11:32:00	11:32:00		Paderewskiego / Ossolińskich 02 nż
+1826	5	211830	11:32:00	11:32:00		Paderewskiego / Ossolińskich 02 nż
+1826	5	211830	11:33:00	11:33:00		Krzyżanowskiego szkoła 01 nż
+1826	5	211830	11:33:00	11:33:00		Krzyżanowskiego szkoła 01 nż
+1826	5	211830	11:34:00	11:34:00		Niepodległości dom dziecka 04 nż
+1826	5	211830	11:34:00	11:34:00		Niepodległości dom dziecka 04 nż
+1826	5	211830	11:36:00	11:36:00		Mieszka I / Kustronia 01 nż
+1826	5	211830	11:36:00	11:36:00		Mieszka I / Kustronia 01 nż
+1826	5	211830	11:38:00	11:38:00		Lwowska cmentarz 04
+1826	5	211830	11:38:00	11:38:00		Lwowska cmentarz 04
+1826	5	211830	11:41:00	11:41:00		Lwowska szpital pętla 02
+1826	5	211830	11:41:00	11:41:00		Lwowska szpital pętla 02
+
+1874	5	214942	12:15:00	12:15:00		Lwowska szpital pętla 02
+1874	5	214942	12:15:00	12:15:00		Lwowska szpital pętla 02
+1874	5	214942	12:18:00	12:18:00		Lwowska szpital 05
+1874	5	214942	12:18:00	12:18:00		Lwowska szpital 05
+1874	5	214942	12:21:00	12:21:00		Lwowska cmentarz 03
+1874	5	214942	12:21:00	12:21:00		Lwowska cmentarz 03
+1874	5	214942	12:23:00	12:23:00		Mieszka I / Kustronia 02 nż
+1874	5	214942	12:23:00	12:23:00		Mieszka I / Kustronia 02 nż
+1874	5	214942	12:25:00	12:25:00		Niepodległości / Mieszka I 03 nż
+1874	5	214942	12:25:00	12:25:00		Niepodległości / Mieszka I 03 nż
+1874	5	214942	12:26:00	12:26:00		Niepodległości dom dziecka 01 nż
+1874	5	214942	12:26:00	12:26:00		Niepodległości dom dziecka 01 nż
+1874	5	214942	12:27:00	12:27:00		Krzyżanowskiego szkoła 02 nż
+1874	5	214942	12:27:00	12:27:00		Krzyżanowskiego szkoła 02 nż
+1874	5	214942	12:29:00	12:29:00		Paderewskiego / Ossolińskich 01 nż
+1874	5	214942	12:29:00	12:29:00		Paderewskiego / Ossolińskich 01 nż
+1874	5	214942	12:31:00	12:31:00		Rejtana / Krzyżanowskiego 08
+1874	5	214942	12:31:00	12:31:00		Rejtana / Krzyżanowskiego 08
+1874	5	214942	12:33:00	12:33:00		Rejtana uniwersytet 06
+1874	5	214942	12:33:00	12:33:00		Rejtana uniwersytet 06
+1874	5	214942	12:34:00	12:34:00		Rejtana cmentarz 04 nż
+1874	5	214942	12:34:00	12:34:00		Rejtana cmentarz 04 nż
+1874	5	214942	12:35:00	12:35:00		Rejtana / Kustronia 02
+1874	5	214942	12:35:00	12:35:00		Rejtana / Kustronia 02
+1874	5	214942	12:37:00	12:37:00		Piłsudskiego ZDZ 02
+1874	5	214942	12:37:00	12:37:00		Piłsudskiego ZDZ 02
+1874	5	214942	12:39:00	12:39:00		Pl. Wolności 04
+1874	5	214942	12:39:00	12:39:00		Pl. Wolności 04
+1874	5	214942	12:42:00	12:42:00		Piłsudskiego U. Marszałkowski 08
+1874	5	214942	12:42:00	12:42:00		Piłsudskiego U. Marszałkowski 08
+1874	5	214942	12:44:00	12:44:00		Krakowska jedn. wojskowa 02
+1874	5	214942	12:44:00	12:44:00		Krakowska jedn. wojskowa 02
+1874	5	214942	12:46:00	12:46:00		Witosa / Solarza 07 nż
+1874	5	214942	12:46:00	12:46:00		Witosa / Solarza 07 nż
+1874	5	214942	12:47:00	12:47:00		Witosa / Wiktora 05 nż
+1874	5	214942	12:47:00	12:47:00		Witosa / Wiktora 05 nż
+1874	5	214942	12:49:00	12:49:00		Wyspiańskiego stadion 01 nż
+1874	5	214942	12:49:00	12:49:00		Wyspiańskiego stadion 01 nż
+1874	5	214942	12:50:00	12:50:00		Wita Stwosza / Wyspiańskiego 05 nż
+1874	5	214942	12:50:00	12:50:00		Wita Stwosza / Wyspiańskiego 05 nż
+1874	5	214942	12:51:00	12:51:00		Wita Stwosza kościół 03
+1874	5	214942	12:51:00	12:51:00		Wita Stwosza kościół 03
+1874	5	214942	12:52:00	12:52:00		Wita Stwosza pętla 01
+1874	5	214942	12:52:00	12:52:00		Wita Stwosza pętla 01
+
+1864	5	211854	13:10:00	13:10:00		Wita Stwosza / Langiewicza 02
+1864	5	211854	13:10:00	13:10:00		Wita Stwosza / Langiewicza 02
+1864	5	211854	13:11:00	13:11:00		Wita Stwosza kościół 04
+1864	5	211854	13:11:00	13:11:00		Wita Stwosza kościół 04
+1864	5	211854	13:12:00	13:12:00		Wita Stwosza / Wyspiańskiego 06 nż
+1864	5	211854	13:12:00	13:12:00		Wita Stwosza / Wyspiańskiego 06 nż
+1864	5	211854	13:13:00	13:13:00		Wyspiańskiego stadion 02 nż
+1864	5	211854	13:13:00	13:13:00		Wyspiańskiego stadion 02 nż
+1864	5	211854	13:14:00	13:14:00		Witosa / Wyspiańskiego 06 nż
+1864	5	211854	13:14:00	13:14:00		Witosa / Wyspiańskiego 06 nż
+1864	5	211854	13:15:00	13:15:00		Witosa jedn. wojskowa 08 nż
+1864	5	211854	13:15:00	13:15:00		Witosa jedn. wojskowa 08 nż
+1864	5	211854	13:17:00	13:17:00		Krakowska jedn. wojskowa 01
+1864	5	211854	13:17:00	13:17:00		Krakowska jedn. wojskowa 01
+1864	5	211854	13:20:00	13:20:00		Piłsudskiego U. Wojewódzki 05
+1864	5	211854	13:20:00	13:20:00		Piłsudskiego U. Wojewódzki 05
+1864	5	211854	13:21:00	13:21:00		Pl. Wolności 03
+1864	5	211854	13:21:00	13:21:00		Pl. Wolności 03
+1864	5	211854	13:22:00	13:22:00		Piłsudskiego ZDZ 01 nż
+1864	5	211854	13:22:00	13:22:00		Piłsudskiego ZDZ 01 nż
+1864	5	211854	13:24:00	13:24:00		Rejtana / Lwowska 01
+1864	5	211854	13:24:00	13:24:00		Rejtana / Lwowska 01
+1864	5	211854	13:25:00	13:25:00		Rejtana / Kustronia 03 nż
+1864	5	211854	13:25:00	13:25:00		Rejtana / Kustronia 03 nż
+1864	5	211854	13:26:00	13:26:00		Rejtana uniwersytet 05
+1864	5	211854	13:26:00	13:26:00		Rejtana uniwersytet 05
+1864	5	211854	13:28:00	13:28:00		Rejtana / Kopisto 07
+1864	5	211854	13:28:00	13:28:00		Rejtana / Kopisto 07
+1864	5	211854	13:32:00	13:32:00		Paderewskiego / Ossolińskich 02 nż
+1864	5	211854	13:32:00	13:32:00		Paderewskiego / Ossolińskich 02 nż
+1864	5	211854	13:33:00	13:33:00		Krzyżanowskiego szkoła 01 nż
+1864	5	211854	13:33:00	13:33:00		Krzyżanowskiego szkoła 01 nż
+1864	5	211854	13:34:00	13:34:00		Niepodległości dom dziecka 04 nż
+1864	5	211854	13:34:00	13:34:00		Niepodległości dom dziecka 04 nż
+1864	5	211854	13:36:00	13:36:00		Mieszka I / Kustronia 01 nż
+1864	5	211854	13:36:00	13:36:00		Mieszka I / Kustronia 01 nż
+1864	5	211854	13:38:00	13:38:00		Lwowska cmentarz 04
+1864	5	211854	13:38:00	13:38:00		Lwowska cmentarz 04
+1864	5	211854	13:41:00	13:41:00		Lwowska szpital pętla 02
+1864	5	211854	13:41:00	13:41:00		Lwowska szpital pętla 02
+
+1887	5	211211	14:15:00	14:15:00		Lwowska szpital pętla 02
+1887	5	211211	14:15:00	14:15:00		Lwowska szpital pętla 02
+1887	5	211211	14:18:00	14:18:00		Lwowska szpital 05
+1887	5	211211	14:18:00	14:18:00		Lwowska szpital 05
+1887	5	211211	14:21:00	14:21:00		Lwowska cmentarz 03
+1887	5	211211	14:21:00	14:21:00		Lwowska cmentarz 03
+1887	5	211211	14:23:00	14:23:00		Mieszka I / Kustronia 02 nż
+1887	5	211211	14:23:00	14:23:00		Mieszka I / Kustronia 02 nż
+1887	5	211211	14:25:00	14:25:00		Niepodległości / Mieszka I 03 nż
+1887	5	211211	14:25:00	14:25:00		Niepodległości / Mieszka I 03 nż
+1887	5	211211	14:26:00	14:26:00		Niepodległości dom dziecka 01 nż
+1887	5	211211	14:26:00	14:26:00		Niepodległości dom dziecka 01 nż
+1887	5	211211	14:27:00	14:27:00		Krzyżanowskiego szkoła 02 nż
+1887	5	211211	14:27:00	14:27:00		Krzyżanowskiego szkoła 02 nż
+1887	5	211211	14:29:00	14:29:00		Paderewskiego / Ossolińskich 01 nż
+1887	5	211211	14:29:00	14:29:00		Paderewskiego / Ossolińskich 01 nż
+1887	5	211211	14:31:00	14:31:00		Rejtana / Krzyżanowskiego 08
+1887	5	211211	14:31:00	14:31:00		Rejtana / Krzyżanowskiego 08
+1887	5	211211	14:33:00	14:33:00		Rejtana uniwersytet 06
+1887	5	211211	14:33:00	14:33:00		Rejtana uniwersytet 06
+1887	5	211211	14:34:00	14:34:00		Rejtana cmentarz 04 nż
+1887	5	211211	14:34:00	14:34:00		Rejtana cmentarz 04 nż
+1887	5	211211	14:35:00	14:35:00		Rejtana / Kustronia 02
+1887	5	211211	14:35:00	14:35:00		Rejtana / Kustronia 02
+1887	5	211211	14:37:00	14:37:00		Piłsudskiego ZDZ 02
+1887	5	211211	14:37:00	14:37:00		Piłsudskiego ZDZ 02
+1887	5	211211	14:39:00	14:39:00		Pl. Wolności 04
+1887	5	211211	14:39:00	14:39:00		Pl. Wolności 04
+1887	5	211211	14:45:00	14:45:00		Piłsudskiego U. Marszałkowski 08
+1887	5	211211	14:45:00	14:45:00		Piłsudskiego U. Marszałkowski 08
+1887	5	211211	14:47:00	14:47:00		Krakowska jedn. wojskowa 02
+1887	5	211211	14:47:00	14:47:00		Krakowska jedn. wojskowa 02
+1887	5	211211	14:50:00	14:50:00		Witosa / Solarza 07 nż
+1887	5	211211	14:50:00	14:50:00		Witosa / Solarza 07 nż
+1887	5	211211	14:51:00	14:51:00		Witosa / Wiktora 05 nż
+1887	5	211211	14:51:00	14:51:00		Witosa / Wiktora 05 nż
+1887	5	211211	14:54:00	14:54:00		Wyspiańskiego stadion 01 nż
+1887	5	211211	14:54:00	14:54:00		Wyspiańskiego stadion 01 nż
+1887	5	211211	14:55:00	14:55:00		Wita Stwosza / Wyspiańskiego 05 nż
+1887	5	211211	14:55:00	14:55:00		Wita Stwosza / Wyspiańskiego 05 nż
+1887	5	211211	14:56:00	14:56:00		Wita Stwosza kościół 03
+1887	5	211211	14:56:00	14:56:00		Wita Stwosza kościół 03
+1887	5	211211	14:58:00	14:58:00		Langiewicza / Wita Stwosza 04
+1887	5	211211	14:58:00	14:58:00		Langiewicza / Wita Stwosza 04
+1887	5	211211	15:00:00	15:00:00		Bat. Chłopskich / Staroniwska 05 nż
+1887	5	211211	15:00:00	15:00:00		Bat. Chłopskich / Staroniwska 05 nż
+1887	5	211211	15:01:00	15:01:00		Przemysłowa / Bat. Chłopskich 02 nż
+1887	5	211211	15:01:00	15:01:00		Przemysłowa / Bat. Chłopskich 02 nż
+1887	5	211211	15:02:00	15:02:00		Przemysłowa / Magazynowa 04
+1887	5	211211	15:02:00	15:02:00		Przemysłowa / Magazynowa 04
+1887	5	211211	15:04:00	15:04:00		Przemysłowa U. Celny 05 nż
+1887	5	211211	15:04:00	15:04:00		Przemysłowa U. Celny 05 nż
+
+1826	5	208745	15:32:00	15:32:00		Przemysłowa U. Celny 05 nż
+1826	5	208745	15:32:00	15:32:00		Przemysłowa U. Celny 05 nż
+1826	5	208745	15:33:00	15:33:00		Przemysłowa / Architektów 03
+1826	5	208745	15:33:00	15:33:00		Przemysłowa / Architektów 03
+1826	5	208745	15:35:00	15:35:00		Przemysłowa / Bat. Chłopskich 01 nż
+1826	5	208745	15:35:00	15:35:00		Przemysłowa / Bat. Chłopskich 01 nż
+1826	5	208745	15:37:00	15:37:00		Bat. Chłopskich / Langiewicza 04 nż
+1826	5	208745	15:37:00	15:37:00		Bat. Chłopskich / Langiewicza 04 nż
+1826	5	208745	15:38:00	15:38:00		Langiewicza / Wita Stwosza 05 nż
+1826	5	208745	15:38:00	15:38:00		Langiewicza / Wita Stwosza 05 nż
+1826	5	208745	15:39:00	15:39:00		Wita Stwosza / Langiewicza 02
+1826	5	208745	15:39:00	15:39:00		Wita Stwosza / Langiewicza 02
+1826	5	208745	15:40:00	15:40:00		Wita Stwosza kościół 04
+1826	5	208745	15:40:00	15:40:00		Wita Stwosza kościół 04
+1826	5	208745	15:41:00	15:41:00		Wita Stwosza / Wyspiańskiego 06 nż
+1826	5	208745	15:41:00	15:41:00		Wita Stwosza / Wyspiańskiego 06 nż
+1826	5	208745	15:42:00	15:42:00		Wyspiańskiego stadion 02 nż
+1826	5	208745	15:42:00	15:42:00		Wyspiańskiego stadion 02 nż
+1826	5	208745	15:43:00	15:43:00		Witosa / Wyspiańskiego 06 nż
+1826	5	208745	15:43:00	15:43:00		Witosa / Wyspiańskiego 06 nż
+1826	5	208745	15:44:00	15:44:00		Witosa jedn. wojskowa 08 nż
+1826	5	208745	15:44:00	15:44:00		Witosa jedn. wojskowa 08 nż
+1826	5	208745	15:46:00	15:46:00		Krakowska jedn. wojskowa 01
+1826	5	208745	15:46:00	15:46:00		Krakowska jedn. wojskowa 01
+1826	5	208745	15:49:00	15:49:00		Piłsudskiego U. Wojewódzki 05
+1826	5	208745	15:49:00	15:49:00		Piłsudskiego U. Wojewódzki 05
+1826	5	208745	15:51:00	15:51:00		Pl. Wolności 03
+1826	5	208745	15:51:00	15:51:00		Pl. Wolności 03
+1826	5	208745	15:52:00	15:52:00		Piłsudskiego ZDZ 01 nż
+1826	5	208745	15:52:00	15:52:00		Piłsudskiego ZDZ 01 nż
+1826	5	208745	15:54:00	15:54:00		Rejtana / Lwowska 01
+1826	5	208745	15:54:00	15:54:00		Rejtana / Lwowska 01
+1826	5	208745	15:55:00	15:55:00		Rejtana / Kustronia 03 nż
+1826	5	208745	15:55:00	15:55:00		Rejtana / Kustronia 03 nż
+1826	5	208745	15:56:00	15:56:00		Rejtana uniwersytet 05
+1826	5	208745	15:56:00	15:56:00		Rejtana uniwersytet 05
+1826	5	208745	15:58:00	15:58:00		Rejtana / Kopisto 07
+1826	5	208745	15:58:00	15:58:00		Rejtana / Kopisto 07
+1826	5	208745	16:02:00	16:02:00		Paderewskiego / Ossolińskich 02 nż
+1826	5	208745	16:02:00	16:02:00		Paderewskiego / Ossolińskich 02 nż
+1826	5	208745	16:03:00	16:03:00		Krzyżanowskiego szkoła 01 nż
+1826	5	208745	16:03:00	16:03:00		Krzyżanowskiego szkoła 01 nż
+1826	5	208745	16:05:00	16:05:00		Niepodległości dom dziecka 04 nż
+1826	5	208745	16:05:00	16:05:00		Niepodległości dom dziecka 04 nż
+1826	5	208745	16:07:00	16:07:00		Mieszka I / Kustronia 01 nż
+1826	5	208745	16:07:00	16:07:00		Mieszka I / Kustronia 01 nż
+1826	5	208745	16:14:00	16:14:00		Lwowska cmentarz 04
+1826	5	208745	16:14:00	16:14:00		Lwowska cmentarz 04
+1826	5	208745	16:18:00	16:18:00		Lwowska szpital pętla 02
+1826	5	208745	16:18:00	16:18:00		Lwowska szpital pętla 02
+
+1887	5	210288	16:46:00	16:46:00		Lwowska szpital pętla 02
+1887	5	210288	16:46:00	16:46:00		Lwowska szpital pętla 02
+1887	5	210288	16:48:00	16:48:00		Lwowska szpital 05
+1887	5	210288	16:48:00	16:48:00		Lwowska szpital 05
+1887	5	210288	16:51:00	16:51:00		Lwowska cmentarz 03
+1887	5	210288	16:51:00	16:51:00		Lwowska cmentarz 03
+1887	5	210288	16:53:00	16:53:00		Mieszka I / Kustronia 02 nż
+1887	5	210288	16:53:00	16:53:00		Mieszka I / Kustronia 02 nż
+1887	5	210288	16:55:00	16:55:00		Niepodległości / Mieszka I 03 nż
+1887	5	210288	16:55:00	16:55:00		Niepodległości / Mieszka I 03 nż
+1887	5	210288	16:56:00	16:56:00		Niepodległości dom dziecka 01 nż
+1887	5	210288	16:56:00	16:56:00		Niepodległości dom dziecka 01 nż
+1887	5	210288	16:57:00	16:57:00		Krzyżanowskiego szkoła 02 nż
+1887	5	210288	16:57:00	16:57:00		Krzyżanowskiego szkoła 02 nż
+1887	5	210288	16:59:00	16:59:00		Paderewskiego / Ossolińskich 01 nż
+1887	5	210288	16:59:00	16:59:00		Paderewskiego / Ossolińskich 01 nż
+1887	5	210288	17:00:00	17:00:00		Rejtana / Krzyżanowskiego 08
+1887	5	210288	17:00:00	17:00:00		Rejtana / Krzyżanowskiego 08
+1887	5	210288	17:02:00	17:02:00		Rejtana uniwersytet 06
+1887	5	210288	17:02:00	17:02:00		Rejtana uniwersytet 06
+1887	5	210288	17:03:00	17:03:00		Rejtana cmentarz 04 nż
+1887	5	210288	17:03:00	17:03:00		Rejtana cmentarz 04 nż
+1887	5	210288	17:04:00	17:04:00		Rejtana / Kustronia 02
+1887	5	210288	17:04:00	17:04:00		Rejtana / Kustronia 02
+1887	5	210288	17:06:00	17:06:00		Piłsudskiego ZDZ 02
+1887	5	210288	17:06:00	17:06:00		Piłsudskiego ZDZ 02
+1887	5	210288	17:08:00	17:08:00		Pl. Wolności 04
+1887	5	210288	17:08:00	17:08:00		Pl. Wolności 04
+1887	5	210288	17:11:00	17:11:00		Piłsudskiego U. Marszałkowski 08
+1887	5	210288	17:11:00	17:11:00		Piłsudskiego U. Marszałkowski 08
+1887	5	210288	17:13:00	17:13:00		Krakowska jedn. wojskowa 02
+1887	5	210288	17:13:00	17:13:00		Krakowska jedn. wojskowa 02
+1887	5	210288	17:15:00	17:15:00		Witosa / Solarza 07 nż
+1887	5	210288	17:15:00	17:15:00		Witosa / Solarza 07 nż
+1887	5	210288	17:16:00	17:16:00		Witosa / Wiktora 05 nż
+1887	5	210288	17:16:00	17:16:00		Witosa / Wiktora 05 nż
+1887	5	210288	17:18:00	17:18:00		Wyspiańskiego stadion 01 nż
+1887	5	210288	17:18:00	17:18:00		Wyspiańskiego stadion 01 nż
+1887	5	210288	17:19:00	17:19:00		Wita Stwosza / Wyspiańskiego 05 nż
+1887	5	210288	17:19:00	17:19:00		Wita Stwosza / Wyspiańskiego 05 nż
+1887	5	210288	17:20:00	17:20:00		Wita Stwosza kościół 03
+1887	5	210288	17:20:00	17:20:00		Wita Stwosza kościół 03
+1887	5	210288	17:21:00	17:21:00		Langiewicza / Wita Stwosza 04
+1887	5	210288	17:21:00	17:21:00		Langiewicza / Wita Stwosza 04
+1887	5	210288	17:23:00	17:23:00		Bat. Chłopskich / Staroniwska 05 nż
+1887	5	210288	17:23:00	17:23:00		Bat. Chłopskich / Staroniwska 05 nż
+1887	5	210288	17:24:00	17:24:00		Przemysłowa / Bat. Chłopskich 02 nż
+1887	5	210288	17:24:00	17:24:00		Przemysłowa / Bat. Chłopskich 02 nż
+1887	5	210288	17:25:00	17:25:00		Przemysłowa / Magazynowa 04
+1887	5	210288	17:25:00	17:25:00		Przemysłowa / Magazynowa 04
+1887	5	210288	17:27:00	17:27:00		Przemysłowa U. Celny 05 nż
+1887	5	210288	17:27:00	17:27:00		Przemysłowa U. Celny 05 nż
+
+1826	5	215630	18:05:00	18:05:00		Przemysłowa U. Celny 05 nż
+1826	5	215630	18:05:00	18:05:00		Przemysłowa U. Celny 05 nż
+1826	5	215630	18:06:00	18:06:00		Przemysłowa / Architektów 03
+1826	5	215630	18:06:00	18:06:00		Przemysłowa / Architektów 03
+1826	5	215630	18:07:00	18:07:00		Przemysłowa / Bat. Chłopskich 01 nż
+1826	5	215630	18:07:00	18:07:00		Przemysłowa / Bat. Chłopskich 01 nż
+1826	5	215630	18:09:00	18:09:00		Bat. Chłopskich / Langiewicza 04 nż
+1826	5	215630	18:09:00	18:09:00		Bat. Chłopskich / Langiewicza 04 nż
+1826	5	215630	18:10:00	18:10:00		Langiewicza / Wita Stwosza 05 nż
+1826	5	215630	18:10:00	18:10:00		Langiewicza / Wita Stwosza 05 nż
+1826	5	215630	18:11:00	18:11:00		Wita Stwosza / Langiewicza 02
+1826	5	215630	18:11:00	18:11:00		Wita Stwosza / Langiewicza 02
+1826	5	215630	18:12:00	18:12:00		Wita Stwosza kościół 04
+1826	5	215630	18:12:00	18:12:00		Wita Stwosza kościół 04
+1826	5	215630	18:13:00	18:13:00		Wita Stwosza / Wyspiańskiego 06 nż
+1826	5	215630	18:13:00	18:13:00		Wita Stwosza / Wyspiańskiego 06 nż
+1826	5	215630	18:14:00	18:14:00		Wyspiańskiego stadion 02 nż
+1826	5	215630	18:14:00	18:14:00		Wyspiańskiego stadion 02 nż
+1826	5	215630	18:15:00	18:15:00		Witosa / Wyspiańskiego 06 nż
+1826	5	215630	18:15:00	18:15:00		Witosa / Wyspiańskiego 06 nż
+1826	5	215630	18:16:00	18:16:00		Witosa jedn. wojskowa 08 nż
+1826	5	215630	18:16:00	18:16:00		Witosa jedn. wojskowa 08 nż
+1826	5	215630	18:18:00	18:18:00		Krakowska jedn. wojskowa 01
+1826	5	215630	18:18:00	18:18:00		Krakowska jedn. wojskowa 01
+1826	5	215630	18:21:00	18:21:00		Piłsudskiego U. Wojewódzki 05
+1826	5	215630	18:21:00	18:21:00		Piłsudskiego U. Wojewódzki 05
+1826	5	215630	18:22:00	18:22:00		Pl. Wolności 03
+1826	5	215630	18:22:00	18:22:00		Pl. Wolności 03
+1826	5	215630	18:23:00	18:23:00		Piłsudskiego ZDZ 01 nż
+1826	5	215630	18:23:00	18:23:00		Piłsudskiego ZDZ 01 nż
+1826	5	215630	18:25:00	18:25:00		Rejtana / Lwowska 01
+1826	5	215630	18:25:00	18:25:00		Rejtana / Lwowska 01
+1826	5	215630	18:26:00	18:26:00		Rejtana / Kustronia 03 nż
+1826	5	215630	18:26:00	18:26:00		Rejtana / Kustronia 03 nż
+1826	5	215630	18:27:00	18:27:00		Rejtana uniwersytet 05
+1826	5	215630	18:27:00	18:27:00		Rejtana uniwersytet 05
+1826	5	215630	18:29:00	18:29:00		Rejtana / Kopisto 07
+1826	5	215630	18:29:00	18:29:00		Rejtana / Kopisto 07
+1826	5	215630	18:32:00	18:32:00		Paderewskiego / Ossolińskich 02 nż
+1826	5	215630	18:32:00	18:32:00		Paderewskiego / Ossolińskich 02 nż
+1826	5	215630	18:33:00	18:33:00		Krzyżanowskiego szkoła 01 nż
+1826	5	215630	18:33:00	18:33:00		Krzyżanowskiego szkoła 01 nż
+1826	5	215630	18:35:00	18:35:00		Niepodległości dom dziecka 04 nż
+1826	5	215630	18:35:00	18:35:00		Niepodległości dom dziecka 04 nż
+1826	5	215630	18:37:00	18:37:00		Mieszka I / Kustronia 01 nż
+1826	5	215630	18:37:00	18:37:00		Mieszka I / Kustronia 01 nż
+1826	5	215630	18:41:00	18:41:00		Lwowska cmentarz 04
+1826	5	215630	18:41:00	18:41:00		Lwowska cmentarz 04
+1826	5	215630	18:43:00	18:43:00		Lwowska szpital pętla 02
+1826	5	215630	18:43:00	18:43:00		Lwowska szpital pętla 02
+
+1887	5	214068	19:19:00	19:19:00		Lwowska szpital pętla 02
+1887	5	214068	19:19:00	19:19:00		Lwowska szpital pętla 02
+1887	5	214068	19:20:00	19:20:00		Lwowska szpital 05
+1887	5	214068	19:20:00	19:20:00		Lwowska szpital 05
+1887	5	214068	19:22:00	19:22:00		Lwowska cmentarz 03
+1887	5	214068	19:22:00	19:22:00		Lwowska cmentarz 03
+1887	5	214068	19:24:00	19:24:00		Mieszka I / Kustronia 02 nż
+1887	5	214068	19:24:00	19:24:00		Mieszka I / Kustronia 02 nż
+1887	5	214068	19:25:00	19:25:00		Niepodległości / Mieszka I 03 nż
+1887	5	214068	19:25:00	19:25:00		Niepodległości / Mieszka I 03 nż
+1887	5	214068	19:26:00	19:26:00		Niepodległości dom dziecka 01 nż
+1887	5	214068	19:26:00	19:26:00		Niepodległości dom dziecka 01 nż
+1887	5	214068	19:27:00	19:27:00		Krzyżanowskiego szkoła 02 nż
+1887	5	214068	19:27:00	19:27:00		Krzyżanowskiego szkoła 02 nż
+1887	5	214068	19:29:00	19:29:00		Paderewskiego / Ossolińskich 01 nż
+1887	5	214068	19:29:00	19:29:00		Paderewskiego / Ossolińskich 01 nż
+1887	5	214068	19:30:00	19:30:00		Rejtana / Krzyżanowskiego 08
+1887	5	214068	19:30:00	19:30:00		Rejtana / Krzyżanowskiego 08
+1887	5	214068	19:31:00	19:31:00		Rejtana uniwersytet 06
+1887	5	214068	19:31:00	19:31:00		Rejtana uniwersytet 06
+1887	5	214068	19:32:00	19:32:00		Rejtana cmentarz 04 nż
+1887	5	214068	19:32:00	19:32:00		Rejtana cmentarz 04 nż
+1887	5	214068	19:33:00	19:33:00		Rejtana / Kustronia 02
+1887	5	214068	19:33:00	19:33:00		Rejtana / Kustronia 02
+1887	5	214068	19:35:00	19:35:00		Piłsudskiego ZDZ 02
+1887	5	214068	19:35:00	19:35:00		Piłsudskiego ZDZ 02
+1887	5	214068	19:36:00	19:36:00		Pl. Wolności 04
+1887	5	214068	19:36:00	19:36:00		Pl. Wolności 04
+1887	5	214068	19:38:00	19:38:00		Piłsudskiego U. Marszałkowski 08
+1887	5	214068	19:38:00	19:38:00		Piłsudskiego U. Marszałkowski 08
+1887	5	214068	19:40:00	19:40:00		Krakowska jedn. wojskowa 02
+1887	5	214068	19:40:00	19:40:00		Krakowska jedn. wojskowa 02
+1887	5	214068	19:42:00	19:42:00		Witosa / Solarza 07 nż
+1887	5	214068	19:42:00	19:42:00		Witosa / Solarza 07 nż
+1887	5	214068	19:43:00	19:43:00		Witosa / Wiktora 05 nż
+1887	5	214068	19:43:00	19:43:00		Witosa / Wiktora 05 nż
+1887	5	214068	19:45:00	19:45:00		Wyspiańskiego stadion 01 nż
+1887	5	214068	19:45:00	19:45:00		Wyspiańskiego stadion 01 nż
+1887	5	214068	19:46:00	19:46:00		Wita Stwosza / Wyspiańskiego 05 nż
+1887	5	214068	19:46:00	19:46:00		Wita Stwosza / Wyspiańskiego 05 nż
+1887	5	214068	19:47:00	19:47:00		Wita Stwosza kościół 03
+1887	5	214068	19:47:00	19:47:00		Wita Stwosza kościół 03
+1887	5	214068	19:48:00	19:48:00		Langiewicza / Wita Stwosza 04
+1887	5	214068	19:48:00	19:48:00		Langiewicza / Wita Stwosza 04
+1887	5	214068	19:49:00	19:49:00		Bat. Chłopskich / Staroniwska 05 nż
+1887	5	214068	19:49:00	19:49:00		Bat. Chłopskich / Staroniwska 05 nż
+1887	5	214068	19:50:00	19:50:00		Przemysłowa / Bat. Chłopskich 02 nż
+1887	5	214068	19:50:00	19:50:00		Przemysłowa / Bat. Chłopskich 02 nż
+1887	5	214068	19:51:00	19:51:00		Przemysłowa / Magazynowa 04
+1887	5	214068	19:51:00	19:51:00		Przemysłowa / Magazynowa 04
+1887	5	214068	19:53:00	19:53:00		Przemysłowa U. Celny 05 nż
+1887	5	214068	19:53:00	19:53:00		Przemysłowa U. Celny 05 nż
+
+1826	5	210244	20:06:00	20:06:00		Przemysłowa U. Celny 05 nż
+1826	5	210244	20:06:00	20:06:00		Przemysłowa U. Celny 05 nż
+1826	5	210244	20:07:00	20:07:00		Przemysłowa / Architektów 03
+1826	5	210244	20:07:00	20:07:00		Przemysłowa / Architektów 03
+1826	5	210244	20:08:00	20:08:00		Przemysłowa / Bat. Chłopskich 01 nż
+1826	5	210244	20:08:00	20:08:00		Przemysłowa / Bat. Chłopskich 01 nż
+1826	5	210244	20:10:00	20:10:00		Bat. Chłopskich / Langiewicza 04 nż
+1826	5	210244	20:10:00	20:10:00		Bat. Chłopskich / Langiewicza 04 nż
+1826	5	210244	20:11:00	20:11:00		Langiewicza / Wita Stwosza 05 nż
+1826	5	210244	20:11:00	20:11:00		Langiewicza / Wita Stwosza 05 nż
+1826	5	210244	20:12:00	20:12:00		Wita Stwosza / Langiewicza 02
+1826	5	210244	20:12:00	20:12:00		Wita Stwosza / Langiewicza 02
+1826	5	210244	20:13:00	20:13:00		Wita Stwosza kościół 04
+1826	5	210244	20:13:00	20:13:00		Wita Stwosza kościół 04
+1826	5	210244	20:14:00	20:14:00		Wita Stwosza / Wyspiańskiego 06 nż
+1826	5	210244	20:14:00	20:14:00		Wita Stwosza / Wyspiańskiego 06 nż
+1826	5	210244	20:15:00	20:15:00		Wyspiańskiego stadion 02 nż
+1826	5	210244	20:15:00	20:15:00		Wyspiańskiego stadion 02 nż
+1826	5	210244	20:16:00	20:16:00		Witosa / Wyspiańskiego 06 nż
+1826	5	210244	20:16:00	20:16:00		Witosa / Wyspiańskiego 06 nż
+1826	5	210244	20:17:00	20:17:00		Witosa jedn. wojskowa 08 nż
+1826	5	210244	20:17:00	20:17:00		Witosa jedn. wojskowa 08 nż
+1826	5	210244	20:18:00	20:18:00		Krakowska jedn. wojskowa 01
+1826	5	210244	20:18:00	20:18:00		Krakowska jedn. wojskowa 01
+1826	5	210244	20:20:00	20:20:00		Piłsudskiego U. Wojewódzki 05
+1826	5	210244	20:20:00	20:20:00		Piłsudskiego U. Wojewódzki 05
+1826	5	210244	20:21:00	20:21:00		Pl. Wolności 03
+1826	5	210244	20:21:00	20:21:00		Pl. Wolności 03
+1826	5	210244	20:22:00	20:22:00		Piłsudskiego ZDZ 01 nż
+1826	5	210244	20:22:00	20:22:00		Piłsudskiego ZDZ 01 nż
+1826	5	210244	20:23:00	20:23:00		Rejtana / Lwowska 01
+1826	5	210244	20:23:00	20:23:00		Rejtana / Lwowska 01
+1826	5	210244	20:24:00	20:24:00		Rejtana / Kustronia 03 nż
+1826	5	210244	20:24:00	20:24:00		Rejtana / Kustronia 03 nż
+1826	5	210244	20:25:00	20:25:00		Rejtana uniwersytet 05
+1826	5	210244	20:25:00	20:25:00		Rejtana uniwersytet 05
+1826	5	210244	20:26:00	20:26:00		Rejtana / Kopisto 07
+1826	5	210244	20:26:00	20:26:00		Rejtana / Kopisto 07
+1826	5	210244	20:29:00	20:29:00		Paderewskiego / Ossolińskich 02 nż
+1826	5	210244	20:29:00	20:29:00		Paderewskiego / Ossolińskich 02 nż
+1826	5	210244	20:30:00	20:30:00		Krzyżanowskiego szkoła 01 nż
+1826	5	210244	20:30:00	20:30:00		Krzyżanowskiego szkoła 01 nż
+1826	5	210244	20:31:00	20:31:00		Niepodległości dom dziecka 04 nż
+1826	5	210244	20:31:00	20:31:00		Niepodległości dom dziecka 04 nż
+1826	5	210244	20:33:00	20:33:00		Mieszka I / Kustronia 01 nż
+1826	5	210244	20:33:00	20:33:00		Mieszka I / Kustronia 01 nż
+1826	5	210244	20:35:00	20:35:00		Lwowska cmentarz 04
+1826	5	210244	20:35:00	20:35:00		Lwowska cmentarz 04
+1826	5	210244	20:37:00	20:37:00		Lwowska szpital pętla 02
+1826	5	210244	20:37:00	20:37:00		Lwowska szpital pętla 02

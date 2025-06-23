@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>Du hast ein Problem</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Photos/uno_block.jpg">
+</head>
+
+<body>
+    <center>
+        <hr>
+        <br>
+        <h1 class="error">BŁĄD 500</h1>
+
+        <br>
+        <h1>No cóż, strona napotkała problem aby wyświetlić tą stronę. <br> Proszę, poinformuj mnie o tym fakcie w wiadomości prywatnej 😁</h1>
+        <br><br>
+        <a href="../../Main_Panel.html" class="back">Powrót do strony głównej</a>
+        <br><br>
+        <hr>
+    </center>
+    <footer style="margin: 0 auto;">
+        <p class="id_error">Kod błędu: #page loaded without necessary data</p>
+        <p id="date" class="id_error"></p>
+        <p id="sciezka" class="id_error"></p>
+    </footer>
+    <style>
+        body {
+            background: rgb(50, 50, 50);
+            font-family: Arial;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            margin: 14%;
+        }
+
+        .error {
+            color: red;
+            font-size: 40px;
+            margin: 0px 0px 10px;
+            /* Dodałem odstęp między ERROR 46 a #access not granted */
+        }
+
+        .id_error {
+            color: grey;
+            font-size: 12px;
+            margin: 0px 0px 2px;
+            white-space: normal;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            /* Dodałem większy odstęp poniżej #access not granted */
+        }
+
+        h1 {
+            font-size: 24px;
+            margin: 0px 0px 0px;
+        }
+
+        .footer {
+            font-size: 12px;
+            color: grey;
+            margin: 0px 0px 0px;
+
+        }
+
+        .back {
+            text-decoration: none;
+            color: white;
+            border: 1.5px solid;
+            border-radius: 5px;
+            padding: 0.5vw 0.5vw 0.5vw;
+            transition: color 0.1s;
+        }
+
+        .back:hover {
+            border-color: orange;
+            color: white;
+        }
+
+    </style>
+
+    <script>
+        function updateDateTime() {
+            const now = new Date();
+
+            const day = String(now.getDate()).padStart(2, '0');
+            const month = String(now.getMonth() + 1).padStart(2, '0'); // Miesiące liczone od 0
+            const year = now.getFullYear();
+
+            const hours = String(now.getHours()).padStart(2, '0');
+            const minutes = String(now.getMinutes()).padStart(2, '0');
+
+            const formattedDateTime = `Data i godzina: ${day}.${month}.${year} ${hours}:${minutes}`;
+
+            document.getElementById('date').textContent = formattedDateTime;
+
+            const currentPath = window.location.pathname;
+
+            document.getElementById('sciezka').textContent = currentPath;
+        }
+        updateDateTime();
+
+    </script>
+</body>
+
+</html>
