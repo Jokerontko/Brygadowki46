@@ -1184,6 +1184,7 @@
         async function loadLinieFromFiles() {
             const miasto = localStorage.getItem('Miasto');
             const tableRows = document.querySelectorAll('#dataTableBody tr');
+            const rozklad = localStorage.getItem("ChoosedTypeOfRozklad");
 
             for (const row of tableRows) {
                 const brygadaCell = row.querySelector('td'); // pierwsza kolumna
@@ -1192,7 +1193,7 @@
                 const brygadaRaw = brygadaCell.textContent.trim();
                 const brygadaPath = brygadaRaw.replace(/\//g, '_'); // zamień "/" na "_"
 
-                const basePath = `../../../Brygady/${miasto}/WYNIKI/Gotowe_brygady/Niedzielny/${brygadaPath}`;
+                const basePath = `../../../Brygady/${miasto}/WYNIKI/Gotowe_brygady/${rozklad}/${brygadaPath}`;
 
                 // Wczytaj linie.txt i wstaw do 2. kolumny
                 try {
