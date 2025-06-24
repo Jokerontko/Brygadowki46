@@ -361,12 +361,16 @@
         <td></td> <!-- Nowa kolumna LIVE -->
     `;
                     tableBody.appendChild(row);
+
                 });
 
             } catch (error) {
                 console.error('Błąd podczas ładowania danych:', error);
             }
             checkBrygadaStatus();
+            loadLinieFromFiles();
+            loadGodzRozpFromFiles();
+            loadGodzZakFromFiles();
         }
 
         function saveBrygada(brygada) {
@@ -1189,30 +1193,58 @@
                 const brygadaRaw = brygadaCell.textContent.trim();
                 const brygadaPath = brygadaRaw.replace(/\//g, '_'); // zamień "/" na "_"
 
-                const path = `../../../Brygady/${miasto}/WYNIKI/Gotowe_brygady/Niedzielny/${brygadaPath}/linie.txt`;
+                const basePath = `../../../Brygady/${miasto}/WYNIKI/Gotowe_brygady/Niedzielny/${brygadaPath}`;
 
+                // Wczytaj linie.txt i wstaw do 2. kolumny
                 try {
-                    const response = await fetch(path);
-                    if (!response.ok) throw new Error(`Brak pliku dla: ${brygadaRaw}`);
+                    const linieResponse = await fetch(`${basePath}/linie.txt`);
+                    if (!linieResponse.ok) throw new Error(`Brak pliku linie.txt dla: ${brygadaRaw}`);
 
-                    const text = await response.text();
-                    const linie = text.trim().split('\n').map(l => l.trim());
+                    const linieText = await linieResponse.text();
+                    const linie = linieText.trim().split('\n').map(l => l.trim());
 
-                    console.log(`Brygada ${brygadaRaw} → Linie:`, linie);
-
-                    // Przykład: wstaw linie do drugiej kolumny
                     const linieHTML = linie.map(linia =>
                         linia === "Rez" ?
-                        `<span class="borderedRez" style="color: red;">${linia}</span>` :
-                        `<span class="bordered" style="color: red;">${linia}</span>`
+                        `<span class="borderedRez">${linia}</span>` :
+                        `<span class="bordered">${linia}</span>`
                     ).join(' ');
-
 
                     const linieCell = row.children[1];
                     if (linieCell) linieCell.innerHTML = `<center>${linieHTML}</center>`;
-
                 } catch (error) {
                     console.warn(`Nie udało się wczytać linii dla ${brygadaRaw}:`, error);
+                }
+
+                // Wczytaj Godz_Rozp.txt i wstaw do 3. kolumny
+                try {
+                    const godzRozpResponse = await fetch(`${basePath}/Godz_Rozp.txt`);
+                    if (!godzRozpResponse.ok) throw new Error(`Brak pliku Godz_Rozp.txt dla: ${brygadaRaw}`);
+
+                    const godzRozpText = await godzRozpResponse.text();
+                    const godzRozpLines = godzRozpText.trim().split('\n').map(l => l.trim());
+
+                    const godzRozpHTML = godzRozpLines.join('<br>');
+
+                    const godzRozpCell = row.children[2];
+                    if (godzRozpCell) godzRozpCell.innerHTML = `<center>${godzRozpHTML}</center>`;
+                } catch (error) {
+                    console.warn(`Nie udało się wczytać Godz_Rozp dla ${brygadaRaw}:`, error);
+                }
+
+                // Wczytaj Godz_Zak.txt i wstaw do 4. kolumny
+                try {
+                    const godzZakResponse = await fetch(`${basePath}/Godz_Zak.txt`);
+                    if (!godzZakResponse.ok) throw new Error(`Brak pliku Godz_Zak.txt dla: ${brygadaRaw}`);
+
+                    const godzZakText = await godzZakResponse.text();
+                    const godzZakLines = godzZakText.trim().split('\n').map(l => l.trim());
+
+                    const godzZakHTML = godzZakLines.join('<br>');
+
+                    const godzZakCell = row.children[3];
+                    if (godzZakCell) godzZakCell.innerHTML = `<center>${godzZakHTML}</center>`;
+                } catch (error) {
+                    console.warn(`Nie udało się wczytać Godz_Zak dla ${brygadaRaw}:`, error);
                 }
             }
         }
