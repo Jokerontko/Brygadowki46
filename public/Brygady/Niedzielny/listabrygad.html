@@ -366,6 +366,7 @@
             } catch (error) {
                 console.error('Błąd podczas ładowania danych:', error);
             }
+            checkBrygadaStatus();
         }
 
         function saveBrygada(brygada) {
@@ -643,14 +644,16 @@
 
         // Wywołaj funkcję po załadowaniu danych
         window.onload = async function() {
+            debugger;
             try {
+                loadData();
                 console.log("Początek ładowania danych");
 
                 await fetchDate();
                 console.log("Daty pobrane");
 
                 checkLogin();
-                await loadData();
+
                 console.log("Dane załadowane");
 
                 addFilters();
