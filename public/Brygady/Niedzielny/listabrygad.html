@@ -1172,6 +1172,51 @@
             }
         });
 
+
+
+
+
+
+
+        async function loadLinieFromFiles() {
+            const miasto = localStorage.getItem('Miasto');
+            const tableRows = document.querySelectorAll('#dataTableBody tr');
+
+            for (const row of tableRows) {
+                const brygadaCell = row.querySelector('td'); // pierwsza kolumna
+                if (!brygadaCell) continue;
+
+                const brygadaRaw = brygadaCell.textContent.trim();
+                const brygadaPath = brygadaRaw.replace(/\//g, '_'); // zamień "/" na "_"
+
+                const path = `../../../Brygady/${miasto}/WYNIKI/Gotowe_brygady/Niedzielny/${brygadaPath}/linie.txt`;
+
+                try {
+                    const response = await fetch(path);
+                    if (!response.ok) throw new Error(`Brak pliku dla: ${brygadaRaw}`);
+
+                    const text = await response.text();
+                    const linie = text.trim().split('\n').map(l => l.trim());
+
+                    console.log(`Brygada ${brygadaRaw} → Linie:`, linie);
+
+                    // Przykład: wstaw linie do drugiej kolumny
+                    const linieHTML = linie.map(linia =>
+                        linia === "Rez" ?
+                        `<span class="borderedRez" style="color: red;">${linia}</span>` :
+                        `<span class="bordered" style="color: red;">${linia}</span>`
+                    ).join(' ');
+
+
+                    const linieCell = row.children[1];
+                    if (linieCell) linieCell.innerHTML = `<center>${linieHTML}</center>`;
+
+                } catch (error) {
+                    console.warn(`Nie udało się wczytać linii dla ${brygadaRaw}:`, error);
+                }
+            }
+        }
+
     </script>
 
     <p>
