@@ -81,6 +81,10 @@
             animation: blink 1s infinite;
         }
 
+        .aktywna-godzina {
+            color: orange;
+        }
+
     </style>
 </head>
 
@@ -116,7 +120,7 @@
     <br>
     <a href="brygada.html" class="menu">Wróć do brygady</a>
     <br><br>
-    <table id="wykazstrony" style="width: 90%;">
+    <table id="wykazstrony" style="width: 90%; display:none;">
         <thead>
             <tr>
                 <th>Numer Autobusu</th>
@@ -128,6 +132,7 @@
                 <th>Opóźnienie</th>
                 <th>Dystans</th>
                 <th>Przebył</th>
+                <th>Godzina 2</th>
             </tr>
         </thead>
         <tbody id="dane-wykaz">
@@ -342,8 +347,8 @@
             <td class="blink" style="text-align: center; background-color: rgba(66, 66, 66); font-size: 12px; padding: 5px;">
                 Pojazd jest w drodze na przystanek <br> <strong> ${nextstop} </strong> <br> ${dw} / ${dp}
             </td>
-            <td class="blink" style="text-align: center; background-color: rgba(66, 66, 66); font-size: 12px; padding: 5px;"></td>
-            <td class="blink" style="text-align: center; background-color: rgba(66, 66, 66); font-size: 12px; padding: 5px;"></td>
+            <td class="blink" style="text-align: center; background-color: rgba(66, 66, 66); font-size: 12px; padding: 5px;">asdasdasd</td>
+            <td class="blink" style="text-align: center; background-color: rgba(66, 66, 66); font-size: 12px; padding: 5px;">asdasdasd</td>
         `;
                 closestRow.insertAdjacentElement('afterend', hejRow);
             }
@@ -365,6 +370,16 @@
         function loadAndRenderTable(dzien) {
             dzien = dzien || (document.getElementById('dzienSelect')?.value || activeDzien);
 
+            document.querySelectorAll("#dane-tabeli tr").forEach(row => {
+                const komorki = row.getElementsByTagName("td");
+                if (komorki.length >= 2) {
+                    const drugaKomorka = komorki[1];
+                    if (drugaKomorka.hasAttribute('data-original')) {
+                        drugaKomorka.innerHTML = drugaKomorka.getAttribute('data-original');
+                    }
+                }
+            });
+
             fetch('/api/vehicles')
                 .then(response => response.text())
                 .then(xmlString => {
@@ -373,39 +388,59 @@
                     const vehicles = Array.from(xmlDoc.getElementsByTagName("V"));
 
                     const tbody = document.getElementById("dane-wykaz");
-                    tbody.innerHTML = "";
+                    if (tbody) tbody.innerHTML = "";
 
                     const rozkladTbody = document.getElementById("dane-tabeli");
 
-                    // Najpierw wyczyść podświetlenia w rozkładzie i usuń istniejący wiersz blink
-                    const allRozkladRows = rozkladTbody.querySelectorAll("tr");
-                    allRozkladRows.forEach(row => {
+                    // Wyczyść podświetlenia i pulsujące wiersze
+                    rozkladTbody.querySelectorAll("tr").forEach(row => {
                         row.style.backgroundColor = "";
                     });
                     const existingBlinkRow = rozkladTbody.querySelector("tr.blink");
-                    if (existingBlinkRow) {
-                        existingBlinkRow.remove();
-                    }
+                    if (existingBlinkRow) existingBlinkRow.remove();
 
                     const firstRow = rozkladTbody.querySelector("tr");
                     const godzinaZRozkladu = firstRow?.children[2]?.textContent?.trim() || '';
 
                     vehicles.forEach(v => {
+                        let odjazdza = "";
                         const nb = v.getAttribute("nb") || '';
                         const kwi = v.getAttribute("kwi") || '';
                         const nr = v.getAttribute("nr") || '';
                         const op = v.getAttribute("op") || '';
-                        const p = v.getAttribute("p") || '';
-                        const lp = v.getAttribute("lp") || '';
+                        let p = v.getAttribute("p") || '';
+                        const is = v.getAttribute("is") || '';
+                        let lp = v.getAttribute("lp") || '';
                         const dp = v.getAttribute("dp") || '';
                         const dw = parseInt(v.getAttribute("dw") || '0', 10);
-
                         const o = parseInt(v.getAttribute("o"), 10);
                         const isDelayed = o < 0;
                         const absO = Math.abs(o);
                         const minutes = Math.floor(absO / 60);
                         const seconds = absO % 60;
                         const formattedDelay = `${isDelayed ? '-' : '+'}${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+
+                        if (p == "") {
+                            let now = new Date();
+                            let secondsToAdd = Math.round(is);
+                            now.setSeconds(now.getSeconds() + secondsToAdd);
+                            let hh = now.getHours().toString().padStart(2, '0');
+                            let mm = now.getMinutes().toString().padStart(2, '0');
+                            p = `${hh}:${mm}`;
+                        }
+
+                        if (lp < 1) {
+                            lp = "1";
+                            let minutesdwa = minutes;
+                            if (minutesdwa == 0) {
+                                minutesdwa = "<1";
+                            }
+                            if (is >= 0) {
+                                odjazdza = "<strong>Odjazd za: " + minutesdwa + " min.</strong>";
+                            } else {
+                                odjazdza = "<strong>Odjazd opóźniony o: " + minutesdwa + " min.</strong>";
+                            }
+                        }
 
                         const row = document.createElement("tr");
                         row.innerHTML = `
@@ -418,55 +453,134 @@
                     <td>${formattedDelay}</td>
                     <td>${dp}</td>
                     <td>${dw}</td>
+                    <td>${is}</td>
                 `;
                         tbody.appendChild(row);
 
-                        // Sprawdzenie brygady
-                        if (kwi.trim() === brygada.trim()) {
-                            console.log("znaleziono");
+                        if (kwi.trim() === brygada.trim() && p.trim() === godzinaZRozkladu) {
+                            document.getElementById('PojazdLIVE').textContent = 'Pojazd LIVE!';
+                            const lpIndex = parseInt(lp.trim(), 10);
+                            if (!isNaN(lpIndex) && lpIndex > 0) {
+                                const rozkladRows = rozkladTbody.querySelectorAll("tr");
+                                const rozkladRow = rozkladRows[lpIndex - 1];
+                                const nextRow = rozkladRows[lpIndex];
+                                let nextstop = 'Nieznany';
+                                if (nextRow && nextRow.children[1]) {
+                                    nextstop = nextRow.children[1].textContent.trim();
+                                }
 
+                                if (dw > 20) {
+                                    const blinkRow = document.createElement("tr");
+                                    let mojamordzia = "";
+                                    if (o > 0 && o < 60) mojamordzia = '<span style="color: green;">Punktualnie</span>';
+                                    if (o > 60) mojamordzia = '<span style="color: red;">Przed czasem</span>';
+                                    if (o < 0) mojamordzia = '<span style="color: orange;">Opóźniony</span>';
 
-                            // Sprawdzenie godziny i podświetlenie / dodanie pulsującego wiersza
-                            if (p.trim() === godzinaZRozkladu) {
-                                document.getElementById('PojazdLIVE').textContent = 'Pojazd LIVE!';
-
-                                const lpIndex = parseInt(lp.trim(), 10);
-                                if (!isNaN(lpIndex) && lpIndex > 0) {
-                                    const rozkladRows = rozkladTbody.querySelectorAll("tr");
-                                    const rozkladRow = rozkladRows[lpIndex - 1];
-                                    const nextRow = rozkladRows[lpIndex]; // wiersz poniżej
-
-                                    let nextstop = 'Nieznany';
-                                    if (nextRow && nextRow.children[1]) {
-                                        nextstop = nextRow.children[1].textContent.trim();
+                                    blinkRow.classList.add("blink");
+                                    blinkRow.innerHTML = `
+                                <td class="blink" style="text-align: center; background-color: rgba(66, 66, 66, 0.9); font-size: 12px; padding: 5px;"></td>
+                                <td class="blink" style="text-align: center; background-color: rgba(66, 66, 66, 0.9); font-size: 12px; padding: 5px;">
+                                    Pojazd jest w drodze na przystanek <br> <strong>${nextstop}</strong><br>
+                                    (${dw} / ${dp}m)
+                                </td>
+                                <td class="blink" style="text-align: center; background-color: rgba(66, 66, 66, 0.9); font-size: 12px; padding: 5px;">
+                                    ${mojamordzia} <br> (${formattedDelay})
+                                </td>
+                                <td class="blink" style="text-align: center; background-color: rgba(66, 66, 66, 0.9); font-size: 12px; padding: 5px;"></td>
+                            `;
+                                    if (rozkladRow && rozkladRow.parentNode) {
+                                        rozkladRow.parentNode.insertBefore(blinkRow, rozkladRow.nextSibling);
                                     }
+                                } else {
+                                    if (rozkladRow) {
+                                        rozkladRow.style.backgroundColor = "grey";
 
-                                    if (dw > 20) {
-                                        // Wstaw pulsujący wiersz pod rozkladRow
-                                        const blinkRow = document.createElement("tr");
-                                        blinkRow.classList.add("blink");
-                                        blinkRow.innerHTML = `
-        <td class="blink" style="text-align: center; background-color: rgba(66, 66, 66); font-size: 12px; padding: 5px;"></td>
-        <td class="blink" style="text-align: center; background-color: rgba(66, 66, 66); font-size: 12px; padding: 5px;">
-            Pojazd jest w drodze na przystanek <br> <strong>${nextstop}</strong><br>
-            (${dw} / ${dp}m)
-        </td>
-        <td class="blink" style="text-align: center; background-color: rgba(66, 66, 66); font-size: 12px; padding: 5px;"></td>
-        <td class="blink" style="text-align: center; background-color: rgba(66, 66, 66); font-size: 12px; padding: 5px;"></td>
-    `;
-                                        if (rozkladRow && rozkladRow.parentNode) {
-                                            rozkladRow.parentNode.insertBefore(blinkRow, rozkladRow.nextSibling);
+                                        if (odjazdza != "") {
+                                            const komorki = rozkladRow.getElementsByTagName("td");
+                                            if (komorki.length >= 2) {
+                                                const drugaKomorka = komorki[1];
+
+                                                // Jeżeli nie ma zapisanego oryginalnego tekstu, zapisz go
+                                                if (!drugaKomorka.hasAttribute('data-original')) {
+                                                    drugaKomorka.setAttribute('data-original', drugaKomorka.innerHTML);
+                                                }
+
+                                                // Przywróć oryginalny tekst
+                                                const originalText = drugaKomorka.getAttribute('data-original');
+
+                                                // Dopisz odjazdza na nowo
+                                                drugaKomorka.innerHTML = originalText + "<br>" + odjazdza;
+                                            }
                                         }
-                                    } else {
-                                        // Podświetl rozkladRow na czerwono
-                                        if (rozkladRow) {
-                                            rozkladRow.style.backgroundColor = "grey";
-                                        }
+
                                     }
+                                }
+                            }
+                        } else {
+                            document.getElementById('PojazdLIVE').textContent = 'Pojazd offline';
+                        }
+                    });
+
+                    // Podświetlanie aktualnej godziny
+                    const now = new Date();
+                    const currentMinutes = now.getHours() * 60 + now.getMinutes();
+
+                    let bestMatch = null;
+                    let bestDiff = Infinity;
+
+                    rozkladTbody.querySelectorAll("tr").forEach(row => {
+                        const godzinaCell = row.children[2];
+                        if (!godzinaCell) return;
+
+                        const text = godzinaCell.textContent.trim();
+                        const matches = [...text.matchAll(/\d{2}:\d{2}/g)];
+
+                        if (matches.length === 2) {
+                            // Przedział p. xx:xx <br> o. yy:yy
+                            const [pH, pM] = matches[0][0].split(':').map(Number);
+                            const [oH, oM] = matches[1][0].split(':').map(Number);
+                            let pMin = pH * 60 + pM;
+                            let oMin = oH * 60 + oM;
+                            let nowMin = currentMinutes;
+
+                            if (oMin < pMin) {
+                                if (nowMin < pMin) nowMin += 1440;
+                                oMin += 1440;
+                            }
+
+                            if (nowMin >= pMin && nowMin <= oMin) {
+                                bestMatch = godzinaCell;
+                                bestDiff = 0;
+                            }
+
+                        } else {
+                            for (const match of matches) {
+                                const [h, m] = match[0].split(':').map(Number);
+                                let mins = h * 60 + m;
+                                let adjusted = mins;
+
+                                if (Math.abs(currentMinutes - mins) > 720) {
+                                    if (mins < currentMinutes) adjusted += 1440;
+                                    else adjusted -= 1440;
+                                }
+
+                                const diff = Math.abs(currentMinutes - adjusted);
+                                if (diff < bestDiff) {
+                                    bestDiff = diff;
+                                    bestMatch = godzinaCell;
                                 }
                             }
                         }
                     });
+
+                    // Wyczyść style podświetleń
+                    rozkladTbody.querySelectorAll("td").forEach(td => {
+                        td.style.color = "";
+                    });
+
+                    if (bestMatch && bestDiff < 1) {
+                        bestMatch.style.color = "orange";
+                    }
                 })
                 .catch(error => {
                     console.error('Błąd przy pobieraniu danych:', error);

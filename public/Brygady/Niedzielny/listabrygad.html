@@ -1203,10 +1203,10 @@
                     const linieText = await linieResponse.text();
                     const linie = linieText.trim().split('\n').map(l => l.trim());
 
-                    const linieHTML = linie.map(linia =>
-                        linia === "Rez" ?
-                        `<span class="borderedRez">${linia}</span>` :
-                        `<span class="bordered">${linia}</span>`
+                    const linieHTML = linie.map(l =>
+                        l === "Rez" ?
+                        `<span class="borderedRez">${l}</span>` :
+                        `<span class="bordered">${l}</span>`
                     ).join(' ');
 
                     const linieCell = row.children[1];
@@ -1239,7 +1239,34 @@
                     const godzZakText = await godzZakResponse.text();
                     const godzZakLines = godzZakText.trim().split('\n').map(l => l.trim());
 
-                    const godzZakHTML = godzZakLines.join('<br>');
+                    // Funkcja konwertująca godzine "HH:MM" do liczby minut
+                    function timeToMinutes(t) {
+                        const [h, m] = t.split(':').map(Number);
+                        return h * 60 + m;
+                    }
+
+                    // Funkcja konwertująca minuty do formatu "HH:MM"
+                    function minutesToTime(min) {
+                        const h = Math.floor(min / 60);
+                        const m = min % 60;
+                        return `${h.toString().padStart(2,'0')}:${m.toString().padStart(2,'0')}`;
+                    }
+
+                    const correctedLines = godzZakLines.map(time => {
+                        // Zakładam, że czas jest w formacie HH:MM lub ewentualnie HH:MM:SS - wtedy trzeba wyciąć sekundy
+                        const baseTime = time.length > 5 ? time.slice(0, 5) : time;
+
+                        if (baseTime >= "24:00") {
+                            // Zamieniamy "24:00" i więcej na właściwy czas odejmując 24h
+                            const minutes = timeToMinutes(baseTime);
+                            const newMinutes = minutes - 24 * 60;
+                            return minutesToTime(newMinutes);
+                        } else {
+                            return baseTime;
+                        }
+                    });
+
+                    const godzZakHTML = correctedLines.join('<br>');
 
                     const godzZakCell = row.children[3];
                     if (godzZakCell) godzZakCell.innerHTML = `<center>${godzZakHTML}</center>`;
