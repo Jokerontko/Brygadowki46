@@ -101,22 +101,22 @@
 
     <h1 id="brygadaTitle">Szczegóły kursu</h1>
     <p id="valuetripid">Tutaj_wartosc_tripid</p>
-    <p id="PojazdLIVE">Pojazd offline</p>
-    <dir>
-        <table id="rozkładTable">
-            <thead>
-                <tr>
-                    <th>Lp</th>
-                    <th>Przystanek</th>
-                    <th>Godzina</th>
-                    <th>Km</th>
-                </tr>
-            </thead>
-            <tbody id="dane-tabeli">
-                <!-- Rows will be added dynamically -->
-            </tbody>
-        </table>
-    </dir>
+    <p id="PojazdLIVE"></p>
+
+    <table id="rozkładTable">
+        <thead>
+            <tr>
+                <th>Lp</th>
+                <th>Przystanek</th>
+                <th>Godzina</th>
+                <th>Km</th>
+            </tr>
+        </thead>
+        <tbody id="dane-tabeli">
+            <!-- Rows will be added dynamically -->
+        </tbody>
+    </table>
+
     <br>
     <a href="brygada.html" class="menu">Wróć do brygady</a>
     <br><br>
@@ -358,27 +358,46 @@
 
         //---------------------------------------------------------------------------------------------------------------------------------
 
+        function podswietlAktualnaGodzine() {
+            const tabela = document.querySelector("#dane-tabeli");
+            if (!tabela) return;
+
+            const teraz = new Date();
+            const hh = teraz.getHours().toString().padStart(2, '0');
+            const mm = teraz.getMinutes().toString().padStart(2, '0');
+            const aktualnaGodzina = `${hh}:${mm}`;
+
+            tabela.querySelectorAll("tr").forEach(row => {
+                const komorka = row.children[2]; // 3. kolumna
+                if (!komorka) return;
+
+                // Wyczyść poprzednie podświetlenie
+                komorka.style.color = "";
+
+                // Podświetl aktualną godzinę
+                if (komorka.textContent.trim() === aktualnaGodzina) {
+                    komorka.style.color = "orange";
+                }
+            });
+        }
 
 
 
 
 
-        let brygada = sessionStorage.getItem("selectedBrygada");
+        let brygada = sessionStorage.getItem("brygadaTitle")?.replaceAll("_", "/");
 
-
+        function wstawError() {
+            let tableBody = document.querySelector("#dane-tabeli");
+            let errorRow = document.createElement("tr");
+            errorRow.innerHTML = `<td colspan="4" style="text-align: center;">Brak danych</td>`;
+            tableBody.appendChild(errorRow);
+        }
 
         function loadAndRenderTable(dzien) {
             dzien = dzien || (document.getElementById('dzienSelect')?.value || activeDzien);
 
-            document.querySelectorAll("#dane-tabeli tr").forEach(row => {
-                const komorki = row.getElementsByTagName("td");
-                if (komorki.length >= 2) {
-                    const drugaKomorka = komorki[1];
-                    if (drugaKomorka.hasAttribute('data-original')) {
-                        drugaKomorka.innerHTML = drugaKomorka.getAttribute('data-original');
-                    }
-                }
-            });
+            const rozkladTbody = document.getElementById("dane-tabeli");
 
             fetch('/api/vehicles')
                 .then(response => response.text())
@@ -390,8 +409,6 @@
                     const tbody = document.getElementById("dane-wykaz");
                     if (tbody) tbody.innerHTML = "";
 
-                    const rozkladTbody = document.getElementById("dane-tabeli");
-
                     // Wyczyść podświetlenia i pulsujące wiersze
                     rozkladTbody.querySelectorAll("tr").forEach(row => {
                         row.style.backgroundColor = "";
@@ -402,6 +419,8 @@
                     const firstRow = rozkladTbody.querySelector("tr");
                     const godzinaZRozkladu = firstRow?.children[2]?.textContent?.trim() || '';
 
+                    let znalezionoPojazd = false;
+
                     vehicles.forEach(v => {
                         let odjazdza = "";
                         const nb = v.getAttribute("nb") || '';
@@ -409,7 +428,7 @@
                         const nr = v.getAttribute("nr") || '';
                         const op = v.getAttribute("op") || '';
                         let p = v.getAttribute("p") || '';
-                        const is = v.getAttribute("is") || '';
+                        let is = v.getAttribute("is") || '';
                         let lp = v.getAttribute("lp") || '';
                         const dp = v.getAttribute("dp") || '';
                         const dw = parseInt(v.getAttribute("dw") || '0', 10);
@@ -422,8 +441,7 @@
 
                         if (p == "") {
                             let now = new Date();
-                            let secondsToAdd = Math.round(is);
-                            now.setSeconds(now.getSeconds() + secondsToAdd);
+                            now.setSeconds(now.getSeconds() + Math.round(is));
                             let hh = now.getHours().toString().padStart(2, '0');
                             let mm = now.getMinutes().toString().padStart(2, '0');
                             p = `${hh}:${mm}`;
@@ -435,11 +453,15 @@
                             if (minutesdwa == 0) {
                                 minutesdwa = "<1";
                             }
-                            if (is >= 0) {
+                            if (is >= -60) {
                                 odjazdza = "<strong>Odjazd za: " + minutesdwa + " min.</strong>";
                             } else {
                                 odjazdza = "<strong>Odjazd opóźniony o: " + minutesdwa + " min.</strong>";
                             }
+                        }
+
+                        if (is < 0) {
+                            is = `<span style="color: orange;"> ${is} </span>`;
                         }
 
                         const row = document.createElement("tr");
@@ -457,8 +479,7 @@
                 `;
                         tbody.appendChild(row);
 
-                        if (kwi.trim() === brygada.trim() && p.trim() === godzinaZRozkladu) {
-                            document.getElementById('PojazdLIVE').textContent = 'Pojazd LIVE!';
+                        if (typeof brygada === 'string' && kwi && p && kwi.trim() === brygada.trim() && p.trim() === godzinaZRozkladu) {
                             const lpIndex = parseInt(lp.trim(), 10);
                             if (!isNaN(lpIndex) && lpIndex > 0) {
                                 const rozkladRows = rozkladTbody.querySelectorAll("tr");
@@ -475,136 +496,60 @@
                                     if (o > 0 && o < 60) mojamordzia = '<span style="color: green;">Punktualnie</span>';
                                     if (o > 60) mojamordzia = '<span style="color: red;">Przed czasem</span>';
                                     if (o < 0) mojamordzia = '<span style="color: orange;">Opóźniony</span>';
-
                                     blinkRow.classList.add("blink");
                                     blinkRow.innerHTML = `
-                                <td class="blink" style="text-align: center; background-color: rgba(66, 66, 66, 0.9); font-size: 12px; padding: 5px;"></td>
-                                <td class="blink" style="text-align: center; background-color: rgba(66, 66, 66, 0.9); font-size: 12px; padding: 5px;">
+                                <td class="blink" style="text-align: center; background-color: rgba(66,66,66,0.9); font-size: 12px; padding: 5px;"></td>
+                                <td class="blink" style="text-align: center; background-color: rgba(66,66,66,0.9); font-size: 12px; padding: 5px;">
                                     Pojazd jest w drodze na przystanek <br> <strong>${nextstop}</strong><br>
                                     (${dw} / ${dp}m)
                                 </td>
-                                <td class="blink" style="text-align: center; background-color: rgba(66, 66, 66, 0.9); font-size: 12px; padding: 5px;">
+                                <td class="blink" style="text-align: center; background-color: rgba(66,66,66,0.9); font-size: 12px; padding: 5px;">
                                     ${mojamordzia} <br> (${formattedDelay})
                                 </td>
-                                <td class="blink" style="text-align: center; background-color: rgba(66, 66, 66, 0.9); font-size: 12px; padding: 5px;"></td>
+                                <td class="blink" style="text-align: center; background-color: rgba(66,66,66,0.9); font-size: 12px; padding: 5px;"></td>
                             `;
                                     if (rozkladRow && rozkladRow.parentNode) {
                                         rozkladRow.parentNode.insertBefore(blinkRow, rozkladRow.nextSibling);
+                                        znalezionoPojazd = true;
                                     }
                                 } else {
                                     if (rozkladRow) {
                                         rozkladRow.style.backgroundColor = "grey";
+                                        znalezionoPojazd = true;
 
-                                        if (odjazdza != "") {
-                                            const komorki = rozkladRow.getElementsByTagName("td");
-                                            if (komorki.length >= 2) {
-                                                const drugaKomorka = komorki[1];
+                                        const komorki = rozkladRow.getElementsByTagName("td");
+                                        if (komorki.length >= 2) {
+                                            const drugaKomorka = komorki[1];
+                                            if (!drugaKomorka.hasAttribute('data-original')) {
+                                                drugaKomorka.setAttribute('data-original', drugaKomorka.innerHTML);
+                                            }
+                                            const originalText = drugaKomorka.getAttribute('data-original');
 
-                                                // Jeżeli nie ma zapisanego oryginalnego tekstu, zapisz go
-                                                if (!drugaKomorka.hasAttribute('data-original')) {
-                                                    drugaKomorka.setAttribute('data-original', drugaKomorka.innerHTML);
+                                            if (odjazdza != "") {
+                                                if (!drugaKomorka.innerHTML.includes(odjazdza)) {
+                                                    drugaKomorka.innerHTML = originalText + "<br>" + odjazdza;
                                                 }
-
-                                                // Przywróć oryginalny tekst
-                                                const originalText = drugaKomorka.getAttribute('data-original');
-
-                                                // Dopisz odjazdza na nowo
-                                                drugaKomorka.innerHTML = originalText + "<br>" + odjazdza;
+                                            } else {
+                                                // Brak tekstu odjazdu, więc przywróć oryginalną zawartość
+                                                drugaKomorka.innerHTML = originalText;
                                             }
                                         }
+
 
                                     }
                                 }
                             }
-                        } else {
-                            document.getElementById('PojazdLIVE').textContent = 'Pojazd offline';
                         }
                     });
 
-                    // Podświetlanie aktualnej godziny
-                    const now = new Date();
-                    const currentMinutes = now.getHours() * 60 + now.getMinutes();
-
-                    let bestMatch = null;
-                    let bestDiff = Infinity;
-
-                    rozkladTbody.querySelectorAll("tr").forEach(row => {
-                        const godzinaCell = row.children[2];
-                        if (!godzinaCell) return;
-
-                        const text = godzinaCell.textContent.trim();
-                        const matches = [...text.matchAll(/\d{2}:\d{2}/g)];
-
-                        if (matches.length === 2) {
-                            // Przedział p. xx:xx <br> o. yy:yy
-                            const [pH, pM] = matches[0][0].split(':').map(Number);
-                            const [oH, oM] = matches[1][0].split(':').map(Number);
-                            let pMin = pH * 60 + pM;
-                            let oMin = oH * 60 + oM;
-                            let nowMin = currentMinutes;
-
-                            if (oMin < pMin) {
-                                if (nowMin < pMin) nowMin += 1440;
-                                oMin += 1440;
-                            }
-
-                            if (nowMin >= pMin && nowMin <= oMin) {
-                                bestMatch = godzinaCell;
-                                bestDiff = 0;
-                            }
-
-                        } else {
-                            for (const match of matches) {
-                                const [h, m] = match[0].split(':').map(Number);
-                                let mins = h * 60 + m;
-                                let adjusted = mins;
-
-                                if (Math.abs(currentMinutes - mins) > 720) {
-                                    if (mins < currentMinutes) adjusted += 1440;
-                                    else adjusted -= 1440;
-                                }
-
-                                const diff = Math.abs(currentMinutes - adjusted);
-                                if (diff < bestDiff) {
-                                    bestDiff = diff;
-                                    bestMatch = godzinaCell;
-                                }
-                            }
-                        }
-                    });
-
-                    // Wyczyść style podświetleń
-                    rozkladTbody.querySelectorAll("td").forEach(td => {
-                        td.style.color = "";
-                    });
-
-                    if (bestMatch && bestDiff < 1) {
-                        bestMatch.style.color = "orange";
-                    }
-                })
-                .catch(error => {
-                    console.error('Błąd przy pobieraniu danych:', error);
+                    document.getElementById("PojazdLIVE").textContent = znalezionoPojazd ? "Pojazd LIVE!" : "";
+                    podswietlAktualnaGodzine();
                 });
         }
 
-
-
-
-
-
-
-
-
-        // Pobranie pełnej ścieżki do pliku
         const fullPath = window.location.pathname;
-
-        // Podzielenie ścieżki na części na podstawie "/"
         const pathParts = fullPath.split('/');
-
-        // Pobranie nazwy folderu (zakładamy, że folder jest bezpośrednio nad plikiem)
-        const folderName = pathParts[pathParts.length - 2]; // -2, bo ostatni element to nazwa pliku
-
-        // Inicjalizacja zmiennej brygadaNumber na podstawie folderu
+        const folderName = pathParts[pathParts.length - 2];
         let brygadaNumber;
 
         switch (folderName) {
@@ -621,19 +566,11 @@
                 brygadaNumber = '4';
                 break;
             default:
-                brygadaNumber = '2'; // Domyślna wartość, jeśli folder nie pasuje do żadnego przypadku
+                brygadaNumber = '2';
         }
 
-        sessionStorage.setItem("ChoosedTypeOfDay", brygadaNumber)
+        sessionStorage.setItem("ChoosedTypeOfDay", brygadaNumber);
         let activeDzien = brygadaNumber;
-
-        function wstawError() {
-            let tableBody = document.querySelector("#dane-tabeli");
-            let errorRow = document.createElement("tr");
-            errorRow.innerHTML = `<td colspan="4" style="text-align: center;">Brak danych</td>`;
-            tableBody.appendChild(errorRow);
-        }
-
 
         async function init() {
             checkLogin();
@@ -646,110 +583,11 @@
                 wstawError();
                 console.error("Nie udało się wczytać pliku.");
             }
-            //checkCurrentTimeAgainstTable();
-            setInterval(function() {
-                loadAndRenderTable();
-                //checkCurrentTimeAgainstTable();
-            }, 3000); // Obie funkcje wywoływane raz na sekundę
 
-
+            setInterval(loadAndRenderTable, 3000);
         }
 
         window.onload = init;
-
-        /*
-         */
-
-        document.addEventListener("DOMContentLoaded", async () => {
-            const miasto = localStorage.getItem("Miasto");
-            if (!miasto) return;
-
-            const header = document.querySelector("header");
-            if (!header) return;
-
-            async function fetchTextFile(path) {
-                const response = await fetch(path);
-                return await response.text();
-            }
-
-            function parseMiasta(txt, szukaneMiasto) {
-                txt = txt.replace(/\r/g, '');
-                const bloki = txt.split('\n\n');
-                for (const blok of bloki) {
-                    const linie = blok.trim().split('\n');
-                    if (linie[0].trim() === szukaneMiasto) {
-                        const widoczneMenu = {};
-                        for (let i = 2; i < linie.length; i++) {
-                            const [klucz, wartosc] = linie[i].split(':').map(s => s.trim());
-                            widoczneMenu[klucz] = (wartosc.toUpperCase() === 'TAK');
-                        }
-                        return widoczneMenu;
-                    }
-                }
-                return {};
-            }
-
-            function normalizeKey(s) {
-                return s.toLowerCase().trim();
-            }
-
-            try {
-                const miastaText = await fetchTextFile("../../miasta.txt");
-                const doDodania = parseMiasta(miastaText, miasto);
-
-                const doDodaniaNormalized = {};
-                for (const key in doDodania) {
-                    doDodaniaNormalized[normalizeKey(key)] = doDodania[key];
-                }
-
-                const zawszeAktywne = [
-                    "wybór miasta",
-                    "panel główny",
-                    "opuść panel"
-                ];
-
-                const linki = header.querySelectorAll("a.menu");
-                linki.forEach(link => {
-                    const tekst = link.textContent.trim();
-                    const normTekst = normalizeKey(tekst);
-
-                    if (zawszeAktywne.includes(normTekst)) {
-                        link.style.color = "";
-                        link.style.pointerEvents = "";
-                        link.style.opacity = "";
-                        return;
-                    }
-
-                    if (normTekst in doDodaniaNormalized) {
-                        if (doDodaniaNormalized[normTekst]) {
-                            link.style.color = "";
-                            link.style.pointerEvents = "";
-                            link.style.opacity = "";
-                        } else {
-                            link.style.color = "gray";
-                            link.style.pointerEvents = "none";
-                            link.style.opacity = "0.5";
-                        }
-                    } else {
-                        link.style.color = "gray";
-                        link.style.pointerEvents = "none";
-                        link.style.opacity = "0.5";
-                    }
-                });
-
-                const logoutBtn = document.getElementById('logout');
-                if (logoutBtn) {
-                    logoutBtn.addEventListener('click', function() {
-                        const miasto = localStorage.getItem('Miasto');
-                        localStorage.clear();
-                        localStorage.setItem('Miasto', miasto);
-                        window.location.href = 'index.html';
-                    });
-                }
-            } catch (error) {
-                console.error("Błąd podczas ładowania danych:", error);
-            }
-        });
 
     </script>
 </body>

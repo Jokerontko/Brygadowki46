@@ -337,10 +337,10 @@ def StwórzGodzRozpGodzZak():
 
     # Ustalamy ścieżki do głównych folderów
     main_folders = [
-        'WYNIKI/Gotowe_brygady/1',
-        'WYNIKI/Gotowe_brygady/2',
-        'WYNIKI/Gotowe_brygady/3',
-        'WYNIKI/Gotowe_brygady/4'
+        'WYNIKI/Gotowe_brygady/Niedzielny',
+        'WYNIKI/Gotowe_brygady/Powszedni',
+        'WYNIKI/Gotowe_brygady/PowszedniWolny',
+        'WYNIKI/Gotowe_brygady/Sobotni'
     ]
 
     # Funkcja do przetwarzania pliku GOTOWE.txt
@@ -432,7 +432,7 @@ def StwórzBrygadyBIS():
         return [int(c) if c.isdigit() else c for c in re.split(r'(\d+)', key)]  # Użycie surowego stringa r''
 
     # Lista folderów do przetworzenia
-    foldery_do_przetworzenia = ["1", "2", "3", "4"]
+    foldery_do_przetworzenia = ["Niedzielny", "Powszedni", "PowszedniWolny", "Sobotni"]
 
     # Iterujemy po folderach
     for folder_num in foldery_do_przetworzenia:
@@ -1765,10 +1765,10 @@ def calculate_time_difference(start_time, end_time):
 
 def ZaproponujBrygadyBIS():
     base_paths = [
-        "WYNIKI/Gotowe_brygady/1",
-        "WYNIKI/Gotowe_brygady/2",
-        "WYNIKI/Gotowe_brygady/3",
-        "WYNIKI/Gotowe_brygady/4"
+        "WYNIKI/Gotowe_brygady/Niedzielny",
+        "WYNIKI/Gotowe_brygady/Powszedni",
+        "WYNIKI/Gotowe_brygady/PowszedniWolny",
+        "WYNIKI/Gotowe_brygady/Sobotni"
     ]
 
     for base_path in base_paths:
@@ -1847,7 +1847,7 @@ from datetime import datetime
 
 def CzyBIS():
     # Lista folderów, które chcemy przetworzyć
-    folder_paths = ['WYNIKI/Gotowe_brygady/1', 'WYNIKI/Gotowe_brygady/2', 'WYNIKI/Gotowe_brygady/3', 'WYNIKI/Gotowe_brygady/4']
+    folder_paths = ['WYNIKI/Gotowe_brygady/Niedzielny', 'WYNIKI/Gotowe_brygady/Powszedni', 'WYNIKI/Gotowe_brygady/PowszedniWolny', 'WYNIKI/Gotowe_brygady/Sobotni']
     
     for folder_path in folder_paths:
         # Sprawdzamy, czy folder istnieje
