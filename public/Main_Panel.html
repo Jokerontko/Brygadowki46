@@ -642,7 +642,7 @@
                     break;
                 case "Rozkład Powszedni Wolny":
                     targetUrl = "Brygady/Niedzielny/listabrygad.html";
-                    choosedTypeOfDay = "Roboczy Wolny";
+                    choosedTypeOfDay = "PowszedniWolny";
                     break;
                 case "Rozkład Sobotni":
                     targetUrl = "Brygady/Niedzielny/listabrygad.html";
@@ -658,7 +658,7 @@
             }
 
             // Zapisanie wartości w sessionStorage
-            localStorage.setItem("ChoosedTypeOfDay", choosedTypeOfDay);
+            localStorage.setItem("ChoosedTypeOfRozklad", choosedTypeOfDay);
 
             // Przekierowanie na docelowy URL
             window.location.href = targetUrl;

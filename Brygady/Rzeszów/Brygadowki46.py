@@ -2572,19 +2572,19 @@ def menu():
             ZmienNazewnictwo()
         elif wybor == "20":
             clear_screen()
-            WczytajBrygady()            
-            WczytajNumeracje()
-            NazwijBrygady()
-            clear_screen()
+            #WczytajBrygady()            
+            #WczytajNumeracje()
+            #NazwijBrygady()
+            #clear_screen()
             
-            clear_screen()
+            #clear_screen()
             czyrezerwa = input("Czy chcesz dodać rezerwe? t/n: ")
             while czyrezerwa == 't':
                 DodajRezerwe()
                 RezerwaList()
                 czyrezerwa = input("Gotowe, czy chcesz dodać jeszcze jedną? t/n: ")
             clear_screen()
-            UtwórzGOTOWEtxt()
+            #UtwórzGOTOWEtxt()
             czypodmiany = input("Czy chcesz aby system wygenerował automatycznie podmiany kierowców? t/n : ")
             if czypodmiany == "t":
                 UtworzGodzPodmiany()

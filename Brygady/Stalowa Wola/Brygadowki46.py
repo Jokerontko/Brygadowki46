@@ -1598,7 +1598,7 @@ def PodmianaList():
     base_path = "WYNIKI/Gotowe_brygady"
 
     # Iteracja po folderach "1", "2", "3", "4"
-    for folder in ["1", "2", "3", "4"]:
+    for folder in ["Niedzielny", "Powszedni", "PowszedniWolny", "Sobotni"]:
         # Zamiana "_" na "/"
         formatted_folder = folder.replace("_", "/")
         folder_path = os.path.join(base_path, formatted_folder)

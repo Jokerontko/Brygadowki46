@@ -1,149 +1,149 @@
 route_id	service_id	trip_id	arrival_time	departure_time	stop_headsign	stop_name
 -------------------------------------------------------------------------------
-1628	5	205008	06:15:00	06:15:00		Bardowskiego 03
-1628	5	205008	06:17:00	06:17:00		Pl. Wolności 04
-1628	5	205008	06:18:00	06:18:00		Piłsudskiego U. Wojewódzki 06
-1628	5	205008	06:21:00	06:21:00		Marszałkowska 02
-1628	5	205008	06:22:00	06:22:00		Warszawska / Wyzwolenia 02 nż
-1628	5	205008	06:23:00	06:23:00		Warszawska ZS. Samoch. 04 nż
-1628	5	205008	06:24:00	06:24:00		Warszawska / Staromiejska 06 nż
-1628	5	205008	06:26:00	06:26:00		Warszawska / Borowa 08 nż
-1628	5	205008	06:27:00	06:27:00		Warszawska / Bażantowa 10 nż
-1628	5	205008	06:28:00	06:28:00		Warszawska / Łowiecka 12 nż
-1628	5	205008	06:29:00	06:29:00		Zaczernie - Miłocin 05 nż
-1628	5	205008	06:30:00	06:30:00		Warszawska granica 14 nż
-1628	5	205008	06:32:00	06:32:00		Zaczernie rondo 14 nż
-1628	5	205008	06:33:00	06:33:00		Zaczernie browar 16 nż
-1628	5	205008	06:34:00	06:34:00		Zaczernie cmentarz 22 nż
-1628	5	205008	06:35:00	06:35:00		Zaczernie bloki 20 nż
-1628	5	205008	06:37:00	06:37:00		Zaczernie MPP Colorland 01 nż
-1628	5	205008	06:38:00	06:38:00		Zaczernie ML System / Fibrain 03 nż
+1628	4	205008	06:15:00	06:15:00		Bardowskiego 03
+1628	4	205008	06:17:00	06:17:00		Pl. Wolności 04
+1628	4	205008	06:18:00	06:18:00		Piłsudskiego U. Wojewódzki 06
+1628	4	205008	06:21:00	06:21:00		Marszałkowska 02
+1628	4	205008	06:22:00	06:22:00		Warszawska / Wyzwolenia 02 nż
+1628	4	205008	06:23:00	06:23:00		Warszawska ZS. Samoch. 04 nż
+1628	4	205008	06:24:00	06:24:00		Warszawska / Staromiejska 06 nż
+1628	4	205008	06:26:00	06:26:00		Warszawska / Borowa 08 nż
+1628	4	205008	06:27:00	06:27:00		Warszawska / Bażantowa 10 nż
+1628	4	205008	06:28:00	06:28:00		Warszawska / Łowiecka 12 nż
+1628	4	205008	06:29:00	06:29:00		Zaczernie - Miłocin 05 nż
+1628	4	205008	06:30:00	06:30:00		Warszawska granica 14 nż
+1628	4	205008	06:32:00	06:32:00		Zaczernie rondo 14 nż
+1628	4	205008	06:33:00	06:33:00		Zaczernie browar 16 nż
+1628	4	205008	06:34:00	06:34:00		Zaczernie cmentarz 22 nż
+1628	4	205008	06:35:00	06:35:00		Zaczernie bloki 20 nż
+1628	4	205008	06:37:00	06:37:00		Zaczernie MPP Colorland 01 nż
+1628	4	205008	06:38:00	06:38:00		Zaczernie ML System / Fibrain 03 nż
 
-1626	5	205673	07:15:00	07:15:00		Zaczernie ML System / Fibrain 03 nż
-1626	5	205673	07:16:00	07:16:00		Zaczernie MPP Colorland 02 nż
-1626	5	205673	07:18:00	07:18:00		Zaczernie bloki 19 nż
-1626	5	205673	07:19:00	07:19:00		Zaczernie cmentarz 02 nż
-1626	5	205673	07:20:00	07:20:00		Zaczernie browar 15 nż
-1626	5	205673	07:21:00	07:21:00		Zaczernie rondo 13 nż
-1626	5	205673	07:22:00	07:22:00		Zaczernie 04 nż
-1626	5	205673	07:24:00	07:24:00		Warszawska granica 11 nż
-1626	5	205673	07:25:00	07:25:00		Zaczernie - Miłocin 06 nż
-1626	5	205673	07:26:00	07:26:00		Warszawska / Myśliwska 09 nż
-1626	5	205673	07:28:00	07:28:00		Warszawska / Borowa 07 nż
-1626	5	205673	07:30:00	07:30:00		Warszawska / Staromiejska 05 nż
-1626	5	205673	07:31:00	07:31:00		Warszawska ZS. Samoch. 03 nż
-1626	5	205673	07:32:00	07:32:00		Warszawska / Wyzwolenia 01 nż
-1626	5	205673	07:34:00	07:34:00		Marszałkowska 01
-1626	5	205673	07:38:00	07:38:00		Piłsudskiego U. Wojewódzki 05
-1626	5	205673	07:41:00	07:41:00		Bardowskiego 04
+1626	4	205673	07:15:00	07:15:00		Zaczernie ML System / Fibrain 03 nż
+1626	4	205673	07:16:00	07:16:00		Zaczernie MPP Colorland 02 nż
+1626	4	205673	07:18:00	07:18:00		Zaczernie bloki 19 nż
+1626	4	205673	07:19:00	07:19:00		Zaczernie cmentarz 02 nż
+1626	4	205673	07:20:00	07:20:00		Zaczernie browar 15 nż
+1626	4	205673	07:21:00	07:21:00		Zaczernie rondo 13 nż
+1626	4	205673	07:22:00	07:22:00		Zaczernie 04 nż
+1626	4	205673	07:24:00	07:24:00		Warszawska granica 11 nż
+1626	4	205673	07:25:00	07:25:00		Zaczernie - Miłocin 06 nż
+1626	4	205673	07:26:00	07:26:00		Warszawska / Myśliwska 09 nż
+1626	4	205673	07:28:00	07:28:00		Warszawska / Borowa 07 nż
+1626	4	205673	07:30:00	07:30:00		Warszawska / Staromiejska 05 nż
+1626	4	205673	07:31:00	07:31:00		Warszawska ZS. Samoch. 03 nż
+1626	4	205673	07:32:00	07:32:00		Warszawska / Wyzwolenia 01 nż
+1626	4	205673	07:34:00	07:34:00		Marszałkowska 01
+1626	4	205673	07:38:00	07:38:00		Piłsudskiego U. Wojewódzki 05
+1626	4	205673	07:41:00	07:41:00		Bardowskiego 04
 
-1628	5	206506	08:15:00	08:15:00		Bardowskiego 03
-1628	5	206506	08:17:00	08:17:00		Pl. Wolności 04
-1628	5	206506	08:18:00	08:18:00		Piłsudskiego U. Wojewódzki 06
-1628	5	206506	08:21:00	08:21:00		Marszałkowska 02
-1628	5	206506	08:22:00	08:22:00		Warszawska / Wyzwolenia 02 nż
-1628	5	206506	08:23:00	08:23:00		Warszawska ZS. Samoch. 04 nż
-1628	5	206506	08:24:00	08:24:00		Warszawska / Staromiejska 06 nż
-1628	5	206506	08:26:00	08:26:00		Warszawska / Borowa 08 nż
-1628	5	206506	08:27:00	08:27:00		Warszawska / Bażantowa 10 nż
-1628	5	206506	08:28:00	08:28:00		Warszawska / Łowiecka 12 nż
-1628	5	206506	08:29:00	08:29:00		Zaczernie - Miłocin 05 nż
-1628	5	206506	08:30:00	08:30:00		Warszawska granica 14 nż
-1628	5	206506	08:32:00	08:32:00		Zaczernie rondo 14 nż
-1628	5	206506	08:33:00	08:33:00		Zaczernie browar 16 nż
-1628	5	206506	08:34:00	08:34:00		Zaczernie cmentarz 22 nż
-1628	5	206506	08:35:00	08:35:00		Zaczernie bloki 20 nż
-1628	5	206506	08:37:00	08:37:00		Zaczernie MPP Colorland 01 nż
-1628	5	206506	08:38:00	08:38:00		Zaczernie ML System / Fibrain 03 nż
+1628	4	206506	08:15:00	08:15:00		Bardowskiego 03
+1628	4	206506	08:17:00	08:17:00		Pl. Wolności 04
+1628	4	206506	08:18:00	08:18:00		Piłsudskiego U. Wojewódzki 06
+1628	4	206506	08:21:00	08:21:00		Marszałkowska 02
+1628	4	206506	08:22:00	08:22:00		Warszawska / Wyzwolenia 02 nż
+1628	4	206506	08:23:00	08:23:00		Warszawska ZS. Samoch. 04 nż
+1628	4	206506	08:24:00	08:24:00		Warszawska / Staromiejska 06 nż
+1628	4	206506	08:26:00	08:26:00		Warszawska / Borowa 08 nż
+1628	4	206506	08:27:00	08:27:00		Warszawska / Bażantowa 10 nż
+1628	4	206506	08:28:00	08:28:00		Warszawska / Łowiecka 12 nż
+1628	4	206506	08:29:00	08:29:00		Zaczernie - Miłocin 05 nż
+1628	4	206506	08:30:00	08:30:00		Warszawska granica 14 nż
+1628	4	206506	08:32:00	08:32:00		Zaczernie rondo 14 nż
+1628	4	206506	08:33:00	08:33:00		Zaczernie browar 16 nż
+1628	4	206506	08:34:00	08:34:00		Zaczernie cmentarz 22 nż
+1628	4	206506	08:35:00	08:35:00		Zaczernie bloki 20 nż
+1628	4	206506	08:37:00	08:37:00		Zaczernie MPP Colorland 01 nż
+1628	4	206506	08:38:00	08:38:00		Zaczernie ML System / Fibrain 03 nż
 
-1626	5	205865	09:15:00	09:15:00		Zaczernie ML System / Fibrain 03 nż
-1626	5	205865	09:16:00	09:16:00		Zaczernie MPP Colorland 02 nż
-1626	5	205865	09:18:00	09:18:00		Zaczernie bloki 19 nż
-1626	5	205865	09:19:00	09:19:00		Zaczernie cmentarz 02 nż
-1626	5	205865	09:20:00	09:20:00		Zaczernie browar 15 nż
-1626	5	205865	09:21:00	09:21:00		Zaczernie rondo 13 nż
-1626	5	205865	09:22:00	09:22:00		Zaczernie 04 nż
-1626	5	205865	09:24:00	09:24:00		Warszawska granica 11 nż
-1626	5	205865	09:25:00	09:25:00		Zaczernie - Miłocin 06 nż
-1626	5	205865	09:26:00	09:26:00		Warszawska / Myśliwska 09 nż
-1626	5	205865	09:28:00	09:28:00		Warszawska / Borowa 07 nż
-1626	5	205865	09:30:00	09:30:00		Warszawska / Staromiejska 05 nż
-1626	5	205865	09:31:00	09:31:00		Warszawska ZS. Samoch. 03 nż
-1626	5	205865	09:32:00	09:32:00		Warszawska / Wyzwolenia 01 nż
-1626	5	205865	09:34:00	09:34:00		Marszałkowska 01
-1626	5	205865	09:38:00	09:38:00		Piłsudskiego U. Wojewódzki 05
-1626	5	205865	09:41:00	09:41:00		Bardowskiego 04
+1626	4	205865	09:15:00	09:15:00		Zaczernie ML System / Fibrain 03 nż
+1626	4	205865	09:16:00	09:16:00		Zaczernie MPP Colorland 02 nż
+1626	4	205865	09:18:00	09:18:00		Zaczernie bloki 19 nż
+1626	4	205865	09:19:00	09:19:00		Zaczernie cmentarz 02 nż
+1626	4	205865	09:20:00	09:20:00		Zaczernie browar 15 nż
+1626	4	205865	09:21:00	09:21:00		Zaczernie rondo 13 nż
+1626	4	205865	09:22:00	09:22:00		Zaczernie 04 nż
+1626	4	205865	09:24:00	09:24:00		Warszawska granica 11 nż
+1626	4	205865	09:25:00	09:25:00		Zaczernie - Miłocin 06 nż
+1626	4	205865	09:26:00	09:26:00		Warszawska / Myśliwska 09 nż
+1626	4	205865	09:28:00	09:28:00		Warszawska / Borowa 07 nż
+1626	4	205865	09:30:00	09:30:00		Warszawska / Staromiejska 05 nż
+1626	4	205865	09:31:00	09:31:00		Warszawska ZS. Samoch. 03 nż
+1626	4	205865	09:32:00	09:32:00		Warszawska / Wyzwolenia 01 nż
+1626	4	205865	09:34:00	09:34:00		Marszałkowska 01
+1626	4	205865	09:38:00	09:38:00		Piłsudskiego U. Wojewódzki 05
+1626	4	205865	09:41:00	09:41:00		Bardowskiego 04
 
-1628	5	206136	14:15:00	14:15:00		Bardowskiego 03
-1628	5	206136	14:17:00	14:17:00		Pl. Wolności 04
-1628	5	206136	14:18:00	14:18:00		Piłsudskiego U. Wojewódzki 06
-1628	5	206136	14:22:00	14:22:00		Marszałkowska 02
-1628	5	206136	14:23:00	14:23:00		Warszawska / Wyzwolenia 02 nż
-1628	5	206136	14:24:00	14:24:00		Warszawska ZS. Samoch. 04 nż
-1628	5	206136	14:25:00	14:25:00		Warszawska / Staromiejska 06 nż
-1628	5	206136	14:27:00	14:27:00		Warszawska / Borowa 08 nż
-1628	5	206136	14:28:00	14:28:00		Warszawska / Bażantowa 10 nż
-1628	5	206136	14:29:00	14:29:00		Warszawska / Łowiecka 12 nż
-1628	5	206136	14:30:00	14:30:00		Zaczernie - Miłocin 05 nż
-1628	5	206136	14:31:00	14:31:00		Warszawska granica 14 nż
-1628	5	206136	14:33:00	14:33:00		Zaczernie rondo 14 nż
-1628	5	206136	14:34:00	14:34:00		Zaczernie browar 16 nż
-1628	5	206136	14:35:00	14:35:00		Zaczernie cmentarz 22 nż
-1628	5	206136	14:36:00	14:36:00		Zaczernie bloki 20 nż
-1628	5	206136	14:38:00	14:38:00		Zaczernie MPP Colorland 01 nż
-1628	5	206136	14:39:00	14:39:00		Zaczernie ML System / Fibrain 03 nż
+1628	4	206136	14:15:00	14:15:00		Bardowskiego 03
+1628	4	206136	14:17:00	14:17:00		Pl. Wolności 04
+1628	4	206136	14:18:00	14:18:00		Piłsudskiego U. Wojewódzki 06
+1628	4	206136	14:22:00	14:22:00		Marszałkowska 02
+1628	4	206136	14:23:00	14:23:00		Warszawska / Wyzwolenia 02 nż
+1628	4	206136	14:24:00	14:24:00		Warszawska ZS. Samoch. 04 nż
+1628	4	206136	14:25:00	14:25:00		Warszawska / Staromiejska 06 nż
+1628	4	206136	14:27:00	14:27:00		Warszawska / Borowa 08 nż
+1628	4	206136	14:28:00	14:28:00		Warszawska / Bażantowa 10 nż
+1628	4	206136	14:29:00	14:29:00		Warszawska / Łowiecka 12 nż
+1628	4	206136	14:30:00	14:30:00		Zaczernie - Miłocin 05 nż
+1628	4	206136	14:31:00	14:31:00		Warszawska granica 14 nż
+1628	4	206136	14:33:00	14:33:00		Zaczernie rondo 14 nż
+1628	4	206136	14:34:00	14:34:00		Zaczernie browar 16 nż
+1628	4	206136	14:35:00	14:35:00		Zaczernie cmentarz 22 nż
+1628	4	206136	14:36:00	14:36:00		Zaczernie bloki 20 nż
+1628	4	206136	14:38:00	14:38:00		Zaczernie MPP Colorland 01 nż
+1628	4	206136	14:39:00	14:39:00		Zaczernie ML System / Fibrain 03 nż
 
-1626	5	204250	15:15:00	15:15:00		Zaczernie ML System / Fibrain 03 nż
-1626	5	204250	15:16:00	15:16:00		Zaczernie MPP Colorland 02 nż
-1626	5	204250	15:18:00	15:18:00		Zaczernie bloki 19 nż
-1626	5	204250	15:19:00	15:19:00		Zaczernie cmentarz 02 nż
-1626	5	204250	15:20:00	15:20:00		Zaczernie browar 15 nż
-1626	5	204250	15:21:00	15:21:00		Zaczernie rondo 13 nż
-1626	5	204250	15:22:00	15:22:00		Zaczernie 04 nż
-1626	5	204250	15:24:00	15:24:00		Warszawska granica 11 nż
-1626	5	204250	15:25:00	15:25:00		Zaczernie - Miłocin 06 nż
-1626	5	204250	15:26:00	15:26:00		Warszawska / Myśliwska 09 nż
-1626	5	204250	15:28:00	15:28:00		Warszawska / Borowa 07 nż
-1626	5	204250	15:30:00	15:30:00		Warszawska / Staromiejska 05 nż
-1626	5	204250	15:31:00	15:31:00		Warszawska ZS. Samoch. 03 nż
-1626	5	204250	15:32:00	15:32:00		Warszawska / Wyzwolenia 01 nż
-1626	5	204250	15:34:00	15:34:00		Marszałkowska 01
-1626	5	204250	15:39:00	15:39:00		Piłsudskiego U. Wojewódzki 05
-1626	5	204250	15:43:00	15:43:00		Bardowskiego 04
+1626	4	204250	15:15:00	15:15:00		Zaczernie ML System / Fibrain 03 nż
+1626	4	204250	15:16:00	15:16:00		Zaczernie MPP Colorland 02 nż
+1626	4	204250	15:18:00	15:18:00		Zaczernie bloki 19 nż
+1626	4	204250	15:19:00	15:19:00		Zaczernie cmentarz 02 nż
+1626	4	204250	15:20:00	15:20:00		Zaczernie browar 15 nż
+1626	4	204250	15:21:00	15:21:00		Zaczernie rondo 13 nż
+1626	4	204250	15:22:00	15:22:00		Zaczernie 04 nż
+1626	4	204250	15:24:00	15:24:00		Warszawska granica 11 nż
+1626	4	204250	15:25:00	15:25:00		Zaczernie - Miłocin 06 nż
+1626	4	204250	15:26:00	15:26:00		Warszawska / Myśliwska 09 nż
+1626	4	204250	15:28:00	15:28:00		Warszawska / Borowa 07 nż
+1626	4	204250	15:30:00	15:30:00		Warszawska / Staromiejska 05 nż
+1626	4	204250	15:31:00	15:31:00		Warszawska ZS. Samoch. 03 nż
+1626	4	204250	15:32:00	15:32:00		Warszawska / Wyzwolenia 01 nż
+1626	4	204250	15:34:00	15:34:00		Marszałkowska 01
+1626	4	204250	15:39:00	15:39:00		Piłsudskiego U. Wojewódzki 05
+1626	4	204250	15:43:00	15:43:00		Bardowskiego 04
 
-1628	5	203992	16:15:00	16:15:00		Bardowskiego 03
-1628	5	203992	16:18:00	16:18:00		Pl. Wolności 04
-1628	5	203992	16:21:00	16:21:00		Piłsudskiego U. Wojewódzki 06
-1628	5	203992	16:25:00	16:25:00		Marszałkowska 02
-1628	5	203992	16:26:00	16:26:00		Warszawska / Wyzwolenia 02 nż
-1628	5	203992	16:27:00	16:27:00		Warszawska ZS. Samoch. 04 nż
-1628	5	203992	16:28:00	16:28:00		Warszawska / Staromiejska 06 nż
-1628	5	203992	16:30:00	16:30:00		Warszawska / Borowa 08 nż
-1628	5	203992	16:31:00	16:31:00		Warszawska / Bażantowa 10 nż
-1628	5	203992	16:32:00	16:32:00		Warszawska / Łowiecka 12 nż
-1628	5	203992	16:33:00	16:33:00		Zaczernie - Miłocin 05 nż
-1628	5	203992	16:34:00	16:34:00		Warszawska granica 14 nż
-1628	5	203992	16:36:00	16:36:00		Zaczernie rondo 14 nż
-1628	5	203992	16:37:00	16:37:00		Zaczernie browar 16 nż
-1628	5	203992	16:38:00	16:38:00		Zaczernie cmentarz 22 nż
-1628	5	203992	16:39:00	16:39:00		Zaczernie bloki 20 nż
-1628	5	203992	16:41:00	16:41:00		Zaczernie MPP Colorland 01 nż
-1628	5	203992	16:42:00	16:42:00		Zaczernie ML System / Fibrain 03 nż
+1628	4	203992	16:15:00	16:15:00		Bardowskiego 03
+1628	4	203992	16:18:00	16:18:00		Pl. Wolności 04
+1628	4	203992	16:21:00	16:21:00		Piłsudskiego U. Wojewódzki 06
+1628	4	203992	16:25:00	16:25:00		Marszałkowska 02
+1628	4	203992	16:26:00	16:26:00		Warszawska / Wyzwolenia 02 nż
+1628	4	203992	16:27:00	16:27:00		Warszawska ZS. Samoch. 04 nż
+1628	4	203992	16:28:00	16:28:00		Warszawska / Staromiejska 06 nż
+1628	4	203992	16:30:00	16:30:00		Warszawska / Borowa 08 nż
+1628	4	203992	16:31:00	16:31:00		Warszawska / Bażantowa 10 nż
+1628	4	203992	16:32:00	16:32:00		Warszawska / Łowiecka 12 nż
+1628	4	203992	16:33:00	16:33:00		Zaczernie - Miłocin 05 nż
+1628	4	203992	16:34:00	16:34:00		Warszawska granica 14 nż
+1628	4	203992	16:36:00	16:36:00		Zaczernie rondo 14 nż
+1628	4	203992	16:37:00	16:37:00		Zaczernie browar 16 nż
+1628	4	203992	16:38:00	16:38:00		Zaczernie cmentarz 22 nż
+1628	4	203992	16:39:00	16:39:00		Zaczernie bloki 20 nż
+1628	4	203992	16:41:00	16:41:00		Zaczernie MPP Colorland 01 nż
+1628	4	203992	16:42:00	16:42:00		Zaczernie ML System / Fibrain 03 nż
 
-1626	5	207022	17:15:00	17:15:00		Zaczernie ML System / Fibrain 03 nż
-1626	5	207022	17:16:00	17:16:00		Zaczernie MPP Colorland 02 nż
-1626	5	207022	17:18:00	17:18:00		Zaczernie bloki 19 nż
-1626	5	207022	17:19:00	17:19:00		Zaczernie cmentarz 02 nż
-1626	5	207022	17:20:00	17:20:00		Zaczernie browar 15 nż
-1626	5	207022	17:21:00	17:21:00		Zaczernie rondo 13 nż
-1626	5	207022	17:22:00	17:22:00		Zaczernie 04 nż
-1626	5	207022	17:24:00	17:24:00		Warszawska granica 11 nż
-1626	5	207022	17:25:00	17:25:00		Zaczernie - Miłocin 06 nż
-1626	5	207022	17:26:00	17:26:00		Warszawska / Myśliwska 09 nż
-1626	5	207022	17:28:00	17:28:00		Warszawska / Borowa 07 nż
-1626	5	207022	17:30:00	17:30:00		Warszawska / Staromiejska 05 nż
-1626	5	207022	17:31:00	17:31:00		Warszawska ZS. Samoch. 03 nż
-1626	5	207022	17:32:00	17:32:00		Warszawska / Wyzwolenia 01 nż
-1626	5	207022	17:34:00	17:34:00		Marszałkowska 01
-1626	5	207022	17:38:00	17:38:00		Piłsudskiego U. Wojewódzki 05
-1626	5	207022	17:41:00	17:41:00		Bardowskiego 04
+1626	4	207022	17:15:00	17:15:00		Zaczernie ML System / Fibrain 03 nż
+1626	4	207022	17:16:00	17:16:00		Zaczernie MPP Colorland 02 nż
+1626	4	207022	17:18:00	17:18:00		Zaczernie bloki 19 nż
+1626	4	207022	17:19:00	17:19:00		Zaczernie cmentarz 02 nż
+1626	4	207022	17:20:00	17:20:00		Zaczernie browar 15 nż
+1626	4	207022	17:21:00	17:21:00		Zaczernie rondo 13 nż
+1626	4	207022	17:22:00	17:22:00		Zaczernie 04 nż
+1626	4	207022	17:24:00	17:24:00		Warszawska granica 11 nż
+1626	4	207022	17:25:00	17:25:00		Zaczernie - Miłocin 06 nż
+1626	4	207022	17:26:00	17:26:00		Warszawska / Myśliwska 09 nż
+1626	4	207022	17:28:00	17:28:00		Warszawska / Borowa 07 nż
+1626	4	207022	17:30:00	17:30:00		Warszawska / Staromiejska 05 nż
+1626	4	207022	17:31:00	17:31:00		Warszawska ZS. Samoch. 03 nż
+1626	4	207022	17:32:00	17:32:00		Warszawska / Wyzwolenia 01 nż
+1626	4	207022	17:34:00	17:34:00		Marszałkowska 01
+1626	4	207022	17:38:00	17:38:00		Piłsudskiego U. Wojewódzki 05
+1626	4	207022	17:41:00	17:41:00		Bardowskiego 04

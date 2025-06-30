@@ -506,7 +506,7 @@
                         value: '2'
                     },
                     {
-                        label: 'Powszedni Wolny',
+                        label: 'PowszedniWolny',
                         value: '3'
                     },
                     {
@@ -531,8 +531,25 @@
                 dzienSelect.addEventListener('change', () => {
                     activeDzien = dzienSelect.value;
                     sessionStorage.setItem('activeDzien', activeDzien);
+
+                    switch (activeDzien) {
+                        case "1":
+                            localStorage.setItem("ChoosedTypeOfRozklad", "Niedzielny");
+                            break;
+                        case "2":
+                            localStorage.setItem("ChoosedTypeOfRozklad", "Powszedni");
+                            break;
+                        case "3":
+                            localStorage.setItem("ChoosedTypeOfRozklad", "PowszedniWolny");
+                            break;
+                        case "4":
+                            localStorage.setItem("ChoosedTypeOfRozklad", "Sobotni");
+                            break;
+                    }
+
                     loadAndRenderTable(); // przeładuj dane przy zmianie
                 });
+
 
                 filterDiv.appendChild(dzienSelect);
             }
@@ -828,7 +845,7 @@
                         jakirodzajdobrygadbis = "Powszedni";
                         return "2";
                     case "Rozkład Powszedni Wolny":
-                        localStorage.setItem("ChoosedTypeOfRozklad", "Powszedni Wolny");
+                        localStorage.setItem("ChoosedTypeOfRozklad", "PowszedniWolny");
                         jakirodzajdobrygadbis = "PowszedniWolny";
                         return "3";
                     case "Rozkład Sobotni":
@@ -920,7 +937,7 @@
                 }
 
 
-                window.location.href = `../Brygady/${JakiTYPdnia}/brygada.html`;
+                window.location.href = `../Brygady/Niedzielny/brygada.html`;
             }
         });
 

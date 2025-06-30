@@ -1,544 +1,544 @@
 route_id	service_id	trip_id	arrival_time	departure_time	stop_headsign	stop_name
 -------------------------------------------------------------------------------
-1823	5	212049	05:10:00	05:10:00		Baligrodzka 01
-1823	5	212049	05:11:00	05:11:00		Iwonicka / Korczyńska 01 nż
-1823	5	212049	05:12:00	05:12:00		Odrzykońska / Iwonicka 01 nż
-1823	5	212049	05:14:00	05:14:00		Bł. Karoliny pętla 09
-1823	5	212049	05:15:00	05:15:00		Bł. Karoliny przedszkole 07
-1823	5	212049	05:16:00	05:16:00		Bł. Karoliny / Nowosądecka 05 nż
-1823	5	212049	05:17:00	05:17:00		Sanocka / Krośnieńska 01 nż
-1823	5	212049	05:19:00	05:19:00		Ustrzycka pętla 01 nż
-1823	5	212049	05:22:00	05:22:00		Ofiar Katynia park 03
-1823	5	212049	05:23:00	05:23:00		Ofiar Katynia kładka 01
-1823	5	212049	05:24:00	05:24:00		Wyzwolenia / Ofiar Katynia 09
-1823	5	212049	05:25:00	05:25:00		Wyzwolenia kościół 07
-1823	5	212049	05:26:00	05:26:00		Okulickiego / Wyzwolenia 05 nż
-1823	5	212049	05:27:00	05:27:00		Okulickiego / Zwierzyniecka 03 nż
-1823	5	212049	05:28:00	05:28:00		Okulickiego centrum handlowe 01
-1823	5	212049	05:30:00	05:30:00		Krakowska jedn. wojskowa 01
-1823	5	212049	05:32:00	05:32:00		Piłsudskiego U. Wojewódzki 05
-1823	5	212049	05:33:00	05:33:00		Pl. Wolności 03
-1823	5	212049	05:34:00	05:34:00		Piłsudskiego ZDZ 01 nż
-1823	5	212049	05:36:00	05:36:00		Dworaka targ 01
+1823	4	212049	05:10:00	05:10:00		Baligrodzka 01
+1823	4	212049	05:11:00	05:11:00		Iwonicka / Korczyńska 01 nż
+1823	4	212049	05:12:00	05:12:00		Odrzykońska / Iwonicka 01 nż
+1823	4	212049	05:14:00	05:14:00		Bł. Karoliny pętla 09
+1823	4	212049	05:15:00	05:15:00		Bł. Karoliny przedszkole 07
+1823	4	212049	05:16:00	05:16:00		Bł. Karoliny / Nowosądecka 05 nż
+1823	4	212049	05:17:00	05:17:00		Sanocka / Krośnieńska 01 nż
+1823	4	212049	05:19:00	05:19:00		Ustrzycka pętla 01 nż
+1823	4	212049	05:22:00	05:22:00		Ofiar Katynia park 03
+1823	4	212049	05:23:00	05:23:00		Ofiar Katynia kładka 01
+1823	4	212049	05:24:00	05:24:00		Wyzwolenia / Ofiar Katynia 09
+1823	4	212049	05:25:00	05:25:00		Wyzwolenia kościół 07
+1823	4	212049	05:26:00	05:26:00		Okulickiego / Wyzwolenia 05 nż
+1823	4	212049	05:27:00	05:27:00		Okulickiego / Zwierzyniecka 03 nż
+1823	4	212049	05:28:00	05:28:00		Okulickiego centrum handlowe 01
+1823	4	212049	05:30:00	05:30:00		Krakowska jedn. wojskowa 01
+1823	4	212049	05:32:00	05:32:00		Piłsudskiego U. Wojewódzki 05
+1823	4	212049	05:33:00	05:33:00		Pl. Wolności 03
+1823	4	212049	05:34:00	05:34:00		Piłsudskiego ZDZ 01 nż
+1823	4	212049	05:36:00	05:36:00		Dworaka targ 01
 
-1965	5	213739	05:44:00	05:44:00		Dworaka targ 01
-1965	5	213739	05:47:00	05:47:00		Piłsudskiego ZDZ 02
-1965	5	213739	05:48:00	05:48:00		Pl. Wolności 04
-1965	5	213739	05:50:00	05:50:00		Piłsudskiego U. Marszałkowski 08
-1965	5	213739	05:52:00	05:52:00		Krakowska jedn. wojskowa 02
-1965	5	213739	05:54:00	05:54:00		Okulickiego centrum handlowe 02
-1965	5	213739	05:55:00	05:55:00		Okulickiego / Zwierzyniecka 04 nż
-1965	5	213739	05:56:00	05:56:00		Wyzwolenia / Iranka-Osmeckiego 08
-1965	5	213739	05:57:00	05:57:00		Wyzwolenia / Brydaka 10
-1965	5	213739	05:58:00	05:58:00		Ofiar Katynia / Wyzwolenia 02
-1965	5	213739	05:59:00	05:59:00		Ofiar Katynia kładka 04
-1965	5	213739	06:00:00	06:00:00		Ofiar Katynia galeria 06
-1965	5	213739	06:02:00	06:02:00		Ustrzycka pętla 02 nż
-1965	5	213739	06:03:00	06:03:00		Sanocka / Krośnieńska 02 nż
-1965	5	213739	06:04:00	06:04:00		Bł. Karoliny / Sanocka 04 nż
-1965	5	213739	06:05:00	06:05:00		Bł. Karoliny przedszkole 06
-1965	5	213739	06:06:00	06:06:00		Odrzykońska / Bł. Karoliny 02 nż
-1965	5	213739	06:07:00	06:07:00		Odrzykońska / Baligrodzka 04 nż
-1965	5	213739	06:08:00	06:08:00		Iwonicka / Korczyńska 02 nż
-1965	5	213739	06:09:00	06:09:00		Baligrodzka 01
+1965	4	213739	05:44:00	05:44:00		Dworaka targ 01
+1965	4	213739	05:47:00	05:47:00		Piłsudskiego ZDZ 02
+1965	4	213739	05:48:00	05:48:00		Pl. Wolności 04
+1965	4	213739	05:50:00	05:50:00		Piłsudskiego U. Marszałkowski 08
+1965	4	213739	05:52:00	05:52:00		Krakowska jedn. wojskowa 02
+1965	4	213739	05:54:00	05:54:00		Okulickiego centrum handlowe 02
+1965	4	213739	05:55:00	05:55:00		Okulickiego / Zwierzyniecka 04 nż
+1965	4	213739	05:56:00	05:56:00		Wyzwolenia / Iranka-Osmeckiego 08
+1965	4	213739	05:57:00	05:57:00		Wyzwolenia / Brydaka 10
+1965	4	213739	05:58:00	05:58:00		Ofiar Katynia / Wyzwolenia 02
+1965	4	213739	05:59:00	05:59:00		Ofiar Katynia kładka 04
+1965	4	213739	06:00:00	06:00:00		Ofiar Katynia galeria 06
+1965	4	213739	06:02:00	06:02:00		Ustrzycka pętla 02 nż
+1965	4	213739	06:03:00	06:03:00		Sanocka / Krośnieńska 02 nż
+1965	4	213739	06:04:00	06:04:00		Bł. Karoliny / Sanocka 04 nż
+1965	4	213739	06:05:00	06:05:00		Bł. Karoliny przedszkole 06
+1965	4	213739	06:06:00	06:06:00		Odrzykońska / Bł. Karoliny 02 nż
+1965	4	213739	06:07:00	06:07:00		Odrzykońska / Baligrodzka 04 nż
+1965	4	213739	06:08:00	06:08:00		Iwonicka / Korczyńska 02 nż
+1965	4	213739	06:09:00	06:09:00		Baligrodzka 01
 
-1823	5	212246	06:10:00	06:10:00		Baligrodzka 01
-1823	5	212246	06:11:00	06:11:00		Iwonicka / Korczyńska 01 nż
-1823	5	212246	06:12:00	06:12:00		Odrzykońska / Iwonicka 01 nż
-1823	5	212246	06:14:00	06:14:00		Bł. Karoliny pętla 09
-1823	5	212246	06:15:00	06:15:00		Bł. Karoliny przedszkole 07
-1823	5	212246	06:16:00	06:16:00		Bł. Karoliny / Nowosądecka 05 nż
-1823	5	212246	06:17:00	06:17:00		Sanocka / Krośnieńska 01 nż
-1823	5	212246	06:19:00	06:19:00		Ustrzycka pętla 01 nż
-1823	5	212246	06:22:00	06:22:00		Ofiar Katynia park 03
-1823	5	212246	06:23:00	06:23:00		Ofiar Katynia kładka 01
-1823	5	212246	06:24:00	06:24:00		Wyzwolenia / Ofiar Katynia 09
-1823	5	212246	06:25:00	06:25:00		Wyzwolenia kościół 07
-1823	5	212246	06:26:00	06:26:00		Okulickiego / Wyzwolenia 05 nż
-1823	5	212246	06:27:00	06:27:00		Okulickiego / Zwierzyniecka 03 nż
-1823	5	212246	06:28:00	06:28:00		Okulickiego centrum handlowe 01
-1823	5	212246	06:31:00	06:31:00		Krakowska jedn. wojskowa 01
-1823	5	212246	06:33:00	06:33:00		Piłsudskiego U. Wojewódzki 05
-1823	5	212246	06:34:00	06:34:00		Pl. Wolności 03
-1823	5	212246	06:35:00	06:35:00		Piłsudskiego ZDZ 01 nż
-1823	5	212246	06:37:00	06:37:00		Dworaka targ 01
+1823	4	212246	06:10:00	06:10:00		Baligrodzka 01
+1823	4	212246	06:11:00	06:11:00		Iwonicka / Korczyńska 01 nż
+1823	4	212246	06:12:00	06:12:00		Odrzykońska / Iwonicka 01 nż
+1823	4	212246	06:14:00	06:14:00		Bł. Karoliny pętla 09
+1823	4	212246	06:15:00	06:15:00		Bł. Karoliny przedszkole 07
+1823	4	212246	06:16:00	06:16:00		Bł. Karoliny / Nowosądecka 05 nż
+1823	4	212246	06:17:00	06:17:00		Sanocka / Krośnieńska 01 nż
+1823	4	212246	06:19:00	06:19:00		Ustrzycka pętla 01 nż
+1823	4	212246	06:22:00	06:22:00		Ofiar Katynia park 03
+1823	4	212246	06:23:00	06:23:00		Ofiar Katynia kładka 01
+1823	4	212246	06:24:00	06:24:00		Wyzwolenia / Ofiar Katynia 09
+1823	4	212246	06:25:00	06:25:00		Wyzwolenia kościół 07
+1823	4	212246	06:26:00	06:26:00		Okulickiego / Wyzwolenia 05 nż
+1823	4	212246	06:27:00	06:27:00		Okulickiego / Zwierzyniecka 03 nż
+1823	4	212246	06:28:00	06:28:00		Okulickiego centrum handlowe 01
+1823	4	212246	06:31:00	06:31:00		Krakowska jedn. wojskowa 01
+1823	4	212246	06:33:00	06:33:00		Piłsudskiego U. Wojewódzki 05
+1823	4	212246	06:34:00	06:34:00		Pl. Wolności 03
+1823	4	212246	06:35:00	06:35:00		Piłsudskiego ZDZ 01 nż
+1823	4	212246	06:37:00	06:37:00		Dworaka targ 01
 
-1965	5	213152	06:43:00	06:43:00		Dworaka targ 01
-1965	5	213152	06:46:00	06:46:00		Piłsudskiego ZDZ 02
-1965	5	213152	06:48:00	06:48:00		Pl. Wolności 04
-1965	5	213152	06:50:00	06:50:00		Piłsudskiego U. Marszałkowski 08
-1965	5	213152	06:52:00	06:52:00		Krakowska jedn. wojskowa 02
-1965	5	213152	06:54:00	06:54:00		Okulickiego centrum handlowe 02
-1965	5	213152	06:55:00	06:55:00		Okulickiego / Zwierzyniecka 04 nż
-1965	5	213152	06:57:00	06:57:00		Wyzwolenia / Iranka-Osmeckiego 08
-1965	5	213152	06:58:00	06:58:00		Wyzwolenia / Brydaka 10
-1965	5	213152	06:59:00	06:59:00		Ofiar Katynia / Wyzwolenia 02
-1965	5	213152	07:00:00	07:00:00		Ofiar Katynia kładka 04
-1965	5	213152	07:01:00	07:01:00		Ofiar Katynia galeria 06
-1965	5	213152	07:03:00	07:03:00		Ustrzycka pętla 02 nż
-1965	5	213152	07:04:00	07:04:00		Sanocka / Krośnieńska 02 nż
-1965	5	213152	07:05:00	07:05:00		Bł. Karoliny / Sanocka 04 nż
-1965	5	213152	07:06:00	07:06:00		Bł. Karoliny przedszkole 06
-1965	5	213152	07:07:00	07:07:00		Odrzykońska / Bł. Karoliny 02 nż
-1965	5	213152	07:08:00	07:08:00		Odrzykońska / Baligrodzka 04 nż
-1965	5	213152	07:09:00	07:09:00		Iwonicka / Korczyńska 02 nż
-1965	5	213152	07:10:00	07:10:00		Baligrodzka 01
+1965	4	213152	06:43:00	06:43:00		Dworaka targ 01
+1965	4	213152	06:46:00	06:46:00		Piłsudskiego ZDZ 02
+1965	4	213152	06:48:00	06:48:00		Pl. Wolności 04
+1965	4	213152	06:50:00	06:50:00		Piłsudskiego U. Marszałkowski 08
+1965	4	213152	06:52:00	06:52:00		Krakowska jedn. wojskowa 02
+1965	4	213152	06:54:00	06:54:00		Okulickiego centrum handlowe 02
+1965	4	213152	06:55:00	06:55:00		Okulickiego / Zwierzyniecka 04 nż
+1965	4	213152	06:57:00	06:57:00		Wyzwolenia / Iranka-Osmeckiego 08
+1965	4	213152	06:58:00	06:58:00		Wyzwolenia / Brydaka 10
+1965	4	213152	06:59:00	06:59:00		Ofiar Katynia / Wyzwolenia 02
+1965	4	213152	07:00:00	07:00:00		Ofiar Katynia kładka 04
+1965	4	213152	07:01:00	07:01:00		Ofiar Katynia galeria 06
+1965	4	213152	07:03:00	07:03:00		Ustrzycka pętla 02 nż
+1965	4	213152	07:04:00	07:04:00		Sanocka / Krośnieńska 02 nż
+1965	4	213152	07:05:00	07:05:00		Bł. Karoliny / Sanocka 04 nż
+1965	4	213152	07:06:00	07:06:00		Bł. Karoliny przedszkole 06
+1965	4	213152	07:07:00	07:07:00		Odrzykońska / Bł. Karoliny 02 nż
+1965	4	213152	07:08:00	07:08:00		Odrzykońska / Baligrodzka 04 nż
+1965	4	213152	07:09:00	07:09:00		Iwonicka / Korczyńska 02 nż
+1965	4	213152	07:10:00	07:10:00		Baligrodzka 01
 
-1823	5	208498	07:30:00	07:30:00		Baligrodzka 01
-1823	5	208498	07:31:00	07:31:00		Iwonicka / Korczyńska 01 nż
-1823	5	208498	07:32:00	07:32:00		Odrzykońska / Iwonicka 01 nż
-1823	5	208498	07:34:00	07:34:00		Bł. Karoliny pętla 09
-1823	5	208498	07:35:00	07:35:00		Bł. Karoliny przedszkole 07
-1823	5	208498	07:36:00	07:36:00		Bł. Karoliny / Nowosądecka 05 nż
-1823	5	208498	07:37:00	07:37:00		Sanocka / Krośnieńska 01 nż
-1823	5	208498	07:39:00	07:39:00		Ustrzycka pętla 01 nż
-1823	5	208498	07:42:00	07:42:00		Ofiar Katynia park 03
-1823	5	208498	07:43:00	07:43:00		Ofiar Katynia kładka 01
-1823	5	208498	07:44:00	07:44:00		Wyzwolenia / Ofiar Katynia 09
-1823	5	208498	07:45:00	07:45:00		Wyzwolenia kościół 07
-1823	5	208498	07:46:00	07:46:00		Okulickiego / Wyzwolenia 05 nż
-1823	5	208498	07:47:00	07:47:00		Okulickiego / Zwierzyniecka 03 nż
-1823	5	208498	07:48:00	07:48:00		Okulickiego centrum handlowe 01
-1823	5	208498	07:51:00	07:51:00		Krakowska jedn. wojskowa 01
-1823	5	208498	07:53:00	07:53:00		Piłsudskiego U. Wojewódzki 05
-1823	5	208498	07:54:00	07:54:00		Pl. Wolności 03
-1823	5	208498	07:55:00	07:55:00		Piłsudskiego ZDZ 01 nż
-1823	5	208498	07:57:00	07:57:00		Dworaka targ 01
+1823	4	208498	07:30:00	07:30:00		Baligrodzka 01
+1823	4	208498	07:31:00	07:31:00		Iwonicka / Korczyńska 01 nż
+1823	4	208498	07:32:00	07:32:00		Odrzykońska / Iwonicka 01 nż
+1823	4	208498	07:34:00	07:34:00		Bł. Karoliny pętla 09
+1823	4	208498	07:35:00	07:35:00		Bł. Karoliny przedszkole 07
+1823	4	208498	07:36:00	07:36:00		Bł. Karoliny / Nowosądecka 05 nż
+1823	4	208498	07:37:00	07:37:00		Sanocka / Krośnieńska 01 nż
+1823	4	208498	07:39:00	07:39:00		Ustrzycka pętla 01 nż
+1823	4	208498	07:42:00	07:42:00		Ofiar Katynia park 03
+1823	4	208498	07:43:00	07:43:00		Ofiar Katynia kładka 01
+1823	4	208498	07:44:00	07:44:00		Wyzwolenia / Ofiar Katynia 09
+1823	4	208498	07:45:00	07:45:00		Wyzwolenia kościół 07
+1823	4	208498	07:46:00	07:46:00		Okulickiego / Wyzwolenia 05 nż
+1823	4	208498	07:47:00	07:47:00		Okulickiego / Zwierzyniecka 03 nż
+1823	4	208498	07:48:00	07:48:00		Okulickiego centrum handlowe 01
+1823	4	208498	07:51:00	07:51:00		Krakowska jedn. wojskowa 01
+1823	4	208498	07:53:00	07:53:00		Piłsudskiego U. Wojewódzki 05
+1823	4	208498	07:54:00	07:54:00		Pl. Wolności 03
+1823	4	208498	07:55:00	07:55:00		Piłsudskiego ZDZ 01 nż
+1823	4	208498	07:57:00	07:57:00		Dworaka targ 01
 
-1965	5	208680	08:03:00	08:03:00		Dworaka targ 01
-1965	5	208680	08:06:00	08:06:00		Piłsudskiego ZDZ 02
-1965	5	208680	08:08:00	08:08:00		Pl. Wolności 04
-1965	5	208680	08:10:00	08:10:00		Piłsudskiego U. Marszałkowski 08
-1965	5	208680	08:12:00	08:12:00		Krakowska jedn. wojskowa 02
-1965	5	208680	08:14:00	08:14:00		Okulickiego centrum handlowe 02
-1965	5	208680	08:15:00	08:15:00		Okulickiego / Zwierzyniecka 04 nż
-1965	5	208680	08:17:00	08:17:00		Wyzwolenia / Iranka-Osmeckiego 08
-1965	5	208680	08:18:00	08:18:00		Wyzwolenia / Brydaka 10
-1965	5	208680	08:19:00	08:19:00		Ofiar Katynia / Wyzwolenia 02
-1965	5	208680	08:20:00	08:20:00		Ofiar Katynia kładka 04
-1965	5	208680	08:21:00	08:21:00		Ofiar Katynia galeria 06
-1965	5	208680	08:23:00	08:23:00		Ustrzycka pętla 02 nż
-1965	5	208680	08:24:00	08:24:00		Sanocka / Krośnieńska 02 nż
-1965	5	208680	08:25:00	08:25:00		Bł. Karoliny / Sanocka 04 nż
-1965	5	208680	08:26:00	08:26:00		Bł. Karoliny przedszkole 06
-1965	5	208680	08:27:00	08:27:00		Odrzykońska / Bł. Karoliny 02 nż
-1965	5	208680	08:28:00	08:28:00		Odrzykońska / Baligrodzka 04 nż
-1965	5	208680	08:29:00	08:29:00		Iwonicka / Korczyńska 02 nż
-1965	5	208680	08:30:00	08:30:00		Baligrodzka 01
+1965	4	208680	08:03:00	08:03:00		Dworaka targ 01
+1965	4	208680	08:06:00	08:06:00		Piłsudskiego ZDZ 02
+1965	4	208680	08:08:00	08:08:00		Pl. Wolności 04
+1965	4	208680	08:10:00	08:10:00		Piłsudskiego U. Marszałkowski 08
+1965	4	208680	08:12:00	08:12:00		Krakowska jedn. wojskowa 02
+1965	4	208680	08:14:00	08:14:00		Okulickiego centrum handlowe 02
+1965	4	208680	08:15:00	08:15:00		Okulickiego / Zwierzyniecka 04 nż
+1965	4	208680	08:17:00	08:17:00		Wyzwolenia / Iranka-Osmeckiego 08
+1965	4	208680	08:18:00	08:18:00		Wyzwolenia / Brydaka 10
+1965	4	208680	08:19:00	08:19:00		Ofiar Katynia / Wyzwolenia 02
+1965	4	208680	08:20:00	08:20:00		Ofiar Katynia kładka 04
+1965	4	208680	08:21:00	08:21:00		Ofiar Katynia galeria 06
+1965	4	208680	08:23:00	08:23:00		Ustrzycka pętla 02 nż
+1965	4	208680	08:24:00	08:24:00		Sanocka / Krośnieńska 02 nż
+1965	4	208680	08:25:00	08:25:00		Bł. Karoliny / Sanocka 04 nż
+1965	4	208680	08:26:00	08:26:00		Bł. Karoliny przedszkole 06
+1965	4	208680	08:27:00	08:27:00		Odrzykońska / Bł. Karoliny 02 nż
+1965	4	208680	08:28:00	08:28:00		Odrzykońska / Baligrodzka 04 nż
+1965	4	208680	08:29:00	08:29:00		Iwonicka / Korczyńska 02 nż
+1965	4	208680	08:30:00	08:30:00		Baligrodzka 01
 
-1823	5	214539	08:50:00	08:50:00		Baligrodzka 01
-1823	5	214539	08:51:00	08:51:00		Iwonicka / Korczyńska 01 nż
-1823	5	214539	08:52:00	08:52:00		Odrzykońska / Iwonicka 01 nż
-1823	5	214539	08:54:00	08:54:00		Bł. Karoliny pętla 09
-1823	5	214539	08:55:00	08:55:00		Bł. Karoliny przedszkole 07
-1823	5	214539	08:56:00	08:56:00		Bł. Karoliny / Nowosądecka 05 nż
-1823	5	214539	08:57:00	08:57:00		Sanocka / Krośnieńska 01 nż
-1823	5	214539	08:59:00	08:59:00		Ustrzycka pętla 01 nż
-1823	5	214539	09:02:00	09:02:00		Ofiar Katynia park 03
-1823	5	214539	09:03:00	09:03:00		Ofiar Katynia kładka 01
-1823	5	214539	09:04:00	09:04:00		Wyzwolenia / Ofiar Katynia 09
-1823	5	214539	09:05:00	09:05:00		Wyzwolenia kościół 07
-1823	5	214539	09:06:00	09:06:00		Okulickiego / Wyzwolenia 05 nż
-1823	5	214539	09:07:00	09:07:00		Okulickiego / Zwierzyniecka 03 nż
-1823	5	214539	09:08:00	09:08:00		Okulickiego centrum handlowe 01
-1823	5	214539	09:11:00	09:11:00		Krakowska jedn. wojskowa 01
-1823	5	214539	09:14:00	09:14:00		Piłsudskiego U. Wojewódzki 05
-1823	5	214539	09:15:00	09:15:00		Pl. Wolności 03
-1823	5	214539	09:16:00	09:16:00		Piłsudskiego ZDZ 01 nż
-1823	5	214539	09:19:00	09:19:00		Dworaka targ 01
+1823	4	214539	08:50:00	08:50:00		Baligrodzka 01
+1823	4	214539	08:51:00	08:51:00		Iwonicka / Korczyńska 01 nż
+1823	4	214539	08:52:00	08:52:00		Odrzykońska / Iwonicka 01 nż
+1823	4	214539	08:54:00	08:54:00		Bł. Karoliny pętla 09
+1823	4	214539	08:55:00	08:55:00		Bł. Karoliny przedszkole 07
+1823	4	214539	08:56:00	08:56:00		Bł. Karoliny / Nowosądecka 05 nż
+1823	4	214539	08:57:00	08:57:00		Sanocka / Krośnieńska 01 nż
+1823	4	214539	08:59:00	08:59:00		Ustrzycka pętla 01 nż
+1823	4	214539	09:02:00	09:02:00		Ofiar Katynia park 03
+1823	4	214539	09:03:00	09:03:00		Ofiar Katynia kładka 01
+1823	4	214539	09:04:00	09:04:00		Wyzwolenia / Ofiar Katynia 09
+1823	4	214539	09:05:00	09:05:00		Wyzwolenia kościół 07
+1823	4	214539	09:06:00	09:06:00		Okulickiego / Wyzwolenia 05 nż
+1823	4	214539	09:07:00	09:07:00		Okulickiego / Zwierzyniecka 03 nż
+1823	4	214539	09:08:00	09:08:00		Okulickiego centrum handlowe 01
+1823	4	214539	09:11:00	09:11:00		Krakowska jedn. wojskowa 01
+1823	4	214539	09:14:00	09:14:00		Piłsudskiego U. Wojewódzki 05
+1823	4	214539	09:15:00	09:15:00		Pl. Wolności 03
+1823	4	214539	09:16:00	09:16:00		Piłsudskiego ZDZ 01 nż
+1823	4	214539	09:19:00	09:19:00		Dworaka targ 01
 
-1965	5	211373	09:22:00	09:22:00		Dworaka targ 01
-1965	5	211373	09:25:00	09:25:00		Piłsudskiego ZDZ 02
-1965	5	211373	09:27:00	09:27:00		Pl. Wolności 04
-1965	5	211373	09:30:00	09:30:00		Piłsudskiego U. Marszałkowski 08
-1965	5	211373	09:32:00	09:32:00		Krakowska jedn. wojskowa 02
-1965	5	211373	09:34:00	09:34:00		Okulickiego centrum handlowe 02
-1965	5	211373	09:35:00	09:35:00		Okulickiego / Zwierzyniecka 04 nż
-1965	5	211373	09:37:00	09:37:00		Wyzwolenia / Iranka-Osmeckiego 08
-1965	5	211373	09:38:00	09:38:00		Wyzwolenia / Brydaka 10
-1965	5	211373	09:39:00	09:39:00		Ofiar Katynia / Wyzwolenia 02
-1965	5	211373	09:40:00	09:40:00		Ofiar Katynia kładka 04
-1965	5	211373	09:41:00	09:41:00		Ofiar Katynia galeria 06
-1965	5	211373	09:43:00	09:43:00		Ustrzycka pętla 02 nż
-1965	5	211373	09:44:00	09:44:00		Sanocka / Krośnieńska 02 nż
-1965	5	211373	09:45:00	09:45:00		Bł. Karoliny / Sanocka 04 nż
-1965	5	211373	09:46:00	09:46:00		Bł. Karoliny przedszkole 06
-1965	5	211373	09:47:00	09:47:00		Odrzykońska / Bł. Karoliny 02 nż
-1965	5	211373	09:48:00	09:48:00		Odrzykońska / Baligrodzka 04 nż
-1965	5	211373	09:49:00	09:49:00		Iwonicka / Korczyńska 02 nż
-1965	5	211373	09:50:00	09:50:00		Baligrodzka 01
+1965	4	211373	09:22:00	09:22:00		Dworaka targ 01
+1965	4	211373	09:25:00	09:25:00		Piłsudskiego ZDZ 02
+1965	4	211373	09:27:00	09:27:00		Pl. Wolności 04
+1965	4	211373	09:30:00	09:30:00		Piłsudskiego U. Marszałkowski 08
+1965	4	211373	09:32:00	09:32:00		Krakowska jedn. wojskowa 02
+1965	4	211373	09:34:00	09:34:00		Okulickiego centrum handlowe 02
+1965	4	211373	09:35:00	09:35:00		Okulickiego / Zwierzyniecka 04 nż
+1965	4	211373	09:37:00	09:37:00		Wyzwolenia / Iranka-Osmeckiego 08
+1965	4	211373	09:38:00	09:38:00		Wyzwolenia / Brydaka 10
+1965	4	211373	09:39:00	09:39:00		Ofiar Katynia / Wyzwolenia 02
+1965	4	211373	09:40:00	09:40:00		Ofiar Katynia kładka 04
+1965	4	211373	09:41:00	09:41:00		Ofiar Katynia galeria 06
+1965	4	211373	09:43:00	09:43:00		Ustrzycka pętla 02 nż
+1965	4	211373	09:44:00	09:44:00		Sanocka / Krośnieńska 02 nż
+1965	4	211373	09:45:00	09:45:00		Bł. Karoliny / Sanocka 04 nż
+1965	4	211373	09:46:00	09:46:00		Bł. Karoliny przedszkole 06
+1965	4	211373	09:47:00	09:47:00		Odrzykońska / Bł. Karoliny 02 nż
+1965	4	211373	09:48:00	09:48:00		Odrzykońska / Baligrodzka 04 nż
+1965	4	211373	09:49:00	09:49:00		Iwonicka / Korczyńska 02 nż
+1965	4	211373	09:50:00	09:50:00		Baligrodzka 01
 
-1823	5	215801	10:15:00	10:15:00		Baligrodzka 01
-1823	5	215801	10:16:00	10:16:00		Iwonicka / Korczyńska 01 nż
-1823	5	215801	10:17:00	10:17:00		Odrzykońska / Iwonicka 01 nż
-1823	5	215801	10:19:00	10:19:00		Bł. Karoliny pętla 09
-1823	5	215801	10:20:00	10:20:00		Bł. Karoliny przedszkole 07
-1823	5	215801	10:21:00	10:21:00		Bł. Karoliny / Nowosądecka 05 nż
-1823	5	215801	10:22:00	10:22:00		Sanocka / Krośnieńska 01 nż
-1823	5	215801	10:24:00	10:24:00		Ustrzycka pętla 01 nż
-1823	5	215801	10:27:00	10:27:00		Ofiar Katynia park 03
-1823	5	215801	10:28:00	10:28:00		Ofiar Katynia kładka 01
-1823	5	215801	10:29:00	10:29:00		Wyzwolenia / Ofiar Katynia 09
-1823	5	215801	10:30:00	10:30:00		Wyzwolenia kościół 07
-1823	5	215801	10:31:00	10:31:00		Okulickiego / Wyzwolenia 05 nż
-1823	5	215801	10:32:00	10:32:00		Okulickiego / Zwierzyniecka 03 nż
-1823	5	215801	10:33:00	10:33:00		Okulickiego centrum handlowe 01
-1823	5	215801	10:36:00	10:36:00		Krakowska jedn. wojskowa 01
-1823	5	215801	10:39:00	10:39:00		Piłsudskiego U. Wojewódzki 05
-1823	5	215801	10:40:00	10:40:00		Pl. Wolności 03
-1823	5	215801	10:41:00	10:41:00		Piłsudskiego ZDZ 01 nż
-1823	5	215801	10:44:00	10:44:00		Dworaka targ 01
+1823	4	215801	10:15:00	10:15:00		Baligrodzka 01
+1823	4	215801	10:16:00	10:16:00		Iwonicka / Korczyńska 01 nż
+1823	4	215801	10:17:00	10:17:00		Odrzykońska / Iwonicka 01 nż
+1823	4	215801	10:19:00	10:19:00		Bł. Karoliny pętla 09
+1823	4	215801	10:20:00	10:20:00		Bł. Karoliny przedszkole 07
+1823	4	215801	10:21:00	10:21:00		Bł. Karoliny / Nowosądecka 05 nż
+1823	4	215801	10:22:00	10:22:00		Sanocka / Krośnieńska 01 nż
+1823	4	215801	10:24:00	10:24:00		Ustrzycka pętla 01 nż
+1823	4	215801	10:27:00	10:27:00		Ofiar Katynia park 03
+1823	4	215801	10:28:00	10:28:00		Ofiar Katynia kładka 01
+1823	4	215801	10:29:00	10:29:00		Wyzwolenia / Ofiar Katynia 09
+1823	4	215801	10:30:00	10:30:00		Wyzwolenia kościół 07
+1823	4	215801	10:31:00	10:31:00		Okulickiego / Wyzwolenia 05 nż
+1823	4	215801	10:32:00	10:32:00		Okulickiego / Zwierzyniecka 03 nż
+1823	4	215801	10:33:00	10:33:00		Okulickiego centrum handlowe 01
+1823	4	215801	10:36:00	10:36:00		Krakowska jedn. wojskowa 01
+1823	4	215801	10:39:00	10:39:00		Piłsudskiego U. Wojewódzki 05
+1823	4	215801	10:40:00	10:40:00		Pl. Wolności 03
+1823	4	215801	10:41:00	10:41:00		Piłsudskiego ZDZ 01 nż
+1823	4	215801	10:44:00	10:44:00		Dworaka targ 01
 
-1965	5	208649	11:02:00	11:02:00		Dworaka targ 01
-1965	5	208649	11:05:00	11:05:00		Piłsudskiego ZDZ 02
-1965	5	208649	11:07:00	11:07:00		Pl. Wolności 04
-1965	5	208649	11:10:00	11:10:00		Piłsudskiego U. Marszałkowski 08
-1965	5	208649	11:12:00	11:12:00		Krakowska jedn. wojskowa 02
-1965	5	208649	11:14:00	11:14:00		Okulickiego centrum handlowe 02
-1965	5	208649	11:15:00	11:15:00		Okulickiego / Zwierzyniecka 04 nż
-1965	5	208649	11:17:00	11:17:00		Wyzwolenia / Iranka-Osmeckiego 08
-1965	5	208649	11:18:00	11:18:00		Wyzwolenia / Brydaka 10
-1965	5	208649	11:20:00	11:20:00		Ofiar Katynia / Wyzwolenia 02
-1965	5	208649	11:21:00	11:21:00		Ofiar Katynia kładka 04
-1965	5	208649	11:22:00	11:22:00		Ofiar Katynia galeria 06
-1965	5	208649	11:24:00	11:24:00		Ustrzycka pętla 02 nż
-1965	5	208649	11:25:00	11:25:00		Sanocka / Krośnieńska 02 nż
-1965	5	208649	11:26:00	11:26:00		Bł. Karoliny / Sanocka 04 nż
-1965	5	208649	11:27:00	11:27:00		Bł. Karoliny przedszkole 06
-1965	5	208649	11:28:00	11:28:00		Odrzykońska / Bł. Karoliny 02 nż
-1965	5	208649	11:29:00	11:29:00		Odrzykońska / Baligrodzka 04 nż
-1965	5	208649	11:30:00	11:30:00		Iwonicka / Korczyńska 02 nż
-1965	5	208649	11:31:00	11:31:00		Baligrodzka 01
+1965	4	208649	11:02:00	11:02:00		Dworaka targ 01
+1965	4	208649	11:05:00	11:05:00		Piłsudskiego ZDZ 02
+1965	4	208649	11:07:00	11:07:00		Pl. Wolności 04
+1965	4	208649	11:10:00	11:10:00		Piłsudskiego U. Marszałkowski 08
+1965	4	208649	11:12:00	11:12:00		Krakowska jedn. wojskowa 02
+1965	4	208649	11:14:00	11:14:00		Okulickiego centrum handlowe 02
+1965	4	208649	11:15:00	11:15:00		Okulickiego / Zwierzyniecka 04 nż
+1965	4	208649	11:17:00	11:17:00		Wyzwolenia / Iranka-Osmeckiego 08
+1965	4	208649	11:18:00	11:18:00		Wyzwolenia / Brydaka 10
+1965	4	208649	11:20:00	11:20:00		Ofiar Katynia / Wyzwolenia 02
+1965	4	208649	11:21:00	11:21:00		Ofiar Katynia kładka 04
+1965	4	208649	11:22:00	11:22:00		Ofiar Katynia galeria 06
+1965	4	208649	11:24:00	11:24:00		Ustrzycka pętla 02 nż
+1965	4	208649	11:25:00	11:25:00		Sanocka / Krośnieńska 02 nż
+1965	4	208649	11:26:00	11:26:00		Bł. Karoliny / Sanocka 04 nż
+1965	4	208649	11:27:00	11:27:00		Bł. Karoliny przedszkole 06
+1965	4	208649	11:28:00	11:28:00		Odrzykońska / Bł. Karoliny 02 nż
+1965	4	208649	11:29:00	11:29:00		Odrzykońska / Baligrodzka 04 nż
+1965	4	208649	11:30:00	11:30:00		Iwonicka / Korczyńska 02 nż
+1965	4	208649	11:31:00	11:31:00		Baligrodzka 01
 
-1823	5	209888	11:45:00	11:45:00		Baligrodzka 01
-1823	5	209888	11:46:00	11:46:00		Iwonicka / Korczyńska 01 nż
-1823	5	209888	11:47:00	11:47:00		Odrzykońska / Iwonicka 01 nż
-1823	5	209888	11:49:00	11:49:00		Bł. Karoliny pętla 09
-1823	5	209888	11:50:00	11:50:00		Bł. Karoliny przedszkole 07
-1823	5	209888	11:51:00	11:51:00		Bł. Karoliny / Nowosądecka 05 nż
-1823	5	209888	11:52:00	11:52:00		Sanocka / Krośnieńska 01 nż
-1823	5	209888	11:54:00	11:54:00		Ustrzycka pętla 01 nż
-1823	5	209888	11:57:00	11:57:00		Ofiar Katynia park 03
-1823	5	209888	11:58:00	11:58:00		Ofiar Katynia kładka 01
-1823	5	209888	11:59:00	11:59:00		Wyzwolenia / Ofiar Katynia 09
-1823	5	209888	12:00:00	12:00:00		Wyzwolenia kościół 07
-1823	5	209888	12:01:00	12:01:00		Okulickiego / Wyzwolenia 05 nż
-1823	5	209888	12:02:00	12:02:00		Okulickiego / Zwierzyniecka 03 nż
-1823	5	209888	12:03:00	12:03:00		Okulickiego centrum handlowe 01
-1823	5	209888	12:06:00	12:06:00		Krakowska jedn. wojskowa 01
-1823	5	209888	12:09:00	12:09:00		Piłsudskiego U. Wojewódzki 05
-1823	5	209888	12:10:00	12:10:00		Pl. Wolności 03
-1823	5	209888	12:11:00	12:11:00		Piłsudskiego ZDZ 01 nż
-1823	5	209888	12:14:00	12:14:00		Dworaka targ 01
+1823	4	209888	11:45:00	11:45:00		Baligrodzka 01
+1823	4	209888	11:46:00	11:46:00		Iwonicka / Korczyńska 01 nż
+1823	4	209888	11:47:00	11:47:00		Odrzykońska / Iwonicka 01 nż
+1823	4	209888	11:49:00	11:49:00		Bł. Karoliny pętla 09
+1823	4	209888	11:50:00	11:50:00		Bł. Karoliny przedszkole 07
+1823	4	209888	11:51:00	11:51:00		Bł. Karoliny / Nowosądecka 05 nż
+1823	4	209888	11:52:00	11:52:00		Sanocka / Krośnieńska 01 nż
+1823	4	209888	11:54:00	11:54:00		Ustrzycka pętla 01 nż
+1823	4	209888	11:57:00	11:57:00		Ofiar Katynia park 03
+1823	4	209888	11:58:00	11:58:00		Ofiar Katynia kładka 01
+1823	4	209888	11:59:00	11:59:00		Wyzwolenia / Ofiar Katynia 09
+1823	4	209888	12:00:00	12:00:00		Wyzwolenia kościół 07
+1823	4	209888	12:01:00	12:01:00		Okulickiego / Wyzwolenia 05 nż
+1823	4	209888	12:02:00	12:02:00		Okulickiego / Zwierzyniecka 03 nż
+1823	4	209888	12:03:00	12:03:00		Okulickiego centrum handlowe 01
+1823	4	209888	12:06:00	12:06:00		Krakowska jedn. wojskowa 01
+1823	4	209888	12:09:00	12:09:00		Piłsudskiego U. Wojewódzki 05
+1823	4	209888	12:10:00	12:10:00		Pl. Wolności 03
+1823	4	209888	12:11:00	12:11:00		Piłsudskiego ZDZ 01 nż
+1823	4	209888	12:14:00	12:14:00		Dworaka targ 01
 
-1965	5	212479	12:27:00	12:27:00		Dworaka targ 01
-1965	5	212479	12:30:00	12:30:00		Piłsudskiego ZDZ 02
-1965	5	212479	12:32:00	12:32:00		Pl. Wolności 04
-1965	5	212479	12:35:00	12:35:00		Piłsudskiego U. Marszałkowski 08
-1965	5	212479	12:37:00	12:37:00		Krakowska jedn. wojskowa 02
-1965	5	212479	12:39:00	12:39:00		Okulickiego centrum handlowe 02
-1965	5	212479	12:40:00	12:40:00		Okulickiego / Zwierzyniecka 04 nż
-1965	5	212479	12:42:00	12:42:00		Wyzwolenia / Iranka-Osmeckiego 08
-1965	5	212479	12:43:00	12:43:00		Wyzwolenia / Brydaka 10
-1965	5	212479	12:45:00	12:45:00		Ofiar Katynia / Wyzwolenia 02
-1965	5	212479	12:46:00	12:46:00		Ofiar Katynia kładka 04
-1965	5	212479	12:47:00	12:47:00		Ofiar Katynia galeria 06
-1965	5	212479	12:49:00	12:49:00		Ustrzycka pętla 02 nż
-1965	5	212479	12:50:00	12:50:00		Sanocka / Krośnieńska 02 nż
-1965	5	212479	12:51:00	12:51:00		Bł. Karoliny / Sanocka 04 nż
-1965	5	212479	12:52:00	12:52:00		Bł. Karoliny przedszkole 06
-1965	5	212479	12:53:00	12:53:00		Odrzykońska / Bł. Karoliny 02 nż
-1965	5	212479	12:54:00	12:54:00		Odrzykońska / Baligrodzka 04 nż
-1965	5	212479	12:55:00	12:55:00		Iwonicka / Korczyńska 02 nż
-1965	5	212479	12:56:00	12:56:00		Baligrodzka 01
+1965	4	212479	12:27:00	12:27:00		Dworaka targ 01
+1965	4	212479	12:30:00	12:30:00		Piłsudskiego ZDZ 02
+1965	4	212479	12:32:00	12:32:00		Pl. Wolności 04
+1965	4	212479	12:35:00	12:35:00		Piłsudskiego U. Marszałkowski 08
+1965	4	212479	12:37:00	12:37:00		Krakowska jedn. wojskowa 02
+1965	4	212479	12:39:00	12:39:00		Okulickiego centrum handlowe 02
+1965	4	212479	12:40:00	12:40:00		Okulickiego / Zwierzyniecka 04 nż
+1965	4	212479	12:42:00	12:42:00		Wyzwolenia / Iranka-Osmeckiego 08
+1965	4	212479	12:43:00	12:43:00		Wyzwolenia / Brydaka 10
+1965	4	212479	12:45:00	12:45:00		Ofiar Katynia / Wyzwolenia 02
+1965	4	212479	12:46:00	12:46:00		Ofiar Katynia kładka 04
+1965	4	212479	12:47:00	12:47:00		Ofiar Katynia galeria 06
+1965	4	212479	12:49:00	12:49:00		Ustrzycka pętla 02 nż
+1965	4	212479	12:50:00	12:50:00		Sanocka / Krośnieńska 02 nż
+1965	4	212479	12:51:00	12:51:00		Bł. Karoliny / Sanocka 04 nż
+1965	4	212479	12:52:00	12:52:00		Bł. Karoliny przedszkole 06
+1965	4	212479	12:53:00	12:53:00		Odrzykońska / Bł. Karoliny 02 nż
+1965	4	212479	12:54:00	12:54:00		Odrzykońska / Baligrodzka 04 nż
+1965	4	212479	12:55:00	12:55:00		Iwonicka / Korczyńska 02 nż
+1965	4	212479	12:56:00	12:56:00		Baligrodzka 01
 
-1823	5	211553	13:15:00	13:15:00		Baligrodzka 01
-1823	5	211553	13:16:00	13:16:00		Iwonicka / Korczyńska 01 nż
-1823	5	211553	13:17:00	13:17:00		Odrzykońska / Iwonicka 01 nż
-1823	5	211553	13:19:00	13:19:00		Bł. Karoliny pętla 09
-1823	5	211553	13:20:00	13:20:00		Bł. Karoliny przedszkole 07
-1823	5	211553	13:21:00	13:21:00		Bł. Karoliny / Nowosądecka 05 nż
-1823	5	211553	13:22:00	13:22:00		Sanocka / Krośnieńska 01 nż
-1823	5	211553	13:24:00	13:24:00		Ustrzycka pętla 01 nż
-1823	5	211553	13:27:00	13:27:00		Ofiar Katynia park 03
-1823	5	211553	13:28:00	13:28:00		Ofiar Katynia kładka 01
-1823	5	211553	13:29:00	13:29:00		Wyzwolenia / Ofiar Katynia 09
-1823	5	211553	13:30:00	13:30:00		Wyzwolenia kościół 07
-1823	5	211553	13:31:00	13:31:00		Okulickiego / Wyzwolenia 05 nż
-1823	5	211553	13:32:00	13:32:00		Okulickiego / Zwierzyniecka 03 nż
-1823	5	211553	13:33:00	13:33:00		Okulickiego centrum handlowe 01
-1823	5	211553	13:36:00	13:36:00		Krakowska jedn. wojskowa 01
-1823	5	211553	13:39:00	13:39:00		Piłsudskiego U. Wojewódzki 05
-1823	5	211553	13:40:00	13:40:00		Pl. Wolności 03
-1823	5	211553	13:41:00	13:41:00		Piłsudskiego ZDZ 01 nż
-1823	5	211553	13:44:00	13:44:00		Dworaka targ 01
+1823	4	211553	13:15:00	13:15:00		Baligrodzka 01
+1823	4	211553	13:16:00	13:16:00		Iwonicka / Korczyńska 01 nż
+1823	4	211553	13:17:00	13:17:00		Odrzykońska / Iwonicka 01 nż
+1823	4	211553	13:19:00	13:19:00		Bł. Karoliny pętla 09
+1823	4	211553	13:20:00	13:20:00		Bł. Karoliny przedszkole 07
+1823	4	211553	13:21:00	13:21:00		Bł. Karoliny / Nowosądecka 05 nż
+1823	4	211553	13:22:00	13:22:00		Sanocka / Krośnieńska 01 nż
+1823	4	211553	13:24:00	13:24:00		Ustrzycka pętla 01 nż
+1823	4	211553	13:27:00	13:27:00		Ofiar Katynia park 03
+1823	4	211553	13:28:00	13:28:00		Ofiar Katynia kładka 01
+1823	4	211553	13:29:00	13:29:00		Wyzwolenia / Ofiar Katynia 09
+1823	4	211553	13:30:00	13:30:00		Wyzwolenia kościół 07
+1823	4	211553	13:31:00	13:31:00		Okulickiego / Wyzwolenia 05 nż
+1823	4	211553	13:32:00	13:32:00		Okulickiego / Zwierzyniecka 03 nż
+1823	4	211553	13:33:00	13:33:00		Okulickiego centrum handlowe 01
+1823	4	211553	13:36:00	13:36:00		Krakowska jedn. wojskowa 01
+1823	4	211553	13:39:00	13:39:00		Piłsudskiego U. Wojewódzki 05
+1823	4	211553	13:40:00	13:40:00		Pl. Wolności 03
+1823	4	211553	13:41:00	13:41:00		Piłsudskiego ZDZ 01 nż
+1823	4	211553	13:44:00	13:44:00		Dworaka targ 01
 
-1965	5	212727	13:57:00	13:57:00		Dworaka targ 01
-1965	5	212727	14:00:00	14:00:00		Piłsudskiego ZDZ 02
-1965	5	212727	14:02:00	14:02:00		Pl. Wolności 04
-1965	5	212727	14:05:00	14:05:00		Piłsudskiego U. Marszałkowski 08
-1965	5	212727	14:07:00	14:07:00		Krakowska jedn. wojskowa 02
-1965	5	212727	14:09:00	14:09:00		Okulickiego centrum handlowe 02
-1965	5	212727	14:10:00	14:10:00		Okulickiego / Zwierzyniecka 04 nż
-1965	5	212727	14:12:00	14:12:00		Wyzwolenia / Iranka-Osmeckiego 08
-1965	5	212727	14:13:00	14:13:00		Wyzwolenia / Brydaka 10
-1965	5	212727	14:15:00	14:15:00		Ofiar Katynia / Wyzwolenia 02
-1965	5	212727	14:16:00	14:16:00		Ofiar Katynia kładka 04
-1965	5	212727	14:17:00	14:17:00		Ofiar Katynia galeria 06
-1965	5	212727	14:19:00	14:19:00		Ustrzycka pętla 02 nż
-1965	5	212727	14:20:00	14:20:00		Sanocka / Krośnieńska 02 nż
-1965	5	212727	14:21:00	14:21:00		Bł. Karoliny / Sanocka 04 nż
-1965	5	212727	14:22:00	14:22:00		Bł. Karoliny przedszkole 06
-1965	5	212727	14:23:00	14:23:00		Odrzykońska / Bł. Karoliny 02 nż
-1965	5	212727	14:24:00	14:24:00		Odrzykońska / Baligrodzka 04 nż
-1965	5	212727	14:25:00	14:25:00		Iwonicka / Korczyńska 02 nż
-1965	5	212727	14:26:00	14:26:00		Baligrodzka 01
+1965	4	212727	13:57:00	13:57:00		Dworaka targ 01
+1965	4	212727	14:00:00	14:00:00		Piłsudskiego ZDZ 02
+1965	4	212727	14:02:00	14:02:00		Pl. Wolności 04
+1965	4	212727	14:05:00	14:05:00		Piłsudskiego U. Marszałkowski 08
+1965	4	212727	14:07:00	14:07:00		Krakowska jedn. wojskowa 02
+1965	4	212727	14:09:00	14:09:00		Okulickiego centrum handlowe 02
+1965	4	212727	14:10:00	14:10:00		Okulickiego / Zwierzyniecka 04 nż
+1965	4	212727	14:12:00	14:12:00		Wyzwolenia / Iranka-Osmeckiego 08
+1965	4	212727	14:13:00	14:13:00		Wyzwolenia / Brydaka 10
+1965	4	212727	14:15:00	14:15:00		Ofiar Katynia / Wyzwolenia 02
+1965	4	212727	14:16:00	14:16:00		Ofiar Katynia kładka 04
+1965	4	212727	14:17:00	14:17:00		Ofiar Katynia galeria 06
+1965	4	212727	14:19:00	14:19:00		Ustrzycka pętla 02 nż
+1965	4	212727	14:20:00	14:20:00		Sanocka / Krośnieńska 02 nż
+1965	4	212727	14:21:00	14:21:00		Bł. Karoliny / Sanocka 04 nż
+1965	4	212727	14:22:00	14:22:00		Bł. Karoliny przedszkole 06
+1965	4	212727	14:23:00	14:23:00		Odrzykońska / Bł. Karoliny 02 nż
+1965	4	212727	14:24:00	14:24:00		Odrzykońska / Baligrodzka 04 nż
+1965	4	212727	14:25:00	14:25:00		Iwonicka / Korczyńska 02 nż
+1965	4	212727	14:26:00	14:26:00		Baligrodzka 01
 
-1823	5	210805	14:30:00	14:30:00		Baligrodzka 01
-1823	5	210805	14:31:00	14:31:00		Iwonicka / Korczyńska 01 nż
-1823	5	210805	14:32:00	14:32:00		Odrzykońska / Iwonicka 01 nż
-1823	5	210805	14:34:00	14:34:00		Bł. Karoliny pętla 09
-1823	5	210805	14:35:00	14:35:00		Bł. Karoliny przedszkole 07
-1823	5	210805	14:36:00	14:36:00		Bł. Karoliny / Nowosądecka 05 nż
-1823	5	210805	14:37:00	14:37:00		Sanocka / Krośnieńska 01 nż
-1823	5	210805	14:39:00	14:39:00		Ustrzycka pętla 01 nż
-1823	5	210805	14:42:00	14:42:00		Ofiar Katynia park 03
-1823	5	210805	14:43:00	14:43:00		Ofiar Katynia kładka 01
-1823	5	210805	14:44:00	14:44:00		Wyzwolenia / Ofiar Katynia 09
-1823	5	210805	14:45:00	14:45:00		Wyzwolenia kościół 07
-1823	5	210805	14:46:00	14:46:00		Okulickiego / Wyzwolenia 05 nż
-1823	5	210805	14:47:00	14:47:00		Okulickiego / Zwierzyniecka 03 nż
-1823	5	210805	14:49:00	14:49:00		Okulickiego centrum handlowe 01
-1823	5	210805	14:52:00	14:52:00		Krakowska jedn. wojskowa 01
-1823	5	210805	14:55:00	14:55:00		Piłsudskiego U. Wojewódzki 05
-1823	5	210805	14:57:00	14:57:00		Pl. Wolności 03
-1823	5	210805	14:58:00	14:58:00		Piłsudskiego ZDZ 01 nż
-1823	5	210805	15:01:00	15:01:00		Dworaka targ 01
+1823	4	210805	14:30:00	14:30:00		Baligrodzka 01
+1823	4	210805	14:31:00	14:31:00		Iwonicka / Korczyńska 01 nż
+1823	4	210805	14:32:00	14:32:00		Odrzykońska / Iwonicka 01 nż
+1823	4	210805	14:34:00	14:34:00		Bł. Karoliny pętla 09
+1823	4	210805	14:35:00	14:35:00		Bł. Karoliny przedszkole 07
+1823	4	210805	14:36:00	14:36:00		Bł. Karoliny / Nowosądecka 05 nż
+1823	4	210805	14:37:00	14:37:00		Sanocka / Krośnieńska 01 nż
+1823	4	210805	14:39:00	14:39:00		Ustrzycka pętla 01 nż
+1823	4	210805	14:42:00	14:42:00		Ofiar Katynia park 03
+1823	4	210805	14:43:00	14:43:00		Ofiar Katynia kładka 01
+1823	4	210805	14:44:00	14:44:00		Wyzwolenia / Ofiar Katynia 09
+1823	4	210805	14:45:00	14:45:00		Wyzwolenia kościół 07
+1823	4	210805	14:46:00	14:46:00		Okulickiego / Wyzwolenia 05 nż
+1823	4	210805	14:47:00	14:47:00		Okulickiego / Zwierzyniecka 03 nż
+1823	4	210805	14:49:00	14:49:00		Okulickiego centrum handlowe 01
+1823	4	210805	14:52:00	14:52:00		Krakowska jedn. wojskowa 01
+1823	4	210805	14:55:00	14:55:00		Piłsudskiego U. Wojewódzki 05
+1823	4	210805	14:57:00	14:57:00		Pl. Wolności 03
+1823	4	210805	14:58:00	14:58:00		Piłsudskiego ZDZ 01 nż
+1823	4	210805	15:01:00	15:01:00		Dworaka targ 01
 
-1965	5	213810	15:19:00	15:19:00		Dworaka targ 01
-1965	5	213810	15:22:00	15:22:00		Piłsudskiego ZDZ 02
-1965	5	213810	15:24:00	15:24:00		Pl. Wolności 04
-1965	5	213810	15:30:00	15:30:00		Piłsudskiego U. Marszałkowski 08
-1965	5	213810	15:32:00	15:32:00		Krakowska jedn. wojskowa 02
-1965	5	213810	15:35:00	15:35:00		Okulickiego centrum handlowe 02
-1965	5	213810	15:37:00	15:37:00		Okulickiego / Zwierzyniecka 04 nż
-1965	5	213810	15:39:00	15:39:00		Wyzwolenia / Iranka-Osmeckiego 08
-1965	5	213810	15:40:00	15:40:00		Wyzwolenia / Brydaka 10
-1965	5	213810	15:42:00	15:42:00		Ofiar Katynia / Wyzwolenia 02
-1965	5	213810	15:43:00	15:43:00		Ofiar Katynia kładka 04
-1965	5	213810	15:45:00	15:45:00		Ofiar Katynia galeria 06
-1965	5	213810	15:47:00	15:47:00		Ustrzycka pętla 02 nż
-1965	5	213810	15:48:00	15:48:00		Sanocka / Krośnieńska 02 nż
-1965	5	213810	15:49:00	15:49:00		Bł. Karoliny / Sanocka 04 nż
-1965	5	213810	15:50:00	15:50:00		Bł. Karoliny przedszkole 06
-1965	5	213810	15:51:00	15:51:00		Odrzykońska / Bł. Karoliny 02 nż
-1965	5	213810	15:52:00	15:52:00		Odrzykońska / Baligrodzka 04 nż
-1965	5	213810	15:53:00	15:53:00		Iwonicka / Korczyńska 02 nż
-1965	5	213810	15:54:00	15:54:00		Baligrodzka 01
+1965	4	213810	15:19:00	15:19:00		Dworaka targ 01
+1965	4	213810	15:22:00	15:22:00		Piłsudskiego ZDZ 02
+1965	4	213810	15:24:00	15:24:00		Pl. Wolności 04
+1965	4	213810	15:30:00	15:30:00		Piłsudskiego U. Marszałkowski 08
+1965	4	213810	15:32:00	15:32:00		Krakowska jedn. wojskowa 02
+1965	4	213810	15:35:00	15:35:00		Okulickiego centrum handlowe 02
+1965	4	213810	15:37:00	15:37:00		Okulickiego / Zwierzyniecka 04 nż
+1965	4	213810	15:39:00	15:39:00		Wyzwolenia / Iranka-Osmeckiego 08
+1965	4	213810	15:40:00	15:40:00		Wyzwolenia / Brydaka 10
+1965	4	213810	15:42:00	15:42:00		Ofiar Katynia / Wyzwolenia 02
+1965	4	213810	15:43:00	15:43:00		Ofiar Katynia kładka 04
+1965	4	213810	15:45:00	15:45:00		Ofiar Katynia galeria 06
+1965	4	213810	15:47:00	15:47:00		Ustrzycka pętla 02 nż
+1965	4	213810	15:48:00	15:48:00		Sanocka / Krośnieńska 02 nż
+1965	4	213810	15:49:00	15:49:00		Bł. Karoliny / Sanocka 04 nż
+1965	4	213810	15:50:00	15:50:00		Bł. Karoliny przedszkole 06
+1965	4	213810	15:51:00	15:51:00		Odrzykońska / Bł. Karoliny 02 nż
+1965	4	213810	15:52:00	15:52:00		Odrzykońska / Baligrodzka 04 nż
+1965	4	213810	15:53:00	15:53:00		Iwonicka / Korczyńska 02 nż
+1965	4	213810	15:54:00	15:54:00		Baligrodzka 01
 
-1823	5	211008	16:10:00	16:10:00		Baligrodzka 01
-1823	5	211008	16:11:00	16:11:00		Iwonicka / Korczyńska 01 nż
-1823	5	211008	16:12:00	16:12:00		Odrzykońska / Iwonicka 01 nż
-1823	5	211008	16:14:00	16:14:00		Bł. Karoliny pętla 09
-1823	5	211008	16:15:00	16:15:00		Bł. Karoliny przedszkole 07
-1823	5	211008	16:16:00	16:16:00		Bł. Karoliny / Nowosądecka 05 nż
-1823	5	211008	16:17:00	16:17:00		Sanocka / Krośnieńska 01 nż
-1823	5	211008	16:19:00	16:19:00		Ustrzycka pętla 01 nż
-1823	5	211008	16:22:00	16:22:00		Ofiar Katynia park 03
-1823	5	211008	16:23:00	16:23:00		Ofiar Katynia kładka 01
-1823	5	211008	16:24:00	16:24:00		Wyzwolenia / Ofiar Katynia 09
-1823	5	211008	16:25:00	16:25:00		Wyzwolenia kościół 07
-1823	5	211008	16:26:00	16:26:00		Okulickiego / Wyzwolenia 05 nż
-1823	5	211008	16:27:00	16:27:00		Okulickiego / Zwierzyniecka 03 nż
-1823	5	211008	16:29:00	16:29:00		Okulickiego centrum handlowe 01
-1823	5	211008	16:32:00	16:32:00		Krakowska jedn. wojskowa 01
-1823	5	211008	16:35:00	16:35:00		Piłsudskiego U. Wojewódzki 05
-1823	5	211008	16:36:00	16:36:00		Pl. Wolności 03
-1823	5	211008	16:37:00	16:37:00		Piłsudskiego ZDZ 01 nż
-1823	5	211008	16:40:00	16:40:00		Dworaka targ 01
+1823	4	211008	16:10:00	16:10:00		Baligrodzka 01
+1823	4	211008	16:11:00	16:11:00		Iwonicka / Korczyńska 01 nż
+1823	4	211008	16:12:00	16:12:00		Odrzykońska / Iwonicka 01 nż
+1823	4	211008	16:14:00	16:14:00		Bł. Karoliny pętla 09
+1823	4	211008	16:15:00	16:15:00		Bł. Karoliny przedszkole 07
+1823	4	211008	16:16:00	16:16:00		Bł. Karoliny / Nowosądecka 05 nż
+1823	4	211008	16:17:00	16:17:00		Sanocka / Krośnieńska 01 nż
+1823	4	211008	16:19:00	16:19:00		Ustrzycka pętla 01 nż
+1823	4	211008	16:22:00	16:22:00		Ofiar Katynia park 03
+1823	4	211008	16:23:00	16:23:00		Ofiar Katynia kładka 01
+1823	4	211008	16:24:00	16:24:00		Wyzwolenia / Ofiar Katynia 09
+1823	4	211008	16:25:00	16:25:00		Wyzwolenia kościół 07
+1823	4	211008	16:26:00	16:26:00		Okulickiego / Wyzwolenia 05 nż
+1823	4	211008	16:27:00	16:27:00		Okulickiego / Zwierzyniecka 03 nż
+1823	4	211008	16:29:00	16:29:00		Okulickiego centrum handlowe 01
+1823	4	211008	16:32:00	16:32:00		Krakowska jedn. wojskowa 01
+1823	4	211008	16:35:00	16:35:00		Piłsudskiego U. Wojewódzki 05
+1823	4	211008	16:36:00	16:36:00		Pl. Wolności 03
+1823	4	211008	16:37:00	16:37:00		Piłsudskiego ZDZ 01 nż
+1823	4	211008	16:40:00	16:40:00		Dworaka targ 01
 
-1965	5	215025	17:02:00	17:02:00		Dworaka targ 01
-1965	5	215025	17:05:00	17:05:00		Piłsudskiego ZDZ 02
-1965	5	215025	17:07:00	17:07:00		Pl. Wolności 04
-1965	5	215025	17:10:00	17:10:00		Piłsudskiego U. Marszałkowski 08
-1965	5	215025	17:12:00	17:12:00		Krakowska jedn. wojskowa 02
-1965	5	215025	17:14:00	17:14:00		Okulickiego centrum handlowe 02
-1965	5	215025	17:15:00	17:15:00		Okulickiego / Zwierzyniecka 04 nż
-1965	5	215025	17:17:00	17:17:00		Wyzwolenia / Iranka-Osmeckiego 08
-1965	5	215025	17:18:00	17:18:00		Wyzwolenia / Brydaka 10
-1965	5	215025	17:20:00	17:20:00		Ofiar Katynia / Wyzwolenia 02
-1965	5	215025	17:21:00	17:21:00		Ofiar Katynia kładka 04
-1965	5	215025	17:22:00	17:22:00		Ofiar Katynia galeria 06
-1965	5	215025	17:24:00	17:24:00		Ustrzycka pętla 02 nż
-1965	5	215025	17:25:00	17:25:00		Sanocka / Krośnieńska 02 nż
-1965	5	215025	17:26:00	17:26:00		Bł. Karoliny / Sanocka 04 nż
-1965	5	215025	17:27:00	17:27:00		Bł. Karoliny przedszkole 06
-1965	5	215025	17:28:00	17:28:00		Odrzykońska / Bł. Karoliny 02 nż
-1965	5	215025	17:29:00	17:29:00		Odrzykońska / Baligrodzka 04 nż
-1965	5	215025	17:30:00	17:30:00		Iwonicka / Korczyńska 02 nż
-1965	5	215025	17:31:00	17:31:00		Baligrodzka 01
+1965	4	215025	17:02:00	17:02:00		Dworaka targ 01
+1965	4	215025	17:05:00	17:05:00		Piłsudskiego ZDZ 02
+1965	4	215025	17:07:00	17:07:00		Pl. Wolności 04
+1965	4	215025	17:10:00	17:10:00		Piłsudskiego U. Marszałkowski 08
+1965	4	215025	17:12:00	17:12:00		Krakowska jedn. wojskowa 02
+1965	4	215025	17:14:00	17:14:00		Okulickiego centrum handlowe 02
+1965	4	215025	17:15:00	17:15:00		Okulickiego / Zwierzyniecka 04 nż
+1965	4	215025	17:17:00	17:17:00		Wyzwolenia / Iranka-Osmeckiego 08
+1965	4	215025	17:18:00	17:18:00		Wyzwolenia / Brydaka 10
+1965	4	215025	17:20:00	17:20:00		Ofiar Katynia / Wyzwolenia 02
+1965	4	215025	17:21:00	17:21:00		Ofiar Katynia kładka 04
+1965	4	215025	17:22:00	17:22:00		Ofiar Katynia galeria 06
+1965	4	215025	17:24:00	17:24:00		Ustrzycka pętla 02 nż
+1965	4	215025	17:25:00	17:25:00		Sanocka / Krośnieńska 02 nż
+1965	4	215025	17:26:00	17:26:00		Bł. Karoliny / Sanocka 04 nż
+1965	4	215025	17:27:00	17:27:00		Bł. Karoliny przedszkole 06
+1965	4	215025	17:28:00	17:28:00		Odrzykońska / Bł. Karoliny 02 nż
+1965	4	215025	17:29:00	17:29:00		Odrzykońska / Baligrodzka 04 nż
+1965	4	215025	17:30:00	17:30:00		Iwonicka / Korczyńska 02 nż
+1965	4	215025	17:31:00	17:31:00		Baligrodzka 01
 
-1823	5	213014	17:50:00	17:50:00		Baligrodzka 01
-1823	5	213014	17:51:00	17:51:00		Iwonicka / Korczyńska 01 nż
-1823	5	213014	17:52:00	17:52:00		Odrzykońska / Iwonicka 01 nż
-1823	5	213014	17:54:00	17:54:00		Bł. Karoliny pętla 09
-1823	5	213014	17:55:00	17:55:00		Bł. Karoliny przedszkole 07
-1823	5	213014	17:56:00	17:56:00		Bł. Karoliny / Nowosądecka 05 nż
-1823	5	213014	17:57:00	17:57:00		Sanocka / Krośnieńska 01 nż
-1823	5	213014	17:59:00	17:59:00		Ustrzycka pętla 01 nż
-1823	5	213014	18:02:00	18:02:00		Ofiar Katynia park 03
-1823	5	213014	18:03:00	18:03:00		Ofiar Katynia kładka 01
-1823	5	213014	18:04:00	18:04:00		Wyzwolenia / Ofiar Katynia 09
-1823	5	213014	18:05:00	18:05:00		Wyzwolenia kościół 07
-1823	5	213014	18:06:00	18:06:00		Okulickiego / Wyzwolenia 05 nż
-1823	5	213014	18:07:00	18:07:00		Okulickiego / Zwierzyniecka 03 nż
-1823	5	213014	18:08:00	18:08:00		Okulickiego centrum handlowe 01
-1823	5	213014	18:11:00	18:11:00		Krakowska jedn. wojskowa 01
-1823	5	213014	18:14:00	18:14:00		Piłsudskiego U. Wojewódzki 05
-1823	5	213014	18:15:00	18:15:00		Pl. Wolności 03
-1823	5	213014	18:16:00	18:16:00		Piłsudskiego ZDZ 01 nż
-1823	5	213014	18:19:00	18:19:00		Dworaka targ 01
+1823	4	213014	17:50:00	17:50:00		Baligrodzka 01
+1823	4	213014	17:51:00	17:51:00		Iwonicka / Korczyńska 01 nż
+1823	4	213014	17:52:00	17:52:00		Odrzykońska / Iwonicka 01 nż
+1823	4	213014	17:54:00	17:54:00		Bł. Karoliny pętla 09
+1823	4	213014	17:55:00	17:55:00		Bł. Karoliny przedszkole 07
+1823	4	213014	17:56:00	17:56:00		Bł. Karoliny / Nowosądecka 05 nż
+1823	4	213014	17:57:00	17:57:00		Sanocka / Krośnieńska 01 nż
+1823	4	213014	17:59:00	17:59:00		Ustrzycka pętla 01 nż
+1823	4	213014	18:02:00	18:02:00		Ofiar Katynia park 03
+1823	4	213014	18:03:00	18:03:00		Ofiar Katynia kładka 01
+1823	4	213014	18:04:00	18:04:00		Wyzwolenia / Ofiar Katynia 09
+1823	4	213014	18:05:00	18:05:00		Wyzwolenia kościół 07
+1823	4	213014	18:06:00	18:06:00		Okulickiego / Wyzwolenia 05 nż
+1823	4	213014	18:07:00	18:07:00		Okulickiego / Zwierzyniecka 03 nż
+1823	4	213014	18:08:00	18:08:00		Okulickiego centrum handlowe 01
+1823	4	213014	18:11:00	18:11:00		Krakowska jedn. wojskowa 01
+1823	4	213014	18:14:00	18:14:00		Piłsudskiego U. Wojewódzki 05
+1823	4	213014	18:15:00	18:15:00		Pl. Wolności 03
+1823	4	213014	18:16:00	18:16:00		Piłsudskiego ZDZ 01 nż
+1823	4	213014	18:19:00	18:19:00		Dworaka targ 01
 
-1965	5	212767	18:27:00	18:27:00		Dworaka targ 01
-1965	5	212767	18:30:00	18:30:00		Piłsudskiego ZDZ 02
-1965	5	212767	18:32:00	18:32:00		Pl. Wolności 04
-1965	5	212767	18:35:00	18:35:00		Piłsudskiego U. Marszałkowski 08
-1965	5	212767	18:37:00	18:37:00		Krakowska jedn. wojskowa 02
-1965	5	212767	18:39:00	18:39:00		Okulickiego centrum handlowe 02
-1965	5	212767	18:40:00	18:40:00		Okulickiego / Zwierzyniecka 04 nż
-1965	5	212767	18:42:00	18:42:00		Wyzwolenia / Iranka-Osmeckiego 08
-1965	5	212767	18:43:00	18:43:00		Wyzwolenia / Brydaka 10
-1965	5	212767	18:45:00	18:45:00		Ofiar Katynia / Wyzwolenia 02
-1965	5	212767	18:46:00	18:46:00		Ofiar Katynia kładka 04
-1965	5	212767	18:47:00	18:47:00		Ofiar Katynia galeria 06
-1965	5	212767	18:49:00	18:49:00		Ustrzycka pętla 02 nż
-1965	5	212767	18:50:00	18:50:00		Sanocka / Krośnieńska 02 nż
-1965	5	212767	18:51:00	18:51:00		Bł. Karoliny / Sanocka 04 nż
-1965	5	212767	18:52:00	18:52:00		Bł. Karoliny przedszkole 06
-1965	5	212767	18:53:00	18:53:00		Odrzykońska / Bł. Karoliny 02 nż
-1965	5	212767	18:54:00	18:54:00		Odrzykońska / Baligrodzka 04 nż
-1965	5	212767	18:55:00	18:55:00		Iwonicka / Korczyńska 02 nż
-1965	5	212767	18:56:00	18:56:00		Baligrodzka 01
+1965	4	212767	18:27:00	18:27:00		Dworaka targ 01
+1965	4	212767	18:30:00	18:30:00		Piłsudskiego ZDZ 02
+1965	4	212767	18:32:00	18:32:00		Pl. Wolności 04
+1965	4	212767	18:35:00	18:35:00		Piłsudskiego U. Marszałkowski 08
+1965	4	212767	18:37:00	18:37:00		Krakowska jedn. wojskowa 02
+1965	4	212767	18:39:00	18:39:00		Okulickiego centrum handlowe 02
+1965	4	212767	18:40:00	18:40:00		Okulickiego / Zwierzyniecka 04 nż
+1965	4	212767	18:42:00	18:42:00		Wyzwolenia / Iranka-Osmeckiego 08
+1965	4	212767	18:43:00	18:43:00		Wyzwolenia / Brydaka 10
+1965	4	212767	18:45:00	18:45:00		Ofiar Katynia / Wyzwolenia 02
+1965	4	212767	18:46:00	18:46:00		Ofiar Katynia kładka 04
+1965	4	212767	18:47:00	18:47:00		Ofiar Katynia galeria 06
+1965	4	212767	18:49:00	18:49:00		Ustrzycka pętla 02 nż
+1965	4	212767	18:50:00	18:50:00		Sanocka / Krośnieńska 02 nż
+1965	4	212767	18:51:00	18:51:00		Bł. Karoliny / Sanocka 04 nż
+1965	4	212767	18:52:00	18:52:00		Bł. Karoliny przedszkole 06
+1965	4	212767	18:53:00	18:53:00		Odrzykońska / Bł. Karoliny 02 nż
+1965	4	212767	18:54:00	18:54:00		Odrzykońska / Baligrodzka 04 nż
+1965	4	212767	18:55:00	18:55:00		Iwonicka / Korczyńska 02 nż
+1965	4	212767	18:56:00	18:56:00		Baligrodzka 01
 
-1961	5	211163	19:30:00	19:30:00		Baligrodzka 01
-1961	5	211163	19:31:00	19:31:00		Iwonicka / Korczyńska 01 nż
-1961	5	211163	19:32:00	19:32:00		Odrzykońska / Iwonicka 01 nż
-1961	5	211163	19:34:00	19:34:00		Bł. Karoliny pętla 09
-1961	5	211163	19:35:00	19:35:00		Bł. Karoliny przedszkole 07
-1961	5	211163	19:36:00	19:36:00		Bł. Karoliny / Nowosądecka 05 nż
-1961	5	211163	19:37:00	19:37:00		Bł. Karoliny / Sanocka 03 nż
-1961	5	211163	19:38:00	19:38:00		Bł. Karoliny / Strzyżowska 01 nż
-1961	5	211163	19:39:00	19:39:00		Kotuli / Solarza 03 nż
-1961	5	211163	19:40:00	19:40:00		Kotuli / Zbyszewskiego 01 nż
-1961	5	211163	19:43:00	19:43:00		Krakowska galeria 05
-1961	5	211163	19:44:00	19:44:00		Krakowska szpital 03
-1961	5	211163	19:46:00	19:46:00		Krakowska jedn. wojskowa 01
-1961	5	211163	19:48:00	19:48:00		Piłsudskiego U. Wojewódzki 05
-1961	5	211163	19:49:00	19:49:00		Pl. Wolności 03
-1961	5	211163	19:50:00	19:50:00		Piłsudskiego ZDZ 01 nż
-1961	5	211163	19:51:00	19:51:00		Rejtana / Lwowska 01
-1961	5	211163	19:52:00	19:52:00		Rejtana / Kustronia 03 nż
-1961	5	211163	19:53:00	19:53:00		Rejtana uniwersytet 05
-1961	5	211163	19:55:00	19:55:00		Niepodległości / Rejtana 02
-1961	5	211163	19:56:00	19:56:00		Niepodległości dom dziecka 04 nż
-1961	5	211163	19:57:00	19:57:00		Niepodległości działki 06 nż
-1961	5	211163	19:59:00	19:59:00		Armii Krajowej szpital 10 nż
-1961	5	211163	20:00:00	20:00:00		Lwowska szpital 06
-1961	5	211163	20:02:00	20:02:00		Cienista / Lwowska 02 nż
-1961	5	211163	20:03:00	20:03:00		Cienista cmentarz 04
+1961	4	211163	19:30:00	19:30:00		Baligrodzka 01
+1961	4	211163	19:31:00	19:31:00		Iwonicka / Korczyńska 01 nż
+1961	4	211163	19:32:00	19:32:00		Odrzykońska / Iwonicka 01 nż
+1961	4	211163	19:34:00	19:34:00		Bł. Karoliny pętla 09
+1961	4	211163	19:35:00	19:35:00		Bł. Karoliny przedszkole 07
+1961	4	211163	19:36:00	19:36:00		Bł. Karoliny / Nowosądecka 05 nż
+1961	4	211163	19:37:00	19:37:00		Bł. Karoliny / Sanocka 03 nż
+1961	4	211163	19:38:00	19:38:00		Bł. Karoliny / Strzyżowska 01 nż
+1961	4	211163	19:39:00	19:39:00		Kotuli / Solarza 03 nż
+1961	4	211163	19:40:00	19:40:00		Kotuli / Zbyszewskiego 01 nż
+1961	4	211163	19:43:00	19:43:00		Krakowska galeria 05
+1961	4	211163	19:44:00	19:44:00		Krakowska szpital 03
+1961	4	211163	19:46:00	19:46:00		Krakowska jedn. wojskowa 01
+1961	4	211163	19:48:00	19:48:00		Piłsudskiego U. Wojewódzki 05
+1961	4	211163	19:49:00	19:49:00		Pl. Wolności 03
+1961	4	211163	19:50:00	19:50:00		Piłsudskiego ZDZ 01 nż
+1961	4	211163	19:51:00	19:51:00		Rejtana / Lwowska 01
+1961	4	211163	19:52:00	19:52:00		Rejtana / Kustronia 03 nż
+1961	4	211163	19:53:00	19:53:00		Rejtana uniwersytet 05
+1961	4	211163	19:55:00	19:55:00		Niepodległości / Rejtana 02
+1961	4	211163	19:56:00	19:56:00		Niepodległości dom dziecka 04 nż
+1961	4	211163	19:57:00	19:57:00		Niepodległości działki 06 nż
+1961	4	211163	19:59:00	19:59:00		Armii Krajowej szpital 10 nż
+1961	4	211163	20:00:00	20:00:00		Lwowska szpital 06
+1961	4	211163	20:02:00	20:02:00		Cienista / Lwowska 02 nż
+1961	4	211163	20:03:00	20:03:00		Cienista cmentarz 04
 
-1913	5	210633	20:34:00	20:34:00		Cienista cmentarz 01
-1913	5	210633	20:35:00	20:35:00		Lwowska / Cienista 07 nż
-1913	5	210633	20:37:00	20:37:00		Lwowska szpital 05
-1913	5	210633	20:39:00	20:39:00		Armii Krajowej kościół 09 nż
-1913	5	210633	20:40:00	20:40:00		Niepodległości / Armii Krajowej 05
-1913	5	210633	20:41:00	20:41:00		Niepodległości / Mieszka I 03 nż
-1913	5	210633	20:42:00	20:42:00		Niepodległości dom dziecka 01 nż
-1913	5	210633	20:43:00	20:43:00		Rejtana uniwersytet 06
-1913	5	210633	20:44:00	20:44:00		Rejtana cmentarz 04 nż
-1913	5	210633	20:45:00	20:45:00		Rejtana / Kustronia 02
-1913	5	210633	20:47:00	20:47:00		Piłsudskiego ZDZ 02
-1913	5	210633	20:48:00	20:48:00		Pl. Wolności 04
-1913	5	210633	20:50:00	20:50:00		Piłsudskiego U. Marszałkowski 08
-1913	5	210633	20:52:00	20:52:00		Krakowska jedn. wojskowa 02
-1913	5	210633	20:53:00	20:53:00		Krakowska szpital 04
-1913	5	210633	20:54:00	20:54:00		Krakowska galeria 06
-1913	5	210633	20:56:00	20:56:00		Ofiar Katynia galeria 06
-1913	5	210633	20:57:00	20:57:00		Kotuli / Ustrzycka 02 nż
-1913	5	210633	20:58:00	20:58:00		Kotuli domki 04 nż
-1913	5	210633	20:59:00	20:59:00		Bł. Karoliny / Strzyżowska 02 nż
-1913	5	210633	21:00:00	21:00:00		Bł. Karoliny / Sanocka 04 nż
-1913	5	210633	21:01:00	21:01:00		Bł. Karoliny przedszkole 06
-1913	5	210633	21:02:00	21:02:00		Odrzykońska / Bł. Karoliny 02 nż
-1913	5	210633	21:03:00	21:03:00		Odrzykońska / Baligrodzka 04 nż
-1913	5	210633	21:04:00	21:04:00		Iwonicka / Korczyńska 02 nż
-1913	5	210633	21:05:00	21:05:00		Baligrodzka 01
+1913	4	210633	20:34:00	20:34:00		Cienista cmentarz 01
+1913	4	210633	20:35:00	20:35:00		Lwowska / Cienista 07 nż
+1913	4	210633	20:37:00	20:37:00		Lwowska szpital 05
+1913	4	210633	20:39:00	20:39:00		Armii Krajowej kościół 09 nż
+1913	4	210633	20:40:00	20:40:00		Niepodległości / Armii Krajowej 05
+1913	4	210633	20:41:00	20:41:00		Niepodległości / Mieszka I 03 nż
+1913	4	210633	20:42:00	20:42:00		Niepodległości dom dziecka 01 nż
+1913	4	210633	20:43:00	20:43:00		Rejtana uniwersytet 06
+1913	4	210633	20:44:00	20:44:00		Rejtana cmentarz 04 nż
+1913	4	210633	20:45:00	20:45:00		Rejtana / Kustronia 02
+1913	4	210633	20:47:00	20:47:00		Piłsudskiego ZDZ 02
+1913	4	210633	20:48:00	20:48:00		Pl. Wolności 04
+1913	4	210633	20:50:00	20:50:00		Piłsudskiego U. Marszałkowski 08
+1913	4	210633	20:52:00	20:52:00		Krakowska jedn. wojskowa 02
+1913	4	210633	20:53:00	20:53:00		Krakowska szpital 04
+1913	4	210633	20:54:00	20:54:00		Krakowska galeria 06
+1913	4	210633	20:56:00	20:56:00		Ofiar Katynia galeria 06
+1913	4	210633	20:57:00	20:57:00		Kotuli / Ustrzycka 02 nż
+1913	4	210633	20:58:00	20:58:00		Kotuli domki 04 nż
+1913	4	210633	20:59:00	20:59:00		Bł. Karoliny / Strzyżowska 02 nż
+1913	4	210633	21:00:00	21:00:00		Bł. Karoliny / Sanocka 04 nż
+1913	4	210633	21:01:00	21:01:00		Bł. Karoliny przedszkole 06
+1913	4	210633	21:02:00	21:02:00		Odrzykońska / Bł. Karoliny 02 nż
+1913	4	210633	21:03:00	21:03:00		Odrzykońska / Baligrodzka 04 nż
+1913	4	210633	21:04:00	21:04:00		Iwonicka / Korczyńska 02 nż
+1913	4	210633	21:05:00	21:05:00		Baligrodzka 01
 
-1961	5	210362	21:30:00	21:30:00		Baligrodzka 01
-1961	5	210362	21:31:00	21:31:00		Iwonicka / Korczyńska 01 nż
-1961	5	210362	21:32:00	21:32:00		Odrzykońska / Iwonicka 01 nż
-1961	5	210362	21:34:00	21:34:00		Bł. Karoliny pętla 09
-1961	5	210362	21:35:00	21:35:00		Bł. Karoliny przedszkole 07
-1961	5	210362	21:36:00	21:36:00		Bł. Karoliny / Nowosądecka 05 nż
-1961	5	210362	21:37:00	21:37:00		Bł. Karoliny / Sanocka 03 nż
-1961	5	210362	21:38:00	21:38:00		Bł. Karoliny / Strzyżowska 01 nż
-1961	5	210362	21:39:00	21:39:00		Kotuli / Solarza 03 nż
-1961	5	210362	21:40:00	21:40:00		Kotuli / Zbyszewskiego 01 nż
-1961	5	210362	21:43:00	21:43:00		Krakowska galeria 05
-1961	5	210362	21:44:00	21:44:00		Krakowska szpital 03
-1961	5	210362	21:45:00	21:45:00		Krakowska jedn. wojskowa 01
-1961	5	210362	21:47:00	21:47:00		Piłsudskiego U. Wojewódzki 05
-1961	5	210362	21:48:00	21:48:00		Pl. Wolności 03
-1961	5	210362	21:49:00	21:49:00		Piłsudskiego ZDZ 01 nż
-1961	5	210362	21:50:00	21:50:00		Rejtana / Lwowska 01
-1961	5	210362	21:51:00	21:51:00		Rejtana / Kustronia 03 nż
-1961	5	210362	21:52:00	21:52:00		Rejtana uniwersytet 05
-1961	5	210362	21:54:00	21:54:00		Niepodległości / Rejtana 02
-1961	5	210362	21:55:00	21:55:00		Niepodległości dom dziecka 04 nż
-1961	5	210362	21:56:00	21:56:00		Niepodległości działki 06 nż
-1961	5	210362	21:57:00	21:57:00		Armii Krajowej szpital 10 nż
-1961	5	210362	21:58:00	21:58:00		Lwowska szpital 06
-1961	5	210362	22:00:00	22:00:00		Cienista / Lwowska 02 nż
-1961	5	210362	22:01:00	22:01:00		Cienista cmentarz 04
+1961	4	210362	21:30:00	21:30:00		Baligrodzka 01
+1961	4	210362	21:31:00	21:31:00		Iwonicka / Korczyńska 01 nż
+1961	4	210362	21:32:00	21:32:00		Odrzykońska / Iwonicka 01 nż
+1961	4	210362	21:34:00	21:34:00		Bł. Karoliny pętla 09
+1961	4	210362	21:35:00	21:35:00		Bł. Karoliny przedszkole 07
+1961	4	210362	21:36:00	21:36:00		Bł. Karoliny / Nowosądecka 05 nż
+1961	4	210362	21:37:00	21:37:00		Bł. Karoliny / Sanocka 03 nż
+1961	4	210362	21:38:00	21:38:00		Bł. Karoliny / Strzyżowska 01 nż
+1961	4	210362	21:39:00	21:39:00		Kotuli / Solarza 03 nż
+1961	4	210362	21:40:00	21:40:00		Kotuli / Zbyszewskiego 01 nż
+1961	4	210362	21:43:00	21:43:00		Krakowska galeria 05
+1961	4	210362	21:44:00	21:44:00		Krakowska szpital 03
+1961	4	210362	21:45:00	21:45:00		Krakowska jedn. wojskowa 01
+1961	4	210362	21:47:00	21:47:00		Piłsudskiego U. Wojewódzki 05
+1961	4	210362	21:48:00	21:48:00		Pl. Wolności 03
+1961	4	210362	21:49:00	21:49:00		Piłsudskiego ZDZ 01 nż
+1961	4	210362	21:50:00	21:50:00		Rejtana / Lwowska 01
+1961	4	210362	21:51:00	21:51:00		Rejtana / Kustronia 03 nż
+1961	4	210362	21:52:00	21:52:00		Rejtana uniwersytet 05
+1961	4	210362	21:54:00	21:54:00		Niepodległości / Rejtana 02
+1961	4	210362	21:55:00	21:55:00		Niepodległości dom dziecka 04 nż
+1961	4	210362	21:56:00	21:56:00		Niepodległości działki 06 nż
+1961	4	210362	21:57:00	21:57:00		Armii Krajowej szpital 10 nż
+1961	4	210362	21:58:00	21:58:00		Lwowska szpital 06
+1961	4	210362	22:00:00	22:00:00		Cienista / Lwowska 02 nż
+1961	4	210362	22:01:00	22:01:00		Cienista cmentarz 04
 
-1913	5	215330	22:35:00	22:35:00		Cienista cmentarz 01
-1913	5	215330	22:36:00	22:36:00		Lwowska / Cienista 07 nż
-1913	5	215330	22:37:00	22:37:00		Lwowska szpital 05
-1913	5	215330	22:39:00	22:39:00		Armii Krajowej kościół 09 nż
-1913	5	215330	22:40:00	22:40:00		Niepodległości / Armii Krajowej 05
-1913	5	215330	22:41:00	22:41:00		Niepodległości / Mieszka I 03 nż
-1913	5	215330	22:42:00	22:42:00		Niepodległości dom dziecka 01 nż
-1913	5	215330	22:43:00	22:43:00		Rejtana uniwersytet 06
-1913	5	215330	22:44:00	22:44:00		Rejtana cmentarz 04 nż
-1913	5	215330	22:45:00	22:45:00		Rejtana / Kustronia 02
-1913	5	215330	22:47:00	22:47:00		Piłsudskiego ZDZ 02
-1913	5	215330	22:48:00	22:48:00		Pl. Wolności 04
-1913	5	215330	22:50:00	22:50:00		Piłsudskiego U. Marszałkowski 08
-1913	5	215330	22:52:00	22:52:00		Krakowska jedn. wojskowa 02
-1913	5	215330	22:53:00	22:53:00		Krakowska szpital 04
-1913	5	215330	22:54:00	22:54:00		Krakowska galeria 06
-1913	5	215330	22:56:00	22:56:00		Ofiar Katynia galeria 06
-1913	5	215330	22:57:00	22:57:00		Kotuli / Ustrzycka 02 nż
-1913	5	215330	22:58:00	22:58:00		Kotuli domki 04 nż
-1913	5	215330	22:59:00	22:59:00		Bł. Karoliny / Strzyżowska 02 nż
-1913	5	215330	23:00:00	23:00:00		Bł. Karoliny / Sanocka 04 nż
-1913	5	215330	23:01:00	23:01:00		Bł. Karoliny przedszkole 06
-1913	5	215330	23:02:00	23:02:00		Odrzykońska / Bł. Karoliny 02 nż
-1913	5	215330	23:03:00	23:03:00		Odrzykońska / Baligrodzka 04 nż
-1913	5	215330	23:04:00	23:04:00		Iwonicka / Korczyńska 02 nż
-1913	5	215330	23:05:00	23:05:00		Baligrodzka 01
+1913	4	215330	22:35:00	22:35:00		Cienista cmentarz 01
+1913	4	215330	22:36:00	22:36:00		Lwowska / Cienista 07 nż
+1913	4	215330	22:37:00	22:37:00		Lwowska szpital 05
+1913	4	215330	22:39:00	22:39:00		Armii Krajowej kościół 09 nż
+1913	4	215330	22:40:00	22:40:00		Niepodległości / Armii Krajowej 05
+1913	4	215330	22:41:00	22:41:00		Niepodległości / Mieszka I 03 nż
+1913	4	215330	22:42:00	22:42:00		Niepodległości dom dziecka 01 nż
+1913	4	215330	22:43:00	22:43:00		Rejtana uniwersytet 06
+1913	4	215330	22:44:00	22:44:00		Rejtana cmentarz 04 nż
+1913	4	215330	22:45:00	22:45:00		Rejtana / Kustronia 02
+1913	4	215330	22:47:00	22:47:00		Piłsudskiego ZDZ 02
+1913	4	215330	22:48:00	22:48:00		Pl. Wolności 04
+1913	4	215330	22:50:00	22:50:00		Piłsudskiego U. Marszałkowski 08
+1913	4	215330	22:52:00	22:52:00		Krakowska jedn. wojskowa 02
+1913	4	215330	22:53:00	22:53:00		Krakowska szpital 04
+1913	4	215330	22:54:00	22:54:00		Krakowska galeria 06
+1913	4	215330	22:56:00	22:56:00		Ofiar Katynia galeria 06
+1913	4	215330	22:57:00	22:57:00		Kotuli / Ustrzycka 02 nż
+1913	4	215330	22:58:00	22:58:00		Kotuli domki 04 nż
+1913	4	215330	22:59:00	22:59:00		Bł. Karoliny / Strzyżowska 02 nż
+1913	4	215330	23:00:00	23:00:00		Bł. Karoliny / Sanocka 04 nż
+1913	4	215330	23:01:00	23:01:00		Bł. Karoliny przedszkole 06
+1913	4	215330	23:02:00	23:02:00		Odrzykońska / Bł. Karoliny 02 nż
+1913	4	215330	23:03:00	23:03:00		Odrzykońska / Baligrodzka 04 nż
+1913	4	215330	23:04:00	23:04:00		Iwonicka / Korczyńska 02 nż
+1913	4	215330	23:05:00	23:05:00		Baligrodzka 01
 
-1827	5	215565	23:30:00	23:30:00		Baligrodzka 01
-1827	5	215565	23:31:00	23:31:00		Iwonicka / Korczyńska 01 nż
-1827	5	215565	23:32:00	23:32:00		Odrzykońska / Iwonicka 01 nż
-1827	5	215565	23:34:00	23:34:00		Bł. Karoliny pętla 09
-1827	5	215565	23:35:00	23:35:00		Bł. Karoliny przedszkole 07
-1827	5	215565	23:36:00	23:36:00		Bł. Karoliny / Nowosądecka 05 nż
-1827	5	215565	23:37:00	23:37:00		Bł. Karoliny / Sanocka 03 nż
-1827	5	215565	23:38:00	23:38:00		Bł. Karoliny / Strzyżowska 01 nż
-1827	5	215565	23:39:00	23:39:00		Kotuli / Solarza 03 nż
-1827	5	215565	23:40:00	23:40:00		Kotuli / Zbyszewskiego 01 nż
-1827	5	215565	23:43:00	23:43:00		Krakowska galeria 05
-1827	5	215565	23:44:00	23:44:00		Krakowska szpital 03
-1827	5	215565	23:45:00	23:45:00		Krakowska jedn. wojskowa 01
-1827	5	215565	23:46:00	23:46:00		Piłsudskiego U. Marszałkowski 07
+1827	4	215565	23:30:00	23:30:00		Baligrodzka 01
+1827	4	215565	23:31:00	23:31:00		Iwonicka / Korczyńska 01 nż
+1827	4	215565	23:32:00	23:32:00		Odrzykońska / Iwonicka 01 nż
+1827	4	215565	23:34:00	23:34:00		Bł. Karoliny pętla 09
+1827	4	215565	23:35:00	23:35:00		Bł. Karoliny przedszkole 07
+1827	4	215565	23:36:00	23:36:00		Bł. Karoliny / Nowosądecka 05 nż
+1827	4	215565	23:37:00	23:37:00		Bł. Karoliny / Sanocka 03 nż
+1827	4	215565	23:38:00	23:38:00		Bł. Karoliny / Strzyżowska 01 nż
+1827	4	215565	23:39:00	23:39:00		Kotuli / Solarza 03 nż
+1827	4	215565	23:40:00	23:40:00		Kotuli / Zbyszewskiego 01 nż
+1827	4	215565	23:43:00	23:43:00		Krakowska galeria 05
+1827	4	215565	23:44:00	23:44:00		Krakowska szpital 03
+1827	4	215565	23:45:00	23:45:00		Krakowska jedn. wojskowa 01
+1827	4	215565	23:46:00	23:46:00		Piłsudskiego U. Marszałkowski 07
