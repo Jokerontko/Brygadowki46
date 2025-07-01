@@ -849,9 +849,22 @@
         document.getElementById("highlightButton").addEventListener("click", toggleHighlight);
         window.onload = init;
 
-        function savetripid(tripid) {
-            sessionStorage.setItem('savedtripid', tripid);
+        function savetripid(clickedTripId) {
+            // Zapisz kliknięty tripid
+            sessionStorage.setItem('savedtripid', clickedTripId);
+
+            // Zbierz wszystkie tripid z tabeli
+            const allTripIds = Array.from(document.querySelectorAll("#rozkładTable tbody tr"))
+                .map(row => {
+                    const cells = row.querySelectorAll("td");
+                    return cells.length >= 9 ? cells[8].textContent.trim() : null;
+                })
+                .filter(id => id); // usuń puste/null
+
+            // Zapisz je jako jeden string rozdzielony przecinkami
+            sessionStorage.setItem('alltripids', allTripIds.join(","));
         }
+
 
         // Funkcja globalna: Dodawanie wiersza na podstawie warunku
         function checkAndAddRow() {

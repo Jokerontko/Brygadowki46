@@ -101,7 +101,14 @@
 
     <h1 id="brygadaTitle">Szczegóły kursu</h1>
     <p id="valuetripid">Tutaj_wartosc_tripid</p>
+    <p id="allvaluetripid" style="display: none;">Tutaj wszystkie wartości TRIPID</p>
     <p id="PojazdLIVE"></p>
+
+    <div class="menu-container" style="margin-top: -20px;">
+        <a class="menu" id="before">Poprzedni kurs</a>
+        <a class="menu" id="next">Następny kurs</a>
+    </div>
+
 
     <table id="rozkładTable">
         <thead>
@@ -116,10 +123,11 @@
             <!-- Rows will be added dynamically -->
         </tbody>
     </table>
-
     <br>
     <a href="brygada.html" class="menu">Wróć do brygady</a>
-    <br><br>
+
+    <br>
+
     <table id="wykazstrony" style="width: 90%; display:none;">
         <thead>
             <tr>
@@ -142,6 +150,89 @@
 
 
     <script>
+        function clearTableRows() {
+            const tbody = document.getElementById("dane-tabeli");
+            if (!tbody) {
+                console.warn("Nie znaleziono elementu tbody o id 'dane-tabeli'");
+                return;
+            }
+            while (tbody.firstChild) {
+                tbody.removeChild(tbody.firstChild);
+            }
+        }
+
+        let TripIdValue = loadTripIdValue();
+
+        window.addEventListener("DOMContentLoaded", () => {
+            const tripID = sessionStorage.getItem("savedtripid");
+
+            const tripidListRaw = sessionStorage.getItem("alltripids");
+            if (!tripidListRaw) return;
+
+            const tripidList = tripidListRaw.split(",");
+
+            // Znajdź indeks tripID w tablicy, jeśli nie ma to 0
+            let currentIndex = tripidList.indexOf(tripID);
+            if (currentIndex === -1) currentIndex = 0;
+
+            const tripidDisplay = document.getElementById("allvaluetripid");
+            const beforeBtn = document.getElementById("before");
+            const nextBtn = document.getElementById("next");
+
+            async function updateDisplay() {
+                const currentTripId = tripidList[currentIndex];
+                tripidDisplay.textContent = currentTripId;
+
+                nextBtn.style.borderColor = currentIndex === tripidList.length - 1 ? "gray" : "";
+                nextBtn.style.color = currentIndex === tripidList.length - 1 ? "gray" : "";
+                nextBtn.disabled = currentIndex === tripidList.length - 1;
+                nextBtn.style.pointerEvents = currentIndex === tripidList.length - 1 ? "none" : "auto";
+                nextBtn.style.cursor = currentIndex === tripidList.length - 1 ? "not-allowed" : "pointer";
+
+                beforeBtn.style.borderColor = currentIndex === 0 ? "gray" : "";
+                beforeBtn.style.color = currentIndex === 0 ? "gray" : "";
+                beforeBtn.disabled = currentIndex === 0;
+                beforeBtn.style.pointerEvents = currentIndex === 0 ? "none" : "auto";
+                beforeBtn.style.cursor = currentIndex === 0 ? "not-allowed" : "pointer";
+
+
+
+
+                const lines = await fetchFile(currentTripId);
+                if (lines) {
+                    clearTableRows();
+                    await processFileData(lines);
+                    await loadAndRenderTable(currentTripId);
+                } else {
+                    console.error("Nie udało się wczytać pliku dla tripId:", currentTripId);
+                }
+            }
+
+            beforeBtn.addEventListener("click", async (e) => {
+                e.preventDefault();
+                if (currentIndex > 0) {
+                    currentIndex--;
+                    await updateDisplay();
+                }
+            });
+
+            nextBtn.addEventListener("click", async (e) => {
+                e.preventDefault();
+                if (currentIndex < tripidList.length - 1) {
+                    currentIndex++;
+                    await updateDisplay();
+                }
+            });
+
+            // ** WAŻNE: wywołaj na start, żeby załadować pierwszą wartość **
+            updateDisplay();
+
+        });
+
+
+
+
+
         let Miasto = localStorage.getItem('Miasto');
         // Sprawdzanie, czy użytkownik jest zalogowany
         function checkLogin() {
@@ -574,20 +665,110 @@
 
         async function init() {
             checkLogin();
-            const TripIdValue = loadTripIdValue();
-            const lines = await fetchFile(TripIdValue);
-            if (lines) {
-                await processFileData(lines);
-                loadAndRenderTable();
-            } else {
-                wstawError();
-                console.error("Nie udało się wczytać pliku.");
-            }
+
+
 
             setInterval(loadAndRenderTable, 3000);
         }
 
         window.onload = init;
+
+
+
+
+
+
+
+        document.addEventListener("DOMContentLoaded", async () => {
+            const miasto = localStorage.getItem("Miasto");
+            if (!miasto) return;
+
+            const header = document.querySelector("header");
+            if (!header) return;
+
+            async function fetchTextFile(path) {
+                const response = await fetch(path);
+                return await response.text();
+            }
+
+            function parseMiasta(txt, szukaneMiasto) {
+                txt = txt.replace(/\r/g, '');
+                const bloki = txt.split('\n\n');
+                for (const blok of bloki) {
+                    const linie = blok.trim().split('\n');
+                    if (linie[0].trim() === szukaneMiasto) {
+                        const widoczneMenu = {};
+                        for (let i = 2; i < linie.length; i++) {
+                            const [klucz, wartosc] = linie[i].split(':').map(s => s.trim());
+                            widoczneMenu[klucz] = (wartosc.toUpperCase() === 'TAK');
+                        }
+                        return widoczneMenu;
+                    }
+                }
+                return {};
+            }
+
+            function normalizeKey(s) {
+                return s.toLowerCase().trim();
+            }
+
+            try {
+                const miastaText = await fetchTextFile("../../miasta.txt");
+                const doDodania = parseMiasta(miastaText, miasto);
+
+                const doDodaniaNormalized = {};
+                for (const key in doDodania) {
+                    doDodaniaNormalized[normalizeKey(key)] = doDodania[key];
+                }
+
+                const zawszeAktywne = [
+                    "wybór miasta",
+                    "panel główny",
+                    "opuść panel"
+                ];
+
+                const linki = header.querySelectorAll("a.menu");
+                linki.forEach(link => {
+                    const tekst = link.textContent.trim();
+                    const normTekst = normalizeKey(tekst);
+
+                    if (zawszeAktywne.includes(normTekst)) {
+                        link.style.color = "";
+                        link.style.pointerEvents = "";
+                        link.style.opacity = "";
+                        return;
+                    }
+
+                    if (normTekst in doDodaniaNormalized) {
+                        if (doDodaniaNormalized[normTekst]) {
+                            link.style.color = "";
+                            link.style.pointerEvents = "";
+                            link.style.opacity = "";
+                        } else {
+                            link.style.color = "gray";
+                            link.style.pointerEvents = "none";
+                            link.style.opacity = "0.5";
+                        }
+                    } else {
+                        link.style.color = "gray";
+                        link.style.pointerEvents = "none";
+                        link.style.opacity = "0.5";
+                    }
+                });
+
+                const logoutBtn = document.getElementById('logout');
+                if (logoutBtn) {
+                    logoutBtn.addEventListener('click', function() {
+                        const miasto = localStorage.getItem('Miasto');
+                        localStorage.clear();
+                        localStorage.setItem('Miasto', miasto);
+                        window.location.href = 'index.html';
+                    });
+                }
+            } catch (error) {
+                console.error("Błąd podczas ładowania danych:", error);
+            }
+        });
 
     </script>
 </body>
