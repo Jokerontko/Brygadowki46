@@ -1,455 +1,455 @@
 route_id	service_id	trip_id	arrival_time	departure_time	stop_headsign	stop_name
 -------------------------------------------------------------------------------
-1628	1	208628	05:15:00	05:15:00		Bardowskiego 03
-1628	1	208628	05:17:00	05:17:00		Pl. Wolności 04
-1628	1	208628	05:18:00	05:18:00		Piłsudskiego U. Wojewódzki 06
-1628	1	208628	05:20:00	05:20:00		Marszałkowska 02
-1628	1	208628	05:21:00	05:21:00		Warszawska / Wyzwolenia 02 nż
-1628	1	208628	05:22:00	05:22:00		Warszawska ZS. Samoch. 04 nż
-1628	1	208628	05:23:00	05:23:00		Warszawska / Staromiejska 06 nż
-1628	1	208628	05:25:00	05:25:00		Warszawska / Borowa 08 nż
-1628	1	208628	05:26:00	05:26:00		Warszawska / Bażantowa 10 nż
-1628	1	208628	05:27:00	05:27:00		Warszawska / Łowiecka 12 nż
-1628	1	208628	05:28:00	05:28:00		Zaczernie - Miłocin 05 nż
-1628	1	208628	05:29:00	05:29:00		Warszawska granica 14 nż
-1628	1	208628	05:31:00	05:31:00		Zaczernie rondo 14 nż
-1628	1	208628	05:32:00	05:32:00		Zaczernie browar 16 nż
-1628	1	208628	05:33:00	05:33:00		Zaczernie cmentarz 22 nż
-1628	1	208628	05:34:00	05:34:00		Zaczernie bloki 20 nż
-1628	1	208628	05:36:00	05:36:00		Zaczernie MPP Colorland 01 nż
-1628	1	208628	05:37:00	05:37:00		Zaczernie ML System / Fibrain 03 nż
+1628	3	208628	05:15:00	05:15:00		Bardowskiego 03
+1628	3	208628	05:17:00	05:17:00		Pl. Wolności 04
+1628	3	208628	05:18:00	05:18:00		Piłsudskiego U. Wojewódzki 06
+1628	3	208628	05:20:00	05:20:00		Marszałkowska 02
+1628	3	208628	05:21:00	05:21:00		Warszawska / Wyzwolenia 02 nż
+1628	3	208628	05:22:00	05:22:00		Warszawska ZS. Samoch. 04 nż
+1628	3	208628	05:23:00	05:23:00		Warszawska / Staromiejska 06 nż
+1628	3	208628	05:25:00	05:25:00		Warszawska / Borowa 08 nż
+1628	3	208628	05:26:00	05:26:00		Warszawska / Bażantowa 10 nż
+1628	3	208628	05:27:00	05:27:00		Warszawska / Łowiecka 12 nż
+1628	3	208628	05:28:00	05:28:00		Zaczernie - Miłocin 05 nż
+1628	3	208628	05:29:00	05:29:00		Warszawska granica 14 nż
+1628	3	208628	05:31:00	05:31:00		Zaczernie rondo 14 nż
+1628	3	208628	05:32:00	05:32:00		Zaczernie browar 16 nż
+1628	3	208628	05:33:00	05:33:00		Zaczernie cmentarz 22 nż
+1628	3	208628	05:34:00	05:34:00		Zaczernie bloki 20 nż
+1628	3	208628	05:36:00	05:36:00		Zaczernie MPP Colorland 01 nż
+1628	3	208628	05:37:00	05:37:00		Zaczernie ML System / Fibrain 03 nż
 
-1626	1	212814	06:15:00	06:15:00		Zaczernie ML System / Fibrain 03 nż
-1626	1	212814	06:16:00	06:16:00		Zaczernie MPP Colorland 02 nż
-1626	1	212814	06:18:00	06:18:00		Zaczernie bloki 19 nż
-1626	1	212814	06:19:00	06:19:00		Zaczernie cmentarz 02 nż
-1626	1	212814	06:20:00	06:20:00		Zaczernie browar 15 nż
-1626	1	212814	06:21:00	06:21:00		Zaczernie rondo 13 nż
-1626	1	212814	06:22:00	06:22:00		Zaczernie 04 nż
-1626	1	212814	06:24:00	06:24:00		Warszawska granica 11 nż
-1626	1	212814	06:25:00	06:25:00		Zaczernie - Miłocin 06 nż
-1626	1	212814	06:26:00	06:26:00		Warszawska / Myśliwska 09 nż
-1626	1	212814	06:28:00	06:28:00		Warszawska / Borowa 07 nż
-1626	1	212814	06:30:00	06:30:00		Warszawska / Staromiejska 05 nż
-1626	1	212814	06:31:00	06:31:00		Warszawska ZS. Samoch. 03 nż
-1626	1	212814	06:32:00	06:32:00		Warszawska / Wyzwolenia 01 nż
-1626	1	212814	06:33:00	06:33:00		Marszałkowska 01
-1626	1	212814	06:35:00	06:35:00		Piłsudskiego U. Wojewódzki 05
-1626	1	212814	06:38:00	06:38:00		Bardowskiego 04
+1626	3	212814	06:15:00	06:15:00		Zaczernie ML System / Fibrain 03 nż
+1626	3	212814	06:16:00	06:16:00		Zaczernie MPP Colorland 02 nż
+1626	3	212814	06:18:00	06:18:00		Zaczernie bloki 19 nż
+1626	3	212814	06:19:00	06:19:00		Zaczernie cmentarz 02 nż
+1626	3	212814	06:20:00	06:20:00		Zaczernie browar 15 nż
+1626	3	212814	06:21:00	06:21:00		Zaczernie rondo 13 nż
+1626	3	212814	06:22:00	06:22:00		Zaczernie 04 nż
+1626	3	212814	06:24:00	06:24:00		Warszawska granica 11 nż
+1626	3	212814	06:25:00	06:25:00		Zaczernie - Miłocin 06 nż
+1626	3	212814	06:26:00	06:26:00		Warszawska / Myśliwska 09 nż
+1626	3	212814	06:28:00	06:28:00		Warszawska / Borowa 07 nż
+1626	3	212814	06:30:00	06:30:00		Warszawska / Staromiejska 05 nż
+1626	3	212814	06:31:00	06:31:00		Warszawska ZS. Samoch. 03 nż
+1626	3	212814	06:32:00	06:32:00		Warszawska / Wyzwolenia 01 nż
+1626	3	212814	06:33:00	06:33:00		Marszałkowska 01
+1626	3	212814	06:35:00	06:35:00		Piłsudskiego U. Wojewódzki 05
+1626	3	212814	06:38:00	06:38:00		Bardowskiego 04
 
-1953	1	211000	07:25:00	07:25:00		Bardowskiego 02
-1953	1	211000	07:27:00	07:27:00		Pl. Wolności 04
-1953	1	211000	07:28:00	07:28:00		Piłsudskiego U. Wojewódzki 06
-1953	1	211000	07:30:00	07:30:00		Cieplińskiego 02
-1953	1	211000	07:31:00	07:31:00		Mochnackiego 02 nż
-1953	1	211000	07:32:00	07:32:00		Langiewicza park 02 nż
-1953	1	211000	07:33:00	07:33:00		Chmaja / Langiewicza 02 nż
-1953	1	211000	07:35:00	07:35:00		Boya Żeleńskiego 01 nż
-1953	1	211000	07:36:00	07:36:00		Langiewicza / Wita Stwosza 04
-1953	1	211000	07:37:00	07:37:00		Staroniwska / Rzemieślnicza 02 nż
-1953	1	211000	07:38:00	07:38:00		Staroniwska szkoła 04 nż
-1953	1	211000	07:39:00	07:39:00		Staroniwska kościół 06 nż
-1953	1	211000	07:40:00	07:40:00		Staroniwska pętla 08 nż
-1953	1	211000	07:41:00	07:41:00		Staroniwska / Zielarska 14 nż
-1953	1	211000	07:42:00	07:42:00		Staroniwska / Kresowa 16 nż
-1953	1	211000	07:43:00	07:43:00		Kielanówka cegielnia 02 nż
-1953	1	211000	07:44:00	07:44:00		Kielanówka Kopiec 04 nż
-1953	1	211000	07:45:00	07:45:00		Kielanówka Ruch 06 nż
-1953	1	211000	07:46:00	07:46:00		Błękitne Wzgórze / Słoneczny Stok 02 nż
-1953	1	211000	07:47:00	07:47:00		Błękitne Wzgórze / Leśne Wzgórze 04 nż
-1953	1	211000	07:48:00	07:48:00		Kielanówka poczta 08 nż
-1953	1	211000	07:49:00	07:49:00		Kielanówka pętla 10
+1953	3	211000	07:25:00	07:25:00		Bardowskiego 02
+1953	3	211000	07:27:00	07:27:00		Pl. Wolności 04
+1953	3	211000	07:28:00	07:28:00		Piłsudskiego U. Wojewódzki 06
+1953	3	211000	07:30:00	07:30:00		Cieplińskiego 02
+1953	3	211000	07:31:00	07:31:00		Mochnackiego 02 nż
+1953	3	211000	07:32:00	07:32:00		Langiewicza park 02 nż
+1953	3	211000	07:33:00	07:33:00		Chmaja / Langiewicza 02 nż
+1953	3	211000	07:35:00	07:35:00		Boya Żeleńskiego 01 nż
+1953	3	211000	07:36:00	07:36:00		Langiewicza / Wita Stwosza 04
+1953	3	211000	07:37:00	07:37:00		Staroniwska / Rzemieślnicza 02 nż
+1953	3	211000	07:38:00	07:38:00		Staroniwska szkoła 04 nż
+1953	3	211000	07:39:00	07:39:00		Staroniwska kościół 06 nż
+1953	3	211000	07:40:00	07:40:00		Staroniwska pętla 08 nż
+1953	3	211000	07:41:00	07:41:00		Staroniwska / Zielarska 14 nż
+1953	3	211000	07:42:00	07:42:00		Staroniwska / Kresowa 16 nż
+1953	3	211000	07:43:00	07:43:00		Kielanówka cegielnia 02 nż
+1953	3	211000	07:44:00	07:44:00		Kielanówka Kopiec 04 nż
+1953	3	211000	07:45:00	07:45:00		Kielanówka Ruch 06 nż
+1953	3	211000	07:46:00	07:46:00		Błękitne Wzgórze / Słoneczny Stok 02 nż
+1953	3	211000	07:47:00	07:47:00		Błękitne Wzgórze / Leśne Wzgórze 04 nż
+1953	3	211000	07:48:00	07:48:00		Kielanówka poczta 08 nż
+1953	3	211000	07:49:00	07:49:00		Kielanówka pętla 10
 
-1955	1	213872	08:09:00	08:09:00		Kielanówka pętla 10
-1955	1	213872	08:10:00	08:10:00		Kielanówka poczta 09 nż
-1955	1	213872	08:11:00	08:11:00		Błękitne Wzgórze / Leśne Wzgórze 03 nż
-1955	1	213872	08:12:00	08:12:00		Kielanówka Słoneczny Stok 07 nż
-1955	1	213872	08:13:00	08:13:00		Kielanówka Ruch 05 nż
-1955	1	213872	08:14:00	08:14:00		Kielanówka Kopiec 03 nż
-1955	1	213872	08:15:00	08:15:00		Kielanówka cegielnia 01 nż
-1955	1	213872	08:16:00	08:16:00		Staroniwska / Kresowa 11 nż
-1955	1	213872	08:17:00	08:17:00		Staroniwska / Zielarska 09 nż
-1955	1	213872	08:18:00	08:18:00		Staroniwska pętla 12 nż
-1955	1	213872	08:19:00	08:19:00		Staroniwska kościół 05 nż
-1955	1	213872	08:20:00	08:20:00		Staroniwska szkoła 03 nż
-1955	1	213872	08:21:00	08:21:00		Staroniwska / Rzemieślnicza 01 nż
-1955	1	213872	08:22:00	08:22:00		Langiewicza / Wita Stwosza 05 nż
-1955	1	213872	08:23:00	08:23:00		Boya Żeleńskiego 02 nż
-1955	1	213872	08:24:00	08:24:00		Chmaja bloki 03 nż
-1955	1	213872	08:25:00	08:25:00		Chmaja / Langiewicza 01 nż
-1955	1	213872	08:26:00	08:26:00		Langiewicza park 03 nż
-1955	1	213872	08:27:00	08:27:00		Langiewicza / Hoffmanowej 01 nż
-1955	1	213872	08:28:00	08:28:00		Mochnackiego 01 nż
-1955	1	213872	08:29:00	08:29:00		Cieplińskiego 01
-1955	1	213872	08:30:00	08:30:00		Piłsudskiego U. Wojewódzki 05
-1955	1	213872	08:33:00	08:33:00		Bardowskiego 04
+1955	3	213872	08:09:00	08:09:00		Kielanówka pętla 10
+1955	3	213872	08:10:00	08:10:00		Kielanówka poczta 09 nż
+1955	3	213872	08:11:00	08:11:00		Błękitne Wzgórze / Leśne Wzgórze 03 nż
+1955	3	213872	08:12:00	08:12:00		Kielanówka Słoneczny Stok 07 nż
+1955	3	213872	08:13:00	08:13:00		Kielanówka Ruch 05 nż
+1955	3	213872	08:14:00	08:14:00		Kielanówka Kopiec 03 nż
+1955	3	213872	08:15:00	08:15:00		Kielanówka cegielnia 01 nż
+1955	3	213872	08:16:00	08:16:00		Staroniwska / Kresowa 11 nż
+1955	3	213872	08:17:00	08:17:00		Staroniwska / Zielarska 09 nż
+1955	3	213872	08:18:00	08:18:00		Staroniwska pętla 12 nż
+1955	3	213872	08:19:00	08:19:00		Staroniwska kościół 05 nż
+1955	3	213872	08:20:00	08:20:00		Staroniwska szkoła 03 nż
+1955	3	213872	08:21:00	08:21:00		Staroniwska / Rzemieślnicza 01 nż
+1955	3	213872	08:22:00	08:22:00		Langiewicza / Wita Stwosza 05 nż
+1955	3	213872	08:23:00	08:23:00		Boya Żeleńskiego 02 nż
+1955	3	213872	08:24:00	08:24:00		Chmaja bloki 03 nż
+1955	3	213872	08:25:00	08:25:00		Chmaja / Langiewicza 01 nż
+1955	3	213872	08:26:00	08:26:00		Langiewicza park 03 nż
+1955	3	213872	08:27:00	08:27:00		Langiewicza / Hoffmanowej 01 nż
+1955	3	213872	08:28:00	08:28:00		Mochnackiego 01 nż
+1955	3	213872	08:29:00	08:29:00		Cieplińskiego 01
+1955	3	213872	08:30:00	08:30:00		Piłsudskiego U. Wojewódzki 05
+1955	3	213872	08:33:00	08:33:00		Bardowskiego 04
 
-1953	1	215875	08:55:00	08:55:00		Bardowskiego 02
-1953	1	215875	08:57:00	08:57:00		Pl. Wolności 04
-1953	1	215875	08:58:00	08:58:00		Piłsudskiego U. Wojewódzki 06
-1953	1	215875	09:00:00	09:00:00		Cieplińskiego 02
-1953	1	215875	09:01:00	09:01:00		Mochnackiego 02 nż
-1953	1	215875	09:02:00	09:02:00		Langiewicza park 02 nż
-1953	1	215875	09:03:00	09:03:00		Chmaja / Langiewicza 02 nż
-1953	1	215875	09:05:00	09:05:00		Boya Żeleńskiego 01 nż
-1953	1	215875	09:06:00	09:06:00		Langiewicza / Wita Stwosza 04
-1953	1	215875	09:07:00	09:07:00		Staroniwska / Rzemieślnicza 02 nż
-1953	1	215875	09:08:00	09:08:00		Staroniwska szkoła 04 nż
-1953	1	215875	09:09:00	09:09:00		Staroniwska kościół 06 nż
-1953	1	215875	09:10:00	09:10:00		Staroniwska pętla 08 nż
-1953	1	215875	09:11:00	09:11:00		Staroniwska / Zielarska 14 nż
-1953	1	215875	09:12:00	09:12:00		Staroniwska / Kresowa 16 nż
-1953	1	215875	09:13:00	09:13:00		Kielanówka cegielnia 02 nż
-1953	1	215875	09:14:00	09:14:00		Kielanówka Kopiec 04 nż
-1953	1	215875	09:15:00	09:15:00		Kielanówka Ruch 06 nż
-1953	1	215875	09:16:00	09:16:00		Błękitne Wzgórze / Słoneczny Stok 02 nż
-1953	1	215875	09:17:00	09:17:00		Błękitne Wzgórze / Leśne Wzgórze 04 nż
-1953	1	215875	09:18:00	09:18:00		Kielanówka poczta 08 nż
-1953	1	215875	09:19:00	09:19:00		Kielanówka pętla 10
+1953	3	215875	08:55:00	08:55:00		Bardowskiego 02
+1953	3	215875	08:57:00	08:57:00		Pl. Wolności 04
+1953	3	215875	08:58:00	08:58:00		Piłsudskiego U. Wojewódzki 06
+1953	3	215875	09:00:00	09:00:00		Cieplińskiego 02
+1953	3	215875	09:01:00	09:01:00		Mochnackiego 02 nż
+1953	3	215875	09:02:00	09:02:00		Langiewicza park 02 nż
+1953	3	215875	09:03:00	09:03:00		Chmaja / Langiewicza 02 nż
+1953	3	215875	09:05:00	09:05:00		Boya Żeleńskiego 01 nż
+1953	3	215875	09:06:00	09:06:00		Langiewicza / Wita Stwosza 04
+1953	3	215875	09:07:00	09:07:00		Staroniwska / Rzemieślnicza 02 nż
+1953	3	215875	09:08:00	09:08:00		Staroniwska szkoła 04 nż
+1953	3	215875	09:09:00	09:09:00		Staroniwska kościół 06 nż
+1953	3	215875	09:10:00	09:10:00		Staroniwska pętla 08 nż
+1953	3	215875	09:11:00	09:11:00		Staroniwska / Zielarska 14 nż
+1953	3	215875	09:12:00	09:12:00		Staroniwska / Kresowa 16 nż
+1953	3	215875	09:13:00	09:13:00		Kielanówka cegielnia 02 nż
+1953	3	215875	09:14:00	09:14:00		Kielanówka Kopiec 04 nż
+1953	3	215875	09:15:00	09:15:00		Kielanówka Ruch 06 nż
+1953	3	215875	09:16:00	09:16:00		Błękitne Wzgórze / Słoneczny Stok 02 nż
+1953	3	215875	09:17:00	09:17:00		Błękitne Wzgórze / Leśne Wzgórze 04 nż
+1953	3	215875	09:18:00	09:18:00		Kielanówka poczta 08 nż
+1953	3	215875	09:19:00	09:19:00		Kielanówka pętla 10
 
-1955	1	212160	09:29:00	09:29:00		Kielanówka pętla 10
-1955	1	212160	09:30:00	09:30:00		Kielanówka poczta 09 nż
-1955	1	212160	09:31:00	09:31:00		Błękitne Wzgórze / Leśne Wzgórze 03 nż
-1955	1	212160	09:32:00	09:32:00		Kielanówka Słoneczny Stok 07 nż
-1955	1	212160	09:33:00	09:33:00		Kielanówka Ruch 05 nż
-1955	1	212160	09:34:00	09:34:00		Kielanówka Kopiec 03 nż
-1955	1	212160	09:35:00	09:35:00		Kielanówka cegielnia 01 nż
-1955	1	212160	09:36:00	09:36:00		Staroniwska / Kresowa 11 nż
-1955	1	212160	09:37:00	09:37:00		Staroniwska / Zielarska 09 nż
-1955	1	212160	09:38:00	09:38:00		Staroniwska pętla 12 nż
-1955	1	212160	09:39:00	09:39:00		Staroniwska kościół 05 nż
-1955	1	212160	09:40:00	09:40:00		Staroniwska szkoła 03 nż
-1955	1	212160	09:41:00	09:41:00		Staroniwska / Rzemieślnicza 01 nż
-1955	1	212160	09:42:00	09:42:00		Langiewicza / Wita Stwosza 05 nż
-1955	1	212160	09:43:00	09:43:00		Boya Żeleńskiego 02 nż
-1955	1	212160	09:44:00	09:44:00		Chmaja bloki 03 nż
-1955	1	212160	09:45:00	09:45:00		Chmaja / Langiewicza 01 nż
-1955	1	212160	09:46:00	09:46:00		Langiewicza park 03 nż
-1955	1	212160	09:47:00	09:47:00		Langiewicza / Hoffmanowej 01 nż
-1955	1	212160	09:48:00	09:48:00		Mochnackiego 01 nż
-1955	1	212160	09:49:00	09:49:00		Cieplińskiego 01
-1955	1	212160	09:50:00	09:50:00		Piłsudskiego U. Wojewódzki 05
-1955	1	212160	09:53:00	09:53:00		Bardowskiego 04
+1955	3	212160	09:29:00	09:29:00		Kielanówka pętla 10
+1955	3	212160	09:30:00	09:30:00		Kielanówka poczta 09 nż
+1955	3	212160	09:31:00	09:31:00		Błękitne Wzgórze / Leśne Wzgórze 03 nż
+1955	3	212160	09:32:00	09:32:00		Kielanówka Słoneczny Stok 07 nż
+1955	3	212160	09:33:00	09:33:00		Kielanówka Ruch 05 nż
+1955	3	212160	09:34:00	09:34:00		Kielanówka Kopiec 03 nż
+1955	3	212160	09:35:00	09:35:00		Kielanówka cegielnia 01 nż
+1955	3	212160	09:36:00	09:36:00		Staroniwska / Kresowa 11 nż
+1955	3	212160	09:37:00	09:37:00		Staroniwska / Zielarska 09 nż
+1955	3	212160	09:38:00	09:38:00		Staroniwska pętla 12 nż
+1955	3	212160	09:39:00	09:39:00		Staroniwska kościół 05 nż
+1955	3	212160	09:40:00	09:40:00		Staroniwska szkoła 03 nż
+1955	3	212160	09:41:00	09:41:00		Staroniwska / Rzemieślnicza 01 nż
+1955	3	212160	09:42:00	09:42:00		Langiewicza / Wita Stwosza 05 nż
+1955	3	212160	09:43:00	09:43:00		Boya Żeleńskiego 02 nż
+1955	3	212160	09:44:00	09:44:00		Chmaja bloki 03 nż
+1955	3	212160	09:45:00	09:45:00		Chmaja / Langiewicza 01 nż
+1955	3	212160	09:46:00	09:46:00		Langiewicza park 03 nż
+1955	3	212160	09:47:00	09:47:00		Langiewicza / Hoffmanowej 01 nż
+1955	3	212160	09:48:00	09:48:00		Mochnackiego 01 nż
+1955	3	212160	09:49:00	09:49:00		Cieplińskiego 01
+1955	3	212160	09:50:00	09:50:00		Piłsudskiego U. Wojewódzki 05
+1955	3	212160	09:53:00	09:53:00		Bardowskiego 04
 
-1953	1	210394	10:10:00	10:10:00		Bardowskiego 02
-1953	1	210394	10:12:00	10:12:00		Pl. Wolności 04
-1953	1	210394	10:13:00	10:13:00		Piłsudskiego U. Wojewódzki 06
-1953	1	210394	10:15:00	10:15:00		Cieplińskiego 02
-1953	1	210394	10:16:00	10:16:00		Mochnackiego 02 nż
-1953	1	210394	10:17:00	10:17:00		Langiewicza park 02 nż
-1953	1	210394	10:18:00	10:18:00		Chmaja / Langiewicza 02 nż
-1953	1	210394	10:20:00	10:20:00		Boya Żeleńskiego 01 nż
-1953	1	210394	10:21:00	10:21:00		Langiewicza / Wita Stwosza 04
-1953	1	210394	10:22:00	10:22:00		Staroniwska / Rzemieślnicza 02 nż
-1953	1	210394	10:23:00	10:23:00		Staroniwska szkoła 04 nż
-1953	1	210394	10:24:00	10:24:00		Staroniwska kościół 06 nż
-1953	1	210394	10:25:00	10:25:00		Staroniwska pętla 08 nż
-1953	1	210394	10:26:00	10:26:00		Staroniwska / Zielarska 14 nż
-1953	1	210394	10:27:00	10:27:00		Staroniwska / Kresowa 16 nż
-1953	1	210394	10:28:00	10:28:00		Kielanówka cegielnia 02 nż
-1953	1	210394	10:29:00	10:29:00		Kielanówka Kopiec 04 nż
-1953	1	210394	10:30:00	10:30:00		Kielanówka Ruch 06 nż
-1953	1	210394	10:31:00	10:31:00		Błękitne Wzgórze / Słoneczny Stok 02 nż
-1953	1	210394	10:32:00	10:32:00		Błękitne Wzgórze / Leśne Wzgórze 04 nż
-1953	1	210394	10:33:00	10:33:00		Kielanówka poczta 08 nż
-1953	1	210394	10:34:00	10:34:00		Kielanówka pętla 10
+1953	3	210394	10:10:00	10:10:00		Bardowskiego 02
+1953	3	210394	10:12:00	10:12:00		Pl. Wolności 04
+1953	3	210394	10:13:00	10:13:00		Piłsudskiego U. Wojewódzki 06
+1953	3	210394	10:15:00	10:15:00		Cieplińskiego 02
+1953	3	210394	10:16:00	10:16:00		Mochnackiego 02 nż
+1953	3	210394	10:17:00	10:17:00		Langiewicza park 02 nż
+1953	3	210394	10:18:00	10:18:00		Chmaja / Langiewicza 02 nż
+1953	3	210394	10:20:00	10:20:00		Boya Żeleńskiego 01 nż
+1953	3	210394	10:21:00	10:21:00		Langiewicza / Wita Stwosza 04
+1953	3	210394	10:22:00	10:22:00		Staroniwska / Rzemieślnicza 02 nż
+1953	3	210394	10:23:00	10:23:00		Staroniwska szkoła 04 nż
+1953	3	210394	10:24:00	10:24:00		Staroniwska kościół 06 nż
+1953	3	210394	10:25:00	10:25:00		Staroniwska pętla 08 nż
+1953	3	210394	10:26:00	10:26:00		Staroniwska / Zielarska 14 nż
+1953	3	210394	10:27:00	10:27:00		Staroniwska / Kresowa 16 nż
+1953	3	210394	10:28:00	10:28:00		Kielanówka cegielnia 02 nż
+1953	3	210394	10:29:00	10:29:00		Kielanówka Kopiec 04 nż
+1953	3	210394	10:30:00	10:30:00		Kielanówka Ruch 06 nż
+1953	3	210394	10:31:00	10:31:00		Błękitne Wzgórze / Słoneczny Stok 02 nż
+1953	3	210394	10:32:00	10:32:00		Błękitne Wzgórze / Leśne Wzgórze 04 nż
+1953	3	210394	10:33:00	10:33:00		Kielanówka poczta 08 nż
+1953	3	210394	10:34:00	10:34:00		Kielanówka pętla 10
 
-1955	1	212810	10:39:00	10:39:00		Kielanówka pętla 10
-1955	1	212810	10:40:00	10:40:00		Kielanówka poczta 09 nż
-1955	1	212810	10:41:00	10:41:00		Błękitne Wzgórze / Leśne Wzgórze 03 nż
-1955	1	212810	10:42:00	10:42:00		Kielanówka Słoneczny Stok 07 nż
-1955	1	212810	10:43:00	10:43:00		Kielanówka Ruch 05 nż
-1955	1	212810	10:44:00	10:44:00		Kielanówka Kopiec 03 nż
-1955	1	212810	10:45:00	10:45:00		Kielanówka cegielnia 01 nż
-1955	1	212810	10:46:00	10:46:00		Staroniwska / Kresowa 11 nż
-1955	1	212810	10:47:00	10:47:00		Staroniwska / Zielarska 09 nż
-1955	1	212810	10:48:00	10:48:00		Staroniwska pętla 12 nż
-1955	1	212810	10:49:00	10:49:00		Staroniwska kościół 05 nż
-1955	1	212810	10:50:00	10:50:00		Staroniwska szkoła 03 nż
-1955	1	212810	10:51:00	10:51:00		Staroniwska / Rzemieślnicza 01 nż
-1955	1	212810	10:52:00	10:52:00		Langiewicza / Wita Stwosza 05 nż
-1955	1	212810	10:53:00	10:53:00		Boya Żeleńskiego 02 nż
-1955	1	212810	10:54:00	10:54:00		Chmaja bloki 03 nż
-1955	1	212810	10:55:00	10:55:00		Chmaja / Langiewicza 01 nż
-1955	1	212810	10:56:00	10:56:00		Langiewicza park 03 nż
-1955	1	212810	10:57:00	10:57:00		Langiewicza / Hoffmanowej 01 nż
-1955	1	212810	10:58:00	10:58:00		Mochnackiego 01 nż
-1955	1	212810	10:59:00	10:59:00		Cieplińskiego 01
-1955	1	212810	11:00:00	11:00:00		Piłsudskiego U. Wojewódzki 05
-1955	1	212810	11:03:00	11:03:00		Bardowskiego 04
+1955	3	212810	10:39:00	10:39:00		Kielanówka pętla 10
+1955	3	212810	10:40:00	10:40:00		Kielanówka poczta 09 nż
+1955	3	212810	10:41:00	10:41:00		Błękitne Wzgórze / Leśne Wzgórze 03 nż
+1955	3	212810	10:42:00	10:42:00		Kielanówka Słoneczny Stok 07 nż
+1955	3	212810	10:43:00	10:43:00		Kielanówka Ruch 05 nż
+1955	3	212810	10:44:00	10:44:00		Kielanówka Kopiec 03 nż
+1955	3	212810	10:45:00	10:45:00		Kielanówka cegielnia 01 nż
+1955	3	212810	10:46:00	10:46:00		Staroniwska / Kresowa 11 nż
+1955	3	212810	10:47:00	10:47:00		Staroniwska / Zielarska 09 nż
+1955	3	212810	10:48:00	10:48:00		Staroniwska pętla 12 nż
+1955	3	212810	10:49:00	10:49:00		Staroniwska kościół 05 nż
+1955	3	212810	10:50:00	10:50:00		Staroniwska szkoła 03 nż
+1955	3	212810	10:51:00	10:51:00		Staroniwska / Rzemieślnicza 01 nż
+1955	3	212810	10:52:00	10:52:00		Langiewicza / Wita Stwosza 05 nż
+1955	3	212810	10:53:00	10:53:00		Boya Żeleńskiego 02 nż
+1955	3	212810	10:54:00	10:54:00		Chmaja bloki 03 nż
+1955	3	212810	10:55:00	10:55:00		Chmaja / Langiewicza 01 nż
+1955	3	212810	10:56:00	10:56:00		Langiewicza park 03 nż
+1955	3	212810	10:57:00	10:57:00		Langiewicza / Hoffmanowej 01 nż
+1955	3	212810	10:58:00	10:58:00		Mochnackiego 01 nż
+1955	3	212810	10:59:00	10:59:00		Cieplińskiego 01
+1955	3	212810	11:00:00	11:00:00		Piłsudskiego U. Wojewódzki 05
+1955	3	212810	11:03:00	11:03:00		Bardowskiego 04
 
-1953	1	209702	11:25:00	11:25:00		Bardowskiego 02
-1953	1	209702	11:27:00	11:27:00		Pl. Wolności 04
-1953	1	209702	11:28:00	11:28:00		Piłsudskiego U. Wojewódzki 06
-1953	1	209702	11:30:00	11:30:00		Cieplińskiego 02
-1953	1	209702	11:31:00	11:31:00		Mochnackiego 02 nż
-1953	1	209702	11:32:00	11:32:00		Langiewicza park 02 nż
-1953	1	209702	11:33:00	11:33:00		Chmaja / Langiewicza 02 nż
-1953	1	209702	11:35:00	11:35:00		Boya Żeleńskiego 01 nż
-1953	1	209702	11:36:00	11:36:00		Langiewicza / Wita Stwosza 04
-1953	1	209702	11:37:00	11:37:00		Staroniwska / Rzemieślnicza 02 nż
-1953	1	209702	11:38:00	11:38:00		Staroniwska szkoła 04 nż
-1953	1	209702	11:39:00	11:39:00		Staroniwska kościół 06 nż
-1953	1	209702	11:40:00	11:40:00		Staroniwska pętla 08 nż
-1953	1	209702	11:41:00	11:41:00		Staroniwska / Zielarska 14 nż
-1953	1	209702	11:42:00	11:42:00		Staroniwska / Kresowa 16 nż
-1953	1	209702	11:43:00	11:43:00		Kielanówka cegielnia 02 nż
-1953	1	209702	11:44:00	11:44:00		Kielanówka Kopiec 04 nż
-1953	1	209702	11:45:00	11:45:00		Kielanówka Ruch 06 nż
-1953	1	209702	11:46:00	11:46:00		Błękitne Wzgórze / Słoneczny Stok 02 nż
-1953	1	209702	11:47:00	11:47:00		Błękitne Wzgórze / Leśne Wzgórze 04 nż
-1953	1	209702	11:48:00	11:48:00		Kielanówka poczta 08 nż
-1953	1	209702	11:49:00	11:49:00		Kielanówka pętla 10
+1953	3	209702	11:25:00	11:25:00		Bardowskiego 02
+1953	3	209702	11:27:00	11:27:00		Pl. Wolności 04
+1953	3	209702	11:28:00	11:28:00		Piłsudskiego U. Wojewódzki 06
+1953	3	209702	11:30:00	11:30:00		Cieplińskiego 02
+1953	3	209702	11:31:00	11:31:00		Mochnackiego 02 nż
+1953	3	209702	11:32:00	11:32:00		Langiewicza park 02 nż
+1953	3	209702	11:33:00	11:33:00		Chmaja / Langiewicza 02 nż
+1953	3	209702	11:35:00	11:35:00		Boya Żeleńskiego 01 nż
+1953	3	209702	11:36:00	11:36:00		Langiewicza / Wita Stwosza 04
+1953	3	209702	11:37:00	11:37:00		Staroniwska / Rzemieślnicza 02 nż
+1953	3	209702	11:38:00	11:38:00		Staroniwska szkoła 04 nż
+1953	3	209702	11:39:00	11:39:00		Staroniwska kościół 06 nż
+1953	3	209702	11:40:00	11:40:00		Staroniwska pętla 08 nż
+1953	3	209702	11:41:00	11:41:00		Staroniwska / Zielarska 14 nż
+1953	3	209702	11:42:00	11:42:00		Staroniwska / Kresowa 16 nż
+1953	3	209702	11:43:00	11:43:00		Kielanówka cegielnia 02 nż
+1953	3	209702	11:44:00	11:44:00		Kielanówka Kopiec 04 nż
+1953	3	209702	11:45:00	11:45:00		Kielanówka Ruch 06 nż
+1953	3	209702	11:46:00	11:46:00		Błękitne Wzgórze / Słoneczny Stok 02 nż
+1953	3	209702	11:47:00	11:47:00		Błękitne Wzgórze / Leśne Wzgórze 04 nż
+1953	3	209702	11:48:00	11:48:00		Kielanówka poczta 08 nż
+1953	3	209702	11:49:00	11:49:00		Kielanówka pętla 10
 
-1955	1	213683	12:09:00	12:09:00		Kielanówka pętla 10
-1955	1	213683	12:10:00	12:10:00		Kielanówka poczta 09 nż
-1955	1	213683	12:11:00	12:11:00		Błękitne Wzgórze / Leśne Wzgórze 03 nż
-1955	1	213683	12:12:00	12:12:00		Kielanówka Słoneczny Stok 07 nż
-1955	1	213683	12:13:00	12:13:00		Kielanówka Ruch 05 nż
-1955	1	213683	12:14:00	12:14:00		Kielanówka Kopiec 03 nż
-1955	1	213683	12:15:00	12:15:00		Kielanówka cegielnia 01 nż
-1955	1	213683	12:16:00	12:16:00		Staroniwska / Kresowa 11 nż
-1955	1	213683	12:17:00	12:17:00		Staroniwska / Zielarska 09 nż
-1955	1	213683	12:18:00	12:18:00		Staroniwska pętla 12 nż
-1955	1	213683	12:19:00	12:19:00		Staroniwska kościół 05 nż
-1955	1	213683	12:20:00	12:20:00		Staroniwska szkoła 03 nż
-1955	1	213683	12:21:00	12:21:00		Staroniwska / Rzemieślnicza 01 nż
-1955	1	213683	12:22:00	12:22:00		Langiewicza / Wita Stwosza 05 nż
-1955	1	213683	12:23:00	12:23:00		Boya Żeleńskiego 02 nż
-1955	1	213683	12:24:00	12:24:00		Chmaja bloki 03 nż
-1955	1	213683	12:25:00	12:25:00		Chmaja / Langiewicza 01 nż
-1955	1	213683	12:26:00	12:26:00		Langiewicza park 03 nż
-1955	1	213683	12:27:00	12:27:00		Langiewicza / Hoffmanowej 01 nż
-1955	1	213683	12:28:00	12:28:00		Mochnackiego 01 nż
-1955	1	213683	12:29:00	12:29:00		Cieplińskiego 01
-1955	1	213683	12:30:00	12:30:00		Piłsudskiego U. Wojewódzki 05
-1955	1	213683	12:33:00	12:33:00		Bardowskiego 04
+1955	3	213683	12:09:00	12:09:00		Kielanówka pętla 10
+1955	3	213683	12:10:00	12:10:00		Kielanówka poczta 09 nż
+1955	3	213683	12:11:00	12:11:00		Błękitne Wzgórze / Leśne Wzgórze 03 nż
+1955	3	213683	12:12:00	12:12:00		Kielanówka Słoneczny Stok 07 nż
+1955	3	213683	12:13:00	12:13:00		Kielanówka Ruch 05 nż
+1955	3	213683	12:14:00	12:14:00		Kielanówka Kopiec 03 nż
+1955	3	213683	12:15:00	12:15:00		Kielanówka cegielnia 01 nż
+1955	3	213683	12:16:00	12:16:00		Staroniwska / Kresowa 11 nż
+1955	3	213683	12:17:00	12:17:00		Staroniwska / Zielarska 09 nż
+1955	3	213683	12:18:00	12:18:00		Staroniwska pętla 12 nż
+1955	3	213683	12:19:00	12:19:00		Staroniwska kościół 05 nż
+1955	3	213683	12:20:00	12:20:00		Staroniwska szkoła 03 nż
+1955	3	213683	12:21:00	12:21:00		Staroniwska / Rzemieślnicza 01 nż
+1955	3	213683	12:22:00	12:22:00		Langiewicza / Wita Stwosza 05 nż
+1955	3	213683	12:23:00	12:23:00		Boya Żeleńskiego 02 nż
+1955	3	213683	12:24:00	12:24:00		Chmaja bloki 03 nż
+1955	3	213683	12:25:00	12:25:00		Chmaja / Langiewicza 01 nż
+1955	3	213683	12:26:00	12:26:00		Langiewicza park 03 nż
+1955	3	213683	12:27:00	12:27:00		Langiewicza / Hoffmanowej 01 nż
+1955	3	213683	12:28:00	12:28:00		Mochnackiego 01 nż
+1955	3	213683	12:29:00	12:29:00		Cieplińskiego 01
+1955	3	213683	12:30:00	12:30:00		Piłsudskiego U. Wojewódzki 05
+1955	3	213683	12:33:00	12:33:00		Bardowskiego 04
 
-1953	1	213382	12:55:00	12:55:00		Bardowskiego 02
-1953	1	213382	12:57:00	12:57:00		Pl. Wolności 04
-1953	1	213382	12:58:00	12:58:00		Piłsudskiego U. Wojewódzki 06
-1953	1	213382	13:00:00	13:00:00		Cieplińskiego 02
-1953	1	213382	13:01:00	13:01:00		Mochnackiego 02 nż
-1953	1	213382	13:02:00	13:02:00		Langiewicza park 02 nż
-1953	1	213382	13:03:00	13:03:00		Chmaja / Langiewicza 02 nż
-1953	1	213382	13:05:00	13:05:00		Boya Żeleńskiego 01 nż
-1953	1	213382	13:06:00	13:06:00		Langiewicza / Wita Stwosza 04
-1953	1	213382	13:08:00	13:08:00		Staroniwska / Rzemieślnicza 02 nż
-1953	1	213382	13:09:00	13:09:00		Staroniwska szkoła 04 nż
-1953	1	213382	13:10:00	13:10:00		Staroniwska kościół 06 nż
-1953	1	213382	13:11:00	13:11:00		Staroniwska pętla 08 nż
-1953	1	213382	13:12:00	13:12:00		Staroniwska / Zielarska 14 nż
-1953	1	213382	13:13:00	13:13:00		Staroniwska / Kresowa 16 nż
-1953	1	213382	13:14:00	13:14:00		Kielanówka cegielnia 02 nż
-1953	1	213382	13:15:00	13:15:00		Kielanówka Kopiec 04 nż
-1953	1	213382	13:16:00	13:16:00		Kielanówka Ruch 06 nż
-1953	1	213382	13:17:00	13:17:00		Błękitne Wzgórze / Słoneczny Stok 02 nż
-1953	1	213382	13:18:00	13:18:00		Błękitne Wzgórze / Leśne Wzgórze 04 nż
-1953	1	213382	13:19:00	13:19:00		Kielanówka poczta 08 nż
-1953	1	213382	13:20:00	13:20:00		Kielanówka pętla 10
+1953	3	213382	12:55:00	12:55:00		Bardowskiego 02
+1953	3	213382	12:57:00	12:57:00		Pl. Wolności 04
+1953	3	213382	12:58:00	12:58:00		Piłsudskiego U. Wojewódzki 06
+1953	3	213382	13:00:00	13:00:00		Cieplińskiego 02
+1953	3	213382	13:01:00	13:01:00		Mochnackiego 02 nż
+1953	3	213382	13:02:00	13:02:00		Langiewicza park 02 nż
+1953	3	213382	13:03:00	13:03:00		Chmaja / Langiewicza 02 nż
+1953	3	213382	13:05:00	13:05:00		Boya Żeleńskiego 01 nż
+1953	3	213382	13:06:00	13:06:00		Langiewicza / Wita Stwosza 04
+1953	3	213382	13:08:00	13:08:00		Staroniwska / Rzemieślnicza 02 nż
+1953	3	213382	13:09:00	13:09:00		Staroniwska szkoła 04 nż
+1953	3	213382	13:10:00	13:10:00		Staroniwska kościół 06 nż
+1953	3	213382	13:11:00	13:11:00		Staroniwska pętla 08 nż
+1953	3	213382	13:12:00	13:12:00		Staroniwska / Zielarska 14 nż
+1953	3	213382	13:13:00	13:13:00		Staroniwska / Kresowa 16 nż
+1953	3	213382	13:14:00	13:14:00		Kielanówka cegielnia 02 nż
+1953	3	213382	13:15:00	13:15:00		Kielanówka Kopiec 04 nż
+1953	3	213382	13:16:00	13:16:00		Kielanówka Ruch 06 nż
+1953	3	213382	13:17:00	13:17:00		Błękitne Wzgórze / Słoneczny Stok 02 nż
+1953	3	213382	13:18:00	13:18:00		Błękitne Wzgórze / Leśne Wzgórze 04 nż
+1953	3	213382	13:19:00	13:19:00		Kielanówka poczta 08 nż
+1953	3	213382	13:20:00	13:20:00		Kielanówka pętla 10
 
-1955	1	215350	13:38:00	13:38:00		Kielanówka pętla 10
-1955	1	215350	13:39:00	13:39:00		Kielanówka poczta 09 nż
-1955	1	215350	13:40:00	13:40:00		Błękitne Wzgórze / Leśne Wzgórze 03 nż
-1955	1	215350	13:41:00	13:41:00		Kielanówka Słoneczny Stok 07 nż
-1955	1	215350	13:42:00	13:42:00		Kielanówka Ruch 05 nż
-1955	1	215350	13:43:00	13:43:00		Kielanówka Kopiec 03 nż
-1955	1	215350	13:44:00	13:44:00		Kielanówka cegielnia 01 nż
-1955	1	215350	13:45:00	13:45:00		Staroniwska / Kresowa 11 nż
-1955	1	215350	13:46:00	13:46:00		Staroniwska / Zielarska 09 nż
-1955	1	215350	13:47:00	13:47:00		Staroniwska pętla 12 nż
-1955	1	215350	13:48:00	13:48:00		Staroniwska kościół 05 nż
-1955	1	215350	13:49:00	13:49:00		Staroniwska szkoła 03 nż
-1955	1	215350	13:50:00	13:50:00		Staroniwska / Rzemieślnicza 01 nż
-1955	1	215350	13:51:00	13:51:00		Langiewicza / Wita Stwosza 05 nż
-1955	1	215350	13:52:00	13:52:00		Boya Żeleńskiego 02 nż
-1955	1	215350	13:53:00	13:53:00		Chmaja bloki 03 nż
-1955	1	215350	13:54:00	13:54:00		Chmaja / Langiewicza 01 nż
-1955	1	215350	13:55:00	13:55:00		Langiewicza park 03 nż
-1955	1	215350	13:56:00	13:56:00		Langiewicza / Hoffmanowej 01 nż
-1955	1	215350	13:57:00	13:57:00		Mochnackiego 01 nż
-1955	1	215350	13:58:00	13:58:00		Cieplińskiego 01
-1955	1	215350	13:59:00	13:59:00		Piłsudskiego U. Wojewódzki 05
-1955	1	215350	14:02:00	14:02:00		Bardowskiego 04
+1955	3	215350	13:38:00	13:38:00		Kielanówka pętla 10
+1955	3	215350	13:39:00	13:39:00		Kielanówka poczta 09 nż
+1955	3	215350	13:40:00	13:40:00		Błękitne Wzgórze / Leśne Wzgórze 03 nż
+1955	3	215350	13:41:00	13:41:00		Kielanówka Słoneczny Stok 07 nż
+1955	3	215350	13:42:00	13:42:00		Kielanówka Ruch 05 nż
+1955	3	215350	13:43:00	13:43:00		Kielanówka Kopiec 03 nż
+1955	3	215350	13:44:00	13:44:00		Kielanówka cegielnia 01 nż
+1955	3	215350	13:45:00	13:45:00		Staroniwska / Kresowa 11 nż
+1955	3	215350	13:46:00	13:46:00		Staroniwska / Zielarska 09 nż
+1955	3	215350	13:47:00	13:47:00		Staroniwska pętla 12 nż
+1955	3	215350	13:48:00	13:48:00		Staroniwska kościół 05 nż
+1955	3	215350	13:49:00	13:49:00		Staroniwska szkoła 03 nż
+1955	3	215350	13:50:00	13:50:00		Staroniwska / Rzemieślnicza 01 nż
+1955	3	215350	13:51:00	13:51:00		Langiewicza / Wita Stwosza 05 nż
+1955	3	215350	13:52:00	13:52:00		Boya Żeleńskiego 02 nż
+1955	3	215350	13:53:00	13:53:00		Chmaja bloki 03 nż
+1955	3	215350	13:54:00	13:54:00		Chmaja / Langiewicza 01 nż
+1955	3	215350	13:55:00	13:55:00		Langiewicza park 03 nż
+1955	3	215350	13:56:00	13:56:00		Langiewicza / Hoffmanowej 01 nż
+1955	3	215350	13:57:00	13:57:00		Mochnackiego 01 nż
+1955	3	215350	13:58:00	13:58:00		Cieplińskiego 01
+1955	3	215350	13:59:00	13:59:00		Piłsudskiego U. Wojewódzki 05
+1955	3	215350	14:02:00	14:02:00		Bardowskiego 04
 
-1953	1	211542	14:15:00	14:15:00		Bardowskiego 02
-1953	1	211542	14:17:00	14:17:00		Pl. Wolności 04
-1953	1	211542	14:18:00	14:18:00		Piłsudskiego U. Wojewódzki 06
-1953	1	211542	14:20:00	14:20:00		Cieplińskiego 02
-1953	1	211542	14:21:00	14:21:00		Mochnackiego 02 nż
-1953	1	211542	14:22:00	14:22:00		Langiewicza park 02 nż
-1953	1	211542	14:23:00	14:23:00		Chmaja / Langiewicza 02 nż
-1953	1	211542	14:25:00	14:25:00		Boya Żeleńskiego 01 nż
-1953	1	211542	14:26:00	14:26:00		Langiewicza / Wita Stwosza 04
-1953	1	211542	14:28:00	14:28:00		Staroniwska / Rzemieślnicza 02 nż
-1953	1	211542	14:29:00	14:29:00		Staroniwska szkoła 04 nż
-1953	1	211542	14:30:00	14:30:00		Staroniwska kościół 06 nż
-1953	1	211542	14:31:00	14:31:00		Staroniwska pętla 08 nż
-1953	1	211542	14:32:00	14:32:00		Staroniwska / Zielarska 14 nż
-1953	1	211542	14:33:00	14:33:00		Staroniwska / Kresowa 16 nż
-1953	1	211542	14:34:00	14:34:00		Kielanówka cegielnia 02 nż
-1953	1	211542	14:35:00	14:35:00		Kielanówka Kopiec 04 nż
-1953	1	211542	14:36:00	14:36:00		Kielanówka Ruch 06 nż
-1953	1	211542	14:37:00	14:37:00		Błękitne Wzgórze / Słoneczny Stok 02 nż
-1953	1	211542	14:38:00	14:38:00		Błękitne Wzgórze / Leśne Wzgórze 04 nż
-1953	1	211542	14:39:00	14:39:00		Kielanówka poczta 08 nż
-1953	1	211542	14:40:00	14:40:00		Kielanówka pętla 10
+1953	3	211542	14:15:00	14:15:00		Bardowskiego 02
+1953	3	211542	14:17:00	14:17:00		Pl. Wolności 04
+1953	3	211542	14:18:00	14:18:00		Piłsudskiego U. Wojewódzki 06
+1953	3	211542	14:20:00	14:20:00		Cieplińskiego 02
+1953	3	211542	14:21:00	14:21:00		Mochnackiego 02 nż
+1953	3	211542	14:22:00	14:22:00		Langiewicza park 02 nż
+1953	3	211542	14:23:00	14:23:00		Chmaja / Langiewicza 02 nż
+1953	3	211542	14:25:00	14:25:00		Boya Żeleńskiego 01 nż
+1953	3	211542	14:26:00	14:26:00		Langiewicza / Wita Stwosza 04
+1953	3	211542	14:28:00	14:28:00		Staroniwska / Rzemieślnicza 02 nż
+1953	3	211542	14:29:00	14:29:00		Staroniwska szkoła 04 nż
+1953	3	211542	14:30:00	14:30:00		Staroniwska kościół 06 nż
+1953	3	211542	14:31:00	14:31:00		Staroniwska pętla 08 nż
+1953	3	211542	14:32:00	14:32:00		Staroniwska / Zielarska 14 nż
+1953	3	211542	14:33:00	14:33:00		Staroniwska / Kresowa 16 nż
+1953	3	211542	14:34:00	14:34:00		Kielanówka cegielnia 02 nż
+1953	3	211542	14:35:00	14:35:00		Kielanówka Kopiec 04 nż
+1953	3	211542	14:36:00	14:36:00		Kielanówka Ruch 06 nż
+1953	3	211542	14:37:00	14:37:00		Błękitne Wzgórze / Słoneczny Stok 02 nż
+1953	3	211542	14:38:00	14:38:00		Błękitne Wzgórze / Leśne Wzgórze 04 nż
+1953	3	211542	14:39:00	14:39:00		Kielanówka poczta 08 nż
+1953	3	211542	14:40:00	14:40:00		Kielanówka pętla 10
 
-1955	1	209452	14:58:00	14:58:00		Kielanówka pętla 10
-1955	1	209452	14:59:00	14:59:00		Kielanówka poczta 09 nż
-1955	1	209452	15:00:00	15:00:00		Błękitne Wzgórze / Leśne Wzgórze 03 nż
-1955	1	209452	15:01:00	15:01:00		Kielanówka Słoneczny Stok 07 nż
-1955	1	209452	15:02:00	15:02:00		Kielanówka Ruch 05 nż
-1955	1	209452	15:03:00	15:03:00		Kielanówka Kopiec 03 nż
-1955	1	209452	15:04:00	15:04:00		Kielanówka cegielnia 01 nż
-1955	1	209452	15:05:00	15:05:00		Staroniwska / Kresowa 11 nż
-1955	1	209452	15:06:00	15:06:00		Staroniwska / Zielarska 09 nż
-1955	1	209452	15:07:00	15:07:00		Staroniwska pętla 12 nż
-1955	1	209452	15:08:00	15:08:00		Staroniwska kościół 05 nż
-1955	1	209452	15:09:00	15:09:00		Staroniwska szkoła 03 nż
-1955	1	209452	15:10:00	15:10:00		Staroniwska / Rzemieślnicza 01 nż
-1955	1	209452	15:11:00	15:11:00		Langiewicza / Wita Stwosza 05 nż
-1955	1	209452	15:12:00	15:12:00		Boya Żeleńskiego 02 nż
-1955	1	209452	15:13:00	15:13:00		Chmaja bloki 03 nż
-1955	1	209452	15:14:00	15:14:00		Chmaja / Langiewicza 01 nż
-1955	1	209452	15:15:00	15:15:00		Langiewicza park 03 nż
-1955	1	209452	15:16:00	15:16:00		Langiewicza / Hoffmanowej 01 nż
-1955	1	209452	15:17:00	15:17:00		Mochnackiego 01 nż
-1955	1	209452	15:18:00	15:18:00		Cieplińskiego 01
-1955	1	209452	15:19:00	15:19:00		Piłsudskiego U. Wojewódzki 05
-1955	1	209452	15:22:00	15:22:00		Bardowskiego 04
+1955	3	209452	14:58:00	14:58:00		Kielanówka pętla 10
+1955	3	209452	14:59:00	14:59:00		Kielanówka poczta 09 nż
+1955	3	209452	15:00:00	15:00:00		Błękitne Wzgórze / Leśne Wzgórze 03 nż
+1955	3	209452	15:01:00	15:01:00		Kielanówka Słoneczny Stok 07 nż
+1955	3	209452	15:02:00	15:02:00		Kielanówka Ruch 05 nż
+1955	3	209452	15:03:00	15:03:00		Kielanówka Kopiec 03 nż
+1955	3	209452	15:04:00	15:04:00		Kielanówka cegielnia 01 nż
+1955	3	209452	15:05:00	15:05:00		Staroniwska / Kresowa 11 nż
+1955	3	209452	15:06:00	15:06:00		Staroniwska / Zielarska 09 nż
+1955	3	209452	15:07:00	15:07:00		Staroniwska pętla 12 nż
+1955	3	209452	15:08:00	15:08:00		Staroniwska kościół 05 nż
+1955	3	209452	15:09:00	15:09:00		Staroniwska szkoła 03 nż
+1955	3	209452	15:10:00	15:10:00		Staroniwska / Rzemieślnicza 01 nż
+1955	3	209452	15:11:00	15:11:00		Langiewicza / Wita Stwosza 05 nż
+1955	3	209452	15:12:00	15:12:00		Boya Żeleńskiego 02 nż
+1955	3	209452	15:13:00	15:13:00		Chmaja bloki 03 nż
+1955	3	209452	15:14:00	15:14:00		Chmaja / Langiewicza 01 nż
+1955	3	209452	15:15:00	15:15:00		Langiewicza park 03 nż
+1955	3	209452	15:16:00	15:16:00		Langiewicza / Hoffmanowej 01 nż
+1955	3	209452	15:17:00	15:17:00		Mochnackiego 01 nż
+1955	3	209452	15:18:00	15:18:00		Cieplińskiego 01
+1955	3	209452	15:19:00	15:19:00		Piłsudskiego U. Wojewódzki 05
+1955	3	209452	15:22:00	15:22:00		Bardowskiego 04
 
-1953	1	213726	15:45:00	15:45:00		Bardowskiego 02
-1953	1	213726	15:47:00	15:47:00		Pl. Wolności 04
-1953	1	213726	15:48:00	15:48:00		Piłsudskiego U. Wojewódzki 06
-1953	1	213726	15:50:00	15:50:00		Cieplińskiego 02
-1953	1	213726	15:51:00	15:51:00		Mochnackiego 02 nż
-1953	1	213726	15:52:00	15:52:00		Langiewicza park 02 nż
-1953	1	213726	15:53:00	15:53:00		Chmaja / Langiewicza 02 nż
-1953	1	213726	15:55:00	15:55:00		Boya Żeleńskiego 01 nż
-1953	1	213726	15:56:00	15:56:00		Langiewicza / Wita Stwosza 04
-1953	1	213726	15:58:00	15:58:00		Staroniwska / Rzemieślnicza 02 nż
-1953	1	213726	15:59:00	15:59:00		Staroniwska szkoła 04 nż
-1953	1	213726	16:00:00	16:00:00		Staroniwska kościół 06 nż
-1953	1	213726	16:01:00	16:01:00		Staroniwska pętla 08 nż
-1953	1	213726	16:02:00	16:02:00		Staroniwska / Zielarska 14 nż
-1953	1	213726	16:03:00	16:03:00		Staroniwska / Kresowa 16 nż
-1953	1	213726	16:04:00	16:04:00		Kielanówka cegielnia 02 nż
-1953	1	213726	16:05:00	16:05:00		Kielanówka Kopiec 04 nż
-1953	1	213726	16:06:00	16:06:00		Kielanówka Ruch 06 nż
-1953	1	213726	16:07:00	16:07:00		Błękitne Wzgórze / Słoneczny Stok 02 nż
-1953	1	213726	16:08:00	16:08:00		Błękitne Wzgórze / Leśne Wzgórze 04 nż
-1953	1	213726	16:09:00	16:09:00		Kielanówka poczta 08 nż
-1953	1	213726	16:10:00	16:10:00		Kielanówka pętla 10
+1953	3	213726	15:45:00	15:45:00		Bardowskiego 02
+1953	3	213726	15:47:00	15:47:00		Pl. Wolności 04
+1953	3	213726	15:48:00	15:48:00		Piłsudskiego U. Wojewódzki 06
+1953	3	213726	15:50:00	15:50:00		Cieplińskiego 02
+1953	3	213726	15:51:00	15:51:00		Mochnackiego 02 nż
+1953	3	213726	15:52:00	15:52:00		Langiewicza park 02 nż
+1953	3	213726	15:53:00	15:53:00		Chmaja / Langiewicza 02 nż
+1953	3	213726	15:55:00	15:55:00		Boya Żeleńskiego 01 nż
+1953	3	213726	15:56:00	15:56:00		Langiewicza / Wita Stwosza 04
+1953	3	213726	15:58:00	15:58:00		Staroniwska / Rzemieślnicza 02 nż
+1953	3	213726	15:59:00	15:59:00		Staroniwska szkoła 04 nż
+1953	3	213726	16:00:00	16:00:00		Staroniwska kościół 06 nż
+1953	3	213726	16:01:00	16:01:00		Staroniwska pętla 08 nż
+1953	3	213726	16:02:00	16:02:00		Staroniwska / Zielarska 14 nż
+1953	3	213726	16:03:00	16:03:00		Staroniwska / Kresowa 16 nż
+1953	3	213726	16:04:00	16:04:00		Kielanówka cegielnia 02 nż
+1953	3	213726	16:05:00	16:05:00		Kielanówka Kopiec 04 nż
+1953	3	213726	16:06:00	16:06:00		Kielanówka Ruch 06 nż
+1953	3	213726	16:07:00	16:07:00		Błękitne Wzgórze / Słoneczny Stok 02 nż
+1953	3	213726	16:08:00	16:08:00		Błękitne Wzgórze / Leśne Wzgórze 04 nż
+1953	3	213726	16:09:00	16:09:00		Kielanówka poczta 08 nż
+1953	3	213726	16:10:00	16:10:00		Kielanówka pętla 10
 
-1955	1	212888	16:28:00	16:28:00		Kielanówka pętla 10
-1955	1	212888	16:29:00	16:29:00		Kielanówka poczta 09 nż
-1955	1	212888	16:30:00	16:30:00		Błękitne Wzgórze / Leśne Wzgórze 03 nż
-1955	1	212888	16:31:00	16:31:00		Kielanówka Słoneczny Stok 07 nż
-1955	1	212888	16:32:00	16:32:00		Kielanówka Ruch 05 nż
-1955	1	212888	16:33:00	16:33:00		Kielanówka Kopiec 03 nż
-1955	1	212888	16:34:00	16:34:00		Kielanówka cegielnia 01 nż
-1955	1	212888	16:35:00	16:35:00		Staroniwska / Kresowa 11 nż
-1955	1	212888	16:36:00	16:36:00		Staroniwska / Zielarska 09 nż
-1955	1	212888	16:37:00	16:37:00		Staroniwska pętla 12 nż
-1955	1	212888	16:38:00	16:38:00		Staroniwska kościół 05 nż
-1955	1	212888	16:39:00	16:39:00		Staroniwska szkoła 03 nż
-1955	1	212888	16:40:00	16:40:00		Staroniwska / Rzemieślnicza 01 nż
-1955	1	212888	16:41:00	16:41:00		Langiewicza / Wita Stwosza 05 nż
-1955	1	212888	16:42:00	16:42:00		Boya Żeleńskiego 02 nż
-1955	1	212888	16:43:00	16:43:00		Chmaja bloki 03 nż
-1955	1	212888	16:44:00	16:44:00		Chmaja / Langiewicza 01 nż
-1955	1	212888	16:45:00	16:45:00		Langiewicza park 03 nż
-1955	1	212888	16:46:00	16:46:00		Langiewicza / Hoffmanowej 01 nż
-1955	1	212888	16:47:00	16:47:00		Mochnackiego 01 nż
-1955	1	212888	16:48:00	16:48:00		Cieplińskiego 01
-1955	1	212888	16:49:00	16:49:00		Piłsudskiego U. Wojewódzki 05
-1955	1	212888	16:52:00	16:52:00		Bardowskiego 04
+1955	3	212888	16:28:00	16:28:00		Kielanówka pętla 10
+1955	3	212888	16:29:00	16:29:00		Kielanówka poczta 09 nż
+1955	3	212888	16:30:00	16:30:00		Błękitne Wzgórze / Leśne Wzgórze 03 nż
+1955	3	212888	16:31:00	16:31:00		Kielanówka Słoneczny Stok 07 nż
+1955	3	212888	16:32:00	16:32:00		Kielanówka Ruch 05 nż
+1955	3	212888	16:33:00	16:33:00		Kielanówka Kopiec 03 nż
+1955	3	212888	16:34:00	16:34:00		Kielanówka cegielnia 01 nż
+1955	3	212888	16:35:00	16:35:00		Staroniwska / Kresowa 11 nż
+1955	3	212888	16:36:00	16:36:00		Staroniwska / Zielarska 09 nż
+1955	3	212888	16:37:00	16:37:00		Staroniwska pętla 12 nż
+1955	3	212888	16:38:00	16:38:00		Staroniwska kościół 05 nż
+1955	3	212888	16:39:00	16:39:00		Staroniwska szkoła 03 nż
+1955	3	212888	16:40:00	16:40:00		Staroniwska / Rzemieślnicza 01 nż
+1955	3	212888	16:41:00	16:41:00		Langiewicza / Wita Stwosza 05 nż
+1955	3	212888	16:42:00	16:42:00		Boya Żeleńskiego 02 nż
+1955	3	212888	16:43:00	16:43:00		Chmaja bloki 03 nż
+1955	3	212888	16:44:00	16:44:00		Chmaja / Langiewicza 01 nż
+1955	3	212888	16:45:00	16:45:00		Langiewicza park 03 nż
+1955	3	212888	16:46:00	16:46:00		Langiewicza / Hoffmanowej 01 nż
+1955	3	212888	16:47:00	16:47:00		Mochnackiego 01 nż
+1955	3	212888	16:48:00	16:48:00		Cieplińskiego 01
+1955	3	212888	16:49:00	16:49:00		Piłsudskiego U. Wojewódzki 05
+1955	3	212888	16:52:00	16:52:00		Bardowskiego 04
 
-1953	1	216017	17:15:00	17:15:00		Bardowskiego 02
-1953	1	216017	17:17:00	17:17:00		Pl. Wolności 04
-1953	1	216017	17:18:00	17:18:00		Piłsudskiego U. Wojewódzki 06
-1953	1	216017	17:20:00	17:20:00		Cieplińskiego 02
-1953	1	216017	17:21:00	17:21:00		Mochnackiego 02 nż
-1953	1	216017	17:22:00	17:22:00		Langiewicza park 02 nż
-1953	1	216017	17:23:00	17:23:00		Chmaja / Langiewicza 02 nż
-1953	1	216017	17:25:00	17:25:00		Boya Żeleńskiego 01 nż
-1953	1	216017	17:26:00	17:26:00		Langiewicza / Wita Stwosza 04
-1953	1	216017	17:28:00	17:28:00		Staroniwska / Rzemieślnicza 02 nż
-1953	1	216017	17:29:00	17:29:00		Staroniwska szkoła 04 nż
-1953	1	216017	17:30:00	17:30:00		Staroniwska kościół 06 nż
-1953	1	216017	17:31:00	17:31:00		Staroniwska pętla 08 nż
-1953	1	216017	17:32:00	17:32:00		Staroniwska / Zielarska 14 nż
-1953	1	216017	17:33:00	17:33:00		Staroniwska / Kresowa 16 nż
-1953	1	216017	17:34:00	17:34:00		Kielanówka cegielnia 02 nż
-1953	1	216017	17:35:00	17:35:00		Kielanówka Kopiec 04 nż
-1953	1	216017	17:36:00	17:36:00		Kielanówka Ruch 06 nż
-1953	1	216017	17:37:00	17:37:00		Błękitne Wzgórze / Słoneczny Stok 02 nż
-1953	1	216017	17:38:00	17:38:00		Błękitne Wzgórze / Leśne Wzgórze 04 nż
-1953	1	216017	17:39:00	17:39:00		Kielanówka poczta 08 nż
-1953	1	216017	17:40:00	17:40:00		Kielanówka pętla 10
+1953	3	216017	17:15:00	17:15:00		Bardowskiego 02
+1953	3	216017	17:17:00	17:17:00		Pl. Wolności 04
+1953	3	216017	17:18:00	17:18:00		Piłsudskiego U. Wojewódzki 06
+1953	3	216017	17:20:00	17:20:00		Cieplińskiego 02
+1953	3	216017	17:21:00	17:21:00		Mochnackiego 02 nż
+1953	3	216017	17:22:00	17:22:00		Langiewicza park 02 nż
+1953	3	216017	17:23:00	17:23:00		Chmaja / Langiewicza 02 nż
+1953	3	216017	17:25:00	17:25:00		Boya Żeleńskiego 01 nż
+1953	3	216017	17:26:00	17:26:00		Langiewicza / Wita Stwosza 04
+1953	3	216017	17:28:00	17:28:00		Staroniwska / Rzemieślnicza 02 nż
+1953	3	216017	17:29:00	17:29:00		Staroniwska szkoła 04 nż
+1953	3	216017	17:30:00	17:30:00		Staroniwska kościół 06 nż
+1953	3	216017	17:31:00	17:31:00		Staroniwska pętla 08 nż
+1953	3	216017	17:32:00	17:32:00		Staroniwska / Zielarska 14 nż
+1953	3	216017	17:33:00	17:33:00		Staroniwska / Kresowa 16 nż
+1953	3	216017	17:34:00	17:34:00		Kielanówka cegielnia 02 nż
+1953	3	216017	17:35:00	17:35:00		Kielanówka Kopiec 04 nż
+1953	3	216017	17:36:00	17:36:00		Kielanówka Ruch 06 nż
+1953	3	216017	17:37:00	17:37:00		Błękitne Wzgórze / Słoneczny Stok 02 nż
+1953	3	216017	17:38:00	17:38:00		Błękitne Wzgórze / Leśne Wzgórze 04 nż
+1953	3	216017	17:39:00	17:39:00		Kielanówka poczta 08 nż
+1953	3	216017	17:40:00	17:40:00		Kielanówka pętla 10
 
-1955	1	210384	17:58:00	17:58:00		Kielanówka pętla 10
-1955	1	210384	17:59:00	17:59:00		Kielanówka poczta 09 nż
-1955	1	210384	18:00:00	18:00:00		Błękitne Wzgórze / Leśne Wzgórze 03 nż
-1955	1	210384	18:01:00	18:01:00		Kielanówka Słoneczny Stok 07 nż
-1955	1	210384	18:02:00	18:02:00		Kielanówka Ruch 05 nż
-1955	1	210384	18:03:00	18:03:00		Kielanówka Kopiec 03 nż
-1955	1	210384	18:04:00	18:04:00		Kielanówka cegielnia 01 nż
-1955	1	210384	18:05:00	18:05:00		Staroniwska / Kresowa 11 nż
-1955	1	210384	18:06:00	18:06:00		Staroniwska / Zielarska 09 nż
-1955	1	210384	18:07:00	18:07:00		Staroniwska pętla 12 nż
-1955	1	210384	18:08:00	18:08:00		Staroniwska kościół 05 nż
-1955	1	210384	18:09:00	18:09:00		Staroniwska szkoła 03 nż
-1955	1	210384	18:10:00	18:10:00		Staroniwska / Rzemieślnicza 01 nż
-1955	1	210384	18:11:00	18:11:00		Langiewicza / Wita Stwosza 05 nż
-1955	1	210384	18:12:00	18:12:00		Boya Żeleńskiego 02 nż
-1955	1	210384	18:13:00	18:13:00		Chmaja bloki 03 nż
-1955	1	210384	18:14:00	18:14:00		Chmaja / Langiewicza 01 nż
-1955	1	210384	18:15:00	18:15:00		Langiewicza park 03 nż
-1955	1	210384	18:16:00	18:16:00		Langiewicza / Hoffmanowej 01 nż
-1955	1	210384	18:17:00	18:17:00		Mochnackiego 01 nż
-1955	1	210384	18:18:00	18:18:00		Cieplińskiego 01
-1955	1	210384	18:19:00	18:19:00		Piłsudskiego U. Wojewódzki 05
-1955	1	210384	18:22:00	18:22:00		Bardowskiego 04
+1955	3	210384	17:58:00	17:58:00		Kielanówka pętla 10
+1955	3	210384	17:59:00	17:59:00		Kielanówka poczta 09 nż
+1955	3	210384	18:00:00	18:00:00		Błękitne Wzgórze / Leśne Wzgórze 03 nż
+1955	3	210384	18:01:00	18:01:00		Kielanówka Słoneczny Stok 07 nż
+1955	3	210384	18:02:00	18:02:00		Kielanówka Ruch 05 nż
+1955	3	210384	18:03:00	18:03:00		Kielanówka Kopiec 03 nż
+1955	3	210384	18:04:00	18:04:00		Kielanówka cegielnia 01 nż
+1955	3	210384	18:05:00	18:05:00		Staroniwska / Kresowa 11 nż
+1955	3	210384	18:06:00	18:06:00		Staroniwska / Zielarska 09 nż
+1955	3	210384	18:07:00	18:07:00		Staroniwska pętla 12 nż
+1955	3	210384	18:08:00	18:08:00		Staroniwska kościół 05 nż
+1955	3	210384	18:09:00	18:09:00		Staroniwska szkoła 03 nż
+1955	3	210384	18:10:00	18:10:00		Staroniwska / Rzemieślnicza 01 nż
+1955	3	210384	18:11:00	18:11:00		Langiewicza / Wita Stwosza 05 nż
+1955	3	210384	18:12:00	18:12:00		Boya Żeleńskiego 02 nż
+1955	3	210384	18:13:00	18:13:00		Chmaja bloki 03 nż
+1955	3	210384	18:14:00	18:14:00		Chmaja / Langiewicza 01 nż
+1955	3	210384	18:15:00	18:15:00		Langiewicza park 03 nż
+1955	3	210384	18:16:00	18:16:00		Langiewicza / Hoffmanowej 01 nż
+1955	3	210384	18:17:00	18:17:00		Mochnackiego 01 nż
+1955	3	210384	18:18:00	18:18:00		Cieplińskiego 01
+1955	3	210384	18:19:00	18:19:00		Piłsudskiego U. Wojewódzki 05
+1955	3	210384	18:22:00	18:22:00		Bardowskiego 04
 
-1839	1	213416	18:30:00	18:30:00		Trembeckiego ZTM pętla 01
-1839	1	213416	18:31:00	18:31:00		Trembeckiego / Siemieńskiego 04 nż
-1839	1	213416	18:32:00	18:32:00		Siemieńskiego U. Skarbowy 03 nż
-1839	1	213416	18:33:00	18:33:00		Siemieńskiego dom studenta 01 nż
-1839	1	213416	18:34:00	18:34:00		Żółkiewskiego / Kochanowskiego 01 nż
-1839	1	213416	18:36:00	18:36:00		Bardowskiego 02
-1839	1	213416	18:38:00	18:38:00		Pl. Wolności 04
-1839	1	213416	18:39:00	18:39:00		Piłsudskiego U. Wojewódzki 06
-1839	1	213416	18:41:00	18:41:00		Cieplińskiego 02
-1839	1	213416	18:42:00	18:42:00		Lisa-Kuli 01
-1839	1	213416	18:44:00	18:44:00		Dąbrowskiego park 02 nż
-1839	1	213416	18:45:00	18:45:00		Dąbrowskiego KW. Policji 04
-1839	1	213416	18:46:00	18:46:00		Dąbrowskiego / Bat. Chłopskich 10
-1839	1	213416	18:49:00	18:49:00		Podkarpacka politechnika 02
-1839	1	213416	18:50:00	18:50:00		Podkarpacka / Matuszczaka 04
-1839	1	213416	18:51:00	18:51:00		Podkarpacka / Wetlińska 06 nż
-1839	1	213416	18:54:00	18:54:00		Zawiszy Czarnego 03 nż
-1839	1	213416	18:55:00	18:55:00		Zawiszy Czarnego / Podgórska 01 nż
-1839	1	213416	18:56:00	18:56:00		Architektów 01
-1839	1	213416	18:58:00	18:58:00		Przemysłowa U. Celny 05 nż
+1839	3	213416	18:30:00	18:30:00		Trembeckiego ZTM pętla 01
+1839	3	213416	18:31:00	18:31:00		Trembeckiego / Siemieńskiego 04 nż
+1839	3	213416	18:32:00	18:32:00		Siemieńskiego U. Skarbowy 03 nż
+1839	3	213416	18:33:00	18:33:00		Siemieńskiego dom studenta 01 nż
+1839	3	213416	18:34:00	18:34:00		Żółkiewskiego / Kochanowskiego 01 nż
+1839	3	213416	18:36:00	18:36:00		Bardowskiego 02
+1839	3	213416	18:38:00	18:38:00		Pl. Wolności 04
+1839	3	213416	18:39:00	18:39:00		Piłsudskiego U. Wojewódzki 06
+1839	3	213416	18:41:00	18:41:00		Cieplińskiego 02
+1839	3	213416	18:42:00	18:42:00		Lisa-Kuli 01
+1839	3	213416	18:44:00	18:44:00		Dąbrowskiego park 02 nż
+1839	3	213416	18:45:00	18:45:00		Dąbrowskiego KW. Policji 04
+1839	3	213416	18:46:00	18:46:00		Dąbrowskiego / Bat. Chłopskich 10
+1839	3	213416	18:49:00	18:49:00		Podkarpacka politechnika 02
+1839	3	213416	18:50:00	18:50:00		Podkarpacka / Matuszczaka 04
+1839	3	213416	18:51:00	18:51:00		Podkarpacka / Wetlińska 06 nż
+1839	3	213416	18:54:00	18:54:00		Zawiszy Czarnego 03 nż
+1839	3	213416	18:55:00	18:55:00		Zawiszy Czarnego / Podgórska 01 nż
+1839	3	213416	18:56:00	18:56:00		Architektów 01
+1839	3	213416	18:58:00	18:58:00		Przemysłowa U. Celny 05 nż
 
-1941	1	214414	19:10:00	19:10:00		Przemysłowa U. Celny 05 nż
-1941	1	214414	19:12:00	19:12:00		Architektów 02
-1941	1	214414	19:14:00	19:14:00		Zawiszy Czarnego / Podgórska 02 nż
-1941	1	214414	19:15:00	19:15:00		Zawiszy Czarnego 04 nż
-1941	1	214414	19:16:00	19:16:00		Żołnierzy 9 DP 01 nż
-1941	1	214414	19:18:00	19:18:00		Podkarpacka / Wetlińska 05 nż
-1941	1	214414	19:19:00	19:19:00		Podkarpacka / Matuszczaka 03
-1941	1	214414	19:20:00	19:20:00		Podkarpacka politechnika 01
-1941	1	214414	19:22:00	19:22:00		Dąbrowskiego / Chrobrego 07
-1941	1	214414	19:23:00	19:23:00		Dąbrowskiego KW. Policji 03
-1941	1	214414	19:24:00	19:24:00		Dąbrowskiego park 01 nż
-1941	1	214414	19:27:00	19:27:00		Lisa-Kuli 02
-1941	1	214414	19:28:00	19:28:00		Cieplińskiego 01
-1941	1	214414	19:29:00	19:29:00		Piłsudskiego U. Wojewódzki 05
-1941	1	214414	19:32:00	19:32:00		Bardowskiego 03
-1941	1	214414	19:34:00	19:34:00		Siemieńskiego / Kochanowskiego 02 nż
-1941	1	214414	19:35:00	19:35:00		Siemieńskiego U. Skarbowy 04 nż
-1941	1	214414	19:36:00	19:36:00		Trembeckiego / Siemieńskiego 07 nż
-1941	1	214414	19:37:00	19:37:00		Trembeckiego ZTM pętla 01
+1941	3	214414	19:10:00	19:10:00		Przemysłowa U. Celny 05 nż
+1941	3	214414	19:12:00	19:12:00		Architektów 02
+1941	3	214414	19:14:00	19:14:00		Zawiszy Czarnego / Podgórska 02 nż
+1941	3	214414	19:15:00	19:15:00		Zawiszy Czarnego 04 nż
+1941	3	214414	19:16:00	19:16:00		Żołnierzy 9 DP 01 nż
+1941	3	214414	19:18:00	19:18:00		Podkarpacka / Wetlińska 05 nż
+1941	3	214414	19:19:00	19:19:00		Podkarpacka / Matuszczaka 03
+1941	3	214414	19:20:00	19:20:00		Podkarpacka politechnika 01
+1941	3	214414	19:22:00	19:22:00		Dąbrowskiego / Chrobrego 07
+1941	3	214414	19:23:00	19:23:00		Dąbrowskiego KW. Policji 03
+1941	3	214414	19:24:00	19:24:00		Dąbrowskiego park 01 nż
+1941	3	214414	19:27:00	19:27:00		Lisa-Kuli 02
+1941	3	214414	19:28:00	19:28:00		Cieplińskiego 01
+1941	3	214414	19:29:00	19:29:00		Piłsudskiego U. Wojewódzki 05
+1941	3	214414	19:32:00	19:32:00		Bardowskiego 03
+1941	3	214414	19:34:00	19:34:00		Siemieńskiego / Kochanowskiego 02 nż
+1941	3	214414	19:35:00	19:35:00		Siemieńskiego U. Skarbowy 04 nż
+1941	3	214414	19:36:00	19:36:00		Trembeckiego / Siemieńskiego 07 nż
+1941	3	214414	19:37:00	19:37:00		Trembeckiego ZTM pętla 01

@@ -1,537 +1,553 @@
 route_id	service_id	trip_id	arrival_time	departure_time	stop_headsign	stop_name
 -------------------------------------------------------------------------------
-1938	4	214722	06:05:00	06:05:00		Trembeckiego ZTM pętla 01
-1938	4	214722	06:06:00	06:06:00		Trembeckiego / Siemieńskiego 04 nż
-1938	4	214722	06:07:00	06:07:00		Siemieńskiego U. Skarbowy 03 nż
-1938	4	214722	06:08:00	06:08:00		Siemieńskiego dom studenta 01 nż
-1938	4	214722	06:09:00	06:09:00		Żółkiewskiego / Kochanowskiego 01 nż
-1938	4	214722	06:11:00	06:11:00		Bardowskiego 02
-1938	4	214722	06:13:00	06:13:00		Targowa 01
-1938	4	214722	06:14:00	06:14:00		Szopena Filharmonia 02 nż
-1938	4	214722	06:15:00	06:15:00		Kilara 01 nż
-1938	4	214722	06:17:00	06:17:00		Hetmańska podzamcze 02 nż
-1938	4	214722	06:18:00	06:18:00		Hetmańska przychodnia 04
-1938	4	214722	06:19:00	06:19:00		Hetmańska ZS. Mech. 06
-1938	4	214722	06:22:00	06:22:00		Powst. Warszawy stadion 06
-1938	4	214722	06:23:00	06:23:00		Kwiatkowskiego / Powst. Warszawy 02
-1938	4	214722	06:24:00	06:24:00		Kwiatkowskiego dom studenta 04 nż
-1938	4	214722	06:25:00	06:25:00		Kwiatkowskiego / Strażacka 06 nż
-1938	4	214722	06:26:00	06:26:00		Kwiatkowskiego żwirownia 08 nż
-1938	4	214722	06:27:00	06:27:00		Kwiatkowskiego / Podmiejska 10 nż
-1938	4	214722	06:28:00	06:28:00		Kwiatkowskiego / Jachowicza 12 nż
-1938	4	214722	06:29:00	06:29:00		Kwiatkowskiego hotel 14 nż
-1938	4	214722	06:30:00	06:30:00		Jana Pawła II OSP 02 nż
-1938	4	214722	06:31:00	06:31:00		Jana Pawła II / Gościnna 04 nż
-1938	4	214722	06:32:00	06:32:00		Jana Pawła II / Św. Antoniego 06 nż
-1938	4	214722	06:33:00	06:33:00		Jana Pawła II / Zakątkowa 08 nż
-1938	4	214722	06:34:00	06:34:00		Jana Pawła II / Herbowa 10 nż
-1938	4	214722	06:35:00	06:35:00		Jana Pawła II / Strzelców 12 nż
-1938	4	214722	06:36:00	06:36:00		Budziwojska / Jana Pawła II 10 nż
-1938	4	214722	06:37:00	06:37:00		Budziwojska szkoła 12
-1938	4	214722	06:38:00	06:38:00		Budziwojska / Podleśna 14 nż
-1938	4	214722	06:40:00	06:40:00		Budziwojska / Kwiatowa 16 nż
-1938	4	214722	06:41:00	06:41:00		Budziwojska / Poselska 18 nż
-1938	4	214722	06:42:00	06:42:00		Budziwojska sklep 20 nż
-1938	4	214722	06:44:00	06:44:00		Budziwojska pętla 22 nż
+1860	2	220287	05:05:00	05:05:00		Trembeckiego ZTM pętla 01
+1860	2	220287	05:06:00	05:06:00		Trembeckiego / Siemieńskiego 04 nż
+1860	2	220287	05:07:00	05:07:00		Siemieńskiego U. Skarbowy 03 nż
+1860	2	220287	05:08:00	05:08:00		Siemieńskiego dom studenta 01 nż
+1860	2	220287	05:09:00	05:09:00		Żółkiewskiego / Kochanowskiego 01 nż
+1860	2	220287	05:11:00	05:11:00		Bardowskiego 02
+1860	2	220287	05:13:00	05:13:00		Targowa 01
+1860	2	220287	05:14:00	05:14:00		Szopena Filharmonia 02 nż
+1860	2	220287	05:15:00	05:15:00		Kilara 01 nż
+1860	2	220287	05:16:00	05:16:00		Hetmańska podzamcze 02 nż
+1860	2	220287	05:17:00	05:17:00		Hetmańska przychodnia 04
+1860	2	220287	05:18:00	05:18:00		Hetmańska ZS. Mech. 06
+1860	2	220287	05:20:00	05:20:00		Powst. Warszawy stadion 06
+1860	2	220287	05:21:00	05:21:00		Kwiatkowskiego / Powst. Warszawy 02
+1860	2	220287	05:22:00	05:22:00		Kwiatkowskiego dom studenta 04 nż
+1860	2	220287	05:23:00	05:23:00		Kwiatkowskiego / Strażacka 06 nż
+1860	2	220287	05:24:00	05:24:00		Kwiatkowskiego żwirownia 08 nż
+1860	2	220287	05:25:00	05:25:00		Kwiatkowskiego / Podmiejska 10 nż
+1860	2	220287	05:26:00	05:26:00		Kwiatkowskiego / Jachowicza 12 nż
+1860	2	220287	05:27:00	05:27:00		Kwiatkowskiego hotel 14 nż
+1860	2	220287	05:28:00	05:28:00		Jana Pawła II OSP 02 nż
+1860	2	220287	05:29:00	05:29:00		Jana Pawła II / Gościnna 04 nż
+1860	2	220287	05:30:00	05:30:00		Jana Pawła II / Św. Antoniego 06 nż
+1860	2	220287	05:31:00	05:31:00		Jana Pawła II / Zakątkowa 08 nż
+1860	2	220287	05:32:00	05:32:00		Jana Pawła II / Herbowa 10 nż
+1860	2	220287	05:33:00	05:33:00		Jana Pawła II / Strzelców 12 nż
+1860	2	220287	05:34:00	05:34:00		Budziwojska / Jana Pawła II 10 nż
+1860	2	220287	05:35:00	05:35:00		Budziwojska szkoła 12
+1860	2	220287	05:36:00	05:36:00		Budziwojska / Podleśna 14 nż
+1860	2	220287	05:38:00	05:38:00		Budziwojska / Kwiatowa 16 nż
+1860	2	220287	05:39:00	05:39:00		Budziwojska / Poselska 18 nż
+1860	2	220287	05:40:00	05:40:00		Budziwojska sklep 20 nż
+1860	2	220287	05:42:00	05:42:00		Budziwojska pętla 22 nż
+1860	2	220287	05:43:00	05:43:00		Siedliska Koniec 11 nż
+1860	2	220287	05:44:00	05:44:00		Siedliska kościół 09 nż
+1860	2	220287	05:45:00	05:45:00		Siedliska ośrodek zdrowia 07 nż
+1860	2	220287	05:46:00	05:46:00		Siedliska skrzyżowanie II 05
 
-1972	4	210497	07:00:00	07:00:00		Budziwojska pętla 22 nż
-1972	4	210497	07:01:00	07:01:00		Budziwojska sklep 17 nż
-1972	4	210497	07:02:00	07:02:00		Budziwojska / Poselska 15 nż
-1972	4	210497	07:03:00	07:03:00		Budziwojska / Kwiatowa 13 nż
-1972	4	210497	07:04:00	07:04:00		Budziwojska / Podleśna 11 nż
-1972	4	210497	07:05:00	07:05:00		Budziwojska cmentarz 09
-1972	4	210497	07:06:00	07:06:00		Jana Pawła II / Budziwojska 13 nż
-1972	4	210497	07:07:00	07:07:00		Jana Pawła II / Strzelców 11 nż
-1972	4	210497	07:08:00	07:08:00		Jana Pawła II / Herbowa 09 nż
-1972	4	210497	07:09:00	07:09:00		Jana Pawła II / Zakątkowa 07 nż
-1972	4	210497	07:10:00	07:10:00		Jana Pawła II / Św. Antoniego 05 nż
-1972	4	210497	07:11:00	07:11:00		Jana Pawła II / Gościnna 03 nż
-1972	4	210497	07:12:00	07:12:00		Jana Pawła II OSP 01 nż
-1972	4	210497	07:13:00	07:13:00		Kwiatkowskiego hotel 11 nż
-1972	4	210497	07:14:00	07:14:00		Kwiatkowskiego / Jachowicza 09 nż
-1972	4	210497	07:15:00	07:15:00		Kwiatkowskiego / Koło 07 nż
-1972	4	210497	07:16:00	07:16:00		Kwiatkowskiego żwirownia 05 nż
-1972	4	210497	07:17:00	07:17:00		Kwiatkowskiego / Strażacka 03 nż
-1972	4	210497	07:20:00	07:20:00		Kwiatkowskiego dom studenta 01 nż
-1972	4	210497	07:22:00	07:22:00		Powst. Warszawy / Podwisłocze 07 nż
-1972	4	210497	07:23:00	07:23:00		Powst. Warszawy stadion 05 nż
-1972	4	210497	07:24:00	07:24:00		Hetmańska stadion 07
-1972	4	210497	07:25:00	07:25:00		Hetmańska ZS. Mech. 05
-1972	4	210497	07:26:00	07:26:00		Hetmańska przychodnia 03
-1972	4	210497	07:27:00	07:27:00		Hetmańska podzamcze 01 nż
-1972	4	210497	07:28:00	07:28:00		Kilara 02 nż
-1972	4	210497	07:30:00	07:30:00		Szopena Filharmonia 01 nż
-1972	4	210497	07:32:00	07:32:00		Targowa 02
-1972	4	210497	07:34:00	07:34:00		Głowackiego ZUS 01
-1972	4	210497	07:36:00	07:36:00		Siemieńskiego / Kochanowskiego 02 nż
-1972	4	210497	07:37:00	07:37:00		Siemieńskiego U. Skarbowy 04 nż
-1972	4	210497	07:38:00	07:38:00		Trembeckiego / Siemieńskiego 07 nż
-1972	4	210497	07:39:00	07:39:00		Trembeckiego ZTM pętla 01
+1958	2	220219	05:55:00	05:55:00		Siedliska skrzyżowanie II 05
+1958	2	220219	05:56:00	05:56:00		Siedliska ośrodek zdrowia 08 nż
+1958	2	220219	05:57:00	05:57:00		Siedliska kościół 10 nż
+1958	2	220219	05:58:00	05:58:00		Siedliska Koniec 12 nż
+1958	2	220219	06:00:00	06:00:00		Budziwojska pętla 22 nż
+1958	2	220219	06:01:00	06:01:00		Budziwojska sklep 17 nż
+1958	2	220219	06:02:00	06:02:00		Budziwojska / Poselska 15 nż
+1958	2	220219	06:03:00	06:03:00		Budziwojska / Kwiatowa 13 nż
+1958	2	220219	06:04:00	06:04:00		Budziwojska / Podleśna 11 nż
+1958	2	220219	06:05:00	06:05:00		Budziwojska cmentarz 09
+1958	2	220219	06:06:00	06:06:00		Jana Pawła II / Budziwojska 13 nż
+1958	2	220219	06:07:00	06:07:00		Jana Pawła II / Strzelców 11 nż
+1958	2	220219	06:08:00	06:08:00		Jana Pawła II / Herbowa 09 nż
+1958	2	220219	06:09:00	06:09:00		Jana Pawła II / Zakątkowa 07 nż
+1958	2	220219	06:10:00	06:10:00		Jana Pawła II / Św. Antoniego 05 nż
+1958	2	220219	06:11:00	06:11:00		Jana Pawła II / Gościnna 03 nż
+1958	2	220219	06:12:00	06:12:00		Jana Pawła II OSP 01 nż
+1958	2	220219	06:13:00	06:13:00		Kwiatkowskiego hotel 11 nż
+1958	2	220219	06:14:00	06:14:00		Kwiatkowskiego / Jachowicza 09 nż
+1958	2	220219	06:15:00	06:15:00		Kwiatkowskiego / Koło 07 nż
+1958	2	220219	06:16:00	06:16:00		Kwiatkowskiego żwirownia 05 nż
+1958	2	220219	06:17:00	06:17:00		Kwiatkowskiego / Strażacka 03 nż
+1958	2	220219	06:20:00	06:20:00		Kwiatkowskiego dom studenta 01 nż
+1958	2	220219	06:22:00	06:22:00		Powst. Warszawy / Podwisłocze 07 nż
+1958	2	220219	06:23:00	06:23:00		Powst. Warszawy stadion 05 nż
+1958	2	220219	06:24:00	06:24:00		Hetmańska stadion 07
+1958	2	220219	06:25:00	06:25:00		Hetmańska ZS. Mech. 05
+1958	2	220219	06:26:00	06:26:00		Hetmańska przychodnia 03
+1958	2	220219	06:27:00	06:27:00		Hetmańska podzamcze 01 nż
+1958	2	220219	06:28:00	06:28:00		Kilara 02 nż
+1958	2	220219	06:30:00	06:30:00		Szopena Filharmonia 01 nż
+1958	2	220219	06:32:00	06:32:00		Targowa 02
+1958	2	220219	06:34:00	06:34:00		Głowackiego ZUS 01
+1958	2	220219	06:36:00	06:36:00		Siemieńskiego / Kochanowskiego 02 nż
+1958	2	220219	06:37:00	06:37:00		Siemieńskiego U. Skarbowy 04 nż
+1958	2	220219	06:38:00	06:38:00		Trembeckiego / Siemieńskiego 07 nż
+1958	2	220219	06:39:00	06:39:00		Trembeckiego ZTM pętla 01
 
-1938	4	214098	08:00:00	08:00:00		Trembeckiego ZTM pętla 01
-1938	4	214098	08:01:00	08:01:00		Trembeckiego / Siemieńskiego 04 nż
-1938	4	214098	08:02:00	08:02:00		Siemieńskiego U. Skarbowy 03 nż
-1938	4	214098	08:03:00	08:03:00		Siemieńskiego dom studenta 01 nż
-1938	4	214098	08:04:00	08:04:00		Żółkiewskiego / Kochanowskiego 01 nż
-1938	4	214098	08:06:00	08:06:00		Bardowskiego 02
-1938	4	214098	08:09:00	08:09:00		Targowa 01
-1938	4	214098	08:12:00	08:12:00		Szopena Filharmonia 02 nż
-1938	4	214098	08:13:00	08:13:00		Kilara 01 nż
-1938	4	214098	08:15:00	08:15:00		Hetmańska podzamcze 02 nż
-1938	4	214098	08:16:00	08:16:00		Hetmańska przychodnia 04
-1938	4	214098	08:17:00	08:17:00		Hetmańska ZS. Mech. 06
-1938	4	214098	08:20:00	08:20:00		Powst. Warszawy stadion 06
-1938	4	214098	08:21:00	08:21:00		Kwiatkowskiego / Powst. Warszawy 02
-1938	4	214098	08:22:00	08:22:00		Kwiatkowskiego dom studenta 04 nż
-1938	4	214098	08:23:00	08:23:00		Kwiatkowskiego / Strażacka 06 nż
-1938	4	214098	08:24:00	08:24:00		Kwiatkowskiego żwirownia 08 nż
-1938	4	214098	08:25:00	08:25:00		Kwiatkowskiego / Podmiejska 10 nż
-1938	4	214098	08:26:00	08:26:00		Kwiatkowskiego / Jachowicza 12 nż
-1938	4	214098	08:27:00	08:27:00		Kwiatkowskiego hotel 14 nż
-1938	4	214098	08:28:00	08:28:00		Jana Pawła II OSP 02 nż
-1938	4	214098	08:29:00	08:29:00		Jana Pawła II / Gościnna 04 nż
-1938	4	214098	08:30:00	08:30:00		Jana Pawła II / Św. Antoniego 06 nż
-1938	4	214098	08:31:00	08:31:00		Jana Pawła II / Zakątkowa 08 nż
-1938	4	214098	08:32:00	08:32:00		Jana Pawła II / Herbowa 10 nż
-1938	4	214098	08:33:00	08:33:00		Jana Pawła II / Strzelców 12 nż
-1938	4	214098	08:34:00	08:34:00		Budziwojska / Jana Pawła II 10 nż
-1938	4	214098	08:35:00	08:35:00		Budziwojska szkoła 12
-1938	4	214098	08:36:00	08:36:00		Budziwojska / Podleśna 14 nż
-1938	4	214098	08:38:00	08:38:00		Budziwojska / Kwiatowa 16 nż
-1938	4	214098	08:39:00	08:39:00		Budziwojska / Poselska 18 nż
-1938	4	214098	08:40:00	08:40:00		Budziwojska sklep 20 nż
-1938	4	214098	08:42:00	08:42:00		Budziwojska pętla 22 nż
+1860	2	220267	07:00:00	07:00:00		Trembeckiego ZTM pętla 01
+1860	2	220267	07:01:00	07:01:00		Trembeckiego / Siemieńskiego 04 nż
+1860	2	220267	07:02:00	07:02:00		Siemieńskiego U. Skarbowy 03 nż
+1860	2	220267	07:03:00	07:03:00		Siemieńskiego dom studenta 01 nż
+1860	2	220267	07:04:00	07:04:00		Żółkiewskiego / Kochanowskiego 01 nż
+1860	2	220267	07:06:00	07:06:00		Bardowskiego 02
+1860	2	220267	07:09:00	07:09:00		Targowa 01
+1860	2	220267	07:12:00	07:12:00		Szopena Filharmonia 02 nż
+1860	2	220267	07:13:00	07:13:00		Kilara 01 nż
+1860	2	220267	07:15:00	07:15:00		Hetmańska podzamcze 02 nż
+1860	2	220267	07:16:00	07:16:00		Hetmańska przychodnia 04
+1860	2	220267	07:17:00	07:17:00		Hetmańska ZS. Mech. 06
+1860	2	220267	07:20:00	07:20:00		Powst. Warszawy stadion 06
+1860	2	220267	07:21:00	07:21:00		Kwiatkowskiego / Powst. Warszawy 02
+1860	2	220267	07:22:00	07:22:00		Kwiatkowskiego dom studenta 04 nż
+1860	2	220267	07:23:00	07:23:00		Kwiatkowskiego / Strażacka 06 nż
+1860	2	220267	07:24:00	07:24:00		Kwiatkowskiego żwirownia 08 nż
+1860	2	220267	07:25:00	07:25:00		Kwiatkowskiego / Podmiejska 10 nż
+1860	2	220267	07:26:00	07:26:00		Kwiatkowskiego / Jachowicza 12 nż
+1860	2	220267	07:27:00	07:27:00		Kwiatkowskiego hotel 14 nż
+1860	2	220267	07:28:00	07:28:00		Jana Pawła II OSP 02 nż
+1860	2	220267	07:29:00	07:29:00		Jana Pawła II / Gościnna 04 nż
+1860	2	220267	07:30:00	07:30:00		Jana Pawła II / Św. Antoniego 06 nż
+1860	2	220267	07:31:00	07:31:00		Jana Pawła II / Zakątkowa 08 nż
+1860	2	220267	07:32:00	07:32:00		Jana Pawła II / Herbowa 10 nż
+1860	2	220267	07:33:00	07:33:00		Jana Pawła II / Strzelców 12 nż
+1860	2	220267	07:34:00	07:34:00		Budziwojska / Jana Pawła II 10 nż
+1860	2	220267	07:35:00	07:35:00		Budziwojska szkoła 12
+1860	2	220267	07:36:00	07:36:00		Budziwojska / Podleśna 14 nż
+1860	2	220267	07:38:00	07:38:00		Budziwojska / Kwiatowa 16 nż
+1860	2	220267	07:39:00	07:39:00		Budziwojska / Poselska 18 nż
+1860	2	220267	07:40:00	07:40:00		Budziwojska sklep 20 nż
+1860	2	220267	07:42:00	07:42:00		Budziwojska pętla 22 nż
+1860	2	220267	07:43:00	07:43:00		Siedliska Koniec 11 nż
+1860	2	220267	07:44:00	07:44:00		Siedliska kościół 09 nż
+1860	2	220267	07:45:00	07:45:00		Siedliska ośrodek zdrowia 07 nż
+1860	2	220267	07:46:00	07:46:00		Siedliska skrzyżowanie II 05
 
-1972	4	213767	09:00:00	09:00:00		Budziwojska pętla 22 nż
-1972	4	213767	09:01:00	09:01:00		Budziwojska sklep 17 nż
-1972	4	213767	09:02:00	09:02:00		Budziwojska / Poselska 15 nż
-1972	4	213767	09:03:00	09:03:00		Budziwojska / Kwiatowa 13 nż
-1972	4	213767	09:04:00	09:04:00		Budziwojska / Podleśna 11 nż
-1972	4	213767	09:05:00	09:05:00		Budziwojska cmentarz 09
-1972	4	213767	09:06:00	09:06:00		Jana Pawła II / Budziwojska 13 nż
-1972	4	213767	09:07:00	09:07:00		Jana Pawła II / Strzelców 11 nż
-1972	4	213767	09:08:00	09:08:00		Jana Pawła II / Herbowa 09 nż
-1972	4	213767	09:09:00	09:09:00		Jana Pawła II / Zakątkowa 07 nż
-1972	4	213767	09:10:00	09:10:00		Jana Pawła II / Św. Antoniego 05 nż
-1972	4	213767	09:11:00	09:11:00		Jana Pawła II / Gościnna 03 nż
-1972	4	213767	09:12:00	09:12:00		Jana Pawła II OSP 01 nż
-1972	4	213767	09:13:00	09:13:00		Kwiatkowskiego hotel 11 nż
-1972	4	213767	09:14:00	09:14:00		Kwiatkowskiego / Jachowicza 09 nż
-1972	4	213767	09:15:00	09:15:00		Kwiatkowskiego / Koło 07 nż
-1972	4	213767	09:16:00	09:16:00		Kwiatkowskiego żwirownia 05 nż
-1972	4	213767	09:17:00	09:17:00		Kwiatkowskiego / Strażacka 03 nż
-1972	4	213767	09:19:00	09:19:00		Kwiatkowskiego dom studenta 01 nż
-1972	4	213767	09:21:00	09:21:00		Powst. Warszawy / Podwisłocze 07 nż
-1972	4	213767	09:22:00	09:22:00		Powst. Warszawy stadion 05 nż
-1972	4	213767	09:23:00	09:23:00		Hetmańska stadion 07
-1972	4	213767	09:24:00	09:24:00		Hetmańska ZS. Mech. 05
-1972	4	213767	09:25:00	09:25:00		Hetmańska przychodnia 03
-1972	4	213767	09:26:00	09:26:00		Hetmańska podzamcze 01 nż
-1972	4	213767	09:27:00	09:27:00		Kilara 02 nż
-1972	4	213767	09:29:00	09:29:00		Szopena Filharmonia 01 nż
-1972	4	213767	09:31:00	09:31:00		Targowa 02
-1972	4	213767	09:33:00	09:33:00		Głowackiego ZUS 01
-1972	4	213767	09:35:00	09:35:00		Siemieńskiego / Kochanowskiego 02 nż
-1972	4	213767	09:36:00	09:36:00		Siemieńskiego U. Skarbowy 04 nż
-1972	4	213767	09:37:00	09:37:00		Trembeckiego / Siemieńskiego 07 nż
-1972	4	213767	09:38:00	09:38:00		Trembeckiego ZTM pętla 01
+1958	2	220208	07:55:00	07:55:00		Siedliska skrzyżowanie II 05
+1958	2	220208	07:56:00	07:56:00		Siedliska ośrodek zdrowia 08 nż
+1958	2	220208	07:57:00	07:57:00		Siedliska kościół 10 nż
+1958	2	220208	07:58:00	07:58:00		Siedliska Koniec 12 nż
+1958	2	220208	08:00:00	08:00:00		Budziwojska pętla 22 nż
+1958	2	220208	08:01:00	08:01:00		Budziwojska sklep 17 nż
+1958	2	220208	08:02:00	08:02:00		Budziwojska / Poselska 15 nż
+1958	2	220208	08:03:00	08:03:00		Budziwojska / Kwiatowa 13 nż
+1958	2	220208	08:04:00	08:04:00		Budziwojska / Podleśna 11 nż
+1958	2	220208	08:05:00	08:05:00		Budziwojska cmentarz 09
+1958	2	220208	08:06:00	08:06:00		Jana Pawła II / Budziwojska 13 nż
+1958	2	220208	08:07:00	08:07:00		Jana Pawła II / Strzelców 11 nż
+1958	2	220208	08:08:00	08:08:00		Jana Pawła II / Herbowa 09 nż
+1958	2	220208	08:09:00	08:09:00		Jana Pawła II / Zakątkowa 07 nż
+1958	2	220208	08:10:00	08:10:00		Jana Pawła II / Św. Antoniego 05 nż
+1958	2	220208	08:11:00	08:11:00		Jana Pawła II / Gościnna 03 nż
+1958	2	220208	08:12:00	08:12:00		Jana Pawła II OSP 01 nż
+1958	2	220208	08:13:00	08:13:00		Kwiatkowskiego hotel 11 nż
+1958	2	220208	08:14:00	08:14:00		Kwiatkowskiego / Jachowicza 09 nż
+1958	2	220208	08:15:00	08:15:00		Kwiatkowskiego / Koło 07 nż
+1958	2	220208	08:16:00	08:16:00		Kwiatkowskiego żwirownia 05 nż
+1958	2	220208	08:17:00	08:17:00		Kwiatkowskiego / Strażacka 03 nż
+1958	2	220208	08:19:00	08:19:00		Kwiatkowskiego dom studenta 01 nż
+1958	2	220208	08:21:00	08:21:00		Powst. Warszawy / Podwisłocze 07 nż
+1958	2	220208	08:22:00	08:22:00		Powst. Warszawy stadion 05 nż
+1958	2	220208	08:23:00	08:23:00		Hetmańska stadion 07
+1958	2	220208	08:24:00	08:24:00		Hetmańska ZS. Mech. 05
+1958	2	220208	08:25:00	08:25:00		Hetmańska przychodnia 03
+1958	2	220208	08:26:00	08:26:00		Hetmańska podzamcze 01 nż
+1958	2	220208	08:27:00	08:27:00		Kilara 02 nż
+1958	2	220208	08:29:00	08:29:00		Szopena Filharmonia 01 nż
+1958	2	220208	08:31:00	08:31:00		Targowa 02
+1958	2	220208	08:33:00	08:33:00		Głowackiego ZUS 01
+1958	2	220208	08:35:00	08:35:00		Siemieńskiego / Kochanowskiego 02 nż
+1958	2	220208	08:36:00	08:36:00		Siemieńskiego U. Skarbowy 04 nż
+1958	2	220208	08:37:00	08:37:00		Trembeckiego / Siemieńskiego 07 nż
+1958	2	220208	08:38:00	08:38:00		Trembeckiego ZTM pętla 01
 
-1938	4	215472	09:50:00	09:50:00		Trembeckiego ZTM pętla 01
-1938	4	215472	09:51:00	09:51:00		Trembeckiego / Siemieńskiego 04 nż
-1938	4	215472	09:52:00	09:52:00		Siemieńskiego U. Skarbowy 03 nż
-1938	4	215472	09:53:00	09:53:00		Siemieńskiego dom studenta 01 nż
-1938	4	215472	09:54:00	09:54:00		Żółkiewskiego / Kochanowskiego 01 nż
-1938	4	215472	09:56:00	09:56:00		Bardowskiego 02
-1938	4	215472	09:59:00	09:59:00		Targowa 01
-1938	4	215472	10:01:00	10:01:00		Szopena Filharmonia 02 nż
-1938	4	215472	10:02:00	10:02:00		Kilara 01 nż
-1938	4	215472	10:04:00	10:04:00		Hetmańska podzamcze 02 nż
-1938	4	215472	10:05:00	10:05:00		Hetmańska przychodnia 04
-1938	4	215472	10:06:00	10:06:00		Hetmańska ZS. Mech. 06
-1938	4	215472	10:09:00	10:09:00		Powst. Warszawy stadion 06
-1938	4	215472	10:10:00	10:10:00		Kwiatkowskiego / Powst. Warszawy 02
-1938	4	215472	10:11:00	10:11:00		Kwiatkowskiego dom studenta 04 nż
-1938	4	215472	10:12:00	10:12:00		Kwiatkowskiego / Strażacka 06 nż
-1938	4	215472	10:13:00	10:13:00		Kwiatkowskiego żwirownia 08 nż
-1938	4	215472	10:14:00	10:14:00		Kwiatkowskiego / Podmiejska 10 nż
-1938	4	215472	10:15:00	10:15:00		Kwiatkowskiego / Jachowicza 12 nż
-1938	4	215472	10:16:00	10:16:00		Kwiatkowskiego hotel 14 nż
-1938	4	215472	10:17:00	10:17:00		Jana Pawła II OSP 02 nż
-1938	4	215472	10:18:00	10:18:00		Jana Pawła II / Gościnna 04 nż
-1938	4	215472	10:19:00	10:19:00		Jana Pawła II / Św. Antoniego 06 nż
-1938	4	215472	10:20:00	10:20:00		Jana Pawła II / Zakątkowa 08 nż
-1938	4	215472	10:21:00	10:21:00		Jana Pawła II / Herbowa 10 nż
-1938	4	215472	10:22:00	10:22:00		Jana Pawła II / Strzelców 12 nż
-1938	4	215472	10:23:00	10:23:00		Budziwojska / Jana Pawła II 10 nż
-1938	4	215472	10:24:00	10:24:00		Budziwojska szkoła 12
-1938	4	215472	10:25:00	10:25:00		Budziwojska / Podleśna 14 nż
-1938	4	215472	10:27:00	10:27:00		Budziwojska / Kwiatowa 16 nż
-1938	4	215472	10:28:00	10:28:00		Budziwojska / Poselska 18 nż
-1938	4	215472	10:29:00	10:29:00		Budziwojska sklep 20 nż
-1938	4	215472	10:31:00	10:31:00		Budziwojska pętla 22 nż
+1938	2	220274	08:50:00	08:50:00		Trembeckiego ZTM pętla 01
+1938	2	220274	08:51:00	08:51:00		Trembeckiego / Siemieńskiego 04 nż
+1938	2	220274	08:52:00	08:52:00		Siemieńskiego U. Skarbowy 03 nż
+1938	2	220274	08:53:00	08:53:00		Siemieńskiego dom studenta 01 nż
+1938	2	220274	08:54:00	08:54:00		Żółkiewskiego / Kochanowskiego 01 nż
+1938	2	220274	08:56:00	08:56:00		Bardowskiego 02
+1938	2	220274	08:59:00	08:59:00		Targowa 01
+1938	2	220274	09:01:00	09:01:00		Szopena Filharmonia 02 nż
+1938	2	220274	09:02:00	09:02:00		Kilara 01 nż
+1938	2	220274	09:04:00	09:04:00		Hetmańska podzamcze 02 nż
+1938	2	220274	09:05:00	09:05:00		Hetmańska przychodnia 04
+1938	2	220274	09:06:00	09:06:00		Hetmańska ZS. Mech. 06
+1938	2	220274	09:09:00	09:09:00		Powst. Warszawy stadion 06
+1938	2	220274	09:10:00	09:10:00		Kwiatkowskiego / Powst. Warszawy 02
+1938	2	220274	09:11:00	09:11:00		Kwiatkowskiego dom studenta 04 nż
+1938	2	220274	09:12:00	09:12:00		Kwiatkowskiego / Strażacka 06 nż
+1938	2	220274	09:13:00	09:13:00		Kwiatkowskiego żwirownia 08 nż
+1938	2	220274	09:14:00	09:14:00		Kwiatkowskiego / Podmiejska 10 nż
+1938	2	220274	09:15:00	09:15:00		Kwiatkowskiego / Jachowicza 12 nż
+1938	2	220274	09:16:00	09:16:00		Kwiatkowskiego hotel 14 nż
+1938	2	220274	09:17:00	09:17:00		Jana Pawła II OSP 02 nż
+1938	2	220274	09:18:00	09:18:00		Jana Pawła II / Gościnna 04 nż
+1938	2	220274	09:19:00	09:19:00		Jana Pawła II / Św. Antoniego 06 nż
+1938	2	220274	09:20:00	09:20:00		Jana Pawła II / Zakątkowa 08 nż
+1938	2	220274	09:21:00	09:21:00		Jana Pawła II / Herbowa 10 nż
+1938	2	220274	09:22:00	09:22:00		Jana Pawła II / Strzelców 12 nż
+1938	2	220274	09:23:00	09:23:00		Budziwojska / Jana Pawła II 10 nż
+1938	2	220274	09:24:00	09:24:00		Budziwojska szkoła 12
+1938	2	220274	09:25:00	09:25:00		Budziwojska / Podleśna 14 nż
+1938	2	220274	09:27:00	09:27:00		Budziwojska / Kwiatowa 16 nż
+1938	2	220274	09:28:00	09:28:00		Budziwojska / Poselska 18 nż
+1938	2	220274	09:29:00	09:29:00		Budziwojska sklep 20 nż
+1938	2	220274	09:31:00	09:31:00		Budziwojska pętla 22 nż
 
-1972	4	211965	11:00:00	11:00:00		Budziwojska pętla 22 nż
-1972	4	211965	11:01:00	11:01:00		Budziwojska sklep 17 nż
-1972	4	211965	11:02:00	11:02:00		Budziwojska / Poselska 15 nż
-1972	4	211965	11:03:00	11:03:00		Budziwojska / Kwiatowa 13 nż
-1972	4	211965	11:04:00	11:04:00		Budziwojska / Podleśna 11 nż
-1972	4	211965	11:05:00	11:05:00		Budziwojska cmentarz 09
-1972	4	211965	11:06:00	11:06:00		Jana Pawła II / Budziwojska 13 nż
-1972	4	211965	11:07:00	11:07:00		Jana Pawła II / Strzelców 11 nż
-1972	4	211965	11:08:00	11:08:00		Jana Pawła II / Herbowa 09 nż
-1972	4	211965	11:09:00	11:09:00		Jana Pawła II / Zakątkowa 07 nż
-1972	4	211965	11:10:00	11:10:00		Jana Pawła II / Św. Antoniego 05 nż
-1972	4	211965	11:11:00	11:11:00		Jana Pawła II / Gościnna 03 nż
-1972	4	211965	11:12:00	11:12:00		Jana Pawła II OSP 01 nż
-1972	4	211965	11:13:00	11:13:00		Kwiatkowskiego hotel 11 nż
-1972	4	211965	11:14:00	11:14:00		Kwiatkowskiego / Jachowicza 09 nż
-1972	4	211965	11:15:00	11:15:00		Kwiatkowskiego / Koło 07 nż
-1972	4	211965	11:16:00	11:16:00		Kwiatkowskiego żwirownia 05 nż
-1972	4	211965	11:17:00	11:17:00		Kwiatkowskiego / Strażacka 03 nż
-1972	4	211965	11:19:00	11:19:00		Kwiatkowskiego dom studenta 01 nż
-1972	4	211965	11:21:00	11:21:00		Powst. Warszawy / Podwisłocze 07 nż
-1972	4	211965	11:22:00	11:22:00		Powst. Warszawy stadion 05 nż
-1972	4	211965	11:23:00	11:23:00		Hetmańska stadion 07
-1972	4	211965	11:24:00	11:24:00		Hetmańska ZS. Mech. 05
-1972	4	211965	11:25:00	11:25:00		Hetmańska przychodnia 03
-1972	4	211965	11:26:00	11:26:00		Hetmańska podzamcze 01 nż
-1972	4	211965	11:27:00	11:27:00		Kilara 02 nż
-1972	4	211965	11:29:00	11:29:00		Szopena Filharmonia 01 nż
-1972	4	211965	11:31:00	11:31:00		Targowa 02
-1972	4	211965	11:33:00	11:33:00		Głowackiego ZUS 01
-1972	4	211965	11:35:00	11:35:00		Siemieńskiego / Kochanowskiego 02 nż
-1972	4	211965	11:36:00	11:36:00		Siemieńskiego U. Skarbowy 04 nż
-1972	4	211965	11:37:00	11:37:00		Trembeckiego / Siemieńskiego 07 nż
-1972	4	211965	11:38:00	11:38:00		Trembeckiego ZTM pętla 01
+1972	2	220272	10:00:00	10:00:00		Budziwojska pętla 22 nż
+1972	2	220272	10:01:00	10:01:00		Budziwojska sklep 17 nż
+1972	2	220272	10:02:00	10:02:00		Budziwojska / Poselska 15 nż
+1972	2	220272	10:03:00	10:03:00		Budziwojska / Kwiatowa 13 nż
+1972	2	220272	10:04:00	10:04:00		Budziwojska / Podleśna 11 nż
+1972	2	220272	10:05:00	10:05:00		Budziwojska cmentarz 09
+1972	2	220272	10:06:00	10:06:00		Jana Pawła II / Budziwojska 13 nż
+1972	2	220272	10:07:00	10:07:00		Jana Pawła II / Strzelców 11 nż
+1972	2	220272	10:08:00	10:08:00		Jana Pawła II / Herbowa 09 nż
+1972	2	220272	10:09:00	10:09:00		Jana Pawła II / Zakątkowa 07 nż
+1972	2	220272	10:10:00	10:10:00		Jana Pawła II / Św. Antoniego 05 nż
+1972	2	220272	10:11:00	10:11:00		Jana Pawła II / Gościnna 03 nż
+1972	2	220272	10:12:00	10:12:00		Jana Pawła II OSP 01 nż
+1972	2	220272	10:13:00	10:13:00		Kwiatkowskiego hotel 11 nż
+1972	2	220272	10:14:00	10:14:00		Kwiatkowskiego / Jachowicza 09 nż
+1972	2	220272	10:15:00	10:15:00		Kwiatkowskiego / Koło 07 nż
+1972	2	220272	10:16:00	10:16:00		Kwiatkowskiego żwirownia 05 nż
+1972	2	220272	10:17:00	10:17:00		Kwiatkowskiego / Strażacka 03 nż
+1972	2	220272	10:19:00	10:19:00		Kwiatkowskiego dom studenta 01 nż
+1972	2	220272	10:21:00	10:21:00		Powst. Warszawy / Podwisłocze 07 nż
+1972	2	220272	10:22:00	10:22:00		Powst. Warszawy stadion 05 nż
+1972	2	220272	10:23:00	10:23:00		Hetmańska stadion 07
+1972	2	220272	10:24:00	10:24:00		Hetmańska ZS. Mech. 05
+1972	2	220272	10:25:00	10:25:00		Hetmańska przychodnia 03
+1972	2	220272	10:26:00	10:26:00		Hetmańska podzamcze 01 nż
+1972	2	220272	10:27:00	10:27:00		Kilara 02 nż
+1972	2	220272	10:29:00	10:29:00		Szopena Filharmonia 01 nż
+1972	2	220272	10:31:00	10:31:00		Targowa 02
+1972	2	220272	10:33:00	10:33:00		Głowackiego ZUS 01
+1972	2	220272	10:35:00	10:35:00		Siemieńskiego / Kochanowskiego 02 nż
+1972	2	220272	10:36:00	10:36:00		Siemieńskiego U. Skarbowy 04 nż
+1972	2	220272	10:37:00	10:37:00		Trembeckiego / Siemieńskiego 07 nż
+1972	2	220272	10:38:00	10:38:00		Trembeckiego ZTM pętla 01
 
-1938	4	214828	14:20:00	14:20:00		Trembeckiego ZTM pętla 01
-1938	4	214828	14:21:00	14:21:00		Trembeckiego / Siemieńskiego 04 nż
-1938	4	214828	14:22:00	14:22:00		Siemieńskiego U. Skarbowy 03 nż
-1938	4	214828	14:23:00	14:23:00		Siemieńskiego dom studenta 01 nż
-1938	4	214828	14:24:00	14:24:00		Żółkiewskiego / Kochanowskiego 01 nż
-1938	4	214828	14:26:00	14:26:00		Bardowskiego 02
-1938	4	214828	14:29:00	14:29:00		Targowa 01
-1938	4	214828	14:31:00	14:31:00		Szopena Filharmonia 02 nż
-1938	4	214828	14:32:00	14:32:00		Kilara 01 nż
-1938	4	214828	14:35:00	14:35:00		Hetmańska podzamcze 02 nż
-1938	4	214828	14:36:00	14:36:00		Hetmańska przychodnia 04
-1938	4	214828	14:37:00	14:37:00		Hetmańska ZS. Mech. 06
-1938	4	214828	14:42:00	14:42:00		Powst. Warszawy stadion 06
-1938	4	214828	14:45:00	14:45:00		Kwiatkowskiego / Powst. Warszawy 02
-1938	4	214828	14:46:00	14:46:00		Kwiatkowskiego dom studenta 04 nż
-1938	4	214828	14:48:00	14:48:00		Kwiatkowskiego / Strażacka 06 nż
-1938	4	214828	14:49:00	14:49:00		Kwiatkowskiego żwirownia 08 nż
-1938	4	214828	14:50:00	14:50:00		Kwiatkowskiego / Podmiejska 10 nż
-1938	4	214828	14:51:00	14:51:00		Kwiatkowskiego / Jachowicza 12 nż
-1938	4	214828	14:52:00	14:52:00		Kwiatkowskiego hotel 14 nż
-1938	4	214828	14:53:00	14:53:00		Jana Pawła II OSP 02 nż
-1938	4	214828	14:54:00	14:54:00		Jana Pawła II / Gościnna 04 nż
-1938	4	214828	14:55:00	14:55:00		Jana Pawła II / Św. Antoniego 06 nż
-1938	4	214828	14:56:00	14:56:00		Jana Pawła II / Zakątkowa 08 nż
-1938	4	214828	14:57:00	14:57:00		Jana Pawła II / Herbowa 10 nż
-1938	4	214828	14:58:00	14:58:00		Jana Pawła II / Strzelców 12 nż
-1938	4	214828	15:00:00	15:00:00		Budziwojska / Jana Pawła II 10 nż
-1938	4	214828	15:01:00	15:01:00		Budziwojska szkoła 12
-1938	4	214828	15:02:00	15:02:00		Budziwojska / Podleśna 14 nż
-1938	4	214828	15:04:00	15:04:00		Budziwojska / Kwiatowa 16 nż
-1938	4	214828	15:05:00	15:05:00		Budziwojska / Poselska 18 nż
-1938	4	214828	15:06:00	15:06:00		Budziwojska sklep 20 nż
-1938	4	214828	15:08:00	15:08:00		Budziwojska pętla 22 nż
+1938	2	220124	14:20:00	14:20:00		Trembeckiego ZTM pętla 01
+1938	2	220124	14:21:00	14:21:00		Trembeckiego / Siemieńskiego 04 nż
+1938	2	220124	14:22:00	14:22:00		Siemieńskiego U. Skarbowy 03 nż
+1938	2	220124	14:23:00	14:23:00		Siemieńskiego dom studenta 01 nż
+1938	2	220124	14:24:00	14:24:00		Żółkiewskiego / Kochanowskiego 01 nż
+1938	2	220124	14:26:00	14:26:00		Bardowskiego 02
+1938	2	220124	14:29:00	14:29:00		Targowa 01
+1938	2	220124	14:31:00	14:31:00		Szopena Filharmonia 02 nż
+1938	2	220124	14:32:00	14:32:00		Kilara 01 nż
+1938	2	220124	14:35:00	14:35:00		Hetmańska podzamcze 02 nż
+1938	2	220124	14:36:00	14:36:00		Hetmańska przychodnia 04
+1938	2	220124	14:37:00	14:37:00		Hetmańska ZS. Mech. 06
+1938	2	220124	14:42:00	14:42:00		Powst. Warszawy stadion 06
+1938	2	220124	14:45:00	14:45:00		Kwiatkowskiego / Powst. Warszawy 02
+1938	2	220124	14:46:00	14:46:00		Kwiatkowskiego dom studenta 04 nż
+1938	2	220124	14:48:00	14:48:00		Kwiatkowskiego / Strażacka 06 nż
+1938	2	220124	14:49:00	14:49:00		Kwiatkowskiego żwirownia 08 nż
+1938	2	220124	14:50:00	14:50:00		Kwiatkowskiego / Podmiejska 10 nż
+1938	2	220124	14:51:00	14:51:00		Kwiatkowskiego / Jachowicza 12 nż
+1938	2	220124	14:52:00	14:52:00		Kwiatkowskiego hotel 14 nż
+1938	2	220124	14:53:00	14:53:00		Jana Pawła II OSP 02 nż
+1938	2	220124	14:54:00	14:54:00		Jana Pawła II / Gościnna 04 nż
+1938	2	220124	14:55:00	14:55:00		Jana Pawła II / Św. Antoniego 06 nż
+1938	2	220124	14:56:00	14:56:00		Jana Pawła II / Zakątkowa 08 nż
+1938	2	220124	14:57:00	14:57:00		Jana Pawła II / Herbowa 10 nż
+1938	2	220124	14:58:00	14:58:00		Jana Pawła II / Strzelców 12 nż
+1938	2	220124	15:00:00	15:00:00		Budziwojska / Jana Pawła II 10 nż
+1938	2	220124	15:01:00	15:01:00		Budziwojska szkoła 12
+1938	2	220124	15:02:00	15:02:00		Budziwojska / Podleśna 14 nż
+1938	2	220124	15:04:00	15:04:00		Budziwojska / Kwiatowa 16 nż
+1938	2	220124	15:05:00	15:05:00		Budziwojska / Poselska 18 nż
+1938	2	220124	15:06:00	15:06:00		Budziwojska sklep 20 nż
+1938	2	220124	15:08:00	15:08:00		Budziwojska pętla 22 nż
 
-1972	4	214532	15:30:00	15:30:00		Budziwojska pętla 22 nż
-1972	4	214532	15:31:00	15:31:00		Budziwojska sklep 17 nż
-1972	4	214532	15:32:00	15:32:00		Budziwojska / Poselska 15 nż
-1972	4	214532	15:33:00	15:33:00		Budziwojska / Kwiatowa 13 nż
-1972	4	214532	15:34:00	15:34:00		Budziwojska / Podleśna 11 nż
-1972	4	214532	15:35:00	15:35:00		Budziwojska cmentarz 09
-1972	4	214532	15:36:00	15:36:00		Jana Pawła II / Budziwojska 13 nż
-1972	4	214532	15:37:00	15:37:00		Jana Pawła II / Strzelców 11 nż
-1972	4	214532	15:38:00	15:38:00		Jana Pawła II / Herbowa 09 nż
-1972	4	214532	15:39:00	15:39:00		Jana Pawła II / Zakątkowa 07 nż
-1972	4	214532	15:40:00	15:40:00		Jana Pawła II / Św. Antoniego 05 nż
-1972	4	214532	15:41:00	15:41:00		Jana Pawła II / Gościnna 03 nż
-1972	4	214532	15:42:00	15:42:00		Jana Pawła II OSP 01 nż
-1972	4	214532	15:43:00	15:43:00		Kwiatkowskiego hotel 11 nż
-1972	4	214532	15:44:00	15:44:00		Kwiatkowskiego / Jachowicza 09 nż
-1972	4	214532	15:45:00	15:45:00		Kwiatkowskiego / Koło 07 nż
-1972	4	214532	15:46:00	15:46:00		Kwiatkowskiego żwirownia 05 nż
-1972	4	214532	15:47:00	15:47:00		Kwiatkowskiego / Strażacka 03 nż
-1972	4	214532	15:49:00	15:49:00		Kwiatkowskiego dom studenta 01 nż
-1972	4	214532	15:52:00	15:52:00		Powst. Warszawy / Podwisłocze 07 nż
-1972	4	214532	15:53:00	15:53:00		Powst. Warszawy stadion 05 nż
-1972	4	214532	15:54:00	15:54:00		Hetmańska stadion 07
-1972	4	214532	15:55:00	15:55:00		Hetmańska ZS. Mech. 05
-1972	4	214532	15:56:00	15:56:00		Hetmańska przychodnia 03
-1972	4	214532	15:57:00	15:57:00		Hetmańska podzamcze 01 nż
-1972	4	214532	16:00:00	16:00:00		Kilara 02 nż
-1972	4	214532	16:02:00	16:02:00		Szopena Filharmonia 01 nż
-1972	4	214532	16:04:00	16:04:00		Targowa 02
-1972	4	214532	16:06:00	16:06:00		Głowackiego ZUS 01
-1972	4	214532	16:08:00	16:08:00		Siemieńskiego / Kochanowskiego 02 nż
-1972	4	214532	16:09:00	16:09:00		Siemieńskiego U. Skarbowy 04 nż
-1972	4	214532	16:10:00	16:10:00		Trembeckiego / Siemieńskiego 07 nż
-1972	4	214532	16:11:00	16:11:00		Trembeckiego ZTM pętla 01
+1972	2	220189	15:30:00	15:30:00		Budziwojska pętla 22 nż
+1972	2	220189	15:31:00	15:31:00		Budziwojska sklep 17 nż
+1972	2	220189	15:32:00	15:32:00		Budziwojska / Poselska 15 nż
+1972	2	220189	15:33:00	15:33:00		Budziwojska / Kwiatowa 13 nż
+1972	2	220189	15:34:00	15:34:00		Budziwojska / Podleśna 11 nż
+1972	2	220189	15:35:00	15:35:00		Budziwojska cmentarz 09
+1972	2	220189	15:36:00	15:36:00		Jana Pawła II / Budziwojska 13 nż
+1972	2	220189	15:37:00	15:37:00		Jana Pawła II / Strzelców 11 nż
+1972	2	220189	15:38:00	15:38:00		Jana Pawła II / Herbowa 09 nż
+1972	2	220189	15:39:00	15:39:00		Jana Pawła II / Zakątkowa 07 nż
+1972	2	220189	15:40:00	15:40:00		Jana Pawła II / Św. Antoniego 05 nż
+1972	2	220189	15:41:00	15:41:00		Jana Pawła II / Gościnna 03 nż
+1972	2	220189	15:42:00	15:42:00		Jana Pawła II OSP 01 nż
+1972	2	220189	15:43:00	15:43:00		Kwiatkowskiego hotel 11 nż
+1972	2	220189	15:44:00	15:44:00		Kwiatkowskiego / Jachowicza 09 nż
+1972	2	220189	15:45:00	15:45:00		Kwiatkowskiego / Koło 07 nż
+1972	2	220189	15:46:00	15:46:00		Kwiatkowskiego żwirownia 05 nż
+1972	2	220189	15:47:00	15:47:00		Kwiatkowskiego / Strażacka 03 nż
+1972	2	220189	15:49:00	15:49:00		Kwiatkowskiego dom studenta 01 nż
+1972	2	220189	15:52:00	15:52:00		Powst. Warszawy / Podwisłocze 07 nż
+1972	2	220189	15:53:00	15:53:00		Powst. Warszawy stadion 05 nż
+1972	2	220189	15:54:00	15:54:00		Hetmańska stadion 07
+1972	2	220189	15:55:00	15:55:00		Hetmańska ZS. Mech. 05
+1972	2	220189	15:56:00	15:56:00		Hetmańska przychodnia 03
+1972	2	220189	15:57:00	15:57:00		Hetmańska podzamcze 01 nż
+1972	2	220189	16:00:00	16:00:00		Kilara 02 nż
+1972	2	220189	16:02:00	16:02:00		Szopena Filharmonia 01 nż
+1972	2	220189	16:04:00	16:04:00		Targowa 02
+1972	2	220189	16:06:00	16:06:00		Głowackiego ZUS 01
+1972	2	220189	16:08:00	16:08:00		Siemieńskiego / Kochanowskiego 02 nż
+1972	2	220189	16:09:00	16:09:00		Siemieńskiego U. Skarbowy 04 nż
+1972	2	220189	16:10:00	16:10:00		Trembeckiego / Siemieńskiego 07 nż
+1972	2	220189	16:11:00	16:11:00		Trembeckiego ZTM pętla 01
 
-1860	4	211713	16:20:00	16:20:00		Trembeckiego ZTM pętla 01
-1860	4	211713	16:21:00	16:21:00		Trembeckiego / Siemieńskiego 04 nż
-1860	4	211713	16:22:00	16:22:00		Siemieńskiego U. Skarbowy 03 nż
-1860	4	211713	16:23:00	16:23:00		Siemieńskiego dom studenta 01 nż
-1860	4	211713	16:24:00	16:24:00		Żółkiewskiego / Kochanowskiego 01 nż
-1860	4	211713	16:26:00	16:26:00		Bardowskiego 02
-1860	4	211713	16:29:00	16:29:00		Targowa 01
-1860	4	211713	16:33:00	16:33:00		Szopena Filharmonia 02 nż
-1860	4	211713	16:34:00	16:34:00		Kilara 01 nż
-1860	4	211713	16:36:00	16:36:00		Hetmańska podzamcze 02 nż
-1860	4	211713	16:37:00	16:37:00		Hetmańska przychodnia 04
-1860	4	211713	16:38:00	16:38:00		Hetmańska ZS. Mech. 06
-1860	4	211713	16:41:00	16:41:00		Powst. Warszawy stadion 06
-1860	4	211713	16:43:00	16:43:00		Kwiatkowskiego / Powst. Warszawy 02
-1860	4	211713	16:44:00	16:44:00		Kwiatkowskiego dom studenta 04 nż
-1860	4	211713	16:45:00	16:45:00		Kwiatkowskiego / Strażacka 06 nż
-1860	4	211713	16:46:00	16:46:00		Kwiatkowskiego żwirownia 08 nż
-1860	4	211713	16:47:00	16:47:00		Kwiatkowskiego / Podmiejska 10 nż
-1860	4	211713	16:48:00	16:48:00		Kwiatkowskiego / Jachowicza 12 nż
-1860	4	211713	16:49:00	16:49:00		Kwiatkowskiego hotel 14 nż
-1860	4	211713	16:50:00	16:50:00		Jana Pawła II OSP 02 nż
-1860	4	211713	16:51:00	16:51:00		Jana Pawła II / Gościnna 04 nż
-1860	4	211713	16:52:00	16:52:00		Jana Pawła II / Św. Antoniego 06 nż
-1860	4	211713	16:53:00	16:53:00		Jana Pawła II / Zakątkowa 08 nż
-1860	4	211713	16:54:00	16:54:00		Jana Pawła II / Herbowa 10 nż
-1860	4	211713	16:55:00	16:55:00		Jana Pawła II / Strzelców 12 nż
-1860	4	211713	16:57:00	16:57:00		Budziwojska / Jana Pawła II 10 nż
-1860	4	211713	16:58:00	16:58:00		Budziwojska szkoła 12
-1860	4	211713	16:59:00	16:59:00		Budziwojska / Podleśna 14 nż
-1860	4	211713	17:01:00	17:01:00		Budziwojska / Kwiatowa 16 nż
-1860	4	211713	17:02:00	17:02:00		Budziwojska / Poselska 18 nż
-1860	4	211713	17:03:00	17:03:00		Budziwojska sklep 20 nż
-1860	4	211713	17:05:00	17:05:00		Budziwojska pętla 22 nż
-1860	4	211713	17:06:00	17:06:00		Siedliska Koniec 11 nż
-1860	4	211713	17:07:00	17:07:00		Siedliska kościół 09 nż
-1860	4	211713	17:08:00	17:08:00		Siedliska ośrodek zdrowia 07 nż
-1860	4	211713	17:09:00	17:09:00		Siedliska skrzyżowanie II 05
+1860	2	220244	16:20:00	16:20:00		Trembeckiego ZTM pętla 01
+1860	2	220244	16:21:00	16:21:00		Trembeckiego / Siemieńskiego 04 nż
+1860	2	220244	16:22:00	16:22:00		Siemieńskiego U. Skarbowy 03 nż
+1860	2	220244	16:23:00	16:23:00		Siemieńskiego dom studenta 01 nż
+1860	2	220244	16:24:00	16:24:00		Żółkiewskiego / Kochanowskiego 01 nż
+1860	2	220244	16:26:00	16:26:00		Bardowskiego 02
+1860	2	220244	16:29:00	16:29:00		Targowa 01
+1860	2	220244	16:33:00	16:33:00		Szopena Filharmonia 02 nż
+1860	2	220244	16:34:00	16:34:00		Kilara 01 nż
+1860	2	220244	16:36:00	16:36:00		Hetmańska podzamcze 02 nż
+1860	2	220244	16:37:00	16:37:00		Hetmańska przychodnia 04
+1860	2	220244	16:38:00	16:38:00		Hetmańska ZS. Mech. 06
+1860	2	220244	16:41:00	16:41:00		Powst. Warszawy stadion 06
+1860	2	220244	16:43:00	16:43:00		Kwiatkowskiego / Powst. Warszawy 02
+1860	2	220244	16:44:00	16:44:00		Kwiatkowskiego dom studenta 04 nż
+1860	2	220244	16:45:00	16:45:00		Kwiatkowskiego / Strażacka 06 nż
+1860	2	220244	16:46:00	16:46:00		Kwiatkowskiego żwirownia 08 nż
+1860	2	220244	16:47:00	16:47:00		Kwiatkowskiego / Podmiejska 10 nż
+1860	2	220244	16:48:00	16:48:00		Kwiatkowskiego / Jachowicza 12 nż
+1860	2	220244	16:49:00	16:49:00		Kwiatkowskiego hotel 14 nż
+1860	2	220244	16:50:00	16:50:00		Jana Pawła II OSP 02 nż
+1860	2	220244	16:51:00	16:51:00		Jana Pawła II / Gościnna 04 nż
+1860	2	220244	16:52:00	16:52:00		Jana Pawła II / Św. Antoniego 06 nż
+1860	2	220244	16:53:00	16:53:00		Jana Pawła II / Zakątkowa 08 nż
+1860	2	220244	16:54:00	16:54:00		Jana Pawła II / Herbowa 10 nż
+1860	2	220244	16:55:00	16:55:00		Jana Pawła II / Strzelców 12 nż
+1860	2	220244	16:57:00	16:57:00		Budziwojska / Jana Pawła II 10 nż
+1860	2	220244	16:58:00	16:58:00		Budziwojska szkoła 12
+1860	2	220244	16:59:00	16:59:00		Budziwojska / Podleśna 14 nż
+1860	2	220244	17:01:00	17:01:00		Budziwojska / Kwiatowa 16 nż
+1860	2	220244	17:02:00	17:02:00		Budziwojska / Poselska 18 nż
+1860	2	220244	17:03:00	17:03:00		Budziwojska sklep 20 nż
+1860	2	220244	17:05:00	17:05:00		Budziwojska pętla 22 nż
+1860	2	220244	17:06:00	17:06:00		Siedliska Koniec 11 nż
+1860	2	220244	17:07:00	17:07:00		Siedliska kościół 09 nż
+1860	2	220244	17:08:00	17:08:00		Siedliska ośrodek zdrowia 07 nż
+1860	2	220244	17:09:00	17:09:00		Siedliska skrzyżowanie II 05
 
-1958	4	212997	17:15:00	17:15:00		Siedliska skrzyżowanie II 05
-1958	4	212997	17:16:00	17:16:00		Siedliska ośrodek zdrowia 08 nż
-1958	4	212997	17:17:00	17:17:00		Siedliska kościół 10 nż
-1958	4	212997	17:18:00	17:18:00		Siedliska Koniec 12 nż
-1958	4	212997	17:20:00	17:20:00		Budziwojska pętla 22 nż
-1958	4	212997	17:21:00	17:21:00		Budziwojska sklep 17 nż
-1958	4	212997	17:22:00	17:22:00		Budziwojska / Poselska 15 nż
-1958	4	212997	17:23:00	17:23:00		Budziwojska / Kwiatowa 13 nż
-1958	4	212997	17:24:00	17:24:00		Budziwojska / Podleśna 11 nż
-1958	4	212997	17:25:00	17:25:00		Budziwojska cmentarz 09
-1958	4	212997	17:26:00	17:26:00		Jana Pawła II / Budziwojska 13 nż
-1958	4	212997	17:27:00	17:27:00		Jana Pawła II / Strzelców 11 nż
-1958	4	212997	17:28:00	17:28:00		Jana Pawła II / Herbowa 09 nż
-1958	4	212997	17:29:00	17:29:00		Jana Pawła II / Zakątkowa 07 nż
-1958	4	212997	17:30:00	17:30:00		Jana Pawła II / Św. Antoniego 05 nż
-1958	4	212997	17:31:00	17:31:00		Jana Pawła II / Gościnna 03 nż
-1958	4	212997	17:32:00	17:32:00		Jana Pawła II OSP 01 nż
-1958	4	212997	17:33:00	17:33:00		Kwiatkowskiego hotel 11 nż
-1958	4	212997	17:34:00	17:34:00		Kwiatkowskiego / Jachowicza 09 nż
-1958	4	212997	17:35:00	17:35:00		Kwiatkowskiego / Koło 07 nż
-1958	4	212997	17:36:00	17:36:00		Kwiatkowskiego żwirownia 05 nż
-1958	4	212997	17:37:00	17:37:00		Kwiatkowskiego / Strażacka 03 nż
-1958	4	212997	17:39:00	17:39:00		Kwiatkowskiego dom studenta 01 nż
-1958	4	212997	17:41:00	17:41:00		Powst. Warszawy / Podwisłocze 07 nż
-1958	4	212997	17:42:00	17:42:00		Powst. Warszawy stadion 05 nż
-1958	4	212997	17:43:00	17:43:00		Hetmańska stadion 07
-1958	4	212997	17:44:00	17:44:00		Hetmańska ZS. Mech. 05
-1958	4	212997	17:45:00	17:45:00		Hetmańska przychodnia 03
-1958	4	212997	17:46:00	17:46:00		Hetmańska podzamcze 01 nż
-1958	4	212997	17:47:00	17:47:00		Kilara 02 nż
-1958	4	212997	17:49:00	17:49:00		Szopena Filharmonia 01 nż
-1958	4	212997	17:51:00	17:51:00		Targowa 02
-1958	4	212997	17:53:00	17:53:00		Głowackiego ZUS 01
-1958	4	212997	17:55:00	17:55:00		Siemieńskiego / Kochanowskiego 02 nż
-1958	4	212997	17:56:00	17:56:00		Siemieńskiego U. Skarbowy 04 nż
-1958	4	212997	17:57:00	17:57:00		Trembeckiego / Siemieńskiego 07 nż
-1958	4	212997	17:58:00	17:58:00		Trembeckiego ZTM pętla 01
+1958	2	220320	17:15:00	17:15:00		Siedliska skrzyżowanie II 05
+1958	2	220320	17:16:00	17:16:00		Siedliska ośrodek zdrowia 08 nż
+1958	2	220320	17:17:00	17:17:00		Siedliska kościół 10 nż
+1958	2	220320	17:18:00	17:18:00		Siedliska Koniec 12 nż
+1958	2	220320	17:20:00	17:20:00		Budziwojska pętla 22 nż
+1958	2	220320	17:21:00	17:21:00		Budziwojska sklep 17 nż
+1958	2	220320	17:22:00	17:22:00		Budziwojska / Poselska 15 nż
+1958	2	220320	17:23:00	17:23:00		Budziwojska / Kwiatowa 13 nż
+1958	2	220320	17:24:00	17:24:00		Budziwojska / Podleśna 11 nż
+1958	2	220320	17:25:00	17:25:00		Budziwojska cmentarz 09
+1958	2	220320	17:26:00	17:26:00		Jana Pawła II / Budziwojska 13 nż
+1958	2	220320	17:27:00	17:27:00		Jana Pawła II / Strzelców 11 nż
+1958	2	220320	17:28:00	17:28:00		Jana Pawła II / Herbowa 09 nż
+1958	2	220320	17:29:00	17:29:00		Jana Pawła II / Zakątkowa 07 nż
+1958	2	220320	17:30:00	17:30:00		Jana Pawła II / Św. Antoniego 05 nż
+1958	2	220320	17:31:00	17:31:00		Jana Pawła II / Gościnna 03 nż
+1958	2	220320	17:32:00	17:32:00		Jana Pawła II OSP 01 nż
+1958	2	220320	17:33:00	17:33:00		Kwiatkowskiego hotel 11 nż
+1958	2	220320	17:34:00	17:34:00		Kwiatkowskiego / Jachowicza 09 nż
+1958	2	220320	17:35:00	17:35:00		Kwiatkowskiego / Koło 07 nż
+1958	2	220320	17:36:00	17:36:00		Kwiatkowskiego żwirownia 05 nż
+1958	2	220320	17:37:00	17:37:00		Kwiatkowskiego / Strażacka 03 nż
+1958	2	220320	17:39:00	17:39:00		Kwiatkowskiego dom studenta 01 nż
+1958	2	220320	17:41:00	17:41:00		Powst. Warszawy / Podwisłocze 07 nż
+1958	2	220320	17:42:00	17:42:00		Powst. Warszawy stadion 05 nż
+1958	2	220320	17:43:00	17:43:00		Hetmańska stadion 07
+1958	2	220320	17:44:00	17:44:00		Hetmańska ZS. Mech. 05
+1958	2	220320	17:45:00	17:45:00		Hetmańska przychodnia 03
+1958	2	220320	17:46:00	17:46:00		Hetmańska podzamcze 01 nż
+1958	2	220320	17:47:00	17:47:00		Kilara 02 nż
+1958	2	220320	17:49:00	17:49:00		Szopena Filharmonia 01 nż
+1958	2	220320	17:51:00	17:51:00		Targowa 02
+1958	2	220320	17:53:00	17:53:00		Głowackiego ZUS 01
+1958	2	220320	17:55:00	17:55:00		Siemieńskiego / Kochanowskiego 02 nż
+1958	2	220320	17:56:00	17:56:00		Siemieńskiego U. Skarbowy 04 nż
+1958	2	220320	17:57:00	17:57:00		Trembeckiego / Siemieńskiego 07 nż
+1958	2	220320	17:58:00	17:58:00		Trembeckiego ZTM pętla 01
 
-1938	4	213242	18:20:00	18:20:00		Trembeckiego ZTM pętla 01
-1938	4	213242	18:21:00	18:21:00		Trembeckiego / Siemieńskiego 04 nż
-1938	4	213242	18:22:00	18:22:00		Siemieńskiego U. Skarbowy 03 nż
-1938	4	213242	18:23:00	18:23:00		Siemieńskiego dom studenta 01 nż
-1938	4	213242	18:24:00	18:24:00		Żółkiewskiego / Kochanowskiego 01 nż
-1938	4	213242	18:26:00	18:26:00		Bardowskiego 02
-1938	4	213242	18:29:00	18:29:00		Targowa 01
-1938	4	213242	18:31:00	18:31:00		Szopena Filharmonia 02 nż
-1938	4	213242	18:32:00	18:32:00		Kilara 01 nż
-1938	4	213242	18:34:00	18:34:00		Hetmańska podzamcze 02 nż
-1938	4	213242	18:35:00	18:35:00		Hetmańska przychodnia 04
-1938	4	213242	18:36:00	18:36:00		Hetmańska ZS. Mech. 06
-1938	4	213242	18:39:00	18:39:00		Powst. Warszawy stadion 06
-1938	4	213242	18:41:00	18:41:00		Kwiatkowskiego / Powst. Warszawy 02
-1938	4	213242	18:42:00	18:42:00		Kwiatkowskiego dom studenta 04 nż
-1938	4	213242	18:43:00	18:43:00		Kwiatkowskiego / Strażacka 06 nż
-1938	4	213242	18:44:00	18:44:00		Kwiatkowskiego żwirownia 08 nż
-1938	4	213242	18:45:00	18:45:00		Kwiatkowskiego / Podmiejska 10 nż
-1938	4	213242	18:46:00	18:46:00		Kwiatkowskiego / Jachowicza 12 nż
-1938	4	213242	18:47:00	18:47:00		Kwiatkowskiego hotel 14 nż
-1938	4	213242	18:48:00	18:48:00		Jana Pawła II OSP 02 nż
-1938	4	213242	18:49:00	18:49:00		Jana Pawła II / Gościnna 04 nż
-1938	4	213242	18:50:00	18:50:00		Jana Pawła II / Św. Antoniego 06 nż
-1938	4	213242	18:51:00	18:51:00		Jana Pawła II / Zakątkowa 08 nż
-1938	4	213242	18:52:00	18:52:00		Jana Pawła II / Herbowa 10 nż
-1938	4	213242	18:53:00	18:53:00		Jana Pawła II / Strzelców 12 nż
-1938	4	213242	18:55:00	18:55:00		Budziwojska / Jana Pawła II 10 nż
-1938	4	213242	18:56:00	18:56:00		Budziwojska szkoła 12
-1938	4	213242	18:57:00	18:57:00		Budziwojska / Podleśna 14 nż
-1938	4	213242	18:59:00	18:59:00		Budziwojska / Kwiatowa 16 nż
-1938	4	213242	19:00:00	19:00:00		Budziwojska / Poselska 18 nż
-1938	4	213242	19:01:00	19:01:00		Budziwojska sklep 20 nż
-1938	4	213242	19:03:00	19:03:00		Budziwojska pętla 22 nż
+1938	2	220258	18:20:00	18:20:00		Trembeckiego ZTM pętla 01
+1938	2	220258	18:21:00	18:21:00		Trembeckiego / Siemieńskiego 04 nż
+1938	2	220258	18:22:00	18:22:00		Siemieńskiego U. Skarbowy 03 nż
+1938	2	220258	18:23:00	18:23:00		Siemieńskiego dom studenta 01 nż
+1938	2	220258	18:24:00	18:24:00		Żółkiewskiego / Kochanowskiego 01 nż
+1938	2	220258	18:26:00	18:26:00		Bardowskiego 02
+1938	2	220258	18:29:00	18:29:00		Targowa 01
+1938	2	220258	18:31:00	18:31:00		Szopena Filharmonia 02 nż
+1938	2	220258	18:32:00	18:32:00		Kilara 01 nż
+1938	2	220258	18:34:00	18:34:00		Hetmańska podzamcze 02 nż
+1938	2	220258	18:35:00	18:35:00		Hetmańska przychodnia 04
+1938	2	220258	18:36:00	18:36:00		Hetmańska ZS. Mech. 06
+1938	2	220258	18:39:00	18:39:00		Powst. Warszawy stadion 06
+1938	2	220258	18:41:00	18:41:00		Kwiatkowskiego / Powst. Warszawy 02
+1938	2	220258	18:42:00	18:42:00		Kwiatkowskiego dom studenta 04 nż
+1938	2	220258	18:43:00	18:43:00		Kwiatkowskiego / Strażacka 06 nż
+1938	2	220258	18:44:00	18:44:00		Kwiatkowskiego żwirownia 08 nż
+1938	2	220258	18:45:00	18:45:00		Kwiatkowskiego / Podmiejska 10 nż
+1938	2	220258	18:46:00	18:46:00		Kwiatkowskiego / Jachowicza 12 nż
+1938	2	220258	18:47:00	18:47:00		Kwiatkowskiego hotel 14 nż
+1938	2	220258	18:48:00	18:48:00		Jana Pawła II OSP 02 nż
+1938	2	220258	18:49:00	18:49:00		Jana Pawła II / Gościnna 04 nż
+1938	2	220258	18:50:00	18:50:00		Jana Pawła II / Św. Antoniego 06 nż
+1938	2	220258	18:51:00	18:51:00		Jana Pawła II / Zakątkowa 08 nż
+1938	2	220258	18:52:00	18:52:00		Jana Pawła II / Herbowa 10 nż
+1938	2	220258	18:53:00	18:53:00		Jana Pawła II / Strzelców 12 nż
+1938	2	220258	18:55:00	18:55:00		Budziwojska / Jana Pawła II 10 nż
+1938	2	220258	18:56:00	18:56:00		Budziwojska szkoła 12
+1938	2	220258	18:57:00	18:57:00		Budziwojska / Podleśna 14 nż
+1938	2	220258	18:59:00	18:59:00		Budziwojska / Kwiatowa 16 nż
+1938	2	220258	19:00:00	19:00:00		Budziwojska / Poselska 18 nż
+1938	2	220258	19:01:00	19:01:00		Budziwojska sklep 20 nż
+1938	2	220258	19:03:00	19:03:00		Budziwojska pętla 22 nż
 
-1972	4	213797	19:10:00	19:10:00		Budziwojska pętla 22 nż
-1972	4	213797	19:11:00	19:11:00		Budziwojska sklep 17 nż
-1972	4	213797	19:12:00	19:12:00		Budziwojska / Poselska 15 nż
-1972	4	213797	19:13:00	19:13:00		Budziwojska / Kwiatowa 13 nż
-1972	4	213797	19:14:00	19:14:00		Budziwojska / Podleśna 11 nż
-1972	4	213797	19:15:00	19:15:00		Budziwojska cmentarz 09
-1972	4	213797	19:16:00	19:16:00		Jana Pawła II / Budziwojska 13 nż
-1972	4	213797	19:17:00	19:17:00		Jana Pawła II / Strzelców 11 nż
-1972	4	213797	19:18:00	19:18:00		Jana Pawła II / Herbowa 09 nż
-1972	4	213797	19:19:00	19:19:00		Jana Pawła II / Zakątkowa 07 nż
-1972	4	213797	19:20:00	19:20:00		Jana Pawła II / Św. Antoniego 05 nż
-1972	4	213797	19:21:00	19:21:00		Jana Pawła II / Gościnna 03 nż
-1972	4	213797	19:22:00	19:22:00		Jana Pawła II OSP 01 nż
-1972	4	213797	19:23:00	19:23:00		Kwiatkowskiego hotel 11 nż
-1972	4	213797	19:24:00	19:24:00		Kwiatkowskiego / Jachowicza 09 nż
-1972	4	213797	19:25:00	19:25:00		Kwiatkowskiego / Koło 07 nż
-1972	4	213797	19:26:00	19:26:00		Kwiatkowskiego żwirownia 05 nż
-1972	4	213797	19:27:00	19:27:00		Kwiatkowskiego / Strażacka 03 nż
-1972	4	213797	19:28:00	19:28:00		Kwiatkowskiego dom studenta 01 nż
-1972	4	213797	19:30:00	19:30:00		Powst. Warszawy / Podwisłocze 07 nż
-1972	4	213797	19:31:00	19:31:00		Powst. Warszawy stadion 05 nż
-1972	4	213797	19:32:00	19:32:00		Hetmańska stadion 07
-1972	4	213797	19:33:00	19:33:00		Hetmańska ZS. Mech. 05
-1972	4	213797	19:34:00	19:34:00		Hetmańska przychodnia 03
-1972	4	213797	19:35:00	19:35:00		Hetmańska podzamcze 01 nż
-1972	4	213797	19:36:00	19:36:00		Kilara 02 nż
-1972	4	213797	19:37:00	19:37:00		Szopena Filharmonia 01 nż
-1972	4	213797	19:38:00	19:38:00		Targowa 02
-1972	4	213797	19:39:00	19:39:00		Głowackiego ZUS 01
-1972	4	213797	19:41:00	19:41:00		Siemieńskiego / Kochanowskiego 02 nż
-1972	4	213797	19:42:00	19:42:00		Siemieńskiego U. Skarbowy 04 nż
-1972	4	213797	19:43:00	19:43:00		Trembeckiego / Siemieńskiego 07 nż
-1972	4	213797	19:44:00	19:44:00		Trembeckiego ZTM pętla 01
+1972	2	220252	19:10:00	19:10:00		Budziwojska pętla 22 nż
+1972	2	220252	19:11:00	19:11:00		Budziwojska sklep 17 nż
+1972	2	220252	19:12:00	19:12:00		Budziwojska / Poselska 15 nż
+1972	2	220252	19:13:00	19:13:00		Budziwojska / Kwiatowa 13 nż
+1972	2	220252	19:14:00	19:14:00		Budziwojska / Podleśna 11 nż
+1972	2	220252	19:15:00	19:15:00		Budziwojska cmentarz 09
+1972	2	220252	19:16:00	19:16:00		Jana Pawła II / Budziwojska 13 nż
+1972	2	220252	19:17:00	19:17:00		Jana Pawła II / Strzelców 11 nż
+1972	2	220252	19:18:00	19:18:00		Jana Pawła II / Herbowa 09 nż
+1972	2	220252	19:19:00	19:19:00		Jana Pawła II / Zakątkowa 07 nż
+1972	2	220252	19:20:00	19:20:00		Jana Pawła II / Św. Antoniego 05 nż
+1972	2	220252	19:21:00	19:21:00		Jana Pawła II / Gościnna 03 nż
+1972	2	220252	19:22:00	19:22:00		Jana Pawła II OSP 01 nż
+1972	2	220252	19:23:00	19:23:00		Kwiatkowskiego hotel 11 nż
+1972	2	220252	19:24:00	19:24:00		Kwiatkowskiego / Jachowicza 09 nż
+1972	2	220252	19:25:00	19:25:00		Kwiatkowskiego / Koło 07 nż
+1972	2	220252	19:26:00	19:26:00		Kwiatkowskiego żwirownia 05 nż
+1972	2	220252	19:27:00	19:27:00		Kwiatkowskiego / Strażacka 03 nż
+1972	2	220252	19:28:00	19:28:00		Kwiatkowskiego dom studenta 01 nż
+1972	2	220252	19:30:00	19:30:00		Powst. Warszawy / Podwisłocze 07 nż
+1972	2	220252	19:31:00	19:31:00		Powst. Warszawy stadion 05 nż
+1972	2	220252	19:32:00	19:32:00		Hetmańska stadion 07
+1972	2	220252	19:33:00	19:33:00		Hetmańska ZS. Mech. 05
+1972	2	220252	19:34:00	19:34:00		Hetmańska przychodnia 03
+1972	2	220252	19:35:00	19:35:00		Hetmańska podzamcze 01 nż
+1972	2	220252	19:36:00	19:36:00		Kilara 02 nż
+1972	2	220252	19:37:00	19:37:00		Szopena Filharmonia 01 nż
+1972	2	220252	19:38:00	19:38:00		Targowa 02
+1972	2	220252	19:39:00	19:39:00		Głowackiego ZUS 01
+1972	2	220252	19:41:00	19:41:00		Siemieńskiego / Kochanowskiego 02 nż
+1972	2	220252	19:42:00	19:42:00		Siemieńskiego U. Skarbowy 04 nż
+1972	2	220252	19:43:00	19:43:00		Trembeckiego / Siemieńskiego 07 nż
+1972	2	220252	19:44:00	19:44:00		Trembeckiego ZTM pętla 01
 
-1938	4	210110	20:20:00	20:20:00		Trembeckiego ZTM pętla 01
-1938	4	210110	20:21:00	20:21:00		Trembeckiego / Siemieńskiego 04 nż
-1938	4	210110	20:22:00	20:22:00		Siemieńskiego U. Skarbowy 03 nż
-1938	4	210110	20:23:00	20:23:00		Siemieńskiego dom studenta 01 nż
-1938	4	210110	20:24:00	20:24:00		Żółkiewskiego / Kochanowskiego 01 nż
-1938	4	210110	20:26:00	20:26:00		Bardowskiego 02
-1938	4	210110	20:28:00	20:28:00		Targowa 01
-1938	4	210110	20:30:00	20:30:00		Szopena Filharmonia 02 nż
-1938	4	210110	20:31:00	20:31:00		Kilara 01 nż
-1938	4	210110	20:33:00	20:33:00		Hetmańska podzamcze 02 nż
-1938	4	210110	20:34:00	20:34:00		Hetmańska przychodnia 04
-1938	4	210110	20:35:00	20:35:00		Hetmańska ZS. Mech. 06
-1938	4	210110	20:37:00	20:37:00		Powst. Warszawy stadion 06
-1938	4	210110	20:38:00	20:38:00		Kwiatkowskiego / Powst. Warszawy 02
-1938	4	210110	20:39:00	20:39:00		Kwiatkowskiego dom studenta 04 nż
-1938	4	210110	20:40:00	20:40:00		Kwiatkowskiego / Strażacka 06 nż
-1938	4	210110	20:41:00	20:41:00		Kwiatkowskiego żwirownia 08 nż
-1938	4	210110	20:42:00	20:42:00		Kwiatkowskiego / Podmiejska 10 nż
-1938	4	210110	20:43:00	20:43:00		Kwiatkowskiego / Jachowicza 12 nż
-1938	4	210110	20:44:00	20:44:00		Kwiatkowskiego hotel 14 nż
-1938	4	210110	20:45:00	20:45:00		Jana Pawła II OSP 02 nż
-1938	4	210110	20:46:00	20:46:00		Jana Pawła II / Gościnna 04 nż
-1938	4	210110	20:47:00	20:47:00		Jana Pawła II / Św. Antoniego 06 nż
-1938	4	210110	20:48:00	20:48:00		Jana Pawła II / Zakątkowa 08 nż
-1938	4	210110	20:49:00	20:49:00		Jana Pawła II / Herbowa 10 nż
-1938	4	210110	20:50:00	20:50:00		Jana Pawła II / Strzelców 12 nż
-1938	4	210110	20:51:00	20:51:00		Budziwojska / Jana Pawła II 10 nż
-1938	4	210110	20:52:00	20:52:00		Budziwojska szkoła 12
-1938	4	210110	20:53:00	20:53:00		Budziwojska / Podleśna 14 nż
-1938	4	210110	20:55:00	20:55:00		Budziwojska / Kwiatowa 16 nż
-1938	4	210110	20:56:00	20:56:00		Budziwojska / Poselska 18 nż
-1938	4	210110	20:57:00	20:57:00		Budziwojska sklep 20 nż
-1938	4	210110	20:59:00	20:59:00		Budziwojska pętla 22 nż
+1938	2	220313	20:20:00	20:20:00		Trembeckiego ZTM pętla 01
+1938	2	220313	20:21:00	20:21:00		Trembeckiego / Siemieńskiego 04 nż
+1938	2	220313	20:22:00	20:22:00		Siemieńskiego U. Skarbowy 03 nż
+1938	2	220313	20:23:00	20:23:00		Siemieńskiego dom studenta 01 nż
+1938	2	220313	20:24:00	20:24:00		Żółkiewskiego / Kochanowskiego 01 nż
+1938	2	220313	20:26:00	20:26:00		Bardowskiego 02
+1938	2	220313	20:28:00	20:28:00		Targowa 01
+1938	2	220313	20:30:00	20:30:00		Szopena Filharmonia 02 nż
+1938	2	220313	20:31:00	20:31:00		Kilara 01 nż
+1938	2	220313	20:33:00	20:33:00		Hetmańska podzamcze 02 nż
+1938	2	220313	20:34:00	20:34:00		Hetmańska przychodnia 04
+1938	2	220313	20:35:00	20:35:00		Hetmańska ZS. Mech. 06
+1938	2	220313	20:37:00	20:37:00		Powst. Warszawy stadion 06
+1938	2	220313	20:38:00	20:38:00		Kwiatkowskiego / Powst. Warszawy 02
+1938	2	220313	20:39:00	20:39:00		Kwiatkowskiego dom studenta 04 nż
+1938	2	220313	20:40:00	20:40:00		Kwiatkowskiego / Strażacka 06 nż
+1938	2	220313	20:41:00	20:41:00		Kwiatkowskiego żwirownia 08 nż
+1938	2	220313	20:42:00	20:42:00		Kwiatkowskiego / Podmiejska 10 nż
+1938	2	220313	20:43:00	20:43:00		Kwiatkowskiego / Jachowicza 12 nż
+1938	2	220313	20:44:00	20:44:00		Kwiatkowskiego hotel 14 nż
+1938	2	220313	20:45:00	20:45:00		Jana Pawła II OSP 02 nż
+1938	2	220313	20:46:00	20:46:00		Jana Pawła II / Gościnna 04 nż
+1938	2	220313	20:47:00	20:47:00		Jana Pawła II / Św. Antoniego 06 nż
+1938	2	220313	20:48:00	20:48:00		Jana Pawła II / Zakątkowa 08 nż
+1938	2	220313	20:49:00	20:49:00		Jana Pawła II / Herbowa 10 nż
+1938	2	220313	20:50:00	20:50:00		Jana Pawła II / Strzelców 12 nż
+1938	2	220313	20:51:00	20:51:00		Budziwojska / Jana Pawła II 10 nż
+1938	2	220313	20:52:00	20:52:00		Budziwojska szkoła 12
+1938	2	220313	20:53:00	20:53:00		Budziwojska / Podleśna 14 nż
+1938	2	220313	20:55:00	20:55:00		Budziwojska / Kwiatowa 16 nż
+1938	2	220313	20:56:00	20:56:00		Budziwojska / Poselska 18 nż
+1938	2	220313	20:57:00	20:57:00		Budziwojska sklep 20 nż
+1938	2	220313	20:59:00	20:59:00		Budziwojska pętla 22 nż
 
-1972	4	215863	21:10:00	21:10:00		Budziwojska pętla 22 nż
-1972	4	215863	21:11:00	21:11:00		Budziwojska sklep 17 nż
-1972	4	215863	21:12:00	21:12:00		Budziwojska / Poselska 15 nż
-1972	4	215863	21:13:00	21:13:00		Budziwojska / Kwiatowa 13 nż
-1972	4	215863	21:14:00	21:14:00		Budziwojska / Podleśna 11 nż
-1972	4	215863	21:15:00	21:15:00		Budziwojska cmentarz 09
-1972	4	215863	21:16:00	21:16:00		Jana Pawła II / Budziwojska 13 nż
-1972	4	215863	21:17:00	21:17:00		Jana Pawła II / Strzelców 11 nż
-1972	4	215863	21:18:00	21:18:00		Jana Pawła II / Herbowa 09 nż
-1972	4	215863	21:19:00	21:19:00		Jana Pawła II / Zakątkowa 07 nż
-1972	4	215863	21:20:00	21:20:00		Jana Pawła II / Św. Antoniego 05 nż
-1972	4	215863	21:21:00	21:21:00		Jana Pawła II / Gościnna 03 nż
-1972	4	215863	21:22:00	21:22:00		Jana Pawła II OSP 01 nż
-1972	4	215863	21:23:00	21:23:00		Kwiatkowskiego hotel 11 nż
-1972	4	215863	21:24:00	21:24:00		Kwiatkowskiego / Jachowicza 09 nż
-1972	4	215863	21:25:00	21:25:00		Kwiatkowskiego / Koło 07 nż
-1972	4	215863	21:26:00	21:26:00		Kwiatkowskiego żwirownia 05 nż
-1972	4	215863	21:27:00	21:27:00		Kwiatkowskiego / Strażacka 03 nż
-1972	4	215863	21:28:00	21:28:00		Kwiatkowskiego dom studenta 01 nż
-1972	4	215863	21:30:00	21:30:00		Powst. Warszawy / Podwisłocze 07 nż
-1972	4	215863	21:31:00	21:31:00		Powst. Warszawy stadion 05 nż
-1972	4	215863	21:32:00	21:32:00		Hetmańska stadion 07
-1972	4	215863	21:33:00	21:33:00		Hetmańska ZS. Mech. 05
-1972	4	215863	21:34:00	21:34:00		Hetmańska przychodnia 03
-1972	4	215863	21:35:00	21:35:00		Hetmańska podzamcze 01 nż
-1972	4	215863	21:36:00	21:36:00		Kilara 02 nż
-1972	4	215863	21:37:00	21:37:00		Szopena Filharmonia 01 nż
-1972	4	215863	21:38:00	21:38:00		Targowa 02
-1972	4	215863	21:39:00	21:39:00		Głowackiego ZUS 01
-1972	4	215863	21:41:00	21:41:00		Siemieńskiego / Kochanowskiego 02 nż
-1972	4	215863	21:42:00	21:42:00		Siemieńskiego U. Skarbowy 04 nż
-1972	4	215863	21:43:00	21:43:00		Trembeckiego / Siemieńskiego 07 nż
-1972	4	215863	21:44:00	21:44:00		Trembeckiego ZTM pętla 01
+1972	2	220330	21:10:00	21:10:00		Budziwojska pętla 22 nż
+1972	2	220330	21:11:00	21:11:00		Budziwojska sklep 17 nż
+1972	2	220330	21:12:00	21:12:00		Budziwojska / Poselska 15 nż
+1972	2	220330	21:13:00	21:13:00		Budziwojska / Kwiatowa 13 nż
+1972	2	220330	21:14:00	21:14:00		Budziwojska / Podleśna 11 nż
+1972	2	220330	21:15:00	21:15:00		Budziwojska cmentarz 09
+1972	2	220330	21:16:00	21:16:00		Jana Pawła II / Budziwojska 13 nż
+1972	2	220330	21:17:00	21:17:00		Jana Pawła II / Strzelców 11 nż
+1972	2	220330	21:18:00	21:18:00		Jana Pawła II / Herbowa 09 nż
+1972	2	220330	21:19:00	21:19:00		Jana Pawła II / Zakątkowa 07 nż
+1972	2	220330	21:20:00	21:20:00		Jana Pawła II / Św. Antoniego 05 nż
+1972	2	220330	21:21:00	21:21:00		Jana Pawła II / Gościnna 03 nż
+1972	2	220330	21:22:00	21:22:00		Jana Pawła II OSP 01 nż
+1972	2	220330	21:23:00	21:23:00		Kwiatkowskiego hotel 11 nż
+1972	2	220330	21:24:00	21:24:00		Kwiatkowskiego / Jachowicza 09 nż
+1972	2	220330	21:25:00	21:25:00		Kwiatkowskiego / Koło 07 nż
+1972	2	220330	21:26:00	21:26:00		Kwiatkowskiego żwirownia 05 nż
+1972	2	220330	21:27:00	21:27:00		Kwiatkowskiego / Strażacka 03 nż
+1972	2	220330	21:28:00	21:28:00		Kwiatkowskiego dom studenta 01 nż
+1972	2	220330	21:30:00	21:30:00		Powst. Warszawy / Podwisłocze 07 nż
+1972	2	220330	21:31:00	21:31:00		Powst. Warszawy stadion 05 nż
+1972	2	220330	21:32:00	21:32:00		Hetmańska stadion 07
+1972	2	220330	21:33:00	21:33:00		Hetmańska ZS. Mech. 05
+1972	2	220330	21:34:00	21:34:00		Hetmańska przychodnia 03
+1972	2	220330	21:35:00	21:35:00		Hetmańska podzamcze 01 nż
+1972	2	220330	21:36:00	21:36:00		Kilara 02 nż
+1972	2	220330	21:37:00	21:37:00		Szopena Filharmonia 01 nż
+1972	2	220330	21:38:00	21:38:00		Targowa 02
+1972	2	220330	21:39:00	21:39:00		Głowackiego ZUS 01
+1972	2	220330	21:41:00	21:41:00		Siemieńskiego / Kochanowskiego 02 nż
+1972	2	220330	21:42:00	21:42:00		Siemieńskiego U. Skarbowy 04 nż
+1972	2	220330	21:43:00	21:43:00		Trembeckiego / Siemieńskiego 07 nż
+1972	2	220330	21:44:00	21:44:00		Trembeckiego ZTM pętla 01
 
-1457	4	211728	22:05:00	22:05:00		Bardowskiego 01
-1457	4	211728	22:07:00	22:07:00		Pl. Wolności 04
-1457	4	211728	22:08:00	22:08:00		Piłsudskiego U. Wojewódzki 06
-1457	4	211728	22:10:00	22:10:00		Marszałkowska 02
-1457	4	211728	22:11:00	22:11:00		Lubelska szpital 02
-1457	4	211728	22:12:00	22:12:00		Lubelska kościół 06 nż
-1457	4	211728	22:13:00	22:13:00		Lubelska / Borowa 08 nż
-1457	4	211728	22:14:00	22:14:00		Lubelska Os. Ogrody 10 nż
-1457	4	211728	22:15:00	22:15:00		Lubelska Ogrody Hiszpańskie 12 nż
-1457	4	211728	22:16:00	22:16:00		Lubelska MPK 14 nż
-1457	4	211728	22:17:00	22:17:00		Lubelska granica 16 nż
-1457	4	211728	22:18:00	22:18:00		Trzebownisko 29 nż
-1457	4	211728	22:19:00	22:19:00		Trzebownisko mleczarnia 31 nż
-1457	4	211728	22:21:00	22:21:00		Trzebownisko pływalnia 33 nż
-1457	4	211728	22:22:00	22:22:00		Nowa Wieś 35 nż
-1457	4	211728	22:23:00	22:23:00		Nowa Wieś Port Lotniczy 37 nż
-1457	4	211728	22:26:00	22:26:00		Jasionka Aeroklub 02 nż
-1457	4	211728	22:27:00	22:27:00		Jasionka przedszkole ochronka 04 nż
-1457	4	211728	22:29:00	22:29:00		Jasionka Borg 06 nż
-1457	4	211728	22:31:00	22:31:00		Jasionka PCN Łukasiewicz 14 nż
-1457	4	211728	22:32:00	22:32:00		Jasionka - Port Lotniczy
-1457	4	211728	22:35:00	22:35:00		Tajęcina MTU Aero Engines 04 nż
-1457	4	211728	22:36:00	22:36:00		Tajęcina Goodrich / OPTeam 02 nż
-1457	4	211728	22:37:00	22:37:00		Tajęcina Aero 16 nż
-1457	4	211728	22:39:00	22:39:00		Jasionka EME Aero 02
+1457	2	220071	22:05:00	22:05:00		Bardowskiego 01
+1457	2	220071	22:07:00	22:07:00		Pl. Wolności 04
+1457	2	220071	22:08:00	22:08:00		Piłsudskiego U. Wojewódzki 06
+1457	2	220071	22:10:00	22:10:00		Marszałkowska 02
+1457	2	220071	22:11:00	22:11:00		Lubelska szpital 02
+1457	2	220071	22:12:00	22:12:00		Lubelska kościół 06 nż
+1457	2	220071	22:13:00	22:13:00		Lubelska / Borowa 08 nż
+1457	2	220071	22:14:00	22:14:00		Lubelska Os. Ogrody 10 nż
+1457	2	220071	22:15:00	22:15:00		Lubelska Ogrody Hiszpańskie 12 nż
+1457	2	220071	22:16:00	22:16:00		Lubelska MPK 14 nż
+1457	2	220071	22:17:00	22:17:00		Lubelska granica 16 nż
+1457	2	220071	22:18:00	22:18:00		Trzebownisko 29 nż
+1457	2	220071	22:19:00	22:19:00		Trzebownisko mleczarnia 31 nż
+1457	2	220071	22:21:00	22:21:00		Trzebownisko pływalnia 33 nż
+1457	2	220071	22:22:00	22:22:00		Nowa Wieś 35 nż
+1457	2	220071	22:23:00	22:23:00		Nowa Wieś Port Lotniczy 37 nż
+1457	2	220071	22:26:00	22:26:00		Jasionka Aeroklub 02 nż
+1457	2	220071	22:27:00	22:27:00		Jasionka przedszkole ochronka 04 nż
+1457	2	220071	22:29:00	22:29:00		Jasionka Borg 06 nż
+1457	2	220071	22:31:00	22:31:00		Jasionka PCN Łukasiewicz 14 nż
+1457	2	220071	22:32:00	22:32:00		Jasionka - Port Lotniczy
+1457	2	220071	22:35:00	22:35:00		Tajęcina MTU Aero Engines 04 nż
+1457	2	220071	22:36:00	22:36:00		Tajęcina Goodrich / OPTeam 02 nż
+1457	2	220071	22:37:00	22:37:00		Tajęcina Aero 16 nż
+1457	2	220071	22:39:00	22:39:00		Jasionka EME Aero 02
 
-1438	4	214019	23:14:00	23:14:00		Jasionka EME Aero 01
-1438	4	214019	23:15:00	23:15:00		Tajęcina Aero 15 nż
-1438	4	214019	23:16:00	23:16:00		Tajęcina Goodrich / OPTeam 01 nż
-1438	4	214019	23:17:00	23:17:00		Tajęcina MTU Aero Engines 05 nż
-1438	4	214019	23:19:00	23:19:00		Jasionka PCN Łukasiewicz 14 nż
-1438	4	214019	23:20:00	23:20:00		Jasionka - Port Lotniczy
-1438	4	214019	23:21:00	23:21:00		Jasionka Port Lotniczy CWK 05 nż
-1438	4	214019	23:23:00	23:23:00		Jasionka Borg 07 nż
-1438	4	214019	23:25:00	23:25:00		Jasionka przedszkole ochronka 09 nż
-1438	4	214019	23:26:00	23:26:00		Jasionka Aeroklub 11 nż
-1438	4	214019	23:28:00	23:28:00		Nowa Wieś Port Lotniczy 72 nż
-1438	4	214019	23:29:00	23:29:00		Nowa Wieś 74 nż
-1438	4	214019	23:30:00	23:30:00		Trzebownisko pływalnia 52 nż
-1438	4	214019	23:31:00	23:31:00		Trzebownisko mleczarnia 54 nż
-1438	4	214019	23:33:00	23:33:00		Trzebownisko 56 nż
-1438	4	214019	23:34:00	23:34:00		Lubelska granica 15 nż
-1438	4	214019	23:35:00	23:35:00		Lubelska MPK 13 nż
-1438	4	214019	23:36:00	23:36:00		Lubelska Ogrody Hiszpańskie 11 nż
-1438	4	214019	23:37:00	23:37:00		Lubelska Os. Ogrody 09 nż
-1438	4	214019	23:38:00	23:38:00		Lubelska / Borowa 07 nż
-1438	4	214019	23:39:00	23:39:00		Lubelska kościół 05 nż
-1438	4	214019	23:40:00	23:40:00		Lubelska szpital 01
-1438	4	214019	23:41:00	23:41:00		Marszałkowska 01
-1438	4	214019	23:43:00	23:43:00		Piłsudskiego U. Wojewódzki 05
-1438	4	214019	23:46:00	23:46:00		Bardowskiego 04
+1438	2	220131	23:14:00	23:14:00		Jasionka EME Aero 01
+1438	2	220131	23:15:00	23:15:00		Tajęcina Aero 15 nż
+1438	2	220131	23:16:00	23:16:00		Tajęcina Goodrich / OPTeam 01 nż
+1438	2	220131	23:17:00	23:17:00		Tajęcina MTU Aero Engines 05 nż
+1438	2	220131	23:19:00	23:19:00		Jasionka PCN Łukasiewicz 14 nż
+1438	2	220131	23:20:00	23:20:00		Jasionka - Port Lotniczy
+1438	2	220131	23:21:00	23:21:00		Jasionka Port Lotniczy CWK 05 nż
+1438	2	220131	23:23:00	23:23:00		Jasionka Borg 07 nż
+1438	2	220131	23:25:00	23:25:00		Jasionka przedszkole ochronka 09 nż
+1438	2	220131	23:26:00	23:26:00		Jasionka Aeroklub 11 nż
+1438	2	220131	23:28:00	23:28:00		Nowa Wieś Port Lotniczy 72 nż
+1438	2	220131	23:29:00	23:29:00		Nowa Wieś 74 nż
+1438	2	220131	23:30:00	23:30:00		Trzebownisko pływalnia 52 nż
+1438	2	220131	23:31:00	23:31:00		Trzebownisko mleczarnia 54 nż
+1438	2	220131	23:33:00	23:33:00		Trzebownisko 56 nż
+1438	2	220131	23:34:00	23:34:00		Lubelska granica 15 nż
+1438	2	220131	23:35:00	23:35:00		Lubelska MPK 13 nż
+1438	2	220131	23:36:00	23:36:00		Lubelska Ogrody Hiszpańskie 11 nż
+1438	2	220131	23:37:00	23:37:00		Lubelska Os. Ogrody 09 nż
+1438	2	220131	23:38:00	23:38:00		Lubelska / Borowa 07 nż
+1438	2	220131	23:39:00	23:39:00		Lubelska kościół 05 nż
+1438	2	220131	23:40:00	23:40:00		Lubelska szpital 01
+1438	2	220131	23:41:00	23:41:00		Marszałkowska 01
+1438	2	220131	23:43:00	23:43:00		Piłsudskiego U. Wojewódzki 05
+1438	2	220131	23:46:00	23:46:00		Bardowskiego 04

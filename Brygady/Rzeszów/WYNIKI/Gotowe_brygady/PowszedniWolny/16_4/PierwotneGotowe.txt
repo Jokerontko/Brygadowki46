@@ -1,611 +1,611 @@
 route_id	service_id	trip_id	arrival_time	departure_time	stop_headsign	stop_name
 -------------------------------------------------------------------------------
-1865	4	215800	06:19:00	06:19:00		Lubelska Zajezdnia MPK
-1865	4	215800	06:20:00	06:20:00		Lubelska MPK 13 nż
-1865	4	215800	06:21:00	06:21:00		Lubelska Ogrody Hiszpańskie 11 nż
-1865	4	215800	06:22:00	06:22:00		Lubelska Os. Ogrody 09 nż
-1865	4	215800	06:23:00	06:23:00		Krogulskiego / Gromskiego 02 nż
-1865	4	215800	06:24:00	06:24:00		Borowa 02 nż
-1865	4	215800	06:25:00	06:25:00		Borowa / Żywiczna 04 nż
-1865	4	215800	06:27:00	06:27:00		Warszawska / Borowa 07 nż
-1865	4	215800	06:29:00	06:29:00		Warszawska / Staromiejska 05 nż
-1865	4	215800	06:30:00	06:30:00		Warszawska ZS. Samoch. 03 nż
-1865	4	215800	06:31:00	06:31:00		Warszawska / Wyzwolenia 01 nż
-1865	4	215800	06:33:00	06:33:00		Marszałkowska 01
-1865	4	215800	06:37:00	06:37:00		Piłsudskiego U. Wojewódzki 05
-1865	4	215800	06:38:00	06:38:00		Pl. Wolności 03
-1865	4	215800	06:39:00	06:39:00		Piłsudskiego ZDZ 01 nż
-1865	4	215800	06:41:00	06:41:00		Lwowska jedn. wojskowa 02
-1865	4	215800	06:42:00	06:42:00		Lwowska cmentarz 04
-1865	4	215800	06:43:00	06:43:00		Lwowska szpital 06
-1865	4	215800	06:45:00	06:45:00		Lwowska / Olbrachta 08 nż
-1865	4	215800	06:46:00	06:46:00		Lwowska / Kr. Marysieńki 10 nż
-1865	4	215800	06:47:00	06:47:00		Lwowska granica 12 nż
-1865	4	215800	06:49:00	06:49:00		Krasne Auchan 01
+1865	2	215800	06:19:00	06:19:00		Lubelska Zajezdnia MPK
+1865	2	215800	06:20:00	06:20:00		Lubelska MPK 13 nż
+1865	2	215800	06:21:00	06:21:00		Lubelska Ogrody Hiszpańskie 11 nż
+1865	2	215800	06:22:00	06:22:00		Lubelska Os. Ogrody 09 nż
+1865	2	215800	06:23:00	06:23:00		Krogulskiego / Gromskiego 02 nż
+1865	2	215800	06:24:00	06:24:00		Borowa 02 nż
+1865	2	215800	06:25:00	06:25:00		Borowa / Żywiczna 04 nż
+1865	2	215800	06:27:00	06:27:00		Warszawska / Borowa 07 nż
+1865	2	215800	06:29:00	06:29:00		Warszawska / Staromiejska 05 nż
+1865	2	215800	06:30:00	06:30:00		Warszawska ZS. Samoch. 03 nż
+1865	2	215800	06:31:00	06:31:00		Warszawska / Wyzwolenia 01 nż
+1865	2	215800	06:33:00	06:33:00		Marszałkowska 01
+1865	2	215800	06:37:00	06:37:00		Piłsudskiego U. Wojewódzki 05
+1865	2	215800	06:38:00	06:38:00		Pl. Wolności 03
+1865	2	215800	06:39:00	06:39:00		Piłsudskiego ZDZ 01 nż
+1865	2	215800	06:41:00	06:41:00		Lwowska jedn. wojskowa 02
+1865	2	215800	06:42:00	06:42:00		Lwowska cmentarz 04
+1865	2	215800	06:43:00	06:43:00		Lwowska szpital 06
+1865	2	215800	06:45:00	06:45:00		Lwowska / Olbrachta 08 nż
+1865	2	215800	06:46:00	06:46:00		Lwowska / Kr. Marysieńki 10 nż
+1865	2	215800	06:47:00	06:47:00		Lwowska granica 12 nż
+1865	2	215800	06:49:00	06:49:00		Krasne Auchan 01
 
-1866	4	214121	06:58:00	06:58:00		Krasne Auchan 01
-1866	4	214121	07:02:00	07:02:00		Lwowska granica 11 nż
-1866	4	214121	07:03:00	07:03:00		Lwowska / Bałtycka 09 nż
-1866	4	214121	07:05:00	07:05:00		Lwowska / Cienista 07 nż
-1866	4	214121	07:07:00	07:07:00		Lwowska szpital 05
-1866	4	214121	07:10:00	07:10:00		Lwowska cmentarz 03
-1866	4	214121	07:11:00	07:11:00		Lwowska jedn. wojskowa 01
-1866	4	214121	07:13:00	07:13:00		Piłsudskiego ZDZ 02
-1866	4	214121	07:15:00	07:15:00		Pl. Wolności 04
-1866	4	214121	07:16:00	07:16:00		Piłsudskiego U. Wojewódzki 06
-1866	4	214121	07:19:00	07:19:00		Marszałkowska 02
-1866	4	214121	07:20:00	07:20:00		Warszawska / Wyzwolenia 02 nż
-1866	4	214121	07:21:00	07:21:00		Warszawska ZS. Samoch. 04 nż
-1866	4	214121	07:22:00	07:22:00		Warszawska / Staromiejska 06 nż
-1866	4	214121	07:24:00	07:24:00		Warszawska / Borowa 08 nż
-1866	4	214121	07:25:00	07:25:00		Borowa 01 nż
-1866	4	214121	07:27:00	07:27:00		Krogulskiego / Welca 03 nż
-1866	4	214121	07:28:00	07:28:00		Krogulskiego / Gromskiego 01 nż
-1866	4	214121	07:29:00	07:29:00		Lubelska Os. Ogrody 10 nż
-1866	4	214121	07:30:00	07:30:00		Lubelska Ogrody Hiszpańskie 12 nż
-1866	4	214121	07:31:00	07:31:00		Lubelska MPK 14 nż
-1866	4	214121	07:32:00	07:32:00		Lubelska Zajezdnia MPK
+1866	2	214121	06:58:00	06:58:00		Krasne Auchan 01
+1866	2	214121	07:02:00	07:02:00		Lwowska granica 11 nż
+1866	2	214121	07:03:00	07:03:00		Lwowska / Bałtycka 09 nż
+1866	2	214121	07:05:00	07:05:00		Lwowska / Cienista 07 nż
+1866	2	214121	07:07:00	07:07:00		Lwowska szpital 05
+1866	2	214121	07:10:00	07:10:00		Lwowska cmentarz 03
+1866	2	214121	07:11:00	07:11:00		Lwowska jedn. wojskowa 01
+1866	2	214121	07:13:00	07:13:00		Piłsudskiego ZDZ 02
+1866	2	214121	07:15:00	07:15:00		Pl. Wolności 04
+1866	2	214121	07:16:00	07:16:00		Piłsudskiego U. Wojewódzki 06
+1866	2	214121	07:19:00	07:19:00		Marszałkowska 02
+1866	2	214121	07:20:00	07:20:00		Warszawska / Wyzwolenia 02 nż
+1866	2	214121	07:21:00	07:21:00		Warszawska ZS. Samoch. 04 nż
+1866	2	214121	07:22:00	07:22:00		Warszawska / Staromiejska 06 nż
+1866	2	214121	07:24:00	07:24:00		Warszawska / Borowa 08 nż
+1866	2	214121	07:25:00	07:25:00		Borowa 01 nż
+1866	2	214121	07:27:00	07:27:00		Krogulskiego / Welca 03 nż
+1866	2	214121	07:28:00	07:28:00		Krogulskiego / Gromskiego 01 nż
+1866	2	214121	07:29:00	07:29:00		Lubelska Os. Ogrody 10 nż
+1866	2	214121	07:30:00	07:30:00		Lubelska Ogrody Hiszpańskie 12 nż
+1866	2	214121	07:31:00	07:31:00		Lubelska MPK 14 nż
+1866	2	214121	07:32:00	07:32:00		Lubelska Zajezdnia MPK
 
-1865	4	212018	07:49:00	07:49:00		Lubelska Zajezdnia MPK
-1865	4	212018	07:50:00	07:50:00		Lubelska MPK 13 nż
-1865	4	212018	07:51:00	07:51:00		Lubelska Ogrody Hiszpańskie 11 nż
-1865	4	212018	07:52:00	07:52:00		Lubelska Os. Ogrody 09 nż
-1865	4	212018	07:53:00	07:53:00		Krogulskiego / Gromskiego 02 nż
-1865	4	212018	07:54:00	07:54:00		Borowa 02 nż
-1865	4	212018	07:55:00	07:55:00		Borowa / Żywiczna 04 nż
-1865	4	212018	07:57:00	07:57:00		Warszawska / Borowa 07 nż
-1865	4	212018	07:59:00	07:59:00		Warszawska / Staromiejska 05 nż
-1865	4	212018	08:00:00	08:00:00		Warszawska ZS. Samoch. 03 nż
-1865	4	212018	08:01:00	08:01:00		Warszawska / Wyzwolenia 01 nż
-1865	4	212018	08:03:00	08:03:00		Marszałkowska 01
-1865	4	212018	08:07:00	08:07:00		Piłsudskiego U. Wojewódzki 05
-1865	4	212018	08:08:00	08:08:00		Pl. Wolności 03
-1865	4	212018	08:09:00	08:09:00		Piłsudskiego ZDZ 01 nż
-1865	4	212018	08:11:00	08:11:00		Lwowska jedn. wojskowa 02
-1865	4	212018	08:12:00	08:12:00		Lwowska cmentarz 04
-1865	4	212018	08:13:00	08:13:00		Lwowska szpital 06
-1865	4	212018	08:15:00	08:15:00		Lwowska / Olbrachta 08 nż
-1865	4	212018	08:16:00	08:16:00		Lwowska / Kr. Marysieńki 10 nż
-1865	4	212018	08:17:00	08:17:00		Lwowska granica 12 nż
-1865	4	212018	08:19:00	08:19:00		Krasne Auchan 01
+1865	2	212018	07:49:00	07:49:00		Lubelska Zajezdnia MPK
+1865	2	212018	07:50:00	07:50:00		Lubelska MPK 13 nż
+1865	2	212018	07:51:00	07:51:00		Lubelska Ogrody Hiszpańskie 11 nż
+1865	2	212018	07:52:00	07:52:00		Lubelska Os. Ogrody 09 nż
+1865	2	212018	07:53:00	07:53:00		Krogulskiego / Gromskiego 02 nż
+1865	2	212018	07:54:00	07:54:00		Borowa 02 nż
+1865	2	212018	07:55:00	07:55:00		Borowa / Żywiczna 04 nż
+1865	2	212018	07:57:00	07:57:00		Warszawska / Borowa 07 nż
+1865	2	212018	07:59:00	07:59:00		Warszawska / Staromiejska 05 nż
+1865	2	212018	08:00:00	08:00:00		Warszawska ZS. Samoch. 03 nż
+1865	2	212018	08:01:00	08:01:00		Warszawska / Wyzwolenia 01 nż
+1865	2	212018	08:03:00	08:03:00		Marszałkowska 01
+1865	2	212018	08:07:00	08:07:00		Piłsudskiego U. Wojewódzki 05
+1865	2	212018	08:08:00	08:08:00		Pl. Wolności 03
+1865	2	212018	08:09:00	08:09:00		Piłsudskiego ZDZ 01 nż
+1865	2	212018	08:11:00	08:11:00		Lwowska jedn. wojskowa 02
+1865	2	212018	08:12:00	08:12:00		Lwowska cmentarz 04
+1865	2	212018	08:13:00	08:13:00		Lwowska szpital 06
+1865	2	212018	08:15:00	08:15:00		Lwowska / Olbrachta 08 nż
+1865	2	212018	08:16:00	08:16:00		Lwowska / Kr. Marysieńki 10 nż
+1865	2	212018	08:17:00	08:17:00		Lwowska granica 12 nż
+1865	2	212018	08:19:00	08:19:00		Krasne Auchan 01
 
-1866	4	213618	08:29:00	08:29:00		Krasne Auchan 01
-1866	4	213618	08:33:00	08:33:00		Lwowska granica 11 nż
-1866	4	213618	08:34:00	08:34:00		Lwowska / Bałtycka 09 nż
-1866	4	213618	08:36:00	08:36:00		Lwowska / Cienista 07 nż
-1866	4	213618	08:38:00	08:38:00		Lwowska szpital 05
-1866	4	213618	08:40:00	08:40:00		Lwowska cmentarz 03
-1866	4	213618	08:41:00	08:41:00		Lwowska jedn. wojskowa 01
-1866	4	213618	08:43:00	08:43:00		Piłsudskiego ZDZ 02
-1866	4	213618	08:45:00	08:45:00		Pl. Wolności 04
-1866	4	213618	08:46:00	08:46:00		Piłsudskiego U. Wojewódzki 06
-1866	4	213618	08:49:00	08:49:00		Marszałkowska 02
-1866	4	213618	08:50:00	08:50:00		Warszawska / Wyzwolenia 02 nż
-1866	4	213618	08:51:00	08:51:00		Warszawska ZS. Samoch. 04 nż
-1866	4	213618	08:52:00	08:52:00		Warszawska / Staromiejska 06 nż
-1866	4	213618	08:54:00	08:54:00		Warszawska / Borowa 08 nż
-1866	4	213618	08:55:00	08:55:00		Borowa 01 nż
-1866	4	213618	08:57:00	08:57:00		Krogulskiego / Welca 03 nż
-1866	4	213618	08:58:00	08:58:00		Krogulskiego / Gromskiego 01 nż
-1866	4	213618	08:59:00	08:59:00		Lubelska Os. Ogrody 10 nż
-1866	4	213618	09:00:00	09:00:00		Lubelska Ogrody Hiszpańskie 12 nż
-1866	4	213618	09:01:00	09:01:00		Lubelska MPK 14 nż
-1866	4	213618	09:02:00	09:02:00		Lubelska Zajezdnia MPK
+1866	2	213618	08:29:00	08:29:00		Krasne Auchan 01
+1866	2	213618	08:33:00	08:33:00		Lwowska granica 11 nż
+1866	2	213618	08:34:00	08:34:00		Lwowska / Bałtycka 09 nż
+1866	2	213618	08:36:00	08:36:00		Lwowska / Cienista 07 nż
+1866	2	213618	08:38:00	08:38:00		Lwowska szpital 05
+1866	2	213618	08:40:00	08:40:00		Lwowska cmentarz 03
+1866	2	213618	08:41:00	08:41:00		Lwowska jedn. wojskowa 01
+1866	2	213618	08:43:00	08:43:00		Piłsudskiego ZDZ 02
+1866	2	213618	08:45:00	08:45:00		Pl. Wolności 04
+1866	2	213618	08:46:00	08:46:00		Piłsudskiego U. Wojewódzki 06
+1866	2	213618	08:49:00	08:49:00		Marszałkowska 02
+1866	2	213618	08:50:00	08:50:00		Warszawska / Wyzwolenia 02 nż
+1866	2	213618	08:51:00	08:51:00		Warszawska ZS. Samoch. 04 nż
+1866	2	213618	08:52:00	08:52:00		Warszawska / Staromiejska 06 nż
+1866	2	213618	08:54:00	08:54:00		Warszawska / Borowa 08 nż
+1866	2	213618	08:55:00	08:55:00		Borowa 01 nż
+1866	2	213618	08:57:00	08:57:00		Krogulskiego / Welca 03 nż
+1866	2	213618	08:58:00	08:58:00		Krogulskiego / Gromskiego 01 nż
+1866	2	213618	08:59:00	08:59:00		Lubelska Os. Ogrody 10 nż
+1866	2	213618	09:00:00	09:00:00		Lubelska Ogrody Hiszpańskie 12 nż
+1866	2	213618	09:01:00	09:01:00		Lubelska MPK 14 nż
+1866	2	213618	09:02:00	09:02:00		Lubelska Zajezdnia MPK
 
-1967	4	215563	09:19:00	09:19:00		Lubelska Zajezdnia MPK
-1967	4	215563	09:20:00	09:20:00		Lubelska MPK 13 nż
-1967	4	215563	09:21:00	09:21:00		Lubelska Ogrody Hiszpańskie 11 nż
-1967	4	215563	09:22:00	09:22:00		Lubelska Os. Ogrody 09 nż
-1967	4	215563	09:23:00	09:23:00		Krogulskiego / Gromskiego 02 nż
-1967	4	215563	09:24:00	09:24:00		Borowa 02 nż
-1967	4	215563	09:25:00	09:25:00		Borowa / Żywiczna 04 nż
-1967	4	215563	09:27:00	09:27:00		Warszawska / Borowa 07 nż
-1967	4	215563	09:29:00	09:29:00		Warszawska / Staromiejska 05 nż
-1967	4	215563	09:30:00	09:30:00		Warszawska ZS. Samoch. 03 nż
-1967	4	215563	09:31:00	09:31:00		Warszawska / Wyzwolenia 01 nż
-1967	4	215563	09:33:00	09:33:00		Marszałkowska 01
-1967	4	215563	09:37:00	09:37:00		Piłsudskiego U. Wojewódzki 05
-1967	4	215563	09:38:00	09:38:00		Pl. Wolności 03
-1967	4	215563	09:39:00	09:39:00		Piłsudskiego ZDZ 01 nż
-1967	4	215563	09:41:00	09:41:00		Lwowska jedn. wojskowa 02
-1967	4	215563	09:42:00	09:42:00		Lwowska cmentarz 04
-1967	4	215563	09:44:00	09:44:00		Lwowska szpital 06
-1967	4	215563	09:46:00	09:46:00		Cienista / Lwowska 02 nż
-1967	4	215563	09:47:00	09:47:00		Cienista cmentarz 04
-1967	4	215563	09:48:00	09:48:00		Lwowska / Olbrachta 08 nż
-1967	4	215563	09:49:00	09:49:00		Lwowska / Kr. Marysieńki 10 nż
-1967	4	215563	09:50:00	09:50:00		Lwowska granica 12 nż
-1967	4	215563	09:52:00	09:52:00		Krasne Auchan 01
+1967	2	215563	09:19:00	09:19:00		Lubelska Zajezdnia MPK
+1967	2	215563	09:20:00	09:20:00		Lubelska MPK 13 nż
+1967	2	215563	09:21:00	09:21:00		Lubelska Ogrody Hiszpańskie 11 nż
+1967	2	215563	09:22:00	09:22:00		Lubelska Os. Ogrody 09 nż
+1967	2	215563	09:23:00	09:23:00		Krogulskiego / Gromskiego 02 nż
+1967	2	215563	09:24:00	09:24:00		Borowa 02 nż
+1967	2	215563	09:25:00	09:25:00		Borowa / Żywiczna 04 nż
+1967	2	215563	09:27:00	09:27:00		Warszawska / Borowa 07 nż
+1967	2	215563	09:29:00	09:29:00		Warszawska / Staromiejska 05 nż
+1967	2	215563	09:30:00	09:30:00		Warszawska ZS. Samoch. 03 nż
+1967	2	215563	09:31:00	09:31:00		Warszawska / Wyzwolenia 01 nż
+1967	2	215563	09:33:00	09:33:00		Marszałkowska 01
+1967	2	215563	09:37:00	09:37:00		Piłsudskiego U. Wojewódzki 05
+1967	2	215563	09:38:00	09:38:00		Pl. Wolności 03
+1967	2	215563	09:39:00	09:39:00		Piłsudskiego ZDZ 01 nż
+1967	2	215563	09:41:00	09:41:00		Lwowska jedn. wojskowa 02
+1967	2	215563	09:42:00	09:42:00		Lwowska cmentarz 04
+1967	2	215563	09:44:00	09:44:00		Lwowska szpital 06
+1967	2	215563	09:46:00	09:46:00		Cienista / Lwowska 02 nż
+1967	2	215563	09:47:00	09:47:00		Cienista cmentarz 04
+1967	2	215563	09:48:00	09:48:00		Lwowska / Olbrachta 08 nż
+1967	2	215563	09:49:00	09:49:00		Lwowska / Kr. Marysieńki 10 nż
+1967	2	215563	09:50:00	09:50:00		Lwowska granica 12 nż
+1967	2	215563	09:52:00	09:52:00		Krasne Auchan 01
 
-1871	4	209634	09:58:00	09:58:00		Krasne Auchan 01
-1871	4	209634	10:02:00	10:02:00		Lwowska granica 11 nż
-1871	4	209634	10:03:00	10:03:00		Lwowska / Bałtycka 09 nż
-1871	4	209634	10:04:00	10:04:00		Cienista / Lwowska 02 nż
-1871	4	209634	10:05:00	10:05:00		Cienista cmentarz 01
-1871	4	209634	10:06:00	10:06:00		Lwowska / Cienista 07 nż
-1871	4	209634	10:08:00	10:08:00		Lwowska szpital 05
-1871	4	209634	10:10:00	10:10:00		Lwowska cmentarz 03
-1871	4	209634	10:11:00	10:11:00		Lwowska jedn. wojskowa 01
-1871	4	209634	10:13:00	10:13:00		Piłsudskiego ZDZ 02
-1871	4	209634	10:15:00	10:15:00		Pl. Wolności 04
-1871	4	209634	10:16:00	10:16:00		Piłsudskiego U. Wojewódzki 06
-1871	4	209634	10:19:00	10:19:00		Marszałkowska 02
-1871	4	209634	10:20:00	10:20:00		Warszawska / Wyzwolenia 02 nż
-1871	4	209634	10:21:00	10:21:00		Warszawska ZS. Samoch. 04 nż
-1871	4	209634	10:22:00	10:22:00		Warszawska / Staromiejska 06 nż
-1871	4	209634	10:24:00	10:24:00		Warszawska / Borowa 08 nż
-1871	4	209634	10:25:00	10:25:00		Borowa 01 nż
-1871	4	209634	10:27:00	10:27:00		Krogulskiego / Welca 03 nż
-1871	4	209634	10:28:00	10:28:00		Krogulskiego / Gromskiego 01 nż
-1871	4	209634	10:29:00	10:29:00		Lubelska Os. Ogrody 10 nż
-1871	4	209634	10:30:00	10:30:00		Lubelska Ogrody Hiszpańskie 12 nż
-1871	4	209634	10:31:00	10:31:00		Lubelska MPK 14 nż
-1871	4	209634	10:32:00	10:32:00		Lubelska Zajezdnia MPK
+1871	2	209634	09:58:00	09:58:00		Krasne Auchan 01
+1871	2	209634	10:02:00	10:02:00		Lwowska granica 11 nż
+1871	2	209634	10:03:00	10:03:00		Lwowska / Bałtycka 09 nż
+1871	2	209634	10:04:00	10:04:00		Cienista / Lwowska 02 nż
+1871	2	209634	10:05:00	10:05:00		Cienista cmentarz 01
+1871	2	209634	10:06:00	10:06:00		Lwowska / Cienista 07 nż
+1871	2	209634	10:08:00	10:08:00		Lwowska szpital 05
+1871	2	209634	10:10:00	10:10:00		Lwowska cmentarz 03
+1871	2	209634	10:11:00	10:11:00		Lwowska jedn. wojskowa 01
+1871	2	209634	10:13:00	10:13:00		Piłsudskiego ZDZ 02
+1871	2	209634	10:15:00	10:15:00		Pl. Wolności 04
+1871	2	209634	10:16:00	10:16:00		Piłsudskiego U. Wojewódzki 06
+1871	2	209634	10:19:00	10:19:00		Marszałkowska 02
+1871	2	209634	10:20:00	10:20:00		Warszawska / Wyzwolenia 02 nż
+1871	2	209634	10:21:00	10:21:00		Warszawska ZS. Samoch. 04 nż
+1871	2	209634	10:22:00	10:22:00		Warszawska / Staromiejska 06 nż
+1871	2	209634	10:24:00	10:24:00		Warszawska / Borowa 08 nż
+1871	2	209634	10:25:00	10:25:00		Borowa 01 nż
+1871	2	209634	10:27:00	10:27:00		Krogulskiego / Welca 03 nż
+1871	2	209634	10:28:00	10:28:00		Krogulskiego / Gromskiego 01 nż
+1871	2	209634	10:29:00	10:29:00		Lubelska Os. Ogrody 10 nż
+1871	2	209634	10:30:00	10:30:00		Lubelska Ogrody Hiszpańskie 12 nż
+1871	2	209634	10:31:00	10:31:00		Lubelska MPK 14 nż
+1871	2	209634	10:32:00	10:32:00		Lubelska Zajezdnia MPK
 
-1967	4	209696	10:49:00	10:49:00		Lubelska Zajezdnia MPK
-1967	4	209696	10:50:00	10:50:00		Lubelska MPK 13 nż
-1967	4	209696	10:51:00	10:51:00		Lubelska Ogrody Hiszpańskie 11 nż
-1967	4	209696	10:52:00	10:52:00		Lubelska Os. Ogrody 09 nż
-1967	4	209696	10:53:00	10:53:00		Krogulskiego / Gromskiego 02 nż
-1967	4	209696	10:54:00	10:54:00		Borowa 02 nż
-1967	4	209696	10:55:00	10:55:00		Borowa / Żywiczna 04 nż
-1967	4	209696	10:57:00	10:57:00		Warszawska / Borowa 07 nż
-1967	4	209696	10:59:00	10:59:00		Warszawska / Staromiejska 05 nż
-1967	4	209696	11:00:00	11:00:00		Warszawska ZS. Samoch. 03 nż
-1967	4	209696	11:01:00	11:01:00		Warszawska / Wyzwolenia 01 nż
-1967	4	209696	11:03:00	11:03:00		Marszałkowska 01
-1967	4	209696	11:07:00	11:07:00		Piłsudskiego U. Wojewódzki 05
-1967	4	209696	11:08:00	11:08:00		Pl. Wolności 03
-1967	4	209696	11:09:00	11:09:00		Piłsudskiego ZDZ 01 nż
-1967	4	209696	11:11:00	11:11:00		Lwowska jedn. wojskowa 02
-1967	4	209696	11:12:00	11:12:00		Lwowska cmentarz 04
-1967	4	209696	11:14:00	11:14:00		Lwowska szpital 06
-1967	4	209696	11:16:00	11:16:00		Cienista / Lwowska 02 nż
-1967	4	209696	11:17:00	11:17:00		Cienista cmentarz 04
-1967	4	209696	11:18:00	11:18:00		Lwowska / Olbrachta 08 nż
-1967	4	209696	11:19:00	11:19:00		Lwowska / Kr. Marysieńki 10 nż
-1967	4	209696	11:20:00	11:20:00		Lwowska granica 12 nż
-1967	4	209696	11:22:00	11:22:00		Krasne Auchan 01
+1967	2	209696	10:49:00	10:49:00		Lubelska Zajezdnia MPK
+1967	2	209696	10:50:00	10:50:00		Lubelska MPK 13 nż
+1967	2	209696	10:51:00	10:51:00		Lubelska Ogrody Hiszpańskie 11 nż
+1967	2	209696	10:52:00	10:52:00		Lubelska Os. Ogrody 09 nż
+1967	2	209696	10:53:00	10:53:00		Krogulskiego / Gromskiego 02 nż
+1967	2	209696	10:54:00	10:54:00		Borowa 02 nż
+1967	2	209696	10:55:00	10:55:00		Borowa / Żywiczna 04 nż
+1967	2	209696	10:57:00	10:57:00		Warszawska / Borowa 07 nż
+1967	2	209696	10:59:00	10:59:00		Warszawska / Staromiejska 05 nż
+1967	2	209696	11:00:00	11:00:00		Warszawska ZS. Samoch. 03 nż
+1967	2	209696	11:01:00	11:01:00		Warszawska / Wyzwolenia 01 nż
+1967	2	209696	11:03:00	11:03:00		Marszałkowska 01
+1967	2	209696	11:07:00	11:07:00		Piłsudskiego U. Wojewódzki 05
+1967	2	209696	11:08:00	11:08:00		Pl. Wolności 03
+1967	2	209696	11:09:00	11:09:00		Piłsudskiego ZDZ 01 nż
+1967	2	209696	11:11:00	11:11:00		Lwowska jedn. wojskowa 02
+1967	2	209696	11:12:00	11:12:00		Lwowska cmentarz 04
+1967	2	209696	11:14:00	11:14:00		Lwowska szpital 06
+1967	2	209696	11:16:00	11:16:00		Cienista / Lwowska 02 nż
+1967	2	209696	11:17:00	11:17:00		Cienista cmentarz 04
+1967	2	209696	11:18:00	11:18:00		Lwowska / Olbrachta 08 nż
+1967	2	209696	11:19:00	11:19:00		Lwowska / Kr. Marysieńki 10 nż
+1967	2	209696	11:20:00	11:20:00		Lwowska granica 12 nż
+1967	2	209696	11:22:00	11:22:00		Krasne Auchan 01
 
-1871	4	211461	11:27:00	11:27:00		Krasne Auchan 01
-1871	4	211461	11:31:00	11:31:00		Lwowska granica 11 nż
-1871	4	211461	11:32:00	11:32:00		Lwowska / Bałtycka 09 nż
-1871	4	211461	11:33:00	11:33:00		Cienista / Lwowska 02 nż
-1871	4	211461	11:34:00	11:34:00		Cienista cmentarz 01
-1871	4	211461	11:35:00	11:35:00		Lwowska / Cienista 07 nż
-1871	4	211461	11:37:00	11:37:00		Lwowska szpital 05
-1871	4	211461	11:40:00	11:40:00		Lwowska cmentarz 03
-1871	4	211461	11:41:00	11:41:00		Lwowska jedn. wojskowa 01
-1871	4	211461	11:43:00	11:43:00		Piłsudskiego ZDZ 02
-1871	4	211461	11:45:00	11:45:00		Pl. Wolności 04
-1871	4	211461	11:46:00	11:46:00		Piłsudskiego U. Wojewódzki 06
-1871	4	211461	11:50:00	11:50:00		Marszałkowska 02
-1871	4	211461	11:51:00	11:51:00		Warszawska / Wyzwolenia 02 nż
-1871	4	211461	11:52:00	11:52:00		Warszawska ZS. Samoch. 04 nż
-1871	4	211461	11:53:00	11:53:00		Warszawska / Staromiejska 06 nż
-1871	4	211461	11:55:00	11:55:00		Warszawska / Borowa 08 nż
-1871	4	211461	11:56:00	11:56:00		Borowa 01 nż
-1871	4	211461	11:58:00	11:58:00		Krogulskiego / Welca 03 nż
-1871	4	211461	11:59:00	11:59:00		Krogulskiego / Gromskiego 01 nż
-1871	4	211461	12:00:00	12:00:00		Lubelska Os. Ogrody 10 nż
-1871	4	211461	12:01:00	12:01:00		Lubelska Ogrody Hiszpańskie 12 nż
-1871	4	211461	12:02:00	12:02:00		Lubelska MPK 14 nż
-1871	4	211461	12:03:00	12:03:00		Lubelska Zajezdnia MPK
+1871	2	211461	11:27:00	11:27:00		Krasne Auchan 01
+1871	2	211461	11:31:00	11:31:00		Lwowska granica 11 nż
+1871	2	211461	11:32:00	11:32:00		Lwowska / Bałtycka 09 nż
+1871	2	211461	11:33:00	11:33:00		Cienista / Lwowska 02 nż
+1871	2	211461	11:34:00	11:34:00		Cienista cmentarz 01
+1871	2	211461	11:35:00	11:35:00		Lwowska / Cienista 07 nż
+1871	2	211461	11:37:00	11:37:00		Lwowska szpital 05
+1871	2	211461	11:40:00	11:40:00		Lwowska cmentarz 03
+1871	2	211461	11:41:00	11:41:00		Lwowska jedn. wojskowa 01
+1871	2	211461	11:43:00	11:43:00		Piłsudskiego ZDZ 02
+1871	2	211461	11:45:00	11:45:00		Pl. Wolności 04
+1871	2	211461	11:46:00	11:46:00		Piłsudskiego U. Wojewódzki 06
+1871	2	211461	11:50:00	11:50:00		Marszałkowska 02
+1871	2	211461	11:51:00	11:51:00		Warszawska / Wyzwolenia 02 nż
+1871	2	211461	11:52:00	11:52:00		Warszawska ZS. Samoch. 04 nż
+1871	2	211461	11:53:00	11:53:00		Warszawska / Staromiejska 06 nż
+1871	2	211461	11:55:00	11:55:00		Warszawska / Borowa 08 nż
+1871	2	211461	11:56:00	11:56:00		Borowa 01 nż
+1871	2	211461	11:58:00	11:58:00		Krogulskiego / Welca 03 nż
+1871	2	211461	11:59:00	11:59:00		Krogulskiego / Gromskiego 01 nż
+1871	2	211461	12:00:00	12:00:00		Lubelska Os. Ogrody 10 nż
+1871	2	211461	12:01:00	12:01:00		Lubelska Ogrody Hiszpańskie 12 nż
+1871	2	211461	12:02:00	12:02:00		Lubelska MPK 14 nż
+1871	2	211461	12:03:00	12:03:00		Lubelska Zajezdnia MPK
 
-1940	4	213833	12:19:00	12:19:00		Lubelska szpital 01
-1940	4	213833	12:21:00	12:21:00		Marszałkowska 01
-1940	4	213833	12:26:00	12:26:00		Piłsudskiego U. Wojewódzki 05
-1940	4	213833	12:27:00	12:27:00		Pl. Wolności 03
-1940	4	213833	12:28:00	12:28:00		Piłsudskiego ZDZ 01 nż
-1940	4	213833	12:30:00	12:30:00		Lwowska jedn. wojskowa 02
-1940	4	213833	12:32:00	12:32:00		Lwowska cmentarz 04
-1940	4	213833	12:34:00	12:34:00		Lwowska szpital 06
-1940	4	213833	12:35:00	12:35:00		Leszka Czarnego / Anny Jagiellonki 02 nż
-1940	4	213833	12:36:00	12:36:00		Leszka Czarnego / Litewska 04 nż
-1940	4	213833	12:37:00	12:37:00		Witolda seminarium 02 nż
-1940	4	213833	12:39:00	12:39:00		Paderewskiego kościół 08
-1940	4	213833	12:40:00	12:40:00		Św. Rocha szkoła 02 nż
-1940	4	213833	12:41:00	12:41:00		Św. Rocha bloki 04 nż
-1940	4	213833	12:42:00	12:42:00		Św. Rocha domki 06 nż
-1940	4	213833	12:43:00	12:43:00		Św. Rocha kapliczka 08 nż
-1940	4	213833	12:44:00	12:44:00		Św. Rocha górka 10 nż
-1940	4	213833	12:45:00	12:45:00		Św. Rocha / Św. Walentego 12 nż
-1940	4	213833	12:47:00	12:47:00		Św. Rocha lasek pętla 11
+1940	2	213833	12:19:00	12:19:00		Lubelska szpital 01
+1940	2	213833	12:21:00	12:21:00		Marszałkowska 01
+1940	2	213833	12:26:00	12:26:00		Piłsudskiego U. Wojewódzki 05
+1940	2	213833	12:27:00	12:27:00		Pl. Wolności 03
+1940	2	213833	12:28:00	12:28:00		Piłsudskiego ZDZ 01 nż
+1940	2	213833	12:30:00	12:30:00		Lwowska jedn. wojskowa 02
+1940	2	213833	12:32:00	12:32:00		Lwowska cmentarz 04
+1940	2	213833	12:34:00	12:34:00		Lwowska szpital 06
+1940	2	213833	12:35:00	12:35:00		Leszka Czarnego / Anny Jagiellonki 02 nż
+1940	2	213833	12:36:00	12:36:00		Leszka Czarnego / Litewska 04 nż
+1940	2	213833	12:37:00	12:37:00		Witolda seminarium 02 nż
+1940	2	213833	12:39:00	12:39:00		Paderewskiego kościół 08
+1940	2	213833	12:40:00	12:40:00		Św. Rocha szkoła 02 nż
+1940	2	213833	12:41:00	12:41:00		Św. Rocha bloki 04 nż
+1940	2	213833	12:42:00	12:42:00		Św. Rocha domki 06 nż
+1940	2	213833	12:43:00	12:43:00		Św. Rocha kapliczka 08 nż
+1940	2	213833	12:44:00	12:44:00		Św. Rocha górka 10 nż
+1940	2	213833	12:45:00	12:45:00		Św. Rocha / Św. Walentego 12 nż
+1940	2	213833	12:47:00	12:47:00		Św. Rocha lasek pętla 11
 
-1929	4	208660	13:13:00	13:13:00		Św. Rocha lasek pętla 11
-1929	4	208660	13:14:00	13:14:00		Św. Rocha górka 09 nż
-1929	4	208660	13:15:00	13:15:00		Św. Rocha kapliczka 07 nż
-1929	4	208660	13:16:00	13:16:00		Św. Rocha domki 05 nż
-1929	4	208660	13:17:00	13:17:00		Św. Rocha bloki 03 nż
-1929	4	208660	13:18:00	13:18:00		Św. Rocha szkoła 01 nż
-1929	4	208660	13:20:00	13:20:00		Paderewskiego kościół 05
-1929	4	208660	13:21:00	13:21:00		Witolda seminarium 01 nż
-1929	4	208660	13:22:00	13:22:00		Leszka Czarnego 01 nż
-1929	4	208660	13:25:00	13:25:00		Lwowska szpital 05
-1929	4	208660	13:28:00	13:28:00		Lwowska cmentarz 03
-1929	4	208660	13:29:00	13:29:00		Lwowska jedn. wojskowa 01
-1929	4	208660	13:31:00	13:31:00		Piłsudskiego ZDZ 02
-1929	4	208660	13:33:00	13:33:00		Pl. Wolności 04
-1929	4	208660	13:34:00	13:34:00		Piłsudskiego U. Wojewódzki 06
-1929	4	208660	13:38:00	13:38:00		Marszałkowska 02
-1929	4	208660	13:39:00	13:39:00		Lubelska szpital 02
-1929	4	208660	13:41:00	13:41:00		Wyzwolenia / Lubelska 02 nż
-1929	4	208660	13:42:00	13:42:00		Wyzwolenia WORD 04 nż
-1929	4	208660	13:43:00	13:43:00		Wyzwolenia / Przy Torze 06 nż
-1929	4	208660	13:44:00	13:44:00		Wyzwolenia / Iranka-Osmeckiego 08
-1929	4	208660	13:45:00	13:45:00		Wyzwolenia / Brydaka 10
-1929	4	208660	13:46:00	13:46:00		Wyzwolenia / Obr. Poczty Gdańskiej 12
-1929	4	208660	13:47:00	13:47:00		Wyzwolenia / Krakowska 14 nż
-1929	4	208660	13:49:00	13:49:00		Dębicka / Krakowska 02 nż
-1929	4	208660	13:50:00	13:50:00		Dębicka kościół 04 nż
-1929	4	208660	13:51:00	13:51:00		Dębicka / Ustrzycka 06 nż
-1929	4	208660	13:52:00	13:52:00		Dębicka dom kultury 08 nż
-1929	4	208660	13:54:00	13:54:00		Dębicka szkoła 10 nż
-1929	4	208660	13:55:00	13:55:00		Dębicka / Stadionowa 12 nż
-1929	4	208660	13:56:00	13:56:00		Dębicka / Złocista 14 nż
-1929	4	208660	13:57:00	13:57:00		Dębicka / Ciche Wzgórze 16 nż
-1929	4	208660	13:58:00	13:58:00		Dębicka / Działowa 18 nż
-1929	4	208660	13:59:00	13:59:00		Dębicka / Leśne Wzgórze 20 nż
-1929	4	208660	14:00:00	14:00:00		Dębicka / Św. Jakuba 22 nż
-1929	4	208660	14:01:00	14:01:00		Kalinowa / Dębicka 02 nż
-1929	4	208660	14:02:00	14:02:00		Kalinowa pętla 04
+1929	2	208660	13:13:00	13:13:00		Św. Rocha lasek pętla 11
+1929	2	208660	13:14:00	13:14:00		Św. Rocha górka 09 nż
+1929	2	208660	13:15:00	13:15:00		Św. Rocha kapliczka 07 nż
+1929	2	208660	13:16:00	13:16:00		Św. Rocha domki 05 nż
+1929	2	208660	13:17:00	13:17:00		Św. Rocha bloki 03 nż
+1929	2	208660	13:18:00	13:18:00		Św. Rocha szkoła 01 nż
+1929	2	208660	13:20:00	13:20:00		Paderewskiego kościół 05
+1929	2	208660	13:21:00	13:21:00		Witolda seminarium 01 nż
+1929	2	208660	13:22:00	13:22:00		Leszka Czarnego 01 nż
+1929	2	208660	13:25:00	13:25:00		Lwowska szpital 05
+1929	2	208660	13:28:00	13:28:00		Lwowska cmentarz 03
+1929	2	208660	13:29:00	13:29:00		Lwowska jedn. wojskowa 01
+1929	2	208660	13:31:00	13:31:00		Piłsudskiego ZDZ 02
+1929	2	208660	13:33:00	13:33:00		Pl. Wolności 04
+1929	2	208660	13:34:00	13:34:00		Piłsudskiego U. Wojewódzki 06
+1929	2	208660	13:38:00	13:38:00		Marszałkowska 02
+1929	2	208660	13:39:00	13:39:00		Lubelska szpital 02
+1929	2	208660	13:41:00	13:41:00		Wyzwolenia / Lubelska 02 nż
+1929	2	208660	13:42:00	13:42:00		Wyzwolenia WORD 04 nż
+1929	2	208660	13:43:00	13:43:00		Wyzwolenia / Przy Torze 06 nż
+1929	2	208660	13:44:00	13:44:00		Wyzwolenia / Iranka-Osmeckiego 08
+1929	2	208660	13:45:00	13:45:00		Wyzwolenia / Brydaka 10
+1929	2	208660	13:46:00	13:46:00		Wyzwolenia / Obr. Poczty Gdańskiej 12
+1929	2	208660	13:47:00	13:47:00		Wyzwolenia / Krakowska 14 nż
+1929	2	208660	13:49:00	13:49:00		Dębicka / Krakowska 02 nż
+1929	2	208660	13:50:00	13:50:00		Dębicka kościół 04 nż
+1929	2	208660	13:51:00	13:51:00		Dębicka / Ustrzycka 06 nż
+1929	2	208660	13:52:00	13:52:00		Dębicka dom kultury 08 nż
+1929	2	208660	13:54:00	13:54:00		Dębicka szkoła 10 nż
+1929	2	208660	13:55:00	13:55:00		Dębicka / Stadionowa 12 nż
+1929	2	208660	13:56:00	13:56:00		Dębicka / Złocista 14 nż
+1929	2	208660	13:57:00	13:57:00		Dębicka / Ciche Wzgórze 16 nż
+1929	2	208660	13:58:00	13:58:00		Dębicka / Działowa 18 nż
+1929	2	208660	13:59:00	13:59:00		Dębicka / Leśne Wzgórze 20 nż
+1929	2	208660	14:00:00	14:00:00		Dębicka / Św. Jakuba 22 nż
+1929	2	208660	14:01:00	14:01:00		Kalinowa / Dębicka 02 nż
+1929	2	208660	14:02:00	14:02:00		Kalinowa pętla 04
 
-1886	4	208925	14:27:00	14:27:00		Kalinowa pętla 04
-1886	4	208925	14:28:00	14:28:00		Kalinowa / Dębicka 01 nż
-1886	4	208925	14:29:00	14:29:00		Dębicka / Św. Jakuba 19 nż
-1886	4	208925	14:31:00	14:31:00		Dębicka / Działowa 17 nż
-1886	4	208925	14:32:00	14:32:00		Dębicka / Ciche Wzgórze 15 nż
-1886	4	208925	14:33:00	14:33:00		Dębicka / Złocista 13 nż
-1886	4	208925	14:34:00	14:34:00		Dębicka / Stadionowa 11 nż
-1886	4	208925	14:35:00	14:35:00		Dębicka szkoła 09 nż
-1886	4	208925	14:36:00	14:36:00		Dębicka dom kultury 07 nż
-1886	4	208925	14:37:00	14:37:00		Dębicka / Ustrzycka 05 nż
-1886	4	208925	14:38:00	14:38:00		Dębicka kościół 03 nż
-1886	4	208925	14:39:00	14:39:00		Dębicka / Krakowska 01 nż
-1886	4	208925	14:41:00	14:41:00		Wyzwolenia / Mikołajczyka 11 nż
-1886	4	208925	14:42:00	14:42:00		Wyzwolenia / Ofiar Katynia 09
-1886	4	208925	14:43:00	14:43:00		Wyzwolenia kościół 07
-1886	4	208925	14:45:00	14:45:00		Wyzwolenia / Okulickiego 05 nż
-1886	4	208925	14:46:00	14:46:00		Wyzwolenia / Ujejskiego 03 nż
-1886	4	208925	14:47:00	14:47:00		Wyzwolenia / Warszawska 01 nż
-1886	4	208925	14:48:00	14:48:00		Lubelska szpital 01
-1886	4	208925	14:50:00	14:50:00		Marszałkowska 01
-1886	4	208925	14:55:00	14:55:00		Piłsudskiego U. Wojewódzki 05
-1886	4	208925	14:57:00	14:57:00		Pl. Wolności 03
-1886	4	208925	14:58:00	14:58:00		Piłsudskiego ZDZ 01 nż
-1886	4	208925	15:01:00	15:01:00		Lwowska jedn. wojskowa 02
-1886	4	208925	15:08:00	15:08:00		Lwowska cmentarz 04
-1886	4	208925	15:12:00	15:12:00		Lwowska szpital 06
-1886	4	208925	15:13:00	15:13:00		Leszka Czarnego / Anny Jagiellonki 02 nż
-1886	4	208925	15:14:00	15:14:00		Leszka Czarnego / Litewska 04 nż
-1886	4	208925	15:15:00	15:15:00		Witolda seminarium 02 nż
-1886	4	208925	15:18:00	15:18:00		Paderewskiego kościół 08
-1886	4	208925	15:20:00	15:20:00		Św. Rocha szkoła 02 nż
-1886	4	208925	15:21:00	15:21:00		Św. Rocha bloki 04 nż
-1886	4	208925	15:22:00	15:22:00		Św. Rocha domki 06 nż
-1886	4	208925	15:23:00	15:23:00		Św. Rocha kapliczka 08 nż
-1886	4	208925	15:24:00	15:24:00		Św. Rocha górka 10 nż
-1886	4	208925	15:25:00	15:25:00		Św. Rocha / Św. Walentego 12 nż
-1886	4	208925	15:27:00	15:27:00		Św. Rocha lasek pętla 11
+1886	2	208925	14:27:00	14:27:00		Kalinowa pętla 04
+1886	2	208925	14:28:00	14:28:00		Kalinowa / Dębicka 01 nż
+1886	2	208925	14:29:00	14:29:00		Dębicka / Św. Jakuba 19 nż
+1886	2	208925	14:31:00	14:31:00		Dębicka / Działowa 17 nż
+1886	2	208925	14:32:00	14:32:00		Dębicka / Ciche Wzgórze 15 nż
+1886	2	208925	14:33:00	14:33:00		Dębicka / Złocista 13 nż
+1886	2	208925	14:34:00	14:34:00		Dębicka / Stadionowa 11 nż
+1886	2	208925	14:35:00	14:35:00		Dębicka szkoła 09 nż
+1886	2	208925	14:36:00	14:36:00		Dębicka dom kultury 07 nż
+1886	2	208925	14:37:00	14:37:00		Dębicka / Ustrzycka 05 nż
+1886	2	208925	14:38:00	14:38:00		Dębicka kościół 03 nż
+1886	2	208925	14:39:00	14:39:00		Dębicka / Krakowska 01 nż
+1886	2	208925	14:41:00	14:41:00		Wyzwolenia / Mikołajczyka 11 nż
+1886	2	208925	14:42:00	14:42:00		Wyzwolenia / Ofiar Katynia 09
+1886	2	208925	14:43:00	14:43:00		Wyzwolenia kościół 07
+1886	2	208925	14:45:00	14:45:00		Wyzwolenia / Okulickiego 05 nż
+1886	2	208925	14:46:00	14:46:00		Wyzwolenia / Ujejskiego 03 nż
+1886	2	208925	14:47:00	14:47:00		Wyzwolenia / Warszawska 01 nż
+1886	2	208925	14:48:00	14:48:00		Lubelska szpital 01
+1886	2	208925	14:50:00	14:50:00		Marszałkowska 01
+1886	2	208925	14:55:00	14:55:00		Piłsudskiego U. Wojewódzki 05
+1886	2	208925	14:57:00	14:57:00		Pl. Wolności 03
+1886	2	208925	14:58:00	14:58:00		Piłsudskiego ZDZ 01 nż
+1886	2	208925	15:01:00	15:01:00		Lwowska jedn. wojskowa 02
+1886	2	208925	15:08:00	15:08:00		Lwowska cmentarz 04
+1886	2	208925	15:12:00	15:12:00		Lwowska szpital 06
+1886	2	208925	15:13:00	15:13:00		Leszka Czarnego / Anny Jagiellonki 02 nż
+1886	2	208925	15:14:00	15:14:00		Leszka Czarnego / Litewska 04 nż
+1886	2	208925	15:15:00	15:15:00		Witolda seminarium 02 nż
+1886	2	208925	15:18:00	15:18:00		Paderewskiego kościół 08
+1886	2	208925	15:20:00	15:20:00		Św. Rocha szkoła 02 nż
+1886	2	208925	15:21:00	15:21:00		Św. Rocha bloki 04 nż
+1886	2	208925	15:22:00	15:22:00		Św. Rocha domki 06 nż
+1886	2	208925	15:23:00	15:23:00		Św. Rocha kapliczka 08 nż
+1886	2	208925	15:24:00	15:24:00		Św. Rocha górka 10 nż
+1886	2	208925	15:25:00	15:25:00		Św. Rocha / Św. Walentego 12 nż
+1886	2	208925	15:27:00	15:27:00		Św. Rocha lasek pętla 11
 
-1929	4	216141	15:43:00	15:43:00		Św. Rocha lasek pętla 11
-1929	4	216141	15:44:00	15:44:00		Św. Rocha górka 09 nż
-1929	4	216141	15:45:00	15:45:00		Św. Rocha kapliczka 07 nż
-1929	4	216141	15:46:00	15:46:00		Św. Rocha domki 05 nż
-1929	4	216141	15:47:00	15:47:00		Św. Rocha bloki 03 nż
-1929	4	216141	15:48:00	15:48:00		Św. Rocha szkoła 01 nż
-1929	4	216141	15:50:00	15:50:00		Paderewskiego kościół 05
-1929	4	216141	15:51:00	15:51:00		Witolda seminarium 01 nż
-1929	4	216141	15:52:00	15:52:00		Leszka Czarnego 01 nż
-1929	4	216141	15:55:00	15:55:00		Lwowska szpital 05
-1929	4	216141	15:58:00	15:58:00		Lwowska cmentarz 03
-1929	4	216141	15:59:00	15:59:00		Lwowska jedn. wojskowa 01
-1929	4	216141	16:01:00	16:01:00		Piłsudskiego ZDZ 02
-1929	4	216141	16:03:00	16:03:00		Pl. Wolności 04
-1929	4	216141	16:06:00	16:06:00		Piłsudskiego U. Wojewódzki 06
-1929	4	216141	16:10:00	16:10:00		Marszałkowska 02
-1929	4	216141	16:11:00	16:11:00		Lubelska szpital 02
-1929	4	216141	16:14:00	16:14:00		Wyzwolenia / Lubelska 02 nż
-1929	4	216141	16:15:00	16:15:00		Wyzwolenia WORD 04 nż
-1929	4	216141	16:16:00	16:16:00		Wyzwolenia / Przy Torze 06 nż
-1929	4	216141	16:17:00	16:17:00		Wyzwolenia / Iranka-Osmeckiego 08
-1929	4	216141	16:18:00	16:18:00		Wyzwolenia / Brydaka 10
-1929	4	216141	16:19:00	16:19:00		Wyzwolenia / Obr. Poczty Gdańskiej 12
-1929	4	216141	16:20:00	16:20:00		Wyzwolenia / Krakowska 14 nż
-1929	4	216141	16:22:00	16:22:00		Dębicka / Krakowska 02 nż
-1929	4	216141	16:23:00	16:23:00		Dębicka kościół 04 nż
-1929	4	216141	16:24:00	16:24:00		Dębicka / Ustrzycka 06 nż
-1929	4	216141	16:25:00	16:25:00		Dębicka dom kultury 08 nż
-1929	4	216141	16:27:00	16:27:00		Dębicka szkoła 10 nż
-1929	4	216141	16:28:00	16:28:00		Dębicka / Stadionowa 12 nż
-1929	4	216141	16:29:00	16:29:00		Dębicka / Złocista 14 nż
-1929	4	216141	16:30:00	16:30:00		Dębicka / Ciche Wzgórze 16 nż
-1929	4	216141	16:31:00	16:31:00		Dębicka / Działowa 18 nż
-1929	4	216141	16:32:00	16:32:00		Dębicka / Leśne Wzgórze 20 nż
-1929	4	216141	16:33:00	16:33:00		Dębicka / Św. Jakuba 22 nż
-1929	4	216141	16:34:00	16:34:00		Kalinowa / Dębicka 02 nż
-1929	4	216141	16:35:00	16:35:00		Kalinowa pętla 04
+1929	2	216141	15:43:00	15:43:00		Św. Rocha lasek pętla 11
+1929	2	216141	15:44:00	15:44:00		Św. Rocha górka 09 nż
+1929	2	216141	15:45:00	15:45:00		Św. Rocha kapliczka 07 nż
+1929	2	216141	15:46:00	15:46:00		Św. Rocha domki 05 nż
+1929	2	216141	15:47:00	15:47:00		Św. Rocha bloki 03 nż
+1929	2	216141	15:48:00	15:48:00		Św. Rocha szkoła 01 nż
+1929	2	216141	15:50:00	15:50:00		Paderewskiego kościół 05
+1929	2	216141	15:51:00	15:51:00		Witolda seminarium 01 nż
+1929	2	216141	15:52:00	15:52:00		Leszka Czarnego 01 nż
+1929	2	216141	15:55:00	15:55:00		Lwowska szpital 05
+1929	2	216141	15:58:00	15:58:00		Lwowska cmentarz 03
+1929	2	216141	15:59:00	15:59:00		Lwowska jedn. wojskowa 01
+1929	2	216141	16:01:00	16:01:00		Piłsudskiego ZDZ 02
+1929	2	216141	16:03:00	16:03:00		Pl. Wolności 04
+1929	2	216141	16:06:00	16:06:00		Piłsudskiego U. Wojewódzki 06
+1929	2	216141	16:10:00	16:10:00		Marszałkowska 02
+1929	2	216141	16:11:00	16:11:00		Lubelska szpital 02
+1929	2	216141	16:14:00	16:14:00		Wyzwolenia / Lubelska 02 nż
+1929	2	216141	16:15:00	16:15:00		Wyzwolenia WORD 04 nż
+1929	2	216141	16:16:00	16:16:00		Wyzwolenia / Przy Torze 06 nż
+1929	2	216141	16:17:00	16:17:00		Wyzwolenia / Iranka-Osmeckiego 08
+1929	2	216141	16:18:00	16:18:00		Wyzwolenia / Brydaka 10
+1929	2	216141	16:19:00	16:19:00		Wyzwolenia / Obr. Poczty Gdańskiej 12
+1929	2	216141	16:20:00	16:20:00		Wyzwolenia / Krakowska 14 nż
+1929	2	216141	16:22:00	16:22:00		Dębicka / Krakowska 02 nż
+1929	2	216141	16:23:00	16:23:00		Dębicka kościół 04 nż
+1929	2	216141	16:24:00	16:24:00		Dębicka / Ustrzycka 06 nż
+1929	2	216141	16:25:00	16:25:00		Dębicka dom kultury 08 nż
+1929	2	216141	16:27:00	16:27:00		Dębicka szkoła 10 nż
+1929	2	216141	16:28:00	16:28:00		Dębicka / Stadionowa 12 nż
+1929	2	216141	16:29:00	16:29:00		Dębicka / Złocista 14 nż
+1929	2	216141	16:30:00	16:30:00		Dębicka / Ciche Wzgórze 16 nż
+1929	2	216141	16:31:00	16:31:00		Dębicka / Działowa 18 nż
+1929	2	216141	16:32:00	16:32:00		Dębicka / Leśne Wzgórze 20 nż
+1929	2	216141	16:33:00	16:33:00		Dębicka / Św. Jakuba 22 nż
+1929	2	216141	16:34:00	16:34:00		Kalinowa / Dębicka 02 nż
+1929	2	216141	16:35:00	16:35:00		Kalinowa pętla 04
 
-1886	4	212952	17:00:00	17:00:00		Kalinowa pętla 04
-1886	4	212952	17:01:00	17:01:00		Kalinowa / Dębicka 01 nż
-1886	4	212952	17:02:00	17:02:00		Dębicka / Św. Jakuba 19 nż
-1886	4	212952	17:04:00	17:04:00		Dębicka / Działowa 17 nż
-1886	4	212952	17:05:00	17:05:00		Dębicka / Ciche Wzgórze 15 nż
-1886	4	212952	17:06:00	17:06:00		Dębicka / Złocista 13 nż
-1886	4	212952	17:07:00	17:07:00		Dębicka / Stadionowa 11 nż
-1886	4	212952	17:08:00	17:08:00		Dębicka szkoła 09 nż
-1886	4	212952	17:09:00	17:09:00		Dębicka dom kultury 07 nż
-1886	4	212952	17:10:00	17:10:00		Dębicka / Ustrzycka 05 nż
-1886	4	212952	17:11:00	17:11:00		Dębicka kościół 03 nż
-1886	4	212952	17:12:00	17:12:00		Dębicka / Krakowska 01 nż
-1886	4	212952	17:14:00	17:14:00		Wyzwolenia / Mikołajczyka 11 nż
-1886	4	212952	17:15:00	17:15:00		Wyzwolenia / Ofiar Katynia 09
-1886	4	212952	17:16:00	17:16:00		Wyzwolenia kościół 07
-1886	4	212952	17:17:00	17:17:00		Wyzwolenia / Okulickiego 05 nż
-1886	4	212952	17:18:00	17:18:00		Wyzwolenia / Ujejskiego 03 nż
-1886	4	212952	17:19:00	17:19:00		Wyzwolenia / Warszawska 01 nż
-1886	4	212952	17:20:00	17:20:00		Lubelska szpital 01
-1886	4	212952	17:22:00	17:22:00		Marszałkowska 01
-1886	4	212952	17:26:00	17:26:00		Piłsudskiego U. Wojewódzki 05
-1886	4	212952	17:27:00	17:27:00		Pl. Wolności 03
-1886	4	212952	17:28:00	17:28:00		Piłsudskiego ZDZ 01 nż
-1886	4	212952	17:30:00	17:30:00		Lwowska jedn. wojskowa 02
-1886	4	212952	17:33:00	17:33:00		Lwowska cmentarz 04
-1886	4	212952	17:35:00	17:35:00		Lwowska szpital 06
-1886	4	212952	17:36:00	17:36:00		Leszka Czarnego / Anny Jagiellonki 02 nż
-1886	4	212952	17:37:00	17:37:00		Leszka Czarnego / Litewska 04 nż
-1886	4	212952	17:38:00	17:38:00		Witolda seminarium 02 nż
-1886	4	212952	17:40:00	17:40:00		Paderewskiego kościół 08
-1886	4	212952	17:41:00	17:41:00		Św. Rocha szkoła 02 nż
-1886	4	212952	17:42:00	17:42:00		Św. Rocha bloki 04 nż
-1886	4	212952	17:43:00	17:43:00		Św. Rocha domki 06 nż
-1886	4	212952	17:44:00	17:44:00		Św. Rocha kapliczka 08 nż
-1886	4	212952	17:45:00	17:45:00		Św. Rocha górka 10 nż
-1886	4	212952	17:46:00	17:46:00		Św. Rocha / Św. Walentego 12 nż
-1886	4	212952	17:48:00	17:48:00		Św. Rocha lasek pętla 11
+1886	2	212952	17:00:00	17:00:00		Kalinowa pętla 04
+1886	2	212952	17:01:00	17:01:00		Kalinowa / Dębicka 01 nż
+1886	2	212952	17:02:00	17:02:00		Dębicka / Św. Jakuba 19 nż
+1886	2	212952	17:04:00	17:04:00		Dębicka / Działowa 17 nż
+1886	2	212952	17:05:00	17:05:00		Dębicka / Ciche Wzgórze 15 nż
+1886	2	212952	17:06:00	17:06:00		Dębicka / Złocista 13 nż
+1886	2	212952	17:07:00	17:07:00		Dębicka / Stadionowa 11 nż
+1886	2	212952	17:08:00	17:08:00		Dębicka szkoła 09 nż
+1886	2	212952	17:09:00	17:09:00		Dębicka dom kultury 07 nż
+1886	2	212952	17:10:00	17:10:00		Dębicka / Ustrzycka 05 nż
+1886	2	212952	17:11:00	17:11:00		Dębicka kościół 03 nż
+1886	2	212952	17:12:00	17:12:00		Dębicka / Krakowska 01 nż
+1886	2	212952	17:14:00	17:14:00		Wyzwolenia / Mikołajczyka 11 nż
+1886	2	212952	17:15:00	17:15:00		Wyzwolenia / Ofiar Katynia 09
+1886	2	212952	17:16:00	17:16:00		Wyzwolenia kościół 07
+1886	2	212952	17:17:00	17:17:00		Wyzwolenia / Okulickiego 05 nż
+1886	2	212952	17:18:00	17:18:00		Wyzwolenia / Ujejskiego 03 nż
+1886	2	212952	17:19:00	17:19:00		Wyzwolenia / Warszawska 01 nż
+1886	2	212952	17:20:00	17:20:00		Lubelska szpital 01
+1886	2	212952	17:22:00	17:22:00		Marszałkowska 01
+1886	2	212952	17:26:00	17:26:00		Piłsudskiego U. Wojewódzki 05
+1886	2	212952	17:27:00	17:27:00		Pl. Wolności 03
+1886	2	212952	17:28:00	17:28:00		Piłsudskiego ZDZ 01 nż
+1886	2	212952	17:30:00	17:30:00		Lwowska jedn. wojskowa 02
+1886	2	212952	17:33:00	17:33:00		Lwowska cmentarz 04
+1886	2	212952	17:35:00	17:35:00		Lwowska szpital 06
+1886	2	212952	17:36:00	17:36:00		Leszka Czarnego / Anny Jagiellonki 02 nż
+1886	2	212952	17:37:00	17:37:00		Leszka Czarnego / Litewska 04 nż
+1886	2	212952	17:38:00	17:38:00		Witolda seminarium 02 nż
+1886	2	212952	17:40:00	17:40:00		Paderewskiego kościół 08
+1886	2	212952	17:41:00	17:41:00		Św. Rocha szkoła 02 nż
+1886	2	212952	17:42:00	17:42:00		Św. Rocha bloki 04 nż
+1886	2	212952	17:43:00	17:43:00		Św. Rocha domki 06 nż
+1886	2	212952	17:44:00	17:44:00		Św. Rocha kapliczka 08 nż
+1886	2	212952	17:45:00	17:45:00		Św. Rocha górka 10 nż
+1886	2	212952	17:46:00	17:46:00		Św. Rocha / Św. Walentego 12 nż
+1886	2	212952	17:48:00	17:48:00		Św. Rocha lasek pętla 11
 
-1929	4	214437	18:13:00	18:13:00		Św. Rocha lasek pętla 11
-1929	4	214437	18:14:00	18:14:00		Św. Rocha górka 09 nż
-1929	4	214437	18:15:00	18:15:00		Św. Rocha kapliczka 07 nż
-1929	4	214437	18:16:00	18:16:00		Św. Rocha domki 05 nż
-1929	4	214437	18:17:00	18:17:00		Św. Rocha bloki 03 nż
-1929	4	214437	18:18:00	18:18:00		Św. Rocha szkoła 01 nż
-1929	4	214437	18:20:00	18:20:00		Paderewskiego kościół 05
-1929	4	214437	18:21:00	18:21:00		Witolda seminarium 01 nż
-1929	4	214437	18:22:00	18:22:00		Leszka Czarnego 01 nż
-1929	4	214437	18:25:00	18:25:00		Lwowska szpital 05
-1929	4	214437	18:28:00	18:28:00		Lwowska cmentarz 03
-1929	4	214437	18:29:00	18:29:00		Lwowska jedn. wojskowa 01
-1929	4	214437	18:31:00	18:31:00		Piłsudskiego ZDZ 02
-1929	4	214437	18:33:00	18:33:00		Pl. Wolności 04
-1929	4	214437	18:34:00	18:34:00		Piłsudskiego U. Wojewódzki 06
-1929	4	214437	18:37:00	18:37:00		Marszałkowska 02
-1929	4	214437	18:38:00	18:38:00		Lubelska szpital 02
-1929	4	214437	18:40:00	18:40:00		Wyzwolenia / Lubelska 02 nż
-1929	4	214437	18:41:00	18:41:00		Wyzwolenia WORD 04 nż
-1929	4	214437	18:42:00	18:42:00		Wyzwolenia / Przy Torze 06 nż
-1929	4	214437	18:43:00	18:43:00		Wyzwolenia / Iranka-Osmeckiego 08
-1929	4	214437	18:44:00	18:44:00		Wyzwolenia / Brydaka 10
-1929	4	214437	18:45:00	18:45:00		Wyzwolenia / Obr. Poczty Gdańskiej 12
-1929	4	214437	18:46:00	18:46:00		Wyzwolenia / Krakowska 14 nż
-1929	4	214437	18:48:00	18:48:00		Dębicka / Krakowska 02 nż
-1929	4	214437	18:49:00	18:49:00		Dębicka kościół 04 nż
-1929	4	214437	18:50:00	18:50:00		Dębicka / Ustrzycka 06 nż
-1929	4	214437	18:51:00	18:51:00		Dębicka dom kultury 08 nż
-1929	4	214437	18:53:00	18:53:00		Dębicka szkoła 10 nż
-1929	4	214437	18:54:00	18:54:00		Dębicka / Stadionowa 12 nż
-1929	4	214437	18:55:00	18:55:00		Dębicka / Złocista 14 nż
-1929	4	214437	18:56:00	18:56:00		Dębicka / Ciche Wzgórze 16 nż
-1929	4	214437	18:57:00	18:57:00		Dębicka / Działowa 18 nż
-1929	4	214437	18:58:00	18:58:00		Dębicka / Leśne Wzgórze 20 nż
-1929	4	214437	18:59:00	18:59:00		Dębicka / Św. Jakuba 22 nż
-1929	4	214437	19:00:00	19:00:00		Kalinowa / Dębicka 02 nż
-1929	4	214437	19:01:00	19:01:00		Kalinowa pętla 04
+1929	2	214437	18:13:00	18:13:00		Św. Rocha lasek pętla 11
+1929	2	214437	18:14:00	18:14:00		Św. Rocha górka 09 nż
+1929	2	214437	18:15:00	18:15:00		Św. Rocha kapliczka 07 nż
+1929	2	214437	18:16:00	18:16:00		Św. Rocha domki 05 nż
+1929	2	214437	18:17:00	18:17:00		Św. Rocha bloki 03 nż
+1929	2	214437	18:18:00	18:18:00		Św. Rocha szkoła 01 nż
+1929	2	214437	18:20:00	18:20:00		Paderewskiego kościół 05
+1929	2	214437	18:21:00	18:21:00		Witolda seminarium 01 nż
+1929	2	214437	18:22:00	18:22:00		Leszka Czarnego 01 nż
+1929	2	214437	18:25:00	18:25:00		Lwowska szpital 05
+1929	2	214437	18:28:00	18:28:00		Lwowska cmentarz 03
+1929	2	214437	18:29:00	18:29:00		Lwowska jedn. wojskowa 01
+1929	2	214437	18:31:00	18:31:00		Piłsudskiego ZDZ 02
+1929	2	214437	18:33:00	18:33:00		Pl. Wolności 04
+1929	2	214437	18:34:00	18:34:00		Piłsudskiego U. Wojewódzki 06
+1929	2	214437	18:37:00	18:37:00		Marszałkowska 02
+1929	2	214437	18:38:00	18:38:00		Lubelska szpital 02
+1929	2	214437	18:40:00	18:40:00		Wyzwolenia / Lubelska 02 nż
+1929	2	214437	18:41:00	18:41:00		Wyzwolenia WORD 04 nż
+1929	2	214437	18:42:00	18:42:00		Wyzwolenia / Przy Torze 06 nż
+1929	2	214437	18:43:00	18:43:00		Wyzwolenia / Iranka-Osmeckiego 08
+1929	2	214437	18:44:00	18:44:00		Wyzwolenia / Brydaka 10
+1929	2	214437	18:45:00	18:45:00		Wyzwolenia / Obr. Poczty Gdańskiej 12
+1929	2	214437	18:46:00	18:46:00		Wyzwolenia / Krakowska 14 nż
+1929	2	214437	18:48:00	18:48:00		Dębicka / Krakowska 02 nż
+1929	2	214437	18:49:00	18:49:00		Dębicka kościół 04 nż
+1929	2	214437	18:50:00	18:50:00		Dębicka / Ustrzycka 06 nż
+1929	2	214437	18:51:00	18:51:00		Dębicka dom kultury 08 nż
+1929	2	214437	18:53:00	18:53:00		Dębicka szkoła 10 nż
+1929	2	214437	18:54:00	18:54:00		Dębicka / Stadionowa 12 nż
+1929	2	214437	18:55:00	18:55:00		Dębicka / Złocista 14 nż
+1929	2	214437	18:56:00	18:56:00		Dębicka / Ciche Wzgórze 16 nż
+1929	2	214437	18:57:00	18:57:00		Dębicka / Działowa 18 nż
+1929	2	214437	18:58:00	18:58:00		Dębicka / Leśne Wzgórze 20 nż
+1929	2	214437	18:59:00	18:59:00		Dębicka / Św. Jakuba 22 nż
+1929	2	214437	19:00:00	19:00:00		Kalinowa / Dębicka 02 nż
+1929	2	214437	19:01:00	19:01:00		Kalinowa pętla 04
 
-1886	4	214224	19:32:00	19:32:00		Kalinowa pętla 04
-1886	4	214224	19:33:00	19:33:00		Kalinowa / Dębicka 01 nż
-1886	4	214224	19:34:00	19:34:00		Dębicka / Św. Jakuba 19 nż
-1886	4	214224	19:36:00	19:36:00		Dębicka / Działowa 17 nż
-1886	4	214224	19:37:00	19:37:00		Dębicka / Ciche Wzgórze 15 nż
-1886	4	214224	19:38:00	19:38:00		Dębicka / Złocista 13 nż
-1886	4	214224	19:39:00	19:39:00		Dębicka / Stadionowa 11 nż
-1886	4	214224	19:40:00	19:40:00		Dębicka szkoła 09 nż
-1886	4	214224	19:41:00	19:41:00		Dębicka dom kultury 07 nż
-1886	4	214224	19:42:00	19:42:00		Dębicka / Ustrzycka 05 nż
-1886	4	214224	19:43:00	19:43:00		Dębicka kościół 03 nż
-1886	4	214224	19:44:00	19:44:00		Dębicka / Krakowska 01 nż
-1886	4	214224	19:46:00	19:46:00		Wyzwolenia / Mikołajczyka 11 nż
-1886	4	214224	19:47:00	19:47:00		Wyzwolenia / Ofiar Katynia 09
-1886	4	214224	19:48:00	19:48:00		Wyzwolenia kościół 07
-1886	4	214224	19:49:00	19:49:00		Wyzwolenia / Okulickiego 05 nż
-1886	4	214224	19:50:00	19:50:00		Wyzwolenia / Ujejskiego 03 nż
-1886	4	214224	19:51:00	19:51:00		Wyzwolenia / Warszawska 01 nż
-1886	4	214224	19:52:00	19:52:00		Lubelska szpital 01
-1886	4	214224	19:53:00	19:53:00		Marszałkowska 01
-1886	4	214224	19:56:00	19:56:00		Piłsudskiego U. Wojewódzki 05
-1886	4	214224	19:57:00	19:57:00		Pl. Wolności 03
-1886	4	214224	19:58:00	19:58:00		Piłsudskiego ZDZ 01 nż
-1886	4	214224	19:59:00	19:59:00		Lwowska jedn. wojskowa 02
-1886	4	214224	20:00:00	20:00:00		Lwowska cmentarz 04
-1886	4	214224	20:01:00	20:01:00		Lwowska szpital 06
-1886	4	214224	20:02:00	20:02:00		Leszka Czarnego / Anny Jagiellonki 02 nż
-1886	4	214224	20:03:00	20:03:00		Leszka Czarnego / Litewska 04 nż
-1886	4	214224	20:04:00	20:04:00		Witolda seminarium 02 nż
-1886	4	214224	20:06:00	20:06:00		Paderewskiego kościół 08
-1886	4	214224	20:07:00	20:07:00		Św. Rocha szkoła 02 nż
-1886	4	214224	20:08:00	20:08:00		Św. Rocha bloki 04 nż
-1886	4	214224	20:09:00	20:09:00		Św. Rocha domki 06 nż
-1886	4	214224	20:10:00	20:10:00		Św. Rocha kapliczka 08 nż
-1886	4	214224	20:11:00	20:11:00		Św. Rocha górka 10 nż
-1886	4	214224	20:12:00	20:12:00		Św. Rocha / Św. Walentego 12 nż
-1886	4	214224	20:14:00	20:14:00		Św. Rocha lasek pętla 11
+1886	2	214224	19:32:00	19:32:00		Kalinowa pętla 04
+1886	2	214224	19:33:00	19:33:00		Kalinowa / Dębicka 01 nż
+1886	2	214224	19:34:00	19:34:00		Dębicka / Św. Jakuba 19 nż
+1886	2	214224	19:36:00	19:36:00		Dębicka / Działowa 17 nż
+1886	2	214224	19:37:00	19:37:00		Dębicka / Ciche Wzgórze 15 nż
+1886	2	214224	19:38:00	19:38:00		Dębicka / Złocista 13 nż
+1886	2	214224	19:39:00	19:39:00		Dębicka / Stadionowa 11 nż
+1886	2	214224	19:40:00	19:40:00		Dębicka szkoła 09 nż
+1886	2	214224	19:41:00	19:41:00		Dębicka dom kultury 07 nż
+1886	2	214224	19:42:00	19:42:00		Dębicka / Ustrzycka 05 nż
+1886	2	214224	19:43:00	19:43:00		Dębicka kościół 03 nż
+1886	2	214224	19:44:00	19:44:00		Dębicka / Krakowska 01 nż
+1886	2	214224	19:46:00	19:46:00		Wyzwolenia / Mikołajczyka 11 nż
+1886	2	214224	19:47:00	19:47:00		Wyzwolenia / Ofiar Katynia 09
+1886	2	214224	19:48:00	19:48:00		Wyzwolenia kościół 07
+1886	2	214224	19:49:00	19:49:00		Wyzwolenia / Okulickiego 05 nż
+1886	2	214224	19:50:00	19:50:00		Wyzwolenia / Ujejskiego 03 nż
+1886	2	214224	19:51:00	19:51:00		Wyzwolenia / Warszawska 01 nż
+1886	2	214224	19:52:00	19:52:00		Lubelska szpital 01
+1886	2	214224	19:53:00	19:53:00		Marszałkowska 01
+1886	2	214224	19:56:00	19:56:00		Piłsudskiego U. Wojewódzki 05
+1886	2	214224	19:57:00	19:57:00		Pl. Wolności 03
+1886	2	214224	19:58:00	19:58:00		Piłsudskiego ZDZ 01 nż
+1886	2	214224	19:59:00	19:59:00		Lwowska jedn. wojskowa 02
+1886	2	214224	20:00:00	20:00:00		Lwowska cmentarz 04
+1886	2	214224	20:01:00	20:01:00		Lwowska szpital 06
+1886	2	214224	20:02:00	20:02:00		Leszka Czarnego / Anny Jagiellonki 02 nż
+1886	2	214224	20:03:00	20:03:00		Leszka Czarnego / Litewska 04 nż
+1886	2	214224	20:04:00	20:04:00		Witolda seminarium 02 nż
+1886	2	214224	20:06:00	20:06:00		Paderewskiego kościół 08
+1886	2	214224	20:07:00	20:07:00		Św. Rocha szkoła 02 nż
+1886	2	214224	20:08:00	20:08:00		Św. Rocha bloki 04 nż
+1886	2	214224	20:09:00	20:09:00		Św. Rocha domki 06 nż
+1886	2	214224	20:10:00	20:10:00		Św. Rocha kapliczka 08 nż
+1886	2	214224	20:11:00	20:11:00		Św. Rocha górka 10 nż
+1886	2	214224	20:12:00	20:12:00		Św. Rocha / Św. Walentego 12 nż
+1886	2	214224	20:14:00	20:14:00		Św. Rocha lasek pętla 11
 
-1929	4	208911	20:46:00	20:46:00		Św. Rocha lasek pętla 11
-1929	4	208911	20:47:00	20:47:00		Św. Rocha górka 09 nż
-1929	4	208911	20:48:00	20:48:00		Św. Rocha kapliczka 07 nż
-1929	4	208911	20:49:00	20:49:00		Św. Rocha domki 05 nż
-1929	4	208911	20:50:00	20:50:00		Św. Rocha bloki 03 nż
-1929	4	208911	20:51:00	20:51:00		Św. Rocha szkoła 01 nż
-1929	4	208911	20:52:00	20:52:00		Paderewskiego kościół 05
-1929	4	208911	20:53:00	20:53:00		Witolda seminarium 01 nż
-1929	4	208911	20:54:00	20:54:00		Leszka Czarnego 01 nż
-1929	4	208911	20:56:00	20:56:00		Lwowska szpital 05
-1929	4	208911	20:58:00	20:58:00		Lwowska cmentarz 03
-1929	4	208911	20:59:00	20:59:00		Lwowska jedn. wojskowa 01
-1929	4	208911	21:00:00	21:00:00		Piłsudskiego ZDZ 02
-1929	4	208911	21:01:00	21:01:00		Pl. Wolności 04
-1929	4	208911	21:02:00	21:02:00		Piłsudskiego U. Wojewódzki 06
-1929	4	208911	21:04:00	21:04:00		Marszałkowska 02
-1929	4	208911	21:05:00	21:05:00		Lubelska szpital 02
-1929	4	208911	21:07:00	21:07:00		Wyzwolenia / Lubelska 02 nż
-1929	4	208911	21:08:00	21:08:00		Wyzwolenia WORD 04 nż
-1929	4	208911	21:08:00	21:08:00		Wyzwolenia / Przy Torze 06 nż
-1929	4	208911	21:09:00	21:09:00		Wyzwolenia / Iranka-Osmeckiego 08
-1929	4	208911	21:10:00	21:10:00		Wyzwolenia / Brydaka 10
-1929	4	208911	21:11:00	21:11:00		Wyzwolenia / Obr. Poczty Gdańskiej 12
-1929	4	208911	21:12:00	21:12:00		Wyzwolenia / Krakowska 14 nż
-1929	4	208911	21:14:00	21:14:00		Dębicka / Krakowska 02 nż
-1929	4	208911	21:15:00	21:15:00		Dębicka kościół 04 nż
-1929	4	208911	21:16:00	21:16:00		Dębicka / Ustrzycka 06 nż
-1929	4	208911	21:17:00	21:17:00		Dębicka dom kultury 08 nż
-1929	4	208911	21:19:00	21:19:00		Dębicka szkoła 10 nż
-1929	4	208911	21:20:00	21:20:00		Dębicka / Stadionowa 12 nż
-1929	4	208911	21:21:00	21:21:00		Dębicka / Złocista 14 nż
-1929	4	208911	21:22:00	21:22:00		Dębicka / Ciche Wzgórze 16 nż
-1929	4	208911	21:23:00	21:23:00		Dębicka / Działowa 18 nż
-1929	4	208911	21:24:00	21:24:00		Dębicka / Leśne Wzgórze 20 nż
-1929	4	208911	21:25:00	21:25:00		Dębicka / Św. Jakuba 22 nż
-1929	4	208911	21:26:00	21:26:00		Kalinowa / Dębicka 02 nż
-1929	4	208911	21:27:00	21:27:00		Kalinowa pętla 04
+1929	2	208911	20:46:00	20:46:00		Św. Rocha lasek pętla 11
+1929	2	208911	20:47:00	20:47:00		Św. Rocha górka 09 nż
+1929	2	208911	20:48:00	20:48:00		Św. Rocha kapliczka 07 nż
+1929	2	208911	20:49:00	20:49:00		Św. Rocha domki 05 nż
+1929	2	208911	20:50:00	20:50:00		Św. Rocha bloki 03 nż
+1929	2	208911	20:51:00	20:51:00		Św. Rocha szkoła 01 nż
+1929	2	208911	20:52:00	20:52:00		Paderewskiego kościół 05
+1929	2	208911	20:53:00	20:53:00		Witolda seminarium 01 nż
+1929	2	208911	20:54:00	20:54:00		Leszka Czarnego 01 nż
+1929	2	208911	20:56:00	20:56:00		Lwowska szpital 05
+1929	2	208911	20:58:00	20:58:00		Lwowska cmentarz 03
+1929	2	208911	20:59:00	20:59:00		Lwowska jedn. wojskowa 01
+1929	2	208911	21:00:00	21:00:00		Piłsudskiego ZDZ 02
+1929	2	208911	21:01:00	21:01:00		Pl. Wolności 04
+1929	2	208911	21:02:00	21:02:00		Piłsudskiego U. Wojewódzki 06
+1929	2	208911	21:04:00	21:04:00		Marszałkowska 02
+1929	2	208911	21:05:00	21:05:00		Lubelska szpital 02
+1929	2	208911	21:07:00	21:07:00		Wyzwolenia / Lubelska 02 nż
+1929	2	208911	21:08:00	21:08:00		Wyzwolenia WORD 04 nż
+1929	2	208911	21:08:00	21:08:00		Wyzwolenia / Przy Torze 06 nż
+1929	2	208911	21:09:00	21:09:00		Wyzwolenia / Iranka-Osmeckiego 08
+1929	2	208911	21:10:00	21:10:00		Wyzwolenia / Brydaka 10
+1929	2	208911	21:11:00	21:11:00		Wyzwolenia / Obr. Poczty Gdańskiej 12
+1929	2	208911	21:12:00	21:12:00		Wyzwolenia / Krakowska 14 nż
+1929	2	208911	21:14:00	21:14:00		Dębicka / Krakowska 02 nż
+1929	2	208911	21:15:00	21:15:00		Dębicka kościół 04 nż
+1929	2	208911	21:16:00	21:16:00		Dębicka / Ustrzycka 06 nż
+1929	2	208911	21:17:00	21:17:00		Dębicka dom kultury 08 nż
+1929	2	208911	21:19:00	21:19:00		Dębicka szkoła 10 nż
+1929	2	208911	21:20:00	21:20:00		Dębicka / Stadionowa 12 nż
+1929	2	208911	21:21:00	21:21:00		Dębicka / Złocista 14 nż
+1929	2	208911	21:22:00	21:22:00		Dębicka / Ciche Wzgórze 16 nż
+1929	2	208911	21:23:00	21:23:00		Dębicka / Działowa 18 nż
+1929	2	208911	21:24:00	21:24:00		Dębicka / Leśne Wzgórze 20 nż
+1929	2	208911	21:25:00	21:25:00		Dębicka / Św. Jakuba 22 nż
+1929	2	208911	21:26:00	21:26:00		Kalinowa / Dębicka 02 nż
+1929	2	208911	21:27:00	21:27:00		Kalinowa pętla 04
 
-1886	4	209811	21:33:00	21:33:00		Kalinowa pętla 04
-1886	4	209811	21:34:00	21:34:00		Kalinowa / Dębicka 01 nż
-1886	4	209811	21:35:00	21:35:00		Dębicka / Św. Jakuba 19 nż
-1886	4	209811	21:37:00	21:37:00		Dębicka / Działowa 17 nż
-1886	4	209811	21:38:00	21:38:00		Dębicka / Ciche Wzgórze 15 nż
-1886	4	209811	21:39:00	21:39:00		Dębicka / Złocista 13 nż
-1886	4	209811	21:40:00	21:40:00		Dębicka / Stadionowa 11 nż
-1886	4	209811	21:41:00	21:41:00		Dębicka szkoła 09 nż
-1886	4	209811	21:42:00	21:42:00		Dębicka dom kultury 07 nż
-1886	4	209811	21:43:00	21:43:00		Dębicka / Ustrzycka 05 nż
-1886	4	209811	21:44:00	21:44:00		Dębicka kościół 03 nż
-1886	4	209811	21:45:00	21:45:00		Dębicka / Krakowska 01 nż
-1886	4	209811	21:47:00	21:47:00		Wyzwolenia / Mikołajczyka 11 nż
-1886	4	209811	21:48:00	21:48:00		Wyzwolenia / Ofiar Katynia 09
-1886	4	209811	21:49:00	21:49:00		Wyzwolenia kościół 07
-1886	4	209811	21:50:00	21:50:00		Wyzwolenia / Okulickiego 05 nż
-1886	4	209811	21:50:00	21:50:00		Wyzwolenia / Ujejskiego 03 nż
-1886	4	209811	21:52:00	21:52:00		Wyzwolenia / Warszawska 01 nż
-1886	4	209811	21:53:00	21:53:00		Lubelska szpital 01
-1886	4	209811	21:54:00	21:54:00		Marszałkowska 01
-1886	4	209811	21:56:00	21:56:00		Piłsudskiego U. Wojewódzki 05
-1886	4	209811	21:57:00	21:57:00		Pl. Wolności 03
-1886	4	209811	21:58:00	21:58:00		Piłsudskiego ZDZ 01 nż
-1886	4	209811	21:59:00	21:59:00		Lwowska jedn. wojskowa 02
-1886	4	209811	22:00:00	22:00:00		Lwowska cmentarz 04
-1886	4	209811	22:01:00	22:01:00		Lwowska szpital 06
-1886	4	209811	22:02:00	22:02:00		Leszka Czarnego / Anny Jagiellonki 02 nż
-1886	4	209811	22:03:00	22:03:00		Leszka Czarnego / Litewska 04 nż
-1886	4	209811	22:04:00	22:04:00		Witolda seminarium 02 nż
-1886	4	209811	22:05:00	22:05:00		Paderewskiego kościół 08
-1886	4	209811	22:06:00	22:06:00		Św. Rocha szkoła 02 nż
-1886	4	209811	22:07:00	22:07:00		Św. Rocha bloki 04 nż
-1886	4	209811	22:08:00	22:08:00		Św. Rocha domki 06 nż
-1886	4	209811	22:09:00	22:09:00		Św. Rocha kapliczka 08 nż
-1886	4	209811	22:10:00	22:10:00		Św. Rocha górka 10 nż
-1886	4	209811	22:11:00	22:11:00		Św. Rocha / Św. Walentego 12 nż
-1886	4	209811	22:13:00	22:13:00		Św. Rocha lasek pętla 11
+1886	2	209811	21:33:00	21:33:00		Kalinowa pętla 04
+1886	2	209811	21:34:00	21:34:00		Kalinowa / Dębicka 01 nż
+1886	2	209811	21:35:00	21:35:00		Dębicka / Św. Jakuba 19 nż
+1886	2	209811	21:37:00	21:37:00		Dębicka / Działowa 17 nż
+1886	2	209811	21:38:00	21:38:00		Dębicka / Ciche Wzgórze 15 nż
+1886	2	209811	21:39:00	21:39:00		Dębicka / Złocista 13 nż
+1886	2	209811	21:40:00	21:40:00		Dębicka / Stadionowa 11 nż
+1886	2	209811	21:41:00	21:41:00		Dębicka szkoła 09 nż
+1886	2	209811	21:42:00	21:42:00		Dębicka dom kultury 07 nż
+1886	2	209811	21:43:00	21:43:00		Dębicka / Ustrzycka 05 nż
+1886	2	209811	21:44:00	21:44:00		Dębicka kościół 03 nż
+1886	2	209811	21:45:00	21:45:00		Dębicka / Krakowska 01 nż
+1886	2	209811	21:47:00	21:47:00		Wyzwolenia / Mikołajczyka 11 nż
+1886	2	209811	21:48:00	21:48:00		Wyzwolenia / Ofiar Katynia 09
+1886	2	209811	21:49:00	21:49:00		Wyzwolenia kościół 07
+1886	2	209811	21:50:00	21:50:00		Wyzwolenia / Okulickiego 05 nż
+1886	2	209811	21:50:00	21:50:00		Wyzwolenia / Ujejskiego 03 nż
+1886	2	209811	21:52:00	21:52:00		Wyzwolenia / Warszawska 01 nż
+1886	2	209811	21:53:00	21:53:00		Lubelska szpital 01
+1886	2	209811	21:54:00	21:54:00		Marszałkowska 01
+1886	2	209811	21:56:00	21:56:00		Piłsudskiego U. Wojewódzki 05
+1886	2	209811	21:57:00	21:57:00		Pl. Wolności 03
+1886	2	209811	21:58:00	21:58:00		Piłsudskiego ZDZ 01 nż
+1886	2	209811	21:59:00	21:59:00		Lwowska jedn. wojskowa 02
+1886	2	209811	22:00:00	22:00:00		Lwowska cmentarz 04
+1886	2	209811	22:01:00	22:01:00		Lwowska szpital 06
+1886	2	209811	22:02:00	22:02:00		Leszka Czarnego / Anny Jagiellonki 02 nż
+1886	2	209811	22:03:00	22:03:00		Leszka Czarnego / Litewska 04 nż
+1886	2	209811	22:04:00	22:04:00		Witolda seminarium 02 nż
+1886	2	209811	22:05:00	22:05:00		Paderewskiego kościół 08
+1886	2	209811	22:06:00	22:06:00		Św. Rocha szkoła 02 nż
+1886	2	209811	22:07:00	22:07:00		Św. Rocha bloki 04 nż
+1886	2	209811	22:08:00	22:08:00		Św. Rocha domki 06 nż
+1886	2	209811	22:09:00	22:09:00		Św. Rocha kapliczka 08 nż
+1886	2	209811	22:10:00	22:10:00		Św. Rocha górka 10 nż
+1886	2	209811	22:11:00	22:11:00		Św. Rocha / Św. Walentego 12 nż
+1886	2	209811	22:13:00	22:13:00		Św. Rocha lasek pętla 11
 
-1929	4	210934	22:16:00	22:16:00		Św. Rocha lasek pętla 11
-1929	4	210934	22:17:00	22:17:00		Św. Rocha górka 09 nż
-1929	4	210934	22:18:00	22:18:00		Św. Rocha kapliczka 07 nż
-1929	4	210934	22:19:00	22:19:00		Św. Rocha domki 05 nż
-1929	4	210934	22:20:00	22:20:00		Św. Rocha bloki 03 nż
-1929	4	210934	22:21:00	22:21:00		Św. Rocha szkoła 01 nż
-1929	4	210934	22:22:00	22:22:00		Paderewskiego kościół 05
-1929	4	210934	22:23:00	22:23:00		Witolda seminarium 01 nż
-1929	4	210934	22:24:00	22:24:00		Leszka Czarnego 01 nż
-1929	4	210934	22:26:00	22:26:00		Lwowska szpital 05
-1929	4	210934	22:28:00	22:28:00		Lwowska cmentarz 03
-1929	4	210934	22:29:00	22:29:00		Lwowska jedn. wojskowa 01
-1929	4	210934	22:30:00	22:30:00		Piłsudskiego ZDZ 02
-1929	4	210934	22:31:00	22:31:00		Pl. Wolności 04
-1929	4	210934	22:32:00	22:32:00		Piłsudskiego U. Wojewódzki 06
-1929	4	210934	22:34:00	22:34:00		Marszałkowska 02
-1929	4	210934	22:35:00	22:35:00		Lubelska szpital 02
-1929	4	210934	22:37:00	22:37:00		Wyzwolenia / Lubelska 02 nż
-1929	4	210934	22:38:00	22:38:00		Wyzwolenia WORD 04 nż
-1929	4	210934	22:38:00	22:38:00		Wyzwolenia / Przy Torze 06 nż
-1929	4	210934	22:39:00	22:39:00		Wyzwolenia / Iranka-Osmeckiego 08
-1929	4	210934	22:40:00	22:40:00		Wyzwolenia / Brydaka 10
-1929	4	210934	22:41:00	22:41:00		Wyzwolenia / Obr. Poczty Gdańskiej 12
-1929	4	210934	22:42:00	22:42:00		Wyzwolenia / Krakowska 14 nż
-1929	4	210934	22:44:00	22:44:00		Dębicka / Krakowska 02 nż
-1929	4	210934	22:45:00	22:45:00		Dębicka kościół 04 nż
-1929	4	210934	22:46:00	22:46:00		Dębicka / Ustrzycka 06 nż
-1929	4	210934	22:47:00	22:47:00		Dębicka dom kultury 08 nż
-1929	4	210934	22:49:00	22:49:00		Dębicka szkoła 10 nż
-1929	4	210934	22:50:00	22:50:00		Dębicka / Stadionowa 12 nż
-1929	4	210934	22:51:00	22:51:00		Dębicka / Złocista 14 nż
-1929	4	210934	22:52:00	22:52:00		Dębicka / Ciche Wzgórze 16 nż
-1929	4	210934	22:53:00	22:53:00		Dębicka / Działowa 18 nż
-1929	4	210934	22:54:00	22:54:00		Dębicka / Leśne Wzgórze 20 nż
-1929	4	210934	22:55:00	22:55:00		Dębicka / Św. Jakuba 22 nż
-1929	4	210934	22:56:00	22:56:00		Kalinowa / Dębicka 02 nż
-1929	4	210934	22:57:00	22:57:00		Kalinowa pętla 04
+1929	2	210934	22:16:00	22:16:00		Św. Rocha lasek pętla 11
+1929	2	210934	22:17:00	22:17:00		Św. Rocha górka 09 nż
+1929	2	210934	22:18:00	22:18:00		Św. Rocha kapliczka 07 nż
+1929	2	210934	22:19:00	22:19:00		Św. Rocha domki 05 nż
+1929	2	210934	22:20:00	22:20:00		Św. Rocha bloki 03 nż
+1929	2	210934	22:21:00	22:21:00		Św. Rocha szkoła 01 nż
+1929	2	210934	22:22:00	22:22:00		Paderewskiego kościół 05
+1929	2	210934	22:23:00	22:23:00		Witolda seminarium 01 nż
+1929	2	210934	22:24:00	22:24:00		Leszka Czarnego 01 nż
+1929	2	210934	22:26:00	22:26:00		Lwowska szpital 05
+1929	2	210934	22:28:00	22:28:00		Lwowska cmentarz 03
+1929	2	210934	22:29:00	22:29:00		Lwowska jedn. wojskowa 01
+1929	2	210934	22:30:00	22:30:00		Piłsudskiego ZDZ 02
+1929	2	210934	22:31:00	22:31:00		Pl. Wolności 04
+1929	2	210934	22:32:00	22:32:00		Piłsudskiego U. Wojewódzki 06
+1929	2	210934	22:34:00	22:34:00		Marszałkowska 02
+1929	2	210934	22:35:00	22:35:00		Lubelska szpital 02
+1929	2	210934	22:37:00	22:37:00		Wyzwolenia / Lubelska 02 nż
+1929	2	210934	22:38:00	22:38:00		Wyzwolenia WORD 04 nż
+1929	2	210934	22:38:00	22:38:00		Wyzwolenia / Przy Torze 06 nż
+1929	2	210934	22:39:00	22:39:00		Wyzwolenia / Iranka-Osmeckiego 08
+1929	2	210934	22:40:00	22:40:00		Wyzwolenia / Brydaka 10
+1929	2	210934	22:41:00	22:41:00		Wyzwolenia / Obr. Poczty Gdańskiej 12
+1929	2	210934	22:42:00	22:42:00		Wyzwolenia / Krakowska 14 nż
+1929	2	210934	22:44:00	22:44:00		Dębicka / Krakowska 02 nż
+1929	2	210934	22:45:00	22:45:00		Dębicka kościół 04 nż
+1929	2	210934	22:46:00	22:46:00		Dębicka / Ustrzycka 06 nż
+1929	2	210934	22:47:00	22:47:00		Dębicka dom kultury 08 nż
+1929	2	210934	22:49:00	22:49:00		Dębicka szkoła 10 nż
+1929	2	210934	22:50:00	22:50:00		Dębicka / Stadionowa 12 nż
+1929	2	210934	22:51:00	22:51:00		Dębicka / Złocista 14 nż
+1929	2	210934	22:52:00	22:52:00		Dębicka / Ciche Wzgórze 16 nż
+1929	2	210934	22:53:00	22:53:00		Dębicka / Działowa 18 nż
+1929	2	210934	22:54:00	22:54:00		Dębicka / Leśne Wzgórze 20 nż
+1929	2	210934	22:55:00	22:55:00		Dębicka / Św. Jakuba 22 nż
+1929	2	210934	22:56:00	22:56:00		Kalinowa / Dębicka 02 nż
+1929	2	210934	22:57:00	22:57:00		Kalinowa pętla 04
 
-1886	4	211435	23:03:00	23:03:00		Kalinowa pętla 04
-1886	4	211435	23:04:00	23:04:00		Kalinowa / Dębicka 01 nż
-1886	4	211435	23:05:00	23:05:00		Dębicka / Św. Jakuba 19 nż
-1886	4	211435	23:07:00	23:07:00		Dębicka / Działowa 17 nż
-1886	4	211435	23:08:00	23:08:00		Dębicka / Ciche Wzgórze 15 nż
-1886	4	211435	23:09:00	23:09:00		Dębicka / Złocista 13 nż
-1886	4	211435	23:10:00	23:10:00		Dębicka / Stadionowa 11 nż
-1886	4	211435	23:11:00	23:11:00		Dębicka szkoła 09 nż
-1886	4	211435	23:12:00	23:12:00		Dębicka dom kultury 07 nż
-1886	4	211435	23:13:00	23:13:00		Dębicka / Ustrzycka 05 nż
-1886	4	211435	23:14:00	23:14:00		Dębicka kościół 03 nż
-1886	4	211435	23:15:00	23:15:00		Dębicka / Krakowska 01 nż
-1886	4	211435	23:17:00	23:17:00		Wyzwolenia / Mikołajczyka 11 nż
-1886	4	211435	23:18:00	23:18:00		Wyzwolenia / Ofiar Katynia 09
-1886	4	211435	23:19:00	23:19:00		Wyzwolenia kościół 07
-1886	4	211435	23:20:00	23:20:00		Wyzwolenia / Okulickiego 05 nż
-1886	4	211435	23:20:00	23:20:00		Wyzwolenia / Ujejskiego 03 nż
-1886	4	211435	23:22:00	23:22:00		Wyzwolenia / Warszawska 01 nż
-1886	4	211435	23:23:00	23:23:00		Lubelska szpital 01
-1886	4	211435	23:24:00	23:24:00		Marszałkowska 01
-1886	4	211435	23:26:00	23:26:00		Piłsudskiego U. Wojewódzki 05
-1886	4	211435	23:27:00	23:27:00		Pl. Wolności 03
-1886	4	211435	23:28:00	23:28:00		Piłsudskiego ZDZ 01 nż
-1886	4	211435	23:29:00	23:29:00		Lwowska jedn. wojskowa 02
-1886	4	211435	23:30:00	23:30:00		Lwowska cmentarz 04
-1886	4	211435	23:31:00	23:31:00		Lwowska szpital 06
-1886	4	211435	23:32:00	23:32:00		Leszka Czarnego / Anny Jagiellonki 02 nż
-1886	4	211435	23:33:00	23:33:00		Leszka Czarnego / Litewska 04 nż
-1886	4	211435	23:34:00	23:34:00		Witolda seminarium 02 nż
-1886	4	211435	23:35:00	23:35:00		Paderewskiego kościół 08
-1886	4	211435	23:36:00	23:36:00		Św. Rocha szkoła 02 nż
-1886	4	211435	23:37:00	23:37:00		Św. Rocha bloki 04 nż
-1886	4	211435	23:38:00	23:38:00		Św. Rocha domki 06 nż
-1886	4	211435	23:39:00	23:39:00		Św. Rocha kapliczka 08 nż
-1886	4	211435	23:40:00	23:40:00		Św. Rocha górka 10 nż
-1886	4	211435	23:41:00	23:41:00		Św. Rocha / Św. Walentego 12 nż
-1886	4	211435	23:43:00	23:43:00		Św. Rocha lasek pętla 11
+1886	2	211435	23:03:00	23:03:00		Kalinowa pętla 04
+1886	2	211435	23:04:00	23:04:00		Kalinowa / Dębicka 01 nż
+1886	2	211435	23:05:00	23:05:00		Dębicka / Św. Jakuba 19 nż
+1886	2	211435	23:07:00	23:07:00		Dębicka / Działowa 17 nż
+1886	2	211435	23:08:00	23:08:00		Dębicka / Ciche Wzgórze 15 nż
+1886	2	211435	23:09:00	23:09:00		Dębicka / Złocista 13 nż
+1886	2	211435	23:10:00	23:10:00		Dębicka / Stadionowa 11 nż
+1886	2	211435	23:11:00	23:11:00		Dębicka szkoła 09 nż
+1886	2	211435	23:12:00	23:12:00		Dębicka dom kultury 07 nż
+1886	2	211435	23:13:00	23:13:00		Dębicka / Ustrzycka 05 nż
+1886	2	211435	23:14:00	23:14:00		Dębicka kościół 03 nż
+1886	2	211435	23:15:00	23:15:00		Dębicka / Krakowska 01 nż
+1886	2	211435	23:17:00	23:17:00		Wyzwolenia / Mikołajczyka 11 nż
+1886	2	211435	23:18:00	23:18:00		Wyzwolenia / Ofiar Katynia 09
+1886	2	211435	23:19:00	23:19:00		Wyzwolenia kościół 07
+1886	2	211435	23:20:00	23:20:00		Wyzwolenia / Okulickiego 05 nż
+1886	2	211435	23:20:00	23:20:00		Wyzwolenia / Ujejskiego 03 nż
+1886	2	211435	23:22:00	23:22:00		Wyzwolenia / Warszawska 01 nż
+1886	2	211435	23:23:00	23:23:00		Lubelska szpital 01
+1886	2	211435	23:24:00	23:24:00		Marszałkowska 01
+1886	2	211435	23:26:00	23:26:00		Piłsudskiego U. Wojewódzki 05
+1886	2	211435	23:27:00	23:27:00		Pl. Wolności 03
+1886	2	211435	23:28:00	23:28:00		Piłsudskiego ZDZ 01 nż
+1886	2	211435	23:29:00	23:29:00		Lwowska jedn. wojskowa 02
+1886	2	211435	23:30:00	23:30:00		Lwowska cmentarz 04
+1886	2	211435	23:31:00	23:31:00		Lwowska szpital 06
+1886	2	211435	23:32:00	23:32:00		Leszka Czarnego / Anny Jagiellonki 02 nż
+1886	2	211435	23:33:00	23:33:00		Leszka Czarnego / Litewska 04 nż
+1886	2	211435	23:34:00	23:34:00		Witolda seminarium 02 nż
+1886	2	211435	23:35:00	23:35:00		Paderewskiego kościół 08
+1886	2	211435	23:36:00	23:36:00		Św. Rocha szkoła 02 nż
+1886	2	211435	23:37:00	23:37:00		Św. Rocha bloki 04 nż
+1886	2	211435	23:38:00	23:38:00		Św. Rocha domki 06 nż
+1886	2	211435	23:39:00	23:39:00		Św. Rocha kapliczka 08 nż
+1886	2	211435	23:40:00	23:40:00		Św. Rocha górka 10 nż
+1886	2	211435	23:41:00	23:41:00		Św. Rocha / Św. Walentego 12 nż
+1886	2	211435	23:43:00	23:43:00		Św. Rocha lasek pętla 11
 
-1974	4	211368	23:47:00	23:47:00		Św. Rocha lasek pętla 11
-1974	4	211368	23:48:00	23:48:00		Św. Rocha górka 09 nż
-1974	4	211368	23:49:00	23:49:00		Św. Rocha kapliczka 07 nż
-1974	4	211368	23:50:00	23:50:00		Św. Rocha domki 05 nż
-1974	4	211368	23:51:00	23:51:00		Św. Rocha bloki 03 nż
-1974	4	211368	23:52:00	23:52:00		Św. Rocha szkoła 01 nż
-1974	4	211368	23:53:00	23:53:00		Paderewskiego kościół 05
-1974	4	211368	23:54:00	23:54:00		Witolda seminarium 01 nż
-1974	4	211368	23:55:00	23:55:00		Leszka Czarnego 01 nż
-1974	4	211368	23:57:00	23:57:00		Lwowska szpital 05
-1974	4	211368	23:59:00	23:59:00		Lwowska cmentarz 03
-1974	4	211368	24:00:00	24:00:00		Lwowska jedn. wojskowa 01
-1974	4	211368	24:01:00	24:01:00		Piłsudskiego ZDZ 02
-1974	4	211368	24:02:00	24:02:00		Pl. Wolności 04
-1974	4	211368	24:03:00	24:03:00		Piłsudskiego U. Wojewódzki 06
-1974	4	211368	24:05:00	24:05:00		Marszałkowska 02
-1974	4	211368	24:06:00	24:06:00		Lubelska szpital 02
+1974	2	211368	23:47:00	23:47:00		Św. Rocha lasek pętla 11
+1974	2	211368	23:48:00	23:48:00		Św. Rocha górka 09 nż
+1974	2	211368	23:49:00	23:49:00		Św. Rocha kapliczka 07 nż
+1974	2	211368	23:50:00	23:50:00		Św. Rocha domki 05 nż
+1974	2	211368	23:51:00	23:51:00		Św. Rocha bloki 03 nż
+1974	2	211368	23:52:00	23:52:00		Św. Rocha szkoła 01 nż
+1974	2	211368	23:53:00	23:53:00		Paderewskiego kościół 05
+1974	2	211368	23:54:00	23:54:00		Witolda seminarium 01 nż
+1974	2	211368	23:55:00	23:55:00		Leszka Czarnego 01 nż
+1974	2	211368	23:57:00	23:57:00		Lwowska szpital 05
+1974	2	211368	23:59:00	23:59:00		Lwowska cmentarz 03
+1974	2	211368	24:00:00	24:00:00		Lwowska jedn. wojskowa 01
+1974	2	211368	24:01:00	24:01:00		Piłsudskiego ZDZ 02
+1974	2	211368	24:02:00	24:02:00		Pl. Wolności 04
+1974	2	211368	24:03:00	24:03:00		Piłsudskiego U. Wojewódzki 06
+1974	2	211368	24:05:00	24:05:00		Marszałkowska 02
+1974	2	211368	24:06:00	24:06:00		Lubelska szpital 02

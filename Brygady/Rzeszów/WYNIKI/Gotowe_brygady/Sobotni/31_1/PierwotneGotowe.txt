@@ -1,398 +1,554 @@
 route_id	service_id	trip_id	arrival_time	departure_time	stop_headsign	stop_name
 -------------------------------------------------------------------------------
-1910	2	209593	04:31:00	04:31:00		Lubelska Zajezdnia MPK
-1910	2	209593	04:32:00	04:32:00		Lubelska MPK 13 nż
-1910	2	209593	04:33:00	04:33:00		Lubelska Ogrody Hiszpańskie 11 nż
-1910	2	209593	04:34:00	04:34:00		Lubelska Os. Ogrody 09 nż
-1910	2	209593	04:35:00	04:35:00		Lubelska / Borowa 07 nż
-1910	2	209593	04:36:00	04:36:00		Lubelska kościół 05 nż
-1910	2	209593	04:37:00	04:37:00		Lubelska szpital 01
-1910	2	209593	04:38:00	04:38:00		Marszałkowska 01
-1910	2	209593	04:40:00	04:40:00		Piłsudskiego U. Wojewódzki 05
-1910	2	209593	04:41:00	04:41:00		Pl. Wolności 03
-1910	2	209593	04:42:00	04:42:00		Targowa 01
-1910	2	209593	04:43:00	04:43:00		Szopena Filharmonia 02 nż
-1910	2	209593	04:45:00	04:45:00		Podwisłocze U. Skarbowy 03
-1910	2	209593	04:46:00	04:46:00		Podwisłocze domki 01
-1910	2	209593	04:48:00	04:48:00		Kwiatkowskiego / Powst. Warszawy 02
-1910	2	209593	04:49:00	04:49:00		Kwiatkowskiego dom studenta 04 nż
-1910	2	209593	04:50:00	04:50:00		Kwiatkowskiego / Strażacka 06 nż
-1910	2	209593	04:51:00	04:51:00		Strażacka / Graniczna 02 nż
-1910	2	209593	04:52:00	04:52:00		Strażacka / Urocza 04 nż
-1910	2	209593	04:53:00	04:53:00		Miła / Strażacka 02 nż
-1910	2	209593	04:54:00	04:54:00		Miła bloki 04 nż
-1910	2	209593	04:55:00	04:55:00		Miła szkoła 06 nż
-1910	2	209593	04:56:00	04:56:00		Kard. K. Wojtyły kościół 05 nż
-1910	2	209593	04:58:00	04:58:00		Kard. K. Wojtyły pętla 03 nż
-1910	2	209593	04:59:00	04:59:00		Kard. K .Wojtyły / Sikorskiego 01 nż
-1910	2	209593	05:00:00	05:00:00		Sikorskiego / Kard. K. Wojtyły 16 nż
-1910	2	209593	05:01:00	05:01:00		Sikorskiego granica 18 nż
-1910	2	209593	05:02:00	05:02:00		Sikorskiego MPGK 20
+1830	1	220458	04:32:00	04:32:00		Trembeckiego ZTM pętla 01
+1830	1	220458	04:33:00	04:33:00		Lubelska kościół 05 nż
+1830	1	220458	04:34:00	04:34:00		Lubelska szpital 01
+1830	1	220458	04:35:00	04:35:00		Marszałkowska 01
+1830	1	220458	04:37:00	04:37:00		Piłsudskiego U. Wojewódzki 05
+1830	1	220458	04:38:00	04:38:00		Pl. Wolności 03
+1830	1	220458	04:39:00	04:39:00		Targowa 01
+1830	1	220458	04:40:00	04:40:00		Szopena Filharmonia 02 nż
+1830	1	220458	04:41:00	04:41:00		Kilara 01 nż
+1830	1	220458	04:42:00	04:42:00		Hetmańska podzamcze 02 nż
+1830	1	220458	04:43:00	04:43:00		Hetmańska przychodnia 04
+1830	1	220458	04:44:00	04:44:00		Hetmańska ZS. Mech. 06
+1830	1	220458	04:46:00	04:46:00		Powst. Warszawy stadion 06
+1830	1	220458	04:47:00	04:47:00		Powst. Warszawy dom studenta 08
+1830	1	220458	04:48:00	04:48:00		Powst. Warszawy / Graniczna 10
+1830	1	220458	04:49:00	04:49:00		Powst. Warszawy / Sikorskiego 12 nż
+1830	1	220458	04:50:00	04:50:00		Sikorskiego katedra 04 nż
+1830	1	220458	04:51:00	04:51:00		Sikorskiego / Łukasiewicza 06 nż
+1830	1	220458	04:52:00	04:52:00		Sikorskiego domki 08 nż
+1830	1	220458	04:53:00	04:53:00		Sikorskiego / Strażacka 10 nż
+1830	1	220458	04:54:00	04:54:00		Sikorskiego / Białogórska 12 nż
+1830	1	220458	04:55:00	04:55:00		Sikorskiego / Rodzinna 14 nż
+1830	1	220458	04:57:00	04:57:00		Sikorskiego / Kard. K. Wojtyły 16 nż
+1830	1	220458	04:58:00	04:58:00		Sikorskiego granica 18 nż
+1830	1	220458	04:59:00	04:59:00		Tyczyn Grunwaldzka POM 02 nż
+1830	1	220458	05:00:00	05:00:00		Tyczyn Orkana skrzyżowanie 13 nż
+1830	1	220458	05:01:00	05:01:00		Budziwojska / Herbowa 02 nż
+1830	1	220458	05:02:00	05:02:00		Budziwojska / Legionistów 04 nż
+1830	1	220458	05:03:00	05:03:00		Budziwojska / Tarnopolska 06 nż
+1830	1	220458	05:04:00	05:04:00		Budziwojska / Karmelicka 08 nż
+1830	1	220458	05:05:00	05:05:00		Budziwojska / Jana Pawła II 10 nż
+1830	1	220458	05:06:00	05:06:00		Budziwojska szkoła 12
+1830	1	220458	05:07:00	05:07:00		Budziwojska / Podleśna 14 nż
+1830	1	220458	05:09:00	05:09:00		Budziwojska / Kwiatowa 16 nż
+1830	1	220458	05:10:00	05:10:00		Poselska / Budziwojska 03 nż
+1830	1	220458	05:11:00	05:11:00		Poselska / Podleśna 01 nż
+1830	1	220458	05:13:00	05:13:00		Podleśna / Podlesie 02 nż
+1830	1	220458	05:14:00	05:14:00		Podleśna / Liliowa 04 nż
+1830	1	220458	05:15:00	05:15:00		Podleśna / Nadziei 06 nż
+1830	1	220458	05:17:00	05:17:00		Podleśna / Jarzębinowa 08 nż
+1830	1	220458	05:18:00	05:18:00		Hermanowa Przylasek 02 nż
+1830	1	220458	05:19:00	05:19:00		Hermanowa Przylasek źródełko 04 nż
+1830	1	220458	05:20:00	05:20:00		Hermanowa Przylasek pętla 05
 
-1901	2	210408	05:31:00	05:31:00		Sikorskiego MPGK 20
-1901	2	210408	05:32:00	05:32:00		Sikorskiego granica 15 nż
-1901	2	210408	05:33:00	05:33:00		Sikorskiego / Ruczajowa 13 nż
-1901	2	210408	05:34:00	05:34:00		Kard. K. Wojtyły / Sikorskiego 02 nż
-1901	2	210408	05:35:00	05:35:00		Kard. K. Wojtyły pętla 04 nż
-1901	2	210408	05:36:00	05:36:00		Kard. K. Wojtyły kościół 06 nż
-1901	2	210408	05:37:00	05:37:00		Miła dom kultury 05 nż
-1901	2	210408	05:38:00	05:38:00		Miła bloki 03 nż
-1901	2	210408	05:39:00	05:39:00		Miła / Strażacka 01 nż
-1901	2	210408	05:40:00	05:40:00		Strażacka / Urocza 03 nż
-1901	2	210408	05:41:00	05:41:00		Strażacka / Graniczna 01 nż
-1901	2	210408	05:42:00	05:42:00		Kwiatkowskiego / Strażacka 03 nż
-1901	2	210408	05:43:00	05:43:00		Kwiatkowskiego dom studenta 01 nż
-1901	2	210408	05:45:00	05:45:00		Podwisłocze / Powst. Warszawy 02
-1901	2	210408	05:46:00	05:46:00		Podwisłocze / Seniora 04
-1901	2	210408	05:47:00	05:47:00		Kopisto Most Zamkowy 04
-1901	2	210408	05:48:00	05:48:00		Szopena Filharmonia 01 nż
-1901	2	210408	05:50:00	05:50:00		Targowa 02
-1901	2	210408	05:52:00	05:52:00		Pl. Wolności 04
-1901	2	210408	05:53:00	05:53:00		Piłsudskiego U. Wojewódzki 06
-1901	2	210408	05:55:00	05:55:00		Marszałkowska 02
-1901	2	210408	05:56:00	05:56:00		Lubelska szpital 02
-1901	2	210408	05:57:00	05:57:00		Lubelska kościół 06 nż
-1901	2	210408	05:58:00	05:58:00		Lubelska / Borowa 08 nż
-1901	2	210408	05:59:00	05:59:00		Lubelska Os. Ogrody 10 nż
-1901	2	210408	06:00:00	06:00:00		Lubelska Ogrody Hiszpańskie 12 nż
-1901	2	210408	06:01:00	06:01:00		Lubelska MPK 14 nż
-1901	2	210408	06:02:00	06:02:00		Lubelska Zajezdnia MPK
+1848	1	220541	05:22:00	05:22:00		Hermanowa Przylasek pętla 05
+1848	1	220541	05:23:00	05:23:00		Hermanowa Przylasek źródełko 03 nż
+1848	1	220541	05:24:00	05:24:00		Hermanowa Przylasek 01 nż
+1848	1	220541	05:25:00	05:25:00		Podleśna / Jarzębinowa 07 nż
+1848	1	220541	05:27:00	05:27:00		Podleśna / Nadziei 05 nż
+1848	1	220541	05:28:00	05:28:00		Podleśna / Laskowa 03 nż
+1848	1	220541	05:29:00	05:29:00		Podleśna / Podlesie 01 nż
+1848	1	220541	05:31:00	05:31:00		Poselska / Podleśna 02 nż
+1848	1	220541	05:32:00	05:32:00		Poselska / Budziwojska 04 nż
+1848	1	220541	05:33:00	05:33:00		Budziwojska / Kwiatowa 13 nż
+1848	1	220541	05:34:00	05:34:00		Budziwojska / Podleśna 11 nż
+1848	1	220541	05:35:00	05:35:00		Budziwojska cmentarz 09
+1848	1	220541	05:36:00	05:36:00		Budziwojska / Jana Pawła II 07 nż
+1848	1	220541	05:37:00	05:37:00		Budziwojska / Karmelicka 05 nż
+1848	1	220541	05:38:00	05:38:00		Budziwojska / Tarnopolska 03 nż
+1848	1	220541	05:39:00	05:39:00		Budziwojska / Legionistów 01 nż
+1848	1	220541	05:40:00	05:40:00		Tyczyn Orkana stawy 14 nż
+1848	1	220541	05:41:00	05:41:00		Tyczyn Orkana skrzyżowanie 16
+1848	1	220541	05:42:00	05:42:00		Tyczyn Grunwaldzka POM 27 nż
+1848	1	220541	05:43:00	05:43:00		Sikorskiego granica 15 nż
+1848	1	220541	05:44:00	05:44:00		Sikorskiego / Ruczajowa 13 nż
+1848	1	220541	05:45:00	05:45:00		Sikorskiego / Kard. K. Wojtyły 11 nż
+1848	1	220541	05:46:00	05:46:00		Sikorskiego / Rodzinna 09 nż
+1848	1	220541	05:47:00	05:47:00		Sikorskiego / Białogórska 07 nż
+1848	1	220541	05:48:00	05:48:00		Sikorskiego / Robotnicza 05 nż
+1848	1	220541	05:49:00	05:49:00		Sikorskiego domki 03 nż
+1848	1	220541	05:51:00	05:51:00		Sikorskiego katedra 01 nż
+1848	1	220541	05:53:00	05:53:00		Powst. Warszawy / Rejtana 13
+1848	1	220541	05:54:00	05:54:00		Powst. Warszawy szkoła 11
+1848	1	220541	05:55:00	05:55:00		Powst. Warszawy dom studenta 09
+1848	1	220541	05:56:00	05:56:00		Powst. Warszawy stadion 05 nż
+1848	1	220541	05:57:00	05:57:00		Hetmańska stadion 07
+1848	1	220541	05:58:00	05:58:00		Hetmańska ZS. Mech. 05
+1848	1	220541	05:59:00	05:59:00		Hetmańska przychodnia 03
+1848	1	220541	06:00:00	06:00:00		Hetmańska podzamcze 01 nż
+1848	1	220541	06:01:00	06:01:00		Kilara 02 nż
+1848	1	220541	06:02:00	06:02:00		Szopena Filharmonia 01 nż
+1848	1	220541	06:04:00	06:04:00		Targowa 02
+1848	1	220541	06:06:00	06:06:00		Pl. Wolności 04
+1848	1	220541	06:07:00	06:07:00		Piłsudskiego U. Wojewódzki 06
+1848	1	220541	06:09:00	06:09:00		Marszałkowska 02
+1848	1	220541	06:10:00	06:10:00		Lubelska szpital 02
+1848	1	220541	06:11:00	06:11:00		Lubelska kościół 06 nż
+1848	1	220541	06:13:00	06:13:00		Trembeckiego ZTM pętla 01
 
-952	2	215413	07:12:00	07:12:00		Lubelska Zajezdnia MPK
-952	2	215413	07:13:00	07:13:00		Lubelska MPK 13 nż
-952	2	215413	07:14:00	07:14:00		Lubelska Ogrody Hiszpańskie 11 nż
-952	2	215413	07:15:00	07:15:00		Lubelska Os. Ogrody 09 nż
-952	2	215413	07:16:00	07:16:00		Lubelska / Borowa 07 nż
-952	2	215413	07:18:00	07:18:00		Trembeckiego ZTM pętla 01
-952	2	215413	07:20:00	07:20:00		Lubelska kościół 05 nż
-952	2	215413	07:21:00	07:21:00		Lubelska szpital 01
-952	2	215413	07:22:00	07:22:00		Marszałkowska 01
-952	2	215413	07:25:00	07:25:00		Cieplińskiego 02
-952	2	215413	07:26:00	07:26:00		Lisa-Kuli 01
-952	2	215413	07:28:00	07:28:00		Dąbrowskiego park 02 nż
-952	2	215413	07:29:00	07:29:00		Dąbrowskiego KW. Policji 04
-952	2	215413	07:30:00	07:30:00		Dąbrowskiego / Bat. Chłopskich 10
-952	2	215413	07:32:00	07:32:00		Podkarpacka politechnika 02
-952	2	215413	07:33:00	07:33:00		Podkarpacka / Matuszczaka 04
-952	2	215413	07:34:00	07:34:00		Podkarpacka / Wetlińska 06 nż
-952	2	215413	07:36:00	07:36:00		Podkarpacka kościół 08 nż
-952	2	215413	07:37:00	07:37:00		Beskidzka szkoła 02 nż
-952	2	215413	07:39:00	07:39:00		Beskidzka / Karkonoska 04 nż
-952	2	215413	07:40:00	07:40:00		Beskidzka Pod Racławówką 06 nż
-952	2	215413	07:41:00	07:41:00		Beskidzka granica 07 nż
+1910	1	220522	06:29:00	06:29:00		Lubelska Zajezdnia MPK
+1910	1	220522	06:30:00	06:30:00		Lubelska MPK 13 nż
+1910	1	220522	06:31:00	06:31:00		Lubelska Ogrody Hiszpańskie 11 nż
+1910	1	220522	06:32:00	06:32:00		Lubelska Os. Ogrody 09 nż
+1910	1	220522	06:33:00	06:33:00		Lubelska / Borowa 07 nż
+1910	1	220522	06:35:00	06:35:00		Lubelska kościół 05 nż
+1910	1	220522	06:36:00	06:36:00		Lubelska szpital 01
+1910	1	220522	06:37:00	06:37:00		Marszałkowska 01
+1910	1	220522	06:40:00	06:40:00		Piłsudskiego U. Wojewódzki 05
+1910	1	220522	06:41:00	06:41:00		Pl. Wolności 03
+1910	1	220522	06:43:00	06:43:00		Targowa 01
+1910	1	220522	06:45:00	06:45:00		Szopena Filharmonia 02 nż
+1910	1	220522	06:48:00	06:48:00		Podwisłocze U. Skarbowy 03
+1910	1	220522	06:49:00	06:49:00		Podwisłocze domki 01
+1910	1	220522	06:51:00	06:51:00		Kwiatkowskiego / Powst. Warszawy 02
+1910	1	220522	06:52:00	06:52:00		Kwiatkowskiego dom studenta 04 nż
+1910	1	220522	06:53:00	06:53:00		Kwiatkowskiego / Strażacka 06 nż
+1910	1	220522	06:54:00	06:54:00		Strażacka / Graniczna 02 nż
+1910	1	220522	06:55:00	06:55:00		Strażacka / Urocza 04 nż
+1910	1	220522	06:56:00	06:56:00		Miła / Strażacka 02 nż
+1910	1	220522	06:57:00	06:57:00		Miła bloki 04 nż
+1910	1	220522	06:58:00	06:58:00		Miła szkoła 06 nż
+1910	1	220522	06:59:00	06:59:00		Kard. K. Wojtyły kościół 05 nż
+1910	1	220522	07:01:00	07:01:00		Kard. K. Wojtyły pętla 03 nż
+1910	1	220522	07:02:00	07:02:00		Kard. K .Wojtyły / Sikorskiego 01 nż
+1910	1	220522	07:03:00	07:03:00		Sikorskiego / Kard. K. Wojtyły 16 nż
+1910	1	220522	07:04:00	07:04:00		Sikorskiego granica 18 nż
+1910	1	220522	07:06:00	07:06:00		Sikorskiego MPGK 20
 
-954	2	214165	08:01:00	08:01:00		Beskidzka granica 07 nż
-954	2	214165	08:02:00	08:02:00		Beskidzka Pod Racławówką 05 nż
-954	2	214165	08:03:00	08:03:00		Beskidzka / Karkonoska 03 nż
-954	2	214165	08:04:00	08:04:00		Karkonoska / Beskidzka 02 nż
-954	2	214165	08:05:00	08:05:00		Karkonoska środek 04 nż
-954	2	214165	08:06:00	08:06:00		Karkonoska pętla 06 nż
-954	2	214165	08:07:00	08:07:00		Racławówka Doły wieś 03 nż
-954	2	214165	08:08:00	08:08:00		Racławówka Doły pętla 04 nż
-954	2	214165	08:09:00	08:09:00		Racławówka Doły wieś 06 nż
-954	2	214165	08:10:00	08:10:00		Karkonoska pętla 05 nż
-954	2	214165	08:11:00	08:11:00		Karkonoska środek 03 nż
-954	2	214165	08:12:00	08:12:00		Karkonoska / Beskidzka 01 nż
-954	2	214165	08:14:00	08:14:00		Beskidzka szkoła 01 nż
-954	2	214165	08:15:00	08:15:00		Podkarpacka kościół 07 nż
-954	2	214165	08:16:00	08:16:00		Podkarpacka / Wetlińska 05 nż
-954	2	214165	08:17:00	08:17:00		Podkarpacka / Matuszczaka 03
-954	2	214165	08:19:00	08:19:00		Podkarpacka politechnika 01
-954	2	214165	08:21:00	08:21:00		Dąbrowskiego / Chrobrego 07
-954	2	214165	08:22:00	08:22:00		Dąbrowskiego KW. Policji 03
-954	2	214165	08:23:00	08:23:00		Dąbrowskiego park 01 nż
-954	2	214165	08:27:00	08:27:00		Lisa-Kuli 02
-954	2	214165	08:28:00	08:28:00		Cieplińskiego 01
-954	2	214165	08:30:00	08:30:00		Marszałkowska 02
-954	2	214165	08:31:00	08:31:00		Lubelska szpital 02
-954	2	214165	08:32:00	08:32:00		Lubelska kościół 06 nż
-954	2	214165	08:34:00	08:34:00		Trembeckiego ZTM pętla 01
-954	2	214165	08:36:00	08:36:00		Lubelska / Borowa 08 nż
-954	2	214165	08:38:00	08:38:00		Lubelska Os. Ogrody 10 nż
-954	2	214165	08:39:00	08:39:00		Lubelska Ogrody Hiszpańskie 12 nż
-954	2	214165	08:40:00	08:40:00		Lubelska MPK 14 nż
-954	2	214165	08:41:00	08:41:00		Lubelska Zajezdnia MPK
+1901	1	220431	07:30:00	07:30:00		Sikorskiego MPGK 20
+1901	1	220431	07:31:00	07:31:00		Sikorskiego granica 15 nż
+1901	1	220431	07:32:00	07:32:00		Sikorskiego / Ruczajowa 13 nż
+1901	1	220431	07:33:00	07:33:00		Kard. K. Wojtyły / Sikorskiego 02 nż
+1901	1	220431	07:34:00	07:34:00		Kard. K. Wojtyły pętla 04 nż
+1901	1	220431	07:35:00	07:35:00		Kard. K. Wojtyły kościół 06 nż
+1901	1	220431	07:37:00	07:37:00		Miła dom kultury 05 nż
+1901	1	220431	07:38:00	07:38:00		Miła bloki 03 nż
+1901	1	220431	07:39:00	07:39:00		Miła / Strażacka 01 nż
+1901	1	220431	07:40:00	07:40:00		Strażacka / Urocza 03 nż
+1901	1	220431	07:41:00	07:41:00		Strażacka / Graniczna 01 nż
+1901	1	220431	07:42:00	07:42:00		Kwiatkowskiego / Strażacka 03 nż
+1901	1	220431	07:43:00	07:43:00		Kwiatkowskiego dom studenta 01 nż
+1901	1	220431	07:45:00	07:45:00		Podwisłocze / Powst. Warszawy 02
+1901	1	220431	07:46:00	07:46:00		Podwisłocze / Seniora 04
+1901	1	220431	07:48:00	07:48:00		Kopisto Most Zamkowy 04
+1901	1	220431	07:49:00	07:49:00		Szopena Filharmonia 01 nż
+1901	1	220431	07:51:00	07:51:00		Targowa 02
+1901	1	220431	07:53:00	07:53:00		Pl. Wolności 04
+1901	1	220431	07:54:00	07:54:00		Piłsudskiego U. Wojewódzki 06
+1901	1	220431	07:57:00	07:57:00		Marszałkowska 02
+1901	1	220431	07:58:00	07:58:00		Lubelska szpital 02
+1901	1	220431	07:59:00	07:59:00		Lubelska kościół 06 nż
+1901	1	220431	08:01:00	08:01:00		Lubelska / Borowa 08 nż
+1901	1	220431	08:03:00	08:03:00		Lubelska Os. Ogrody 10 nż
+1901	1	220431	08:04:00	08:04:00		Lubelska Ogrody Hiszpańskie 12 nż
+1901	1	220431	08:05:00	08:05:00		Lubelska MPK 14 nż
+1901	1	220431	08:06:00	08:06:00		Lubelska Zajezdnia MPK
 
-1910	2	212536	09:29:00	09:29:00		Lubelska Zajezdnia MPK
-1910	2	212536	09:30:00	09:30:00		Lubelska MPK 13 nż
-1910	2	212536	09:31:00	09:31:00		Lubelska Ogrody Hiszpańskie 11 nż
-1910	2	212536	09:32:00	09:32:00		Lubelska Os. Ogrody 09 nż
-1910	2	212536	09:33:00	09:33:00		Lubelska / Borowa 07 nż
-1910	2	212536	09:35:00	09:35:00		Lubelska kościół 05 nż
-1910	2	212536	09:36:00	09:36:00		Lubelska szpital 01
-1910	2	212536	09:37:00	09:37:00		Marszałkowska 01
-1910	2	212536	09:40:00	09:40:00		Piłsudskiego U. Wojewódzki 05
-1910	2	212536	09:41:00	09:41:00		Pl. Wolności 03
-1910	2	212536	09:43:00	09:43:00		Targowa 01
-1910	2	212536	09:45:00	09:45:00		Szopena Filharmonia 02 nż
-1910	2	212536	09:48:00	09:48:00		Podwisłocze U. Skarbowy 03
-1910	2	212536	09:49:00	09:49:00		Podwisłocze domki 01
-1910	2	212536	09:51:00	09:51:00		Kwiatkowskiego / Powst. Warszawy 02
-1910	2	212536	09:52:00	09:52:00		Kwiatkowskiego dom studenta 04 nż
-1910	2	212536	09:53:00	09:53:00		Kwiatkowskiego / Strażacka 06 nż
-1910	2	212536	09:54:00	09:54:00		Strażacka / Graniczna 02 nż
-1910	2	212536	09:55:00	09:55:00		Strażacka / Urocza 04 nż
-1910	2	212536	09:56:00	09:56:00		Miła / Strażacka 02 nż
-1910	2	212536	09:57:00	09:57:00		Miła bloki 04 nż
-1910	2	212536	09:58:00	09:58:00		Miła szkoła 06 nż
-1910	2	212536	09:59:00	09:59:00		Kard. K. Wojtyły kościół 05 nż
-1910	2	212536	10:01:00	10:01:00		Kard. K. Wojtyły pętla 03 nż
-1910	2	212536	10:02:00	10:02:00		Kard. K .Wojtyły / Sikorskiego 01 nż
-1910	2	212536	10:03:00	10:03:00		Sikorskiego / Kard. K. Wojtyły 16 nż
-1910	2	212536	10:04:00	10:04:00		Sikorskiego granica 18 nż
-1910	2	212536	10:06:00	10:06:00		Sikorskiego MPGK 20
+1910	1	220352	08:29:00	08:29:00		Lubelska Zajezdnia MPK
+1910	1	220352	08:30:00	08:30:00		Lubelska MPK 13 nż
+1910	1	220352	08:31:00	08:31:00		Lubelska Ogrody Hiszpańskie 11 nż
+1910	1	220352	08:32:00	08:32:00		Lubelska Os. Ogrody 09 nż
+1910	1	220352	08:33:00	08:33:00		Lubelska / Borowa 07 nż
+1910	1	220352	08:35:00	08:35:00		Lubelska kościół 05 nż
+1910	1	220352	08:36:00	08:36:00		Lubelska szpital 01
+1910	1	220352	08:37:00	08:37:00		Marszałkowska 01
+1910	1	220352	08:40:00	08:40:00		Piłsudskiego U. Wojewódzki 05
+1910	1	220352	08:41:00	08:41:00		Pl. Wolności 03
+1910	1	220352	08:43:00	08:43:00		Targowa 01
+1910	1	220352	08:45:00	08:45:00		Szopena Filharmonia 02 nż
+1910	1	220352	08:48:00	08:48:00		Podwisłocze U. Skarbowy 03
+1910	1	220352	08:49:00	08:49:00		Podwisłocze domki 01
+1910	1	220352	08:51:00	08:51:00		Kwiatkowskiego / Powst. Warszawy 02
+1910	1	220352	08:52:00	08:52:00		Kwiatkowskiego dom studenta 04 nż
+1910	1	220352	08:53:00	08:53:00		Kwiatkowskiego / Strażacka 06 nż
+1910	1	220352	08:54:00	08:54:00		Strażacka / Graniczna 02 nż
+1910	1	220352	08:55:00	08:55:00		Strażacka / Urocza 04 nż
+1910	1	220352	08:56:00	08:56:00		Miła / Strażacka 02 nż
+1910	1	220352	08:57:00	08:57:00		Miła bloki 04 nż
+1910	1	220352	08:58:00	08:58:00		Miła szkoła 06 nż
+1910	1	220352	08:59:00	08:59:00		Kard. K. Wojtyły kościół 05 nż
+1910	1	220352	09:01:00	09:01:00		Kard. K. Wojtyły pętla 03 nż
+1910	1	220352	09:02:00	09:02:00		Kard. K .Wojtyły / Sikorskiego 01 nż
+1910	1	220352	09:03:00	09:03:00		Sikorskiego / Kard. K. Wojtyły 16 nż
+1910	1	220352	09:04:00	09:04:00		Sikorskiego granica 18 nż
+1910	1	220352	09:06:00	09:06:00		Sikorskiego MPGK 20
 
-1901	2	209551	10:30:00	10:30:00		Sikorskiego MPGK 20
-1901	2	209551	10:31:00	10:31:00		Sikorskiego granica 15 nż
-1901	2	209551	10:32:00	10:32:00		Sikorskiego / Ruczajowa 13 nż
-1901	2	209551	10:33:00	10:33:00		Kard. K. Wojtyły / Sikorskiego 02 nż
-1901	2	209551	10:34:00	10:34:00		Kard. K. Wojtyły pętla 04 nż
-1901	2	209551	10:35:00	10:35:00		Kard. K. Wojtyły kościół 06 nż
-1901	2	209551	10:37:00	10:37:00		Miła dom kultury 05 nż
-1901	2	209551	10:38:00	10:38:00		Miła bloki 03 nż
-1901	2	209551	10:39:00	10:39:00		Miła / Strażacka 01 nż
-1901	2	209551	10:40:00	10:40:00		Strażacka / Urocza 03 nż
-1901	2	209551	10:41:00	10:41:00		Strażacka / Graniczna 01 nż
-1901	2	209551	10:42:00	10:42:00		Kwiatkowskiego / Strażacka 03 nż
-1901	2	209551	10:43:00	10:43:00		Kwiatkowskiego dom studenta 01 nż
-1901	2	209551	10:45:00	10:45:00		Podwisłocze / Powst. Warszawy 02
-1901	2	209551	10:46:00	10:46:00		Podwisłocze / Seniora 04
-1901	2	209551	10:48:00	10:48:00		Kopisto Most Zamkowy 04
-1901	2	209551	10:49:00	10:49:00		Szopena Filharmonia 01 nż
-1901	2	209551	10:52:00	10:52:00		Targowa 02
-1901	2	209551	10:54:00	10:54:00		Pl. Wolności 04
-1901	2	209551	10:55:00	10:55:00		Piłsudskiego U. Wojewódzki 06
-1901	2	209551	10:58:00	10:58:00		Marszałkowska 02
-1901	2	209551	10:59:00	10:59:00		Lubelska szpital 02
-1901	2	209551	11:00:00	11:00:00		Lubelska kościół 06 nż
-1901	2	209551	11:02:00	11:02:00		Lubelska / Borowa 08 nż
-1901	2	209551	11:04:00	11:04:00		Lubelska Os. Ogrody 10 nż
-1901	2	209551	11:05:00	11:05:00		Lubelska Ogrody Hiszpańskie 12 nż
-1901	2	209551	11:06:00	11:06:00		Lubelska MPK 14 nż
-1901	2	209551	11:07:00	11:07:00		Lubelska Zajezdnia MPK
+1901	1	220402	09:30:00	09:30:00		Sikorskiego MPGK 20
+1901	1	220402	09:31:00	09:31:00		Sikorskiego granica 15 nż
+1901	1	220402	09:32:00	09:32:00		Sikorskiego / Ruczajowa 13 nż
+1901	1	220402	09:33:00	09:33:00		Kard. K. Wojtyły / Sikorskiego 02 nż
+1901	1	220402	09:34:00	09:34:00		Kard. K. Wojtyły pętla 04 nż
+1901	1	220402	09:35:00	09:35:00		Kard. K. Wojtyły kościół 06 nż
+1901	1	220402	09:37:00	09:37:00		Miła dom kultury 05 nż
+1901	1	220402	09:38:00	09:38:00		Miła bloki 03 nż
+1901	1	220402	09:39:00	09:39:00		Miła / Strażacka 01 nż
+1901	1	220402	09:40:00	09:40:00		Strażacka / Urocza 03 nż
+1901	1	220402	09:41:00	09:41:00		Strażacka / Graniczna 01 nż
+1901	1	220402	09:42:00	09:42:00		Kwiatkowskiego / Strażacka 03 nż
+1901	1	220402	09:43:00	09:43:00		Kwiatkowskiego dom studenta 01 nż
+1901	1	220402	09:45:00	09:45:00		Podwisłocze / Powst. Warszawy 02
+1901	1	220402	09:46:00	09:46:00		Podwisłocze / Seniora 04
+1901	1	220402	09:48:00	09:48:00		Kopisto Most Zamkowy 04
+1901	1	220402	09:49:00	09:49:00		Szopena Filharmonia 01 nż
+1901	1	220402	09:51:00	09:51:00		Targowa 02
+1901	1	220402	09:53:00	09:53:00		Pl. Wolności 04
+1901	1	220402	09:54:00	09:54:00		Piłsudskiego U. Wojewódzki 06
+1901	1	220402	09:57:00	09:57:00		Marszałkowska 02
+1901	1	220402	09:58:00	09:58:00		Lubelska szpital 02
+1901	1	220402	09:59:00	09:59:00		Lubelska kościół 06 nż
+1901	1	220402	10:01:00	10:01:00		Lubelska / Borowa 08 nż
+1901	1	220402	10:03:00	10:03:00		Lubelska Os. Ogrody 10 nż
+1901	1	220402	10:04:00	10:04:00		Lubelska Ogrody Hiszpańskie 12 nż
+1901	1	220402	10:05:00	10:05:00		Lubelska MPK 14 nż
+1901	1	220402	10:06:00	10:06:00		Lubelska Zajezdnia MPK
 
-955	2	208863	12:10:00	12:10:00		Lubelska Zajezdnia MPK
-955	2	208863	12:11:00	12:11:00		Lubelska MPK 13 nż
-955	2	208863	12:12:00	12:12:00		Lubelska Ogrody Hiszpańskie 11 nż
-955	2	208863	12:13:00	12:13:00		Lubelska Os. Ogrody 09 nż
-955	2	208863	12:14:00	12:14:00		Lubelska / Borowa 07 nż
-955	2	208863	12:17:00	12:17:00		Trembeckiego ZTM pętla 01
-955	2	208863	12:20:00	12:20:00		Lubelska kościół 05 nż
-955	2	208863	12:21:00	12:21:00		Lubelska szpital 01
-955	2	208863	12:22:00	12:22:00		Marszałkowska 01
-955	2	208863	12:25:00	12:25:00		Cieplińskiego 02
-955	2	208863	12:26:00	12:26:00		Lisa-Kuli 01
-955	2	208863	12:29:00	12:29:00		Dąbrowskiego park 02 nż
-955	2	208863	12:30:00	12:30:00		Dąbrowskiego KW. Policji 04
-955	2	208863	12:31:00	12:31:00		Dąbrowskiego / Bat. Chłopskich 10
-955	2	208863	12:34:00	12:34:00		Podkarpacka politechnika 02
-955	2	208863	12:35:00	12:35:00		Podkarpacka / Matuszczaka 04
-955	2	208863	12:36:00	12:36:00		Podkarpacka / Wetlińska 06 nż
-955	2	208863	12:38:00	12:38:00		Podkarpacka kościół 08 nż
-955	2	208863	12:39:00	12:39:00		Beskidzka szkoła 02 nż
-955	2	208863	12:41:00	12:41:00		Karkonoska / Beskidzka 02 nż
-955	2	208863	12:42:00	12:42:00		Karkonoska środek 04 nż
-955	2	208863	12:43:00	12:43:00		Karkonoska pętla 06 nż
-955	2	208863	12:44:00	12:44:00		Racławówka Doły wieś 03 nż
-955	2	208863	12:45:00	12:45:00		Racławówka Doły pętla 04 nż
-955	2	208863	12:46:00	12:46:00		Racławówka Doły wieś 06 nż
-955	2	208863	12:47:00	12:47:00		Karkonoska pętla 05 nż
-955	2	208863	12:48:00	12:48:00		Karkonoska środek 03 nż
-955	2	208863	12:49:00	12:49:00		Karkonoska / Beskidzka 01 nż
-955	2	208863	12:50:00	12:50:00		Beskidzka / Karkonoska 04 nż
-955	2	208863	12:51:00	12:51:00		Beskidzka Pod Racławówką 06 nż
-955	2	208863	12:52:00	12:52:00		Beskidzka granica 07 nż
+1910	1	220713	10:28:00	10:28:00		Lubelska Zajezdnia MPK
+1910	1	220713	10:29:00	10:29:00		Lubelska MPK 13 nż
+1910	1	220713	10:30:00	10:30:00		Lubelska Ogrody Hiszpańskie 11 nż
+1910	1	220713	10:31:00	10:31:00		Lubelska Os. Ogrody 09 nż
+1910	1	220713	10:32:00	10:32:00		Lubelska / Borowa 07 nż
+1910	1	220713	10:34:00	10:34:00		Lubelska kościół 05 nż
+1910	1	220713	10:35:00	10:35:00		Lubelska szpital 01
+1910	1	220713	10:36:00	10:36:00		Marszałkowska 01
+1910	1	220713	10:40:00	10:40:00		Piłsudskiego U. Wojewódzki 05
+1910	1	220713	10:41:00	10:41:00		Pl. Wolności 03
+1910	1	220713	10:43:00	10:43:00		Targowa 01
+1910	1	220713	10:45:00	10:45:00		Szopena Filharmonia 02 nż
+1910	1	220713	10:48:00	10:48:00		Podwisłocze U. Skarbowy 03
+1910	1	220713	10:49:00	10:49:00		Podwisłocze domki 01
+1910	1	220713	10:52:00	10:52:00		Kwiatkowskiego / Powst. Warszawy 02
+1910	1	220713	10:53:00	10:53:00		Kwiatkowskiego dom studenta 04 nż
+1910	1	220713	10:54:00	10:54:00		Kwiatkowskiego / Strażacka 06 nż
+1910	1	220713	10:55:00	10:55:00		Strażacka / Graniczna 02 nż
+1910	1	220713	10:56:00	10:56:00		Strażacka / Urocza 04 nż
+1910	1	220713	10:57:00	10:57:00		Miła / Strażacka 02 nż
+1910	1	220713	10:58:00	10:58:00		Miła bloki 04 nż
+1910	1	220713	10:59:00	10:59:00		Miła szkoła 06 nż
+1910	1	220713	11:00:00	11:00:00		Kard. K. Wojtyły kościół 05 nż
+1910	1	220713	11:02:00	11:02:00		Kard. K. Wojtyły pętla 03 nż
+1910	1	220713	11:03:00	11:03:00		Kard. K .Wojtyły / Sikorskiego 01 nż
+1910	1	220713	11:04:00	11:04:00		Sikorskiego / Kard. K. Wojtyły 16 nż
+1910	1	220713	11:05:00	11:05:00		Sikorskiego granica 18 nż
+1910	1	220713	11:07:00	11:07:00		Sikorskiego MPGK 20
 
-956	2	213344	13:10:00	13:10:00		Beskidzka granica 07 nż
-956	2	213344	13:11:00	13:11:00		Beskidzka Pod Racławówką 05 nż
-956	2	213344	13:12:00	13:12:00		Beskidzka / Karkonoska 03 nż
-956	2	213344	13:14:00	13:14:00		Beskidzka szkoła 01 nż
-956	2	213344	13:15:00	13:15:00		Podkarpacka kościół 07 nż
-956	2	213344	13:16:00	13:16:00		Podkarpacka / Wetlińska 05 nż
-956	2	213344	13:17:00	13:17:00		Podkarpacka / Matuszczaka 03
-956	2	213344	13:19:00	13:19:00		Podkarpacka politechnika 01
-956	2	213344	13:21:00	13:21:00		Dąbrowskiego / Chrobrego 07
-956	2	213344	13:22:00	13:22:00		Dąbrowskiego KW. Policji 03
-956	2	213344	13:23:00	13:23:00		Dąbrowskiego park 01 nż
-956	2	213344	13:27:00	13:27:00		Lisa-Kuli 02
-956	2	213344	13:28:00	13:28:00		Cieplińskiego 01
-956	2	213344	13:31:00	13:31:00		Marszałkowska 02
-956	2	213344	13:32:00	13:32:00		Lubelska szpital 02
-956	2	213344	13:33:00	13:33:00		Lubelska kościół 06 nż
-956	2	213344	13:35:00	13:35:00		Trembeckiego ZTM pętla 01
-956	2	213344	13:37:00	13:37:00		Lubelska / Borowa 08 nż
-956	2	213344	13:39:00	13:39:00		Lubelska Os. Ogrody 10 nż
-956	2	213344	13:40:00	13:40:00		Lubelska Ogrody Hiszpańskie 12 nż
-956	2	213344	13:41:00	13:41:00		Lubelska MPK 14 nż
-956	2	213344	13:42:00	13:42:00		Lubelska Zajezdnia MPK
+1901	1	220420	11:30:00	11:30:00		Sikorskiego MPGK 20
+1901	1	220420	11:31:00	11:31:00		Sikorskiego granica 15 nż
+1901	1	220420	11:32:00	11:32:00		Sikorskiego / Ruczajowa 13 nż
+1901	1	220420	11:33:00	11:33:00		Kard. K. Wojtyły / Sikorskiego 02 nż
+1901	1	220420	11:34:00	11:34:00		Kard. K. Wojtyły pętla 04 nż
+1901	1	220420	11:35:00	11:35:00		Kard. K. Wojtyły kościół 06 nż
+1901	1	220420	11:37:00	11:37:00		Miła dom kultury 05 nż
+1901	1	220420	11:38:00	11:38:00		Miła bloki 03 nż
+1901	1	220420	11:39:00	11:39:00		Miła / Strażacka 01 nż
+1901	1	220420	11:40:00	11:40:00		Strażacka / Urocza 03 nż
+1901	1	220420	11:41:00	11:41:00		Strażacka / Graniczna 01 nż
+1901	1	220420	11:42:00	11:42:00		Kwiatkowskiego / Strażacka 03 nż
+1901	1	220420	11:43:00	11:43:00		Kwiatkowskiego dom studenta 01 nż
+1901	1	220420	11:45:00	11:45:00		Podwisłocze / Powst. Warszawy 02
+1901	1	220420	11:46:00	11:46:00		Podwisłocze / Seniora 04
+1901	1	220420	11:48:00	11:48:00		Kopisto Most Zamkowy 04
+1901	1	220420	11:49:00	11:49:00		Szopena Filharmonia 01 nż
+1901	1	220420	11:52:00	11:52:00		Targowa 02
+1901	1	220420	11:54:00	11:54:00		Pl. Wolności 04
+1901	1	220420	11:55:00	11:55:00		Piłsudskiego U. Wojewódzki 06
+1901	1	220420	11:58:00	11:58:00		Marszałkowska 02
+1901	1	220420	11:59:00	11:59:00		Lubelska szpital 02
+1901	1	220420	12:00:00	12:00:00		Lubelska kościół 06 nż
+1901	1	220420	12:02:00	12:02:00		Lubelska / Borowa 08 nż
+1901	1	220420	12:04:00	12:04:00		Lubelska Os. Ogrody 10 nż
+1901	1	220420	12:05:00	12:05:00		Lubelska Ogrody Hiszpańskie 12 nż
+1901	1	220420	12:06:00	12:06:00		Lubelska MPK 14 nż
+1901	1	220420	12:07:00	12:07:00		Lubelska Zajezdnia MPK
 
-1910	2	212688	14:29:00	14:29:00		Lubelska Zajezdnia MPK
-1910	2	212688	14:30:00	14:30:00		Lubelska MPK 13 nż
-1910	2	212688	14:31:00	14:31:00		Lubelska Ogrody Hiszpańskie 11 nż
-1910	2	212688	14:32:00	14:32:00		Lubelska Os. Ogrody 09 nż
-1910	2	212688	14:33:00	14:33:00		Lubelska / Borowa 07 nż
-1910	2	212688	14:34:00	14:34:00		Lubelska kościół 05 nż
-1910	2	212688	14:35:00	14:35:00		Lubelska szpital 01
-1910	2	212688	14:36:00	14:36:00		Marszałkowska 01
-1910	2	212688	14:40:00	14:40:00		Piłsudskiego U. Wojewódzki 05
-1910	2	212688	14:41:00	14:41:00		Pl. Wolności 03
-1910	2	212688	14:42:00	14:42:00		Targowa 01
-1910	2	212688	14:44:00	14:44:00		Szopena Filharmonia 02 nż
-1910	2	212688	14:47:00	14:47:00		Podwisłocze U. Skarbowy 03
-1910	2	212688	14:48:00	14:48:00		Podwisłocze domki 01
-1910	2	212688	14:51:00	14:51:00		Kwiatkowskiego / Powst. Warszawy 02
-1910	2	212688	14:52:00	14:52:00		Kwiatkowskiego dom studenta 04 nż
-1910	2	212688	14:53:00	14:53:00		Kwiatkowskiego / Strażacka 06 nż
-1910	2	212688	14:54:00	14:54:00		Strażacka / Graniczna 02 nż
-1910	2	212688	14:55:00	14:55:00		Strażacka / Urocza 04 nż
-1910	2	212688	14:56:00	14:56:00		Miła / Strażacka 02 nż
-1910	2	212688	14:57:00	14:57:00		Miła bloki 04 nż
-1910	2	212688	14:58:00	14:58:00		Miła szkoła 06 nż
-1910	2	212688	14:59:00	14:59:00		Kard. K. Wojtyły kościół 05 nż
-1910	2	212688	15:01:00	15:01:00		Kard. K. Wojtyły pętla 03 nż
-1910	2	212688	15:02:00	15:02:00		Kard. K .Wojtyły / Sikorskiego 01 nż
-1910	2	212688	15:03:00	15:03:00		Sikorskiego / Kard. K. Wojtyły 16 nż
-1910	2	212688	15:04:00	15:04:00		Sikorskiego granica 18 nż
-1910	2	212688	15:06:00	15:06:00		Sikorskiego MPGK 20
+1910	1	220566	12:28:00	12:28:00		Lubelska Zajezdnia MPK
+1910	1	220566	12:29:00	12:29:00		Lubelska MPK 13 nż
+1910	1	220566	12:30:00	12:30:00		Lubelska Ogrody Hiszpańskie 11 nż
+1910	1	220566	12:31:00	12:31:00		Lubelska Os. Ogrody 09 nż
+1910	1	220566	12:32:00	12:32:00		Lubelska / Borowa 07 nż
+1910	1	220566	12:34:00	12:34:00		Lubelska kościół 05 nż
+1910	1	220566	12:35:00	12:35:00		Lubelska szpital 01
+1910	1	220566	12:36:00	12:36:00		Marszałkowska 01
+1910	1	220566	12:40:00	12:40:00		Piłsudskiego U. Wojewódzki 05
+1910	1	220566	12:41:00	12:41:00		Pl. Wolności 03
+1910	1	220566	12:43:00	12:43:00		Targowa 01
+1910	1	220566	12:45:00	12:45:00		Szopena Filharmonia 02 nż
+1910	1	220566	12:48:00	12:48:00		Podwisłocze U. Skarbowy 03
+1910	1	220566	12:49:00	12:49:00		Podwisłocze domki 01
+1910	1	220566	12:52:00	12:52:00		Kwiatkowskiego / Powst. Warszawy 02
+1910	1	220566	12:53:00	12:53:00		Kwiatkowskiego dom studenta 04 nż
+1910	1	220566	12:54:00	12:54:00		Kwiatkowskiego / Strażacka 06 nż
+1910	1	220566	12:55:00	12:55:00		Strażacka / Graniczna 02 nż
+1910	1	220566	12:56:00	12:56:00		Strażacka / Urocza 04 nż
+1910	1	220566	12:57:00	12:57:00		Miła / Strażacka 02 nż
+1910	1	220566	12:58:00	12:58:00		Miła bloki 04 nż
+1910	1	220566	12:59:00	12:59:00		Miła szkoła 06 nż
+1910	1	220566	13:00:00	13:00:00		Kard. K. Wojtyły kościół 05 nż
+1910	1	220566	13:02:00	13:02:00		Kard. K. Wojtyły pętla 03 nż
+1910	1	220566	13:03:00	13:03:00		Kard. K .Wojtyły / Sikorskiego 01 nż
+1910	1	220566	13:04:00	13:04:00		Sikorskiego / Kard. K. Wojtyły 16 nż
+1910	1	220566	13:05:00	13:05:00		Sikorskiego granica 18 nż
+1910	1	220566	13:07:00	13:07:00		Sikorskiego MPGK 20
 
-1901	2	215913	15:30:00	15:30:00		Sikorskiego MPGK 20
-1901	2	215913	15:31:00	15:31:00		Sikorskiego granica 15 nż
-1901	2	215913	15:32:00	15:32:00		Sikorskiego / Ruczajowa 13 nż
-1901	2	215913	15:33:00	15:33:00		Kard. K. Wojtyły / Sikorskiego 02 nż
-1901	2	215913	15:34:00	15:34:00		Kard. K. Wojtyły pętla 04 nż
-1901	2	215913	15:35:00	15:35:00		Kard. K. Wojtyły kościół 06 nż
-1901	2	215913	15:37:00	15:37:00		Miła dom kultury 05 nż
-1901	2	215913	15:38:00	15:38:00		Miła bloki 03 nż
-1901	2	215913	15:39:00	15:39:00		Miła / Strażacka 01 nż
-1901	2	215913	15:40:00	15:40:00		Strażacka / Urocza 03 nż
-1901	2	215913	15:41:00	15:41:00		Strażacka / Graniczna 01 nż
-1901	2	215913	15:42:00	15:42:00		Kwiatkowskiego / Strażacka 03 nż
-1901	2	215913	15:43:00	15:43:00		Kwiatkowskiego dom studenta 01 nż
-1901	2	215913	15:45:00	15:45:00		Podwisłocze / Powst. Warszawy 02
-1901	2	215913	15:46:00	15:46:00		Podwisłocze / Seniora 04
-1901	2	215913	15:48:00	15:48:00		Kopisto Most Zamkowy 04
-1901	2	215913	15:49:00	15:49:00		Szopena Filharmonia 01 nż
-1901	2	215913	15:51:00	15:51:00		Targowa 02
-1901	2	215913	15:53:00	15:53:00		Pl. Wolności 04
-1901	2	215913	15:54:00	15:54:00		Piłsudskiego U. Wojewódzki 06
-1901	2	215913	15:57:00	15:57:00		Marszałkowska 02
-1901	2	215913	15:58:00	15:58:00		Lubelska szpital 02
-1901	2	215913	15:59:00	15:59:00		Lubelska kościół 06 nż
-1901	2	215913	16:01:00	16:01:00		Lubelska / Borowa 08 nż
-1901	2	215913	16:03:00	16:03:00		Lubelska Os. Ogrody 10 nż
-1901	2	215913	16:04:00	16:04:00		Lubelska Ogrody Hiszpańskie 12 nż
-1901	2	215913	16:05:00	16:05:00		Lubelska MPK 14 nż
-1901	2	215913	16:06:00	16:06:00		Lubelska Zajezdnia MPK
+1901	1	220392	13:30:00	13:30:00		Sikorskiego MPGK 20
+1901	1	220392	13:31:00	13:31:00		Sikorskiego granica 15 nż
+1901	1	220392	13:32:00	13:32:00		Sikorskiego / Ruczajowa 13 nż
+1901	1	220392	13:33:00	13:33:00		Kard. K. Wojtyły / Sikorskiego 02 nż
+1901	1	220392	13:34:00	13:34:00		Kard. K. Wojtyły pętla 04 nż
+1901	1	220392	13:35:00	13:35:00		Kard. K. Wojtyły kościół 06 nż
+1901	1	220392	13:37:00	13:37:00		Miła dom kultury 05 nż
+1901	1	220392	13:38:00	13:38:00		Miła bloki 03 nż
+1901	1	220392	13:39:00	13:39:00		Miła / Strażacka 01 nż
+1901	1	220392	13:40:00	13:40:00		Strażacka / Urocza 03 nż
+1901	1	220392	13:41:00	13:41:00		Strażacka / Graniczna 01 nż
+1901	1	220392	13:42:00	13:42:00		Kwiatkowskiego / Strażacka 03 nż
+1901	1	220392	13:43:00	13:43:00		Kwiatkowskiego dom studenta 01 nż
+1901	1	220392	13:45:00	13:45:00		Podwisłocze / Powst. Warszawy 02
+1901	1	220392	13:46:00	13:46:00		Podwisłocze / Seniora 04
+1901	1	220392	13:48:00	13:48:00		Kopisto Most Zamkowy 04
+1901	1	220392	13:49:00	13:49:00		Szopena Filharmonia 01 nż
+1901	1	220392	13:52:00	13:52:00		Targowa 02
+1901	1	220392	13:54:00	13:54:00		Pl. Wolności 04
+1901	1	220392	13:55:00	13:55:00		Piłsudskiego U. Wojewódzki 06
+1901	1	220392	13:58:00	13:58:00		Marszałkowska 02
+1901	1	220392	13:59:00	13:59:00		Lubelska szpital 02
+1901	1	220392	14:00:00	14:00:00		Lubelska kościół 06 nż
+1901	1	220392	14:02:00	14:02:00		Lubelska / Borowa 08 nż
+1901	1	220392	14:04:00	14:04:00		Lubelska Os. Ogrody 10 nż
+1901	1	220392	14:05:00	14:05:00		Lubelska Ogrody Hiszpańskie 12 nż
+1901	1	220392	14:06:00	14:06:00		Lubelska MPK 14 nż
+1901	1	220392	14:07:00	14:07:00		Lubelska Zajezdnia MPK
 
-955	2	215523	17:12:00	17:12:00		Lubelska Zajezdnia MPK
-955	2	215523	17:13:00	17:13:00		Lubelska MPK 13 nż
-955	2	215523	17:14:00	17:14:00		Lubelska Ogrody Hiszpańskie 11 nż
-955	2	215523	17:15:00	17:15:00		Lubelska Os. Ogrody 09 nż
-955	2	215523	17:16:00	17:16:00		Lubelska / Borowa 07 nż
-955	2	215523	17:18:00	17:18:00		Trembeckiego ZTM pętla 01
-955	2	215523	17:20:00	17:20:00		Lubelska kościół 05 nż
-955	2	215523	17:21:00	17:21:00		Lubelska szpital 01
-955	2	215523	17:22:00	17:22:00		Marszałkowska 01
-955	2	215523	17:25:00	17:25:00		Cieplińskiego 02
-955	2	215523	17:26:00	17:26:00		Lisa-Kuli 01
-955	2	215523	17:29:00	17:29:00		Dąbrowskiego park 02 nż
-955	2	215523	17:30:00	17:30:00		Dąbrowskiego KW. Policji 04
-955	2	215523	17:31:00	17:31:00		Dąbrowskiego / Bat. Chłopskich 10
-955	2	215523	17:34:00	17:34:00		Podkarpacka politechnika 02
-955	2	215523	17:35:00	17:35:00		Podkarpacka / Matuszczaka 04
-955	2	215523	17:36:00	17:36:00		Podkarpacka / Wetlińska 06 nż
-955	2	215523	17:38:00	17:38:00		Podkarpacka kościół 08 nż
-955	2	215523	17:39:00	17:39:00		Beskidzka szkoła 02 nż
-955	2	215523	17:41:00	17:41:00		Karkonoska / Beskidzka 02 nż
-955	2	215523	17:42:00	17:42:00		Karkonoska środek 04 nż
-955	2	215523	17:43:00	17:43:00		Karkonoska pętla 06 nż
-955	2	215523	17:44:00	17:44:00		Racławówka Doły wieś 03 nż
-955	2	215523	17:45:00	17:45:00		Racławówka Doły pętla 04 nż
-955	2	215523	17:46:00	17:46:00		Racławówka Doły wieś 06 nż
-955	2	215523	17:47:00	17:47:00		Karkonoska pętla 05 nż
-955	2	215523	17:48:00	17:48:00		Karkonoska środek 03 nż
-955	2	215523	17:49:00	17:49:00		Karkonoska / Beskidzka 01 nż
-955	2	215523	17:50:00	17:50:00		Beskidzka / Karkonoska 04 nż
-955	2	215523	17:51:00	17:51:00		Beskidzka Pod Racławówką 06 nż
-955	2	215523	17:52:00	17:52:00		Beskidzka granica 07 nż
+1910	1	220667	14:29:00	14:29:00		Lubelska Zajezdnia MPK
+1910	1	220667	14:30:00	14:30:00		Lubelska MPK 13 nż
+1910	1	220667	14:31:00	14:31:00		Lubelska Ogrody Hiszpańskie 11 nż
+1910	1	220667	14:32:00	14:32:00		Lubelska Os. Ogrody 09 nż
+1910	1	220667	14:33:00	14:33:00		Lubelska / Borowa 07 nż
+1910	1	220667	14:34:00	14:34:00		Lubelska kościół 05 nż
+1910	1	220667	14:35:00	14:35:00		Lubelska szpital 01
+1910	1	220667	14:36:00	14:36:00		Marszałkowska 01
+1910	1	220667	14:40:00	14:40:00		Piłsudskiego U. Wojewódzki 05
+1910	1	220667	14:41:00	14:41:00		Pl. Wolności 03
+1910	1	220667	14:42:00	14:42:00		Targowa 01
+1910	1	220667	14:44:00	14:44:00		Szopena Filharmonia 02 nż
+1910	1	220667	14:47:00	14:47:00		Podwisłocze U. Skarbowy 03
+1910	1	220667	14:48:00	14:48:00		Podwisłocze domki 01
+1910	1	220667	14:51:00	14:51:00		Kwiatkowskiego / Powst. Warszawy 02
+1910	1	220667	14:52:00	14:52:00		Kwiatkowskiego dom studenta 04 nż
+1910	1	220667	14:53:00	14:53:00		Kwiatkowskiego / Strażacka 06 nż
+1910	1	220667	14:54:00	14:54:00		Strażacka / Graniczna 02 nż
+1910	1	220667	14:55:00	14:55:00		Strażacka / Urocza 04 nż
+1910	1	220667	14:56:00	14:56:00		Miła / Strażacka 02 nż
+1910	1	220667	14:57:00	14:57:00		Miła bloki 04 nż
+1910	1	220667	14:58:00	14:58:00		Miła szkoła 06 nż
+1910	1	220667	14:59:00	14:59:00		Kard. K. Wojtyły kościół 05 nż
+1910	1	220667	15:01:00	15:01:00		Kard. K. Wojtyły pętla 03 nż
+1910	1	220667	15:02:00	15:02:00		Kard. K .Wojtyły / Sikorskiego 01 nż
+1910	1	220667	15:03:00	15:03:00		Sikorskiego / Kard. K. Wojtyły 16 nż
+1910	1	220667	15:04:00	15:04:00		Sikorskiego granica 18 nż
+1910	1	220667	15:06:00	15:06:00		Sikorskiego MPGK 20
 
-956	2	210479	18:11:00	18:11:00		Beskidzka granica 07 nż
-956	2	210479	18:12:00	18:12:00		Beskidzka Pod Racławówką 05 nż
-956	2	210479	18:13:00	18:13:00		Beskidzka / Karkonoska 03 nż
-956	2	210479	18:15:00	18:15:00		Beskidzka szkoła 01 nż
-956	2	210479	18:16:00	18:16:00		Podkarpacka kościół 07 nż
-956	2	210479	18:17:00	18:17:00		Podkarpacka / Wetlińska 05 nż
-956	2	210479	18:18:00	18:18:00		Podkarpacka / Matuszczaka 03
-956	2	210479	18:20:00	18:20:00		Podkarpacka politechnika 01
-956	2	210479	18:22:00	18:22:00		Dąbrowskiego / Chrobrego 07
-956	2	210479	18:23:00	18:23:00		Dąbrowskiego KW. Policji 03
-956	2	210479	18:24:00	18:24:00		Dąbrowskiego park 01 nż
-956	2	210479	18:27:00	18:27:00		Lisa-Kuli 02
-956	2	210479	18:28:00	18:28:00		Cieplińskiego 01
-956	2	210479	18:30:00	18:30:00		Marszałkowska 02
-956	2	210479	18:31:00	18:31:00		Lubelska szpital 02
-956	2	210479	18:32:00	18:32:00		Lubelska kościół 06 nż
-956	2	210479	18:34:00	18:34:00		Trembeckiego ZTM pętla 01
-956	2	210479	18:36:00	18:36:00		Lubelska / Borowa 08 nż
-956	2	210479	18:38:00	18:38:00		Lubelska Os. Ogrody 10 nż
-956	2	210479	18:39:00	18:39:00		Lubelska Ogrody Hiszpańskie 12 nż
-956	2	210479	18:40:00	18:40:00		Lubelska MPK 14 nż
-956	2	210479	18:41:00	18:41:00		Lubelska Zajezdnia MPK
+1901	1	220590	15:30:00	15:30:00		Sikorskiego MPGK 20
+1901	1	220590	15:31:00	15:31:00		Sikorskiego granica 15 nż
+1901	1	220590	15:32:00	15:32:00		Sikorskiego / Ruczajowa 13 nż
+1901	1	220590	15:33:00	15:33:00		Kard. K. Wojtyły / Sikorskiego 02 nż
+1901	1	220590	15:34:00	15:34:00		Kard. K. Wojtyły pętla 04 nż
+1901	1	220590	15:35:00	15:35:00		Kard. K. Wojtyły kościół 06 nż
+1901	1	220590	15:37:00	15:37:00		Miła dom kultury 05 nż
+1901	1	220590	15:38:00	15:38:00		Miła bloki 03 nż
+1901	1	220590	15:39:00	15:39:00		Miła / Strażacka 01 nż
+1901	1	220590	15:40:00	15:40:00		Strażacka / Urocza 03 nż
+1901	1	220590	15:41:00	15:41:00		Strażacka / Graniczna 01 nż
+1901	1	220590	15:42:00	15:42:00		Kwiatkowskiego / Strażacka 03 nż
+1901	1	220590	15:43:00	15:43:00		Kwiatkowskiego dom studenta 01 nż
+1901	1	220590	15:45:00	15:45:00		Podwisłocze / Powst. Warszawy 02
+1901	1	220590	15:46:00	15:46:00		Podwisłocze / Seniora 04
+1901	1	220590	15:48:00	15:48:00		Kopisto Most Zamkowy 04
+1901	1	220590	15:49:00	15:49:00		Szopena Filharmonia 01 nż
+1901	1	220590	15:51:00	15:51:00		Targowa 02
+1901	1	220590	15:53:00	15:53:00		Pl. Wolności 04
+1901	1	220590	15:54:00	15:54:00		Piłsudskiego U. Wojewódzki 06
+1901	1	220590	15:57:00	15:57:00		Marszałkowska 02
+1901	1	220590	15:58:00	15:58:00		Lubelska szpital 02
+1901	1	220590	15:59:00	15:59:00		Lubelska kościół 06 nż
+1901	1	220590	16:01:00	16:01:00		Lubelska / Borowa 08 nż
+1901	1	220590	16:03:00	16:03:00		Lubelska Os. Ogrody 10 nż
+1901	1	220590	16:04:00	16:04:00		Lubelska Ogrody Hiszpańskie 12 nż
+1901	1	220590	16:05:00	16:05:00		Lubelska MPK 14 nż
+1901	1	220590	16:06:00	16:06:00		Lubelska Zajezdnia MPK
 
-1910	2	213645	19:30:00	19:30:00		Lubelska Zajezdnia MPK
-1910	2	213645	19:31:00	19:31:00		Lubelska MPK 13 nż
-1910	2	213645	19:32:00	19:32:00		Lubelska Ogrody Hiszpańskie 11 nż
-1910	2	213645	19:33:00	19:33:00		Lubelska Os. Ogrody 09 nż
-1910	2	213645	19:34:00	19:34:00		Lubelska / Borowa 07 nż
-1910	2	213645	19:35:00	19:35:00		Lubelska kościół 05 nż
-1910	2	213645	19:36:00	19:36:00		Lubelska szpital 01
-1910	2	213645	19:37:00	19:37:00		Marszałkowska 01
-1910	2	213645	19:40:00	19:40:00		Piłsudskiego U. Wojewódzki 05
-1910	2	213645	19:41:00	19:41:00		Pl. Wolności 03
-1910	2	213645	19:42:00	19:42:00		Targowa 01
-1910	2	213645	19:44:00	19:44:00		Szopena Filharmonia 02 nż
-1910	2	213645	19:46:00	19:46:00		Podwisłocze U. Skarbowy 03
-1910	2	213645	19:47:00	19:47:00		Podwisłocze domki 01
-1910	2	213645	19:50:00	19:50:00		Kwiatkowskiego / Powst. Warszawy 02
-1910	2	213645	19:51:00	19:51:00		Kwiatkowskiego dom studenta 04 nż
-1910	2	213645	19:52:00	19:52:00		Kwiatkowskiego / Strażacka 06 nż
-1910	2	213645	19:53:00	19:53:00		Strażacka / Graniczna 02 nż
-1910	2	213645	19:54:00	19:54:00		Strażacka / Urocza 04 nż
-1910	2	213645	19:55:00	19:55:00		Miła / Strażacka 02 nż
-1910	2	213645	19:56:00	19:56:00		Miła bloki 04 nż
-1910	2	213645	19:57:00	19:57:00		Miła szkoła 06 nż
-1910	2	213645	19:58:00	19:58:00		Kard. K. Wojtyły kościół 05 nż
-1910	2	213645	20:00:00	20:00:00		Kard. K. Wojtyły pętla 03 nż
-1910	2	213645	20:01:00	20:01:00		Kard. K .Wojtyły / Sikorskiego 01 nż
-1910	2	213645	20:02:00	20:02:00		Sikorskiego / Kard. K. Wojtyły 16 nż
-1910	2	213645	20:03:00	20:03:00		Sikorskiego granica 18 nż
-1910	2	213645	20:04:00	20:04:00		Sikorskiego MPGK 20
+1910	1	220657	16:29:00	16:29:00		Lubelska Zajezdnia MPK
+1910	1	220657	16:30:00	16:30:00		Lubelska MPK 13 nż
+1910	1	220657	16:31:00	16:31:00		Lubelska Ogrody Hiszpańskie 11 nż
+1910	1	220657	16:32:00	16:32:00		Lubelska Os. Ogrody 09 nż
+1910	1	220657	16:33:00	16:33:00		Lubelska / Borowa 07 nż
+1910	1	220657	16:34:00	16:34:00		Lubelska kościół 05 nż
+1910	1	220657	16:35:00	16:35:00		Lubelska szpital 01
+1910	1	220657	16:36:00	16:36:00		Marszałkowska 01
+1910	1	220657	16:40:00	16:40:00		Piłsudskiego U. Wojewódzki 05
+1910	1	220657	16:41:00	16:41:00		Pl. Wolności 03
+1910	1	220657	16:42:00	16:42:00		Targowa 01
+1910	1	220657	16:44:00	16:44:00		Szopena Filharmonia 02 nż
+1910	1	220657	16:47:00	16:47:00		Podwisłocze U. Skarbowy 03
+1910	1	220657	16:48:00	16:48:00		Podwisłocze domki 01
+1910	1	220657	16:51:00	16:51:00		Kwiatkowskiego / Powst. Warszawy 02
+1910	1	220657	16:52:00	16:52:00		Kwiatkowskiego dom studenta 04 nż
+1910	1	220657	16:53:00	16:53:00		Kwiatkowskiego / Strażacka 06 nż
+1910	1	220657	16:54:00	16:54:00		Strażacka / Graniczna 02 nż
+1910	1	220657	16:55:00	16:55:00		Strażacka / Urocza 04 nż
+1910	1	220657	16:56:00	16:56:00		Miła / Strażacka 02 nż
+1910	1	220657	16:57:00	16:57:00		Miła bloki 04 nż
+1910	1	220657	16:58:00	16:58:00		Miła szkoła 06 nż
+1910	1	220657	16:59:00	16:59:00		Kard. K. Wojtyły kościół 05 nż
+1910	1	220657	17:01:00	17:01:00		Kard. K. Wojtyły pętla 03 nż
+1910	1	220657	17:02:00	17:02:00		Kard. K .Wojtyły / Sikorskiego 01 nż
+1910	1	220657	17:03:00	17:03:00		Sikorskiego / Kard. K. Wojtyły 16 nż
+1910	1	220657	17:04:00	17:04:00		Sikorskiego granica 18 nż
+1910	1	220657	17:06:00	17:06:00		Sikorskiego MPGK 20
 
-1901	2	215647	20:31:00	20:31:00		Sikorskiego MPGK 20
-1901	2	215647	20:32:00	20:32:00		Sikorskiego granica 15 nż
-1901	2	215647	20:33:00	20:33:00		Sikorskiego / Ruczajowa 13 nż
-1901	2	215647	20:34:00	20:34:00		Kard. K. Wojtyły / Sikorskiego 02 nż
-1901	2	215647	20:35:00	20:35:00		Kard. K. Wojtyły pętla 04 nż
-1901	2	215647	20:36:00	20:36:00		Kard. K. Wojtyły kościół 06 nż
-1901	2	215647	20:37:00	20:37:00		Miła dom kultury 05 nż
-1901	2	215647	20:38:00	20:38:00		Miła bloki 03 nż
-1901	2	215647	20:39:00	20:39:00		Miła / Strażacka 01 nż
-1901	2	215647	20:40:00	20:40:00		Strażacka / Urocza 03 nż
-1901	2	215647	20:41:00	20:41:00		Strażacka / Graniczna 01 nż
-1901	2	215647	20:42:00	20:42:00		Kwiatkowskiego / Strażacka 03 nż
-1901	2	215647	20:43:00	20:43:00		Kwiatkowskiego dom studenta 01 nż
-1901	2	215647	20:45:00	20:45:00		Podwisłocze / Powst. Warszawy 02
-1901	2	215647	20:46:00	20:46:00		Podwisłocze / Seniora 04
-1901	2	215647	20:48:00	20:48:00		Kopisto Most Zamkowy 04
-1901	2	215647	20:49:00	20:49:00		Szopena Filharmonia 01 nż
-1901	2	215647	20:50:00	20:50:00		Targowa 02
-1901	2	215647	20:52:00	20:52:00		Pl. Wolności 04
-1901	2	215647	20:53:00	20:53:00		Piłsudskiego U. Wojewódzki 06
-1901	2	215647	20:55:00	20:55:00		Marszałkowska 02
-1901	2	215647	20:56:00	20:56:00		Lubelska szpital 02
-1901	2	215647	20:57:00	20:57:00		Lubelska kościół 06 nż
-1901	2	215647	20:58:00	20:58:00		Lubelska / Borowa 08 nż
-1901	2	215647	20:59:00	20:59:00		Lubelska Os. Ogrody 10 nż
-1901	2	215647	21:00:00	21:00:00		Lubelska Ogrody Hiszpańskie 12 nż
-1901	2	215647	21:01:00	21:01:00		Lubelska MPK 14 nż
-1901	2	215647	21:02:00	21:02:00		Lubelska Zajezdnia MPK
+1901	1	220635	17:30:00	17:30:00		Sikorskiego MPGK 20
+1901	1	220635	17:31:00	17:31:00		Sikorskiego granica 15 nż
+1901	1	220635	17:32:00	17:32:00		Sikorskiego / Ruczajowa 13 nż
+1901	1	220635	17:33:00	17:33:00		Kard. K. Wojtyły / Sikorskiego 02 nż
+1901	1	220635	17:34:00	17:34:00		Kard. K. Wojtyły pętla 04 nż
+1901	1	220635	17:35:00	17:35:00		Kard. K. Wojtyły kościół 06 nż
+1901	1	220635	17:37:00	17:37:00		Miła dom kultury 05 nż
+1901	1	220635	17:38:00	17:38:00		Miła bloki 03 nż
+1901	1	220635	17:39:00	17:39:00		Miła / Strażacka 01 nż
+1901	1	220635	17:40:00	17:40:00		Strażacka / Urocza 03 nż
+1901	1	220635	17:41:00	17:41:00		Strażacka / Graniczna 01 nż
+1901	1	220635	17:42:00	17:42:00		Kwiatkowskiego / Strażacka 03 nż
+1901	1	220635	17:43:00	17:43:00		Kwiatkowskiego dom studenta 01 nż
+1901	1	220635	17:45:00	17:45:00		Podwisłocze / Powst. Warszawy 02
+1901	1	220635	17:46:00	17:46:00		Podwisłocze / Seniora 04
+1901	1	220635	17:48:00	17:48:00		Kopisto Most Zamkowy 04
+1901	1	220635	17:49:00	17:49:00		Szopena Filharmonia 01 nż
+1901	1	220635	17:51:00	17:51:00		Targowa 02
+1901	1	220635	17:53:00	17:53:00		Pl. Wolności 04
+1901	1	220635	17:54:00	17:54:00		Piłsudskiego U. Wojewódzki 06
+1901	1	220635	17:57:00	17:57:00		Marszałkowska 02
+1901	1	220635	17:58:00	17:58:00		Lubelska szpital 02
+1901	1	220635	17:59:00	17:59:00		Lubelska kościół 06 nż
+1901	1	220635	18:01:00	18:01:00		Lubelska / Borowa 08 nż
+1901	1	220635	18:03:00	18:03:00		Lubelska Os. Ogrody 10 nż
+1901	1	220635	18:04:00	18:04:00		Lubelska Ogrody Hiszpańskie 12 nż
+1901	1	220635	18:05:00	18:05:00		Lubelska MPK 14 nż
+1901	1	220635	18:06:00	18:06:00		Lubelska Zajezdnia MPK
+
+1910	1	220455	18:30:00	18:30:00		Lubelska Zajezdnia MPK
+1910	1	220455	18:31:00	18:31:00		Lubelska MPK 13 nż
+1910	1	220455	18:32:00	18:32:00		Lubelska Ogrody Hiszpańskie 11 nż
+1910	1	220455	18:33:00	18:33:00		Lubelska Os. Ogrody 09 nż
+1910	1	220455	18:34:00	18:34:00		Lubelska / Borowa 07 nż
+1910	1	220455	18:35:00	18:35:00		Lubelska kościół 05 nż
+1910	1	220455	18:36:00	18:36:00		Lubelska szpital 01
+1910	1	220455	18:37:00	18:37:00		Marszałkowska 01
+1910	1	220455	18:40:00	18:40:00		Piłsudskiego U. Wojewódzki 05
+1910	1	220455	18:41:00	18:41:00		Pl. Wolności 03
+1910	1	220455	18:42:00	18:42:00		Targowa 01
+1910	1	220455	18:44:00	18:44:00		Szopena Filharmonia 02 nż
+1910	1	220455	18:46:00	18:46:00		Podwisłocze U. Skarbowy 03
+1910	1	220455	18:47:00	18:47:00		Podwisłocze domki 01
+1910	1	220455	18:50:00	18:50:00		Kwiatkowskiego / Powst. Warszawy 02
+1910	1	220455	18:51:00	18:51:00		Kwiatkowskiego dom studenta 04 nż
+1910	1	220455	18:52:00	18:52:00		Kwiatkowskiego / Strażacka 06 nż
+1910	1	220455	18:53:00	18:53:00		Strażacka / Graniczna 02 nż
+1910	1	220455	18:54:00	18:54:00		Strażacka / Urocza 04 nż
+1910	1	220455	18:55:00	18:55:00		Miła / Strażacka 02 nż
+1910	1	220455	18:56:00	18:56:00		Miła bloki 04 nż
+1910	1	220455	18:57:00	18:57:00		Miła szkoła 06 nż
+1910	1	220455	18:58:00	18:58:00		Kard. K. Wojtyły kościół 05 nż
+1910	1	220455	19:00:00	19:00:00		Kard. K. Wojtyły pętla 03 nż
+1910	1	220455	19:01:00	19:01:00		Kard. K .Wojtyły / Sikorskiego 01 nż
+1910	1	220455	19:02:00	19:02:00		Sikorskiego / Kard. K. Wojtyły 16 nż
+1910	1	220455	19:03:00	19:03:00		Sikorskiego granica 18 nż
+1910	1	220455	19:04:00	19:04:00		Sikorskiego MPGK 20
+
+1901	1	220636	19:30:00	19:30:00		Sikorskiego MPGK 20
+1901	1	220636	19:31:00	19:31:00		Sikorskiego granica 15 nż
+1901	1	220636	19:32:00	19:32:00		Sikorskiego / Ruczajowa 13 nż
+1901	1	220636	19:33:00	19:33:00		Kard. K. Wojtyły / Sikorskiego 02 nż
+1901	1	220636	19:34:00	19:34:00		Kard. K. Wojtyły pętla 04 nż
+1901	1	220636	19:35:00	19:35:00		Kard. K. Wojtyły kościół 06 nż
+1901	1	220636	19:37:00	19:37:00		Miła dom kultury 05 nż
+1901	1	220636	19:38:00	19:38:00		Miła bloki 03 nż
+1901	1	220636	19:39:00	19:39:00		Miła / Strażacka 01 nż
+1901	1	220636	19:40:00	19:40:00		Strażacka / Urocza 03 nż
+1901	1	220636	19:41:00	19:41:00		Strażacka / Graniczna 01 nż
+1901	1	220636	19:42:00	19:42:00		Kwiatkowskiego / Strażacka 03 nż
+1901	1	220636	19:43:00	19:43:00		Kwiatkowskiego dom studenta 01 nż
+1901	1	220636	19:45:00	19:45:00		Podwisłocze / Powst. Warszawy 02
+1901	1	220636	19:46:00	19:46:00		Podwisłocze / Seniora 04
+1901	1	220636	19:48:00	19:48:00		Kopisto Most Zamkowy 04
+1901	1	220636	19:49:00	19:49:00		Szopena Filharmonia 01 nż
+1901	1	220636	19:51:00	19:51:00		Targowa 02
+1901	1	220636	19:53:00	19:53:00		Pl. Wolności 04
+1901	1	220636	19:54:00	19:54:00		Piłsudskiego U. Wojewódzki 06
+1901	1	220636	19:57:00	19:57:00		Marszałkowska 02
+1901	1	220636	19:58:00	19:58:00		Lubelska szpital 02
+1901	1	220636	19:59:00	19:59:00		Lubelska kościół 06 nż
+1901	1	220636	20:01:00	20:01:00		Lubelska / Borowa 08 nż
+1901	1	220636	20:03:00	20:03:00		Lubelska Os. Ogrody 10 nż
+1901	1	220636	20:04:00	20:04:00		Lubelska Ogrody Hiszpańskie 12 nż
+1901	1	220636	20:05:00	20:05:00		Lubelska MPK 14 nż
+1901	1	220636	20:06:00	20:06:00		Lubelska Zajezdnia MPK
+
+1910	1	220704	20:31:00	20:31:00		Lubelska Zajezdnia MPK
+1910	1	220704	20:32:00	20:32:00		Lubelska MPK 13 nż
+1910	1	220704	20:33:00	20:33:00		Lubelska Ogrody Hiszpańskie 11 nż
+1910	1	220704	20:34:00	20:34:00		Lubelska Os. Ogrody 09 nż
+1910	1	220704	20:35:00	20:35:00		Lubelska / Borowa 07 nż
+1910	1	220704	20:36:00	20:36:00		Lubelska kościół 05 nż
+1910	1	220704	20:37:00	20:37:00		Lubelska szpital 01
+1910	1	220704	20:38:00	20:38:00		Marszałkowska 01
+1910	1	220704	20:40:00	20:40:00		Piłsudskiego U. Wojewódzki 05
+1910	1	220704	20:41:00	20:41:00		Pl. Wolności 03
+1910	1	220704	20:42:00	20:42:00		Targowa 01
+1910	1	220704	20:44:00	20:44:00		Szopena Filharmonia 02 nż
+1910	1	220704	20:46:00	20:46:00		Podwisłocze U. Skarbowy 03
+1910	1	220704	20:47:00	20:47:00		Podwisłocze domki 01
+1910	1	220704	20:49:00	20:49:00		Kwiatkowskiego / Powst. Warszawy 02
+1910	1	220704	20:50:00	20:50:00		Kwiatkowskiego dom studenta 04 nż
+1910	1	220704	20:51:00	20:51:00		Kwiatkowskiego / Strażacka 06 nż
+1910	1	220704	20:52:00	20:52:00		Strażacka / Graniczna 02 nż
+1910	1	220704	20:53:00	20:53:00		Strażacka / Urocza 04 nż
+1910	1	220704	20:54:00	20:54:00		Miła / Strażacka 02 nż
+1910	1	220704	20:55:00	20:55:00		Miła bloki 04 nż
+1910	1	220704	20:56:00	20:56:00		Miła szkoła 06 nż
+1910	1	220704	20:57:00	20:57:00		Kard. K. Wojtyły kościół 05 nż
+1910	1	220704	20:59:00	20:59:00		Kard. K. Wojtyły pętla 03 nż
+1910	1	220704	21:00:00	21:00:00		Kard. K .Wojtyły / Sikorskiego 01 nż
+1910	1	220704	21:01:00	21:01:00		Sikorskiego / Kard. K. Wojtyły 16 nż
+1910	1	220704	21:02:00	21:02:00		Sikorskiego granica 18 nż
+1910	1	220704	21:03:00	21:03:00		Sikorskiego MPGK 20
+
+1901	1	220406	21:31:00	21:31:00		Sikorskiego MPGK 20
+1901	1	220406	21:32:00	21:32:00		Sikorskiego granica 15 nż
+1901	1	220406	21:33:00	21:33:00		Sikorskiego / Ruczajowa 13 nż
+1901	1	220406	21:34:00	21:34:00		Kard. K. Wojtyły / Sikorskiego 02 nż
+1901	1	220406	21:35:00	21:35:00		Kard. K. Wojtyły pętla 04 nż
+1901	1	220406	21:36:00	21:36:00		Kard. K. Wojtyły kościół 06 nż
+1901	1	220406	21:37:00	21:37:00		Miła dom kultury 05 nż
+1901	1	220406	21:38:00	21:38:00		Miła bloki 03 nż
+1901	1	220406	21:39:00	21:39:00		Miła / Strażacka 01 nż
+1901	1	220406	21:40:00	21:40:00		Strażacka / Urocza 03 nż
+1901	1	220406	21:41:00	21:41:00		Strażacka / Graniczna 01 nż
+1901	1	220406	21:42:00	21:42:00		Kwiatkowskiego / Strażacka 03 nż
+1901	1	220406	21:43:00	21:43:00		Kwiatkowskiego dom studenta 01 nż
+1901	1	220406	21:45:00	21:45:00		Podwisłocze / Powst. Warszawy 02
+1901	1	220406	21:46:00	21:46:00		Podwisłocze / Seniora 04
+1901	1	220406	21:48:00	21:48:00		Kopisto Most Zamkowy 04
+1901	1	220406	21:49:00	21:49:00		Szopena Filharmonia 01 nż
+1901	1	220406	21:50:00	21:50:00		Targowa 02
+1901	1	220406	21:52:00	21:52:00		Pl. Wolności 04
+1901	1	220406	21:53:00	21:53:00		Piłsudskiego U. Wojewódzki 06
+1901	1	220406	21:55:00	21:55:00		Marszałkowska 02
+1901	1	220406	21:56:00	21:56:00		Lubelska szpital 02
+1901	1	220406	21:57:00	21:57:00		Lubelska kościół 06 nż
+1901	1	220406	21:58:00	21:58:00		Lubelska / Borowa 08 nż
+1901	1	220406	21:59:00	21:59:00		Lubelska Os. Ogrody 10 nż
+1901	1	220406	22:00:00	22:00:00		Lubelska Ogrody Hiszpańskie 12 nż
+1901	1	220406	22:01:00	22:01:00		Lubelska MPK 14 nż
+1901	1	220406	22:02:00	22:02:00		Lubelska Zajezdnia MPK

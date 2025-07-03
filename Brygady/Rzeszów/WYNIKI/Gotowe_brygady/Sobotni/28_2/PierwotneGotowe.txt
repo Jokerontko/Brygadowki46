@@ -1,450 +1,563 @@
 route_id	service_id	trip_id	arrival_time	departure_time	stop_headsign	stop_name
 -------------------------------------------------------------------------------
-952	2	211267	05:13:00	05:13:00		Lubelska Zajezdnia MPK
-952	2	211267	05:14:00	05:14:00		Lubelska MPK 13 nż
-952	2	211267	05:15:00	05:15:00		Lubelska Ogrody Hiszpańskie 11 nż
-952	2	211267	05:16:00	05:16:00		Lubelska Os. Ogrody 09 nż
-952	2	211267	05:17:00	05:17:00		Lubelska / Borowa 07 nż
-952	2	211267	05:19:00	05:19:00		Trembeckiego ZTM pętla 01
-952	2	211267	05:20:00	05:20:00		Lubelska kościół 05 nż
-952	2	211267	05:21:00	05:21:00		Lubelska szpital 01
-952	2	211267	05:22:00	05:22:00		Marszałkowska 01
-952	2	211267	05:24:00	05:24:00		Cieplińskiego 02
-952	2	211267	05:25:00	05:25:00		Lisa-Kuli 01
-952	2	211267	05:27:00	05:27:00		Dąbrowskiego park 02 nż
-952	2	211267	05:28:00	05:28:00		Dąbrowskiego KW. Policji 04
-952	2	211267	05:29:00	05:29:00		Dąbrowskiego / Bat. Chłopskich 10
-952	2	211267	05:31:00	05:31:00		Podkarpacka politechnika 02
-952	2	211267	05:32:00	05:32:00		Podkarpacka / Matuszczaka 04
-952	2	211267	05:33:00	05:33:00		Podkarpacka / Wetlińska 06 nż
-952	2	211267	05:35:00	05:35:00		Podkarpacka kościół 08 nż
-952	2	211267	05:36:00	05:36:00		Beskidzka szkoła 02 nż
-952	2	211267	05:38:00	05:38:00		Beskidzka / Karkonoska 04 nż
-952	2	211267	05:39:00	05:39:00		Beskidzka Pod Racławówką 06 nż
-952	2	211267	05:40:00	05:40:00		Beskidzka granica 07 nż
+952	1	220599	05:13:00	05:13:00		Lubelska Zajezdnia MPK
+952	1	220599	05:14:00	05:14:00		Lubelska MPK 13 nż
+952	1	220599	05:15:00	05:15:00		Lubelska Ogrody Hiszpańskie 11 nż
+952	1	220599	05:16:00	05:16:00		Lubelska Os. Ogrody 09 nż
+952	1	220599	05:17:00	05:17:00		Lubelska / Borowa 07 nż
+952	1	220599	05:19:00	05:19:00		Trembeckiego ZTM pętla 01
+952	1	220599	05:20:00	05:20:00		Lubelska kościół 05 nż
+952	1	220599	05:21:00	05:21:00		Lubelska szpital 01
+952	1	220599	05:22:00	05:22:00		Marszałkowska 01
+952	1	220599	05:24:00	05:24:00		Cieplińskiego 02
+952	1	220599	05:25:00	05:25:00		Lisa-Kuli 01
+952	1	220599	05:27:00	05:27:00		Dąbrowskiego park 02 nż
+952	1	220599	05:28:00	05:28:00		Dąbrowskiego KW. Policji 04
+952	1	220599	05:29:00	05:29:00		Dąbrowskiego / Bat. Chłopskich 10
+952	1	220599	05:31:00	05:31:00		Podkarpacka politechnika 02
+952	1	220599	05:32:00	05:32:00		Podkarpacka / Matuszczaka 04
+952	1	220599	05:33:00	05:33:00		Podkarpacka / Wetlińska 06 nż
+952	1	220599	05:35:00	05:35:00		Podkarpacka kościół 08 nż
+952	1	220599	05:36:00	05:36:00		Beskidzka szkoła 02 nż
+952	1	220599	05:38:00	05:38:00		Beskidzka / Karkonoska 04 nż
+952	1	220599	05:39:00	05:39:00		Beskidzka Pod Racławówką 06 nż
+952	1	220599	05:40:00	05:40:00		Beskidzka granica 07 nż
 
-954	2	213804	06:01:00	06:01:00		Beskidzka granica 07 nż
-954	2	213804	06:02:00	06:02:00		Beskidzka Pod Racławówką 05 nż
-954	2	213804	06:03:00	06:03:00		Beskidzka / Karkonoska 03 nż
-954	2	213804	06:04:00	06:04:00		Karkonoska / Beskidzka 02 nż
-954	2	213804	06:05:00	06:05:00		Karkonoska środek 04 nż
-954	2	213804	06:06:00	06:06:00		Karkonoska pętla 06 nż
-954	2	213804	06:07:00	06:07:00		Racławówka Doły wieś 03 nż
-954	2	213804	06:08:00	06:08:00		Racławówka Doły pętla 04 nż
-954	2	213804	06:09:00	06:09:00		Racławówka Doły wieś 06 nż
-954	2	213804	06:10:00	06:10:00		Karkonoska pętla 05 nż
-954	2	213804	06:11:00	06:11:00		Karkonoska środek 03 nż
-954	2	213804	06:12:00	06:12:00		Karkonoska / Beskidzka 01 nż
-954	2	213804	06:14:00	06:14:00		Beskidzka szkoła 01 nż
-954	2	213804	06:15:00	06:15:00		Podkarpacka kościół 07 nż
-954	2	213804	06:16:00	06:16:00		Podkarpacka / Wetlińska 05 nż
-954	2	213804	06:17:00	06:17:00		Podkarpacka / Matuszczaka 03
-954	2	213804	06:19:00	06:19:00		Podkarpacka politechnika 01
-954	2	213804	06:21:00	06:21:00		Dąbrowskiego / Chrobrego 07
-954	2	213804	06:22:00	06:22:00		Dąbrowskiego KW. Policji 03
-954	2	213804	06:23:00	06:23:00		Dąbrowskiego park 01 nż
-954	2	213804	06:25:00	06:25:00		Lisa-Kuli 02
-954	2	213804	06:26:00	06:26:00		Cieplińskiego 01
-954	2	213804	06:28:00	06:28:00		Marszałkowska 02
-954	2	213804	06:29:00	06:29:00		Lubelska szpital 02
-954	2	213804	06:30:00	06:30:00		Lubelska kościół 06 nż
-954	2	213804	06:32:00	06:32:00		Trembeckiego ZTM pętla 01
-954	2	213804	06:34:00	06:34:00		Lubelska / Borowa 08 nż
-954	2	213804	06:36:00	06:36:00		Lubelska Os. Ogrody 10 nż
-954	2	213804	06:37:00	06:37:00		Lubelska Ogrody Hiszpańskie 12 nż
-954	2	213804	06:38:00	06:38:00		Lubelska MPK 14 nż
-954	2	213804	06:39:00	06:39:00		Lubelska Zajezdnia MPK
+954	1	220554	06:01:00	06:01:00		Beskidzka granica 07 nż
+954	1	220554	06:02:00	06:02:00		Beskidzka Pod Racławówką 05 nż
+954	1	220554	06:03:00	06:03:00		Beskidzka / Karkonoska 03 nż
+954	1	220554	06:04:00	06:04:00		Karkonoska / Beskidzka 02 nż
+954	1	220554	06:05:00	06:05:00		Karkonoska środek 04 nż
+954	1	220554	06:06:00	06:06:00		Karkonoska pętla 06 nż
+954	1	220554	06:07:00	06:07:00		Racławówka Doły wieś 03 nż
+954	1	220554	06:08:00	06:08:00		Racławówka Doły pętla 04 nż
+954	1	220554	06:09:00	06:09:00		Racławówka Doły wieś 06 nż
+954	1	220554	06:10:00	06:10:00		Karkonoska pętla 05 nż
+954	1	220554	06:11:00	06:11:00		Karkonoska środek 03 nż
+954	1	220554	06:12:00	06:12:00		Karkonoska / Beskidzka 01 nż
+954	1	220554	06:14:00	06:14:00		Beskidzka szkoła 01 nż
+954	1	220554	06:15:00	06:15:00		Podkarpacka kościół 07 nż
+954	1	220554	06:16:00	06:16:00		Podkarpacka / Wetlińska 05 nż
+954	1	220554	06:17:00	06:17:00		Podkarpacka / Matuszczaka 03
+954	1	220554	06:19:00	06:19:00		Podkarpacka politechnika 01
+954	1	220554	06:21:00	06:21:00		Dąbrowskiego / Chrobrego 07
+954	1	220554	06:22:00	06:22:00		Dąbrowskiego KW. Policji 03
+954	1	220554	06:23:00	06:23:00		Dąbrowskiego park 01 nż
+954	1	220554	06:25:00	06:25:00		Lisa-Kuli 02
+954	1	220554	06:26:00	06:26:00		Cieplińskiego 01
+954	1	220554	06:28:00	06:28:00		Marszałkowska 02
+954	1	220554	06:29:00	06:29:00		Lubelska szpital 02
+954	1	220554	06:30:00	06:30:00		Lubelska kościół 06 nż
+954	1	220554	06:32:00	06:32:00		Trembeckiego ZTM pętla 01
+954	1	220554	06:34:00	06:34:00		Lubelska / Borowa 08 nż
+954	1	220554	06:36:00	06:36:00		Lubelska Os. Ogrody 10 nż
+954	1	220554	06:37:00	06:37:00		Lubelska Ogrody Hiszpańskie 12 nż
+954	1	220554	06:38:00	06:38:00		Lubelska MPK 14 nż
+954	1	220554	06:39:00	06:39:00		Lubelska Zajezdnia MPK
 
-1910	2	214250	07:29:00	07:29:00		Lubelska Zajezdnia MPK
-1910	2	214250	07:30:00	07:30:00		Lubelska MPK 13 nż
-1910	2	214250	07:31:00	07:31:00		Lubelska Ogrody Hiszpańskie 11 nż
-1910	2	214250	07:32:00	07:32:00		Lubelska Os. Ogrody 09 nż
-1910	2	214250	07:33:00	07:33:00		Lubelska / Borowa 07 nż
-1910	2	214250	07:35:00	07:35:00		Lubelska kościół 05 nż
-1910	2	214250	07:36:00	07:36:00		Lubelska szpital 01
-1910	2	214250	07:37:00	07:37:00		Marszałkowska 01
-1910	2	214250	07:40:00	07:40:00		Piłsudskiego U. Wojewódzki 05
-1910	2	214250	07:41:00	07:41:00		Pl. Wolności 03
-1910	2	214250	07:43:00	07:43:00		Targowa 01
-1910	2	214250	07:45:00	07:45:00		Szopena Filharmonia 02 nż
-1910	2	214250	07:48:00	07:48:00		Podwisłocze U. Skarbowy 03
-1910	2	214250	07:49:00	07:49:00		Podwisłocze domki 01
-1910	2	214250	07:51:00	07:51:00		Kwiatkowskiego / Powst. Warszawy 02
-1910	2	214250	07:52:00	07:52:00		Kwiatkowskiego dom studenta 04 nż
-1910	2	214250	07:53:00	07:53:00		Kwiatkowskiego / Strażacka 06 nż
-1910	2	214250	07:54:00	07:54:00		Strażacka / Graniczna 02 nż
-1910	2	214250	07:55:00	07:55:00		Strażacka / Urocza 04 nż
-1910	2	214250	07:56:00	07:56:00		Miła / Strażacka 02 nż
-1910	2	214250	07:57:00	07:57:00		Miła bloki 04 nż
-1910	2	214250	07:58:00	07:58:00		Miła szkoła 06 nż
-1910	2	214250	07:59:00	07:59:00		Kard. K. Wojtyły kościół 05 nż
-1910	2	214250	08:01:00	08:01:00		Kard. K. Wojtyły pętla 03 nż
-1910	2	214250	08:02:00	08:02:00		Kard. K .Wojtyły / Sikorskiego 01 nż
-1910	2	214250	08:03:00	08:03:00		Sikorskiego / Kard. K. Wojtyły 16 nż
-1910	2	214250	08:04:00	08:04:00		Sikorskiego granica 18 nż
-1910	2	214250	08:06:00	08:06:00		Sikorskiego MPGK 20
+952	1	220681	07:12:00	07:12:00		Lubelska Zajezdnia MPK
+952	1	220681	07:13:00	07:13:00		Lubelska MPK 13 nż
+952	1	220681	07:14:00	07:14:00		Lubelska Ogrody Hiszpańskie 11 nż
+952	1	220681	07:15:00	07:15:00		Lubelska Os. Ogrody 09 nż
+952	1	220681	07:16:00	07:16:00		Lubelska / Borowa 07 nż
+952	1	220681	07:18:00	07:18:00		Trembeckiego ZTM pętla 01
+952	1	220681	07:20:00	07:20:00		Lubelska kościół 05 nż
+952	1	220681	07:21:00	07:21:00		Lubelska szpital 01
+952	1	220681	07:22:00	07:22:00		Marszałkowska 01
+952	1	220681	07:25:00	07:25:00		Cieplińskiego 02
+952	1	220681	07:26:00	07:26:00		Lisa-Kuli 01
+952	1	220681	07:28:00	07:28:00		Dąbrowskiego park 02 nż
+952	1	220681	07:29:00	07:29:00		Dąbrowskiego KW. Policji 04
+952	1	220681	07:30:00	07:30:00		Dąbrowskiego / Bat. Chłopskich 10
+952	1	220681	07:32:00	07:32:00		Podkarpacka politechnika 02
+952	1	220681	07:33:00	07:33:00		Podkarpacka / Matuszczaka 04
+952	1	220681	07:34:00	07:34:00		Podkarpacka / Wetlińska 06 nż
+952	1	220681	07:36:00	07:36:00		Podkarpacka kościół 08 nż
+952	1	220681	07:37:00	07:37:00		Beskidzka szkoła 02 nż
+952	1	220681	07:39:00	07:39:00		Beskidzka / Karkonoska 04 nż
+952	1	220681	07:40:00	07:40:00		Beskidzka Pod Racławówką 06 nż
+952	1	220681	07:41:00	07:41:00		Beskidzka granica 07 nż
 
-1901	2	211804	08:30:00	08:30:00		Sikorskiego MPGK 20
-1901	2	211804	08:31:00	08:31:00		Sikorskiego granica 15 nż
-1901	2	211804	08:32:00	08:32:00		Sikorskiego / Ruczajowa 13 nż
-1901	2	211804	08:33:00	08:33:00		Kard. K. Wojtyły / Sikorskiego 02 nż
-1901	2	211804	08:34:00	08:34:00		Kard. K. Wojtyły pętla 04 nż
-1901	2	211804	08:35:00	08:35:00		Kard. K. Wojtyły kościół 06 nż
-1901	2	211804	08:37:00	08:37:00		Miła dom kultury 05 nż
-1901	2	211804	08:38:00	08:38:00		Miła bloki 03 nż
-1901	2	211804	08:39:00	08:39:00		Miła / Strażacka 01 nż
-1901	2	211804	08:40:00	08:40:00		Strażacka / Urocza 03 nż
-1901	2	211804	08:41:00	08:41:00		Strażacka / Graniczna 01 nż
-1901	2	211804	08:42:00	08:42:00		Kwiatkowskiego / Strażacka 03 nż
-1901	2	211804	08:43:00	08:43:00		Kwiatkowskiego dom studenta 01 nż
-1901	2	211804	08:45:00	08:45:00		Podwisłocze / Powst. Warszawy 02
-1901	2	211804	08:46:00	08:46:00		Podwisłocze / Seniora 04
-1901	2	211804	08:48:00	08:48:00		Kopisto Most Zamkowy 04
-1901	2	211804	08:49:00	08:49:00		Szopena Filharmonia 01 nż
-1901	2	211804	08:51:00	08:51:00		Targowa 02
-1901	2	211804	08:53:00	08:53:00		Pl. Wolności 04
-1901	2	211804	08:54:00	08:54:00		Piłsudskiego U. Wojewódzki 06
-1901	2	211804	08:57:00	08:57:00		Marszałkowska 02
-1901	2	211804	08:58:00	08:58:00		Lubelska szpital 02
-1901	2	211804	08:59:00	08:59:00		Lubelska kościół 06 nż
-1901	2	211804	09:01:00	09:01:00		Lubelska / Borowa 08 nż
-1901	2	211804	09:03:00	09:03:00		Lubelska Os. Ogrody 10 nż
-1901	2	211804	09:04:00	09:04:00		Lubelska Ogrody Hiszpańskie 12 nż
-1901	2	211804	09:05:00	09:05:00		Lubelska MPK 14 nż
-1901	2	211804	09:06:00	09:06:00		Lubelska Zajezdnia MPK
+954	1	220504	08:01:00	08:01:00		Beskidzka granica 07 nż
+954	1	220504	08:02:00	08:02:00		Beskidzka Pod Racławówką 05 nż
+954	1	220504	08:03:00	08:03:00		Beskidzka / Karkonoska 03 nż
+954	1	220504	08:04:00	08:04:00		Karkonoska / Beskidzka 02 nż
+954	1	220504	08:05:00	08:05:00		Karkonoska środek 04 nż
+954	1	220504	08:06:00	08:06:00		Karkonoska pętla 06 nż
+954	1	220504	08:07:00	08:07:00		Racławówka Doły wieś 03 nż
+954	1	220504	08:08:00	08:08:00		Racławówka Doły pętla 04 nż
+954	1	220504	08:09:00	08:09:00		Racławówka Doły wieś 06 nż
+954	1	220504	08:10:00	08:10:00		Karkonoska pętla 05 nż
+954	1	220504	08:11:00	08:11:00		Karkonoska środek 03 nż
+954	1	220504	08:12:00	08:12:00		Karkonoska / Beskidzka 01 nż
+954	1	220504	08:14:00	08:14:00		Beskidzka szkoła 01 nż
+954	1	220504	08:15:00	08:15:00		Podkarpacka kościół 07 nż
+954	1	220504	08:16:00	08:16:00		Podkarpacka / Wetlińska 05 nż
+954	1	220504	08:17:00	08:17:00		Podkarpacka / Matuszczaka 03
+954	1	220504	08:19:00	08:19:00		Podkarpacka politechnika 01
+954	1	220504	08:21:00	08:21:00		Dąbrowskiego / Chrobrego 07
+954	1	220504	08:22:00	08:22:00		Dąbrowskiego KW. Policji 03
+954	1	220504	08:23:00	08:23:00		Dąbrowskiego park 01 nż
+954	1	220504	08:27:00	08:27:00		Lisa-Kuli 02
+954	1	220504	08:28:00	08:28:00		Cieplińskiego 01
+954	1	220504	08:30:00	08:30:00		Marszałkowska 02
+954	1	220504	08:31:00	08:31:00		Lubelska szpital 02
+954	1	220504	08:32:00	08:32:00		Lubelska kościół 06 nż
+954	1	220504	08:34:00	08:34:00		Trembeckiego ZTM pętla 01
+954	1	220504	08:36:00	08:36:00		Lubelska / Borowa 08 nż
+954	1	220504	08:38:00	08:38:00		Lubelska Os. Ogrody 10 nż
+954	1	220504	08:39:00	08:39:00		Lubelska Ogrody Hiszpańskie 12 nż
+954	1	220504	08:40:00	08:40:00		Lubelska MPK 14 nż
+954	1	220504	08:41:00	08:41:00		Lubelska Zajezdnia MPK
 
-952	2	208988	10:12:00	10:12:00		Lubelska Zajezdnia MPK
-952	2	208988	10:13:00	10:13:00		Lubelska MPK 13 nż
-952	2	208988	10:14:00	10:14:00		Lubelska Ogrody Hiszpańskie 11 nż
-952	2	208988	10:15:00	10:15:00		Lubelska Os. Ogrody 09 nż
-952	2	208988	10:16:00	10:16:00		Lubelska / Borowa 07 nż
-952	2	208988	10:18:00	10:18:00		Trembeckiego ZTM pętla 01
-952	2	208988	10:20:00	10:20:00		Lubelska kościół 05 nż
-952	2	208988	10:21:00	10:21:00		Lubelska szpital 01
-952	2	208988	10:22:00	10:22:00		Marszałkowska 01
-952	2	208988	10:25:00	10:25:00		Cieplińskiego 02
-952	2	208988	10:26:00	10:26:00		Lisa-Kuli 01
-952	2	208988	10:28:00	10:28:00		Dąbrowskiego park 02 nż
-952	2	208988	10:29:00	10:29:00		Dąbrowskiego KW. Policji 04
-952	2	208988	10:30:00	10:30:00		Dąbrowskiego / Bat. Chłopskich 10
-952	2	208988	10:33:00	10:33:00		Podkarpacka politechnika 02
-952	2	208988	10:34:00	10:34:00		Podkarpacka / Matuszczaka 04
-952	2	208988	10:35:00	10:35:00		Podkarpacka / Wetlińska 06 nż
-952	2	208988	10:37:00	10:37:00		Podkarpacka kościół 08 nż
-952	2	208988	10:38:00	10:38:00		Beskidzka szkoła 02 nż
-952	2	208988	10:40:00	10:40:00		Beskidzka / Karkonoska 04 nż
-952	2	208988	10:41:00	10:41:00		Beskidzka Pod Racławówką 06 nż
-952	2	208988	10:42:00	10:42:00		Beskidzka granica 07 nż
+953	1	220418	09:12:00	09:12:00		Lubelska Zajezdnia MPK
+953	1	220418	09:13:00	09:13:00		Lubelska MPK 13 nż
+953	1	220418	09:14:00	09:14:00		Lubelska Ogrody Hiszpańskie 11 nż
+953	1	220418	09:15:00	09:15:00		Lubelska Os. Ogrody 09 nż
+953	1	220418	09:16:00	09:16:00		Lubelska / Borowa 07 nż
+953	1	220418	09:18:00	09:18:00		Trembeckiego ZTM pętla 01
+953	1	220418	09:20:00	09:20:00		Lubelska kościół 05 nż
+953	1	220418	09:21:00	09:21:00		Lubelska szpital 01
+953	1	220418	09:22:00	09:22:00		Marszałkowska 01
+953	1	220418	09:25:00	09:25:00		Cieplińskiego 02
+953	1	220418	09:26:00	09:26:00		Lisa-Kuli 01
+953	1	220418	09:28:00	09:28:00		Dąbrowskiego park 02 nż
+953	1	220418	09:29:00	09:29:00		Dąbrowskiego KW. Policji 04
+953	1	220418	09:30:00	09:30:00		Dąbrowskiego / Bat. Chłopskich 10
+953	1	220418	09:32:00	09:32:00		Podkarpacka politechnika 02
+953	1	220418	09:33:00	09:33:00		Podkarpacka / Matuszczaka 04
+953	1	220418	09:34:00	09:34:00		Podkarpacka / Wetlińska 06 nż
+953	1	220418	09:36:00	09:36:00		Podkarpacka kościół 08 nż
+953	1	220418	09:37:00	09:37:00		Beskidzka szkoła 02 nż
+953	1	220418	09:39:00	09:39:00		Beskidzka / Karkonoska 04 nż
+953	1	220418	09:40:00	09:40:00		Beskidzka Pod Racławówką 06 nż
+953	1	220418	09:41:00	09:41:00		Beskidzka granica 08 nż
+953	1	220418	09:42:00	09:42:00		Racławówka granica 37 nż
+953	1	220418	09:43:00	09:43:00		Racławówka spółdzielnia 35 nż
+953	1	220418	09:44:00	09:44:00		Racławówka OSP 33 nż
+953	1	220418	09:45:00	09:45:00		Racławówka poczta 31 nż
+953	1	220418	09:46:00	09:46:00		Racławówka szkoła skrzyżowanie 06 nż
+953	1	220418	09:47:00	09:47:00		Racławówka szkoła 29 nż
+953	1	220418	09:48:00	09:48:00		Racławówka łąki 27 nż
+953	1	220418	09:49:00	09:49:00		Racławówka 25 nż
+953	1	220418	09:50:00	09:50:00		Racławówka Zabierzów 23
 
-954	2	213371	11:01:00	11:01:00		Beskidzka granica 07 nż
-954	2	213371	11:02:00	11:02:00		Beskidzka Pod Racławówką 05 nż
-954	2	213371	11:03:00	11:03:00		Beskidzka / Karkonoska 03 nż
-954	2	213371	11:04:00	11:04:00		Karkonoska / Beskidzka 02 nż
-954	2	213371	11:05:00	11:05:00		Karkonoska środek 04 nż
-954	2	213371	11:06:00	11:06:00		Karkonoska pętla 06 nż
-954	2	213371	11:07:00	11:07:00		Racławówka Doły wieś 03 nż
-954	2	213371	11:08:00	11:08:00		Racławówka Doły pętla 04 nż
-954	2	213371	11:09:00	11:09:00		Racławówka Doły wieś 06 nż
-954	2	213371	11:10:00	11:10:00		Karkonoska pętla 05 nż
-954	2	213371	11:11:00	11:11:00		Karkonoska środek 03 nż
-954	2	213371	11:12:00	11:12:00		Karkonoska / Beskidzka 01 nż
-954	2	213371	11:14:00	11:14:00		Beskidzka szkoła 01 nż
-954	2	213371	11:15:00	11:15:00		Podkarpacka kościół 07 nż
-954	2	213371	11:16:00	11:16:00		Podkarpacka / Wetlińska 05 nż
-954	2	213371	11:17:00	11:17:00		Podkarpacka / Matuszczaka 03
-954	2	213371	11:19:00	11:19:00		Podkarpacka politechnika 01
-954	2	213371	11:21:00	11:21:00		Dąbrowskiego / Chrobrego 07
-954	2	213371	11:22:00	11:22:00		Dąbrowskiego KW. Policji 03
-954	2	213371	11:23:00	11:23:00		Dąbrowskiego park 01 nż
-954	2	213371	11:27:00	11:27:00		Lisa-Kuli 02
-954	2	213371	11:28:00	11:28:00		Cieplińskiego 01
-954	2	213371	11:31:00	11:31:00		Marszałkowska 02
-954	2	213371	11:32:00	11:32:00		Lubelska szpital 02
-954	2	213371	11:33:00	11:33:00		Lubelska kościół 06 nż
-954	2	213371	11:35:00	11:35:00		Trembeckiego ZTM pętla 01
-954	2	213371	11:37:00	11:37:00		Lubelska / Borowa 08 nż
-954	2	213371	11:39:00	11:39:00		Lubelska Os. Ogrody 10 nż
-954	2	213371	11:40:00	11:40:00		Lubelska Ogrody Hiszpańskie 12 nż
-954	2	213371	11:41:00	11:41:00		Lubelska MPK 14 nż
-954	2	213371	11:42:00	11:42:00		Lubelska Zajezdnia MPK
+1769	1	220473	10:01:00	10:01:00		Racławówka Zabierzów 23
+1769	1	220473	10:02:00	10:02:00		Racławówka 28 nż
+1769	1	220473	10:03:00	10:03:00		Racławówka łąki 30 nż
+1769	1	220473	10:04:00	10:04:00		Racławówka szkoła 32 nż
+1769	1	220473	10:06:00	10:06:00		Racławówka poczta 34 nż
+1769	1	220473	10:07:00	10:07:00		Racławówka OSP 36 nż
+1769	1	220473	10:08:00	10:08:00		Racławówka spółdzielnia 38 nż
+1769	1	220473	10:09:00	10:09:00		Racławówka granica 40 nż
+1769	1	220473	10:10:00	10:10:00		Beskidzka granica 07 nż
+1769	1	220473	10:11:00	10:11:00		Beskidzka Pod Racławówką 05 nż
+1769	1	220473	10:12:00	10:12:00		Beskidzka / Karkonoska 03 nż
+1769	1	220473	10:14:00	10:14:00		Beskidzka szkoła 01 nż
+1769	1	220473	10:15:00	10:15:00		Podkarpacka kościół 07 nż
+1769	1	220473	10:16:00	10:16:00		Podkarpacka / Wetlińska 05 nż
+1769	1	220473	10:17:00	10:17:00		Podkarpacka / Matuszczaka 03
+1769	1	220473	10:19:00	10:19:00		Podkarpacka politechnika 01
+1769	1	220473	10:21:00	10:21:00		Dąbrowskiego / Chrobrego 07
+1769	1	220473	10:22:00	10:22:00		Dąbrowskiego KW. Policji 03
+1769	1	220473	10:23:00	10:23:00		Dąbrowskiego park 01 nż
+1769	1	220473	10:27:00	10:27:00		Lisa-Kuli 02
+1769	1	220473	10:28:00	10:28:00		Cieplińskiego 01
+1769	1	220473	10:30:00	10:30:00		Marszałkowska 02
+1769	1	220473	10:31:00	10:31:00		Lubelska szpital 02
+1769	1	220473	10:32:00	10:32:00		Lubelska kościół 06 nż
+1769	1	220473	10:34:00	10:34:00		Trembeckiego ZTM pętla 01
+1769	1	220473	10:36:00	10:36:00		Lubelska / Borowa 08 nż
+1769	1	220473	10:38:00	10:38:00		Lubelska Os. Ogrody 10 nż
+1769	1	220473	10:39:00	10:39:00		Lubelska Ogrody Hiszpańskie 12 nż
+1769	1	220473	10:40:00	10:40:00		Lubelska MPK 14 nż
+1769	1	220473	10:41:00	10:41:00		Lubelska Zajezdnia MPK
 
-1910	2	211778	12:28:00	12:28:00		Lubelska Zajezdnia MPK
-1910	2	211778	12:29:00	12:29:00		Lubelska MPK 13 nż
-1910	2	211778	12:30:00	12:30:00		Lubelska Ogrody Hiszpańskie 11 nż
-1910	2	211778	12:31:00	12:31:00		Lubelska Os. Ogrody 09 nż
-1910	2	211778	12:32:00	12:32:00		Lubelska / Borowa 07 nż
-1910	2	211778	12:34:00	12:34:00		Lubelska kościół 05 nż
-1910	2	211778	12:35:00	12:35:00		Lubelska szpital 01
-1910	2	211778	12:36:00	12:36:00		Marszałkowska 01
-1910	2	211778	12:40:00	12:40:00		Piłsudskiego U. Wojewódzki 05
-1910	2	211778	12:41:00	12:41:00		Pl. Wolności 03
-1910	2	211778	12:43:00	12:43:00		Targowa 01
-1910	2	211778	12:45:00	12:45:00		Szopena Filharmonia 02 nż
-1910	2	211778	12:48:00	12:48:00		Podwisłocze U. Skarbowy 03
-1910	2	211778	12:49:00	12:49:00		Podwisłocze domki 01
-1910	2	211778	12:52:00	12:52:00		Kwiatkowskiego / Powst. Warszawy 02
-1910	2	211778	12:53:00	12:53:00		Kwiatkowskiego dom studenta 04 nż
-1910	2	211778	12:54:00	12:54:00		Kwiatkowskiego / Strażacka 06 nż
-1910	2	211778	12:55:00	12:55:00		Strażacka / Graniczna 02 nż
-1910	2	211778	12:56:00	12:56:00		Strażacka / Urocza 04 nż
-1910	2	211778	12:57:00	12:57:00		Miła / Strażacka 02 nż
-1910	2	211778	12:58:00	12:58:00		Miła bloki 04 nż
-1910	2	211778	12:59:00	12:59:00		Miła szkoła 06 nż
-1910	2	211778	13:00:00	13:00:00		Kard. K. Wojtyły kościół 05 nż
-1910	2	211778	13:02:00	13:02:00		Kard. K. Wojtyły pętla 03 nż
-1910	2	211778	13:03:00	13:03:00		Kard. K .Wojtyły / Sikorskiego 01 nż
-1910	2	211778	13:04:00	13:04:00		Sikorskiego / Kard. K. Wojtyły 16 nż
-1910	2	211778	13:05:00	13:05:00		Sikorskiego granica 18 nż
-1910	2	211778	13:07:00	13:07:00		Sikorskiego MPGK 20
+952	1	220655	11:10:00	11:10:00		Lubelska Zajezdnia MPK
+952	1	220655	11:11:00	11:11:00		Lubelska MPK 13 nż
+952	1	220655	11:12:00	11:12:00		Lubelska Ogrody Hiszpańskie 11 nż
+952	1	220655	11:13:00	11:13:00		Lubelska Os. Ogrody 09 nż
+952	1	220655	11:14:00	11:14:00		Lubelska / Borowa 07 nż
+952	1	220655	11:17:00	11:17:00		Trembeckiego ZTM pętla 01
+952	1	220655	11:20:00	11:20:00		Lubelska kościół 05 nż
+952	1	220655	11:21:00	11:21:00		Lubelska szpital 01
+952	1	220655	11:22:00	11:22:00		Marszałkowska 01
+952	1	220655	11:25:00	11:25:00		Cieplińskiego 02
+952	1	220655	11:26:00	11:26:00		Lisa-Kuli 01
+952	1	220655	11:29:00	11:29:00		Dąbrowskiego park 02 nż
+952	1	220655	11:30:00	11:30:00		Dąbrowskiego KW. Policji 04
+952	1	220655	11:31:00	11:31:00		Dąbrowskiego / Bat. Chłopskich 10
+952	1	220655	11:34:00	11:34:00		Podkarpacka politechnika 02
+952	1	220655	11:35:00	11:35:00		Podkarpacka / Matuszczaka 04
+952	1	220655	11:36:00	11:36:00		Podkarpacka / Wetlińska 06 nż
+952	1	220655	11:38:00	11:38:00		Podkarpacka kościół 08 nż
+952	1	220655	11:39:00	11:39:00		Beskidzka szkoła 02 nż
+952	1	220655	11:41:00	11:41:00		Beskidzka / Karkonoska 04 nż
+952	1	220655	11:42:00	11:42:00		Beskidzka Pod Racławówką 06 nż
+952	1	220655	11:43:00	11:43:00		Beskidzka granica 07 nż
 
-1901	2	209298	13:30:00	13:30:00		Sikorskiego MPGK 20
-1901	2	209298	13:31:00	13:31:00		Sikorskiego granica 15 nż
-1901	2	209298	13:32:00	13:32:00		Sikorskiego / Ruczajowa 13 nż
-1901	2	209298	13:33:00	13:33:00		Kard. K. Wojtyły / Sikorskiego 02 nż
-1901	2	209298	13:34:00	13:34:00		Kard. K. Wojtyły pętla 04 nż
-1901	2	209298	13:35:00	13:35:00		Kard. K. Wojtyły kościół 06 nż
-1901	2	209298	13:37:00	13:37:00		Miła dom kultury 05 nż
-1901	2	209298	13:38:00	13:38:00		Miła bloki 03 nż
-1901	2	209298	13:39:00	13:39:00		Miła / Strażacka 01 nż
-1901	2	209298	13:40:00	13:40:00		Strażacka / Urocza 03 nż
-1901	2	209298	13:41:00	13:41:00		Strażacka / Graniczna 01 nż
-1901	2	209298	13:42:00	13:42:00		Kwiatkowskiego / Strażacka 03 nż
-1901	2	209298	13:43:00	13:43:00		Kwiatkowskiego dom studenta 01 nż
-1901	2	209298	13:45:00	13:45:00		Podwisłocze / Powst. Warszawy 02
-1901	2	209298	13:46:00	13:46:00		Podwisłocze / Seniora 04
-1901	2	209298	13:48:00	13:48:00		Kopisto Most Zamkowy 04
-1901	2	209298	13:49:00	13:49:00		Szopena Filharmonia 01 nż
-1901	2	209298	13:52:00	13:52:00		Targowa 02
-1901	2	209298	13:54:00	13:54:00		Pl. Wolności 04
-1901	2	209298	13:55:00	13:55:00		Piłsudskiego U. Wojewódzki 06
-1901	2	209298	13:58:00	13:58:00		Marszałkowska 02
-1901	2	209298	13:59:00	13:59:00		Lubelska szpital 02
-1901	2	209298	14:00:00	14:00:00		Lubelska kościół 06 nż
-1901	2	209298	14:02:00	14:02:00		Lubelska / Borowa 08 nż
-1901	2	209298	14:04:00	14:04:00		Lubelska Os. Ogrody 10 nż
-1901	2	209298	14:05:00	14:05:00		Lubelska Ogrody Hiszpańskie 12 nż
-1901	2	209298	14:06:00	14:06:00		Lubelska MPK 14 nż
-1901	2	209298	14:07:00	14:07:00		Lubelska Zajezdnia MPK
+956	1	220559	12:10:00	12:10:00		Beskidzka granica 07 nż
+956	1	220559	12:11:00	12:11:00		Beskidzka Pod Racławówką 05 nż
+956	1	220559	12:12:00	12:12:00		Beskidzka / Karkonoska 03 nż
+956	1	220559	12:14:00	12:14:00		Beskidzka szkoła 01 nż
+956	1	220559	12:15:00	12:15:00		Podkarpacka kościół 07 nż
+956	1	220559	12:16:00	12:16:00		Podkarpacka / Wetlińska 05 nż
+956	1	220559	12:17:00	12:17:00		Podkarpacka / Matuszczaka 03
+956	1	220559	12:19:00	12:19:00		Podkarpacka politechnika 01
+956	1	220559	12:21:00	12:21:00		Dąbrowskiego / Chrobrego 07
+956	1	220559	12:22:00	12:22:00		Dąbrowskiego KW. Policji 03
+956	1	220559	12:23:00	12:23:00		Dąbrowskiego park 01 nż
+956	1	220559	12:27:00	12:27:00		Lisa-Kuli 02
+956	1	220559	12:28:00	12:28:00		Cieplińskiego 01
+956	1	220559	12:31:00	12:31:00		Marszałkowska 02
+956	1	220559	12:32:00	12:32:00		Lubelska szpital 02
+956	1	220559	12:33:00	12:33:00		Lubelska kościół 06 nż
+956	1	220559	12:35:00	12:35:00		Trembeckiego ZTM pętla 01
+956	1	220559	12:37:00	12:37:00		Lubelska / Borowa 08 nż
+956	1	220559	12:39:00	12:39:00		Lubelska Os. Ogrody 10 nż
+956	1	220559	12:40:00	12:40:00		Lubelska Ogrody Hiszpańskie 12 nż
+956	1	220559	12:41:00	12:41:00		Lubelska MPK 14 nż
+956	1	220559	12:42:00	12:42:00		Lubelska Zajezdnia MPK
 
-955	2	210387	15:12:00	15:12:00		Lubelska Zajezdnia MPK
-955	2	210387	15:13:00	15:13:00		Lubelska MPK 13 nż
-955	2	210387	15:14:00	15:14:00		Lubelska Ogrody Hiszpańskie 11 nż
-955	2	210387	15:15:00	15:15:00		Lubelska Os. Ogrody 09 nż
-955	2	210387	15:16:00	15:16:00		Lubelska / Borowa 07 nż
-955	2	210387	15:18:00	15:18:00		Trembeckiego ZTM pętla 01
-955	2	210387	15:20:00	15:20:00		Lubelska kościół 05 nż
-955	2	210387	15:21:00	15:21:00		Lubelska szpital 01
-955	2	210387	15:22:00	15:22:00		Marszałkowska 01
-955	2	210387	15:25:00	15:25:00		Cieplińskiego 02
-955	2	210387	15:26:00	15:26:00		Lisa-Kuli 01
-955	2	210387	15:29:00	15:29:00		Dąbrowskiego park 02 nż
-955	2	210387	15:30:00	15:30:00		Dąbrowskiego KW. Policji 04
-955	2	210387	15:31:00	15:31:00		Dąbrowskiego / Bat. Chłopskich 10
-955	2	210387	15:34:00	15:34:00		Podkarpacka politechnika 02
-955	2	210387	15:35:00	15:35:00		Podkarpacka / Matuszczaka 04
-955	2	210387	15:36:00	15:36:00		Podkarpacka / Wetlińska 06 nż
-955	2	210387	15:38:00	15:38:00		Podkarpacka kościół 08 nż
-955	2	210387	15:39:00	15:39:00		Beskidzka szkoła 02 nż
-955	2	210387	15:41:00	15:41:00		Karkonoska / Beskidzka 02 nż
-955	2	210387	15:42:00	15:42:00		Karkonoska środek 04 nż
-955	2	210387	15:43:00	15:43:00		Karkonoska pętla 06 nż
-955	2	210387	15:44:00	15:44:00		Racławówka Doły wieś 03 nż
-955	2	210387	15:45:00	15:45:00		Racławówka Doły pętla 04 nż
-955	2	210387	15:46:00	15:46:00		Racławówka Doły wieś 06 nż
-955	2	210387	15:47:00	15:47:00		Karkonoska pętla 05 nż
-955	2	210387	15:48:00	15:48:00		Karkonoska środek 03 nż
-955	2	210387	15:49:00	15:49:00		Karkonoska / Beskidzka 01 nż
-955	2	210387	15:50:00	15:50:00		Beskidzka / Karkonoska 04 nż
-955	2	210387	15:51:00	15:51:00		Beskidzka Pod Racławówką 06 nż
-955	2	210387	15:52:00	15:52:00		Beskidzka granica 07 nż
+955	1	220374	13:10:00	13:10:00		Lubelska Zajezdnia MPK
+955	1	220374	13:11:00	13:11:00		Lubelska MPK 13 nż
+955	1	220374	13:12:00	13:12:00		Lubelska Ogrody Hiszpańskie 11 nż
+955	1	220374	13:13:00	13:13:00		Lubelska Os. Ogrody 09 nż
+955	1	220374	13:14:00	13:14:00		Lubelska / Borowa 07 nż
+955	1	220374	13:17:00	13:17:00		Trembeckiego ZTM pętla 01
+955	1	220374	13:20:00	13:20:00		Lubelska kościół 05 nż
+955	1	220374	13:21:00	13:21:00		Lubelska szpital 01
+955	1	220374	13:22:00	13:22:00		Marszałkowska 01
+955	1	220374	13:25:00	13:25:00		Cieplińskiego 02
+955	1	220374	13:26:00	13:26:00		Lisa-Kuli 01
+955	1	220374	13:29:00	13:29:00		Dąbrowskiego park 02 nż
+955	1	220374	13:30:00	13:30:00		Dąbrowskiego KW. Policji 04
+955	1	220374	13:31:00	13:31:00		Dąbrowskiego / Bat. Chłopskich 10
+955	1	220374	13:34:00	13:34:00		Podkarpacka politechnika 02
+955	1	220374	13:35:00	13:35:00		Podkarpacka / Matuszczaka 04
+955	1	220374	13:36:00	13:36:00		Podkarpacka / Wetlińska 06 nż
+955	1	220374	13:38:00	13:38:00		Podkarpacka kościół 08 nż
+955	1	220374	13:39:00	13:39:00		Beskidzka szkoła 02 nż
+955	1	220374	13:41:00	13:41:00		Karkonoska / Beskidzka 02 nż
+955	1	220374	13:42:00	13:42:00		Karkonoska środek 04 nż
+955	1	220374	13:43:00	13:43:00		Karkonoska pętla 06 nż
+955	1	220374	13:44:00	13:44:00		Racławówka Doły wieś 03 nż
+955	1	220374	13:45:00	13:45:00		Racławówka Doły pętla 04 nż
+955	1	220374	13:46:00	13:46:00		Racławówka Doły wieś 06 nż
+955	1	220374	13:47:00	13:47:00		Karkonoska pętla 05 nż
+955	1	220374	13:48:00	13:48:00		Karkonoska środek 03 nż
+955	1	220374	13:49:00	13:49:00		Karkonoska / Beskidzka 01 nż
+955	1	220374	13:50:00	13:50:00		Beskidzka / Karkonoska 04 nż
+955	1	220374	13:51:00	13:51:00		Beskidzka Pod Racławówką 06 nż
+955	1	220374	13:52:00	13:52:00		Beskidzka granica 07 nż
 
-956	2	214535	16:10:00	16:10:00		Beskidzka granica 07 nż
-956	2	214535	16:11:00	16:11:00		Beskidzka Pod Racławówką 05 nż
-956	2	214535	16:12:00	16:12:00		Beskidzka / Karkonoska 03 nż
-956	2	214535	16:14:00	16:14:00		Beskidzka szkoła 01 nż
-956	2	214535	16:15:00	16:15:00		Podkarpacka kościół 07 nż
-956	2	214535	16:16:00	16:16:00		Podkarpacka / Wetlińska 05 nż
-956	2	214535	16:17:00	16:17:00		Podkarpacka / Matuszczaka 03
-956	2	214535	16:19:00	16:19:00		Podkarpacka politechnika 01
-956	2	214535	16:21:00	16:21:00		Dąbrowskiego / Chrobrego 07
-956	2	214535	16:22:00	16:22:00		Dąbrowskiego KW. Policji 03
-956	2	214535	16:23:00	16:23:00		Dąbrowskiego park 01 nż
-956	2	214535	16:27:00	16:27:00		Lisa-Kuli 02
-956	2	214535	16:28:00	16:28:00		Cieplińskiego 01
-956	2	214535	16:30:00	16:30:00		Marszałkowska 02
-956	2	214535	16:31:00	16:31:00		Lubelska szpital 02
-956	2	214535	16:32:00	16:32:00		Lubelska kościół 06 nż
-956	2	214535	16:34:00	16:34:00		Trembeckiego ZTM pętla 01
-956	2	214535	16:36:00	16:36:00		Lubelska / Borowa 08 nż
-956	2	214535	16:38:00	16:38:00		Lubelska Os. Ogrody 10 nż
-956	2	214535	16:39:00	16:39:00		Lubelska Ogrody Hiszpańskie 12 nż
-956	2	214535	16:40:00	16:40:00		Lubelska MPK 14 nż
-956	2	214535	16:41:00	16:41:00		Lubelska Zajezdnia MPK
+956	1	220592	14:10:00	14:10:00		Beskidzka granica 07 nż
+956	1	220592	14:11:00	14:11:00		Beskidzka Pod Racławówką 05 nż
+956	1	220592	14:12:00	14:12:00		Beskidzka / Karkonoska 03 nż
+956	1	220592	14:14:00	14:14:00		Beskidzka szkoła 01 nż
+956	1	220592	14:15:00	14:15:00		Podkarpacka kościół 07 nż
+956	1	220592	14:16:00	14:16:00		Podkarpacka / Wetlińska 05 nż
+956	1	220592	14:17:00	14:17:00		Podkarpacka / Matuszczaka 03
+956	1	220592	14:19:00	14:19:00		Podkarpacka politechnika 01
+956	1	220592	14:21:00	14:21:00		Dąbrowskiego / Chrobrego 07
+956	1	220592	14:22:00	14:22:00		Dąbrowskiego KW. Policji 03
+956	1	220592	14:23:00	14:23:00		Dąbrowskiego park 01 nż
+956	1	220592	14:27:00	14:27:00		Lisa-Kuli 02
+956	1	220592	14:28:00	14:28:00		Cieplińskiego 01
+956	1	220592	14:31:00	14:31:00		Marszałkowska 02
+956	1	220592	14:32:00	14:32:00		Lubelska szpital 02
+956	1	220592	14:33:00	14:33:00		Lubelska kościół 06 nż
+956	1	220592	14:35:00	14:35:00		Trembeckiego ZTM pętla 01
+956	1	220592	14:37:00	14:37:00		Lubelska / Borowa 08 nż
+956	1	220592	14:39:00	14:39:00		Lubelska Os. Ogrody 10 nż
+956	1	220592	14:40:00	14:40:00		Lubelska Ogrody Hiszpańskie 12 nż
+956	1	220592	14:41:00	14:41:00		Lubelska MPK 14 nż
+956	1	220592	14:42:00	14:42:00		Lubelska Zajezdnia MPK
 
-1910	2	208596	17:30:00	17:30:00		Lubelska Zajezdnia MPK
-1910	2	208596	17:31:00	17:31:00		Lubelska MPK 13 nż
-1910	2	208596	17:32:00	17:32:00		Lubelska Ogrody Hiszpańskie 11 nż
-1910	2	208596	17:33:00	17:33:00		Lubelska Os. Ogrody 09 nż
-1910	2	208596	17:34:00	17:34:00		Lubelska / Borowa 07 nż
-1910	2	208596	17:35:00	17:35:00		Lubelska kościół 05 nż
-1910	2	208596	17:36:00	17:36:00		Lubelska szpital 01
-1910	2	208596	17:37:00	17:37:00		Marszałkowska 01
-1910	2	208596	17:40:00	17:40:00		Piłsudskiego U. Wojewódzki 05
-1910	2	208596	17:41:00	17:41:00		Pl. Wolności 03
-1910	2	208596	17:42:00	17:42:00		Targowa 01
-1910	2	208596	17:44:00	17:44:00		Szopena Filharmonia 02 nż
-1910	2	208596	17:46:00	17:46:00		Podwisłocze U. Skarbowy 03
-1910	2	208596	17:47:00	17:47:00		Podwisłocze domki 01
-1910	2	208596	17:50:00	17:50:00		Kwiatkowskiego / Powst. Warszawy 02
-1910	2	208596	17:51:00	17:51:00		Kwiatkowskiego dom studenta 04 nż
-1910	2	208596	17:52:00	17:52:00		Kwiatkowskiego / Strażacka 06 nż
-1910	2	208596	17:53:00	17:53:00		Strażacka / Graniczna 02 nż
-1910	2	208596	17:54:00	17:54:00		Strażacka / Urocza 04 nż
-1910	2	208596	17:55:00	17:55:00		Miła / Strażacka 02 nż
-1910	2	208596	17:56:00	17:56:00		Miła bloki 04 nż
-1910	2	208596	17:57:00	17:57:00		Miła szkoła 06 nż
-1910	2	208596	17:58:00	17:58:00		Kard. K. Wojtyły kościół 05 nż
-1910	2	208596	18:00:00	18:00:00		Kard. K. Wojtyły pętla 03 nż
-1910	2	208596	18:01:00	18:01:00		Kard. K .Wojtyły / Sikorskiego 01 nż
-1910	2	208596	18:02:00	18:02:00		Sikorskiego / Kard. K. Wojtyły 16 nż
-1910	2	208596	18:03:00	18:03:00		Sikorskiego granica 18 nż
-1910	2	208596	18:04:00	18:04:00		Sikorskiego MPGK 20
+955	1	220452	15:12:00	15:12:00		Lubelska Zajezdnia MPK
+955	1	220452	15:13:00	15:13:00		Lubelska MPK 13 nż
+955	1	220452	15:14:00	15:14:00		Lubelska Ogrody Hiszpańskie 11 nż
+955	1	220452	15:15:00	15:15:00		Lubelska Os. Ogrody 09 nż
+955	1	220452	15:16:00	15:16:00		Lubelska / Borowa 07 nż
+955	1	220452	15:18:00	15:18:00		Trembeckiego ZTM pętla 01
+955	1	220452	15:20:00	15:20:00		Lubelska kościół 05 nż
+955	1	220452	15:21:00	15:21:00		Lubelska szpital 01
+955	1	220452	15:22:00	15:22:00		Marszałkowska 01
+955	1	220452	15:25:00	15:25:00		Cieplińskiego 02
+955	1	220452	15:26:00	15:26:00		Lisa-Kuli 01
+955	1	220452	15:29:00	15:29:00		Dąbrowskiego park 02 nż
+955	1	220452	15:30:00	15:30:00		Dąbrowskiego KW. Policji 04
+955	1	220452	15:31:00	15:31:00		Dąbrowskiego / Bat. Chłopskich 10
+955	1	220452	15:34:00	15:34:00		Podkarpacka politechnika 02
+955	1	220452	15:35:00	15:35:00		Podkarpacka / Matuszczaka 04
+955	1	220452	15:36:00	15:36:00		Podkarpacka / Wetlińska 06 nż
+955	1	220452	15:38:00	15:38:00		Podkarpacka kościół 08 nż
+955	1	220452	15:39:00	15:39:00		Beskidzka szkoła 02 nż
+955	1	220452	15:41:00	15:41:00		Karkonoska / Beskidzka 02 nż
+955	1	220452	15:42:00	15:42:00		Karkonoska środek 04 nż
+955	1	220452	15:43:00	15:43:00		Karkonoska pętla 06 nż
+955	1	220452	15:44:00	15:44:00		Racławówka Doły wieś 03 nż
+955	1	220452	15:45:00	15:45:00		Racławówka Doły pętla 04 nż
+955	1	220452	15:46:00	15:46:00		Racławówka Doły wieś 06 nż
+955	1	220452	15:47:00	15:47:00		Karkonoska pętla 05 nż
+955	1	220452	15:48:00	15:48:00		Karkonoska środek 03 nż
+955	1	220452	15:49:00	15:49:00		Karkonoska / Beskidzka 01 nż
+955	1	220452	15:50:00	15:50:00		Beskidzka / Karkonoska 04 nż
+955	1	220452	15:51:00	15:51:00		Beskidzka Pod Racławówką 06 nż
+955	1	220452	15:52:00	15:52:00		Beskidzka granica 07 nż
 
-1901	2	209594	18:30:00	18:30:00		Sikorskiego MPGK 20
-1901	2	209594	18:31:00	18:31:00		Sikorskiego granica 15 nż
-1901	2	209594	18:32:00	18:32:00		Sikorskiego / Ruczajowa 13 nż
-1901	2	209594	18:33:00	18:33:00		Kard. K. Wojtyły / Sikorskiego 02 nż
-1901	2	209594	18:34:00	18:34:00		Kard. K. Wojtyły pętla 04 nż
-1901	2	209594	18:35:00	18:35:00		Kard. K. Wojtyły kościół 06 nż
-1901	2	209594	18:37:00	18:37:00		Miła dom kultury 05 nż
-1901	2	209594	18:38:00	18:38:00		Miła bloki 03 nż
-1901	2	209594	18:39:00	18:39:00		Miła / Strażacka 01 nż
-1901	2	209594	18:40:00	18:40:00		Strażacka / Urocza 03 nż
-1901	2	209594	18:41:00	18:41:00		Strażacka / Graniczna 01 nż
-1901	2	209594	18:42:00	18:42:00		Kwiatkowskiego / Strażacka 03 nż
-1901	2	209594	18:43:00	18:43:00		Kwiatkowskiego dom studenta 01 nż
-1901	2	209594	18:45:00	18:45:00		Podwisłocze / Powst. Warszawy 02
-1901	2	209594	18:46:00	18:46:00		Podwisłocze / Seniora 04
-1901	2	209594	18:48:00	18:48:00		Kopisto Most Zamkowy 04
-1901	2	209594	18:49:00	18:49:00		Szopena Filharmonia 01 nż
-1901	2	209594	18:51:00	18:51:00		Targowa 02
-1901	2	209594	18:53:00	18:53:00		Pl. Wolności 04
-1901	2	209594	18:54:00	18:54:00		Piłsudskiego U. Wojewódzki 06
-1901	2	209594	18:57:00	18:57:00		Marszałkowska 02
-1901	2	209594	18:58:00	18:58:00		Lubelska szpital 02
-1901	2	209594	18:59:00	18:59:00		Lubelska kościół 06 nż
-1901	2	209594	19:01:00	19:01:00		Lubelska / Borowa 08 nż
-1901	2	209594	19:03:00	19:03:00		Lubelska Os. Ogrody 10 nż
-1901	2	209594	19:04:00	19:04:00		Lubelska Ogrody Hiszpańskie 12 nż
-1901	2	209594	19:05:00	19:05:00		Lubelska MPK 14 nż
-1901	2	209594	19:06:00	19:06:00		Lubelska Zajezdnia MPK
+956	1	220469	16:10:00	16:10:00		Beskidzka granica 07 nż
+956	1	220469	16:11:00	16:11:00		Beskidzka Pod Racławówką 05 nż
+956	1	220469	16:12:00	16:12:00		Beskidzka / Karkonoska 03 nż
+956	1	220469	16:14:00	16:14:00		Beskidzka szkoła 01 nż
+956	1	220469	16:15:00	16:15:00		Podkarpacka kościół 07 nż
+956	1	220469	16:16:00	16:16:00		Podkarpacka / Wetlińska 05 nż
+956	1	220469	16:17:00	16:17:00		Podkarpacka / Matuszczaka 03
+956	1	220469	16:19:00	16:19:00		Podkarpacka politechnika 01
+956	1	220469	16:21:00	16:21:00		Dąbrowskiego / Chrobrego 07
+956	1	220469	16:22:00	16:22:00		Dąbrowskiego KW. Policji 03
+956	1	220469	16:23:00	16:23:00		Dąbrowskiego park 01 nż
+956	1	220469	16:27:00	16:27:00		Lisa-Kuli 02
+956	1	220469	16:28:00	16:28:00		Cieplińskiego 01
+956	1	220469	16:30:00	16:30:00		Marszałkowska 02
+956	1	220469	16:31:00	16:31:00		Lubelska szpital 02
+956	1	220469	16:32:00	16:32:00		Lubelska kościół 06 nż
+956	1	220469	16:34:00	16:34:00		Trembeckiego ZTM pętla 01
+956	1	220469	16:36:00	16:36:00		Lubelska / Borowa 08 nż
+956	1	220469	16:38:00	16:38:00		Lubelska Os. Ogrody 10 nż
+956	1	220469	16:39:00	16:39:00		Lubelska Ogrody Hiszpańskie 12 nż
+956	1	220469	16:40:00	16:40:00		Lubelska MPK 14 nż
+956	1	220469	16:41:00	16:41:00		Lubelska Zajezdnia MPK
 
-955	2	212491	20:11:00	20:11:00		Lubelska Zajezdnia MPK
-955	2	212491	20:12:00	20:12:00		Lubelska MPK 13 nż
-955	2	212491	20:13:00	20:13:00		Lubelska Ogrody Hiszpańskie 11 nż
-955	2	212491	20:14:00	20:14:00		Lubelska Os. Ogrody 09 nż
-955	2	212491	20:15:00	20:15:00		Lubelska / Borowa 07 nż
-955	2	212491	20:17:00	20:17:00		Trembeckiego ZTM pętla 01
-955	2	212491	20:19:00	20:19:00		Lubelska kościół 05 nż
-955	2	212491	20:20:00	20:20:00		Lubelska szpital 01
-955	2	212491	20:21:00	20:21:00		Marszałkowska 01
-955	2	212491	20:24:00	20:24:00		Cieplińskiego 02
-955	2	212491	20:25:00	20:25:00		Lisa-Kuli 01
-955	2	212491	20:27:00	20:27:00		Dąbrowskiego park 02 nż
-955	2	212491	20:28:00	20:28:00		Dąbrowskiego KW. Policji 04
-955	2	212491	20:29:00	20:29:00		Dąbrowskiego / Bat. Chłopskich 10
-955	2	212491	20:32:00	20:32:00		Podkarpacka politechnika 02
-955	2	212491	20:33:00	20:33:00		Podkarpacka / Matuszczaka 04
-955	2	212491	20:34:00	20:34:00		Podkarpacka / Wetlińska 06 nż
-955	2	212491	20:36:00	20:36:00		Podkarpacka kościół 08 nż
-955	2	212491	20:37:00	20:37:00		Beskidzka szkoła 02 nż
-955	2	212491	20:39:00	20:39:00		Karkonoska / Beskidzka 02 nż
-955	2	212491	20:40:00	20:40:00		Karkonoska środek 04 nż
-955	2	212491	20:41:00	20:41:00		Karkonoska pętla 06 nż
-955	2	212491	20:42:00	20:42:00		Racławówka Doły wieś 03 nż
-955	2	212491	20:43:00	20:43:00		Racławówka Doły pętla 04 nż
-955	2	212491	20:44:00	20:44:00		Racławówka Doły wieś 06 nż
-955	2	212491	20:45:00	20:45:00		Karkonoska pętla 05 nż
-955	2	212491	20:46:00	20:46:00		Karkonoska środek 03 nż
-955	2	212491	20:47:00	20:47:00		Karkonoska / Beskidzka 01 nż
-955	2	212491	20:48:00	20:48:00		Beskidzka / Karkonoska 04 nż
-955	2	212491	20:49:00	20:49:00		Beskidzka Pod Racławówką 06 nż
-955	2	212491	20:50:00	20:50:00		Beskidzka granica 07 nż
+955	1	220399	17:12:00	17:12:00		Lubelska Zajezdnia MPK
+955	1	220399	17:13:00	17:13:00		Lubelska MPK 13 nż
+955	1	220399	17:14:00	17:14:00		Lubelska Ogrody Hiszpańskie 11 nż
+955	1	220399	17:15:00	17:15:00		Lubelska Os. Ogrody 09 nż
+955	1	220399	17:16:00	17:16:00		Lubelska / Borowa 07 nż
+955	1	220399	17:18:00	17:18:00		Trembeckiego ZTM pętla 01
+955	1	220399	17:20:00	17:20:00		Lubelska kościół 05 nż
+955	1	220399	17:21:00	17:21:00		Lubelska szpital 01
+955	1	220399	17:22:00	17:22:00		Marszałkowska 01
+955	1	220399	17:25:00	17:25:00		Cieplińskiego 02
+955	1	220399	17:26:00	17:26:00		Lisa-Kuli 01
+955	1	220399	17:29:00	17:29:00		Dąbrowskiego park 02 nż
+955	1	220399	17:30:00	17:30:00		Dąbrowskiego KW. Policji 04
+955	1	220399	17:31:00	17:31:00		Dąbrowskiego / Bat. Chłopskich 10
+955	1	220399	17:34:00	17:34:00		Podkarpacka politechnika 02
+955	1	220399	17:35:00	17:35:00		Podkarpacka / Matuszczaka 04
+955	1	220399	17:36:00	17:36:00		Podkarpacka / Wetlińska 06 nż
+955	1	220399	17:38:00	17:38:00		Podkarpacka kościół 08 nż
+955	1	220399	17:39:00	17:39:00		Beskidzka szkoła 02 nż
+955	1	220399	17:41:00	17:41:00		Karkonoska / Beskidzka 02 nż
+955	1	220399	17:42:00	17:42:00		Karkonoska środek 04 nż
+955	1	220399	17:43:00	17:43:00		Karkonoska pętla 06 nż
+955	1	220399	17:44:00	17:44:00		Racławówka Doły wieś 03 nż
+955	1	220399	17:45:00	17:45:00		Racławówka Doły pętla 04 nż
+955	1	220399	17:46:00	17:46:00		Racławówka Doły wieś 06 nż
+955	1	220399	17:47:00	17:47:00		Karkonoska pętla 05 nż
+955	1	220399	17:48:00	17:48:00		Karkonoska środek 03 nż
+955	1	220399	17:49:00	17:49:00		Karkonoska / Beskidzka 01 nż
+955	1	220399	17:50:00	17:50:00		Beskidzka / Karkonoska 04 nż
+955	1	220399	17:51:00	17:51:00		Beskidzka Pod Racławówką 06 nż
+955	1	220399	17:52:00	17:52:00		Beskidzka granica 07 nż
 
-956	2	213319	21:12:00	21:12:00		Beskidzka granica 07 nż
-956	2	213319	21:13:00	21:13:00		Beskidzka Pod Racławówką 05 nż
-956	2	213319	21:14:00	21:14:00		Beskidzka / Karkonoska 03 nż
-956	2	213319	21:16:00	21:16:00		Beskidzka szkoła 01 nż
-956	2	213319	21:17:00	21:17:00		Podkarpacka kościół 07 nż
-956	2	213319	21:18:00	21:18:00		Podkarpacka / Wetlińska 05 nż
-956	2	213319	21:19:00	21:19:00		Podkarpacka / Matuszczaka 03
-956	2	213319	21:21:00	21:21:00		Podkarpacka politechnika 01
-956	2	213319	21:23:00	21:23:00		Dąbrowskiego / Chrobrego 07
-956	2	213319	21:24:00	21:24:00		Dąbrowskiego KW. Policji 03
-956	2	213319	21:25:00	21:25:00		Dąbrowskiego park 01 nż
-956	2	213319	21:28:00	21:28:00		Lisa-Kuli 02
-956	2	213319	21:29:00	21:29:00		Cieplińskiego 01
-956	2	213319	21:31:00	21:31:00		Marszałkowska 02
-956	2	213319	21:32:00	21:32:00		Lubelska szpital 02
-956	2	213319	21:33:00	21:33:00		Lubelska kościół 06 nż
-956	2	213319	21:35:00	21:35:00		Trembeckiego ZTM pętla 01
-956	2	213319	21:37:00	21:37:00		Lubelska / Borowa 08 nż
-956	2	213319	21:38:00	21:38:00		Lubelska Os. Ogrody 10 nż
-956	2	213319	21:39:00	21:39:00		Lubelska Ogrody Hiszpańskie 12 nż
-956	2	213319	21:40:00	21:40:00		Lubelska MPK 14 nż
-956	2	213319	21:41:00	21:41:00		Lubelska Zajezdnia MPK
+956	1	220478	18:11:00	18:11:00		Beskidzka granica 07 nż
+956	1	220478	18:12:00	18:12:00		Beskidzka Pod Racławówką 05 nż
+956	1	220478	18:13:00	18:13:00		Beskidzka / Karkonoska 03 nż
+956	1	220478	18:15:00	18:15:00		Beskidzka szkoła 01 nż
+956	1	220478	18:16:00	18:16:00		Podkarpacka kościół 07 nż
+956	1	220478	18:17:00	18:17:00		Podkarpacka / Wetlińska 05 nż
+956	1	220478	18:18:00	18:18:00		Podkarpacka / Matuszczaka 03
+956	1	220478	18:20:00	18:20:00		Podkarpacka politechnika 01
+956	1	220478	18:22:00	18:22:00		Dąbrowskiego / Chrobrego 07
+956	1	220478	18:23:00	18:23:00		Dąbrowskiego KW. Policji 03
+956	1	220478	18:24:00	18:24:00		Dąbrowskiego park 01 nż
+956	1	220478	18:27:00	18:27:00		Lisa-Kuli 02
+956	1	220478	18:28:00	18:28:00		Cieplińskiego 01
+956	1	220478	18:30:00	18:30:00		Marszałkowska 02
+956	1	220478	18:31:00	18:31:00		Lubelska szpital 02
+956	1	220478	18:32:00	18:32:00		Lubelska kościół 06 nż
+956	1	220478	18:34:00	18:34:00		Trembeckiego ZTM pętla 01
+956	1	220478	18:36:00	18:36:00		Lubelska / Borowa 08 nż
+956	1	220478	18:38:00	18:38:00		Lubelska Os. Ogrody 10 nż
+956	1	220478	18:39:00	18:39:00		Lubelska Ogrody Hiszpańskie 12 nż
+956	1	220478	18:40:00	18:40:00		Lubelska MPK 14 nż
+956	1	220478	18:41:00	18:41:00		Lubelska Zajezdnia MPK
 
-955	2	212213	22:11:00	22:11:00		Lubelska Zajezdnia MPK
-955	2	212213	22:12:00	22:12:00		Lubelska MPK 13 nż
-955	2	212213	22:13:00	22:13:00		Lubelska Ogrody Hiszpańskie 11 nż
-955	2	212213	22:14:00	22:14:00		Lubelska Os. Ogrody 09 nż
-955	2	212213	22:15:00	22:15:00		Lubelska / Borowa 07 nż
-955	2	212213	22:17:00	22:17:00		Trembeckiego ZTM pętla 01
-955	2	212213	22:19:00	22:19:00		Lubelska kościół 05 nż
-955	2	212213	22:20:00	22:20:00		Lubelska szpital 01
-955	2	212213	22:21:00	22:21:00		Marszałkowska 01
-955	2	212213	22:24:00	22:24:00		Cieplińskiego 02
-955	2	212213	22:25:00	22:25:00		Lisa-Kuli 01
-955	2	212213	22:27:00	22:27:00		Dąbrowskiego park 02 nż
-955	2	212213	22:28:00	22:28:00		Dąbrowskiego KW. Policji 04
-955	2	212213	22:29:00	22:29:00		Dąbrowskiego / Bat. Chłopskich 10
-955	2	212213	22:32:00	22:32:00		Podkarpacka politechnika 02
-955	2	212213	22:33:00	22:33:00		Podkarpacka / Matuszczaka 04
-955	2	212213	22:34:00	22:34:00		Podkarpacka / Wetlińska 06 nż
-955	2	212213	22:36:00	22:36:00		Podkarpacka kościół 08 nż
-955	2	212213	22:37:00	22:37:00		Beskidzka szkoła 02 nż
-955	2	212213	22:39:00	22:39:00		Karkonoska / Beskidzka 02 nż
-955	2	212213	22:40:00	22:40:00		Karkonoska środek 04 nż
-955	2	212213	22:41:00	22:41:00		Karkonoska pętla 06 nż
-955	2	212213	22:42:00	22:42:00		Racławówka Doły wieś 03 nż
-955	2	212213	22:43:00	22:43:00		Racławówka Doły pętla 04 nż
-955	2	212213	22:44:00	22:44:00		Racławówka Doły wieś 06 nż
-955	2	212213	22:45:00	22:45:00		Karkonoska pętla 05 nż
-955	2	212213	22:46:00	22:46:00		Karkonoska środek 03 nż
-955	2	212213	22:47:00	22:47:00		Karkonoska / Beskidzka 01 nż
-955	2	212213	22:48:00	22:48:00		Beskidzka / Karkonoska 04 nż
-955	2	212213	22:49:00	22:49:00		Beskidzka Pod Racławówką 06 nż
-955	2	212213	22:50:00	22:50:00		Beskidzka granica 07 nż
+955	1	220692	19:11:00	19:11:00		Lubelska Zajezdnia MPK
+955	1	220692	19:12:00	19:12:00		Lubelska MPK 13 nż
+955	1	220692	19:13:00	19:13:00		Lubelska Ogrody Hiszpańskie 11 nż
+955	1	220692	19:14:00	19:14:00		Lubelska Os. Ogrody 09 nż
+955	1	220692	19:15:00	19:15:00		Lubelska / Borowa 07 nż
+955	1	220692	19:17:00	19:17:00		Trembeckiego ZTM pętla 01
+955	1	220692	19:19:00	19:19:00		Lubelska kościół 05 nż
+955	1	220692	19:20:00	19:20:00		Lubelska szpital 01
+955	1	220692	19:21:00	19:21:00		Marszałkowska 01
+955	1	220692	19:24:00	19:24:00		Cieplińskiego 02
+955	1	220692	19:25:00	19:25:00		Lisa-Kuli 01
+955	1	220692	19:27:00	19:27:00		Dąbrowskiego park 02 nż
+955	1	220692	19:28:00	19:28:00		Dąbrowskiego KW. Policji 04
+955	1	220692	19:29:00	19:29:00		Dąbrowskiego / Bat. Chłopskich 10
+955	1	220692	19:32:00	19:32:00		Podkarpacka politechnika 02
+955	1	220692	19:33:00	19:33:00		Podkarpacka / Matuszczaka 04
+955	1	220692	19:34:00	19:34:00		Podkarpacka / Wetlińska 06 nż
+955	1	220692	19:36:00	19:36:00		Podkarpacka kościół 08 nż
+955	1	220692	19:37:00	19:37:00		Beskidzka szkoła 02 nż
+955	1	220692	19:39:00	19:39:00		Karkonoska / Beskidzka 02 nż
+955	1	220692	19:40:00	19:40:00		Karkonoska środek 04 nż
+955	1	220692	19:41:00	19:41:00		Karkonoska pętla 06 nż
+955	1	220692	19:42:00	19:42:00		Racławówka Doły wieś 03 nż
+955	1	220692	19:43:00	19:43:00		Racławówka Doły pętla 04 nż
+955	1	220692	19:44:00	19:44:00		Racławówka Doły wieś 06 nż
+955	1	220692	19:45:00	19:45:00		Karkonoska pętla 05 nż
+955	1	220692	19:46:00	19:46:00		Karkonoska środek 03 nż
+955	1	220692	19:47:00	19:47:00		Karkonoska / Beskidzka 01 nż
+955	1	220692	19:48:00	19:48:00		Beskidzka / Karkonoska 04 nż
+955	1	220692	19:49:00	19:49:00		Beskidzka Pod Racławówką 06 nż
+955	1	220692	19:50:00	19:50:00		Beskidzka granica 07 nż
 
-956	2	213488	23:12:00	23:12:00		Beskidzka granica 07 nż
-956	2	213488	23:13:00	23:13:00		Beskidzka Pod Racławówką 05 nż
-956	2	213488	23:14:00	23:14:00		Beskidzka / Karkonoska 03 nż
-956	2	213488	23:16:00	23:16:00		Beskidzka szkoła 01 nż
-956	2	213488	23:17:00	23:17:00		Podkarpacka kościół 07 nż
-956	2	213488	23:18:00	23:18:00		Podkarpacka / Wetlińska 05 nż
-956	2	213488	23:19:00	23:19:00		Podkarpacka / Matuszczaka 03
-956	2	213488	23:21:00	23:21:00		Podkarpacka politechnika 01
-956	2	213488	23:23:00	23:23:00		Dąbrowskiego / Chrobrego 07
-956	2	213488	23:24:00	23:24:00		Dąbrowskiego KW. Policji 03
-956	2	213488	23:25:00	23:25:00		Dąbrowskiego park 01 nż
-956	2	213488	23:28:00	23:28:00		Lisa-Kuli 02
-956	2	213488	23:29:00	23:29:00		Cieplińskiego 01
-956	2	213488	23:31:00	23:31:00		Marszałkowska 02
-956	2	213488	23:32:00	23:32:00		Lubelska szpital 02
-956	2	213488	23:33:00	23:33:00		Lubelska kościół 06 nż
-956	2	213488	23:35:00	23:35:00		Trembeckiego ZTM pętla 01
-956	2	213488	23:37:00	23:37:00		Lubelska / Borowa 08 nż
-956	2	213488	23:38:00	23:38:00		Lubelska Os. Ogrody 10 nż
-956	2	213488	23:39:00	23:39:00		Lubelska Ogrody Hiszpańskie 12 nż
-956	2	213488	23:40:00	23:40:00		Lubelska MPK 14 nż
-956	2	213488	23:41:00	23:41:00		Lubelska Zajezdnia MPK
+956	1	220416	20:11:00	20:11:00		Beskidzka granica 07 nż
+956	1	220416	20:12:00	20:12:00		Beskidzka Pod Racławówką 05 nż
+956	1	220416	20:13:00	20:13:00		Beskidzka / Karkonoska 03 nż
+956	1	220416	20:15:00	20:15:00		Beskidzka szkoła 01 nż
+956	1	220416	20:16:00	20:16:00		Podkarpacka kościół 07 nż
+956	1	220416	20:17:00	20:17:00		Podkarpacka / Wetlińska 05 nż
+956	1	220416	20:18:00	20:18:00		Podkarpacka / Matuszczaka 03
+956	1	220416	20:20:00	20:20:00		Podkarpacka politechnika 01
+956	1	220416	20:22:00	20:22:00		Dąbrowskiego / Chrobrego 07
+956	1	220416	20:23:00	20:23:00		Dąbrowskiego KW. Policji 03
+956	1	220416	20:24:00	20:24:00		Dąbrowskiego park 01 nż
+956	1	220416	20:27:00	20:27:00		Lisa-Kuli 02
+956	1	220416	20:28:00	20:28:00		Cieplińskiego 01
+956	1	220416	20:30:00	20:30:00		Marszałkowska 02
+956	1	220416	20:31:00	20:31:00		Lubelska szpital 02
+956	1	220416	20:32:00	20:32:00		Lubelska kościół 06 nż
+956	1	220416	20:34:00	20:34:00		Trembeckiego ZTM pętla 01
+956	1	220416	20:36:00	20:36:00		Lubelska / Borowa 08 nż
+956	1	220416	20:37:00	20:37:00		Lubelska Os. Ogrody 10 nż
+956	1	220416	20:38:00	20:38:00		Lubelska Ogrody Hiszpańskie 12 nż
+956	1	220416	20:39:00	20:39:00		Lubelska MPK 14 nż
+956	1	220416	20:40:00	20:40:00		Lubelska Zajezdnia MPK
+
+955	1	220485	21:11:00	21:11:00		Lubelska Zajezdnia MPK
+955	1	220485	21:12:00	21:12:00		Lubelska MPK 13 nż
+955	1	220485	21:13:00	21:13:00		Lubelska Ogrody Hiszpańskie 11 nż
+955	1	220485	21:14:00	21:14:00		Lubelska Os. Ogrody 09 nż
+955	1	220485	21:15:00	21:15:00		Lubelska / Borowa 07 nż
+955	1	220485	21:17:00	21:17:00		Trembeckiego ZTM pętla 01
+955	1	220485	21:19:00	21:19:00		Lubelska kościół 05 nż
+955	1	220485	21:20:00	21:20:00		Lubelska szpital 01
+955	1	220485	21:21:00	21:21:00		Marszałkowska 01
+955	1	220485	21:24:00	21:24:00		Cieplińskiego 02
+955	1	220485	21:25:00	21:25:00		Lisa-Kuli 01
+955	1	220485	21:27:00	21:27:00		Dąbrowskiego park 02 nż
+955	1	220485	21:28:00	21:28:00		Dąbrowskiego KW. Policji 04
+955	1	220485	21:29:00	21:29:00		Dąbrowskiego / Bat. Chłopskich 10
+955	1	220485	21:32:00	21:32:00		Podkarpacka politechnika 02
+955	1	220485	21:33:00	21:33:00		Podkarpacka / Matuszczaka 04
+955	1	220485	21:34:00	21:34:00		Podkarpacka / Wetlińska 06 nż
+955	1	220485	21:36:00	21:36:00		Podkarpacka kościół 08 nż
+955	1	220485	21:37:00	21:37:00		Beskidzka szkoła 02 nż
+955	1	220485	21:39:00	21:39:00		Karkonoska / Beskidzka 02 nż
+955	1	220485	21:40:00	21:40:00		Karkonoska środek 04 nż
+955	1	220485	21:41:00	21:41:00		Karkonoska pętla 06 nż
+955	1	220485	21:42:00	21:42:00		Racławówka Doły wieś 03 nż
+955	1	220485	21:43:00	21:43:00		Racławówka Doły pętla 04 nż
+955	1	220485	21:44:00	21:44:00		Racławówka Doły wieś 06 nż
+955	1	220485	21:45:00	21:45:00		Karkonoska pętla 05 nż
+955	1	220485	21:46:00	21:46:00		Karkonoska środek 03 nż
+955	1	220485	21:47:00	21:47:00		Karkonoska / Beskidzka 01 nż
+955	1	220485	21:48:00	21:48:00		Beskidzka / Karkonoska 04 nż
+955	1	220485	21:49:00	21:49:00		Beskidzka Pod Racławówką 06 nż
+955	1	220485	21:50:00	21:50:00		Beskidzka granica 07 nż
+
+956	1	220527	22:12:00	22:12:00		Beskidzka granica 07 nż
+956	1	220527	22:13:00	22:13:00		Beskidzka Pod Racławówką 05 nż
+956	1	220527	22:14:00	22:14:00		Beskidzka / Karkonoska 03 nż
+956	1	220527	22:16:00	22:16:00		Beskidzka szkoła 01 nż
+956	1	220527	22:17:00	22:17:00		Podkarpacka kościół 07 nż
+956	1	220527	22:18:00	22:18:00		Podkarpacka / Wetlińska 05 nż
+956	1	220527	22:19:00	22:19:00		Podkarpacka / Matuszczaka 03
+956	1	220527	22:21:00	22:21:00		Podkarpacka politechnika 01
+956	1	220527	22:23:00	22:23:00		Dąbrowskiego / Chrobrego 07
+956	1	220527	22:24:00	22:24:00		Dąbrowskiego KW. Policji 03
+956	1	220527	22:25:00	22:25:00		Dąbrowskiego park 01 nż
+956	1	220527	22:28:00	22:28:00		Lisa-Kuli 02
+956	1	220527	22:29:00	22:29:00		Cieplińskiego 01
+956	1	220527	22:31:00	22:31:00		Marszałkowska 02
+956	1	220527	22:32:00	22:32:00		Lubelska szpital 02
+956	1	220527	22:33:00	22:33:00		Lubelska kościół 06 nż
+956	1	220527	22:35:00	22:35:00		Trembeckiego ZTM pętla 01
+956	1	220527	22:37:00	22:37:00		Lubelska / Borowa 08 nż
+956	1	220527	22:38:00	22:38:00		Lubelska Os. Ogrody 10 nż
+956	1	220527	22:39:00	22:39:00		Lubelska Ogrody Hiszpańskie 12 nż
+956	1	220527	22:40:00	22:40:00		Lubelska MPK 14 nż
+956	1	220527	22:41:00	22:41:00		Lubelska Zajezdnia MPK
+
+1938	1	220551	23:00:00	23:00:00		Trembeckiego ZTM pętla 01
+1938	1	220551	23:01:00	23:01:00		Trembeckiego / Siemieńskiego 04 nż
+1938	1	220551	23:02:00	23:02:00		Siemieńskiego U. Skarbowy 03 nż
+1938	1	220551	23:03:00	23:03:00		Siemieńskiego dom studenta 01 nż
+1938	1	220551	23:04:00	23:04:00		Żółkiewskiego / Kochanowskiego 01 nż
+1938	1	220551	23:06:00	23:06:00		Bardowskiego 02
+1938	1	220551	23:08:00	23:08:00		Targowa 01
+1938	1	220551	23:10:00	23:10:00		Szopena Filharmonia 02 nż
+1938	1	220551	23:11:00	23:11:00		Kilara 01 nż
+1938	1	220551	23:13:00	23:13:00		Hetmańska podzamcze 02 nż
+1938	1	220551	23:14:00	23:14:00		Hetmańska przychodnia 04
+1938	1	220551	23:15:00	23:15:00		Hetmańska ZS. Mech. 06
+1938	1	220551	23:17:00	23:17:00		Powst. Warszawy stadion 06
+1938	1	220551	23:18:00	23:18:00		Kwiatkowskiego / Powst. Warszawy 02
+1938	1	220551	23:19:00	23:19:00		Kwiatkowskiego dom studenta 04 nż
+1938	1	220551	23:20:00	23:20:00		Kwiatkowskiego / Strażacka 06 nż
+1938	1	220551	23:21:00	23:21:00		Kwiatkowskiego żwirownia 08 nż
+1938	1	220551	23:22:00	23:22:00		Kwiatkowskiego / Podmiejska 10 nż
+1938	1	220551	23:24:00	23:24:00		Kwiatkowskiego / Jachowicza 12 nż
+1938	1	220551	23:25:00	23:25:00		Kwiatkowskiego hotel 14 nż
+1938	1	220551	23:26:00	23:26:00		Jana Pawła II OSP 02 nż
+1938	1	220551	23:27:00	23:27:00		Jana Pawła II / Gościnna 04 nż
+1938	1	220551	23:28:00	23:28:00		Jana Pawła II / Św. Antoniego 06 nż
+1938	1	220551	23:29:00	23:29:00		Jana Pawła II / Zakątkowa 08 nż
+1938	1	220551	23:30:00	23:30:00		Jana Pawła II / Herbowa 10 nż
+1938	1	220551	23:31:00	23:31:00		Jana Pawła II / Strzelców 12 nż
+1938	1	220551	23:32:00	23:32:00		Budziwojska / Jana Pawła II 10 nż
+1938	1	220551	23:33:00	23:33:00		Budziwojska szkoła 12
+1938	1	220551	23:34:00	23:34:00		Budziwojska / Podleśna 14 nż
+1938	1	220551	23:36:00	23:36:00		Budziwojska / Kwiatowa 16 nż
+1938	1	220551	23:37:00	23:37:00		Budziwojska / Poselska 18 nż
+1938	1	220551	23:38:00	23:38:00		Budziwojska sklep 20 nż
+1938	1	220551	23:40:00	23:40:00		Budziwojska pętla 22 nż
+
+1972	1	220459	24:00:00	24:00:00		Budziwojska pętla 22 nż
+1972	1	220459	24:01:00	24:01:00		Budziwojska sklep 17 nż
+1972	1	220459	24:02:00	24:02:00		Budziwojska / Poselska 15 nż
+1972	1	220459	24:03:00	24:03:00		Budziwojska / Kwiatowa 13 nż
+1972	1	220459	24:04:00	24:04:00		Budziwojska / Podleśna 11 nż
+1972	1	220459	24:05:00	24:05:00		Budziwojska cmentarz 09
+1972	1	220459	24:06:00	24:06:00		Jana Pawła II / Budziwojska 13 nż
+1972	1	220459	24:07:00	24:07:00		Jana Pawła II / Strzelców 11 nż
+1972	1	220459	24:08:00	24:08:00		Jana Pawła II / Herbowa 09 nż
+1972	1	220459	24:09:00	24:09:00		Jana Pawła II / Zakątkowa 07 nż
+1972	1	220459	24:10:00	24:10:00		Jana Pawła II / Św. Antoniego 05 nż
+1972	1	220459	24:11:00	24:11:00		Jana Pawła II / Gościnna 03 nż
+1972	1	220459	24:12:00	24:12:00		Jana Pawła II OSP 01 nż
+1972	1	220459	24:13:00	24:13:00		Kwiatkowskiego hotel 11 nż
+1972	1	220459	24:14:00	24:14:00		Kwiatkowskiego / Jachowicza 09 nż
+1972	1	220459	24:15:00	24:15:00		Kwiatkowskiego / Koło 07 nż
+1972	1	220459	24:16:00	24:16:00		Kwiatkowskiego żwirownia 05 nż
+1972	1	220459	24:17:00	24:17:00		Kwiatkowskiego / Strażacka 03 nż
+1972	1	220459	24:18:00	24:18:00		Kwiatkowskiego dom studenta 01 nż
+1972	1	220459	24:19:00	24:19:00		Powst. Warszawy / Podwisłocze 07 nż
+1972	1	220459	24:20:00	24:20:00		Powst. Warszawy stadion 05 nż
+1972	1	220459	24:21:00	24:21:00		Hetmańska stadion 07
+1972	1	220459	24:22:00	24:22:00		Hetmańska ZS. Mech. 05
+1972	1	220459	24:23:00	24:23:00		Hetmańska przychodnia 03
+1972	1	220459	24:24:00	24:24:00		Hetmańska podzamcze 01 nż
+1972	1	220459	24:25:00	24:25:00		Kilara 02 nż
+1972	1	220459	24:26:00	24:26:00		Szopena Filharmonia 01 nż
+1972	1	220459	24:27:00	24:27:00		Targowa 02
+1972	1	220459	24:28:00	24:28:00		Głowackiego ZUS 01
+1972	1	220459	24:30:00	24:30:00		Siemieńskiego / Kochanowskiego 02 nż
+1972	1	220459	24:31:00	24:31:00		Siemieńskiego U. Skarbowy 04 nż
+1972	1	220459	24:32:00	24:32:00		Trembeckiego / Siemieńskiego 07 nż
+1972	1	220459	24:33:00	24:33:00		Trembeckiego ZTM pętla 01

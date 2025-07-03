@@ -1,422 +1,470 @@
 route_id	service_id	trip_id	arrival_time	departure_time	stop_headsign	stop_name
 -------------------------------------------------------------------------------
-1834	4	213256	05:13:00	05:13:00		Obr. Poczty Gdańskiej pętla 08
-1834	4	213256	05:14:00	05:14:00		Obr. Poczty Gdańskiej / Raginisa 01
-1834	4	213256	05:16:00	05:16:00		Wyzwolenia / Ofiar Katynia 09
-1834	4	213256	05:17:00	05:17:00		Wyzwolenia kościół 07
-1834	4	213256	05:18:00	05:18:00		Okulickiego / Wyzwolenia 05 nż
-1834	4	213256	05:19:00	05:19:00		Okulickiego / Zwierzyniecka 03 nż
-1834	4	213256	05:20:00	05:20:00		Okulickiego centrum handlowe 01
-1834	4	213256	05:22:00	05:22:00		Krakowska jedn. wojskowa 01
-1834	4	213256	05:24:00	05:24:00		Piłsudskiego U. Wojewódzki 05
-1834	4	213256	05:25:00	05:25:00		Pl. Wolności 03
-1834	4	213256	05:26:00	05:26:00		Piłsudskiego ZDZ 01 nż
-1834	4	213256	05:27:00	05:27:00		Rejtana / Lwowska 01
-1834	4	213256	05:28:00	05:28:00		Rejtana / Kustronia 03 nż
-1834	4	213256	05:29:00	05:29:00		Rejtana uniwersytet 05
-1834	4	213256	05:30:00	05:30:00		Rejtana / Kopisto 07
-1834	4	213256	05:31:00	05:31:00		Rejtana / Popiełuszki 09
-1834	4	213256	05:33:00	05:33:00		Sikorskiego / Powst. Warszawy 02 nż
-1834	4	213256	05:34:00	05:34:00		Sikorskiego katedra 04 nż
-1834	4	213256	05:35:00	05:35:00		Łukasiewicza / Sikorskiego 02 nż
-1834	4	213256	05:36:00	05:36:00		Łukasiewicza / Zimowit 04 nż
-1834	4	213256	05:37:00	05:37:00		Łukasiewicza / Gumińskich 06 nż
-1834	4	213256	05:38:00	05:38:00		Łukasiewicza pętla 10
+1834	2	220174	05:13:00	05:13:00		Obr. Poczty Gdańskiej pętla 08
+1834	2	220174	05:14:00	05:14:00		Obr. Poczty Gdańskiej / Raginisa 01
+1834	2	220174	05:16:00	05:16:00		Wyzwolenia / Ofiar Katynia 09
+1834	2	220174	05:17:00	05:17:00		Wyzwolenia kościół 07
+1834	2	220174	05:18:00	05:18:00		Okulickiego / Wyzwolenia 05 nż
+1834	2	220174	05:19:00	05:19:00		Okulickiego / Zwierzyniecka 03 nż
+1834	2	220174	05:20:00	05:20:00		Okulickiego centrum handlowe 01
+1834	2	220174	05:22:00	05:22:00		Krakowska jedn. wojskowa 01
+1834	2	220174	05:24:00	05:24:00		Piłsudskiego U. Wojewódzki 05
+1834	2	220174	05:25:00	05:25:00		Pl. Wolności 03
+1834	2	220174	05:26:00	05:26:00		Piłsudskiego ZDZ 01 nż
+1834	2	220174	05:27:00	05:27:00		Rejtana / Lwowska 01
+1834	2	220174	05:28:00	05:28:00		Rejtana / Kustronia 03 nż
+1834	2	220174	05:29:00	05:29:00		Rejtana uniwersytet 05
+1834	2	220174	05:30:00	05:30:00		Rejtana / Kopisto 07
+1834	2	220174	05:31:00	05:31:00		Rejtana / Popiełuszki 09
+1834	2	220174	05:33:00	05:33:00		Sikorskiego / Powst. Warszawy 02 nż
+1834	2	220174	05:34:00	05:34:00		Sikorskiego katedra 04 nż
+1834	2	220174	05:35:00	05:35:00		Łukasiewicza / Sikorskiego 02 nż
+1834	2	220174	05:36:00	05:36:00		Łukasiewicza / Zimowit 04 nż
+1834	2	220174	05:37:00	05:37:00		Łukasiewicza / Gumińskich 06 nż
+1834	2	220174	05:38:00	05:38:00		Łukasiewicza pętla 10
 
-1862	4	213291	05:43:00	05:43:00		Łukasiewicza pętla 10
-1862	4	213291	05:44:00	05:44:00		Łukasiewicza / Sasanki 03 nż
-1862	4	213291	05:45:00	05:45:00		Łukasiewicza / Krokusowa 01 nż
-1862	4	213291	05:46:00	05:46:00		Sikorskiego katedra 01 nż
-1862	4	213291	05:48:00	05:48:00		Rejtana / Armii Krajowej 12
-1862	4	213291	05:49:00	05:49:00		Rejtana / Paderewskiego 10
-1862	4	213291	05:50:00	05:50:00		Rejtana / Krzyżanowskiego 08
-1862	4	213291	05:51:00	05:51:00		Rejtana uniwersytet 06
-1862	4	213291	05:52:00	05:52:00		Rejtana cmentarz 04 nż
-1862	4	213291	05:53:00	05:53:00		Rejtana / Kustronia 02
-1862	4	213291	05:55:00	05:55:00		Piłsudskiego ZDZ 02
-1862	4	213291	05:56:00	05:56:00		Pl. Wolności 04
-1862	4	213291	05:58:00	05:58:00		Piłsudskiego U. Marszałkowski 08
-1862	4	213291	06:00:00	06:00:00		Krakowska jedn. wojskowa 02
-1862	4	213291	06:02:00	06:02:00		Okulickiego centrum handlowe 02
-1862	4	213291	06:03:00	06:03:00		Okulickiego / Zwierzyniecka 04 nż
-1862	4	213291	06:04:00	06:04:00		Wyzwolenia / Iranka-Osmeckiego 08
-1862	4	213291	06:05:00	06:05:00		Wyzwolenia / Brydaka 10
-1862	4	213291	06:06:00	06:06:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
-1862	4	213291	06:07:00	06:07:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
-1862	4	213291	06:08:00	06:08:00		Obr. Poczty Gdańskiej pętla 06
-1862	4	213291	06:10:00	06:10:00		Miłocińska pętla 01
+1862	2	220155	05:43:00	05:43:00		Łukasiewicza pętla 10
+1862	2	220155	05:44:00	05:44:00		Łukasiewicza / Sasanki 03 nż
+1862	2	220155	05:45:00	05:45:00		Łukasiewicza / Krokusowa 01 nż
+1862	2	220155	05:46:00	05:46:00		Sikorskiego katedra 01 nż
+1862	2	220155	05:48:00	05:48:00		Rejtana / Armii Krajowej 12
+1862	2	220155	05:49:00	05:49:00		Rejtana / Paderewskiego 10
+1862	2	220155	05:50:00	05:50:00		Rejtana / Krzyżanowskiego 08
+1862	2	220155	05:51:00	05:51:00		Rejtana uniwersytet 06
+1862	2	220155	05:52:00	05:52:00		Rejtana cmentarz 04 nż
+1862	2	220155	05:53:00	05:53:00		Rejtana / Kustronia 02
+1862	2	220155	05:55:00	05:55:00		Piłsudskiego ZDZ 02
+1862	2	220155	05:56:00	05:56:00		Pl. Wolności 04
+1862	2	220155	05:58:00	05:58:00		Piłsudskiego U. Marszałkowski 08
+1862	2	220155	06:00:00	06:00:00		Krakowska jedn. wojskowa 02
+1862	2	220155	06:02:00	06:02:00		Okulickiego centrum handlowe 02
+1862	2	220155	06:03:00	06:03:00		Okulickiego / Zwierzyniecka 04 nż
+1862	2	220155	06:04:00	06:04:00		Wyzwolenia / Iranka-Osmeckiego 08
+1862	2	220155	06:05:00	06:05:00		Wyzwolenia / Brydaka 10
+1862	2	220155	06:06:00	06:06:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
+1862	2	220155	06:07:00	06:07:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
+1862	2	220155	06:08:00	06:08:00		Obr. Poczty Gdańskiej pętla 06
+1862	2	220155	06:10:00	06:10:00		Miłocińska pętla 01
 
-1863	4	212201	06:25:00	06:25:00		Miłocińska pętla 01
-1863	4	212201	06:26:00	06:26:00		Miłocińska szkoła 02 nż
-1863	4	212201	06:28:00	06:28:00		Obr. Poczty Gdańskiej / Miłocińska 03
-1863	4	212201	06:29:00	06:29:00		Obr. Poczty Gdańskiej / Raginisa 01
-1863	4	212201	06:31:00	06:31:00		Wyzwolenia / Ofiar Katynia 09
-1863	4	212201	06:32:00	06:32:00		Wyzwolenia kościół 07
-1863	4	212201	06:33:00	06:33:00		Okulickiego / Wyzwolenia 05 nż
-1863	4	212201	06:34:00	06:34:00		Okulickiego / Zwierzyniecka 03 nż
-1863	4	212201	06:35:00	06:35:00		Okulickiego centrum handlowe 01
-1863	4	212201	06:38:00	06:38:00		Krakowska jedn. wojskowa 01
-1863	4	212201	06:40:00	06:40:00		Piłsudskiego U. Wojewódzki 05
-1863	4	212201	06:41:00	06:41:00		Pl. Wolności 03
-1863	4	212201	06:42:00	06:42:00		Piłsudskiego ZDZ 01 nż
-1863	4	212201	06:44:00	06:44:00		Rejtana / Lwowska 01
-1863	4	212201	06:45:00	06:45:00		Rejtana / Kustronia 03 nż
-1863	4	212201	06:46:00	06:46:00		Rejtana uniwersytet 05
-1863	4	212201	06:48:00	06:48:00		Rejtana / Kopisto 07
-1863	4	212201	06:49:00	06:49:00		Rejtana / Popiełuszki 09
-1863	4	212201	06:52:00	06:52:00		Sikorskiego / Powst. Warszawy 02 nż
-1863	4	212201	06:53:00	06:53:00		Sikorskiego katedra 04 nż
-1863	4	212201	06:54:00	06:54:00		Łukasiewicza / Sikorskiego 02 nż
-1863	4	212201	06:55:00	06:55:00		Łukasiewicza / Zimowit 04 nż
-1863	4	212201	06:56:00	06:56:00		Łukasiewicza / Gumińskich 06 nż
-1863	4	212201	06:57:00	06:57:00		Łukasiewicza pętla 10
+1863	2	220217	06:25:00	06:25:00		Miłocińska pętla 01
+1863	2	220217	06:26:00	06:26:00		Miłocińska szkoła 02 nż
+1863	2	220217	06:28:00	06:28:00		Obr. Poczty Gdańskiej / Miłocińska 03
+1863	2	220217	06:29:00	06:29:00		Obr. Poczty Gdańskiej / Raginisa 01
+1863	2	220217	06:31:00	06:31:00		Wyzwolenia / Ofiar Katynia 09
+1863	2	220217	06:32:00	06:32:00		Wyzwolenia kościół 07
+1863	2	220217	06:33:00	06:33:00		Okulickiego / Wyzwolenia 05 nż
+1863	2	220217	06:34:00	06:34:00		Okulickiego / Zwierzyniecka 03 nż
+1863	2	220217	06:35:00	06:35:00		Okulickiego centrum handlowe 01
+1863	2	220217	06:38:00	06:38:00		Krakowska jedn. wojskowa 01
+1863	2	220217	06:40:00	06:40:00		Piłsudskiego U. Wojewódzki 05
+1863	2	220217	06:41:00	06:41:00		Pl. Wolności 03
+1863	2	220217	06:42:00	06:42:00		Piłsudskiego ZDZ 01 nż
+1863	2	220217	06:44:00	06:44:00		Rejtana / Lwowska 01
+1863	2	220217	06:45:00	06:45:00		Rejtana / Kustronia 03 nż
+1863	2	220217	06:46:00	06:46:00		Rejtana uniwersytet 05
+1863	2	220217	06:48:00	06:48:00		Rejtana / Kopisto 07
+1863	2	220217	06:49:00	06:49:00		Rejtana / Popiełuszki 09
+1863	2	220217	06:52:00	06:52:00		Sikorskiego / Powst. Warszawy 02 nż
+1863	2	220217	06:53:00	06:53:00		Sikorskiego katedra 04 nż
+1863	2	220217	06:54:00	06:54:00		Łukasiewicza / Sikorskiego 02 nż
+1863	2	220217	06:55:00	06:55:00		Łukasiewicza / Zimowit 04 nż
+1863	2	220217	06:56:00	06:56:00		Łukasiewicza / Gumińskich 06 nż
+1863	2	220217	06:57:00	06:57:00		Łukasiewicza pętla 10
 
-1862	4	211354	07:13:00	07:13:00		Łukasiewicza pętla 10
-1862	4	211354	07:14:00	07:14:00		Łukasiewicza / Sasanki 03 nż
-1862	4	211354	07:15:00	07:15:00		Łukasiewicza / Krokusowa 01 nż
-1862	4	211354	07:16:00	07:16:00		Sikorskiego katedra 01 nż
-1862	4	211354	07:19:00	07:19:00		Rejtana / Armii Krajowej 12
-1862	4	211354	07:20:00	07:20:00		Rejtana / Paderewskiego 10
-1862	4	211354	07:21:00	07:21:00		Rejtana / Krzyżanowskiego 08
-1862	4	211354	07:23:00	07:23:00		Rejtana uniwersytet 06
-1862	4	211354	07:24:00	07:24:00		Rejtana cmentarz 04 nż
-1862	4	211354	07:25:00	07:25:00		Rejtana / Kustronia 02
-1862	4	211354	07:27:00	07:27:00		Piłsudskiego ZDZ 02
-1862	4	211354	07:29:00	07:29:00		Pl. Wolności 04
-1862	4	211354	07:31:00	07:31:00		Piłsudskiego U. Marszałkowski 08
-1862	4	211354	07:33:00	07:33:00		Krakowska jedn. wojskowa 02
-1862	4	211354	07:35:00	07:35:00		Okulickiego centrum handlowe 02
-1862	4	211354	07:36:00	07:36:00		Okulickiego / Zwierzyniecka 04 nż
-1862	4	211354	07:38:00	07:38:00		Wyzwolenia / Iranka-Osmeckiego 08
-1862	4	211354	07:39:00	07:39:00		Wyzwolenia / Brydaka 10
-1862	4	211354	07:40:00	07:40:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
-1862	4	211354	07:41:00	07:41:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
-1862	4	211354	07:42:00	07:42:00		Obr. Poczty Gdańskiej pętla 06
-1862	4	211354	07:44:00	07:44:00		Miłocińska pętla 01
+1862	2	220294	07:13:00	07:13:00		Łukasiewicza pętla 10
+1862	2	220294	07:14:00	07:14:00		Łukasiewicza / Sasanki 03 nż
+1862	2	220294	07:15:00	07:15:00		Łukasiewicza / Krokusowa 01 nż
+1862	2	220294	07:16:00	07:16:00		Sikorskiego katedra 01 nż
+1862	2	220294	07:19:00	07:19:00		Rejtana / Armii Krajowej 12
+1862	2	220294	07:20:00	07:20:00		Rejtana / Paderewskiego 10
+1862	2	220294	07:21:00	07:21:00		Rejtana / Krzyżanowskiego 08
+1862	2	220294	07:23:00	07:23:00		Rejtana uniwersytet 06
+1862	2	220294	07:24:00	07:24:00		Rejtana cmentarz 04 nż
+1862	2	220294	07:25:00	07:25:00		Rejtana / Kustronia 02
+1862	2	220294	07:27:00	07:27:00		Piłsudskiego ZDZ 02
+1862	2	220294	07:29:00	07:29:00		Pl. Wolności 04
+1862	2	220294	07:31:00	07:31:00		Piłsudskiego U. Marszałkowski 08
+1862	2	220294	07:33:00	07:33:00		Krakowska jedn. wojskowa 02
+1862	2	220294	07:35:00	07:35:00		Okulickiego centrum handlowe 02
+1862	2	220294	07:36:00	07:36:00		Okulickiego / Zwierzyniecka 04 nż
+1862	2	220294	07:38:00	07:38:00		Wyzwolenia / Iranka-Osmeckiego 08
+1862	2	220294	07:39:00	07:39:00		Wyzwolenia / Brydaka 10
+1862	2	220294	07:40:00	07:40:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
+1862	2	220294	07:41:00	07:41:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
+1862	2	220294	07:42:00	07:42:00		Obr. Poczty Gdańskiej pętla 06
+1862	2	220294	07:44:00	07:44:00		Miłocińska pętla 01
 
-1863	4	214697	07:55:00	07:55:00		Miłocińska pętla 01
-1863	4	214697	07:56:00	07:56:00		Miłocińska szkoła 02 nż
-1863	4	214697	07:58:00	07:58:00		Obr. Poczty Gdańskiej / Miłocińska 03
-1863	4	214697	07:59:00	07:59:00		Obr. Poczty Gdańskiej / Raginisa 01
-1863	4	214697	08:01:00	08:01:00		Wyzwolenia / Ofiar Katynia 09
-1863	4	214697	08:02:00	08:02:00		Wyzwolenia kościół 07
-1863	4	214697	08:03:00	08:03:00		Okulickiego / Wyzwolenia 05 nż
-1863	4	214697	08:04:00	08:04:00		Okulickiego / Zwierzyniecka 03 nż
-1863	4	214697	08:05:00	08:05:00		Okulickiego centrum handlowe 01
-1863	4	214697	08:08:00	08:08:00		Krakowska jedn. wojskowa 01
-1863	4	214697	08:10:00	08:10:00		Piłsudskiego U. Wojewódzki 05
-1863	4	214697	08:11:00	08:11:00		Pl. Wolności 03
-1863	4	214697	08:12:00	08:12:00		Piłsudskiego ZDZ 01 nż
-1863	4	214697	08:14:00	08:14:00		Rejtana / Lwowska 01
-1863	4	214697	08:15:00	08:15:00		Rejtana / Kustronia 03 nż
-1863	4	214697	08:16:00	08:16:00		Rejtana uniwersytet 05
-1863	4	214697	08:18:00	08:18:00		Rejtana / Kopisto 07
-1863	4	214697	08:19:00	08:19:00		Rejtana / Popiełuszki 09
-1863	4	214697	08:22:00	08:22:00		Sikorskiego / Powst. Warszawy 02 nż
-1863	4	214697	08:23:00	08:23:00		Sikorskiego katedra 04 nż
-1863	4	214697	08:24:00	08:24:00		Łukasiewicza / Sikorskiego 02 nż
-1863	4	214697	08:25:00	08:25:00		Łukasiewicza / Zimowit 04 nż
-1863	4	214697	08:26:00	08:26:00		Łukasiewicza / Gumińskich 06 nż
-1863	4	214697	08:27:00	08:27:00		Łukasiewicza pętla 10
+1863	2	220225	07:55:00	07:55:00		Miłocińska pętla 01
+1863	2	220225	07:56:00	07:56:00		Miłocińska szkoła 02 nż
+1863	2	220225	07:58:00	07:58:00		Obr. Poczty Gdańskiej / Miłocińska 03
+1863	2	220225	07:59:00	07:59:00		Obr. Poczty Gdańskiej / Raginisa 01
+1863	2	220225	08:01:00	08:01:00		Wyzwolenia / Ofiar Katynia 09
+1863	2	220225	08:02:00	08:02:00		Wyzwolenia kościół 07
+1863	2	220225	08:03:00	08:03:00		Okulickiego / Wyzwolenia 05 nż
+1863	2	220225	08:04:00	08:04:00		Okulickiego / Zwierzyniecka 03 nż
+1863	2	220225	08:05:00	08:05:00		Okulickiego centrum handlowe 01
+1863	2	220225	08:08:00	08:08:00		Krakowska jedn. wojskowa 01
+1863	2	220225	08:10:00	08:10:00		Piłsudskiego U. Wojewódzki 05
+1863	2	220225	08:11:00	08:11:00		Pl. Wolności 03
+1863	2	220225	08:12:00	08:12:00		Piłsudskiego ZDZ 01 nż
+1863	2	220225	08:14:00	08:14:00		Rejtana / Lwowska 01
+1863	2	220225	08:15:00	08:15:00		Rejtana / Kustronia 03 nż
+1863	2	220225	08:16:00	08:16:00		Rejtana uniwersytet 05
+1863	2	220225	08:18:00	08:18:00		Rejtana / Kopisto 07
+1863	2	220225	08:19:00	08:19:00		Rejtana / Popiełuszki 09
+1863	2	220225	08:22:00	08:22:00		Sikorskiego / Powst. Warszawy 02 nż
+1863	2	220225	08:23:00	08:23:00		Sikorskiego katedra 04 nż
+1863	2	220225	08:24:00	08:24:00		Łukasiewicza / Sikorskiego 02 nż
+1863	2	220225	08:25:00	08:25:00		Łukasiewicza / Zimowit 04 nż
+1863	2	220225	08:26:00	08:26:00		Łukasiewicza / Gumińskich 06 nż
+1863	2	220225	08:27:00	08:27:00		Łukasiewicza pętla 10
 
-1824	4	209144	08:43:00	08:43:00		Łukasiewicza pętla 10
-1824	4	209144	08:44:00	08:44:00		Łukasiewicza / Sasanki 03 nż
-1824	4	209144	08:45:00	08:45:00		Łukasiewicza / Krokusowa 01 nż
-1824	4	209144	08:46:00	08:46:00		Sikorskiego katedra 01 nż
-1824	4	209144	08:49:00	08:49:00		Rejtana / Armii Krajowej 12
-1824	4	209144	08:50:00	08:50:00		Rejtana / Paderewskiego 10
-1824	4	209144	08:51:00	08:51:00		Rejtana / Krzyżanowskiego 08
-1824	4	209144	08:53:00	08:53:00		Rejtana uniwersytet 06
-1824	4	209144	08:54:00	08:54:00		Rejtana cmentarz 04 nż
-1824	4	209144	08:55:00	08:55:00		Rejtana / Kustronia 02
-1824	4	209144	08:57:00	08:57:00		Piłsudskiego ZDZ 02
-1824	4	209144	08:59:00	08:59:00		Pl. Wolności 04
-1824	4	209144	09:02:00	09:02:00		Piłsudskiego U. Marszałkowski 08
-1824	4	209144	09:04:00	09:04:00		Krakowska jedn. wojskowa 02
-1824	4	209144	09:06:00	09:06:00		Okulickiego centrum handlowe 02
-1824	4	209144	09:07:00	09:07:00		Okulickiego / Zwierzyniecka 04 nż
-1824	4	209144	09:09:00	09:09:00		Wyzwolenia / Iranka-Osmeckiego 08
-1824	4	209144	09:10:00	09:10:00		Wyzwolenia / Brydaka 10
-1824	4	209144	09:11:00	09:11:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
-1824	4	209144	09:12:00	09:12:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
-1824	4	209144	09:13:00	09:13:00		Obr. Poczty Gdańskiej pętla 08
+1824	2	220253	08:43:00	08:43:00		Łukasiewicza pętla 10
+1824	2	220253	08:44:00	08:44:00		Łukasiewicza / Sasanki 03 nż
+1824	2	220253	08:45:00	08:45:00		Łukasiewicza / Krokusowa 01 nż
+1824	2	220253	08:46:00	08:46:00		Sikorskiego katedra 01 nż
+1824	2	220253	08:49:00	08:49:00		Rejtana / Armii Krajowej 12
+1824	2	220253	08:50:00	08:50:00		Rejtana / Paderewskiego 10
+1824	2	220253	08:51:00	08:51:00		Rejtana / Krzyżanowskiego 08
+1824	2	220253	08:53:00	08:53:00		Rejtana uniwersytet 06
+1824	2	220253	08:54:00	08:54:00		Rejtana cmentarz 04 nż
+1824	2	220253	08:55:00	08:55:00		Rejtana / Kustronia 02
+1824	2	220253	08:57:00	08:57:00		Piłsudskiego ZDZ 02
+1824	2	220253	08:59:00	08:59:00		Pl. Wolności 04
+1824	2	220253	09:02:00	09:02:00		Piłsudskiego U. Marszałkowski 08
+1824	2	220253	09:04:00	09:04:00		Krakowska jedn. wojskowa 02
+1824	2	220253	09:06:00	09:06:00		Okulickiego centrum handlowe 02
+1824	2	220253	09:07:00	09:07:00		Okulickiego / Zwierzyniecka 04 nż
+1824	2	220253	09:09:00	09:09:00		Wyzwolenia / Iranka-Osmeckiego 08
+1824	2	220253	09:10:00	09:10:00		Wyzwolenia / Brydaka 10
+1824	2	220253	09:11:00	09:11:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
+1824	2	220253	09:12:00	09:12:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
+1824	2	220253	09:13:00	09:13:00		Obr. Poczty Gdańskiej pętla 08
 
-1834	4	214499	09:43:00	09:43:00		Obr. Poczty Gdańskiej pętla 08
-1834	4	214499	09:44:00	09:44:00		Obr. Poczty Gdańskiej / Raginisa 01
-1834	4	214499	09:46:00	09:46:00		Wyzwolenia / Ofiar Katynia 09
-1834	4	214499	09:47:00	09:47:00		Wyzwolenia kościół 07
-1834	4	214499	09:48:00	09:48:00		Okulickiego / Wyzwolenia 05 nż
-1834	4	214499	09:49:00	09:49:00		Okulickiego / Zwierzyniecka 03 nż
-1834	4	214499	09:50:00	09:50:00		Okulickiego centrum handlowe 01
-1834	4	214499	09:53:00	09:53:00		Krakowska jedn. wojskowa 01
-1834	4	214499	09:56:00	09:56:00		Piłsudskiego U. Wojewódzki 05
-1834	4	214499	09:57:00	09:57:00		Pl. Wolności 03
-1834	4	214499	09:58:00	09:58:00		Piłsudskiego ZDZ 01 nż
-1834	4	214499	10:00:00	10:00:00		Rejtana / Lwowska 01
-1834	4	214499	10:01:00	10:01:00		Rejtana / Kustronia 03 nż
-1834	4	214499	10:02:00	10:02:00		Rejtana uniwersytet 05
-1834	4	214499	10:04:00	10:04:00		Rejtana / Kopisto 07
-1834	4	214499	10:05:00	10:05:00		Rejtana / Popiełuszki 09
-1834	4	214499	10:08:00	10:08:00		Sikorskiego / Powst. Warszawy 02 nż
-1834	4	214499	10:09:00	10:09:00		Sikorskiego katedra 04 nż
-1834	4	214499	10:10:00	10:10:00		Łukasiewicza / Sikorskiego 02 nż
-1834	4	214499	10:11:00	10:11:00		Łukasiewicza / Zimowit 04 nż
-1834	4	214499	10:12:00	10:12:00		Łukasiewicza / Gumińskich 06 nż
-1834	4	214499	10:13:00	10:13:00		Łukasiewicza pętla 10
+1834	2	220336	09:43:00	09:43:00		Obr. Poczty Gdańskiej pętla 08
+1834	2	220336	09:44:00	09:44:00		Obr. Poczty Gdańskiej / Raginisa 01
+1834	2	220336	09:46:00	09:46:00		Wyzwolenia / Ofiar Katynia 09
+1834	2	220336	09:47:00	09:47:00		Wyzwolenia kościół 07
+1834	2	220336	09:48:00	09:48:00		Okulickiego / Wyzwolenia 05 nż
+1834	2	220336	09:49:00	09:49:00		Okulickiego / Zwierzyniecka 03 nż
+1834	2	220336	09:50:00	09:50:00		Okulickiego centrum handlowe 01
+1834	2	220336	09:53:00	09:53:00		Krakowska jedn. wojskowa 01
+1834	2	220336	09:56:00	09:56:00		Piłsudskiego U. Wojewódzki 05
+1834	2	220336	09:57:00	09:57:00		Pl. Wolności 03
+1834	2	220336	09:58:00	09:58:00		Piłsudskiego ZDZ 01 nż
+1834	2	220336	10:00:00	10:00:00		Rejtana / Lwowska 01
+1834	2	220336	10:01:00	10:01:00		Rejtana / Kustronia 03 nż
+1834	2	220336	10:02:00	10:02:00		Rejtana uniwersytet 05
+1834	2	220336	10:04:00	10:04:00		Rejtana / Kopisto 07
+1834	2	220336	10:05:00	10:05:00		Rejtana / Popiełuszki 09
+1834	2	220336	10:08:00	10:08:00		Sikorskiego / Powst. Warszawy 02 nż
+1834	2	220336	10:09:00	10:09:00		Sikorskiego katedra 04 nż
+1834	2	220336	10:10:00	10:10:00		Łukasiewicza / Sikorskiego 02 nż
+1834	2	220336	10:11:00	10:11:00		Łukasiewicza / Zimowit 04 nż
+1834	2	220336	10:12:00	10:12:00		Łukasiewicza / Gumińskich 06 nż
+1834	2	220336	10:13:00	10:13:00		Łukasiewicza pętla 10
 
-1862	4	212054	10:28:00	10:28:00		Łukasiewicza pętla 10
-1862	4	212054	10:29:00	10:29:00		Łukasiewicza / Sasanki 03 nż
-1862	4	212054	10:30:00	10:30:00		Łukasiewicza / Krokusowa 01 nż
-1862	4	212054	10:31:00	10:31:00		Sikorskiego katedra 01 nż
-1862	4	212054	10:34:00	10:34:00		Rejtana / Armii Krajowej 12
-1862	4	212054	10:35:00	10:35:00		Rejtana / Paderewskiego 10
-1862	4	212054	10:36:00	10:36:00		Rejtana / Krzyżanowskiego 08
-1862	4	212054	10:38:00	10:38:00		Rejtana uniwersytet 06
-1862	4	212054	10:39:00	10:39:00		Rejtana cmentarz 04 nż
-1862	4	212054	10:40:00	10:40:00		Rejtana / Kustronia 02
-1862	4	212054	10:42:00	10:42:00		Piłsudskiego ZDZ 02
-1862	4	212054	10:44:00	10:44:00		Pl. Wolności 04
-1862	4	212054	10:47:00	10:47:00		Piłsudskiego U. Marszałkowski 08
-1862	4	212054	10:49:00	10:49:00		Krakowska jedn. wojskowa 02
-1862	4	212054	10:51:00	10:51:00		Okulickiego centrum handlowe 02
-1862	4	212054	10:52:00	10:52:00		Okulickiego / Zwierzyniecka 04 nż
-1862	4	212054	10:54:00	10:54:00		Wyzwolenia / Iranka-Osmeckiego 08
-1862	4	212054	10:55:00	10:55:00		Wyzwolenia / Brydaka 10
-1862	4	212054	10:56:00	10:56:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
-1862	4	212054	10:57:00	10:57:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
-1862	4	212054	10:58:00	10:58:00		Obr. Poczty Gdańskiej pętla 06
-1862	4	212054	11:00:00	11:00:00		Miłocińska pętla 01
+1862	2	220308	10:28:00	10:28:00		Łukasiewicza pętla 10
+1862	2	220308	10:29:00	10:29:00		Łukasiewicza / Sasanki 03 nż
+1862	2	220308	10:30:00	10:30:00		Łukasiewicza / Krokusowa 01 nż
+1862	2	220308	10:31:00	10:31:00		Sikorskiego katedra 01 nż
+1862	2	220308	10:34:00	10:34:00		Rejtana / Armii Krajowej 12
+1862	2	220308	10:35:00	10:35:00		Rejtana / Paderewskiego 10
+1862	2	220308	10:36:00	10:36:00		Rejtana / Krzyżanowskiego 08
+1862	2	220308	10:38:00	10:38:00		Rejtana uniwersytet 06
+1862	2	220308	10:39:00	10:39:00		Rejtana cmentarz 04 nż
+1862	2	220308	10:40:00	10:40:00		Rejtana / Kustronia 02
+1862	2	220308	10:42:00	10:42:00		Piłsudskiego ZDZ 02
+1862	2	220308	10:44:00	10:44:00		Pl. Wolności 04
+1862	2	220308	10:47:00	10:47:00		Piłsudskiego U. Marszałkowski 08
+1862	2	220308	10:49:00	10:49:00		Krakowska jedn. wojskowa 02
+1862	2	220308	10:51:00	10:51:00		Okulickiego centrum handlowe 02
+1862	2	220308	10:52:00	10:52:00		Okulickiego / Zwierzyniecka 04 nż
+1862	2	220308	10:54:00	10:54:00		Wyzwolenia / Iranka-Osmeckiego 08
+1862	2	220308	10:55:00	10:55:00		Wyzwolenia / Brydaka 10
+1862	2	220308	10:56:00	10:56:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
+1862	2	220308	10:57:00	10:57:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
+1862	2	220308	10:58:00	10:58:00		Obr. Poczty Gdańskiej pętla 06
+1862	2	220308	11:00:00	11:00:00		Miłocińska pętla 01
 
-1863	4	208641	11:25:00	11:25:00		Miłocińska pętla 01
-1863	4	208641	11:26:00	11:26:00		Miłocińska szkoła 02 nż
-1863	4	208641	11:28:00	11:28:00		Obr. Poczty Gdańskiej / Miłocińska 03
-1863	4	208641	11:29:00	11:29:00		Obr. Poczty Gdańskiej / Raginisa 01
-1863	4	208641	11:31:00	11:31:00		Wyzwolenia / Ofiar Katynia 09
-1863	4	208641	11:32:00	11:32:00		Wyzwolenia kościół 07
-1863	4	208641	11:33:00	11:33:00		Okulickiego / Wyzwolenia 05 nż
-1863	4	208641	11:34:00	11:34:00		Okulickiego / Zwierzyniecka 03 nż
-1863	4	208641	11:35:00	11:35:00		Okulickiego centrum handlowe 01
-1863	4	208641	11:38:00	11:38:00		Krakowska jedn. wojskowa 01
-1863	4	208641	11:41:00	11:41:00		Piłsudskiego U. Wojewódzki 05
-1863	4	208641	11:42:00	11:42:00		Pl. Wolności 03
-1863	4	208641	11:43:00	11:43:00		Piłsudskiego ZDZ 01 nż
-1863	4	208641	11:45:00	11:45:00		Rejtana / Lwowska 01
-1863	4	208641	11:46:00	11:46:00		Rejtana / Kustronia 03 nż
-1863	4	208641	11:47:00	11:47:00		Rejtana uniwersytet 05
-1863	4	208641	11:49:00	11:49:00		Rejtana / Kopisto 07
-1863	4	208641	11:50:00	11:50:00		Rejtana / Popiełuszki 09
-1863	4	208641	11:53:00	11:53:00		Sikorskiego / Powst. Warszawy 02 nż
-1863	4	208641	11:54:00	11:54:00		Sikorskiego katedra 04 nż
-1863	4	208641	11:55:00	11:55:00		Łukasiewicza / Sikorskiego 02 nż
-1863	4	208641	11:56:00	11:56:00		Łukasiewicza / Zimowit 04 nż
-1863	4	208641	11:57:00	11:57:00		Łukasiewicza / Gumińskich 06 nż
-1863	4	208641	11:58:00	11:58:00		Łukasiewicza pętla 10
+1863	2	220300	11:25:00	11:25:00		Miłocińska pętla 01
+1863	2	220300	11:26:00	11:26:00		Miłocińska szkoła 02 nż
+1863	2	220300	11:28:00	11:28:00		Obr. Poczty Gdańskiej / Miłocińska 03
+1863	2	220300	11:29:00	11:29:00		Obr. Poczty Gdańskiej / Raginisa 01
+1863	2	220300	11:31:00	11:31:00		Wyzwolenia / Ofiar Katynia 09
+1863	2	220300	11:32:00	11:32:00		Wyzwolenia kościół 07
+1863	2	220300	11:33:00	11:33:00		Okulickiego / Wyzwolenia 05 nż
+1863	2	220300	11:34:00	11:34:00		Okulickiego / Zwierzyniecka 03 nż
+1863	2	220300	11:35:00	11:35:00		Okulickiego centrum handlowe 01
+1863	2	220300	11:38:00	11:38:00		Krakowska jedn. wojskowa 01
+1863	2	220300	11:41:00	11:41:00		Piłsudskiego U. Wojewódzki 05
+1863	2	220300	11:42:00	11:42:00		Pl. Wolności 03
+1863	2	220300	11:43:00	11:43:00		Piłsudskiego ZDZ 01 nż
+1863	2	220300	11:45:00	11:45:00		Rejtana / Lwowska 01
+1863	2	220300	11:46:00	11:46:00		Rejtana / Kustronia 03 nż
+1863	2	220300	11:47:00	11:47:00		Rejtana uniwersytet 05
+1863	2	220300	11:49:00	11:49:00		Rejtana / Kopisto 07
+1863	2	220300	11:50:00	11:50:00		Rejtana / Popiełuszki 09
+1863	2	220300	11:53:00	11:53:00		Sikorskiego / Powst. Warszawy 02 nż
+1863	2	220300	11:54:00	11:54:00		Sikorskiego katedra 04 nż
+1863	2	220300	11:55:00	11:55:00		Łukasiewicza / Sikorskiego 02 nż
+1863	2	220300	11:56:00	11:56:00		Łukasiewicza / Zimowit 04 nż
+1863	2	220300	11:57:00	11:57:00		Łukasiewicza / Gumińskich 06 nż
+1863	2	220300	11:58:00	11:58:00		Łukasiewicza pętla 10
 
-1824	4	209744	12:13:00	12:13:00		Łukasiewicza pętla 10
-1824	4	209744	12:14:00	12:14:00		Łukasiewicza / Sasanki 03 nż
-1824	4	209744	12:15:00	12:15:00		Łukasiewicza / Krokusowa 01 nż
-1824	4	209744	12:16:00	12:16:00		Sikorskiego katedra 01 nż
-1824	4	209744	12:19:00	12:19:00		Rejtana / Armii Krajowej 12
-1824	4	209744	12:20:00	12:20:00		Rejtana / Paderewskiego 10
-1824	4	209744	12:21:00	12:21:00		Rejtana / Krzyżanowskiego 08
-1824	4	209744	12:23:00	12:23:00		Rejtana uniwersytet 06
-1824	4	209744	12:24:00	12:24:00		Rejtana cmentarz 04 nż
-1824	4	209744	12:25:00	12:25:00		Rejtana / Kustronia 02
-1824	4	209744	12:27:00	12:27:00		Piłsudskiego ZDZ 02
-1824	4	209744	12:29:00	12:29:00		Pl. Wolności 04
-1824	4	209744	12:32:00	12:32:00		Piłsudskiego U. Marszałkowski 08
-1824	4	209744	12:34:00	12:34:00		Krakowska jedn. wojskowa 02
-1824	4	209744	12:36:00	12:36:00		Okulickiego centrum handlowe 02
-1824	4	209744	12:37:00	12:37:00		Okulickiego / Zwierzyniecka 04 nż
-1824	4	209744	12:39:00	12:39:00		Wyzwolenia / Iranka-Osmeckiego 08
-1824	4	209744	12:40:00	12:40:00		Wyzwolenia / Brydaka 10
-1824	4	209744	12:41:00	12:41:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
-1824	4	209744	12:42:00	12:42:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
-1824	4	209744	12:43:00	12:43:00		Obr. Poczty Gdańskiej pętla 08
+1824	2	220256	12:13:00	12:13:00		Łukasiewicza pętla 10
+1824	2	220256	12:14:00	12:14:00		Łukasiewicza / Sasanki 03 nż
+1824	2	220256	12:15:00	12:15:00		Łukasiewicza / Krokusowa 01 nż
+1824	2	220256	12:16:00	12:16:00		Sikorskiego katedra 01 nż
+1824	2	220256	12:19:00	12:19:00		Rejtana / Armii Krajowej 12
+1824	2	220256	12:20:00	12:20:00		Rejtana / Paderewskiego 10
+1824	2	220256	12:21:00	12:21:00		Rejtana / Krzyżanowskiego 08
+1824	2	220256	12:23:00	12:23:00		Rejtana uniwersytet 06
+1824	2	220256	12:24:00	12:24:00		Rejtana cmentarz 04 nż
+1824	2	220256	12:25:00	12:25:00		Rejtana / Kustronia 02
+1824	2	220256	12:27:00	12:27:00		Piłsudskiego ZDZ 02
+1824	2	220256	12:29:00	12:29:00		Pl. Wolności 04
+1824	2	220256	12:32:00	12:32:00		Piłsudskiego U. Marszałkowski 08
+1824	2	220256	12:34:00	12:34:00		Krakowska jedn. wojskowa 02
+1824	2	220256	12:36:00	12:36:00		Okulickiego centrum handlowe 02
+1824	2	220256	12:37:00	12:37:00		Okulickiego / Zwierzyniecka 04 nż
+1824	2	220256	12:39:00	12:39:00		Wyzwolenia / Iranka-Osmeckiego 08
+1824	2	220256	12:40:00	12:40:00		Wyzwolenia / Brydaka 10
+1824	2	220256	12:41:00	12:41:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
+1824	2	220256	12:42:00	12:42:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
+1824	2	220256	12:43:00	12:43:00		Obr. Poczty Gdańskiej pętla 08
 
-1834	4	216000	13:13:00	13:13:00		Obr. Poczty Gdańskiej pętla 08
-1834	4	216000	13:14:00	13:14:00		Obr. Poczty Gdańskiej / Raginisa 01
-1834	4	216000	13:16:00	13:16:00		Wyzwolenia / Ofiar Katynia 09
-1834	4	216000	13:17:00	13:17:00		Wyzwolenia kościół 07
-1834	4	216000	13:18:00	13:18:00		Okulickiego / Wyzwolenia 05 nż
-1834	4	216000	13:19:00	13:19:00		Okulickiego / Zwierzyniecka 03 nż
-1834	4	216000	13:20:00	13:20:00		Okulickiego centrum handlowe 01
-1834	4	216000	13:23:00	13:23:00		Krakowska jedn. wojskowa 01
-1834	4	216000	13:26:00	13:26:00		Piłsudskiego U. Wojewódzki 05
-1834	4	216000	13:27:00	13:27:00		Pl. Wolności 03
-1834	4	216000	13:28:00	13:28:00		Piłsudskiego ZDZ 01 nż
-1834	4	216000	13:30:00	13:30:00		Rejtana / Lwowska 01
-1834	4	216000	13:31:00	13:31:00		Rejtana / Kustronia 03 nż
-1834	4	216000	13:32:00	13:32:00		Rejtana uniwersytet 05
-1834	4	216000	13:34:00	13:34:00		Rejtana / Kopisto 07
-1834	4	216000	13:35:00	13:35:00		Rejtana / Popiełuszki 09
-1834	4	216000	13:38:00	13:38:00		Sikorskiego / Powst. Warszawy 02 nż
-1834	4	216000	13:39:00	13:39:00		Sikorskiego katedra 04 nż
-1834	4	216000	13:40:00	13:40:00		Łukasiewicza / Sikorskiego 02 nż
-1834	4	216000	13:41:00	13:41:00		Łukasiewicza / Zimowit 04 nż
-1834	4	216000	13:42:00	13:42:00		Łukasiewicza / Gumińskich 06 nż
-1834	4	216000	13:43:00	13:43:00		Łukasiewicza pętla 10
+1834	2	220082	13:13:00	13:13:00		Obr. Poczty Gdańskiej pętla 08
+1834	2	220082	13:14:00	13:14:00		Obr. Poczty Gdańskiej / Raginisa 01
+1834	2	220082	13:16:00	13:16:00		Wyzwolenia / Ofiar Katynia 09
+1834	2	220082	13:17:00	13:17:00		Wyzwolenia kościół 07
+1834	2	220082	13:18:00	13:18:00		Okulickiego / Wyzwolenia 05 nż
+1834	2	220082	13:19:00	13:19:00		Okulickiego / Zwierzyniecka 03 nż
+1834	2	220082	13:20:00	13:20:00		Okulickiego centrum handlowe 01
+1834	2	220082	13:23:00	13:23:00		Krakowska jedn. wojskowa 01
+1834	2	220082	13:26:00	13:26:00		Piłsudskiego U. Wojewódzki 05
+1834	2	220082	13:27:00	13:27:00		Pl. Wolności 03
+1834	2	220082	13:28:00	13:28:00		Piłsudskiego ZDZ 01 nż
+1834	2	220082	13:30:00	13:30:00		Rejtana / Lwowska 01
+1834	2	220082	13:31:00	13:31:00		Rejtana / Kustronia 03 nż
+1834	2	220082	13:32:00	13:32:00		Rejtana uniwersytet 05
+1834	2	220082	13:34:00	13:34:00		Rejtana / Kopisto 07
+1834	2	220082	13:35:00	13:35:00		Rejtana / Popiełuszki 09
+1834	2	220082	13:38:00	13:38:00		Sikorskiego / Powst. Warszawy 02 nż
+1834	2	220082	13:39:00	13:39:00		Sikorskiego katedra 04 nż
+1834	2	220082	13:40:00	13:40:00		Łukasiewicza / Sikorskiego 02 nż
+1834	2	220082	13:41:00	13:41:00		Łukasiewicza / Zimowit 04 nż
+1834	2	220082	13:42:00	13:42:00		Łukasiewicza / Gumińskich 06 nż
+1834	2	220082	13:43:00	13:43:00		Łukasiewicza pętla 10
 
-1862	4	213484	13:58:00	13:58:00		Łukasiewicza pętla 10
-1862	4	213484	13:59:00	13:59:00		Łukasiewicza / Sasanki 03 nż
-1862	4	213484	14:00:00	14:00:00		Łukasiewicza / Krokusowa 01 nż
-1862	4	213484	14:01:00	14:01:00		Sikorskiego katedra 01 nż
-1862	4	213484	14:04:00	14:04:00		Rejtana / Armii Krajowej 12
-1862	4	213484	14:05:00	14:05:00		Rejtana / Paderewskiego 10
-1862	4	213484	14:06:00	14:06:00		Rejtana / Krzyżanowskiego 08
-1862	4	213484	14:08:00	14:08:00		Rejtana uniwersytet 06
-1862	4	213484	14:09:00	14:09:00		Rejtana cmentarz 04 nż
-1862	4	213484	14:10:00	14:10:00		Rejtana / Kustronia 02
-1862	4	213484	14:12:00	14:12:00		Piłsudskiego ZDZ 02
-1862	4	213484	14:14:00	14:14:00		Pl. Wolności 04
-1862	4	213484	14:17:00	14:17:00		Piłsudskiego U. Marszałkowski 08
-1862	4	213484	14:19:00	14:19:00		Krakowska jedn. wojskowa 02
-1862	4	213484	14:21:00	14:21:00		Okulickiego centrum handlowe 02
-1862	4	213484	14:22:00	14:22:00		Okulickiego / Zwierzyniecka 04 nż
-1862	4	213484	14:24:00	14:24:00		Wyzwolenia / Iranka-Osmeckiego 08
-1862	4	213484	14:25:00	14:25:00		Wyzwolenia / Brydaka 10
-1862	4	213484	14:26:00	14:26:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
-1862	4	213484	14:27:00	14:27:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
-1862	4	213484	14:28:00	14:28:00		Obr. Poczty Gdańskiej pętla 06
-1862	4	213484	14:30:00	14:30:00		Miłocińska pętla 01
+1862	2	220158	13:58:00	13:58:00		Łukasiewicza pętla 10
+1862	2	220158	13:59:00	13:59:00		Łukasiewicza / Sasanki 03 nż
+1862	2	220158	14:00:00	14:00:00		Łukasiewicza / Krokusowa 01 nż
+1862	2	220158	14:01:00	14:01:00		Sikorskiego katedra 01 nż
+1862	2	220158	14:04:00	14:04:00		Rejtana / Armii Krajowej 12
+1862	2	220158	14:05:00	14:05:00		Rejtana / Paderewskiego 10
+1862	2	220158	14:06:00	14:06:00		Rejtana / Krzyżanowskiego 08
+1862	2	220158	14:08:00	14:08:00		Rejtana uniwersytet 06
+1862	2	220158	14:09:00	14:09:00		Rejtana cmentarz 04 nż
+1862	2	220158	14:10:00	14:10:00		Rejtana / Kustronia 02
+1862	2	220158	14:12:00	14:12:00		Piłsudskiego ZDZ 02
+1862	2	220158	14:14:00	14:14:00		Pl. Wolności 04
+1862	2	220158	14:17:00	14:17:00		Piłsudskiego U. Marszałkowski 08
+1862	2	220158	14:19:00	14:19:00		Krakowska jedn. wojskowa 02
+1862	2	220158	14:21:00	14:21:00		Okulickiego centrum handlowe 02
+1862	2	220158	14:22:00	14:22:00		Okulickiego / Zwierzyniecka 04 nż
+1862	2	220158	14:24:00	14:24:00		Wyzwolenia / Iranka-Osmeckiego 08
+1862	2	220158	14:25:00	14:25:00		Wyzwolenia / Brydaka 10
+1862	2	220158	14:26:00	14:26:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
+1862	2	220158	14:27:00	14:27:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
+1862	2	220158	14:28:00	14:28:00		Obr. Poczty Gdańskiej pętla 06
+1862	2	220158	14:30:00	14:30:00		Miłocińska pętla 01
 
-1863	4	213951	14:55:00	14:55:00		Miłocińska pętla 01
-1863	4	213951	14:56:00	14:56:00		Miłocińska szkoła 02 nż
-1863	4	213951	14:58:00	14:58:00		Obr. Poczty Gdańskiej / Miłocińska 03
-1863	4	213951	14:59:00	14:59:00		Obr. Poczty Gdańskiej / Raginisa 01
-1863	4	213951	15:01:00	15:01:00		Wyzwolenia / Ofiar Katynia 09
-1863	4	213951	15:02:00	15:02:00		Wyzwolenia kościół 07
-1863	4	213951	15:03:00	15:03:00		Okulickiego / Wyzwolenia 05 nż
-1863	4	213951	15:04:00	15:04:00		Okulickiego / Zwierzyniecka 03 nż
-1863	4	213951	15:06:00	15:06:00		Okulickiego centrum handlowe 01
-1863	4	213951	15:09:00	15:09:00		Krakowska jedn. wojskowa 01
-1863	4	213951	15:12:00	15:12:00		Piłsudskiego U. Wojewódzki 05
-1863	4	213951	15:14:00	15:14:00		Pl. Wolności 03
-1863	4	213951	15:15:00	15:15:00		Piłsudskiego ZDZ 01 nż
-1863	4	213951	15:17:00	15:17:00		Rejtana / Lwowska 01
-1863	4	213951	15:18:00	15:18:00		Rejtana / Kustronia 03 nż
-1863	4	213951	15:19:00	15:19:00		Rejtana uniwersytet 05
-1863	4	213951	15:21:00	15:21:00		Rejtana / Kopisto 07
-1863	4	213951	15:23:00	15:23:00		Rejtana / Popiełuszki 09
-1863	4	213951	15:26:00	15:26:00		Sikorskiego / Powst. Warszawy 02 nż
-1863	4	213951	15:27:00	15:27:00		Sikorskiego katedra 04 nż
-1863	4	213951	15:28:00	15:28:00		Łukasiewicza / Sikorskiego 02 nż
-1863	4	213951	15:29:00	15:29:00		Łukasiewicza / Zimowit 04 nż
-1863	4	213951	15:30:00	15:30:00		Łukasiewicza / Gumińskich 06 nż
-1863	4	213951	15:31:00	15:31:00		Łukasiewicza pętla 10
+1863	2	220079	14:55:00	14:55:00		Miłocińska pętla 01
+1863	2	220079	14:56:00	14:56:00		Miłocińska szkoła 02 nż
+1863	2	220079	14:58:00	14:58:00		Obr. Poczty Gdańskiej / Miłocińska 03
+1863	2	220079	14:59:00	14:59:00		Obr. Poczty Gdańskiej / Raginisa 01
+1863	2	220079	15:01:00	15:01:00		Wyzwolenia / Ofiar Katynia 09
+1863	2	220079	15:02:00	15:02:00		Wyzwolenia kościół 07
+1863	2	220079	15:03:00	15:03:00		Okulickiego / Wyzwolenia 05 nż
+1863	2	220079	15:04:00	15:04:00		Okulickiego / Zwierzyniecka 03 nż
+1863	2	220079	15:06:00	15:06:00		Okulickiego centrum handlowe 01
+1863	2	220079	15:09:00	15:09:00		Krakowska jedn. wojskowa 01
+1863	2	220079	15:12:00	15:12:00		Piłsudskiego U. Wojewódzki 05
+1863	2	220079	15:14:00	15:14:00		Pl. Wolności 03
+1863	2	220079	15:15:00	15:15:00		Piłsudskiego ZDZ 01 nż
+1863	2	220079	15:17:00	15:17:00		Rejtana / Lwowska 01
+1863	2	220079	15:18:00	15:18:00		Rejtana / Kustronia 03 nż
+1863	2	220079	15:19:00	15:19:00		Rejtana uniwersytet 05
+1863	2	220079	15:21:00	15:21:00		Rejtana / Kopisto 07
+1863	2	220079	15:23:00	15:23:00		Rejtana / Popiełuszki 09
+1863	2	220079	15:26:00	15:26:00		Sikorskiego / Powst. Warszawy 02 nż
+1863	2	220079	15:27:00	15:27:00		Sikorskiego katedra 04 nż
+1863	2	220079	15:28:00	15:28:00		Łukasiewicza / Sikorskiego 02 nż
+1863	2	220079	15:29:00	15:29:00		Łukasiewicza / Zimowit 04 nż
+1863	2	220079	15:30:00	15:30:00		Łukasiewicza / Gumińskich 06 nż
+1863	2	220079	15:31:00	15:31:00		Łukasiewicza pętla 10
 
-1862	4	210773	15:43:00	15:43:00		Łukasiewicza pętla 10
-1862	4	210773	15:44:00	15:44:00		Łukasiewicza / Sasanki 03 nż
-1862	4	210773	15:45:00	15:45:00		Łukasiewicza / Krokusowa 01 nż
-1862	4	210773	15:46:00	15:46:00		Sikorskiego katedra 01 nż
-1862	4	210773	15:49:00	15:49:00		Rejtana / Armii Krajowej 12
-1862	4	210773	15:50:00	15:50:00		Rejtana / Paderewskiego 10
-1862	4	210773	15:51:00	15:51:00		Rejtana / Krzyżanowskiego 08
-1862	4	210773	15:53:00	15:53:00		Rejtana uniwersytet 06
-1862	4	210773	15:54:00	15:54:00		Rejtana cmentarz 04 nż
-1862	4	210773	15:55:00	15:55:00		Rejtana / Kustronia 02
-1862	4	210773	15:57:00	15:57:00		Piłsudskiego ZDZ 02
-1862	4	210773	15:59:00	15:59:00		Pl. Wolności 04
-1862	4	210773	16:05:00	16:05:00		Piłsudskiego U. Marszałkowski 08
-1862	4	210773	16:07:00	16:07:00		Krakowska jedn. wojskowa 02
-1862	4	210773	16:10:00	16:10:00		Okulickiego centrum handlowe 02
-1862	4	210773	16:12:00	16:12:00		Okulickiego / Zwierzyniecka 04 nż
-1862	4	210773	16:14:00	16:14:00		Wyzwolenia / Iranka-Osmeckiego 08
-1862	4	210773	16:15:00	16:15:00		Wyzwolenia / Brydaka 10
-1862	4	210773	16:16:00	16:16:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
-1862	4	210773	16:17:00	16:17:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
-1862	4	210773	16:18:00	16:18:00		Obr. Poczty Gdańskiej pętla 06
-1862	4	210773	16:20:00	16:20:00		Miłocińska pętla 01
+1862	2	220144	15:43:00	15:43:00		Łukasiewicza pętla 10
+1862	2	220144	15:44:00	15:44:00		Łukasiewicza / Sasanki 03 nż
+1862	2	220144	15:45:00	15:45:00		Łukasiewicza / Krokusowa 01 nż
+1862	2	220144	15:46:00	15:46:00		Sikorskiego katedra 01 nż
+1862	2	220144	15:49:00	15:49:00		Rejtana / Armii Krajowej 12
+1862	2	220144	15:50:00	15:50:00		Rejtana / Paderewskiego 10
+1862	2	220144	15:51:00	15:51:00		Rejtana / Krzyżanowskiego 08
+1862	2	220144	15:53:00	15:53:00		Rejtana uniwersytet 06
+1862	2	220144	15:54:00	15:54:00		Rejtana cmentarz 04 nż
+1862	2	220144	15:55:00	15:55:00		Rejtana / Kustronia 02
+1862	2	220144	15:57:00	15:57:00		Piłsudskiego ZDZ 02
+1862	2	220144	15:59:00	15:59:00		Pl. Wolności 04
+1862	2	220144	16:05:00	16:05:00		Piłsudskiego U. Marszałkowski 08
+1862	2	220144	16:07:00	16:07:00		Krakowska jedn. wojskowa 02
+1862	2	220144	16:10:00	16:10:00		Okulickiego centrum handlowe 02
+1862	2	220144	16:12:00	16:12:00		Okulickiego / Zwierzyniecka 04 nż
+1862	2	220144	16:14:00	16:14:00		Wyzwolenia / Iranka-Osmeckiego 08
+1862	2	220144	16:15:00	16:15:00		Wyzwolenia / Brydaka 10
+1862	2	220144	16:16:00	16:16:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
+1862	2	220144	16:17:00	16:17:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
+1862	2	220144	16:18:00	16:18:00		Obr. Poczty Gdańskiej pętla 06
+1862	2	220144	16:20:00	16:20:00		Miłocińska pętla 01
 
-1863	4	211909	16:52:00	16:52:00		Miłocińska pętla 01
-1863	4	211909	16:53:00	16:53:00		Miłocińska szkoła 02 nż
-1863	4	211909	16:55:00	16:55:00		Obr. Poczty Gdańskiej / Miłocińska 03
-1863	4	211909	16:56:00	16:56:00		Obr. Poczty Gdańskiej / Raginisa 01
-1863	4	211909	16:58:00	16:58:00		Wyzwolenia / Ofiar Katynia 09
-1863	4	211909	16:59:00	16:59:00		Wyzwolenia kościół 07
-1863	4	211909	17:00:00	17:00:00		Okulickiego / Wyzwolenia 05 nż
-1863	4	211909	17:01:00	17:01:00		Okulickiego / Zwierzyniecka 03 nż
-1863	4	211909	17:02:00	17:02:00		Okulickiego centrum handlowe 01
-1863	4	211909	17:05:00	17:05:00		Krakowska jedn. wojskowa 01
-1863	4	211909	17:08:00	17:08:00		Piłsudskiego U. Wojewódzki 05
-1863	4	211909	17:09:00	17:09:00		Pl. Wolności 03
-1863	4	211909	17:10:00	17:10:00		Piłsudskiego ZDZ 01 nż
-1863	4	211909	17:12:00	17:12:00		Rejtana / Lwowska 01
-1863	4	211909	17:13:00	17:13:00		Rejtana / Kustronia 03 nż
-1863	4	211909	17:14:00	17:14:00		Rejtana uniwersytet 05
-1863	4	211909	17:16:00	17:16:00		Rejtana / Kopisto 07
-1863	4	211909	17:17:00	17:17:00		Rejtana / Popiełuszki 09
-1863	4	211909	17:20:00	17:20:00		Sikorskiego / Powst. Warszawy 02 nż
-1863	4	211909	17:21:00	17:21:00		Sikorskiego katedra 04 nż
-1863	4	211909	17:22:00	17:22:00		Łukasiewicza / Sikorskiego 02 nż
-1863	4	211909	17:23:00	17:23:00		Łukasiewicza / Zimowit 04 nż
-1863	4	211909	17:24:00	17:24:00		Łukasiewicza / Gumińskich 06 nż
-1863	4	211909	17:25:00	17:25:00		Łukasiewicza pętla 10
+1863	2	220132	16:52:00	16:52:00		Miłocińska pętla 01
+1863	2	220132	16:53:00	16:53:00		Miłocińska szkoła 02 nż
+1863	2	220132	16:55:00	16:55:00		Obr. Poczty Gdańskiej / Miłocińska 03
+1863	2	220132	16:56:00	16:56:00		Obr. Poczty Gdańskiej / Raginisa 01
+1863	2	220132	16:58:00	16:58:00		Wyzwolenia / Ofiar Katynia 09
+1863	2	220132	16:59:00	16:59:00		Wyzwolenia kościół 07
+1863	2	220132	17:00:00	17:00:00		Okulickiego / Wyzwolenia 05 nż
+1863	2	220132	17:01:00	17:01:00		Okulickiego / Zwierzyniecka 03 nż
+1863	2	220132	17:02:00	17:02:00		Okulickiego centrum handlowe 01
+1863	2	220132	17:05:00	17:05:00		Krakowska jedn. wojskowa 01
+1863	2	220132	17:08:00	17:08:00		Piłsudskiego U. Wojewódzki 05
+1863	2	220132	17:09:00	17:09:00		Pl. Wolności 03
+1863	2	220132	17:10:00	17:10:00		Piłsudskiego ZDZ 01 nż
+1863	2	220132	17:12:00	17:12:00		Rejtana / Lwowska 01
+1863	2	220132	17:13:00	17:13:00		Rejtana / Kustronia 03 nż
+1863	2	220132	17:14:00	17:14:00		Rejtana uniwersytet 05
+1863	2	220132	17:16:00	17:16:00		Rejtana / Kopisto 07
+1863	2	220132	17:17:00	17:17:00		Rejtana / Popiełuszki 09
+1863	2	220132	17:20:00	17:20:00		Sikorskiego / Powst. Warszawy 02 nż
+1863	2	220132	17:21:00	17:21:00		Sikorskiego katedra 04 nż
+1863	2	220132	17:22:00	17:22:00		Łukasiewicza / Sikorskiego 02 nż
+1863	2	220132	17:23:00	17:23:00		Łukasiewicza / Zimowit 04 nż
+1863	2	220132	17:24:00	17:24:00		Łukasiewicza / Gumińskich 06 nż
+1863	2	220132	17:25:00	17:25:00		Łukasiewicza pętla 10
 
-1824	4	214600	17:35:00	17:35:00		Łukasiewicza pętla 10
-1824	4	214600	17:36:00	17:36:00		Łukasiewicza / Sasanki 03 nż
-1824	4	214600	17:37:00	17:37:00		Łukasiewicza / Krokusowa 01 nż
-1824	4	214600	17:38:00	17:38:00		Sikorskiego katedra 01 nż
-1824	4	214600	17:40:00	17:40:00		Rejtana / Armii Krajowej 12
-1824	4	214600	17:41:00	17:41:00		Rejtana / Paderewskiego 10
-1824	4	214600	17:42:00	17:42:00		Rejtana / Krzyżanowskiego 08
-1824	4	214600	17:44:00	17:44:00		Rejtana uniwersytet 06
-1824	4	214600	17:45:00	17:45:00		Rejtana cmentarz 04 nż
-1824	4	214600	17:46:00	17:46:00		Rejtana / Kustronia 02
-1824	4	214600	17:48:00	17:48:00		Piłsudskiego ZDZ 02
-1824	4	214600	17:50:00	17:50:00		Pl. Wolności 04
-1824	4	214600	17:53:00	17:53:00		Piłsudskiego U. Marszałkowski 08
-1824	4	214600	17:55:00	17:55:00		Krakowska jedn. wojskowa 02
-1824	4	214600	17:57:00	17:57:00		Okulickiego centrum handlowe 02
-1824	4	214600	17:58:00	17:58:00		Okulickiego / Zwierzyniecka 04 nż
-1824	4	214600	18:00:00	18:00:00		Wyzwolenia / Iranka-Osmeckiego 08
-1824	4	214600	18:01:00	18:01:00		Wyzwolenia / Brydaka 10
-1824	4	214600	18:02:00	18:02:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
-1824	4	214600	18:03:00	18:03:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
-1824	4	214600	18:04:00	18:04:00		Obr. Poczty Gdańskiej pętla 08
+1824	2	220107	17:35:00	17:35:00		Łukasiewicza pętla 10
+1824	2	220107	17:36:00	17:36:00		Łukasiewicza / Sasanki 03 nż
+1824	2	220107	17:37:00	17:37:00		Łukasiewicza / Krokusowa 01 nż
+1824	2	220107	17:38:00	17:38:00		Sikorskiego katedra 01 nż
+1824	2	220107	17:40:00	17:40:00		Rejtana / Armii Krajowej 12
+1824	2	220107	17:41:00	17:41:00		Rejtana / Paderewskiego 10
+1824	2	220107	17:42:00	17:42:00		Rejtana / Krzyżanowskiego 08
+1824	2	220107	17:44:00	17:44:00		Rejtana uniwersytet 06
+1824	2	220107	17:45:00	17:45:00		Rejtana cmentarz 04 nż
+1824	2	220107	17:46:00	17:46:00		Rejtana / Kustronia 02
+1824	2	220107	17:48:00	17:48:00		Piłsudskiego ZDZ 02
+1824	2	220107	17:50:00	17:50:00		Pl. Wolności 04
+1824	2	220107	17:53:00	17:53:00		Piłsudskiego U. Marszałkowski 08
+1824	2	220107	17:55:00	17:55:00		Krakowska jedn. wojskowa 02
+1824	2	220107	17:57:00	17:57:00		Okulickiego centrum handlowe 02
+1824	2	220107	17:58:00	17:58:00		Okulickiego / Zwierzyniecka 04 nż
+1824	2	220107	18:00:00	18:00:00		Wyzwolenia / Iranka-Osmeckiego 08
+1824	2	220107	18:01:00	18:01:00		Wyzwolenia / Brydaka 10
+1824	2	220107	18:02:00	18:02:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
+1824	2	220107	18:03:00	18:03:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
+1824	2	220107	18:04:00	18:04:00		Obr. Poczty Gdańskiej pętla 08
 
-1834	4	213485	18:35:00	18:35:00		Obr. Poczty Gdańskiej pętla 08
-1834	4	213485	18:36:00	18:36:00		Obr. Poczty Gdańskiej / Raginisa 01
-1834	4	213485	18:38:00	18:38:00		Wyzwolenia / Ofiar Katynia 09
-1834	4	213485	18:39:00	18:39:00		Wyzwolenia kościół 07
-1834	4	213485	18:40:00	18:40:00		Okulickiego / Wyzwolenia 05 nż
-1834	4	213485	18:41:00	18:41:00		Okulickiego / Zwierzyniecka 03 nż
-1834	4	213485	18:42:00	18:42:00		Okulickiego centrum handlowe 01
-1834	4	213485	18:45:00	18:45:00		Krakowska jedn. wojskowa 01
-1834	4	213485	18:48:00	18:48:00		Piłsudskiego U. Wojewódzki 05
-1834	4	213485	18:49:00	18:49:00		Pl. Wolności 03
-1834	4	213485	18:50:00	18:50:00		Piłsudskiego ZDZ 01 nż
-1834	4	213485	18:52:00	18:52:00		Rejtana / Lwowska 01
-1834	4	213485	18:53:00	18:53:00		Rejtana / Kustronia 03 nż
-1834	4	213485	18:54:00	18:54:00		Rejtana uniwersytet 05
-1834	4	213485	18:56:00	18:56:00		Rejtana / Kopisto 07
-1834	4	213485	18:57:00	18:57:00		Rejtana / Popiełuszki 09
-1834	4	213485	19:00:00	19:00:00		Sikorskiego / Powst. Warszawy 02 nż
-1834	4	213485	19:01:00	19:01:00		Sikorskiego katedra 04 nż
-1834	4	213485	19:02:00	19:02:00		Łukasiewicza / Sikorskiego 02 nż
-1834	4	213485	19:03:00	19:03:00		Łukasiewicza / Zimowit 04 nż
-1834	4	213485	19:04:00	19:04:00		Łukasiewicza / Gumińskich 06 nż
-1834	4	213485	19:05:00	19:05:00		Łukasiewicza pętla 10
+1834	2	220318	18:35:00	18:35:00		Obr. Poczty Gdańskiej pętla 08
+1834	2	220318	18:36:00	18:36:00		Obr. Poczty Gdańskiej / Raginisa 01
+1834	2	220318	18:38:00	18:38:00		Wyzwolenia / Ofiar Katynia 09
+1834	2	220318	18:39:00	18:39:00		Wyzwolenia kościół 07
+1834	2	220318	18:40:00	18:40:00		Okulickiego / Wyzwolenia 05 nż
+1834	2	220318	18:41:00	18:41:00		Okulickiego / Zwierzyniecka 03 nż
+1834	2	220318	18:42:00	18:42:00		Okulickiego centrum handlowe 01
+1834	2	220318	18:45:00	18:45:00		Krakowska jedn. wojskowa 01
+1834	2	220318	18:48:00	18:48:00		Piłsudskiego U. Wojewódzki 05
+1834	2	220318	18:49:00	18:49:00		Pl. Wolności 03
+1834	2	220318	18:50:00	18:50:00		Piłsudskiego ZDZ 01 nż
+1834	2	220318	18:52:00	18:52:00		Rejtana / Lwowska 01
+1834	2	220318	18:53:00	18:53:00		Rejtana / Kustronia 03 nż
+1834	2	220318	18:54:00	18:54:00		Rejtana uniwersytet 05
+1834	2	220318	18:56:00	18:56:00		Rejtana / Kopisto 07
+1834	2	220318	18:57:00	18:57:00		Rejtana / Popiełuszki 09
+1834	2	220318	19:00:00	19:00:00		Sikorskiego / Powst. Warszawy 02 nż
+1834	2	220318	19:01:00	19:01:00		Sikorskiego katedra 04 nż
+1834	2	220318	19:02:00	19:02:00		Łukasiewicza / Sikorskiego 02 nż
+1834	2	220318	19:03:00	19:03:00		Łukasiewicza / Zimowit 04 nż
+1834	2	220318	19:04:00	19:04:00		Łukasiewicza / Gumińskich 06 nż
+1834	2	220318	19:05:00	19:05:00		Łukasiewicza pętla 10
 
-1862	4	214427	19:20:00	19:20:00		Łukasiewicza pętla 10
-1862	4	214427	19:21:00	19:21:00		Łukasiewicza / Sasanki 03 nż
-1862	4	214427	19:22:00	19:22:00		Łukasiewicza / Krokusowa 01 nż
-1862	4	214427	19:23:00	19:23:00		Sikorskiego katedra 01 nż
-1862	4	214427	19:25:00	19:25:00		Rejtana / Armii Krajowej 12
-1862	4	214427	19:26:00	19:26:00		Rejtana / Paderewskiego 10
-1862	4	214427	19:27:00	19:27:00		Rejtana / Krzyżanowskiego 08
-1862	4	214427	19:28:00	19:28:00		Rejtana uniwersytet 06
-1862	4	214427	19:29:00	19:29:00		Rejtana cmentarz 04 nż
-1862	4	214427	19:30:00	19:30:00		Rejtana / Kustronia 02
-1862	4	214427	19:32:00	19:32:00		Piłsudskiego ZDZ 02
-1862	4	214427	19:33:00	19:33:00		Pl. Wolności 04
-1862	4	214427	19:35:00	19:35:00		Piłsudskiego U. Marszałkowski 08
-1862	4	214427	19:37:00	19:37:00		Krakowska jedn. wojskowa 02
-1862	4	214427	19:39:00	19:39:00		Okulickiego centrum handlowe 02
-1862	4	214427	19:40:00	19:40:00		Okulickiego / Zwierzyniecka 04 nż
-1862	4	214427	19:41:00	19:41:00		Wyzwolenia / Iranka-Osmeckiego 08
-1862	4	214427	19:42:00	19:42:00		Wyzwolenia / Brydaka 10
-1862	4	214427	19:43:00	19:43:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
-1862	4	214427	19:44:00	19:44:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
-1862	4	214427	19:45:00	19:45:00		Obr. Poczty Gdańskiej pętla 06
-1862	4	214427	19:47:00	19:47:00		Miłocińska pętla 01
+1862	2	220289	19:20:00	19:20:00		Łukasiewicza pętla 10
+1862	2	220289	19:21:00	19:21:00		Łukasiewicza / Sasanki 03 nż
+1862	2	220289	19:22:00	19:22:00		Łukasiewicza / Krokusowa 01 nż
+1862	2	220289	19:23:00	19:23:00		Sikorskiego katedra 01 nż
+1862	2	220289	19:25:00	19:25:00		Rejtana / Armii Krajowej 12
+1862	2	220289	19:26:00	19:26:00		Rejtana / Paderewskiego 10
+1862	2	220289	19:27:00	19:27:00		Rejtana / Krzyżanowskiego 08
+1862	2	220289	19:28:00	19:28:00		Rejtana uniwersytet 06
+1862	2	220289	19:29:00	19:29:00		Rejtana cmentarz 04 nż
+1862	2	220289	19:30:00	19:30:00		Rejtana / Kustronia 02
+1862	2	220289	19:32:00	19:32:00		Piłsudskiego ZDZ 02
+1862	2	220289	19:33:00	19:33:00		Pl. Wolności 04
+1862	2	220289	19:35:00	19:35:00		Piłsudskiego U. Marszałkowski 08
+1862	2	220289	19:37:00	19:37:00		Krakowska jedn. wojskowa 02
+1862	2	220289	19:39:00	19:39:00		Okulickiego centrum handlowe 02
+1862	2	220289	19:40:00	19:40:00		Okulickiego / Zwierzyniecka 04 nż
+1862	2	220289	19:41:00	19:41:00		Wyzwolenia / Iranka-Osmeckiego 08
+1862	2	220289	19:42:00	19:42:00		Wyzwolenia / Brydaka 10
+1862	2	220289	19:43:00	19:43:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
+1862	2	220289	19:44:00	19:44:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
+1862	2	220289	19:45:00	19:45:00		Obr. Poczty Gdańskiej pętla 06
+1862	2	220289	19:47:00	19:47:00		Miłocińska pętla 01
+
+1863	2	220153	20:17:00	20:17:00		Miłocińska pętla 01
+1863	2	220153	20:18:00	20:18:00		Miłocińska szkoła 02 nż
+1863	2	220153	20:20:00	20:20:00		Obr. Poczty Gdańskiej / Miłocińska 03
+1863	2	220153	20:21:00	20:21:00		Obr. Poczty Gdańskiej / Raginisa 01
+1863	2	220153	20:22:00	20:22:00		Wyzwolenia / Ofiar Katynia 09
+1863	2	220153	20:23:00	20:23:00		Wyzwolenia kościół 07
+1863	2	220153	20:24:00	20:24:00		Okulickiego / Wyzwolenia 05 nż
+1863	2	220153	20:25:00	20:25:00		Okulickiego / Zwierzyniecka 03 nż
+1863	2	220153	20:26:00	20:26:00		Okulickiego centrum handlowe 01
+1863	2	220153	20:28:00	20:28:00		Krakowska jedn. wojskowa 01
+1863	2	220153	20:30:00	20:30:00		Piłsudskiego U. Wojewódzki 05
+1863	2	220153	20:31:00	20:31:00		Pl. Wolności 03
+1863	2	220153	20:32:00	20:32:00		Piłsudskiego ZDZ 01 nż
+1863	2	220153	20:33:00	20:33:00		Rejtana / Lwowska 01
+1863	2	220153	20:34:00	20:34:00		Rejtana / Kustronia 03 nż
+1863	2	220153	20:35:00	20:35:00		Rejtana uniwersytet 05
+1863	2	220153	20:36:00	20:36:00		Rejtana / Kopisto 07
+1863	2	220153	20:37:00	20:37:00		Rejtana / Popiełuszki 09
+1863	2	220153	20:39:00	20:39:00		Sikorskiego / Powst. Warszawy 02 nż
+1863	2	220153	20:40:00	20:40:00		Sikorskiego katedra 04 nż
+1863	2	220153	20:41:00	20:41:00		Łukasiewicza / Sikorskiego 02 nż
+1863	2	220153	20:42:00	20:42:00		Łukasiewicza / Zimowit 04 nż
+1863	2	220153	20:43:00	20:43:00		Łukasiewicza / Gumińskich 06 nż
+1863	2	220153	20:44:00	20:44:00		Łukasiewicza pętla 10
+
+1862	2	220316	20:50:00	20:50:00		Łukasiewicza pętla 10
+1862	2	220316	20:51:00	20:51:00		Łukasiewicza / Sasanki 03 nż
+1862	2	220316	20:52:00	20:52:00		Łukasiewicza / Krokusowa 01 nż
+1862	2	220316	20:53:00	20:53:00		Sikorskiego katedra 01 nż
+1862	2	220316	20:55:00	20:55:00		Rejtana / Armii Krajowej 12
+1862	2	220316	20:56:00	20:56:00		Rejtana / Paderewskiego 10
+1862	2	220316	20:57:00	20:57:00		Rejtana / Krzyżanowskiego 08
+1862	2	220316	20:58:00	20:58:00		Rejtana uniwersytet 06
+1862	2	220316	20:59:00	20:59:00		Rejtana cmentarz 04 nż
+1862	2	220316	21:00:00	21:00:00		Rejtana / Kustronia 02
+1862	2	220316	21:02:00	21:02:00		Piłsudskiego ZDZ 02
+1862	2	220316	21:03:00	21:03:00		Pl. Wolności 04
+1862	2	220316	21:05:00	21:05:00		Piłsudskiego U. Marszałkowski 08
+1862	2	220316	21:07:00	21:07:00		Krakowska jedn. wojskowa 02
+1862	2	220316	21:08:00	21:08:00		Okulickiego centrum handlowe 02
+1862	2	220316	21:09:00	21:09:00		Okulickiego / Zwierzyniecka 04 nż
+1862	2	220316	21:10:00	21:10:00		Wyzwolenia / Iranka-Osmeckiego 08
+1862	2	220316	21:11:00	21:11:00		Wyzwolenia / Brydaka 10
+1862	2	220316	21:12:00	21:12:00		Obr. Poczty Gdańskiej / Wyzwolenia 02
+1862	2	220316	21:13:00	21:13:00		Obr. Poczty Gdańskiej / Starzyńskiego 04
+1862	2	220316	21:14:00	21:14:00		Obr. Poczty Gdańskiej pętla 06
+1862	2	220316	21:16:00	21:16:00		Miłocińska pętla 01

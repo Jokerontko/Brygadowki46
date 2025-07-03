@@ -73,7 +73,7 @@ def write_sorted_schedules(schedules, output_path):
         print(f"Błąd przy zapisie do pliku: {e}")
 
 # Lista katalogów do przetworzenia
-dirs_to_process = ['WYNIKI/Gotowe_brygady/Niedzielny', 'WYNIKI/Gotowe_brygady/Powszedni', 'WYNIKI/Gotowe_brygady/Powszedni_Wolny', 'WYNIKI/Gotowe_brygady/Sobotni']
+dirs_to_process = ['WYNIKI/Gotowe_brygady/Niedzielny', 'WYNIKI/Gotowe_brygady/Powszedni', 'WYNIKI/Gotowe_brygady/PowszedniWolny', 'WYNIKI/Gotowe_brygady/Sobotni']
 
 for main_dir in dirs_to_process:
     # Sprawdzenie, czy główny folder istnieje
