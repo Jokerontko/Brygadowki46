@@ -2122,8 +2122,10 @@
                         let p = v.getAttribute("p") || '';
                         const o = parseInt(v.getAttribute("o"), 10);
                         const isDelayed = o < 0;
+                        const kwi = (v.getAttribute("kwi") || '').replace(/\s+/g, ' ').trim();
                         const absO = Math.abs(o);
                         const minutes = Math.floor(absO / 60);
+
                         const seconds = absO % 60;
                         const formattedDelay = `${isDelayed ? '-' : '+' }${String(minutes).padStart(2, '0' )}:${String(seconds).padStart(2, '0' )}`;
                         const totalSeconds = (isDelayed ? -1 : 1) * (minutes * 60 + seconds);
@@ -2173,7 +2175,7 @@
                         const row = document.createElement("tr");
                         row.innerHTML = `
                                             <td>${nb}</td>
-                                            <td style="display: none;">${model}</td>
+                                            <td style="">${kwi}</td>
                                             <td>${formattedTimeReal}</td>
                                             <td>${nr}</td>
                                             <td>${formattedOp}</td>
@@ -2270,7 +2272,7 @@
             let znalezionyWiersz = null;
 
             wiersze.forEach(row => {
-                const komorkaBrygady = row.cells[2]; // kolumna Brygada
+                const komorkaBrygady = row.cells[1]; // kolumna Brygada
                 if (komorkaBrygady && komorkaBrygady.textContent.trim() === brygadaNormalized) {
                     znalezionyWiersz = row;
                 }
