@@ -1,603 +1,603 @@
 route_id	service_id	trip_id	arrival_time	departure_time	stop_headsign	stop_name
 -------------------------------------------------------------------------------
-1935	1	219783	05:17:00	05:17:00		Trembeckiego ZTM 02 nż
-1935	1	219783	05:18:00	05:18:00		Trembeckiego / Siemieńskiego 04 nż
-1935	1	219783	05:19:00	05:19:00		Siemieńskiego U. Skarbowy 03 nż
-1935	1	219783	05:20:00	05:20:00		Siemieńskiego dom studenta 01 nż
-1935	1	219783	05:21:00	05:21:00		Żółkiewskiego / Kochanowskiego 01 nż
-1935	1	219783	05:23:00	05:23:00		Bardowskiego 02
-1935	1	219783	05:25:00	05:25:00		Piłsudskiego ZDZ 01 nż
-1935	1	219783	05:26:00	05:26:00		Lwowska jedn. wojskowa 02
-1935	1	219783	05:27:00	05:27:00		Lwowska cmentarz 04
-1935	1	219783	05:28:00	05:28:00		Lwowska szpital 06
-1935	1	219783	05:30:00	05:30:00		Olbrachta / Lwowska 02 nż
-1935	1	219783	05:31:00	05:31:00		Olbrachta / Zygmunta I Starego 04 nż
-1935	1	219783	05:32:00	05:32:00		Olbrachta domki 06 nż
-1935	1	219783	05:33:00	05:33:00		Olbrachta / Św. Kingi 08 nż
-1935	1	219783	05:34:00	05:34:00		Olbrachta pętla 09
+1935	4	222086	05:17:00	05:17:00		Trembeckiego ZTM 02 nż
+1935	4	222086	05:18:00	05:18:00		Trembeckiego / Siemieńskiego 04 nż
+1935	4	222086	05:19:00	05:19:00		Siemieńskiego U. Skarbowy 03 nż
+1935	4	222086	05:20:00	05:20:00		Siemieńskiego dom studenta 01 nż
+1935	4	222086	05:21:00	05:21:00		Żółkiewskiego / Kochanowskiego 01 nż
+1935	4	222086	05:23:00	05:23:00		Bardowskiego 02
+1935	4	222086	05:25:00	05:25:00		Piłsudskiego ZDZ 01 nż
+1935	4	222086	05:26:00	05:26:00		Lwowska jedn. wojskowa 02
+1935	4	222086	05:27:00	05:27:00		Lwowska cmentarz 04
+1935	4	222086	05:28:00	05:28:00		Lwowska szpital 06
+1935	4	222086	05:30:00	05:30:00		Olbrachta / Lwowska 02 nż
+1935	4	222086	05:31:00	05:31:00		Olbrachta / Zygmunta I Starego 04 nż
+1935	4	222086	05:32:00	05:32:00		Olbrachta domki 06 nż
+1935	4	222086	05:33:00	05:33:00		Olbrachta / Św. Kingi 08 nż
+1935	4	222086	05:34:00	05:34:00		Olbrachta pętla 09
 
-1819	1	219750	05:56:00	05:56:00		Olbrachta pętla 09
-1819	1	219750	05:57:00	05:57:00		Olbrachta / Św. Kingi 07 nż
-1819	1	219750	05:58:00	05:58:00		Olbrachta domki 05 nż
-1819	1	219750	05:59:00	05:59:00		Olbrachta / Kr. Marysieńki 03 nż
-1819	1	219750	06:00:00	06:00:00		Olbrachta / Lwowska 01 nż
-1819	1	219750	06:01:00	06:01:00		Lwowska / Cienista 07 nż
-1819	1	219750	06:03:00	06:03:00		Lwowska szpital 05
-1819	1	219750	06:05:00	06:05:00		Lwowska cmentarz 03
-1819	1	219750	06:06:00	06:06:00		Lwowska jedn. wojskowa 01
-1819	1	219750	06:07:00	06:07:00		Piłsudskiego ZDZ 02
-1819	1	219750	06:08:00	06:08:00		Głowackiego ZUS 01
-1819	1	219750	06:10:00	06:10:00		Siemieńskiego / Kochanowskiego 02 nż
-1819	1	219750	06:11:00	06:11:00		Siemieńskiego U. Skarbowy 04 nż
-1819	1	219750	06:12:00	06:12:00		Trembeckiego / Siemieńskiego 07 nż
-1819	1	219750	06:13:00	06:13:00		Trembeckiego ZTM 05 nż
-1819	1	219750	06:14:00	06:14:00		Lubelska kościół 05 nż
-1819	1	219750	06:15:00	06:15:00		Wyzwolenia / Lubelska 02 nż
-1819	1	219750	06:16:00	06:16:00		Wyzwolenia WORD 04 nż
-1819	1	219750	06:16:00	06:16:00		Wyzwolenia / Przy Torze 06 nż
-1819	1	219750	06:18:00	06:18:00		Okulickiego / Wyzwolenia 05 nż
-1819	1	219750	06:19:00	06:19:00		Okulickiego / Zwierzyniecka 03 nż
-1819	1	219750	06:20:00	06:20:00		Okulickiego centrum handlowe 01
-1819	1	219750	06:21:00	06:21:00		Witosa / Solarza 07 nż
-1819	1	219750	06:22:00	06:22:00		Witosa / Wiktora 05 nż
-1819	1	219750	06:23:00	06:23:00		Wyspiańskiego stadion 01 nż
-1819	1	219750	06:24:00	06:24:00		Wita Stwosza / Wyspiańskiego 05 nż
-1819	1	219750	06:25:00	06:25:00		Wita Stwosza kościół 03
-1819	1	219750	06:26:00	06:26:00		Langiewicza / Wita Stwosza 04
-1819	1	219750	06:27:00	06:27:00		Staroniwska / Rzemieślnicza 02 nż
-1819	1	219750	06:28:00	06:28:00		Staroniwska szkoła 04 nż
-1819	1	219750	06:29:00	06:29:00		Staroniwska kościół 06 nż
-1819	1	219750	06:30:00	06:30:00		Staroniwska pętla 12 nż
+1819	4	222072	05:56:00	05:56:00		Olbrachta pętla 09
+1819	4	222072	05:57:00	05:57:00		Olbrachta / Św. Kingi 07 nż
+1819	4	222072	05:58:00	05:58:00		Olbrachta domki 05 nż
+1819	4	222072	05:59:00	05:59:00		Olbrachta / Kr. Marysieńki 03 nż
+1819	4	222072	06:00:00	06:00:00		Olbrachta / Lwowska 01 nż
+1819	4	222072	06:01:00	06:01:00		Lwowska / Cienista 07 nż
+1819	4	222072	06:03:00	06:03:00		Lwowska szpital 05
+1819	4	222072	06:05:00	06:05:00		Lwowska cmentarz 03
+1819	4	222072	06:06:00	06:06:00		Lwowska jedn. wojskowa 01
+1819	4	222072	06:07:00	06:07:00		Piłsudskiego ZDZ 02
+1819	4	222072	06:08:00	06:08:00		Głowackiego ZUS 01
+1819	4	222072	06:10:00	06:10:00		Siemieńskiego / Kochanowskiego 02 nż
+1819	4	222072	06:11:00	06:11:00		Siemieńskiego U. Skarbowy 04 nż
+1819	4	222072	06:12:00	06:12:00		Trembeckiego / Siemieńskiego 07 nż
+1819	4	222072	06:13:00	06:13:00		Trembeckiego ZTM 05 nż
+1819	4	222072	06:14:00	06:14:00		Lubelska kościół 05 nż
+1819	4	222072	06:15:00	06:15:00		Wyzwolenia / Lubelska 02 nż
+1819	4	222072	06:16:00	06:16:00		Wyzwolenia WORD 04 nż
+1819	4	222072	06:16:00	06:16:00		Wyzwolenia / Przy Torze 06 nż
+1819	4	222072	06:18:00	06:18:00		Okulickiego / Wyzwolenia 05 nż
+1819	4	222072	06:19:00	06:19:00		Okulickiego / Zwierzyniecka 03 nż
+1819	4	222072	06:20:00	06:20:00		Okulickiego centrum handlowe 01
+1819	4	222072	06:21:00	06:21:00		Witosa / Solarza 07 nż
+1819	4	222072	06:22:00	06:22:00		Witosa / Wiktora 05 nż
+1819	4	222072	06:23:00	06:23:00		Wyspiańskiego stadion 01 nż
+1819	4	222072	06:24:00	06:24:00		Wita Stwosza / Wyspiańskiego 05 nż
+1819	4	222072	06:25:00	06:25:00		Wita Stwosza kościół 03
+1819	4	222072	06:26:00	06:26:00		Langiewicza / Wita Stwosza 04
+1819	4	222072	06:27:00	06:27:00		Staroniwska / Rzemieślnicza 02 nż
+1819	4	222072	06:28:00	06:28:00		Staroniwska szkoła 04 nż
+1819	4	222072	06:29:00	06:29:00		Staroniwska kościół 06 nż
+1819	4	222072	06:30:00	06:30:00		Staroniwska pętla 12 nż
 
-1853	1	219809	06:57:00	06:57:00		Staroniwska pętla 12 nż
-1853	1	219809	06:58:00	06:58:00		Staroniwska kościół 05 nż
-1853	1	219809	06:59:00	06:59:00		Staroniwska szkoła 03 nż
-1853	1	219809	07:00:00	07:00:00		Staroniwska / Rzemieślnicza 01 nż
-1853	1	219809	07:01:00	07:01:00		Langiewicza / Wita Stwosza 05 nż
-1853	1	219809	07:02:00	07:02:00		Wita Stwosza / Langiewicza 02
-1853	1	219809	07:03:00	07:03:00		Wita Stwosza kościół 04
-1853	1	219809	07:04:00	07:04:00		Wita Stwosza / Wyspiańskiego 06 nż
-1853	1	219809	07:05:00	07:05:00		Wyspiańskiego stadion 02 nż
-1853	1	219809	07:06:00	07:06:00		Witosa / Wyspiańskiego 06 nż
-1853	1	219809	07:07:00	07:07:00		Witosa jedn. wojskowa 08 nż
-1853	1	219809	07:09:00	07:09:00		Okulickiego centrum handlowe 02
-1853	1	219809	07:10:00	07:10:00		Okulickiego / Zwierzyniecka 04 nż
-1853	1	219809	07:11:00	07:11:00		Wyzwolenia / Okulickiego 05 nż
-1853	1	219809	07:12:00	07:12:00		Wyzwolenia / Ujejskiego 03 nż
-1853	1	219809	07:13:00	07:13:00		Wyzwolenia / Warszawska 01 nż
-1853	1	219809	07:15:00	07:15:00		Lubelska kościół 06 nż
-1853	1	219809	07:16:00	07:16:00		Trembeckiego ZTM 02 nż
-1853	1	219809	07:17:00	07:17:00		Trembeckiego / Siemieńskiego 04 nż
-1853	1	219809	07:18:00	07:18:00		Siemieńskiego U. Skarbowy 03 nż
-1853	1	219809	07:19:00	07:19:00		Siemieńskiego dom studenta 01 nż
-1853	1	219809	07:20:00	07:20:00		Żółkiewskiego / Kochanowskiego 01 nż
-1853	1	219809	07:22:00	07:22:00		Bardowskiego 02
-1853	1	219809	07:24:00	07:24:00		Piłsudskiego ZDZ 01 nż
-1853	1	219809	07:26:00	07:26:00		Lwowska jedn. wojskowa 02
-1853	1	219809	07:28:00	07:28:00		Lwowska cmentarz 04
-1853	1	219809	07:29:00	07:29:00		Lwowska szpital 06
-1853	1	219809	07:31:00	07:31:00		Olbrachta / Lwowska 02 nż
-1853	1	219809	07:32:00	07:32:00		Olbrachta / Zygmunta I Starego 04 nż
-1853	1	219809	07:33:00	07:33:00		Olbrachta domki 06 nż
-1853	1	219809	07:34:00	07:34:00		Olbrachta / Św. Kingi 08 nż
-1853	1	219809	07:35:00	07:35:00		Olbrachta pętla 09
+1853	4	221962	06:57:00	06:57:00		Staroniwska pętla 12 nż
+1853	4	221962	06:58:00	06:58:00		Staroniwska kościół 05 nż
+1853	4	221962	06:59:00	06:59:00		Staroniwska szkoła 03 nż
+1853	4	221962	07:00:00	07:00:00		Staroniwska / Rzemieślnicza 01 nż
+1853	4	221962	07:01:00	07:01:00		Langiewicza / Wita Stwosza 05 nż
+1853	4	221962	07:02:00	07:02:00		Wita Stwosza / Langiewicza 02
+1853	4	221962	07:03:00	07:03:00		Wita Stwosza kościół 04
+1853	4	221962	07:04:00	07:04:00		Wita Stwosza / Wyspiańskiego 06 nż
+1853	4	221962	07:05:00	07:05:00		Wyspiańskiego stadion 02 nż
+1853	4	221962	07:06:00	07:06:00		Witosa / Wyspiańskiego 06 nż
+1853	4	221962	07:07:00	07:07:00		Witosa jedn. wojskowa 08 nż
+1853	4	221962	07:09:00	07:09:00		Okulickiego centrum handlowe 02
+1853	4	221962	07:10:00	07:10:00		Okulickiego / Zwierzyniecka 04 nż
+1853	4	221962	07:11:00	07:11:00		Wyzwolenia / Okulickiego 05 nż
+1853	4	221962	07:12:00	07:12:00		Wyzwolenia / Ujejskiego 03 nż
+1853	4	221962	07:13:00	07:13:00		Wyzwolenia / Warszawska 01 nż
+1853	4	221962	07:15:00	07:15:00		Lubelska kościół 06 nż
+1853	4	221962	07:16:00	07:16:00		Trembeckiego ZTM 02 nż
+1853	4	221962	07:17:00	07:17:00		Trembeckiego / Siemieńskiego 04 nż
+1853	4	221962	07:18:00	07:18:00		Siemieńskiego U. Skarbowy 03 nż
+1853	4	221962	07:19:00	07:19:00		Siemieńskiego dom studenta 01 nż
+1853	4	221962	07:20:00	07:20:00		Żółkiewskiego / Kochanowskiego 01 nż
+1853	4	221962	07:22:00	07:22:00		Bardowskiego 02
+1853	4	221962	07:24:00	07:24:00		Piłsudskiego ZDZ 01 nż
+1853	4	221962	07:26:00	07:26:00		Lwowska jedn. wojskowa 02
+1853	4	221962	07:28:00	07:28:00		Lwowska cmentarz 04
+1853	4	221962	07:29:00	07:29:00		Lwowska szpital 06
+1853	4	221962	07:31:00	07:31:00		Olbrachta / Lwowska 02 nż
+1853	4	221962	07:32:00	07:32:00		Olbrachta / Zygmunta I Starego 04 nż
+1853	4	221962	07:33:00	07:33:00		Olbrachta domki 06 nż
+1853	4	221962	07:34:00	07:34:00		Olbrachta / Św. Kingi 08 nż
+1853	4	221962	07:35:00	07:35:00		Olbrachta pętla 09
 
-1819	1	219753	07:57:00	07:57:00		Olbrachta pętla 09
-1819	1	219753	07:58:00	07:58:00		Olbrachta / Św. Kingi 07 nż
-1819	1	219753	07:59:00	07:59:00		Olbrachta domki 05 nż
-1819	1	219753	08:00:00	08:00:00		Olbrachta / Kr. Marysieńki 03 nż
-1819	1	219753	08:01:00	08:01:00		Olbrachta / Lwowska 01 nż
-1819	1	219753	08:02:00	08:02:00		Lwowska / Cienista 07 nż
-1819	1	219753	08:04:00	08:04:00		Lwowska szpital 05
-1819	1	219753	08:06:00	08:06:00		Lwowska cmentarz 03
-1819	1	219753	08:07:00	08:07:00		Lwowska jedn. wojskowa 01
-1819	1	219753	08:09:00	08:09:00		Piłsudskiego ZDZ 02
-1819	1	219753	08:10:00	08:10:00		Głowackiego ZUS 01
-1819	1	219753	08:12:00	08:12:00		Siemieńskiego / Kochanowskiego 02 nż
-1819	1	219753	08:13:00	08:13:00		Siemieńskiego U. Skarbowy 04 nż
-1819	1	219753	08:14:00	08:14:00		Trembeckiego / Siemieńskiego 07 nż
-1819	1	219753	08:15:00	08:15:00		Trembeckiego ZTM 05 nż
-1819	1	219753	08:17:00	08:17:00		Lubelska kościół 05 nż
-1819	1	219753	08:18:00	08:18:00		Wyzwolenia / Lubelska 02 nż
-1819	1	219753	08:19:00	08:19:00		Wyzwolenia WORD 04 nż
-1819	1	219753	08:20:00	08:20:00		Wyzwolenia / Przy Torze 06 nż
-1819	1	219753	08:21:00	08:21:00		Okulickiego / Wyzwolenia 05 nż
-1819	1	219753	08:22:00	08:22:00		Okulickiego / Zwierzyniecka 03 nż
-1819	1	219753	08:23:00	08:23:00		Okulickiego centrum handlowe 01
-1819	1	219753	08:24:00	08:24:00		Witosa / Solarza 07 nż
-1819	1	219753	08:25:00	08:25:00		Witosa / Wiktora 05 nż
-1819	1	219753	08:27:00	08:27:00		Wyspiańskiego stadion 01 nż
-1819	1	219753	08:28:00	08:28:00		Wita Stwosza / Wyspiańskiego 05 nż
-1819	1	219753	08:29:00	08:29:00		Wita Stwosza kościół 03
-1819	1	219753	08:30:00	08:30:00		Langiewicza / Wita Stwosza 04
-1819	1	219753	08:32:00	08:32:00		Staroniwska / Rzemieślnicza 02 nż
-1819	1	219753	08:33:00	08:33:00		Staroniwska szkoła 04 nż
-1819	1	219753	08:34:00	08:34:00		Staroniwska kościół 06 nż
-1819	1	219753	08:35:00	08:35:00		Staroniwska pętla 12 nż
+1819	4	222103	07:57:00	07:57:00		Olbrachta pętla 09
+1819	4	222103	07:58:00	07:58:00		Olbrachta / Św. Kingi 07 nż
+1819	4	222103	07:59:00	07:59:00		Olbrachta domki 05 nż
+1819	4	222103	08:00:00	08:00:00		Olbrachta / Kr. Marysieńki 03 nż
+1819	4	222103	08:01:00	08:01:00		Olbrachta / Lwowska 01 nż
+1819	4	222103	08:02:00	08:02:00		Lwowska / Cienista 07 nż
+1819	4	222103	08:04:00	08:04:00		Lwowska szpital 05
+1819	4	222103	08:06:00	08:06:00		Lwowska cmentarz 03
+1819	4	222103	08:07:00	08:07:00		Lwowska jedn. wojskowa 01
+1819	4	222103	08:09:00	08:09:00		Piłsudskiego ZDZ 02
+1819	4	222103	08:10:00	08:10:00		Głowackiego ZUS 01
+1819	4	222103	08:12:00	08:12:00		Siemieńskiego / Kochanowskiego 02 nż
+1819	4	222103	08:13:00	08:13:00		Siemieńskiego U. Skarbowy 04 nż
+1819	4	222103	08:14:00	08:14:00		Trembeckiego / Siemieńskiego 07 nż
+1819	4	222103	08:15:00	08:15:00		Trembeckiego ZTM 05 nż
+1819	4	222103	08:17:00	08:17:00		Lubelska kościół 05 nż
+1819	4	222103	08:18:00	08:18:00		Wyzwolenia / Lubelska 02 nż
+1819	4	222103	08:19:00	08:19:00		Wyzwolenia WORD 04 nż
+1819	4	222103	08:20:00	08:20:00		Wyzwolenia / Przy Torze 06 nż
+1819	4	222103	08:21:00	08:21:00		Okulickiego / Wyzwolenia 05 nż
+1819	4	222103	08:22:00	08:22:00		Okulickiego / Zwierzyniecka 03 nż
+1819	4	222103	08:23:00	08:23:00		Okulickiego centrum handlowe 01
+1819	4	222103	08:24:00	08:24:00		Witosa / Solarza 07 nż
+1819	4	222103	08:25:00	08:25:00		Witosa / Wiktora 05 nż
+1819	4	222103	08:27:00	08:27:00		Wyspiańskiego stadion 01 nż
+1819	4	222103	08:28:00	08:28:00		Wita Stwosza / Wyspiańskiego 05 nż
+1819	4	222103	08:29:00	08:29:00		Wita Stwosza kościół 03
+1819	4	222103	08:30:00	08:30:00		Langiewicza / Wita Stwosza 04
+1819	4	222103	08:32:00	08:32:00		Staroniwska / Rzemieślnicza 02 nż
+1819	4	222103	08:33:00	08:33:00		Staroniwska szkoła 04 nż
+1819	4	222103	08:34:00	08:34:00		Staroniwska kościół 06 nż
+1819	4	222103	08:35:00	08:35:00		Staroniwska pętla 12 nż
 
-1853	1	219559	08:57:00	08:57:00		Staroniwska pętla 12 nż
-1853	1	219559	08:58:00	08:58:00		Staroniwska kościół 05 nż
-1853	1	219559	08:59:00	08:59:00		Staroniwska szkoła 03 nż
-1853	1	219559	09:00:00	09:00:00		Staroniwska / Rzemieślnicza 01 nż
-1853	1	219559	09:01:00	09:01:00		Langiewicza / Wita Stwosza 05 nż
-1853	1	219559	09:02:00	09:02:00		Wita Stwosza / Langiewicza 02
-1853	1	219559	09:03:00	09:03:00		Wita Stwosza kościół 04
-1853	1	219559	09:04:00	09:04:00		Wita Stwosza / Wyspiańskiego 06 nż
-1853	1	219559	09:05:00	09:05:00		Wyspiańskiego stadion 02 nż
-1853	1	219559	09:06:00	09:06:00		Witosa / Wyspiańskiego 06 nż
-1853	1	219559	09:07:00	09:07:00		Witosa jedn. wojskowa 08 nż
-1853	1	219559	09:09:00	09:09:00		Okulickiego centrum handlowe 02
-1853	1	219559	09:10:00	09:10:00		Okulickiego / Zwierzyniecka 04 nż
-1853	1	219559	09:11:00	09:11:00		Wyzwolenia / Okulickiego 05 nż
-1853	1	219559	09:12:00	09:12:00		Wyzwolenia / Ujejskiego 03 nż
-1853	1	219559	09:13:00	09:13:00		Wyzwolenia / Warszawska 01 nż
-1853	1	219559	09:15:00	09:15:00		Lubelska kościół 06 nż
-1853	1	219559	09:16:00	09:16:00		Trembeckiego ZTM 02 nż
-1853	1	219559	09:17:00	09:17:00		Trembeckiego / Siemieńskiego 04 nż
-1853	1	219559	09:18:00	09:18:00		Siemieńskiego U. Skarbowy 03 nż
-1853	1	219559	09:19:00	09:19:00		Siemieńskiego dom studenta 01 nż
-1853	1	219559	09:20:00	09:20:00		Żółkiewskiego / Kochanowskiego 01 nż
-1853	1	219559	09:22:00	09:22:00		Bardowskiego 02
-1853	1	219559	09:24:00	09:24:00		Piłsudskiego ZDZ 01 nż
-1853	1	219559	09:26:00	09:26:00		Lwowska jedn. wojskowa 02
-1853	1	219559	09:28:00	09:28:00		Lwowska cmentarz 04
-1853	1	219559	09:29:00	09:29:00		Lwowska szpital 06
-1853	1	219559	09:31:00	09:31:00		Olbrachta / Lwowska 02 nż
-1853	1	219559	09:32:00	09:32:00		Olbrachta / Zygmunta I Starego 04 nż
-1853	1	219559	09:33:00	09:33:00		Olbrachta domki 06 nż
-1853	1	219559	09:34:00	09:34:00		Olbrachta / Św. Kingi 08 nż
-1853	1	219559	09:35:00	09:35:00		Olbrachta pętla 09
+1853	4	221796	08:57:00	08:57:00		Staroniwska pętla 12 nż
+1853	4	221796	08:58:00	08:58:00		Staroniwska kościół 05 nż
+1853	4	221796	08:59:00	08:59:00		Staroniwska szkoła 03 nż
+1853	4	221796	09:00:00	09:00:00		Staroniwska / Rzemieślnicza 01 nż
+1853	4	221796	09:01:00	09:01:00		Langiewicza / Wita Stwosza 05 nż
+1853	4	221796	09:02:00	09:02:00		Wita Stwosza / Langiewicza 02
+1853	4	221796	09:03:00	09:03:00		Wita Stwosza kościół 04
+1853	4	221796	09:04:00	09:04:00		Wita Stwosza / Wyspiańskiego 06 nż
+1853	4	221796	09:05:00	09:05:00		Wyspiańskiego stadion 02 nż
+1853	4	221796	09:06:00	09:06:00		Witosa / Wyspiańskiego 06 nż
+1853	4	221796	09:07:00	09:07:00		Witosa jedn. wojskowa 08 nż
+1853	4	221796	09:09:00	09:09:00		Okulickiego centrum handlowe 02
+1853	4	221796	09:10:00	09:10:00		Okulickiego / Zwierzyniecka 04 nż
+1853	4	221796	09:11:00	09:11:00		Wyzwolenia / Okulickiego 05 nż
+1853	4	221796	09:12:00	09:12:00		Wyzwolenia / Ujejskiego 03 nż
+1853	4	221796	09:13:00	09:13:00		Wyzwolenia / Warszawska 01 nż
+1853	4	221796	09:15:00	09:15:00		Lubelska kościół 06 nż
+1853	4	221796	09:16:00	09:16:00		Trembeckiego ZTM 02 nż
+1853	4	221796	09:17:00	09:17:00		Trembeckiego / Siemieńskiego 04 nż
+1853	4	221796	09:18:00	09:18:00		Siemieńskiego U. Skarbowy 03 nż
+1853	4	221796	09:19:00	09:19:00		Siemieńskiego dom studenta 01 nż
+1853	4	221796	09:20:00	09:20:00		Żółkiewskiego / Kochanowskiego 01 nż
+1853	4	221796	09:22:00	09:22:00		Bardowskiego 02
+1853	4	221796	09:24:00	09:24:00		Piłsudskiego ZDZ 01 nż
+1853	4	221796	09:26:00	09:26:00		Lwowska jedn. wojskowa 02
+1853	4	221796	09:28:00	09:28:00		Lwowska cmentarz 04
+1853	4	221796	09:29:00	09:29:00		Lwowska szpital 06
+1853	4	221796	09:31:00	09:31:00		Olbrachta / Lwowska 02 nż
+1853	4	221796	09:32:00	09:32:00		Olbrachta / Zygmunta I Starego 04 nż
+1853	4	221796	09:33:00	09:33:00		Olbrachta domki 06 nż
+1853	4	221796	09:34:00	09:34:00		Olbrachta / Św. Kingi 08 nż
+1853	4	221796	09:35:00	09:35:00		Olbrachta pętla 09
 
-1819	1	219342	09:57:00	09:57:00		Olbrachta pętla 09
-1819	1	219342	09:58:00	09:58:00		Olbrachta / Św. Kingi 07 nż
-1819	1	219342	09:59:00	09:59:00		Olbrachta domki 05 nż
-1819	1	219342	10:00:00	10:00:00		Olbrachta / Kr. Marysieńki 03 nż
-1819	1	219342	10:01:00	10:01:00		Olbrachta / Lwowska 01 nż
-1819	1	219342	10:02:00	10:02:00		Lwowska / Cienista 07 nż
-1819	1	219342	10:04:00	10:04:00		Lwowska szpital 05
-1819	1	219342	10:06:00	10:06:00		Lwowska cmentarz 03
-1819	1	219342	10:07:00	10:07:00		Lwowska jedn. wojskowa 01
-1819	1	219342	10:09:00	10:09:00		Piłsudskiego ZDZ 02
-1819	1	219342	10:10:00	10:10:00		Głowackiego ZUS 01
-1819	1	219342	10:12:00	10:12:00		Siemieńskiego / Kochanowskiego 02 nż
-1819	1	219342	10:13:00	10:13:00		Siemieńskiego U. Skarbowy 04 nż
-1819	1	219342	10:14:00	10:14:00		Trembeckiego / Siemieńskiego 07 nż
-1819	1	219342	10:15:00	10:15:00		Trembeckiego ZTM 05 nż
-1819	1	219342	10:17:00	10:17:00		Lubelska kościół 05 nż
-1819	1	219342	10:18:00	10:18:00		Wyzwolenia / Lubelska 02 nż
-1819	1	219342	10:19:00	10:19:00		Wyzwolenia WORD 04 nż
-1819	1	219342	10:20:00	10:20:00		Wyzwolenia / Przy Torze 06 nż
-1819	1	219342	10:21:00	10:21:00		Okulickiego / Wyzwolenia 05 nż
-1819	1	219342	10:22:00	10:22:00		Okulickiego / Zwierzyniecka 03 nż
-1819	1	219342	10:23:00	10:23:00		Okulickiego centrum handlowe 01
-1819	1	219342	10:24:00	10:24:00		Witosa / Solarza 07 nż
-1819	1	219342	10:25:00	10:25:00		Witosa / Wiktora 05 nż
-1819	1	219342	10:27:00	10:27:00		Wyspiańskiego stadion 01 nż
-1819	1	219342	10:28:00	10:28:00		Wita Stwosza / Wyspiańskiego 05 nż
-1819	1	219342	10:29:00	10:29:00		Wita Stwosza kościół 03
-1819	1	219342	10:30:00	10:30:00		Langiewicza / Wita Stwosza 04
-1819	1	219342	10:32:00	10:32:00		Staroniwska / Rzemieślnicza 02 nż
-1819	1	219342	10:33:00	10:33:00		Staroniwska szkoła 04 nż
-1819	1	219342	10:34:00	10:34:00		Staroniwska kościół 06 nż
-1819	1	219342	10:35:00	10:35:00		Staroniwska pętla 12 nż
+1819	4	222069	09:57:00	09:57:00		Olbrachta pętla 09
+1819	4	222069	09:58:00	09:58:00		Olbrachta / Św. Kingi 07 nż
+1819	4	222069	09:59:00	09:59:00		Olbrachta domki 05 nż
+1819	4	222069	10:00:00	10:00:00		Olbrachta / Kr. Marysieńki 03 nż
+1819	4	222069	10:01:00	10:01:00		Olbrachta / Lwowska 01 nż
+1819	4	222069	10:02:00	10:02:00		Lwowska / Cienista 07 nż
+1819	4	222069	10:04:00	10:04:00		Lwowska szpital 05
+1819	4	222069	10:06:00	10:06:00		Lwowska cmentarz 03
+1819	4	222069	10:07:00	10:07:00		Lwowska jedn. wojskowa 01
+1819	4	222069	10:09:00	10:09:00		Piłsudskiego ZDZ 02
+1819	4	222069	10:10:00	10:10:00		Głowackiego ZUS 01
+1819	4	222069	10:12:00	10:12:00		Siemieńskiego / Kochanowskiego 02 nż
+1819	4	222069	10:13:00	10:13:00		Siemieńskiego U. Skarbowy 04 nż
+1819	4	222069	10:14:00	10:14:00		Trembeckiego / Siemieńskiego 07 nż
+1819	4	222069	10:15:00	10:15:00		Trembeckiego ZTM 05 nż
+1819	4	222069	10:17:00	10:17:00		Lubelska kościół 05 nż
+1819	4	222069	10:18:00	10:18:00		Wyzwolenia / Lubelska 02 nż
+1819	4	222069	10:19:00	10:19:00		Wyzwolenia WORD 04 nż
+1819	4	222069	10:20:00	10:20:00		Wyzwolenia / Przy Torze 06 nż
+1819	4	222069	10:21:00	10:21:00		Okulickiego / Wyzwolenia 05 nż
+1819	4	222069	10:22:00	10:22:00		Okulickiego / Zwierzyniecka 03 nż
+1819	4	222069	10:23:00	10:23:00		Okulickiego centrum handlowe 01
+1819	4	222069	10:24:00	10:24:00		Witosa / Solarza 07 nż
+1819	4	222069	10:25:00	10:25:00		Witosa / Wiktora 05 nż
+1819	4	222069	10:27:00	10:27:00		Wyspiańskiego stadion 01 nż
+1819	4	222069	10:28:00	10:28:00		Wita Stwosza / Wyspiańskiego 05 nż
+1819	4	222069	10:29:00	10:29:00		Wita Stwosza kościół 03
+1819	4	222069	10:30:00	10:30:00		Langiewicza / Wita Stwosza 04
+1819	4	222069	10:32:00	10:32:00		Staroniwska / Rzemieślnicza 02 nż
+1819	4	222069	10:33:00	10:33:00		Staroniwska szkoła 04 nż
+1819	4	222069	10:34:00	10:34:00		Staroniwska kościół 06 nż
+1819	4	222069	10:35:00	10:35:00		Staroniwska pętla 12 nż
 
-1853	1	219411	10:58:00	10:58:00		Staroniwska pętla 12 nż
-1853	1	219411	10:59:00	10:59:00		Staroniwska kościół 05 nż
-1853	1	219411	11:00:00	11:00:00		Staroniwska szkoła 03 nż
-1853	1	219411	11:01:00	11:01:00		Staroniwska / Rzemieślnicza 01 nż
-1853	1	219411	11:02:00	11:02:00		Langiewicza / Wita Stwosza 05 nż
-1853	1	219411	11:03:00	11:03:00		Wita Stwosza / Langiewicza 02
-1853	1	219411	11:04:00	11:04:00		Wita Stwosza kościół 04
-1853	1	219411	11:05:00	11:05:00		Wita Stwosza / Wyspiańskiego 06 nż
-1853	1	219411	11:06:00	11:06:00		Wyspiańskiego stadion 02 nż
-1853	1	219411	11:07:00	11:07:00		Witosa / Wyspiańskiego 06 nż
-1853	1	219411	11:08:00	11:08:00		Witosa jedn. wojskowa 08 nż
-1853	1	219411	11:10:00	11:10:00		Okulickiego centrum handlowe 02
-1853	1	219411	11:11:00	11:11:00		Okulickiego / Zwierzyniecka 04 nż
-1853	1	219411	11:12:00	11:12:00		Wyzwolenia / Okulickiego 05 nż
-1853	1	219411	11:13:00	11:13:00		Wyzwolenia / Ujejskiego 03 nż
-1853	1	219411	11:14:00	11:14:00		Wyzwolenia / Warszawska 01 nż
-1853	1	219411	11:16:00	11:16:00		Lubelska kościół 06 nż
-1853	1	219411	11:17:00	11:17:00		Trembeckiego ZTM 02 nż
-1853	1	219411	11:18:00	11:18:00		Trembeckiego / Siemieńskiego 04 nż
-1853	1	219411	11:19:00	11:19:00		Siemieńskiego U. Skarbowy 03 nż
-1853	1	219411	11:20:00	11:20:00		Siemieńskiego dom studenta 01 nż
-1853	1	219411	11:21:00	11:21:00		Żółkiewskiego / Kochanowskiego 01 nż
-1853	1	219411	11:23:00	11:23:00		Bardowskiego 02
-1853	1	219411	11:25:00	11:25:00		Piłsudskiego ZDZ 01 nż
-1853	1	219411	11:27:00	11:27:00		Lwowska jedn. wojskowa 02
-1853	1	219411	11:29:00	11:29:00		Lwowska cmentarz 04
-1853	1	219411	11:30:00	11:30:00		Lwowska szpital 06
-1853	1	219411	11:32:00	11:32:00		Olbrachta / Lwowska 02 nż
-1853	1	219411	11:33:00	11:33:00		Olbrachta / Zygmunta I Starego 04 nż
-1853	1	219411	11:34:00	11:34:00		Olbrachta domki 06 nż
-1853	1	219411	11:35:00	11:35:00		Olbrachta / Św. Kingi 08 nż
-1853	1	219411	11:36:00	11:36:00		Olbrachta pętla 09
+1853	4	221843	10:58:00	10:58:00		Staroniwska pętla 12 nż
+1853	4	221843	10:59:00	10:59:00		Staroniwska kościół 05 nż
+1853	4	221843	11:00:00	11:00:00		Staroniwska szkoła 03 nż
+1853	4	221843	11:01:00	11:01:00		Staroniwska / Rzemieślnicza 01 nż
+1853	4	221843	11:02:00	11:02:00		Langiewicza / Wita Stwosza 05 nż
+1853	4	221843	11:03:00	11:03:00		Wita Stwosza / Langiewicza 02
+1853	4	221843	11:04:00	11:04:00		Wita Stwosza kościół 04
+1853	4	221843	11:05:00	11:05:00		Wita Stwosza / Wyspiańskiego 06 nż
+1853	4	221843	11:06:00	11:06:00		Wyspiańskiego stadion 02 nż
+1853	4	221843	11:07:00	11:07:00		Witosa / Wyspiańskiego 06 nż
+1853	4	221843	11:08:00	11:08:00		Witosa jedn. wojskowa 08 nż
+1853	4	221843	11:10:00	11:10:00		Okulickiego centrum handlowe 02
+1853	4	221843	11:11:00	11:11:00		Okulickiego / Zwierzyniecka 04 nż
+1853	4	221843	11:12:00	11:12:00		Wyzwolenia / Okulickiego 05 nż
+1853	4	221843	11:13:00	11:13:00		Wyzwolenia / Ujejskiego 03 nż
+1853	4	221843	11:14:00	11:14:00		Wyzwolenia / Warszawska 01 nż
+1853	4	221843	11:16:00	11:16:00		Lubelska kościół 06 nż
+1853	4	221843	11:17:00	11:17:00		Trembeckiego ZTM 02 nż
+1853	4	221843	11:18:00	11:18:00		Trembeckiego / Siemieńskiego 04 nż
+1853	4	221843	11:19:00	11:19:00		Siemieńskiego U. Skarbowy 03 nż
+1853	4	221843	11:20:00	11:20:00		Siemieńskiego dom studenta 01 nż
+1853	4	221843	11:21:00	11:21:00		Żółkiewskiego / Kochanowskiego 01 nż
+1853	4	221843	11:23:00	11:23:00		Bardowskiego 02
+1853	4	221843	11:25:00	11:25:00		Piłsudskiego ZDZ 01 nż
+1853	4	221843	11:27:00	11:27:00		Lwowska jedn. wojskowa 02
+1853	4	221843	11:29:00	11:29:00		Lwowska cmentarz 04
+1853	4	221843	11:30:00	11:30:00		Lwowska szpital 06
+1853	4	221843	11:32:00	11:32:00		Olbrachta / Lwowska 02 nż
+1853	4	221843	11:33:00	11:33:00		Olbrachta / Zygmunta I Starego 04 nż
+1853	4	221843	11:34:00	11:34:00		Olbrachta domki 06 nż
+1853	4	221843	11:35:00	11:35:00		Olbrachta / Św. Kingi 08 nż
+1853	4	221843	11:36:00	11:36:00		Olbrachta pętla 09
 
-1819	1	219440	11:57:00	11:57:00		Olbrachta pętla 09
-1819	1	219440	11:58:00	11:58:00		Olbrachta / Św. Kingi 07 nż
-1819	1	219440	11:59:00	11:59:00		Olbrachta domki 05 nż
-1819	1	219440	12:00:00	12:00:00		Olbrachta / Kr. Marysieńki 03 nż
-1819	1	219440	12:01:00	12:01:00		Olbrachta / Lwowska 01 nż
-1819	1	219440	12:02:00	12:02:00		Lwowska / Cienista 07 nż
-1819	1	219440	12:04:00	12:04:00		Lwowska szpital 05
-1819	1	219440	12:06:00	12:06:00		Lwowska cmentarz 03
-1819	1	219440	12:07:00	12:07:00		Lwowska jedn. wojskowa 01
-1819	1	219440	12:09:00	12:09:00		Piłsudskiego ZDZ 02
-1819	1	219440	12:10:00	12:10:00		Głowackiego ZUS 01
-1819	1	219440	12:12:00	12:12:00		Siemieńskiego / Kochanowskiego 02 nż
-1819	1	219440	12:13:00	12:13:00		Siemieńskiego U. Skarbowy 04 nż
-1819	1	219440	12:14:00	12:14:00		Trembeckiego / Siemieńskiego 07 nż
-1819	1	219440	12:15:00	12:15:00		Trembeckiego ZTM 05 nż
-1819	1	219440	12:17:00	12:17:00		Lubelska kościół 05 nż
-1819	1	219440	12:18:00	12:18:00		Wyzwolenia / Lubelska 02 nż
-1819	1	219440	12:19:00	12:19:00		Wyzwolenia WORD 04 nż
-1819	1	219440	12:20:00	12:20:00		Wyzwolenia / Przy Torze 06 nż
-1819	1	219440	12:21:00	12:21:00		Okulickiego / Wyzwolenia 05 nż
-1819	1	219440	12:22:00	12:22:00		Okulickiego / Zwierzyniecka 03 nż
-1819	1	219440	12:23:00	12:23:00		Okulickiego centrum handlowe 01
-1819	1	219440	12:25:00	12:25:00		Witosa / Solarza 07 nż
-1819	1	219440	12:26:00	12:26:00		Witosa / Wiktora 05 nż
-1819	1	219440	12:28:00	12:28:00		Wyspiańskiego stadion 01 nż
-1819	1	219440	12:29:00	12:29:00		Wita Stwosza / Wyspiańskiego 05 nż
-1819	1	219440	12:30:00	12:30:00		Wita Stwosza kościół 03
-1819	1	219440	12:31:00	12:31:00		Langiewicza / Wita Stwosza 04
-1819	1	219440	12:33:00	12:33:00		Staroniwska / Rzemieślnicza 02 nż
-1819	1	219440	12:34:00	12:34:00		Staroniwska szkoła 04 nż
-1819	1	219440	12:35:00	12:35:00		Staroniwska kościół 06 nż
-1819	1	219440	12:36:00	12:36:00		Staroniwska pętla 12 nż
+1819	4	221850	11:57:00	11:57:00		Olbrachta pętla 09
+1819	4	221850	11:58:00	11:58:00		Olbrachta / Św. Kingi 07 nż
+1819	4	221850	11:59:00	11:59:00		Olbrachta domki 05 nż
+1819	4	221850	12:00:00	12:00:00		Olbrachta / Kr. Marysieńki 03 nż
+1819	4	221850	12:01:00	12:01:00		Olbrachta / Lwowska 01 nż
+1819	4	221850	12:02:00	12:02:00		Lwowska / Cienista 07 nż
+1819	4	221850	12:04:00	12:04:00		Lwowska szpital 05
+1819	4	221850	12:06:00	12:06:00		Lwowska cmentarz 03
+1819	4	221850	12:07:00	12:07:00		Lwowska jedn. wojskowa 01
+1819	4	221850	12:09:00	12:09:00		Piłsudskiego ZDZ 02
+1819	4	221850	12:10:00	12:10:00		Głowackiego ZUS 01
+1819	4	221850	12:12:00	12:12:00		Siemieńskiego / Kochanowskiego 02 nż
+1819	4	221850	12:13:00	12:13:00		Siemieńskiego U. Skarbowy 04 nż
+1819	4	221850	12:14:00	12:14:00		Trembeckiego / Siemieńskiego 07 nż
+1819	4	221850	12:15:00	12:15:00		Trembeckiego ZTM 05 nż
+1819	4	221850	12:17:00	12:17:00		Lubelska kościół 05 nż
+1819	4	221850	12:18:00	12:18:00		Wyzwolenia / Lubelska 02 nż
+1819	4	221850	12:19:00	12:19:00		Wyzwolenia WORD 04 nż
+1819	4	221850	12:20:00	12:20:00		Wyzwolenia / Przy Torze 06 nż
+1819	4	221850	12:21:00	12:21:00		Okulickiego / Wyzwolenia 05 nż
+1819	4	221850	12:22:00	12:22:00		Okulickiego / Zwierzyniecka 03 nż
+1819	4	221850	12:23:00	12:23:00		Okulickiego centrum handlowe 01
+1819	4	221850	12:25:00	12:25:00		Witosa / Solarza 07 nż
+1819	4	221850	12:26:00	12:26:00		Witosa / Wiktora 05 nż
+1819	4	221850	12:28:00	12:28:00		Wyspiańskiego stadion 01 nż
+1819	4	221850	12:29:00	12:29:00		Wita Stwosza / Wyspiańskiego 05 nż
+1819	4	221850	12:30:00	12:30:00		Wita Stwosza kościół 03
+1819	4	221850	12:31:00	12:31:00		Langiewicza / Wita Stwosza 04
+1819	4	221850	12:33:00	12:33:00		Staroniwska / Rzemieślnicza 02 nż
+1819	4	221850	12:34:00	12:34:00		Staroniwska szkoła 04 nż
+1819	4	221850	12:35:00	12:35:00		Staroniwska kościół 06 nż
+1819	4	221850	12:36:00	12:36:00		Staroniwska pętla 12 nż
 
-1853	1	219603	12:58:00	12:58:00		Staroniwska pętla 12 nż
-1853	1	219603	12:59:00	12:59:00		Staroniwska kościół 05 nż
-1853	1	219603	13:00:00	13:00:00		Staroniwska szkoła 03 nż
-1853	1	219603	13:01:00	13:01:00		Staroniwska / Rzemieślnicza 01 nż
-1853	1	219603	13:02:00	13:02:00		Langiewicza / Wita Stwosza 05 nż
-1853	1	219603	13:03:00	13:03:00		Wita Stwosza / Langiewicza 02
-1853	1	219603	13:04:00	13:04:00		Wita Stwosza kościół 04
-1853	1	219603	13:05:00	13:05:00		Wita Stwosza / Wyspiańskiego 06 nż
-1853	1	219603	13:06:00	13:06:00		Wyspiańskiego stadion 02 nż
-1853	1	219603	13:07:00	13:07:00		Witosa / Wyspiańskiego 06 nż
-1853	1	219603	13:08:00	13:08:00		Witosa jedn. wojskowa 08 nż
-1853	1	219603	13:10:00	13:10:00		Okulickiego centrum handlowe 02
-1853	1	219603	13:11:00	13:11:00		Okulickiego / Zwierzyniecka 04 nż
-1853	1	219603	13:12:00	13:12:00		Wyzwolenia / Okulickiego 05 nż
-1853	1	219603	13:13:00	13:13:00		Wyzwolenia / Ujejskiego 03 nż
-1853	1	219603	13:14:00	13:14:00		Wyzwolenia / Warszawska 01 nż
-1853	1	219603	13:16:00	13:16:00		Lubelska kościół 06 nż
-1853	1	219603	13:17:00	13:17:00		Trembeckiego ZTM 02 nż
-1853	1	219603	13:18:00	13:18:00		Trembeckiego / Siemieńskiego 04 nż
-1853	1	219603	13:19:00	13:19:00		Siemieńskiego U. Skarbowy 03 nż
-1853	1	219603	13:20:00	13:20:00		Siemieńskiego dom studenta 01 nż
-1853	1	219603	13:21:00	13:21:00		Żółkiewskiego / Kochanowskiego 01 nż
-1853	1	219603	13:23:00	13:23:00		Bardowskiego 02
-1853	1	219603	13:25:00	13:25:00		Piłsudskiego ZDZ 01 nż
-1853	1	219603	13:27:00	13:27:00		Lwowska jedn. wojskowa 02
-1853	1	219603	13:29:00	13:29:00		Lwowska cmentarz 04
-1853	1	219603	13:30:00	13:30:00		Lwowska szpital 06
-1853	1	219603	13:32:00	13:32:00		Olbrachta / Lwowska 02 nż
-1853	1	219603	13:33:00	13:33:00		Olbrachta / Zygmunta I Starego 04 nż
-1853	1	219603	13:34:00	13:34:00		Olbrachta domki 06 nż
-1853	1	219603	13:35:00	13:35:00		Olbrachta / Św. Kingi 08 nż
-1853	1	219603	13:36:00	13:36:00		Olbrachta pętla 09
+1853	4	222006	12:58:00	12:58:00		Staroniwska pętla 12 nż
+1853	4	222006	12:59:00	12:59:00		Staroniwska kościół 05 nż
+1853	4	222006	13:00:00	13:00:00		Staroniwska szkoła 03 nż
+1853	4	222006	13:01:00	13:01:00		Staroniwska / Rzemieślnicza 01 nż
+1853	4	222006	13:02:00	13:02:00		Langiewicza / Wita Stwosza 05 nż
+1853	4	222006	13:03:00	13:03:00		Wita Stwosza / Langiewicza 02
+1853	4	222006	13:04:00	13:04:00		Wita Stwosza kościół 04
+1853	4	222006	13:05:00	13:05:00		Wita Stwosza / Wyspiańskiego 06 nż
+1853	4	222006	13:06:00	13:06:00		Wyspiańskiego stadion 02 nż
+1853	4	222006	13:07:00	13:07:00		Witosa / Wyspiańskiego 06 nż
+1853	4	222006	13:08:00	13:08:00		Witosa jedn. wojskowa 08 nż
+1853	4	222006	13:10:00	13:10:00		Okulickiego centrum handlowe 02
+1853	4	222006	13:11:00	13:11:00		Okulickiego / Zwierzyniecka 04 nż
+1853	4	222006	13:12:00	13:12:00		Wyzwolenia / Okulickiego 05 nż
+1853	4	222006	13:13:00	13:13:00		Wyzwolenia / Ujejskiego 03 nż
+1853	4	222006	13:14:00	13:14:00		Wyzwolenia / Warszawska 01 nż
+1853	4	222006	13:16:00	13:16:00		Lubelska kościół 06 nż
+1853	4	222006	13:17:00	13:17:00		Trembeckiego ZTM 02 nż
+1853	4	222006	13:18:00	13:18:00		Trembeckiego / Siemieńskiego 04 nż
+1853	4	222006	13:19:00	13:19:00		Siemieńskiego U. Skarbowy 03 nż
+1853	4	222006	13:20:00	13:20:00		Siemieńskiego dom studenta 01 nż
+1853	4	222006	13:21:00	13:21:00		Żółkiewskiego / Kochanowskiego 01 nż
+1853	4	222006	13:23:00	13:23:00		Bardowskiego 02
+1853	4	222006	13:25:00	13:25:00		Piłsudskiego ZDZ 01 nż
+1853	4	222006	13:27:00	13:27:00		Lwowska jedn. wojskowa 02
+1853	4	222006	13:29:00	13:29:00		Lwowska cmentarz 04
+1853	4	222006	13:30:00	13:30:00		Lwowska szpital 06
+1853	4	222006	13:32:00	13:32:00		Olbrachta / Lwowska 02 nż
+1853	4	222006	13:33:00	13:33:00		Olbrachta / Zygmunta I Starego 04 nż
+1853	4	222006	13:34:00	13:34:00		Olbrachta domki 06 nż
+1853	4	222006	13:35:00	13:35:00		Olbrachta / Św. Kingi 08 nż
+1853	4	222006	13:36:00	13:36:00		Olbrachta pętla 09
 
-1819	1	219618	13:57:00	13:57:00		Olbrachta pętla 09
-1819	1	219618	13:58:00	13:58:00		Olbrachta / Św. Kingi 07 nż
-1819	1	219618	13:59:00	13:59:00		Olbrachta domki 05 nż
-1819	1	219618	14:00:00	14:00:00		Olbrachta / Kr. Marysieńki 03 nż
-1819	1	219618	14:01:00	14:01:00		Olbrachta / Lwowska 01 nż
-1819	1	219618	14:02:00	14:02:00		Lwowska / Cienista 07 nż
-1819	1	219618	14:04:00	14:04:00		Lwowska szpital 05
-1819	1	219618	14:06:00	14:06:00		Lwowska cmentarz 03
-1819	1	219618	14:07:00	14:07:00		Lwowska jedn. wojskowa 01
-1819	1	219618	14:09:00	14:09:00		Piłsudskiego ZDZ 02
-1819	1	219618	14:10:00	14:10:00		Głowackiego ZUS 01
-1819	1	219618	14:12:00	14:12:00		Siemieńskiego / Kochanowskiego 02 nż
-1819	1	219618	14:13:00	14:13:00		Siemieńskiego U. Skarbowy 04 nż
-1819	1	219618	14:14:00	14:14:00		Trembeckiego / Siemieńskiego 07 nż
-1819	1	219618	14:15:00	14:15:00		Trembeckiego ZTM 05 nż
-1819	1	219618	14:17:00	14:17:00		Lubelska kościół 05 nż
-1819	1	219618	14:18:00	14:18:00		Wyzwolenia / Lubelska 02 nż
-1819	1	219618	14:19:00	14:19:00		Wyzwolenia WORD 04 nż
-1819	1	219618	14:20:00	14:20:00		Wyzwolenia / Przy Torze 06 nż
-1819	1	219618	14:21:00	14:21:00		Okulickiego / Wyzwolenia 05 nż
-1819	1	219618	14:22:00	14:22:00		Okulickiego / Zwierzyniecka 03 nż
-1819	1	219618	14:23:00	14:23:00		Okulickiego centrum handlowe 01
-1819	1	219618	14:25:00	14:25:00		Witosa / Solarza 07 nż
-1819	1	219618	14:26:00	14:26:00		Witosa / Wiktora 05 nż
-1819	1	219618	14:28:00	14:28:00		Wyspiańskiego stadion 01 nż
-1819	1	219618	14:29:00	14:29:00		Wita Stwosza / Wyspiańskiego 05 nż
-1819	1	219618	14:30:00	14:30:00		Wita Stwosza kościół 03
-1819	1	219618	14:31:00	14:31:00		Langiewicza / Wita Stwosza 04
-1819	1	219618	14:32:00	14:32:00		Staroniwska / Rzemieślnicza 02 nż
-1819	1	219618	14:33:00	14:33:00		Staroniwska szkoła 04 nż
-1819	1	219618	14:34:00	14:34:00		Staroniwska kościół 06 nż
-1819	1	219618	14:35:00	14:35:00		Staroniwska pętla 12 nż
+1819	4	221855	13:57:00	13:57:00		Olbrachta pętla 09
+1819	4	221855	13:58:00	13:58:00		Olbrachta / Św. Kingi 07 nż
+1819	4	221855	13:59:00	13:59:00		Olbrachta domki 05 nż
+1819	4	221855	14:00:00	14:00:00		Olbrachta / Kr. Marysieńki 03 nż
+1819	4	221855	14:01:00	14:01:00		Olbrachta / Lwowska 01 nż
+1819	4	221855	14:02:00	14:02:00		Lwowska / Cienista 07 nż
+1819	4	221855	14:04:00	14:04:00		Lwowska szpital 05
+1819	4	221855	14:06:00	14:06:00		Lwowska cmentarz 03
+1819	4	221855	14:07:00	14:07:00		Lwowska jedn. wojskowa 01
+1819	4	221855	14:09:00	14:09:00		Piłsudskiego ZDZ 02
+1819	4	221855	14:10:00	14:10:00		Głowackiego ZUS 01
+1819	4	221855	14:12:00	14:12:00		Siemieńskiego / Kochanowskiego 02 nż
+1819	4	221855	14:13:00	14:13:00		Siemieńskiego U. Skarbowy 04 nż
+1819	4	221855	14:14:00	14:14:00		Trembeckiego / Siemieńskiego 07 nż
+1819	4	221855	14:15:00	14:15:00		Trembeckiego ZTM 05 nż
+1819	4	221855	14:17:00	14:17:00		Lubelska kościół 05 nż
+1819	4	221855	14:18:00	14:18:00		Wyzwolenia / Lubelska 02 nż
+1819	4	221855	14:19:00	14:19:00		Wyzwolenia WORD 04 nż
+1819	4	221855	14:20:00	14:20:00		Wyzwolenia / Przy Torze 06 nż
+1819	4	221855	14:21:00	14:21:00		Okulickiego / Wyzwolenia 05 nż
+1819	4	221855	14:22:00	14:22:00		Okulickiego / Zwierzyniecka 03 nż
+1819	4	221855	14:23:00	14:23:00		Okulickiego centrum handlowe 01
+1819	4	221855	14:25:00	14:25:00		Witosa / Solarza 07 nż
+1819	4	221855	14:26:00	14:26:00		Witosa / Wiktora 05 nż
+1819	4	221855	14:28:00	14:28:00		Wyspiańskiego stadion 01 nż
+1819	4	221855	14:29:00	14:29:00		Wita Stwosza / Wyspiańskiego 05 nż
+1819	4	221855	14:30:00	14:30:00		Wita Stwosza kościół 03
+1819	4	221855	14:31:00	14:31:00		Langiewicza / Wita Stwosza 04
+1819	4	221855	14:32:00	14:32:00		Staroniwska / Rzemieślnicza 02 nż
+1819	4	221855	14:33:00	14:33:00		Staroniwska szkoła 04 nż
+1819	4	221855	14:34:00	14:34:00		Staroniwska kościół 06 nż
+1819	4	221855	14:35:00	14:35:00		Staroniwska pętla 12 nż
 
-1853	1	219669	14:58:00	14:58:00		Staroniwska pętla 12 nż
-1853	1	219669	14:59:00	14:59:00		Staroniwska kościół 05 nż
-1853	1	219669	15:00:00	15:00:00		Staroniwska szkoła 03 nż
-1853	1	219669	15:01:00	15:01:00		Staroniwska / Rzemieślnicza 01 nż
-1853	1	219669	15:02:00	15:02:00		Langiewicza / Wita Stwosza 05 nż
-1853	1	219669	15:03:00	15:03:00		Wita Stwosza / Langiewicza 02
-1853	1	219669	15:04:00	15:04:00		Wita Stwosza kościół 04
-1853	1	219669	15:05:00	15:05:00		Wita Stwosza / Wyspiańskiego 06 nż
-1853	1	219669	15:06:00	15:06:00		Wyspiańskiego stadion 02 nż
-1853	1	219669	15:07:00	15:07:00		Witosa / Wyspiańskiego 06 nż
-1853	1	219669	15:08:00	15:08:00		Witosa jedn. wojskowa 08 nż
-1853	1	219669	15:10:00	15:10:00		Okulickiego centrum handlowe 02
-1853	1	219669	15:11:00	15:11:00		Okulickiego / Zwierzyniecka 04 nż
-1853	1	219669	15:12:00	15:12:00		Wyzwolenia / Okulickiego 05 nż
-1853	1	219669	15:13:00	15:13:00		Wyzwolenia / Ujejskiego 03 nż
-1853	1	219669	15:14:00	15:14:00		Wyzwolenia / Warszawska 01 nż
-1853	1	219669	15:16:00	15:16:00		Lubelska kościół 06 nż
-1853	1	219669	15:17:00	15:17:00		Trembeckiego ZTM 02 nż
-1853	1	219669	15:18:00	15:18:00		Trembeckiego / Siemieńskiego 04 nż
-1853	1	219669	15:19:00	15:19:00		Siemieńskiego U. Skarbowy 03 nż
-1853	1	219669	15:20:00	15:20:00		Siemieńskiego dom studenta 01 nż
-1853	1	219669	15:21:00	15:21:00		Żółkiewskiego / Kochanowskiego 01 nż
-1853	1	219669	15:23:00	15:23:00		Bardowskiego 02
-1853	1	219669	15:25:00	15:25:00		Piłsudskiego ZDZ 01 nż
-1853	1	219669	15:27:00	15:27:00		Lwowska jedn. wojskowa 02
-1853	1	219669	15:29:00	15:29:00		Lwowska cmentarz 04
-1853	1	219669	15:30:00	15:30:00		Lwowska szpital 06
-1853	1	219669	15:32:00	15:32:00		Olbrachta / Lwowska 02 nż
-1853	1	219669	15:33:00	15:33:00		Olbrachta / Zygmunta I Starego 04 nż
-1853	1	219669	15:34:00	15:34:00		Olbrachta domki 06 nż
-1853	1	219669	15:35:00	15:35:00		Olbrachta / Św. Kingi 08 nż
-1853	1	219669	15:36:00	15:36:00		Olbrachta pętla 09
+1853	4	221820	14:58:00	14:58:00		Staroniwska pętla 12 nż
+1853	4	221820	14:59:00	14:59:00		Staroniwska kościół 05 nż
+1853	4	221820	15:00:00	15:00:00		Staroniwska szkoła 03 nż
+1853	4	221820	15:01:00	15:01:00		Staroniwska / Rzemieślnicza 01 nż
+1853	4	221820	15:02:00	15:02:00		Langiewicza / Wita Stwosza 05 nż
+1853	4	221820	15:03:00	15:03:00		Wita Stwosza / Langiewicza 02
+1853	4	221820	15:04:00	15:04:00		Wita Stwosza kościół 04
+1853	4	221820	15:05:00	15:05:00		Wita Stwosza / Wyspiańskiego 06 nż
+1853	4	221820	15:06:00	15:06:00		Wyspiańskiego stadion 02 nż
+1853	4	221820	15:07:00	15:07:00		Witosa / Wyspiańskiego 06 nż
+1853	4	221820	15:08:00	15:08:00		Witosa jedn. wojskowa 08 nż
+1853	4	221820	15:10:00	15:10:00		Okulickiego centrum handlowe 02
+1853	4	221820	15:11:00	15:11:00		Okulickiego / Zwierzyniecka 04 nż
+1853	4	221820	15:12:00	15:12:00		Wyzwolenia / Okulickiego 05 nż
+1853	4	221820	15:13:00	15:13:00		Wyzwolenia / Ujejskiego 03 nż
+1853	4	221820	15:14:00	15:14:00		Wyzwolenia / Warszawska 01 nż
+1853	4	221820	15:16:00	15:16:00		Lubelska kościół 06 nż
+1853	4	221820	15:17:00	15:17:00		Trembeckiego ZTM 02 nż
+1853	4	221820	15:18:00	15:18:00		Trembeckiego / Siemieńskiego 04 nż
+1853	4	221820	15:19:00	15:19:00		Siemieńskiego U. Skarbowy 03 nż
+1853	4	221820	15:20:00	15:20:00		Siemieńskiego dom studenta 01 nż
+1853	4	221820	15:21:00	15:21:00		Żółkiewskiego / Kochanowskiego 01 nż
+1853	4	221820	15:23:00	15:23:00		Bardowskiego 02
+1853	4	221820	15:25:00	15:25:00		Piłsudskiego ZDZ 01 nż
+1853	4	221820	15:27:00	15:27:00		Lwowska jedn. wojskowa 02
+1853	4	221820	15:29:00	15:29:00		Lwowska cmentarz 04
+1853	4	221820	15:30:00	15:30:00		Lwowska szpital 06
+1853	4	221820	15:32:00	15:32:00		Olbrachta / Lwowska 02 nż
+1853	4	221820	15:33:00	15:33:00		Olbrachta / Zygmunta I Starego 04 nż
+1853	4	221820	15:34:00	15:34:00		Olbrachta domki 06 nż
+1853	4	221820	15:35:00	15:35:00		Olbrachta / Św. Kingi 08 nż
+1853	4	221820	15:36:00	15:36:00		Olbrachta pętla 09
 
-1819	1	219359	15:57:00	15:57:00		Olbrachta pętla 09
-1819	1	219359	15:58:00	15:58:00		Olbrachta / Św. Kingi 07 nż
-1819	1	219359	15:59:00	15:59:00		Olbrachta domki 05 nż
-1819	1	219359	16:00:00	16:00:00		Olbrachta / Kr. Marysieńki 03 nż
-1819	1	219359	16:01:00	16:01:00		Olbrachta / Lwowska 01 nż
-1819	1	219359	16:02:00	16:02:00		Lwowska / Cienista 07 nż
-1819	1	219359	16:04:00	16:04:00		Lwowska szpital 05
-1819	1	219359	16:06:00	16:06:00		Lwowska cmentarz 03
-1819	1	219359	16:07:00	16:07:00		Lwowska jedn. wojskowa 01
-1819	1	219359	16:09:00	16:09:00		Piłsudskiego ZDZ 02
-1819	1	219359	16:10:00	16:10:00		Głowackiego ZUS 01
-1819	1	219359	16:12:00	16:12:00		Siemieńskiego / Kochanowskiego 02 nż
-1819	1	219359	16:13:00	16:13:00		Siemieńskiego U. Skarbowy 04 nż
-1819	1	219359	16:14:00	16:14:00		Trembeckiego / Siemieńskiego 07 nż
-1819	1	219359	16:15:00	16:15:00		Trembeckiego ZTM 05 nż
-1819	1	219359	16:17:00	16:17:00		Lubelska kościół 05 nż
-1819	1	219359	16:18:00	16:18:00		Wyzwolenia / Lubelska 02 nż
-1819	1	219359	16:19:00	16:19:00		Wyzwolenia WORD 04 nż
-1819	1	219359	16:20:00	16:20:00		Wyzwolenia / Przy Torze 06 nż
-1819	1	219359	16:21:00	16:21:00		Okulickiego / Wyzwolenia 05 nż
-1819	1	219359	16:22:00	16:22:00		Okulickiego / Zwierzyniecka 03 nż
-1819	1	219359	16:23:00	16:23:00		Okulickiego centrum handlowe 01
-1819	1	219359	16:25:00	16:25:00		Witosa / Solarza 07 nż
-1819	1	219359	16:26:00	16:26:00		Witosa / Wiktora 05 nż
-1819	1	219359	16:28:00	16:28:00		Wyspiańskiego stadion 01 nż
-1819	1	219359	16:29:00	16:29:00		Wita Stwosza / Wyspiańskiego 05 nż
-1819	1	219359	16:30:00	16:30:00		Wita Stwosza kościół 03
-1819	1	219359	16:31:00	16:31:00		Langiewicza / Wita Stwosza 04
-1819	1	219359	16:32:00	16:32:00		Staroniwska / Rzemieślnicza 02 nż
-1819	1	219359	16:33:00	16:33:00		Staroniwska szkoła 04 nż
-1819	1	219359	16:34:00	16:34:00		Staroniwska kościół 06 nż
-1819	1	219359	16:35:00	16:35:00		Staroniwska pętla 12 nż
+1819	4	221900	15:57:00	15:57:00		Olbrachta pętla 09
+1819	4	221900	15:58:00	15:58:00		Olbrachta / Św. Kingi 07 nż
+1819	4	221900	15:59:00	15:59:00		Olbrachta domki 05 nż
+1819	4	221900	16:00:00	16:00:00		Olbrachta / Kr. Marysieńki 03 nż
+1819	4	221900	16:01:00	16:01:00		Olbrachta / Lwowska 01 nż
+1819	4	221900	16:02:00	16:02:00		Lwowska / Cienista 07 nż
+1819	4	221900	16:04:00	16:04:00		Lwowska szpital 05
+1819	4	221900	16:06:00	16:06:00		Lwowska cmentarz 03
+1819	4	221900	16:07:00	16:07:00		Lwowska jedn. wojskowa 01
+1819	4	221900	16:09:00	16:09:00		Piłsudskiego ZDZ 02
+1819	4	221900	16:10:00	16:10:00		Głowackiego ZUS 01
+1819	4	221900	16:12:00	16:12:00		Siemieńskiego / Kochanowskiego 02 nż
+1819	4	221900	16:13:00	16:13:00		Siemieńskiego U. Skarbowy 04 nż
+1819	4	221900	16:14:00	16:14:00		Trembeckiego / Siemieńskiego 07 nż
+1819	4	221900	16:15:00	16:15:00		Trembeckiego ZTM 05 nż
+1819	4	221900	16:17:00	16:17:00		Lubelska kościół 05 nż
+1819	4	221900	16:18:00	16:18:00		Wyzwolenia / Lubelska 02 nż
+1819	4	221900	16:19:00	16:19:00		Wyzwolenia WORD 04 nż
+1819	4	221900	16:20:00	16:20:00		Wyzwolenia / Przy Torze 06 nż
+1819	4	221900	16:21:00	16:21:00		Okulickiego / Wyzwolenia 05 nż
+1819	4	221900	16:22:00	16:22:00		Okulickiego / Zwierzyniecka 03 nż
+1819	4	221900	16:23:00	16:23:00		Okulickiego centrum handlowe 01
+1819	4	221900	16:25:00	16:25:00		Witosa / Solarza 07 nż
+1819	4	221900	16:26:00	16:26:00		Witosa / Wiktora 05 nż
+1819	4	221900	16:28:00	16:28:00		Wyspiańskiego stadion 01 nż
+1819	4	221900	16:29:00	16:29:00		Wita Stwosza / Wyspiańskiego 05 nż
+1819	4	221900	16:30:00	16:30:00		Wita Stwosza kościół 03
+1819	4	221900	16:31:00	16:31:00		Langiewicza / Wita Stwosza 04
+1819	4	221900	16:32:00	16:32:00		Staroniwska / Rzemieślnicza 02 nż
+1819	4	221900	16:33:00	16:33:00		Staroniwska szkoła 04 nż
+1819	4	221900	16:34:00	16:34:00		Staroniwska kościół 06 nż
+1819	4	221900	16:35:00	16:35:00		Staroniwska pętla 12 nż
 
-1853	1	219837	16:57:00	16:57:00		Staroniwska pętla 12 nż
-1853	1	219837	16:58:00	16:58:00		Staroniwska kościół 05 nż
-1853	1	219837	16:59:00	16:59:00		Staroniwska szkoła 03 nż
-1853	1	219837	17:00:00	17:00:00		Staroniwska / Rzemieślnicza 01 nż
-1853	1	219837	17:01:00	17:01:00		Langiewicza / Wita Stwosza 05 nż
-1853	1	219837	17:02:00	17:02:00		Wita Stwosza / Langiewicza 02
-1853	1	219837	17:03:00	17:03:00		Wita Stwosza kościół 04
-1853	1	219837	17:04:00	17:04:00		Wita Stwosza / Wyspiańskiego 06 nż
-1853	1	219837	17:05:00	17:05:00		Wyspiańskiego stadion 02 nż
-1853	1	219837	17:06:00	17:06:00		Witosa / Wyspiańskiego 06 nż
-1853	1	219837	17:07:00	17:07:00		Witosa jedn. wojskowa 08 nż
-1853	1	219837	17:09:00	17:09:00		Okulickiego centrum handlowe 02
-1853	1	219837	17:10:00	17:10:00		Okulickiego / Zwierzyniecka 04 nż
-1853	1	219837	17:11:00	17:11:00		Wyzwolenia / Okulickiego 05 nż
-1853	1	219837	17:12:00	17:12:00		Wyzwolenia / Ujejskiego 03 nż
-1853	1	219837	17:13:00	17:13:00		Wyzwolenia / Warszawska 01 nż
-1853	1	219837	17:15:00	17:15:00		Lubelska kościół 06 nż
-1853	1	219837	17:16:00	17:16:00		Trembeckiego ZTM 02 nż
-1853	1	219837	17:17:00	17:17:00		Trembeckiego / Siemieńskiego 04 nż
-1853	1	219837	17:18:00	17:18:00		Siemieńskiego U. Skarbowy 03 nż
-1853	1	219837	17:19:00	17:19:00		Siemieńskiego dom studenta 01 nż
-1853	1	219837	17:20:00	17:20:00		Żółkiewskiego / Kochanowskiego 01 nż
-1853	1	219837	17:22:00	17:22:00		Bardowskiego 02
-1853	1	219837	17:24:00	17:24:00		Piłsudskiego ZDZ 01 nż
-1853	1	219837	17:26:00	17:26:00		Lwowska jedn. wojskowa 02
-1853	1	219837	17:28:00	17:28:00		Lwowska cmentarz 04
-1853	1	219837	17:29:00	17:29:00		Lwowska szpital 06
-1853	1	219837	17:31:00	17:31:00		Olbrachta / Lwowska 02 nż
-1853	1	219837	17:32:00	17:32:00		Olbrachta / Zygmunta I Starego 04 nż
-1853	1	219837	17:33:00	17:33:00		Olbrachta domki 06 nż
-1853	1	219837	17:34:00	17:34:00		Olbrachta / Św. Kingi 08 nż
-1853	1	219837	17:35:00	17:35:00		Olbrachta pętla 09
+1853	4	221988	16:57:00	16:57:00		Staroniwska pętla 12 nż
+1853	4	221988	16:58:00	16:58:00		Staroniwska kościół 05 nż
+1853	4	221988	16:59:00	16:59:00		Staroniwska szkoła 03 nż
+1853	4	221988	17:00:00	17:00:00		Staroniwska / Rzemieślnicza 01 nż
+1853	4	221988	17:01:00	17:01:00		Langiewicza / Wita Stwosza 05 nż
+1853	4	221988	17:02:00	17:02:00		Wita Stwosza / Langiewicza 02
+1853	4	221988	17:03:00	17:03:00		Wita Stwosza kościół 04
+1853	4	221988	17:04:00	17:04:00		Wita Stwosza / Wyspiańskiego 06 nż
+1853	4	221988	17:05:00	17:05:00		Wyspiańskiego stadion 02 nż
+1853	4	221988	17:06:00	17:06:00		Witosa / Wyspiańskiego 06 nż
+1853	4	221988	17:07:00	17:07:00		Witosa jedn. wojskowa 08 nż
+1853	4	221988	17:09:00	17:09:00		Okulickiego centrum handlowe 02
+1853	4	221988	17:10:00	17:10:00		Okulickiego / Zwierzyniecka 04 nż
+1853	4	221988	17:11:00	17:11:00		Wyzwolenia / Okulickiego 05 nż
+1853	4	221988	17:12:00	17:12:00		Wyzwolenia / Ujejskiego 03 nż
+1853	4	221988	17:13:00	17:13:00		Wyzwolenia / Warszawska 01 nż
+1853	4	221988	17:15:00	17:15:00		Lubelska kościół 06 nż
+1853	4	221988	17:16:00	17:16:00		Trembeckiego ZTM 02 nż
+1853	4	221988	17:17:00	17:17:00		Trembeckiego / Siemieńskiego 04 nż
+1853	4	221988	17:18:00	17:18:00		Siemieńskiego U. Skarbowy 03 nż
+1853	4	221988	17:19:00	17:19:00		Siemieńskiego dom studenta 01 nż
+1853	4	221988	17:20:00	17:20:00		Żółkiewskiego / Kochanowskiego 01 nż
+1853	4	221988	17:22:00	17:22:00		Bardowskiego 02
+1853	4	221988	17:24:00	17:24:00		Piłsudskiego ZDZ 01 nż
+1853	4	221988	17:26:00	17:26:00		Lwowska jedn. wojskowa 02
+1853	4	221988	17:28:00	17:28:00		Lwowska cmentarz 04
+1853	4	221988	17:29:00	17:29:00		Lwowska szpital 06
+1853	4	221988	17:31:00	17:31:00		Olbrachta / Lwowska 02 nż
+1853	4	221988	17:32:00	17:32:00		Olbrachta / Zygmunta I Starego 04 nż
+1853	4	221988	17:33:00	17:33:00		Olbrachta domki 06 nż
+1853	4	221988	17:34:00	17:34:00		Olbrachta / Św. Kingi 08 nż
+1853	4	221988	17:35:00	17:35:00		Olbrachta pętla 09
 
-1819	1	219537	17:58:00	17:58:00		Olbrachta pętla 09
-1819	1	219537	17:59:00	17:59:00		Olbrachta / Św. Kingi 07 nż
-1819	1	219537	18:00:00	18:00:00		Olbrachta domki 05 nż
-1819	1	219537	18:01:00	18:01:00		Olbrachta / Kr. Marysieńki 03 nż
-1819	1	219537	18:02:00	18:02:00		Olbrachta / Lwowska 01 nż
-1819	1	219537	18:03:00	18:03:00		Lwowska / Cienista 07 nż
-1819	1	219537	18:05:00	18:05:00		Lwowska szpital 05
-1819	1	219537	18:07:00	18:07:00		Lwowska cmentarz 03
-1819	1	219537	18:08:00	18:08:00		Lwowska jedn. wojskowa 01
-1819	1	219537	18:09:00	18:09:00		Piłsudskiego ZDZ 02
-1819	1	219537	18:10:00	18:10:00		Głowackiego ZUS 01
-1819	1	219537	18:12:00	18:12:00		Siemieńskiego / Kochanowskiego 02 nż
-1819	1	219537	18:13:00	18:13:00		Siemieńskiego U. Skarbowy 04 nż
-1819	1	219537	18:14:00	18:14:00		Trembeckiego / Siemieńskiego 07 nż
-1819	1	219537	18:15:00	18:15:00		Trembeckiego ZTM 05 nż
-1819	1	219537	18:16:00	18:16:00		Lubelska kościół 05 nż
-1819	1	219537	18:17:00	18:17:00		Wyzwolenia / Lubelska 02 nż
-1819	1	219537	18:18:00	18:18:00		Wyzwolenia WORD 04 nż
-1819	1	219537	18:19:00	18:19:00		Wyzwolenia / Przy Torze 06 nż
-1819	1	219537	18:20:00	18:20:00		Okulickiego / Wyzwolenia 05 nż
-1819	1	219537	18:21:00	18:21:00		Okulickiego / Zwierzyniecka 03 nż
-1819	1	219537	18:22:00	18:22:00		Okulickiego centrum handlowe 01
-1819	1	219537	18:24:00	18:24:00		Witosa / Solarza 07 nż
-1819	1	219537	18:25:00	18:25:00		Witosa / Wiktora 05 nż
-1819	1	219537	18:27:00	18:27:00		Wyspiańskiego stadion 01 nż
-1819	1	219537	18:28:00	18:28:00		Wita Stwosza / Wyspiańskiego 05 nż
-1819	1	219537	18:29:00	18:29:00		Wita Stwosza kościół 03
-1819	1	219537	18:30:00	18:30:00		Langiewicza / Wita Stwosza 04
-1819	1	219537	18:31:00	18:31:00		Staroniwska / Rzemieślnicza 02 nż
-1819	1	219537	18:32:00	18:32:00		Staroniwska szkoła 04 nż
-1819	1	219537	18:33:00	18:33:00		Staroniwska kościół 06 nż
-1819	1	219537	18:34:00	18:34:00		Staroniwska pętla 12 nż
+1819	4	221898	17:58:00	17:58:00		Olbrachta pętla 09
+1819	4	221898	17:59:00	17:59:00		Olbrachta / Św. Kingi 07 nż
+1819	4	221898	18:00:00	18:00:00		Olbrachta domki 05 nż
+1819	4	221898	18:01:00	18:01:00		Olbrachta / Kr. Marysieńki 03 nż
+1819	4	221898	18:02:00	18:02:00		Olbrachta / Lwowska 01 nż
+1819	4	221898	18:03:00	18:03:00		Lwowska / Cienista 07 nż
+1819	4	221898	18:05:00	18:05:00		Lwowska szpital 05
+1819	4	221898	18:07:00	18:07:00		Lwowska cmentarz 03
+1819	4	221898	18:08:00	18:08:00		Lwowska jedn. wojskowa 01
+1819	4	221898	18:09:00	18:09:00		Piłsudskiego ZDZ 02
+1819	4	221898	18:10:00	18:10:00		Głowackiego ZUS 01
+1819	4	221898	18:12:00	18:12:00		Siemieńskiego / Kochanowskiego 02 nż
+1819	4	221898	18:13:00	18:13:00		Siemieńskiego U. Skarbowy 04 nż
+1819	4	221898	18:14:00	18:14:00		Trembeckiego / Siemieńskiego 07 nż
+1819	4	221898	18:15:00	18:15:00		Trembeckiego ZTM 05 nż
+1819	4	221898	18:16:00	18:16:00		Lubelska kościół 05 nż
+1819	4	221898	18:17:00	18:17:00		Wyzwolenia / Lubelska 02 nż
+1819	4	221898	18:18:00	18:18:00		Wyzwolenia WORD 04 nż
+1819	4	221898	18:19:00	18:19:00		Wyzwolenia / Przy Torze 06 nż
+1819	4	221898	18:20:00	18:20:00		Okulickiego / Wyzwolenia 05 nż
+1819	4	221898	18:21:00	18:21:00		Okulickiego / Zwierzyniecka 03 nż
+1819	4	221898	18:22:00	18:22:00		Okulickiego centrum handlowe 01
+1819	4	221898	18:24:00	18:24:00		Witosa / Solarza 07 nż
+1819	4	221898	18:25:00	18:25:00		Witosa / Wiktora 05 nż
+1819	4	221898	18:27:00	18:27:00		Wyspiańskiego stadion 01 nż
+1819	4	221898	18:28:00	18:28:00		Wita Stwosza / Wyspiańskiego 05 nż
+1819	4	221898	18:29:00	18:29:00		Wita Stwosza kościół 03
+1819	4	221898	18:30:00	18:30:00		Langiewicza / Wita Stwosza 04
+1819	4	221898	18:31:00	18:31:00		Staroniwska / Rzemieślnicza 02 nż
+1819	4	221898	18:32:00	18:32:00		Staroniwska szkoła 04 nż
+1819	4	221898	18:33:00	18:33:00		Staroniwska kościół 06 nż
+1819	4	221898	18:34:00	18:34:00		Staroniwska pętla 12 nż
 
-1853	1	219577	18:58:00	18:58:00		Staroniwska pętla 12 nż
-1853	1	219577	18:59:00	18:59:00		Staroniwska kościół 05 nż
-1853	1	219577	19:00:00	19:00:00		Staroniwska szkoła 03 nż
-1853	1	219577	19:01:00	19:01:00		Staroniwska / Rzemieślnicza 01 nż
-1853	1	219577	19:02:00	19:02:00		Langiewicza / Wita Stwosza 05 nż
-1853	1	219577	19:03:00	19:03:00		Wita Stwosza / Langiewicza 02
-1853	1	219577	19:04:00	19:04:00		Wita Stwosza kościół 04
-1853	1	219577	19:05:00	19:05:00		Wita Stwosza / Wyspiańskiego 06 nż
-1853	1	219577	19:06:00	19:06:00		Wyspiańskiego stadion 02 nż
-1853	1	219577	19:07:00	19:07:00		Witosa / Wyspiańskiego 06 nż
-1853	1	219577	19:08:00	19:08:00		Witosa jedn. wojskowa 08 nż
-1853	1	219577	19:10:00	19:10:00		Okulickiego centrum handlowe 02
-1853	1	219577	19:11:00	19:11:00		Okulickiego / Zwierzyniecka 04 nż
-1853	1	219577	19:12:00	19:12:00		Wyzwolenia / Okulickiego 05 nż
-1853	1	219577	19:13:00	19:13:00		Wyzwolenia / Ujejskiego 03 nż
-1853	1	219577	19:14:00	19:14:00		Wyzwolenia / Warszawska 01 nż
-1853	1	219577	19:16:00	19:16:00		Lubelska kościół 06 nż
-1853	1	219577	19:17:00	19:17:00		Trembeckiego ZTM 02 nż
-1853	1	219577	19:18:00	19:18:00		Trembeckiego / Siemieńskiego 04 nż
-1853	1	219577	19:19:00	19:19:00		Siemieńskiego U. Skarbowy 03 nż
-1853	1	219577	19:20:00	19:20:00		Siemieńskiego dom studenta 01 nż
-1853	1	219577	19:21:00	19:21:00		Żółkiewskiego / Kochanowskiego 01 nż
-1853	1	219577	19:23:00	19:23:00		Bardowskiego 02
-1853	1	219577	19:25:00	19:25:00		Piłsudskiego ZDZ 01 nż
-1853	1	219577	19:26:00	19:26:00		Lwowska jedn. wojskowa 02
-1853	1	219577	19:28:00	19:28:00		Lwowska cmentarz 04
-1853	1	219577	19:29:00	19:29:00		Lwowska szpital 06
-1853	1	219577	19:31:00	19:31:00		Olbrachta / Lwowska 02 nż
-1853	1	219577	19:32:00	19:32:00		Olbrachta / Zygmunta I Starego 04 nż
-1853	1	219577	19:33:00	19:33:00		Olbrachta domki 06 nż
-1853	1	219577	19:34:00	19:34:00		Olbrachta / Św. Kingi 08 nż
-1853	1	219577	19:35:00	19:35:00		Olbrachta pętla 09
+1853	4	222062	18:58:00	18:58:00		Staroniwska pętla 12 nż
+1853	4	222062	18:59:00	18:59:00		Staroniwska kościół 05 nż
+1853	4	222062	19:00:00	19:00:00		Staroniwska szkoła 03 nż
+1853	4	222062	19:01:00	19:01:00		Staroniwska / Rzemieślnicza 01 nż
+1853	4	222062	19:02:00	19:02:00		Langiewicza / Wita Stwosza 05 nż
+1853	4	222062	19:03:00	19:03:00		Wita Stwosza / Langiewicza 02
+1853	4	222062	19:04:00	19:04:00		Wita Stwosza kościół 04
+1853	4	222062	19:05:00	19:05:00		Wita Stwosza / Wyspiańskiego 06 nż
+1853	4	222062	19:06:00	19:06:00		Wyspiańskiego stadion 02 nż
+1853	4	222062	19:07:00	19:07:00		Witosa / Wyspiańskiego 06 nż
+1853	4	222062	19:08:00	19:08:00		Witosa jedn. wojskowa 08 nż
+1853	4	222062	19:10:00	19:10:00		Okulickiego centrum handlowe 02
+1853	4	222062	19:11:00	19:11:00		Okulickiego / Zwierzyniecka 04 nż
+1853	4	222062	19:12:00	19:12:00		Wyzwolenia / Okulickiego 05 nż
+1853	4	222062	19:13:00	19:13:00		Wyzwolenia / Ujejskiego 03 nż
+1853	4	222062	19:14:00	19:14:00		Wyzwolenia / Warszawska 01 nż
+1853	4	222062	19:16:00	19:16:00		Lubelska kościół 06 nż
+1853	4	222062	19:17:00	19:17:00		Trembeckiego ZTM 02 nż
+1853	4	222062	19:18:00	19:18:00		Trembeckiego / Siemieńskiego 04 nż
+1853	4	222062	19:19:00	19:19:00		Siemieńskiego U. Skarbowy 03 nż
+1853	4	222062	19:20:00	19:20:00		Siemieńskiego dom studenta 01 nż
+1853	4	222062	19:21:00	19:21:00		Żółkiewskiego / Kochanowskiego 01 nż
+1853	4	222062	19:23:00	19:23:00		Bardowskiego 02
+1853	4	222062	19:25:00	19:25:00		Piłsudskiego ZDZ 01 nż
+1853	4	222062	19:26:00	19:26:00		Lwowska jedn. wojskowa 02
+1853	4	222062	19:28:00	19:28:00		Lwowska cmentarz 04
+1853	4	222062	19:29:00	19:29:00		Lwowska szpital 06
+1853	4	222062	19:31:00	19:31:00		Olbrachta / Lwowska 02 nż
+1853	4	222062	19:32:00	19:32:00		Olbrachta / Zygmunta I Starego 04 nż
+1853	4	222062	19:33:00	19:33:00		Olbrachta domki 06 nż
+1853	4	222062	19:34:00	19:34:00		Olbrachta / Św. Kingi 08 nż
+1853	4	222062	19:35:00	19:35:00		Olbrachta pętla 09
 
-1819	1	219780	19:58:00	19:58:00		Olbrachta pętla 09
-1819	1	219780	19:59:00	19:59:00		Olbrachta / Św. Kingi 07 nż
-1819	1	219780	20:00:00	20:00:00		Olbrachta domki 05 nż
-1819	1	219780	20:01:00	20:01:00		Olbrachta / Kr. Marysieńki 03 nż
-1819	1	219780	20:02:00	20:02:00		Olbrachta / Lwowska 01 nż
-1819	1	219780	20:03:00	20:03:00		Lwowska / Cienista 07 nż
-1819	1	219780	20:05:00	20:05:00		Lwowska szpital 05
-1819	1	219780	20:07:00	20:07:00		Lwowska cmentarz 03
-1819	1	219780	20:08:00	20:08:00		Lwowska jedn. wojskowa 01
-1819	1	219780	20:09:00	20:09:00		Piłsudskiego ZDZ 02
-1819	1	219780	20:10:00	20:10:00		Głowackiego ZUS 01
-1819	1	219780	20:12:00	20:12:00		Siemieńskiego / Kochanowskiego 02 nż
-1819	1	219780	20:13:00	20:13:00		Siemieńskiego U. Skarbowy 04 nż
-1819	1	219780	20:14:00	20:14:00		Trembeckiego / Siemieńskiego 07 nż
-1819	1	219780	20:15:00	20:15:00		Trembeckiego ZTM 05 nż
-1819	1	219780	20:16:00	20:16:00		Lubelska kościół 05 nż
-1819	1	219780	20:17:00	20:17:00		Wyzwolenia / Lubelska 02 nż
-1819	1	219780	20:18:00	20:18:00		Wyzwolenia WORD 04 nż
-1819	1	219780	20:19:00	20:19:00		Wyzwolenia / Przy Torze 06 nż
-1819	1	219780	20:20:00	20:20:00		Okulickiego / Wyzwolenia 05 nż
-1819	1	219780	20:21:00	20:21:00		Okulickiego / Zwierzyniecka 03 nż
-1819	1	219780	20:22:00	20:22:00		Okulickiego centrum handlowe 01
-1819	1	219780	20:24:00	20:24:00		Witosa / Solarza 07 nż
-1819	1	219780	20:25:00	20:25:00		Witosa / Wiktora 05 nż
-1819	1	219780	20:27:00	20:27:00		Wyspiańskiego stadion 01 nż
-1819	1	219780	20:28:00	20:28:00		Wita Stwosza / Wyspiańskiego 05 nż
-1819	1	219780	20:29:00	20:29:00		Wita Stwosza kościół 03
-1819	1	219780	20:30:00	20:30:00		Langiewicza / Wita Stwosza 04
-1819	1	219780	20:31:00	20:31:00		Staroniwska / Rzemieślnicza 02 nż
-1819	1	219780	20:32:00	20:32:00		Staroniwska szkoła 04 nż
-1819	1	219780	20:33:00	20:33:00		Staroniwska kościół 06 nż
-1819	1	219780	20:34:00	20:34:00		Staroniwska pętla 12 nż
+1819	4	222092	19:58:00	19:58:00		Olbrachta pętla 09
+1819	4	222092	19:59:00	19:59:00		Olbrachta / Św. Kingi 07 nż
+1819	4	222092	20:00:00	20:00:00		Olbrachta domki 05 nż
+1819	4	222092	20:01:00	20:01:00		Olbrachta / Kr. Marysieńki 03 nż
+1819	4	222092	20:02:00	20:02:00		Olbrachta / Lwowska 01 nż
+1819	4	222092	20:03:00	20:03:00		Lwowska / Cienista 07 nż
+1819	4	222092	20:05:00	20:05:00		Lwowska szpital 05
+1819	4	222092	20:07:00	20:07:00		Lwowska cmentarz 03
+1819	4	222092	20:08:00	20:08:00		Lwowska jedn. wojskowa 01
+1819	4	222092	20:09:00	20:09:00		Piłsudskiego ZDZ 02
+1819	4	222092	20:10:00	20:10:00		Głowackiego ZUS 01
+1819	4	222092	20:12:00	20:12:00		Siemieńskiego / Kochanowskiego 02 nż
+1819	4	222092	20:13:00	20:13:00		Siemieńskiego U. Skarbowy 04 nż
+1819	4	222092	20:14:00	20:14:00		Trembeckiego / Siemieńskiego 07 nż
+1819	4	222092	20:15:00	20:15:00		Trembeckiego ZTM 05 nż
+1819	4	222092	20:16:00	20:16:00		Lubelska kościół 05 nż
+1819	4	222092	20:17:00	20:17:00		Wyzwolenia / Lubelska 02 nż
+1819	4	222092	20:18:00	20:18:00		Wyzwolenia WORD 04 nż
+1819	4	222092	20:19:00	20:19:00		Wyzwolenia / Przy Torze 06 nż
+1819	4	222092	20:20:00	20:20:00		Okulickiego / Wyzwolenia 05 nż
+1819	4	222092	20:21:00	20:21:00		Okulickiego / Zwierzyniecka 03 nż
+1819	4	222092	20:22:00	20:22:00		Okulickiego centrum handlowe 01
+1819	4	222092	20:24:00	20:24:00		Witosa / Solarza 07 nż
+1819	4	222092	20:25:00	20:25:00		Witosa / Wiktora 05 nż
+1819	4	222092	20:27:00	20:27:00		Wyspiańskiego stadion 01 nż
+1819	4	222092	20:28:00	20:28:00		Wita Stwosza / Wyspiańskiego 05 nż
+1819	4	222092	20:29:00	20:29:00		Wita Stwosza kościół 03
+1819	4	222092	20:30:00	20:30:00		Langiewicza / Wita Stwosza 04
+1819	4	222092	20:31:00	20:31:00		Staroniwska / Rzemieślnicza 02 nż
+1819	4	222092	20:32:00	20:32:00		Staroniwska szkoła 04 nż
+1819	4	222092	20:33:00	20:33:00		Staroniwska kościół 06 nż
+1819	4	222092	20:34:00	20:34:00		Staroniwska pętla 12 nż
 
-1853	1	219895	20:58:00	20:58:00		Staroniwska pętla 12 nż
-1853	1	219895	20:59:00	20:59:00		Staroniwska kościół 05 nż
-1853	1	219895	21:00:00	21:00:00		Staroniwska szkoła 03 nż
-1853	1	219895	21:01:00	21:01:00		Staroniwska / Rzemieślnicza 01 nż
-1853	1	219895	21:02:00	21:02:00		Langiewicza / Wita Stwosza 05 nż
-1853	1	219895	21:03:00	21:03:00		Wita Stwosza / Langiewicza 02
-1853	1	219895	21:04:00	21:04:00		Wita Stwosza kościół 04
-1853	1	219895	21:05:00	21:05:00		Wita Stwosza / Wyspiańskiego 06 nż
-1853	1	219895	21:06:00	21:06:00		Wyspiańskiego stadion 02 nż
-1853	1	219895	21:07:00	21:07:00		Witosa / Wyspiańskiego 06 nż
-1853	1	219895	21:08:00	21:08:00		Witosa jedn. wojskowa 08 nż
-1853	1	219895	21:10:00	21:10:00		Okulickiego centrum handlowe 02
-1853	1	219895	21:11:00	21:11:00		Okulickiego / Zwierzyniecka 04 nż
-1853	1	219895	21:12:00	21:12:00		Wyzwolenia / Okulickiego 05 nż
-1853	1	219895	21:12:00	21:12:00		Wyzwolenia / Ujejskiego 03 nż
-1853	1	219895	21:14:00	21:14:00		Wyzwolenia / Warszawska 01 nż
-1853	1	219895	21:15:00	21:15:00		Lubelska kościół 06 nż
-1853	1	219895	21:16:00	21:16:00		Trembeckiego ZTM 02 nż
-1853	1	219895	21:17:00	21:17:00		Trembeckiego / Siemieńskiego 04 nż
-1853	1	219895	21:18:00	21:18:00		Siemieńskiego U. Skarbowy 03 nż
-1853	1	219895	21:19:00	21:19:00		Siemieńskiego dom studenta 01 nż
-1853	1	219895	21:20:00	21:20:00		Żółkiewskiego / Kochanowskiego 01 nż
-1853	1	219895	21:22:00	21:22:00		Bardowskiego 02
-1853	1	219895	21:24:00	21:24:00		Piłsudskiego ZDZ 01 nż
-1853	1	219895	21:25:00	21:25:00		Lwowska jedn. wojskowa 02
-1853	1	219895	21:27:00	21:27:00		Lwowska cmentarz 04
-1853	1	219895	21:28:00	21:28:00		Lwowska szpital 06
-1853	1	219895	21:30:00	21:30:00		Olbrachta / Lwowska 02 nż
-1853	1	219895	21:31:00	21:31:00		Olbrachta / Zygmunta I Starego 04 nż
-1853	1	219895	21:32:00	21:32:00		Olbrachta domki 06 nż
-1853	1	219895	21:33:00	21:33:00		Olbrachta / Św. Kingi 08 nż
-1853	1	219895	21:34:00	21:34:00		Olbrachta pętla 09
+1853	4	222123	20:58:00	20:58:00		Staroniwska pętla 12 nż
+1853	4	222123	20:59:00	20:59:00		Staroniwska kościół 05 nż
+1853	4	222123	21:00:00	21:00:00		Staroniwska szkoła 03 nż
+1853	4	222123	21:01:00	21:01:00		Staroniwska / Rzemieślnicza 01 nż
+1853	4	222123	21:02:00	21:02:00		Langiewicza / Wita Stwosza 05 nż
+1853	4	222123	21:03:00	21:03:00		Wita Stwosza / Langiewicza 02
+1853	4	222123	21:04:00	21:04:00		Wita Stwosza kościół 04
+1853	4	222123	21:05:00	21:05:00		Wita Stwosza / Wyspiańskiego 06 nż
+1853	4	222123	21:06:00	21:06:00		Wyspiańskiego stadion 02 nż
+1853	4	222123	21:07:00	21:07:00		Witosa / Wyspiańskiego 06 nż
+1853	4	222123	21:08:00	21:08:00		Witosa jedn. wojskowa 08 nż
+1853	4	222123	21:10:00	21:10:00		Okulickiego centrum handlowe 02
+1853	4	222123	21:11:00	21:11:00		Okulickiego / Zwierzyniecka 04 nż
+1853	4	222123	21:12:00	21:12:00		Wyzwolenia / Okulickiego 05 nż
+1853	4	222123	21:12:00	21:12:00		Wyzwolenia / Ujejskiego 03 nż
+1853	4	222123	21:14:00	21:14:00		Wyzwolenia / Warszawska 01 nż
+1853	4	222123	21:15:00	21:15:00		Lubelska kościół 06 nż
+1853	4	222123	21:16:00	21:16:00		Trembeckiego ZTM 02 nż
+1853	4	222123	21:17:00	21:17:00		Trembeckiego / Siemieńskiego 04 nż
+1853	4	222123	21:18:00	21:18:00		Siemieńskiego U. Skarbowy 03 nż
+1853	4	222123	21:19:00	21:19:00		Siemieńskiego dom studenta 01 nż
+1853	4	222123	21:20:00	21:20:00		Żółkiewskiego / Kochanowskiego 01 nż
+1853	4	222123	21:22:00	21:22:00		Bardowskiego 02
+1853	4	222123	21:24:00	21:24:00		Piłsudskiego ZDZ 01 nż
+1853	4	222123	21:25:00	21:25:00		Lwowska jedn. wojskowa 02
+1853	4	222123	21:27:00	21:27:00		Lwowska cmentarz 04
+1853	4	222123	21:28:00	21:28:00		Lwowska szpital 06
+1853	4	222123	21:30:00	21:30:00		Olbrachta / Lwowska 02 nż
+1853	4	222123	21:31:00	21:31:00		Olbrachta / Zygmunta I Starego 04 nż
+1853	4	222123	21:32:00	21:32:00		Olbrachta domki 06 nż
+1853	4	222123	21:33:00	21:33:00		Olbrachta / Św. Kingi 08 nż
+1853	4	222123	21:34:00	21:34:00		Olbrachta pętla 09
 
-1882	1	219838	21:58:00	21:58:00		Olbrachta pętla 09
-1882	1	219838	21:59:00	21:59:00		Olbrachta / Św. Kingi 07 nż
-1882	1	219838	22:00:00	22:00:00		Olbrachta domki 05 nż
-1882	1	219838	22:01:00	22:01:00		Olbrachta / Kr. Marysieńki 03 nż
-1882	1	219838	22:02:00	22:02:00		Olbrachta / Lwowska 01 nż
-1882	1	219838	22:03:00	22:03:00		Lwowska / Cienista 07 nż
-1882	1	219838	22:05:00	22:05:00		Lwowska szpital 05
-1882	1	219838	22:06:00	22:06:00		Lwowska cmentarz 03
-1882	1	219838	22:07:00	22:07:00		Lwowska jedn. wojskowa 01
-1882	1	219838	22:08:00	22:08:00		Piłsudskiego ZDZ 02
-1882	1	219838	22:09:00	22:09:00		Głowackiego ZUS 01
-1882	1	219838	22:11:00	22:11:00		Siemieńskiego / Kochanowskiego 02 nż
-1882	1	219838	22:12:00	22:12:00		Siemieńskiego U. Skarbowy 04 nż
-1882	1	219838	22:13:00	22:13:00		Trembeckiego / Siemieńskiego 07 nż
-1882	1	219838	22:14:00	22:14:00		Trembeckiego ZTM 05 nż
+1882	4	222138	21:58:00	21:58:00		Olbrachta pętla 09
+1882	4	222138	21:59:00	21:59:00		Olbrachta / Św. Kingi 07 nż
+1882	4	222138	22:00:00	22:00:00		Olbrachta domki 05 nż
+1882	4	222138	22:01:00	22:01:00		Olbrachta / Kr. Marysieńki 03 nż
+1882	4	222138	22:02:00	22:02:00		Olbrachta / Lwowska 01 nż
+1882	4	222138	22:03:00	22:03:00		Lwowska / Cienista 07 nż
+1882	4	222138	22:05:00	22:05:00		Lwowska szpital 05
+1882	4	222138	22:06:00	22:06:00		Lwowska cmentarz 03
+1882	4	222138	22:07:00	22:07:00		Lwowska jedn. wojskowa 01
+1882	4	222138	22:08:00	22:08:00		Piłsudskiego ZDZ 02
+1882	4	222138	22:09:00	22:09:00		Głowackiego ZUS 01
+1882	4	222138	22:11:00	22:11:00		Siemieńskiego / Kochanowskiego 02 nż
+1882	4	222138	22:12:00	22:12:00		Siemieńskiego U. Skarbowy 04 nż
+1882	4	222138	22:13:00	22:13:00		Trembeckiego / Siemieńskiego 07 nż
+1882	4	222138	22:14:00	22:14:00		Trembeckiego ZTM 05 nż
 
-1837	1	219261	22:49:00	22:49:00		Lubelska Zajezdnia MPK
-1837	1	219261	22:50:00	22:50:00		Lubelska MPK 13 nż
-1837	1	219261	22:51:00	22:51:00		Lubelska Ogrody Hiszpańskie 11 nż
-1837	1	219261	22:52:00	22:52:00		Lubelska Os. Ogrody 09 nż
-1837	1	219261	22:53:00	22:53:00		Lubelska / Borowa 07 nż
-1837	1	219261	22:54:00	22:54:00		Lubelska kościół 05 nż
-1837	1	219261	22:55:00	22:55:00		Lubelska szpital 01
-1837	1	219261	22:56:00	22:56:00		Marszałkowska 01
-1837	1	219261	22:58:00	22:58:00		Piłsudskiego U. Wojewódzki 05
-1837	1	219261	23:01:00	23:01:00		Dworzec Główny PKP 03
-1837	1	219261	23:05:00	23:05:00		Pl. Wolności 03
-1837	1	219261	23:06:00	23:06:00		Piłsudskiego ZDZ 01 nż
-1837	1	219261	23:07:00	23:07:00		Lwowska jedn. wojskowa 02
-1837	1	219261	23:08:00	23:08:00		Mieszka I / Kustronia 02 nż
-1837	1	219261	23:09:00	23:09:00		Niepodległości / Mieszka I 03 nż
-1837	1	219261	23:10:00	23:10:00		Niepodległości dom dziecka 01 nż
-1837	1	219261	23:11:00	23:11:00		Krzyżanowskiego szkoła 02 nż
-1837	1	219261	23:13:00	23:13:00		Paderewskiego / Ossolińskich 01 nż
-1837	1	219261	23:14:00	23:14:00		Rejtana / Popiełuszki 09
-1837	1	219261	23:16:00	23:16:00		Powst. Warszawy / Rejtana 13
-1837	1	219261	23:17:00	23:17:00		Powst. Warszawy szkoła 11
-1837	1	219261	23:18:00	23:18:00		Powst. Warszawy dom studenta 09
-1837	1	219261	23:19:00	23:19:00		Powst. Warszawy stadion 05 nż
-1837	1	219261	23:20:00	23:20:00		Hetmańska stadion 07
-1837	1	219261	23:21:00	23:21:00		Hetmańska ZS. Mech. 05
-1837	1	219261	23:22:00	23:22:00		Hetmańska przychodnia 03
-1837	1	219261	23:23:00	23:23:00		Hetmańska podzamcze 01 nż
-1837	1	219261	23:24:00	23:24:00		Kilara 02 nż
-1837	1	219261	23:25:00	23:25:00		Szopena Filharmonia 01 nż
-1837	1	219261	23:26:00	23:26:00		Targowa 02
-1837	1	219261	23:28:00	23:28:00		Pl. Wolności 04
-1837	1	219261	23:30:00	23:30:00		Dworzec Główny PKP 01
-1837	1	219261	23:31:00	23:31:00		Piłsudskiego U. Wojewódzki 06
-1837	1	219261	23:33:00	23:33:00		Marszałkowska 02
-1837	1	219261	23:34:00	23:34:00		Lubelska szpital 02
-1837	1	219261	23:35:00	23:35:00		Lubelska kościół 06 nż
-1837	1	219261	23:36:00	23:36:00		Lubelska / Borowa 08 nż
-1837	1	219261	23:37:00	23:37:00		Lubelska Os. Ogrody 10 nż
-1837	1	219261	23:38:00	23:38:00		Lubelska Ogrody Hiszpańskie 12 nż
-1837	1	219261	23:39:00	23:39:00		Lubelska MPK 14 nż
-1837	1	219261	23:40:00	23:40:00		Lubelska Zajezdnia MPK
+1837	4	221859	22:49:00	22:49:00		Lubelska Zajezdnia MPK
+1837	4	221859	22:50:00	22:50:00		Lubelska MPK 13 nż
+1837	4	221859	22:51:00	22:51:00		Lubelska Ogrody Hiszpańskie 11 nż
+1837	4	221859	22:52:00	22:52:00		Lubelska Os. Ogrody 09 nż
+1837	4	221859	22:53:00	22:53:00		Lubelska / Borowa 07 nż
+1837	4	221859	22:54:00	22:54:00		Lubelska kościół 05 nż
+1837	4	221859	22:55:00	22:55:00		Lubelska szpital 01
+1837	4	221859	22:56:00	22:56:00		Marszałkowska 01
+1837	4	221859	22:58:00	22:58:00		Piłsudskiego U. Wojewódzki 05
+1837	4	221859	23:01:00	23:01:00		Dworzec Główny PKP 03
+1837	4	221859	23:05:00	23:05:00		Pl. Wolności 03
+1837	4	221859	23:06:00	23:06:00		Piłsudskiego ZDZ 01 nż
+1837	4	221859	23:07:00	23:07:00		Lwowska jedn. wojskowa 02
+1837	4	221859	23:08:00	23:08:00		Mieszka I / Kustronia 02 nż
+1837	4	221859	23:09:00	23:09:00		Niepodległości / Mieszka I 03 nż
+1837	4	221859	23:10:00	23:10:00		Niepodległości dom dziecka 01 nż
+1837	4	221859	23:11:00	23:11:00		Krzyżanowskiego szkoła 02 nż
+1837	4	221859	23:13:00	23:13:00		Paderewskiego / Ossolińskich 01 nż
+1837	4	221859	23:14:00	23:14:00		Rejtana / Popiełuszki 09
+1837	4	221859	23:16:00	23:16:00		Powst. Warszawy / Rejtana 13
+1837	4	221859	23:17:00	23:17:00		Powst. Warszawy szkoła 11
+1837	4	221859	23:18:00	23:18:00		Powst. Warszawy dom studenta 09
+1837	4	221859	23:19:00	23:19:00		Powst. Warszawy stadion 05 nż
+1837	4	221859	23:20:00	23:20:00		Hetmańska stadion 07
+1837	4	221859	23:21:00	23:21:00		Hetmańska ZS. Mech. 05
+1837	4	221859	23:22:00	23:22:00		Hetmańska przychodnia 03
+1837	4	221859	23:23:00	23:23:00		Hetmańska podzamcze 01 nż
+1837	4	221859	23:24:00	23:24:00		Kilara 02 nż
+1837	4	221859	23:25:00	23:25:00		Szopena Filharmonia 01 nż
+1837	4	221859	23:26:00	23:26:00		Targowa 02
+1837	4	221859	23:28:00	23:28:00		Pl. Wolności 04
+1837	4	221859	23:30:00	23:30:00		Dworzec Główny PKP 01
+1837	4	221859	23:31:00	23:31:00		Piłsudskiego U. Wojewódzki 06
+1837	4	221859	23:33:00	23:33:00		Marszałkowska 02
+1837	4	221859	23:34:00	23:34:00		Lubelska szpital 02
+1837	4	221859	23:35:00	23:35:00		Lubelska kościół 06 nż
+1837	4	221859	23:36:00	23:36:00		Lubelska / Borowa 08 nż
+1837	4	221859	23:37:00	23:37:00		Lubelska Os. Ogrody 10 nż
+1837	4	221859	23:38:00	23:38:00		Lubelska Ogrody Hiszpańskie 12 nż
+1837	4	221859	23:39:00	23:39:00		Lubelska MPK 14 nż
+1837	4	221859	23:40:00	23:40:00		Lubelska Zajezdnia MPK

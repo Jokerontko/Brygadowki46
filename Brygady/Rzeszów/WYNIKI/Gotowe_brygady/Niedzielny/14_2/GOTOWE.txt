@@ -1,472 +1,464 @@
 route_id	service_id	trip_id	arrival_time	departure_time	stop_headsign	stop_name
 -------------------------------------------------------------------------------
-2003	3	220724	12:38:00	12:38:00		Dworzec Lokalny
-2003	3	220724	12:39:00	12:39:00		Piłsudskiego U. Marszałkowski 07
-2003	3	220724	12:39:00	12:39:00		Piłsudskiego U. Marszałkowski 07
-2003	3	220724	12:40:00	12:40:00		Cieplińskiego 02
-2003	3	220724	12:40:00	12:40:00		Cieplińskiego 02
-2003	3	220724	12:41:00	12:41:00		Lisa-Kuli 01
-2003	3	220724	12:41:00	12:41:00		Lisa-Kuli 01
-2003	3	220724	12:43:00	12:43:00		Kilara 02 nż
-2003	3	220724	12:43:00	12:43:00		Kilara 02 nż
-2003	3	220724	12:45:00	12:45:00		Kopisto U. Skarbowy 03
-2003	3	220724	12:45:00	12:45:00		Kopisto U. Skarbowy 03
-2003	3	220724	12:46:00	12:46:00		Kopisto uniwersytet 01
-2003	3	220724	12:46:00	12:46:00		Kopisto uniwersytet 01
-2003	3	220724	12:47:00	12:47:00		Niepodległości / Rejtana 02
-2003	3	220724	12:47:00	12:47:00		Niepodległości / Rejtana 02
-2003	3	220724	12:48:00	12:48:00		Niepodległości dom dziecka 04 nż
-2003	3	220724	12:48:00	12:48:00		Niepodległości dom dziecka 04 nż
-2003	3	220724	12:49:00	12:49:00		Niepodległości działki 06 nż
-2003	3	220724	12:49:00	12:49:00		Niepodległości działki 06 nż
-2003	3	220724	12:51:00	12:51:00		Armii Krajowej skarbiec 07 nż
-2003	3	220724	12:51:00	12:51:00		Armii Krajowej skarbiec 07 nż
-2003	3	220724	12:53:00	12:53:00		Paderewskiego / Armii Krajowej 04 nż
-2003	3	220724	12:53:00	12:53:00		Paderewskiego / Armii Krajowej 04 nż
-2003	3	220724	12:54:00	12:54:00		Paderewskiego park 06 nż
-2003	3	220724	12:54:00	12:54:00		Paderewskiego park 06 nż
-2003	3	220724	12:55:00	12:55:00		Paderewskiego kościół 08
-2003	3	220724	12:55:00	12:55:00		Paderewskiego kościół 08
-2003	3	220724	12:57:00	12:57:00		Wieniawskiego / Sulikowskiego 02 nż
-2003	3	220724	12:57:00	12:57:00		Wieniawskiego / Sulikowskiego 02 nż
-2003	3	220724	12:58:00	12:58:00		Wieniawskiego / Niemaszków 04 nż
-2003	3	220724	12:58:00	12:58:00		Wieniawskiego / Niemaszków 04 nż
-2003	3	220724	12:59:00	12:59:00		Wieniawskiego / Karpa 06
-2003	3	220724	12:59:00	12:59:00		Wieniawskiego / Karpa 06
-2003	3	220724	13:00:00	13:00:00		Wieniawskiego działki 08 nż
-2003	3	220724	13:00:00	13:00:00		Wieniawskiego działki 08 nż
-2003	3	220724	13:01:00	13:01:00		Wieniawskiego / Dunikowskiego 10 nż
-2003	3	220724	13:01:00	13:01:00		Wieniawskiego / Dunikowskiego 10 nż
-2003	3	220724	13:02:00	13:02:00		Wieniawskiego / Słonecznikowa 12 nż
-2003	3	220724	13:02:00	13:02:00		Wieniawskiego / Słonecznikowa 12 nż
-2003	3	220724	13:03:00	13:03:00		Łukasiewicza pętla 08
-2003	3	220724	13:03:00	13:03:00		Łukasiewicza pętla 08
-2003	3	220724	13:04:00	13:04:00		Robotnicza / Goździkowa 01 nż
-2003	3	220724	13:04:00	13:04:00		Robotnicza / Goździkowa 01 nż
-2003	3	220724	13:06:00	13:06:00		Strażacka / Sikorskiego 07 nż
-2003	3	220724	13:06:00	13:06:00		Strażacka / Sikorskiego 07 nż
-2003	3	220724	13:07:00	13:07:00		Strażacka / Sympatyczna 05 nż
-2003	3	220724	13:07:00	13:07:00		Strażacka / Sympatyczna 05 nż
-2003	3	220724	13:08:00	13:08:00		Miła / Strażacka 02 nż
-2003	3	220724	13:08:00	13:08:00		Miła / Strażacka 02 nż
-2003	3	220724	13:09:00	13:09:00		Miła bloki 04 nż
-2003	3	220724	13:09:00	13:09:00		Miła bloki 04 nż
-2003	3	220724	13:10:00	13:10:00		Miła szkoła 06 nż
-2003	3	220724	13:10:00	13:10:00		Miła szkoła 06 nż
-2003	3	220724	13:11:00	13:11:00		Kard. K. Wojtyły kościół 05 nż
-2003	3	220724	13:11:00	13:11:00		Kard. K. Wojtyły kościół 05 nż
-2003	3	220724	13:13:00	13:13:00		Kard. K. Wojtyły pętla 03 nż
-2003	3	220724	13:13:00	13:13:00		Kard. K. Wojtyły pętla 03 nż
+1660	3	222506	12:38:00	12:38:00		Dworzec Lokalny
+1660	3	222506	12:39:00	12:39:00		Piłsudskiego U. Marszałkowski 07
+1660	3	222506	12:39:00	12:39:00		Piłsudskiego U. Marszałkowski 07
+1660	3	222506	12:40:00	12:40:00		Cieplińskiego 02
+1660	3	222506	12:40:00	12:40:00		Cieplińskiego 02
+1660	3	222506	12:41:00	12:41:00		Lisa-Kuli 01
+1660	3	222506	12:41:00	12:41:00		Lisa-Kuli 01
+1660	3	222506	12:43:00	12:43:00		Kilara 02 nż
+1660	3	222506	12:43:00	12:43:00		Kilara 02 nż
+1660	3	222506	12:45:00	12:45:00		Kopisto U. Skarbowy 03
+1660	3	222506	12:45:00	12:45:00		Kopisto U. Skarbowy 03
+1660	3	222506	12:46:00	12:46:00		Kopisto uniwersytet 01
+1660	3	222506	12:46:00	12:46:00		Kopisto uniwersytet 01
+1660	3	222506	12:47:00	12:47:00		Niepodległości / Rejtana 02
+1660	3	222506	12:47:00	12:47:00		Niepodległości / Rejtana 02
+1660	3	222506	12:48:00	12:48:00		Krzyżanowskiego szkoła 02 nż
+1660	3	222506	12:48:00	12:48:00		Krzyżanowskiego szkoła 02 nż
+1660	3	222506	12:49:00	12:49:00		Krzyżanowskiego / Paderewskiego 03 nż
+1660	3	222506	12:49:00	12:49:00		Krzyżanowskiego / Paderewskiego 03 nż
+1660	3	222506	12:50:00	12:50:00		Armii Krajowej / Powst. Listopad. 06 nż
+1660	3	222506	12:50:00	12:50:00		Armii Krajowej / Powst. Listopad. 06 nż
+1660	3	222506	12:51:00	12:51:00		Paderewskiego / Armii Krajowej 04 nż
+1660	3	222506	12:51:00	12:51:00		Paderewskiego / Armii Krajowej 04 nż
+1660	3	222506	12:52:00	12:52:00		Paderewskiego park 06 nż
+1660	3	222506	12:52:00	12:52:00		Paderewskiego park 06 nż
+1660	3	222506	12:53:00	12:53:00		Paderewskiego kościół 08
+1660	3	222506	12:53:00	12:53:00		Paderewskiego kościół 08
+1660	3	222506	12:55:00	12:55:00		Wieniawskiego / Sulikowskiego 02 nż
+1660	3	222506	12:55:00	12:55:00		Wieniawskiego / Sulikowskiego 02 nż
+1660	3	222506	12:56:00	12:56:00		Wieniawskiego / Niemaszków 04 nż
+1660	3	222506	12:56:00	12:56:00		Wieniawskiego / Niemaszków 04 nż
+1660	3	222506	12:57:00	12:57:00		Wieniawskiego / Karpa 06
+1660	3	222506	12:57:00	12:57:00		Wieniawskiego / Karpa 06
+1660	3	222506	12:58:00	12:58:00		Wieniawskiego działki 08 nż
+1660	3	222506	12:58:00	12:58:00		Wieniawskiego działki 08 nż
+1660	3	222506	12:59:00	12:59:00		Wieniawskiego / Dunikowskiego 10 nż
+1660	3	222506	12:59:00	12:59:00		Wieniawskiego / Dunikowskiego 10 nż
+1660	3	222506	13:00:00	13:00:00		Wieniawskiego / Słonecznikowa 12 nż
+1660	3	222506	13:00:00	13:00:00		Wieniawskiego / Słonecznikowa 12 nż
+1660	3	222506	13:01:00	13:01:00		Łukasiewicza pętla 08
+1660	3	222506	13:01:00	13:01:00		Łukasiewicza pętla 08
+1660	3	222506	13:02:00	13:02:00		Robotnicza / Goździkowa 01 nż
+1660	3	222506	13:02:00	13:02:00		Robotnicza / Goździkowa 01 nż
+1660	3	222506	13:04:00	13:04:00		Strażacka / Sikorskiego 07 nż
+1660	3	222506	13:04:00	13:04:00		Strażacka / Sikorskiego 07 nż
+1660	3	222506	13:05:00	13:05:00		Strażacka / Sympatyczna 05 nż
+1660	3	222506	13:05:00	13:05:00		Strażacka / Sympatyczna 05 nż
+1660	3	222506	13:06:00	13:06:00		Miła / Strażacka 02 nż
+1660	3	222506	13:06:00	13:06:00		Miła / Strażacka 02 nż
+1660	3	222506	13:07:00	13:07:00		Miła bloki 04 nż
+1660	3	222506	13:07:00	13:07:00		Miła bloki 04 nż
+1660	3	222506	13:08:00	13:08:00		Miła szkoła 06 nż
+1660	3	222506	13:08:00	13:08:00		Miła szkoła 06 nż
+1660	3	222506	13:09:00	13:09:00		Kard. K. Wojtyły kościół 05 nż
+1660	3	222506	13:09:00	13:09:00		Kard. K. Wojtyły kościół 05 nż
+1660	3	222506	13:11:00	13:11:00		Kard. K. Wojtyły pętla 03 nż
+1660	3	222506	13:11:00	13:11:00		Kard. K. Wojtyły pętla 03 nż
 
-2004	3	220725	13:45:00	13:45:00		Kard. K. Wojtyły pętla 03 nż
-2004	3	220725	13:45:00	13:45:00		Kard. K. Wojtyły pętla 03 nż
-2004	3	220725	13:46:00	13:46:00		Kard. K. Wojtyły kościół 06 nż
-2004	3	220725	13:46:00	13:46:00		Kard. K. Wojtyły kościół 06 nż
-2004	3	220725	13:48:00	13:48:00		Miła dom kultury 05 nż
-2004	3	220725	13:48:00	13:48:00		Miła dom kultury 05 nż
-2004	3	220725	13:49:00	13:49:00		Miła bloki 03 nż
-2004	3	220725	13:49:00	13:49:00		Miła bloki 03 nż
-2004	3	220725	13:50:00	13:50:00		Miła / Strażacka 01 nż
-2004	3	220725	13:50:00	13:50:00		Miła / Strażacka 01 nż
-2004	3	220725	13:51:00	13:51:00		Strażacka / Sympatyczna 06 nż
-2004	3	220725	13:51:00	13:51:00		Strażacka / Sympatyczna 06 nż
-2004	3	220725	13:52:00	13:52:00		Strażacka / Sikorskiego 08 nż
-2004	3	220725	13:52:00	13:52:00		Strażacka / Sikorskiego 08 nż
-2004	3	220725	13:53:00	13:53:00		Robotnicza / Sikorskiego 02 nż
-2004	3	220725	13:53:00	13:53:00		Robotnicza / Sikorskiego 02 nż
-2004	3	220725	13:54:00	13:54:00		Robotnicza cmentarz 04 nż
-2004	3	220725	13:54:00	13:54:00		Robotnicza cmentarz 04 nż
-2004	3	220725	13:55:00	13:55:00		Łukasiewicza pętla 10
-2004	3	220725	13:55:00	13:55:00		Łukasiewicza pętla 10
-2004	3	220725	13:56:00	13:56:00		Wieniawskiego / Słonecznikowa 11 nż
-2004	3	220725	13:56:00	13:56:00		Wieniawskiego / Słonecznikowa 11 nż
-2004	3	220725	13:57:00	13:57:00		Wieniawskiego / Dunikowskiego 09 nż
-2004	3	220725	13:57:00	13:57:00		Wieniawskiego / Dunikowskiego 09 nż
-2004	3	220725	13:58:00	13:58:00		Wieniawskiego działki 07 nż
-2004	3	220725	13:58:00	13:58:00		Wieniawskiego działki 07 nż
-2004	3	220725	13:59:00	13:59:00		Wieniawskiego / Karpa 05
-2004	3	220725	13:59:00	13:59:00		Wieniawskiego / Karpa 05
-2004	3	220725	14:00:00	14:00:00		Wieniawskiego / Niemaszków 03 nż
-2004	3	220725	14:00:00	14:00:00		Wieniawskiego / Niemaszków 03 nż
-2004	3	220725	14:01:00	14:01:00		Wieniawskiego / Sulikowskiego 01 nż
-2004	3	220725	14:01:00	14:01:00		Wieniawskiego / Sulikowskiego 01 nż
-2004	3	220725	14:03:00	14:03:00		Paderewskiego kościół 05
-2004	3	220725	14:03:00	14:03:00		Paderewskiego kościół 05
-2004	3	220725	14:04:00	14:04:00		Paderewskiego park 03 nż
-2004	3	220725	14:04:00	14:04:00		Paderewskiego park 03 nż
-2004	3	220725	14:05:00	14:05:00		Armii Krajowej / Paderewskiego 08 nż
-2004	3	220725	14:05:00	14:05:00		Armii Krajowej / Paderewskiego 08 nż
-2004	3	220725	14:07:00	14:07:00		Niepodległości / Armii Krajowej 05
-2004	3	220725	14:07:00	14:07:00		Niepodległości / Armii Krajowej 05
-2004	3	220725	14:08:00	14:08:00		Niepodległości / Mieszka I 03 nż
-2004	3	220725	14:08:00	14:08:00		Niepodległości / Mieszka I 03 nż
-2004	3	220725	14:09:00	14:09:00		Niepodległości dom dziecka 01 nż
-2004	3	220725	14:09:00	14:09:00		Niepodległości dom dziecka 01 nż
-2004	3	220725	14:11:00	14:11:00		Kopisto uniwersytet 02
-2004	3	220725	14:11:00	14:11:00		Kopisto uniwersytet 02
-2004	3	220725	14:13:00	14:13:00		Kopisto Most Zamkowy 04
-2004	3	220725	14:13:00	14:13:00		Kopisto Most Zamkowy 04
-2004	3	220725	14:14:00	14:14:00		Kilara 01 nż
-2004	3	220725	14:14:00	14:14:00		Kilara 01 nż
-2004	3	220725	14:17:00	14:17:00		Lisa-Kuli 02
-2004	3	220725	14:17:00	14:17:00		Lisa-Kuli 02
-2004	3	220725	14:18:00	14:18:00		Cieplińskiego 01
-2004	3	220725	14:18:00	14:18:00		Cieplińskiego 01
-2004	3	220725	14:20:00	14:20:00		Piłsudskiego U. Marszałkowski 08
-2004	3	220725	14:20:00	14:20:00		Piłsudskiego U. Marszałkowski 08
-2004	3	220725	14:22:00	14:22:00		Dworzec Lokalny
-2004	3	220725	14:22:00	14:22:00		Dworzec Lokalny
+1659	3	222307	13:45:00	13:45:00		Kard. K. Wojtyły pętla 03 nż
+1659	3	222307	13:45:00	13:45:00		Kard. K. Wojtyły pętla 03 nż
+1659	3	222307	13:46:00	13:46:00		Kard. K. Wojtyły kościół 06 nż
+1659	3	222307	13:46:00	13:46:00		Kard. K. Wojtyły kościół 06 nż
+1659	3	222307	13:48:00	13:48:00		Miła dom kultury 05 nż
+1659	3	222307	13:48:00	13:48:00		Miła dom kultury 05 nż
+1659	3	222307	13:49:00	13:49:00		Miła bloki 03 nż
+1659	3	222307	13:49:00	13:49:00		Miła bloki 03 nż
+1659	3	222307	13:50:00	13:50:00		Miła / Strażacka 01 nż
+1659	3	222307	13:50:00	13:50:00		Miła / Strażacka 01 nż
+1659	3	222307	13:51:00	13:51:00		Strażacka / Sympatyczna 06 nż
+1659	3	222307	13:51:00	13:51:00		Strażacka / Sympatyczna 06 nż
+1659	3	222307	13:52:00	13:52:00		Strażacka / Sikorskiego 08 nż
+1659	3	222307	13:52:00	13:52:00		Strażacka / Sikorskiego 08 nż
+1659	3	222307	13:53:00	13:53:00		Robotnicza / Sikorskiego 02 nż
+1659	3	222307	13:53:00	13:53:00		Robotnicza / Sikorskiego 02 nż
+1659	3	222307	13:54:00	13:54:00		Robotnicza cmentarz 04 nż
+1659	3	222307	13:54:00	13:54:00		Robotnicza cmentarz 04 nż
+1659	3	222307	13:55:00	13:55:00		Łukasiewicza pętla 10
+1659	3	222307	13:55:00	13:55:00		Łukasiewicza pętla 10
+1659	3	222307	13:56:00	13:56:00		Wieniawskiego / Słonecznikowa 11 nż
+1659	3	222307	13:56:00	13:56:00		Wieniawskiego / Słonecznikowa 11 nż
+1659	3	222307	13:57:00	13:57:00		Wieniawskiego / Dunikowskiego 09 nż
+1659	3	222307	13:57:00	13:57:00		Wieniawskiego / Dunikowskiego 09 nż
+1659	3	222307	13:58:00	13:58:00		Wieniawskiego działki 07 nż
+1659	3	222307	13:58:00	13:58:00		Wieniawskiego działki 07 nż
+1659	3	222307	13:59:00	13:59:00		Wieniawskiego / Karpa 05
+1659	3	222307	13:59:00	13:59:00		Wieniawskiego / Karpa 05
+1659	3	222307	14:00:00	14:00:00		Wieniawskiego / Niemaszków 03 nż
+1659	3	222307	14:00:00	14:00:00		Wieniawskiego / Niemaszków 03 nż
+1659	3	222307	14:01:00	14:01:00		Wieniawskiego / Sulikowskiego 01 nż
+1659	3	222307	14:01:00	14:01:00		Wieniawskiego / Sulikowskiego 01 nż
+1659	3	222307	14:03:00	14:03:00		Paderewskiego kościół 05
+1659	3	222307	14:03:00	14:03:00		Paderewskiego kościół 05
+1659	3	222307	14:04:00	14:04:00		Paderewskiego park 03 nż
+1659	3	222307	14:04:00	14:04:00		Paderewskiego park 03 nż
+1659	3	222307	14:06:00	14:06:00		Armii Krajowej / Mieszka I 05 nż
+1659	3	222307	14:06:00	14:06:00		Armii Krajowej / Mieszka I 05 nż
+1659	3	222307	14:07:00	14:07:00		Krzyżanowskiego / Armii Krajowej 04 nż
+1659	3	222307	14:07:00	14:07:00		Krzyżanowskiego / Armii Krajowej 04 nż
+1659	3	222307	14:08:00	14:08:00		Krzyżanowskiego szkoła 01 nż
+1659	3	222307	14:08:00	14:08:00		Krzyżanowskiego szkoła 01 nż
+1659	3	222307	14:10:00	14:10:00		Kopisto uniwersytet 02
+1659	3	222307	14:10:00	14:10:00		Kopisto uniwersytet 02
+1659	3	222307	14:12:00	14:12:00		Kopisto Most Zamkowy 04
+1659	3	222307	14:12:00	14:12:00		Kopisto Most Zamkowy 04
+1659	3	222307	14:13:00	14:13:00		Kilara 01 nż
+1659	3	222307	14:13:00	14:13:00		Kilara 01 nż
+1659	3	222307	14:16:00	14:16:00		Lisa-Kuli 02
+1659	3	222307	14:16:00	14:16:00		Lisa-Kuli 02
+1659	3	222307	14:17:00	14:17:00		Cieplińskiego 01
+1659	3	222307	14:17:00	14:17:00		Cieplińskiego 01
+1659	3	222307	14:19:00	14:19:00		Piłsudskiego U. Marszałkowski 08
+1659	3	222307	14:19:00	14:19:00		Piłsudskiego U. Marszałkowski 08
+1659	3	222307	14:21:00	14:21:00		Dworzec Lokalny
+1659	3	222307	14:21:00	14:21:00		Dworzec Lokalny
 
-2003	3	220726	14:48:00	14:48:00		Dworzec Lokalny
-2003	3	220726	14:48:00	14:48:00		Dworzec Lokalny
-2003	3	220726	14:49:00	14:49:00		Piłsudskiego U. Marszałkowski 07
-2003	3	220726	14:49:00	14:49:00		Piłsudskiego U. Marszałkowski 07
-2003	3	220726	14:50:00	14:50:00		Cieplińskiego 02
-2003	3	220726	14:50:00	14:50:00		Cieplińskiego 02
-2003	3	220726	14:51:00	14:51:00		Lisa-Kuli 01
-2003	3	220726	14:51:00	14:51:00		Lisa-Kuli 01
-2003	3	220726	14:54:00	14:54:00		Kilara 02 nż
-2003	3	220726	14:54:00	14:54:00		Kilara 02 nż
-2003	3	220726	14:56:00	14:56:00		Kopisto U. Skarbowy 03
-2003	3	220726	14:56:00	14:56:00		Kopisto U. Skarbowy 03
-2003	3	220726	14:57:00	14:57:00		Kopisto uniwersytet 01
-2003	3	220726	14:57:00	14:57:00		Kopisto uniwersytet 01
-2003	3	220726	14:58:00	14:58:00		Niepodległości / Rejtana 02
-2003	3	220726	14:58:00	14:58:00		Niepodległości / Rejtana 02
-2003	3	220726	14:59:00	14:59:00		Niepodległości dom dziecka 04 nż
-2003	3	220726	14:59:00	14:59:00		Niepodległości dom dziecka 04 nż
-2003	3	220726	15:00:00	15:00:00		Niepodległości działki 06 nż
-2003	3	220726	15:00:00	15:00:00		Niepodległości działki 06 nż
-2003	3	220726	15:02:00	15:02:00		Armii Krajowej skarbiec 07 nż
-2003	3	220726	15:02:00	15:02:00		Armii Krajowej skarbiec 07 nż
-2003	3	220726	15:04:00	15:04:00		Paderewskiego / Armii Krajowej 04 nż
-2003	3	220726	15:04:00	15:04:00		Paderewskiego / Armii Krajowej 04 nż
-2003	3	220726	15:05:00	15:05:00		Paderewskiego park 06 nż
-2003	3	220726	15:05:00	15:05:00		Paderewskiego park 06 nż
-2003	3	220726	15:06:00	15:06:00		Paderewskiego kościół 08
-2003	3	220726	15:06:00	15:06:00		Paderewskiego kościół 08
-2003	3	220726	15:08:00	15:08:00		Wieniawskiego / Sulikowskiego 02 nż
-2003	3	220726	15:08:00	15:08:00		Wieniawskiego / Sulikowskiego 02 nż
-2003	3	220726	15:09:00	15:09:00		Wieniawskiego / Niemaszków 04 nż
-2003	3	220726	15:09:00	15:09:00		Wieniawskiego / Niemaszków 04 nż
-2003	3	220726	15:10:00	15:10:00		Wieniawskiego / Karpa 06
-2003	3	220726	15:10:00	15:10:00		Wieniawskiego / Karpa 06
-2003	3	220726	15:11:00	15:11:00		Wieniawskiego działki 08 nż
-2003	3	220726	15:11:00	15:11:00		Wieniawskiego działki 08 nż
-2003	3	220726	15:12:00	15:12:00		Wieniawskiego / Dunikowskiego 10 nż
-2003	3	220726	15:12:00	15:12:00		Wieniawskiego / Dunikowskiego 10 nż
-2003	3	220726	15:13:00	15:13:00		Wieniawskiego / Słonecznikowa 12 nż
-2003	3	220726	15:13:00	15:13:00		Wieniawskiego / Słonecznikowa 12 nż
-2003	3	220726	15:14:00	15:14:00		Łukasiewicza pętla 08
-2003	3	220726	15:14:00	15:14:00		Łukasiewicza pętla 08
-2003	3	220726	15:15:00	15:15:00		Robotnicza / Goździkowa 01 nż
-2003	3	220726	15:15:00	15:15:00		Robotnicza / Goździkowa 01 nż
-2003	3	220726	15:17:00	15:17:00		Strażacka / Sikorskiego 07 nż
-2003	3	220726	15:17:00	15:17:00		Strażacka / Sikorskiego 07 nż
-2003	3	220726	15:18:00	15:18:00		Strażacka / Sympatyczna 05 nż
-2003	3	220726	15:18:00	15:18:00		Strażacka / Sympatyczna 05 nż
-2003	3	220726	15:19:00	15:19:00		Miła / Strażacka 02 nż
-2003	3	220726	15:19:00	15:19:00		Miła / Strażacka 02 nż
-2003	3	220726	15:20:00	15:20:00		Miła bloki 04 nż
-2003	3	220726	15:20:00	15:20:00		Miła bloki 04 nż
-2003	3	220726	15:21:00	15:21:00		Miła szkoła 06 nż
-2003	3	220726	15:21:00	15:21:00		Miła szkoła 06 nż
-2003	3	220726	15:22:00	15:22:00		Kard. K. Wojtyły kościół 05 nż
-2003	3	220726	15:22:00	15:22:00		Kard. K. Wojtyły kościół 05 nż
-2003	3	220726	15:24:00	15:24:00		Kard. K. Wojtyły pętla 03 nż
-2003	3	220726	15:24:00	15:24:00		Kard. K. Wojtyły pętla 03 nż
+1660	3	222493	14:48:00	14:48:00		Dworzec Lokalny
+1660	3	222493	14:48:00	14:48:00		Dworzec Lokalny
+1660	3	222493	14:49:00	14:49:00		Piłsudskiego U. Marszałkowski 07
+1660	3	222493	14:49:00	14:49:00		Piłsudskiego U. Marszałkowski 07
+1660	3	222493	14:50:00	14:50:00		Cieplińskiego 02
+1660	3	222493	14:50:00	14:50:00		Cieplińskiego 02
+1660	3	222493	14:51:00	14:51:00		Lisa-Kuli 01
+1660	3	222493	14:51:00	14:51:00		Lisa-Kuli 01
+1660	3	222493	14:54:00	14:54:00		Kilara 02 nż
+1660	3	222493	14:54:00	14:54:00		Kilara 02 nż
+1660	3	222493	14:56:00	14:56:00		Kopisto U. Skarbowy 03
+1660	3	222493	14:56:00	14:56:00		Kopisto U. Skarbowy 03
+1660	3	222493	14:57:00	14:57:00		Kopisto uniwersytet 01
+1660	3	222493	14:57:00	14:57:00		Kopisto uniwersytet 01
+1660	3	222493	14:58:00	14:58:00		Niepodległości / Rejtana 02
+1660	3	222493	14:58:00	14:58:00		Niepodległości / Rejtana 02
+1660	3	222493	14:59:00	14:59:00		Krzyżanowskiego szkoła 02 nż
+1660	3	222493	14:59:00	14:59:00		Krzyżanowskiego szkoła 02 nż
+1660	3	222493	15:00:00	15:00:00		Krzyżanowskiego / Paderewskiego 03 nż
+1660	3	222493	15:00:00	15:00:00		Krzyżanowskiego / Paderewskiego 03 nż
+1660	3	222493	15:02:00	15:02:00		Armii Krajowej / Powst. Listopad. 06 nż
+1660	3	222493	15:02:00	15:02:00		Armii Krajowej / Powst. Listopad. 06 nż
+1660	3	222493	15:03:00	15:03:00		Paderewskiego / Armii Krajowej 04 nż
+1660	3	222493	15:03:00	15:03:00		Paderewskiego / Armii Krajowej 04 nż
+1660	3	222493	15:04:00	15:04:00		Paderewskiego park 06 nż
+1660	3	222493	15:04:00	15:04:00		Paderewskiego park 06 nż
+1660	3	222493	15:05:00	15:05:00		Paderewskiego kościół 08
+1660	3	222493	15:05:00	15:05:00		Paderewskiego kościół 08
+1660	3	222493	15:07:00	15:07:00		Wieniawskiego / Sulikowskiego 02 nż
+1660	3	222493	15:07:00	15:07:00		Wieniawskiego / Sulikowskiego 02 nż
+1660	3	222493	15:08:00	15:08:00		Wieniawskiego / Niemaszków 04 nż
+1660	3	222493	15:08:00	15:08:00		Wieniawskiego / Niemaszków 04 nż
+1660	3	222493	15:09:00	15:09:00		Wieniawskiego / Karpa 06
+1660	3	222493	15:09:00	15:09:00		Wieniawskiego / Karpa 06
+1660	3	222493	15:10:00	15:10:00		Wieniawskiego działki 08 nż
+1660	3	222493	15:10:00	15:10:00		Wieniawskiego działki 08 nż
+1660	3	222493	15:11:00	15:11:00		Wieniawskiego / Dunikowskiego 10 nż
+1660	3	222493	15:11:00	15:11:00		Wieniawskiego / Dunikowskiego 10 nż
+1660	3	222493	15:12:00	15:12:00		Wieniawskiego / Słonecznikowa 12 nż
+1660	3	222493	15:12:00	15:12:00		Wieniawskiego / Słonecznikowa 12 nż
+1660	3	222493	15:13:00	15:13:00		Łukasiewicza pętla 08
+1660	3	222493	15:13:00	15:13:00		Łukasiewicza pętla 08
+1660	3	222493	15:14:00	15:14:00		Robotnicza / Goździkowa 01 nż
+1660	3	222493	15:14:00	15:14:00		Robotnicza / Goździkowa 01 nż
+1660	3	222493	15:16:00	15:16:00		Strażacka / Sikorskiego 07 nż
+1660	3	222493	15:16:00	15:16:00		Strażacka / Sikorskiego 07 nż
+1660	3	222493	15:17:00	15:17:00		Strażacka / Sympatyczna 05 nż
+1660	3	222493	15:17:00	15:17:00		Strażacka / Sympatyczna 05 nż
+1660	3	222493	15:18:00	15:18:00		Miła / Strażacka 02 nż
+1660	3	222493	15:18:00	15:18:00		Miła / Strażacka 02 nż
+1660	3	222493	15:19:00	15:19:00		Miła bloki 04 nż
+1660	3	222493	15:19:00	15:19:00		Miła bloki 04 nż
+1660	3	222493	15:20:00	15:20:00		Miła szkoła 06 nż
+1660	3	222493	15:20:00	15:20:00		Miła szkoła 06 nż
+1660	3	222493	15:21:00	15:21:00		Kard. K. Wojtyły kościół 05 nż
+1660	3	222493	15:21:00	15:21:00		Kard. K. Wojtyły kościół 05 nż
+1660	3	222493	15:23:00	15:23:00		Kard. K. Wojtyły pętla 03 nż
+1660	3	222493	15:23:00	15:23:00		Kard. K. Wojtyły pętla 03 nż
 
-2004	3	220727	15:45:00	15:45:00		Kard. K. Wojtyły pętla 03 nż
-2004	3	220727	15:45:00	15:45:00		Kard. K. Wojtyły pętla 03 nż
-2004	3	220727	15:46:00	15:46:00		Kard. K. Wojtyły kościół 06 nż
-2004	3	220727	15:46:00	15:46:00		Kard. K. Wojtyły kościół 06 nż
-2004	3	220727	15:48:00	15:48:00		Miła dom kultury 05 nż
-2004	3	220727	15:48:00	15:48:00		Miła dom kultury 05 nż
-2004	3	220727	15:49:00	15:49:00		Miła bloki 03 nż
-2004	3	220727	15:49:00	15:49:00		Miła bloki 03 nż
-2004	3	220727	15:50:00	15:50:00		Miła / Strażacka 01 nż
-2004	3	220727	15:50:00	15:50:00		Miła / Strażacka 01 nż
-2004	3	220727	15:51:00	15:51:00		Strażacka / Sympatyczna 06 nż
-2004	3	220727	15:51:00	15:51:00		Strażacka / Sympatyczna 06 nż
-2004	3	220727	15:52:00	15:52:00		Strażacka / Sikorskiego 08 nż
-2004	3	220727	15:52:00	15:52:00		Strażacka / Sikorskiego 08 nż
-2004	3	220727	15:53:00	15:53:00		Robotnicza / Sikorskiego 02 nż
-2004	3	220727	15:53:00	15:53:00		Robotnicza / Sikorskiego 02 nż
-2004	3	220727	15:54:00	15:54:00		Robotnicza cmentarz 04 nż
-2004	3	220727	15:54:00	15:54:00		Robotnicza cmentarz 04 nż
-2004	3	220727	15:55:00	15:55:00		Łukasiewicza pętla 10
-2004	3	220727	15:55:00	15:55:00		Łukasiewicza pętla 10
-2004	3	220727	15:56:00	15:56:00		Wieniawskiego / Słonecznikowa 11 nż
-2004	3	220727	15:56:00	15:56:00		Wieniawskiego / Słonecznikowa 11 nż
-2004	3	220727	15:57:00	15:57:00		Wieniawskiego / Dunikowskiego 09 nż
-2004	3	220727	15:57:00	15:57:00		Wieniawskiego / Dunikowskiego 09 nż
-2004	3	220727	15:58:00	15:58:00		Wieniawskiego działki 07 nż
-2004	3	220727	15:58:00	15:58:00		Wieniawskiego działki 07 nż
-2004	3	220727	15:59:00	15:59:00		Wieniawskiego / Karpa 05
-2004	3	220727	15:59:00	15:59:00		Wieniawskiego / Karpa 05
-2004	3	220727	16:00:00	16:00:00		Wieniawskiego / Niemaszków 03 nż
-2004	3	220727	16:00:00	16:00:00		Wieniawskiego / Niemaszków 03 nż
-2004	3	220727	16:01:00	16:01:00		Wieniawskiego / Sulikowskiego 01 nż
-2004	3	220727	16:01:00	16:01:00		Wieniawskiego / Sulikowskiego 01 nż
-2004	3	220727	16:03:00	16:03:00		Paderewskiego kościół 05
-2004	3	220727	16:03:00	16:03:00		Paderewskiego kościół 05
-2004	3	220727	16:04:00	16:04:00		Paderewskiego park 03 nż
-2004	3	220727	16:04:00	16:04:00		Paderewskiego park 03 nż
-2004	3	220727	16:05:00	16:05:00		Armii Krajowej / Paderewskiego 08 nż
-2004	3	220727	16:05:00	16:05:00		Armii Krajowej / Paderewskiego 08 nż
-2004	3	220727	16:07:00	16:07:00		Niepodległości / Armii Krajowej 05
-2004	3	220727	16:07:00	16:07:00		Niepodległości / Armii Krajowej 05
-2004	3	220727	16:08:00	16:08:00		Niepodległości / Mieszka I 03 nż
-2004	3	220727	16:08:00	16:08:00		Niepodległości / Mieszka I 03 nż
-2004	3	220727	16:09:00	16:09:00		Niepodległości dom dziecka 01 nż
-2004	3	220727	16:09:00	16:09:00		Niepodległości dom dziecka 01 nż
-2004	3	220727	16:11:00	16:11:00		Kopisto uniwersytet 02
-2004	3	220727	16:11:00	16:11:00		Kopisto uniwersytet 02
-2004	3	220727	16:13:00	16:13:00		Kopisto Most Zamkowy 04
-2004	3	220727	16:13:00	16:13:00		Kopisto Most Zamkowy 04
-2004	3	220727	16:14:00	16:14:00		Kilara 01 nż
-2004	3	220727	16:14:00	16:14:00		Kilara 01 nż
-2004	3	220727	16:17:00	16:17:00		Lisa-Kuli 02
-2004	3	220727	16:17:00	16:17:00		Lisa-Kuli 02
-2004	3	220727	16:18:00	16:18:00		Cieplińskiego 01
-2004	3	220727	16:18:00	16:18:00		Cieplińskiego 01
-2004	3	220727	16:20:00	16:20:00		Piłsudskiego U. Marszałkowski 08
-2004	3	220727	16:20:00	16:20:00		Piłsudskiego U. Marszałkowski 08
-2004	3	220727	16:22:00	16:22:00		Dworzec Lokalny
-2004	3	220727	16:22:00	16:22:00		Dworzec Lokalny
+1659	3	222601	15:45:00	15:45:00		Kard. K. Wojtyły pętla 03 nż
+1659	3	222601	15:45:00	15:45:00		Kard. K. Wojtyły pętla 03 nż
+1659	3	222601	15:46:00	15:46:00		Kard. K. Wojtyły kościół 06 nż
+1659	3	222601	15:46:00	15:46:00		Kard. K. Wojtyły kościół 06 nż
+1659	3	222601	15:48:00	15:48:00		Miła dom kultury 05 nż
+1659	3	222601	15:48:00	15:48:00		Miła dom kultury 05 nż
+1659	3	222601	15:49:00	15:49:00		Miła bloki 03 nż
+1659	3	222601	15:49:00	15:49:00		Miła bloki 03 nż
+1659	3	222601	15:50:00	15:50:00		Miła / Strażacka 01 nż
+1659	3	222601	15:50:00	15:50:00		Miła / Strażacka 01 nż
+1659	3	222601	15:51:00	15:51:00		Strażacka / Sympatyczna 06 nż
+1659	3	222601	15:51:00	15:51:00		Strażacka / Sympatyczna 06 nż
+1659	3	222601	15:52:00	15:52:00		Strażacka / Sikorskiego 08 nż
+1659	3	222601	15:52:00	15:52:00		Strażacka / Sikorskiego 08 nż
+1659	3	222601	15:53:00	15:53:00		Robotnicza / Sikorskiego 02 nż
+1659	3	222601	15:53:00	15:53:00		Robotnicza / Sikorskiego 02 nż
+1659	3	222601	15:54:00	15:54:00		Robotnicza cmentarz 04 nż
+1659	3	222601	15:54:00	15:54:00		Robotnicza cmentarz 04 nż
+1659	3	222601	15:55:00	15:55:00		Łukasiewicza pętla 10
+1659	3	222601	15:55:00	15:55:00		Łukasiewicza pętla 10
+1659	3	222601	15:56:00	15:56:00		Wieniawskiego / Słonecznikowa 11 nż
+1659	3	222601	15:56:00	15:56:00		Wieniawskiego / Słonecznikowa 11 nż
+1659	3	222601	15:57:00	15:57:00		Wieniawskiego / Dunikowskiego 09 nż
+1659	3	222601	15:57:00	15:57:00		Wieniawskiego / Dunikowskiego 09 nż
+1659	3	222601	15:58:00	15:58:00		Wieniawskiego działki 07 nż
+1659	3	222601	15:58:00	15:58:00		Wieniawskiego działki 07 nż
+1659	3	222601	15:59:00	15:59:00		Wieniawskiego / Karpa 05
+1659	3	222601	15:59:00	15:59:00		Wieniawskiego / Karpa 05
+1659	3	222601	16:00:00	16:00:00		Wieniawskiego / Niemaszków 03 nż
+1659	3	222601	16:00:00	16:00:00		Wieniawskiego / Niemaszków 03 nż
+1659	3	222601	16:01:00	16:01:00		Wieniawskiego / Sulikowskiego 01 nż
+1659	3	222601	16:01:00	16:01:00		Wieniawskiego / Sulikowskiego 01 nż
+1659	3	222601	16:03:00	16:03:00		Paderewskiego kościół 05
+1659	3	222601	16:03:00	16:03:00		Paderewskiego kościół 05
+1659	3	222601	16:04:00	16:04:00		Paderewskiego park 03 nż
+1659	3	222601	16:04:00	16:04:00		Paderewskiego park 03 nż
+1659	3	222601	16:06:00	16:06:00		Armii Krajowej / Mieszka I 05 nż
+1659	3	222601	16:06:00	16:06:00		Armii Krajowej / Mieszka I 05 nż
+1659	3	222601	16:07:00	16:07:00		Krzyżanowskiego / Armii Krajowej 04 nż
+1659	3	222601	16:07:00	16:07:00		Krzyżanowskiego / Armii Krajowej 04 nż
+1659	3	222601	16:08:00	16:08:00		Krzyżanowskiego szkoła 01 nż
+1659	3	222601	16:08:00	16:08:00		Krzyżanowskiego szkoła 01 nż
+1659	3	222601	16:10:00	16:10:00		Kopisto uniwersytet 02
+1659	3	222601	16:10:00	16:10:00		Kopisto uniwersytet 02
+1659	3	222601	16:12:00	16:12:00		Kopisto Most Zamkowy 04
+1659	3	222601	16:12:00	16:12:00		Kopisto Most Zamkowy 04
+1659	3	222601	16:13:00	16:13:00		Kilara 01 nż
+1659	3	222601	16:13:00	16:13:00		Kilara 01 nż
+1659	3	222601	16:16:00	16:16:00		Lisa-Kuli 02
+1659	3	222601	16:16:00	16:16:00		Lisa-Kuli 02
+1659	3	222601	16:17:00	16:17:00		Cieplińskiego 01
+1659	3	222601	16:17:00	16:17:00		Cieplińskiego 01
+1659	3	222601	16:19:00	16:19:00		Piłsudskiego U. Marszałkowski 08
+1659	3	222601	16:19:00	16:19:00		Piłsudskiego U. Marszałkowski 08
+1659	3	222601	16:21:00	16:21:00		Dworzec Lokalny
+1659	3	222601	16:21:00	16:21:00		Dworzec Lokalny
 
-2003	3	220728	16:38:00	16:38:00		Dworzec Lokalny
-2003	3	220728	16:38:00	16:38:00		Dworzec Lokalny
-2003	3	220728	16:39:00	16:39:00		Piłsudskiego U. Marszałkowski 07
-2003	3	220728	16:39:00	16:39:00		Piłsudskiego U. Marszałkowski 07
-2003	3	220728	16:40:00	16:40:00		Cieplińskiego 02
-2003	3	220728	16:40:00	16:40:00		Cieplińskiego 02
-2003	3	220728	16:41:00	16:41:00		Lisa-Kuli 01
-2003	3	220728	16:41:00	16:41:00		Lisa-Kuli 01
-2003	3	220728	16:44:00	16:44:00		Kilara 02 nż
-2003	3	220728	16:44:00	16:44:00		Kilara 02 nż
-2003	3	220728	16:46:00	16:46:00		Kopisto U. Skarbowy 03
-2003	3	220728	16:46:00	16:46:00		Kopisto U. Skarbowy 03
-2003	3	220728	16:47:00	16:47:00		Kopisto uniwersytet 01
-2003	3	220728	16:47:00	16:47:00		Kopisto uniwersytet 01
-2003	3	220728	16:48:00	16:48:00		Niepodległości / Rejtana 02
-2003	3	220728	16:48:00	16:48:00		Niepodległości / Rejtana 02
-2003	3	220728	16:49:00	16:49:00		Niepodległości dom dziecka 04 nż
-2003	3	220728	16:49:00	16:49:00		Niepodległości dom dziecka 04 nż
-2003	3	220728	16:50:00	16:50:00		Niepodległości działki 06 nż
-2003	3	220728	16:50:00	16:50:00		Niepodległości działki 06 nż
-2003	3	220728	16:52:00	16:52:00		Armii Krajowej skarbiec 07 nż
-2003	3	220728	16:52:00	16:52:00		Armii Krajowej skarbiec 07 nż
-2003	3	220728	16:54:00	16:54:00		Paderewskiego / Armii Krajowej 04 nż
-2003	3	220728	16:54:00	16:54:00		Paderewskiego / Armii Krajowej 04 nż
-2003	3	220728	16:55:00	16:55:00		Paderewskiego park 06 nż
-2003	3	220728	16:55:00	16:55:00		Paderewskiego park 06 nż
-2003	3	220728	16:56:00	16:56:00		Paderewskiego kościół 08
-2003	3	220728	16:56:00	16:56:00		Paderewskiego kościół 08
-2003	3	220728	16:58:00	16:58:00		Wieniawskiego / Sulikowskiego 02 nż
-2003	3	220728	16:58:00	16:58:00		Wieniawskiego / Sulikowskiego 02 nż
-2003	3	220728	16:59:00	16:59:00		Wieniawskiego / Niemaszków 04 nż
-2003	3	220728	16:59:00	16:59:00		Wieniawskiego / Niemaszków 04 nż
-2003	3	220728	17:00:00	17:00:00		Wieniawskiego / Karpa 06
-2003	3	220728	17:00:00	17:00:00		Wieniawskiego / Karpa 06
-2003	3	220728	17:01:00	17:01:00		Wieniawskiego działki 08 nż
-2003	3	220728	17:01:00	17:01:00		Wieniawskiego działki 08 nż
-2003	3	220728	17:02:00	17:02:00		Wieniawskiego / Dunikowskiego 10 nż
-2003	3	220728	17:02:00	17:02:00		Wieniawskiego / Dunikowskiego 10 nż
-2003	3	220728	17:03:00	17:03:00		Wieniawskiego / Słonecznikowa 12 nż
-2003	3	220728	17:03:00	17:03:00		Wieniawskiego / Słonecznikowa 12 nż
-2003	3	220728	17:04:00	17:04:00		Łukasiewicza pętla 08
-2003	3	220728	17:04:00	17:04:00		Łukasiewicza pętla 08
-2003	3	220728	17:05:00	17:05:00		Robotnicza / Goździkowa 01 nż
-2003	3	220728	17:05:00	17:05:00		Robotnicza / Goździkowa 01 nż
-2003	3	220728	17:07:00	17:07:00		Strażacka / Sikorskiego 07 nż
-2003	3	220728	17:07:00	17:07:00		Strażacka / Sikorskiego 07 nż
-2003	3	220728	17:08:00	17:08:00		Strażacka / Sympatyczna 05 nż
-2003	3	220728	17:08:00	17:08:00		Strażacka / Sympatyczna 05 nż
-2003	3	220728	17:09:00	17:09:00		Miła / Strażacka 02 nż
-2003	3	220728	17:09:00	17:09:00		Miła / Strażacka 02 nż
-2003	3	220728	17:10:00	17:10:00		Miła bloki 04 nż
-2003	3	220728	17:10:00	17:10:00		Miła bloki 04 nż
-2003	3	220728	17:11:00	17:11:00		Miła szkoła 06 nż
-2003	3	220728	17:11:00	17:11:00		Miła szkoła 06 nż
-2003	3	220728	17:12:00	17:12:00		Kard. K. Wojtyły kościół 05 nż
-2003	3	220728	17:12:00	17:12:00		Kard. K. Wojtyły kościół 05 nż
-2003	3	220728	17:14:00	17:14:00		Kard. K. Wojtyły pętla 03 nż
-2003	3	220728	17:14:00	17:14:00		Kard. K. Wojtyły pętla 03 nż
+1660	3	222305	16:38:00	16:38:00		Dworzec Lokalny
+1660	3	222305	16:38:00	16:38:00		Dworzec Lokalny
+1660	3	222305	16:39:00	16:39:00		Piłsudskiego U. Marszałkowski 07
+1660	3	222305	16:39:00	16:39:00		Piłsudskiego U. Marszałkowski 07
+1660	3	222305	16:40:00	16:40:00		Cieplińskiego 02
+1660	3	222305	16:40:00	16:40:00		Cieplińskiego 02
+1660	3	222305	16:41:00	16:41:00		Lisa-Kuli 01
+1660	3	222305	16:41:00	16:41:00		Lisa-Kuli 01
+1660	3	222305	16:44:00	16:44:00		Kilara 02 nż
+1660	3	222305	16:44:00	16:44:00		Kilara 02 nż
+1660	3	222305	16:46:00	16:46:00		Kopisto U. Skarbowy 03
+1660	3	222305	16:46:00	16:46:00		Kopisto U. Skarbowy 03
+1660	3	222305	16:47:00	16:47:00		Kopisto uniwersytet 01
+1660	3	222305	16:47:00	16:47:00		Kopisto uniwersytet 01
+1660	3	222305	16:48:00	16:48:00		Niepodległości / Rejtana 02
+1660	3	222305	16:48:00	16:48:00		Niepodległości / Rejtana 02
+1660	3	222305	16:49:00	16:49:00		Krzyżanowskiego szkoła 02 nż
+1660	3	222305	16:49:00	16:49:00		Krzyżanowskiego szkoła 02 nż
+1660	3	222305	16:50:00	16:50:00		Krzyżanowskiego / Paderewskiego 03 nż
+1660	3	222305	16:50:00	16:50:00		Krzyżanowskiego / Paderewskiego 03 nż
+1660	3	222305	16:52:00	16:52:00		Armii Krajowej / Powst. Listopad. 06 nż
+1660	3	222305	16:52:00	16:52:00		Armii Krajowej / Powst. Listopad. 06 nż
+1660	3	222305	16:53:00	16:53:00		Paderewskiego / Armii Krajowej 04 nż
+1660	3	222305	16:53:00	16:53:00		Paderewskiego / Armii Krajowej 04 nż
+1660	3	222305	16:54:00	16:54:00		Paderewskiego park 06 nż
+1660	3	222305	16:54:00	16:54:00		Paderewskiego park 06 nż
+1660	3	222305	16:55:00	16:55:00		Paderewskiego kościół 08
+1660	3	222305	16:55:00	16:55:00		Paderewskiego kościół 08
+1660	3	222305	16:57:00	16:57:00		Wieniawskiego / Sulikowskiego 02 nż
+1660	3	222305	16:57:00	16:57:00		Wieniawskiego / Sulikowskiego 02 nż
+1660	3	222305	16:58:00	16:58:00		Wieniawskiego / Niemaszków 04 nż
+1660	3	222305	16:58:00	16:58:00		Wieniawskiego / Niemaszków 04 nż
+1660	3	222305	16:59:00	16:59:00		Wieniawskiego / Karpa 06
+1660	3	222305	16:59:00	16:59:00		Wieniawskiego / Karpa 06
+1660	3	222305	17:00:00	17:00:00		Wieniawskiego działki 08 nż
+1660	3	222305	17:00:00	17:00:00		Wieniawskiego działki 08 nż
+1660	3	222305	17:01:00	17:01:00		Wieniawskiego / Dunikowskiego 10 nż
+1660	3	222305	17:01:00	17:01:00		Wieniawskiego / Dunikowskiego 10 nż
+1660	3	222305	17:02:00	17:02:00		Wieniawskiego / Słonecznikowa 12 nż
+1660	3	222305	17:02:00	17:02:00		Wieniawskiego / Słonecznikowa 12 nż
+1660	3	222305	17:03:00	17:03:00		Łukasiewicza pętla 08
+1660	3	222305	17:03:00	17:03:00		Łukasiewicza pętla 08
+1660	3	222305	17:04:00	17:04:00		Robotnicza / Goździkowa 01 nż
+1660	3	222305	17:04:00	17:04:00		Robotnicza / Goździkowa 01 nż
+1660	3	222305	17:06:00	17:06:00		Strażacka / Sikorskiego 07 nż
+1660	3	222305	17:06:00	17:06:00		Strażacka / Sikorskiego 07 nż
+1660	3	222305	17:07:00	17:07:00		Strażacka / Sympatyczna 05 nż
+1660	3	222305	17:07:00	17:07:00		Strażacka / Sympatyczna 05 nż
+1660	3	222305	17:08:00	17:08:00		Miła / Strażacka 02 nż
+1660	3	222305	17:08:00	17:08:00		Miła / Strażacka 02 nż
+1660	3	222305	17:09:00	17:09:00		Miła bloki 04 nż
+1660	3	222305	17:09:00	17:09:00		Miła bloki 04 nż
+1660	3	222305	17:10:00	17:10:00		Miła szkoła 06 nż
+1660	3	222305	17:10:00	17:10:00		Miła szkoła 06 nż
+1660	3	222305	17:11:00	17:11:00		Kard. K. Wojtyły kościół 05 nż
+1660	3	222305	17:11:00	17:11:00		Kard. K. Wojtyły kościół 05 nż
+1660	3	222305	17:13:00	17:13:00		Kard. K. Wojtyły pętla 03 nż
+1660	3	222305	17:13:00	17:13:00		Kard. K. Wojtyły pętla 03 nż
 
-2004	3	220729	17:45:00	17:45:00		Kard. K. Wojtyły pętla 03 nż
-2004	3	220729	17:45:00	17:45:00		Kard. K. Wojtyły pętla 03 nż
-2004	3	220729	17:46:00	17:46:00		Kard. K. Wojtyły kościół 06 nż
-2004	3	220729	17:46:00	17:46:00		Kard. K. Wojtyły kościół 06 nż
-2004	3	220729	17:48:00	17:48:00		Miła dom kultury 05 nż
-2004	3	220729	17:48:00	17:48:00		Miła dom kultury 05 nż
-2004	3	220729	17:49:00	17:49:00		Miła bloki 03 nż
-2004	3	220729	17:49:00	17:49:00		Miła bloki 03 nż
-2004	3	220729	17:50:00	17:50:00		Miła / Strażacka 01 nż
-2004	3	220729	17:50:00	17:50:00		Miła / Strażacka 01 nż
-2004	3	220729	17:51:00	17:51:00		Strażacka / Sympatyczna 06 nż
-2004	3	220729	17:51:00	17:51:00		Strażacka / Sympatyczna 06 nż
-2004	3	220729	17:52:00	17:52:00		Strażacka / Sikorskiego 08 nż
-2004	3	220729	17:52:00	17:52:00		Strażacka / Sikorskiego 08 nż
-2004	3	220729	17:53:00	17:53:00		Robotnicza / Sikorskiego 02 nż
-2004	3	220729	17:53:00	17:53:00		Robotnicza / Sikorskiego 02 nż
-2004	3	220729	17:54:00	17:54:00		Robotnicza cmentarz 04 nż
-2004	3	220729	17:54:00	17:54:00		Robotnicza cmentarz 04 nż
-2004	3	220729	17:55:00	17:55:00		Łukasiewicza pętla 10
-2004	3	220729	17:55:00	17:55:00		Łukasiewicza pętla 10
-2004	3	220729	17:56:00	17:56:00		Wieniawskiego / Słonecznikowa 11 nż
-2004	3	220729	17:56:00	17:56:00		Wieniawskiego / Słonecznikowa 11 nż
-2004	3	220729	17:57:00	17:57:00		Wieniawskiego / Dunikowskiego 09 nż
-2004	3	220729	17:57:00	17:57:00		Wieniawskiego / Dunikowskiego 09 nż
-2004	3	220729	17:58:00	17:58:00		Wieniawskiego działki 07 nż
-2004	3	220729	17:58:00	17:58:00		Wieniawskiego działki 07 nż
-2004	3	220729	17:59:00	17:59:00		Wieniawskiego / Karpa 05
-2004	3	220729	17:59:00	17:59:00		Wieniawskiego / Karpa 05
-2004	3	220729	18:00:00	18:00:00		Wieniawskiego / Niemaszków 03 nż
-2004	3	220729	18:00:00	18:00:00		Wieniawskiego / Niemaszków 03 nż
-2004	3	220729	18:01:00	18:01:00		Wieniawskiego / Sulikowskiego 01 nż
-2004	3	220729	18:01:00	18:01:00		Wieniawskiego / Sulikowskiego 01 nż
-2004	3	220729	18:03:00	18:03:00		Paderewskiego kościół 05
-2004	3	220729	18:03:00	18:03:00		Paderewskiego kościół 05
-2004	3	220729	18:04:00	18:04:00		Paderewskiego park 03 nż
-2004	3	220729	18:04:00	18:04:00		Paderewskiego park 03 nż
-2004	3	220729	18:05:00	18:05:00		Armii Krajowej / Paderewskiego 08 nż
-2004	3	220729	18:05:00	18:05:00		Armii Krajowej / Paderewskiego 08 nż
-2004	3	220729	18:07:00	18:07:00		Niepodległości / Armii Krajowej 05
-2004	3	220729	18:07:00	18:07:00		Niepodległości / Armii Krajowej 05
-2004	3	220729	18:08:00	18:08:00		Niepodległości / Mieszka I 03 nż
-2004	3	220729	18:08:00	18:08:00		Niepodległości / Mieszka I 03 nż
-2004	3	220729	18:09:00	18:09:00		Niepodległości dom dziecka 01 nż
-2004	3	220729	18:09:00	18:09:00		Niepodległości dom dziecka 01 nż
-2004	3	220729	18:11:00	18:11:00		Kopisto uniwersytet 02
-2004	3	220729	18:11:00	18:11:00		Kopisto uniwersytet 02
-2004	3	220729	18:13:00	18:13:00		Kopisto Most Zamkowy 04
-2004	3	220729	18:13:00	18:13:00		Kopisto Most Zamkowy 04
-2004	3	220729	18:14:00	18:14:00		Kilara 01 nż
-2004	3	220729	18:14:00	18:14:00		Kilara 01 nż
-2004	3	220729	18:17:00	18:17:00		Lisa-Kuli 02
-2004	3	220729	18:17:00	18:17:00		Lisa-Kuli 02
-2004	3	220729	18:18:00	18:18:00		Cieplińskiego 01
-2004	3	220729	18:18:00	18:18:00		Cieplińskiego 01
-2004	3	220729	18:20:00	18:20:00		Piłsudskiego U. Marszałkowski 08
-2004	3	220729	18:20:00	18:20:00		Piłsudskiego U. Marszałkowski 08
-2004	3	220729	18:22:00	18:22:00		Dworzec Lokalny
-2004	3	220729	18:22:00	18:22:00		Dworzec Lokalny
+1659	3	222508	17:45:00	17:45:00		Kard. K. Wojtyły pętla 03 nż
+1659	3	222508	17:45:00	17:45:00		Kard. K. Wojtyły pętla 03 nż
+1659	3	222508	17:46:00	17:46:00		Kard. K. Wojtyły kościół 06 nż
+1659	3	222508	17:46:00	17:46:00		Kard. K. Wojtyły kościół 06 nż
+1659	3	222508	17:48:00	17:48:00		Miła dom kultury 05 nż
+1659	3	222508	17:48:00	17:48:00		Miła dom kultury 05 nż
+1659	3	222508	17:49:00	17:49:00		Miła bloki 03 nż
+1659	3	222508	17:49:00	17:49:00		Miła bloki 03 nż
+1659	3	222508	17:50:00	17:50:00		Miła / Strażacka 01 nż
+1659	3	222508	17:50:00	17:50:00		Miła / Strażacka 01 nż
+1659	3	222508	17:51:00	17:51:00		Strażacka / Sympatyczna 06 nż
+1659	3	222508	17:51:00	17:51:00		Strażacka / Sympatyczna 06 nż
+1659	3	222508	17:52:00	17:52:00		Strażacka / Sikorskiego 08 nż
+1659	3	222508	17:52:00	17:52:00		Strażacka / Sikorskiego 08 nż
+1659	3	222508	17:53:00	17:53:00		Robotnicza / Sikorskiego 02 nż
+1659	3	222508	17:53:00	17:53:00		Robotnicza / Sikorskiego 02 nż
+1659	3	222508	17:54:00	17:54:00		Robotnicza cmentarz 04 nż
+1659	3	222508	17:54:00	17:54:00		Robotnicza cmentarz 04 nż
+1659	3	222508	17:55:00	17:55:00		Łukasiewicza pętla 10
+1659	3	222508	17:55:00	17:55:00		Łukasiewicza pętla 10
+1659	3	222508	17:56:00	17:56:00		Wieniawskiego / Słonecznikowa 11 nż
+1659	3	222508	17:56:00	17:56:00		Wieniawskiego / Słonecznikowa 11 nż
+1659	3	222508	17:57:00	17:57:00		Wieniawskiego / Dunikowskiego 09 nż
+1659	3	222508	17:57:00	17:57:00		Wieniawskiego / Dunikowskiego 09 nż
+1659	3	222508	17:58:00	17:58:00		Wieniawskiego działki 07 nż
+1659	3	222508	17:58:00	17:58:00		Wieniawskiego działki 07 nż
+1659	3	222508	17:59:00	17:59:00		Wieniawskiego / Karpa 05
+1659	3	222508	17:59:00	17:59:00		Wieniawskiego / Karpa 05
+1659	3	222508	18:00:00	18:00:00		Wieniawskiego / Niemaszków 03 nż
+1659	3	222508	18:00:00	18:00:00		Wieniawskiego / Niemaszków 03 nż
+1659	3	222508	18:01:00	18:01:00		Wieniawskiego / Sulikowskiego 01 nż
+1659	3	222508	18:01:00	18:01:00		Wieniawskiego / Sulikowskiego 01 nż
+1659	3	222508	18:03:00	18:03:00		Paderewskiego kościół 05
+1659	3	222508	18:03:00	18:03:00		Paderewskiego kościół 05
+1659	3	222508	18:04:00	18:04:00		Paderewskiego park 03 nż
+1659	3	222508	18:04:00	18:04:00		Paderewskiego park 03 nż
+1659	3	222508	18:06:00	18:06:00		Armii Krajowej / Mieszka I 05 nż
+1659	3	222508	18:06:00	18:06:00		Armii Krajowej / Mieszka I 05 nż
+1659	3	222508	18:07:00	18:07:00		Krzyżanowskiego / Armii Krajowej 04 nż
+1659	3	222508	18:07:00	18:07:00		Krzyżanowskiego / Armii Krajowej 04 nż
+1659	3	222508	18:08:00	18:08:00		Krzyżanowskiego szkoła 01 nż
+1659	3	222508	18:08:00	18:08:00		Krzyżanowskiego szkoła 01 nż
+1659	3	222508	18:10:00	18:10:00		Kopisto uniwersytet 02
+1659	3	222508	18:10:00	18:10:00		Kopisto uniwersytet 02
+1659	3	222508	18:12:00	18:12:00		Kopisto Most Zamkowy 04
+1659	3	222508	18:12:00	18:12:00		Kopisto Most Zamkowy 04
+1659	3	222508	18:13:00	18:13:00		Kilara 01 nż
+1659	3	222508	18:13:00	18:13:00		Kilara 01 nż
+1659	3	222508	18:16:00	18:16:00		Lisa-Kuli 02
+1659	3	222508	18:16:00	18:16:00		Lisa-Kuli 02
+1659	3	222508	18:17:00	18:17:00		Cieplińskiego 01
+1659	3	222508	18:17:00	18:17:00		Cieplińskiego 01
+1659	3	222508	18:19:00	18:19:00		Piłsudskiego U. Marszałkowski 08
+1659	3	222508	18:19:00	18:19:00		Piłsudskiego U. Marszałkowski 08
+1659	3	222508	18:21:00	18:21:00		Dworzec Lokalny
+1659	3	222508	18:21:00	18:21:00		Dworzec Lokalny
 
-2003	3	220730	18:38:00	18:38:00		Dworzec Lokalny
-2003	3	220730	18:38:00	18:38:00		Dworzec Lokalny
-2003	3	220730	18:39:00	18:39:00		Piłsudskiego U. Marszałkowski 07
-2003	3	220730	18:39:00	18:39:00		Piłsudskiego U. Marszałkowski 07
-2003	3	220730	18:40:00	18:40:00		Cieplińskiego 02
-2003	3	220730	18:40:00	18:40:00		Cieplińskiego 02
-2003	3	220730	18:41:00	18:41:00		Lisa-Kuli 01
-2003	3	220730	18:41:00	18:41:00		Lisa-Kuli 01
-2003	3	220730	18:44:00	18:44:00		Kilara 02 nż
-2003	3	220730	18:44:00	18:44:00		Kilara 02 nż
-2003	3	220730	18:46:00	18:46:00		Kopisto U. Skarbowy 03
-2003	3	220730	18:46:00	18:46:00		Kopisto U. Skarbowy 03
-2003	3	220730	18:47:00	18:47:00		Kopisto uniwersytet 01
-2003	3	220730	18:47:00	18:47:00		Kopisto uniwersytet 01
-2003	3	220730	18:48:00	18:48:00		Niepodległości / Rejtana 02
-2003	3	220730	18:48:00	18:48:00		Niepodległości / Rejtana 02
-2003	3	220730	18:49:00	18:49:00		Niepodległości dom dziecka 04 nż
-2003	3	220730	18:49:00	18:49:00		Niepodległości dom dziecka 04 nż
-2003	3	220730	18:50:00	18:50:00		Niepodległości działki 06 nż
-2003	3	220730	18:50:00	18:50:00		Niepodległości działki 06 nż
-2003	3	220730	18:52:00	18:52:00		Armii Krajowej skarbiec 07 nż
-2003	3	220730	18:52:00	18:52:00		Armii Krajowej skarbiec 07 nż
-2003	3	220730	18:54:00	18:54:00		Paderewskiego / Armii Krajowej 04 nż
-2003	3	220730	18:54:00	18:54:00		Paderewskiego / Armii Krajowej 04 nż
-2003	3	220730	18:55:00	18:55:00		Paderewskiego park 06 nż
-2003	3	220730	18:55:00	18:55:00		Paderewskiego park 06 nż
-2003	3	220730	18:56:00	18:56:00		Paderewskiego kościół 08
-2003	3	220730	18:56:00	18:56:00		Paderewskiego kościół 08
-2003	3	220730	18:58:00	18:58:00		Wieniawskiego / Sulikowskiego 02 nż
-2003	3	220730	18:58:00	18:58:00		Wieniawskiego / Sulikowskiego 02 nż
-2003	3	220730	18:59:00	18:59:00		Wieniawskiego / Niemaszków 04 nż
-2003	3	220730	18:59:00	18:59:00		Wieniawskiego / Niemaszków 04 nż
-2003	3	220730	19:00:00	19:00:00		Wieniawskiego / Karpa 06
-2003	3	220730	19:00:00	19:00:00		Wieniawskiego / Karpa 06
-2003	3	220730	19:01:00	19:01:00		Wieniawskiego działki 08 nż
-2003	3	220730	19:01:00	19:01:00		Wieniawskiego działki 08 nż
-2003	3	220730	19:02:00	19:02:00		Wieniawskiego / Dunikowskiego 10 nż
-2003	3	220730	19:02:00	19:02:00		Wieniawskiego / Dunikowskiego 10 nż
-2003	3	220730	19:03:00	19:03:00		Wieniawskiego / Słonecznikowa 12 nż
-2003	3	220730	19:03:00	19:03:00		Wieniawskiego / Słonecznikowa 12 nż
-2003	3	220730	19:04:00	19:04:00		Łukasiewicza pętla 08
-2003	3	220730	19:04:00	19:04:00		Łukasiewicza pętla 08
-2003	3	220730	19:05:00	19:05:00		Robotnicza / Goździkowa 01 nż
-2003	3	220730	19:05:00	19:05:00		Robotnicza / Goździkowa 01 nż
-2003	3	220730	19:06:00	19:06:00		Strażacka / Sikorskiego 07 nż
-2003	3	220730	19:06:00	19:06:00		Strażacka / Sikorskiego 07 nż
-2003	3	220730	19:07:00	19:07:00		Strażacka / Sympatyczna 05 nż
-2003	3	220730	19:07:00	19:07:00		Strażacka / Sympatyczna 05 nż
-2003	3	220730	19:08:00	19:08:00		Miła / Strażacka 02 nż
-2003	3	220730	19:08:00	19:08:00		Miła / Strażacka 02 nż
-2003	3	220730	19:09:00	19:09:00		Miła bloki 04 nż
-2003	3	220730	19:09:00	19:09:00		Miła bloki 04 nż
-2003	3	220730	19:10:00	19:10:00		Miła szkoła 06 nż
-2003	3	220730	19:10:00	19:10:00		Miła szkoła 06 nż
-2003	3	220730	19:11:00	19:11:00		Kard. K. Wojtyły kościół 05 nż
-2003	3	220730	19:11:00	19:11:00		Kard. K. Wojtyły kościół 05 nż
-2003	3	220730	19:13:00	19:13:00		Kard. K. Wojtyły pętla 03 nż
-2003	3	220730	19:13:00	19:13:00		Kard. K. Wojtyły pętla 03 nż
+1660	3	223412	18:38:00	18:38:00		Dworzec Lokalny
+1660	3	223412	18:38:00	18:38:00		Dworzec Lokalny
+1660	3	223412	18:39:00	18:39:00		Piłsudskiego U. Marszałkowski 07
+1660	3	223412	18:39:00	18:39:00		Piłsudskiego U. Marszałkowski 07
+1660	3	223412	18:40:00	18:40:00		Cieplińskiego 02
+1660	3	223412	18:40:00	18:40:00		Cieplińskiego 02
+1660	3	223412	18:41:00	18:41:00		Lisa-Kuli 01
+1660	3	223412	18:41:00	18:41:00		Lisa-Kuli 01
+1660	3	223412	18:44:00	18:44:00		Kilara 02 nż
+1660	3	223412	18:44:00	18:44:00		Kilara 02 nż
+1660	3	223412	18:46:00	18:46:00		Kopisto U. Skarbowy 03
+1660	3	223412	18:46:00	18:46:00		Kopisto U. Skarbowy 03
+1660	3	223412	18:47:00	18:47:00		Kopisto uniwersytet 01
+1660	3	223412	18:47:00	18:47:00		Kopisto uniwersytet 01
+1660	3	223412	18:48:00	18:48:00		Niepodległości / Rejtana 02
+1660	3	223412	18:48:00	18:48:00		Niepodległości / Rejtana 02
+1660	3	223412	18:49:00	18:49:00		Krzyżanowskiego szkoła 02 nż
+1660	3	223412	18:49:00	18:49:00		Krzyżanowskiego szkoła 02 nż
+1660	3	223412	18:50:00	18:50:00		Krzyżanowskiego / Paderewskiego 03 nż
+1660	3	223412	18:50:00	18:50:00		Krzyżanowskiego / Paderewskiego 03 nż
+1660	3	223412	18:52:00	18:52:00		Armii Krajowej / Powst. Listopad. 06 nż
+1660	3	223412	18:52:00	18:52:00		Armii Krajowej / Powst. Listopad. 06 nż
+1660	3	223412	18:53:00	18:53:00		Paderewskiego / Armii Krajowej 04 nż
+1660	3	223412	18:53:00	18:53:00		Paderewskiego / Armii Krajowej 04 nż
+1660	3	223412	18:54:00	18:54:00		Paderewskiego park 06 nż
+1660	3	223412	18:54:00	18:54:00		Paderewskiego park 06 nż
+1660	3	223412	18:55:00	18:55:00		Paderewskiego kościół 08
+1660	3	223412	18:55:00	18:55:00		Paderewskiego kościół 08
+1660	3	223412	18:57:00	18:57:00		Wieniawskiego / Sulikowskiego 02 nż
+1660	3	223412	18:57:00	18:57:00		Wieniawskiego / Sulikowskiego 02 nż
+1660	3	223412	18:58:00	18:58:00		Wieniawskiego / Niemaszków 04 nż
+1660	3	223412	18:58:00	18:58:00		Wieniawskiego / Niemaszków 04 nż
+1660	3	223412	18:59:00	18:59:00		Wieniawskiego / Karpa 06
+1660	3	223412	18:59:00	18:59:00		Wieniawskiego / Karpa 06
+1660	3	223412	19:00:00	19:00:00		Wieniawskiego działki 08 nż
+1660	3	223412	19:00:00	19:00:00		Wieniawskiego działki 08 nż
+1660	3	223412	19:01:00	19:01:00		Wieniawskiego / Dunikowskiego 10 nż
+1660	3	223412	19:01:00	19:01:00		Wieniawskiego / Dunikowskiego 10 nż
+1660	3	223412	19:02:00	19:02:00		Wieniawskiego / Słonecznikowa 12 nż
+1660	3	223412	19:02:00	19:02:00		Wieniawskiego / Słonecznikowa 12 nż
+1660	3	223412	19:03:00	19:03:00		Łukasiewicza pętla 08
+1660	3	223412	19:03:00	19:03:00		Łukasiewicza pętla 08
+1660	3	223412	19:04:00	19:04:00		Robotnicza / Goździkowa 01 nż
+1660	3	223412	19:04:00	19:04:00		Robotnicza / Goździkowa 01 nż
+1660	3	223412	19:05:00	19:05:00		Strażacka / Sikorskiego 07 nż
+1660	3	223412	19:05:00	19:05:00		Strażacka / Sikorskiego 07 nż
+1660	3	223412	19:06:00	19:06:00		Strażacka / Sympatyczna 05 nż
+1660	3	223412	19:06:00	19:06:00		Strażacka / Sympatyczna 05 nż
+1660	3	223412	19:07:00	19:07:00		Miła / Strażacka 02 nż
+1660	3	223412	19:07:00	19:07:00		Miła / Strażacka 02 nż
+1660	3	223412	19:08:00	19:08:00		Miła bloki 04 nż
+1660	3	223412	19:08:00	19:08:00		Miła bloki 04 nż
+1660	3	223412	19:09:00	19:09:00		Miła szkoła 06 nż
+1660	3	223412	19:09:00	19:09:00		Miła szkoła 06 nż
+1660	3	223412	19:10:00	19:10:00		Kard. K. Wojtyły kościół 05 nż
+1660	3	223412	19:10:00	19:10:00		Kard. K. Wojtyły kościół 05 nż
+1660	3	223412	19:12:00	19:12:00		Kard. K. Wojtyły pętla 03 nż
+1660	3	223412	19:12:00	19:12:00		Kard. K. Wojtyły pętla 03 nż
 
-2004	3	220731	19:45:00	19:45:00		Kard. K. Wojtyły pętla 03 nż
-2004	3	220731	19:45:00	19:45:00		Kard. K. Wojtyły pętla 03 nż
-2004	3	220731	19:46:00	19:46:00		Kard. K. Wojtyły kościół 06 nż
-2004	3	220731	19:46:00	19:46:00		Kard. K. Wojtyły kościół 06 nż
-2004	3	220731	19:47:00	19:47:00		Miła dom kultury 05 nż
-2004	3	220731	19:47:00	19:47:00		Miła dom kultury 05 nż
-2004	3	220731	19:48:00	19:48:00		Miła bloki 03 nż
-2004	3	220731	19:48:00	19:48:00		Miła bloki 03 nż
-2004	3	220731	19:49:00	19:49:00		Miła / Strażacka 01 nż
-2004	3	220731	19:49:00	19:49:00		Miła / Strażacka 01 nż
-2004	3	220731	19:50:00	19:50:00		Strażacka / Sympatyczna 06 nż
-2004	3	220731	19:50:00	19:50:00		Strażacka / Sympatyczna 06 nż
-2004	3	220731	19:51:00	19:51:00		Strażacka / Sikorskiego 08 nż
-2004	3	220731	19:51:00	19:51:00		Strażacka / Sikorskiego 08 nż
-2004	3	220731	19:52:00	19:52:00		Robotnicza / Sikorskiego 02 nż
-2004	3	220731	19:52:00	19:52:00		Robotnicza / Sikorskiego 02 nż
-2004	3	220731	19:53:00	19:53:00		Robotnicza cmentarz 04 nż
-2004	3	220731	19:53:00	19:53:00		Robotnicza cmentarz 04 nż
-2004	3	220731	19:54:00	19:54:00		Łukasiewicza pętla 10
-2004	3	220731	19:54:00	19:54:00		Łukasiewicza pętla 10
-2004	3	220731	19:55:00	19:55:00		Wieniawskiego / Słonecznikowa 11 nż
-2004	3	220731	19:55:00	19:55:00		Wieniawskiego / Słonecznikowa 11 nż
-2004	3	220731	19:56:00	19:56:00		Wieniawskiego / Dunikowskiego 09 nż
-2004	3	220731	19:56:00	19:56:00		Wieniawskiego / Dunikowskiego 09 nż
-2004	3	220731	19:57:00	19:57:00		Wieniawskiego działki 07 nż
-2004	3	220731	19:57:00	19:57:00		Wieniawskiego działki 07 nż
-2004	3	220731	19:58:00	19:58:00		Wieniawskiego / Karpa 05
-2004	3	220731	19:58:00	19:58:00		Wieniawskiego / Karpa 05
-2004	3	220731	19:59:00	19:59:00		Wieniawskiego / Niemaszków 03 nż
-2004	3	220731	19:59:00	19:59:00		Wieniawskiego / Niemaszków 03 nż
-2004	3	220731	20:00:00	20:00:00		Wieniawskiego / Sulikowskiego 01 nż
-2004	3	220731	20:00:00	20:00:00		Wieniawskiego / Sulikowskiego 01 nż
-2004	3	220731	20:02:00	20:02:00		Paderewskiego kościół 05
-2004	3	220731	20:02:00	20:02:00		Paderewskiego kościół 05
-2004	3	220731	20:03:00	20:03:00		Paderewskiego park 03 nż
-2004	3	220731	20:03:00	20:03:00		Paderewskiego park 03 nż
-2004	3	220731	20:04:00	20:04:00		Armii Krajowej / Paderewskiego 08 nż
-2004	3	220731	20:04:00	20:04:00		Armii Krajowej / Paderewskiego 08 nż
-2004	3	220731	20:06:00	20:06:00		Niepodległości / Armii Krajowej 05
-2004	3	220731	20:06:00	20:06:00		Niepodległości / Armii Krajowej 05
-2004	3	220731	20:07:00	20:07:00		Niepodległości / Mieszka I 03 nż
-2004	3	220731	20:07:00	20:07:00		Niepodległości / Mieszka I 03 nż
-2004	3	220731	20:08:00	20:08:00		Niepodległości dom dziecka 01 nż
-2004	3	220731	20:08:00	20:08:00		Niepodległości dom dziecka 01 nż
-2004	3	220731	20:09:00	20:09:00		Kopisto uniwersytet 02
-2004	3	220731	20:09:00	20:09:00		Kopisto uniwersytet 02
-2004	3	220731	20:11:00	20:11:00		Kopisto Most Zamkowy 04
-2004	3	220731	20:11:00	20:11:00		Kopisto Most Zamkowy 04
-2004	3	220731	20:12:00	20:12:00		Kilara 01 nż
-2004	3	220731	20:12:00	20:12:00		Kilara 01 nż
-2004	3	220731	20:14:00	20:14:00		Lisa-Kuli 02
-2004	3	220731	20:14:00	20:14:00		Lisa-Kuli 02
-2004	3	220731	20:15:00	20:15:00		Cieplińskiego 01
-2004	3	220731	20:15:00	20:15:00		Cieplińskiego 01
-2004	3	220731	20:17:00	20:17:00		Piłsudskiego U. Marszałkowski 08
-2004	3	220731	20:17:00	20:17:00		Piłsudskiego U. Marszałkowski 08
-2004	3	220731	20:18:00	20:18:00		Dworzec Lokalny
-2004	3	220731	20:18:00	20:18:00		Dworzec Lokalny
+1659	3	222715	19:45:00	19:45:00		Kard. K. Wojtyły pętla 03 nż
+1659	3	222715	19:45:00	19:45:00		Kard. K. Wojtyły pętla 03 nż
+1659	3	222715	19:46:00	19:46:00		Kard. K. Wojtyły kościół 06 nż
+1659	3	222715	19:46:00	19:46:00		Kard. K. Wojtyły kościół 06 nż
+1659	3	222715	19:47:00	19:47:00		Miła dom kultury 05 nż
+1659	3	222715	19:47:00	19:47:00		Miła dom kultury 05 nż
+1659	3	222715	19:48:00	19:48:00		Miła bloki 03 nż
+1659	3	222715	19:48:00	19:48:00		Miła bloki 03 nż
+1659	3	222715	19:49:00	19:49:00		Miła / Strażacka 01 nż
+1659	3	222715	19:49:00	19:49:00		Miła / Strażacka 01 nż
+1659	3	222715	19:50:00	19:50:00		Strażacka / Sympatyczna 06 nż
+1659	3	222715	19:50:00	19:50:00		Strażacka / Sympatyczna 06 nż
+1659	3	222715	19:51:00	19:51:00		Strażacka / Sikorskiego 08 nż
+1659	3	222715	19:51:00	19:51:00		Strażacka / Sikorskiego 08 nż
+1659	3	222715	19:52:00	19:52:00		Robotnicza / Sikorskiego 02 nż
+1659	3	222715	19:52:00	19:52:00		Robotnicza / Sikorskiego 02 nż
+1659	3	222715	19:53:00	19:53:00		Robotnicza cmentarz 04 nż
+1659	3	222715	19:53:00	19:53:00		Robotnicza cmentarz 04 nż
+1659	3	222715	19:54:00	19:54:00		Łukasiewicza pętla 10
+1659	3	222715	19:54:00	19:54:00		Łukasiewicza pętla 10
+1659	3	222715	19:55:00	19:55:00		Wieniawskiego / Słonecznikowa 11 nż
+1659	3	222715	19:55:00	19:55:00		Wieniawskiego / Słonecznikowa 11 nż
+1659	3	222715	19:56:00	19:56:00		Wieniawskiego / Dunikowskiego 09 nż
+1659	3	222715	19:56:00	19:56:00		Wieniawskiego / Dunikowskiego 09 nż
+1659	3	222715	19:57:00	19:57:00		Wieniawskiego działki 07 nż
+1659	3	222715	19:57:00	19:57:00		Wieniawskiego działki 07 nż
+1659	3	222715	19:58:00	19:58:00		Wieniawskiego / Karpa 05
+1659	3	222715	19:58:00	19:58:00		Wieniawskiego / Karpa 05
+1659	3	222715	19:59:00	19:59:00		Wieniawskiego / Niemaszków 03 nż
+1659	3	222715	19:59:00	19:59:00		Wieniawskiego / Niemaszków 03 nż
+1659	3	222715	20:00:00	20:00:00		Wieniawskiego / Sulikowskiego 01 nż
+1659	3	222715	20:00:00	20:00:00		Wieniawskiego / Sulikowskiego 01 nż
+1659	3	222715	20:02:00	20:02:00		Paderewskiego kościół 05
+1659	3	222715	20:02:00	20:02:00		Paderewskiego kościół 05
+1659	3	222715	20:03:00	20:03:00		Paderewskiego park 03 nż
+1659	3	222715	20:03:00	20:03:00		Paderewskiego park 03 nż
+1659	3	222715	20:05:00	20:05:00		Armii Krajowej / Mieszka I 05 nż
+1659	3	222715	20:05:00	20:05:00		Armii Krajowej / Mieszka I 05 nż
+1659	3	222715	20:06:00	20:06:00		Krzyżanowskiego / Armii Krajowej 04 nż
+1659	3	222715	20:06:00	20:06:00		Krzyżanowskiego / Armii Krajowej 04 nż
+1659	3	222715	20:07:00	20:07:00		Krzyżanowskiego szkoła 01 nż
+1659	3	222715	20:07:00	20:07:00		Krzyżanowskiego szkoła 01 nż
+1659	3	222715	20:09:00	20:09:00		Kopisto uniwersytet 02
+1659	3	222715	20:09:00	20:09:00		Kopisto uniwersytet 02
+1659	3	222715	20:11:00	20:11:00		Kopisto Most Zamkowy 04
+1659	3	222715	20:11:00	20:11:00		Kopisto Most Zamkowy 04
+1659	3	222715	20:12:00	20:12:00		Kilara 01 nż
+1659	3	222715	20:12:00	20:12:00		Kilara 01 nż
+1659	3	222715	20:14:00	20:14:00		Lisa-Kuli 02
+1659	3	222715	20:14:00	20:14:00		Lisa-Kuli 02
+1659	3	222715	20:15:00	20:15:00		Cieplińskiego 01
+1659	3	222715	20:15:00	20:15:00		Cieplińskiego 01
+1659	3	222715	20:17:00	20:17:00		Piłsudskiego U. Marszałkowski 08
+1659	3	222715	20:17:00	20:17:00		Piłsudskiego U. Marszałkowski 08
+1659	3	222715	20:18:00	20:18:00		Dworzec Lokalny
+1659	3	222715	20:18:00	20:18:00		Dworzec Lokalny

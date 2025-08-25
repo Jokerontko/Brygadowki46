@@ -249,7 +249,6 @@
     </header>
 
     <h1>Pojazdy LIVE</h1>
-    <p style="margin: 0px 0px 15px 0px;">Dostęp testowy</p>
 
     <div id="filtrowanie" style="width: 70%; text-align: center;">
 
@@ -274,25 +273,37 @@
         </tbody>
     </table>
 
-    <table id="wykazstrony" style="width: 90%;">
+    <table id="wykazstronyKRK" style="width: 90%; display: none;">
         <thead>
             <tr>
                 <th>Numer Autobusu</th>
+                <th>Kierunek</th>
+                <th>Ostatnio LIVE</th>
+            </tr>
+        </thead>
+        <tbody id="dane-wykazKRK">
+            <!-- Wiersze zostaną dodane automatycznie -->
+        </tbody>
+    </table>
+
+
+    <table id="wykazstrony" style="width: auto;">
+        <thead>
+            <tr>
+                <th>Numer <br> Autobusu</th>
                 <th>Brygada</th>
                 <th style="display: none;">Model Autobusu</th>
                 <th>Opóźnienie</th>
-                <th>Numer Linii</th>
-                <th>Kierunek</th>
+                <th style="border-right: none;"> Linia</th>
+                <th style="border-left: none;">Kierunek</th>
                 <th style="display: none;">Następny kierunek</th>
-                <th>Godzina odjazdu</th>
+                <th style="display: none;">Godzina <br> odjazdu</th>
             </tr>
         </thead>
         <tbody id="dane-wykaz">
             <!-- Wiersze zostaną dodane automatycznie -->
         </tbody>
     </table>
-
-
 
 
 
@@ -687,11 +698,11 @@
                             color = "#a80000";
                         }
 
-                        const formattedTimeReal = `<span style="color: ${color}">${formattedDelay}</span>`;
+                        let formattedTimeReal = `<span style="color: ${color}">${formattedDelay}</span>`;
 
                         if ((!nr || nr.trim() === '') && (!op || op.trim() === '') && (!p || p.trim() === '')) {
                             if (nop && nop.trim() !== '') {
-                                op = `<span style="color: gray">${nop}</span>`;
+                                op = `<span style="color: grey">${nop}</span>`;
                             }
                             if (nnr && nnr.trim() !== '') {
                                 nr = `<span style="color: gray">${nnr}</span>`;
@@ -710,7 +721,11 @@
                             const hours = now.getHours().toString().padStart(2, '0');
                             const mins = now.getMinutes().toString().padStart(2, '0');
                             p = `${hours}:${mins}`;
+
+                            // >>> tu dopisujemy p przed formattedTimeReal
+                            formattedTimeReal = `${p} <br> ${formattedTimeReal}`;
                         }
+
 
                         const nbNum = parseInt(nb, 10);
                         const matched = modelMap.find(entry => !entry.isCategory && entry.entries.includes(nbNum));
@@ -730,10 +745,11 @@
 <td style="display: none;">${model}</td>
 <td>${brygada}</td>
 <td>${formattedTimeReal}</td>
-<td>${nr}</td>
-<td>${formattedOp}</td>
+<td style="border: 1px solid white; border-right: none; font-size: 20px;">${nr}</td>
+<td style="border: 1px solid white; border-left: none;">${formattedOp}</td>
+
 <td style="display: none;">${nop}</td>
-<td>${p}</td>
+<td style="display: none;">${p}</td>
 `;
 
                         tbody.appendChild(row);
@@ -1237,6 +1253,61 @@
                 console.error("Błąd podczas ładowania danych:", error);
             }
         });
+
+
+
+
+
+
+
+
+
+        function loadVehicleData() {
+            fetch('/api/vehiclesKrk') // Twój endpoint z backendu
+                .then(response => response.text())
+                .then(htmlString => {
+                    const parser = new DOMParser();
+                    const doc = parser.parseFromString(htmlString, 'text/html');
+
+                    const tables = doc.querySelectorAll('table');
+                    const vehicleTable = tables[2]; // trzecia tabela
+
+                    if (!vehicleTable) {
+                        console.error('Nie znaleziono trzeciej tabeli');
+                        return;
+                    }
+
+                    const rows = vehicleTable.querySelectorAll('tbody tr');
+                    const tbody = document.getElementById('dane-wykazKRK');
+                    tbody.innerHTML = ''; // wyczyść poprzednie dane
+
+                    rows.forEach(row => {
+                        const cells = row.querySelectorAll('td');
+                        if (cells.length >= 3) {
+                            const tr = document.createElement('tr');
+
+                            const tdNumber = document.createElement('td');
+                            tdNumber.textContent = cells[0].textContent.trim().replace(/\s+/g, ' ');
+                            tr.appendChild(tdNumber);
+
+                            const tdDirection = document.createElement('td');
+                            tdDirection.textContent = cells[1].textContent.trim();
+                            tr.appendChild(tdDirection);
+
+                            const tdLastSeen = document.createElement('td');
+                            tdLastSeen.textContent = cells[2].textContent.trim();
+                            tr.appendChild(tdLastSeen);
+
+                            tbody.appendChild(tr);
+                        }
+                    });
+                })
+                .catch(error => {
+                    console.error('Błąd ładowania danych:', error);
+                });
+        }
+
+        window.addEventListener('DOMContentLoaded', loadVehicleData);
 
     </script>
 

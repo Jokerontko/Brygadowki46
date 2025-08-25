@@ -1,477 +1,487 @@
 route_id	service_id	trip_id	arrival_time	departure_time	stop_headsign	stop_name
 -------------------------------------------------------------------------------
-1918	2	220966	04:20:00	04:20:00		Lubelska kościół 05 nż
-1918	2	220966	04:21:00	04:21:00		Lubelska szpital 01
-1918	2	220966	04:22:00	04:22:00		Marszałkowska 01
-1918	2	220966	04:24:00	04:24:00		Cieplińskiego 02
-1918	2	220966	04:25:00	04:25:00		Lisa-Kuli 01
-1918	2	220966	04:27:00	04:27:00		Hetmańska podzamcze 02 nż
-1918	2	220966	04:28:00	04:28:00		Hetmańska przychodnia 04
-1918	2	220966	04:29:00	04:29:00		Hetmańska ZS. Mech. 06
-1918	2	220966	04:31:00	04:31:00		Powst. Warszawy stadion 06
-1918	2	220966	04:33:00	04:33:00		Powst. Warszawy dom studenta 08
-1918	2	220966	04:34:00	04:34:00		Powst. Warszawy / Graniczna 10
-1918	2	220966	04:35:00	04:35:00		Powst. Warszawy / Sikorskiego 12 nż
-1918	2	220966	04:36:00	04:36:00		Sikorskiego katedra 04 nż
-1918	2	220966	04:37:00	04:37:00		Sikorskiego / Łukasiewicza 06 nż
-1918	2	220966	04:38:00	04:38:00		Sikorskiego domki 08 nż
-1918	2	220966	04:39:00	04:39:00		Strażacka / Sikorskiego 07 nż
-1918	2	220966	04:40:00	04:40:00		Strażacka / Sympatyczna 05 nż
-1918	2	220966	04:41:00	04:41:00		Miła / Strażacka 02 nż
-1918	2	220966	04:42:00	04:42:00		Miła bloki 04 nż
-1918	2	220966	04:43:00	04:43:00		Miła szkoła 06 nż
-1918	2	220966	04:44:00	04:44:00		Kard. K. Wojtyły kościół 05 nż
-1918	2	220966	04:46:00	04:46:00		Kard. K. Wojtyły pętla 03 nż
-1918	2	220966	04:47:00	04:47:00		Kard. K .Wojtyły / Sikorskiego 01 nż
-1918	2	220966	04:48:00	04:48:00		Sikorskiego / Kard. K. Wojtyły 16 nż
-1918	2	220966	04:49:00	04:49:00		Sikorskiego granica 18 nż
-1918	2	220966	04:51:00	04:51:00		Sikorskiego MPGK 20
+1918	2	222637	04:20:00	04:20:00		Lubelska kościół 05 nż
+1918	2	222637	04:21:00	04:21:00		Lubelska szpital 01
+1918	2	222637	04:22:00	04:22:00		Marszałkowska 01
+1918	2	222637	04:24:00	04:24:00		Cieplińskiego 02
+1918	2	222637	04:25:00	04:25:00		Lisa-Kuli 01
+1918	2	222637	04:27:00	04:27:00		Hetmańska podzamcze 02 nż
+1918	2	222637	04:28:00	04:28:00		Hetmańska przychodnia 04
+1918	2	222637	04:29:00	04:29:00		Hetmańska ZS. Mech. 06
+1918	2	222637	04:31:00	04:31:00		Powst. Warszawy stadion 06
+1918	2	222637	04:33:00	04:33:00		Powst. Warszawy dom studenta 08
+1918	2	222637	04:34:00	04:34:00		Powst. Warszawy / Graniczna 10
+1918	2	222637	04:35:00	04:35:00		Powst. Warszawy / Sikorskiego 12 nż
+1918	2	222637	04:36:00	04:36:00		Sikorskiego katedra 04 nż
+1918	2	222637	04:37:00	04:37:00		Sikorskiego / Łukasiewicza 06 nż
+1918	2	222637	04:38:00	04:38:00		Sikorskiego domki 08 nż
+1918	2	222637	04:39:00	04:39:00		Strażacka / Sikorskiego 07 nż
+1918	2	222637	04:40:00	04:40:00		Strażacka / Sympatyczna 05 nż
+1918	2	222637	04:41:00	04:41:00		Miła / Strażacka 02 nż
+1918	2	222637	04:42:00	04:42:00		Miła bloki 04 nż
+1918	2	222637	04:43:00	04:43:00		Miła szkoła 06 nż
+1918	2	222637	04:44:00	04:44:00		Kard. K. Wojtyły kościół 05 nż
+1918	2	222637	04:46:00	04:46:00		Kard. K. Wojtyły pętla 03 nż
+1918	2	222637	04:47:00	04:47:00		Kard. K .Wojtyły / Sikorskiego 01 nż
+1918	2	222637	04:48:00	04:48:00		Sikorskiego / Kard. K. Wojtyły 16 nż
+1918	2	222637	04:49:00	04:49:00		Sikorskiego granica 18 nż
+1918	2	222637	04:51:00	04:51:00		Sikorskiego MPGK 20
 
-1901	2	220967	05:28:00	05:28:00		Sikorskiego MPGK 20
-1901	2	220967	05:29:00	05:29:00		Sikorskiego granica 15 nż
-1901	2	220967	05:30:00	05:30:00		Sikorskiego / Ruczajowa 13 nż
-1901	2	220967	05:31:00	05:31:00		Kard. K. Wojtyły / Sikorskiego 02 nż
-1901	2	220967	05:33:00	05:33:00		Kard. K. Wojtyły pętla 04 nż
-1901	2	220967	05:34:00	05:34:00		Kard. K. Wojtyły kościół 06 nż
-1901	2	220967	05:36:00	05:36:00		Miła dom kultury 05 nż
-1901	2	220967	05:37:00	05:37:00		Miła bloki 03 nż
-1901	2	220967	05:38:00	05:38:00		Miła / Strażacka 01 nż
-1901	2	220967	05:39:00	05:39:00		Strażacka / Urocza 03 nż
-1901	2	220967	05:40:00	05:40:00		Strażacka / Graniczna 01 nż
-1901	2	220967	05:41:00	05:41:00		Kwiatkowskiego / Strażacka 03 nż
-1901	2	220967	05:43:00	05:43:00		Kwiatkowskiego dom studenta 01 nż
-1901	2	220967	05:45:00	05:45:00		Podwisłocze / Powst. Warszawy 02
-1901	2	220967	05:46:00	05:46:00		Podwisłocze / Seniora 04
-1901	2	220967	05:48:00	05:48:00		Kopisto Most Zamkowy 04
-1901	2	220967	05:49:00	05:49:00		Szopena Filharmonia 01 nż
-1901	2	220967	05:50:00	05:50:00		Targowa 02
-1901	2	220967	05:52:00	05:52:00		Pl. Wolności 04
-1901	2	220967	05:53:00	05:53:00		Piłsudskiego U. Wojewódzki 06
-1901	2	220967	05:56:00	05:56:00		Marszałkowska 02
-1901	2	220967	05:57:00	05:57:00		Lubelska szpital 02
-1901	2	220967	05:58:00	05:58:00		Lubelska kościół 06 nż
-1901	2	220967	05:59:00	05:59:00		Lubelska / Borowa 08 nż
-1901	2	220967	06:00:00	06:00:00		Lubelska Os. Ogrody 10 nż
-1901	2	220967	06:01:00	06:01:00		Lubelska Ogrody Hiszpańskie 12 nż
-1901	2	220967	06:02:00	06:02:00		Lubelska MPK 14 nż
-1901	2	220967	06:03:00	06:03:00		Lubelska Zajezdnia MPK
+1901	2	222575	05:28:00	05:28:00		Sikorskiego MPGK 20
+1901	2	222575	05:29:00	05:29:00		Sikorskiego granica 15 nż
+1901	2	222575	05:30:00	05:30:00		Sikorskiego / Ruczajowa 13 nż
+1901	2	222575	05:31:00	05:31:00		Kard. K. Wojtyły / Sikorskiego 02 nż
+1901	2	222575	05:33:00	05:33:00		Kard. K. Wojtyły pętla 04 nż
+1901	2	222575	05:34:00	05:34:00		Kard. K. Wojtyły kościół 06 nż
+1901	2	222575	05:36:00	05:36:00		Miła dom kultury 05 nż
+1901	2	222575	05:37:00	05:37:00		Miła bloki 03 nż
+1901	2	222575	05:38:00	05:38:00		Miła / Strażacka 01 nż
+1901	2	222575	05:39:00	05:39:00		Strażacka / Urocza 03 nż
+1901	2	222575	05:40:00	05:40:00		Strażacka / Graniczna 01 nż
+1901	2	222575	05:41:00	05:41:00		Kwiatkowskiego / Strażacka 03 nż
+1901	2	222575	05:43:00	05:43:00		Kwiatkowskiego dom studenta 01 nż
+1901	2	222575	05:45:00	05:45:00		Podwisłocze / Powst. Warszawy 02
+1901	2	222575	05:46:00	05:46:00		Podwisłocze / Seniora 04
+1901	2	222575	05:48:00	05:48:00		Kopisto Most Zamkowy 04
+1901	2	222575	05:49:00	05:49:00		Szopena Filharmonia 01 nż
+1901	2	222575	05:50:00	05:50:00		Targowa 02
+1901	2	222575	05:52:00	05:52:00		Pl. Wolności 04
+1901	2	222575	05:53:00	05:53:00		Piłsudskiego U. Wojewódzki 06
+1901	2	222575	05:56:00	05:56:00		Marszałkowska 02
+1901	2	222575	05:57:00	05:57:00		Lubelska szpital 02
+1901	2	222575	05:58:00	05:58:00		Lubelska kościół 06 nż
+1901	2	222575	05:59:00	05:59:00		Lubelska / Borowa 08 nż
+1901	2	222575	06:00:00	06:00:00		Lubelska Os. Ogrody 10 nż
+1901	2	222575	06:01:00	06:01:00		Lubelska Ogrody Hiszpańskie 12 nż
+1901	2	222575	06:02:00	06:02:00		Lubelska MPK 14 nż
+1901	2	222575	06:03:00	06:03:00		Lubelska Zajezdnia MPK
 
-2009	2	220968	06:54:00	06:54:00		Ustrzycka / Magórska 07
-2009	2	220968	06:55:00	06:55:00		Ustrzycka 05 nż
-2009	2	220968	06:56:00	06:56:00		Ustrzycka / Wadowicka 03 nż
-2009	2	220968	06:57:00	06:57:00		Ustrzycka pętla 01 nż
-2009	2	220968	06:58:00	06:58:00		Sanocka / Krośnieńska 02 nż
-2009	2	220968	06:59:00	06:59:00		Bł. Karoliny / Sanocka 03 nż
-2009	2	220968	07:00:00	07:00:00		Bł. Karoliny / Strzyżowska 01 nż
-2009	2	220968	07:01:00	07:01:00		Wiktora park 01 nż
-2009	2	220968	07:02:00	07:02:00		Solarza 01 nż
-2009	2	220968	07:05:00	07:05:00		Witosa jedn. wojskowa 08 nż
-2009	2	220968	07:07:00	07:07:00		Krakowska jedn. wojskowa 01
-2009	2	220968	07:09:00	07:09:00		Piłsudskiego U. Wojewódzki 05
-2009	2	220968	07:10:00	07:10:00		Pl. Wolności 03
-2009	2	220968	07:11:00	07:11:00		Targowa 01
-2009	2	220968	07:14:00	07:14:00		Szopena Filharmonia 02 nż
-2009	2	220968	07:15:00	07:15:00		Kilara 01 nż
-2009	2	220968	07:17:00	07:17:00		Hetmańska podzamcze 02 nż
-2009	2	220968	07:18:00	07:18:00		Hetmańska przychodnia 04
-2009	2	220968	07:19:00	07:19:00		Hetmańska ZS. Mech. 06
-2009	2	220968	07:22:00	07:22:00		Powst. Warszawy stadion 06
-2009	2	220968	07:24:00	07:24:00		Powst. Warszawy dom studenta 08
-2009	2	220968	07:25:00	07:25:00		Powst. Warszawy / Graniczna 10
-2009	2	220968	07:26:00	07:26:00		Powst. Warszawy / Sikorskiego 12 nż
-2009	2	220968	07:27:00	07:27:00		Armii Krajowej Park Papieski 02 nż
-2009	2	220968	07:28:00	07:28:00		Armii Krajowej hotel 04 nż
-2009	2	220968	07:29:00	07:29:00		Armii Krajowej / Powst. Listopad. 06 nż
-2009	2	220968	07:30:00	07:30:00		Paderewskiego / Armii Krajowej 04 nż
-2009	2	220968	07:31:00	07:31:00		Paderewskiego park 06 nż
-2009	2	220968	07:32:00	07:32:00		Paderewskiego kościół 08
-2009	2	220968	07:34:00	07:34:00		Słocińska szkoła 02 nż
-2009	2	220968	07:35:00	07:35:00		Słocińska cmentarz 04 nż
-2009	2	220968	07:36:00	07:36:00		Słocińska / Niedziochy 06 nż
-2009	2	220968	07:37:00	07:37:00		Słocińska / Pileckich 08 nż
-2009	2	220968	07:38:00	07:38:00		Słocińska / Rodziny Lutaków 10 nż
-2009	2	220968	07:39:00	07:39:00		Słocińska pętla 11 nż
+1909	2	222328	06:54:00	06:54:00		Ustrzycka / Magórska 07
+1909	2	222328	06:55:00	06:55:00		Ustrzycka 05 nż
+1909	2	222328	06:56:00	06:56:00		Ustrzycka / Wadowicka 03 nż
+1909	2	222328	06:57:00	06:57:00		Ustrzycka pętla 01 nż
+1909	2	222328	06:58:00	06:58:00		Sanocka / Krośnieńska 02 nż
+1909	2	222328	06:59:00	06:59:00		Bł. Karoliny / Sanocka 03 nż
+1909	2	222328	07:00:00	07:00:00		Bł. Karoliny / Strzyżowska 01 nż
+1909	2	222328	07:01:00	07:01:00		Wiktora park 01 nż
+1909	2	222328	07:02:00	07:02:00		Solarza 01 nż
+1909	2	222328	07:05:00	07:05:00		Witosa jedn. wojskowa 08 nż
+1909	2	222328	07:07:00	07:07:00		Krakowska jedn. wojskowa 01
+1909	2	222328	07:09:00	07:09:00		Piłsudskiego U. Wojewódzki 05
+1909	2	222328	07:10:00	07:10:00		Pl. Wolności 03
+1909	2	222328	07:11:00	07:11:00		Targowa 01
+1909	2	222328	07:14:00	07:14:00		Szopena Filharmonia 02 nż
+1909	2	222328	07:15:00	07:15:00		Kilara 01 nż
+1909	2	222328	07:17:00	07:17:00		Hetmańska podzamcze 02 nż
+1909	2	222328	07:18:00	07:18:00		Hetmańska przychodnia 04
+1909	2	222328	07:19:00	07:19:00		Hetmańska ZS. Mech. 06
+1909	2	222328	07:22:00	07:22:00		Powst. Warszawy stadion 06
+1909	2	222328	07:24:00	07:24:00		Powst. Warszawy dom studenta 08
+1909	2	222328	07:25:00	07:25:00		Powst. Warszawy / Graniczna 10
+1909	2	222328	07:28:00	07:28:00		Rejtana / Armii Krajowej 12
+1909	2	222328	07:29:00	07:29:00		Rejtana / Paderewskiego 10
+1909	2	222328	07:31:00	07:31:00		Paderewskiego / Ossolińskich 02 nż
+1909	2	222328	07:32:00	07:32:00		Krzyżanowskiego / Paderewskiego 03 nż
+1909	2	222328	07:34:00	07:34:00		Armii Krajowej / Powst. Listopad. 06 nż
+1909	2	222328	07:35:00	07:35:00		Paderewskiego / Armii Krajowej 04 nż
+1909	2	222328	07:36:00	07:36:00		Paderewskiego park 06 nż
+1909	2	222328	07:37:00	07:37:00		Paderewskiego kościół 08
+1909	2	222328	07:39:00	07:39:00		Słocińska szkoła 02 nż
+1909	2	222328	07:40:00	07:40:00		Słocińska cmentarz 04 nż
+1909	2	222328	07:41:00	07:41:00		Słocińska / Niedziochy 06 nż
+1909	2	222328	07:42:00	07:42:00		Słocińska / Pileckich 08 nż
+1909	2	222328	07:43:00	07:43:00		Słocińska / Rodziny Lutaków 10 nż
+1909	2	222328	07:44:00	07:44:00		Słocińska pętla 11 nż
 
-2006	2	220969	08:15:00	08:15:00		Słocińska pętla 11 nż
-2006	2	220969	08:16:00	08:16:00		Słocińska / Rodziny Lutaków 09 nż
-2006	2	220969	08:17:00	08:17:00		Słocińska / Pileckich 07 nż
-2006	2	220969	08:18:00	08:18:00		Słocińska / Niedziochy 05 nż
-2006	2	220969	08:19:00	08:19:00		Słocińska cmentarz 03 nż
-2006	2	220969	08:20:00	08:20:00		Słocińska szkoła 01 nż
-2006	2	220969	08:22:00	08:22:00		Paderewskiego kościół 05
-2006	2	220969	08:23:00	08:23:00		Paderewskiego park 03 nż
-2006	2	220969	08:26:00	08:26:00		Armii Krajowej / Mieszka I 05 nż
-2006	2	220969	08:27:00	08:27:00		Armii Krajowej / Krzyżanowskiego 03 nż
-2006	2	220969	08:28:00	08:28:00		Armii Krajowej hotel 01 nż
-2006	2	220969	08:30:00	08:30:00		Powst. Warszawy / Rejtana 13
-2006	2	220969	08:31:00	08:31:00		Powst. Warszawy szkoła 11
-2006	2	220969	08:32:00	08:32:00		Powst. Warszawy dom studenta 09
-2006	2	220969	08:34:00	08:34:00		Powst. Warszawy stadion 05 nż
-2006	2	220969	08:35:00	08:35:00		Hetmańska stadion 07
-2006	2	220969	08:36:00	08:36:00		Hetmańska ZS. Mech. 05
-2006	2	220969	08:37:00	08:37:00		Hetmańska przychodnia 03
-2006	2	220969	08:38:00	08:38:00		Hetmańska podzamcze 01 nż
-2006	2	220969	08:39:00	08:39:00		Kilara 02 nż
-2006	2	220969	08:41:00	08:41:00		Szopena Filharmonia 01 nż
-2006	2	220969	08:43:00	08:43:00		Targowa 02
-2006	2	220969	08:46:00	08:46:00		Pl. Wolności 04
-2006	2	220969	08:49:00	08:49:00		Piłsudskiego U. Marszałkowski 08
-2006	2	220969	08:51:00	08:51:00		Krakowska jedn. wojskowa 02
-2006	2	220969	08:53:00	08:53:00		Witosa / Solarza 07 nż
-2006	2	220969	08:55:00	08:55:00		Solarza 02 nż
-2006	2	220969	08:57:00	08:57:00		Wiktora / Stojałowskiego 04 nż
-2006	2	220969	08:58:00	08:58:00		Bł. Karoliny / Strzyżowska 02 nż
-2006	2	220969	08:59:00	08:59:00		Sanocka / Krośnieńska 01 nż
-2006	2	220969	09:00:00	09:00:00		Ustrzycka pętla 02 nż
+1856	2	223020	08:15:00	08:15:00		Słocińska pętla 11 nż
+1856	2	223020	08:16:00	08:16:00		Słocińska / Rodziny Lutaków 09 nż
+1856	2	223020	08:17:00	08:17:00		Słocińska / Pileckich 07 nż
+1856	2	223020	08:18:00	08:18:00		Słocińska / Niedziochy 05 nż
+1856	2	223020	08:19:00	08:19:00		Słocińska cmentarz 03 nż
+1856	2	223020	08:20:00	08:20:00		Słocińska szkoła 01 nż
+1856	2	223020	08:22:00	08:22:00		Paderewskiego kościół 05
+1856	2	223020	08:23:00	08:23:00		Paderewskiego park 03 nż
+1856	2	223020	08:26:00	08:26:00		Armii Krajowej / Mieszka I 05 nż
+1856	2	223020	08:27:00	08:27:00		Krzyżanowskiego / Armii Krajowej 04 nż
+1856	2	223020	08:28:00	08:28:00		Paderewskiego / Ossolińskich 01 nż
+1856	2	223020	08:29:00	08:29:00		Rejtana / Popiełuszki 09
+1856	2	223020	08:32:00	08:32:00		Powst. Warszawy / Rejtana 13
+1856	2	223020	08:33:00	08:33:00		Powst. Warszawy szkoła 11
+1856	2	223020	08:34:00	08:34:00		Powst. Warszawy dom studenta 09
+1856	2	223020	08:36:00	08:36:00		Powst. Warszawy stadion 05 nż
+1856	2	223020	08:37:00	08:37:00		Hetmańska stadion 07
+1856	2	223020	08:38:00	08:38:00		Hetmańska ZS. Mech. 05
+1856	2	223020	08:39:00	08:39:00		Hetmańska przychodnia 03
+1856	2	223020	08:40:00	08:40:00		Hetmańska podzamcze 01 nż
+1856	2	223020	08:41:00	08:41:00		Kilara 02 nż
+1856	2	223020	08:43:00	08:43:00		Szopena Filharmonia 01 nż
+1856	2	223020	08:45:00	08:45:00		Targowa 02
+1856	2	223020	08:48:00	08:48:00		Pl. Wolności 04
+1856	2	223020	08:51:00	08:51:00		Piłsudskiego U. Marszałkowski 08
+1856	2	223020	08:53:00	08:53:00		Krakowska jedn. wojskowa 02
+1856	2	223020	08:55:00	08:55:00		Witosa / Solarza 07 nż
+1856	2	223020	08:57:00	08:57:00		Solarza 02 nż
+1856	2	223020	08:59:00	08:59:00		Wiktora / Stojałowskiego 04 nż
+1856	2	223020	09:00:00	09:00:00		Bł. Karoliny / Strzyżowska 02 nż
+1856	2	223020	09:01:00	09:01:00		Sanocka / Krośnieńska 01 nż
+1856	2	223020	09:02:00	09:02:00		Ustrzycka pętla 02 nż
 
-2014	2	220970	09:27:00	09:27:00		Ustrzycka pętla 01 nż
-2014	2	220970	09:28:00	09:28:00		Sanocka / Krośnieńska 02 nż
-2014	2	220970	09:29:00	09:29:00		Bł. Karoliny / Sanocka 03 nż
-2014	2	220970	09:30:00	09:30:00		Bł. Karoliny / Strzyżowska 01 nż
-2014	2	220970	09:31:00	09:31:00		Wiktora park 01 nż
-2014	2	220970	09:32:00	09:32:00		Solarza 01 nż
-2014	2	220970	09:35:00	09:35:00		Witosa jedn. wojskowa 08 nż
-2014	2	220970	09:37:00	09:37:00		Krakowska jedn. wojskowa 01
-2014	2	220970	09:40:00	09:40:00		Piłsudskiego U. Wojewódzki 05
-2014	2	220970	09:41:00	09:41:00		Pl. Wolności 03
-2014	2	220970	09:43:00	09:43:00		Targowa 01
-2014	2	220970	09:45:00	09:45:00		Szopena Filharmonia 02 nż
-2014	2	220970	09:46:00	09:46:00		Kilara 01 nż
-2014	2	220970	09:48:00	09:48:00		Hetmańska podzamcze 02 nż
-2014	2	220970	09:49:00	09:49:00		Hetmańska przychodnia 04
-2014	2	220970	09:50:00	09:50:00		Hetmańska ZS. Mech. 06
-2014	2	220970	09:53:00	09:53:00		Powst. Warszawy stadion 06
-2014	2	220970	09:55:00	09:55:00		Powst. Warszawy dom studenta 08
-2014	2	220970	09:56:00	09:56:00		Powst. Warszawy / Graniczna 10
-2014	2	220970	09:57:00	09:57:00		Powst. Warszawy / Sikorskiego 12 nż
-2014	2	220970	09:58:00	09:58:00		Armii Krajowej Park Papieski 02 nż
-2014	2	220970	09:59:00	09:59:00		Armii Krajowej hotel 04 nż
-2014	2	220970	10:00:00	10:00:00		Armii Krajowej / Powst. Listopad. 06 nż
-2014	2	220970	10:01:00	10:01:00		Paderewskiego / Armii Krajowej 04 nż
-2014	2	220970	10:02:00	10:02:00		Paderewskiego park 06 nż
-2014	2	220970	10:03:00	10:03:00		Paderewskiego kościół 08
-2014	2	220970	10:05:00	10:05:00		Słocińska szkoła 02 nż
-2014	2	220970	10:06:00	10:06:00		Słocińska cmentarz 04 nż
-2014	2	220970	10:07:00	10:07:00		Słocińska / Niedziochy 06 nż
-2014	2	220970	10:08:00	10:08:00		Słocińska / Pileckich 08 nż
-2014	2	220970	10:09:00	10:09:00		Słocińska / Rodziny Lutaków 10 nż
-2014	2	220970	10:10:00	10:10:00		Słocińska pętla 11 nż
+1956	2	222255	09:27:00	09:27:00		Ustrzycka pętla 01 nż
+1956	2	222255	09:28:00	09:28:00		Sanocka / Krośnieńska 02 nż
+1956	2	222255	09:29:00	09:29:00		Bł. Karoliny / Sanocka 03 nż
+1956	2	222255	09:30:00	09:30:00		Bł. Karoliny / Strzyżowska 01 nż
+1956	2	222255	09:31:00	09:31:00		Wiktora park 01 nż
+1956	2	222255	09:32:00	09:32:00		Solarza 01 nż
+1956	2	222255	09:35:00	09:35:00		Witosa jedn. wojskowa 08 nż
+1956	2	222255	09:37:00	09:37:00		Krakowska jedn. wojskowa 01
+1956	2	222255	09:40:00	09:40:00		Piłsudskiego U. Wojewódzki 05
+1956	2	222255	09:41:00	09:41:00		Pl. Wolności 03
+1956	2	222255	09:43:00	09:43:00		Targowa 01
+1956	2	222255	09:45:00	09:45:00		Szopena Filharmonia 02 nż
+1956	2	222255	09:46:00	09:46:00		Kilara 01 nż
+1956	2	222255	09:48:00	09:48:00		Hetmańska podzamcze 02 nż
+1956	2	222255	09:49:00	09:49:00		Hetmańska przychodnia 04
+1956	2	222255	09:50:00	09:50:00		Hetmańska ZS. Mech. 06
+1956	2	222255	09:53:00	09:53:00		Powst. Warszawy stadion 06
+1956	2	222255	09:55:00	09:55:00		Powst. Warszawy dom studenta 08
+1956	2	222255	09:56:00	09:56:00		Powst. Warszawy / Graniczna 10
+1956	2	222255	09:59:00	09:59:00		Rejtana / Armii Krajowej 12
+1956	2	222255	10:00:00	10:00:00		Rejtana / Paderewskiego 10
+1956	2	222255	10:02:00	10:02:00		Paderewskiego / Ossolińskich 02 nż
+1956	2	222255	10:03:00	10:03:00		Krzyżanowskiego / Paderewskiego 03 nż
+1956	2	222255	10:05:00	10:05:00		Armii Krajowej / Powst. Listopad. 06 nż
+1956	2	222255	10:06:00	10:06:00		Paderewskiego / Armii Krajowej 04 nż
+1956	2	222255	10:07:00	10:07:00		Paderewskiego park 06 nż
+1956	2	222255	10:08:00	10:08:00		Paderewskiego kościół 08
+1956	2	222255	10:10:00	10:10:00		Słocińska szkoła 02 nż
+1956	2	222255	10:11:00	10:11:00		Słocińska cmentarz 04 nż
+1956	2	222255	10:12:00	10:12:00		Słocińska / Niedziochy 06 nż
+1956	2	222255	10:13:00	10:13:00		Słocińska / Pileckich 08 nż
+1956	2	222255	10:14:00	10:14:00		Słocińska / Rodziny Lutaków 10 nż
+1956	2	222255	10:15:00	10:15:00		Słocińska pętla 11 nż
 
-2011	2	220971	10:45:00	10:45:00		Słocińska pętla 11 nż
-2011	2	220971	10:46:00	10:46:00		Słocińska / Rodziny Lutaków 09 nż
-2011	2	220971	10:47:00	10:47:00		Słocińska / Pileckich 07 nż
-2011	2	220971	10:48:00	10:48:00		Słocińska / Niedziochy 05 nż
-2011	2	220971	10:49:00	10:49:00		Słocińska cmentarz 03 nż
-2011	2	220971	10:50:00	10:50:00		Słocińska szkoła 01 nż
-2011	2	220971	10:52:00	10:52:00		Paderewskiego kościół 05
-2011	2	220971	10:53:00	10:53:00		Paderewskiego park 03 nż
-2011	2	220971	10:56:00	10:56:00		Armii Krajowej / Mieszka I 05 nż
-2011	2	220971	10:57:00	10:57:00		Armii Krajowej / Krzyżanowskiego 03 nż
-2011	2	220971	10:58:00	10:58:00		Armii Krajowej hotel 01 nż
-2011	2	220971	11:00:00	11:00:00		Powst. Warszawy / Rejtana 13
-2011	2	220971	11:01:00	11:01:00		Powst. Warszawy szkoła 11
-2011	2	220971	11:02:00	11:02:00		Powst. Warszawy dom studenta 09
-2011	2	220971	11:04:00	11:04:00		Powst. Warszawy stadion 05 nż
-2011	2	220971	11:05:00	11:05:00		Hetmańska stadion 07
-2011	2	220971	11:06:00	11:06:00		Hetmańska ZS. Mech. 05
-2011	2	220971	11:07:00	11:07:00		Hetmańska przychodnia 03
-2011	2	220971	11:08:00	11:08:00		Hetmańska podzamcze 01 nż
-2011	2	220971	11:09:00	11:09:00		Kilara 02 nż
-2011	2	220971	11:11:00	11:11:00		Szopena Filharmonia 01 nż
-2011	2	220971	11:13:00	11:13:00		Targowa 02
-2011	2	220971	11:16:00	11:16:00		Pl. Wolności 04
-2011	2	220971	11:19:00	11:19:00		Piłsudskiego U. Marszałkowski 08
-2011	2	220971	11:21:00	11:21:00		Krakowska jedn. wojskowa 02
-2011	2	220971	11:23:00	11:23:00		Witosa / Solarza 07 nż
-2011	2	220971	11:25:00	11:25:00		Solarza 02 nż
-2011	2	220971	11:27:00	11:27:00		Wiktora / Stojałowskiego 04 nż
-2011	2	220971	11:28:00	11:28:00		Bł. Karoliny / Strzyżowska 02 nż
-2011	2	220971	11:29:00	11:29:00		Sanocka / Krośnieńska 01 nż
-2011	2	220971	11:30:00	11:30:00		Ustrzycka pętla 02 nż
-2011	2	220971	11:31:00	11:31:00		Ustrzycka / Wadowicka 04 nż
-2011	2	220971	11:32:00	11:32:00		Ustrzycka 06 nż
+1934	2	222784	10:45:00	10:45:00		Słocińska pętla 11 nż
+1934	2	222784	10:46:00	10:46:00		Słocińska / Rodziny Lutaków 09 nż
+1934	2	222784	10:47:00	10:47:00		Słocińska / Pileckich 07 nż
+1934	2	222784	10:48:00	10:48:00		Słocińska / Niedziochy 05 nż
+1934	2	222784	10:49:00	10:49:00		Słocińska cmentarz 03 nż
+1934	2	222784	10:50:00	10:50:00		Słocińska szkoła 01 nż
+1934	2	222784	10:52:00	10:52:00		Paderewskiego kościół 05
+1934	2	222784	10:53:00	10:53:00		Paderewskiego park 03 nż
+1934	2	222784	10:56:00	10:56:00		Armii Krajowej / Mieszka I 05 nż
+1934	2	222784	10:57:00	10:57:00		Krzyżanowskiego / Armii Krajowej 04 nż
+1934	2	222784	10:58:00	10:58:00		Paderewskiego / Ossolińskich 01 nż
+1934	2	222784	10:59:00	10:59:00		Rejtana / Popiełuszki 09
+1934	2	222784	11:02:00	11:02:00		Powst. Warszawy / Rejtana 13
+1934	2	222784	11:03:00	11:03:00		Powst. Warszawy szkoła 11
+1934	2	222784	11:04:00	11:04:00		Powst. Warszawy dom studenta 09
+1934	2	222784	11:06:00	11:06:00		Powst. Warszawy stadion 05 nż
+1934	2	222784	11:07:00	11:07:00		Hetmańska stadion 07
+1934	2	222784	11:08:00	11:08:00		Hetmańska ZS. Mech. 05
+1934	2	222784	11:09:00	11:09:00		Hetmańska przychodnia 03
+1934	2	222784	11:10:00	11:10:00		Hetmańska podzamcze 01 nż
+1934	2	222784	11:11:00	11:11:00		Kilara 02 nż
+1934	2	222784	11:13:00	11:13:00		Szopena Filharmonia 01 nż
+1934	2	222784	11:15:00	11:15:00		Targowa 02
+1934	2	222784	11:18:00	11:18:00		Pl. Wolności 04
+1934	2	222784	11:21:00	11:21:00		Piłsudskiego U. Marszałkowski 08
+1934	2	222784	11:23:00	11:23:00		Krakowska jedn. wojskowa 02
+1934	2	222784	11:25:00	11:25:00		Witosa / Solarza 07 nż
+1934	2	222784	11:27:00	11:27:00		Solarza 02 nż
+1934	2	222784	11:29:00	11:29:00		Wiktora / Stojałowskiego 04 nż
+1934	2	222784	11:30:00	11:30:00		Bł. Karoliny / Strzyżowska 02 nż
+1934	2	222784	11:31:00	11:31:00		Sanocka / Krośnieńska 01 nż
+1934	2	222784	11:32:00	11:32:00		Ustrzycka pętla 02 nż
+1934	2	222784	11:33:00	11:33:00		Ustrzycka / Wadowicka 04 nż
+1934	2	222784	11:34:00	11:34:00		Ustrzycka 06 nż
 
-2009	2	220972	11:53:00	11:53:00		Ustrzycka / Magórska 07
-2009	2	220972	11:54:00	11:54:00		Ustrzycka 05 nż
-2009	2	220972	11:55:00	11:55:00		Ustrzycka / Wadowicka 03 nż
-2009	2	220972	11:56:00	11:56:00		Ustrzycka pętla 01 nż
-2009	2	220972	11:57:00	11:57:00		Sanocka / Krośnieńska 02 nż
-2009	2	220972	11:58:00	11:58:00		Bł. Karoliny / Sanocka 03 nż
-2009	2	220972	11:59:00	11:59:00		Bł. Karoliny / Strzyżowska 01 nż
-2009	2	220972	12:00:00	12:00:00		Wiktora park 01 nż
-2009	2	220972	12:01:00	12:01:00		Solarza 01 nż
-2009	2	220972	12:04:00	12:04:00		Witosa jedn. wojskowa 08 nż
-2009	2	220972	12:06:00	12:06:00		Krakowska jedn. wojskowa 01
-2009	2	220972	12:09:00	12:09:00		Piłsudskiego U. Wojewódzki 05
-2009	2	220972	12:10:00	12:10:00		Pl. Wolności 03
-2009	2	220972	12:12:00	12:12:00		Targowa 01
-2009	2	220972	12:14:00	12:14:00		Szopena Filharmonia 02 nż
-2009	2	220972	12:15:00	12:15:00		Kilara 01 nż
-2009	2	220972	12:17:00	12:17:00		Hetmańska podzamcze 02 nż
-2009	2	220972	12:18:00	12:18:00		Hetmańska przychodnia 04
-2009	2	220972	12:19:00	12:19:00		Hetmańska ZS. Mech. 06
-2009	2	220972	12:22:00	12:22:00		Powst. Warszawy stadion 06
-2009	2	220972	12:25:00	12:25:00		Powst. Warszawy dom studenta 08
-2009	2	220972	12:26:00	12:26:00		Powst. Warszawy / Graniczna 10
-2009	2	220972	12:27:00	12:27:00		Powst. Warszawy / Sikorskiego 12 nż
-2009	2	220972	12:28:00	12:28:00		Armii Krajowej Park Papieski 02 nż
-2009	2	220972	12:29:00	12:29:00		Armii Krajowej hotel 04 nż
-2009	2	220972	12:30:00	12:30:00		Armii Krajowej / Powst. Listopad. 06 nż
-2009	2	220972	12:31:00	12:31:00		Paderewskiego / Armii Krajowej 04 nż
-2009	2	220972	12:32:00	12:32:00		Paderewskiego park 06 nż
-2009	2	220972	12:33:00	12:33:00		Paderewskiego kościół 08
-2009	2	220972	12:35:00	12:35:00		Słocińska szkoła 02 nż
-2009	2	220972	12:36:00	12:36:00		Słocińska cmentarz 04 nż
-2009	2	220972	12:37:00	12:37:00		Słocińska / Niedziochy 06 nż
-2009	2	220972	12:38:00	12:38:00		Słocińska / Pileckich 08 nż
-2009	2	220972	12:39:00	12:39:00		Słocińska / Rodziny Lutaków 10 nż
-2009	2	220972	12:40:00	12:40:00		Słocińska pętla 11 nż
+1909	2	222344	11:53:00	11:53:00		Ustrzycka / Magórska 07
+1909	2	222344	11:54:00	11:54:00		Ustrzycka 05 nż
+1909	2	222344	11:55:00	11:55:00		Ustrzycka / Wadowicka 03 nż
+1909	2	222344	11:56:00	11:56:00		Ustrzycka pętla 01 nż
+1909	2	222344	11:57:00	11:57:00		Sanocka / Krośnieńska 02 nż
+1909	2	222344	11:58:00	11:58:00		Bł. Karoliny / Sanocka 03 nż
+1909	2	222344	11:59:00	11:59:00		Bł. Karoliny / Strzyżowska 01 nż
+1909	2	222344	12:00:00	12:00:00		Wiktora park 01 nż
+1909	2	222344	12:01:00	12:01:00		Solarza 01 nż
+1909	2	222344	12:04:00	12:04:00		Witosa jedn. wojskowa 08 nż
+1909	2	222344	12:06:00	12:06:00		Krakowska jedn. wojskowa 01
+1909	2	222344	12:09:00	12:09:00		Piłsudskiego U. Wojewódzki 05
+1909	2	222344	12:10:00	12:10:00		Pl. Wolności 03
+1909	2	222344	12:12:00	12:12:00		Targowa 01
+1909	2	222344	12:14:00	12:14:00		Szopena Filharmonia 02 nż
+1909	2	222344	12:15:00	12:15:00		Kilara 01 nż
+1909	2	222344	12:17:00	12:17:00		Hetmańska podzamcze 02 nż
+1909	2	222344	12:18:00	12:18:00		Hetmańska przychodnia 04
+1909	2	222344	12:19:00	12:19:00		Hetmańska ZS. Mech. 06
+1909	2	222344	12:22:00	12:22:00		Powst. Warszawy stadion 06
+1909	2	222344	12:25:00	12:25:00		Powst. Warszawy dom studenta 08
+1909	2	222344	12:26:00	12:26:00		Powst. Warszawy / Graniczna 10
+1909	2	222344	12:30:00	12:30:00		Rejtana / Armii Krajowej 12
+1909	2	222344	12:31:00	12:31:00		Rejtana / Paderewskiego 10
+1909	2	222344	12:33:00	12:33:00		Paderewskiego / Ossolińskich 02 nż
+1909	2	222344	12:34:00	12:34:00		Krzyżanowskiego / Paderewskiego 03 nż
+1909	2	222344	12:36:00	12:36:00		Armii Krajowej / Powst. Listopad. 06 nż
+1909	2	222344	12:37:00	12:37:00		Paderewskiego / Armii Krajowej 04 nż
+1909	2	222344	12:38:00	12:38:00		Paderewskiego park 06 nż
+1909	2	222344	12:39:00	12:39:00		Paderewskiego kościół 08
+1909	2	222344	12:41:00	12:41:00		Słocińska szkoła 02 nż
+1909	2	222344	12:42:00	12:42:00		Słocińska cmentarz 04 nż
+1909	2	222344	12:43:00	12:43:00		Słocińska / Niedziochy 06 nż
+1909	2	222344	12:44:00	12:44:00		Słocińska / Pileckich 08 nż
+1909	2	222344	12:45:00	12:45:00		Słocińska / Rodziny Lutaków 10 nż
+1909	2	222344	12:46:00	12:46:00		Słocińska pętla 11 nż
 
-2006	2	220973	13:13:00	13:13:00		Słocińska pętla 11 nż
-2006	2	220973	13:14:00	13:14:00		Słocińska / Rodziny Lutaków 09 nż
-2006	2	220973	13:15:00	13:15:00		Słocińska / Pileckich 07 nż
-2006	2	220973	13:16:00	13:16:00		Słocińska / Niedziochy 05 nż
-2006	2	220973	13:17:00	13:17:00		Słocińska cmentarz 03 nż
-2006	2	220973	13:18:00	13:18:00		Słocińska szkoła 01 nż
-2006	2	220973	13:20:00	13:20:00		Paderewskiego kościół 05
-2006	2	220973	13:21:00	13:21:00		Paderewskiego park 03 nż
-2006	2	220973	13:24:00	13:24:00		Armii Krajowej / Mieszka I 05 nż
-2006	2	220973	13:25:00	13:25:00		Armii Krajowej / Krzyżanowskiego 03 nż
-2006	2	220973	13:26:00	13:26:00		Armii Krajowej hotel 01 nż
-2006	2	220973	13:28:00	13:28:00		Powst. Warszawy / Rejtana 13
-2006	2	220973	13:29:00	13:29:00		Powst. Warszawy szkoła 11
-2006	2	220973	13:30:00	13:30:00		Powst. Warszawy dom studenta 09
-2006	2	220973	13:32:00	13:32:00		Powst. Warszawy stadion 05 nż
-2006	2	220973	13:33:00	13:33:00		Hetmańska stadion 07
-2006	2	220973	13:34:00	13:34:00		Hetmańska ZS. Mech. 05
-2006	2	220973	13:35:00	13:35:00		Hetmańska przychodnia 03
-2006	2	220973	13:36:00	13:36:00		Hetmańska podzamcze 01 nż
-2006	2	220973	13:37:00	13:37:00		Kilara 02 nż
-2006	2	220973	13:39:00	13:39:00		Szopena Filharmonia 01 nż
-2006	2	220973	13:41:00	13:41:00		Targowa 02
-2006	2	220973	13:44:00	13:44:00		Pl. Wolności 04
-2006	2	220973	13:47:00	13:47:00		Piłsudskiego U. Marszałkowski 08
-2006	2	220973	13:49:00	13:49:00		Krakowska jedn. wojskowa 02
-2006	2	220973	13:51:00	13:51:00		Witosa / Solarza 07 nż
-2006	2	220973	13:53:00	13:53:00		Solarza 02 nż
-2006	2	220973	13:55:00	13:55:00		Wiktora / Stojałowskiego 04 nż
-2006	2	220973	13:56:00	13:56:00		Bł. Karoliny / Strzyżowska 02 nż
-2006	2	220973	13:57:00	13:57:00		Sanocka / Krośnieńska 01 nż
-2006	2	220973	13:58:00	13:58:00		Ustrzycka pętla 02 nż
+1856	2	222687	13:13:00	13:13:00		Słocińska pętla 11 nż
+1856	2	222687	13:14:00	13:14:00		Słocińska / Rodziny Lutaków 09 nż
+1856	2	222687	13:15:00	13:15:00		Słocińska / Pileckich 07 nż
+1856	2	222687	13:16:00	13:16:00		Słocińska / Niedziochy 05 nż
+1856	2	222687	13:17:00	13:17:00		Słocińska cmentarz 03 nż
+1856	2	222687	13:18:00	13:18:00		Słocińska szkoła 01 nż
+1856	2	222687	13:20:00	13:20:00		Paderewskiego kościół 05
+1856	2	222687	13:21:00	13:21:00		Paderewskiego park 03 nż
+1856	2	222687	13:24:00	13:24:00		Armii Krajowej / Mieszka I 05 nż
+1856	2	222687	13:25:00	13:25:00		Krzyżanowskiego / Armii Krajowej 04 nż
+1856	2	222687	13:26:00	13:26:00		Paderewskiego / Ossolińskich 01 nż
+1856	2	222687	13:27:00	13:27:00		Rejtana / Popiełuszki 09
+1856	2	222687	13:30:00	13:30:00		Powst. Warszawy / Rejtana 13
+1856	2	222687	13:31:00	13:31:00		Powst. Warszawy szkoła 11
+1856	2	222687	13:32:00	13:32:00		Powst. Warszawy dom studenta 09
+1856	2	222687	13:34:00	13:34:00		Powst. Warszawy stadion 05 nż
+1856	2	222687	13:35:00	13:35:00		Hetmańska stadion 07
+1856	2	222687	13:36:00	13:36:00		Hetmańska ZS. Mech. 05
+1856	2	222687	13:37:00	13:37:00		Hetmańska przychodnia 03
+1856	2	222687	13:38:00	13:38:00		Hetmańska podzamcze 01 nż
+1856	2	222687	13:39:00	13:39:00		Kilara 02 nż
+1856	2	222687	13:41:00	13:41:00		Szopena Filharmonia 01 nż
+1856	2	222687	13:43:00	13:43:00		Targowa 02
+1856	2	222687	13:46:00	13:46:00		Pl. Wolności 04
+1856	2	222687	13:49:00	13:49:00		Piłsudskiego U. Marszałkowski 08
+1856	2	222687	13:51:00	13:51:00		Krakowska jedn. wojskowa 02
+1856	2	222687	13:53:00	13:53:00		Witosa / Solarza 07 nż
+1856	2	222687	13:55:00	13:55:00		Solarza 02 nż
+1856	2	222687	13:57:00	13:57:00		Wiktora / Stojałowskiego 04 nż
+1856	2	222687	13:58:00	13:58:00		Bł. Karoliny / Strzyżowska 02 nż
+1856	2	222687	13:59:00	13:59:00		Sanocka / Krośnieńska 01 nż
+1856	2	222687	14:00:00	14:00:00		Ustrzycka pętla 02 nż
 
-2014	2	220974	14:31:00	14:31:00		Ustrzycka pętla 01 nż
-2014	2	220974	14:32:00	14:32:00		Sanocka / Krośnieńska 02 nż
-2014	2	220974	14:33:00	14:33:00		Bł. Karoliny / Sanocka 03 nż
-2014	2	220974	14:34:00	14:34:00		Bł. Karoliny / Strzyżowska 01 nż
-2014	2	220974	14:35:00	14:35:00		Wiktora park 01 nż
-2014	2	220974	14:36:00	14:36:00		Solarza 01 nż
-2014	2	220974	14:39:00	14:39:00		Witosa jedn. wojskowa 08 nż
-2014	2	220974	14:41:00	14:41:00		Krakowska jedn. wojskowa 01
-2014	2	220974	14:44:00	14:44:00		Piłsudskiego U. Wojewódzki 05
-2014	2	220974	14:46:00	14:46:00		Pl. Wolności 03
-2014	2	220974	14:48:00	14:48:00		Targowa 01
-2014	2	220974	14:52:00	14:52:00		Szopena Filharmonia 02 nż
-2014	2	220974	14:53:00	14:53:00		Kilara 01 nż
-2014	2	220974	14:56:00	14:56:00		Hetmańska podzamcze 02 nż
-2014	2	220974	14:57:00	14:57:00		Hetmańska przychodnia 04
-2014	2	220974	14:58:00	14:58:00		Hetmańska ZS. Mech. 06
-2014	2	220974	15:03:00	15:03:00		Powst. Warszawy stadion 06
-2014	2	220974	15:06:00	15:06:00		Powst. Warszawy dom studenta 08
-2014	2	220974	15:07:00	15:07:00		Powst. Warszawy / Graniczna 10
-2014	2	220974	15:08:00	15:08:00		Powst. Warszawy / Sikorskiego 12 nż
-2014	2	220974	15:09:00	15:09:00		Armii Krajowej Park Papieski 02 nż
-2014	2	220974	15:10:00	15:10:00		Armii Krajowej hotel 04 nż
-2014	2	220974	15:12:00	15:12:00		Armii Krajowej / Powst. Listopad. 06 nż
-2014	2	220974	15:13:00	15:13:00		Paderewskiego / Armii Krajowej 04 nż
-2014	2	220974	15:14:00	15:14:00		Paderewskiego park 06 nż
-2014	2	220974	15:15:00	15:15:00		Paderewskiego kościół 08
-2014	2	220974	15:17:00	15:17:00		Słocińska szkoła 02 nż
-2014	2	220974	15:18:00	15:18:00		Słocińska cmentarz 04 nż
-2014	2	220974	15:19:00	15:19:00		Słocińska / Niedziochy 06 nż
-2014	2	220974	15:20:00	15:20:00		Słocińska / Pileckich 08 nż
-2014	2	220974	15:21:00	15:21:00		Słocińska / Rodziny Lutaków 10 nż
-2014	2	220974	15:22:00	15:22:00		Słocińska pętla 11 nż
+1956	2	223306	14:31:00	14:31:00		Ustrzycka pętla 01 nż
+1956	2	223306	14:32:00	14:32:00		Sanocka / Krośnieńska 02 nż
+1956	2	223306	14:33:00	14:33:00		Bł. Karoliny / Sanocka 03 nż
+1956	2	223306	14:34:00	14:34:00		Bł. Karoliny / Strzyżowska 01 nż
+1956	2	223306	14:35:00	14:35:00		Wiktora park 01 nż
+1956	2	223306	14:36:00	14:36:00		Solarza 01 nż
+1956	2	223306	14:39:00	14:39:00		Witosa jedn. wojskowa 08 nż
+1956	2	223306	14:41:00	14:41:00		Krakowska jedn. wojskowa 01
+1956	2	223306	14:44:00	14:44:00		Piłsudskiego U. Wojewódzki 05
+1956	2	223306	14:46:00	14:46:00		Pl. Wolności 03
+1956	2	223306	14:48:00	14:48:00		Targowa 01
+1956	2	223306	14:52:00	14:52:00		Szopena Filharmonia 02 nż
+1956	2	223306	14:53:00	14:53:00		Kilara 01 nż
+1956	2	223306	14:56:00	14:56:00		Hetmańska podzamcze 02 nż
+1956	2	223306	14:57:00	14:57:00		Hetmańska przychodnia 04
+1956	2	223306	14:58:00	14:58:00		Hetmańska ZS. Mech. 06
+1956	2	223306	15:03:00	15:03:00		Powst. Warszawy stadion 06
+1956	2	223306	15:06:00	15:06:00		Powst. Warszawy dom studenta 08
+1956	2	223306	15:07:00	15:07:00		Powst. Warszawy / Graniczna 10
+1956	2	223306	15:11:00	15:11:00		Rejtana / Armii Krajowej 12
+1956	2	223306	15:12:00	15:12:00		Rejtana / Paderewskiego 10
+1956	2	223306	15:14:00	15:14:00		Paderewskiego / Ossolińskich 02 nż
+1956	2	223306	15:15:00	15:15:00		Krzyżanowskiego / Paderewskiego 03 nż
+1956	2	223306	15:17:00	15:17:00		Armii Krajowej / Powst. Listopad. 06 nż
+1956	2	223306	15:18:00	15:18:00		Paderewskiego / Armii Krajowej 04 nż
+1956	2	223306	15:19:00	15:19:00		Paderewskiego park 06 nż
+1956	2	223306	15:20:00	15:20:00		Paderewskiego kościół 08
+1956	2	223306	15:22:00	15:22:00		Słocińska szkoła 02 nż
+1956	2	223306	15:23:00	15:23:00		Słocińska cmentarz 04 nż
+1956	2	223306	15:24:00	15:24:00		Słocińska / Niedziochy 06 nż
+1956	2	223306	15:25:00	15:25:00		Słocińska / Pileckich 08 nż
+1956	2	223306	15:26:00	15:26:00		Słocińska / Rodziny Lutaków 10 nż
+1956	2	223306	15:27:00	15:27:00		Słocińska pętla 11 nż
 
-2006	2	220975	15:43:00	15:43:00		Słocińska pętla 11 nż
-2006	2	220975	15:44:00	15:44:00		Słocińska / Rodziny Lutaków 09 nż
-2006	2	220975	15:45:00	15:45:00		Słocińska / Pileckich 07 nż
-2006	2	220975	15:46:00	15:46:00		Słocińska / Niedziochy 05 nż
-2006	2	220975	15:47:00	15:47:00		Słocińska cmentarz 03 nż
-2006	2	220975	15:48:00	15:48:00		Słocińska szkoła 01 nż
-2006	2	220975	15:50:00	15:50:00		Paderewskiego kościół 05
-2006	2	220975	15:51:00	15:51:00		Paderewskiego park 03 nż
-2006	2	220975	15:54:00	15:54:00		Armii Krajowej / Mieszka I 05 nż
-2006	2	220975	15:56:00	15:56:00		Armii Krajowej / Krzyżanowskiego 03 nż
-2006	2	220975	15:57:00	15:57:00		Armii Krajowej hotel 01 nż
-2006	2	220975	15:59:00	15:59:00		Powst. Warszawy / Rejtana 13
-2006	2	220975	16:00:00	16:00:00		Powst. Warszawy szkoła 11
-2006	2	220975	16:01:00	16:01:00		Powst. Warszawy dom studenta 09
-2006	2	220975	16:03:00	16:03:00		Powst. Warszawy stadion 05 nż
-2006	2	220975	16:04:00	16:04:00		Hetmańska stadion 07
-2006	2	220975	16:05:00	16:05:00		Hetmańska ZS. Mech. 05
-2006	2	220975	16:06:00	16:06:00		Hetmańska przychodnia 03
-2006	2	220975	16:07:00	16:07:00		Hetmańska podzamcze 01 nż
-2006	2	220975	16:10:00	16:10:00		Kilara 02 nż
-2006	2	220975	16:12:00	16:12:00		Szopena Filharmonia 01 nż
-2006	2	220975	16:14:00	16:14:00		Targowa 02
-2006	2	220975	16:17:00	16:17:00		Pl. Wolności 04
-2006	2	220975	16:23:00	16:23:00		Piłsudskiego U. Marszałkowski 08
-2006	2	220975	16:25:00	16:25:00		Krakowska jedn. wojskowa 02
-2006	2	220975	16:28:00	16:28:00		Witosa / Solarza 07 nż
-2006	2	220975	16:30:00	16:30:00		Solarza 02 nż
-2006	2	220975	16:32:00	16:32:00		Wiktora / Stojałowskiego 04 nż
-2006	2	220975	16:33:00	16:33:00		Bł. Karoliny / Strzyżowska 02 nż
-2006	2	220975	16:34:00	16:34:00		Sanocka / Krośnieńska 01 nż
-2006	2	220975	16:35:00	16:35:00		Ustrzycka pętla 02 nż
+1856	2	222280	15:43:00	15:43:00		Słocińska pętla 11 nż
+1856	2	222280	15:44:00	15:44:00		Słocińska / Rodziny Lutaków 09 nż
+1856	2	222280	15:45:00	15:45:00		Słocińska / Pileckich 07 nż
+1856	2	222280	15:46:00	15:46:00		Słocińska / Niedziochy 05 nż
+1856	2	222280	15:47:00	15:47:00		Słocińska cmentarz 03 nż
+1856	2	222280	15:48:00	15:48:00		Słocińska szkoła 01 nż
+1856	2	222280	15:50:00	15:50:00		Paderewskiego kościół 05
+1856	2	222280	15:51:00	15:51:00		Paderewskiego park 03 nż
+1856	2	222280	15:54:00	15:54:00		Armii Krajowej / Mieszka I 05 nż
+1856	2	222280	15:55:00	15:55:00		Krzyżanowskiego / Armii Krajowej 04 nż
+1856	2	222280	15:56:00	15:56:00		Paderewskiego / Ossolińskich 01 nż
+1856	2	222280	15:57:00	15:57:00		Rejtana / Popiełuszki 09
+1856	2	222280	16:00:00	16:00:00		Powst. Warszawy / Rejtana 13
+1856	2	222280	16:01:00	16:01:00		Powst. Warszawy szkoła 11
+1856	2	222280	16:02:00	16:02:00		Powst. Warszawy dom studenta 09
+1856	2	222280	16:04:00	16:04:00		Powst. Warszawy stadion 05 nż
+1856	2	222280	16:05:00	16:05:00		Hetmańska stadion 07
+1856	2	222280	16:06:00	16:06:00		Hetmańska ZS. Mech. 05
+1856	2	222280	16:07:00	16:07:00		Hetmańska przychodnia 03
+1856	2	222280	16:08:00	16:08:00		Hetmańska podzamcze 01 nż
+1856	2	222280	16:11:00	16:11:00		Kilara 02 nż
+1856	2	222280	16:13:00	16:13:00		Szopena Filharmonia 01 nż
+1856	2	222280	16:15:00	16:15:00		Targowa 02
+1856	2	222280	16:18:00	16:18:00		Pl. Wolności 04
+1856	2	222280	16:24:00	16:24:00		Piłsudskiego U. Marszałkowski 08
+1856	2	222280	16:26:00	16:26:00		Krakowska jedn. wojskowa 02
+1856	2	222280	16:29:00	16:29:00		Witosa / Solarza 07 nż
+1856	2	222280	16:31:00	16:31:00		Solarza 02 nż
+1856	2	222280	16:33:00	16:33:00		Wiktora / Stojałowskiego 04 nż
+1856	2	222280	16:34:00	16:34:00		Bł. Karoliny / Strzyżowska 02 nż
+1856	2	222280	16:35:00	16:35:00		Sanocka / Krośnieńska 01 nż
+1856	2	222280	16:36:00	16:36:00		Ustrzycka pętla 02 nż
 
-2007	2	220976	16:58:00	16:58:00		Ustrzycka pętla 01 nż
-2007	2	220976	16:59:00	16:59:00		Sanocka / Krośnieńska 02 nż
-2007	2	220976	17:00:00	17:00:00		Bł. Karoliny / Sanocka 03 nż
-2007	2	220976	17:01:00	17:01:00		Bł. Karoliny / Strzyżowska 01 nż
-2007	2	220976	17:02:00	17:02:00		Wiktora park 01 nż
-2007	2	220976	17:03:00	17:03:00		Solarza 01 nż
-2007	2	220976	17:06:00	17:06:00		Witosa jedn. wojskowa 08 nż
-2007	2	220976	17:08:00	17:08:00		Krakowska jedn. wojskowa 01
-2007	2	220976	17:11:00	17:11:00		Piłsudskiego U. Wojewódzki 05
-2007	2	220976	17:12:00	17:12:00		Pl. Wolności 03
-2007	2	220976	17:13:00	17:13:00		Targowa 01
-2007	2	220976	17:15:00	17:15:00		Szopena Filharmonia 02 nż
-2007	2	220976	17:16:00	17:16:00		Kilara 01 nż
-2007	2	220976	17:18:00	17:18:00		Hetmańska podzamcze 02 nż
-2007	2	220976	17:19:00	17:19:00		Hetmańska przychodnia 04
-2007	2	220976	17:20:00	17:20:00		Hetmańska ZS. Mech. 06
-2007	2	220976	17:23:00	17:23:00		Powst. Warszawy stadion 06
-2007	2	220976	17:26:00	17:26:00		Powst. Warszawy dom studenta 08
-2007	2	220976	17:27:00	17:27:00		Powst. Warszawy / Graniczna 10
-2007	2	220976	17:28:00	17:28:00		Powst. Warszawy / Sikorskiego 12 nż
-2007	2	220976	17:29:00	17:29:00		Armii Krajowej Park Papieski 02 nż
-2007	2	220976	17:30:00	17:30:00		Armii Krajowej hotel 04 nż
-2007	2	220976	17:31:00	17:31:00		Armii Krajowej / Powst. Listopad. 06 nż
-2007	2	220976	17:32:00	17:32:00		Paderewskiego / Armii Krajowej 04 nż
-2007	2	220976	17:33:00	17:33:00		Paderewskiego park 06 nż
-2007	2	220976	17:34:00	17:34:00		Paderewskiego kościół 08
-2007	2	220976	17:36:00	17:36:00		Słocińska szkoła 02 nż
-2007	2	220976	17:37:00	17:37:00		Słocińska cmentarz 04 nż
-2007	2	220976	17:38:00	17:38:00		Słocińska / Niedziochy 06 nż
-2007	2	220976	17:39:00	17:39:00		Słocińska / Pileckich 08 nż
-2007	2	220976	17:40:00	17:40:00		Słocińska / Rodziny Lutaków 10 nż
-2007	2	220976	17:41:00	17:41:00		Słocińska pętla 11 nż
-2007	2	220976	17:42:00	17:42:00		Malawa granica 02 nż
-2007	2	220976	17:43:00	17:43:00		Malawa skrzyżowanie 04 nż
-2007	2	220976	17:44:00	17:44:00		Malawa OSP 06 nż
+1861	2	223368	16:58:00	16:58:00		Ustrzycka pętla 01 nż
+1861	2	223368	16:59:00	16:59:00		Sanocka / Krośnieńska 02 nż
+1861	2	223368	17:00:00	17:00:00		Bł. Karoliny / Sanocka 03 nż
+1861	2	223368	17:01:00	17:01:00		Bł. Karoliny / Strzyżowska 01 nż
+1861	2	223368	17:02:00	17:02:00		Wiktora park 01 nż
+1861	2	223368	17:03:00	17:03:00		Solarza 01 nż
+1861	2	223368	17:06:00	17:06:00		Witosa jedn. wojskowa 08 nż
+1861	2	223368	17:08:00	17:08:00		Krakowska jedn. wojskowa 01
+1861	2	223368	17:11:00	17:11:00		Piłsudskiego U. Wojewódzki 05
+1861	2	223368	17:12:00	17:12:00		Pl. Wolności 03
+1861	2	223368	17:13:00	17:13:00		Targowa 01
+1861	2	223368	17:15:00	17:15:00		Szopena Filharmonia 02 nż
+1861	2	223368	17:16:00	17:16:00		Kilara 01 nż
+1861	2	223368	17:18:00	17:18:00		Hetmańska podzamcze 02 nż
+1861	2	223368	17:19:00	17:19:00		Hetmańska przychodnia 04
+1861	2	223368	17:20:00	17:20:00		Hetmańska ZS. Mech. 06
+1861	2	223368	17:23:00	17:23:00		Powst. Warszawy stadion 06
+1861	2	223368	17:26:00	17:26:00		Powst. Warszawy dom studenta 08
+1861	2	223368	17:27:00	17:27:00		Powst. Warszawy / Graniczna 10
+1861	2	223368	17:31:00	17:31:00		Rejtana / Armii Krajowej 12
+1861	2	223368	17:32:00	17:32:00		Rejtana / Paderewskiego 10
+1861	2	223368	17:34:00	17:34:00		Paderewskiego / Ossolińskich 02 nż
+1861	2	223368	17:35:00	17:35:00		Krzyżanowskiego / Paderewskiego 03 nż
+1861	2	223368	17:37:00	17:37:00		Armii Krajowej / Powst. Listopad. 06 nż
+1861	2	223368	17:38:00	17:38:00		Paderewskiego / Armii Krajowej 04 nż
+1861	2	223368	17:39:00	17:39:00		Paderewskiego park 06 nż
+1861	2	223368	17:40:00	17:40:00		Paderewskiego kościół 08
+1861	2	223368	17:42:00	17:42:00		Słocińska szkoła 02 nż
+1861	2	223368	17:43:00	17:43:00		Słocińska cmentarz 04 nż
+1861	2	223368	17:44:00	17:44:00		Słocińska / Niedziochy 06 nż
+1861	2	223368	17:45:00	17:45:00		Słocińska / Pileckich 08 nż
+1861	2	223368	17:46:00	17:46:00		Słocińska / Rodziny Lutaków 10 nż
+1861	2	223368	17:47:00	17:47:00		Słocińska pętla 11 nż
+1861	2	223368	17:48:00	17:48:00		Malawa granica 02 nż
+1861	2	223368	17:49:00	17:49:00		Malawa skrzyżowanie 04 nż
+1861	2	223368	17:50:00	17:50:00		Malawa OSP 06 nż
 
-2015	2	220977	18:10:00	18:10:00		Malawa OSP 06 nż
-2015	2	220977	18:11:00	18:11:00		Malawa skrzyżowanie 03 nż
-2015	2	220977	18:12:00	18:12:00		Malawa granica 01 nż
-2015	2	220977	18:13:00	18:13:00		Słocińska pętla 11 nż
-2015	2	220977	18:14:00	18:14:00		Słocińska / Rodziny Lutaków 09 nż
-2015	2	220977	18:15:00	18:15:00		Słocińska / Pileckich 07 nż
-2015	2	220977	18:16:00	18:16:00		Słocińska / Niedziochy 05 nż
-2015	2	220977	18:17:00	18:17:00		Słocińska cmentarz 03 nż
-2015	2	220977	18:18:00	18:18:00		Słocińska szkoła 01 nż
-2015	2	220977	18:20:00	18:20:00		Paderewskiego kościół 05
-2015	2	220977	18:21:00	18:21:00		Paderewskiego park 03 nż
-2015	2	220977	18:24:00	18:24:00		Armii Krajowej / Mieszka I 05 nż
-2015	2	220977	18:25:00	18:25:00		Armii Krajowej / Krzyżanowskiego 03 nż
-2015	2	220977	18:26:00	18:26:00		Armii Krajowej hotel 01 nż
-2015	2	220977	18:28:00	18:28:00		Powst. Warszawy / Rejtana 13
-2015	2	220977	18:29:00	18:29:00		Powst. Warszawy szkoła 11
-2015	2	220977	18:30:00	18:30:00		Powst. Warszawy dom studenta 09
-2015	2	220977	18:32:00	18:32:00		Powst. Warszawy stadion 05 nż
-2015	2	220977	18:33:00	18:33:00		Hetmańska stadion 07
-2015	2	220977	18:34:00	18:34:00		Hetmańska ZS. Mech. 05
-2015	2	220977	18:35:00	18:35:00		Hetmańska przychodnia 03
-2015	2	220977	18:36:00	18:36:00		Hetmańska podzamcze 01 nż
-2015	2	220977	18:37:00	18:37:00		Kilara 02 nż
-2015	2	220977	18:39:00	18:39:00		Szopena Filharmonia 01 nż
-2015	2	220977	18:41:00	18:41:00		Targowa 02
-2015	2	220977	18:43:00	18:43:00		Pl. Wolności 04
-2015	2	220977	18:46:00	18:46:00		Piłsudskiego U. Marszałkowski 08
-2015	2	220977	18:48:00	18:48:00		Krakowska jedn. wojskowa 02
-2015	2	220977	18:50:00	18:50:00		Witosa / Solarza 07 nż
-2015	2	220977	18:52:00	18:52:00		Solarza 02 nż
-2015	2	220977	18:54:00	18:54:00		Wiktora / Stojałowskiego 04 nż
-2015	2	220977	18:55:00	18:55:00		Bł. Karoliny / Strzyżowska 02 nż
-2015	2	220977	18:56:00	18:56:00		Sanocka / Krośnieńska 01 nż
-2015	2	220977	18:57:00	18:57:00		Ustrzycka pętla 02 nż
+1831	2	223099	18:10:00	18:10:00		Malawa OSP 06 nż
+1831	2	223099	18:11:00	18:11:00		Malawa skrzyżowanie 03 nż
+1831	2	223099	18:12:00	18:12:00		Malawa granica 01 nż
+1831	2	223099	18:13:00	18:13:00		Słocińska pętla 11 nż
+1831	2	223099	18:14:00	18:14:00		Słocińska / Rodziny Lutaków 09 nż
+1831	2	223099	18:15:00	18:15:00		Słocińska / Pileckich 07 nż
+1831	2	223099	18:16:00	18:16:00		Słocińska / Niedziochy 05 nż
+1831	2	223099	18:17:00	18:17:00		Słocińska cmentarz 03 nż
+1831	2	223099	18:18:00	18:18:00		Słocińska szkoła 01 nż
+1831	2	223099	18:20:00	18:20:00		Paderewskiego kościół 05
+1831	2	223099	18:21:00	18:21:00		Paderewskiego park 03 nż
+1831	2	223099	18:24:00	18:24:00		Armii Krajowej / Mieszka I 05 nż
+1831	2	223099	18:25:00	18:25:00		Krzyżanowskiego / Armii Krajowej 04 nż
+1831	2	223099	18:26:00	18:26:00		Paderewskiego / Ossolińskich 01 nż
+1831	2	223099	18:27:00	18:27:00		Rejtana / Popiełuszki 09
+1831	2	223099	18:30:00	18:30:00		Powst. Warszawy / Rejtana 13
+1831	2	223099	18:31:00	18:31:00		Powst. Warszawy szkoła 11
+1831	2	223099	18:32:00	18:32:00		Powst. Warszawy dom studenta 09
+1831	2	223099	18:34:00	18:34:00		Powst. Warszawy stadion 05 nż
+1831	2	223099	18:35:00	18:35:00		Hetmańska stadion 07
+1831	2	223099	18:36:00	18:36:00		Hetmańska ZS. Mech. 05
+1831	2	223099	18:37:00	18:37:00		Hetmańska przychodnia 03
+1831	2	223099	18:38:00	18:38:00		Hetmańska podzamcze 01 nż
+1831	2	223099	18:39:00	18:39:00		Kilara 02 nż
+1831	2	223099	18:41:00	18:41:00		Szopena Filharmonia 01 nż
+1831	2	223099	18:43:00	18:43:00		Targowa 02
+1831	2	223099	18:45:00	18:45:00		Pl. Wolności 04
+1831	2	223099	18:48:00	18:48:00		Piłsudskiego U. Marszałkowski 08
+1831	2	223099	18:50:00	18:50:00		Krakowska jedn. wojskowa 02
+1831	2	223099	18:52:00	18:52:00		Witosa / Solarza 07 nż
+1831	2	223099	18:54:00	18:54:00		Solarza 02 nż
+1831	2	223099	18:56:00	18:56:00		Wiktora / Stojałowskiego 04 nż
+1831	2	223099	18:57:00	18:57:00		Bł. Karoliny / Strzyżowska 02 nż
+1831	2	223099	18:58:00	18:58:00		Sanocka / Krośnieńska 01 nż
+1831	2	223099	18:59:00	18:59:00		Ustrzycka pętla 02 nż
 
-1631	2	220978	21:00:00	21:00:00		Baligrodzka 01
-1631	2	220978	21:01:00	21:01:00		Iwonicka / Korczyńska 01 nż
-1631	2	220978	21:02:00	21:02:00		Odrzykońska / Iwonicka 01 nż
-1631	2	220978	21:04:00	21:04:00		Bł. Karoliny pętla 09
-1631	2	220978	21:05:00	21:05:00		Bł. Karoliny przedszkole 07
-1631	2	220978	21:06:00	21:06:00		Bł. Karoliny / Nowosądecka 05 nż
-1631	2	220978	21:07:00	21:07:00		Bł. Karoliny / Sanocka 03 nż
-1631	2	220978	21:08:00	21:08:00		Bł. Karoliny / Strzyżowska 01 nż
-1631	2	220978	21:09:00	21:09:00		Kotuli / Solarza 03 nż
-1631	2	220978	21:10:00	21:10:00		Kotuli / Zbyszewskiego 01 nż
-1631	2	220978	21:13:00	21:13:00		Krakowska galeria 05
-1631	2	220978	21:14:00	21:14:00		Krakowska szpital 03
-1631	2	220978	21:15:00	21:15:00		Krakowska jedn. wojskowa 01
-1631	2	220978	21:16:00	21:16:00		Piłsudskiego U. Marszałkowski 07
-1631	2	220978	21:17:00	21:17:00		Cieplińskiego 02
-1631	2	220978	21:18:00	21:18:00		Lisa-Kuli 01
-1631	2	220978	21:20:00	21:20:00		Kilara 02 nż
-1631	2	220978	21:21:00	21:21:00		Kopisto U. Skarbowy 03
-1631	2	220978	21:22:00	21:22:00		Kopisto uniwersytet 01
-1631	2	220978	21:23:00	21:23:00		Rejtana / Kopisto 07
-1631	2	220978	21:24:00	21:24:00		Rejtana / Popiełuszki 09
-1631	2	220978	21:26:00	21:26:00		Sikorskiego / Powst. Warszawy 02 nż
-1631	2	220978	21:27:00	21:27:00		Sikorskiego katedra 04 nż
-1631	2	220978	21:28:00	21:28:00		Sikorskiego / Łukasiewicza 06 nż
-1631	2	220978	21:29:00	21:29:00		Sikorskiego domki 08 nż
-1631	2	220978	21:30:00	21:30:00		Strażacka / Sikorskiego 07 nż
-1631	2	220978	21:31:00	21:31:00		Strażacka / Sympatyczna 05 nż
-1631	2	220978	21:32:00	21:32:00		Miła / Strażacka 02 nż
-1631	2	220978	21:33:00	21:33:00		Miła bloki 04 nż
-1631	2	220978	21:34:00	21:34:00		Miła szkoła 06 nż
-1631	2	220978	21:35:00	21:35:00		Kard. K. Wojtyły kościół 05 nż
-1631	2	220978	21:37:00	21:37:00		Kard. K. Wojtyły pętla 03 nż
+1631	2	223302	21:00:00	21:00:00		Baligrodzka 01
+1631	2	223302	21:01:00	21:01:00		Iwonicka / Korczyńska 01 nż
+1631	2	223302	21:02:00	21:02:00		Odrzykońska / Iwonicka 01 nż
+1631	2	223302	21:04:00	21:04:00		Bł. Karoliny pętla 09
+1631	2	223302	21:05:00	21:05:00		Bł. Karoliny przedszkole 07
+1631	2	223302	21:06:00	21:06:00		Bł. Karoliny / Nowosądecka 05 nż
+1631	2	223302	21:07:00	21:07:00		Bł. Karoliny / Sanocka 03 nż
+1631	2	223302	21:08:00	21:08:00		Bł. Karoliny / Strzyżowska 01 nż
+1631	2	223302	21:09:00	21:09:00		Kotuli / Solarza 03 nż
+1631	2	223302	21:10:00	21:10:00		Kotuli / Zbyszewskiego 01 nż
+1631	2	223302	21:13:00	21:13:00		Krakowska galeria 05
+1631	2	223302	21:14:00	21:14:00		Krakowska szpital 03
+1631	2	223302	21:15:00	21:15:00		Krakowska jedn. wojskowa 01
+1631	2	223302	21:16:00	21:16:00		Piłsudskiego U. Marszałkowski 07
+1631	2	223302	21:17:00	21:17:00		Cieplińskiego 02
+1631	2	223302	21:18:00	21:18:00		Lisa-Kuli 01
+1631	2	223302	21:20:00	21:20:00		Kilara 02 nż
+1631	2	223302	21:21:00	21:21:00		Kopisto U. Skarbowy 03
+1631	2	223302	21:22:00	21:22:00		Kopisto uniwersytet 01
+1631	2	223302	21:23:00	21:23:00		Rejtana / Kopisto 07
+1631	2	223302	21:24:00	21:24:00		Rejtana / Popiełuszki 09
+1631	2	223302	21:26:00	21:26:00		Sikorskiego / Powst. Warszawy 02 nż
+1631	2	223302	21:27:00	21:27:00		Sikorskiego katedra 04 nż
+1631	2	223302	21:28:00	21:28:00		Sikorskiego / Łukasiewicza 06 nż
+1631	2	223302	21:29:00	21:29:00		Sikorskiego domki 08 nż
+1631	2	223302	21:30:00	21:30:00		Strażacka / Sikorskiego 07 nż
+1631	2	223302	21:31:00	21:31:00		Strażacka / Sympatyczna 05 nż
+1631	2	223302	21:32:00	21:32:00		Miła / Strażacka 02 nż
+1631	2	223302	21:33:00	21:33:00		Miła bloki 04 nż
+1631	2	223302	21:34:00	21:34:00		Miła szkoła 06 nż
+1631	2	223302	21:35:00	21:35:00		Kard. K. Wojtyły kościół 05 nż
+1631	2	223302	21:37:00	21:37:00		Kard. K. Wojtyły pętla 03 nż
 
-1633	2	220979	21:56:00	21:56:00		Kard. K. Wojtyły pętla 03 nż
-1633	2	220979	21:57:00	21:57:00		Kard. K. Wojtyły kościół 06 nż
-1633	2	220979	21:58:00	21:58:00		Miła dom kultury 05 nż
-1633	2	220979	21:59:00	21:59:00		Miła bloki 03 nż
-1633	2	220979	22:00:00	22:00:00		Miła / Strażacka 01 nż
-1633	2	220979	22:01:00	22:01:00		Strażacka / Sympatyczna 06 nż
-1633	2	220979	22:02:00	22:02:00		Strażacka / Sikorskiego 08 nż
-1633	2	220979	22:03:00	22:03:00		Sikorskiego / Robotnicza 05 nż
-1633	2	220979	22:04:00	22:04:00		Sikorskiego domki 03 nż
-1633	2	220979	22:06:00	22:06:00		Sikorskiego katedra 01 nż
-1633	2	220979	22:08:00	22:08:00		Rejtana / Armii Krajowej 12
-1633	2	220979	22:09:00	22:09:00		Rejtana / Paderewskiego 10
-1633	2	220979	22:10:00	22:10:00		Rejtana / Krzyżanowskiego 08
-1633	2	220979	22:12:00	22:12:00		Kopisto uniwersytet 02
-1633	2	220979	22:14:00	22:14:00		Kopisto Most Zamkowy 04
-1633	2	220979	22:15:00	22:15:00		Kilara 01 nż
-1633	2	220979	22:17:00	22:17:00		Lisa-Kuli 02
-1633	2	220979	22:18:00	22:18:00		Cieplińskiego 01
-1633	2	220979	22:20:00	22:20:00		Piłsudskiego U. Marszałkowski 08
-1633	2	220979	22:22:00	22:22:00		Krakowska jedn. wojskowa 02
-1633	2	220979	22:23:00	22:23:00		Krakowska szpital 04
-1633	2	220979	22:24:00	22:24:00		Krakowska galeria 06
-1633	2	220979	22:26:00	22:26:00		Ofiar Katynia galeria 06
-1633	2	220979	22:27:00	22:27:00		Kotuli / Ustrzycka 02 nż
-1633	2	220979	22:28:00	22:28:00		Kotuli domki 04 nż
-1633	2	220979	22:29:00	22:29:00		Bł. Karoliny / Strzyżowska 02 nż
-1633	2	220979	22:30:00	22:30:00		Bł. Karoliny / Sanocka 04 nż
-1633	2	220979	22:31:00	22:31:00		Bł. Karoliny przedszkole 06
-1633	2	220979	22:32:00	22:32:00		Odrzykońska / Bł. Karoliny 02 nż
-1633	2	220979	22:33:00	22:33:00		Odrzykońska / Baligrodzka 04 nż
-1633	2	220979	22:34:00	22:34:00		Iwonicka / Korczyńska 02 nż
-1633	2	220979	22:35:00	22:35:00		Baligrodzka 01
+1633	2	223017	21:56:00	21:56:00		Kard. K. Wojtyły pętla 03 nż
+1633	2	223017	21:57:00	21:57:00		Kard. K. Wojtyły kościół 06 nż
+1633	2	223017	21:58:00	21:58:00		Miła dom kultury 05 nż
+1633	2	223017	21:59:00	21:59:00		Miła bloki 03 nż
+1633	2	223017	22:00:00	22:00:00		Miła / Strażacka 01 nż
+1633	2	223017	22:01:00	22:01:00		Strażacka / Sympatyczna 06 nż
+1633	2	223017	22:02:00	22:02:00		Strażacka / Sikorskiego 08 nż
+1633	2	223017	22:03:00	22:03:00		Sikorskiego / Robotnicza 05 nż
+1633	2	223017	22:04:00	22:04:00		Sikorskiego domki 03 nż
+1633	2	223017	22:06:00	22:06:00		Sikorskiego katedra 01 nż
+1633	2	223017	22:08:00	22:08:00		Rejtana / Armii Krajowej 12
+1633	2	223017	22:09:00	22:09:00		Rejtana / Paderewskiego 10
+1633	2	223017	22:10:00	22:10:00		Rejtana / Krzyżanowskiego 08
+1633	2	223017	22:12:00	22:12:00		Kopisto uniwersytet 02
+1633	2	223017	22:14:00	22:14:00		Kopisto Most Zamkowy 04
+1633	2	223017	22:15:00	22:15:00		Kilara 01 nż
+1633	2	223017	22:17:00	22:17:00		Lisa-Kuli 02
+1633	2	223017	22:18:00	22:18:00		Cieplińskiego 01
+1633	2	223017	22:20:00	22:20:00		Piłsudskiego U. Marszałkowski 08
+1633	2	223017	22:22:00	22:22:00		Krakowska jedn. wojskowa 02
+1633	2	223017	22:23:00	22:23:00		Krakowska szpital 04
+1633	2	223017	22:24:00	22:24:00		Krakowska galeria 06
+1633	2	223017	22:26:00	22:26:00		Ofiar Katynia galeria 06
+1633	2	223017	22:27:00	22:27:00		Kotuli / Ustrzycka 02 nż
+1633	2	223017	22:28:00	22:28:00		Kotuli domki 04 nż
+1633	2	223017	22:29:00	22:29:00		Bł. Karoliny / Strzyżowska 02 nż
+1633	2	223017	22:30:00	22:30:00		Bł. Karoliny / Sanocka 04 nż
+1633	2	223017	22:31:00	22:31:00		Bł. Karoliny przedszkole 06
+1633	2	223017	22:32:00	22:32:00		Odrzykońska / Bł. Karoliny 02 nż
+1633	2	223017	22:33:00	22:33:00		Odrzykońska / Baligrodzka 04 nż
+1633	2	223017	22:34:00	22:34:00		Iwonicka / Korczyńska 02 nż
+1633	2	223017	22:35:00	22:35:00		Baligrodzka 01
 
-1647	2	220980	23:00:00	23:00:00		Baligrodzka 01
-1647	2	220980	23:01:00	23:01:00		Iwonicka / Korczyńska 01 nż
-1647	2	220980	23:02:00	23:02:00		Odrzykońska / Iwonicka 01 nż
-1647	2	220980	23:04:00	23:04:00		Bł. Karoliny pętla 09
-1647	2	220980	23:05:00	23:05:00		Bł. Karoliny przedszkole 07
-1647	2	220980	23:06:00	23:06:00		Bł. Karoliny / Nowosądecka 05 nż
-1647	2	220980	23:07:00	23:07:00		Bł. Karoliny / Sanocka 03 nż
-1647	2	220980	23:08:00	23:08:00		Bł. Karoliny / Strzyżowska 01 nż
-1647	2	220980	23:09:00	23:09:00		Kotuli / Solarza 03 nż
-1647	2	220980	23:10:00	23:10:00		Kotuli / Zbyszewskiego 01 nż
-1647	2	220980	23:13:00	23:13:00		Krakowska galeria 05
-1647	2	220980	23:14:00	23:14:00		Krakowska szpital 03
-1647	2	220980	23:15:00	23:15:00		Krakowska jedn. wojskowa 01
-1647	2	220980	23:16:00	23:16:00		Piłsudskiego U. Marszałkowski 07
+1647	2	222856	23:00:00	23:00:00		Baligrodzka 01
+1647	2	222856	23:01:00	23:01:00		Iwonicka / Korczyńska 01 nż
+1647	2	222856	23:02:00	23:02:00		Odrzykońska / Iwonicka 01 nż
+1647	2	222856	23:04:00	23:04:00		Bł. Karoliny pętla 09
+1647	2	222856	23:05:00	23:05:00		Bł. Karoliny przedszkole 07
+1647	2	222856	23:06:00	23:06:00		Bł. Karoliny / Nowosądecka 05 nż
+1647	2	222856	23:07:00	23:07:00		Bł. Karoliny / Sanocka 03 nż
+1647	2	222856	23:08:00	23:08:00		Bł. Karoliny / Strzyżowska 01 nż
+1647	2	222856	23:09:00	23:09:00		Kotuli / Solarza 03 nż
+1647	2	222856	23:10:00	23:10:00		Kotuli / Zbyszewskiego 01 nż
+1647	2	222856	23:13:00	23:13:00		Krakowska galeria 05
+1647	2	222856	23:14:00	23:14:00		Krakowska szpital 03
+1647	2	222856	23:15:00	23:15:00		Krakowska jedn. wojskowa 01
+1647	2	222856	23:16:00	23:16:00		Piłsudskiego U. Marszałkowski 07

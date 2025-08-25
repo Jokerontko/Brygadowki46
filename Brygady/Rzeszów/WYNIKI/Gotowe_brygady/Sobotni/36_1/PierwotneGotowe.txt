@@ -1,574 +1,574 @@
 route_id	service_id	trip_id	arrival_time	departure_time	stop_headsign	stop_name
 -------------------------------------------------------------------------------
-1904	1	213212	05:36:00	05:36:00		Cieplińskiego 02
-1904	1	213212	05:37:00	05:37:00		Lisa-Kuli 01
-1904	1	213212	05:39:00	05:39:00		Dąbrowskiego park 02 nż
-1904	1	213212	05:40:00	05:40:00		Dąbrowskiego KW. Policji 04
-1904	1	213212	05:41:00	05:41:00		Dąbrowskiego / Boh. Westerplatte 08
-1904	1	213212	05:42:00	05:42:00		Powst. Warszawy / Dąbrowskiego 02
-1904	1	213212	05:43:00	05:43:00		Powst. Warszawy politechnika 04
-1904	1	213212	05:44:00	05:44:00		Powst. Warszawy stadion 06
-1904	1	213212	05:45:00	05:45:00		Powst. Warszawy dom studenta 08
-1904	1	213212	05:46:00	05:46:00		Powst. Warszawy / Graniczna 10
-1904	1	213212	05:47:00	05:47:00		Powst. Warszawy / Sikorskiego 12 nż
-1904	1	213212	05:48:00	05:48:00		Armii Krajowej Park Papieski 02 nż
-1904	1	213212	05:49:00	05:49:00		Armii Krajowej hotel 04 nż
-1904	1	213212	05:50:00	05:50:00		Armii Krajowej / Powst. Listopad. 06 nż
-1904	1	213212	05:51:00	05:51:00		Armii Krajowej / Paderewskiego 08 nż
-1904	1	213212	05:53:00	05:53:00		Niemierskiego 02 nż
-1904	1	213212	05:54:00	05:54:00		Witolda seminarium 02 nż
-1904	1	213212	05:55:00	05:55:00		Paderewskiego kościół 08
-1904	1	213212	05:56:00	05:56:00		Św. Rocha szkoła 02 nż
-1904	1	213212	05:57:00	05:57:00		Św. Rocha bloki 04 nż
-1904	1	213212	05:58:00	05:58:00		Św. Rocha domki 06 nż
-1904	1	213212	05:59:00	05:59:00		Św. Rocha kapliczka 08 nż
-1904	1	213212	06:00:00	06:00:00		Św. Rocha górka 10 nż
-1904	1	213212	06:01:00	06:01:00		Św. Rocha / Św. Walentego 12 nż
-1904	1	213212	06:03:00	06:03:00		Św. Rocha lasek pętla 11
+1904	4	213212	05:36:00	05:36:00		Cieplińskiego 02
+1904	4	213212	05:37:00	05:37:00		Lisa-Kuli 01
+1904	4	213212	05:39:00	05:39:00		Dąbrowskiego park 02 nż
+1904	4	213212	05:40:00	05:40:00		Dąbrowskiego KW. Policji 04
+1904	4	213212	05:41:00	05:41:00		Dąbrowskiego / Boh. Westerplatte 08
+1904	4	213212	05:42:00	05:42:00		Powst. Warszawy / Dąbrowskiego 02
+1904	4	213212	05:43:00	05:43:00		Powst. Warszawy politechnika 04
+1904	4	213212	05:44:00	05:44:00		Powst. Warszawy stadion 06
+1904	4	213212	05:45:00	05:45:00		Powst. Warszawy dom studenta 08
+1904	4	213212	05:46:00	05:46:00		Powst. Warszawy / Graniczna 10
+1904	4	213212	05:47:00	05:47:00		Powst. Warszawy / Sikorskiego 12 nż
+1904	4	213212	05:48:00	05:48:00		Armii Krajowej Park Papieski 02 nż
+1904	4	213212	05:49:00	05:49:00		Armii Krajowej hotel 04 nż
+1904	4	213212	05:50:00	05:50:00		Armii Krajowej / Powst. Listopad. 06 nż
+1904	4	213212	05:51:00	05:51:00		Armii Krajowej / Paderewskiego 08 nż
+1904	4	213212	05:53:00	05:53:00		Niemierskiego 02 nż
+1904	4	213212	05:54:00	05:54:00		Witolda seminarium 02 nż
+1904	4	213212	05:55:00	05:55:00		Paderewskiego kościół 08
+1904	4	213212	05:56:00	05:56:00		Św. Rocha szkoła 02 nż
+1904	4	213212	05:57:00	05:57:00		Św. Rocha bloki 04 nż
+1904	4	213212	05:58:00	05:58:00		Św. Rocha domki 06 nż
+1904	4	213212	05:59:00	05:59:00		Św. Rocha kapliczka 08 nż
+1904	4	213212	06:00:00	06:00:00		Św. Rocha górka 10 nż
+1904	4	213212	06:01:00	06:01:00		Św. Rocha / Św. Walentego 12 nż
+1904	4	213212	06:03:00	06:03:00		Św. Rocha lasek pętla 11
 
-1852	1	212178	06:07:00	06:07:00		Św. Rocha lasek pętla 11
-1852	1	212178	06:08:00	06:08:00		Św. Rocha górka 09 nż
-1852	1	212178	06:09:00	06:09:00		Św. Rocha kapliczka 07 nż
-1852	1	212178	06:10:00	06:10:00		Św. Rocha domki 05 nż
-1852	1	212178	06:11:00	06:11:00		Św. Rocha bloki 03 nż
-1852	1	212178	06:12:00	06:12:00		Św. Rocha szkoła 01 nż
-1852	1	212178	06:13:00	06:13:00		Paderewskiego kościół 05
-1852	1	212178	06:14:00	06:14:00		Witolda seminarium 01 nż
-1852	1	212178	06:15:00	06:15:00		Niemierskiego 01 nż
-1852	1	212178	06:16:00	06:16:00		Armii Krajowej skarbiec 07 nż
-1852	1	212178	06:17:00	06:17:00		Armii Krajowej / Mieszka I 05 nż
-1852	1	212178	06:18:00	06:18:00		Armii Krajowej / Krzyżanowskiego 03 nż
-1852	1	212178	06:19:00	06:19:00		Armii Krajowej hotel 01 nż
-1852	1	212178	06:21:00	06:21:00		Powst. Warszawy / Rejtana 13
-1852	1	212178	06:22:00	06:22:00		Powst. Warszawy szkoła 11
-1852	1	212178	06:23:00	06:23:00		Powst. Warszawy dom studenta 09
-1852	1	212178	06:24:00	06:24:00		Powst. Warszawy stadion 05 nż
-1852	1	212178	06:25:00	06:25:00		Powst. Warszawy / Hetmańska 03
-1852	1	212178	06:26:00	06:26:00		Powst. Warszawy politechnika 01
-1852	1	212178	06:28:00	06:28:00		Dąbrowskiego / Chrobrego 07
-1852	1	212178	06:29:00	06:29:00		Dąbrowskiego KW. Policji 03
-1852	1	212178	06:30:00	06:30:00		Dąbrowskiego park 01 nż
-1852	1	212178	06:34:00	06:34:00		Lisa-Kuli 02
-1852	1	212178	06:35:00	06:35:00		Cieplińskiego 01
-1852	1	212178	06:37:00	06:37:00		Piłsudskiego U. Marszałkowski 08
-1852	1	212178	06:39:00	06:39:00		Krakowska jedn. wojskowa 02
-1852	1	212178	06:40:00	06:40:00		Krakowska szpital 04
-1852	1	212178	06:41:00	06:41:00		Krakowska galeria 06
-1852	1	212178	06:43:00	06:43:00		Ofiar Katynia galeria 06
-1852	1	212178	06:44:00	06:44:00		Kotuli / Ustrzycka 02 nż
-1852	1	212178	06:45:00	06:45:00		Kotuli domki 04 nż
-1852	1	212178	06:46:00	06:46:00		Bł. Karoliny / Strzyżowska 02 nż
-1852	1	212178	06:47:00	06:47:00		Bł. Karoliny / Sanocka 04 nż
-1852	1	212178	06:48:00	06:48:00		Bł. Karoliny przedszkole 06
-1852	1	212178	06:49:00	06:49:00		Bł. Karoliny pętla 09
+1852	4	212178	06:07:00	06:07:00		Św. Rocha lasek pętla 11
+1852	4	212178	06:08:00	06:08:00		Św. Rocha górka 09 nż
+1852	4	212178	06:09:00	06:09:00		Św. Rocha kapliczka 07 nż
+1852	4	212178	06:10:00	06:10:00		Św. Rocha domki 05 nż
+1852	4	212178	06:11:00	06:11:00		Św. Rocha bloki 03 nż
+1852	4	212178	06:12:00	06:12:00		Św. Rocha szkoła 01 nż
+1852	4	212178	06:13:00	06:13:00		Paderewskiego kościół 05
+1852	4	212178	06:14:00	06:14:00		Witolda seminarium 01 nż
+1852	4	212178	06:15:00	06:15:00		Niemierskiego 01 nż
+1852	4	212178	06:16:00	06:16:00		Armii Krajowej skarbiec 07 nż
+1852	4	212178	06:17:00	06:17:00		Armii Krajowej / Mieszka I 05 nż
+1852	4	212178	06:18:00	06:18:00		Armii Krajowej / Krzyżanowskiego 03 nż
+1852	4	212178	06:19:00	06:19:00		Armii Krajowej hotel 01 nż
+1852	4	212178	06:21:00	06:21:00		Powst. Warszawy / Rejtana 13
+1852	4	212178	06:22:00	06:22:00		Powst. Warszawy szkoła 11
+1852	4	212178	06:23:00	06:23:00		Powst. Warszawy dom studenta 09
+1852	4	212178	06:24:00	06:24:00		Powst. Warszawy stadion 05 nż
+1852	4	212178	06:25:00	06:25:00		Powst. Warszawy / Hetmańska 03
+1852	4	212178	06:26:00	06:26:00		Powst. Warszawy politechnika 01
+1852	4	212178	06:28:00	06:28:00		Dąbrowskiego / Chrobrego 07
+1852	4	212178	06:29:00	06:29:00		Dąbrowskiego KW. Policji 03
+1852	4	212178	06:30:00	06:30:00		Dąbrowskiego park 01 nż
+1852	4	212178	06:34:00	06:34:00		Lisa-Kuli 02
+1852	4	212178	06:35:00	06:35:00		Cieplińskiego 01
+1852	4	212178	06:37:00	06:37:00		Piłsudskiego U. Marszałkowski 08
+1852	4	212178	06:39:00	06:39:00		Krakowska jedn. wojskowa 02
+1852	4	212178	06:40:00	06:40:00		Krakowska szpital 04
+1852	4	212178	06:41:00	06:41:00		Krakowska galeria 06
+1852	4	212178	06:43:00	06:43:00		Ofiar Katynia galeria 06
+1852	4	212178	06:44:00	06:44:00		Kotuli / Ustrzycka 02 nż
+1852	4	212178	06:45:00	06:45:00		Kotuli domki 04 nż
+1852	4	212178	06:46:00	06:46:00		Bł. Karoliny / Strzyżowska 02 nż
+1852	4	212178	06:47:00	06:47:00		Bł. Karoliny / Sanocka 04 nż
+1852	4	212178	06:48:00	06:48:00		Bł. Karoliny przedszkole 06
+1852	4	212178	06:49:00	06:49:00		Bł. Karoliny pętla 09
 
-1840	1	214373	07:19:00	07:19:00		Bł. Karoliny pętla 09
-1840	1	214373	07:20:00	07:20:00		Bł. Karoliny przedszkole 07
-1840	1	214373	07:21:00	07:21:00		Bł. Karoliny / Nowosądecka 05 nż
-1840	1	214373	07:22:00	07:22:00		Bł. Karoliny / Sanocka 03 nż
-1840	1	214373	07:23:00	07:23:00		Bł. Karoliny / Strzyżowska 01 nż
-1840	1	214373	07:24:00	07:24:00		Kotuli / Solarza 03 nż
-1840	1	214373	07:25:00	07:25:00		Kotuli / Zbyszewskiego 01 nż
-1840	1	214373	07:28:00	07:28:00		Krakowska galeria 05
-1840	1	214373	07:29:00	07:29:00		Krakowska szpital 03
-1840	1	214373	07:31:00	07:31:00		Krakowska jedn. wojskowa 01
-1840	1	214373	07:33:00	07:33:00		Piłsudskiego U. Marszałkowski 07
-1840	1	214373	07:34:00	07:34:00		Cieplińskiego 02
-1840	1	214373	07:35:00	07:35:00		Lisa-Kuli 01
-1840	1	214373	07:37:00	07:37:00		Dąbrowskiego park 02 nż
-1840	1	214373	07:38:00	07:38:00		Dąbrowskiego KW. Policji 04
-1840	1	214373	07:39:00	07:39:00		Dąbrowskiego / Boh. Westerplatte 08
-1840	1	214373	07:42:00	07:42:00		Powst. Warszawy / Dąbrowskiego 02
-1840	1	214373	07:43:00	07:43:00		Powst. Warszawy politechnika 04
-1840	1	214373	07:44:00	07:44:00		Powst. Warszawy stadion 06
-1840	1	214373	07:46:00	07:46:00		Powst. Warszawy dom studenta 08
-1840	1	214373	07:47:00	07:47:00		Powst. Warszawy / Graniczna 10
-1840	1	214373	07:48:00	07:48:00		Powst. Warszawy / Sikorskiego 12 nż
-1840	1	214373	07:49:00	07:49:00		Armii Krajowej Park Papieski 02 nż
-1840	1	214373	07:50:00	07:50:00		Armii Krajowej hotel 04 nż
-1840	1	214373	07:51:00	07:51:00		Armii Krajowej / Powst. Listopad. 06 nż
-1840	1	214373	07:52:00	07:52:00		Armii Krajowej / Paderewskiego 08 nż
-1840	1	214373	07:54:00	07:54:00		Niemierskiego 02 nż
-1840	1	214373	07:55:00	07:55:00		Witolda seminarium 02 nż
-1840	1	214373	07:56:00	07:56:00		Paderewskiego kościół 08
-1840	1	214373	07:57:00	07:57:00		Św. Rocha szkoła 02 nż
-1840	1	214373	07:58:00	07:58:00		Św. Rocha bloki 04 nż
-1840	1	214373	07:59:00	07:59:00		Św. Rocha domki 06 nż
-1840	1	214373	08:00:00	08:00:00		Św. Rocha kapliczka 08 nż
-1840	1	214373	08:01:00	08:01:00		Św. Rocha górka 10 nż
-1840	1	214373	08:02:00	08:02:00		Św. Rocha / Św. Walentego 12 nż
-1840	1	214373	08:04:00	08:04:00		Św. Rocha lasek pętla 11
+1840	4	214373	07:19:00	07:19:00		Bł. Karoliny pętla 09
+1840	4	214373	07:20:00	07:20:00		Bł. Karoliny przedszkole 07
+1840	4	214373	07:21:00	07:21:00		Bł. Karoliny / Nowosądecka 05 nż
+1840	4	214373	07:22:00	07:22:00		Bł. Karoliny / Sanocka 03 nż
+1840	4	214373	07:23:00	07:23:00		Bł. Karoliny / Strzyżowska 01 nż
+1840	4	214373	07:24:00	07:24:00		Kotuli / Solarza 03 nż
+1840	4	214373	07:25:00	07:25:00		Kotuli / Zbyszewskiego 01 nż
+1840	4	214373	07:28:00	07:28:00		Krakowska galeria 05
+1840	4	214373	07:29:00	07:29:00		Krakowska szpital 03
+1840	4	214373	07:31:00	07:31:00		Krakowska jedn. wojskowa 01
+1840	4	214373	07:33:00	07:33:00		Piłsudskiego U. Marszałkowski 07
+1840	4	214373	07:34:00	07:34:00		Cieplińskiego 02
+1840	4	214373	07:35:00	07:35:00		Lisa-Kuli 01
+1840	4	214373	07:37:00	07:37:00		Dąbrowskiego park 02 nż
+1840	4	214373	07:38:00	07:38:00		Dąbrowskiego KW. Policji 04
+1840	4	214373	07:39:00	07:39:00		Dąbrowskiego / Boh. Westerplatte 08
+1840	4	214373	07:42:00	07:42:00		Powst. Warszawy / Dąbrowskiego 02
+1840	4	214373	07:43:00	07:43:00		Powst. Warszawy politechnika 04
+1840	4	214373	07:44:00	07:44:00		Powst. Warszawy stadion 06
+1840	4	214373	07:46:00	07:46:00		Powst. Warszawy dom studenta 08
+1840	4	214373	07:47:00	07:47:00		Powst. Warszawy / Graniczna 10
+1840	4	214373	07:48:00	07:48:00		Powst. Warszawy / Sikorskiego 12 nż
+1840	4	214373	07:49:00	07:49:00		Armii Krajowej Park Papieski 02 nż
+1840	4	214373	07:50:00	07:50:00		Armii Krajowej hotel 04 nż
+1840	4	214373	07:51:00	07:51:00		Armii Krajowej / Powst. Listopad. 06 nż
+1840	4	214373	07:52:00	07:52:00		Armii Krajowej / Paderewskiego 08 nż
+1840	4	214373	07:54:00	07:54:00		Niemierskiego 02 nż
+1840	4	214373	07:55:00	07:55:00		Witolda seminarium 02 nż
+1840	4	214373	07:56:00	07:56:00		Paderewskiego kościół 08
+1840	4	214373	07:57:00	07:57:00		Św. Rocha szkoła 02 nż
+1840	4	214373	07:58:00	07:58:00		Św. Rocha bloki 04 nż
+1840	4	214373	07:59:00	07:59:00		Św. Rocha domki 06 nż
+1840	4	214373	08:00:00	08:00:00		Św. Rocha kapliczka 08 nż
+1840	4	214373	08:01:00	08:01:00		Św. Rocha górka 10 nż
+1840	4	214373	08:02:00	08:02:00		Św. Rocha / Św. Walentego 12 nż
+1840	4	214373	08:04:00	08:04:00		Św. Rocha lasek pętla 11
 
-1852	1	210460	08:34:00	08:34:00		Św. Rocha lasek pętla 11
-1852	1	210460	08:35:00	08:35:00		Św. Rocha górka 09 nż
-1852	1	210460	08:36:00	08:36:00		Św. Rocha kapliczka 07 nż
-1852	1	210460	08:37:00	08:37:00		Św. Rocha domki 05 nż
-1852	1	210460	08:38:00	08:38:00		Św. Rocha bloki 03 nż
-1852	1	210460	08:39:00	08:39:00		Św. Rocha szkoła 01 nż
-1852	1	210460	08:40:00	08:40:00		Paderewskiego kościół 05
-1852	1	210460	08:41:00	08:41:00		Witolda seminarium 01 nż
-1852	1	210460	08:42:00	08:42:00		Niemierskiego 01 nż
-1852	1	210460	08:44:00	08:44:00		Armii Krajowej skarbiec 07 nż
-1852	1	210460	08:45:00	08:45:00		Armii Krajowej / Mieszka I 05 nż
-1852	1	210460	08:46:00	08:46:00		Armii Krajowej / Krzyżanowskiego 03 nż
-1852	1	210460	08:47:00	08:47:00		Armii Krajowej hotel 01 nż
-1852	1	210460	08:49:00	08:49:00		Powst. Warszawy / Rejtana 13
-1852	1	210460	08:50:00	08:50:00		Powst. Warszawy szkoła 11
-1852	1	210460	08:51:00	08:51:00		Powst. Warszawy dom studenta 09
-1852	1	210460	08:52:00	08:52:00		Powst. Warszawy stadion 05 nż
-1852	1	210460	08:53:00	08:53:00		Powst. Warszawy / Hetmańska 03
-1852	1	210460	08:54:00	08:54:00		Powst. Warszawy politechnika 01
-1852	1	210460	08:56:00	08:56:00		Dąbrowskiego / Chrobrego 07
-1852	1	210460	08:57:00	08:57:00		Dąbrowskiego KW. Policji 03
-1852	1	210460	08:58:00	08:58:00		Dąbrowskiego park 01 nż
-1852	1	210460	09:02:00	09:02:00		Lisa-Kuli 02
-1852	1	210460	09:03:00	09:03:00		Cieplińskiego 01
-1852	1	210460	09:05:00	09:05:00		Piłsudskiego U. Marszałkowski 08
-1852	1	210460	09:07:00	09:07:00		Krakowska jedn. wojskowa 02
-1852	1	210460	09:08:00	09:08:00		Krakowska szpital 04
-1852	1	210460	09:09:00	09:09:00		Krakowska galeria 06
-1852	1	210460	09:11:00	09:11:00		Ofiar Katynia galeria 06
-1852	1	210460	09:12:00	09:12:00		Kotuli / Ustrzycka 02 nż
-1852	1	210460	09:13:00	09:13:00		Kotuli domki 04 nż
-1852	1	210460	09:14:00	09:14:00		Bł. Karoliny / Strzyżowska 02 nż
-1852	1	210460	09:15:00	09:15:00		Bł. Karoliny / Sanocka 04 nż
-1852	1	210460	09:16:00	09:16:00		Bł. Karoliny przedszkole 06
-1852	1	210460	09:17:00	09:17:00		Bł. Karoliny pętla 09
+1852	4	210460	08:34:00	08:34:00		Św. Rocha lasek pętla 11
+1852	4	210460	08:35:00	08:35:00		Św. Rocha górka 09 nż
+1852	4	210460	08:36:00	08:36:00		Św. Rocha kapliczka 07 nż
+1852	4	210460	08:37:00	08:37:00		Św. Rocha domki 05 nż
+1852	4	210460	08:38:00	08:38:00		Św. Rocha bloki 03 nż
+1852	4	210460	08:39:00	08:39:00		Św. Rocha szkoła 01 nż
+1852	4	210460	08:40:00	08:40:00		Paderewskiego kościół 05
+1852	4	210460	08:41:00	08:41:00		Witolda seminarium 01 nż
+1852	4	210460	08:42:00	08:42:00		Niemierskiego 01 nż
+1852	4	210460	08:44:00	08:44:00		Armii Krajowej skarbiec 07 nż
+1852	4	210460	08:45:00	08:45:00		Armii Krajowej / Mieszka I 05 nż
+1852	4	210460	08:46:00	08:46:00		Armii Krajowej / Krzyżanowskiego 03 nż
+1852	4	210460	08:47:00	08:47:00		Armii Krajowej hotel 01 nż
+1852	4	210460	08:49:00	08:49:00		Powst. Warszawy / Rejtana 13
+1852	4	210460	08:50:00	08:50:00		Powst. Warszawy szkoła 11
+1852	4	210460	08:51:00	08:51:00		Powst. Warszawy dom studenta 09
+1852	4	210460	08:52:00	08:52:00		Powst. Warszawy stadion 05 nż
+1852	4	210460	08:53:00	08:53:00		Powst. Warszawy / Hetmańska 03
+1852	4	210460	08:54:00	08:54:00		Powst. Warszawy politechnika 01
+1852	4	210460	08:56:00	08:56:00		Dąbrowskiego / Chrobrego 07
+1852	4	210460	08:57:00	08:57:00		Dąbrowskiego KW. Policji 03
+1852	4	210460	08:58:00	08:58:00		Dąbrowskiego park 01 nż
+1852	4	210460	09:02:00	09:02:00		Lisa-Kuli 02
+1852	4	210460	09:03:00	09:03:00		Cieplińskiego 01
+1852	4	210460	09:05:00	09:05:00		Piłsudskiego U. Marszałkowski 08
+1852	4	210460	09:07:00	09:07:00		Krakowska jedn. wojskowa 02
+1852	4	210460	09:08:00	09:08:00		Krakowska szpital 04
+1852	4	210460	09:09:00	09:09:00		Krakowska galeria 06
+1852	4	210460	09:11:00	09:11:00		Ofiar Katynia galeria 06
+1852	4	210460	09:12:00	09:12:00		Kotuli / Ustrzycka 02 nż
+1852	4	210460	09:13:00	09:13:00		Kotuli domki 04 nż
+1852	4	210460	09:14:00	09:14:00		Bł. Karoliny / Strzyżowska 02 nż
+1852	4	210460	09:15:00	09:15:00		Bł. Karoliny / Sanocka 04 nż
+1852	4	210460	09:16:00	09:16:00		Bł. Karoliny przedszkole 06
+1852	4	210460	09:17:00	09:17:00		Bł. Karoliny pętla 09
 
-1840	1	211996	09:49:00	09:49:00		Bł. Karoliny pętla 09
-1840	1	211996	09:50:00	09:50:00		Bł. Karoliny przedszkole 07
-1840	1	211996	09:51:00	09:51:00		Bł. Karoliny / Nowosądecka 05 nż
-1840	1	211996	09:52:00	09:52:00		Bł. Karoliny / Sanocka 03 nż
-1840	1	211996	09:53:00	09:53:00		Bł. Karoliny / Strzyżowska 01 nż
-1840	1	211996	09:54:00	09:54:00		Kotuli / Solarza 03 nż
-1840	1	211996	09:55:00	09:55:00		Kotuli / Zbyszewskiego 01 nż
-1840	1	211996	09:58:00	09:58:00		Krakowska galeria 05
-1840	1	211996	09:59:00	09:59:00		Krakowska szpital 03
-1840	1	211996	10:01:00	10:01:00		Krakowska jedn. wojskowa 01
-1840	1	211996	10:03:00	10:03:00		Piłsudskiego U. Marszałkowski 07
-1840	1	211996	10:04:00	10:04:00		Cieplińskiego 02
-1840	1	211996	10:05:00	10:05:00		Lisa-Kuli 01
-1840	1	211996	10:07:00	10:07:00		Dąbrowskiego park 02 nż
-1840	1	211996	10:08:00	10:08:00		Dąbrowskiego KW. Policji 04
-1840	1	211996	10:09:00	10:09:00		Dąbrowskiego / Boh. Westerplatte 08
-1840	1	211996	10:12:00	10:12:00		Powst. Warszawy / Dąbrowskiego 02
-1840	1	211996	10:13:00	10:13:00		Powst. Warszawy politechnika 04
-1840	1	211996	10:14:00	10:14:00		Powst. Warszawy stadion 06
-1840	1	211996	10:16:00	10:16:00		Powst. Warszawy dom studenta 08
-1840	1	211996	10:17:00	10:17:00		Powst. Warszawy / Graniczna 10
-1840	1	211996	10:18:00	10:18:00		Powst. Warszawy / Sikorskiego 12 nż
-1840	1	211996	10:19:00	10:19:00		Armii Krajowej Park Papieski 02 nż
-1840	1	211996	10:20:00	10:20:00		Armii Krajowej hotel 04 nż
-1840	1	211996	10:21:00	10:21:00		Armii Krajowej / Powst. Listopad. 06 nż
-1840	1	211996	10:22:00	10:22:00		Armii Krajowej / Paderewskiego 08 nż
-1840	1	211996	10:24:00	10:24:00		Niemierskiego 02 nż
-1840	1	211996	10:25:00	10:25:00		Witolda seminarium 02 nż
-1840	1	211996	10:26:00	10:26:00		Paderewskiego kościół 08
-1840	1	211996	10:27:00	10:27:00		Św. Rocha szkoła 02 nż
-1840	1	211996	10:28:00	10:28:00		Św. Rocha bloki 04 nż
-1840	1	211996	10:29:00	10:29:00		Św. Rocha domki 06 nż
-1840	1	211996	10:30:00	10:30:00		Św. Rocha kapliczka 08 nż
-1840	1	211996	10:31:00	10:31:00		Św. Rocha górka 10 nż
-1840	1	211996	10:32:00	10:32:00		Św. Rocha / Św. Walentego 12 nż
-1840	1	211996	10:34:00	10:34:00		Św. Rocha lasek pętla 11
+1840	4	211996	09:49:00	09:49:00		Bł. Karoliny pętla 09
+1840	4	211996	09:50:00	09:50:00		Bł. Karoliny przedszkole 07
+1840	4	211996	09:51:00	09:51:00		Bł. Karoliny / Nowosądecka 05 nż
+1840	4	211996	09:52:00	09:52:00		Bł. Karoliny / Sanocka 03 nż
+1840	4	211996	09:53:00	09:53:00		Bł. Karoliny / Strzyżowska 01 nż
+1840	4	211996	09:54:00	09:54:00		Kotuli / Solarza 03 nż
+1840	4	211996	09:55:00	09:55:00		Kotuli / Zbyszewskiego 01 nż
+1840	4	211996	09:58:00	09:58:00		Krakowska galeria 05
+1840	4	211996	09:59:00	09:59:00		Krakowska szpital 03
+1840	4	211996	10:01:00	10:01:00		Krakowska jedn. wojskowa 01
+1840	4	211996	10:03:00	10:03:00		Piłsudskiego U. Marszałkowski 07
+1840	4	211996	10:04:00	10:04:00		Cieplińskiego 02
+1840	4	211996	10:05:00	10:05:00		Lisa-Kuli 01
+1840	4	211996	10:07:00	10:07:00		Dąbrowskiego park 02 nż
+1840	4	211996	10:08:00	10:08:00		Dąbrowskiego KW. Policji 04
+1840	4	211996	10:09:00	10:09:00		Dąbrowskiego / Boh. Westerplatte 08
+1840	4	211996	10:12:00	10:12:00		Powst. Warszawy / Dąbrowskiego 02
+1840	4	211996	10:13:00	10:13:00		Powst. Warszawy politechnika 04
+1840	4	211996	10:14:00	10:14:00		Powst. Warszawy stadion 06
+1840	4	211996	10:16:00	10:16:00		Powst. Warszawy dom studenta 08
+1840	4	211996	10:17:00	10:17:00		Powst. Warszawy / Graniczna 10
+1840	4	211996	10:18:00	10:18:00		Powst. Warszawy / Sikorskiego 12 nż
+1840	4	211996	10:19:00	10:19:00		Armii Krajowej Park Papieski 02 nż
+1840	4	211996	10:20:00	10:20:00		Armii Krajowej hotel 04 nż
+1840	4	211996	10:21:00	10:21:00		Armii Krajowej / Powst. Listopad. 06 nż
+1840	4	211996	10:22:00	10:22:00		Armii Krajowej / Paderewskiego 08 nż
+1840	4	211996	10:24:00	10:24:00		Niemierskiego 02 nż
+1840	4	211996	10:25:00	10:25:00		Witolda seminarium 02 nż
+1840	4	211996	10:26:00	10:26:00		Paderewskiego kościół 08
+1840	4	211996	10:27:00	10:27:00		Św. Rocha szkoła 02 nż
+1840	4	211996	10:28:00	10:28:00		Św. Rocha bloki 04 nż
+1840	4	211996	10:29:00	10:29:00		Św. Rocha domki 06 nż
+1840	4	211996	10:30:00	10:30:00		Św. Rocha kapliczka 08 nż
+1840	4	211996	10:31:00	10:31:00		Św. Rocha górka 10 nż
+1840	4	211996	10:32:00	10:32:00		Św. Rocha / Św. Walentego 12 nż
+1840	4	211996	10:34:00	10:34:00		Św. Rocha lasek pętla 11
 
-1852	1	214263	11:03:00	11:03:00		Św. Rocha lasek pętla 11
-1852	1	214263	11:04:00	11:04:00		Św. Rocha górka 09 nż
-1852	1	214263	11:05:00	11:05:00		Św. Rocha kapliczka 07 nż
-1852	1	214263	11:06:00	11:06:00		Św. Rocha domki 05 nż
-1852	1	214263	11:07:00	11:07:00		Św. Rocha bloki 03 nż
-1852	1	214263	11:08:00	11:08:00		Św. Rocha szkoła 01 nż
-1852	1	214263	11:09:00	11:09:00		Paderewskiego kościół 05
-1852	1	214263	11:10:00	11:10:00		Witolda seminarium 01 nż
-1852	1	214263	11:11:00	11:11:00		Niemierskiego 01 nż
-1852	1	214263	11:13:00	11:13:00		Armii Krajowej skarbiec 07 nż
-1852	1	214263	11:14:00	11:14:00		Armii Krajowej / Mieszka I 05 nż
-1852	1	214263	11:15:00	11:15:00		Armii Krajowej / Krzyżanowskiego 03 nż
-1852	1	214263	11:16:00	11:16:00		Armii Krajowej hotel 01 nż
-1852	1	214263	11:18:00	11:18:00		Powst. Warszawy / Rejtana 13
-1852	1	214263	11:19:00	11:19:00		Powst. Warszawy szkoła 11
-1852	1	214263	11:20:00	11:20:00		Powst. Warszawy dom studenta 09
-1852	1	214263	11:22:00	11:22:00		Powst. Warszawy stadion 05 nż
-1852	1	214263	11:23:00	11:23:00		Powst. Warszawy / Hetmańska 03
-1852	1	214263	11:24:00	11:24:00		Powst. Warszawy politechnika 01
-1852	1	214263	11:26:00	11:26:00		Dąbrowskiego / Chrobrego 07
-1852	1	214263	11:27:00	11:27:00		Dąbrowskiego KW. Policji 03
-1852	1	214263	11:28:00	11:28:00		Dąbrowskiego park 01 nż
-1852	1	214263	11:32:00	11:32:00		Lisa-Kuli 02
-1852	1	214263	11:33:00	11:33:00		Cieplińskiego 01
-1852	1	214263	11:35:00	11:35:00		Piłsudskiego U. Marszałkowski 08
-1852	1	214263	11:37:00	11:37:00		Krakowska jedn. wojskowa 02
-1852	1	214263	11:38:00	11:38:00		Krakowska szpital 04
-1852	1	214263	11:39:00	11:39:00		Krakowska galeria 06
-1852	1	214263	11:41:00	11:41:00		Ofiar Katynia galeria 06
-1852	1	214263	11:42:00	11:42:00		Kotuli / Ustrzycka 02 nż
-1852	1	214263	11:43:00	11:43:00		Kotuli domki 04 nż
-1852	1	214263	11:44:00	11:44:00		Bł. Karoliny / Strzyżowska 02 nż
-1852	1	214263	11:45:00	11:45:00		Bł. Karoliny / Sanocka 04 nż
-1852	1	214263	11:46:00	11:46:00		Bł. Karoliny przedszkole 06
-1852	1	214263	11:47:00	11:47:00		Bł. Karoliny pętla 09
+1852	4	214263	11:03:00	11:03:00		Św. Rocha lasek pętla 11
+1852	4	214263	11:04:00	11:04:00		Św. Rocha górka 09 nż
+1852	4	214263	11:05:00	11:05:00		Św. Rocha kapliczka 07 nż
+1852	4	214263	11:06:00	11:06:00		Św. Rocha domki 05 nż
+1852	4	214263	11:07:00	11:07:00		Św. Rocha bloki 03 nż
+1852	4	214263	11:08:00	11:08:00		Św. Rocha szkoła 01 nż
+1852	4	214263	11:09:00	11:09:00		Paderewskiego kościół 05
+1852	4	214263	11:10:00	11:10:00		Witolda seminarium 01 nż
+1852	4	214263	11:11:00	11:11:00		Niemierskiego 01 nż
+1852	4	214263	11:13:00	11:13:00		Armii Krajowej skarbiec 07 nż
+1852	4	214263	11:14:00	11:14:00		Armii Krajowej / Mieszka I 05 nż
+1852	4	214263	11:15:00	11:15:00		Armii Krajowej / Krzyżanowskiego 03 nż
+1852	4	214263	11:16:00	11:16:00		Armii Krajowej hotel 01 nż
+1852	4	214263	11:18:00	11:18:00		Powst. Warszawy / Rejtana 13
+1852	4	214263	11:19:00	11:19:00		Powst. Warszawy szkoła 11
+1852	4	214263	11:20:00	11:20:00		Powst. Warszawy dom studenta 09
+1852	4	214263	11:22:00	11:22:00		Powst. Warszawy stadion 05 nż
+1852	4	214263	11:23:00	11:23:00		Powst. Warszawy / Hetmańska 03
+1852	4	214263	11:24:00	11:24:00		Powst. Warszawy politechnika 01
+1852	4	214263	11:26:00	11:26:00		Dąbrowskiego / Chrobrego 07
+1852	4	214263	11:27:00	11:27:00		Dąbrowskiego KW. Policji 03
+1852	4	214263	11:28:00	11:28:00		Dąbrowskiego park 01 nż
+1852	4	214263	11:32:00	11:32:00		Lisa-Kuli 02
+1852	4	214263	11:33:00	11:33:00		Cieplińskiego 01
+1852	4	214263	11:35:00	11:35:00		Piłsudskiego U. Marszałkowski 08
+1852	4	214263	11:37:00	11:37:00		Krakowska jedn. wojskowa 02
+1852	4	214263	11:38:00	11:38:00		Krakowska szpital 04
+1852	4	214263	11:39:00	11:39:00		Krakowska galeria 06
+1852	4	214263	11:41:00	11:41:00		Ofiar Katynia galeria 06
+1852	4	214263	11:42:00	11:42:00		Kotuli / Ustrzycka 02 nż
+1852	4	214263	11:43:00	11:43:00		Kotuli domki 04 nż
+1852	4	214263	11:44:00	11:44:00		Bł. Karoliny / Strzyżowska 02 nż
+1852	4	214263	11:45:00	11:45:00		Bł. Karoliny / Sanocka 04 nż
+1852	4	214263	11:46:00	11:46:00		Bł. Karoliny przedszkole 06
+1852	4	214263	11:47:00	11:47:00		Bł. Karoliny pętla 09
 
-1840	1	214153	12:19:00	12:19:00		Bł. Karoliny pętla 09
-1840	1	214153	12:20:00	12:20:00		Bł. Karoliny przedszkole 07
-1840	1	214153	12:21:00	12:21:00		Bł. Karoliny / Nowosądecka 05 nż
-1840	1	214153	12:22:00	12:22:00		Bł. Karoliny / Sanocka 03 nż
-1840	1	214153	12:23:00	12:23:00		Bł. Karoliny / Strzyżowska 01 nż
-1840	1	214153	12:24:00	12:24:00		Kotuli / Solarza 03 nż
-1840	1	214153	12:25:00	12:25:00		Kotuli / Zbyszewskiego 01 nż
-1840	1	214153	12:28:00	12:28:00		Krakowska galeria 05
-1840	1	214153	12:29:00	12:29:00		Krakowska szpital 03
-1840	1	214153	12:31:00	12:31:00		Krakowska jedn. wojskowa 01
-1840	1	214153	12:33:00	12:33:00		Piłsudskiego U. Marszałkowski 07
-1840	1	214153	12:34:00	12:34:00		Cieplińskiego 02
-1840	1	214153	12:35:00	12:35:00		Lisa-Kuli 01
-1840	1	214153	12:38:00	12:38:00		Dąbrowskiego park 02 nż
-1840	1	214153	12:39:00	12:39:00		Dąbrowskiego KW. Policji 04
-1840	1	214153	12:40:00	12:40:00		Dąbrowskiego / Boh. Westerplatte 08
-1840	1	214153	12:43:00	12:43:00		Powst. Warszawy / Dąbrowskiego 02
-1840	1	214153	12:44:00	12:44:00		Powst. Warszawy politechnika 04
-1840	1	214153	12:45:00	12:45:00		Powst. Warszawy stadion 06
-1840	1	214153	12:48:00	12:48:00		Powst. Warszawy dom studenta 08
-1840	1	214153	12:49:00	12:49:00		Powst. Warszawy / Graniczna 10
-1840	1	214153	12:50:00	12:50:00		Powst. Warszawy / Sikorskiego 12 nż
-1840	1	214153	12:51:00	12:51:00		Armii Krajowej Park Papieski 02 nż
-1840	1	214153	12:52:00	12:52:00		Armii Krajowej hotel 04 nż
-1840	1	214153	12:53:00	12:53:00		Armii Krajowej / Powst. Listopad. 06 nż
-1840	1	214153	12:54:00	12:54:00		Armii Krajowej / Paderewskiego 08 nż
-1840	1	214153	12:56:00	12:56:00		Niemierskiego 02 nż
-1840	1	214153	12:57:00	12:57:00		Witolda seminarium 02 nż
-1840	1	214153	12:59:00	12:59:00		Paderewskiego kościół 08
-1840	1	214153	13:00:00	13:00:00		Św. Rocha szkoła 02 nż
-1840	1	214153	13:01:00	13:01:00		Św. Rocha bloki 04 nż
-1840	1	214153	13:02:00	13:02:00		Św. Rocha domki 06 nż
-1840	1	214153	13:03:00	13:03:00		Św. Rocha kapliczka 08 nż
-1840	1	214153	13:04:00	13:04:00		Św. Rocha górka 10 nż
-1840	1	214153	13:05:00	13:05:00		Św. Rocha / Św. Walentego 12 nż
-1840	1	214153	13:07:00	13:07:00		Św. Rocha lasek pętla 11
+1840	4	214153	12:19:00	12:19:00		Bł. Karoliny pętla 09
+1840	4	214153	12:20:00	12:20:00		Bł. Karoliny przedszkole 07
+1840	4	214153	12:21:00	12:21:00		Bł. Karoliny / Nowosądecka 05 nż
+1840	4	214153	12:22:00	12:22:00		Bł. Karoliny / Sanocka 03 nż
+1840	4	214153	12:23:00	12:23:00		Bł. Karoliny / Strzyżowska 01 nż
+1840	4	214153	12:24:00	12:24:00		Kotuli / Solarza 03 nż
+1840	4	214153	12:25:00	12:25:00		Kotuli / Zbyszewskiego 01 nż
+1840	4	214153	12:28:00	12:28:00		Krakowska galeria 05
+1840	4	214153	12:29:00	12:29:00		Krakowska szpital 03
+1840	4	214153	12:31:00	12:31:00		Krakowska jedn. wojskowa 01
+1840	4	214153	12:33:00	12:33:00		Piłsudskiego U. Marszałkowski 07
+1840	4	214153	12:34:00	12:34:00		Cieplińskiego 02
+1840	4	214153	12:35:00	12:35:00		Lisa-Kuli 01
+1840	4	214153	12:38:00	12:38:00		Dąbrowskiego park 02 nż
+1840	4	214153	12:39:00	12:39:00		Dąbrowskiego KW. Policji 04
+1840	4	214153	12:40:00	12:40:00		Dąbrowskiego / Boh. Westerplatte 08
+1840	4	214153	12:43:00	12:43:00		Powst. Warszawy / Dąbrowskiego 02
+1840	4	214153	12:44:00	12:44:00		Powst. Warszawy politechnika 04
+1840	4	214153	12:45:00	12:45:00		Powst. Warszawy stadion 06
+1840	4	214153	12:48:00	12:48:00		Powst. Warszawy dom studenta 08
+1840	4	214153	12:49:00	12:49:00		Powst. Warszawy / Graniczna 10
+1840	4	214153	12:50:00	12:50:00		Powst. Warszawy / Sikorskiego 12 nż
+1840	4	214153	12:51:00	12:51:00		Armii Krajowej Park Papieski 02 nż
+1840	4	214153	12:52:00	12:52:00		Armii Krajowej hotel 04 nż
+1840	4	214153	12:53:00	12:53:00		Armii Krajowej / Powst. Listopad. 06 nż
+1840	4	214153	12:54:00	12:54:00		Armii Krajowej / Paderewskiego 08 nż
+1840	4	214153	12:56:00	12:56:00		Niemierskiego 02 nż
+1840	4	214153	12:57:00	12:57:00		Witolda seminarium 02 nż
+1840	4	214153	12:59:00	12:59:00		Paderewskiego kościół 08
+1840	4	214153	13:00:00	13:00:00		Św. Rocha szkoła 02 nż
+1840	4	214153	13:01:00	13:01:00		Św. Rocha bloki 04 nż
+1840	4	214153	13:02:00	13:02:00		Św. Rocha domki 06 nż
+1840	4	214153	13:03:00	13:03:00		Św. Rocha kapliczka 08 nż
+1840	4	214153	13:04:00	13:04:00		Św. Rocha górka 10 nż
+1840	4	214153	13:05:00	13:05:00		Św. Rocha / Św. Walentego 12 nż
+1840	4	214153	13:07:00	13:07:00		Św. Rocha lasek pętla 11
 
-1852	1	213495	13:33:00	13:33:00		Św. Rocha lasek pętla 11
-1852	1	213495	13:34:00	13:34:00		Św. Rocha górka 09 nż
-1852	1	213495	13:35:00	13:35:00		Św. Rocha kapliczka 07 nż
-1852	1	213495	13:36:00	13:36:00		Św. Rocha domki 05 nż
-1852	1	213495	13:37:00	13:37:00		Św. Rocha bloki 03 nż
-1852	1	213495	13:38:00	13:38:00		Św. Rocha szkoła 01 nż
-1852	1	213495	13:39:00	13:39:00		Paderewskiego kościół 05
-1852	1	213495	13:40:00	13:40:00		Witolda seminarium 01 nż
-1852	1	213495	13:41:00	13:41:00		Niemierskiego 01 nż
-1852	1	213495	13:43:00	13:43:00		Armii Krajowej skarbiec 07 nż
-1852	1	213495	13:44:00	13:44:00		Armii Krajowej / Mieszka I 05 nż
-1852	1	213495	13:45:00	13:45:00		Armii Krajowej / Krzyżanowskiego 03 nż
-1852	1	213495	13:46:00	13:46:00		Armii Krajowej hotel 01 nż
-1852	1	213495	13:48:00	13:48:00		Powst. Warszawy / Rejtana 13
-1852	1	213495	13:49:00	13:49:00		Powst. Warszawy szkoła 11
-1852	1	213495	13:50:00	13:50:00		Powst. Warszawy dom studenta 09
-1852	1	213495	13:52:00	13:52:00		Powst. Warszawy stadion 05 nż
-1852	1	213495	13:53:00	13:53:00		Powst. Warszawy / Hetmańska 03
-1852	1	213495	13:54:00	13:54:00		Powst. Warszawy politechnika 01
-1852	1	213495	13:56:00	13:56:00		Dąbrowskiego / Chrobrego 07
-1852	1	213495	13:57:00	13:57:00		Dąbrowskiego KW. Policji 03
-1852	1	213495	13:58:00	13:58:00		Dąbrowskiego park 01 nż
-1852	1	213495	14:02:00	14:02:00		Lisa-Kuli 02
-1852	1	213495	14:03:00	14:03:00		Cieplińskiego 01
-1852	1	213495	14:05:00	14:05:00		Piłsudskiego U. Marszałkowski 08
-1852	1	213495	14:07:00	14:07:00		Krakowska jedn. wojskowa 02
-1852	1	213495	14:08:00	14:08:00		Krakowska szpital 04
-1852	1	213495	14:09:00	14:09:00		Krakowska galeria 06
-1852	1	213495	14:11:00	14:11:00		Ofiar Katynia galeria 06
-1852	1	213495	14:12:00	14:12:00		Kotuli / Ustrzycka 02 nż
-1852	1	213495	14:13:00	14:13:00		Kotuli domki 04 nż
-1852	1	213495	14:14:00	14:14:00		Bł. Karoliny / Strzyżowska 02 nż
-1852	1	213495	14:15:00	14:15:00		Bł. Karoliny / Sanocka 04 nż
-1852	1	213495	14:16:00	14:16:00		Bł. Karoliny przedszkole 06
-1852	1	213495	14:17:00	14:17:00		Bł. Karoliny pętla 09
+1852	4	213495	13:33:00	13:33:00		Św. Rocha lasek pętla 11
+1852	4	213495	13:34:00	13:34:00		Św. Rocha górka 09 nż
+1852	4	213495	13:35:00	13:35:00		Św. Rocha kapliczka 07 nż
+1852	4	213495	13:36:00	13:36:00		Św. Rocha domki 05 nż
+1852	4	213495	13:37:00	13:37:00		Św. Rocha bloki 03 nż
+1852	4	213495	13:38:00	13:38:00		Św. Rocha szkoła 01 nż
+1852	4	213495	13:39:00	13:39:00		Paderewskiego kościół 05
+1852	4	213495	13:40:00	13:40:00		Witolda seminarium 01 nż
+1852	4	213495	13:41:00	13:41:00		Niemierskiego 01 nż
+1852	4	213495	13:43:00	13:43:00		Armii Krajowej skarbiec 07 nż
+1852	4	213495	13:44:00	13:44:00		Armii Krajowej / Mieszka I 05 nż
+1852	4	213495	13:45:00	13:45:00		Armii Krajowej / Krzyżanowskiego 03 nż
+1852	4	213495	13:46:00	13:46:00		Armii Krajowej hotel 01 nż
+1852	4	213495	13:48:00	13:48:00		Powst. Warszawy / Rejtana 13
+1852	4	213495	13:49:00	13:49:00		Powst. Warszawy szkoła 11
+1852	4	213495	13:50:00	13:50:00		Powst. Warszawy dom studenta 09
+1852	4	213495	13:52:00	13:52:00		Powst. Warszawy stadion 05 nż
+1852	4	213495	13:53:00	13:53:00		Powst. Warszawy / Hetmańska 03
+1852	4	213495	13:54:00	13:54:00		Powst. Warszawy politechnika 01
+1852	4	213495	13:56:00	13:56:00		Dąbrowskiego / Chrobrego 07
+1852	4	213495	13:57:00	13:57:00		Dąbrowskiego KW. Policji 03
+1852	4	213495	13:58:00	13:58:00		Dąbrowskiego park 01 nż
+1852	4	213495	14:02:00	14:02:00		Lisa-Kuli 02
+1852	4	213495	14:03:00	14:03:00		Cieplińskiego 01
+1852	4	213495	14:05:00	14:05:00		Piłsudskiego U. Marszałkowski 08
+1852	4	213495	14:07:00	14:07:00		Krakowska jedn. wojskowa 02
+1852	4	213495	14:08:00	14:08:00		Krakowska szpital 04
+1852	4	213495	14:09:00	14:09:00		Krakowska galeria 06
+1852	4	213495	14:11:00	14:11:00		Ofiar Katynia galeria 06
+1852	4	213495	14:12:00	14:12:00		Kotuli / Ustrzycka 02 nż
+1852	4	213495	14:13:00	14:13:00		Kotuli domki 04 nż
+1852	4	213495	14:14:00	14:14:00		Bł. Karoliny / Strzyżowska 02 nż
+1852	4	213495	14:15:00	14:15:00		Bł. Karoliny / Sanocka 04 nż
+1852	4	213495	14:16:00	14:16:00		Bł. Karoliny przedszkole 06
+1852	4	213495	14:17:00	14:17:00		Bł. Karoliny pętla 09
 
-1840	1	210940	14:49:00	14:49:00		Bł. Karoliny pętla 09
-1840	1	210940	14:50:00	14:50:00		Bł. Karoliny przedszkole 07
-1840	1	210940	14:51:00	14:51:00		Bł. Karoliny / Nowosądecka 05 nż
-1840	1	210940	14:52:00	14:52:00		Bł. Karoliny / Sanocka 03 nż
-1840	1	210940	14:53:00	14:53:00		Bł. Karoliny / Strzyżowska 01 nż
-1840	1	210940	14:54:00	14:54:00		Kotuli / Solarza 03 nż
-1840	1	210940	14:55:00	14:55:00		Kotuli / Zbyszewskiego 01 nż
-1840	1	210940	14:58:00	14:58:00		Krakowska galeria 05
-1840	1	210940	14:59:00	14:59:00		Krakowska szpital 03
-1840	1	210940	15:01:00	15:01:00		Krakowska jedn. wojskowa 01
-1840	1	210940	15:03:00	15:03:00		Piłsudskiego U. Marszałkowski 07
-1840	1	210940	15:04:00	15:04:00		Cieplińskiego 02
-1840	1	210940	15:05:00	15:05:00		Lisa-Kuli 01
-1840	1	210940	15:08:00	15:08:00		Dąbrowskiego park 02 nż
-1840	1	210940	15:09:00	15:09:00		Dąbrowskiego KW. Policji 04
-1840	1	210940	15:10:00	15:10:00		Dąbrowskiego / Boh. Westerplatte 08
-1840	1	210940	15:13:00	15:13:00		Powst. Warszawy / Dąbrowskiego 02
-1840	1	210940	15:14:00	15:14:00		Powst. Warszawy politechnika 04
-1840	1	210940	15:15:00	15:15:00		Powst. Warszawy stadion 06
-1840	1	210940	15:18:00	15:18:00		Powst. Warszawy dom studenta 08
-1840	1	210940	15:19:00	15:19:00		Powst. Warszawy / Graniczna 10
-1840	1	210940	15:20:00	15:20:00		Powst. Warszawy / Sikorskiego 12 nż
-1840	1	210940	15:21:00	15:21:00		Armii Krajowej Park Papieski 02 nż
-1840	1	210940	15:22:00	15:22:00		Armii Krajowej hotel 04 nż
-1840	1	210940	15:23:00	15:23:00		Armii Krajowej / Powst. Listopad. 06 nż
-1840	1	210940	15:24:00	15:24:00		Armii Krajowej / Paderewskiego 08 nż
-1840	1	210940	15:26:00	15:26:00		Niemierskiego 02 nż
-1840	1	210940	15:27:00	15:27:00		Witolda seminarium 02 nż
-1840	1	210940	15:29:00	15:29:00		Paderewskiego kościół 08
-1840	1	210940	15:30:00	15:30:00		Św. Rocha szkoła 02 nż
-1840	1	210940	15:31:00	15:31:00		Św. Rocha bloki 04 nż
-1840	1	210940	15:32:00	15:32:00		Św. Rocha domki 06 nż
-1840	1	210940	15:33:00	15:33:00		Św. Rocha kapliczka 08 nż
-1840	1	210940	15:34:00	15:34:00		Św. Rocha górka 10 nż
-1840	1	210940	15:35:00	15:35:00		Św. Rocha / Św. Walentego 12 nż
-1840	1	210940	15:37:00	15:37:00		Św. Rocha lasek pętla 11
+1840	4	210940	14:49:00	14:49:00		Bł. Karoliny pętla 09
+1840	4	210940	14:50:00	14:50:00		Bł. Karoliny przedszkole 07
+1840	4	210940	14:51:00	14:51:00		Bł. Karoliny / Nowosądecka 05 nż
+1840	4	210940	14:52:00	14:52:00		Bł. Karoliny / Sanocka 03 nż
+1840	4	210940	14:53:00	14:53:00		Bł. Karoliny / Strzyżowska 01 nż
+1840	4	210940	14:54:00	14:54:00		Kotuli / Solarza 03 nż
+1840	4	210940	14:55:00	14:55:00		Kotuli / Zbyszewskiego 01 nż
+1840	4	210940	14:58:00	14:58:00		Krakowska galeria 05
+1840	4	210940	14:59:00	14:59:00		Krakowska szpital 03
+1840	4	210940	15:01:00	15:01:00		Krakowska jedn. wojskowa 01
+1840	4	210940	15:03:00	15:03:00		Piłsudskiego U. Marszałkowski 07
+1840	4	210940	15:04:00	15:04:00		Cieplińskiego 02
+1840	4	210940	15:05:00	15:05:00		Lisa-Kuli 01
+1840	4	210940	15:08:00	15:08:00		Dąbrowskiego park 02 nż
+1840	4	210940	15:09:00	15:09:00		Dąbrowskiego KW. Policji 04
+1840	4	210940	15:10:00	15:10:00		Dąbrowskiego / Boh. Westerplatte 08
+1840	4	210940	15:13:00	15:13:00		Powst. Warszawy / Dąbrowskiego 02
+1840	4	210940	15:14:00	15:14:00		Powst. Warszawy politechnika 04
+1840	4	210940	15:15:00	15:15:00		Powst. Warszawy stadion 06
+1840	4	210940	15:18:00	15:18:00		Powst. Warszawy dom studenta 08
+1840	4	210940	15:19:00	15:19:00		Powst. Warszawy / Graniczna 10
+1840	4	210940	15:20:00	15:20:00		Powst. Warszawy / Sikorskiego 12 nż
+1840	4	210940	15:21:00	15:21:00		Armii Krajowej Park Papieski 02 nż
+1840	4	210940	15:22:00	15:22:00		Armii Krajowej hotel 04 nż
+1840	4	210940	15:23:00	15:23:00		Armii Krajowej / Powst. Listopad. 06 nż
+1840	4	210940	15:24:00	15:24:00		Armii Krajowej / Paderewskiego 08 nż
+1840	4	210940	15:26:00	15:26:00		Niemierskiego 02 nż
+1840	4	210940	15:27:00	15:27:00		Witolda seminarium 02 nż
+1840	4	210940	15:29:00	15:29:00		Paderewskiego kościół 08
+1840	4	210940	15:30:00	15:30:00		Św. Rocha szkoła 02 nż
+1840	4	210940	15:31:00	15:31:00		Św. Rocha bloki 04 nż
+1840	4	210940	15:32:00	15:32:00		Św. Rocha domki 06 nż
+1840	4	210940	15:33:00	15:33:00		Św. Rocha kapliczka 08 nż
+1840	4	210940	15:34:00	15:34:00		Św. Rocha górka 10 nż
+1840	4	210940	15:35:00	15:35:00		Św. Rocha / Św. Walentego 12 nż
+1840	4	210940	15:37:00	15:37:00		Św. Rocha lasek pętla 11
 
-1852	1	211595	15:58:00	15:58:00		Św. Rocha lasek pętla 11
-1852	1	211595	15:59:00	15:59:00		Św. Rocha górka 09 nż
-1852	1	211595	16:00:00	16:00:00		Św. Rocha kapliczka 07 nż
-1852	1	211595	16:01:00	16:01:00		Św. Rocha domki 05 nż
-1852	1	211595	16:02:00	16:02:00		Św. Rocha bloki 03 nż
-1852	1	211595	16:03:00	16:03:00		Św. Rocha szkoła 01 nż
-1852	1	211595	16:04:00	16:04:00		Paderewskiego kościół 05
-1852	1	211595	16:05:00	16:05:00		Witolda seminarium 01 nż
-1852	1	211595	16:06:00	16:06:00		Niemierskiego 01 nż
-1852	1	211595	16:08:00	16:08:00		Armii Krajowej skarbiec 07 nż
-1852	1	211595	16:09:00	16:09:00		Armii Krajowej / Mieszka I 05 nż
-1852	1	211595	16:10:00	16:10:00		Armii Krajowej / Krzyżanowskiego 03 nż
-1852	1	211595	16:11:00	16:11:00		Armii Krajowej hotel 01 nż
-1852	1	211595	16:13:00	16:13:00		Powst. Warszawy / Rejtana 13
-1852	1	211595	16:14:00	16:14:00		Powst. Warszawy szkoła 11
-1852	1	211595	16:15:00	16:15:00		Powst. Warszawy dom studenta 09
-1852	1	211595	16:17:00	16:17:00		Powst. Warszawy stadion 05 nż
-1852	1	211595	16:18:00	16:18:00		Powst. Warszawy / Hetmańska 03
-1852	1	211595	16:19:00	16:19:00		Powst. Warszawy politechnika 01
-1852	1	211595	16:21:00	16:21:00		Dąbrowskiego / Chrobrego 07
-1852	1	211595	16:22:00	16:22:00		Dąbrowskiego KW. Policji 03
-1852	1	211595	16:23:00	16:23:00		Dąbrowskiego park 01 nż
-1852	1	211595	16:27:00	16:27:00		Lisa-Kuli 02
-1852	1	211595	16:28:00	16:28:00		Cieplińskiego 01
-1852	1	211595	16:30:00	16:30:00		Piłsudskiego U. Marszałkowski 08
-1852	1	211595	16:32:00	16:32:00		Krakowska jedn. wojskowa 02
-1852	1	211595	16:33:00	16:33:00		Krakowska szpital 04
-1852	1	211595	16:34:00	16:34:00		Krakowska galeria 06
-1852	1	211595	16:36:00	16:36:00		Ofiar Katynia galeria 06
-1852	1	211595	16:37:00	16:37:00		Kotuli / Ustrzycka 02 nż
-1852	1	211595	16:38:00	16:38:00		Kotuli domki 04 nż
-1852	1	211595	16:39:00	16:39:00		Bł. Karoliny / Strzyżowska 02 nż
-1852	1	211595	16:40:00	16:40:00		Bł. Karoliny / Sanocka 04 nż
-1852	1	211595	16:41:00	16:41:00		Bł. Karoliny przedszkole 06
-1852	1	211595	16:42:00	16:42:00		Bł. Karoliny pętla 09
+1852	4	211595	15:58:00	15:58:00		Św. Rocha lasek pętla 11
+1852	4	211595	15:59:00	15:59:00		Św. Rocha górka 09 nż
+1852	4	211595	16:00:00	16:00:00		Św. Rocha kapliczka 07 nż
+1852	4	211595	16:01:00	16:01:00		Św. Rocha domki 05 nż
+1852	4	211595	16:02:00	16:02:00		Św. Rocha bloki 03 nż
+1852	4	211595	16:03:00	16:03:00		Św. Rocha szkoła 01 nż
+1852	4	211595	16:04:00	16:04:00		Paderewskiego kościół 05
+1852	4	211595	16:05:00	16:05:00		Witolda seminarium 01 nż
+1852	4	211595	16:06:00	16:06:00		Niemierskiego 01 nż
+1852	4	211595	16:08:00	16:08:00		Armii Krajowej skarbiec 07 nż
+1852	4	211595	16:09:00	16:09:00		Armii Krajowej / Mieszka I 05 nż
+1852	4	211595	16:10:00	16:10:00		Armii Krajowej / Krzyżanowskiego 03 nż
+1852	4	211595	16:11:00	16:11:00		Armii Krajowej hotel 01 nż
+1852	4	211595	16:13:00	16:13:00		Powst. Warszawy / Rejtana 13
+1852	4	211595	16:14:00	16:14:00		Powst. Warszawy szkoła 11
+1852	4	211595	16:15:00	16:15:00		Powst. Warszawy dom studenta 09
+1852	4	211595	16:17:00	16:17:00		Powst. Warszawy stadion 05 nż
+1852	4	211595	16:18:00	16:18:00		Powst. Warszawy / Hetmańska 03
+1852	4	211595	16:19:00	16:19:00		Powst. Warszawy politechnika 01
+1852	4	211595	16:21:00	16:21:00		Dąbrowskiego / Chrobrego 07
+1852	4	211595	16:22:00	16:22:00		Dąbrowskiego KW. Policji 03
+1852	4	211595	16:23:00	16:23:00		Dąbrowskiego park 01 nż
+1852	4	211595	16:27:00	16:27:00		Lisa-Kuli 02
+1852	4	211595	16:28:00	16:28:00		Cieplińskiego 01
+1852	4	211595	16:30:00	16:30:00		Piłsudskiego U. Marszałkowski 08
+1852	4	211595	16:32:00	16:32:00		Krakowska jedn. wojskowa 02
+1852	4	211595	16:33:00	16:33:00		Krakowska szpital 04
+1852	4	211595	16:34:00	16:34:00		Krakowska galeria 06
+1852	4	211595	16:36:00	16:36:00		Ofiar Katynia galeria 06
+1852	4	211595	16:37:00	16:37:00		Kotuli / Ustrzycka 02 nż
+1852	4	211595	16:38:00	16:38:00		Kotuli domki 04 nż
+1852	4	211595	16:39:00	16:39:00		Bł. Karoliny / Strzyżowska 02 nż
+1852	4	211595	16:40:00	16:40:00		Bł. Karoliny / Sanocka 04 nż
+1852	4	211595	16:41:00	16:41:00		Bł. Karoliny przedszkole 06
+1852	4	211595	16:42:00	16:42:00		Bł. Karoliny pętla 09
 
-1840	1	214901	16:49:00	16:49:00		Bł. Karoliny pętla 09
-1840	1	214901	16:50:00	16:50:00		Bł. Karoliny przedszkole 07
-1840	1	214901	16:51:00	16:51:00		Bł. Karoliny / Nowosądecka 05 nż
-1840	1	214901	16:52:00	16:52:00		Bł. Karoliny / Sanocka 03 nż
-1840	1	214901	16:53:00	16:53:00		Bł. Karoliny / Strzyżowska 01 nż
-1840	1	214901	16:54:00	16:54:00		Kotuli / Solarza 03 nż
-1840	1	214901	16:55:00	16:55:00		Kotuli / Zbyszewskiego 01 nż
-1840	1	214901	16:58:00	16:58:00		Krakowska galeria 05
-1840	1	214901	16:59:00	16:59:00		Krakowska szpital 03
-1840	1	214901	17:01:00	17:01:00		Krakowska jedn. wojskowa 01
-1840	1	214901	17:03:00	17:03:00		Piłsudskiego U. Marszałkowski 07
-1840	1	214901	17:04:00	17:04:00		Cieplińskiego 02
-1840	1	214901	17:05:00	17:05:00		Lisa-Kuli 01
-1840	1	214901	17:08:00	17:08:00		Dąbrowskiego park 02 nż
-1840	1	214901	17:09:00	17:09:00		Dąbrowskiego KW. Policji 04
-1840	1	214901	17:10:00	17:10:00		Dąbrowskiego / Boh. Westerplatte 08
-1840	1	214901	17:13:00	17:13:00		Powst. Warszawy / Dąbrowskiego 02
-1840	1	214901	17:14:00	17:14:00		Powst. Warszawy politechnika 04
-1840	1	214901	17:15:00	17:15:00		Powst. Warszawy stadion 06
-1840	1	214901	17:18:00	17:18:00		Powst. Warszawy dom studenta 08
-1840	1	214901	17:19:00	17:19:00		Powst. Warszawy / Graniczna 10
-1840	1	214901	17:20:00	17:20:00		Powst. Warszawy / Sikorskiego 12 nż
-1840	1	214901	17:21:00	17:21:00		Armii Krajowej Park Papieski 02 nż
-1840	1	214901	17:22:00	17:22:00		Armii Krajowej hotel 04 nż
-1840	1	214901	17:23:00	17:23:00		Armii Krajowej / Powst. Listopad. 06 nż
-1840	1	214901	17:24:00	17:24:00		Armii Krajowej / Paderewskiego 08 nż
-1840	1	214901	17:26:00	17:26:00		Niemierskiego 02 nż
-1840	1	214901	17:27:00	17:27:00		Witolda seminarium 02 nż
-1840	1	214901	17:29:00	17:29:00		Paderewskiego kościół 08
-1840	1	214901	17:30:00	17:30:00		Św. Rocha szkoła 02 nż
-1840	1	214901	17:31:00	17:31:00		Św. Rocha bloki 04 nż
-1840	1	214901	17:32:00	17:32:00		Św. Rocha domki 06 nż
-1840	1	214901	17:33:00	17:33:00		Św. Rocha kapliczka 08 nż
-1840	1	214901	17:34:00	17:34:00		Św. Rocha górka 10 nż
-1840	1	214901	17:35:00	17:35:00		Św. Rocha / Św. Walentego 12 nż
-1840	1	214901	17:37:00	17:37:00		Św. Rocha lasek pętla 11
+1840	4	214901	16:49:00	16:49:00		Bł. Karoliny pętla 09
+1840	4	214901	16:50:00	16:50:00		Bł. Karoliny przedszkole 07
+1840	4	214901	16:51:00	16:51:00		Bł. Karoliny / Nowosądecka 05 nż
+1840	4	214901	16:52:00	16:52:00		Bł. Karoliny / Sanocka 03 nż
+1840	4	214901	16:53:00	16:53:00		Bł. Karoliny / Strzyżowska 01 nż
+1840	4	214901	16:54:00	16:54:00		Kotuli / Solarza 03 nż
+1840	4	214901	16:55:00	16:55:00		Kotuli / Zbyszewskiego 01 nż
+1840	4	214901	16:58:00	16:58:00		Krakowska galeria 05
+1840	4	214901	16:59:00	16:59:00		Krakowska szpital 03
+1840	4	214901	17:01:00	17:01:00		Krakowska jedn. wojskowa 01
+1840	4	214901	17:03:00	17:03:00		Piłsudskiego U. Marszałkowski 07
+1840	4	214901	17:04:00	17:04:00		Cieplińskiego 02
+1840	4	214901	17:05:00	17:05:00		Lisa-Kuli 01
+1840	4	214901	17:08:00	17:08:00		Dąbrowskiego park 02 nż
+1840	4	214901	17:09:00	17:09:00		Dąbrowskiego KW. Policji 04
+1840	4	214901	17:10:00	17:10:00		Dąbrowskiego / Boh. Westerplatte 08
+1840	4	214901	17:13:00	17:13:00		Powst. Warszawy / Dąbrowskiego 02
+1840	4	214901	17:14:00	17:14:00		Powst. Warszawy politechnika 04
+1840	4	214901	17:15:00	17:15:00		Powst. Warszawy stadion 06
+1840	4	214901	17:18:00	17:18:00		Powst. Warszawy dom studenta 08
+1840	4	214901	17:19:00	17:19:00		Powst. Warszawy / Graniczna 10
+1840	4	214901	17:20:00	17:20:00		Powst. Warszawy / Sikorskiego 12 nż
+1840	4	214901	17:21:00	17:21:00		Armii Krajowej Park Papieski 02 nż
+1840	4	214901	17:22:00	17:22:00		Armii Krajowej hotel 04 nż
+1840	4	214901	17:23:00	17:23:00		Armii Krajowej / Powst. Listopad. 06 nż
+1840	4	214901	17:24:00	17:24:00		Armii Krajowej / Paderewskiego 08 nż
+1840	4	214901	17:26:00	17:26:00		Niemierskiego 02 nż
+1840	4	214901	17:27:00	17:27:00		Witolda seminarium 02 nż
+1840	4	214901	17:29:00	17:29:00		Paderewskiego kościół 08
+1840	4	214901	17:30:00	17:30:00		Św. Rocha szkoła 02 nż
+1840	4	214901	17:31:00	17:31:00		Św. Rocha bloki 04 nż
+1840	4	214901	17:32:00	17:32:00		Św. Rocha domki 06 nż
+1840	4	214901	17:33:00	17:33:00		Św. Rocha kapliczka 08 nż
+1840	4	214901	17:34:00	17:34:00		Św. Rocha górka 10 nż
+1840	4	214901	17:35:00	17:35:00		Św. Rocha / Św. Walentego 12 nż
+1840	4	214901	17:37:00	17:37:00		Św. Rocha lasek pętla 11
 
-1852	1	209822	18:00:00	18:00:00		Św. Rocha lasek pętla 11
-1852	1	209822	18:01:00	18:01:00		Św. Rocha górka 09 nż
-1852	1	209822	18:02:00	18:02:00		Św. Rocha kapliczka 07 nż
-1852	1	209822	18:03:00	18:03:00		Św. Rocha domki 05 nż
-1852	1	209822	18:04:00	18:04:00		Św. Rocha bloki 03 nż
-1852	1	209822	18:05:00	18:05:00		Św. Rocha szkoła 01 nż
-1852	1	209822	18:06:00	18:06:00		Paderewskiego kościół 05
-1852	1	209822	18:07:00	18:07:00		Witolda seminarium 01 nż
-1852	1	209822	18:08:00	18:08:00		Niemierskiego 01 nż
-1852	1	209822	18:10:00	18:10:00		Armii Krajowej skarbiec 07 nż
-1852	1	209822	18:11:00	18:11:00		Armii Krajowej / Mieszka I 05 nż
-1852	1	209822	18:12:00	18:12:00		Armii Krajowej / Krzyżanowskiego 03 nż
-1852	1	209822	18:13:00	18:13:00		Armii Krajowej hotel 01 nż
-1852	1	209822	18:15:00	18:15:00		Powst. Warszawy / Rejtana 13
-1852	1	209822	18:16:00	18:16:00		Powst. Warszawy szkoła 11
-1852	1	209822	18:17:00	18:17:00		Powst. Warszawy dom studenta 09
-1852	1	209822	18:18:00	18:18:00		Powst. Warszawy stadion 05 nż
-1852	1	209822	18:19:00	18:19:00		Powst. Warszawy / Hetmańska 03
-1852	1	209822	18:20:00	18:20:00		Powst. Warszawy politechnika 01
-1852	1	209822	18:22:00	18:22:00		Dąbrowskiego / Chrobrego 07
-1852	1	209822	18:23:00	18:23:00		Dąbrowskiego KW. Policji 03
-1852	1	209822	18:24:00	18:24:00		Dąbrowskiego park 01 nż
-1852	1	209822	18:27:00	18:27:00		Lisa-Kuli 02
-1852	1	209822	18:28:00	18:28:00		Cieplińskiego 01
-1852	1	209822	18:30:00	18:30:00		Piłsudskiego U. Marszałkowski 08
-1852	1	209822	18:32:00	18:32:00		Krakowska jedn. wojskowa 02
-1852	1	209822	18:33:00	18:33:00		Krakowska szpital 04
-1852	1	209822	18:34:00	18:34:00		Krakowska galeria 06
-1852	1	209822	18:36:00	18:36:00		Ofiar Katynia galeria 06
-1852	1	209822	18:37:00	18:37:00		Kotuli / Ustrzycka 02 nż
-1852	1	209822	18:38:00	18:38:00		Kotuli domki 04 nż
-1852	1	209822	18:39:00	18:39:00		Bł. Karoliny / Strzyżowska 02 nż
-1852	1	209822	18:40:00	18:40:00		Bł. Karoliny / Sanocka 04 nż
-1852	1	209822	18:41:00	18:41:00		Bł. Karoliny przedszkole 06
-1852	1	209822	18:42:00	18:42:00		Bł. Karoliny pętla 09
+1852	4	209822	18:00:00	18:00:00		Św. Rocha lasek pętla 11
+1852	4	209822	18:01:00	18:01:00		Św. Rocha górka 09 nż
+1852	4	209822	18:02:00	18:02:00		Św. Rocha kapliczka 07 nż
+1852	4	209822	18:03:00	18:03:00		Św. Rocha domki 05 nż
+1852	4	209822	18:04:00	18:04:00		Św. Rocha bloki 03 nż
+1852	4	209822	18:05:00	18:05:00		Św. Rocha szkoła 01 nż
+1852	4	209822	18:06:00	18:06:00		Paderewskiego kościół 05
+1852	4	209822	18:07:00	18:07:00		Witolda seminarium 01 nż
+1852	4	209822	18:08:00	18:08:00		Niemierskiego 01 nż
+1852	4	209822	18:10:00	18:10:00		Armii Krajowej skarbiec 07 nż
+1852	4	209822	18:11:00	18:11:00		Armii Krajowej / Mieszka I 05 nż
+1852	4	209822	18:12:00	18:12:00		Armii Krajowej / Krzyżanowskiego 03 nż
+1852	4	209822	18:13:00	18:13:00		Armii Krajowej hotel 01 nż
+1852	4	209822	18:15:00	18:15:00		Powst. Warszawy / Rejtana 13
+1852	4	209822	18:16:00	18:16:00		Powst. Warszawy szkoła 11
+1852	4	209822	18:17:00	18:17:00		Powst. Warszawy dom studenta 09
+1852	4	209822	18:18:00	18:18:00		Powst. Warszawy stadion 05 nż
+1852	4	209822	18:19:00	18:19:00		Powst. Warszawy / Hetmańska 03
+1852	4	209822	18:20:00	18:20:00		Powst. Warszawy politechnika 01
+1852	4	209822	18:22:00	18:22:00		Dąbrowskiego / Chrobrego 07
+1852	4	209822	18:23:00	18:23:00		Dąbrowskiego KW. Policji 03
+1852	4	209822	18:24:00	18:24:00		Dąbrowskiego park 01 nż
+1852	4	209822	18:27:00	18:27:00		Lisa-Kuli 02
+1852	4	209822	18:28:00	18:28:00		Cieplińskiego 01
+1852	4	209822	18:30:00	18:30:00		Piłsudskiego U. Marszałkowski 08
+1852	4	209822	18:32:00	18:32:00		Krakowska jedn. wojskowa 02
+1852	4	209822	18:33:00	18:33:00		Krakowska szpital 04
+1852	4	209822	18:34:00	18:34:00		Krakowska galeria 06
+1852	4	209822	18:36:00	18:36:00		Ofiar Katynia galeria 06
+1852	4	209822	18:37:00	18:37:00		Kotuli / Ustrzycka 02 nż
+1852	4	209822	18:38:00	18:38:00		Kotuli domki 04 nż
+1852	4	209822	18:39:00	18:39:00		Bł. Karoliny / Strzyżowska 02 nż
+1852	4	209822	18:40:00	18:40:00		Bł. Karoliny / Sanocka 04 nż
+1852	4	209822	18:41:00	18:41:00		Bł. Karoliny przedszkole 06
+1852	4	209822	18:42:00	18:42:00		Bł. Karoliny pętla 09
 
-1840	1	210159	18:49:00	18:49:00		Bł. Karoliny pętla 09
-1840	1	210159	18:50:00	18:50:00		Bł. Karoliny przedszkole 07
-1840	1	210159	18:51:00	18:51:00		Bł. Karoliny / Nowosądecka 05 nż
-1840	1	210159	18:52:00	18:52:00		Bł. Karoliny / Sanocka 03 nż
-1840	1	210159	18:53:00	18:53:00		Bł. Karoliny / Strzyżowska 01 nż
-1840	1	210159	18:54:00	18:54:00		Kotuli / Solarza 03 nż
-1840	1	210159	18:55:00	18:55:00		Kotuli / Zbyszewskiego 01 nż
-1840	1	210159	18:58:00	18:58:00		Krakowska galeria 05
-1840	1	210159	18:59:00	18:59:00		Krakowska szpital 03
-1840	1	210159	19:01:00	19:01:00		Krakowska jedn. wojskowa 01
-1840	1	210159	19:03:00	19:03:00		Piłsudskiego U. Marszałkowski 07
-1840	1	210159	19:04:00	19:04:00		Cieplińskiego 02
-1840	1	210159	19:05:00	19:05:00		Lisa-Kuli 01
-1840	1	210159	19:07:00	19:07:00		Dąbrowskiego park 02 nż
-1840	1	210159	19:08:00	19:08:00		Dąbrowskiego KW. Policji 04
-1840	1	210159	19:09:00	19:09:00		Dąbrowskiego / Boh. Westerplatte 08
-1840	1	210159	19:12:00	19:12:00		Powst. Warszawy / Dąbrowskiego 02
-1840	1	210159	19:13:00	19:13:00		Powst. Warszawy politechnika 04
-1840	1	210159	19:14:00	19:14:00		Powst. Warszawy stadion 06
-1840	1	210159	19:17:00	19:17:00		Powst. Warszawy dom studenta 08
-1840	1	210159	19:18:00	19:18:00		Powst. Warszawy / Graniczna 10
-1840	1	210159	19:19:00	19:19:00		Powst. Warszawy / Sikorskiego 12 nż
-1840	1	210159	19:20:00	19:20:00		Armii Krajowej Park Papieski 02 nż
-1840	1	210159	19:21:00	19:21:00		Armii Krajowej hotel 04 nż
-1840	1	210159	19:22:00	19:22:00		Armii Krajowej / Powst. Listopad. 06 nż
-1840	1	210159	19:23:00	19:23:00		Armii Krajowej / Paderewskiego 08 nż
-1840	1	210159	19:25:00	19:25:00		Niemierskiego 02 nż
-1840	1	210159	19:26:00	19:26:00		Witolda seminarium 02 nż
-1840	1	210159	19:27:00	19:27:00		Paderewskiego kościół 08
-1840	1	210159	19:28:00	19:28:00		Św. Rocha szkoła 02 nż
-1840	1	210159	19:29:00	19:29:00		Św. Rocha bloki 04 nż
-1840	1	210159	19:30:00	19:30:00		Św. Rocha domki 06 nż
-1840	1	210159	19:31:00	19:31:00		Św. Rocha kapliczka 08 nż
-1840	1	210159	19:32:00	19:32:00		Św. Rocha górka 10 nż
-1840	1	210159	19:33:00	19:33:00		Św. Rocha / Św. Walentego 12 nż
-1840	1	210159	19:35:00	19:35:00		Św. Rocha lasek pętla 11
+1840	4	210159	18:49:00	18:49:00		Bł. Karoliny pętla 09
+1840	4	210159	18:50:00	18:50:00		Bł. Karoliny przedszkole 07
+1840	4	210159	18:51:00	18:51:00		Bł. Karoliny / Nowosądecka 05 nż
+1840	4	210159	18:52:00	18:52:00		Bł. Karoliny / Sanocka 03 nż
+1840	4	210159	18:53:00	18:53:00		Bł. Karoliny / Strzyżowska 01 nż
+1840	4	210159	18:54:00	18:54:00		Kotuli / Solarza 03 nż
+1840	4	210159	18:55:00	18:55:00		Kotuli / Zbyszewskiego 01 nż
+1840	4	210159	18:58:00	18:58:00		Krakowska galeria 05
+1840	4	210159	18:59:00	18:59:00		Krakowska szpital 03
+1840	4	210159	19:01:00	19:01:00		Krakowska jedn. wojskowa 01
+1840	4	210159	19:03:00	19:03:00		Piłsudskiego U. Marszałkowski 07
+1840	4	210159	19:04:00	19:04:00		Cieplińskiego 02
+1840	4	210159	19:05:00	19:05:00		Lisa-Kuli 01
+1840	4	210159	19:07:00	19:07:00		Dąbrowskiego park 02 nż
+1840	4	210159	19:08:00	19:08:00		Dąbrowskiego KW. Policji 04
+1840	4	210159	19:09:00	19:09:00		Dąbrowskiego / Boh. Westerplatte 08
+1840	4	210159	19:12:00	19:12:00		Powst. Warszawy / Dąbrowskiego 02
+1840	4	210159	19:13:00	19:13:00		Powst. Warszawy politechnika 04
+1840	4	210159	19:14:00	19:14:00		Powst. Warszawy stadion 06
+1840	4	210159	19:17:00	19:17:00		Powst. Warszawy dom studenta 08
+1840	4	210159	19:18:00	19:18:00		Powst. Warszawy / Graniczna 10
+1840	4	210159	19:19:00	19:19:00		Powst. Warszawy / Sikorskiego 12 nż
+1840	4	210159	19:20:00	19:20:00		Armii Krajowej Park Papieski 02 nż
+1840	4	210159	19:21:00	19:21:00		Armii Krajowej hotel 04 nż
+1840	4	210159	19:22:00	19:22:00		Armii Krajowej / Powst. Listopad. 06 nż
+1840	4	210159	19:23:00	19:23:00		Armii Krajowej / Paderewskiego 08 nż
+1840	4	210159	19:25:00	19:25:00		Niemierskiego 02 nż
+1840	4	210159	19:26:00	19:26:00		Witolda seminarium 02 nż
+1840	4	210159	19:27:00	19:27:00		Paderewskiego kościół 08
+1840	4	210159	19:28:00	19:28:00		Św. Rocha szkoła 02 nż
+1840	4	210159	19:29:00	19:29:00		Św. Rocha bloki 04 nż
+1840	4	210159	19:30:00	19:30:00		Św. Rocha domki 06 nż
+1840	4	210159	19:31:00	19:31:00		Św. Rocha kapliczka 08 nż
+1840	4	210159	19:32:00	19:32:00		Św. Rocha górka 10 nż
+1840	4	210159	19:33:00	19:33:00		Św. Rocha / Św. Walentego 12 nż
+1840	4	210159	19:35:00	19:35:00		Św. Rocha lasek pętla 11
 
-1852	1	210373	20:05:00	20:05:00		Św. Rocha lasek pętla 11
-1852	1	210373	20:06:00	20:06:00		Św. Rocha górka 09 nż
-1852	1	210373	20:07:00	20:07:00		Św. Rocha kapliczka 07 nż
-1852	1	210373	20:08:00	20:08:00		Św. Rocha domki 05 nż
-1852	1	210373	20:09:00	20:09:00		Św. Rocha bloki 03 nż
-1852	1	210373	20:10:00	20:10:00		Św. Rocha szkoła 01 nż
-1852	1	210373	20:11:00	20:11:00		Paderewskiego kościół 05
-1852	1	210373	20:12:00	20:12:00		Witolda seminarium 01 nż
-1852	1	210373	20:13:00	20:13:00		Niemierskiego 01 nż
-1852	1	210373	20:15:00	20:15:00		Armii Krajowej skarbiec 07 nż
-1852	1	210373	20:16:00	20:16:00		Armii Krajowej / Mieszka I 05 nż
-1852	1	210373	20:17:00	20:17:00		Armii Krajowej / Krzyżanowskiego 03 nż
-1852	1	210373	20:18:00	20:18:00		Armii Krajowej hotel 01 nż
-1852	1	210373	20:20:00	20:20:00		Powst. Warszawy / Rejtana 13
-1852	1	210373	20:21:00	20:21:00		Powst. Warszawy szkoła 11
-1852	1	210373	20:22:00	20:22:00		Powst. Warszawy dom studenta 09
-1852	1	210373	20:23:00	20:23:00		Powst. Warszawy stadion 05 nż
-1852	1	210373	20:24:00	20:24:00		Powst. Warszawy / Hetmańska 03
-1852	1	210373	20:25:00	20:25:00		Powst. Warszawy politechnika 01
-1852	1	210373	20:27:00	20:27:00		Dąbrowskiego / Chrobrego 07
-1852	1	210373	20:28:00	20:28:00		Dąbrowskiego KW. Policji 03
-1852	1	210373	20:29:00	20:29:00		Dąbrowskiego park 01 nż
-1852	1	210373	20:32:00	20:32:00		Lisa-Kuli 02
-1852	1	210373	20:33:00	20:33:00		Cieplińskiego 01
-1852	1	210373	20:35:00	20:35:00		Piłsudskiego U. Marszałkowski 08
-1852	1	210373	20:37:00	20:37:00		Krakowska jedn. wojskowa 02
-1852	1	210373	20:38:00	20:38:00		Krakowska szpital 04
-1852	1	210373	20:39:00	20:39:00		Krakowska galeria 06
-1852	1	210373	20:40:00	20:40:00		Ofiar Katynia galeria 06
-1852	1	210373	20:41:00	20:41:00		Kotuli / Ustrzycka 02 nż
-1852	1	210373	20:42:00	20:42:00		Kotuli domki 04 nż
-1852	1	210373	20:43:00	20:43:00		Bł. Karoliny / Strzyżowska 02 nż
-1852	1	210373	20:44:00	20:44:00		Bł. Karoliny / Sanocka 04 nż
-1852	1	210373	20:45:00	20:45:00		Bł. Karoliny przedszkole 06
-1852	1	210373	20:46:00	20:46:00		Bł. Karoliny pętla 09
+1852	4	210373	20:05:00	20:05:00		Św. Rocha lasek pętla 11
+1852	4	210373	20:06:00	20:06:00		Św. Rocha górka 09 nż
+1852	4	210373	20:07:00	20:07:00		Św. Rocha kapliczka 07 nż
+1852	4	210373	20:08:00	20:08:00		Św. Rocha domki 05 nż
+1852	4	210373	20:09:00	20:09:00		Św. Rocha bloki 03 nż
+1852	4	210373	20:10:00	20:10:00		Św. Rocha szkoła 01 nż
+1852	4	210373	20:11:00	20:11:00		Paderewskiego kościół 05
+1852	4	210373	20:12:00	20:12:00		Witolda seminarium 01 nż
+1852	4	210373	20:13:00	20:13:00		Niemierskiego 01 nż
+1852	4	210373	20:15:00	20:15:00		Armii Krajowej skarbiec 07 nż
+1852	4	210373	20:16:00	20:16:00		Armii Krajowej / Mieszka I 05 nż
+1852	4	210373	20:17:00	20:17:00		Armii Krajowej / Krzyżanowskiego 03 nż
+1852	4	210373	20:18:00	20:18:00		Armii Krajowej hotel 01 nż
+1852	4	210373	20:20:00	20:20:00		Powst. Warszawy / Rejtana 13
+1852	4	210373	20:21:00	20:21:00		Powst. Warszawy szkoła 11
+1852	4	210373	20:22:00	20:22:00		Powst. Warszawy dom studenta 09
+1852	4	210373	20:23:00	20:23:00		Powst. Warszawy stadion 05 nż
+1852	4	210373	20:24:00	20:24:00		Powst. Warszawy / Hetmańska 03
+1852	4	210373	20:25:00	20:25:00		Powst. Warszawy politechnika 01
+1852	4	210373	20:27:00	20:27:00		Dąbrowskiego / Chrobrego 07
+1852	4	210373	20:28:00	20:28:00		Dąbrowskiego KW. Policji 03
+1852	4	210373	20:29:00	20:29:00		Dąbrowskiego park 01 nż
+1852	4	210373	20:32:00	20:32:00		Lisa-Kuli 02
+1852	4	210373	20:33:00	20:33:00		Cieplińskiego 01
+1852	4	210373	20:35:00	20:35:00		Piłsudskiego U. Marszałkowski 08
+1852	4	210373	20:37:00	20:37:00		Krakowska jedn. wojskowa 02
+1852	4	210373	20:38:00	20:38:00		Krakowska szpital 04
+1852	4	210373	20:39:00	20:39:00		Krakowska galeria 06
+1852	4	210373	20:40:00	20:40:00		Ofiar Katynia galeria 06
+1852	4	210373	20:41:00	20:41:00		Kotuli / Ustrzycka 02 nż
+1852	4	210373	20:42:00	20:42:00		Kotuli domki 04 nż
+1852	4	210373	20:43:00	20:43:00		Bł. Karoliny / Strzyżowska 02 nż
+1852	4	210373	20:44:00	20:44:00		Bł. Karoliny / Sanocka 04 nż
+1852	4	210373	20:45:00	20:45:00		Bł. Karoliny przedszkole 06
+1852	4	210373	20:46:00	20:46:00		Bł. Karoliny pętla 09
 
-1840	1	213841	20:49:00	20:49:00		Bł. Karoliny pętla 09
-1840	1	213841	20:50:00	20:50:00		Bł. Karoliny przedszkole 07
-1840	1	213841	20:51:00	20:51:00		Bł. Karoliny / Nowosądecka 05 nż
-1840	1	213841	20:52:00	20:52:00		Bł. Karoliny / Sanocka 03 nż
-1840	1	213841	20:53:00	20:53:00		Bł. Karoliny / Strzyżowska 01 nż
-1840	1	213841	20:54:00	20:54:00		Kotuli / Solarza 03 nż
-1840	1	213841	20:55:00	20:55:00		Kotuli / Zbyszewskiego 01 nż
-1840	1	213841	20:58:00	20:58:00		Krakowska galeria 05
-1840	1	213841	20:59:00	20:59:00		Krakowska szpital 03
-1840	1	213841	21:00:00	21:00:00		Krakowska jedn. wojskowa 01
-1840	1	213841	21:02:00	21:02:00		Piłsudskiego U. Marszałkowski 07
-1840	1	213841	21:03:00	21:03:00		Cieplińskiego 02
-1840	1	213841	21:04:00	21:04:00		Lisa-Kuli 01
-1840	1	213841	21:06:00	21:06:00		Dąbrowskiego park 02 nż
-1840	1	213841	21:07:00	21:07:00		Dąbrowskiego KW. Policji 04
-1840	1	213841	21:08:00	21:08:00		Dąbrowskiego / Boh. Westerplatte 08
-1840	1	213841	21:10:00	21:10:00		Powst. Warszawy / Dąbrowskiego 02
-1840	1	213841	21:11:00	21:11:00		Powst. Warszawy politechnika 04
-1840	1	213841	21:12:00	21:12:00		Powst. Warszawy stadion 06
-1840	1	213841	21:14:00	21:14:00		Powst. Warszawy dom studenta 08
-1840	1	213841	21:15:00	21:15:00		Powst. Warszawy / Graniczna 10
-1840	1	213841	21:16:00	21:16:00		Powst. Warszawy / Sikorskiego 12 nż
-1840	1	213841	21:17:00	21:17:00		Armii Krajowej Park Papieski 02 nż
-1840	1	213841	21:18:00	21:18:00		Armii Krajowej hotel 04 nż
-1840	1	213841	21:19:00	21:19:00		Armii Krajowej / Powst. Listopad. 06 nż
-1840	1	213841	21:20:00	21:20:00		Armii Krajowej / Paderewskiego 08 nż
-1840	1	213841	21:21:00	21:21:00		Niemierskiego 02 nż
-1840	1	213841	21:22:00	21:22:00		Witolda seminarium 02 nż
-1840	1	213841	21:23:00	21:23:00		Paderewskiego kościół 08
-1840	1	213841	21:24:00	21:24:00		Św. Rocha szkoła 02 nż
-1840	1	213841	21:25:00	21:25:00		Św. Rocha bloki 04 nż
-1840	1	213841	21:26:00	21:26:00		Św. Rocha domki 06 nż
-1840	1	213841	21:27:00	21:27:00		Św. Rocha kapliczka 08 nż
-1840	1	213841	21:28:00	21:28:00		Św. Rocha górka 10 nż
-1840	1	213841	21:29:00	21:29:00		Św. Rocha / Św. Walentego 12 nż
-1840	1	213841	21:31:00	21:31:00		Św. Rocha lasek pętla 11
+1840	4	213841	20:49:00	20:49:00		Bł. Karoliny pętla 09
+1840	4	213841	20:50:00	20:50:00		Bł. Karoliny przedszkole 07
+1840	4	213841	20:51:00	20:51:00		Bł. Karoliny / Nowosądecka 05 nż
+1840	4	213841	20:52:00	20:52:00		Bł. Karoliny / Sanocka 03 nż
+1840	4	213841	20:53:00	20:53:00		Bł. Karoliny / Strzyżowska 01 nż
+1840	4	213841	20:54:00	20:54:00		Kotuli / Solarza 03 nż
+1840	4	213841	20:55:00	20:55:00		Kotuli / Zbyszewskiego 01 nż
+1840	4	213841	20:58:00	20:58:00		Krakowska galeria 05
+1840	4	213841	20:59:00	20:59:00		Krakowska szpital 03
+1840	4	213841	21:00:00	21:00:00		Krakowska jedn. wojskowa 01
+1840	4	213841	21:02:00	21:02:00		Piłsudskiego U. Marszałkowski 07
+1840	4	213841	21:03:00	21:03:00		Cieplińskiego 02
+1840	4	213841	21:04:00	21:04:00		Lisa-Kuli 01
+1840	4	213841	21:06:00	21:06:00		Dąbrowskiego park 02 nż
+1840	4	213841	21:07:00	21:07:00		Dąbrowskiego KW. Policji 04
+1840	4	213841	21:08:00	21:08:00		Dąbrowskiego / Boh. Westerplatte 08
+1840	4	213841	21:10:00	21:10:00		Powst. Warszawy / Dąbrowskiego 02
+1840	4	213841	21:11:00	21:11:00		Powst. Warszawy politechnika 04
+1840	4	213841	21:12:00	21:12:00		Powst. Warszawy stadion 06
+1840	4	213841	21:14:00	21:14:00		Powst. Warszawy dom studenta 08
+1840	4	213841	21:15:00	21:15:00		Powst. Warszawy / Graniczna 10
+1840	4	213841	21:16:00	21:16:00		Powst. Warszawy / Sikorskiego 12 nż
+1840	4	213841	21:17:00	21:17:00		Armii Krajowej Park Papieski 02 nż
+1840	4	213841	21:18:00	21:18:00		Armii Krajowej hotel 04 nż
+1840	4	213841	21:19:00	21:19:00		Armii Krajowej / Powst. Listopad. 06 nż
+1840	4	213841	21:20:00	21:20:00		Armii Krajowej / Paderewskiego 08 nż
+1840	4	213841	21:21:00	21:21:00		Niemierskiego 02 nż
+1840	4	213841	21:22:00	21:22:00		Witolda seminarium 02 nż
+1840	4	213841	21:23:00	21:23:00		Paderewskiego kościół 08
+1840	4	213841	21:24:00	21:24:00		Św. Rocha szkoła 02 nż
+1840	4	213841	21:25:00	21:25:00		Św. Rocha bloki 04 nż
+1840	4	213841	21:26:00	21:26:00		Św. Rocha domki 06 nż
+1840	4	213841	21:27:00	21:27:00		Św. Rocha kapliczka 08 nż
+1840	4	213841	21:28:00	21:28:00		Św. Rocha górka 10 nż
+1840	4	213841	21:29:00	21:29:00		Św. Rocha / Św. Walentego 12 nż
+1840	4	213841	21:31:00	21:31:00		Św. Rocha lasek pętla 11
 
-1852	1	208637	21:36:00	21:36:00		Św. Rocha lasek pętla 11
-1852	1	208637	21:37:00	21:37:00		Św. Rocha górka 09 nż
-1852	1	208637	21:38:00	21:38:00		Św. Rocha kapliczka 07 nż
-1852	1	208637	21:39:00	21:39:00		Św. Rocha domki 05 nż
-1852	1	208637	21:40:00	21:40:00		Św. Rocha bloki 03 nż
-1852	1	208637	21:41:00	21:41:00		Św. Rocha szkoła 01 nż
-1852	1	208637	21:42:00	21:42:00		Paderewskiego kościół 05
-1852	1	208637	21:43:00	21:43:00		Witolda seminarium 01 nż
-1852	1	208637	21:44:00	21:44:00		Niemierskiego 01 nż
-1852	1	208637	21:45:00	21:45:00		Armii Krajowej skarbiec 07 nż
-1852	1	208637	21:46:00	21:46:00		Armii Krajowej / Mieszka I 05 nż
-1852	1	208637	21:47:00	21:47:00		Armii Krajowej / Krzyżanowskiego 03 nż
-1852	1	208637	21:48:00	21:48:00		Armii Krajowej hotel 01 nż
-1852	1	208637	21:50:00	21:50:00		Powst. Warszawy / Rejtana 13
-1852	1	208637	21:51:00	21:51:00		Powst. Warszawy szkoła 11
-1852	1	208637	21:52:00	21:52:00		Powst. Warszawy dom studenta 09
-1852	1	208637	21:53:00	21:53:00		Powst. Warszawy stadion 05 nż
-1852	1	208637	21:54:00	21:54:00		Powst. Warszawy / Hetmańska 03
-1852	1	208637	21:55:00	21:55:00		Powst. Warszawy politechnika 01
-1852	1	208637	21:57:00	21:57:00		Dąbrowskiego / Chrobrego 07
-1852	1	208637	21:58:00	21:58:00		Dąbrowskiego KW. Policji 03
-1852	1	208637	21:59:00	21:59:00		Dąbrowskiego park 01 nż
-1852	1	208637	22:02:00	22:02:00		Lisa-Kuli 02
-1852	1	208637	22:03:00	22:03:00		Cieplińskiego 01
-1852	1	208637	22:05:00	22:05:00		Piłsudskiego U. Marszałkowski 08
-1852	1	208637	22:07:00	22:07:00		Krakowska jedn. wojskowa 02
-1852	1	208637	22:08:00	22:08:00		Krakowska szpital 04
-1852	1	208637	22:09:00	22:09:00		Krakowska galeria 06
-1852	1	208637	22:10:00	22:10:00		Ofiar Katynia galeria 06
-1852	1	208637	22:11:00	22:11:00		Kotuli / Ustrzycka 02 nż
-1852	1	208637	22:12:00	22:12:00		Kotuli domki 04 nż
-1852	1	208637	22:13:00	22:13:00		Bł. Karoliny / Strzyżowska 02 nż
-1852	1	208637	22:14:00	22:14:00		Bł. Karoliny / Sanocka 04 nż
-1852	1	208637	22:15:00	22:15:00		Bł. Karoliny przedszkole 06
-1852	1	208637	22:16:00	22:16:00		Bł. Karoliny pętla 09
+1852	4	208637	21:36:00	21:36:00		Św. Rocha lasek pętla 11
+1852	4	208637	21:37:00	21:37:00		Św. Rocha górka 09 nż
+1852	4	208637	21:38:00	21:38:00		Św. Rocha kapliczka 07 nż
+1852	4	208637	21:39:00	21:39:00		Św. Rocha domki 05 nż
+1852	4	208637	21:40:00	21:40:00		Św. Rocha bloki 03 nż
+1852	4	208637	21:41:00	21:41:00		Św. Rocha szkoła 01 nż
+1852	4	208637	21:42:00	21:42:00		Paderewskiego kościół 05
+1852	4	208637	21:43:00	21:43:00		Witolda seminarium 01 nż
+1852	4	208637	21:44:00	21:44:00		Niemierskiego 01 nż
+1852	4	208637	21:45:00	21:45:00		Armii Krajowej skarbiec 07 nż
+1852	4	208637	21:46:00	21:46:00		Armii Krajowej / Mieszka I 05 nż
+1852	4	208637	21:47:00	21:47:00		Armii Krajowej / Krzyżanowskiego 03 nż
+1852	4	208637	21:48:00	21:48:00		Armii Krajowej hotel 01 nż
+1852	4	208637	21:50:00	21:50:00		Powst. Warszawy / Rejtana 13
+1852	4	208637	21:51:00	21:51:00		Powst. Warszawy szkoła 11
+1852	4	208637	21:52:00	21:52:00		Powst. Warszawy dom studenta 09
+1852	4	208637	21:53:00	21:53:00		Powst. Warszawy stadion 05 nż
+1852	4	208637	21:54:00	21:54:00		Powst. Warszawy / Hetmańska 03
+1852	4	208637	21:55:00	21:55:00		Powst. Warszawy politechnika 01
+1852	4	208637	21:57:00	21:57:00		Dąbrowskiego / Chrobrego 07
+1852	4	208637	21:58:00	21:58:00		Dąbrowskiego KW. Policji 03
+1852	4	208637	21:59:00	21:59:00		Dąbrowskiego park 01 nż
+1852	4	208637	22:02:00	22:02:00		Lisa-Kuli 02
+1852	4	208637	22:03:00	22:03:00		Cieplińskiego 01
+1852	4	208637	22:05:00	22:05:00		Piłsudskiego U. Marszałkowski 08
+1852	4	208637	22:07:00	22:07:00		Krakowska jedn. wojskowa 02
+1852	4	208637	22:08:00	22:08:00		Krakowska szpital 04
+1852	4	208637	22:09:00	22:09:00		Krakowska galeria 06
+1852	4	208637	22:10:00	22:10:00		Ofiar Katynia galeria 06
+1852	4	208637	22:11:00	22:11:00		Kotuli / Ustrzycka 02 nż
+1852	4	208637	22:12:00	22:12:00		Kotuli domki 04 nż
+1852	4	208637	22:13:00	22:13:00		Bł. Karoliny / Strzyżowska 02 nż
+1852	4	208637	22:14:00	22:14:00		Bł. Karoliny / Sanocka 04 nż
+1852	4	208637	22:15:00	22:15:00		Bł. Karoliny przedszkole 06
+1852	4	208637	22:16:00	22:16:00		Bł. Karoliny pętla 09

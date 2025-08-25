@@ -1,658 +1,674 @@
 route_id	service_id	trip_id	arrival_time	departure_time	stop_headsign	stop_name
 -------------------------------------------------------------------------------
-1976	3	220579	05:33:00	05:33:00		Dworzec Lokalny
-1976	3	220579	05:34:00	05:34:00		Piłsudskiego U. Marszałkowski 07
-1976	3	220579	05:34:00	05:34:00		Piłsudskiego U. Marszałkowski 07
-1976	3	220579	05:35:00	05:35:00		Cieplińskiego 02
-1976	3	220579	05:35:00	05:35:00		Cieplińskiego 02
-1976	3	220579	05:36:00	05:36:00		Lisa-Kuli 01
-1976	3	220579	05:36:00	05:36:00		Lisa-Kuli 01
-1976	3	220579	05:38:00	05:38:00		Hetmańska podzamcze 02 nż
-1976	3	220579	05:38:00	05:38:00		Hetmańska podzamcze 02 nż
-1976	3	220579	05:39:00	05:39:00		Hetmańska przychodnia 04
-1976	3	220579	05:39:00	05:39:00		Hetmańska przychodnia 04
-1976	3	220579	05:40:00	05:40:00		Hetmańska ZS. Mech. 06
-1976	3	220579	05:40:00	05:40:00		Hetmańska ZS. Mech. 06
-1976	3	220579	05:42:00	05:42:00		Powst. Warszawy stadion 06
-1976	3	220579	05:42:00	05:42:00		Powst. Warszawy stadion 06
-1976	3	220579	05:43:00	05:43:00		Powst. Warszawy dom studenta 08
-1976	3	220579	05:43:00	05:43:00		Powst. Warszawy dom studenta 08
-1976	3	220579	05:44:00	05:44:00		Powst. Warszawy / Graniczna 10
-1976	3	220579	05:44:00	05:44:00		Powst. Warszawy / Graniczna 10
-1976	3	220579	05:45:00	05:45:00		Powst. Warszawy / Sikorskiego 12 nż
-1976	3	220579	05:45:00	05:45:00		Powst. Warszawy / Sikorskiego 12 nż
-1976	3	220579	05:46:00	05:46:00		Sikorskiego katedra 04 nż
-1976	3	220579	05:46:00	05:46:00		Sikorskiego katedra 04 nż
-1976	3	220579	05:47:00	05:47:00		Sikorskiego / Łukasiewicza 06 nż
-1976	3	220579	05:47:00	05:47:00		Sikorskiego / Łukasiewicza 06 nż
-1976	3	220579	05:48:00	05:48:00		Sikorskiego domki 08 nż
-1976	3	220579	05:48:00	05:48:00		Sikorskiego domki 08 nż
-1976	3	220579	05:49:00	05:49:00		Sikorskiego / Strażacka 10 nż
-1976	3	220579	05:49:00	05:49:00		Sikorskiego / Strażacka 10 nż
-1976	3	220579	05:50:00	05:50:00		Sikorskiego / Białogórska 12 nż
-1976	3	220579	05:50:00	05:50:00		Sikorskiego / Białogórska 12 nż
-1976	3	220579	05:51:00	05:51:00		Sikorskiego / Rodzinna 14 nż
-1976	3	220579	05:51:00	05:51:00		Sikorskiego / Rodzinna 14 nż
-1976	3	220579	05:52:00	05:52:00		Sikorskiego / Kard. K. Wojtyły 16 nż
-1976	3	220579	05:52:00	05:52:00		Sikorskiego / Kard. K. Wojtyły 16 nż
-1976	3	220579	05:53:00	05:53:00		Sikorskiego granica 18 nż
-1976	3	220579	05:53:00	05:53:00		Sikorskiego granica 18 nż
-1976	3	220579	05:54:00	05:54:00		Tyczyn Grunwaldzka POM 02 nż
-1976	3	220579	05:54:00	05:54:00		Tyczyn Grunwaldzka POM 02 nż
-1976	3	220579	05:55:00	05:55:00		Tyczyn Grunwaldzka park 02 nż
-1976	3	220579	05:55:00	05:55:00		Tyczyn Grunwaldzka park 02 nż
-1976	3	220579	05:57:00	05:57:00		Tyczyn Mickiewicza 04 nż
-1976	3	220579	05:57:00	05:57:00		Tyczyn Mickiewicza 04 nż
-1976	3	220579	05:58:00	05:58:00		Hermanowa dół 06 nż
-1976	3	220579	05:58:00	05:58:00		Hermanowa dół 06 nż
-1976	3	220579	06:00:00	06:00:00		Hermanowa dworek 08 nż
-1976	3	220579	06:00:00	06:00:00		Hermanowa dworek 08 nż
-1976	3	220579	06:02:00	06:02:00		Hermanowa szkoła 10 nż
-1976	3	220579	06:02:00	06:02:00		Hermanowa szkoła 10 nż
-1976	3	220579	06:04:00	06:04:00		Hermanowa kościół 12 nż
-1976	3	220579	06:04:00	06:04:00		Hermanowa kościół 12 nż
-1976	3	220579	06:05:00	06:05:00		Hermanowa Czerwonki 14 nż
-1976	3	220579	06:05:00	06:05:00		Hermanowa Czerwonki 14 nż
-1976	3	220579	06:07:00	06:07:00		Hermanowa pętla 13 nż
-1976	3	220579	06:07:00	06:07:00		Hermanowa pętla 13 nż
-1976	3	220579	06:09:00	06:09:00		Hermanowa Czerwonki 11 nż
-1976	3	220579	06:09:00	06:09:00		Hermanowa Czerwonki 11 nż
-1976	3	220579	06:10:00	06:10:00		Hermanowa Kamieniec skrz. 49 nż
-1976	3	220579	06:10:00	06:10:00		Hermanowa Kamieniec skrz. 49 nż
-1976	3	220579	06:12:00	06:12:00		Hermanowa Czerwonki środek 51 nż
-1976	3	220579	06:12:00	06:12:00		Hermanowa Czerwonki środek 51 nż
-1976	3	220579	06:14:00	06:14:00		Hermanowa Czerwonki pętla 53
-1976	3	220579	06:14:00	06:14:00		Hermanowa Czerwonki pętla 53
+2035	3	223443	05:33:00	05:33:00		Dworzec Lokalny
+2035	3	223443	05:34:00	05:34:00		Piłsudskiego U. Marszałkowski 07
+2035	3	223443	05:34:00	05:34:00		Piłsudskiego U. Marszałkowski 07
+2035	3	223443	05:35:00	05:35:00		Cieplińskiego 02
+2035	3	223443	05:35:00	05:35:00		Cieplińskiego 02
+2035	3	223443	05:36:00	05:36:00		Lisa-Kuli 01
+2035	3	223443	05:36:00	05:36:00		Lisa-Kuli 01
+2035	3	223443	05:38:00	05:38:00		Hetmańska podzamcze 02 nż
+2035	3	223443	05:38:00	05:38:00		Hetmańska podzamcze 02 nż
+2035	3	223443	05:39:00	05:39:00		Hetmańska przychodnia 04
+2035	3	223443	05:39:00	05:39:00		Hetmańska przychodnia 04
+2035	3	223443	05:40:00	05:40:00		Hetmańska ZS. Mech. 06
+2035	3	223443	05:40:00	05:40:00		Hetmańska ZS. Mech. 06
+2035	3	223443	05:42:00	05:42:00		Powst. Warszawy stadion 06
+2035	3	223443	05:42:00	05:42:00		Powst. Warszawy stadion 06
+2035	3	223443	05:43:00	05:43:00		Powst. Warszawy dom studenta 08
+2035	3	223443	05:43:00	05:43:00		Powst. Warszawy dom studenta 08
+2035	3	223443	05:44:00	05:44:00		Powst. Warszawy / Graniczna 10
+2035	3	223443	05:44:00	05:44:00		Powst. Warszawy / Graniczna 10
+2035	3	223443	05:45:00	05:45:00		Powst. Warszawy / Sikorskiego 12 nż
+2035	3	223443	05:45:00	05:45:00		Powst. Warszawy / Sikorskiego 12 nż
+2035	3	223443	05:46:00	05:46:00		Sikorskiego katedra 04 nż
+2035	3	223443	05:46:00	05:46:00		Sikorskiego katedra 04 nż
+2035	3	223443	05:47:00	05:47:00		Sikorskiego / Łukasiewicza 06 nż
+2035	3	223443	05:47:00	05:47:00		Sikorskiego / Łukasiewicza 06 nż
+2035	3	223443	05:48:00	05:48:00		Sikorskiego domki 08 nż
+2035	3	223443	05:48:00	05:48:00		Sikorskiego domki 08 nż
+2035	3	223443	05:49:00	05:49:00		Sikorskiego / Strażacka 10 nż
+2035	3	223443	05:49:00	05:49:00		Sikorskiego / Strażacka 10 nż
+2035	3	223443	05:50:00	05:50:00		Sikorskiego / Białogórska 12 nż
+2035	3	223443	05:50:00	05:50:00		Sikorskiego / Białogórska 12 nż
+2035	3	223443	05:51:00	05:51:00		Sikorskiego / Rodzinna 14 nż
+2035	3	223443	05:51:00	05:51:00		Sikorskiego / Rodzinna 14 nż
+2035	3	223443	05:52:00	05:52:00		Sikorskiego / Kard. K. Wojtyły 16 nż
+2035	3	223443	05:52:00	05:52:00		Sikorskiego / Kard. K. Wojtyły 16 nż
+2035	3	223443	05:53:00	05:53:00		Sikorskiego granica 18 nż
+2035	3	223443	05:53:00	05:53:00		Sikorskiego granica 18 nż
+2035	3	223443	05:54:00	05:54:00		Tyczyn Grunwaldzka POM 82 nż
+2035	3	223443	05:54:00	05:54:00		Tyczyn Grunwaldzka POM 82 nż
+2035	3	223443	05:55:00	05:55:00		Tyczyn Grunwaldzka park 02 nż
+2035	3	223443	05:55:00	05:55:00		Tyczyn Grunwaldzka park 02 nż
+2035	3	223443	05:57:00	05:57:00		Tyczyn Mickiewicza 04 nż
+2035	3	223443	05:57:00	05:57:00		Tyczyn Mickiewicza 04 nż
+2035	3	223443	05:58:00	05:58:00		Hermanowa dół 06 nż
+2035	3	223443	05:58:00	05:58:00		Hermanowa dół 06 nż
+2035	3	223443	06:00:00	06:00:00		Hermanowa dworek 08 nż
+2035	3	223443	06:00:00	06:00:00		Hermanowa dworek 08 nż
+2035	3	223443	06:02:00	06:02:00		Hermanowa szkoła 10 nż
+2035	3	223443	06:02:00	06:02:00		Hermanowa szkoła 10 nż
+2035	3	223443	06:03:00	06:03:00		Hermanowa cmentarz 12 nż
+2035	3	223443	06:03:00	06:03:00		Hermanowa cmentarz 12 nż
+2035	3	223443	06:04:00	06:04:00		Hermanowa kościół 14 nż
+2035	3	223443	06:04:00	06:04:00		Hermanowa kościół 14 nż
+2035	3	223443	06:05:00	06:05:00		Hermanowa Czerwonki 16 nż
+2035	3	223443	06:05:00	06:05:00		Hermanowa Czerwonki 16 nż
+2035	3	223443	06:06:00	06:06:00		Hermanowa góra 18 nż
+2035	3	223443	06:06:00	06:06:00		Hermanowa góra 18 nż
+2035	3	223443	06:07:00	06:07:00		Hermanowa pętla 17 nż
+2035	3	223443	06:07:00	06:07:00		Hermanowa pętla 17 nż
+2035	3	223443	06:09:00	06:09:00		Hermanowa Czerwonki 13 nż
+2035	3	223443	06:09:00	06:09:00		Hermanowa Czerwonki 13 nż
+2035	3	223443	06:10:00	06:10:00		Hermanowa Kamieniec skrz. 61 nż
+2035	3	223443	06:10:00	06:10:00		Hermanowa Kamieniec skrz. 61 nż
+2035	3	223443	06:12:00	06:12:00		Hermanowa Czerwonki środek 63 nż
+2035	3	223443	06:12:00	06:12:00		Hermanowa Czerwonki środek 63 nż
+2035	3	223443	06:14:00	06:14:00		Hermanowa Czerwonki pętla 64
+2035	3	223443	06:14:00	06:14:00		Hermanowa Czerwonki pętla 64
 
-1942	3	220714	06:26:00	06:26:00		Hermanowa Czerwonki pętla 53
-1942	3	220714	06:26:00	06:26:00		Hermanowa Czerwonki pętla 53
-1942	3	220714	06:27:00	06:27:00		Hermanowa Czerwonki środek 52 nż
-1942	3	220714	06:27:00	06:27:00		Hermanowa Czerwonki środek 52 nż
-1942	3	220714	06:28:00	06:28:00		Hermanowa Kamieniec skrz. 50 nż
-1942	3	220714	06:28:00	06:28:00		Hermanowa Kamieniec skrz. 50 nż
-1942	3	220714	06:29:00	06:29:00		Hermanowa skrzyżowanie 98 nż
-1942	3	220714	06:29:00	06:29:00		Hermanowa skrzyżowanie 98 nż
-1942	3	220714	06:31:00	06:31:00		Hermanowa pętla 13 nż
-1942	3	220714	06:31:00	06:31:00		Hermanowa pętla 13 nż
-1942	3	220714	06:33:00	06:33:00		Hermanowa Czerwonki 11 nż
-1942	3	220714	06:33:00	06:33:00		Hermanowa Czerwonki 11 nż
-1942	3	220714	06:35:00	06:35:00		Hermanowa kościół 09 nż
-1942	3	220714	06:35:00	06:35:00		Hermanowa kościół 09 nż
-1942	3	220714	06:37:00	06:37:00		Hermanowa szkoła 07 nż
-1942	3	220714	06:37:00	06:37:00		Hermanowa szkoła 07 nż
-1942	3	220714	06:39:00	06:39:00		Hermanowa dworek 05 nż
-1942	3	220714	06:39:00	06:39:00		Hermanowa dworek 05 nż
-1942	3	220714	06:41:00	06:41:00		Hermanowa dół 03 nż
-1942	3	220714	06:41:00	06:41:00		Hermanowa dół 03 nż
-1942	3	220714	06:43:00	06:43:00		Tyczyn Kopernika 02
-1942	3	220714	06:43:00	06:43:00		Tyczyn Kopernika 02
-1942	3	220714	06:44:00	06:44:00		Tyczyn Grunwaldzka park 01 nż
-1942	3	220714	06:44:00	06:44:00		Tyczyn Grunwaldzka park 01 nż
-1942	3	220714	06:46:00	06:46:00		Tyczyn Grunwaldzka POM 27 nż
-1942	3	220714	06:46:00	06:46:00		Tyczyn Grunwaldzka POM 27 nż
-1942	3	220714	06:47:00	06:47:00		Sikorskiego granica 15 nż
-1942	3	220714	06:47:00	06:47:00		Sikorskiego granica 15 nż
-1942	3	220714	06:48:00	06:48:00		Sikorskiego / Ruczajowa 13 nż
-1942	3	220714	06:48:00	06:48:00		Sikorskiego / Ruczajowa 13 nż
-1942	3	220714	06:49:00	06:49:00		Sikorskiego / Kard. K. Wojtyły 11 nż
-1942	3	220714	06:49:00	06:49:00		Sikorskiego / Kard. K. Wojtyły 11 nż
-1942	3	220714	06:50:00	06:50:00		Sikorskiego / Rodzinna 09 nż
-1942	3	220714	06:50:00	06:50:00		Sikorskiego / Rodzinna 09 nż
-1942	3	220714	06:51:00	06:51:00		Sikorskiego / Białogórska 07 nż
-1942	3	220714	06:51:00	06:51:00		Sikorskiego / Białogórska 07 nż
-1942	3	220714	06:52:00	06:52:00		Sikorskiego / Robotnicza 05 nż
-1942	3	220714	06:52:00	06:52:00		Sikorskiego / Robotnicza 05 nż
-1942	3	220714	06:53:00	06:53:00		Sikorskiego domki 03 nż
-1942	3	220714	06:53:00	06:53:00		Sikorskiego domki 03 nż
-1942	3	220714	06:55:00	06:55:00		Sikorskiego katedra 01 nż
-1942	3	220714	06:55:00	06:55:00		Sikorskiego katedra 01 nż
-1942	3	220714	06:57:00	06:57:00		Powst. Warszawy / Rejtana 13
-1942	3	220714	06:57:00	06:57:00		Powst. Warszawy / Rejtana 13
-1942	3	220714	06:58:00	06:58:00		Powst. Warszawy szkoła 11
-1942	3	220714	06:58:00	06:58:00		Powst. Warszawy szkoła 11
-1942	3	220714	06:59:00	06:59:00		Powst. Warszawy dom studenta 09
-1942	3	220714	06:59:00	06:59:00		Powst. Warszawy dom studenta 09
-1942	3	220714	07:00:00	07:00:00		Powst. Warszawy stadion 05 nż
-1942	3	220714	07:00:00	07:00:00		Powst. Warszawy stadion 05 nż
-1942	3	220714	07:01:00	07:01:00		Hetmańska stadion 07
-1942	3	220714	07:01:00	07:01:00		Hetmańska stadion 07
-1942	3	220714	07:02:00	07:02:00		Hetmańska ZS. Mech. 05
-1942	3	220714	07:02:00	07:02:00		Hetmańska ZS. Mech. 05
-1942	3	220714	07:03:00	07:03:00		Hetmańska przychodnia 03
-1942	3	220714	07:03:00	07:03:00		Hetmańska przychodnia 03
-1942	3	220714	07:04:00	07:04:00		Hetmańska podzamcze 01 nż
-1942	3	220714	07:04:00	07:04:00		Hetmańska podzamcze 01 nż
-1942	3	220714	07:07:00	07:07:00		Lisa-Kuli 02
-1942	3	220714	07:07:00	07:07:00		Lisa-Kuli 02
-1942	3	220714	07:08:00	07:08:00		Cieplińskiego 01
-1942	3	220714	07:08:00	07:08:00		Cieplińskiego 01
-1942	3	220714	07:10:00	07:10:00		Piłsudskiego U. Marszałkowski 08
-1942	3	220714	07:10:00	07:10:00		Piłsudskiego U. Marszałkowski 08
-1942	3	220714	07:12:00	07:12:00		Dworzec Lokalny
-1942	3	220714	07:12:00	07:12:00		Dworzec Lokalny
+2038	3	222543	06:26:00	06:26:00		Hermanowa Czerwonki pętla 64
+2038	3	222543	06:26:00	06:26:00		Hermanowa Czerwonki pętla 64
+2038	3	222543	06:27:00	06:27:00		Hermanowa Czerwonki środek 62 nż
+2038	3	222543	06:27:00	06:27:00		Hermanowa Czerwonki środek 62 nż
+2038	3	222543	06:28:00	06:28:00		Hermanowa Kamieniec skrz. 60 nż
+2038	3	222543	06:28:00	06:28:00		Hermanowa Kamieniec skrz. 60 nż
+2038	3	222543	06:29:00	06:29:00		Hermanowa skrzyżowanie 59 nż
+2038	3	222543	06:29:00	06:29:00		Hermanowa skrzyżowanie 59 nż
+2038	3	222543	06:30:00	06:30:00		Hermanowa góra 18 nż
+2038	3	222543	06:30:00	06:30:00		Hermanowa góra 18 nż
+2038	3	222543	06:31:00	06:31:00		Hermanowa pętla 17 nż
+2038	3	222543	06:31:00	06:31:00		Hermanowa pętla 17 nż
+2038	3	222543	06:33:00	06:33:00		Hermanowa Czerwonki 13 nż
+2038	3	222543	06:33:00	06:33:00		Hermanowa Czerwonki 13 nż
+2038	3	222543	06:35:00	06:35:00		Hermanowa kościół 11 nż
+2038	3	222543	06:35:00	06:35:00		Hermanowa kościół 11 nż
+2038	3	222543	06:36:00	06:36:00		Hermanowa cmentarz 09 nż
+2038	3	222543	06:36:00	06:36:00		Hermanowa cmentarz 09 nż
+2038	3	222543	06:37:00	06:37:00		Hermanowa szkoła 07 nż
+2038	3	222543	06:37:00	06:37:00		Hermanowa szkoła 07 nż
+2038	3	222543	06:39:00	06:39:00		Hermanowa dworek 05 nż
+2038	3	222543	06:39:00	06:39:00		Hermanowa dworek 05 nż
+2038	3	222543	06:41:00	06:41:00		Hermanowa dół 03 nż
+2038	3	222543	06:41:00	06:41:00		Hermanowa dół 03 nż
+2038	3	222543	06:43:00	06:43:00		Tyczyn Kopernika 39
+2038	3	222543	06:43:00	06:43:00		Tyczyn Kopernika 39
+2038	3	222543	06:44:00	06:44:00		Tyczyn Grunwaldzka park 01 nż
+2038	3	222543	06:44:00	06:44:00		Tyczyn Grunwaldzka park 01 nż
+2038	3	222543	06:46:00	06:46:00		Tyczyn Grunwaldzka POM 27 nż
+2038	3	222543	06:46:00	06:46:00		Tyczyn Grunwaldzka POM 27 nż
+2038	3	222543	06:47:00	06:47:00		Sikorskiego granica 15 nż
+2038	3	222543	06:47:00	06:47:00		Sikorskiego granica 15 nż
+2038	3	222543	06:48:00	06:48:00		Sikorskiego / Ruczajowa 13 nż
+2038	3	222543	06:48:00	06:48:00		Sikorskiego / Ruczajowa 13 nż
+2038	3	222543	06:49:00	06:49:00		Sikorskiego / Kard. K. Wojtyły 11 nż
+2038	3	222543	06:49:00	06:49:00		Sikorskiego / Kard. K. Wojtyły 11 nż
+2038	3	222543	06:50:00	06:50:00		Sikorskiego / Rodzinna 09 nż
+2038	3	222543	06:50:00	06:50:00		Sikorskiego / Rodzinna 09 nż
+2038	3	222543	06:51:00	06:51:00		Sikorskiego / Białogórska 07 nż
+2038	3	222543	06:51:00	06:51:00		Sikorskiego / Białogórska 07 nż
+2038	3	222543	06:52:00	06:52:00		Sikorskiego / Robotnicza 05 nż
+2038	3	222543	06:52:00	06:52:00		Sikorskiego / Robotnicza 05 nż
+2038	3	222543	06:53:00	06:53:00		Sikorskiego domki 03 nż
+2038	3	222543	06:53:00	06:53:00		Sikorskiego domki 03 nż
+2038	3	222543	06:55:00	06:55:00		Sikorskiego katedra 01 nż
+2038	3	222543	06:55:00	06:55:00		Sikorskiego katedra 01 nż
+2038	3	222543	06:57:00	06:57:00		Powst. Warszawy / Rejtana 13
+2038	3	222543	06:57:00	06:57:00		Powst. Warszawy / Rejtana 13
+2038	3	222543	06:58:00	06:58:00		Powst. Warszawy szkoła 11
+2038	3	222543	06:58:00	06:58:00		Powst. Warszawy szkoła 11
+2038	3	222543	06:59:00	06:59:00		Powst. Warszawy dom studenta 09
+2038	3	222543	06:59:00	06:59:00		Powst. Warszawy dom studenta 09
+2038	3	222543	07:00:00	07:00:00		Powst. Warszawy stadion 05 nż
+2038	3	222543	07:00:00	07:00:00		Powst. Warszawy stadion 05 nż
+2038	3	222543	07:01:00	07:01:00		Hetmańska stadion 07
+2038	3	222543	07:01:00	07:01:00		Hetmańska stadion 07
+2038	3	222543	07:02:00	07:02:00		Hetmańska ZS. Mech. 05
+2038	3	222543	07:02:00	07:02:00		Hetmańska ZS. Mech. 05
+2038	3	222543	07:03:00	07:03:00		Hetmańska przychodnia 03
+2038	3	222543	07:03:00	07:03:00		Hetmańska przychodnia 03
+2038	3	222543	07:04:00	07:04:00		Hetmańska podzamcze 01 nż
+2038	3	222543	07:04:00	07:04:00		Hetmańska podzamcze 01 nż
+2038	3	222543	07:07:00	07:07:00		Lisa-Kuli 02
+2038	3	222543	07:07:00	07:07:00		Lisa-Kuli 02
+2038	3	222543	07:08:00	07:08:00		Cieplińskiego 01
+2038	3	222543	07:08:00	07:08:00		Cieplińskiego 01
+2038	3	222543	07:10:00	07:10:00		Piłsudskiego U. Marszałkowski 08
+2038	3	222543	07:10:00	07:10:00		Piłsudskiego U. Marszałkowski 08
+2038	3	222543	07:12:00	07:12:00		Dworzec Lokalny
+2038	3	222543	07:12:00	07:12:00		Dworzec Lokalny
 
-1976	3	220615	07:33:00	07:33:00		Dworzec Lokalny
-1976	3	220615	07:33:00	07:33:00		Dworzec Lokalny
-1976	3	220615	07:34:00	07:34:00		Piłsudskiego U. Marszałkowski 07
-1976	3	220615	07:34:00	07:34:00		Piłsudskiego U. Marszałkowski 07
-1976	3	220615	07:35:00	07:35:00		Cieplińskiego 02
-1976	3	220615	07:35:00	07:35:00		Cieplińskiego 02
-1976	3	220615	07:36:00	07:36:00		Lisa-Kuli 01
-1976	3	220615	07:36:00	07:36:00		Lisa-Kuli 01
-1976	3	220615	07:38:00	07:38:00		Hetmańska podzamcze 02 nż
-1976	3	220615	07:38:00	07:38:00		Hetmańska podzamcze 02 nż
-1976	3	220615	07:39:00	07:39:00		Hetmańska przychodnia 04
-1976	3	220615	07:39:00	07:39:00		Hetmańska przychodnia 04
-1976	3	220615	07:40:00	07:40:00		Hetmańska ZS. Mech. 06
-1976	3	220615	07:40:00	07:40:00		Hetmańska ZS. Mech. 06
-1976	3	220615	07:42:00	07:42:00		Powst. Warszawy stadion 06
-1976	3	220615	07:42:00	07:42:00		Powst. Warszawy stadion 06
-1976	3	220615	07:44:00	07:44:00		Powst. Warszawy dom studenta 08
-1976	3	220615	07:44:00	07:44:00		Powst. Warszawy dom studenta 08
-1976	3	220615	07:45:00	07:45:00		Powst. Warszawy / Graniczna 10
-1976	3	220615	07:45:00	07:45:00		Powst. Warszawy / Graniczna 10
-1976	3	220615	07:46:00	07:46:00		Powst. Warszawy / Sikorskiego 12 nż
-1976	3	220615	07:46:00	07:46:00		Powst. Warszawy / Sikorskiego 12 nż
-1976	3	220615	07:47:00	07:47:00		Sikorskiego katedra 04 nż
-1976	3	220615	07:47:00	07:47:00		Sikorskiego katedra 04 nż
-1976	3	220615	07:48:00	07:48:00		Sikorskiego / Łukasiewicza 06 nż
-1976	3	220615	07:48:00	07:48:00		Sikorskiego / Łukasiewicza 06 nż
-1976	3	220615	07:49:00	07:49:00		Sikorskiego domki 08 nż
-1976	3	220615	07:49:00	07:49:00		Sikorskiego domki 08 nż
-1976	3	220615	07:50:00	07:50:00		Sikorskiego / Strażacka 10 nż
-1976	3	220615	07:50:00	07:50:00		Sikorskiego / Strażacka 10 nż
-1976	3	220615	07:51:00	07:51:00		Sikorskiego / Białogórska 12 nż
-1976	3	220615	07:51:00	07:51:00		Sikorskiego / Białogórska 12 nż
-1976	3	220615	07:52:00	07:52:00		Sikorskiego / Rodzinna 14 nż
-1976	3	220615	07:52:00	07:52:00		Sikorskiego / Rodzinna 14 nż
-1976	3	220615	07:54:00	07:54:00		Sikorskiego / Kard. K. Wojtyły 16 nż
-1976	3	220615	07:54:00	07:54:00		Sikorskiego / Kard. K. Wojtyły 16 nż
-1976	3	220615	07:55:00	07:55:00		Sikorskiego granica 18 nż
-1976	3	220615	07:55:00	07:55:00		Sikorskiego granica 18 nż
-1976	3	220615	07:56:00	07:56:00		Tyczyn Grunwaldzka POM 02 nż
-1976	3	220615	07:56:00	07:56:00		Tyczyn Grunwaldzka POM 02 nż
-1976	3	220615	07:57:00	07:57:00		Tyczyn Grunwaldzka park 02 nż
-1976	3	220615	07:57:00	07:57:00		Tyczyn Grunwaldzka park 02 nż
-1976	3	220615	07:59:00	07:59:00		Tyczyn Mickiewicza 04 nż
-1976	3	220615	07:59:00	07:59:00		Tyczyn Mickiewicza 04 nż
-1976	3	220615	08:00:00	08:00:00		Hermanowa dół 06 nż
-1976	3	220615	08:00:00	08:00:00		Hermanowa dół 06 nż
-1976	3	220615	08:02:00	08:02:00		Hermanowa dworek 08 nż
-1976	3	220615	08:02:00	08:02:00		Hermanowa dworek 08 nż
-1976	3	220615	08:04:00	08:04:00		Hermanowa szkoła 10 nż
-1976	3	220615	08:04:00	08:04:00		Hermanowa szkoła 10 nż
-1976	3	220615	08:06:00	08:06:00		Hermanowa kościół 12 nż
-1976	3	220615	08:06:00	08:06:00		Hermanowa kościół 12 nż
-1976	3	220615	08:07:00	08:07:00		Hermanowa Czerwonki 14 nż
-1976	3	220615	08:07:00	08:07:00		Hermanowa Czerwonki 14 nż
-1976	3	220615	08:09:00	08:09:00		Hermanowa pętla 13 nż
-1976	3	220615	08:09:00	08:09:00		Hermanowa pętla 13 nż
-1976	3	220615	08:11:00	08:11:00		Hermanowa Czerwonki 11 nż
-1976	3	220615	08:11:00	08:11:00		Hermanowa Czerwonki 11 nż
-1976	3	220615	08:12:00	08:12:00		Hermanowa Kamieniec skrz. 49 nż
-1976	3	220615	08:12:00	08:12:00		Hermanowa Kamieniec skrz. 49 nż
-1976	3	220615	08:14:00	08:14:00		Hermanowa Czerwonki środek 51 nż
-1976	3	220615	08:14:00	08:14:00		Hermanowa Czerwonki środek 51 nż
-1976	3	220615	08:16:00	08:16:00		Hermanowa Czerwonki pętla 53
-1976	3	220615	08:16:00	08:16:00		Hermanowa Czerwonki pętla 53
+2035	3	223027	07:33:00	07:33:00		Dworzec Lokalny
+2035	3	223027	07:33:00	07:33:00		Dworzec Lokalny
+2035	3	223027	07:34:00	07:34:00		Piłsudskiego U. Marszałkowski 07
+2035	3	223027	07:34:00	07:34:00		Piłsudskiego U. Marszałkowski 07
+2035	3	223027	07:35:00	07:35:00		Cieplińskiego 02
+2035	3	223027	07:35:00	07:35:00		Cieplińskiego 02
+2035	3	223027	07:36:00	07:36:00		Lisa-Kuli 01
+2035	3	223027	07:36:00	07:36:00		Lisa-Kuli 01
+2035	3	223027	07:38:00	07:38:00		Hetmańska podzamcze 02 nż
+2035	3	223027	07:38:00	07:38:00		Hetmańska podzamcze 02 nż
+2035	3	223027	07:39:00	07:39:00		Hetmańska przychodnia 04
+2035	3	223027	07:39:00	07:39:00		Hetmańska przychodnia 04
+2035	3	223027	07:40:00	07:40:00		Hetmańska ZS. Mech. 06
+2035	3	223027	07:40:00	07:40:00		Hetmańska ZS. Mech. 06
+2035	3	223027	07:42:00	07:42:00		Powst. Warszawy stadion 06
+2035	3	223027	07:42:00	07:42:00		Powst. Warszawy stadion 06
+2035	3	223027	07:44:00	07:44:00		Powst. Warszawy dom studenta 08
+2035	3	223027	07:44:00	07:44:00		Powst. Warszawy dom studenta 08
+2035	3	223027	07:45:00	07:45:00		Powst. Warszawy / Graniczna 10
+2035	3	223027	07:45:00	07:45:00		Powst. Warszawy / Graniczna 10
+2035	3	223027	07:46:00	07:46:00		Powst. Warszawy / Sikorskiego 12 nż
+2035	3	223027	07:46:00	07:46:00		Powst. Warszawy / Sikorskiego 12 nż
+2035	3	223027	07:47:00	07:47:00		Sikorskiego katedra 04 nż
+2035	3	223027	07:47:00	07:47:00		Sikorskiego katedra 04 nż
+2035	3	223027	07:48:00	07:48:00		Sikorskiego / Łukasiewicza 06 nż
+2035	3	223027	07:48:00	07:48:00		Sikorskiego / Łukasiewicza 06 nż
+2035	3	223027	07:49:00	07:49:00		Sikorskiego domki 08 nż
+2035	3	223027	07:49:00	07:49:00		Sikorskiego domki 08 nż
+2035	3	223027	07:50:00	07:50:00		Sikorskiego / Strażacka 10 nż
+2035	3	223027	07:50:00	07:50:00		Sikorskiego / Strażacka 10 nż
+2035	3	223027	07:51:00	07:51:00		Sikorskiego / Białogórska 12 nż
+2035	3	223027	07:51:00	07:51:00		Sikorskiego / Białogórska 12 nż
+2035	3	223027	07:52:00	07:52:00		Sikorskiego / Rodzinna 14 nż
+2035	3	223027	07:52:00	07:52:00		Sikorskiego / Rodzinna 14 nż
+2035	3	223027	07:54:00	07:54:00		Sikorskiego / Kard. K. Wojtyły 16 nż
+2035	3	223027	07:54:00	07:54:00		Sikorskiego / Kard. K. Wojtyły 16 nż
+2035	3	223027	07:55:00	07:55:00		Sikorskiego granica 18 nż
+2035	3	223027	07:55:00	07:55:00		Sikorskiego granica 18 nż
+2035	3	223027	07:56:00	07:56:00		Tyczyn Grunwaldzka POM 82 nż
+2035	3	223027	07:56:00	07:56:00		Tyczyn Grunwaldzka POM 82 nż
+2035	3	223027	07:57:00	07:57:00		Tyczyn Grunwaldzka park 02 nż
+2035	3	223027	07:57:00	07:57:00		Tyczyn Grunwaldzka park 02 nż
+2035	3	223027	07:59:00	07:59:00		Tyczyn Mickiewicza 04 nż
+2035	3	223027	07:59:00	07:59:00		Tyczyn Mickiewicza 04 nż
+2035	3	223027	08:00:00	08:00:00		Hermanowa dół 06 nż
+2035	3	223027	08:00:00	08:00:00		Hermanowa dół 06 nż
+2035	3	223027	08:02:00	08:02:00		Hermanowa dworek 08 nż
+2035	3	223027	08:02:00	08:02:00		Hermanowa dworek 08 nż
+2035	3	223027	08:04:00	08:04:00		Hermanowa szkoła 10 nż
+2035	3	223027	08:04:00	08:04:00		Hermanowa szkoła 10 nż
+2035	3	223027	08:05:00	08:05:00		Hermanowa cmentarz 12 nż
+2035	3	223027	08:05:00	08:05:00		Hermanowa cmentarz 12 nż
+2035	3	223027	08:06:00	08:06:00		Hermanowa kościół 14 nż
+2035	3	223027	08:06:00	08:06:00		Hermanowa kościół 14 nż
+2035	3	223027	08:07:00	08:07:00		Hermanowa Czerwonki 16 nż
+2035	3	223027	08:07:00	08:07:00		Hermanowa Czerwonki 16 nż
+2035	3	223027	08:08:00	08:08:00		Hermanowa góra 18 nż
+2035	3	223027	08:08:00	08:08:00		Hermanowa góra 18 nż
+2035	3	223027	08:09:00	08:09:00		Hermanowa pętla 17 nż
+2035	3	223027	08:09:00	08:09:00		Hermanowa pętla 17 nż
+2035	3	223027	08:11:00	08:11:00		Hermanowa Czerwonki 13 nż
+2035	3	223027	08:11:00	08:11:00		Hermanowa Czerwonki 13 nż
+2035	3	223027	08:12:00	08:12:00		Hermanowa Kamieniec skrz. 61 nż
+2035	3	223027	08:12:00	08:12:00		Hermanowa Kamieniec skrz. 61 nż
+2035	3	223027	08:14:00	08:14:00		Hermanowa Czerwonki środek 63 nż
+2035	3	223027	08:14:00	08:14:00		Hermanowa Czerwonki środek 63 nż
+2035	3	223027	08:16:00	08:16:00		Hermanowa Czerwonki pętla 64
+2035	3	223027	08:16:00	08:16:00		Hermanowa Czerwonki pętla 64
 
-1942	3	220443	08:36:00	08:36:00		Hermanowa Czerwonki pętla 53
-1942	3	220443	08:36:00	08:36:00		Hermanowa Czerwonki pętla 53
-1942	3	220443	08:37:00	08:37:00		Hermanowa Czerwonki środek 52 nż
-1942	3	220443	08:37:00	08:37:00		Hermanowa Czerwonki środek 52 nż
-1942	3	220443	08:38:00	08:38:00		Hermanowa Kamieniec skrz. 50 nż
-1942	3	220443	08:38:00	08:38:00		Hermanowa Kamieniec skrz. 50 nż
-1942	3	220443	08:39:00	08:39:00		Hermanowa skrzyżowanie 98 nż
-1942	3	220443	08:39:00	08:39:00		Hermanowa skrzyżowanie 98 nż
-1942	3	220443	08:41:00	08:41:00		Hermanowa pętla 13 nż
-1942	3	220443	08:41:00	08:41:00		Hermanowa pętla 13 nż
-1942	3	220443	08:43:00	08:43:00		Hermanowa Czerwonki 11 nż
-1942	3	220443	08:43:00	08:43:00		Hermanowa Czerwonki 11 nż
-1942	3	220443	08:45:00	08:45:00		Hermanowa kościół 09 nż
-1942	3	220443	08:45:00	08:45:00		Hermanowa kościół 09 nż
-1942	3	220443	08:47:00	08:47:00		Hermanowa szkoła 07 nż
-1942	3	220443	08:47:00	08:47:00		Hermanowa szkoła 07 nż
-1942	3	220443	08:49:00	08:49:00		Hermanowa dworek 05 nż
-1942	3	220443	08:49:00	08:49:00		Hermanowa dworek 05 nż
-1942	3	220443	08:51:00	08:51:00		Hermanowa dół 03 nż
-1942	3	220443	08:51:00	08:51:00		Hermanowa dół 03 nż
-1942	3	220443	08:53:00	08:53:00		Tyczyn Kopernika 02
-1942	3	220443	08:53:00	08:53:00		Tyczyn Kopernika 02
-1942	3	220443	08:54:00	08:54:00		Tyczyn Grunwaldzka park 01 nż
-1942	3	220443	08:54:00	08:54:00		Tyczyn Grunwaldzka park 01 nż
-1942	3	220443	08:56:00	08:56:00		Tyczyn Grunwaldzka POM 27 nż
-1942	3	220443	08:56:00	08:56:00		Tyczyn Grunwaldzka POM 27 nż
-1942	3	220443	08:57:00	08:57:00		Sikorskiego granica 15 nż
-1942	3	220443	08:57:00	08:57:00		Sikorskiego granica 15 nż
-1942	3	220443	08:58:00	08:58:00		Sikorskiego / Ruczajowa 13 nż
-1942	3	220443	08:58:00	08:58:00		Sikorskiego / Ruczajowa 13 nż
-1942	3	220443	08:59:00	08:59:00		Sikorskiego / Kard. K. Wojtyły 11 nż
-1942	3	220443	08:59:00	08:59:00		Sikorskiego / Kard. K. Wojtyły 11 nż
-1942	3	220443	09:00:00	09:00:00		Sikorskiego / Rodzinna 09 nż
-1942	3	220443	09:00:00	09:00:00		Sikorskiego / Rodzinna 09 nż
-1942	3	220443	09:01:00	09:01:00		Sikorskiego / Białogórska 07 nż
-1942	3	220443	09:01:00	09:01:00		Sikorskiego / Białogórska 07 nż
-1942	3	220443	09:03:00	09:03:00		Sikorskiego / Robotnicza 05 nż
-1942	3	220443	09:03:00	09:03:00		Sikorskiego / Robotnicza 05 nż
-1942	3	220443	09:04:00	09:04:00		Sikorskiego domki 03 nż
-1942	3	220443	09:04:00	09:04:00		Sikorskiego domki 03 nż
-1942	3	220443	09:06:00	09:06:00		Sikorskiego katedra 01 nż
-1942	3	220443	09:06:00	09:06:00		Sikorskiego katedra 01 nż
-1942	3	220443	09:08:00	09:08:00		Powst. Warszawy / Rejtana 13
-1942	3	220443	09:08:00	09:08:00		Powst. Warszawy / Rejtana 13
-1942	3	220443	09:09:00	09:09:00		Powst. Warszawy szkoła 11
-1942	3	220443	09:09:00	09:09:00		Powst. Warszawy szkoła 11
-1942	3	220443	09:10:00	09:10:00		Powst. Warszawy dom studenta 09
-1942	3	220443	09:10:00	09:10:00		Powst. Warszawy dom studenta 09
-1942	3	220443	09:11:00	09:11:00		Powst. Warszawy stadion 05 nż
-1942	3	220443	09:11:00	09:11:00		Powst. Warszawy stadion 05 nż
-1942	3	220443	09:12:00	09:12:00		Hetmańska stadion 07
-1942	3	220443	09:12:00	09:12:00		Hetmańska stadion 07
-1942	3	220443	09:13:00	09:13:00		Hetmańska ZS. Mech. 05
-1942	3	220443	09:13:00	09:13:00		Hetmańska ZS. Mech. 05
-1942	3	220443	09:14:00	09:14:00		Hetmańska przychodnia 03
-1942	3	220443	09:14:00	09:14:00		Hetmańska przychodnia 03
-1942	3	220443	09:15:00	09:15:00		Hetmańska podzamcze 01 nż
-1942	3	220443	09:15:00	09:15:00		Hetmańska podzamcze 01 nż
-1942	3	220443	09:18:00	09:18:00		Lisa-Kuli 02
-1942	3	220443	09:18:00	09:18:00		Lisa-Kuli 02
-1942	3	220443	09:19:00	09:19:00		Cieplińskiego 01
-1942	3	220443	09:19:00	09:19:00		Cieplińskiego 01
-1942	3	220443	09:21:00	09:21:00		Piłsudskiego U. Marszałkowski 08
-1942	3	220443	09:21:00	09:21:00		Piłsudskiego U. Marszałkowski 08
-1942	3	220443	09:23:00	09:23:00		Dworzec Lokalny
-1942	3	220443	09:23:00	09:23:00		Dworzec Lokalny
+2038	3	222465	08:36:00	08:36:00		Hermanowa Czerwonki pętla 64
+2038	3	222465	08:36:00	08:36:00		Hermanowa Czerwonki pętla 64
+2038	3	222465	08:37:00	08:37:00		Hermanowa Czerwonki środek 62 nż
+2038	3	222465	08:37:00	08:37:00		Hermanowa Czerwonki środek 62 nż
+2038	3	222465	08:38:00	08:38:00		Hermanowa Kamieniec skrz. 60 nż
+2038	3	222465	08:38:00	08:38:00		Hermanowa Kamieniec skrz. 60 nż
+2038	3	222465	08:39:00	08:39:00		Hermanowa skrzyżowanie 59 nż
+2038	3	222465	08:39:00	08:39:00		Hermanowa skrzyżowanie 59 nż
+2038	3	222465	08:40:00	08:40:00		Hermanowa góra 18 nż
+2038	3	222465	08:40:00	08:40:00		Hermanowa góra 18 nż
+2038	3	222465	08:41:00	08:41:00		Hermanowa pętla 17 nż
+2038	3	222465	08:41:00	08:41:00		Hermanowa pętla 17 nż
+2038	3	222465	08:43:00	08:43:00		Hermanowa Czerwonki 13 nż
+2038	3	222465	08:43:00	08:43:00		Hermanowa Czerwonki 13 nż
+2038	3	222465	08:45:00	08:45:00		Hermanowa kościół 11 nż
+2038	3	222465	08:45:00	08:45:00		Hermanowa kościół 11 nż
+2038	3	222465	08:46:00	08:46:00		Hermanowa cmentarz 09 nż
+2038	3	222465	08:46:00	08:46:00		Hermanowa cmentarz 09 nż
+2038	3	222465	08:47:00	08:47:00		Hermanowa szkoła 07 nż
+2038	3	222465	08:47:00	08:47:00		Hermanowa szkoła 07 nż
+2038	3	222465	08:49:00	08:49:00		Hermanowa dworek 05 nż
+2038	3	222465	08:49:00	08:49:00		Hermanowa dworek 05 nż
+2038	3	222465	08:51:00	08:51:00		Hermanowa dół 03 nż
+2038	3	222465	08:51:00	08:51:00		Hermanowa dół 03 nż
+2038	3	222465	08:53:00	08:53:00		Tyczyn Kopernika 39
+2038	3	222465	08:53:00	08:53:00		Tyczyn Kopernika 39
+2038	3	222465	08:54:00	08:54:00		Tyczyn Grunwaldzka park 01 nż
+2038	3	222465	08:54:00	08:54:00		Tyczyn Grunwaldzka park 01 nż
+2038	3	222465	08:56:00	08:56:00		Tyczyn Grunwaldzka POM 27 nż
+2038	3	222465	08:56:00	08:56:00		Tyczyn Grunwaldzka POM 27 nż
+2038	3	222465	08:57:00	08:57:00		Sikorskiego granica 15 nż
+2038	3	222465	08:57:00	08:57:00		Sikorskiego granica 15 nż
+2038	3	222465	08:58:00	08:58:00		Sikorskiego / Ruczajowa 13 nż
+2038	3	222465	08:58:00	08:58:00		Sikorskiego / Ruczajowa 13 nż
+2038	3	222465	08:59:00	08:59:00		Sikorskiego / Kard. K. Wojtyły 11 nż
+2038	3	222465	08:59:00	08:59:00		Sikorskiego / Kard. K. Wojtyły 11 nż
+2038	3	222465	09:00:00	09:00:00		Sikorskiego / Rodzinna 09 nż
+2038	3	222465	09:00:00	09:00:00		Sikorskiego / Rodzinna 09 nż
+2038	3	222465	09:01:00	09:01:00		Sikorskiego / Białogórska 07 nż
+2038	3	222465	09:01:00	09:01:00		Sikorskiego / Białogórska 07 nż
+2038	3	222465	09:03:00	09:03:00		Sikorskiego / Robotnicza 05 nż
+2038	3	222465	09:03:00	09:03:00		Sikorskiego / Robotnicza 05 nż
+2038	3	222465	09:04:00	09:04:00		Sikorskiego domki 03 nż
+2038	3	222465	09:04:00	09:04:00		Sikorskiego domki 03 nż
+2038	3	222465	09:06:00	09:06:00		Sikorskiego katedra 01 nż
+2038	3	222465	09:06:00	09:06:00		Sikorskiego katedra 01 nż
+2038	3	222465	09:08:00	09:08:00		Powst. Warszawy / Rejtana 13
+2038	3	222465	09:08:00	09:08:00		Powst. Warszawy / Rejtana 13
+2038	3	222465	09:09:00	09:09:00		Powst. Warszawy szkoła 11
+2038	3	222465	09:09:00	09:09:00		Powst. Warszawy szkoła 11
+2038	3	222465	09:10:00	09:10:00		Powst. Warszawy dom studenta 09
+2038	3	222465	09:10:00	09:10:00		Powst. Warszawy dom studenta 09
+2038	3	222465	09:11:00	09:11:00		Powst. Warszawy stadion 05 nż
+2038	3	222465	09:11:00	09:11:00		Powst. Warszawy stadion 05 nż
+2038	3	222465	09:12:00	09:12:00		Hetmańska stadion 07
+2038	3	222465	09:12:00	09:12:00		Hetmańska stadion 07
+2038	3	222465	09:13:00	09:13:00		Hetmańska ZS. Mech. 05
+2038	3	222465	09:13:00	09:13:00		Hetmańska ZS. Mech. 05
+2038	3	222465	09:14:00	09:14:00		Hetmańska przychodnia 03
+2038	3	222465	09:14:00	09:14:00		Hetmańska przychodnia 03
+2038	3	222465	09:15:00	09:15:00		Hetmańska podzamcze 01 nż
+2038	3	222465	09:15:00	09:15:00		Hetmańska podzamcze 01 nż
+2038	3	222465	09:18:00	09:18:00		Lisa-Kuli 02
+2038	3	222465	09:18:00	09:18:00		Lisa-Kuli 02
+2038	3	222465	09:19:00	09:19:00		Cieplińskiego 01
+2038	3	222465	09:19:00	09:19:00		Cieplińskiego 01
+2038	3	222465	09:21:00	09:21:00		Piłsudskiego U. Marszałkowski 08
+2038	3	222465	09:21:00	09:21:00		Piłsudskiego U. Marszałkowski 08
+2038	3	222465	09:23:00	09:23:00		Dworzec Lokalny
+2038	3	222465	09:23:00	09:23:00		Dworzec Lokalny
 
-1839	3	220489	11:00:00	11:00:00		Trembeckiego ZTM pętla 01
-1839	3	220489	11:00:00	11:00:00		Trembeckiego ZTM pętla 01
-1839	3	220489	11:01:00	11:01:00		Trembeckiego / Siemieńskiego 04 nż
-1839	3	220489	11:01:00	11:01:00		Trembeckiego / Siemieńskiego 04 nż
-1839	3	220489	11:02:00	11:02:00		Siemieńskiego U. Skarbowy 03 nż
-1839	3	220489	11:02:00	11:02:00		Siemieńskiego U. Skarbowy 03 nż
-1839	3	220489	11:03:00	11:03:00		Siemieńskiego dom studenta 01 nż
-1839	3	220489	11:03:00	11:03:00		Siemieńskiego dom studenta 01 nż
-1839	3	220489	11:04:00	11:04:00		Żółkiewskiego / Kochanowskiego 01 nż
-1839	3	220489	11:04:00	11:04:00		Żółkiewskiego / Kochanowskiego 01 nż
-1839	3	220489	11:06:00	11:06:00		Bardowskiego 02
-1839	3	220489	11:06:00	11:06:00		Bardowskiego 02
-1839	3	220489	11:08:00	11:08:00		Pl. Wolności 04
-1839	3	220489	11:08:00	11:08:00		Pl. Wolności 04
-1839	3	220489	11:09:00	11:09:00		Piłsudskiego U. Wojewódzki 06
-1839	3	220489	11:09:00	11:09:00		Piłsudskiego U. Wojewódzki 06
-1839	3	220489	11:11:00	11:11:00		Cieplińskiego 02
-1839	3	220489	11:11:00	11:11:00		Cieplińskiego 02
-1839	3	220489	11:12:00	11:12:00		Lisa-Kuli 01
-1839	3	220489	11:12:00	11:12:00		Lisa-Kuli 01
-1839	3	220489	11:14:00	11:14:00		Dąbrowskiego park 02 nż
-1839	3	220489	11:14:00	11:14:00		Dąbrowskiego park 02 nż
-1839	3	220489	11:15:00	11:15:00		Dąbrowskiego KW. Policji 04
-1839	3	220489	11:15:00	11:15:00		Dąbrowskiego KW. Policji 04
-1839	3	220489	11:16:00	11:16:00		Dąbrowskiego / Bat. Chłopskich 10
-1839	3	220489	11:16:00	11:16:00		Dąbrowskiego / Bat. Chłopskich 10
-1839	3	220489	11:18:00	11:18:00		Podkarpacka politechnika 02
-1839	3	220489	11:18:00	11:18:00		Podkarpacka politechnika 02
-1839	3	220489	11:19:00	11:19:00		Podkarpacka / Matuszczaka 04
-1839	3	220489	11:19:00	11:19:00		Podkarpacka / Matuszczaka 04
-1839	3	220489	11:20:00	11:20:00		Podkarpacka / Wetlińska 06 nż
-1839	3	220489	11:20:00	11:20:00		Podkarpacka / Wetlińska 06 nż
-1839	3	220489	11:23:00	11:23:00		Zawiszy Czarnego 03 nż
-1839	3	220489	11:23:00	11:23:00		Zawiszy Czarnego 03 nż
-1839	3	220489	11:24:00	11:24:00		Zawiszy Czarnego / Podgórska 01 nż
-1839	3	220489	11:24:00	11:24:00		Zawiszy Czarnego / Podgórska 01 nż
-1839	3	220489	11:25:00	11:25:00		Architektów 01
-1839	3	220489	11:25:00	11:25:00		Architektów 01
-1839	3	220489	11:27:00	11:27:00		Przemysłowa U. Celny 05 nż
-1839	3	220489	11:27:00	11:27:00		Przemysłowa U. Celny 05 nż
+1839	3	222640	11:00:00	11:00:00		Trembeckiego ZTM pętla 01
+1839	3	222640	11:00:00	11:00:00		Trembeckiego ZTM pętla 01
+1839	3	222640	11:01:00	11:01:00		Trembeckiego / Siemieńskiego 04 nż
+1839	3	222640	11:01:00	11:01:00		Trembeckiego / Siemieńskiego 04 nż
+1839	3	222640	11:02:00	11:02:00		Siemieńskiego U. Skarbowy 03 nż
+1839	3	222640	11:02:00	11:02:00		Siemieńskiego U. Skarbowy 03 nż
+1839	3	222640	11:03:00	11:03:00		Siemieńskiego dom studenta 01 nż
+1839	3	222640	11:03:00	11:03:00		Siemieńskiego dom studenta 01 nż
+1839	3	222640	11:04:00	11:04:00		Żółkiewskiego / Kochanowskiego 01 nż
+1839	3	222640	11:04:00	11:04:00		Żółkiewskiego / Kochanowskiego 01 nż
+1839	3	222640	11:06:00	11:06:00		Bardowskiego 02
+1839	3	222640	11:06:00	11:06:00		Bardowskiego 02
+1839	3	222640	11:08:00	11:08:00		Pl. Wolności 04
+1839	3	222640	11:08:00	11:08:00		Pl. Wolności 04
+1839	3	222640	11:09:00	11:09:00		Piłsudskiego U. Wojewódzki 06
+1839	3	222640	11:09:00	11:09:00		Piłsudskiego U. Wojewódzki 06
+1839	3	222640	11:11:00	11:11:00		Cieplińskiego 02
+1839	3	222640	11:11:00	11:11:00		Cieplińskiego 02
+1839	3	222640	11:12:00	11:12:00		Lisa-Kuli 01
+1839	3	222640	11:12:00	11:12:00		Lisa-Kuli 01
+1839	3	222640	11:14:00	11:14:00		Dąbrowskiego park 02 nż
+1839	3	222640	11:14:00	11:14:00		Dąbrowskiego park 02 nż
+1839	3	222640	11:15:00	11:15:00		Dąbrowskiego KW. Policji 04
+1839	3	222640	11:15:00	11:15:00		Dąbrowskiego KW. Policji 04
+1839	3	222640	11:16:00	11:16:00		Dąbrowskiego / Bat. Chłopskich 10
+1839	3	222640	11:16:00	11:16:00		Dąbrowskiego / Bat. Chłopskich 10
+1839	3	222640	11:18:00	11:18:00		Podkarpacka politechnika 02
+1839	3	222640	11:18:00	11:18:00		Podkarpacka politechnika 02
+1839	3	222640	11:19:00	11:19:00		Podkarpacka / Matuszczaka 04
+1839	3	222640	11:19:00	11:19:00		Podkarpacka / Matuszczaka 04
+1839	3	222640	11:20:00	11:20:00		Podkarpacka / Wetlińska 06 nż
+1839	3	222640	11:20:00	11:20:00		Podkarpacka / Wetlińska 06 nż
+1839	3	222640	11:23:00	11:23:00		Zawiszy Czarnego 03 nż
+1839	3	222640	11:23:00	11:23:00		Zawiszy Czarnego 03 nż
+1839	3	222640	11:24:00	11:24:00		Zawiszy Czarnego / Podgórska 01 nż
+1839	3	222640	11:24:00	11:24:00		Zawiszy Czarnego / Podgórska 01 nż
+1839	3	222640	11:25:00	11:25:00		Architektów 01
+1839	3	222640	11:25:00	11:25:00		Architektów 01
+1839	3	222640	11:27:00	11:27:00		Przemysłowa U. Celny 05 nż
+1839	3	222640	11:27:00	11:27:00		Przemysłowa U. Celny 05 nż
 
-1941	3	220442	11:40:00	11:40:00		Przemysłowa U. Celny 05 nż
-1941	3	220442	11:40:00	11:40:00		Przemysłowa U. Celny 05 nż
-1941	3	220442	11:42:00	11:42:00		Architektów 02
-1941	3	220442	11:42:00	11:42:00		Architektów 02
-1941	3	220442	11:44:00	11:44:00		Zawiszy Czarnego / Podgórska 02 nż
-1941	3	220442	11:44:00	11:44:00		Zawiszy Czarnego / Podgórska 02 nż
-1941	3	220442	11:45:00	11:45:00		Zawiszy Czarnego 04 nż
-1941	3	220442	11:45:00	11:45:00		Zawiszy Czarnego 04 nż
-1941	3	220442	11:46:00	11:46:00		Żołnierzy 9 DP 01 nż
-1941	3	220442	11:46:00	11:46:00		Żołnierzy 9 DP 01 nż
-1941	3	220442	11:48:00	11:48:00		Podkarpacka / Wetlińska 05 nż
-1941	3	220442	11:48:00	11:48:00		Podkarpacka / Wetlińska 05 nż
-1941	3	220442	11:49:00	11:49:00		Podkarpacka / Matuszczaka 03
-1941	3	220442	11:49:00	11:49:00		Podkarpacka / Matuszczaka 03
-1941	3	220442	11:51:00	11:51:00		Podkarpacka politechnika 01
-1941	3	220442	11:51:00	11:51:00		Podkarpacka politechnika 01
-1941	3	220442	11:53:00	11:53:00		Dąbrowskiego / Chrobrego 07
-1941	3	220442	11:53:00	11:53:00		Dąbrowskiego / Chrobrego 07
-1941	3	220442	11:54:00	11:54:00		Dąbrowskiego KW. Policji 03
-1941	3	220442	11:54:00	11:54:00		Dąbrowskiego KW. Policji 03
-1941	3	220442	11:55:00	11:55:00		Dąbrowskiego park 01 nż
-1941	3	220442	11:55:00	11:55:00		Dąbrowskiego park 01 nż
-1941	3	220442	11:58:00	11:58:00		Lisa-Kuli 02
-1941	3	220442	11:58:00	11:58:00		Lisa-Kuli 02
-1941	3	220442	11:59:00	11:59:00		Cieplińskiego 01
-1941	3	220442	11:59:00	11:59:00		Cieplińskiego 01
-1941	3	220442	12:00:00	12:00:00		Piłsudskiego U. Wojewódzki 05
-1941	3	220442	12:00:00	12:00:00		Piłsudskiego U. Wojewódzki 05
-1941	3	220442	12:03:00	12:03:00		Bardowskiego 03
-1941	3	220442	12:03:00	12:03:00		Bardowskiego 03
-1941	3	220442	12:05:00	12:05:00		Siemieńskiego / Kochanowskiego 02 nż
-1941	3	220442	12:05:00	12:05:00		Siemieńskiego / Kochanowskiego 02 nż
-1941	3	220442	12:06:00	12:06:00		Siemieńskiego U. Skarbowy 04 nż
-1941	3	220442	12:06:00	12:06:00		Siemieńskiego U. Skarbowy 04 nż
-1941	3	220442	12:07:00	12:07:00		Trembeckiego / Siemieńskiego 07 nż
-1941	3	220442	12:07:00	12:07:00		Trembeckiego / Siemieńskiego 07 nż
-1941	3	220442	12:08:00	12:08:00		Trembeckiego ZTM pętla 01
-1941	3	220442	12:08:00	12:08:00		Trembeckiego ZTM pętla 01
+1941	3	222315	11:40:00	11:40:00		Przemysłowa U. Celny 05 nż
+1941	3	222315	11:40:00	11:40:00		Przemysłowa U. Celny 05 nż
+1941	3	222315	11:42:00	11:42:00		Architektów 02
+1941	3	222315	11:42:00	11:42:00		Architektów 02
+1941	3	222315	11:44:00	11:44:00		Zawiszy Czarnego / Podgórska 02 nż
+1941	3	222315	11:44:00	11:44:00		Zawiszy Czarnego / Podgórska 02 nż
+1941	3	222315	11:45:00	11:45:00		Zawiszy Czarnego 04 nż
+1941	3	222315	11:45:00	11:45:00		Zawiszy Czarnego 04 nż
+1941	3	222315	11:46:00	11:46:00		Żołnierzy 9 DP 01 nż
+1941	3	222315	11:46:00	11:46:00		Żołnierzy 9 DP 01 nż
+1941	3	222315	11:48:00	11:48:00		Podkarpacka / Wetlińska 05 nż
+1941	3	222315	11:48:00	11:48:00		Podkarpacka / Wetlińska 05 nż
+1941	3	222315	11:49:00	11:49:00		Podkarpacka / Matuszczaka 03
+1941	3	222315	11:49:00	11:49:00		Podkarpacka / Matuszczaka 03
+1941	3	222315	11:51:00	11:51:00		Podkarpacka politechnika 01
+1941	3	222315	11:51:00	11:51:00		Podkarpacka politechnika 01
+1941	3	222315	11:53:00	11:53:00		Dąbrowskiego / Chrobrego 07
+1941	3	222315	11:53:00	11:53:00		Dąbrowskiego / Chrobrego 07
+1941	3	222315	11:54:00	11:54:00		Dąbrowskiego KW. Policji 03
+1941	3	222315	11:54:00	11:54:00		Dąbrowskiego KW. Policji 03
+1941	3	222315	11:55:00	11:55:00		Dąbrowskiego park 01 nż
+1941	3	222315	11:55:00	11:55:00		Dąbrowskiego park 01 nż
+1941	3	222315	11:58:00	11:58:00		Lisa-Kuli 02
+1941	3	222315	11:58:00	11:58:00		Lisa-Kuli 02
+1941	3	222315	11:59:00	11:59:00		Cieplińskiego 01
+1941	3	222315	11:59:00	11:59:00		Cieplińskiego 01
+1941	3	222315	12:00:00	12:00:00		Piłsudskiego U. Wojewódzki 05
+1941	3	222315	12:00:00	12:00:00		Piłsudskiego U. Wojewódzki 05
+1941	3	222315	12:03:00	12:03:00		Bardowskiego 03
+1941	3	222315	12:03:00	12:03:00		Bardowskiego 03
+1941	3	222315	12:05:00	12:05:00		Siemieńskiego / Kochanowskiego 02 nż
+1941	3	222315	12:05:00	12:05:00		Siemieńskiego / Kochanowskiego 02 nż
+1941	3	222315	12:06:00	12:06:00		Siemieńskiego U. Skarbowy 04 nż
+1941	3	222315	12:06:00	12:06:00		Siemieńskiego U. Skarbowy 04 nż
+1941	3	222315	12:07:00	12:07:00		Trembeckiego / Siemieńskiego 07 nż
+1941	3	222315	12:07:00	12:07:00		Trembeckiego / Siemieńskiego 07 nż
+1941	3	222315	12:08:00	12:08:00		Trembeckiego ZTM pętla 01
+1941	3	222315	12:08:00	12:08:00		Trembeckiego ZTM pętla 01
 
-1839	3	220441	12:30:00	12:30:00		Trembeckiego ZTM pętla 01
-1839	3	220441	12:30:00	12:30:00		Trembeckiego ZTM pętla 01
-1839	3	220441	12:31:00	12:31:00		Trembeckiego / Siemieńskiego 04 nż
-1839	3	220441	12:31:00	12:31:00		Trembeckiego / Siemieńskiego 04 nż
-1839	3	220441	12:32:00	12:32:00		Siemieńskiego U. Skarbowy 03 nż
-1839	3	220441	12:32:00	12:32:00		Siemieńskiego U. Skarbowy 03 nż
-1839	3	220441	12:33:00	12:33:00		Siemieńskiego dom studenta 01 nż
-1839	3	220441	12:33:00	12:33:00		Siemieńskiego dom studenta 01 nż
-1839	3	220441	12:34:00	12:34:00		Żółkiewskiego / Kochanowskiego 01 nż
-1839	3	220441	12:34:00	12:34:00		Żółkiewskiego / Kochanowskiego 01 nż
-1839	3	220441	12:36:00	12:36:00		Bardowskiego 02
-1839	3	220441	12:36:00	12:36:00		Bardowskiego 02
-1839	3	220441	12:38:00	12:38:00		Pl. Wolności 04
-1839	3	220441	12:38:00	12:38:00		Pl. Wolności 04
-1839	3	220441	12:39:00	12:39:00		Piłsudskiego U. Wojewódzki 06
-1839	3	220441	12:39:00	12:39:00		Piłsudskiego U. Wojewódzki 06
-1839	3	220441	12:41:00	12:41:00		Cieplińskiego 02
-1839	3	220441	12:41:00	12:41:00		Cieplińskiego 02
-1839	3	220441	12:42:00	12:42:00		Lisa-Kuli 01
-1839	3	220441	12:42:00	12:42:00		Lisa-Kuli 01
-1839	3	220441	12:44:00	12:44:00		Dąbrowskiego park 02 nż
-1839	3	220441	12:44:00	12:44:00		Dąbrowskiego park 02 nż
-1839	3	220441	12:45:00	12:45:00		Dąbrowskiego KW. Policji 04
-1839	3	220441	12:45:00	12:45:00		Dąbrowskiego KW. Policji 04
-1839	3	220441	12:46:00	12:46:00		Dąbrowskiego / Bat. Chłopskich 10
-1839	3	220441	12:46:00	12:46:00		Dąbrowskiego / Bat. Chłopskich 10
-1839	3	220441	12:48:00	12:48:00		Podkarpacka politechnika 02
-1839	3	220441	12:48:00	12:48:00		Podkarpacka politechnika 02
-1839	3	220441	12:49:00	12:49:00		Podkarpacka / Matuszczaka 04
-1839	3	220441	12:49:00	12:49:00		Podkarpacka / Matuszczaka 04
-1839	3	220441	12:50:00	12:50:00		Podkarpacka / Wetlińska 06 nż
-1839	3	220441	12:50:00	12:50:00		Podkarpacka / Wetlińska 06 nż
-1839	3	220441	12:53:00	12:53:00		Zawiszy Czarnego 03 nż
-1839	3	220441	12:53:00	12:53:00		Zawiszy Czarnego 03 nż
-1839	3	220441	12:54:00	12:54:00		Zawiszy Czarnego / Podgórska 01 nż
-1839	3	220441	12:54:00	12:54:00		Zawiszy Czarnego / Podgórska 01 nż
-1839	3	220441	12:55:00	12:55:00		Architektów 01
-1839	3	220441	12:55:00	12:55:00		Architektów 01
-1839	3	220441	12:57:00	12:57:00		Przemysłowa U. Celny 05 nż
-1839	3	220441	12:57:00	12:57:00		Przemysłowa U. Celny 05 nż
+1839	3	222828	12:30:00	12:30:00		Trembeckiego ZTM pętla 01
+1839	3	222828	12:30:00	12:30:00		Trembeckiego ZTM pętla 01
+1839	3	222828	12:31:00	12:31:00		Trembeckiego / Siemieńskiego 04 nż
+1839	3	222828	12:31:00	12:31:00		Trembeckiego / Siemieńskiego 04 nż
+1839	3	222828	12:32:00	12:32:00		Siemieńskiego U. Skarbowy 03 nż
+1839	3	222828	12:32:00	12:32:00		Siemieńskiego U. Skarbowy 03 nż
+1839	3	222828	12:33:00	12:33:00		Siemieńskiego dom studenta 01 nż
+1839	3	222828	12:33:00	12:33:00		Siemieńskiego dom studenta 01 nż
+1839	3	222828	12:34:00	12:34:00		Żółkiewskiego / Kochanowskiego 01 nż
+1839	3	222828	12:34:00	12:34:00		Żółkiewskiego / Kochanowskiego 01 nż
+1839	3	222828	12:36:00	12:36:00		Bardowskiego 02
+1839	3	222828	12:36:00	12:36:00		Bardowskiego 02
+1839	3	222828	12:38:00	12:38:00		Pl. Wolności 04
+1839	3	222828	12:38:00	12:38:00		Pl. Wolności 04
+1839	3	222828	12:39:00	12:39:00		Piłsudskiego U. Wojewódzki 06
+1839	3	222828	12:39:00	12:39:00		Piłsudskiego U. Wojewódzki 06
+1839	3	222828	12:41:00	12:41:00		Cieplińskiego 02
+1839	3	222828	12:41:00	12:41:00		Cieplińskiego 02
+1839	3	222828	12:42:00	12:42:00		Lisa-Kuli 01
+1839	3	222828	12:42:00	12:42:00		Lisa-Kuli 01
+1839	3	222828	12:44:00	12:44:00		Dąbrowskiego park 02 nż
+1839	3	222828	12:44:00	12:44:00		Dąbrowskiego park 02 nż
+1839	3	222828	12:45:00	12:45:00		Dąbrowskiego KW. Policji 04
+1839	3	222828	12:45:00	12:45:00		Dąbrowskiego KW. Policji 04
+1839	3	222828	12:46:00	12:46:00		Dąbrowskiego / Bat. Chłopskich 10
+1839	3	222828	12:46:00	12:46:00		Dąbrowskiego / Bat. Chłopskich 10
+1839	3	222828	12:48:00	12:48:00		Podkarpacka politechnika 02
+1839	3	222828	12:48:00	12:48:00		Podkarpacka politechnika 02
+1839	3	222828	12:49:00	12:49:00		Podkarpacka / Matuszczaka 04
+1839	3	222828	12:49:00	12:49:00		Podkarpacka / Matuszczaka 04
+1839	3	222828	12:50:00	12:50:00		Podkarpacka / Wetlińska 06 nż
+1839	3	222828	12:50:00	12:50:00		Podkarpacka / Wetlińska 06 nż
+1839	3	222828	12:53:00	12:53:00		Zawiszy Czarnego 03 nż
+1839	3	222828	12:53:00	12:53:00		Zawiszy Czarnego 03 nż
+1839	3	222828	12:54:00	12:54:00		Zawiszy Czarnego / Podgórska 01 nż
+1839	3	222828	12:54:00	12:54:00		Zawiszy Czarnego / Podgórska 01 nż
+1839	3	222828	12:55:00	12:55:00		Architektów 01
+1839	3	222828	12:55:00	12:55:00		Architektów 01
+1839	3	222828	12:57:00	12:57:00		Przemysłowa U. Celny 05 nż
+1839	3	222828	12:57:00	12:57:00		Przemysłowa U. Celny 05 nż
 
-1941	3	220378	13:10:00	13:10:00		Przemysłowa U. Celny 05 nż
-1941	3	220378	13:10:00	13:10:00		Przemysłowa U. Celny 05 nż
-1941	3	220378	13:12:00	13:12:00		Architektów 02
-1941	3	220378	13:12:00	13:12:00		Architektów 02
-1941	3	220378	13:14:00	13:14:00		Zawiszy Czarnego / Podgórska 02 nż
-1941	3	220378	13:14:00	13:14:00		Zawiszy Czarnego / Podgórska 02 nż
-1941	3	220378	13:15:00	13:15:00		Zawiszy Czarnego 04 nż
-1941	3	220378	13:15:00	13:15:00		Zawiszy Czarnego 04 nż
-1941	3	220378	13:16:00	13:16:00		Żołnierzy 9 DP 01 nż
-1941	3	220378	13:16:00	13:16:00		Żołnierzy 9 DP 01 nż
-1941	3	220378	13:18:00	13:18:00		Podkarpacka / Wetlińska 05 nż
-1941	3	220378	13:18:00	13:18:00		Podkarpacka / Wetlińska 05 nż
-1941	3	220378	13:19:00	13:19:00		Podkarpacka / Matuszczaka 03
-1941	3	220378	13:19:00	13:19:00		Podkarpacka / Matuszczaka 03
-1941	3	220378	13:21:00	13:21:00		Podkarpacka politechnika 01
-1941	3	220378	13:21:00	13:21:00		Podkarpacka politechnika 01
-1941	3	220378	13:23:00	13:23:00		Dąbrowskiego / Chrobrego 07
-1941	3	220378	13:23:00	13:23:00		Dąbrowskiego / Chrobrego 07
-1941	3	220378	13:24:00	13:24:00		Dąbrowskiego KW. Policji 03
-1941	3	220378	13:24:00	13:24:00		Dąbrowskiego KW. Policji 03
-1941	3	220378	13:25:00	13:25:00		Dąbrowskiego park 01 nż
-1941	3	220378	13:25:00	13:25:00		Dąbrowskiego park 01 nż
-1941	3	220378	13:28:00	13:28:00		Lisa-Kuli 02
-1941	3	220378	13:28:00	13:28:00		Lisa-Kuli 02
-1941	3	220378	13:29:00	13:29:00		Cieplińskiego 01
-1941	3	220378	13:29:00	13:29:00		Cieplińskiego 01
-1941	3	220378	13:30:00	13:30:00		Piłsudskiego U. Wojewódzki 05
-1941	3	220378	13:30:00	13:30:00		Piłsudskiego U. Wojewódzki 05
-1941	3	220378	13:33:00	13:33:00		Bardowskiego 03
-1941	3	220378	13:33:00	13:33:00		Bardowskiego 03
-1941	3	220378	13:35:00	13:35:00		Siemieńskiego / Kochanowskiego 02 nż
-1941	3	220378	13:35:00	13:35:00		Siemieńskiego / Kochanowskiego 02 nż
-1941	3	220378	13:36:00	13:36:00		Siemieńskiego U. Skarbowy 04 nż
-1941	3	220378	13:36:00	13:36:00		Siemieńskiego U. Skarbowy 04 nż
-1941	3	220378	13:37:00	13:37:00		Trembeckiego / Siemieńskiego 07 nż
-1941	3	220378	13:37:00	13:37:00		Trembeckiego / Siemieńskiego 07 nż
-1941	3	220378	13:38:00	13:38:00		Trembeckiego ZTM pętla 01
-1941	3	220378	13:38:00	13:38:00		Trembeckiego ZTM pętla 01
+1941	3	222573	13:10:00	13:10:00		Przemysłowa U. Celny 05 nż
+1941	3	222573	13:10:00	13:10:00		Przemysłowa U. Celny 05 nż
+1941	3	222573	13:12:00	13:12:00		Architektów 02
+1941	3	222573	13:12:00	13:12:00		Architektów 02
+1941	3	222573	13:14:00	13:14:00		Zawiszy Czarnego / Podgórska 02 nż
+1941	3	222573	13:14:00	13:14:00		Zawiszy Czarnego / Podgórska 02 nż
+1941	3	222573	13:15:00	13:15:00		Zawiszy Czarnego 04 nż
+1941	3	222573	13:15:00	13:15:00		Zawiszy Czarnego 04 nż
+1941	3	222573	13:16:00	13:16:00		Żołnierzy 9 DP 01 nż
+1941	3	222573	13:16:00	13:16:00		Żołnierzy 9 DP 01 nż
+1941	3	222573	13:18:00	13:18:00		Podkarpacka / Wetlińska 05 nż
+1941	3	222573	13:18:00	13:18:00		Podkarpacka / Wetlińska 05 nż
+1941	3	222573	13:19:00	13:19:00		Podkarpacka / Matuszczaka 03
+1941	3	222573	13:19:00	13:19:00		Podkarpacka / Matuszczaka 03
+1941	3	222573	13:21:00	13:21:00		Podkarpacka politechnika 01
+1941	3	222573	13:21:00	13:21:00		Podkarpacka politechnika 01
+1941	3	222573	13:23:00	13:23:00		Dąbrowskiego / Chrobrego 07
+1941	3	222573	13:23:00	13:23:00		Dąbrowskiego / Chrobrego 07
+1941	3	222573	13:24:00	13:24:00		Dąbrowskiego KW. Policji 03
+1941	3	222573	13:24:00	13:24:00		Dąbrowskiego KW. Policji 03
+1941	3	222573	13:25:00	13:25:00		Dąbrowskiego park 01 nż
+1941	3	222573	13:25:00	13:25:00		Dąbrowskiego park 01 nż
+1941	3	222573	13:28:00	13:28:00		Lisa-Kuli 02
+1941	3	222573	13:28:00	13:28:00		Lisa-Kuli 02
+1941	3	222573	13:29:00	13:29:00		Cieplińskiego 01
+1941	3	222573	13:29:00	13:29:00		Cieplińskiego 01
+1941	3	222573	13:30:00	13:30:00		Piłsudskiego U. Wojewódzki 05
+1941	3	222573	13:30:00	13:30:00		Piłsudskiego U. Wojewódzki 05
+1941	3	222573	13:33:00	13:33:00		Bardowskiego 03
+1941	3	222573	13:33:00	13:33:00		Bardowskiego 03
+1941	3	222573	13:35:00	13:35:00		Siemieńskiego / Kochanowskiego 02 nż
+1941	3	222573	13:35:00	13:35:00		Siemieńskiego / Kochanowskiego 02 nż
+1941	3	222573	13:36:00	13:36:00		Siemieńskiego U. Skarbowy 04 nż
+1941	3	222573	13:36:00	13:36:00		Siemieńskiego U. Skarbowy 04 nż
+1941	3	222573	13:37:00	13:37:00		Trembeckiego / Siemieńskiego 07 nż
+1941	3	222573	13:37:00	13:37:00		Trembeckiego / Siemieńskiego 07 nż
+1941	3	222573	13:38:00	13:38:00		Trembeckiego ZTM pętla 01
+1941	3	222573	13:38:00	13:38:00		Trembeckiego ZTM pętla 01
 
-1839	3	220377	14:30:00	14:30:00		Trembeckiego ZTM pętla 01
-1839	3	220377	14:30:00	14:30:00		Trembeckiego ZTM pętla 01
-1839	3	220377	14:31:00	14:31:00		Trembeckiego / Siemieńskiego 04 nż
-1839	3	220377	14:31:00	14:31:00		Trembeckiego / Siemieńskiego 04 nż
-1839	3	220377	14:32:00	14:32:00		Siemieńskiego U. Skarbowy 03 nż
-1839	3	220377	14:32:00	14:32:00		Siemieńskiego U. Skarbowy 03 nż
-1839	3	220377	14:33:00	14:33:00		Siemieńskiego dom studenta 01 nż
-1839	3	220377	14:33:00	14:33:00		Siemieńskiego dom studenta 01 nż
-1839	3	220377	14:34:00	14:34:00		Żółkiewskiego / Kochanowskiego 01 nż
-1839	3	220377	14:34:00	14:34:00		Żółkiewskiego / Kochanowskiego 01 nż
-1839	3	220377	14:36:00	14:36:00		Bardowskiego 02
-1839	3	220377	14:36:00	14:36:00		Bardowskiego 02
-1839	3	220377	14:38:00	14:38:00		Pl. Wolności 04
-1839	3	220377	14:38:00	14:38:00		Pl. Wolności 04
-1839	3	220377	14:39:00	14:39:00		Piłsudskiego U. Wojewódzki 06
-1839	3	220377	14:39:00	14:39:00		Piłsudskiego U. Wojewódzki 06
-1839	3	220377	14:41:00	14:41:00		Cieplińskiego 02
-1839	3	220377	14:41:00	14:41:00		Cieplińskiego 02
-1839	3	220377	14:42:00	14:42:00		Lisa-Kuli 01
-1839	3	220377	14:42:00	14:42:00		Lisa-Kuli 01
-1839	3	220377	14:44:00	14:44:00		Dąbrowskiego park 02 nż
-1839	3	220377	14:44:00	14:44:00		Dąbrowskiego park 02 nż
-1839	3	220377	14:45:00	14:45:00		Dąbrowskiego KW. Policji 04
-1839	3	220377	14:45:00	14:45:00		Dąbrowskiego KW. Policji 04
-1839	3	220377	14:46:00	14:46:00		Dąbrowskiego / Bat. Chłopskich 10
-1839	3	220377	14:46:00	14:46:00		Dąbrowskiego / Bat. Chłopskich 10
-1839	3	220377	14:49:00	14:49:00		Podkarpacka politechnika 02
-1839	3	220377	14:49:00	14:49:00		Podkarpacka politechnika 02
-1839	3	220377	14:50:00	14:50:00		Podkarpacka / Matuszczaka 04
-1839	3	220377	14:50:00	14:50:00		Podkarpacka / Matuszczaka 04
-1839	3	220377	14:51:00	14:51:00		Podkarpacka / Wetlińska 06 nż
-1839	3	220377	14:51:00	14:51:00		Podkarpacka / Wetlińska 06 nż
-1839	3	220377	14:54:00	14:54:00		Zawiszy Czarnego 03 nż
-1839	3	220377	14:54:00	14:54:00		Zawiszy Czarnego 03 nż
-1839	3	220377	14:55:00	14:55:00		Zawiszy Czarnego / Podgórska 01 nż
-1839	3	220377	14:55:00	14:55:00		Zawiszy Czarnego / Podgórska 01 nż
-1839	3	220377	14:56:00	14:56:00		Architektów 01
-1839	3	220377	14:56:00	14:56:00		Architektów 01
-1839	3	220377	14:58:00	14:58:00		Przemysłowa U. Celny 05 nż
-1839	3	220377	14:58:00	14:58:00		Przemysłowa U. Celny 05 nż
+1839	3	223048	14:30:00	14:30:00		Trembeckiego ZTM pętla 01
+1839	3	223048	14:30:00	14:30:00		Trembeckiego ZTM pętla 01
+1839	3	223048	14:31:00	14:31:00		Trembeckiego / Siemieńskiego 04 nż
+1839	3	223048	14:31:00	14:31:00		Trembeckiego / Siemieńskiego 04 nż
+1839	3	223048	14:32:00	14:32:00		Siemieńskiego U. Skarbowy 03 nż
+1839	3	223048	14:32:00	14:32:00		Siemieńskiego U. Skarbowy 03 nż
+1839	3	223048	14:33:00	14:33:00		Siemieńskiego dom studenta 01 nż
+1839	3	223048	14:33:00	14:33:00		Siemieńskiego dom studenta 01 nż
+1839	3	223048	14:34:00	14:34:00		Żółkiewskiego / Kochanowskiego 01 nż
+1839	3	223048	14:34:00	14:34:00		Żółkiewskiego / Kochanowskiego 01 nż
+1839	3	223048	14:36:00	14:36:00		Bardowskiego 02
+1839	3	223048	14:36:00	14:36:00		Bardowskiego 02
+1839	3	223048	14:38:00	14:38:00		Pl. Wolności 04
+1839	3	223048	14:38:00	14:38:00		Pl. Wolności 04
+1839	3	223048	14:39:00	14:39:00		Piłsudskiego U. Wojewódzki 06
+1839	3	223048	14:39:00	14:39:00		Piłsudskiego U. Wojewódzki 06
+1839	3	223048	14:41:00	14:41:00		Cieplińskiego 02
+1839	3	223048	14:41:00	14:41:00		Cieplińskiego 02
+1839	3	223048	14:42:00	14:42:00		Lisa-Kuli 01
+1839	3	223048	14:42:00	14:42:00		Lisa-Kuli 01
+1839	3	223048	14:44:00	14:44:00		Dąbrowskiego park 02 nż
+1839	3	223048	14:44:00	14:44:00		Dąbrowskiego park 02 nż
+1839	3	223048	14:45:00	14:45:00		Dąbrowskiego KW. Policji 04
+1839	3	223048	14:45:00	14:45:00		Dąbrowskiego KW. Policji 04
+1839	3	223048	14:46:00	14:46:00		Dąbrowskiego / Bat. Chłopskich 10
+1839	3	223048	14:46:00	14:46:00		Dąbrowskiego / Bat. Chłopskich 10
+1839	3	223048	14:49:00	14:49:00		Podkarpacka politechnika 02
+1839	3	223048	14:49:00	14:49:00		Podkarpacka politechnika 02
+1839	3	223048	14:50:00	14:50:00		Podkarpacka / Matuszczaka 04
+1839	3	223048	14:50:00	14:50:00		Podkarpacka / Matuszczaka 04
+1839	3	223048	14:51:00	14:51:00		Podkarpacka / Wetlińska 06 nż
+1839	3	223048	14:51:00	14:51:00		Podkarpacka / Wetlińska 06 nż
+1839	3	223048	14:54:00	14:54:00		Zawiszy Czarnego 03 nż
+1839	3	223048	14:54:00	14:54:00		Zawiszy Czarnego 03 nż
+1839	3	223048	14:55:00	14:55:00		Zawiszy Czarnego / Podgórska 01 nż
+1839	3	223048	14:55:00	14:55:00		Zawiszy Czarnego / Podgórska 01 nż
+1839	3	223048	14:56:00	14:56:00		Architektów 01
+1839	3	223048	14:56:00	14:56:00		Architektów 01
+1839	3	223048	14:58:00	14:58:00		Przemysłowa U. Celny 05 nż
+1839	3	223048	14:58:00	14:58:00		Przemysłowa U. Celny 05 nż
 
-1941	3	220586	15:10:00	15:10:00		Przemysłowa U. Celny 05 nż
-1941	3	220586	15:10:00	15:10:00		Przemysłowa U. Celny 05 nż
-1941	3	220586	15:12:00	15:12:00		Architektów 02
-1941	3	220586	15:12:00	15:12:00		Architektów 02
-1941	3	220586	15:14:00	15:14:00		Zawiszy Czarnego / Podgórska 02 nż
-1941	3	220586	15:14:00	15:14:00		Zawiszy Czarnego / Podgórska 02 nż
-1941	3	220586	15:15:00	15:15:00		Zawiszy Czarnego 04 nż
-1941	3	220586	15:15:00	15:15:00		Zawiszy Czarnego 04 nż
-1941	3	220586	15:16:00	15:16:00		Żołnierzy 9 DP 01 nż
-1941	3	220586	15:16:00	15:16:00		Żołnierzy 9 DP 01 nż
-1941	3	220586	15:18:00	15:18:00		Podkarpacka / Wetlińska 05 nż
-1941	3	220586	15:18:00	15:18:00		Podkarpacka / Wetlińska 05 nż
-1941	3	220586	15:19:00	15:19:00		Podkarpacka / Matuszczaka 03
-1941	3	220586	15:19:00	15:19:00		Podkarpacka / Matuszczaka 03
-1941	3	220586	15:21:00	15:21:00		Podkarpacka politechnika 01
-1941	3	220586	15:21:00	15:21:00		Podkarpacka politechnika 01
-1941	3	220586	15:23:00	15:23:00		Dąbrowskiego / Chrobrego 07
-1941	3	220586	15:23:00	15:23:00		Dąbrowskiego / Chrobrego 07
-1941	3	220586	15:24:00	15:24:00		Dąbrowskiego KW. Policji 03
-1941	3	220586	15:24:00	15:24:00		Dąbrowskiego KW. Policji 03
-1941	3	220586	15:25:00	15:25:00		Dąbrowskiego park 01 nż
-1941	3	220586	15:25:00	15:25:00		Dąbrowskiego park 01 nż
-1941	3	220586	15:28:00	15:28:00		Lisa-Kuli 02
-1941	3	220586	15:28:00	15:28:00		Lisa-Kuli 02
-1941	3	220586	15:29:00	15:29:00		Cieplińskiego 01
-1941	3	220586	15:29:00	15:29:00		Cieplińskiego 01
-1941	3	220586	15:30:00	15:30:00		Piłsudskiego U. Wojewódzki 05
-1941	3	220586	15:30:00	15:30:00		Piłsudskiego U. Wojewódzki 05
-1941	3	220586	15:33:00	15:33:00		Bardowskiego 03
-1941	3	220586	15:33:00	15:33:00		Bardowskiego 03
-1941	3	220586	15:35:00	15:35:00		Siemieńskiego / Kochanowskiego 02 nż
-1941	3	220586	15:35:00	15:35:00		Siemieńskiego / Kochanowskiego 02 nż
-1941	3	220586	15:36:00	15:36:00		Siemieńskiego U. Skarbowy 04 nż
-1941	3	220586	15:36:00	15:36:00		Siemieńskiego U. Skarbowy 04 nż
-1941	3	220586	15:37:00	15:37:00		Trembeckiego / Siemieńskiego 07 nż
-1941	3	220586	15:37:00	15:37:00		Trembeckiego / Siemieńskiego 07 nż
-1941	3	220586	15:38:00	15:38:00		Trembeckiego ZTM pętla 01
-1941	3	220586	15:38:00	15:38:00		Trembeckiego ZTM pętla 01
+1941	3	222648	15:10:00	15:10:00		Przemysłowa U. Celny 05 nż
+1941	3	222648	15:10:00	15:10:00		Przemysłowa U. Celny 05 nż
+1941	3	222648	15:12:00	15:12:00		Architektów 02
+1941	3	222648	15:12:00	15:12:00		Architektów 02
+1941	3	222648	15:14:00	15:14:00		Zawiszy Czarnego / Podgórska 02 nż
+1941	3	222648	15:14:00	15:14:00		Zawiszy Czarnego / Podgórska 02 nż
+1941	3	222648	15:15:00	15:15:00		Zawiszy Czarnego 04 nż
+1941	3	222648	15:15:00	15:15:00		Zawiszy Czarnego 04 nż
+1941	3	222648	15:16:00	15:16:00		Żołnierzy 9 DP 01 nż
+1941	3	222648	15:16:00	15:16:00		Żołnierzy 9 DP 01 nż
+1941	3	222648	15:18:00	15:18:00		Podkarpacka / Wetlińska 05 nż
+1941	3	222648	15:18:00	15:18:00		Podkarpacka / Wetlińska 05 nż
+1941	3	222648	15:19:00	15:19:00		Podkarpacka / Matuszczaka 03
+1941	3	222648	15:19:00	15:19:00		Podkarpacka / Matuszczaka 03
+1941	3	222648	15:21:00	15:21:00		Podkarpacka politechnika 01
+1941	3	222648	15:21:00	15:21:00		Podkarpacka politechnika 01
+1941	3	222648	15:23:00	15:23:00		Dąbrowskiego / Chrobrego 07
+1941	3	222648	15:23:00	15:23:00		Dąbrowskiego / Chrobrego 07
+1941	3	222648	15:24:00	15:24:00		Dąbrowskiego KW. Policji 03
+1941	3	222648	15:24:00	15:24:00		Dąbrowskiego KW. Policji 03
+1941	3	222648	15:25:00	15:25:00		Dąbrowskiego park 01 nż
+1941	3	222648	15:25:00	15:25:00		Dąbrowskiego park 01 nż
+1941	3	222648	15:28:00	15:28:00		Lisa-Kuli 02
+1941	3	222648	15:28:00	15:28:00		Lisa-Kuli 02
+1941	3	222648	15:29:00	15:29:00		Cieplińskiego 01
+1941	3	222648	15:29:00	15:29:00		Cieplińskiego 01
+1941	3	222648	15:30:00	15:30:00		Piłsudskiego U. Wojewódzki 05
+1941	3	222648	15:30:00	15:30:00		Piłsudskiego U. Wojewódzki 05
+1941	3	222648	15:33:00	15:33:00		Bardowskiego 03
+1941	3	222648	15:33:00	15:33:00		Bardowskiego 03
+1941	3	222648	15:35:00	15:35:00		Siemieńskiego / Kochanowskiego 02 nż
+1941	3	222648	15:35:00	15:35:00		Siemieńskiego / Kochanowskiego 02 nż
+1941	3	222648	15:36:00	15:36:00		Siemieńskiego U. Skarbowy 04 nż
+1941	3	222648	15:36:00	15:36:00		Siemieńskiego U. Skarbowy 04 nż
+1941	3	222648	15:37:00	15:37:00		Trembeckiego / Siemieńskiego 07 nż
+1941	3	222648	15:37:00	15:37:00		Trembeckiego / Siemieńskiego 07 nż
+1941	3	222648	15:38:00	15:38:00		Trembeckiego ZTM pętla 01
+1941	3	222648	15:38:00	15:38:00		Trembeckiego ZTM pętla 01
 
-1839	3	220512	16:30:00	16:30:00		Trembeckiego ZTM pętla 01
-1839	3	220512	16:30:00	16:30:00		Trembeckiego ZTM pętla 01
-1839	3	220512	16:31:00	16:31:00		Trembeckiego / Siemieńskiego 04 nż
-1839	3	220512	16:31:00	16:31:00		Trembeckiego / Siemieńskiego 04 nż
-1839	3	220512	16:32:00	16:32:00		Siemieńskiego U. Skarbowy 03 nż
-1839	3	220512	16:32:00	16:32:00		Siemieńskiego U. Skarbowy 03 nż
-1839	3	220512	16:33:00	16:33:00		Siemieńskiego dom studenta 01 nż
-1839	3	220512	16:33:00	16:33:00		Siemieńskiego dom studenta 01 nż
-1839	3	220512	16:34:00	16:34:00		Żółkiewskiego / Kochanowskiego 01 nż
-1839	3	220512	16:34:00	16:34:00		Żółkiewskiego / Kochanowskiego 01 nż
-1839	3	220512	16:36:00	16:36:00		Bardowskiego 02
-1839	3	220512	16:36:00	16:36:00		Bardowskiego 02
-1839	3	220512	16:38:00	16:38:00		Pl. Wolności 04
-1839	3	220512	16:38:00	16:38:00		Pl. Wolności 04
-1839	3	220512	16:39:00	16:39:00		Piłsudskiego U. Wojewódzki 06
-1839	3	220512	16:39:00	16:39:00		Piłsudskiego U. Wojewódzki 06
-1839	3	220512	16:41:00	16:41:00		Cieplińskiego 02
-1839	3	220512	16:41:00	16:41:00		Cieplińskiego 02
-1839	3	220512	16:42:00	16:42:00		Lisa-Kuli 01
-1839	3	220512	16:42:00	16:42:00		Lisa-Kuli 01
-1839	3	220512	16:44:00	16:44:00		Dąbrowskiego park 02 nż
-1839	3	220512	16:44:00	16:44:00		Dąbrowskiego park 02 nż
-1839	3	220512	16:45:00	16:45:00		Dąbrowskiego KW. Policji 04
-1839	3	220512	16:45:00	16:45:00		Dąbrowskiego KW. Policji 04
-1839	3	220512	16:46:00	16:46:00		Dąbrowskiego / Bat. Chłopskich 10
-1839	3	220512	16:46:00	16:46:00		Dąbrowskiego / Bat. Chłopskich 10
-1839	3	220512	16:49:00	16:49:00		Podkarpacka politechnika 02
-1839	3	220512	16:49:00	16:49:00		Podkarpacka politechnika 02
-1839	3	220512	16:50:00	16:50:00		Podkarpacka / Matuszczaka 04
-1839	3	220512	16:50:00	16:50:00		Podkarpacka / Matuszczaka 04
-1839	3	220512	16:51:00	16:51:00		Podkarpacka / Wetlińska 06 nż
-1839	3	220512	16:51:00	16:51:00		Podkarpacka / Wetlińska 06 nż
-1839	3	220512	16:54:00	16:54:00		Zawiszy Czarnego 03 nż
-1839	3	220512	16:54:00	16:54:00		Zawiszy Czarnego 03 nż
-1839	3	220512	16:55:00	16:55:00		Zawiszy Czarnego / Podgórska 01 nż
-1839	3	220512	16:55:00	16:55:00		Zawiszy Czarnego / Podgórska 01 nż
-1839	3	220512	16:56:00	16:56:00		Architektów 01
-1839	3	220512	16:56:00	16:56:00		Architektów 01
-1839	3	220512	16:58:00	16:58:00		Przemysłowa U. Celny 05 nż
-1839	3	220512	16:58:00	16:58:00		Przemysłowa U. Celny 05 nż
+1839	3	222889	16:30:00	16:30:00		Trembeckiego ZTM pętla 01
+1839	3	222889	16:30:00	16:30:00		Trembeckiego ZTM pętla 01
+1839	3	222889	16:31:00	16:31:00		Trembeckiego / Siemieńskiego 04 nż
+1839	3	222889	16:31:00	16:31:00		Trembeckiego / Siemieńskiego 04 nż
+1839	3	222889	16:32:00	16:32:00		Siemieńskiego U. Skarbowy 03 nż
+1839	3	222889	16:32:00	16:32:00		Siemieńskiego U. Skarbowy 03 nż
+1839	3	222889	16:33:00	16:33:00		Siemieńskiego dom studenta 01 nż
+1839	3	222889	16:33:00	16:33:00		Siemieńskiego dom studenta 01 nż
+1839	3	222889	16:34:00	16:34:00		Żółkiewskiego / Kochanowskiego 01 nż
+1839	3	222889	16:34:00	16:34:00		Żółkiewskiego / Kochanowskiego 01 nż
+1839	3	222889	16:36:00	16:36:00		Bardowskiego 02
+1839	3	222889	16:36:00	16:36:00		Bardowskiego 02
+1839	3	222889	16:38:00	16:38:00		Pl. Wolności 04
+1839	3	222889	16:38:00	16:38:00		Pl. Wolności 04
+1839	3	222889	16:39:00	16:39:00		Piłsudskiego U. Wojewódzki 06
+1839	3	222889	16:39:00	16:39:00		Piłsudskiego U. Wojewódzki 06
+1839	3	222889	16:41:00	16:41:00		Cieplińskiego 02
+1839	3	222889	16:41:00	16:41:00		Cieplińskiego 02
+1839	3	222889	16:42:00	16:42:00		Lisa-Kuli 01
+1839	3	222889	16:42:00	16:42:00		Lisa-Kuli 01
+1839	3	222889	16:44:00	16:44:00		Dąbrowskiego park 02 nż
+1839	3	222889	16:44:00	16:44:00		Dąbrowskiego park 02 nż
+1839	3	222889	16:45:00	16:45:00		Dąbrowskiego KW. Policji 04
+1839	3	222889	16:45:00	16:45:00		Dąbrowskiego KW. Policji 04
+1839	3	222889	16:46:00	16:46:00		Dąbrowskiego / Bat. Chłopskich 10
+1839	3	222889	16:46:00	16:46:00		Dąbrowskiego / Bat. Chłopskich 10
+1839	3	222889	16:49:00	16:49:00		Podkarpacka politechnika 02
+1839	3	222889	16:49:00	16:49:00		Podkarpacka politechnika 02
+1839	3	222889	16:50:00	16:50:00		Podkarpacka / Matuszczaka 04
+1839	3	222889	16:50:00	16:50:00		Podkarpacka / Matuszczaka 04
+1839	3	222889	16:51:00	16:51:00		Podkarpacka / Wetlińska 06 nż
+1839	3	222889	16:51:00	16:51:00		Podkarpacka / Wetlińska 06 nż
+1839	3	222889	16:54:00	16:54:00		Zawiszy Czarnego 03 nż
+1839	3	222889	16:54:00	16:54:00		Zawiszy Czarnego 03 nż
+1839	3	222889	16:55:00	16:55:00		Zawiszy Czarnego / Podgórska 01 nż
+1839	3	222889	16:55:00	16:55:00		Zawiszy Czarnego / Podgórska 01 nż
+1839	3	222889	16:56:00	16:56:00		Architektów 01
+1839	3	222889	16:56:00	16:56:00		Architektów 01
+1839	3	222889	16:58:00	16:58:00		Przemysłowa U. Celny 05 nż
+1839	3	222889	16:58:00	16:58:00		Przemysłowa U. Celny 05 nż
 
-1941	3	220616	17:10:00	17:10:00		Przemysłowa U. Celny 05 nż
-1941	3	220616	17:10:00	17:10:00		Przemysłowa U. Celny 05 nż
-1941	3	220616	17:12:00	17:12:00		Architektów 02
-1941	3	220616	17:12:00	17:12:00		Architektów 02
-1941	3	220616	17:14:00	17:14:00		Zawiszy Czarnego / Podgórska 02 nż
-1941	3	220616	17:14:00	17:14:00		Zawiszy Czarnego / Podgórska 02 nż
-1941	3	220616	17:15:00	17:15:00		Zawiszy Czarnego 04 nż
-1941	3	220616	17:15:00	17:15:00		Zawiszy Czarnego 04 nż
-1941	3	220616	17:16:00	17:16:00		Żołnierzy 9 DP 01 nż
-1941	3	220616	17:16:00	17:16:00		Żołnierzy 9 DP 01 nż
-1941	3	220616	17:18:00	17:18:00		Podkarpacka / Wetlińska 05 nż
-1941	3	220616	17:18:00	17:18:00		Podkarpacka / Wetlińska 05 nż
-1941	3	220616	17:19:00	17:19:00		Podkarpacka / Matuszczaka 03
-1941	3	220616	17:19:00	17:19:00		Podkarpacka / Matuszczaka 03
-1941	3	220616	17:21:00	17:21:00		Podkarpacka politechnika 01
-1941	3	220616	17:21:00	17:21:00		Podkarpacka politechnika 01
-1941	3	220616	17:23:00	17:23:00		Dąbrowskiego / Chrobrego 07
-1941	3	220616	17:23:00	17:23:00		Dąbrowskiego / Chrobrego 07
-1941	3	220616	17:24:00	17:24:00		Dąbrowskiego KW. Policji 03
-1941	3	220616	17:24:00	17:24:00		Dąbrowskiego KW. Policji 03
-1941	3	220616	17:25:00	17:25:00		Dąbrowskiego park 01 nż
-1941	3	220616	17:25:00	17:25:00		Dąbrowskiego park 01 nż
-1941	3	220616	17:28:00	17:28:00		Lisa-Kuli 02
-1941	3	220616	17:28:00	17:28:00		Lisa-Kuli 02
-1941	3	220616	17:29:00	17:29:00		Cieplińskiego 01
-1941	3	220616	17:29:00	17:29:00		Cieplińskiego 01
-1941	3	220616	17:30:00	17:30:00		Piłsudskiego U. Wojewódzki 05
-1941	3	220616	17:30:00	17:30:00		Piłsudskiego U. Wojewódzki 05
-1941	3	220616	17:33:00	17:33:00		Bardowskiego 03
-1941	3	220616	17:33:00	17:33:00		Bardowskiego 03
-1941	3	220616	17:35:00	17:35:00		Siemieńskiego / Kochanowskiego 02 nż
-1941	3	220616	17:35:00	17:35:00		Siemieńskiego / Kochanowskiego 02 nż
-1941	3	220616	17:36:00	17:36:00		Siemieńskiego U. Skarbowy 04 nż
-1941	3	220616	17:36:00	17:36:00		Siemieńskiego U. Skarbowy 04 nż
-1941	3	220616	17:37:00	17:37:00		Trembeckiego / Siemieńskiego 07 nż
-1941	3	220616	17:37:00	17:37:00		Trembeckiego / Siemieńskiego 07 nż
-1941	3	220616	17:38:00	17:38:00		Trembeckiego ZTM pętla 01
-1941	3	220616	17:38:00	17:38:00		Trembeckiego ZTM pętla 01
+1941	3	223051	17:10:00	17:10:00		Przemysłowa U. Celny 05 nż
+1941	3	223051	17:10:00	17:10:00		Przemysłowa U. Celny 05 nż
+1941	3	223051	17:12:00	17:12:00		Architektów 02
+1941	3	223051	17:12:00	17:12:00		Architektów 02
+1941	3	223051	17:14:00	17:14:00		Zawiszy Czarnego / Podgórska 02 nż
+1941	3	223051	17:14:00	17:14:00		Zawiszy Czarnego / Podgórska 02 nż
+1941	3	223051	17:15:00	17:15:00		Zawiszy Czarnego 04 nż
+1941	3	223051	17:15:00	17:15:00		Zawiszy Czarnego 04 nż
+1941	3	223051	17:16:00	17:16:00		Żołnierzy 9 DP 01 nż
+1941	3	223051	17:16:00	17:16:00		Żołnierzy 9 DP 01 nż
+1941	3	223051	17:18:00	17:18:00		Podkarpacka / Wetlińska 05 nż
+1941	3	223051	17:18:00	17:18:00		Podkarpacka / Wetlińska 05 nż
+1941	3	223051	17:19:00	17:19:00		Podkarpacka / Matuszczaka 03
+1941	3	223051	17:19:00	17:19:00		Podkarpacka / Matuszczaka 03
+1941	3	223051	17:21:00	17:21:00		Podkarpacka politechnika 01
+1941	3	223051	17:21:00	17:21:00		Podkarpacka politechnika 01
+1941	3	223051	17:23:00	17:23:00		Dąbrowskiego / Chrobrego 07
+1941	3	223051	17:23:00	17:23:00		Dąbrowskiego / Chrobrego 07
+1941	3	223051	17:24:00	17:24:00		Dąbrowskiego KW. Policji 03
+1941	3	223051	17:24:00	17:24:00		Dąbrowskiego KW. Policji 03
+1941	3	223051	17:25:00	17:25:00		Dąbrowskiego park 01 nż
+1941	3	223051	17:25:00	17:25:00		Dąbrowskiego park 01 nż
+1941	3	223051	17:28:00	17:28:00		Lisa-Kuli 02
+1941	3	223051	17:28:00	17:28:00		Lisa-Kuli 02
+1941	3	223051	17:29:00	17:29:00		Cieplińskiego 01
+1941	3	223051	17:29:00	17:29:00		Cieplińskiego 01
+1941	3	223051	17:30:00	17:30:00		Piłsudskiego U. Wojewódzki 05
+1941	3	223051	17:30:00	17:30:00		Piłsudskiego U. Wojewódzki 05
+1941	3	223051	17:33:00	17:33:00		Bardowskiego 03
+1941	3	223051	17:33:00	17:33:00		Bardowskiego 03
+1941	3	223051	17:35:00	17:35:00		Siemieńskiego / Kochanowskiego 02 nż
+1941	3	223051	17:35:00	17:35:00		Siemieńskiego / Kochanowskiego 02 nż
+1941	3	223051	17:36:00	17:36:00		Siemieńskiego U. Skarbowy 04 nż
+1941	3	223051	17:36:00	17:36:00		Siemieńskiego U. Skarbowy 04 nż
+1941	3	223051	17:37:00	17:37:00		Trembeckiego / Siemieńskiego 07 nż
+1941	3	223051	17:37:00	17:37:00		Trembeckiego / Siemieńskiego 07 nż
+1941	3	223051	17:38:00	17:38:00		Trembeckiego ZTM pętla 01
+1941	3	223051	17:38:00	17:38:00		Trembeckiego ZTM pętla 01
 
-1635	3	220409	17:50:00	17:50:00		Bardowskiego 03
-1635	3	220409	17:50:00	17:50:00		Bardowskiego 03
-1635	3	220409	17:52:00	17:52:00		Pl. Wolności 04
-1635	3	220409	17:52:00	17:52:00		Pl. Wolności 04
-1635	3	220409	17:53:00	17:53:00		Piłsudskiego U. Wojewódzki 06
-1635	3	220409	17:53:00	17:53:00		Piłsudskiego U. Wojewódzki 06
-1635	3	220409	17:56:00	17:56:00		Marszałkowska 02
-1635	3	220409	17:56:00	17:56:00		Marszałkowska 02
-1635	3	220409	17:57:00	17:57:00		Warszawska / Wyzwolenia 02 nż
-1635	3	220409	17:57:00	17:57:00		Warszawska / Wyzwolenia 02 nż
-1635	3	220409	17:58:00	17:58:00		Warszawska ZS. Samoch. 04 nż
-1635	3	220409	17:58:00	17:58:00		Warszawska ZS. Samoch. 04 nż
-1635	3	220409	17:59:00	17:59:00		Warszawska / Staromiejska 06 nż
-1635	3	220409	17:59:00	17:59:00		Warszawska / Staromiejska 06 nż
-1635	3	220409	18:01:00	18:01:00		Warszawska / Borowa 08 nż
-1635	3	220409	18:01:00	18:01:00		Warszawska / Borowa 08 nż
-1635	3	220409	18:02:00	18:02:00		Warszawska / Bażantowa 10 nż
-1635	3	220409	18:02:00	18:02:00		Warszawska / Bażantowa 10 nż
-1635	3	220409	18:03:00	18:03:00		Warszawska / Łowiecka 12 nż
-1635	3	220409	18:03:00	18:03:00		Warszawska / Łowiecka 12 nż
-1635	3	220409	18:04:00	18:04:00		Zaczernie - Miłocin 05 nż
-1635	3	220409	18:04:00	18:04:00		Zaczernie - Miłocin 05 nż
-1635	3	220409	18:05:00	18:05:00		Warszawska granica 14 nż
-1635	3	220409	18:05:00	18:05:00		Warszawska granica 14 nż
-1635	3	220409	18:07:00	18:07:00		Rudna Mała 03 nż
-1635	3	220409	18:07:00	18:07:00		Rudna Mała 03 nż
-1635	3	220409	18:08:00	18:08:00		Rudna Mała szpital 01 nż
-1635	3	220409	18:08:00	18:08:00		Rudna Mała szpital 01 nż
-1635	3	220409	18:10:00	18:10:00		Głogów Młp. wiadukt 09A nż
-1635	3	220409	18:10:00	18:10:00		Głogów Młp. wiadukt 09A nż
-1635	3	220409	18:13:00	18:13:00		Głogów Młp. Zelmer II 02 nż
-1635	3	220409	18:13:00	18:13:00		Głogów Młp. Zelmer II 02 nż
-1635	3	220409	18:14:00	18:14:00		Głogów Młp. MetaZel II 02 nż
-1635	3	220409	18:14:00	18:14:00		Głogów Młp. MetaZel II 02 nż
-1635	3	220409	18:15:00	18:15:00		Głogów Młp. Yanko I 01 nż
-1635	3	220409	18:15:00	18:15:00		Głogów Młp. Yanko I 01 nż
-1635	3	220409	18:16:00	18:16:00		Głogów Młp. Leniar I 01 nż
-1635	3	220409	18:16:00	18:16:00		Głogów Młp. Leniar I 01 nż
+1635	3	222548	17:50:00	17:50:00		Bardowskiego 03
+1635	3	222548	17:50:00	17:50:00		Bardowskiego 03
+1635	3	222548	17:52:00	17:52:00		Pl. Wolności 04
+1635	3	222548	17:52:00	17:52:00		Pl. Wolności 04
+1635	3	222548	17:53:00	17:53:00		Piłsudskiego U. Wojewódzki 06
+1635	3	222548	17:53:00	17:53:00		Piłsudskiego U. Wojewódzki 06
+1635	3	222548	17:56:00	17:56:00		Marszałkowska 02
+1635	3	222548	17:56:00	17:56:00		Marszałkowska 02
+1635	3	222548	17:57:00	17:57:00		Warszawska / Wyzwolenia 02 nż
+1635	3	222548	17:57:00	17:57:00		Warszawska / Wyzwolenia 02 nż
+1635	3	222548	17:58:00	17:58:00		Warszawska ZS. Samoch. 04 nż
+1635	3	222548	17:58:00	17:58:00		Warszawska ZS. Samoch. 04 nż
+1635	3	222548	17:59:00	17:59:00		Warszawska / Staromiejska 06 nż
+1635	3	222548	17:59:00	17:59:00		Warszawska / Staromiejska 06 nż
+1635	3	222548	18:01:00	18:01:00		Warszawska / Borowa 08 nż
+1635	3	222548	18:01:00	18:01:00		Warszawska / Borowa 08 nż
+1635	3	222548	18:02:00	18:02:00		Warszawska / Bażantowa 10 nż
+1635	3	222548	18:02:00	18:02:00		Warszawska / Bażantowa 10 nż
+1635	3	222548	18:03:00	18:03:00		Warszawska / Łowiecka 12 nż
+1635	3	222548	18:03:00	18:03:00		Warszawska / Łowiecka 12 nż
+1635	3	222548	18:04:00	18:04:00		Zaczernie - Miłocin 05 nż
+1635	3	222548	18:04:00	18:04:00		Zaczernie - Miłocin 05 nż
+1635	3	222548	18:05:00	18:05:00		Warszawska granica 14 nż
+1635	3	222548	18:05:00	18:05:00		Warszawska granica 14 nż
+1635	3	222548	18:07:00	18:07:00		Rudna Mała 03 nż
+1635	3	222548	18:07:00	18:07:00		Rudna Mała 03 nż
+1635	3	222548	18:08:00	18:08:00		Rudna Mała szpital 01 nż
+1635	3	222548	18:08:00	18:08:00		Rudna Mała szpital 01 nż
+1635	3	222548	18:10:00	18:10:00		Głogów Młp. wiadukt 09A nż
+1635	3	222548	18:10:00	18:10:00		Głogów Młp. wiadukt 09A nż
+1635	3	222548	18:13:00	18:13:00		Głogów Młp. Zelmer II 02 nż
+1635	3	222548	18:13:00	18:13:00		Głogów Młp. Zelmer II 02 nż
+1635	3	222548	18:14:00	18:14:00		Głogów Młp. MetaZel II 02 nż
+1635	3	222548	18:14:00	18:14:00		Głogów Młp. MetaZel II 02 nż
+1635	3	222548	18:15:00	18:15:00		Głogów Młp. Yanko I 01 nż
+1635	3	222548	18:15:00	18:15:00		Głogów Młp. Yanko I 01 nż
+1635	3	222548	18:16:00	18:16:00		Głogów Młp. Leniar I 01 nż
+1635	3	222548	18:16:00	18:16:00		Głogów Młp. Leniar I 01 nż
 
-1629	3	220558	18:40:00	18:40:00		Głogów Młp. Zelmer II 02 nż
-1629	3	220558	18:40:00	18:40:00		Głogów Młp. Zelmer II 02 nż
-1629	3	220558	18:41:00	18:41:00		Głogów Młp. MetaZel II 02 nż
-1629	3	220558	18:41:00	18:41:00		Głogów Młp. MetaZel II 02 nż
-1629	3	220558	18:42:00	18:42:00		Głogów Młp. Yanko I 01 nż
-1629	3	220558	18:42:00	18:42:00		Głogów Młp. Yanko I 01 nż
-1629	3	220558	18:43:00	18:43:00		Głogów Młp. Leniar I 01 nż
-1629	3	220558	18:43:00	18:43:00		Głogów Młp. Leniar I 01 nż
-1629	3	220558	18:46:00	18:46:00		Głogów Młp. wiadukt 71A nż
-1629	3	220558	18:46:00	18:46:00		Głogów Młp. wiadukt 71A nż
-1629	3	220558	18:49:00	18:49:00		Rudna Mała szpital 02 nż
-1629	3	220558	18:49:00	18:49:00		Rudna Mała szpital 02 nż
-1629	3	220558	18:50:00	18:50:00		Zaczernie 04 nż
-1629	3	220558	18:50:00	18:50:00		Zaczernie 04 nż
-1629	3	220558	18:52:00	18:52:00		Warszawska granica 11 nż
-1629	3	220558	18:52:00	18:52:00		Warszawska granica 11 nż
-1629	3	220558	18:53:00	18:53:00		Zaczernie - Miłocin 06 nż
-1629	3	220558	18:53:00	18:53:00		Zaczernie - Miłocin 06 nż
-1629	3	220558	18:54:00	18:54:00		Warszawska / Myśliwska 09 nż
-1629	3	220558	18:54:00	18:54:00		Warszawska / Myśliwska 09 nż
-1629	3	220558	18:56:00	18:56:00		Warszawska / Borowa 07 nż
-1629	3	220558	18:56:00	18:56:00		Warszawska / Borowa 07 nż
-1629	3	220558	18:58:00	18:58:00		Warszawska / Staromiejska 05 nż
-1629	3	220558	18:58:00	18:58:00		Warszawska / Staromiejska 05 nż
-1629	3	220558	18:59:00	18:59:00		Warszawska ZS. Samoch. 03 nż
-1629	3	220558	18:59:00	18:59:00		Warszawska ZS. Samoch. 03 nż
-1629	3	220558	19:00:00	19:00:00		Warszawska / Wyzwolenia 01 nż
-1629	3	220558	19:00:00	19:00:00		Warszawska / Wyzwolenia 01 nż
-1629	3	220558	19:01:00	19:01:00		Marszałkowska 01
-1629	3	220558	19:01:00	19:01:00		Marszałkowska 01
-1629	3	220558	19:03:00	19:03:00		Piłsudskiego U. Wojewódzki 05
-1629	3	220558	19:03:00	19:03:00		Piłsudskiego U. Wojewódzki 05
-1629	3	220558	19:06:00	19:06:00		Bardowskiego 04
-1629	3	220558	19:06:00	19:06:00		Bardowskiego 04
+1629	3	222234	18:40:00	18:40:00		Głogów Młp. Zelmer II 02 nż
+1629	3	222234	18:40:00	18:40:00		Głogów Młp. Zelmer II 02 nż
+1629	3	222234	18:41:00	18:41:00		Głogów Młp. MetaZel II 02 nż
+1629	3	222234	18:41:00	18:41:00		Głogów Młp. MetaZel II 02 nż
+1629	3	222234	18:42:00	18:42:00		Głogów Młp. Yanko I 01 nż
+1629	3	222234	18:42:00	18:42:00		Głogów Młp. Yanko I 01 nż
+1629	3	222234	18:43:00	18:43:00		Głogów Młp. Leniar I 01 nż
+1629	3	222234	18:43:00	18:43:00		Głogów Młp. Leniar I 01 nż
+1629	3	222234	18:46:00	18:46:00		Głogów Młp. wiadukt 71A nż
+1629	3	222234	18:46:00	18:46:00		Głogów Młp. wiadukt 71A nż
+1629	3	222234	18:49:00	18:49:00		Rudna Mała szpital 02 nż
+1629	3	222234	18:49:00	18:49:00		Rudna Mała szpital 02 nż
+1629	3	222234	18:50:00	18:50:00		Zaczernie 04 nż
+1629	3	222234	18:50:00	18:50:00		Zaczernie 04 nż
+1629	3	222234	18:52:00	18:52:00		Warszawska granica 11 nż
+1629	3	222234	18:52:00	18:52:00		Warszawska granica 11 nż
+1629	3	222234	18:53:00	18:53:00		Zaczernie - Miłocin 06 nż
+1629	3	222234	18:53:00	18:53:00		Zaczernie - Miłocin 06 nż
+1629	3	222234	18:54:00	18:54:00		Warszawska / Myśliwska 09 nż
+1629	3	222234	18:54:00	18:54:00		Warszawska / Myśliwska 09 nż
+1629	3	222234	18:56:00	18:56:00		Warszawska / Borowa 07 nż
+1629	3	222234	18:56:00	18:56:00		Warszawska / Borowa 07 nż
+1629	3	222234	18:58:00	18:58:00		Warszawska / Staromiejska 05 nż
+1629	3	222234	18:58:00	18:58:00		Warszawska / Staromiejska 05 nż
+1629	3	222234	18:59:00	18:59:00		Warszawska ZS. Samoch. 03 nż
+1629	3	222234	18:59:00	18:59:00		Warszawska ZS. Samoch. 03 nż
+1629	3	222234	19:00:00	19:00:00		Warszawska / Wyzwolenia 01 nż
+1629	3	222234	19:00:00	19:00:00		Warszawska / Wyzwolenia 01 nż
+1629	3	222234	19:01:00	19:01:00		Marszałkowska 01
+1629	3	222234	19:01:00	19:01:00		Marszałkowska 01
+1629	3	222234	19:03:00	19:03:00		Piłsudskiego U. Wojewódzki 05
+1629	3	222234	19:03:00	19:03:00		Piłsudskiego U. Wojewódzki 05
+1629	3	222234	19:06:00	19:06:00		Bardowskiego 04
+1629	3	222234	19:06:00	19:06:00		Bardowskiego 04

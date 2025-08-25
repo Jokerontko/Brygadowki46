@@ -1,432 +1,458 @@
 route_id	service_id	trip_id	arrival_time	departure_time	stop_headsign	stop_name
 -------------------------------------------------------------------------------
-1386	3	202732	06:22:00	06:22:00		Dworaka targ 01
-1386	3	202732	06:24:00	06:24:00		Rejtana / Kustronia 03 nż
-1386	3	202732	06:25:00	06:25:00		Rejtana uniwersytet 05
-1386	3	202732	06:26:00	06:26:00		Rejtana / Kopisto 07
-1386	3	202732	06:27:00	06:27:00		Rejtana / Popiełuszki 09
-1386	3	202732	06:29:00	06:29:00		Sikorskiego / Powst. Warszawy 02 nż
-1386	3	202732	06:30:00	06:30:00		Sikorskiego katedra 04 nż
-1386	3	202732	06:31:00	06:31:00		Sikorskiego / Łukasiewicza 06 nż
-1386	3	202732	06:32:00	06:32:00		Sikorskiego domki 08 nż
-1386	3	202732	06:33:00	06:33:00		Sikorskiego / Strażacka 10 nż
-1386	3	202732	06:34:00	06:34:00		Sikorskiego / Białogórska 12 nż
-1386	3	202732	06:35:00	06:35:00		Sikorskiego / Rodzinna 14 nż
-1386	3	202732	06:36:00	06:36:00		Sikorskiego / Kard. K. Wojtyły 16 nż
-1386	3	202732	06:37:00	06:37:00		Sikorskiego granica 18 nż
-1386	3	202732	06:38:00	06:38:00		Tyczyn Grunwaldzka POM 02 nż
-1386	3	202732	06:39:00	06:39:00		Tyczyn Grunwaldzka park 02 nż
-1386	3	202732	06:41:00	06:41:00		Tyczyn Kopernika 02
+2042	3	223175	06:20:00	06:20:00		Bardowskiego 02
+2042	3	223175	06:22:00	06:22:00		Piłsudskiego ZDZ 01 nż
+2042	3	223175	06:23:00	06:23:00		Rejtana / Lwowska 01
+2042	3	223175	06:24:00	06:24:00		Rejtana / Kustronia 03 nż
+2042	3	223175	06:25:00	06:25:00		Rejtana uniwersytet 05
+2042	3	223175	06:26:00	06:26:00		Rejtana / Kopisto 07
+2042	3	223175	06:27:00	06:27:00		Rejtana / Popiełuszki 09
+2042	3	223175	06:29:00	06:29:00		Sikorskiego / Powst. Warszawy 02 nż
+2042	3	223175	06:30:00	06:30:00		Sikorskiego katedra 04 nż
+2042	3	223175	06:31:00	06:31:00		Sikorskiego / Łukasiewicza 06 nż
+2042	3	223175	06:32:00	06:32:00		Sikorskiego domki 08 nż
+2042	3	223175	06:33:00	06:33:00		Sikorskiego / Strażacka 10 nż
+2042	3	223175	06:34:00	06:34:00		Sikorskiego / Białogórska 12 nż
+2042	3	223175	06:35:00	06:35:00		Sikorskiego / Rodzinna 14 nż
+2042	3	223175	06:36:00	06:36:00		Sikorskiego / Kard. K. Wojtyły 16 nż
+2042	3	223175	06:37:00	06:37:00		Sikorskiego granica 18 nż
+2042	3	223175	06:38:00	06:38:00		Tyczyn Grunwaldzka POM 82 nż
+2042	3	223175	06:39:00	06:39:00		Tyczyn Grunwaldzka park 02 nż
+2042	3	223175	06:41:00	06:41:00		Tyczyn Mickiewicza 04 nż
+2042	3	223175	06:42:00	06:42:00		Tyczyn Kopernika 39
 
-1383	3	200667	07:05:00	07:05:00		Tyczyn Kopernika 02
-1383	3	200667	07:06:00	07:06:00		Tyczyn Grunwaldzka park 01 nż
-1383	3	200667	07:08:00	07:08:00		Tyczyn Grunwaldzka POM 27 nż
-1383	3	200667	07:09:00	07:09:00		Sikorskiego granica 15 nż
-1383	3	200667	07:10:00	07:10:00		Sikorskiego / Ruczajowa 13 nż
-1383	3	200667	07:11:00	07:11:00		Sikorskiego / Kard. K. Wojtyły 11 nż
-1383	3	200667	07:12:00	07:12:00		Sikorskiego / Rodzinna 09 nż
-1383	3	200667	07:13:00	07:13:00		Sikorskiego / Białogórska 07 nż
-1383	3	200667	07:15:00	07:15:00		Sikorskiego / Robotnicza 05 nż
-1383	3	200667	07:16:00	07:16:00		Sikorskiego domki 03 nż
-1383	3	200667	07:18:00	07:18:00		Sikorskiego katedra 01 nż
-1383	3	200667	07:20:00	07:20:00		Rejtana / Armii Krajowej 12
-1383	3	200667	07:21:00	07:21:00		Rejtana / Paderewskiego 10
-1383	3	200667	07:22:00	07:22:00		Rejtana / Krzyżanowskiego 08
-1383	3	200667	07:23:00	07:23:00		Rejtana uniwersytet 06
-1383	3	200667	07:24:00	07:24:00		Rejtana cmentarz 04 nż
-1383	3	200667	07:25:00	07:25:00		Rejtana / Kustronia 02
-1383	3	200667	07:28:00	07:28:00		Dworaka targ 01
+2043	3	222890	07:05:00	07:05:00		Tyczyn Kopernika 39
+2043	3	222890	07:06:00	07:06:00		Tyczyn Grunwaldzka park 01 nż
+2043	3	222890	07:08:00	07:08:00		Tyczyn Grunwaldzka POM 27 nż
+2043	3	222890	07:09:00	07:09:00		Sikorskiego granica 15 nż
+2043	3	222890	07:10:00	07:10:00		Sikorskiego / Ruczajowa 13 nż
+2043	3	222890	07:11:00	07:11:00		Sikorskiego / Kard. K. Wojtyły 11 nż
+2043	3	222890	07:12:00	07:12:00		Sikorskiego / Rodzinna 09 nż
+2043	3	222890	07:13:00	07:13:00		Sikorskiego / Białogórska 07 nż
+2043	3	222890	07:15:00	07:15:00		Sikorskiego / Robotnicza 05 nż
+2043	3	222890	07:16:00	07:16:00		Sikorskiego domki 03 nż
+2043	3	222890	07:18:00	07:18:00		Sikorskiego katedra 01 nż
+2043	3	222890	07:20:00	07:20:00		Rejtana / Armii Krajowej 12
+2043	3	222890	07:21:00	07:21:00		Rejtana / Paderewskiego 10
+2043	3	222890	07:22:00	07:22:00		Rejtana / Krzyżanowskiego 08
+2043	3	222890	07:23:00	07:23:00		Rejtana uniwersytet 06
+2043	3	222890	07:24:00	07:24:00		Rejtana cmentarz 04 nż
+2043	3	222890	07:25:00	07:25:00		Rejtana / Kustronia 02
+2043	3	222890	07:27:00	07:27:00		Piłsudskiego ZDZ 02
+2043	3	222890	07:28:00	07:28:00		Pl. Wolności 04
+2043	3	222890	07:30:00	07:30:00		Bardowskiego 04
 
-1388	3	200988	07:51:00	07:51:00		Dworaka targ 01
-1388	3	200988	07:54:00	07:54:00		Rejtana / Kustronia 03 nż
-1388	3	200988	07:55:00	07:55:00		Rejtana uniwersytet 05
-1388	3	200988	07:57:00	07:57:00		Rejtana / Kopisto 07
-1388	3	200988	07:58:00	07:58:00		Rejtana / Popiełuszki 09
-1388	3	200988	08:00:00	08:00:00		Sikorskiego / Powst. Warszawy 02 nż
-1388	3	200988	08:01:00	08:01:00		Sikorskiego katedra 04 nż
-1388	3	200988	08:02:00	08:02:00		Sikorskiego / Łukasiewicza 06 nż
-1388	3	200988	08:03:00	08:03:00		Sikorskiego domki 08 nż
-1388	3	200988	08:04:00	08:04:00		Sikorskiego / Strażacka 10 nż
-1388	3	200988	08:05:00	08:05:00		Sikorskiego / Białogórska 12 nż
-1388	3	200988	08:06:00	08:06:00		Sikorskiego / Rodzinna 14 nż
-1388	3	200988	08:08:00	08:08:00		Sikorskiego / Kard. K. Wojtyły 16 nż
-1388	3	200988	08:09:00	08:09:00		Sikorskiego granica 18 nż
-1388	3	200988	08:10:00	08:10:00		Tyczyn Grunwaldzka POM 02 nż
-1388	3	200988	08:11:00	08:11:00		Tyczyn Grunwaldzka park 02 nż
-1388	3	200988	08:13:00	08:13:00		Tyczyn Mickiewicza 04 nż
-1388	3	200988	08:15:00	08:15:00		Tyczyn Mickiewicza 01 nż
-1388	3	200988	08:16:00	08:16:00		Tyczyn Lasek I 03 nż
-1388	3	200988	08:17:00	08:17:00		Tyczyn Lasek II 05 nż
-1388	3	200988	08:19:00	08:19:00		Kielnarowa pętla 07
+2044	3	222579	07:51:00	07:51:00		Bardowskiego 02
+2044	3	222579	07:52:00	07:52:00		Piłsudskiego ZDZ 01 nż
+2044	3	222579	07:53:00	07:53:00		Rejtana / Lwowska 01
+2044	3	222579	07:54:00	07:54:00		Rejtana / Kustronia 03 nż
+2044	3	222579	07:55:00	07:55:00		Rejtana uniwersytet 05
+2044	3	222579	07:57:00	07:57:00		Rejtana / Kopisto 07
+2044	3	222579	07:58:00	07:58:00		Rejtana / Popiełuszki 09
+2044	3	222579	08:00:00	08:00:00		Sikorskiego / Powst. Warszawy 02 nż
+2044	3	222579	08:01:00	08:01:00		Sikorskiego katedra 04 nż
+2044	3	222579	08:02:00	08:02:00		Sikorskiego / Łukasiewicza 06 nż
+2044	3	222579	08:03:00	08:03:00		Sikorskiego domki 08 nż
+2044	3	222579	08:04:00	08:04:00		Sikorskiego / Strażacka 10 nż
+2044	3	222579	08:05:00	08:05:00		Sikorskiego / Białogórska 12 nż
+2044	3	222579	08:06:00	08:06:00		Sikorskiego / Rodzinna 14 nż
+2044	3	222579	08:08:00	08:08:00		Sikorskiego / Kard. K. Wojtyły 16 nż
+2044	3	222579	08:09:00	08:09:00		Sikorskiego granica 18 nż
+2044	3	222579	08:10:00	08:10:00		Tyczyn Grunwaldzka POM 82 nż
+2044	3	222579	08:11:00	08:11:00		Tyczyn Grunwaldzka park 02 nż
+2044	3	222579	08:13:00	08:13:00		Tyczyn Mickiewicza 04 nż
+2044	3	222579	08:15:00	08:15:00		Tyczyn Mickiewicza 02 nż
+2044	3	222579	08:16:00	08:16:00		Tyczyn Lasek I 04 nż
+2044	3	222579	08:17:00	08:17:00		Tyczyn Lasek II 06 nż
+2044	3	222579	08:19:00	08:19:00		Kielnarowa pętla 07
 
-1387	3	200446	08:29:00	08:29:00		Kielnarowa pętla 07
-1387	3	200446	08:30:00	08:30:00		Tyczyn Lasek II 06 nż
-1387	3	200446	08:31:00	08:31:00		Tyczyn Lasek I 04 nż
-1387	3	200446	08:32:00	08:32:00		Tyczyn Mickiewicza 02 nż
-1387	3	200446	08:35:00	08:35:00		Tyczyn Kopernika 02
-1387	3	200446	08:36:00	08:36:00		Tyczyn Grunwaldzka park 01 nż
-1387	3	200446	08:38:00	08:38:00		Tyczyn Grunwaldzka POM 27 nż
-1387	3	200446	08:39:00	08:39:00		Sikorskiego granica 15 nż
-1387	3	200446	08:40:00	08:40:00		Sikorskiego / Ruczajowa 13 nż
-1387	3	200446	08:41:00	08:41:00		Sikorskiego / Kard. K. Wojtyły 11 nż
-1387	3	200446	08:42:00	08:42:00		Sikorskiego / Rodzinna 09 nż
-1387	3	200446	08:43:00	08:43:00		Sikorskiego / Białogórska 07 nż
-1387	3	200446	08:45:00	08:45:00		Sikorskiego / Robotnicza 05 nż
-1387	3	200446	08:46:00	08:46:00		Sikorskiego domki 03 nż
-1387	3	200446	08:48:00	08:48:00		Sikorskiego katedra 01 nż
-1387	3	200446	08:50:00	08:50:00		Rejtana / Armii Krajowej 12
-1387	3	200446	08:51:00	08:51:00		Rejtana / Paderewskiego 10
-1387	3	200446	08:52:00	08:52:00		Rejtana / Krzyżanowskiego 08
-1387	3	200446	08:53:00	08:53:00		Rejtana uniwersytet 06
-1387	3	200446	08:54:00	08:54:00		Rejtana cmentarz 04 nż
-1387	3	200446	08:55:00	08:55:00		Rejtana / Kustronia 02
-1387	3	200446	08:58:00	08:58:00		Dworaka targ 01
+2034	3	223042	08:29:00	08:29:00		Kielnarowa pętla 07
+2034	3	223042	08:30:00	08:30:00		Tyczyn Lasek II 05 nż
+2034	3	223042	08:31:00	08:31:00		Tyczyn Lasek I 03 nż
+2034	3	223042	08:32:00	08:32:00		Tyczyn Mickiewicza 01 nż
+2034	3	223042	08:35:00	08:35:00		Tyczyn Kopernika 39
+2034	3	223042	08:36:00	08:36:00		Tyczyn Grunwaldzka park 01 nż
+2034	3	223042	08:38:00	08:38:00		Tyczyn Grunwaldzka POM 27 nż
+2034	3	223042	08:39:00	08:39:00		Sikorskiego granica 15 nż
+2034	3	223042	08:40:00	08:40:00		Sikorskiego / Ruczajowa 13 nż
+2034	3	223042	08:41:00	08:41:00		Sikorskiego / Kard. K. Wojtyły 11 nż
+2034	3	223042	08:42:00	08:42:00		Sikorskiego / Rodzinna 09 nż
+2034	3	223042	08:43:00	08:43:00		Sikorskiego / Białogórska 07 nż
+2034	3	223042	08:45:00	08:45:00		Sikorskiego / Robotnicza 05 nż
+2034	3	223042	08:46:00	08:46:00		Sikorskiego domki 03 nż
+2034	3	223042	08:48:00	08:48:00		Sikorskiego katedra 01 nż
+2034	3	223042	08:50:00	08:50:00		Rejtana / Armii Krajowej 12
+2034	3	223042	08:51:00	08:51:00		Rejtana / Paderewskiego 10
+2034	3	223042	08:52:00	08:52:00		Rejtana / Krzyżanowskiego 08
+2034	3	223042	08:53:00	08:53:00		Rejtana uniwersytet 06
+2034	3	223042	08:54:00	08:54:00		Rejtana cmentarz 04 nż
+2034	3	223042	08:55:00	08:55:00		Rejtana / Kustronia 02
+2034	3	223042	08:57:00	08:57:00		Piłsudskiego ZDZ 02
+2034	3	223042	08:58:00	08:58:00		Pl. Wolności 04
+2034	3	223042	09:00:00	09:00:00		Bardowskiego 04
 
-1388	3	202346	09:51:00	09:51:00		Dworaka targ 01
-1388	3	202346	09:54:00	09:54:00		Rejtana / Kustronia 03 nż
-1388	3	202346	09:55:00	09:55:00		Rejtana uniwersytet 05
-1388	3	202346	09:57:00	09:57:00		Rejtana / Kopisto 07
-1388	3	202346	09:58:00	09:58:00		Rejtana / Popiełuszki 09
-1388	3	202346	10:00:00	10:00:00		Sikorskiego / Powst. Warszawy 02 nż
-1388	3	202346	10:01:00	10:01:00		Sikorskiego katedra 04 nż
-1388	3	202346	10:02:00	10:02:00		Sikorskiego / Łukasiewicza 06 nż
-1388	3	202346	10:03:00	10:03:00		Sikorskiego domki 08 nż
-1388	3	202346	10:04:00	10:04:00		Sikorskiego / Strażacka 10 nż
-1388	3	202346	10:05:00	10:05:00		Sikorskiego / Białogórska 12 nż
-1388	3	202346	10:06:00	10:06:00		Sikorskiego / Rodzinna 14 nż
-1388	3	202346	10:08:00	10:08:00		Sikorskiego / Kard. K. Wojtyły 16 nż
-1388	3	202346	10:09:00	10:09:00		Sikorskiego granica 18 nż
-1388	3	202346	10:10:00	10:10:00		Tyczyn Grunwaldzka POM 02 nż
-1388	3	202346	10:11:00	10:11:00		Tyczyn Grunwaldzka park 02 nż
-1388	3	202346	10:13:00	10:13:00		Tyczyn Mickiewicza 04 nż
-1388	3	202346	10:15:00	10:15:00		Tyczyn Mickiewicza 01 nż
-1388	3	202346	10:16:00	10:16:00		Tyczyn Lasek I 03 nż
-1388	3	202346	10:17:00	10:17:00		Tyczyn Lasek II 05 nż
-1388	3	202346	10:19:00	10:19:00		Kielnarowa pętla 07
+2044	3	222901	09:51:00	09:51:00		Bardowskiego 02
+2044	3	222901	09:52:00	09:52:00		Piłsudskiego ZDZ 01 nż
+2044	3	222901	09:53:00	09:53:00		Rejtana / Lwowska 01
+2044	3	222901	09:54:00	09:54:00		Rejtana / Kustronia 03 nż
+2044	3	222901	09:55:00	09:55:00		Rejtana uniwersytet 05
+2044	3	222901	09:57:00	09:57:00		Rejtana / Kopisto 07
+2044	3	222901	09:58:00	09:58:00		Rejtana / Popiełuszki 09
+2044	3	222901	10:00:00	10:00:00		Sikorskiego / Powst. Warszawy 02 nż
+2044	3	222901	10:01:00	10:01:00		Sikorskiego katedra 04 nż
+2044	3	222901	10:02:00	10:02:00		Sikorskiego / Łukasiewicza 06 nż
+2044	3	222901	10:03:00	10:03:00		Sikorskiego domki 08 nż
+2044	3	222901	10:04:00	10:04:00		Sikorskiego / Strażacka 10 nż
+2044	3	222901	10:05:00	10:05:00		Sikorskiego / Białogórska 12 nż
+2044	3	222901	10:06:00	10:06:00		Sikorskiego / Rodzinna 14 nż
+2044	3	222901	10:08:00	10:08:00		Sikorskiego / Kard. K. Wojtyły 16 nż
+2044	3	222901	10:09:00	10:09:00		Sikorskiego granica 18 nż
+2044	3	222901	10:10:00	10:10:00		Tyczyn Grunwaldzka POM 82 nż
+2044	3	222901	10:11:00	10:11:00		Tyczyn Grunwaldzka park 02 nż
+2044	3	222901	10:13:00	10:13:00		Tyczyn Mickiewicza 04 nż
+2044	3	222901	10:15:00	10:15:00		Tyczyn Mickiewicza 02 nż
+2044	3	222901	10:16:00	10:16:00		Tyczyn Lasek I 04 nż
+2044	3	222901	10:17:00	10:17:00		Tyczyn Lasek II 06 nż
+2044	3	222901	10:19:00	10:19:00		Kielnarowa pętla 07
 
-1387	3	200544	10:29:00	10:29:00		Kielnarowa pętla 07
-1387	3	200544	10:30:00	10:30:00		Tyczyn Lasek II 06 nż
-1387	3	200544	10:31:00	10:31:00		Tyczyn Lasek I 04 nż
-1387	3	200544	10:32:00	10:32:00		Tyczyn Mickiewicza 02 nż
-1387	3	200544	10:35:00	10:35:00		Tyczyn Kopernika 02
-1387	3	200544	10:36:00	10:36:00		Tyczyn Grunwaldzka park 01 nż
-1387	3	200544	10:38:00	10:38:00		Tyczyn Grunwaldzka POM 27 nż
-1387	3	200544	10:39:00	10:39:00		Sikorskiego granica 15 nż
-1387	3	200544	10:40:00	10:40:00		Sikorskiego / Ruczajowa 13 nż
-1387	3	200544	10:41:00	10:41:00		Sikorskiego / Kard. K. Wojtyły 11 nż
-1387	3	200544	10:42:00	10:42:00		Sikorskiego / Rodzinna 09 nż
-1387	3	200544	10:43:00	10:43:00		Sikorskiego / Białogórska 07 nż
-1387	3	200544	10:45:00	10:45:00		Sikorskiego / Robotnicza 05 nż
-1387	3	200544	10:46:00	10:46:00		Sikorskiego domki 03 nż
-1387	3	200544	10:48:00	10:48:00		Sikorskiego katedra 01 nż
-1387	3	200544	10:50:00	10:50:00		Rejtana / Armii Krajowej 12
-1387	3	200544	10:51:00	10:51:00		Rejtana / Paderewskiego 10
-1387	3	200544	10:52:00	10:52:00		Rejtana / Krzyżanowskiego 08
-1387	3	200544	10:53:00	10:53:00		Rejtana uniwersytet 06
-1387	3	200544	10:54:00	10:54:00		Rejtana cmentarz 04 nż
-1387	3	200544	10:55:00	10:55:00		Rejtana / Kustronia 02
-1387	3	200544	10:58:00	10:58:00		Dworaka targ 01
+2034	3	222734	10:29:00	10:29:00		Kielnarowa pętla 07
+2034	3	222734	10:30:00	10:30:00		Tyczyn Lasek II 05 nż
+2034	3	222734	10:31:00	10:31:00		Tyczyn Lasek I 03 nż
+2034	3	222734	10:32:00	10:32:00		Tyczyn Mickiewicza 01 nż
+2034	3	222734	10:35:00	10:35:00		Tyczyn Kopernika 39
+2034	3	222734	10:36:00	10:36:00		Tyczyn Grunwaldzka park 01 nż
+2034	3	222734	10:38:00	10:38:00		Tyczyn Grunwaldzka POM 27 nż
+2034	3	222734	10:39:00	10:39:00		Sikorskiego granica 15 nż
+2034	3	222734	10:40:00	10:40:00		Sikorskiego / Ruczajowa 13 nż
+2034	3	222734	10:41:00	10:41:00		Sikorskiego / Kard. K. Wojtyły 11 nż
+2034	3	222734	10:42:00	10:42:00		Sikorskiego / Rodzinna 09 nż
+2034	3	222734	10:43:00	10:43:00		Sikorskiego / Białogórska 07 nż
+2034	3	222734	10:45:00	10:45:00		Sikorskiego / Robotnicza 05 nż
+2034	3	222734	10:46:00	10:46:00		Sikorskiego domki 03 nż
+2034	3	222734	10:48:00	10:48:00		Sikorskiego katedra 01 nż
+2034	3	222734	10:50:00	10:50:00		Rejtana / Armii Krajowej 12
+2034	3	222734	10:51:00	10:51:00		Rejtana / Paderewskiego 10
+2034	3	222734	10:52:00	10:52:00		Rejtana / Krzyżanowskiego 08
+2034	3	222734	10:53:00	10:53:00		Rejtana uniwersytet 06
+2034	3	222734	10:54:00	10:54:00		Rejtana cmentarz 04 nż
+2034	3	222734	10:55:00	10:55:00		Rejtana / Kustronia 02
+2034	3	222734	10:57:00	10:57:00		Piłsudskiego ZDZ 02
+2034	3	222734	10:58:00	10:58:00		Pl. Wolności 04
+2034	3	222734	11:00:00	11:00:00		Bardowskiego 04
 
-1386	3	201458	11:21:00	11:21:00		Dworaka targ 01
-1386	3	201458	11:24:00	11:24:00		Rejtana / Kustronia 03 nż
-1386	3	201458	11:25:00	11:25:00		Rejtana uniwersytet 05
-1386	3	201458	11:27:00	11:27:00		Rejtana / Kopisto 07
-1386	3	201458	11:28:00	11:28:00		Rejtana / Popiełuszki 09
-1386	3	201458	11:30:00	11:30:00		Sikorskiego / Powst. Warszawy 02 nż
-1386	3	201458	11:31:00	11:31:00		Sikorskiego katedra 04 nż
-1386	3	201458	11:32:00	11:32:00		Sikorskiego / Łukasiewicza 06 nż
-1386	3	201458	11:33:00	11:33:00		Sikorskiego domki 08 nż
-1386	3	201458	11:34:00	11:34:00		Sikorskiego / Strażacka 10 nż
-1386	3	201458	11:35:00	11:35:00		Sikorskiego / Białogórska 12 nż
-1386	3	201458	11:36:00	11:36:00		Sikorskiego / Rodzinna 14 nż
-1386	3	201458	11:38:00	11:38:00		Sikorskiego / Kard. K. Wojtyły 16 nż
-1386	3	201458	11:39:00	11:39:00		Sikorskiego granica 18 nż
-1386	3	201458	11:40:00	11:40:00		Tyczyn Grunwaldzka POM 02 nż
-1386	3	201458	11:41:00	11:41:00		Tyczyn Grunwaldzka park 02 nż
-1386	3	201458	11:43:00	11:43:00		Tyczyn Kopernika 02
+2042	3	223078	11:21:00	11:21:00		Bardowskiego 02
+2042	3	223078	11:22:00	11:22:00		Piłsudskiego ZDZ 01 nż
+2042	3	223078	11:23:00	11:23:00		Rejtana / Lwowska 01
+2042	3	223078	11:24:00	11:24:00		Rejtana / Kustronia 03 nż
+2042	3	223078	11:25:00	11:25:00		Rejtana uniwersytet 05
+2042	3	223078	11:27:00	11:27:00		Rejtana / Kopisto 07
+2042	3	223078	11:28:00	11:28:00		Rejtana / Popiełuszki 09
+2042	3	223078	11:30:00	11:30:00		Sikorskiego / Powst. Warszawy 02 nż
+2042	3	223078	11:31:00	11:31:00		Sikorskiego katedra 04 nż
+2042	3	223078	11:32:00	11:32:00		Sikorskiego / Łukasiewicza 06 nż
+2042	3	223078	11:33:00	11:33:00		Sikorskiego domki 08 nż
+2042	3	223078	11:34:00	11:34:00		Sikorskiego / Strażacka 10 nż
+2042	3	223078	11:35:00	11:35:00		Sikorskiego / Białogórska 12 nż
+2042	3	223078	11:36:00	11:36:00		Sikorskiego / Rodzinna 14 nż
+2042	3	223078	11:38:00	11:38:00		Sikorskiego / Kard. K. Wojtyły 16 nż
+2042	3	223078	11:39:00	11:39:00		Sikorskiego granica 18 nż
+2042	3	223078	11:40:00	11:40:00		Tyczyn Grunwaldzka POM 82 nż
+2042	3	223078	11:41:00	11:41:00		Tyczyn Grunwaldzka park 02 nż
+2042	3	223078	11:43:00	11:43:00		Tyczyn Mickiewicza 04 nż
+2042	3	223078	11:44:00	11:44:00		Tyczyn Kopernika 39
 
-1383	3	200399	12:05:00	12:05:00		Tyczyn Kopernika 02
-1383	3	200399	12:06:00	12:06:00		Tyczyn Grunwaldzka park 01 nż
-1383	3	200399	12:08:00	12:08:00		Tyczyn Grunwaldzka POM 27 nż
-1383	3	200399	12:09:00	12:09:00		Sikorskiego granica 15 nż
-1383	3	200399	12:10:00	12:10:00		Sikorskiego / Ruczajowa 13 nż
-1383	3	200399	12:11:00	12:11:00		Sikorskiego / Kard. K. Wojtyły 11 nż
-1383	3	200399	12:12:00	12:12:00		Sikorskiego / Rodzinna 09 nż
-1383	3	200399	12:13:00	12:13:00		Sikorskiego / Białogórska 07 nż
-1383	3	200399	12:15:00	12:15:00		Sikorskiego / Robotnicza 05 nż
-1383	3	200399	12:16:00	12:16:00		Sikorskiego domki 03 nż
-1383	3	200399	12:18:00	12:18:00		Sikorskiego katedra 01 nż
-1383	3	200399	12:20:00	12:20:00		Rejtana / Armii Krajowej 12
-1383	3	200399	12:21:00	12:21:00		Rejtana / Paderewskiego 10
-1383	3	200399	12:22:00	12:22:00		Rejtana / Krzyżanowskiego 08
-1383	3	200399	12:23:00	12:23:00		Rejtana uniwersytet 06
-1383	3	200399	12:24:00	12:24:00		Rejtana cmentarz 04 nż
-1383	3	200399	12:25:00	12:25:00		Rejtana / Kustronia 02
-1383	3	200399	12:28:00	12:28:00		Dworaka targ 01
+2043	3	223268	12:05:00	12:05:00		Tyczyn Kopernika 39
+2043	3	223268	12:06:00	12:06:00		Tyczyn Grunwaldzka park 01 nż
+2043	3	223268	12:08:00	12:08:00		Tyczyn Grunwaldzka POM 27 nż
+2043	3	223268	12:09:00	12:09:00		Sikorskiego granica 15 nż
+2043	3	223268	12:10:00	12:10:00		Sikorskiego / Ruczajowa 13 nż
+2043	3	223268	12:11:00	12:11:00		Sikorskiego / Kard. K. Wojtyły 11 nż
+2043	3	223268	12:12:00	12:12:00		Sikorskiego / Rodzinna 09 nż
+2043	3	223268	12:13:00	12:13:00		Sikorskiego / Białogórska 07 nż
+2043	3	223268	12:15:00	12:15:00		Sikorskiego / Robotnicza 05 nż
+2043	3	223268	12:16:00	12:16:00		Sikorskiego domki 03 nż
+2043	3	223268	12:18:00	12:18:00		Sikorskiego katedra 01 nż
+2043	3	223268	12:20:00	12:20:00		Rejtana / Armii Krajowej 12
+2043	3	223268	12:21:00	12:21:00		Rejtana / Paderewskiego 10
+2043	3	223268	12:22:00	12:22:00		Rejtana / Krzyżanowskiego 08
+2043	3	223268	12:23:00	12:23:00		Rejtana uniwersytet 06
+2043	3	223268	12:24:00	12:24:00		Rejtana cmentarz 04 nż
+2043	3	223268	12:25:00	12:25:00		Rejtana / Kustronia 02
+2043	3	223268	12:27:00	12:27:00		Piłsudskiego ZDZ 02
+2043	3	223268	12:28:00	12:28:00		Pl. Wolności 04
+2043	3	223268	12:30:00	12:30:00		Bardowskiego 04
 
-1386	3	200753	12:51:00	12:51:00		Dworaka targ 01
-1386	3	200753	12:54:00	12:54:00		Rejtana / Kustronia 03 nż
-1386	3	200753	12:55:00	12:55:00		Rejtana uniwersytet 05
-1386	3	200753	12:57:00	12:57:00		Rejtana / Kopisto 07
-1386	3	200753	12:58:00	12:58:00		Rejtana / Popiełuszki 09
-1386	3	200753	13:00:00	13:00:00		Sikorskiego / Powst. Warszawy 02 nż
-1386	3	200753	13:01:00	13:01:00		Sikorskiego katedra 04 nż
-1386	3	200753	13:02:00	13:02:00		Sikorskiego / Łukasiewicza 06 nż
-1386	3	200753	13:03:00	13:03:00		Sikorskiego domki 08 nż
-1386	3	200753	13:04:00	13:04:00		Sikorskiego / Strażacka 10 nż
-1386	3	200753	13:05:00	13:05:00		Sikorskiego / Białogórska 12 nż
-1386	3	200753	13:06:00	13:06:00		Sikorskiego / Rodzinna 14 nż
-1386	3	200753	13:08:00	13:08:00		Sikorskiego / Kard. K. Wojtyły 16 nż
-1386	3	200753	13:09:00	13:09:00		Sikorskiego granica 18 nż
-1386	3	200753	13:10:00	13:10:00		Tyczyn Grunwaldzka POM 02 nż
-1386	3	200753	13:11:00	13:11:00		Tyczyn Grunwaldzka park 02 nż
-1386	3	200753	13:13:00	13:13:00		Tyczyn Kopernika 02
+2042	3	222412	12:51:00	12:51:00		Bardowskiego 02
+2042	3	222412	12:52:00	12:52:00		Piłsudskiego ZDZ 01 nż
+2042	3	222412	12:53:00	12:53:00		Rejtana / Lwowska 01
+2042	3	222412	12:54:00	12:54:00		Rejtana / Kustronia 03 nż
+2042	3	222412	12:55:00	12:55:00		Rejtana uniwersytet 05
+2042	3	222412	12:57:00	12:57:00		Rejtana / Kopisto 07
+2042	3	222412	12:58:00	12:58:00		Rejtana / Popiełuszki 09
+2042	3	222412	13:00:00	13:00:00		Sikorskiego / Powst. Warszawy 02 nż
+2042	3	222412	13:01:00	13:01:00		Sikorskiego katedra 04 nż
+2042	3	222412	13:02:00	13:02:00		Sikorskiego / Łukasiewicza 06 nż
+2042	3	222412	13:03:00	13:03:00		Sikorskiego domki 08 nż
+2042	3	222412	13:04:00	13:04:00		Sikorskiego / Strażacka 10 nż
+2042	3	222412	13:05:00	13:05:00		Sikorskiego / Białogórska 12 nż
+2042	3	222412	13:06:00	13:06:00		Sikorskiego / Rodzinna 14 nż
+2042	3	222412	13:08:00	13:08:00		Sikorskiego / Kard. K. Wojtyły 16 nż
+2042	3	222412	13:09:00	13:09:00		Sikorskiego granica 18 nż
+2042	3	222412	13:10:00	13:10:00		Tyczyn Grunwaldzka POM 82 nż
+2042	3	222412	13:11:00	13:11:00		Tyczyn Grunwaldzka park 02 nż
+2042	3	222412	13:13:00	13:13:00		Tyczyn Mickiewicza 04 nż
+2042	3	222412	13:14:00	13:14:00		Tyczyn Kopernika 39
 
-1383	3	200459	13:25:00	13:25:00		Tyczyn Kopernika 02
-1383	3	200459	13:26:00	13:26:00		Tyczyn Grunwaldzka park 01 nż
-1383	3	200459	13:28:00	13:28:00		Tyczyn Grunwaldzka POM 27 nż
-1383	3	200459	13:29:00	13:29:00		Sikorskiego granica 15 nż
-1383	3	200459	13:30:00	13:30:00		Sikorskiego / Ruczajowa 13 nż
-1383	3	200459	13:31:00	13:31:00		Sikorskiego / Kard. K. Wojtyły 11 nż
-1383	3	200459	13:32:00	13:32:00		Sikorskiego / Rodzinna 09 nż
-1383	3	200459	13:33:00	13:33:00		Sikorskiego / Białogórska 07 nż
-1383	3	200459	13:35:00	13:35:00		Sikorskiego / Robotnicza 05 nż
-1383	3	200459	13:36:00	13:36:00		Sikorskiego domki 03 nż
-1383	3	200459	13:38:00	13:38:00		Sikorskiego katedra 01 nż
-1383	3	200459	13:40:00	13:40:00		Rejtana / Armii Krajowej 12
-1383	3	200459	13:41:00	13:41:00		Rejtana / Paderewskiego 10
-1383	3	200459	13:42:00	13:42:00		Rejtana / Krzyżanowskiego 08
-1383	3	200459	13:43:00	13:43:00		Rejtana uniwersytet 06
-1383	3	200459	13:44:00	13:44:00		Rejtana cmentarz 04 nż
-1383	3	200459	13:45:00	13:45:00		Rejtana / Kustronia 02
-1383	3	200459	13:47:00	13:47:00		Dworaka targ 01
+2037	3	222801	13:25:00	13:25:00		Tyczyn Kopernika 39
+2037	3	222801	13:26:00	13:26:00		Tyczyn Grunwaldzka park 01 nż
+2037	3	222801	13:28:00	13:28:00		Tyczyn Grunwaldzka POM 27 nż
+2037	3	222801	13:29:00	13:29:00		Sikorskiego granica 15 nż
+2037	3	222801	13:30:00	13:30:00		Sikorskiego / Ruczajowa 13 nż
+2037	3	222801	13:31:00	13:31:00		Sikorskiego / Kard. K. Wojtyły 11 nż
+2037	3	222801	13:32:00	13:32:00		Sikorskiego / Rodzinna 09 nż
+2037	3	222801	13:33:00	13:33:00		Sikorskiego / Białogórska 07 nż
+2037	3	222801	13:35:00	13:35:00		Sikorskiego / Robotnicza 05 nż
+2037	3	222801	13:36:00	13:36:00		Sikorskiego domki 03 nż
+2037	3	222801	13:38:00	13:38:00		Sikorskiego katedra 01 nż
+2037	3	222801	13:40:00	13:40:00		Rejtana / Armii Krajowej 12
+2037	3	222801	13:41:00	13:41:00		Rejtana / Paderewskiego 10
+2037	3	222801	13:42:00	13:42:00		Rejtana / Krzyżanowskiego 08
+2037	3	222801	13:43:00	13:43:00		Rejtana uniwersytet 06
+2037	3	222801	13:44:00	13:44:00		Rejtana cmentarz 04 nż
+2037	3	222801	13:45:00	13:45:00		Rejtana / Kustronia 02
+2037	3	222801	13:47:00	13:47:00		Dworaka targ 01
 
-1386	3	200427	13:52:00	13:52:00		Dworaka targ 01
-1386	3	200427	13:55:00	13:55:00		Rejtana / Kustronia 03 nż
-1386	3	200427	13:56:00	13:56:00		Rejtana uniwersytet 05
-1386	3	200427	13:58:00	13:58:00		Rejtana / Kopisto 07
-1386	3	200427	13:59:00	13:59:00		Rejtana / Popiełuszki 09
-1386	3	200427	14:01:00	14:01:00		Sikorskiego / Powst. Warszawy 02 nż
-1386	3	200427	14:02:00	14:02:00		Sikorskiego katedra 04 nż
-1386	3	200427	14:03:00	14:03:00		Sikorskiego / Łukasiewicza 06 nż
-1386	3	200427	14:04:00	14:04:00		Sikorskiego domki 08 nż
-1386	3	200427	14:05:00	14:05:00		Sikorskiego / Strażacka 10 nż
-1386	3	200427	14:06:00	14:06:00		Sikorskiego / Białogórska 12 nż
-1386	3	200427	14:07:00	14:07:00		Sikorskiego / Rodzinna 14 nż
-1386	3	200427	14:09:00	14:09:00		Sikorskiego / Kard. K. Wojtyły 16 nż
-1386	3	200427	14:10:00	14:10:00		Sikorskiego granica 18 nż
-1386	3	200427	14:11:00	14:11:00		Tyczyn Grunwaldzka POM 02 nż
-1386	3	200427	14:12:00	14:12:00		Tyczyn Grunwaldzka park 02 nż
-1386	3	200427	14:14:00	14:14:00		Tyczyn Kopernika 02
+2045	3	223517	13:52:00	13:52:00		Dworaka targ 01
+2045	3	223517	13:55:00	13:55:00		Rejtana / Kustronia 03 nż
+2045	3	223517	13:56:00	13:56:00		Rejtana uniwersytet 05
+2045	3	223517	13:58:00	13:58:00		Rejtana / Kopisto 07
+2045	3	223517	13:59:00	13:59:00		Rejtana / Popiełuszki 09
+2045	3	223517	14:01:00	14:01:00		Sikorskiego / Powst. Warszawy 02 nż
+2045	3	223517	14:02:00	14:02:00		Sikorskiego katedra 04 nż
+2045	3	223517	14:03:00	14:03:00		Sikorskiego / Łukasiewicza 06 nż
+2045	3	223517	14:04:00	14:04:00		Sikorskiego domki 08 nż
+2045	3	223517	14:05:00	14:05:00		Sikorskiego / Strażacka 10 nż
+2045	3	223517	14:06:00	14:06:00		Sikorskiego / Białogórska 12 nż
+2045	3	223517	14:07:00	14:07:00		Sikorskiego / Rodzinna 14 nż
+2045	3	223517	14:09:00	14:09:00		Sikorskiego / Kard. K. Wojtyły 16 nż
+2045	3	223517	14:10:00	14:10:00		Sikorskiego granica 18 nż
+2045	3	223517	14:11:00	14:11:00		Tyczyn Grunwaldzka POM 82 nż
+2045	3	223517	14:12:00	14:12:00		Tyczyn Grunwaldzka park 02 nż
+2045	3	223517	14:14:00	14:14:00		Tyczyn Mickiewicza 04 nż
+2045	3	223517	14:15:00	14:15:00		Tyczyn Kopernika 39
 
-1383	3	198544	14:35:00	14:35:00		Tyczyn Kopernika 02
-1383	3	198544	14:36:00	14:36:00		Tyczyn Grunwaldzka park 01 nż
-1383	3	198544	14:38:00	14:38:00		Tyczyn Grunwaldzka POM 27 nż
-1383	3	198544	14:39:00	14:39:00		Sikorskiego granica 15 nż
-1383	3	198544	14:40:00	14:40:00		Sikorskiego / Ruczajowa 13 nż
-1383	3	198544	14:41:00	14:41:00		Sikorskiego / Kard. K. Wojtyły 11 nż
-1383	3	198544	14:42:00	14:42:00		Sikorskiego / Rodzinna 09 nż
-1383	3	198544	14:43:00	14:43:00		Sikorskiego / Białogórska 07 nż
-1383	3	198544	14:45:00	14:45:00		Sikorskiego / Robotnicza 05 nż
-1383	3	198544	14:46:00	14:46:00		Sikorskiego domki 03 nż
-1383	3	198544	14:48:00	14:48:00		Sikorskiego katedra 01 nż
-1383	3	198544	14:50:00	14:50:00		Rejtana / Armii Krajowej 12
-1383	3	198544	14:51:00	14:51:00		Rejtana / Paderewskiego 10
-1383	3	198544	14:52:00	14:52:00		Rejtana / Krzyżanowskiego 08
-1383	3	198544	14:53:00	14:53:00		Rejtana uniwersytet 06
-1383	3	198544	14:54:00	14:54:00		Rejtana cmentarz 04 nż
-1383	3	198544	14:55:00	14:55:00		Rejtana / Kustronia 02
-1383	3	198544	14:57:00	14:57:00		Dworaka targ 01
+2037	3	222656	14:35:00	14:35:00		Tyczyn Kopernika 39
+2037	3	222656	14:36:00	14:36:00		Tyczyn Grunwaldzka park 01 nż
+2037	3	222656	14:38:00	14:38:00		Tyczyn Grunwaldzka POM 27 nż
+2037	3	222656	14:39:00	14:39:00		Sikorskiego granica 15 nż
+2037	3	222656	14:40:00	14:40:00		Sikorskiego / Ruczajowa 13 nż
+2037	3	222656	14:41:00	14:41:00		Sikorskiego / Kard. K. Wojtyły 11 nż
+2037	3	222656	14:42:00	14:42:00		Sikorskiego / Rodzinna 09 nż
+2037	3	222656	14:43:00	14:43:00		Sikorskiego / Białogórska 07 nż
+2037	3	222656	14:45:00	14:45:00		Sikorskiego / Robotnicza 05 nż
+2037	3	222656	14:46:00	14:46:00		Sikorskiego domki 03 nż
+2037	3	222656	14:48:00	14:48:00		Sikorskiego katedra 01 nż
+2037	3	222656	14:50:00	14:50:00		Rejtana / Armii Krajowej 12
+2037	3	222656	14:51:00	14:51:00		Rejtana / Paderewskiego 10
+2037	3	222656	14:52:00	14:52:00		Rejtana / Krzyżanowskiego 08
+2037	3	222656	14:53:00	14:53:00		Rejtana uniwersytet 06
+2037	3	222656	14:54:00	14:54:00		Rejtana cmentarz 04 nż
+2037	3	222656	14:55:00	14:55:00		Rejtana / Kustronia 02
+2037	3	222656	14:57:00	14:57:00		Dworaka targ 01
 
-1386	3	198548	15:22:00	15:22:00		Dworaka targ 01
-1386	3	198548	15:25:00	15:25:00		Rejtana / Kustronia 03 nż
-1386	3	198548	15:26:00	15:26:00		Rejtana uniwersytet 05
-1386	3	198548	15:28:00	15:28:00		Rejtana / Kopisto 07
-1386	3	198548	15:29:00	15:29:00		Rejtana / Popiełuszki 09
-1386	3	198548	15:31:00	15:31:00		Sikorskiego / Powst. Warszawy 02 nż
-1386	3	198548	15:32:00	15:32:00		Sikorskiego katedra 04 nż
-1386	3	198548	15:33:00	15:33:00		Sikorskiego / Łukasiewicza 06 nż
-1386	3	198548	15:34:00	15:34:00		Sikorskiego domki 08 nż
-1386	3	198548	15:35:00	15:35:00		Sikorskiego / Strażacka 10 nż
-1386	3	198548	15:36:00	15:36:00		Sikorskiego / Białogórska 12 nż
-1386	3	198548	15:37:00	15:37:00		Sikorskiego / Rodzinna 14 nż
-1386	3	198548	15:39:00	15:39:00		Sikorskiego / Kard. K. Wojtyły 16 nż
-1386	3	198548	15:40:00	15:40:00		Sikorskiego granica 18 nż
-1386	3	198548	15:41:00	15:41:00		Tyczyn Grunwaldzka POM 02 nż
-1386	3	198548	15:42:00	15:42:00		Tyczyn Grunwaldzka park 02 nż
-1386	3	198548	15:44:00	15:44:00		Tyczyn Kopernika 02
+2045	3	223080	15:22:00	15:22:00		Dworaka targ 01
+2045	3	223080	15:25:00	15:25:00		Rejtana / Kustronia 03 nż
+2045	3	223080	15:26:00	15:26:00		Rejtana uniwersytet 05
+2045	3	223080	15:28:00	15:28:00		Rejtana / Kopisto 07
+2045	3	223080	15:29:00	15:29:00		Rejtana / Popiełuszki 09
+2045	3	223080	15:31:00	15:31:00		Sikorskiego / Powst. Warszawy 02 nż
+2045	3	223080	15:32:00	15:32:00		Sikorskiego katedra 04 nż
+2045	3	223080	15:33:00	15:33:00		Sikorskiego / Łukasiewicza 06 nż
+2045	3	223080	15:34:00	15:34:00		Sikorskiego domki 08 nż
+2045	3	223080	15:35:00	15:35:00		Sikorskiego / Strażacka 10 nż
+2045	3	223080	15:36:00	15:36:00		Sikorskiego / Białogórska 12 nż
+2045	3	223080	15:37:00	15:37:00		Sikorskiego / Rodzinna 14 nż
+2045	3	223080	15:39:00	15:39:00		Sikorskiego / Kard. K. Wojtyły 16 nż
+2045	3	223080	15:40:00	15:40:00		Sikorskiego granica 18 nż
+2045	3	223080	15:41:00	15:41:00		Tyczyn Grunwaldzka POM 82 nż
+2045	3	223080	15:42:00	15:42:00		Tyczyn Grunwaldzka park 02 nż
+2045	3	223080	15:44:00	15:44:00		Tyczyn Mickiewicza 04 nż
+2045	3	223080	15:45:00	15:45:00		Tyczyn Kopernika 39
 
-1383	3	200947	16:05:00	16:05:00		Tyczyn Kopernika 02
-1383	3	200947	16:06:00	16:06:00		Tyczyn Grunwaldzka park 01 nż
-1383	3	200947	16:08:00	16:08:00		Tyczyn Grunwaldzka POM 27 nż
-1383	3	200947	16:09:00	16:09:00		Sikorskiego granica 15 nż
-1383	3	200947	16:10:00	16:10:00		Sikorskiego / Ruczajowa 13 nż
-1383	3	200947	16:11:00	16:11:00		Sikorskiego / Kard. K. Wojtyły 11 nż
-1383	3	200947	16:12:00	16:12:00		Sikorskiego / Rodzinna 09 nż
-1383	3	200947	16:13:00	16:13:00		Sikorskiego / Białogórska 07 nż
-1383	3	200947	16:15:00	16:15:00		Sikorskiego / Robotnicza 05 nż
-1383	3	200947	16:16:00	16:16:00		Sikorskiego domki 03 nż
-1383	3	200947	16:18:00	16:18:00		Sikorskiego katedra 01 nż
-1383	3	200947	16:20:00	16:20:00		Rejtana / Armii Krajowej 12
-1383	3	200947	16:21:00	16:21:00		Rejtana / Paderewskiego 10
-1383	3	200947	16:22:00	16:22:00		Rejtana / Krzyżanowskiego 08
-1383	3	200947	16:23:00	16:23:00		Rejtana uniwersytet 06
-1383	3	200947	16:24:00	16:24:00		Rejtana cmentarz 04 nż
-1383	3	200947	16:25:00	16:25:00		Rejtana / Kustronia 02
-1383	3	200947	16:27:00	16:27:00		Dworaka targ 01
+2037	3	222377	16:05:00	16:05:00		Tyczyn Kopernika 39
+2037	3	222377	16:06:00	16:06:00		Tyczyn Grunwaldzka park 01 nż
+2037	3	222377	16:08:00	16:08:00		Tyczyn Grunwaldzka POM 27 nż
+2037	3	222377	16:09:00	16:09:00		Sikorskiego granica 15 nż
+2037	3	222377	16:10:00	16:10:00		Sikorskiego / Ruczajowa 13 nż
+2037	3	222377	16:11:00	16:11:00		Sikorskiego / Kard. K. Wojtyły 11 nż
+2037	3	222377	16:12:00	16:12:00		Sikorskiego / Rodzinna 09 nż
+2037	3	222377	16:13:00	16:13:00		Sikorskiego / Białogórska 07 nż
+2037	3	222377	16:15:00	16:15:00		Sikorskiego / Robotnicza 05 nż
+2037	3	222377	16:16:00	16:16:00		Sikorskiego domki 03 nż
+2037	3	222377	16:18:00	16:18:00		Sikorskiego katedra 01 nż
+2037	3	222377	16:20:00	16:20:00		Rejtana / Armii Krajowej 12
+2037	3	222377	16:21:00	16:21:00		Rejtana / Paderewskiego 10
+2037	3	222377	16:22:00	16:22:00		Rejtana / Krzyżanowskiego 08
+2037	3	222377	16:23:00	16:23:00		Rejtana uniwersytet 06
+2037	3	222377	16:24:00	16:24:00		Rejtana cmentarz 04 nż
+2037	3	222377	16:25:00	16:25:00		Rejtana / Kustronia 02
+2037	3	222377	16:27:00	16:27:00		Dworaka targ 01
 
-1386	3	198350	16:53:00	16:53:00		Dworaka targ 01
-1386	3	198350	16:56:00	16:56:00		Rejtana / Kustronia 03 nż
-1386	3	198350	16:57:00	16:57:00		Rejtana uniwersytet 05
-1386	3	198350	16:59:00	16:59:00		Rejtana / Kopisto 07
-1386	3	198350	17:00:00	17:00:00		Rejtana / Popiełuszki 09
-1386	3	198350	17:02:00	17:02:00		Sikorskiego / Powst. Warszawy 02 nż
-1386	3	198350	17:03:00	17:03:00		Sikorskiego katedra 04 nż
-1386	3	198350	17:04:00	17:04:00		Sikorskiego / Łukasiewicza 06 nż
-1386	3	198350	17:05:00	17:05:00		Sikorskiego domki 08 nż
-1386	3	198350	17:06:00	17:06:00		Sikorskiego / Strażacka 10 nż
-1386	3	198350	17:07:00	17:07:00		Sikorskiego / Białogórska 12 nż
-1386	3	198350	17:08:00	17:08:00		Sikorskiego / Rodzinna 14 nż
-1386	3	198350	17:10:00	17:10:00		Sikorskiego / Kard. K. Wojtyły 16 nż
-1386	3	198350	17:11:00	17:11:00		Sikorskiego granica 18 nż
-1386	3	198350	17:12:00	17:12:00		Tyczyn Grunwaldzka POM 02 nż
-1386	3	198350	17:13:00	17:13:00		Tyczyn Grunwaldzka park 02 nż
-1386	3	198350	17:15:00	17:15:00		Tyczyn Kopernika 02
+2045	3	222300	16:52:00	16:52:00		Dworaka targ 01
+2045	3	222300	16:55:00	16:55:00		Rejtana / Kustronia 03 nż
+2045	3	222300	16:56:00	16:56:00		Rejtana uniwersytet 05
+2045	3	222300	16:58:00	16:58:00		Rejtana / Kopisto 07
+2045	3	222300	16:59:00	16:59:00		Rejtana / Popiełuszki 09
+2045	3	222300	17:01:00	17:01:00		Sikorskiego / Powst. Warszawy 02 nż
+2045	3	222300	17:02:00	17:02:00		Sikorskiego katedra 04 nż
+2045	3	222300	17:03:00	17:03:00		Sikorskiego / Łukasiewicza 06 nż
+2045	3	222300	17:04:00	17:04:00		Sikorskiego domki 08 nż
+2045	3	222300	17:05:00	17:05:00		Sikorskiego / Strażacka 10 nż
+2045	3	222300	17:06:00	17:06:00		Sikorskiego / Białogórska 12 nż
+2045	3	222300	17:07:00	17:07:00		Sikorskiego / Rodzinna 14 nż
+2045	3	222300	17:09:00	17:09:00		Sikorskiego / Kard. K. Wojtyły 16 nż
+2045	3	222300	17:10:00	17:10:00		Sikorskiego granica 18 nż
+2045	3	222300	17:11:00	17:11:00		Tyczyn Grunwaldzka POM 82 nż
+2045	3	222300	17:12:00	17:12:00		Tyczyn Grunwaldzka park 02 nż
+2045	3	222300	17:14:00	17:14:00		Tyczyn Mickiewicza 04 nż
+2045	3	222300	17:15:00	17:15:00		Tyczyn Kopernika 39
 
-1383	3	200903	17:25:00	17:25:00		Tyczyn Kopernika 02
-1383	3	200903	17:26:00	17:26:00		Tyczyn Grunwaldzka park 01 nż
-1383	3	200903	17:28:00	17:28:00		Tyczyn Grunwaldzka POM 27 nż
-1383	3	200903	17:29:00	17:29:00		Sikorskiego granica 15 nż
-1383	3	200903	17:30:00	17:30:00		Sikorskiego / Ruczajowa 13 nż
-1383	3	200903	17:31:00	17:31:00		Sikorskiego / Kard. K. Wojtyły 11 nż
-1383	3	200903	17:32:00	17:32:00		Sikorskiego / Rodzinna 09 nż
-1383	3	200903	17:33:00	17:33:00		Sikorskiego / Białogórska 07 nż
-1383	3	200903	17:35:00	17:35:00		Sikorskiego / Robotnicza 05 nż
-1383	3	200903	17:36:00	17:36:00		Sikorskiego domki 03 nż
-1383	3	200903	17:38:00	17:38:00		Sikorskiego katedra 01 nż
-1383	3	200903	17:40:00	17:40:00		Rejtana / Armii Krajowej 12
-1383	3	200903	17:41:00	17:41:00		Rejtana / Paderewskiego 10
-1383	3	200903	17:42:00	17:42:00		Rejtana / Krzyżanowskiego 08
-1383	3	200903	17:43:00	17:43:00		Rejtana uniwersytet 06
-1383	3	200903	17:44:00	17:44:00		Rejtana cmentarz 04 nż
-1383	3	200903	17:45:00	17:45:00		Rejtana / Kustronia 02
-1383	3	200903	17:47:00	17:47:00		Dworaka targ 01
+2037	3	222635	17:25:00	17:25:00		Tyczyn Kopernika 39
+2037	3	222635	17:26:00	17:26:00		Tyczyn Grunwaldzka park 01 nż
+2037	3	222635	17:28:00	17:28:00		Tyczyn Grunwaldzka POM 27 nż
+2037	3	222635	17:29:00	17:29:00		Sikorskiego granica 15 nż
+2037	3	222635	17:30:00	17:30:00		Sikorskiego / Ruczajowa 13 nż
+2037	3	222635	17:31:00	17:31:00		Sikorskiego / Kard. K. Wojtyły 11 nż
+2037	3	222635	17:32:00	17:32:00		Sikorskiego / Rodzinna 09 nż
+2037	3	222635	17:33:00	17:33:00		Sikorskiego / Białogórska 07 nż
+2037	3	222635	17:35:00	17:35:00		Sikorskiego / Robotnicza 05 nż
+2037	3	222635	17:36:00	17:36:00		Sikorskiego domki 03 nż
+2037	3	222635	17:38:00	17:38:00		Sikorskiego katedra 01 nż
+2037	3	222635	17:40:00	17:40:00		Rejtana / Armii Krajowej 12
+2037	3	222635	17:41:00	17:41:00		Rejtana / Paderewskiego 10
+2037	3	222635	17:42:00	17:42:00		Rejtana / Krzyżanowskiego 08
+2037	3	222635	17:43:00	17:43:00		Rejtana uniwersytet 06
+2037	3	222635	17:44:00	17:44:00		Rejtana cmentarz 04 nż
+2037	3	222635	17:45:00	17:45:00		Rejtana / Kustronia 02
+2037	3	222635	17:47:00	17:47:00		Dworaka targ 01
 
-1388	3	198261	17:52:00	17:52:00		Dworaka targ 01
-1388	3	198261	17:55:00	17:55:00		Rejtana / Kustronia 03 nż
-1388	3	198261	17:56:00	17:56:00		Rejtana uniwersytet 05
-1388	3	198261	17:58:00	17:58:00		Rejtana / Kopisto 07
-1388	3	198261	17:59:00	17:59:00		Rejtana / Popiełuszki 09
-1388	3	198261	18:01:00	18:01:00		Sikorskiego / Powst. Warszawy 02 nż
-1388	3	198261	18:02:00	18:02:00		Sikorskiego katedra 04 nż
-1388	3	198261	18:03:00	18:03:00		Sikorskiego / Łukasiewicza 06 nż
-1388	3	198261	18:04:00	18:04:00		Sikorskiego domki 08 nż
-1388	3	198261	18:05:00	18:05:00		Sikorskiego / Strażacka 10 nż
-1388	3	198261	18:06:00	18:06:00		Sikorskiego / Białogórska 12 nż
-1388	3	198261	18:07:00	18:07:00		Sikorskiego / Rodzinna 14 nż
-1388	3	198261	18:09:00	18:09:00		Sikorskiego / Kard. K. Wojtyły 16 nż
-1388	3	198261	18:10:00	18:10:00		Sikorskiego granica 18 nż
-1388	3	198261	18:11:00	18:11:00		Tyczyn Grunwaldzka POM 02 nż
-1388	3	198261	18:12:00	18:12:00		Tyczyn Grunwaldzka park 02 nż
-1388	3	198261	18:14:00	18:14:00		Tyczyn Mickiewicza 04 nż
-1388	3	198261	18:16:00	18:16:00		Tyczyn Mickiewicza 01 nż
-1388	3	198261	18:17:00	18:17:00		Tyczyn Lasek I 03 nż
-1388	3	198261	18:18:00	18:18:00		Tyczyn Lasek II 05 nż
-1388	3	198261	18:20:00	18:20:00		Kielnarowa pętla 07
+2040	3	223071	17:52:00	17:52:00		Dworaka targ 01
+2040	3	223071	17:55:00	17:55:00		Rejtana / Kustronia 03 nż
+2040	3	223071	17:56:00	17:56:00		Rejtana uniwersytet 05
+2040	3	223071	17:58:00	17:58:00		Rejtana / Kopisto 07
+2040	3	223071	17:59:00	17:59:00		Rejtana / Popiełuszki 09
+2040	3	223071	18:01:00	18:01:00		Sikorskiego / Powst. Warszawy 02 nż
+2040	3	223071	18:02:00	18:02:00		Sikorskiego katedra 04 nż
+2040	3	223071	18:03:00	18:03:00		Sikorskiego / Łukasiewicza 06 nż
+2040	3	223071	18:04:00	18:04:00		Sikorskiego domki 08 nż
+2040	3	223071	18:05:00	18:05:00		Sikorskiego / Strażacka 10 nż
+2040	3	223071	18:06:00	18:06:00		Sikorskiego / Białogórska 12 nż
+2040	3	223071	18:07:00	18:07:00		Sikorskiego / Rodzinna 14 nż
+2040	3	223071	18:09:00	18:09:00		Sikorskiego / Kard. K. Wojtyły 16 nż
+2040	3	223071	18:10:00	18:10:00		Sikorskiego granica 18 nż
+2040	3	223071	18:11:00	18:11:00		Tyczyn Grunwaldzka POM 82 nż
+2040	3	223071	18:12:00	18:12:00		Tyczyn Grunwaldzka park 02 nż
+2040	3	223071	18:14:00	18:14:00		Tyczyn Mickiewicza 04 nż
+2040	3	223071	18:16:00	18:16:00		Tyczyn Mickiewicza 02 nż
+2040	3	223071	18:17:00	18:17:00		Tyczyn Lasek I 04 nż
+2040	3	223071	18:18:00	18:18:00		Tyczyn Lasek II 06 nż
+2040	3	223071	18:20:00	18:20:00		Kielnarowa pętla 07
 
-1387	3	203379	18:29:00	18:29:00		Kielnarowa pętla 07
-1387	3	203379	18:30:00	18:30:00		Tyczyn Lasek II 06 nż
-1387	3	203379	18:31:00	18:31:00		Tyczyn Lasek I 04 nż
-1387	3	203379	18:32:00	18:32:00		Tyczyn Mickiewicza 02 nż
-1387	3	203379	18:35:00	18:35:00		Tyczyn Kopernika 02
-1387	3	203379	18:36:00	18:36:00		Tyczyn Grunwaldzka park 01 nż
-1387	3	203379	18:38:00	18:38:00		Tyczyn Grunwaldzka POM 27 nż
-1387	3	203379	18:39:00	18:39:00		Sikorskiego granica 15 nż
-1387	3	203379	18:40:00	18:40:00		Sikorskiego / Ruczajowa 13 nż
-1387	3	203379	18:41:00	18:41:00		Sikorskiego / Kard. K. Wojtyły 11 nż
-1387	3	203379	18:42:00	18:42:00		Sikorskiego / Rodzinna 09 nż
-1387	3	203379	18:43:00	18:43:00		Sikorskiego / Białogórska 07 nż
-1387	3	203379	18:45:00	18:45:00		Sikorskiego / Robotnicza 05 nż
-1387	3	203379	18:46:00	18:46:00		Sikorskiego domki 03 nż
-1387	3	203379	18:48:00	18:48:00		Sikorskiego katedra 01 nż
-1387	3	203379	18:50:00	18:50:00		Rejtana / Armii Krajowej 12
-1387	3	203379	18:51:00	18:51:00		Rejtana / Paderewskiego 10
-1387	3	203379	18:52:00	18:52:00		Rejtana / Krzyżanowskiego 08
-1387	3	203379	18:53:00	18:53:00		Rejtana uniwersytet 06
-1387	3	203379	18:54:00	18:54:00		Rejtana cmentarz 04 nż
-1387	3	203379	18:55:00	18:55:00		Rejtana / Kustronia 02
-1387	3	203379	18:57:00	18:57:00		Dworaka targ 01
+2041	3	222379	18:29:00	18:29:00		Kielnarowa pętla 07
+2041	3	222379	18:30:00	18:30:00		Tyczyn Lasek II 05 nż
+2041	3	222379	18:31:00	18:31:00		Tyczyn Lasek I 03 nż
+2041	3	222379	18:32:00	18:32:00		Tyczyn Mickiewicza 01 nż
+2041	3	222379	18:35:00	18:35:00		Tyczyn Kopernika 39
+2041	3	222379	18:36:00	18:36:00		Tyczyn Grunwaldzka park 01 nż
+2041	3	222379	18:38:00	18:38:00		Tyczyn Grunwaldzka POM 27 nż
+2041	3	222379	18:39:00	18:39:00		Sikorskiego granica 15 nż
+2041	3	222379	18:40:00	18:40:00		Sikorskiego / Ruczajowa 13 nż
+2041	3	222379	18:41:00	18:41:00		Sikorskiego / Kard. K. Wojtyły 11 nż
+2041	3	222379	18:42:00	18:42:00		Sikorskiego / Rodzinna 09 nż
+2041	3	222379	18:43:00	18:43:00		Sikorskiego / Białogórska 07 nż
+2041	3	222379	18:45:00	18:45:00		Sikorskiego / Robotnicza 05 nż
+2041	3	222379	18:46:00	18:46:00		Sikorskiego domki 03 nż
+2041	3	222379	18:48:00	18:48:00		Sikorskiego katedra 01 nż
+2041	3	222379	18:50:00	18:50:00		Rejtana / Armii Krajowej 12
+2041	3	222379	18:51:00	18:51:00		Rejtana / Paderewskiego 10
+2041	3	222379	18:52:00	18:52:00		Rejtana / Krzyżanowskiego 08
+2041	3	222379	18:53:00	18:53:00		Rejtana uniwersytet 06
+2041	3	222379	18:54:00	18:54:00		Rejtana cmentarz 04 nż
+2041	3	222379	18:55:00	18:55:00		Rejtana / Kustronia 02
+2041	3	222379	18:57:00	18:57:00		Dworaka targ 01
 
-1386	3	202736	19:22:00	19:22:00		Dworaka targ 01
-1386	3	202736	19:24:00	19:24:00		Rejtana / Kustronia 03 nż
-1386	3	202736	19:25:00	19:25:00		Rejtana uniwersytet 05
-1386	3	202736	19:27:00	19:27:00		Rejtana / Kopisto 07
-1386	3	202736	19:28:00	19:28:00		Rejtana / Popiełuszki 09
-1386	3	202736	19:30:00	19:30:00		Sikorskiego / Powst. Warszawy 02 nż
-1386	3	202736	19:31:00	19:31:00		Sikorskiego katedra 04 nż
-1386	3	202736	19:32:00	19:32:00		Sikorskiego / Łukasiewicza 06 nż
-1386	3	202736	19:33:00	19:33:00		Sikorskiego domki 08 nż
-1386	3	202736	19:34:00	19:34:00		Sikorskiego / Strażacka 10 nż
-1386	3	202736	19:35:00	19:35:00		Sikorskiego / Białogórska 12 nż
-1386	3	202736	19:36:00	19:36:00		Sikorskiego / Rodzinna 14 nż
-1386	3	202736	19:37:00	19:37:00		Sikorskiego / Kard. K. Wojtyły 16 nż
-1386	3	202736	19:38:00	19:38:00		Sikorskiego granica 18 nż
-1386	3	202736	19:39:00	19:39:00		Tyczyn Grunwaldzka POM 02 nż
-1386	3	202736	19:40:00	19:40:00		Tyczyn Grunwaldzka park 02 nż
-1386	3	202736	19:42:00	19:42:00		Tyczyn Kopernika 02
+2045	3	222944	19:22:00	19:22:00		Dworaka targ 01
+2045	3	222944	19:24:00	19:24:00		Rejtana / Kustronia 03 nż
+2045	3	222944	19:25:00	19:25:00		Rejtana uniwersytet 05
+2045	3	222944	19:27:00	19:27:00		Rejtana / Kopisto 07
+2045	3	222944	19:28:00	19:28:00		Rejtana / Popiełuszki 09
+2045	3	222944	19:30:00	19:30:00		Sikorskiego / Powst. Warszawy 02 nż
+2045	3	222944	19:31:00	19:31:00		Sikorskiego katedra 04 nż
+2045	3	222944	19:32:00	19:32:00		Sikorskiego / Łukasiewicza 06 nż
+2045	3	222944	19:33:00	19:33:00		Sikorskiego domki 08 nż
+2045	3	222944	19:34:00	19:34:00		Sikorskiego / Strażacka 10 nż
+2045	3	222944	19:35:00	19:35:00		Sikorskiego / Białogórska 12 nż
+2045	3	222944	19:36:00	19:36:00		Sikorskiego / Rodzinna 14 nż
+2045	3	222944	19:37:00	19:37:00		Sikorskiego / Kard. K. Wojtyły 16 nż
+2045	3	222944	19:38:00	19:38:00		Sikorskiego granica 18 nż
+2045	3	222944	19:39:00	19:39:00		Tyczyn Grunwaldzka POM 82 nż
+2045	3	222944	19:40:00	19:40:00		Tyczyn Grunwaldzka park 02 nż
+2045	3	222944	19:42:00	19:42:00		Tyczyn Mickiewicza 04 nż
+2045	3	222944	19:43:00	19:43:00		Tyczyn Kopernika 39
 
-1383	3	198276	20:06:00	20:06:00		Tyczyn Kopernika 02
-1383	3	198276	20:07:00	20:07:00		Tyczyn Grunwaldzka park 01 nż
-1383	3	198276	20:09:00	20:09:00		Tyczyn Grunwaldzka POM 27 nż
-1383	3	198276	20:10:00	20:10:00		Sikorskiego granica 15 nż
-1383	3	198276	20:11:00	20:11:00		Sikorskiego / Ruczajowa 13 nż
-1383	3	198276	20:12:00	20:12:00		Sikorskiego / Kard. K. Wojtyły 11 nż
-1383	3	198276	20:13:00	20:13:00		Sikorskiego / Rodzinna 09 nż
-1383	3	198276	20:14:00	20:14:00		Sikorskiego / Białogórska 07 nż
-1383	3	198276	20:15:00	20:15:00		Sikorskiego / Robotnicza 05 nż
-1383	3	198276	20:16:00	20:16:00		Sikorskiego domki 03 nż
-1383	3	198276	20:18:00	20:18:00		Sikorskiego katedra 01 nż
-1383	3	198276	20:20:00	20:20:00		Rejtana / Armii Krajowej 12
-1383	3	198276	20:21:00	20:21:00		Rejtana / Paderewskiego 10
-1383	3	198276	20:22:00	20:22:00		Rejtana / Krzyżanowskiego 08
-1383	3	198276	20:23:00	20:23:00		Rejtana uniwersytet 06
-1383	3	198276	20:24:00	20:24:00		Rejtana cmentarz 04 nż
-1383	3	198276	20:25:00	20:25:00		Rejtana / Kustronia 02
-1383	3	198276	20:27:00	20:27:00		Dworaka targ 01
+2037	3	222592	20:06:00	20:06:00		Tyczyn Kopernika 39
+2037	3	222592	20:07:00	20:07:00		Tyczyn Grunwaldzka park 01 nż
+2037	3	222592	20:09:00	20:09:00		Tyczyn Grunwaldzka POM 27 nż
+2037	3	222592	20:10:00	20:10:00		Sikorskiego granica 15 nż
+2037	3	222592	20:11:00	20:11:00		Sikorskiego / Ruczajowa 13 nż
+2037	3	222592	20:12:00	20:12:00		Sikorskiego / Kard. K. Wojtyły 11 nż
+2037	3	222592	20:13:00	20:13:00		Sikorskiego / Rodzinna 09 nż
+2037	3	222592	20:14:00	20:14:00		Sikorskiego / Białogórska 07 nż
+2037	3	222592	20:15:00	20:15:00		Sikorskiego / Robotnicza 05 nż
+2037	3	222592	20:16:00	20:16:00		Sikorskiego domki 03 nż
+2037	3	222592	20:18:00	20:18:00		Sikorskiego katedra 01 nż
+2037	3	222592	20:20:00	20:20:00		Rejtana / Armii Krajowej 12
+2037	3	222592	20:21:00	20:21:00		Rejtana / Paderewskiego 10
+2037	3	222592	20:22:00	20:22:00		Rejtana / Krzyżanowskiego 08
+2037	3	222592	20:23:00	20:23:00		Rejtana uniwersytet 06
+2037	3	222592	20:24:00	20:24:00		Rejtana cmentarz 04 nż
+2037	3	222592	20:25:00	20:25:00		Rejtana / Kustronia 02
+2037	3	222592	20:27:00	20:27:00		Dworaka targ 01
 
-1386	3	201094	20:52:00	20:52:00		Dworaka targ 01
-1386	3	201094	20:54:00	20:54:00		Rejtana / Kustronia 03 nż
-1386	3	201094	20:55:00	20:55:00		Rejtana uniwersytet 05
-1386	3	201094	20:57:00	20:57:00		Rejtana / Kopisto 07
-1386	3	201094	20:58:00	20:58:00		Rejtana / Popiełuszki 09
-1386	3	201094	21:00:00	21:00:00		Sikorskiego / Powst. Warszawy 02 nż
-1386	3	201094	21:01:00	21:01:00		Sikorskiego katedra 04 nż
-1386	3	201094	21:02:00	21:02:00		Sikorskiego / Łukasiewicza 06 nż
-1386	3	201094	21:03:00	21:03:00		Sikorskiego domki 08 nż
-1386	3	201094	21:04:00	21:04:00		Sikorskiego / Strażacka 10 nż
-1386	3	201094	21:05:00	21:05:00		Sikorskiego / Białogórska 12 nż
-1386	3	201094	21:06:00	21:06:00		Sikorskiego / Rodzinna 14 nż
-1386	3	201094	21:07:00	21:07:00		Sikorskiego / Kard. K. Wojtyły 16 nż
-1386	3	201094	21:08:00	21:08:00		Sikorskiego granica 18 nż
-1386	3	201094	21:09:00	21:09:00		Tyczyn Grunwaldzka POM 02 nż
-1386	3	201094	21:10:00	21:10:00		Tyczyn Grunwaldzka park 02 nż
-1386	3	201094	21:12:00	21:12:00		Tyczyn Kopernika 02
+2045	3	223258	20:52:00	20:52:00		Dworaka targ 01
+2045	3	223258	20:54:00	20:54:00		Rejtana / Kustronia 03 nż
+2045	3	223258	20:55:00	20:55:00		Rejtana uniwersytet 05
+2045	3	223258	20:57:00	20:57:00		Rejtana / Kopisto 07
+2045	3	223258	20:58:00	20:58:00		Rejtana / Popiełuszki 09
+2045	3	223258	21:00:00	21:00:00		Sikorskiego / Powst. Warszawy 02 nż
+2045	3	223258	21:01:00	21:01:00		Sikorskiego katedra 04 nż
+2045	3	223258	21:02:00	21:02:00		Sikorskiego / Łukasiewicza 06 nż
+2045	3	223258	21:03:00	21:03:00		Sikorskiego domki 08 nż
+2045	3	223258	21:04:00	21:04:00		Sikorskiego / Strażacka 10 nż
+2045	3	223258	21:05:00	21:05:00		Sikorskiego / Białogórska 12 nż
+2045	3	223258	21:06:00	21:06:00		Sikorskiego / Rodzinna 14 nż
+2045	3	223258	21:07:00	21:07:00		Sikorskiego / Kard. K. Wojtyły 16 nż
+2045	3	223258	21:08:00	21:08:00		Sikorskiego granica 18 nż
+2045	3	223258	21:09:00	21:09:00		Tyczyn Grunwaldzka POM 82 nż
+2045	3	223258	21:10:00	21:10:00		Tyczyn Grunwaldzka park 02 nż
+2045	3	223258	21:12:00	21:12:00		Tyczyn Mickiewicza 04 nż
+2045	3	223258	21:13:00	21:13:00		Tyczyn Kopernika 39
 
-1383	3	198978	21:16:00	21:16:00		Tyczyn Kopernika 02
-1383	3	198978	21:17:00	21:17:00		Tyczyn Grunwaldzka park 01 nż
-1383	3	198978	21:19:00	21:19:00		Tyczyn Grunwaldzka POM 27 nż
-1383	3	198978	21:20:00	21:20:00		Sikorskiego granica 15 nż
-1383	3	198978	21:21:00	21:21:00		Sikorskiego / Ruczajowa 13 nż
-1383	3	198978	21:22:00	21:22:00		Sikorskiego / Kard. K. Wojtyły 11 nż
-1383	3	198978	21:23:00	21:23:00		Sikorskiego / Rodzinna 09 nż
-1383	3	198978	21:24:00	21:24:00		Sikorskiego / Białogórska 07 nż
-1383	3	198978	21:25:00	21:25:00		Sikorskiego / Robotnicza 05 nż
-1383	3	198978	21:26:00	21:26:00		Sikorskiego domki 03 nż
-1383	3	198978	21:28:00	21:28:00		Sikorskiego katedra 01 nż
-1383	3	198978	21:30:00	21:30:00		Rejtana / Armii Krajowej 12
-1383	3	198978	21:31:00	21:31:00		Rejtana / Paderewskiego 10
-1383	3	198978	21:32:00	21:32:00		Rejtana / Krzyżanowskiego 08
-1383	3	198978	21:33:00	21:33:00		Rejtana uniwersytet 06
-1383	3	198978	21:34:00	21:34:00		Rejtana cmentarz 04 nż
-1383	3	198978	21:35:00	21:35:00		Rejtana / Kustronia 02
-1383	3	198978	21:37:00	21:37:00		Dworaka targ 01
+2037	3	223125	21:16:00	21:16:00		Tyczyn Kopernika 39
+2037	3	223125	21:17:00	21:17:00		Tyczyn Grunwaldzka park 01 nż
+2037	3	223125	21:19:00	21:19:00		Tyczyn Grunwaldzka POM 27 nż
+2037	3	223125	21:20:00	21:20:00		Sikorskiego granica 15 nż
+2037	3	223125	21:21:00	21:21:00		Sikorskiego / Ruczajowa 13 nż
+2037	3	223125	21:22:00	21:22:00		Sikorskiego / Kard. K. Wojtyły 11 nż
+2037	3	223125	21:23:00	21:23:00		Sikorskiego / Rodzinna 09 nż
+2037	3	223125	21:24:00	21:24:00		Sikorskiego / Białogórska 07 nż
+2037	3	223125	21:25:00	21:25:00		Sikorskiego / Robotnicza 05 nż
+2037	3	223125	21:26:00	21:26:00		Sikorskiego domki 03 nż
+2037	3	223125	21:28:00	21:28:00		Sikorskiego katedra 01 nż
+2037	3	223125	21:30:00	21:30:00		Rejtana / Armii Krajowej 12
+2037	3	223125	21:31:00	21:31:00		Rejtana / Paderewskiego 10
+2037	3	223125	21:32:00	21:32:00		Rejtana / Krzyżanowskiego 08
+2037	3	223125	21:33:00	21:33:00		Rejtana uniwersytet 06
+2037	3	223125	21:34:00	21:34:00		Rejtana cmentarz 04 nż
+2037	3	223125	21:35:00	21:35:00		Rejtana / Kustronia 02
+2037	3	223125	21:37:00	21:37:00		Dworaka targ 01

@@ -1,936 +1,936 @@
 route_id	service_id	trip_id	arrival_time	departure_time	stop_headsign	stop_name
 -------------------------------------------------------------------------------
-1058	1	220414	04:00:00	04:00:00		Lubelska Zajezdnia MPK
-1058	1	220414	04:01:00	04:01:00		Lubelska MPK 13 nż
-1058	1	220414	04:01:00	04:01:00		Lubelska MPK 13 nż
-1058	1	220414	04:02:00	04:02:00		Lubelska Ogrody Hiszpańskie 11 nż
-1058	1	220414	04:02:00	04:02:00		Lubelska Ogrody Hiszpańskie 11 nż
-1058	1	220414	04:03:00	04:03:00		Lubelska Os. Ogrody 09 nż
-1058	1	220414	04:03:00	04:03:00		Lubelska Os. Ogrody 09 nż
-1058	1	220414	04:04:00	04:04:00		Lubelska / Borowa 07 nż
-1058	1	220414	04:04:00	04:04:00		Lubelska / Borowa 07 nż
-1058	1	220414	04:05:00	04:05:00		Lubelska kościół 05 nż
-1058	1	220414	04:05:00	04:05:00		Lubelska kościół 05 nż
-1058	1	220414	04:06:00	04:06:00		Lubelska szpital 01
-1058	1	220414	04:06:00	04:06:00		Lubelska szpital 01
-1058	1	220414	04:07:00	04:07:00		Marszałkowska 01
-1058	1	220414	04:07:00	04:07:00		Marszałkowska 01
-1058	1	220414	04:08:00	04:08:00		Piłsudskiego U. Marszałkowski 08
-1058	1	220414	04:08:00	04:08:00		Piłsudskiego U. Marszałkowski 08
-1058	1	220414	04:10:00	04:10:00		Krakowska jedn. wojskowa 02
-1058	1	220414	04:10:00	04:10:00		Krakowska jedn. wojskowa 02
-1058	1	220414	04:11:00	04:11:00		Krakowska szpital 04
-1058	1	220414	04:11:00	04:11:00		Krakowska szpital 04
-1058	1	220414	04:12:00	04:12:00		Krakowska galeria 06
-1058	1	220414	04:12:00	04:12:00		Krakowska galeria 06
-1058	1	220414	04:13:00	04:13:00		Krakowska / Wyzwolenia 08 nż
-1058	1	220414	04:13:00	04:13:00		Krakowska / Wyzwolenia 08 nż
-1058	1	220414	04:15:00	04:15:00		Dębicka / Krakowska 02 nż
-1058	1	220414	04:15:00	04:15:00		Dębicka / Krakowska 02 nż
-1058	1	220414	04:16:00	04:16:00		Dębicka kościół 04 nż
-1058	1	220414	04:16:00	04:16:00		Dębicka kościół 04 nż
-1058	1	220414	04:17:00	04:17:00		Dębicka / Ustrzycka 06 nż
-1058	1	220414	04:17:00	04:17:00		Dębicka / Ustrzycka 06 nż
-1058	1	220414	04:18:00	04:18:00		Dębicka dom kultury 08 nż
-1058	1	220414	04:18:00	04:18:00		Dębicka dom kultury 08 nż
-1058	1	220414	04:20:00	04:20:00		Dębicka szkoła 10 nż
-1058	1	220414	04:20:00	04:20:00		Dębicka szkoła 10 nż
-1058	1	220414	04:21:00	04:21:00		Dębicka / Stadionowa 12 nż
-1058	1	220414	04:21:00	04:21:00		Dębicka / Stadionowa 12 nż
-1058	1	220414	04:22:00	04:22:00		Dębicka / Złocista 14 nż
-1058	1	220414	04:22:00	04:22:00		Dębicka / Złocista 14 nż
-1058	1	220414	04:23:00	04:23:00		Dębicka / Ciche Wzgórze 16 nż
-1058	1	220414	04:23:00	04:23:00		Dębicka / Ciche Wzgórze 16 nż
-1058	1	220414	04:24:00	04:24:00		Dębicka / Działowa 18 nż
-1058	1	220414	04:24:00	04:24:00		Dębicka / Działowa 18 nż
-1058	1	220414	04:25:00	04:25:00		Dębicka / Leśne Wzgórze 20 nż
-1058	1	220414	04:25:00	04:25:00		Dębicka / Leśne Wzgórze 20 nż
-1058	1	220414	04:26:00	04:26:00		Dębicka / Św. Jakuba 22 nż
-1058	1	220414	04:26:00	04:26:00		Dębicka / Św. Jakuba 22 nż
-1058	1	220414	04:27:00	04:27:00		Kalinowa / Dębicka 02 nż
-1058	1	220414	04:27:00	04:27:00		Kalinowa / Dębicka 02 nż
-1058	1	220414	04:28:00	04:28:00		Kalinowa pętla 04
-1058	1	220414	04:28:00	04:28:00		Kalinowa pętla 04
+1058	4	220414	04:00:00	04:00:00		Lubelska Zajezdnia MPK
+1058	4	220414	04:01:00	04:01:00		Lubelska MPK 13 nż
+1058	4	220414	04:01:00	04:01:00		Lubelska MPK 13 nż
+1058	4	220414	04:02:00	04:02:00		Lubelska Ogrody Hiszpańskie 11 nż
+1058	4	220414	04:02:00	04:02:00		Lubelska Ogrody Hiszpańskie 11 nż
+1058	4	220414	04:03:00	04:03:00		Lubelska Os. Ogrody 09 nż
+1058	4	220414	04:03:00	04:03:00		Lubelska Os. Ogrody 09 nż
+1058	4	220414	04:04:00	04:04:00		Lubelska / Borowa 07 nż
+1058	4	220414	04:04:00	04:04:00		Lubelska / Borowa 07 nż
+1058	4	220414	04:05:00	04:05:00		Lubelska kościół 05 nż
+1058	4	220414	04:05:00	04:05:00		Lubelska kościół 05 nż
+1058	4	220414	04:06:00	04:06:00		Lubelska szpital 01
+1058	4	220414	04:06:00	04:06:00		Lubelska szpital 01
+1058	4	220414	04:07:00	04:07:00		Marszałkowska 01
+1058	4	220414	04:07:00	04:07:00		Marszałkowska 01
+1058	4	220414	04:08:00	04:08:00		Piłsudskiego U. Marszałkowski 08
+1058	4	220414	04:08:00	04:08:00		Piłsudskiego U. Marszałkowski 08
+1058	4	220414	04:10:00	04:10:00		Krakowska jedn. wojskowa 02
+1058	4	220414	04:10:00	04:10:00		Krakowska jedn. wojskowa 02
+1058	4	220414	04:11:00	04:11:00		Krakowska szpital 04
+1058	4	220414	04:11:00	04:11:00		Krakowska szpital 04
+1058	4	220414	04:12:00	04:12:00		Krakowska galeria 06
+1058	4	220414	04:12:00	04:12:00		Krakowska galeria 06
+1058	4	220414	04:13:00	04:13:00		Krakowska / Wyzwolenia 08 nż
+1058	4	220414	04:13:00	04:13:00		Krakowska / Wyzwolenia 08 nż
+1058	4	220414	04:15:00	04:15:00		Dębicka / Krakowska 02 nż
+1058	4	220414	04:15:00	04:15:00		Dębicka / Krakowska 02 nż
+1058	4	220414	04:16:00	04:16:00		Dębicka kościół 04 nż
+1058	4	220414	04:16:00	04:16:00		Dębicka kościół 04 nż
+1058	4	220414	04:17:00	04:17:00		Dębicka / Ustrzycka 06 nż
+1058	4	220414	04:17:00	04:17:00		Dębicka / Ustrzycka 06 nż
+1058	4	220414	04:18:00	04:18:00		Dębicka dom kultury 08 nż
+1058	4	220414	04:18:00	04:18:00		Dębicka dom kultury 08 nż
+1058	4	220414	04:20:00	04:20:00		Dębicka szkoła 10 nż
+1058	4	220414	04:20:00	04:20:00		Dębicka szkoła 10 nż
+1058	4	220414	04:21:00	04:21:00		Dębicka / Stadionowa 12 nż
+1058	4	220414	04:21:00	04:21:00		Dębicka / Stadionowa 12 nż
+1058	4	220414	04:22:00	04:22:00		Dębicka / Złocista 14 nż
+1058	4	220414	04:22:00	04:22:00		Dębicka / Złocista 14 nż
+1058	4	220414	04:23:00	04:23:00		Dębicka / Ciche Wzgórze 16 nż
+1058	4	220414	04:23:00	04:23:00		Dębicka / Ciche Wzgórze 16 nż
+1058	4	220414	04:24:00	04:24:00		Dębicka / Działowa 18 nż
+1058	4	220414	04:24:00	04:24:00		Dębicka / Działowa 18 nż
+1058	4	220414	04:25:00	04:25:00		Dębicka / Leśne Wzgórze 20 nż
+1058	4	220414	04:25:00	04:25:00		Dębicka / Leśne Wzgórze 20 nż
+1058	4	220414	04:26:00	04:26:00		Dębicka / Św. Jakuba 22 nż
+1058	4	220414	04:26:00	04:26:00		Dębicka / Św. Jakuba 22 nż
+1058	4	220414	04:27:00	04:27:00		Kalinowa / Dębicka 02 nż
+1058	4	220414	04:27:00	04:27:00		Kalinowa / Dębicka 02 nż
+1058	4	220414	04:28:00	04:28:00		Kalinowa pętla 04
+1058	4	220414	04:28:00	04:28:00		Kalinowa pętla 04
 
-1061	1	220475	04:48:00	04:48:00		Kalinowa pętla 04
-1061	1	220475	04:48:00	04:48:00		Kalinowa pętla 04
-1061	1	220475	04:49:00	04:49:00		Kalinowa / Dębicka 01 nż
-1061	1	220475	04:49:00	04:49:00		Kalinowa / Dębicka 01 nż
-1061	1	220475	04:50:00	04:50:00		Dębicka / Św. Jakuba 19 nż
-1061	1	220475	04:50:00	04:50:00		Dębicka / Św. Jakuba 19 nż
-1061	1	220475	04:52:00	04:52:00		Dębicka / Działowa 17 nż
-1061	1	220475	04:52:00	04:52:00		Dębicka / Działowa 17 nż
-1061	1	220475	04:53:00	04:53:00		Dębicka / Ciche Wzgórze 15 nż
-1061	1	220475	04:53:00	04:53:00		Dębicka / Ciche Wzgórze 15 nż
-1061	1	220475	04:54:00	04:54:00		Dębicka / Złocista 13 nż
-1061	1	220475	04:54:00	04:54:00		Dębicka / Złocista 13 nż
-1061	1	220475	04:55:00	04:55:00		Dębicka / Stadionowa 11 nż
-1061	1	220475	04:55:00	04:55:00		Dębicka / Stadionowa 11 nż
-1061	1	220475	04:56:00	04:56:00		Dębicka szkoła 09 nż
-1061	1	220475	04:56:00	04:56:00		Dębicka szkoła 09 nż
-1061	1	220475	04:57:00	04:57:00		Dębicka dom kultury 07 nż
-1061	1	220475	04:57:00	04:57:00		Dębicka dom kultury 07 nż
-1061	1	220475	04:58:00	04:58:00		Dębicka / Ustrzycka 05 nż
-1061	1	220475	04:58:00	04:58:00		Dębicka / Ustrzycka 05 nż
-1061	1	220475	04:59:00	04:59:00		Dębicka kościół 03 nż
-1061	1	220475	04:59:00	04:59:00		Dębicka kościół 03 nż
-1061	1	220475	05:00:00	05:00:00		Dębicka / Krakowska 01 nż
-1061	1	220475	05:00:00	05:00:00		Dębicka / Krakowska 01 nż
-1061	1	220475	05:01:00	05:01:00		Krakowska / Mielecka 07 nż
-1061	1	220475	05:01:00	05:01:00		Krakowska / Mielecka 07 nż
-1061	1	220475	05:02:00	05:02:00		Krakowska galeria 05
-1061	1	220475	05:02:00	05:02:00		Krakowska galeria 05
-1061	1	220475	05:03:00	05:03:00		Krakowska szpital 03
-1061	1	220475	05:03:00	05:03:00		Krakowska szpital 03
-1061	1	220475	05:04:00	05:04:00		Krakowska jedn. wojskowa 01
-1061	1	220475	05:04:00	05:04:00		Krakowska jedn. wojskowa 01
-1061	1	220475	05:05:00	05:05:00		Piłsudskiego U. Marszałkowski 07
-1061	1	220475	05:05:00	05:05:00		Piłsudskiego U. Marszałkowski 07
-1061	1	220475	05:07:00	05:07:00		Marszałkowska 02
-1061	1	220475	05:07:00	05:07:00		Marszałkowska 02
-1061	1	220475	05:08:00	05:08:00		Lubelska szpital 02
-1061	1	220475	05:08:00	05:08:00		Lubelska szpital 02
-1061	1	220475	05:09:00	05:09:00		Lubelska kościół 06 nż
-1061	1	220475	05:09:00	05:09:00		Lubelska kościół 06 nż
-1061	1	220475	05:10:00	05:10:00		Lubelska / Borowa 08 nż
-1061	1	220475	05:10:00	05:10:00		Lubelska / Borowa 08 nż
-1061	1	220475	05:11:00	05:11:00		Lubelska Os. Ogrody 10 nż
-1061	1	220475	05:11:00	05:11:00		Lubelska Os. Ogrody 10 nż
-1061	1	220475	05:12:00	05:12:00		Lubelska Ogrody Hiszpańskie 12 nż
-1061	1	220475	05:12:00	05:12:00		Lubelska Ogrody Hiszpańskie 12 nż
-1061	1	220475	05:13:00	05:13:00		Lubelska MPK 14 nż
-1061	1	220475	05:13:00	05:13:00		Lubelska MPK 14 nż
-1061	1	220475	05:14:00	05:14:00		Lubelska Zajezdnia MPK
-1061	1	220475	05:14:00	05:14:00		Lubelska Zajezdnia MPK
+1061	4	220475	04:48:00	04:48:00		Kalinowa pętla 04
+1061	4	220475	04:48:00	04:48:00		Kalinowa pętla 04
+1061	4	220475	04:49:00	04:49:00		Kalinowa / Dębicka 01 nż
+1061	4	220475	04:49:00	04:49:00		Kalinowa / Dębicka 01 nż
+1061	4	220475	04:50:00	04:50:00		Dębicka / Św. Jakuba 19 nż
+1061	4	220475	04:50:00	04:50:00		Dębicka / Św. Jakuba 19 nż
+1061	4	220475	04:52:00	04:52:00		Dębicka / Działowa 17 nż
+1061	4	220475	04:52:00	04:52:00		Dębicka / Działowa 17 nż
+1061	4	220475	04:53:00	04:53:00		Dębicka / Ciche Wzgórze 15 nż
+1061	4	220475	04:53:00	04:53:00		Dębicka / Ciche Wzgórze 15 nż
+1061	4	220475	04:54:00	04:54:00		Dębicka / Złocista 13 nż
+1061	4	220475	04:54:00	04:54:00		Dębicka / Złocista 13 nż
+1061	4	220475	04:55:00	04:55:00		Dębicka / Stadionowa 11 nż
+1061	4	220475	04:55:00	04:55:00		Dębicka / Stadionowa 11 nż
+1061	4	220475	04:56:00	04:56:00		Dębicka szkoła 09 nż
+1061	4	220475	04:56:00	04:56:00		Dębicka szkoła 09 nż
+1061	4	220475	04:57:00	04:57:00		Dębicka dom kultury 07 nż
+1061	4	220475	04:57:00	04:57:00		Dębicka dom kultury 07 nż
+1061	4	220475	04:58:00	04:58:00		Dębicka / Ustrzycka 05 nż
+1061	4	220475	04:58:00	04:58:00		Dębicka / Ustrzycka 05 nż
+1061	4	220475	04:59:00	04:59:00		Dębicka kościół 03 nż
+1061	4	220475	04:59:00	04:59:00		Dębicka kościół 03 nż
+1061	4	220475	05:00:00	05:00:00		Dębicka / Krakowska 01 nż
+1061	4	220475	05:00:00	05:00:00		Dębicka / Krakowska 01 nż
+1061	4	220475	05:01:00	05:01:00		Krakowska / Mielecka 07 nż
+1061	4	220475	05:01:00	05:01:00		Krakowska / Mielecka 07 nż
+1061	4	220475	05:02:00	05:02:00		Krakowska galeria 05
+1061	4	220475	05:02:00	05:02:00		Krakowska galeria 05
+1061	4	220475	05:03:00	05:03:00		Krakowska szpital 03
+1061	4	220475	05:03:00	05:03:00		Krakowska szpital 03
+1061	4	220475	05:04:00	05:04:00		Krakowska jedn. wojskowa 01
+1061	4	220475	05:04:00	05:04:00		Krakowska jedn. wojskowa 01
+1061	4	220475	05:05:00	05:05:00		Piłsudskiego U. Marszałkowski 07
+1061	4	220475	05:05:00	05:05:00		Piłsudskiego U. Marszałkowski 07
+1061	4	220475	05:07:00	05:07:00		Marszałkowska 02
+1061	4	220475	05:07:00	05:07:00		Marszałkowska 02
+1061	4	220475	05:08:00	05:08:00		Lubelska szpital 02
+1061	4	220475	05:08:00	05:08:00		Lubelska szpital 02
+1061	4	220475	05:09:00	05:09:00		Lubelska kościół 06 nż
+1061	4	220475	05:09:00	05:09:00		Lubelska kościół 06 nż
+1061	4	220475	05:10:00	05:10:00		Lubelska / Borowa 08 nż
+1061	4	220475	05:10:00	05:10:00		Lubelska / Borowa 08 nż
+1061	4	220475	05:11:00	05:11:00		Lubelska Os. Ogrody 10 nż
+1061	4	220475	05:11:00	05:11:00		Lubelska Os. Ogrody 10 nż
+1061	4	220475	05:12:00	05:12:00		Lubelska Ogrody Hiszpańskie 12 nż
+1061	4	220475	05:12:00	05:12:00		Lubelska Ogrody Hiszpańskie 12 nż
+1061	4	220475	05:13:00	05:13:00		Lubelska MPK 14 nż
+1061	4	220475	05:13:00	05:13:00		Lubelska MPK 14 nż
+1061	4	220475	05:14:00	05:14:00		Lubelska Zajezdnia MPK
+1061	4	220475	05:14:00	05:14:00		Lubelska Zajezdnia MPK
 
-1058	1	220648	06:00:00	06:00:00		Lubelska Zajezdnia MPK
-1058	1	220648	06:00:00	06:00:00		Lubelska Zajezdnia MPK
-1058	1	220648	06:01:00	06:01:00		Lubelska MPK 13 nż
-1058	1	220648	06:01:00	06:01:00		Lubelska MPK 13 nż
-1058	1	220648	06:02:00	06:02:00		Lubelska Ogrody Hiszpańskie 11 nż
-1058	1	220648	06:02:00	06:02:00		Lubelska Ogrody Hiszpańskie 11 nż
-1058	1	220648	06:03:00	06:03:00		Lubelska Os. Ogrody 09 nż
-1058	1	220648	06:03:00	06:03:00		Lubelska Os. Ogrody 09 nż
-1058	1	220648	06:04:00	06:04:00		Lubelska / Borowa 07 nż
-1058	1	220648	06:04:00	06:04:00		Lubelska / Borowa 07 nż
-1058	1	220648	06:05:00	06:05:00		Lubelska kościół 05 nż
-1058	1	220648	06:05:00	06:05:00		Lubelska kościół 05 nż
-1058	1	220648	06:06:00	06:06:00		Lubelska szpital 01
-1058	1	220648	06:06:00	06:06:00		Lubelska szpital 01
-1058	1	220648	06:07:00	06:07:00		Marszałkowska 01
-1058	1	220648	06:07:00	06:07:00		Marszałkowska 01
-1058	1	220648	06:08:00	06:08:00		Piłsudskiego U. Marszałkowski 08
-1058	1	220648	06:08:00	06:08:00		Piłsudskiego U. Marszałkowski 08
-1058	1	220648	06:10:00	06:10:00		Krakowska jedn. wojskowa 02
-1058	1	220648	06:10:00	06:10:00		Krakowska jedn. wojskowa 02
-1058	1	220648	06:11:00	06:11:00		Krakowska szpital 04
-1058	1	220648	06:11:00	06:11:00		Krakowska szpital 04
-1058	1	220648	06:12:00	06:12:00		Krakowska galeria 06
-1058	1	220648	06:12:00	06:12:00		Krakowska galeria 06
-1058	1	220648	06:13:00	06:13:00		Krakowska / Wyzwolenia 08 nż
-1058	1	220648	06:13:00	06:13:00		Krakowska / Wyzwolenia 08 nż
-1058	1	220648	06:15:00	06:15:00		Dębicka / Krakowska 02 nż
-1058	1	220648	06:15:00	06:15:00		Dębicka / Krakowska 02 nż
-1058	1	220648	06:16:00	06:16:00		Dębicka kościół 04 nż
-1058	1	220648	06:16:00	06:16:00		Dębicka kościół 04 nż
-1058	1	220648	06:17:00	06:17:00		Dębicka / Ustrzycka 06 nż
-1058	1	220648	06:17:00	06:17:00		Dębicka / Ustrzycka 06 nż
-1058	1	220648	06:18:00	06:18:00		Dębicka dom kultury 08 nż
-1058	1	220648	06:18:00	06:18:00		Dębicka dom kultury 08 nż
-1058	1	220648	06:20:00	06:20:00		Dębicka szkoła 10 nż
-1058	1	220648	06:20:00	06:20:00		Dębicka szkoła 10 nż
-1058	1	220648	06:21:00	06:21:00		Dębicka / Stadionowa 12 nż
-1058	1	220648	06:21:00	06:21:00		Dębicka / Stadionowa 12 nż
-1058	1	220648	06:22:00	06:22:00		Dębicka / Złocista 14 nż
-1058	1	220648	06:22:00	06:22:00		Dębicka / Złocista 14 nż
-1058	1	220648	06:23:00	06:23:00		Dębicka / Ciche Wzgórze 16 nż
-1058	1	220648	06:23:00	06:23:00		Dębicka / Ciche Wzgórze 16 nż
-1058	1	220648	06:24:00	06:24:00		Dębicka / Działowa 18 nż
-1058	1	220648	06:24:00	06:24:00		Dębicka / Działowa 18 nż
-1058	1	220648	06:25:00	06:25:00		Dębicka / Leśne Wzgórze 20 nż
-1058	1	220648	06:25:00	06:25:00		Dębicka / Leśne Wzgórze 20 nż
-1058	1	220648	06:26:00	06:26:00		Dębicka / Św. Jakuba 22 nż
-1058	1	220648	06:26:00	06:26:00		Dębicka / Św. Jakuba 22 nż
-1058	1	220648	06:27:00	06:27:00		Kalinowa / Dębicka 02 nż
-1058	1	220648	06:27:00	06:27:00		Kalinowa / Dębicka 02 nż
-1058	1	220648	06:28:00	06:28:00		Kalinowa pętla 04
-1058	1	220648	06:28:00	06:28:00		Kalinowa pętla 04
+1058	4	220648	06:00:00	06:00:00		Lubelska Zajezdnia MPK
+1058	4	220648	06:00:00	06:00:00		Lubelska Zajezdnia MPK
+1058	4	220648	06:01:00	06:01:00		Lubelska MPK 13 nż
+1058	4	220648	06:01:00	06:01:00		Lubelska MPK 13 nż
+1058	4	220648	06:02:00	06:02:00		Lubelska Ogrody Hiszpańskie 11 nż
+1058	4	220648	06:02:00	06:02:00		Lubelska Ogrody Hiszpańskie 11 nż
+1058	4	220648	06:03:00	06:03:00		Lubelska Os. Ogrody 09 nż
+1058	4	220648	06:03:00	06:03:00		Lubelska Os. Ogrody 09 nż
+1058	4	220648	06:04:00	06:04:00		Lubelska / Borowa 07 nż
+1058	4	220648	06:04:00	06:04:00		Lubelska / Borowa 07 nż
+1058	4	220648	06:05:00	06:05:00		Lubelska kościół 05 nż
+1058	4	220648	06:05:00	06:05:00		Lubelska kościół 05 nż
+1058	4	220648	06:06:00	06:06:00		Lubelska szpital 01
+1058	4	220648	06:06:00	06:06:00		Lubelska szpital 01
+1058	4	220648	06:07:00	06:07:00		Marszałkowska 01
+1058	4	220648	06:07:00	06:07:00		Marszałkowska 01
+1058	4	220648	06:08:00	06:08:00		Piłsudskiego U. Marszałkowski 08
+1058	4	220648	06:08:00	06:08:00		Piłsudskiego U. Marszałkowski 08
+1058	4	220648	06:10:00	06:10:00		Krakowska jedn. wojskowa 02
+1058	4	220648	06:10:00	06:10:00		Krakowska jedn. wojskowa 02
+1058	4	220648	06:11:00	06:11:00		Krakowska szpital 04
+1058	4	220648	06:11:00	06:11:00		Krakowska szpital 04
+1058	4	220648	06:12:00	06:12:00		Krakowska galeria 06
+1058	4	220648	06:12:00	06:12:00		Krakowska galeria 06
+1058	4	220648	06:13:00	06:13:00		Krakowska / Wyzwolenia 08 nż
+1058	4	220648	06:13:00	06:13:00		Krakowska / Wyzwolenia 08 nż
+1058	4	220648	06:15:00	06:15:00		Dębicka / Krakowska 02 nż
+1058	4	220648	06:15:00	06:15:00		Dębicka / Krakowska 02 nż
+1058	4	220648	06:16:00	06:16:00		Dębicka kościół 04 nż
+1058	4	220648	06:16:00	06:16:00		Dębicka kościół 04 nż
+1058	4	220648	06:17:00	06:17:00		Dębicka / Ustrzycka 06 nż
+1058	4	220648	06:17:00	06:17:00		Dębicka / Ustrzycka 06 nż
+1058	4	220648	06:18:00	06:18:00		Dębicka dom kultury 08 nż
+1058	4	220648	06:18:00	06:18:00		Dębicka dom kultury 08 nż
+1058	4	220648	06:20:00	06:20:00		Dębicka szkoła 10 nż
+1058	4	220648	06:20:00	06:20:00		Dębicka szkoła 10 nż
+1058	4	220648	06:21:00	06:21:00		Dębicka / Stadionowa 12 nż
+1058	4	220648	06:21:00	06:21:00		Dębicka / Stadionowa 12 nż
+1058	4	220648	06:22:00	06:22:00		Dębicka / Złocista 14 nż
+1058	4	220648	06:22:00	06:22:00		Dębicka / Złocista 14 nż
+1058	4	220648	06:23:00	06:23:00		Dębicka / Ciche Wzgórze 16 nż
+1058	4	220648	06:23:00	06:23:00		Dębicka / Ciche Wzgórze 16 nż
+1058	4	220648	06:24:00	06:24:00		Dębicka / Działowa 18 nż
+1058	4	220648	06:24:00	06:24:00		Dębicka / Działowa 18 nż
+1058	4	220648	06:25:00	06:25:00		Dębicka / Leśne Wzgórze 20 nż
+1058	4	220648	06:25:00	06:25:00		Dębicka / Leśne Wzgórze 20 nż
+1058	4	220648	06:26:00	06:26:00		Dębicka / Św. Jakuba 22 nż
+1058	4	220648	06:26:00	06:26:00		Dębicka / Św. Jakuba 22 nż
+1058	4	220648	06:27:00	06:27:00		Kalinowa / Dębicka 02 nż
+1058	4	220648	06:27:00	06:27:00		Kalinowa / Dębicka 02 nż
+1058	4	220648	06:28:00	06:28:00		Kalinowa pętla 04
+1058	4	220648	06:28:00	06:28:00		Kalinowa pętla 04
 
-1061	1	220563	06:47:00	06:47:00		Kalinowa pętla 04
-1061	1	220563	06:47:00	06:47:00		Kalinowa pętla 04
-1061	1	220563	06:48:00	06:48:00		Kalinowa / Dębicka 01 nż
-1061	1	220563	06:48:00	06:48:00		Kalinowa / Dębicka 01 nż
-1061	1	220563	06:49:00	06:49:00		Dębicka / Św. Jakuba 19 nż
-1061	1	220563	06:49:00	06:49:00		Dębicka / Św. Jakuba 19 nż
-1061	1	220563	06:51:00	06:51:00		Dębicka / Działowa 17 nż
-1061	1	220563	06:51:00	06:51:00		Dębicka / Działowa 17 nż
-1061	1	220563	06:52:00	06:52:00		Dębicka / Ciche Wzgórze 15 nż
-1061	1	220563	06:52:00	06:52:00		Dębicka / Ciche Wzgórze 15 nż
-1061	1	220563	06:53:00	06:53:00		Dębicka / Złocista 13 nż
-1061	1	220563	06:53:00	06:53:00		Dębicka / Złocista 13 nż
-1061	1	220563	06:54:00	06:54:00		Dębicka / Stadionowa 11 nż
-1061	1	220563	06:54:00	06:54:00		Dębicka / Stadionowa 11 nż
-1061	1	220563	06:55:00	06:55:00		Dębicka szkoła 09 nż
-1061	1	220563	06:55:00	06:55:00		Dębicka szkoła 09 nż
-1061	1	220563	06:56:00	06:56:00		Dębicka dom kultury 07 nż
-1061	1	220563	06:56:00	06:56:00		Dębicka dom kultury 07 nż
-1061	1	220563	06:57:00	06:57:00		Dębicka / Ustrzycka 05 nż
-1061	1	220563	06:57:00	06:57:00		Dębicka / Ustrzycka 05 nż
-1061	1	220563	06:58:00	06:58:00		Dębicka kościół 03 nż
-1061	1	220563	06:58:00	06:58:00		Dębicka kościół 03 nż
-1061	1	220563	06:59:00	06:59:00		Dębicka / Krakowska 01 nż
-1061	1	220563	06:59:00	06:59:00		Dębicka / Krakowska 01 nż
-1061	1	220563	07:01:00	07:01:00		Krakowska / Mielecka 07 nż
-1061	1	220563	07:01:00	07:01:00		Krakowska / Mielecka 07 nż
-1061	1	220563	07:02:00	07:02:00		Krakowska galeria 05
-1061	1	220563	07:02:00	07:02:00		Krakowska galeria 05
-1061	1	220563	07:03:00	07:03:00		Krakowska szpital 03
-1061	1	220563	07:03:00	07:03:00		Krakowska szpital 03
-1061	1	220563	07:05:00	07:05:00		Krakowska jedn. wojskowa 01
-1061	1	220563	07:05:00	07:05:00		Krakowska jedn. wojskowa 01
-1061	1	220563	07:07:00	07:07:00		Piłsudskiego U. Marszałkowski 07
-1061	1	220563	07:07:00	07:07:00		Piłsudskiego U. Marszałkowski 07
-1061	1	220563	07:10:00	07:10:00		Marszałkowska 02
-1061	1	220563	07:10:00	07:10:00		Marszałkowska 02
-1061	1	220563	07:11:00	07:11:00		Lubelska szpital 02
-1061	1	220563	07:11:00	07:11:00		Lubelska szpital 02
-1061	1	220563	07:12:00	07:12:00		Lubelska kościół 06 nż
-1061	1	220563	07:12:00	07:12:00		Lubelska kościół 06 nż
-1061	1	220563	07:14:00	07:14:00		Lubelska / Borowa 08 nż
-1061	1	220563	07:14:00	07:14:00		Lubelska / Borowa 08 nż
-1061	1	220563	07:16:00	07:16:00		Lubelska Os. Ogrody 10 nż
-1061	1	220563	07:16:00	07:16:00		Lubelska Os. Ogrody 10 nż
-1061	1	220563	07:17:00	07:17:00		Lubelska Ogrody Hiszpańskie 12 nż
-1061	1	220563	07:17:00	07:17:00		Lubelska Ogrody Hiszpańskie 12 nż
-1061	1	220563	07:18:00	07:18:00		Lubelska MPK 14 nż
-1061	1	220563	07:18:00	07:18:00		Lubelska MPK 14 nż
-1061	1	220563	07:19:00	07:19:00		Lubelska Zajezdnia MPK
-1061	1	220563	07:19:00	07:19:00		Lubelska Zajezdnia MPK
+1061	4	220563	06:47:00	06:47:00		Kalinowa pętla 04
+1061	4	220563	06:47:00	06:47:00		Kalinowa pętla 04
+1061	4	220563	06:48:00	06:48:00		Kalinowa / Dębicka 01 nż
+1061	4	220563	06:48:00	06:48:00		Kalinowa / Dębicka 01 nż
+1061	4	220563	06:49:00	06:49:00		Dębicka / Św. Jakuba 19 nż
+1061	4	220563	06:49:00	06:49:00		Dębicka / Św. Jakuba 19 nż
+1061	4	220563	06:51:00	06:51:00		Dębicka / Działowa 17 nż
+1061	4	220563	06:51:00	06:51:00		Dębicka / Działowa 17 nż
+1061	4	220563	06:52:00	06:52:00		Dębicka / Ciche Wzgórze 15 nż
+1061	4	220563	06:52:00	06:52:00		Dębicka / Ciche Wzgórze 15 nż
+1061	4	220563	06:53:00	06:53:00		Dębicka / Złocista 13 nż
+1061	4	220563	06:53:00	06:53:00		Dębicka / Złocista 13 nż
+1061	4	220563	06:54:00	06:54:00		Dębicka / Stadionowa 11 nż
+1061	4	220563	06:54:00	06:54:00		Dębicka / Stadionowa 11 nż
+1061	4	220563	06:55:00	06:55:00		Dębicka szkoła 09 nż
+1061	4	220563	06:55:00	06:55:00		Dębicka szkoła 09 nż
+1061	4	220563	06:56:00	06:56:00		Dębicka dom kultury 07 nż
+1061	4	220563	06:56:00	06:56:00		Dębicka dom kultury 07 nż
+1061	4	220563	06:57:00	06:57:00		Dębicka / Ustrzycka 05 nż
+1061	4	220563	06:57:00	06:57:00		Dębicka / Ustrzycka 05 nż
+1061	4	220563	06:58:00	06:58:00		Dębicka kościół 03 nż
+1061	4	220563	06:58:00	06:58:00		Dębicka kościół 03 nż
+1061	4	220563	06:59:00	06:59:00		Dębicka / Krakowska 01 nż
+1061	4	220563	06:59:00	06:59:00		Dębicka / Krakowska 01 nż
+1061	4	220563	07:01:00	07:01:00		Krakowska / Mielecka 07 nż
+1061	4	220563	07:01:00	07:01:00		Krakowska / Mielecka 07 nż
+1061	4	220563	07:02:00	07:02:00		Krakowska galeria 05
+1061	4	220563	07:02:00	07:02:00		Krakowska galeria 05
+1061	4	220563	07:03:00	07:03:00		Krakowska szpital 03
+1061	4	220563	07:03:00	07:03:00		Krakowska szpital 03
+1061	4	220563	07:05:00	07:05:00		Krakowska jedn. wojskowa 01
+1061	4	220563	07:05:00	07:05:00		Krakowska jedn. wojskowa 01
+1061	4	220563	07:07:00	07:07:00		Piłsudskiego U. Marszałkowski 07
+1061	4	220563	07:07:00	07:07:00		Piłsudskiego U. Marszałkowski 07
+1061	4	220563	07:10:00	07:10:00		Marszałkowska 02
+1061	4	220563	07:10:00	07:10:00		Marszałkowska 02
+1061	4	220563	07:11:00	07:11:00		Lubelska szpital 02
+1061	4	220563	07:11:00	07:11:00		Lubelska szpital 02
+1061	4	220563	07:12:00	07:12:00		Lubelska kościół 06 nż
+1061	4	220563	07:12:00	07:12:00		Lubelska kościół 06 nż
+1061	4	220563	07:14:00	07:14:00		Lubelska / Borowa 08 nż
+1061	4	220563	07:14:00	07:14:00		Lubelska / Borowa 08 nż
+1061	4	220563	07:16:00	07:16:00		Lubelska Os. Ogrody 10 nż
+1061	4	220563	07:16:00	07:16:00		Lubelska Os. Ogrody 10 nż
+1061	4	220563	07:17:00	07:17:00		Lubelska Ogrody Hiszpańskie 12 nż
+1061	4	220563	07:17:00	07:17:00		Lubelska Ogrody Hiszpańskie 12 nż
+1061	4	220563	07:18:00	07:18:00		Lubelska MPK 14 nż
+1061	4	220563	07:18:00	07:18:00		Lubelska MPK 14 nż
+1061	4	220563	07:19:00	07:19:00		Lubelska Zajezdnia MPK
+1061	4	220563	07:19:00	07:19:00		Lubelska Zajezdnia MPK
 
-1058	1	220467	08:02:00	08:02:00		Lubelska Zajezdnia MPK
-1058	1	220467	08:02:00	08:02:00		Lubelska Zajezdnia MPK
-1058	1	220467	08:03:00	08:03:00		Lubelska MPK 13 nż
-1058	1	220467	08:03:00	08:03:00		Lubelska MPK 13 nż
-1058	1	220467	08:04:00	08:04:00		Lubelska Ogrody Hiszpańskie 11 nż
-1058	1	220467	08:04:00	08:04:00		Lubelska Ogrody Hiszpańskie 11 nż
-1058	1	220467	08:05:00	08:05:00		Lubelska Os. Ogrody 09 nż
-1058	1	220467	08:05:00	08:05:00		Lubelska Os. Ogrody 09 nż
-1058	1	220467	08:06:00	08:06:00		Lubelska / Borowa 07 nż
-1058	1	220467	08:06:00	08:06:00		Lubelska / Borowa 07 nż
-1058	1	220467	08:08:00	08:08:00		Lubelska kościół 05 nż
-1058	1	220467	08:08:00	08:08:00		Lubelska kościół 05 nż
-1058	1	220467	08:09:00	08:09:00		Lubelska szpital 01
-1058	1	220467	08:09:00	08:09:00		Lubelska szpital 01
-1058	1	220467	08:10:00	08:10:00		Marszałkowska 01
-1058	1	220467	08:10:00	08:10:00		Marszałkowska 01
-1058	1	220467	08:12:00	08:12:00		Piłsudskiego U. Marszałkowski 08
-1058	1	220467	08:12:00	08:12:00		Piłsudskiego U. Marszałkowski 08
-1058	1	220467	08:14:00	08:14:00		Krakowska jedn. wojskowa 02
-1058	1	220467	08:14:00	08:14:00		Krakowska jedn. wojskowa 02
-1058	1	220467	08:15:00	08:15:00		Krakowska szpital 04
-1058	1	220467	08:15:00	08:15:00		Krakowska szpital 04
-1058	1	220467	08:16:00	08:16:00		Krakowska galeria 06
-1058	1	220467	08:16:00	08:16:00		Krakowska galeria 06
-1058	1	220467	08:17:00	08:17:00		Krakowska / Wyzwolenia 08 nż
-1058	1	220467	08:17:00	08:17:00		Krakowska / Wyzwolenia 08 nż
-1058	1	220467	08:19:00	08:19:00		Dębicka / Krakowska 02 nż
-1058	1	220467	08:19:00	08:19:00		Dębicka / Krakowska 02 nż
-1058	1	220467	08:20:00	08:20:00		Dębicka kościół 04 nż
-1058	1	220467	08:20:00	08:20:00		Dębicka kościół 04 nż
-1058	1	220467	08:21:00	08:21:00		Dębicka / Ustrzycka 06 nż
-1058	1	220467	08:21:00	08:21:00		Dębicka / Ustrzycka 06 nż
-1058	1	220467	08:22:00	08:22:00		Dębicka dom kultury 08 nż
-1058	1	220467	08:22:00	08:22:00		Dębicka dom kultury 08 nż
-1058	1	220467	08:24:00	08:24:00		Dębicka szkoła 10 nż
-1058	1	220467	08:24:00	08:24:00		Dębicka szkoła 10 nż
-1058	1	220467	08:25:00	08:25:00		Dębicka / Stadionowa 12 nż
-1058	1	220467	08:25:00	08:25:00		Dębicka / Stadionowa 12 nż
-1058	1	220467	08:26:00	08:26:00		Dębicka / Złocista 14 nż
-1058	1	220467	08:26:00	08:26:00		Dębicka / Złocista 14 nż
-1058	1	220467	08:27:00	08:27:00		Dębicka / Ciche Wzgórze 16 nż
-1058	1	220467	08:27:00	08:27:00		Dębicka / Ciche Wzgórze 16 nż
-1058	1	220467	08:28:00	08:28:00		Dębicka / Działowa 18 nż
-1058	1	220467	08:28:00	08:28:00		Dębicka / Działowa 18 nż
-1058	1	220467	08:29:00	08:29:00		Dębicka / Leśne Wzgórze 20 nż
-1058	1	220467	08:29:00	08:29:00		Dębicka / Leśne Wzgórze 20 nż
-1058	1	220467	08:30:00	08:30:00		Dębicka / Św. Jakuba 22 nż
-1058	1	220467	08:30:00	08:30:00		Dębicka / Św. Jakuba 22 nż
-1058	1	220467	08:31:00	08:31:00		Kalinowa / Dębicka 02 nż
-1058	1	220467	08:31:00	08:31:00		Kalinowa / Dębicka 02 nż
-1058	1	220467	08:32:00	08:32:00		Kalinowa pętla 04
-1058	1	220467	08:32:00	08:32:00		Kalinowa pętla 04
+1058	4	220467	08:02:00	08:02:00		Lubelska Zajezdnia MPK
+1058	4	220467	08:02:00	08:02:00		Lubelska Zajezdnia MPK
+1058	4	220467	08:03:00	08:03:00		Lubelska MPK 13 nż
+1058	4	220467	08:03:00	08:03:00		Lubelska MPK 13 nż
+1058	4	220467	08:04:00	08:04:00		Lubelska Ogrody Hiszpańskie 11 nż
+1058	4	220467	08:04:00	08:04:00		Lubelska Ogrody Hiszpańskie 11 nż
+1058	4	220467	08:05:00	08:05:00		Lubelska Os. Ogrody 09 nż
+1058	4	220467	08:05:00	08:05:00		Lubelska Os. Ogrody 09 nż
+1058	4	220467	08:06:00	08:06:00		Lubelska / Borowa 07 nż
+1058	4	220467	08:06:00	08:06:00		Lubelska / Borowa 07 nż
+1058	4	220467	08:08:00	08:08:00		Lubelska kościół 05 nż
+1058	4	220467	08:08:00	08:08:00		Lubelska kościół 05 nż
+1058	4	220467	08:09:00	08:09:00		Lubelska szpital 01
+1058	4	220467	08:09:00	08:09:00		Lubelska szpital 01
+1058	4	220467	08:10:00	08:10:00		Marszałkowska 01
+1058	4	220467	08:10:00	08:10:00		Marszałkowska 01
+1058	4	220467	08:12:00	08:12:00		Piłsudskiego U. Marszałkowski 08
+1058	4	220467	08:12:00	08:12:00		Piłsudskiego U. Marszałkowski 08
+1058	4	220467	08:14:00	08:14:00		Krakowska jedn. wojskowa 02
+1058	4	220467	08:14:00	08:14:00		Krakowska jedn. wojskowa 02
+1058	4	220467	08:15:00	08:15:00		Krakowska szpital 04
+1058	4	220467	08:15:00	08:15:00		Krakowska szpital 04
+1058	4	220467	08:16:00	08:16:00		Krakowska galeria 06
+1058	4	220467	08:16:00	08:16:00		Krakowska galeria 06
+1058	4	220467	08:17:00	08:17:00		Krakowska / Wyzwolenia 08 nż
+1058	4	220467	08:17:00	08:17:00		Krakowska / Wyzwolenia 08 nż
+1058	4	220467	08:19:00	08:19:00		Dębicka / Krakowska 02 nż
+1058	4	220467	08:19:00	08:19:00		Dębicka / Krakowska 02 nż
+1058	4	220467	08:20:00	08:20:00		Dębicka kościół 04 nż
+1058	4	220467	08:20:00	08:20:00		Dębicka kościół 04 nż
+1058	4	220467	08:21:00	08:21:00		Dębicka / Ustrzycka 06 nż
+1058	4	220467	08:21:00	08:21:00		Dębicka / Ustrzycka 06 nż
+1058	4	220467	08:22:00	08:22:00		Dębicka dom kultury 08 nż
+1058	4	220467	08:22:00	08:22:00		Dębicka dom kultury 08 nż
+1058	4	220467	08:24:00	08:24:00		Dębicka szkoła 10 nż
+1058	4	220467	08:24:00	08:24:00		Dębicka szkoła 10 nż
+1058	4	220467	08:25:00	08:25:00		Dębicka / Stadionowa 12 nż
+1058	4	220467	08:25:00	08:25:00		Dębicka / Stadionowa 12 nż
+1058	4	220467	08:26:00	08:26:00		Dębicka / Złocista 14 nż
+1058	4	220467	08:26:00	08:26:00		Dębicka / Złocista 14 nż
+1058	4	220467	08:27:00	08:27:00		Dębicka / Ciche Wzgórze 16 nż
+1058	4	220467	08:27:00	08:27:00		Dębicka / Ciche Wzgórze 16 nż
+1058	4	220467	08:28:00	08:28:00		Dębicka / Działowa 18 nż
+1058	4	220467	08:28:00	08:28:00		Dębicka / Działowa 18 nż
+1058	4	220467	08:29:00	08:29:00		Dębicka / Leśne Wzgórze 20 nż
+1058	4	220467	08:29:00	08:29:00		Dębicka / Leśne Wzgórze 20 nż
+1058	4	220467	08:30:00	08:30:00		Dębicka / Św. Jakuba 22 nż
+1058	4	220467	08:30:00	08:30:00		Dębicka / Św. Jakuba 22 nż
+1058	4	220467	08:31:00	08:31:00		Kalinowa / Dębicka 02 nż
+1058	4	220467	08:31:00	08:31:00		Kalinowa / Dębicka 02 nż
+1058	4	220467	08:32:00	08:32:00		Kalinowa pętla 04
+1058	4	220467	08:32:00	08:32:00		Kalinowa pętla 04
 
-1061	1	220602	08:47:00	08:47:00		Kalinowa pętla 04
-1061	1	220602	08:47:00	08:47:00		Kalinowa pętla 04
-1061	1	220602	08:48:00	08:48:00		Kalinowa / Dębicka 01 nż
-1061	1	220602	08:48:00	08:48:00		Kalinowa / Dębicka 01 nż
-1061	1	220602	08:49:00	08:49:00		Dębicka / Św. Jakuba 19 nż
-1061	1	220602	08:49:00	08:49:00		Dębicka / Św. Jakuba 19 nż
-1061	1	220602	08:51:00	08:51:00		Dębicka / Działowa 17 nż
-1061	1	220602	08:51:00	08:51:00		Dębicka / Działowa 17 nż
-1061	1	220602	08:52:00	08:52:00		Dębicka / Ciche Wzgórze 15 nż
-1061	1	220602	08:52:00	08:52:00		Dębicka / Ciche Wzgórze 15 nż
-1061	1	220602	08:53:00	08:53:00		Dębicka / Złocista 13 nż
-1061	1	220602	08:53:00	08:53:00		Dębicka / Złocista 13 nż
-1061	1	220602	08:54:00	08:54:00		Dębicka / Stadionowa 11 nż
-1061	1	220602	08:54:00	08:54:00		Dębicka / Stadionowa 11 nż
-1061	1	220602	08:55:00	08:55:00		Dębicka szkoła 09 nż
-1061	1	220602	08:55:00	08:55:00		Dębicka szkoła 09 nż
-1061	1	220602	08:56:00	08:56:00		Dębicka dom kultury 07 nż
-1061	1	220602	08:56:00	08:56:00		Dębicka dom kultury 07 nż
-1061	1	220602	08:57:00	08:57:00		Dębicka / Ustrzycka 05 nż
-1061	1	220602	08:57:00	08:57:00		Dębicka / Ustrzycka 05 nż
-1061	1	220602	08:58:00	08:58:00		Dębicka kościół 03 nż
-1061	1	220602	08:58:00	08:58:00		Dębicka kościół 03 nż
-1061	1	220602	08:59:00	08:59:00		Dębicka / Krakowska 01 nż
-1061	1	220602	08:59:00	08:59:00		Dębicka / Krakowska 01 nż
-1061	1	220602	09:01:00	09:01:00		Krakowska / Mielecka 07 nż
-1061	1	220602	09:01:00	09:01:00		Krakowska / Mielecka 07 nż
-1061	1	220602	09:02:00	09:02:00		Krakowska galeria 05
-1061	1	220602	09:02:00	09:02:00		Krakowska galeria 05
-1061	1	220602	09:03:00	09:03:00		Krakowska szpital 03
-1061	1	220602	09:03:00	09:03:00		Krakowska szpital 03
-1061	1	220602	09:05:00	09:05:00		Krakowska jedn. wojskowa 01
-1061	1	220602	09:05:00	09:05:00		Krakowska jedn. wojskowa 01
-1061	1	220602	09:07:00	09:07:00		Piłsudskiego U. Marszałkowski 07
-1061	1	220602	09:07:00	09:07:00		Piłsudskiego U. Marszałkowski 07
-1061	1	220602	09:10:00	09:10:00		Marszałkowska 02
-1061	1	220602	09:10:00	09:10:00		Marszałkowska 02
-1061	1	220602	09:11:00	09:11:00		Lubelska szpital 02
-1061	1	220602	09:11:00	09:11:00		Lubelska szpital 02
-1061	1	220602	09:12:00	09:12:00		Lubelska kościół 06 nż
-1061	1	220602	09:12:00	09:12:00		Lubelska kościół 06 nż
-1061	1	220602	09:14:00	09:14:00		Lubelska / Borowa 08 nż
-1061	1	220602	09:14:00	09:14:00		Lubelska / Borowa 08 nż
-1061	1	220602	09:16:00	09:16:00		Lubelska Os. Ogrody 10 nż
-1061	1	220602	09:16:00	09:16:00		Lubelska Os. Ogrody 10 nż
-1061	1	220602	09:17:00	09:17:00		Lubelska Ogrody Hiszpańskie 12 nż
-1061	1	220602	09:17:00	09:17:00		Lubelska Ogrody Hiszpańskie 12 nż
-1061	1	220602	09:18:00	09:18:00		Lubelska MPK 14 nż
-1061	1	220602	09:18:00	09:18:00		Lubelska MPK 14 nż
-1061	1	220602	09:19:00	09:19:00		Lubelska Zajezdnia MPK
-1061	1	220602	09:19:00	09:19:00		Lubelska Zajezdnia MPK
+1061	4	220602	08:47:00	08:47:00		Kalinowa pętla 04
+1061	4	220602	08:47:00	08:47:00		Kalinowa pętla 04
+1061	4	220602	08:48:00	08:48:00		Kalinowa / Dębicka 01 nż
+1061	4	220602	08:48:00	08:48:00		Kalinowa / Dębicka 01 nż
+1061	4	220602	08:49:00	08:49:00		Dębicka / Św. Jakuba 19 nż
+1061	4	220602	08:49:00	08:49:00		Dębicka / Św. Jakuba 19 nż
+1061	4	220602	08:51:00	08:51:00		Dębicka / Działowa 17 nż
+1061	4	220602	08:51:00	08:51:00		Dębicka / Działowa 17 nż
+1061	4	220602	08:52:00	08:52:00		Dębicka / Ciche Wzgórze 15 nż
+1061	4	220602	08:52:00	08:52:00		Dębicka / Ciche Wzgórze 15 nż
+1061	4	220602	08:53:00	08:53:00		Dębicka / Złocista 13 nż
+1061	4	220602	08:53:00	08:53:00		Dębicka / Złocista 13 nż
+1061	4	220602	08:54:00	08:54:00		Dębicka / Stadionowa 11 nż
+1061	4	220602	08:54:00	08:54:00		Dębicka / Stadionowa 11 nż
+1061	4	220602	08:55:00	08:55:00		Dębicka szkoła 09 nż
+1061	4	220602	08:55:00	08:55:00		Dębicka szkoła 09 nż
+1061	4	220602	08:56:00	08:56:00		Dębicka dom kultury 07 nż
+1061	4	220602	08:56:00	08:56:00		Dębicka dom kultury 07 nż
+1061	4	220602	08:57:00	08:57:00		Dębicka / Ustrzycka 05 nż
+1061	4	220602	08:57:00	08:57:00		Dębicka / Ustrzycka 05 nż
+1061	4	220602	08:58:00	08:58:00		Dębicka kościół 03 nż
+1061	4	220602	08:58:00	08:58:00		Dębicka kościół 03 nż
+1061	4	220602	08:59:00	08:59:00		Dębicka / Krakowska 01 nż
+1061	4	220602	08:59:00	08:59:00		Dębicka / Krakowska 01 nż
+1061	4	220602	09:01:00	09:01:00		Krakowska / Mielecka 07 nż
+1061	4	220602	09:01:00	09:01:00		Krakowska / Mielecka 07 nż
+1061	4	220602	09:02:00	09:02:00		Krakowska galeria 05
+1061	4	220602	09:02:00	09:02:00		Krakowska galeria 05
+1061	4	220602	09:03:00	09:03:00		Krakowska szpital 03
+1061	4	220602	09:03:00	09:03:00		Krakowska szpital 03
+1061	4	220602	09:05:00	09:05:00		Krakowska jedn. wojskowa 01
+1061	4	220602	09:05:00	09:05:00		Krakowska jedn. wojskowa 01
+1061	4	220602	09:07:00	09:07:00		Piłsudskiego U. Marszałkowski 07
+1061	4	220602	09:07:00	09:07:00		Piłsudskiego U. Marszałkowski 07
+1061	4	220602	09:10:00	09:10:00		Marszałkowska 02
+1061	4	220602	09:10:00	09:10:00		Marszałkowska 02
+1061	4	220602	09:11:00	09:11:00		Lubelska szpital 02
+1061	4	220602	09:11:00	09:11:00		Lubelska szpital 02
+1061	4	220602	09:12:00	09:12:00		Lubelska kościół 06 nż
+1061	4	220602	09:12:00	09:12:00		Lubelska kościół 06 nż
+1061	4	220602	09:14:00	09:14:00		Lubelska / Borowa 08 nż
+1061	4	220602	09:14:00	09:14:00		Lubelska / Borowa 08 nż
+1061	4	220602	09:16:00	09:16:00		Lubelska Os. Ogrody 10 nż
+1061	4	220602	09:16:00	09:16:00		Lubelska Os. Ogrody 10 nż
+1061	4	220602	09:17:00	09:17:00		Lubelska Ogrody Hiszpańskie 12 nż
+1061	4	220602	09:17:00	09:17:00		Lubelska Ogrody Hiszpańskie 12 nż
+1061	4	220602	09:18:00	09:18:00		Lubelska MPK 14 nż
+1061	4	220602	09:18:00	09:18:00		Lubelska MPK 14 nż
+1061	4	220602	09:19:00	09:19:00		Lubelska Zajezdnia MPK
+1061	4	220602	09:19:00	09:19:00		Lubelska Zajezdnia MPK
 
-1058	1	220613	10:02:00	10:02:00		Lubelska Zajezdnia MPK
-1058	1	220613	10:02:00	10:02:00		Lubelska Zajezdnia MPK
-1058	1	220613	10:03:00	10:03:00		Lubelska MPK 13 nż
-1058	1	220613	10:03:00	10:03:00		Lubelska MPK 13 nż
-1058	1	220613	10:04:00	10:04:00		Lubelska Ogrody Hiszpańskie 11 nż
-1058	1	220613	10:04:00	10:04:00		Lubelska Ogrody Hiszpańskie 11 nż
-1058	1	220613	10:05:00	10:05:00		Lubelska Os. Ogrody 09 nż
-1058	1	220613	10:05:00	10:05:00		Lubelska Os. Ogrody 09 nż
-1058	1	220613	10:06:00	10:06:00		Lubelska / Borowa 07 nż
-1058	1	220613	10:06:00	10:06:00		Lubelska / Borowa 07 nż
-1058	1	220613	10:08:00	10:08:00		Lubelska kościół 05 nż
-1058	1	220613	10:08:00	10:08:00		Lubelska kościół 05 nż
-1058	1	220613	10:09:00	10:09:00		Lubelska szpital 01
-1058	1	220613	10:09:00	10:09:00		Lubelska szpital 01
-1058	1	220613	10:10:00	10:10:00		Marszałkowska 01
-1058	1	220613	10:10:00	10:10:00		Marszałkowska 01
-1058	1	220613	10:12:00	10:12:00		Piłsudskiego U. Marszałkowski 08
-1058	1	220613	10:12:00	10:12:00		Piłsudskiego U. Marszałkowski 08
-1058	1	220613	10:14:00	10:14:00		Krakowska jedn. wojskowa 02
-1058	1	220613	10:14:00	10:14:00		Krakowska jedn. wojskowa 02
-1058	1	220613	10:15:00	10:15:00		Krakowska szpital 04
-1058	1	220613	10:15:00	10:15:00		Krakowska szpital 04
-1058	1	220613	10:16:00	10:16:00		Krakowska galeria 06
-1058	1	220613	10:16:00	10:16:00		Krakowska galeria 06
-1058	1	220613	10:17:00	10:17:00		Krakowska / Wyzwolenia 08 nż
-1058	1	220613	10:17:00	10:17:00		Krakowska / Wyzwolenia 08 nż
-1058	1	220613	10:19:00	10:19:00		Dębicka / Krakowska 02 nż
-1058	1	220613	10:19:00	10:19:00		Dębicka / Krakowska 02 nż
-1058	1	220613	10:20:00	10:20:00		Dębicka kościół 04 nż
-1058	1	220613	10:20:00	10:20:00		Dębicka kościół 04 nż
-1058	1	220613	10:21:00	10:21:00		Dębicka / Ustrzycka 06 nż
-1058	1	220613	10:21:00	10:21:00		Dębicka / Ustrzycka 06 nż
-1058	1	220613	10:22:00	10:22:00		Dębicka dom kultury 08 nż
-1058	1	220613	10:22:00	10:22:00		Dębicka dom kultury 08 nż
-1058	1	220613	10:24:00	10:24:00		Dębicka szkoła 10 nż
-1058	1	220613	10:24:00	10:24:00		Dębicka szkoła 10 nż
-1058	1	220613	10:25:00	10:25:00		Dębicka / Stadionowa 12 nż
-1058	1	220613	10:25:00	10:25:00		Dębicka / Stadionowa 12 nż
-1058	1	220613	10:26:00	10:26:00		Dębicka / Złocista 14 nż
-1058	1	220613	10:26:00	10:26:00		Dębicka / Złocista 14 nż
-1058	1	220613	10:27:00	10:27:00		Dębicka / Ciche Wzgórze 16 nż
-1058	1	220613	10:27:00	10:27:00		Dębicka / Ciche Wzgórze 16 nż
-1058	1	220613	10:28:00	10:28:00		Dębicka / Działowa 18 nż
-1058	1	220613	10:28:00	10:28:00		Dębicka / Działowa 18 nż
-1058	1	220613	10:29:00	10:29:00		Dębicka / Leśne Wzgórze 20 nż
-1058	1	220613	10:29:00	10:29:00		Dębicka / Leśne Wzgórze 20 nż
-1058	1	220613	10:30:00	10:30:00		Dębicka / Św. Jakuba 22 nż
-1058	1	220613	10:30:00	10:30:00		Dębicka / Św. Jakuba 22 nż
-1058	1	220613	10:31:00	10:31:00		Kalinowa / Dębicka 02 nż
-1058	1	220613	10:31:00	10:31:00		Kalinowa / Dębicka 02 nż
-1058	1	220613	10:32:00	10:32:00		Kalinowa pętla 04
-1058	1	220613	10:32:00	10:32:00		Kalinowa pętla 04
+1058	4	220613	10:02:00	10:02:00		Lubelska Zajezdnia MPK
+1058	4	220613	10:02:00	10:02:00		Lubelska Zajezdnia MPK
+1058	4	220613	10:03:00	10:03:00		Lubelska MPK 13 nż
+1058	4	220613	10:03:00	10:03:00		Lubelska MPK 13 nż
+1058	4	220613	10:04:00	10:04:00		Lubelska Ogrody Hiszpańskie 11 nż
+1058	4	220613	10:04:00	10:04:00		Lubelska Ogrody Hiszpańskie 11 nż
+1058	4	220613	10:05:00	10:05:00		Lubelska Os. Ogrody 09 nż
+1058	4	220613	10:05:00	10:05:00		Lubelska Os. Ogrody 09 nż
+1058	4	220613	10:06:00	10:06:00		Lubelska / Borowa 07 nż
+1058	4	220613	10:06:00	10:06:00		Lubelska / Borowa 07 nż
+1058	4	220613	10:08:00	10:08:00		Lubelska kościół 05 nż
+1058	4	220613	10:08:00	10:08:00		Lubelska kościół 05 nż
+1058	4	220613	10:09:00	10:09:00		Lubelska szpital 01
+1058	4	220613	10:09:00	10:09:00		Lubelska szpital 01
+1058	4	220613	10:10:00	10:10:00		Marszałkowska 01
+1058	4	220613	10:10:00	10:10:00		Marszałkowska 01
+1058	4	220613	10:12:00	10:12:00		Piłsudskiego U. Marszałkowski 08
+1058	4	220613	10:12:00	10:12:00		Piłsudskiego U. Marszałkowski 08
+1058	4	220613	10:14:00	10:14:00		Krakowska jedn. wojskowa 02
+1058	4	220613	10:14:00	10:14:00		Krakowska jedn. wojskowa 02
+1058	4	220613	10:15:00	10:15:00		Krakowska szpital 04
+1058	4	220613	10:15:00	10:15:00		Krakowska szpital 04
+1058	4	220613	10:16:00	10:16:00		Krakowska galeria 06
+1058	4	220613	10:16:00	10:16:00		Krakowska galeria 06
+1058	4	220613	10:17:00	10:17:00		Krakowska / Wyzwolenia 08 nż
+1058	4	220613	10:17:00	10:17:00		Krakowska / Wyzwolenia 08 nż
+1058	4	220613	10:19:00	10:19:00		Dębicka / Krakowska 02 nż
+1058	4	220613	10:19:00	10:19:00		Dębicka / Krakowska 02 nż
+1058	4	220613	10:20:00	10:20:00		Dębicka kościół 04 nż
+1058	4	220613	10:20:00	10:20:00		Dębicka kościół 04 nż
+1058	4	220613	10:21:00	10:21:00		Dębicka / Ustrzycka 06 nż
+1058	4	220613	10:21:00	10:21:00		Dębicka / Ustrzycka 06 nż
+1058	4	220613	10:22:00	10:22:00		Dębicka dom kultury 08 nż
+1058	4	220613	10:22:00	10:22:00		Dębicka dom kultury 08 nż
+1058	4	220613	10:24:00	10:24:00		Dębicka szkoła 10 nż
+1058	4	220613	10:24:00	10:24:00		Dębicka szkoła 10 nż
+1058	4	220613	10:25:00	10:25:00		Dębicka / Stadionowa 12 nż
+1058	4	220613	10:25:00	10:25:00		Dębicka / Stadionowa 12 nż
+1058	4	220613	10:26:00	10:26:00		Dębicka / Złocista 14 nż
+1058	4	220613	10:26:00	10:26:00		Dębicka / Złocista 14 nż
+1058	4	220613	10:27:00	10:27:00		Dębicka / Ciche Wzgórze 16 nż
+1058	4	220613	10:27:00	10:27:00		Dębicka / Ciche Wzgórze 16 nż
+1058	4	220613	10:28:00	10:28:00		Dębicka / Działowa 18 nż
+1058	4	220613	10:28:00	10:28:00		Dębicka / Działowa 18 nż
+1058	4	220613	10:29:00	10:29:00		Dębicka / Leśne Wzgórze 20 nż
+1058	4	220613	10:29:00	10:29:00		Dębicka / Leśne Wzgórze 20 nż
+1058	4	220613	10:30:00	10:30:00		Dębicka / Św. Jakuba 22 nż
+1058	4	220613	10:30:00	10:30:00		Dębicka / Św. Jakuba 22 nż
+1058	4	220613	10:31:00	10:31:00		Kalinowa / Dębicka 02 nż
+1058	4	220613	10:31:00	10:31:00		Kalinowa / Dębicka 02 nż
+1058	4	220613	10:32:00	10:32:00		Kalinowa pętla 04
+1058	4	220613	10:32:00	10:32:00		Kalinowa pętla 04
 
-1061	1	220503	10:45:00	10:45:00		Kalinowa pętla 04
-1061	1	220503	10:45:00	10:45:00		Kalinowa pętla 04
-1061	1	220503	10:46:00	10:46:00		Kalinowa / Dębicka 01 nż
-1061	1	220503	10:46:00	10:46:00		Kalinowa / Dębicka 01 nż
-1061	1	220503	10:47:00	10:47:00		Dębicka / Św. Jakuba 19 nż
-1061	1	220503	10:47:00	10:47:00		Dębicka / Św. Jakuba 19 nż
-1061	1	220503	10:49:00	10:49:00		Dębicka / Działowa 17 nż
-1061	1	220503	10:49:00	10:49:00		Dębicka / Działowa 17 nż
-1061	1	220503	10:50:00	10:50:00		Dębicka / Ciche Wzgórze 15 nż
-1061	1	220503	10:50:00	10:50:00		Dębicka / Ciche Wzgórze 15 nż
-1061	1	220503	10:51:00	10:51:00		Dębicka / Złocista 13 nż
-1061	1	220503	10:51:00	10:51:00		Dębicka / Złocista 13 nż
-1061	1	220503	10:52:00	10:52:00		Dębicka / Stadionowa 11 nż
-1061	1	220503	10:52:00	10:52:00		Dębicka / Stadionowa 11 nż
-1061	1	220503	10:53:00	10:53:00		Dębicka szkoła 09 nż
-1061	1	220503	10:53:00	10:53:00		Dębicka szkoła 09 nż
-1061	1	220503	10:54:00	10:54:00		Dębicka dom kultury 07 nż
-1061	1	220503	10:54:00	10:54:00		Dębicka dom kultury 07 nż
-1061	1	220503	10:55:00	10:55:00		Dębicka / Ustrzycka 05 nż
-1061	1	220503	10:55:00	10:55:00		Dębicka / Ustrzycka 05 nż
-1061	1	220503	10:56:00	10:56:00		Dębicka kościół 03 nż
-1061	1	220503	10:56:00	10:56:00		Dębicka kościół 03 nż
-1061	1	220503	10:57:00	10:57:00		Dębicka / Krakowska 01 nż
-1061	1	220503	10:57:00	10:57:00		Dębicka / Krakowska 01 nż
-1061	1	220503	10:59:00	10:59:00		Krakowska / Mielecka 07 nż
-1061	1	220503	10:59:00	10:59:00		Krakowska / Mielecka 07 nż
-1061	1	220503	11:00:00	11:00:00		Krakowska galeria 05
-1061	1	220503	11:00:00	11:00:00		Krakowska galeria 05
-1061	1	220503	11:01:00	11:01:00		Krakowska szpital 03
-1061	1	220503	11:01:00	11:01:00		Krakowska szpital 03
-1061	1	220503	11:03:00	11:03:00		Krakowska jedn. wojskowa 01
-1061	1	220503	11:03:00	11:03:00		Krakowska jedn. wojskowa 01
-1061	1	220503	11:05:00	11:05:00		Piłsudskiego U. Marszałkowski 07
-1061	1	220503	11:05:00	11:05:00		Piłsudskiego U. Marszałkowski 07
-1061	1	220503	11:08:00	11:08:00		Marszałkowska 02
-1061	1	220503	11:08:00	11:08:00		Marszałkowska 02
-1061	1	220503	11:09:00	11:09:00		Lubelska szpital 02
-1061	1	220503	11:09:00	11:09:00		Lubelska szpital 02
-1061	1	220503	11:10:00	11:10:00		Lubelska kościół 06 nż
-1061	1	220503	11:10:00	11:10:00		Lubelska kościół 06 nż
-1061	1	220503	11:12:00	11:12:00		Lubelska / Borowa 08 nż
-1061	1	220503	11:12:00	11:12:00		Lubelska / Borowa 08 nż
-1061	1	220503	11:14:00	11:14:00		Lubelska Os. Ogrody 10 nż
-1061	1	220503	11:14:00	11:14:00		Lubelska Os. Ogrody 10 nż
-1061	1	220503	11:15:00	11:15:00		Lubelska Ogrody Hiszpańskie 12 nż
-1061	1	220503	11:15:00	11:15:00		Lubelska Ogrody Hiszpańskie 12 nż
-1061	1	220503	11:16:00	11:16:00		Lubelska MPK 14 nż
-1061	1	220503	11:16:00	11:16:00		Lubelska MPK 14 nż
-1061	1	220503	11:17:00	11:17:00		Lubelska Zajezdnia MPK
-1061	1	220503	11:17:00	11:17:00		Lubelska Zajezdnia MPK
+1061	4	220503	10:45:00	10:45:00		Kalinowa pętla 04
+1061	4	220503	10:45:00	10:45:00		Kalinowa pętla 04
+1061	4	220503	10:46:00	10:46:00		Kalinowa / Dębicka 01 nż
+1061	4	220503	10:46:00	10:46:00		Kalinowa / Dębicka 01 nż
+1061	4	220503	10:47:00	10:47:00		Dębicka / Św. Jakuba 19 nż
+1061	4	220503	10:47:00	10:47:00		Dębicka / Św. Jakuba 19 nż
+1061	4	220503	10:49:00	10:49:00		Dębicka / Działowa 17 nż
+1061	4	220503	10:49:00	10:49:00		Dębicka / Działowa 17 nż
+1061	4	220503	10:50:00	10:50:00		Dębicka / Ciche Wzgórze 15 nż
+1061	4	220503	10:50:00	10:50:00		Dębicka / Ciche Wzgórze 15 nż
+1061	4	220503	10:51:00	10:51:00		Dębicka / Złocista 13 nż
+1061	4	220503	10:51:00	10:51:00		Dębicka / Złocista 13 nż
+1061	4	220503	10:52:00	10:52:00		Dębicka / Stadionowa 11 nż
+1061	4	220503	10:52:00	10:52:00		Dębicka / Stadionowa 11 nż
+1061	4	220503	10:53:00	10:53:00		Dębicka szkoła 09 nż
+1061	4	220503	10:53:00	10:53:00		Dębicka szkoła 09 nż
+1061	4	220503	10:54:00	10:54:00		Dębicka dom kultury 07 nż
+1061	4	220503	10:54:00	10:54:00		Dębicka dom kultury 07 nż
+1061	4	220503	10:55:00	10:55:00		Dębicka / Ustrzycka 05 nż
+1061	4	220503	10:55:00	10:55:00		Dębicka / Ustrzycka 05 nż
+1061	4	220503	10:56:00	10:56:00		Dębicka kościół 03 nż
+1061	4	220503	10:56:00	10:56:00		Dębicka kościół 03 nż
+1061	4	220503	10:57:00	10:57:00		Dębicka / Krakowska 01 nż
+1061	4	220503	10:57:00	10:57:00		Dębicka / Krakowska 01 nż
+1061	4	220503	10:59:00	10:59:00		Krakowska / Mielecka 07 nż
+1061	4	220503	10:59:00	10:59:00		Krakowska / Mielecka 07 nż
+1061	4	220503	11:00:00	11:00:00		Krakowska galeria 05
+1061	4	220503	11:00:00	11:00:00		Krakowska galeria 05
+1061	4	220503	11:01:00	11:01:00		Krakowska szpital 03
+1061	4	220503	11:01:00	11:01:00		Krakowska szpital 03
+1061	4	220503	11:03:00	11:03:00		Krakowska jedn. wojskowa 01
+1061	4	220503	11:03:00	11:03:00		Krakowska jedn. wojskowa 01
+1061	4	220503	11:05:00	11:05:00		Piłsudskiego U. Marszałkowski 07
+1061	4	220503	11:05:00	11:05:00		Piłsudskiego U. Marszałkowski 07
+1061	4	220503	11:08:00	11:08:00		Marszałkowska 02
+1061	4	220503	11:08:00	11:08:00		Marszałkowska 02
+1061	4	220503	11:09:00	11:09:00		Lubelska szpital 02
+1061	4	220503	11:09:00	11:09:00		Lubelska szpital 02
+1061	4	220503	11:10:00	11:10:00		Lubelska kościół 06 nż
+1061	4	220503	11:10:00	11:10:00		Lubelska kościół 06 nż
+1061	4	220503	11:12:00	11:12:00		Lubelska / Borowa 08 nż
+1061	4	220503	11:12:00	11:12:00		Lubelska / Borowa 08 nż
+1061	4	220503	11:14:00	11:14:00		Lubelska Os. Ogrody 10 nż
+1061	4	220503	11:14:00	11:14:00		Lubelska Os. Ogrody 10 nż
+1061	4	220503	11:15:00	11:15:00		Lubelska Ogrody Hiszpańskie 12 nż
+1061	4	220503	11:15:00	11:15:00		Lubelska Ogrody Hiszpańskie 12 nż
+1061	4	220503	11:16:00	11:16:00		Lubelska MPK 14 nż
+1061	4	220503	11:16:00	11:16:00		Lubelska MPK 14 nż
+1061	4	220503	11:17:00	11:17:00		Lubelska Zajezdnia MPK
+1061	4	220503	11:17:00	11:17:00		Lubelska Zajezdnia MPK
 
-1058	1	220450	12:02:00	12:02:00		Lubelska Zajezdnia MPK
-1058	1	220450	12:02:00	12:02:00		Lubelska Zajezdnia MPK
-1058	1	220450	12:03:00	12:03:00		Lubelska MPK 13 nż
-1058	1	220450	12:03:00	12:03:00		Lubelska MPK 13 nż
-1058	1	220450	12:04:00	12:04:00		Lubelska Ogrody Hiszpańskie 11 nż
-1058	1	220450	12:04:00	12:04:00		Lubelska Ogrody Hiszpańskie 11 nż
-1058	1	220450	12:05:00	12:05:00		Lubelska Os. Ogrody 09 nż
-1058	1	220450	12:05:00	12:05:00		Lubelska Os. Ogrody 09 nż
-1058	1	220450	12:06:00	12:06:00		Lubelska / Borowa 07 nż
-1058	1	220450	12:06:00	12:06:00		Lubelska / Borowa 07 nż
-1058	1	220450	12:08:00	12:08:00		Lubelska kościół 05 nż
-1058	1	220450	12:08:00	12:08:00		Lubelska kościół 05 nż
-1058	1	220450	12:09:00	12:09:00		Lubelska szpital 01
-1058	1	220450	12:09:00	12:09:00		Lubelska szpital 01
-1058	1	220450	12:10:00	12:10:00		Marszałkowska 01
-1058	1	220450	12:10:00	12:10:00		Marszałkowska 01
-1058	1	220450	12:12:00	12:12:00		Piłsudskiego U. Marszałkowski 08
-1058	1	220450	12:12:00	12:12:00		Piłsudskiego U. Marszałkowski 08
-1058	1	220450	12:14:00	12:14:00		Krakowska jedn. wojskowa 02
-1058	1	220450	12:14:00	12:14:00		Krakowska jedn. wojskowa 02
-1058	1	220450	12:15:00	12:15:00		Krakowska szpital 04
-1058	1	220450	12:15:00	12:15:00		Krakowska szpital 04
-1058	1	220450	12:16:00	12:16:00		Krakowska galeria 06
-1058	1	220450	12:16:00	12:16:00		Krakowska galeria 06
-1058	1	220450	12:17:00	12:17:00		Krakowska / Wyzwolenia 08 nż
-1058	1	220450	12:17:00	12:17:00		Krakowska / Wyzwolenia 08 nż
-1058	1	220450	12:19:00	12:19:00		Dębicka / Krakowska 02 nż
-1058	1	220450	12:19:00	12:19:00		Dębicka / Krakowska 02 nż
-1058	1	220450	12:20:00	12:20:00		Dębicka kościół 04 nż
-1058	1	220450	12:20:00	12:20:00		Dębicka kościół 04 nż
-1058	1	220450	12:21:00	12:21:00		Dębicka / Ustrzycka 06 nż
-1058	1	220450	12:21:00	12:21:00		Dębicka / Ustrzycka 06 nż
-1058	1	220450	12:22:00	12:22:00		Dębicka dom kultury 08 nż
-1058	1	220450	12:22:00	12:22:00		Dębicka dom kultury 08 nż
-1058	1	220450	12:24:00	12:24:00		Dębicka szkoła 10 nż
-1058	1	220450	12:24:00	12:24:00		Dębicka szkoła 10 nż
-1058	1	220450	12:25:00	12:25:00		Dębicka / Stadionowa 12 nż
-1058	1	220450	12:25:00	12:25:00		Dębicka / Stadionowa 12 nż
-1058	1	220450	12:26:00	12:26:00		Dębicka / Złocista 14 nż
-1058	1	220450	12:26:00	12:26:00		Dębicka / Złocista 14 nż
-1058	1	220450	12:27:00	12:27:00		Dębicka / Ciche Wzgórze 16 nż
-1058	1	220450	12:27:00	12:27:00		Dębicka / Ciche Wzgórze 16 nż
-1058	1	220450	12:28:00	12:28:00		Dębicka / Działowa 18 nż
-1058	1	220450	12:28:00	12:28:00		Dębicka / Działowa 18 nż
-1058	1	220450	12:29:00	12:29:00		Dębicka / Leśne Wzgórze 20 nż
-1058	1	220450	12:29:00	12:29:00		Dębicka / Leśne Wzgórze 20 nż
-1058	1	220450	12:30:00	12:30:00		Dębicka / Św. Jakuba 22 nż
-1058	1	220450	12:30:00	12:30:00		Dębicka / Św. Jakuba 22 nż
-1058	1	220450	12:31:00	12:31:00		Kalinowa / Dębicka 02 nż
-1058	1	220450	12:31:00	12:31:00		Kalinowa / Dębicka 02 nż
-1058	1	220450	12:32:00	12:32:00		Kalinowa pętla 04
-1058	1	220450	12:32:00	12:32:00		Kalinowa pętla 04
+1058	4	220450	12:02:00	12:02:00		Lubelska Zajezdnia MPK
+1058	4	220450	12:02:00	12:02:00		Lubelska Zajezdnia MPK
+1058	4	220450	12:03:00	12:03:00		Lubelska MPK 13 nż
+1058	4	220450	12:03:00	12:03:00		Lubelska MPK 13 nż
+1058	4	220450	12:04:00	12:04:00		Lubelska Ogrody Hiszpańskie 11 nż
+1058	4	220450	12:04:00	12:04:00		Lubelska Ogrody Hiszpańskie 11 nż
+1058	4	220450	12:05:00	12:05:00		Lubelska Os. Ogrody 09 nż
+1058	4	220450	12:05:00	12:05:00		Lubelska Os. Ogrody 09 nż
+1058	4	220450	12:06:00	12:06:00		Lubelska / Borowa 07 nż
+1058	4	220450	12:06:00	12:06:00		Lubelska / Borowa 07 nż
+1058	4	220450	12:08:00	12:08:00		Lubelska kościół 05 nż
+1058	4	220450	12:08:00	12:08:00		Lubelska kościół 05 nż
+1058	4	220450	12:09:00	12:09:00		Lubelska szpital 01
+1058	4	220450	12:09:00	12:09:00		Lubelska szpital 01
+1058	4	220450	12:10:00	12:10:00		Marszałkowska 01
+1058	4	220450	12:10:00	12:10:00		Marszałkowska 01
+1058	4	220450	12:12:00	12:12:00		Piłsudskiego U. Marszałkowski 08
+1058	4	220450	12:12:00	12:12:00		Piłsudskiego U. Marszałkowski 08
+1058	4	220450	12:14:00	12:14:00		Krakowska jedn. wojskowa 02
+1058	4	220450	12:14:00	12:14:00		Krakowska jedn. wojskowa 02
+1058	4	220450	12:15:00	12:15:00		Krakowska szpital 04
+1058	4	220450	12:15:00	12:15:00		Krakowska szpital 04
+1058	4	220450	12:16:00	12:16:00		Krakowska galeria 06
+1058	4	220450	12:16:00	12:16:00		Krakowska galeria 06
+1058	4	220450	12:17:00	12:17:00		Krakowska / Wyzwolenia 08 nż
+1058	4	220450	12:17:00	12:17:00		Krakowska / Wyzwolenia 08 nż
+1058	4	220450	12:19:00	12:19:00		Dębicka / Krakowska 02 nż
+1058	4	220450	12:19:00	12:19:00		Dębicka / Krakowska 02 nż
+1058	4	220450	12:20:00	12:20:00		Dębicka kościół 04 nż
+1058	4	220450	12:20:00	12:20:00		Dębicka kościół 04 nż
+1058	4	220450	12:21:00	12:21:00		Dębicka / Ustrzycka 06 nż
+1058	4	220450	12:21:00	12:21:00		Dębicka / Ustrzycka 06 nż
+1058	4	220450	12:22:00	12:22:00		Dębicka dom kultury 08 nż
+1058	4	220450	12:22:00	12:22:00		Dębicka dom kultury 08 nż
+1058	4	220450	12:24:00	12:24:00		Dębicka szkoła 10 nż
+1058	4	220450	12:24:00	12:24:00		Dębicka szkoła 10 nż
+1058	4	220450	12:25:00	12:25:00		Dębicka / Stadionowa 12 nż
+1058	4	220450	12:25:00	12:25:00		Dębicka / Stadionowa 12 nż
+1058	4	220450	12:26:00	12:26:00		Dębicka / Złocista 14 nż
+1058	4	220450	12:26:00	12:26:00		Dębicka / Złocista 14 nż
+1058	4	220450	12:27:00	12:27:00		Dębicka / Ciche Wzgórze 16 nż
+1058	4	220450	12:27:00	12:27:00		Dębicka / Ciche Wzgórze 16 nż
+1058	4	220450	12:28:00	12:28:00		Dębicka / Działowa 18 nż
+1058	4	220450	12:28:00	12:28:00		Dębicka / Działowa 18 nż
+1058	4	220450	12:29:00	12:29:00		Dębicka / Leśne Wzgórze 20 nż
+1058	4	220450	12:29:00	12:29:00		Dębicka / Leśne Wzgórze 20 nż
+1058	4	220450	12:30:00	12:30:00		Dębicka / Św. Jakuba 22 nż
+1058	4	220450	12:30:00	12:30:00		Dębicka / Św. Jakuba 22 nż
+1058	4	220450	12:31:00	12:31:00		Kalinowa / Dębicka 02 nż
+1058	4	220450	12:31:00	12:31:00		Kalinowa / Dębicka 02 nż
+1058	4	220450	12:32:00	12:32:00		Kalinowa pętla 04
+1058	4	220450	12:32:00	12:32:00		Kalinowa pętla 04
 
-1061	1	220524	12:45:00	12:45:00		Kalinowa pętla 04
-1061	1	220524	12:45:00	12:45:00		Kalinowa pętla 04
-1061	1	220524	12:46:00	12:46:00		Kalinowa / Dębicka 01 nż
-1061	1	220524	12:46:00	12:46:00		Kalinowa / Dębicka 01 nż
-1061	1	220524	12:47:00	12:47:00		Dębicka / Św. Jakuba 19 nż
-1061	1	220524	12:47:00	12:47:00		Dębicka / Św. Jakuba 19 nż
-1061	1	220524	12:49:00	12:49:00		Dębicka / Działowa 17 nż
-1061	1	220524	12:49:00	12:49:00		Dębicka / Działowa 17 nż
-1061	1	220524	12:50:00	12:50:00		Dębicka / Ciche Wzgórze 15 nż
-1061	1	220524	12:50:00	12:50:00		Dębicka / Ciche Wzgórze 15 nż
-1061	1	220524	12:51:00	12:51:00		Dębicka / Złocista 13 nż
-1061	1	220524	12:51:00	12:51:00		Dębicka / Złocista 13 nż
-1061	1	220524	12:52:00	12:52:00		Dębicka / Stadionowa 11 nż
-1061	1	220524	12:52:00	12:52:00		Dębicka / Stadionowa 11 nż
-1061	1	220524	12:53:00	12:53:00		Dębicka szkoła 09 nż
-1061	1	220524	12:53:00	12:53:00		Dębicka szkoła 09 nż
-1061	1	220524	12:54:00	12:54:00		Dębicka dom kultury 07 nż
-1061	1	220524	12:54:00	12:54:00		Dębicka dom kultury 07 nż
-1061	1	220524	12:55:00	12:55:00		Dębicka / Ustrzycka 05 nż
-1061	1	220524	12:55:00	12:55:00		Dębicka / Ustrzycka 05 nż
-1061	1	220524	12:56:00	12:56:00		Dębicka kościół 03 nż
-1061	1	220524	12:56:00	12:56:00		Dębicka kościół 03 nż
-1061	1	220524	12:57:00	12:57:00		Dębicka / Krakowska 01 nż
-1061	1	220524	12:57:00	12:57:00		Dębicka / Krakowska 01 nż
-1061	1	220524	12:59:00	12:59:00		Krakowska / Mielecka 07 nż
-1061	1	220524	12:59:00	12:59:00		Krakowska / Mielecka 07 nż
-1061	1	220524	13:00:00	13:00:00		Krakowska galeria 05
-1061	1	220524	13:00:00	13:00:00		Krakowska galeria 05
-1061	1	220524	13:01:00	13:01:00		Krakowska szpital 03
-1061	1	220524	13:01:00	13:01:00		Krakowska szpital 03
-1061	1	220524	13:03:00	13:03:00		Krakowska jedn. wojskowa 01
-1061	1	220524	13:03:00	13:03:00		Krakowska jedn. wojskowa 01
-1061	1	220524	13:05:00	13:05:00		Piłsudskiego U. Marszałkowski 07
-1061	1	220524	13:05:00	13:05:00		Piłsudskiego U. Marszałkowski 07
-1061	1	220524	13:08:00	13:08:00		Marszałkowska 02
-1061	1	220524	13:08:00	13:08:00		Marszałkowska 02
-1061	1	220524	13:09:00	13:09:00		Lubelska szpital 02
-1061	1	220524	13:09:00	13:09:00		Lubelska szpital 02
-1061	1	220524	13:10:00	13:10:00		Lubelska kościół 06 nż
-1061	1	220524	13:10:00	13:10:00		Lubelska kościół 06 nż
-1061	1	220524	13:12:00	13:12:00		Lubelska / Borowa 08 nż
-1061	1	220524	13:12:00	13:12:00		Lubelska / Borowa 08 nż
-1061	1	220524	13:14:00	13:14:00		Lubelska Os. Ogrody 10 nż
-1061	1	220524	13:14:00	13:14:00		Lubelska Os. Ogrody 10 nż
-1061	1	220524	13:15:00	13:15:00		Lubelska Ogrody Hiszpańskie 12 nż
-1061	1	220524	13:15:00	13:15:00		Lubelska Ogrody Hiszpańskie 12 nż
-1061	1	220524	13:16:00	13:16:00		Lubelska MPK 14 nż
-1061	1	220524	13:16:00	13:16:00		Lubelska MPK 14 nż
-1061	1	220524	13:17:00	13:17:00		Lubelska Zajezdnia MPK
-1061	1	220524	13:17:00	13:17:00		Lubelska Zajezdnia MPK
+1061	4	220524	12:45:00	12:45:00		Kalinowa pętla 04
+1061	4	220524	12:45:00	12:45:00		Kalinowa pętla 04
+1061	4	220524	12:46:00	12:46:00		Kalinowa / Dębicka 01 nż
+1061	4	220524	12:46:00	12:46:00		Kalinowa / Dębicka 01 nż
+1061	4	220524	12:47:00	12:47:00		Dębicka / Św. Jakuba 19 nż
+1061	4	220524	12:47:00	12:47:00		Dębicka / Św. Jakuba 19 nż
+1061	4	220524	12:49:00	12:49:00		Dębicka / Działowa 17 nż
+1061	4	220524	12:49:00	12:49:00		Dębicka / Działowa 17 nż
+1061	4	220524	12:50:00	12:50:00		Dębicka / Ciche Wzgórze 15 nż
+1061	4	220524	12:50:00	12:50:00		Dębicka / Ciche Wzgórze 15 nż
+1061	4	220524	12:51:00	12:51:00		Dębicka / Złocista 13 nż
+1061	4	220524	12:51:00	12:51:00		Dębicka / Złocista 13 nż
+1061	4	220524	12:52:00	12:52:00		Dębicka / Stadionowa 11 nż
+1061	4	220524	12:52:00	12:52:00		Dębicka / Stadionowa 11 nż
+1061	4	220524	12:53:00	12:53:00		Dębicka szkoła 09 nż
+1061	4	220524	12:53:00	12:53:00		Dębicka szkoła 09 nż
+1061	4	220524	12:54:00	12:54:00		Dębicka dom kultury 07 nż
+1061	4	220524	12:54:00	12:54:00		Dębicka dom kultury 07 nż
+1061	4	220524	12:55:00	12:55:00		Dębicka / Ustrzycka 05 nż
+1061	4	220524	12:55:00	12:55:00		Dębicka / Ustrzycka 05 nż
+1061	4	220524	12:56:00	12:56:00		Dębicka kościół 03 nż
+1061	4	220524	12:56:00	12:56:00		Dębicka kościół 03 nż
+1061	4	220524	12:57:00	12:57:00		Dębicka / Krakowska 01 nż
+1061	4	220524	12:57:00	12:57:00		Dębicka / Krakowska 01 nż
+1061	4	220524	12:59:00	12:59:00		Krakowska / Mielecka 07 nż
+1061	4	220524	12:59:00	12:59:00		Krakowska / Mielecka 07 nż
+1061	4	220524	13:00:00	13:00:00		Krakowska galeria 05
+1061	4	220524	13:00:00	13:00:00		Krakowska galeria 05
+1061	4	220524	13:01:00	13:01:00		Krakowska szpital 03
+1061	4	220524	13:01:00	13:01:00		Krakowska szpital 03
+1061	4	220524	13:03:00	13:03:00		Krakowska jedn. wojskowa 01
+1061	4	220524	13:03:00	13:03:00		Krakowska jedn. wojskowa 01
+1061	4	220524	13:05:00	13:05:00		Piłsudskiego U. Marszałkowski 07
+1061	4	220524	13:05:00	13:05:00		Piłsudskiego U. Marszałkowski 07
+1061	4	220524	13:08:00	13:08:00		Marszałkowska 02
+1061	4	220524	13:08:00	13:08:00		Marszałkowska 02
+1061	4	220524	13:09:00	13:09:00		Lubelska szpital 02
+1061	4	220524	13:09:00	13:09:00		Lubelska szpital 02
+1061	4	220524	13:10:00	13:10:00		Lubelska kościół 06 nż
+1061	4	220524	13:10:00	13:10:00		Lubelska kościół 06 nż
+1061	4	220524	13:12:00	13:12:00		Lubelska / Borowa 08 nż
+1061	4	220524	13:12:00	13:12:00		Lubelska / Borowa 08 nż
+1061	4	220524	13:14:00	13:14:00		Lubelska Os. Ogrody 10 nż
+1061	4	220524	13:14:00	13:14:00		Lubelska Os. Ogrody 10 nż
+1061	4	220524	13:15:00	13:15:00		Lubelska Ogrody Hiszpańskie 12 nż
+1061	4	220524	13:15:00	13:15:00		Lubelska Ogrody Hiszpańskie 12 nż
+1061	4	220524	13:16:00	13:16:00		Lubelska MPK 14 nż
+1061	4	220524	13:16:00	13:16:00		Lubelska MPK 14 nż
+1061	4	220524	13:17:00	13:17:00		Lubelska Zajezdnia MPK
+1061	4	220524	13:17:00	13:17:00		Lubelska Zajezdnia MPK
 
-1058	1	220526	14:02:00	14:02:00		Lubelska Zajezdnia MPK
-1058	1	220526	14:02:00	14:02:00		Lubelska Zajezdnia MPK
-1058	1	220526	14:03:00	14:03:00		Lubelska MPK 13 nż
-1058	1	220526	14:03:00	14:03:00		Lubelska MPK 13 nż
-1058	1	220526	14:04:00	14:04:00		Lubelska Ogrody Hiszpańskie 11 nż
-1058	1	220526	14:04:00	14:04:00		Lubelska Ogrody Hiszpańskie 11 nż
-1058	1	220526	14:05:00	14:05:00		Lubelska Os. Ogrody 09 nż
-1058	1	220526	14:05:00	14:05:00		Lubelska Os. Ogrody 09 nż
-1058	1	220526	14:06:00	14:06:00		Lubelska / Borowa 07 nż
-1058	1	220526	14:06:00	14:06:00		Lubelska / Borowa 07 nż
-1058	1	220526	14:08:00	14:08:00		Lubelska kościół 05 nż
-1058	1	220526	14:08:00	14:08:00		Lubelska kościół 05 nż
-1058	1	220526	14:09:00	14:09:00		Lubelska szpital 01
-1058	1	220526	14:09:00	14:09:00		Lubelska szpital 01
-1058	1	220526	14:10:00	14:10:00		Marszałkowska 01
-1058	1	220526	14:10:00	14:10:00		Marszałkowska 01
-1058	1	220526	14:12:00	14:12:00		Piłsudskiego U. Marszałkowski 08
-1058	1	220526	14:12:00	14:12:00		Piłsudskiego U. Marszałkowski 08
-1058	1	220526	14:14:00	14:14:00		Krakowska jedn. wojskowa 02
-1058	1	220526	14:14:00	14:14:00		Krakowska jedn. wojskowa 02
-1058	1	220526	14:15:00	14:15:00		Krakowska szpital 04
-1058	1	220526	14:15:00	14:15:00		Krakowska szpital 04
-1058	1	220526	14:16:00	14:16:00		Krakowska galeria 06
-1058	1	220526	14:16:00	14:16:00		Krakowska galeria 06
-1058	1	220526	14:17:00	14:17:00		Krakowska / Wyzwolenia 08 nż
-1058	1	220526	14:17:00	14:17:00		Krakowska / Wyzwolenia 08 nż
-1058	1	220526	14:19:00	14:19:00		Dębicka / Krakowska 02 nż
-1058	1	220526	14:19:00	14:19:00		Dębicka / Krakowska 02 nż
-1058	1	220526	14:20:00	14:20:00		Dębicka kościół 04 nż
-1058	1	220526	14:20:00	14:20:00		Dębicka kościół 04 nż
-1058	1	220526	14:21:00	14:21:00		Dębicka / Ustrzycka 06 nż
-1058	1	220526	14:21:00	14:21:00		Dębicka / Ustrzycka 06 nż
-1058	1	220526	14:22:00	14:22:00		Dębicka dom kultury 08 nż
-1058	1	220526	14:22:00	14:22:00		Dębicka dom kultury 08 nż
-1058	1	220526	14:24:00	14:24:00		Dębicka szkoła 10 nż
-1058	1	220526	14:24:00	14:24:00		Dębicka szkoła 10 nż
-1058	1	220526	14:25:00	14:25:00		Dębicka / Stadionowa 12 nż
-1058	1	220526	14:25:00	14:25:00		Dębicka / Stadionowa 12 nż
-1058	1	220526	14:26:00	14:26:00		Dębicka / Złocista 14 nż
-1058	1	220526	14:26:00	14:26:00		Dębicka / Złocista 14 nż
-1058	1	220526	14:27:00	14:27:00		Dębicka / Ciche Wzgórze 16 nż
-1058	1	220526	14:27:00	14:27:00		Dębicka / Ciche Wzgórze 16 nż
-1058	1	220526	14:28:00	14:28:00		Dębicka / Działowa 18 nż
-1058	1	220526	14:28:00	14:28:00		Dębicka / Działowa 18 nż
-1058	1	220526	14:29:00	14:29:00		Dębicka / Leśne Wzgórze 20 nż
-1058	1	220526	14:29:00	14:29:00		Dębicka / Leśne Wzgórze 20 nż
-1058	1	220526	14:30:00	14:30:00		Dębicka / Św. Jakuba 22 nż
-1058	1	220526	14:30:00	14:30:00		Dębicka / Św. Jakuba 22 nż
-1058	1	220526	14:31:00	14:31:00		Kalinowa / Dębicka 02 nż
-1058	1	220526	14:31:00	14:31:00		Kalinowa / Dębicka 02 nż
-1058	1	220526	14:32:00	14:32:00		Kalinowa pętla 04
-1058	1	220526	14:32:00	14:32:00		Kalinowa pętla 04
+1058	4	220526	14:02:00	14:02:00		Lubelska Zajezdnia MPK
+1058	4	220526	14:02:00	14:02:00		Lubelska Zajezdnia MPK
+1058	4	220526	14:03:00	14:03:00		Lubelska MPK 13 nż
+1058	4	220526	14:03:00	14:03:00		Lubelska MPK 13 nż
+1058	4	220526	14:04:00	14:04:00		Lubelska Ogrody Hiszpańskie 11 nż
+1058	4	220526	14:04:00	14:04:00		Lubelska Ogrody Hiszpańskie 11 nż
+1058	4	220526	14:05:00	14:05:00		Lubelska Os. Ogrody 09 nż
+1058	4	220526	14:05:00	14:05:00		Lubelska Os. Ogrody 09 nż
+1058	4	220526	14:06:00	14:06:00		Lubelska / Borowa 07 nż
+1058	4	220526	14:06:00	14:06:00		Lubelska / Borowa 07 nż
+1058	4	220526	14:08:00	14:08:00		Lubelska kościół 05 nż
+1058	4	220526	14:08:00	14:08:00		Lubelska kościół 05 nż
+1058	4	220526	14:09:00	14:09:00		Lubelska szpital 01
+1058	4	220526	14:09:00	14:09:00		Lubelska szpital 01
+1058	4	220526	14:10:00	14:10:00		Marszałkowska 01
+1058	4	220526	14:10:00	14:10:00		Marszałkowska 01
+1058	4	220526	14:12:00	14:12:00		Piłsudskiego U. Marszałkowski 08
+1058	4	220526	14:12:00	14:12:00		Piłsudskiego U. Marszałkowski 08
+1058	4	220526	14:14:00	14:14:00		Krakowska jedn. wojskowa 02
+1058	4	220526	14:14:00	14:14:00		Krakowska jedn. wojskowa 02
+1058	4	220526	14:15:00	14:15:00		Krakowska szpital 04
+1058	4	220526	14:15:00	14:15:00		Krakowska szpital 04
+1058	4	220526	14:16:00	14:16:00		Krakowska galeria 06
+1058	4	220526	14:16:00	14:16:00		Krakowska galeria 06
+1058	4	220526	14:17:00	14:17:00		Krakowska / Wyzwolenia 08 nż
+1058	4	220526	14:17:00	14:17:00		Krakowska / Wyzwolenia 08 nż
+1058	4	220526	14:19:00	14:19:00		Dębicka / Krakowska 02 nż
+1058	4	220526	14:19:00	14:19:00		Dębicka / Krakowska 02 nż
+1058	4	220526	14:20:00	14:20:00		Dębicka kościół 04 nż
+1058	4	220526	14:20:00	14:20:00		Dębicka kościół 04 nż
+1058	4	220526	14:21:00	14:21:00		Dębicka / Ustrzycka 06 nż
+1058	4	220526	14:21:00	14:21:00		Dębicka / Ustrzycka 06 nż
+1058	4	220526	14:22:00	14:22:00		Dębicka dom kultury 08 nż
+1058	4	220526	14:22:00	14:22:00		Dębicka dom kultury 08 nż
+1058	4	220526	14:24:00	14:24:00		Dębicka szkoła 10 nż
+1058	4	220526	14:24:00	14:24:00		Dębicka szkoła 10 nż
+1058	4	220526	14:25:00	14:25:00		Dębicka / Stadionowa 12 nż
+1058	4	220526	14:25:00	14:25:00		Dębicka / Stadionowa 12 nż
+1058	4	220526	14:26:00	14:26:00		Dębicka / Złocista 14 nż
+1058	4	220526	14:26:00	14:26:00		Dębicka / Złocista 14 nż
+1058	4	220526	14:27:00	14:27:00		Dębicka / Ciche Wzgórze 16 nż
+1058	4	220526	14:27:00	14:27:00		Dębicka / Ciche Wzgórze 16 nż
+1058	4	220526	14:28:00	14:28:00		Dębicka / Działowa 18 nż
+1058	4	220526	14:28:00	14:28:00		Dębicka / Działowa 18 nż
+1058	4	220526	14:29:00	14:29:00		Dębicka / Leśne Wzgórze 20 nż
+1058	4	220526	14:29:00	14:29:00		Dębicka / Leśne Wzgórze 20 nż
+1058	4	220526	14:30:00	14:30:00		Dębicka / Św. Jakuba 22 nż
+1058	4	220526	14:30:00	14:30:00		Dębicka / Św. Jakuba 22 nż
+1058	4	220526	14:31:00	14:31:00		Kalinowa / Dębicka 02 nż
+1058	4	220526	14:31:00	14:31:00		Kalinowa / Dębicka 02 nż
+1058	4	220526	14:32:00	14:32:00		Kalinowa pętla 04
+1058	4	220526	14:32:00	14:32:00		Kalinowa pętla 04
 
-1061	1	220601	14:45:00	14:45:00		Kalinowa pętla 04
-1061	1	220601	14:45:00	14:45:00		Kalinowa pętla 04
-1061	1	220601	14:46:00	14:46:00		Kalinowa / Dębicka 01 nż
-1061	1	220601	14:46:00	14:46:00		Kalinowa / Dębicka 01 nż
-1061	1	220601	14:47:00	14:47:00		Dębicka / Św. Jakuba 19 nż
-1061	1	220601	14:47:00	14:47:00		Dębicka / Św. Jakuba 19 nż
-1061	1	220601	14:49:00	14:49:00		Dębicka / Działowa 17 nż
-1061	1	220601	14:49:00	14:49:00		Dębicka / Działowa 17 nż
-1061	1	220601	14:50:00	14:50:00		Dębicka / Ciche Wzgórze 15 nż
-1061	1	220601	14:50:00	14:50:00		Dębicka / Ciche Wzgórze 15 nż
-1061	1	220601	14:51:00	14:51:00		Dębicka / Złocista 13 nż
-1061	1	220601	14:51:00	14:51:00		Dębicka / Złocista 13 nż
-1061	1	220601	14:52:00	14:52:00		Dębicka / Stadionowa 11 nż
-1061	1	220601	14:52:00	14:52:00		Dębicka / Stadionowa 11 nż
-1061	1	220601	14:53:00	14:53:00		Dębicka szkoła 09 nż
-1061	1	220601	14:53:00	14:53:00		Dębicka szkoła 09 nż
-1061	1	220601	14:54:00	14:54:00		Dębicka dom kultury 07 nż
-1061	1	220601	14:54:00	14:54:00		Dębicka dom kultury 07 nż
-1061	1	220601	14:55:00	14:55:00		Dębicka / Ustrzycka 05 nż
-1061	1	220601	14:55:00	14:55:00		Dębicka / Ustrzycka 05 nż
-1061	1	220601	14:56:00	14:56:00		Dębicka kościół 03 nż
-1061	1	220601	14:56:00	14:56:00		Dębicka kościół 03 nż
-1061	1	220601	14:57:00	14:57:00		Dębicka / Krakowska 01 nż
-1061	1	220601	14:57:00	14:57:00		Dębicka / Krakowska 01 nż
-1061	1	220601	14:59:00	14:59:00		Krakowska / Mielecka 07 nż
-1061	1	220601	14:59:00	14:59:00		Krakowska / Mielecka 07 nż
-1061	1	220601	15:00:00	15:00:00		Krakowska galeria 05
-1061	1	220601	15:00:00	15:00:00		Krakowska galeria 05
-1061	1	220601	15:01:00	15:01:00		Krakowska szpital 03
-1061	1	220601	15:01:00	15:01:00		Krakowska szpital 03
-1061	1	220601	15:03:00	15:03:00		Krakowska jedn. wojskowa 01
-1061	1	220601	15:03:00	15:03:00		Krakowska jedn. wojskowa 01
-1061	1	220601	15:05:00	15:05:00		Piłsudskiego U. Marszałkowski 07
-1061	1	220601	15:05:00	15:05:00		Piłsudskiego U. Marszałkowski 07
-1061	1	220601	15:08:00	15:08:00		Marszałkowska 02
-1061	1	220601	15:08:00	15:08:00		Marszałkowska 02
-1061	1	220601	15:09:00	15:09:00		Lubelska szpital 02
-1061	1	220601	15:09:00	15:09:00		Lubelska szpital 02
-1061	1	220601	15:10:00	15:10:00		Lubelska kościół 06 nż
-1061	1	220601	15:10:00	15:10:00		Lubelska kościół 06 nż
-1061	1	220601	15:12:00	15:12:00		Lubelska / Borowa 08 nż
-1061	1	220601	15:12:00	15:12:00		Lubelska / Borowa 08 nż
-1061	1	220601	15:14:00	15:14:00		Lubelska Os. Ogrody 10 nż
-1061	1	220601	15:14:00	15:14:00		Lubelska Os. Ogrody 10 nż
-1061	1	220601	15:15:00	15:15:00		Lubelska Ogrody Hiszpańskie 12 nż
-1061	1	220601	15:15:00	15:15:00		Lubelska Ogrody Hiszpańskie 12 nż
-1061	1	220601	15:16:00	15:16:00		Lubelska MPK 14 nż
-1061	1	220601	15:16:00	15:16:00		Lubelska MPK 14 nż
-1061	1	220601	15:17:00	15:17:00		Lubelska Zajezdnia MPK
-1061	1	220601	15:17:00	15:17:00		Lubelska Zajezdnia MPK
+1061	4	220601	14:45:00	14:45:00		Kalinowa pętla 04
+1061	4	220601	14:45:00	14:45:00		Kalinowa pętla 04
+1061	4	220601	14:46:00	14:46:00		Kalinowa / Dębicka 01 nż
+1061	4	220601	14:46:00	14:46:00		Kalinowa / Dębicka 01 nż
+1061	4	220601	14:47:00	14:47:00		Dębicka / Św. Jakuba 19 nż
+1061	4	220601	14:47:00	14:47:00		Dębicka / Św. Jakuba 19 nż
+1061	4	220601	14:49:00	14:49:00		Dębicka / Działowa 17 nż
+1061	4	220601	14:49:00	14:49:00		Dębicka / Działowa 17 nż
+1061	4	220601	14:50:00	14:50:00		Dębicka / Ciche Wzgórze 15 nż
+1061	4	220601	14:50:00	14:50:00		Dębicka / Ciche Wzgórze 15 nż
+1061	4	220601	14:51:00	14:51:00		Dębicka / Złocista 13 nż
+1061	4	220601	14:51:00	14:51:00		Dębicka / Złocista 13 nż
+1061	4	220601	14:52:00	14:52:00		Dębicka / Stadionowa 11 nż
+1061	4	220601	14:52:00	14:52:00		Dębicka / Stadionowa 11 nż
+1061	4	220601	14:53:00	14:53:00		Dębicka szkoła 09 nż
+1061	4	220601	14:53:00	14:53:00		Dębicka szkoła 09 nż
+1061	4	220601	14:54:00	14:54:00		Dębicka dom kultury 07 nż
+1061	4	220601	14:54:00	14:54:00		Dębicka dom kultury 07 nż
+1061	4	220601	14:55:00	14:55:00		Dębicka / Ustrzycka 05 nż
+1061	4	220601	14:55:00	14:55:00		Dębicka / Ustrzycka 05 nż
+1061	4	220601	14:56:00	14:56:00		Dębicka kościół 03 nż
+1061	4	220601	14:56:00	14:56:00		Dębicka kościół 03 nż
+1061	4	220601	14:57:00	14:57:00		Dębicka / Krakowska 01 nż
+1061	4	220601	14:57:00	14:57:00		Dębicka / Krakowska 01 nż
+1061	4	220601	14:59:00	14:59:00		Krakowska / Mielecka 07 nż
+1061	4	220601	14:59:00	14:59:00		Krakowska / Mielecka 07 nż
+1061	4	220601	15:00:00	15:00:00		Krakowska galeria 05
+1061	4	220601	15:00:00	15:00:00		Krakowska galeria 05
+1061	4	220601	15:01:00	15:01:00		Krakowska szpital 03
+1061	4	220601	15:01:00	15:01:00		Krakowska szpital 03
+1061	4	220601	15:03:00	15:03:00		Krakowska jedn. wojskowa 01
+1061	4	220601	15:03:00	15:03:00		Krakowska jedn. wojskowa 01
+1061	4	220601	15:05:00	15:05:00		Piłsudskiego U. Marszałkowski 07
+1061	4	220601	15:05:00	15:05:00		Piłsudskiego U. Marszałkowski 07
+1061	4	220601	15:08:00	15:08:00		Marszałkowska 02
+1061	4	220601	15:08:00	15:08:00		Marszałkowska 02
+1061	4	220601	15:09:00	15:09:00		Lubelska szpital 02
+1061	4	220601	15:09:00	15:09:00		Lubelska szpital 02
+1061	4	220601	15:10:00	15:10:00		Lubelska kościół 06 nż
+1061	4	220601	15:10:00	15:10:00		Lubelska kościół 06 nż
+1061	4	220601	15:12:00	15:12:00		Lubelska / Borowa 08 nż
+1061	4	220601	15:12:00	15:12:00		Lubelska / Borowa 08 nż
+1061	4	220601	15:14:00	15:14:00		Lubelska Os. Ogrody 10 nż
+1061	4	220601	15:14:00	15:14:00		Lubelska Os. Ogrody 10 nż
+1061	4	220601	15:15:00	15:15:00		Lubelska Ogrody Hiszpańskie 12 nż
+1061	4	220601	15:15:00	15:15:00		Lubelska Ogrody Hiszpańskie 12 nż
+1061	4	220601	15:16:00	15:16:00		Lubelska MPK 14 nż
+1061	4	220601	15:16:00	15:16:00		Lubelska MPK 14 nż
+1061	4	220601	15:17:00	15:17:00		Lubelska Zajezdnia MPK
+1061	4	220601	15:17:00	15:17:00		Lubelska Zajezdnia MPK
 
-1058	1	220560	16:03:00	16:03:00		Lubelska Zajezdnia MPK
-1058	1	220560	16:03:00	16:03:00		Lubelska Zajezdnia MPK
-1058	1	220560	16:04:00	16:04:00		Lubelska MPK 13 nż
-1058	1	220560	16:04:00	16:04:00		Lubelska MPK 13 nż
-1058	1	220560	16:05:00	16:05:00		Lubelska Ogrody Hiszpańskie 11 nż
-1058	1	220560	16:05:00	16:05:00		Lubelska Ogrody Hiszpańskie 11 nż
-1058	1	220560	16:06:00	16:06:00		Lubelska Os. Ogrody 09 nż
-1058	1	220560	16:06:00	16:06:00		Lubelska Os. Ogrody 09 nż
-1058	1	220560	16:07:00	16:07:00		Lubelska / Borowa 07 nż
-1058	1	220560	16:07:00	16:07:00		Lubelska / Borowa 07 nż
-1058	1	220560	16:08:00	16:08:00		Lubelska kościół 05 nż
-1058	1	220560	16:08:00	16:08:00		Lubelska kościół 05 nż
-1058	1	220560	16:09:00	16:09:00		Lubelska szpital 01
-1058	1	220560	16:09:00	16:09:00		Lubelska szpital 01
-1058	1	220560	16:10:00	16:10:00		Marszałkowska 01
-1058	1	220560	16:10:00	16:10:00		Marszałkowska 01
-1058	1	220560	16:12:00	16:12:00		Piłsudskiego U. Marszałkowski 08
-1058	1	220560	16:12:00	16:12:00		Piłsudskiego U. Marszałkowski 08
-1058	1	220560	16:14:00	16:14:00		Krakowska jedn. wojskowa 02
-1058	1	220560	16:14:00	16:14:00		Krakowska jedn. wojskowa 02
-1058	1	220560	16:15:00	16:15:00		Krakowska szpital 04
-1058	1	220560	16:15:00	16:15:00		Krakowska szpital 04
-1058	1	220560	16:16:00	16:16:00		Krakowska galeria 06
-1058	1	220560	16:16:00	16:16:00		Krakowska galeria 06
-1058	1	220560	16:17:00	16:17:00		Krakowska / Wyzwolenia 08 nż
-1058	1	220560	16:17:00	16:17:00		Krakowska / Wyzwolenia 08 nż
-1058	1	220560	16:19:00	16:19:00		Dębicka / Krakowska 02 nż
-1058	1	220560	16:19:00	16:19:00		Dębicka / Krakowska 02 nż
-1058	1	220560	16:20:00	16:20:00		Dębicka kościół 04 nż
-1058	1	220560	16:20:00	16:20:00		Dębicka kościół 04 nż
-1058	1	220560	16:21:00	16:21:00		Dębicka / Ustrzycka 06 nż
-1058	1	220560	16:21:00	16:21:00		Dębicka / Ustrzycka 06 nż
-1058	1	220560	16:22:00	16:22:00		Dębicka dom kultury 08 nż
-1058	1	220560	16:22:00	16:22:00		Dębicka dom kultury 08 nż
-1058	1	220560	16:24:00	16:24:00		Dębicka szkoła 10 nż
-1058	1	220560	16:24:00	16:24:00		Dębicka szkoła 10 nż
-1058	1	220560	16:25:00	16:25:00		Dębicka / Stadionowa 12 nż
-1058	1	220560	16:25:00	16:25:00		Dębicka / Stadionowa 12 nż
-1058	1	220560	16:26:00	16:26:00		Dębicka / Złocista 14 nż
-1058	1	220560	16:26:00	16:26:00		Dębicka / Złocista 14 nż
-1058	1	220560	16:27:00	16:27:00		Dębicka / Ciche Wzgórze 16 nż
-1058	1	220560	16:27:00	16:27:00		Dębicka / Ciche Wzgórze 16 nż
-1058	1	220560	16:28:00	16:28:00		Dębicka / Działowa 18 nż
-1058	1	220560	16:28:00	16:28:00		Dębicka / Działowa 18 nż
-1058	1	220560	16:29:00	16:29:00		Dębicka / Leśne Wzgórze 20 nż
-1058	1	220560	16:29:00	16:29:00		Dębicka / Leśne Wzgórze 20 nż
-1058	1	220560	16:30:00	16:30:00		Dębicka / Św. Jakuba 22 nż
-1058	1	220560	16:30:00	16:30:00		Dębicka / Św. Jakuba 22 nż
-1058	1	220560	16:31:00	16:31:00		Kalinowa / Dębicka 02 nż
-1058	1	220560	16:31:00	16:31:00		Kalinowa / Dębicka 02 nż
-1058	1	220560	16:32:00	16:32:00		Kalinowa pętla 04
-1058	1	220560	16:32:00	16:32:00		Kalinowa pętla 04
+1058	4	220560	16:03:00	16:03:00		Lubelska Zajezdnia MPK
+1058	4	220560	16:03:00	16:03:00		Lubelska Zajezdnia MPK
+1058	4	220560	16:04:00	16:04:00		Lubelska MPK 13 nż
+1058	4	220560	16:04:00	16:04:00		Lubelska MPK 13 nż
+1058	4	220560	16:05:00	16:05:00		Lubelska Ogrody Hiszpańskie 11 nż
+1058	4	220560	16:05:00	16:05:00		Lubelska Ogrody Hiszpańskie 11 nż
+1058	4	220560	16:06:00	16:06:00		Lubelska Os. Ogrody 09 nż
+1058	4	220560	16:06:00	16:06:00		Lubelska Os. Ogrody 09 nż
+1058	4	220560	16:07:00	16:07:00		Lubelska / Borowa 07 nż
+1058	4	220560	16:07:00	16:07:00		Lubelska / Borowa 07 nż
+1058	4	220560	16:08:00	16:08:00		Lubelska kościół 05 nż
+1058	4	220560	16:08:00	16:08:00		Lubelska kościół 05 nż
+1058	4	220560	16:09:00	16:09:00		Lubelska szpital 01
+1058	4	220560	16:09:00	16:09:00		Lubelska szpital 01
+1058	4	220560	16:10:00	16:10:00		Marszałkowska 01
+1058	4	220560	16:10:00	16:10:00		Marszałkowska 01
+1058	4	220560	16:12:00	16:12:00		Piłsudskiego U. Marszałkowski 08
+1058	4	220560	16:12:00	16:12:00		Piłsudskiego U. Marszałkowski 08
+1058	4	220560	16:14:00	16:14:00		Krakowska jedn. wojskowa 02
+1058	4	220560	16:14:00	16:14:00		Krakowska jedn. wojskowa 02
+1058	4	220560	16:15:00	16:15:00		Krakowska szpital 04
+1058	4	220560	16:15:00	16:15:00		Krakowska szpital 04
+1058	4	220560	16:16:00	16:16:00		Krakowska galeria 06
+1058	4	220560	16:16:00	16:16:00		Krakowska galeria 06
+1058	4	220560	16:17:00	16:17:00		Krakowska / Wyzwolenia 08 nż
+1058	4	220560	16:17:00	16:17:00		Krakowska / Wyzwolenia 08 nż
+1058	4	220560	16:19:00	16:19:00		Dębicka / Krakowska 02 nż
+1058	4	220560	16:19:00	16:19:00		Dębicka / Krakowska 02 nż
+1058	4	220560	16:20:00	16:20:00		Dębicka kościół 04 nż
+1058	4	220560	16:20:00	16:20:00		Dębicka kościół 04 nż
+1058	4	220560	16:21:00	16:21:00		Dębicka / Ustrzycka 06 nż
+1058	4	220560	16:21:00	16:21:00		Dębicka / Ustrzycka 06 nż
+1058	4	220560	16:22:00	16:22:00		Dębicka dom kultury 08 nż
+1058	4	220560	16:22:00	16:22:00		Dębicka dom kultury 08 nż
+1058	4	220560	16:24:00	16:24:00		Dębicka szkoła 10 nż
+1058	4	220560	16:24:00	16:24:00		Dębicka szkoła 10 nż
+1058	4	220560	16:25:00	16:25:00		Dębicka / Stadionowa 12 nż
+1058	4	220560	16:25:00	16:25:00		Dębicka / Stadionowa 12 nż
+1058	4	220560	16:26:00	16:26:00		Dębicka / Złocista 14 nż
+1058	4	220560	16:26:00	16:26:00		Dębicka / Złocista 14 nż
+1058	4	220560	16:27:00	16:27:00		Dębicka / Ciche Wzgórze 16 nż
+1058	4	220560	16:27:00	16:27:00		Dębicka / Ciche Wzgórze 16 nż
+1058	4	220560	16:28:00	16:28:00		Dębicka / Działowa 18 nż
+1058	4	220560	16:28:00	16:28:00		Dębicka / Działowa 18 nż
+1058	4	220560	16:29:00	16:29:00		Dębicka / Leśne Wzgórze 20 nż
+1058	4	220560	16:29:00	16:29:00		Dębicka / Leśne Wzgórze 20 nż
+1058	4	220560	16:30:00	16:30:00		Dębicka / Św. Jakuba 22 nż
+1058	4	220560	16:30:00	16:30:00		Dębicka / Św. Jakuba 22 nż
+1058	4	220560	16:31:00	16:31:00		Kalinowa / Dębicka 02 nż
+1058	4	220560	16:31:00	16:31:00		Kalinowa / Dębicka 02 nż
+1058	4	220560	16:32:00	16:32:00		Kalinowa pętla 04
+1058	4	220560	16:32:00	16:32:00		Kalinowa pętla 04
 
-1061	1	220435	16:46:00	16:46:00		Kalinowa pętla 04
-1061	1	220435	16:46:00	16:46:00		Kalinowa pętla 04
-1061	1	220435	16:47:00	16:47:00		Kalinowa / Dębicka 01 nż
-1061	1	220435	16:47:00	16:47:00		Kalinowa / Dębicka 01 nż
-1061	1	220435	16:48:00	16:48:00		Dębicka / Św. Jakuba 19 nż
-1061	1	220435	16:48:00	16:48:00		Dębicka / Św. Jakuba 19 nż
-1061	1	220435	16:50:00	16:50:00		Dębicka / Działowa 17 nż
-1061	1	220435	16:50:00	16:50:00		Dębicka / Działowa 17 nż
-1061	1	220435	16:51:00	16:51:00		Dębicka / Ciche Wzgórze 15 nż
-1061	1	220435	16:51:00	16:51:00		Dębicka / Ciche Wzgórze 15 nż
-1061	1	220435	16:52:00	16:52:00		Dębicka / Złocista 13 nż
-1061	1	220435	16:52:00	16:52:00		Dębicka / Złocista 13 nż
-1061	1	220435	16:53:00	16:53:00		Dębicka / Stadionowa 11 nż
-1061	1	220435	16:53:00	16:53:00		Dębicka / Stadionowa 11 nż
-1061	1	220435	16:54:00	16:54:00		Dębicka szkoła 09 nż
-1061	1	220435	16:54:00	16:54:00		Dębicka szkoła 09 nż
-1061	1	220435	16:55:00	16:55:00		Dębicka dom kultury 07 nż
-1061	1	220435	16:55:00	16:55:00		Dębicka dom kultury 07 nż
-1061	1	220435	16:56:00	16:56:00		Dębicka / Ustrzycka 05 nż
-1061	1	220435	16:56:00	16:56:00		Dębicka / Ustrzycka 05 nż
-1061	1	220435	16:57:00	16:57:00		Dębicka kościół 03 nż
-1061	1	220435	16:57:00	16:57:00		Dębicka kościół 03 nż
-1061	1	220435	16:58:00	16:58:00		Dębicka / Krakowska 01 nż
-1061	1	220435	16:58:00	16:58:00		Dębicka / Krakowska 01 nż
-1061	1	220435	17:00:00	17:00:00		Krakowska / Mielecka 07 nż
-1061	1	220435	17:00:00	17:00:00		Krakowska / Mielecka 07 nż
-1061	1	220435	17:01:00	17:01:00		Krakowska galeria 05
-1061	1	220435	17:01:00	17:01:00		Krakowska galeria 05
-1061	1	220435	17:02:00	17:02:00		Krakowska szpital 03
-1061	1	220435	17:02:00	17:02:00		Krakowska szpital 03
-1061	1	220435	17:04:00	17:04:00		Krakowska jedn. wojskowa 01
-1061	1	220435	17:04:00	17:04:00		Krakowska jedn. wojskowa 01
-1061	1	220435	17:06:00	17:06:00		Piłsudskiego U. Marszałkowski 07
-1061	1	220435	17:06:00	17:06:00		Piłsudskiego U. Marszałkowski 07
-1061	1	220435	17:09:00	17:09:00		Marszałkowska 02
-1061	1	220435	17:09:00	17:09:00		Marszałkowska 02
-1061	1	220435	17:10:00	17:10:00		Lubelska szpital 02
-1061	1	220435	17:10:00	17:10:00		Lubelska szpital 02
-1061	1	220435	17:11:00	17:11:00		Lubelska kościół 06 nż
-1061	1	220435	17:11:00	17:11:00		Lubelska kościół 06 nż
-1061	1	220435	17:13:00	17:13:00		Lubelska / Borowa 08 nż
-1061	1	220435	17:13:00	17:13:00		Lubelska / Borowa 08 nż
-1061	1	220435	17:15:00	17:15:00		Lubelska Os. Ogrody 10 nż
-1061	1	220435	17:15:00	17:15:00		Lubelska Os. Ogrody 10 nż
-1061	1	220435	17:16:00	17:16:00		Lubelska Ogrody Hiszpańskie 12 nż
-1061	1	220435	17:16:00	17:16:00		Lubelska Ogrody Hiszpańskie 12 nż
-1061	1	220435	17:17:00	17:17:00		Lubelska MPK 14 nż
-1061	1	220435	17:17:00	17:17:00		Lubelska MPK 14 nż
-1061	1	220435	17:18:00	17:18:00		Lubelska Zajezdnia MPK
-1061	1	220435	17:18:00	17:18:00		Lubelska Zajezdnia MPK
+1061	4	220435	16:46:00	16:46:00		Kalinowa pętla 04
+1061	4	220435	16:46:00	16:46:00		Kalinowa pętla 04
+1061	4	220435	16:47:00	16:47:00		Kalinowa / Dębicka 01 nż
+1061	4	220435	16:47:00	16:47:00		Kalinowa / Dębicka 01 nż
+1061	4	220435	16:48:00	16:48:00		Dębicka / Św. Jakuba 19 nż
+1061	4	220435	16:48:00	16:48:00		Dębicka / Św. Jakuba 19 nż
+1061	4	220435	16:50:00	16:50:00		Dębicka / Działowa 17 nż
+1061	4	220435	16:50:00	16:50:00		Dębicka / Działowa 17 nż
+1061	4	220435	16:51:00	16:51:00		Dębicka / Ciche Wzgórze 15 nż
+1061	4	220435	16:51:00	16:51:00		Dębicka / Ciche Wzgórze 15 nż
+1061	4	220435	16:52:00	16:52:00		Dębicka / Złocista 13 nż
+1061	4	220435	16:52:00	16:52:00		Dębicka / Złocista 13 nż
+1061	4	220435	16:53:00	16:53:00		Dębicka / Stadionowa 11 nż
+1061	4	220435	16:53:00	16:53:00		Dębicka / Stadionowa 11 nż
+1061	4	220435	16:54:00	16:54:00		Dębicka szkoła 09 nż
+1061	4	220435	16:54:00	16:54:00		Dębicka szkoła 09 nż
+1061	4	220435	16:55:00	16:55:00		Dębicka dom kultury 07 nż
+1061	4	220435	16:55:00	16:55:00		Dębicka dom kultury 07 nż
+1061	4	220435	16:56:00	16:56:00		Dębicka / Ustrzycka 05 nż
+1061	4	220435	16:56:00	16:56:00		Dębicka / Ustrzycka 05 nż
+1061	4	220435	16:57:00	16:57:00		Dębicka kościół 03 nż
+1061	4	220435	16:57:00	16:57:00		Dębicka kościół 03 nż
+1061	4	220435	16:58:00	16:58:00		Dębicka / Krakowska 01 nż
+1061	4	220435	16:58:00	16:58:00		Dębicka / Krakowska 01 nż
+1061	4	220435	17:00:00	17:00:00		Krakowska / Mielecka 07 nż
+1061	4	220435	17:00:00	17:00:00		Krakowska / Mielecka 07 nż
+1061	4	220435	17:01:00	17:01:00		Krakowska galeria 05
+1061	4	220435	17:01:00	17:01:00		Krakowska galeria 05
+1061	4	220435	17:02:00	17:02:00		Krakowska szpital 03
+1061	4	220435	17:02:00	17:02:00		Krakowska szpital 03
+1061	4	220435	17:04:00	17:04:00		Krakowska jedn. wojskowa 01
+1061	4	220435	17:04:00	17:04:00		Krakowska jedn. wojskowa 01
+1061	4	220435	17:06:00	17:06:00		Piłsudskiego U. Marszałkowski 07
+1061	4	220435	17:06:00	17:06:00		Piłsudskiego U. Marszałkowski 07
+1061	4	220435	17:09:00	17:09:00		Marszałkowska 02
+1061	4	220435	17:09:00	17:09:00		Marszałkowska 02
+1061	4	220435	17:10:00	17:10:00		Lubelska szpital 02
+1061	4	220435	17:10:00	17:10:00		Lubelska szpital 02
+1061	4	220435	17:11:00	17:11:00		Lubelska kościół 06 nż
+1061	4	220435	17:11:00	17:11:00		Lubelska kościół 06 nż
+1061	4	220435	17:13:00	17:13:00		Lubelska / Borowa 08 nż
+1061	4	220435	17:13:00	17:13:00		Lubelska / Borowa 08 nż
+1061	4	220435	17:15:00	17:15:00		Lubelska Os. Ogrody 10 nż
+1061	4	220435	17:15:00	17:15:00		Lubelska Os. Ogrody 10 nż
+1061	4	220435	17:16:00	17:16:00		Lubelska Ogrody Hiszpańskie 12 nż
+1061	4	220435	17:16:00	17:16:00		Lubelska Ogrody Hiszpańskie 12 nż
+1061	4	220435	17:17:00	17:17:00		Lubelska MPK 14 nż
+1061	4	220435	17:17:00	17:17:00		Lubelska MPK 14 nż
+1061	4	220435	17:18:00	17:18:00		Lubelska Zajezdnia MPK
+1061	4	220435	17:18:00	17:18:00		Lubelska Zajezdnia MPK
 
-1058	1	220470	18:02:00	18:02:00		Lubelska Zajezdnia MPK
-1058	1	220470	18:02:00	18:02:00		Lubelska Zajezdnia MPK
-1058	1	220470	18:03:00	18:03:00		Lubelska MPK 13 nż
-1058	1	220470	18:03:00	18:03:00		Lubelska MPK 13 nż
-1058	1	220470	18:04:00	18:04:00		Lubelska Ogrody Hiszpańskie 11 nż
-1058	1	220470	18:04:00	18:04:00		Lubelska Ogrody Hiszpańskie 11 nż
-1058	1	220470	18:05:00	18:05:00		Lubelska Os. Ogrody 09 nż
-1058	1	220470	18:05:00	18:05:00		Lubelska Os. Ogrody 09 nż
-1058	1	220470	18:06:00	18:06:00		Lubelska / Borowa 07 nż
-1058	1	220470	18:06:00	18:06:00		Lubelska / Borowa 07 nż
-1058	1	220470	18:07:00	18:07:00		Lubelska kościół 05 nż
-1058	1	220470	18:07:00	18:07:00		Lubelska kościół 05 nż
-1058	1	220470	18:08:00	18:08:00		Lubelska szpital 01
-1058	1	220470	18:08:00	18:08:00		Lubelska szpital 01
-1058	1	220470	18:09:00	18:09:00		Marszałkowska 01
-1058	1	220470	18:09:00	18:09:00		Marszałkowska 01
-1058	1	220470	18:11:00	18:11:00		Piłsudskiego U. Marszałkowski 08
-1058	1	220470	18:11:00	18:11:00		Piłsudskiego U. Marszałkowski 08
-1058	1	220470	18:13:00	18:13:00		Krakowska jedn. wojskowa 02
-1058	1	220470	18:13:00	18:13:00		Krakowska jedn. wojskowa 02
-1058	1	220470	18:14:00	18:14:00		Krakowska szpital 04
-1058	1	220470	18:14:00	18:14:00		Krakowska szpital 04
-1058	1	220470	18:15:00	18:15:00		Krakowska galeria 06
-1058	1	220470	18:15:00	18:15:00		Krakowska galeria 06
-1058	1	220470	18:16:00	18:16:00		Krakowska / Wyzwolenia 08 nż
-1058	1	220470	18:16:00	18:16:00		Krakowska / Wyzwolenia 08 nż
-1058	1	220470	18:18:00	18:18:00		Dębicka / Krakowska 02 nż
-1058	1	220470	18:18:00	18:18:00		Dębicka / Krakowska 02 nż
-1058	1	220470	18:19:00	18:19:00		Dębicka kościół 04 nż
-1058	1	220470	18:19:00	18:19:00		Dębicka kościół 04 nż
-1058	1	220470	18:20:00	18:20:00		Dębicka / Ustrzycka 06 nż
-1058	1	220470	18:20:00	18:20:00		Dębicka / Ustrzycka 06 nż
-1058	1	220470	18:21:00	18:21:00		Dębicka dom kultury 08 nż
-1058	1	220470	18:21:00	18:21:00		Dębicka dom kultury 08 nż
-1058	1	220470	18:23:00	18:23:00		Dębicka szkoła 10 nż
-1058	1	220470	18:23:00	18:23:00		Dębicka szkoła 10 nż
-1058	1	220470	18:24:00	18:24:00		Dębicka / Stadionowa 12 nż
-1058	1	220470	18:24:00	18:24:00		Dębicka / Stadionowa 12 nż
-1058	1	220470	18:25:00	18:25:00		Dębicka / Złocista 14 nż
-1058	1	220470	18:25:00	18:25:00		Dębicka / Złocista 14 nż
-1058	1	220470	18:26:00	18:26:00		Dębicka / Ciche Wzgórze 16 nż
-1058	1	220470	18:26:00	18:26:00		Dębicka / Ciche Wzgórze 16 nż
-1058	1	220470	18:27:00	18:27:00		Dębicka / Działowa 18 nż
-1058	1	220470	18:27:00	18:27:00		Dębicka / Działowa 18 nż
-1058	1	220470	18:28:00	18:28:00		Dębicka / Leśne Wzgórze 20 nż
-1058	1	220470	18:28:00	18:28:00		Dębicka / Leśne Wzgórze 20 nż
-1058	1	220470	18:29:00	18:29:00		Dębicka / Św. Jakuba 22 nż
-1058	1	220470	18:29:00	18:29:00		Dębicka / Św. Jakuba 22 nż
-1058	1	220470	18:30:00	18:30:00		Kalinowa / Dębicka 02 nż
-1058	1	220470	18:30:00	18:30:00		Kalinowa / Dębicka 02 nż
-1058	1	220470	18:31:00	18:31:00		Kalinowa pętla 04
-1058	1	220470	18:31:00	18:31:00		Kalinowa pętla 04
+1058	4	220470	18:02:00	18:02:00		Lubelska Zajezdnia MPK
+1058	4	220470	18:02:00	18:02:00		Lubelska Zajezdnia MPK
+1058	4	220470	18:03:00	18:03:00		Lubelska MPK 13 nż
+1058	4	220470	18:03:00	18:03:00		Lubelska MPK 13 nż
+1058	4	220470	18:04:00	18:04:00		Lubelska Ogrody Hiszpańskie 11 nż
+1058	4	220470	18:04:00	18:04:00		Lubelska Ogrody Hiszpańskie 11 nż
+1058	4	220470	18:05:00	18:05:00		Lubelska Os. Ogrody 09 nż
+1058	4	220470	18:05:00	18:05:00		Lubelska Os. Ogrody 09 nż
+1058	4	220470	18:06:00	18:06:00		Lubelska / Borowa 07 nż
+1058	4	220470	18:06:00	18:06:00		Lubelska / Borowa 07 nż
+1058	4	220470	18:07:00	18:07:00		Lubelska kościół 05 nż
+1058	4	220470	18:07:00	18:07:00		Lubelska kościół 05 nż
+1058	4	220470	18:08:00	18:08:00		Lubelska szpital 01
+1058	4	220470	18:08:00	18:08:00		Lubelska szpital 01
+1058	4	220470	18:09:00	18:09:00		Marszałkowska 01
+1058	4	220470	18:09:00	18:09:00		Marszałkowska 01
+1058	4	220470	18:11:00	18:11:00		Piłsudskiego U. Marszałkowski 08
+1058	4	220470	18:11:00	18:11:00		Piłsudskiego U. Marszałkowski 08
+1058	4	220470	18:13:00	18:13:00		Krakowska jedn. wojskowa 02
+1058	4	220470	18:13:00	18:13:00		Krakowska jedn. wojskowa 02
+1058	4	220470	18:14:00	18:14:00		Krakowska szpital 04
+1058	4	220470	18:14:00	18:14:00		Krakowska szpital 04
+1058	4	220470	18:15:00	18:15:00		Krakowska galeria 06
+1058	4	220470	18:15:00	18:15:00		Krakowska galeria 06
+1058	4	220470	18:16:00	18:16:00		Krakowska / Wyzwolenia 08 nż
+1058	4	220470	18:16:00	18:16:00		Krakowska / Wyzwolenia 08 nż
+1058	4	220470	18:18:00	18:18:00		Dębicka / Krakowska 02 nż
+1058	4	220470	18:18:00	18:18:00		Dębicka / Krakowska 02 nż
+1058	4	220470	18:19:00	18:19:00		Dębicka kościół 04 nż
+1058	4	220470	18:19:00	18:19:00		Dębicka kościół 04 nż
+1058	4	220470	18:20:00	18:20:00		Dębicka / Ustrzycka 06 nż
+1058	4	220470	18:20:00	18:20:00		Dębicka / Ustrzycka 06 nż
+1058	4	220470	18:21:00	18:21:00		Dębicka dom kultury 08 nż
+1058	4	220470	18:21:00	18:21:00		Dębicka dom kultury 08 nż
+1058	4	220470	18:23:00	18:23:00		Dębicka szkoła 10 nż
+1058	4	220470	18:23:00	18:23:00		Dębicka szkoła 10 nż
+1058	4	220470	18:24:00	18:24:00		Dębicka / Stadionowa 12 nż
+1058	4	220470	18:24:00	18:24:00		Dębicka / Stadionowa 12 nż
+1058	4	220470	18:25:00	18:25:00		Dębicka / Złocista 14 nż
+1058	4	220470	18:25:00	18:25:00		Dębicka / Złocista 14 nż
+1058	4	220470	18:26:00	18:26:00		Dębicka / Ciche Wzgórze 16 nż
+1058	4	220470	18:26:00	18:26:00		Dębicka / Ciche Wzgórze 16 nż
+1058	4	220470	18:27:00	18:27:00		Dębicka / Działowa 18 nż
+1058	4	220470	18:27:00	18:27:00		Dębicka / Działowa 18 nż
+1058	4	220470	18:28:00	18:28:00		Dębicka / Leśne Wzgórze 20 nż
+1058	4	220470	18:28:00	18:28:00		Dębicka / Leśne Wzgórze 20 nż
+1058	4	220470	18:29:00	18:29:00		Dębicka / Św. Jakuba 22 nż
+1058	4	220470	18:29:00	18:29:00		Dębicka / Św. Jakuba 22 nż
+1058	4	220470	18:30:00	18:30:00		Kalinowa / Dębicka 02 nż
+1058	4	220470	18:30:00	18:30:00		Kalinowa / Dębicka 02 nż
+1058	4	220470	18:31:00	18:31:00		Kalinowa pętla 04
+1058	4	220470	18:31:00	18:31:00		Kalinowa pętla 04
 
-1061	1	220496	18:47:00	18:47:00		Kalinowa pętla 04
-1061	1	220496	18:47:00	18:47:00		Kalinowa pętla 04
-1061	1	220496	18:48:00	18:48:00		Kalinowa / Dębicka 01 nż
-1061	1	220496	18:48:00	18:48:00		Kalinowa / Dębicka 01 nż
-1061	1	220496	18:49:00	18:49:00		Dębicka / Św. Jakuba 19 nż
-1061	1	220496	18:49:00	18:49:00		Dębicka / Św. Jakuba 19 nż
-1061	1	220496	18:51:00	18:51:00		Dębicka / Działowa 17 nż
-1061	1	220496	18:51:00	18:51:00		Dębicka / Działowa 17 nż
-1061	1	220496	18:52:00	18:52:00		Dębicka / Ciche Wzgórze 15 nż
-1061	1	220496	18:52:00	18:52:00		Dębicka / Ciche Wzgórze 15 nż
-1061	1	220496	18:53:00	18:53:00		Dębicka / Złocista 13 nż
-1061	1	220496	18:53:00	18:53:00		Dębicka / Złocista 13 nż
-1061	1	220496	18:54:00	18:54:00		Dębicka / Stadionowa 11 nż
-1061	1	220496	18:54:00	18:54:00		Dębicka / Stadionowa 11 nż
-1061	1	220496	18:55:00	18:55:00		Dębicka szkoła 09 nż
-1061	1	220496	18:55:00	18:55:00		Dębicka szkoła 09 nż
-1061	1	220496	18:56:00	18:56:00		Dębicka dom kultury 07 nż
-1061	1	220496	18:56:00	18:56:00		Dębicka dom kultury 07 nż
-1061	1	220496	18:57:00	18:57:00		Dębicka / Ustrzycka 05 nż
-1061	1	220496	18:57:00	18:57:00		Dębicka / Ustrzycka 05 nż
-1061	1	220496	18:58:00	18:58:00		Dębicka kościół 03 nż
-1061	1	220496	18:58:00	18:58:00		Dębicka kościół 03 nż
-1061	1	220496	18:59:00	18:59:00		Dębicka / Krakowska 01 nż
-1061	1	220496	18:59:00	18:59:00		Dębicka / Krakowska 01 nż
-1061	1	220496	19:00:00	19:00:00		Krakowska / Mielecka 07 nż
-1061	1	220496	19:00:00	19:00:00		Krakowska / Mielecka 07 nż
-1061	1	220496	19:01:00	19:01:00		Krakowska galeria 05
-1061	1	220496	19:01:00	19:01:00		Krakowska galeria 05
-1061	1	220496	19:02:00	19:02:00		Krakowska szpital 03
-1061	1	220496	19:02:00	19:02:00		Krakowska szpital 03
-1061	1	220496	19:04:00	19:04:00		Krakowska jedn. wojskowa 01
-1061	1	220496	19:04:00	19:04:00		Krakowska jedn. wojskowa 01
-1061	1	220496	19:06:00	19:06:00		Piłsudskiego U. Marszałkowski 07
-1061	1	220496	19:06:00	19:06:00		Piłsudskiego U. Marszałkowski 07
-1061	1	220496	19:08:00	19:08:00		Marszałkowska 02
-1061	1	220496	19:08:00	19:08:00		Marszałkowska 02
-1061	1	220496	19:09:00	19:09:00		Lubelska szpital 02
-1061	1	220496	19:09:00	19:09:00		Lubelska szpital 02
-1061	1	220496	19:10:00	19:10:00		Lubelska kościół 06 nż
-1061	1	220496	19:10:00	19:10:00		Lubelska kościół 06 nż
-1061	1	220496	19:12:00	19:12:00		Lubelska / Borowa 08 nż
-1061	1	220496	19:12:00	19:12:00		Lubelska / Borowa 08 nż
-1061	1	220496	19:14:00	19:14:00		Lubelska Os. Ogrody 10 nż
-1061	1	220496	19:14:00	19:14:00		Lubelska Os. Ogrody 10 nż
-1061	1	220496	19:15:00	19:15:00		Lubelska Ogrody Hiszpańskie 12 nż
-1061	1	220496	19:15:00	19:15:00		Lubelska Ogrody Hiszpańskie 12 nż
-1061	1	220496	19:16:00	19:16:00		Lubelska MPK 14 nż
-1061	1	220496	19:16:00	19:16:00		Lubelska MPK 14 nż
-1061	1	220496	19:17:00	19:17:00		Lubelska Zajezdnia MPK
-1061	1	220496	19:17:00	19:17:00		Lubelska Zajezdnia MPK
+1061	4	220496	18:47:00	18:47:00		Kalinowa pętla 04
+1061	4	220496	18:47:00	18:47:00		Kalinowa pętla 04
+1061	4	220496	18:48:00	18:48:00		Kalinowa / Dębicka 01 nż
+1061	4	220496	18:48:00	18:48:00		Kalinowa / Dębicka 01 nż
+1061	4	220496	18:49:00	18:49:00		Dębicka / Św. Jakuba 19 nż
+1061	4	220496	18:49:00	18:49:00		Dębicka / Św. Jakuba 19 nż
+1061	4	220496	18:51:00	18:51:00		Dębicka / Działowa 17 nż
+1061	4	220496	18:51:00	18:51:00		Dębicka / Działowa 17 nż
+1061	4	220496	18:52:00	18:52:00		Dębicka / Ciche Wzgórze 15 nż
+1061	4	220496	18:52:00	18:52:00		Dębicka / Ciche Wzgórze 15 nż
+1061	4	220496	18:53:00	18:53:00		Dębicka / Złocista 13 nż
+1061	4	220496	18:53:00	18:53:00		Dębicka / Złocista 13 nż
+1061	4	220496	18:54:00	18:54:00		Dębicka / Stadionowa 11 nż
+1061	4	220496	18:54:00	18:54:00		Dębicka / Stadionowa 11 nż
+1061	4	220496	18:55:00	18:55:00		Dębicka szkoła 09 nż
+1061	4	220496	18:55:00	18:55:00		Dębicka szkoła 09 nż
+1061	4	220496	18:56:00	18:56:00		Dębicka dom kultury 07 nż
+1061	4	220496	18:56:00	18:56:00		Dębicka dom kultury 07 nż
+1061	4	220496	18:57:00	18:57:00		Dębicka / Ustrzycka 05 nż
+1061	4	220496	18:57:00	18:57:00		Dębicka / Ustrzycka 05 nż
+1061	4	220496	18:58:00	18:58:00		Dębicka kościół 03 nż
+1061	4	220496	18:58:00	18:58:00		Dębicka kościół 03 nż
+1061	4	220496	18:59:00	18:59:00		Dębicka / Krakowska 01 nż
+1061	4	220496	18:59:00	18:59:00		Dębicka / Krakowska 01 nż
+1061	4	220496	19:00:00	19:00:00		Krakowska / Mielecka 07 nż
+1061	4	220496	19:00:00	19:00:00		Krakowska / Mielecka 07 nż
+1061	4	220496	19:01:00	19:01:00		Krakowska galeria 05
+1061	4	220496	19:01:00	19:01:00		Krakowska galeria 05
+1061	4	220496	19:02:00	19:02:00		Krakowska szpital 03
+1061	4	220496	19:02:00	19:02:00		Krakowska szpital 03
+1061	4	220496	19:04:00	19:04:00		Krakowska jedn. wojskowa 01
+1061	4	220496	19:04:00	19:04:00		Krakowska jedn. wojskowa 01
+1061	4	220496	19:06:00	19:06:00		Piłsudskiego U. Marszałkowski 07
+1061	4	220496	19:06:00	19:06:00		Piłsudskiego U. Marszałkowski 07
+1061	4	220496	19:08:00	19:08:00		Marszałkowska 02
+1061	4	220496	19:08:00	19:08:00		Marszałkowska 02
+1061	4	220496	19:09:00	19:09:00		Lubelska szpital 02
+1061	4	220496	19:09:00	19:09:00		Lubelska szpital 02
+1061	4	220496	19:10:00	19:10:00		Lubelska kościół 06 nż
+1061	4	220496	19:10:00	19:10:00		Lubelska kościół 06 nż
+1061	4	220496	19:12:00	19:12:00		Lubelska / Borowa 08 nż
+1061	4	220496	19:12:00	19:12:00		Lubelska / Borowa 08 nż
+1061	4	220496	19:14:00	19:14:00		Lubelska Os. Ogrody 10 nż
+1061	4	220496	19:14:00	19:14:00		Lubelska Os. Ogrody 10 nż
+1061	4	220496	19:15:00	19:15:00		Lubelska Ogrody Hiszpańskie 12 nż
+1061	4	220496	19:15:00	19:15:00		Lubelska Ogrody Hiszpańskie 12 nż
+1061	4	220496	19:16:00	19:16:00		Lubelska MPK 14 nż
+1061	4	220496	19:16:00	19:16:00		Lubelska MPK 14 nż
+1061	4	220496	19:17:00	19:17:00		Lubelska Zajezdnia MPK
+1061	4	220496	19:17:00	19:17:00		Lubelska Zajezdnia MPK
 
-1058	1	220505	20:02:00	20:02:00		Lubelska Zajezdnia MPK
-1058	1	220505	20:02:00	20:02:00		Lubelska Zajezdnia MPK
-1058	1	220505	20:03:00	20:03:00		Lubelska MPK 13 nż
-1058	1	220505	20:03:00	20:03:00		Lubelska MPK 13 nż
-1058	1	220505	20:04:00	20:04:00		Lubelska Ogrody Hiszpańskie 11 nż
-1058	1	220505	20:04:00	20:04:00		Lubelska Ogrody Hiszpańskie 11 nż
-1058	1	220505	20:05:00	20:05:00		Lubelska Os. Ogrody 09 nż
-1058	1	220505	20:05:00	20:05:00		Lubelska Os. Ogrody 09 nż
-1058	1	220505	20:06:00	20:06:00		Lubelska / Borowa 07 nż
-1058	1	220505	20:06:00	20:06:00		Lubelska / Borowa 07 nż
-1058	1	220505	20:07:00	20:07:00		Lubelska kościół 05 nż
-1058	1	220505	20:07:00	20:07:00		Lubelska kościół 05 nż
-1058	1	220505	20:08:00	20:08:00		Lubelska szpital 01
-1058	1	220505	20:08:00	20:08:00		Lubelska szpital 01
-1058	1	220505	20:09:00	20:09:00		Marszałkowska 01
-1058	1	220505	20:09:00	20:09:00		Marszałkowska 01
-1058	1	220505	20:11:00	20:11:00		Piłsudskiego U. Marszałkowski 08
-1058	1	220505	20:11:00	20:11:00		Piłsudskiego U. Marszałkowski 08
-1058	1	220505	20:13:00	20:13:00		Krakowska jedn. wojskowa 02
-1058	1	220505	20:13:00	20:13:00		Krakowska jedn. wojskowa 02
-1058	1	220505	20:14:00	20:14:00		Krakowska szpital 04
-1058	1	220505	20:14:00	20:14:00		Krakowska szpital 04
-1058	1	220505	20:15:00	20:15:00		Krakowska galeria 06
-1058	1	220505	20:15:00	20:15:00		Krakowska galeria 06
-1058	1	220505	20:16:00	20:16:00		Krakowska / Wyzwolenia 08 nż
-1058	1	220505	20:16:00	20:16:00		Krakowska / Wyzwolenia 08 nż
-1058	1	220505	20:18:00	20:18:00		Dębicka / Krakowska 02 nż
-1058	1	220505	20:18:00	20:18:00		Dębicka / Krakowska 02 nż
-1058	1	220505	20:19:00	20:19:00		Dębicka kościół 04 nż
-1058	1	220505	20:19:00	20:19:00		Dębicka kościół 04 nż
-1058	1	220505	20:20:00	20:20:00		Dębicka / Ustrzycka 06 nż
-1058	1	220505	20:20:00	20:20:00		Dębicka / Ustrzycka 06 nż
-1058	1	220505	20:21:00	20:21:00		Dębicka dom kultury 08 nż
-1058	1	220505	20:21:00	20:21:00		Dębicka dom kultury 08 nż
-1058	1	220505	20:23:00	20:23:00		Dębicka szkoła 10 nż
-1058	1	220505	20:23:00	20:23:00		Dębicka szkoła 10 nż
-1058	1	220505	20:24:00	20:24:00		Dębicka / Stadionowa 12 nż
-1058	1	220505	20:24:00	20:24:00		Dębicka / Stadionowa 12 nż
-1058	1	220505	20:25:00	20:25:00		Dębicka / Złocista 14 nż
-1058	1	220505	20:25:00	20:25:00		Dębicka / Złocista 14 nż
-1058	1	220505	20:26:00	20:26:00		Dębicka / Ciche Wzgórze 16 nż
-1058	1	220505	20:26:00	20:26:00		Dębicka / Ciche Wzgórze 16 nż
-1058	1	220505	20:27:00	20:27:00		Dębicka / Działowa 18 nż
-1058	1	220505	20:27:00	20:27:00		Dębicka / Działowa 18 nż
-1058	1	220505	20:28:00	20:28:00		Dębicka / Leśne Wzgórze 20 nż
-1058	1	220505	20:28:00	20:28:00		Dębicka / Leśne Wzgórze 20 nż
-1058	1	220505	20:29:00	20:29:00		Dębicka / Św. Jakuba 22 nż
-1058	1	220505	20:29:00	20:29:00		Dębicka / Św. Jakuba 22 nż
-1058	1	220505	20:30:00	20:30:00		Kalinowa / Dębicka 02 nż
-1058	1	220505	20:30:00	20:30:00		Kalinowa / Dębicka 02 nż
-1058	1	220505	20:31:00	20:31:00		Kalinowa pętla 04
-1058	1	220505	20:31:00	20:31:00		Kalinowa pętla 04
+1058	4	220505	20:02:00	20:02:00		Lubelska Zajezdnia MPK
+1058	4	220505	20:02:00	20:02:00		Lubelska Zajezdnia MPK
+1058	4	220505	20:03:00	20:03:00		Lubelska MPK 13 nż
+1058	4	220505	20:03:00	20:03:00		Lubelska MPK 13 nż
+1058	4	220505	20:04:00	20:04:00		Lubelska Ogrody Hiszpańskie 11 nż
+1058	4	220505	20:04:00	20:04:00		Lubelska Ogrody Hiszpańskie 11 nż
+1058	4	220505	20:05:00	20:05:00		Lubelska Os. Ogrody 09 nż
+1058	4	220505	20:05:00	20:05:00		Lubelska Os. Ogrody 09 nż
+1058	4	220505	20:06:00	20:06:00		Lubelska / Borowa 07 nż
+1058	4	220505	20:06:00	20:06:00		Lubelska / Borowa 07 nż
+1058	4	220505	20:07:00	20:07:00		Lubelska kościół 05 nż
+1058	4	220505	20:07:00	20:07:00		Lubelska kościół 05 nż
+1058	4	220505	20:08:00	20:08:00		Lubelska szpital 01
+1058	4	220505	20:08:00	20:08:00		Lubelska szpital 01
+1058	4	220505	20:09:00	20:09:00		Marszałkowska 01
+1058	4	220505	20:09:00	20:09:00		Marszałkowska 01
+1058	4	220505	20:11:00	20:11:00		Piłsudskiego U. Marszałkowski 08
+1058	4	220505	20:11:00	20:11:00		Piłsudskiego U. Marszałkowski 08
+1058	4	220505	20:13:00	20:13:00		Krakowska jedn. wojskowa 02
+1058	4	220505	20:13:00	20:13:00		Krakowska jedn. wojskowa 02
+1058	4	220505	20:14:00	20:14:00		Krakowska szpital 04
+1058	4	220505	20:14:00	20:14:00		Krakowska szpital 04
+1058	4	220505	20:15:00	20:15:00		Krakowska galeria 06
+1058	4	220505	20:15:00	20:15:00		Krakowska galeria 06
+1058	4	220505	20:16:00	20:16:00		Krakowska / Wyzwolenia 08 nż
+1058	4	220505	20:16:00	20:16:00		Krakowska / Wyzwolenia 08 nż
+1058	4	220505	20:18:00	20:18:00		Dębicka / Krakowska 02 nż
+1058	4	220505	20:18:00	20:18:00		Dębicka / Krakowska 02 nż
+1058	4	220505	20:19:00	20:19:00		Dębicka kościół 04 nż
+1058	4	220505	20:19:00	20:19:00		Dębicka kościół 04 nż
+1058	4	220505	20:20:00	20:20:00		Dębicka / Ustrzycka 06 nż
+1058	4	220505	20:20:00	20:20:00		Dębicka / Ustrzycka 06 nż
+1058	4	220505	20:21:00	20:21:00		Dębicka dom kultury 08 nż
+1058	4	220505	20:21:00	20:21:00		Dębicka dom kultury 08 nż
+1058	4	220505	20:23:00	20:23:00		Dębicka szkoła 10 nż
+1058	4	220505	20:23:00	20:23:00		Dębicka szkoła 10 nż
+1058	4	220505	20:24:00	20:24:00		Dębicka / Stadionowa 12 nż
+1058	4	220505	20:24:00	20:24:00		Dębicka / Stadionowa 12 nż
+1058	4	220505	20:25:00	20:25:00		Dębicka / Złocista 14 nż
+1058	4	220505	20:25:00	20:25:00		Dębicka / Złocista 14 nż
+1058	4	220505	20:26:00	20:26:00		Dębicka / Ciche Wzgórze 16 nż
+1058	4	220505	20:26:00	20:26:00		Dębicka / Ciche Wzgórze 16 nż
+1058	4	220505	20:27:00	20:27:00		Dębicka / Działowa 18 nż
+1058	4	220505	20:27:00	20:27:00		Dębicka / Działowa 18 nż
+1058	4	220505	20:28:00	20:28:00		Dębicka / Leśne Wzgórze 20 nż
+1058	4	220505	20:28:00	20:28:00		Dębicka / Leśne Wzgórze 20 nż
+1058	4	220505	20:29:00	20:29:00		Dębicka / Św. Jakuba 22 nż
+1058	4	220505	20:29:00	20:29:00		Dębicka / Św. Jakuba 22 nż
+1058	4	220505	20:30:00	20:30:00		Kalinowa / Dębicka 02 nż
+1058	4	220505	20:30:00	20:30:00		Kalinowa / Dębicka 02 nż
+1058	4	220505	20:31:00	20:31:00		Kalinowa pętla 04
+1058	4	220505	20:31:00	20:31:00		Kalinowa pętla 04
 
-1061	1	220353	20:48:00	20:48:00		Kalinowa pętla 04
-1061	1	220353	20:48:00	20:48:00		Kalinowa pętla 04
-1061	1	220353	20:49:00	20:49:00		Kalinowa / Dębicka 01 nż
-1061	1	220353	20:49:00	20:49:00		Kalinowa / Dębicka 01 nż
-1061	1	220353	20:50:00	20:50:00		Dębicka / Św. Jakuba 19 nż
-1061	1	220353	20:50:00	20:50:00		Dębicka / Św. Jakuba 19 nż
-1061	1	220353	20:52:00	20:52:00		Dębicka / Działowa 17 nż
-1061	1	220353	20:52:00	20:52:00		Dębicka / Działowa 17 nż
-1061	1	220353	20:53:00	20:53:00		Dębicka / Ciche Wzgórze 15 nż
-1061	1	220353	20:53:00	20:53:00		Dębicka / Ciche Wzgórze 15 nż
-1061	1	220353	20:54:00	20:54:00		Dębicka / Złocista 13 nż
-1061	1	220353	20:54:00	20:54:00		Dębicka / Złocista 13 nż
-1061	1	220353	20:55:00	20:55:00		Dębicka / Stadionowa 11 nż
-1061	1	220353	20:55:00	20:55:00		Dębicka / Stadionowa 11 nż
-1061	1	220353	20:56:00	20:56:00		Dębicka szkoła 09 nż
-1061	1	220353	20:56:00	20:56:00		Dębicka szkoła 09 nż
-1061	1	220353	20:57:00	20:57:00		Dębicka dom kultury 07 nż
-1061	1	220353	20:57:00	20:57:00		Dębicka dom kultury 07 nż
-1061	1	220353	20:58:00	20:58:00		Dębicka / Ustrzycka 05 nż
-1061	1	220353	20:58:00	20:58:00		Dębicka / Ustrzycka 05 nż
-1061	1	220353	20:59:00	20:59:00		Dębicka kościół 03 nż
-1061	1	220353	20:59:00	20:59:00		Dębicka kościół 03 nż
-1061	1	220353	21:00:00	21:00:00		Dębicka / Krakowska 01 nż
-1061	1	220353	21:00:00	21:00:00		Dębicka / Krakowska 01 nż
-1061	1	220353	21:01:00	21:01:00		Krakowska / Mielecka 07 nż
-1061	1	220353	21:01:00	21:01:00		Krakowska / Mielecka 07 nż
-1061	1	220353	21:02:00	21:02:00		Krakowska galeria 05
-1061	1	220353	21:02:00	21:02:00		Krakowska galeria 05
-1061	1	220353	21:03:00	21:03:00		Krakowska szpital 03
-1061	1	220353	21:03:00	21:03:00		Krakowska szpital 03
-1061	1	220353	21:04:00	21:04:00		Krakowska jedn. wojskowa 01
-1061	1	220353	21:04:00	21:04:00		Krakowska jedn. wojskowa 01
-1061	1	220353	21:06:00	21:06:00		Piłsudskiego U. Marszałkowski 07
-1061	1	220353	21:06:00	21:06:00		Piłsudskiego U. Marszałkowski 07
-1061	1	220353	21:08:00	21:08:00		Marszałkowska 02
-1061	1	220353	21:08:00	21:08:00		Marszałkowska 02
-1061	1	220353	21:09:00	21:09:00		Lubelska szpital 02
-1061	1	220353	21:09:00	21:09:00		Lubelska szpital 02
-1061	1	220353	21:10:00	21:10:00		Lubelska kościół 06 nż
-1061	1	220353	21:10:00	21:10:00		Lubelska kościół 06 nż
-1061	1	220353	21:11:00	21:11:00		Lubelska / Borowa 08 nż
-1061	1	220353	21:11:00	21:11:00		Lubelska / Borowa 08 nż
-1061	1	220353	21:12:00	21:12:00		Lubelska Os. Ogrody 10 nż
-1061	1	220353	21:12:00	21:12:00		Lubelska Os. Ogrody 10 nż
-1061	1	220353	21:13:00	21:13:00		Lubelska Ogrody Hiszpańskie 12 nż
-1061	1	220353	21:13:00	21:13:00		Lubelska Ogrody Hiszpańskie 12 nż
-1061	1	220353	21:14:00	21:14:00		Lubelska MPK 14 nż
-1061	1	220353	21:14:00	21:14:00		Lubelska MPK 14 nż
-1061	1	220353	21:15:00	21:15:00		Lubelska Zajezdnia MPK
-1061	1	220353	21:15:00	21:15:00		Lubelska Zajezdnia MPK
+1061	4	220353	20:48:00	20:48:00		Kalinowa pętla 04
+1061	4	220353	20:48:00	20:48:00		Kalinowa pętla 04
+1061	4	220353	20:49:00	20:49:00		Kalinowa / Dębicka 01 nż
+1061	4	220353	20:49:00	20:49:00		Kalinowa / Dębicka 01 nż
+1061	4	220353	20:50:00	20:50:00		Dębicka / Św. Jakuba 19 nż
+1061	4	220353	20:50:00	20:50:00		Dębicka / Św. Jakuba 19 nż
+1061	4	220353	20:52:00	20:52:00		Dębicka / Działowa 17 nż
+1061	4	220353	20:52:00	20:52:00		Dębicka / Działowa 17 nż
+1061	4	220353	20:53:00	20:53:00		Dębicka / Ciche Wzgórze 15 nż
+1061	4	220353	20:53:00	20:53:00		Dębicka / Ciche Wzgórze 15 nż
+1061	4	220353	20:54:00	20:54:00		Dębicka / Złocista 13 nż
+1061	4	220353	20:54:00	20:54:00		Dębicka / Złocista 13 nż
+1061	4	220353	20:55:00	20:55:00		Dębicka / Stadionowa 11 nż
+1061	4	220353	20:55:00	20:55:00		Dębicka / Stadionowa 11 nż
+1061	4	220353	20:56:00	20:56:00		Dębicka szkoła 09 nż
+1061	4	220353	20:56:00	20:56:00		Dębicka szkoła 09 nż
+1061	4	220353	20:57:00	20:57:00		Dębicka dom kultury 07 nż
+1061	4	220353	20:57:00	20:57:00		Dębicka dom kultury 07 nż
+1061	4	220353	20:58:00	20:58:00		Dębicka / Ustrzycka 05 nż
+1061	4	220353	20:58:00	20:58:00		Dębicka / Ustrzycka 05 nż
+1061	4	220353	20:59:00	20:59:00		Dębicka kościół 03 nż
+1061	4	220353	20:59:00	20:59:00		Dębicka kościół 03 nż
+1061	4	220353	21:00:00	21:00:00		Dębicka / Krakowska 01 nż
+1061	4	220353	21:00:00	21:00:00		Dębicka / Krakowska 01 nż
+1061	4	220353	21:01:00	21:01:00		Krakowska / Mielecka 07 nż
+1061	4	220353	21:01:00	21:01:00		Krakowska / Mielecka 07 nż
+1061	4	220353	21:02:00	21:02:00		Krakowska galeria 05
+1061	4	220353	21:02:00	21:02:00		Krakowska galeria 05
+1061	4	220353	21:03:00	21:03:00		Krakowska szpital 03
+1061	4	220353	21:03:00	21:03:00		Krakowska szpital 03
+1061	4	220353	21:04:00	21:04:00		Krakowska jedn. wojskowa 01
+1061	4	220353	21:04:00	21:04:00		Krakowska jedn. wojskowa 01
+1061	4	220353	21:06:00	21:06:00		Piłsudskiego U. Marszałkowski 07
+1061	4	220353	21:06:00	21:06:00		Piłsudskiego U. Marszałkowski 07
+1061	4	220353	21:08:00	21:08:00		Marszałkowska 02
+1061	4	220353	21:08:00	21:08:00		Marszałkowska 02
+1061	4	220353	21:09:00	21:09:00		Lubelska szpital 02
+1061	4	220353	21:09:00	21:09:00		Lubelska szpital 02
+1061	4	220353	21:10:00	21:10:00		Lubelska kościół 06 nż
+1061	4	220353	21:10:00	21:10:00		Lubelska kościół 06 nż
+1061	4	220353	21:11:00	21:11:00		Lubelska / Borowa 08 nż
+1061	4	220353	21:11:00	21:11:00		Lubelska / Borowa 08 nż
+1061	4	220353	21:12:00	21:12:00		Lubelska Os. Ogrody 10 nż
+1061	4	220353	21:12:00	21:12:00		Lubelska Os. Ogrody 10 nż
+1061	4	220353	21:13:00	21:13:00		Lubelska Ogrody Hiszpańskie 12 nż
+1061	4	220353	21:13:00	21:13:00		Lubelska Ogrody Hiszpańskie 12 nż
+1061	4	220353	21:14:00	21:14:00		Lubelska MPK 14 nż
+1061	4	220353	21:14:00	21:14:00		Lubelska MPK 14 nż
+1061	4	220353	21:15:00	21:15:00		Lubelska Zajezdnia MPK
+1061	4	220353	21:15:00	21:15:00		Lubelska Zajezdnia MPK

@@ -1,504 +1,504 @@
 route_id	service_id	trip_id	arrival_time	departure_time	stop_headsign	stop_name
 -------------------------------------------------------------------------------
-1842	3	211798	04:02:00	04:02:00		Staromiejska / Lubelska 02 nż
-1842	3	211798	04:03:00	04:03:00		Staromiejska dom kultury 04 nż
-1842	3	211798	04:04:00	04:04:00		Staromiejska szkoła 06 nż
-1842	3	211798	04:06:00	04:06:00		Warszawska / Borowa 08 nż
-1842	3	211798	04:07:00	04:07:00		Warszawska / Bażantowa 10 nż
-1842	3	211798	04:08:00	04:08:00		Myśliwska / Św. Huberta 02 nż
-1842	3	211798	04:09:00	04:09:00		Myśliwska / Pogwizdowska 04 nż
-1842	3	211798	04:10:00	04:10:00		Pogwizdowska OSP 02 nż
-1842	3	211798	04:11:00	04:11:00		Pogwizdowska szkoła 04 nż
-1842	3	211798	04:12:00	04:12:00		Pogwizdowska granica 06 nż
-1842	3	211798	04:13:00	04:13:00		Rudna Wielka Pehamet 31 nż
-1842	3	211798	04:14:00	04:14:00		Rudna Wielka kościół 29 nż
-1842	3	211798	04:15:00	04:15:00		Rudna Wielka dom ludowy 27 nż
-1842	3	211798	04:16:00	04:16:00		Rudna Wielka dom strażaka 25 nż
-1842	3	211798	04:17:00	04:17:00		Rudna Wielka zakręt 04 nż
+1842	1	211798	04:02:00	04:02:00		Staromiejska / Lubelska 02 nż
+1842	1	211798	04:03:00	04:03:00		Staromiejska dom kultury 04 nż
+1842	1	211798	04:04:00	04:04:00		Staromiejska szkoła 06 nż
+1842	1	211798	04:06:00	04:06:00		Warszawska / Borowa 08 nż
+1842	1	211798	04:07:00	04:07:00		Warszawska / Bażantowa 10 nż
+1842	1	211798	04:08:00	04:08:00		Myśliwska / Św. Huberta 02 nż
+1842	1	211798	04:09:00	04:09:00		Myśliwska / Pogwizdowska 04 nż
+1842	1	211798	04:10:00	04:10:00		Pogwizdowska OSP 02 nż
+1842	1	211798	04:11:00	04:11:00		Pogwizdowska szkoła 04 nż
+1842	1	211798	04:12:00	04:12:00		Pogwizdowska granica 06 nż
+1842	1	211798	04:13:00	04:13:00		Rudna Wielka Pehamet 31 nż
+1842	1	211798	04:14:00	04:14:00		Rudna Wielka kościół 29 nż
+1842	1	211798	04:15:00	04:15:00		Rudna Wielka dom ludowy 27 nż
+1842	1	211798	04:16:00	04:16:00		Rudna Wielka dom strażaka 25 nż
+1842	1	211798	04:17:00	04:17:00		Rudna Wielka zakręt 04 nż
 
-1917	3	211347	04:30:00	04:30:00		Rudna Wielka zakręt 04 nż
-1917	3	211347	04:32:00	04:32:00		Rudna Wielka I 02 nż
-1917	3	211347	04:34:00	04:34:00		Rudna Wielka kościół 30 nż
-1917	3	211347	04:35:00	04:35:00		Rudna Wielka Pehamet 32 nż
-1917	3	211347	04:36:00	04:36:00		Pogwizdowska granica 05 nż
-1917	3	211347	04:37:00	04:37:00		Pogwizdowska szkoła 03 nż
-1917	3	211347	04:38:00	04:38:00		Pogwizdowska OSP 01 nż
-1917	3	211347	04:40:00	04:40:00		Myśliwska / Pogwizdowska 03 nż
-1917	3	211347	04:41:00	04:41:00		Myśliwska / Św. Huberta 01 nż
-1917	3	211347	04:42:00	04:42:00		Warszawska / Myśliwska 09 nż
-1917	3	211347	04:43:00	04:43:00		Warszawska / Borowa 07 nż
-1917	3	211347	04:46:00	04:46:00		Staromiejska szkoła 05 nż
-1917	3	211347	04:47:00	04:47:00		Staromiejska dom kultury 03 nż
-1917	3	211347	04:48:00	04:48:00		Staromiejska / Lubelska 01 nż
-1917	3	211347	04:49:00	04:49:00		Lubelska kościół 05 nż
-1917	3	211347	04:50:00	04:50:00		Lubelska szpital 01
-1917	3	211347	04:52:00	04:52:00		Marszałkowska 01
-1917	3	211347	04:54:00	04:54:00		Cieplińskiego 02
-1917	3	211347	04:55:00	04:55:00		Lisa-Kuli 01
-1917	3	211347	04:58:00	04:58:00		Hetmańska podzamcze 02 nż
-1917	3	211347	04:59:00	04:59:00		Hetmańska przychodnia 04
-1917	3	211347	05:00:00	05:00:00		Hetmańska ZS. Mech. 06
-1917	3	211347	05:02:00	05:02:00		Powst. Warszawy stadion 06
-1917	3	211347	05:04:00	05:04:00		Powst. Warszawy dom studenta 08
-1917	3	211347	05:05:00	05:05:00		Powst. Warszawy / Graniczna 10
-1917	3	211347	05:06:00	05:06:00		Powst. Warszawy / Sikorskiego 12 nż
-1917	3	211347	05:07:00	05:07:00		Sikorskiego katedra 04 nż
-1917	3	211347	05:08:00	05:08:00		Sikorskiego / Łukasiewicza 06 nż
-1917	3	211347	05:09:00	05:09:00		Sikorskiego domki 08 nż
-1917	3	211347	05:10:00	05:10:00		Strażacka / Sikorskiego 07 nż
-1917	3	211347	05:11:00	05:11:00		Strażacka / Sympatyczna 05 nż
-1917	3	211347	05:12:00	05:12:00		Miła / Strażacka 02 nż
-1917	3	211347	05:13:00	05:13:00		Miła bloki 04 nż
-1917	3	211347	05:14:00	05:14:00		Miła szkoła 06 nż
-1917	3	211347	05:15:00	05:15:00		Kard. K. Wojtyły kościół 05 nż
-1917	3	211347	05:17:00	05:17:00		Kard. K. Wojtyły pętla 03 nż
-1917	3	211347	05:18:00	05:18:00		Kard. K .Wojtyły / Sikorskiego 01 nż
-1917	3	211347	05:19:00	05:19:00		Sikorskiego / Kard. K. Wojtyły 16 nż
-1917	3	211347	05:20:00	05:20:00		Sikorskiego granica 18 nż
-1917	3	211347	05:22:00	05:22:00		Sikorskiego MPGK 20
+1917	1	211347	04:30:00	04:30:00		Rudna Wielka zakręt 04 nż
+1917	1	211347	04:32:00	04:32:00		Rudna Wielka I 02 nż
+1917	1	211347	04:34:00	04:34:00		Rudna Wielka kościół 30 nż
+1917	1	211347	04:35:00	04:35:00		Rudna Wielka Pehamet 32 nż
+1917	1	211347	04:36:00	04:36:00		Pogwizdowska granica 05 nż
+1917	1	211347	04:37:00	04:37:00		Pogwizdowska szkoła 03 nż
+1917	1	211347	04:38:00	04:38:00		Pogwizdowska OSP 01 nż
+1917	1	211347	04:40:00	04:40:00		Myśliwska / Pogwizdowska 03 nż
+1917	1	211347	04:41:00	04:41:00		Myśliwska / Św. Huberta 01 nż
+1917	1	211347	04:42:00	04:42:00		Warszawska / Myśliwska 09 nż
+1917	1	211347	04:43:00	04:43:00		Warszawska / Borowa 07 nż
+1917	1	211347	04:46:00	04:46:00		Staromiejska szkoła 05 nż
+1917	1	211347	04:47:00	04:47:00		Staromiejska dom kultury 03 nż
+1917	1	211347	04:48:00	04:48:00		Staromiejska / Lubelska 01 nż
+1917	1	211347	04:49:00	04:49:00		Lubelska kościół 05 nż
+1917	1	211347	04:50:00	04:50:00		Lubelska szpital 01
+1917	1	211347	04:52:00	04:52:00		Marszałkowska 01
+1917	1	211347	04:54:00	04:54:00		Cieplińskiego 02
+1917	1	211347	04:55:00	04:55:00		Lisa-Kuli 01
+1917	1	211347	04:58:00	04:58:00		Hetmańska podzamcze 02 nż
+1917	1	211347	04:59:00	04:59:00		Hetmańska przychodnia 04
+1917	1	211347	05:00:00	05:00:00		Hetmańska ZS. Mech. 06
+1917	1	211347	05:02:00	05:02:00		Powst. Warszawy stadion 06
+1917	1	211347	05:04:00	05:04:00		Powst. Warszawy dom studenta 08
+1917	1	211347	05:05:00	05:05:00		Powst. Warszawy / Graniczna 10
+1917	1	211347	05:06:00	05:06:00		Powst. Warszawy / Sikorskiego 12 nż
+1917	1	211347	05:07:00	05:07:00		Sikorskiego katedra 04 nż
+1917	1	211347	05:08:00	05:08:00		Sikorskiego / Łukasiewicza 06 nż
+1917	1	211347	05:09:00	05:09:00		Sikorskiego domki 08 nż
+1917	1	211347	05:10:00	05:10:00		Strażacka / Sikorskiego 07 nż
+1917	1	211347	05:11:00	05:11:00		Strażacka / Sympatyczna 05 nż
+1917	1	211347	05:12:00	05:12:00		Miła / Strażacka 02 nż
+1917	1	211347	05:13:00	05:13:00		Miła bloki 04 nż
+1917	1	211347	05:14:00	05:14:00		Miła szkoła 06 nż
+1917	1	211347	05:15:00	05:15:00		Kard. K. Wojtyły kościół 05 nż
+1917	1	211347	05:17:00	05:17:00		Kard. K. Wojtyły pętla 03 nż
+1917	1	211347	05:18:00	05:18:00		Kard. K .Wojtyły / Sikorskiego 01 nż
+1917	1	211347	05:19:00	05:19:00		Sikorskiego / Kard. K. Wojtyły 16 nż
+1917	1	211347	05:20:00	05:20:00		Sikorskiego granica 18 nż
+1917	1	211347	05:22:00	05:22:00		Sikorskiego MPGK 20
 
-1897	3	208494	05:44:00	05:44:00		Sikorskiego MPGK 20
-1897	3	208494	05:45:00	05:45:00		Sikorskiego granica 15 nż
-1897	3	208494	05:46:00	05:46:00		Sikorskiego / Ruczajowa 13 nż
-1897	3	208494	05:47:00	05:47:00		Kard. K. Wojtyły / Sikorskiego 02 nż
-1897	3	208494	05:49:00	05:49:00		Kard. K. Wojtyły pętla 04 nż
-1897	3	208494	05:50:00	05:50:00		Kard. K. Wojtyły kościół 06 nż
-1897	3	208494	05:52:00	05:52:00		Miła dom kultury 05 nż
-1897	3	208494	05:53:00	05:53:00		Miła bloki 03 nż
-1897	3	208494	05:54:00	05:54:00		Miła / Strażacka 01 nż
-1897	3	208494	05:55:00	05:55:00		Strażacka / Sympatyczna 06 nż
-1897	3	208494	05:56:00	05:56:00		Strażacka / Sikorskiego 08 nż
-1897	3	208494	05:58:00	05:58:00		Sikorskiego / Robotnicza 05 nż
-1897	3	208494	05:59:00	05:59:00		Sikorskiego domki 03 nż
-1897	3	208494	06:01:00	06:01:00		Sikorskiego katedra 01 nż
-1897	3	208494	06:03:00	06:03:00		Powst. Warszawy / Rejtana 13
-1897	3	208494	06:04:00	06:04:00		Powst. Warszawy szkoła 11
-1897	3	208494	06:05:00	06:05:00		Powst. Warszawy dom studenta 09
-1897	3	208494	06:06:00	06:06:00		Powst. Warszawy stadion 05 nż
-1897	3	208494	06:07:00	06:07:00		Hetmańska stadion 07
-1897	3	208494	06:08:00	06:08:00		Hetmańska ZS. Mech. 05
-1897	3	208494	06:09:00	06:09:00		Hetmańska przychodnia 03
-1897	3	208494	06:10:00	06:10:00		Hetmańska podzamcze 01 nż
-1897	3	208494	06:12:00	06:12:00		Lisa-Kuli 02
-1897	3	208494	06:13:00	06:13:00		Cieplińskiego 01
-1897	3	208494	06:15:00	06:15:00		Marszałkowska 02
-1897	3	208494	06:16:00	06:16:00		Lubelska szpital 02
-1897	3	208494	06:18:00	06:18:00		Lubelska kościół 06 nż
-1897	3	208494	06:20:00	06:20:00		Staromiejska / Lubelska 02 nż
-1897	3	208494	06:21:00	06:21:00		Staromiejska dom kultury 04 nż
-1897	3	208494	06:22:00	06:22:00		Staromiejska szkoła 06 nż
-1897	3	208494	06:24:00	06:24:00		Warszawska / Borowa 08 nż
-1897	3	208494	06:25:00	06:25:00		Warszawska / Bażantowa 10 nż
-1897	3	208494	06:27:00	06:27:00		Myśliwska / Św. Huberta 02 nż
-1897	3	208494	06:28:00	06:28:00		Myśliwska / Pogwizdowska 04 nż
-1897	3	208494	06:29:00	06:29:00		Pogwizdowska OSP 02 nż
-1897	3	208494	06:30:00	06:30:00		Pogwizdowska szkoła 04 nż
-1897	3	208494	06:31:00	06:31:00		Pogwizdowska granica 06 nż
-1897	3	208494	06:32:00	06:32:00		Rudna Wielka Pehamet 31 nż
-1897	3	208494	06:33:00	06:33:00		Rudna Wielka kościół 29 nż
-1897	3	208494	06:34:00	06:34:00		Rudna Wielka dom ludowy 27 nż
-1897	3	208494	06:35:00	06:35:00		Rudna Wielka dom strażaka 25 nż
-1897	3	208494	06:36:00	06:36:00		Rudna Wielka zakręt 04 nż
+1897	1	208494	05:44:00	05:44:00		Sikorskiego MPGK 20
+1897	1	208494	05:45:00	05:45:00		Sikorskiego granica 15 nż
+1897	1	208494	05:46:00	05:46:00		Sikorskiego / Ruczajowa 13 nż
+1897	1	208494	05:47:00	05:47:00		Kard. K. Wojtyły / Sikorskiego 02 nż
+1897	1	208494	05:49:00	05:49:00		Kard. K. Wojtyły pętla 04 nż
+1897	1	208494	05:50:00	05:50:00		Kard. K. Wojtyły kościół 06 nż
+1897	1	208494	05:52:00	05:52:00		Miła dom kultury 05 nż
+1897	1	208494	05:53:00	05:53:00		Miła bloki 03 nż
+1897	1	208494	05:54:00	05:54:00		Miła / Strażacka 01 nż
+1897	1	208494	05:55:00	05:55:00		Strażacka / Sympatyczna 06 nż
+1897	1	208494	05:56:00	05:56:00		Strażacka / Sikorskiego 08 nż
+1897	1	208494	05:58:00	05:58:00		Sikorskiego / Robotnicza 05 nż
+1897	1	208494	05:59:00	05:59:00		Sikorskiego domki 03 nż
+1897	1	208494	06:01:00	06:01:00		Sikorskiego katedra 01 nż
+1897	1	208494	06:03:00	06:03:00		Powst. Warszawy / Rejtana 13
+1897	1	208494	06:04:00	06:04:00		Powst. Warszawy szkoła 11
+1897	1	208494	06:05:00	06:05:00		Powst. Warszawy dom studenta 09
+1897	1	208494	06:06:00	06:06:00		Powst. Warszawy stadion 05 nż
+1897	1	208494	06:07:00	06:07:00		Hetmańska stadion 07
+1897	1	208494	06:08:00	06:08:00		Hetmańska ZS. Mech. 05
+1897	1	208494	06:09:00	06:09:00		Hetmańska przychodnia 03
+1897	1	208494	06:10:00	06:10:00		Hetmańska podzamcze 01 nż
+1897	1	208494	06:12:00	06:12:00		Lisa-Kuli 02
+1897	1	208494	06:13:00	06:13:00		Cieplińskiego 01
+1897	1	208494	06:15:00	06:15:00		Marszałkowska 02
+1897	1	208494	06:16:00	06:16:00		Lubelska szpital 02
+1897	1	208494	06:18:00	06:18:00		Lubelska kościół 06 nż
+1897	1	208494	06:20:00	06:20:00		Staromiejska / Lubelska 02 nż
+1897	1	208494	06:21:00	06:21:00		Staromiejska dom kultury 04 nż
+1897	1	208494	06:22:00	06:22:00		Staromiejska szkoła 06 nż
+1897	1	208494	06:24:00	06:24:00		Warszawska / Borowa 08 nż
+1897	1	208494	06:25:00	06:25:00		Warszawska / Bażantowa 10 nż
+1897	1	208494	06:27:00	06:27:00		Myśliwska / Św. Huberta 02 nż
+1897	1	208494	06:28:00	06:28:00		Myśliwska / Pogwizdowska 04 nż
+1897	1	208494	06:29:00	06:29:00		Pogwizdowska OSP 02 nż
+1897	1	208494	06:30:00	06:30:00		Pogwizdowska szkoła 04 nż
+1897	1	208494	06:31:00	06:31:00		Pogwizdowska granica 06 nż
+1897	1	208494	06:32:00	06:32:00		Rudna Wielka Pehamet 31 nż
+1897	1	208494	06:33:00	06:33:00		Rudna Wielka kościół 29 nż
+1897	1	208494	06:34:00	06:34:00		Rudna Wielka dom ludowy 27 nż
+1897	1	208494	06:35:00	06:35:00		Rudna Wielka dom strażaka 25 nż
+1897	1	208494	06:36:00	06:36:00		Rudna Wielka zakręt 04 nż
 
-1917	3	212430	06:59:00	06:59:00		Rudna Wielka zakręt 04 nż
-1917	3	212430	07:01:00	07:01:00		Rudna Wielka I 02 nż
-1917	3	212430	07:03:00	07:03:00		Rudna Wielka kościół 30 nż
-1917	3	212430	07:04:00	07:04:00		Rudna Wielka Pehamet 32 nż
-1917	3	212430	07:05:00	07:05:00		Pogwizdowska granica 05 nż
-1917	3	212430	07:06:00	07:06:00		Pogwizdowska szkoła 03 nż
-1917	3	212430	07:07:00	07:07:00		Pogwizdowska OSP 01 nż
-1917	3	212430	07:09:00	07:09:00		Myśliwska / Pogwizdowska 03 nż
-1917	3	212430	07:10:00	07:10:00		Myśliwska / Św. Huberta 01 nż
-1917	3	212430	07:13:00	07:13:00		Warszawska / Myśliwska 09 nż
-1917	3	212430	07:15:00	07:15:00		Warszawska / Borowa 07 nż
-1917	3	212430	07:19:00	07:19:00		Staromiejska szkoła 05 nż
-1917	3	212430	07:20:00	07:20:00		Staromiejska dom kultury 03 nż
-1917	3	212430	07:21:00	07:21:00		Staromiejska / Lubelska 01 nż
-1917	3	212430	07:22:00	07:22:00		Lubelska kościół 05 nż
-1917	3	212430	07:23:00	07:23:00		Lubelska szpital 01
-1917	3	212430	07:26:00	07:26:00		Marszałkowska 01
-1917	3	212430	07:30:00	07:30:00		Cieplińskiego 02
-1917	3	212430	07:31:00	07:31:00		Lisa-Kuli 01
-1917	3	212430	07:34:00	07:34:00		Hetmańska podzamcze 02 nż
-1917	3	212430	07:35:00	07:35:00		Hetmańska przychodnia 04
-1917	3	212430	07:36:00	07:36:00		Hetmańska ZS. Mech. 06
-1917	3	212430	07:39:00	07:39:00		Powst. Warszawy stadion 06
-1917	3	212430	07:41:00	07:41:00		Powst. Warszawy dom studenta 08
-1917	3	212430	07:42:00	07:42:00		Powst. Warszawy / Graniczna 10
-1917	3	212430	07:43:00	07:43:00		Powst. Warszawy / Sikorskiego 12 nż
-1917	3	212430	07:44:00	07:44:00		Sikorskiego katedra 04 nż
-1917	3	212430	07:45:00	07:45:00		Sikorskiego / Łukasiewicza 06 nż
-1917	3	212430	07:46:00	07:46:00		Sikorskiego domki 08 nż
-1917	3	212430	07:48:00	07:48:00		Strażacka / Sikorskiego 07 nż
-1917	3	212430	07:49:00	07:49:00		Strażacka / Sympatyczna 05 nż
-1917	3	212430	07:50:00	07:50:00		Miła / Strażacka 02 nż
-1917	3	212430	07:51:00	07:51:00		Miła bloki 04 nż
-1917	3	212430	07:52:00	07:52:00		Miła szkoła 06 nż
-1917	3	212430	07:53:00	07:53:00		Kard. K. Wojtyły kościół 05 nż
-1917	3	212430	07:55:00	07:55:00		Kard. K. Wojtyły pętla 03 nż
-1917	3	212430	07:56:00	07:56:00		Kard. K .Wojtyły / Sikorskiego 01 nż
-1917	3	212430	07:57:00	07:57:00		Sikorskiego / Kard. K. Wojtyły 16 nż
-1917	3	212430	07:58:00	07:58:00		Sikorskiego granica 18 nż
-1917	3	212430	08:00:00	08:00:00		Sikorskiego MPGK 20
+1917	1	212430	06:59:00	06:59:00		Rudna Wielka zakręt 04 nż
+1917	1	212430	07:01:00	07:01:00		Rudna Wielka I 02 nż
+1917	1	212430	07:03:00	07:03:00		Rudna Wielka kościół 30 nż
+1917	1	212430	07:04:00	07:04:00		Rudna Wielka Pehamet 32 nż
+1917	1	212430	07:05:00	07:05:00		Pogwizdowska granica 05 nż
+1917	1	212430	07:06:00	07:06:00		Pogwizdowska szkoła 03 nż
+1917	1	212430	07:07:00	07:07:00		Pogwizdowska OSP 01 nż
+1917	1	212430	07:09:00	07:09:00		Myśliwska / Pogwizdowska 03 nż
+1917	1	212430	07:10:00	07:10:00		Myśliwska / Św. Huberta 01 nż
+1917	1	212430	07:13:00	07:13:00		Warszawska / Myśliwska 09 nż
+1917	1	212430	07:15:00	07:15:00		Warszawska / Borowa 07 nż
+1917	1	212430	07:19:00	07:19:00		Staromiejska szkoła 05 nż
+1917	1	212430	07:20:00	07:20:00		Staromiejska dom kultury 03 nż
+1917	1	212430	07:21:00	07:21:00		Staromiejska / Lubelska 01 nż
+1917	1	212430	07:22:00	07:22:00		Lubelska kościół 05 nż
+1917	1	212430	07:23:00	07:23:00		Lubelska szpital 01
+1917	1	212430	07:26:00	07:26:00		Marszałkowska 01
+1917	1	212430	07:30:00	07:30:00		Cieplińskiego 02
+1917	1	212430	07:31:00	07:31:00		Lisa-Kuli 01
+1917	1	212430	07:34:00	07:34:00		Hetmańska podzamcze 02 nż
+1917	1	212430	07:35:00	07:35:00		Hetmańska przychodnia 04
+1917	1	212430	07:36:00	07:36:00		Hetmańska ZS. Mech. 06
+1917	1	212430	07:39:00	07:39:00		Powst. Warszawy stadion 06
+1917	1	212430	07:41:00	07:41:00		Powst. Warszawy dom studenta 08
+1917	1	212430	07:42:00	07:42:00		Powst. Warszawy / Graniczna 10
+1917	1	212430	07:43:00	07:43:00		Powst. Warszawy / Sikorskiego 12 nż
+1917	1	212430	07:44:00	07:44:00		Sikorskiego katedra 04 nż
+1917	1	212430	07:45:00	07:45:00		Sikorskiego / Łukasiewicza 06 nż
+1917	1	212430	07:46:00	07:46:00		Sikorskiego domki 08 nż
+1917	1	212430	07:48:00	07:48:00		Strażacka / Sikorskiego 07 nż
+1917	1	212430	07:49:00	07:49:00		Strażacka / Sympatyczna 05 nż
+1917	1	212430	07:50:00	07:50:00		Miła / Strażacka 02 nż
+1917	1	212430	07:51:00	07:51:00		Miła bloki 04 nż
+1917	1	212430	07:52:00	07:52:00		Miła szkoła 06 nż
+1917	1	212430	07:53:00	07:53:00		Kard. K. Wojtyły kościół 05 nż
+1917	1	212430	07:55:00	07:55:00		Kard. K. Wojtyły pętla 03 nż
+1917	1	212430	07:56:00	07:56:00		Kard. K .Wojtyły / Sikorskiego 01 nż
+1917	1	212430	07:57:00	07:57:00		Sikorskiego / Kard. K. Wojtyły 16 nż
+1917	1	212430	07:58:00	07:58:00		Sikorskiego granica 18 nż
+1917	1	212430	08:00:00	08:00:00		Sikorskiego MPGK 20
 
-1855	3	209209	08:18:00	08:18:00		Sikorskiego MPGK 20
-1855	3	209209	08:19:00	08:19:00		Sikorskiego granica 15 nż
-1855	3	209209	08:20:00	08:20:00		Sikorskiego / Ruczajowa 13 nż
-1855	3	209209	08:21:00	08:21:00		Kard. K. Wojtyły / Sikorskiego 02 nż
-1855	3	209209	08:23:00	08:23:00		Kard. K. Wojtyły pętla 04 nż
-1855	3	209209	08:24:00	08:24:00		Kard. K. Wojtyły kościół 06 nż
-1855	3	209209	08:26:00	08:26:00		Miła dom kultury 05 nż
-1855	3	209209	08:27:00	08:27:00		Miła bloki 03 nż
-1855	3	209209	08:28:00	08:28:00		Miła / Strażacka 01 nż
-1855	3	209209	08:29:00	08:29:00		Strażacka / Sympatyczna 06 nż
-1855	3	209209	08:30:00	08:30:00		Strażacka / Sikorskiego 08 nż
-1855	3	209209	08:32:00	08:32:00		Sikorskiego / Robotnicza 05 nż
-1855	3	209209	08:33:00	08:33:00		Sikorskiego domki 03 nż
-1855	3	209209	08:35:00	08:35:00		Sikorskiego katedra 01 nż
-1855	3	209209	08:38:00	08:38:00		Powst. Warszawy / Rejtana 13
-1855	3	209209	08:39:00	08:39:00		Powst. Warszawy szkoła 11
-1855	3	209209	08:40:00	08:40:00		Powst. Warszawy dom studenta 09
-1855	3	209209	08:42:00	08:42:00		Powst. Warszawy stadion 05 nż
-1855	3	209209	08:43:00	08:43:00		Hetmańska stadion 07
-1855	3	209209	08:44:00	08:44:00		Hetmańska ZS. Mech. 05
-1855	3	209209	08:45:00	08:45:00		Hetmańska przychodnia 03
-1855	3	209209	08:46:00	08:46:00		Hetmańska podzamcze 01 nż
-1855	3	209209	08:50:00	08:50:00		Lisa-Kuli 02
-1855	3	209209	08:51:00	08:51:00		Cieplińskiego 01
-1855	3	209209	08:54:00	08:54:00		Marszałkowska 02
-1855	3	209209	08:55:00	08:55:00		Lubelska szpital 02
-1855	3	209209	08:57:00	08:57:00		Lubelska kościół 06 nż
-1855	3	209209	08:59:00	08:59:00		Staromiejska / Lubelska 02 nż
-1855	3	209209	09:00:00	09:00:00		Staromiejska dom kultury 04 nż
-1855	3	209209	09:01:00	09:01:00		Staromiejska szkoła 06 nż
-1855	3	209209	09:03:00	09:03:00		Warszawska / Borowa 08 nż
+1855	1	209209	08:18:00	08:18:00		Sikorskiego MPGK 20
+1855	1	209209	08:19:00	08:19:00		Sikorskiego granica 15 nż
+1855	1	209209	08:20:00	08:20:00		Sikorskiego / Ruczajowa 13 nż
+1855	1	209209	08:21:00	08:21:00		Kard. K. Wojtyły / Sikorskiego 02 nż
+1855	1	209209	08:23:00	08:23:00		Kard. K. Wojtyły pętla 04 nż
+1855	1	209209	08:24:00	08:24:00		Kard. K. Wojtyły kościół 06 nż
+1855	1	209209	08:26:00	08:26:00		Miła dom kultury 05 nż
+1855	1	209209	08:27:00	08:27:00		Miła bloki 03 nż
+1855	1	209209	08:28:00	08:28:00		Miła / Strażacka 01 nż
+1855	1	209209	08:29:00	08:29:00		Strażacka / Sympatyczna 06 nż
+1855	1	209209	08:30:00	08:30:00		Strażacka / Sikorskiego 08 nż
+1855	1	209209	08:32:00	08:32:00		Sikorskiego / Robotnicza 05 nż
+1855	1	209209	08:33:00	08:33:00		Sikorskiego domki 03 nż
+1855	1	209209	08:35:00	08:35:00		Sikorskiego katedra 01 nż
+1855	1	209209	08:38:00	08:38:00		Powst. Warszawy / Rejtana 13
+1855	1	209209	08:39:00	08:39:00		Powst. Warszawy szkoła 11
+1855	1	209209	08:40:00	08:40:00		Powst. Warszawy dom studenta 09
+1855	1	209209	08:42:00	08:42:00		Powst. Warszawy stadion 05 nż
+1855	1	209209	08:43:00	08:43:00		Hetmańska stadion 07
+1855	1	209209	08:44:00	08:44:00		Hetmańska ZS. Mech. 05
+1855	1	209209	08:45:00	08:45:00		Hetmańska przychodnia 03
+1855	1	209209	08:46:00	08:46:00		Hetmańska podzamcze 01 nż
+1855	1	209209	08:50:00	08:50:00		Lisa-Kuli 02
+1855	1	209209	08:51:00	08:51:00		Cieplińskiego 01
+1855	1	209209	08:54:00	08:54:00		Marszałkowska 02
+1855	1	209209	08:55:00	08:55:00		Lubelska szpital 02
+1855	1	209209	08:57:00	08:57:00		Lubelska kościół 06 nż
+1855	1	209209	08:59:00	08:59:00		Staromiejska / Lubelska 02 nż
+1855	1	209209	09:00:00	09:00:00		Staromiejska dom kultury 04 nż
+1855	1	209209	09:01:00	09:01:00		Staromiejska szkoła 06 nż
+1855	1	209209	09:03:00	09:03:00		Warszawska / Borowa 08 nż
 
-1950	3	209948	09:32:00	09:32:00		Warszawska / Borowa 08 nż
-1950	3	209948	09:33:00	09:33:00		Warszawska / Bażantowa 10 nż
-1950	3	209948	09:35:00	09:35:00		Myśliwska / Św. Huberta 02 nż
-1950	3	209948	09:36:00	09:36:00		Myśliwska / Pogwizdowska 04 nż
-1950	3	209948	09:37:00	09:37:00		Myśliwska / Kameliowa 06 nż
-1950	3	209948	09:38:00	09:38:00		Rudna Wielka Myśliwska / Oliwkowa 33 nż
-1950	3	209948	09:39:00	09:39:00		Pogwizdowska granica 05 nż
-1950	3	209948	09:40:00	09:40:00		Pogwizdowska szkoła 03 nż
-1950	3	209948	09:41:00	09:41:00		Pogwizdowska OSP 01 nż
-1950	3	209948	09:43:00	09:43:00		Myśliwska / Pogwizdowska 03 nż
-1950	3	209948	09:44:00	09:44:00		Myśliwska / Św. Huberta 01 nż
-1950	3	209948	09:45:00	09:45:00		Warszawska / Myśliwska 09 nż
-1950	3	209948	09:47:00	09:47:00		Warszawska / Borowa 07 nż
-1950	3	209948	09:50:00	09:50:00		Staromiejska szkoła 05 nż
-1950	3	209948	09:51:00	09:51:00		Staromiejska dom kultury 03 nż
-1950	3	209948	09:52:00	09:52:00		Staromiejska / Lubelska 01 nż
-1950	3	209948	09:53:00	09:53:00		Lubelska kościół 05 nż
-1950	3	209948	09:54:00	09:54:00		Lubelska szpital 01
-1950	3	209948	09:56:00	09:56:00		Marszałkowska 01
-1950	3	209948	10:00:00	10:00:00		Cieplińskiego 02
-1950	3	209948	10:01:00	10:01:00		Lisa-Kuli 01
-1950	3	209948	10:04:00	10:04:00		Hetmańska podzamcze 02 nż
-1950	3	209948	10:05:00	10:05:00		Hetmańska przychodnia 04
-1950	3	209948	10:06:00	10:06:00		Hetmańska ZS. Mech. 06
-1950	3	209948	10:09:00	10:09:00		Powst. Warszawy stadion 06
-1950	3	209948	10:11:00	10:11:00		Powst. Warszawy dom studenta 08
-1950	3	209948	10:12:00	10:12:00		Powst. Warszawy / Graniczna 10
-1950	3	209948	10:13:00	10:13:00		Powst. Warszawy / Sikorskiego 12 nż
-1950	3	209948	10:14:00	10:14:00		Sikorskiego katedra 04 nż
-1950	3	209948	10:15:00	10:15:00		Sikorskiego / Łukasiewicza 06 nż
-1950	3	209948	10:16:00	10:16:00		Sikorskiego domki 08 nż
-1950	3	209948	10:18:00	10:18:00		Strażacka / Sikorskiego 07 nż
-1950	3	209948	10:19:00	10:19:00		Strażacka / Sympatyczna 05 nż
-1950	3	209948	10:20:00	10:20:00		Miła / Strażacka 02 nż
-1950	3	209948	10:21:00	10:21:00		Miła bloki 04 nż
-1950	3	209948	10:22:00	10:22:00		Miła szkoła 06 nż
-1950	3	209948	10:23:00	10:23:00		Kard. K. Wojtyły kościół 05 nż
-1950	3	209948	10:25:00	10:25:00		Kard. K. Wojtyły pętla 03 nż
-1950	3	209948	10:26:00	10:26:00		Kard. K .Wojtyły / Sikorskiego 01 nż
-1950	3	209948	10:27:00	10:27:00		Sikorskiego / Kard. K. Wojtyły 16 nż
-1950	3	209948	10:28:00	10:28:00		Sikorskiego granica 18 nż
-1950	3	209948	10:30:00	10:30:00		Sikorskiego MPGK 20
+1950	1	209948	09:32:00	09:32:00		Warszawska / Borowa 08 nż
+1950	1	209948	09:33:00	09:33:00		Warszawska / Bażantowa 10 nż
+1950	1	209948	09:35:00	09:35:00		Myśliwska / Św. Huberta 02 nż
+1950	1	209948	09:36:00	09:36:00		Myśliwska / Pogwizdowska 04 nż
+1950	1	209948	09:37:00	09:37:00		Myśliwska / Kameliowa 06 nż
+1950	1	209948	09:38:00	09:38:00		Rudna Wielka Myśliwska / Oliwkowa 33 nż
+1950	1	209948	09:39:00	09:39:00		Pogwizdowska granica 05 nż
+1950	1	209948	09:40:00	09:40:00		Pogwizdowska szkoła 03 nż
+1950	1	209948	09:41:00	09:41:00		Pogwizdowska OSP 01 nż
+1950	1	209948	09:43:00	09:43:00		Myśliwska / Pogwizdowska 03 nż
+1950	1	209948	09:44:00	09:44:00		Myśliwska / Św. Huberta 01 nż
+1950	1	209948	09:45:00	09:45:00		Warszawska / Myśliwska 09 nż
+1950	1	209948	09:47:00	09:47:00		Warszawska / Borowa 07 nż
+1950	1	209948	09:50:00	09:50:00		Staromiejska szkoła 05 nż
+1950	1	209948	09:51:00	09:51:00		Staromiejska dom kultury 03 nż
+1950	1	209948	09:52:00	09:52:00		Staromiejska / Lubelska 01 nż
+1950	1	209948	09:53:00	09:53:00		Lubelska kościół 05 nż
+1950	1	209948	09:54:00	09:54:00		Lubelska szpital 01
+1950	1	209948	09:56:00	09:56:00		Marszałkowska 01
+1950	1	209948	10:00:00	10:00:00		Cieplińskiego 02
+1950	1	209948	10:01:00	10:01:00		Lisa-Kuli 01
+1950	1	209948	10:04:00	10:04:00		Hetmańska podzamcze 02 nż
+1950	1	209948	10:05:00	10:05:00		Hetmańska przychodnia 04
+1950	1	209948	10:06:00	10:06:00		Hetmańska ZS. Mech. 06
+1950	1	209948	10:09:00	10:09:00		Powst. Warszawy stadion 06
+1950	1	209948	10:11:00	10:11:00		Powst. Warszawy dom studenta 08
+1950	1	209948	10:12:00	10:12:00		Powst. Warszawy / Graniczna 10
+1950	1	209948	10:13:00	10:13:00		Powst. Warszawy / Sikorskiego 12 nż
+1950	1	209948	10:14:00	10:14:00		Sikorskiego katedra 04 nż
+1950	1	209948	10:15:00	10:15:00		Sikorskiego / Łukasiewicza 06 nż
+1950	1	209948	10:16:00	10:16:00		Sikorskiego domki 08 nż
+1950	1	209948	10:18:00	10:18:00		Strażacka / Sikorskiego 07 nż
+1950	1	209948	10:19:00	10:19:00		Strażacka / Sympatyczna 05 nż
+1950	1	209948	10:20:00	10:20:00		Miła / Strażacka 02 nż
+1950	1	209948	10:21:00	10:21:00		Miła bloki 04 nż
+1950	1	209948	10:22:00	10:22:00		Miła szkoła 06 nż
+1950	1	209948	10:23:00	10:23:00		Kard. K. Wojtyły kościół 05 nż
+1950	1	209948	10:25:00	10:25:00		Kard. K. Wojtyły pętla 03 nż
+1950	1	209948	10:26:00	10:26:00		Kard. K .Wojtyły / Sikorskiego 01 nż
+1950	1	209948	10:27:00	10:27:00		Sikorskiego / Kard. K. Wojtyły 16 nż
+1950	1	209948	10:28:00	10:28:00		Sikorskiego granica 18 nż
+1950	1	209948	10:30:00	10:30:00		Sikorskiego MPGK 20
 
-1897	3	216118	10:43:00	10:43:00		Sikorskiego MPGK 20
-1897	3	216118	10:44:00	10:44:00		Sikorskiego granica 15 nż
-1897	3	216118	10:45:00	10:45:00		Sikorskiego / Ruczajowa 13 nż
-1897	3	216118	10:46:00	10:46:00		Kard. K. Wojtyły / Sikorskiego 02 nż
-1897	3	216118	10:48:00	10:48:00		Kard. K. Wojtyły pętla 04 nż
-1897	3	216118	10:49:00	10:49:00		Kard. K. Wojtyły kościół 06 nż
-1897	3	216118	10:51:00	10:51:00		Miła dom kultury 05 nż
-1897	3	216118	10:52:00	10:52:00		Miła bloki 03 nż
-1897	3	216118	10:53:00	10:53:00		Miła / Strażacka 01 nż
-1897	3	216118	10:54:00	10:54:00		Strażacka / Sympatyczna 06 nż
-1897	3	216118	10:55:00	10:55:00		Strażacka / Sikorskiego 08 nż
-1897	3	216118	10:57:00	10:57:00		Sikorskiego / Robotnicza 05 nż
-1897	3	216118	10:58:00	10:58:00		Sikorskiego domki 03 nż
-1897	3	216118	11:00:00	11:00:00		Sikorskiego katedra 01 nż
-1897	3	216118	11:03:00	11:03:00		Powst. Warszawy / Rejtana 13
-1897	3	216118	11:04:00	11:04:00		Powst. Warszawy szkoła 11
-1897	3	216118	11:05:00	11:05:00		Powst. Warszawy dom studenta 09
-1897	3	216118	11:07:00	11:07:00		Powst. Warszawy stadion 05 nż
-1897	3	216118	11:08:00	11:08:00		Hetmańska stadion 07
-1897	3	216118	11:09:00	11:09:00		Hetmańska ZS. Mech. 05
-1897	3	216118	11:10:00	11:10:00		Hetmańska przychodnia 03
-1897	3	216118	11:11:00	11:11:00		Hetmańska podzamcze 01 nż
-1897	3	216118	11:15:00	11:15:00		Lisa-Kuli 02
-1897	3	216118	11:16:00	11:16:00		Cieplińskiego 01
-1897	3	216118	11:19:00	11:19:00		Marszałkowska 02
-1897	3	216118	11:20:00	11:20:00		Lubelska szpital 02
-1897	3	216118	11:22:00	11:22:00		Lubelska kościół 06 nż
-1897	3	216118	11:24:00	11:24:00		Staromiejska / Lubelska 02 nż
-1897	3	216118	11:25:00	11:25:00		Staromiejska dom kultury 04 nż
-1897	3	216118	11:26:00	11:26:00		Staromiejska szkoła 06 nż
-1897	3	216118	11:28:00	11:28:00		Warszawska / Borowa 08 nż
-1897	3	216118	11:29:00	11:29:00		Warszawska / Bażantowa 10 nż
-1897	3	216118	11:32:00	11:32:00		Myśliwska / Św. Huberta 02 nż
-1897	3	216118	11:33:00	11:33:00		Myśliwska / Pogwizdowska 04 nż
-1897	3	216118	11:34:00	11:34:00		Pogwizdowska OSP 02 nż
-1897	3	216118	11:35:00	11:35:00		Pogwizdowska szkoła 04 nż
-1897	3	216118	11:36:00	11:36:00		Pogwizdowska granica 06 nż
-1897	3	216118	11:37:00	11:37:00		Rudna Wielka Pehamet 31 nż
-1897	3	216118	11:38:00	11:38:00		Rudna Wielka kościół 29 nż
-1897	3	216118	11:39:00	11:39:00		Rudna Wielka dom ludowy 27 nż
-1897	3	216118	11:40:00	11:40:00		Rudna Wielka dom strażaka 25 nż
-1897	3	216118	11:41:00	11:41:00		Rudna Wielka zakręt 04 nż
+1897	1	216118	10:43:00	10:43:00		Sikorskiego MPGK 20
+1897	1	216118	10:44:00	10:44:00		Sikorskiego granica 15 nż
+1897	1	216118	10:45:00	10:45:00		Sikorskiego / Ruczajowa 13 nż
+1897	1	216118	10:46:00	10:46:00		Kard. K. Wojtyły / Sikorskiego 02 nż
+1897	1	216118	10:48:00	10:48:00		Kard. K. Wojtyły pętla 04 nż
+1897	1	216118	10:49:00	10:49:00		Kard. K. Wojtyły kościół 06 nż
+1897	1	216118	10:51:00	10:51:00		Miła dom kultury 05 nż
+1897	1	216118	10:52:00	10:52:00		Miła bloki 03 nż
+1897	1	216118	10:53:00	10:53:00		Miła / Strażacka 01 nż
+1897	1	216118	10:54:00	10:54:00		Strażacka / Sympatyczna 06 nż
+1897	1	216118	10:55:00	10:55:00		Strażacka / Sikorskiego 08 nż
+1897	1	216118	10:57:00	10:57:00		Sikorskiego / Robotnicza 05 nż
+1897	1	216118	10:58:00	10:58:00		Sikorskiego domki 03 nż
+1897	1	216118	11:00:00	11:00:00		Sikorskiego katedra 01 nż
+1897	1	216118	11:03:00	11:03:00		Powst. Warszawy / Rejtana 13
+1897	1	216118	11:04:00	11:04:00		Powst. Warszawy szkoła 11
+1897	1	216118	11:05:00	11:05:00		Powst. Warszawy dom studenta 09
+1897	1	216118	11:07:00	11:07:00		Powst. Warszawy stadion 05 nż
+1897	1	216118	11:08:00	11:08:00		Hetmańska stadion 07
+1897	1	216118	11:09:00	11:09:00		Hetmańska ZS. Mech. 05
+1897	1	216118	11:10:00	11:10:00		Hetmańska przychodnia 03
+1897	1	216118	11:11:00	11:11:00		Hetmańska podzamcze 01 nż
+1897	1	216118	11:15:00	11:15:00		Lisa-Kuli 02
+1897	1	216118	11:16:00	11:16:00		Cieplińskiego 01
+1897	1	216118	11:19:00	11:19:00		Marszałkowska 02
+1897	1	216118	11:20:00	11:20:00		Lubelska szpital 02
+1897	1	216118	11:22:00	11:22:00		Lubelska kościół 06 nż
+1897	1	216118	11:24:00	11:24:00		Staromiejska / Lubelska 02 nż
+1897	1	216118	11:25:00	11:25:00		Staromiejska dom kultury 04 nż
+1897	1	216118	11:26:00	11:26:00		Staromiejska szkoła 06 nż
+1897	1	216118	11:28:00	11:28:00		Warszawska / Borowa 08 nż
+1897	1	216118	11:29:00	11:29:00		Warszawska / Bażantowa 10 nż
+1897	1	216118	11:32:00	11:32:00		Myśliwska / Św. Huberta 02 nż
+1897	1	216118	11:33:00	11:33:00		Myśliwska / Pogwizdowska 04 nż
+1897	1	216118	11:34:00	11:34:00		Pogwizdowska OSP 02 nż
+1897	1	216118	11:35:00	11:35:00		Pogwizdowska szkoła 04 nż
+1897	1	216118	11:36:00	11:36:00		Pogwizdowska granica 06 nż
+1897	1	216118	11:37:00	11:37:00		Rudna Wielka Pehamet 31 nż
+1897	1	216118	11:38:00	11:38:00		Rudna Wielka kościół 29 nż
+1897	1	216118	11:39:00	11:39:00		Rudna Wielka dom ludowy 27 nż
+1897	1	216118	11:40:00	11:40:00		Rudna Wielka dom strażaka 25 nż
+1897	1	216118	11:41:00	11:41:00		Rudna Wielka zakręt 04 nż
 
-1917	3	213004	12:01:00	12:01:00		Rudna Wielka zakręt 04 nż
-1917	3	213004	12:03:00	12:03:00		Rudna Wielka I 02 nż
-1917	3	213004	12:05:00	12:05:00		Rudna Wielka kościół 30 nż
-1917	3	213004	12:06:00	12:06:00		Rudna Wielka Pehamet 32 nż
-1917	3	213004	12:07:00	12:07:00		Pogwizdowska granica 05 nż
-1917	3	213004	12:08:00	12:08:00		Pogwizdowska szkoła 03 nż
-1917	3	213004	12:09:00	12:09:00		Pogwizdowska OSP 01 nż
-1917	3	213004	12:11:00	12:11:00		Myśliwska / Pogwizdowska 03 nż
-1917	3	213004	12:12:00	12:12:00		Myśliwska / Św. Huberta 01 nż
-1917	3	213004	12:13:00	12:13:00		Warszawska / Myśliwska 09 nż
-1917	3	213004	12:15:00	12:15:00		Warszawska / Borowa 07 nż
-1917	3	213004	12:18:00	12:18:00		Staromiejska szkoła 05 nż
-1917	3	213004	12:19:00	12:19:00		Staromiejska dom kultury 03 nż
-1917	3	213004	12:20:00	12:20:00		Staromiejska / Lubelska 01 nż
-1917	3	213004	12:21:00	12:21:00		Lubelska kościół 05 nż
-1917	3	213004	12:23:00	12:23:00		Lubelska szpital 01
-1917	3	213004	12:26:00	12:26:00		Marszałkowska 01
-1917	3	213004	12:30:00	12:30:00		Cieplińskiego 02
-1917	3	213004	12:31:00	12:31:00		Lisa-Kuli 01
-1917	3	213004	12:35:00	12:35:00		Hetmańska podzamcze 02 nż
-1917	3	213004	12:36:00	12:36:00		Hetmańska przychodnia 04
-1917	3	213004	12:37:00	12:37:00		Hetmańska ZS. Mech. 06
-1917	3	213004	12:41:00	12:41:00		Powst. Warszawy stadion 06
-1917	3	213004	12:44:00	12:44:00		Powst. Warszawy dom studenta 08
-1917	3	213004	12:45:00	12:45:00		Powst. Warszawy / Graniczna 10
-1917	3	213004	12:46:00	12:46:00		Powst. Warszawy / Sikorskiego 12 nż
-1917	3	213004	12:48:00	12:48:00		Sikorskiego katedra 04 nż
-1917	3	213004	12:49:00	12:49:00		Sikorskiego / Łukasiewicza 06 nż
-1917	3	213004	12:50:00	12:50:00		Sikorskiego domki 08 nż
-1917	3	213004	12:52:00	12:52:00		Strażacka / Sikorskiego 07 nż
-1917	3	213004	12:53:00	12:53:00		Strażacka / Sympatyczna 05 nż
-1917	3	213004	12:54:00	12:54:00		Miła / Strażacka 02 nż
-1917	3	213004	12:55:00	12:55:00		Miła bloki 04 nż
-1917	3	213004	12:56:00	12:56:00		Miła szkoła 06 nż
-1917	3	213004	12:57:00	12:57:00		Kard. K. Wojtyły kościół 05 nż
-1917	3	213004	12:59:00	12:59:00		Kard. K. Wojtyły pętla 03 nż
-1917	3	213004	13:00:00	13:00:00		Kard. K .Wojtyły / Sikorskiego 01 nż
-1917	3	213004	13:01:00	13:01:00		Sikorskiego / Kard. K. Wojtyły 16 nż
-1917	3	213004	13:02:00	13:02:00		Sikorskiego granica 18 nż
-1917	3	213004	13:04:00	13:04:00		Sikorskiego MPGK 20
+1917	1	213004	12:01:00	12:01:00		Rudna Wielka zakręt 04 nż
+1917	1	213004	12:03:00	12:03:00		Rudna Wielka I 02 nż
+1917	1	213004	12:05:00	12:05:00		Rudna Wielka kościół 30 nż
+1917	1	213004	12:06:00	12:06:00		Rudna Wielka Pehamet 32 nż
+1917	1	213004	12:07:00	12:07:00		Pogwizdowska granica 05 nż
+1917	1	213004	12:08:00	12:08:00		Pogwizdowska szkoła 03 nż
+1917	1	213004	12:09:00	12:09:00		Pogwizdowska OSP 01 nż
+1917	1	213004	12:11:00	12:11:00		Myśliwska / Pogwizdowska 03 nż
+1917	1	213004	12:12:00	12:12:00		Myśliwska / Św. Huberta 01 nż
+1917	1	213004	12:13:00	12:13:00		Warszawska / Myśliwska 09 nż
+1917	1	213004	12:15:00	12:15:00		Warszawska / Borowa 07 nż
+1917	1	213004	12:18:00	12:18:00		Staromiejska szkoła 05 nż
+1917	1	213004	12:19:00	12:19:00		Staromiejska dom kultury 03 nż
+1917	1	213004	12:20:00	12:20:00		Staromiejska / Lubelska 01 nż
+1917	1	213004	12:21:00	12:21:00		Lubelska kościół 05 nż
+1917	1	213004	12:23:00	12:23:00		Lubelska szpital 01
+1917	1	213004	12:26:00	12:26:00		Marszałkowska 01
+1917	1	213004	12:30:00	12:30:00		Cieplińskiego 02
+1917	1	213004	12:31:00	12:31:00		Lisa-Kuli 01
+1917	1	213004	12:35:00	12:35:00		Hetmańska podzamcze 02 nż
+1917	1	213004	12:36:00	12:36:00		Hetmańska przychodnia 04
+1917	1	213004	12:37:00	12:37:00		Hetmańska ZS. Mech. 06
+1917	1	213004	12:41:00	12:41:00		Powst. Warszawy stadion 06
+1917	1	213004	12:44:00	12:44:00		Powst. Warszawy dom studenta 08
+1917	1	213004	12:45:00	12:45:00		Powst. Warszawy / Graniczna 10
+1917	1	213004	12:46:00	12:46:00		Powst. Warszawy / Sikorskiego 12 nż
+1917	1	213004	12:48:00	12:48:00		Sikorskiego katedra 04 nż
+1917	1	213004	12:49:00	12:49:00		Sikorskiego / Łukasiewicza 06 nż
+1917	1	213004	12:50:00	12:50:00		Sikorskiego domki 08 nż
+1917	1	213004	12:52:00	12:52:00		Strażacka / Sikorskiego 07 nż
+1917	1	213004	12:53:00	12:53:00		Strażacka / Sympatyczna 05 nż
+1917	1	213004	12:54:00	12:54:00		Miła / Strażacka 02 nż
+1917	1	213004	12:55:00	12:55:00		Miła bloki 04 nż
+1917	1	213004	12:56:00	12:56:00		Miła szkoła 06 nż
+1917	1	213004	12:57:00	12:57:00		Kard. K. Wojtyły kościół 05 nż
+1917	1	213004	12:59:00	12:59:00		Kard. K. Wojtyły pętla 03 nż
+1917	1	213004	13:00:00	13:00:00		Kard. K .Wojtyły / Sikorskiego 01 nż
+1917	1	213004	13:01:00	13:01:00		Sikorskiego / Kard. K. Wojtyły 16 nż
+1917	1	213004	13:02:00	13:02:00		Sikorskiego granica 18 nż
+1917	1	213004	13:04:00	13:04:00		Sikorskiego MPGK 20
 
-1878	3	211232	13:13:00	13:13:00		Sikorskiego MPGK 20
-1878	3	211232	13:14:00	13:14:00		Sikorskiego granica 15 nż
-1878	3	211232	13:15:00	13:15:00		Sikorskiego / Ruczajowa 13 nż
-1878	3	211232	13:16:00	13:16:00		Kard. K. Wojtyły / Sikorskiego 02 nż
-1878	3	211232	13:18:00	13:18:00		Kard. K. Wojtyły pętla 04 nż
-1878	3	211232	13:19:00	13:19:00		Kard. K. Wojtyły kościół 06 nż
-1878	3	211232	13:21:00	13:21:00		Miła dom kultury 05 nż
-1878	3	211232	13:22:00	13:22:00		Miła bloki 03 nż
-1878	3	211232	13:23:00	13:23:00		Miła / Strażacka 01 nż
-1878	3	211232	13:24:00	13:24:00		Strażacka / Sympatyczna 06 nż
-1878	3	211232	13:25:00	13:25:00		Strażacka / Sikorskiego 08 nż
-1878	3	211232	13:27:00	13:27:00		Sikorskiego / Robotnicza 05 nż
-1878	3	211232	13:28:00	13:28:00		Sikorskiego domki 03 nż
-1878	3	211232	13:30:00	13:30:00		Sikorskiego katedra 01 nż
-1878	3	211232	13:33:00	13:33:00		Powst. Warszawy / Rejtana 13
-1878	3	211232	13:34:00	13:34:00		Powst. Warszawy szkoła 11
-1878	3	211232	13:35:00	13:35:00		Powst. Warszawy dom studenta 09
-1878	3	211232	13:37:00	13:37:00		Powst. Warszawy stadion 05 nż
-1878	3	211232	13:38:00	13:38:00		Hetmańska stadion 07
-1878	3	211232	13:39:00	13:39:00		Hetmańska ZS. Mech. 05
-1878	3	211232	13:40:00	13:40:00		Hetmańska przychodnia 03
-1878	3	211232	13:41:00	13:41:00		Hetmańska podzamcze 01 nż
-1878	3	211232	13:45:00	13:45:00		Lisa-Kuli 02
-1878	3	211232	13:46:00	13:46:00		Cieplińskiego 01
-1878	3	211232	13:49:00	13:49:00		Marszałkowska 02
-1878	3	211232	13:50:00	13:50:00		Lubelska szpital 02
-1878	3	211232	13:52:00	13:52:00		Lubelska kościół 06 nż
-1878	3	211232	13:54:00	13:54:00		Staromiejska / Lubelska 02 nż
-1878	3	211232	13:55:00	13:55:00		Staromiejska dom kultury 04 nż
-1878	3	211232	13:56:00	13:56:00		Staromiejska szkoła 06 nż
-1878	3	211232	13:58:00	13:58:00		Warszawska / Borowa 08 nż
-1878	3	211232	13:59:00	13:59:00		Warszawska / Bażantowa 10 nż
-1878	3	211232	14:02:00	14:02:00		Myśliwska / Św. Huberta 02 nż
-1878	3	211232	14:03:00	14:03:00		Myśliwska / Pogwizdowska 04 nż
-1878	3	211232	14:04:00	14:04:00		Myśliwska / Kameliowa 06 nż
-1878	3	211232	14:05:00	14:05:00		Rudna Wielka Myśliwska / Oliwkowa 33 nż
-1878	3	211232	14:06:00	14:06:00		Pogwizdowska granica 05 nż
-1878	3	211232	14:07:00	14:07:00		Pogwizdowska szkoła 03 nż
-1878	3	211232	14:08:00	14:08:00		Pogwizdowska OSP 01 nż
-1878	3	211232	14:10:00	14:10:00		Myśliwska / Pogwizdowska 03 nż
-1878	3	211232	14:11:00	14:11:00		Myśliwska / Św. Huberta 01 nż
-1878	3	211232	14:12:00	14:12:00		Warszawska / Myśliwska 09 nż
-1878	3	211232	14:14:00	14:14:00		Warszawska / Borowa 07 nż
+1878	1	211232	13:13:00	13:13:00		Sikorskiego MPGK 20
+1878	1	211232	13:14:00	13:14:00		Sikorskiego granica 15 nż
+1878	1	211232	13:15:00	13:15:00		Sikorskiego / Ruczajowa 13 nż
+1878	1	211232	13:16:00	13:16:00		Kard. K. Wojtyły / Sikorskiego 02 nż
+1878	1	211232	13:18:00	13:18:00		Kard. K. Wojtyły pętla 04 nż
+1878	1	211232	13:19:00	13:19:00		Kard. K. Wojtyły kościół 06 nż
+1878	1	211232	13:21:00	13:21:00		Miła dom kultury 05 nż
+1878	1	211232	13:22:00	13:22:00		Miła bloki 03 nż
+1878	1	211232	13:23:00	13:23:00		Miła / Strażacka 01 nż
+1878	1	211232	13:24:00	13:24:00		Strażacka / Sympatyczna 06 nż
+1878	1	211232	13:25:00	13:25:00		Strażacka / Sikorskiego 08 nż
+1878	1	211232	13:27:00	13:27:00		Sikorskiego / Robotnicza 05 nż
+1878	1	211232	13:28:00	13:28:00		Sikorskiego domki 03 nż
+1878	1	211232	13:30:00	13:30:00		Sikorskiego katedra 01 nż
+1878	1	211232	13:33:00	13:33:00		Powst. Warszawy / Rejtana 13
+1878	1	211232	13:34:00	13:34:00		Powst. Warszawy szkoła 11
+1878	1	211232	13:35:00	13:35:00		Powst. Warszawy dom studenta 09
+1878	1	211232	13:37:00	13:37:00		Powst. Warszawy stadion 05 nż
+1878	1	211232	13:38:00	13:38:00		Hetmańska stadion 07
+1878	1	211232	13:39:00	13:39:00		Hetmańska ZS. Mech. 05
+1878	1	211232	13:40:00	13:40:00		Hetmańska przychodnia 03
+1878	1	211232	13:41:00	13:41:00		Hetmańska podzamcze 01 nż
+1878	1	211232	13:45:00	13:45:00		Lisa-Kuli 02
+1878	1	211232	13:46:00	13:46:00		Cieplińskiego 01
+1878	1	211232	13:49:00	13:49:00		Marszałkowska 02
+1878	1	211232	13:50:00	13:50:00		Lubelska szpital 02
+1878	1	211232	13:52:00	13:52:00		Lubelska kościół 06 nż
+1878	1	211232	13:54:00	13:54:00		Staromiejska / Lubelska 02 nż
+1878	1	211232	13:55:00	13:55:00		Staromiejska dom kultury 04 nż
+1878	1	211232	13:56:00	13:56:00		Staromiejska szkoła 06 nż
+1878	1	211232	13:58:00	13:58:00		Warszawska / Borowa 08 nż
+1878	1	211232	13:59:00	13:59:00		Warszawska / Bażantowa 10 nż
+1878	1	211232	14:02:00	14:02:00		Myśliwska / Św. Huberta 02 nż
+1878	1	211232	14:03:00	14:03:00		Myśliwska / Pogwizdowska 04 nż
+1878	1	211232	14:04:00	14:04:00		Myśliwska / Kameliowa 06 nż
+1878	1	211232	14:05:00	14:05:00		Rudna Wielka Myśliwska / Oliwkowa 33 nż
+1878	1	211232	14:06:00	14:06:00		Pogwizdowska granica 05 nż
+1878	1	211232	14:07:00	14:07:00		Pogwizdowska szkoła 03 nż
+1878	1	211232	14:08:00	14:08:00		Pogwizdowska OSP 01 nż
+1878	1	211232	14:10:00	14:10:00		Myśliwska / Pogwizdowska 03 nż
+1878	1	211232	14:11:00	14:11:00		Myśliwska / Św. Huberta 01 nż
+1878	1	211232	14:12:00	14:12:00		Warszawska / Myśliwska 09 nż
+1878	1	211232	14:14:00	14:14:00		Warszawska / Borowa 07 nż
 
-1964	3	209930	14:44:00	14:44:00		Warszawska / Borowa 07 nż
-1964	3	209930	14:47:00	14:47:00		Staromiejska szkoła 05 nż
-1964	3	209930	14:48:00	14:48:00		Staromiejska dom kultury 03 nż
-1964	3	209930	14:49:00	14:49:00		Staromiejska / Lubelska 01 nż
-1964	3	209930	14:50:00	14:50:00		Lubelska kościół 05 nż
-1964	3	209930	14:52:00	14:52:00		Lubelska szpital 01
-1964	3	209930	14:55:00	14:55:00		Marszałkowska 01
-1964	3	209930	14:59:00	14:59:00		Cieplińskiego 02
-1964	3	209930	15:00:00	15:00:00		Lisa-Kuli 01
-1964	3	209930	15:05:00	15:05:00		Hetmańska podzamcze 02 nż
-1964	3	209930	15:06:00	15:06:00		Hetmańska przychodnia 04
-1964	3	209930	15:07:00	15:07:00		Hetmańska ZS. Mech. 06
-1964	3	209930	15:16:00	15:16:00		Powst. Warszawy stadion 06
-1964	3	209930	15:20:00	15:20:00		Powst. Warszawy dom studenta 08
-1964	3	209930	15:21:00	15:21:00		Powst. Warszawy / Graniczna 10
-1964	3	209930	15:22:00	15:22:00		Powst. Warszawy / Sikorskiego 12 nż
-1964	3	209930	15:24:00	15:24:00		Sikorskiego katedra 04 nż
-1964	3	209930	15:25:00	15:25:00		Sikorskiego / Łukasiewicza 06 nż
-1964	3	209930	15:26:00	15:26:00		Sikorskiego domki 08 nż
-1964	3	209930	15:28:00	15:28:00		Strażacka / Sikorskiego 07 nż
-1964	3	209930	15:29:00	15:29:00		Strażacka / Sympatyczna 05 nż
-1964	3	209930	15:30:00	15:30:00		Miła / Strażacka 02 nż
-1964	3	209930	15:31:00	15:31:00		Miła bloki 04 nż
-1964	3	209930	15:32:00	15:32:00		Miła szkoła 06 nż
-1964	3	209930	15:33:00	15:33:00		Kard. K. Wojtyły kościół 05 nż
-1964	3	209930	15:35:00	15:35:00		Kard. K. Wojtyły pętla 03 nż
-1964	3	209930	15:36:00	15:36:00		Kard. K .Wojtyły / Sikorskiego 01 nż
-1964	3	209930	15:37:00	15:37:00		Sikorskiego / Kard. K. Wojtyły 16 nż
-1964	3	209930	15:38:00	15:38:00		Sikorskiego granica 18 nż
-1964	3	209930	15:40:00	15:40:00		Sikorskiego MPGK 20
+1964	1	209930	14:44:00	14:44:00		Warszawska / Borowa 07 nż
+1964	1	209930	14:47:00	14:47:00		Staromiejska szkoła 05 nż
+1964	1	209930	14:48:00	14:48:00		Staromiejska dom kultury 03 nż
+1964	1	209930	14:49:00	14:49:00		Staromiejska / Lubelska 01 nż
+1964	1	209930	14:50:00	14:50:00		Lubelska kościół 05 nż
+1964	1	209930	14:52:00	14:52:00		Lubelska szpital 01
+1964	1	209930	14:55:00	14:55:00		Marszałkowska 01
+1964	1	209930	14:59:00	14:59:00		Cieplińskiego 02
+1964	1	209930	15:00:00	15:00:00		Lisa-Kuli 01
+1964	1	209930	15:05:00	15:05:00		Hetmańska podzamcze 02 nż
+1964	1	209930	15:06:00	15:06:00		Hetmańska przychodnia 04
+1964	1	209930	15:07:00	15:07:00		Hetmańska ZS. Mech. 06
+1964	1	209930	15:16:00	15:16:00		Powst. Warszawy stadion 06
+1964	1	209930	15:20:00	15:20:00		Powst. Warszawy dom studenta 08
+1964	1	209930	15:21:00	15:21:00		Powst. Warszawy / Graniczna 10
+1964	1	209930	15:22:00	15:22:00		Powst. Warszawy / Sikorskiego 12 nż
+1964	1	209930	15:24:00	15:24:00		Sikorskiego katedra 04 nż
+1964	1	209930	15:25:00	15:25:00		Sikorskiego / Łukasiewicza 06 nż
+1964	1	209930	15:26:00	15:26:00		Sikorskiego domki 08 nż
+1964	1	209930	15:28:00	15:28:00		Strażacka / Sikorskiego 07 nż
+1964	1	209930	15:29:00	15:29:00		Strażacka / Sympatyczna 05 nż
+1964	1	209930	15:30:00	15:30:00		Miła / Strażacka 02 nż
+1964	1	209930	15:31:00	15:31:00		Miła bloki 04 nż
+1964	1	209930	15:32:00	15:32:00		Miła szkoła 06 nż
+1964	1	209930	15:33:00	15:33:00		Kard. K. Wojtyły kościół 05 nż
+1964	1	209930	15:35:00	15:35:00		Kard. K. Wojtyły pętla 03 nż
+1964	1	209930	15:36:00	15:36:00		Kard. K .Wojtyły / Sikorskiego 01 nż
+1964	1	209930	15:37:00	15:37:00		Sikorskiego / Kard. K. Wojtyły 16 nż
+1964	1	209930	15:38:00	15:38:00		Sikorskiego granica 18 nż
+1964	1	209930	15:40:00	15:40:00		Sikorskiego MPGK 20
 
-1897	3	211955	16:11:00	16:11:00		Sikorskiego MPGK 20
-1897	3	211955	16:12:00	16:12:00		Sikorskiego granica 15 nż
-1897	3	211955	16:13:00	16:13:00		Sikorskiego / Ruczajowa 13 nż
-1897	3	211955	16:14:00	16:14:00		Kard. K. Wojtyły / Sikorskiego 02 nż
-1897	3	211955	16:16:00	16:16:00		Kard. K. Wojtyły pętla 04 nż
-1897	3	211955	16:17:00	16:17:00		Kard. K. Wojtyły kościół 06 nż
-1897	3	211955	16:19:00	16:19:00		Miła dom kultury 05 nż
-1897	3	211955	16:20:00	16:20:00		Miła bloki 03 nż
-1897	3	211955	16:21:00	16:21:00		Miła / Strażacka 01 nż
-1897	3	211955	16:22:00	16:22:00		Strażacka / Sympatyczna 06 nż
-1897	3	211955	16:23:00	16:23:00		Strażacka / Sikorskiego 08 nż
-1897	3	211955	16:25:00	16:25:00		Sikorskiego / Robotnicza 05 nż
-1897	3	211955	16:26:00	16:26:00		Sikorskiego domki 03 nż
-1897	3	211955	16:28:00	16:28:00		Sikorskiego katedra 01 nż
-1897	3	211955	16:32:00	16:32:00		Powst. Warszawy / Rejtana 13
-1897	3	211955	16:33:00	16:33:00		Powst. Warszawy szkoła 11
-1897	3	211955	16:34:00	16:34:00		Powst. Warszawy dom studenta 09
-1897	3	211955	16:37:00	16:37:00		Powst. Warszawy stadion 05 nż
-1897	3	211955	16:38:00	16:38:00		Hetmańska stadion 07
-1897	3	211955	16:39:00	16:39:00		Hetmańska ZS. Mech. 05
-1897	3	211955	16:40:00	16:40:00		Hetmańska przychodnia 03
-1897	3	211955	16:41:00	16:41:00		Hetmańska podzamcze 01 nż
-1897	3	211955	16:45:00	16:45:00		Lisa-Kuli 02
-1897	3	211955	16:46:00	16:46:00		Cieplińskiego 01
-1897	3	211955	16:49:00	16:49:00		Marszałkowska 02
-1897	3	211955	16:50:00	16:50:00		Lubelska szpital 02
-1897	3	211955	16:52:00	16:52:00		Lubelska kościół 06 nż
-1897	3	211955	16:54:00	16:54:00		Staromiejska / Lubelska 02 nż
-1897	3	211955	16:55:00	16:55:00		Staromiejska dom kultury 04 nż
-1897	3	211955	16:56:00	16:56:00		Staromiejska szkoła 06 nż
-1897	3	211955	16:58:00	16:58:00		Warszawska / Borowa 08 nż
-1897	3	211955	16:59:00	16:59:00		Warszawska / Bażantowa 10 nż
-1897	3	211955	17:01:00	17:01:00		Myśliwska / Św. Huberta 02 nż
-1897	3	211955	17:02:00	17:02:00		Myśliwska / Pogwizdowska 04 nż
-1897	3	211955	17:03:00	17:03:00		Pogwizdowska OSP 02 nż
-1897	3	211955	17:04:00	17:04:00		Pogwizdowska szkoła 04 nż
-1897	3	211955	17:05:00	17:05:00		Pogwizdowska granica 06 nż
-1897	3	211955	17:06:00	17:06:00		Rudna Wielka Pehamet 31 nż
-1897	3	211955	17:07:00	17:07:00		Rudna Wielka kościół 29 nż
-1897	3	211955	17:08:00	17:08:00		Rudna Wielka dom ludowy 27 nż
-1897	3	211955	17:09:00	17:09:00		Rudna Wielka dom strażaka 25 nż
-1897	3	211955	17:10:00	17:10:00		Rudna Wielka zakręt 04 nż
+1897	1	211955	16:11:00	16:11:00		Sikorskiego MPGK 20
+1897	1	211955	16:12:00	16:12:00		Sikorskiego granica 15 nż
+1897	1	211955	16:13:00	16:13:00		Sikorskiego / Ruczajowa 13 nż
+1897	1	211955	16:14:00	16:14:00		Kard. K. Wojtyły / Sikorskiego 02 nż
+1897	1	211955	16:16:00	16:16:00		Kard. K. Wojtyły pętla 04 nż
+1897	1	211955	16:17:00	16:17:00		Kard. K. Wojtyły kościół 06 nż
+1897	1	211955	16:19:00	16:19:00		Miła dom kultury 05 nż
+1897	1	211955	16:20:00	16:20:00		Miła bloki 03 nż
+1897	1	211955	16:21:00	16:21:00		Miła / Strażacka 01 nż
+1897	1	211955	16:22:00	16:22:00		Strażacka / Sympatyczna 06 nż
+1897	1	211955	16:23:00	16:23:00		Strażacka / Sikorskiego 08 nż
+1897	1	211955	16:25:00	16:25:00		Sikorskiego / Robotnicza 05 nż
+1897	1	211955	16:26:00	16:26:00		Sikorskiego domki 03 nż
+1897	1	211955	16:28:00	16:28:00		Sikorskiego katedra 01 nż
+1897	1	211955	16:32:00	16:32:00		Powst. Warszawy / Rejtana 13
+1897	1	211955	16:33:00	16:33:00		Powst. Warszawy szkoła 11
+1897	1	211955	16:34:00	16:34:00		Powst. Warszawy dom studenta 09
+1897	1	211955	16:37:00	16:37:00		Powst. Warszawy stadion 05 nż
+1897	1	211955	16:38:00	16:38:00		Hetmańska stadion 07
+1897	1	211955	16:39:00	16:39:00		Hetmańska ZS. Mech. 05
+1897	1	211955	16:40:00	16:40:00		Hetmańska przychodnia 03
+1897	1	211955	16:41:00	16:41:00		Hetmańska podzamcze 01 nż
+1897	1	211955	16:45:00	16:45:00		Lisa-Kuli 02
+1897	1	211955	16:46:00	16:46:00		Cieplińskiego 01
+1897	1	211955	16:49:00	16:49:00		Marszałkowska 02
+1897	1	211955	16:50:00	16:50:00		Lubelska szpital 02
+1897	1	211955	16:52:00	16:52:00		Lubelska kościół 06 nż
+1897	1	211955	16:54:00	16:54:00		Staromiejska / Lubelska 02 nż
+1897	1	211955	16:55:00	16:55:00		Staromiejska dom kultury 04 nż
+1897	1	211955	16:56:00	16:56:00		Staromiejska szkoła 06 nż
+1897	1	211955	16:58:00	16:58:00		Warszawska / Borowa 08 nż
+1897	1	211955	16:59:00	16:59:00		Warszawska / Bażantowa 10 nż
+1897	1	211955	17:01:00	17:01:00		Myśliwska / Św. Huberta 02 nż
+1897	1	211955	17:02:00	17:02:00		Myśliwska / Pogwizdowska 04 nż
+1897	1	211955	17:03:00	17:03:00		Pogwizdowska OSP 02 nż
+1897	1	211955	17:04:00	17:04:00		Pogwizdowska szkoła 04 nż
+1897	1	211955	17:05:00	17:05:00		Pogwizdowska granica 06 nż
+1897	1	211955	17:06:00	17:06:00		Rudna Wielka Pehamet 31 nż
+1897	1	211955	17:07:00	17:07:00		Rudna Wielka kościół 29 nż
+1897	1	211955	17:08:00	17:08:00		Rudna Wielka dom ludowy 27 nż
+1897	1	211955	17:09:00	17:09:00		Rudna Wielka dom strażaka 25 nż
+1897	1	211955	17:10:00	17:10:00		Rudna Wielka zakręt 04 nż
 
-1917	3	212315	17:33:00	17:33:00		Rudna Wielka zakręt 04 nż
-1917	3	212315	17:35:00	17:35:00		Rudna Wielka I 02 nż
-1917	3	212315	17:37:00	17:37:00		Rudna Wielka kościół 30 nż
-1917	3	212315	17:38:00	17:38:00		Rudna Wielka Pehamet 32 nż
-1917	3	212315	17:39:00	17:39:00		Pogwizdowska granica 05 nż
-1917	3	212315	17:40:00	17:40:00		Pogwizdowska szkoła 03 nż
-1917	3	212315	17:41:00	17:41:00		Pogwizdowska OSP 01 nż
-1917	3	212315	17:43:00	17:43:00		Myśliwska / Pogwizdowska 03 nż
-1917	3	212315	17:44:00	17:44:00		Myśliwska / Św. Huberta 01 nż
-1917	3	212315	17:45:00	17:45:00		Warszawska / Myśliwska 09 nż
-1917	3	212315	17:47:00	17:47:00		Warszawska / Borowa 07 nż
-1917	3	212315	17:50:00	17:50:00		Staromiejska szkoła 05 nż
-1917	3	212315	17:51:00	17:51:00		Staromiejska dom kultury 03 nż
-1917	3	212315	17:52:00	17:52:00		Staromiejska / Lubelska 01 nż
-1917	3	212315	17:53:00	17:53:00		Lubelska kościół 05 nż
-1917	3	212315	17:54:00	17:54:00		Lubelska szpital 01
-1917	3	212315	17:56:00	17:56:00		Marszałkowska 01
-1917	3	212315	18:00:00	18:00:00		Cieplińskiego 02
-1917	3	212315	18:01:00	18:01:00		Lisa-Kuli 01
-1917	3	212315	18:04:00	18:04:00		Hetmańska podzamcze 02 nż
-1917	3	212315	18:05:00	18:05:00		Hetmańska przychodnia 04
-1917	3	212315	18:06:00	18:06:00		Hetmańska ZS. Mech. 06
-1917	3	212315	18:10:00	18:10:00		Powst. Warszawy stadion 06
-1917	3	212315	18:12:00	18:12:00		Powst. Warszawy dom studenta 08
-1917	3	212315	18:13:00	18:13:00		Powst. Warszawy / Graniczna 10
-1917	3	212315	18:14:00	18:14:00		Powst. Warszawy / Sikorskiego 12 nż
-1917	3	212315	18:16:00	18:16:00		Sikorskiego katedra 04 nż
-1917	3	212315	18:17:00	18:17:00		Sikorskiego / Łukasiewicza 06 nż
-1917	3	212315	18:18:00	18:18:00		Sikorskiego domki 08 nż
-1917	3	212315	18:20:00	18:20:00		Strażacka / Sikorskiego 07 nż
-1917	3	212315	18:21:00	18:21:00		Strażacka / Sympatyczna 05 nż
-1917	3	212315	18:22:00	18:22:00		Miła / Strażacka 02 nż
-1917	3	212315	18:23:00	18:23:00		Miła bloki 04 nż
-1917	3	212315	18:24:00	18:24:00		Miła szkoła 06 nż
-1917	3	212315	18:25:00	18:25:00		Kard. K. Wojtyły kościół 05 nż
-1917	3	212315	18:27:00	18:27:00		Kard. K. Wojtyły pętla 03 nż
-1917	3	212315	18:28:00	18:28:00		Kard. K .Wojtyły / Sikorskiego 01 nż
-1917	3	212315	18:29:00	18:29:00		Sikorskiego / Kard. K. Wojtyły 16 nż
-1917	3	212315	18:30:00	18:30:00		Sikorskiego granica 18 nż
-1917	3	212315	18:32:00	18:32:00		Sikorskiego MPGK 20
+1917	1	212315	17:33:00	17:33:00		Rudna Wielka zakręt 04 nż
+1917	1	212315	17:35:00	17:35:00		Rudna Wielka I 02 nż
+1917	1	212315	17:37:00	17:37:00		Rudna Wielka kościół 30 nż
+1917	1	212315	17:38:00	17:38:00		Rudna Wielka Pehamet 32 nż
+1917	1	212315	17:39:00	17:39:00		Pogwizdowska granica 05 nż
+1917	1	212315	17:40:00	17:40:00		Pogwizdowska szkoła 03 nż
+1917	1	212315	17:41:00	17:41:00		Pogwizdowska OSP 01 nż
+1917	1	212315	17:43:00	17:43:00		Myśliwska / Pogwizdowska 03 nż
+1917	1	212315	17:44:00	17:44:00		Myśliwska / Św. Huberta 01 nż
+1917	1	212315	17:45:00	17:45:00		Warszawska / Myśliwska 09 nż
+1917	1	212315	17:47:00	17:47:00		Warszawska / Borowa 07 nż
+1917	1	212315	17:50:00	17:50:00		Staromiejska szkoła 05 nż
+1917	1	212315	17:51:00	17:51:00		Staromiejska dom kultury 03 nż
+1917	1	212315	17:52:00	17:52:00		Staromiejska / Lubelska 01 nż
+1917	1	212315	17:53:00	17:53:00		Lubelska kościół 05 nż
+1917	1	212315	17:54:00	17:54:00		Lubelska szpital 01
+1917	1	212315	17:56:00	17:56:00		Marszałkowska 01
+1917	1	212315	18:00:00	18:00:00		Cieplińskiego 02
+1917	1	212315	18:01:00	18:01:00		Lisa-Kuli 01
+1917	1	212315	18:04:00	18:04:00		Hetmańska podzamcze 02 nż
+1917	1	212315	18:05:00	18:05:00		Hetmańska przychodnia 04
+1917	1	212315	18:06:00	18:06:00		Hetmańska ZS. Mech. 06
+1917	1	212315	18:10:00	18:10:00		Powst. Warszawy stadion 06
+1917	1	212315	18:12:00	18:12:00		Powst. Warszawy dom studenta 08
+1917	1	212315	18:13:00	18:13:00		Powst. Warszawy / Graniczna 10
+1917	1	212315	18:14:00	18:14:00		Powst. Warszawy / Sikorskiego 12 nż
+1917	1	212315	18:16:00	18:16:00		Sikorskiego katedra 04 nż
+1917	1	212315	18:17:00	18:17:00		Sikorskiego / Łukasiewicza 06 nż
+1917	1	212315	18:18:00	18:18:00		Sikorskiego domki 08 nż
+1917	1	212315	18:20:00	18:20:00		Strażacka / Sikorskiego 07 nż
+1917	1	212315	18:21:00	18:21:00		Strażacka / Sympatyczna 05 nż
+1917	1	212315	18:22:00	18:22:00		Miła / Strażacka 02 nż
+1917	1	212315	18:23:00	18:23:00		Miła bloki 04 nż
+1917	1	212315	18:24:00	18:24:00		Miła szkoła 06 nż
+1917	1	212315	18:25:00	18:25:00		Kard. K. Wojtyły kościół 05 nż
+1917	1	212315	18:27:00	18:27:00		Kard. K. Wojtyły pętla 03 nż
+1917	1	212315	18:28:00	18:28:00		Kard. K .Wojtyły / Sikorskiego 01 nż
+1917	1	212315	18:29:00	18:29:00		Sikorskiego / Kard. K. Wojtyły 16 nż
+1917	1	212315	18:30:00	18:30:00		Sikorskiego granica 18 nż
+1917	1	212315	18:32:00	18:32:00		Sikorskiego MPGK 20
 
-1878	3	212480	19:00:00	19:00:00		Sikorskiego MPGK 20
-1878	3	212480	19:01:00	19:01:00		Sikorskiego granica 15 nż
-1878	3	212480	19:02:00	19:02:00		Sikorskiego / Ruczajowa 13 nż
-1878	3	212480	19:03:00	19:03:00		Kard. K. Wojtyły / Sikorskiego 02 nż
-1878	3	212480	19:04:00	19:04:00		Kard. K. Wojtyły pętla 04 nż
-1878	3	212480	19:05:00	19:05:00		Kard. K. Wojtyły kościół 06 nż
-1878	3	212480	19:06:00	19:06:00		Miła dom kultury 05 nż
-1878	3	212480	19:07:00	19:07:00		Miła bloki 03 nż
-1878	3	212480	19:08:00	19:08:00		Miła / Strażacka 01 nż
-1878	3	212480	19:09:00	19:09:00		Strażacka / Sympatyczna 06 nż
-1878	3	212480	19:10:00	19:10:00		Strażacka / Sikorskiego 08 nż
-1878	3	212480	19:12:00	19:12:00		Sikorskiego / Robotnicza 05 nż
-1878	3	212480	19:13:00	19:13:00		Sikorskiego domki 03 nż
-1878	3	212480	19:15:00	19:15:00		Sikorskiego katedra 01 nż
-1878	3	212480	19:17:00	19:17:00		Powst. Warszawy / Rejtana 13
-1878	3	212480	19:18:00	19:18:00		Powst. Warszawy szkoła 11
-1878	3	212480	19:19:00	19:19:00		Powst. Warszawy dom studenta 09
-1878	3	212480	19:20:00	19:20:00		Powst. Warszawy stadion 05 nż
-1878	3	212480	19:21:00	19:21:00		Hetmańska stadion 07
-1878	3	212480	19:22:00	19:22:00		Hetmańska ZS. Mech. 05
-1878	3	212480	19:23:00	19:23:00		Hetmańska przychodnia 03
-1878	3	212480	19:24:00	19:24:00		Hetmańska podzamcze 01 nż
-1878	3	212480	19:27:00	19:27:00		Lisa-Kuli 02
-1878	3	212480	19:28:00	19:28:00		Cieplińskiego 01
-1878	3	212480	19:30:00	19:30:00		Marszałkowska 02
-1878	3	212480	19:31:00	19:31:00		Lubelska szpital 02
-1878	3	212480	19:32:00	19:32:00		Lubelska kościół 06 nż
-1878	3	212480	19:33:00	19:33:00		Staromiejska / Lubelska 02 nż
-1878	3	212480	19:34:00	19:34:00		Staromiejska dom kultury 04 nż
-1878	3	212480	19:35:00	19:35:00		Staromiejska szkoła 06 nż
-1878	3	212480	19:37:00	19:37:00		Warszawska / Borowa 08 nż
-1878	3	212480	19:38:00	19:38:00		Warszawska / Bażantowa 10 nż
-1878	3	212480	19:40:00	19:40:00		Myśliwska / Św. Huberta 02 nż
-1878	3	212480	19:41:00	19:41:00		Myśliwska / Pogwizdowska 04 nż
-1878	3	212480	19:42:00	19:42:00		Myśliwska / Kameliowa 06 nż
-1878	3	212480	19:43:00	19:43:00		Rudna Wielka Myśliwska / Oliwkowa 33 nż
-1878	3	212480	19:44:00	19:44:00		Pogwizdowska granica 05 nż
-1878	3	212480	19:45:00	19:45:00		Pogwizdowska szkoła 03 nż
-1878	3	212480	19:46:00	19:46:00		Pogwizdowska OSP 01 nż
-1878	3	212480	19:48:00	19:48:00		Myśliwska / Pogwizdowska 03 nż
-1878	3	212480	19:49:00	19:49:00		Myśliwska / Św. Huberta 01 nż
-1878	3	212480	19:50:00	19:50:00		Warszawska / Myśliwska 09 nż
-1878	3	212480	19:51:00	19:51:00		Warszawska / Borowa 07 nż
+1878	1	212480	19:00:00	19:00:00		Sikorskiego MPGK 20
+1878	1	212480	19:01:00	19:01:00		Sikorskiego granica 15 nż
+1878	1	212480	19:02:00	19:02:00		Sikorskiego / Ruczajowa 13 nż
+1878	1	212480	19:03:00	19:03:00		Kard. K. Wojtyły / Sikorskiego 02 nż
+1878	1	212480	19:04:00	19:04:00		Kard. K. Wojtyły pętla 04 nż
+1878	1	212480	19:05:00	19:05:00		Kard. K. Wojtyły kościół 06 nż
+1878	1	212480	19:06:00	19:06:00		Miła dom kultury 05 nż
+1878	1	212480	19:07:00	19:07:00		Miła bloki 03 nż
+1878	1	212480	19:08:00	19:08:00		Miła / Strażacka 01 nż
+1878	1	212480	19:09:00	19:09:00		Strażacka / Sympatyczna 06 nż
+1878	1	212480	19:10:00	19:10:00		Strażacka / Sikorskiego 08 nż
+1878	1	212480	19:12:00	19:12:00		Sikorskiego / Robotnicza 05 nż
+1878	1	212480	19:13:00	19:13:00		Sikorskiego domki 03 nż
+1878	1	212480	19:15:00	19:15:00		Sikorskiego katedra 01 nż
+1878	1	212480	19:17:00	19:17:00		Powst. Warszawy / Rejtana 13
+1878	1	212480	19:18:00	19:18:00		Powst. Warszawy szkoła 11
+1878	1	212480	19:19:00	19:19:00		Powst. Warszawy dom studenta 09
+1878	1	212480	19:20:00	19:20:00		Powst. Warszawy stadion 05 nż
+1878	1	212480	19:21:00	19:21:00		Hetmańska stadion 07
+1878	1	212480	19:22:00	19:22:00		Hetmańska ZS. Mech. 05
+1878	1	212480	19:23:00	19:23:00		Hetmańska przychodnia 03
+1878	1	212480	19:24:00	19:24:00		Hetmańska podzamcze 01 nż
+1878	1	212480	19:27:00	19:27:00		Lisa-Kuli 02
+1878	1	212480	19:28:00	19:28:00		Cieplińskiego 01
+1878	1	212480	19:30:00	19:30:00		Marszałkowska 02
+1878	1	212480	19:31:00	19:31:00		Lubelska szpital 02
+1878	1	212480	19:32:00	19:32:00		Lubelska kościół 06 nż
+1878	1	212480	19:33:00	19:33:00		Staromiejska / Lubelska 02 nż
+1878	1	212480	19:34:00	19:34:00		Staromiejska dom kultury 04 nż
+1878	1	212480	19:35:00	19:35:00		Staromiejska szkoła 06 nż
+1878	1	212480	19:37:00	19:37:00		Warszawska / Borowa 08 nż
+1878	1	212480	19:38:00	19:38:00		Warszawska / Bażantowa 10 nż
+1878	1	212480	19:40:00	19:40:00		Myśliwska / Św. Huberta 02 nż
+1878	1	212480	19:41:00	19:41:00		Myśliwska / Pogwizdowska 04 nż
+1878	1	212480	19:42:00	19:42:00		Myśliwska / Kameliowa 06 nż
+1878	1	212480	19:43:00	19:43:00		Rudna Wielka Myśliwska / Oliwkowa 33 nż
+1878	1	212480	19:44:00	19:44:00		Pogwizdowska granica 05 nż
+1878	1	212480	19:45:00	19:45:00		Pogwizdowska szkoła 03 nż
+1878	1	212480	19:46:00	19:46:00		Pogwizdowska OSP 01 nż
+1878	1	212480	19:48:00	19:48:00		Myśliwska / Pogwizdowska 03 nż
+1878	1	212480	19:49:00	19:49:00		Myśliwska / Św. Huberta 01 nż
+1878	1	212480	19:50:00	19:50:00		Warszawska / Myśliwska 09 nż
+1878	1	212480	19:51:00	19:51:00		Warszawska / Borowa 07 nż
